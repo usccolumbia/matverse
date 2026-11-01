@@ -191,6 +191,36 @@ NIST monolayer materials subset with optB88-vdW and related calculated propertie
 
 **Tags:** NIST, DFT, snapshot, family-subset.
 
+<a id="2d-alloys"></a>
+## 2D-Alloy Database
+
+DFT structures and formation thermodynamics for transition-metal dichalcogenide alloy monolayers.
+
+**Size:** 400 alloy monolayers (source wording: 400 monolayer TMDC alloys).
+
+**Scope:** Provider-described 1T and 2H alloy collection
+
+**Release:** 2DHub provider documentation updated 2026-09-30. **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** atomic structures; formation enthalpy at 0 K; formation free energy at 1000 K; hydrogen binding energy for subset.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://2dhub.org/2dalloys/2dalloys.html) · [data](https://2dhub.org/_downloads/93db2a0b33028278cf5e22b17a3994f7/2dalloys.db) · [paper](https://doi.org/10.1021/jacs.4c13863)
+
+**Evidence:**
+
+- [2DHub: 2D-Alloy Database](https://2dhub.org/2dalloys/2dalloys.html) (checked 2026-11-01): Provider specifies 400 1T/2H TMDC alloys, atomic structures, PBE thermodynamics and downloadable ASE database.
+
+**Reuse and interpretation notes:**
+
+- A computational alloy cohort, not 400 experimentally synthesized monolayers.
+- Free download availability does not establish a verified redistribution licence.
+
+**Tags:** 2D, alloys, DFT, collection-blaiszik.
+
 <a id="hetdb"></a>
 ## van der Waals 2D Heterostructure Database (HetDB)
 

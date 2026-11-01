@@ -1,0 +1,14 @@
+{
+  "catalog_date": "2026-11-01",
+  "dataset_records": 145,
+  "resources": 32,
+  "sha256": {
+    "data/datasets.json": "338ba3ceee7ad2a9bbee9cdbf36d22597a783a23ac87de09bc113bd9b83331dc",
+    "data/resources.json": "d4109fa631170ee3a0b313051ffd7eb68bd4738df118d0317779993e7f89d4ee",
+    "web/index.template.html": "8e38a91894a947041deef7804d8c7b6d529ce574d7bb589c57bee7f17e09029a",
+    "web/styles.css": "2214049ab4cd20eb12a10bfc6c48e378d347942963531661355d548540440330",
+    "web/app.js": "ed701006dc1f49f6d8b49a9af66706aeb1d1ec6cea4dbefc3689f26e7e0f83fe"
+  },
+  "index_sha256": "a818f7106633f0ca2bd52b6e30d1252f0e486e65ed4193f3b64de646899bfb45",
+  "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
+}

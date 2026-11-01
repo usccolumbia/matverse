@@ -100,6 +100,40 @@ Fixed Matbench v0.1 structure-to-property prediction task dataset.
 
 **Tags:** Matbench, benchmark, structure-based, derived dataset.
 
+<a id="tqc-topological-materials-2022"></a>
+## Topological Quantum Chemistry all-band materials catalog
+
+DFT and symmetry-based catalog of stable and fragile electronic band topology in nonmagnetic stoichiometric ICSD entries.
+
+**Size:** 96,196 ICSD structure entries (source wording: 96,196 processable ICSD entries).
+
+**Scope:** Historical 2022 all-band topological classification cohort; the count is processable ICSD entries, not unique formulas or exclusively topological materials
+
+**Release:** Science 2022 / arXiv 2105.09954v2 publication cohort. **Year:** 2022.
+
+**Provenance:** computed. **Structure availability:** `structure_linked`.
+
+**Labels/content:** electronic band structure; symmetry representations; stable topology; fragile topology; Fermi-level topology.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://www.topologicalquantumchemistry.com/) · [data](https://www.topologicalquantumchemistry.fr/) · [paper](https://doi.org/10.1126/science.abg9094)
+
+**Evidence:**
+
+- [All Topological Bands of All Nonmagnetic Stoichiometric Materials](https://arxiv.org/abs/2105.09954) (checked 2026-11-01): Authors report a publicly accessible all-band topology catalog for 96,196 processable ICSD entries; the abstract provides official portal and mirror links.
+- [All Topological Bands, full author manuscript](https://arxiv.org/html/2105.09954v2) (checked 2026-11-01): Workflow filters ICSD entries for stoichiometry and valid atomic coordinates and calculates symmetry-indicated band topology by DFT.
+
+**Reuse and interpretation notes:**
+
+- This is an ICSD-derived property cohort and overlaps experimental crystal-structure databases.
+- The 96,196 entries include both topological and trivial classifications; they are not 96,196 topological discoveries.
+- Public classification access does not establish unrestricted redistribution rights to underlying ICSD coordinates.
+- Primary portal timed out during this audit; scope and count are verified from the authors’ paper, and current portal availability is not confirmed.
+- Nonmagnetic and stoichiometric scope omits disordered and magnetic materials.
+
+**Tags:** topological materials, electronic structure, TQC, ICSD derivative, historical cohort, collection:sedaoturak.
+
 <a id="lemat-rho"></a>
 ## LeMat-Rho
 
@@ -485,6 +519,39 @@ DFT electronic bands, DOS and Fermi-surface representations linked to experiment
 
 **Tags:** superconductivity, electronic, mixed provenance, Scientific Data.
 
+<a id="mastml-perovskite-education"></a>
+## MAST-ML perovskite stability educational slice
+
+Perovskite-oxide composition and crystallographic site identities paired with DFT stability/property labels and descriptors.
+
+**Size:** 1,929 perovskite composition/feature rows (source wording: 1,929).
+
+**Scope:** Educational Figshare v5 CSV, excluding header; independently parsed1929 rows.
+
+**Release:** Figshare7017254 v5, 2018-09-11. **Year:** 2018.
+
+**Provenance:** computed. **Structure availability:** `composition_only`.
+
+**Labels/content:** energy above hull; formation energy; A/B/X site identities; elemental descriptors.
+
+**Access:** open. **Dataset license:** MIT.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254) · [data](https://ndownloader.figshare.com/files/12978425) · [paper](https://doi.org/10.1016/j.commatsci.2018.04.033)
+
+**Evidence:**
+
+- [MAST-ML educational release metadata](https://api.figshare.com/v2/articles/7017254) (checked 2026-11-01): v5 declares MIT licensing and identifies the perovskite CSV as DFT stability data.
+- [Educational dataset README](https://ndownloader.figshare.com/files/13008500) (checked 2026-11-01): Defines energy-above-hull and formation-energy targets and site-based elemental descriptors.
+- [Official perovskite educational CSV](https://ndownloader.figshare.com/files/12978425) (checked 2026-11-01): Independent parse gives1929 non-header data rows; payload hash retained.
+
+**Reuse and interpretation notes:**
+
+- No complete periodic atomic coordinates are present.
+- Educational slice and source-study dataset may have different denominators; this is explicitly the packaged row count.
+- Computed convex-hull distance is a screening measure, not experimental proof of synthesis or finite-temperature stability.
+
+**Tags:** education, perovskite, DFT, composition-only.
+
 <a id="mp-dfpt-phonons-2018"></a>
 ## Materials Project / Petretto DFPT phonons (2018)
 
@@ -515,6 +582,38 @@ ABINIT PBEsol harmonic phonon dispersions and DOS, thermodynamic functions, Born
 - Parent of Matbench phonons; overlaps newer MP phonon collections.
 
 **Tags:** phonon, DFPT, MP derivative, Scientific Data.
+
+<a id="lobster-bonding-2023"></a>
+## Quantum-Chemical Bonding Database for Solid-State Materials (2023)
+
+LOBSTER bonding descriptors and computational outputs for insulating and semiconducting solids linked to Materials Project IDs.
+
+**Size:** 1,520 compounds (source wording: 1520 solid-state compounds).
+
+**Scope:** Original 2023 release; two archive parts cover one 1520-compound cohort
+
+**Release:** Published 2023 Zenodo parts 1 and 2. **Year:** 2023.
+
+**Provenance:** computed. **Structure availability:** `structure_linked`.
+
+**Labels/content:** chemical bonding; COHP-derived descriptors; LOBSTER outputs.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://zenodo.org/records/8091844) · [data](https://zenodo.org/records/8091844) · [paper](https://www.nature.com/articles/s41597-023-02477-5) · [code](https://github.com/naik-aakash/lobster-database-paper-analysis-scripts)
+
+**Evidence:**
+
+- [LOBSTER database Part 1 author deposit](https://zenodo.org/api/records/8091844) (checked 2026-11-01): Describes all 1520 compounds in lightweight JSON, larger outputs for 700, CC BY 4.0.
+- [LOBSTER database Part 2 author deposit](https://zenodo.org/api/records/8092187) (checked 2026-11-01): Provides remaining 820 large-output records; same cohort and CC BY 4.0.
+
+**Reuse and interpretation notes:**
+
+- Parts 1 and 2 overlap through the common lightweight cohort; do not sum them as separate materials.
+- The collection also links a newer 2026 NOMAD DOI with a claimed larger scope; its count was not independently verified and is not substituted here.
+- Structures are linked to source IDs; this is chiefly a bonding-property dataset.
+
+**Tags:** bonding, LOBSTER, Scientific-Data, collection-blaiszik.
 
 <a id="matbench-phonons"></a>
 ## Matbench phonons
@@ -706,6 +805,39 @@ Fixed Matbench v0.1 structure-to-property prediction task dataset.
 - Preserve the official order and folds for benchmark comparability.
 
 **Tags:** Matbench, benchmark, structure-based, derived dataset.
+
+<a id="mastml-dilute-diffusion-education"></a>
+## MAST-ML dilute-solute diffusion educational slice
+
+DFT dilute-solute diffusion barriers in host crystals, packaged with host/solute elemental descriptors for teaching.
+
+**Size:** 408 host–solute feature/property rows (source wording: 408).
+
+**Scope:** Educational Figshare v5 CSV, excluding header; independently parsed408 rows.
+
+**Release:** Figshare7017254 v5, 2018-09-11. **Year:** 2018.
+
+**Provenance:** computed. **Structure availability:** `composition_only`.
+
+**Labels/content:** normalized activation energy; raw activation energy; host and solute composition; elemental descriptors.
+
+**Access:** open. **Dataset license:** MIT.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254) · [data](https://ndownloader.figshare.com/files/13007075) · [paper](https://doi.org/10.1038/sdata.2016.54)
+
+**Evidence:**
+
+- [MAST-ML educational release metadata](https://api.figshare.com/v2/articles/7017254) (checked 2026-11-01): v5 package declares MIT licensing and identifies the diffusion CSV as DFT-based.
+- [Educational dataset README](https://ndownloader.figshare.com/files/13008500) (checked 2026-11-01): Defines normalization relative to host self diffusion and a separate raw-energy target.
+- [Official diffusion educational CSV](https://ndownloader.figshare.com/files/13007075) (checked 2026-11-01): Independent parse gives408 non-header data rows; source SHA-256 retained in collection inventory.
+
+**Reuse and interpretation notes:**
+
+- Educational packaging derived from a prior diffusion corpus; do not add it to the parent as unique new materials.
+- Host/solute identities and descriptors are provided; periodic coordinates are absent.
+- Normalized and raw activation energies are different targets.
+
+**Tags:** education, diffusion, derived, composition-only.
 
 <a id="jarvis-supercon-2d"></a>
 ## JARVIS superconductivity 2D DFT cohort

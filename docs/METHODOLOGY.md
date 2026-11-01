@@ -46,4 +46,4 @@ The [JSON Schema](../data/dataset.schema.json) describes the format. The standar
 
 ## Update protocol
 
-Keep old release context when changing a count; add the new source and explain a changed denominator. Cite original datasets when reusing data. Submit corrections through issues or pull requests with a primary evidence link and a clear scope. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+Keep old release context when changing a count; add the new source and explain a changed denominator. Cite original datasets when reusing data. Submit corrections through issues or pull requests with a primary evidence link and a clear scope. The [source index](../sources.md) includes all catalog and inspected collection links with their roles distinguished. The [Starrydata coverage audit](starrydata.md) records every project in the provider manifest, while the [HTML directory](https://usccolumbia.github.io/matverse/) provides search, filtering and result exports. See [CONTRIBUTING.md](../CONTRIBUTING.md).

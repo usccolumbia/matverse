@@ -1,0 +1,1698 @@
+{
+  "repository": "blaiszik/awesome-matchem-datasets",
+  "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+  "readme_url": "https://raw.githubusercontent.com/blaiszik/awesome-matchem-datasets/d3b1d551eb6abcfd2ea62bcd75ac18c9471900c8/README.md",
+  "revision": "d3b1d551eb6abcfd2ea62bcd75ac18c9471900c8",
+  "sha256": "e22b13f56847ec42bae6bf955e62255ab2135777ef1d53525ee7153a53d72309",
+  "retrieved_date": "2026-11-01",
+  "links": [
+    {
+      "label": "BOOM: Benchmarks for Out-Of-distribution Molecules",
+      "url": "https://github.com/FLASK-LLNL/BOOM",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MSR-ACC/TAE25",
+      "url": "https://doi.org/10.5281/zenodo.15387279",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OMat24 (Meta)",
+      "url": "https://huggingface.co/datasets/fairchem/OMAT24",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OMol25 (Meta)",
+      "url": "https://huggingface.co/facebook/OMol25",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "OMC25",
+      "url": "https://huggingface.co/facebook/OMC25",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Materials Project (LBL)",
+      "url": "https://materialsproject.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Open Catalyst 2020 (OC20)",
+      "url": "https://opencatalystproject.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AFLOW",
+      "url": "https://aflow.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OQMD",
+      "url": "https://oqmd.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "JARVIS-DFT (NIST)",
+      "url": "https://jarvis.nist.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Carolina Materials DB",
+      "url": "http://www.carolinamatdb.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NOMAD",
+      "url": "https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatPES",
+      "url": "https://matpes.ai",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Vector-QM24",
+      "url": "https://doi.org/10.5281/zenodo.11164951",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AIMNet2 Dataset",
+      "url": "https://doi.org/10.1184/R1/27629937.v1",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "RDB7",
+      "url": "https://zenodo.org/records/13328872",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "RDB19-Rad",
+      "url": "https://zenodo.org/records/11493786",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "QCML",
+      "url": "https://zenodo.org/records/14859804",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "QM9",
+      "url": "http://quantum-machine.org/datasets/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "QM7/QM7b",
+      "url": "http://quantum-machine.org/datasets/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "QMugs",
+      "url": "https://www.openqdc.io/datasets/qmugs",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "C2DB",
+      "url": "https://c2db.fysik.dtu.dk",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ANI-1x / 1ccx",
+      "url": "https://qcawebapps.molssi.org/ml_datasets/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "CoRE MOF 2019",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jced.9b00835",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "QMOF Database",
+      "url": "https://figshare.com/articles/dataset/QMOF_Database/13147324",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Catalysis-Hub",
+      "url": "https://www.catalysis-hub.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ODAC23",
+      "url": "https://fair-chem.github.io/dac/datasets/odac.html",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MOFX-DB",
+      "url": "https://doi.org/10.1021/acs.jced.2c00583",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "LeMat-Bulk",
+      "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "LeMat-Traj",
+      "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Traj",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NeurIPS Open Polymer Prediction 2025",
+      "url": "https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Carbon Data",
+      "url": "https://github.com/jla-gardner/carbon-data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MSR-ACC/TAE25",
+      "url": "https://zenodo.org/records/15387280",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "DFT Solvation Energy Dataset",
+      "url": "https://www.doi.org/10.18126/jos5-wj65",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MD Simulated Monomer Properties",
+      "url": "https://doi.org/10.18126/8p6m-e135",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Multimodal Spectroscopic Dataset",
+      "url": "https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PubChemQCR",
+      "url": "https://huggingface.co/datasets/divelab/PubChemQCR",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MP-ALOE",
+      "url": "https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Alexandria DB",
+      "url": "https://alexandria.icams.rub.de",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Quantum‑Chemical Bonding DB (LOBSTER)",
+      "url": "https://doi.org/10.17172/nomad.mc38-9gm1",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MultixcQM9 (OpenQDC)",
+      "url": "https://www.openqdc.io/datasets",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SPICE (OpenQDC)",
+      "url": "https://www.openqdc.io/datasets",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Matbench v0.1",
+      "url": "https://matbench.materialsproject.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Matbench Discovery",
+      "url": "https://matbench-discovery.materialsproject.org/data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Materials Cloud Archives",
+      "url": "https://archive.materialscloud.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MS25",
+      "url": "https://zenodo.org/records/10901820",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "RadonPy Polymer Properties Data",
+      "url": "https://github.com/RadonPy/RadonPy/blob/648c9a492808339c9bb7ad2c1137e5a7b07614ca/data/PI1070.csv",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SHNITSEL Data",
+      "url": "https://doi.org/10.5281/zenodo.15482819",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Frustrated Lewis Pairs Database",
+      "url": "https://jingyun-ye.github.io/FLPDB/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AQCat25",
+      "url": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OMol25 Electronic Structures",
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Unrestricted CCSD(T) Dataset For Organic Molecule Reactions",
+      "url": "https://figshare.com/articles/dataset/Unrestricted_CCSD_T_Dataset_For_Organic_Molecule_Reactions/30267877?file=58465231",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MC-PDFT-OPESf",
+      "url": "https://github.com/Ferg-Lab/PDFT_OPESf",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Quantum Cluster Database",
+      "url": "https://muellergroup.jhu.edu/qcd/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "The Cambridge Cluster Database",
+      "url": "https://www-wales.ch.cam.ac.uk/CCD.html",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Battery Electrolyte Solvation/Ionization",
+      "url": "https://doi.org/10.5281/zenodo.15252439",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "van der Waals Bilayer Database (BiDB)",
+      "url": "https://bidb.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Van der Waals 2D Heterostructure Database (HetDB)",
+      "url": "https://hetdb.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Quantum Point Defects Database (QPOD)",
+      "url": "https://qpod.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "2D Alloy Database",
+      "url": "https://cmrdb.fysik.dtu.dk/2dalloys/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OC25 (Open Catalyst 2025)",
+      "url": "https://huggingface.co/facebook/OC25",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OPoly26 (Open Polymers 2026)",
+      "url": "https://huggingface.co/datasets/colabfit/OPoly26-train",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MAD (Massive Atomic Diversity)",
+      "url": "https://archive.materialscloud.org/records/xdsbt-a3r17",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "qcMol",
+      "url": "https://structpred.life.tsinghua.edu.cn/qcmol/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Transition1x",
+      "url": "https://doi.org/10.6084/m9.figshare.19614657",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Computational Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Crystallography Open Database (COD)",
+      "url": "https://www.crystallography.net/cod",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NIST ICSD (subset)",
+      "url": "https://icsd.products.fiz-karlsruhe.de",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "CSD (Cambridge)",
+      "url": "https://www.ccdc.cam.ac.uk",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "opXRD",
+      "url": "https://doi.org/10.5281/zenodo.14254270",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MDR SuperCon",
+      "url": "https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MoleculeNet",
+      "url": "http://moleculenet.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ESOL",
+      "url": "http://moleculenet.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "FreeSolv",
+      "url": "https://github.com/MobleyLab/FreeSolv",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Lipophilicity",
+      "url": "https://www.ebi.ac.uk/chembl/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "PCBA",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/bioassay",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "HIV",
+      "url": "https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "BACE",
+      "url": "http://moleculenet.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BBBP",
+      "url": "http://moleculenet.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Tox21",
+      "url": "https://tripod.nih.gov/tox21/challenge/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ToxCast",
+      "url": "https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SIDER",
+      "url": "http://sideeffects.embl.de/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ClinTox",
+      "url": "http://moleculenet.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PDBbind",
+      "url": "http://www.pdbbind.org.cn/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BindingDB",
+      "url": "https://www.bindingdb.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ProtBENCH",
+      "url": "https://github.com/hevalatas/ProtBENCH",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PDBench",
+      "url": "https://github.com/wells-wood-research/PDBench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PDB-Struct",
+      "url": "https://github.com/WANG-CR/PDB-Struct",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "HTEM-DB",
+      "url": "https://htem.nrel.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OCx24",
+      "url": "https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Polymer Genome",
+      "url": "https://khazana.gatech.edu/dataset/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "CoRE MOF 2024",
+      "url": "https://www.ccdc.cam.ac.uk/support-and-resources/downloads/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "SAIR",
+      "url": "https://pub.sandboxaq.com/data/ic50-dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Anion Solvation DB",
+      "url": "https://doi.org/10.5281/zenodo.13987781",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BigSolDB",
+      "url": "https://doi.org/10.5281/zenodo.6809668",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "StarryData2",
+      "url": "https://github.com/starrydata/starrydata_datasets",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "CRIPT Polymer Data",
+      "url": "https://www.criptapp.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Catechol Benchmark",
+      "url": "https://www.kaggle.com/datasets/aichemy/catechol-benchmark",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Leeds Solubility Data",
+      "url": "https://doi.org/10.5281/zenodo.3686213",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BigSolDB 2.0",
+      "url": "https://doi.org/10.5281/zenodo.15094979",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OpenExp",
+      "url": "https://osf.io/e68v4/files/3dv4k",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Battery Imaging Library (BIL)",
+      "url": "https://www.batteryimaginglibrary.com",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Experimental 2D Materials Database (X2DB)",
+      "url": "https://x2db.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NMRexp",
+      "url": "https://zenodo.org/records/17296666",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OpenBind (first release)",
+      "url": "https://openbind.uk",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SAFE Database (LANL)",
+      "url": "https://safe.lanl.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ARROWS³ Synthesis Dataset",
+      "url": "https://doi.org/10.5281/zenodo.8331001",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NIST AM-Bench",
+      "url": "https://www.nist.gov/ambench/am-bench-2025-measurements-and-challenge-problems",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Ti-6Al-4V LPBF Process–Structure–Property",
+      "url": "https://zenodo.org/records/6587905",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AlSi10Mg LPBF Process–Structure–Property",
+      "url": "https://zenodo.org/records/10008435",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "UHCSDB (Ultra-High Carbon Steel Micrographs)",
+      "url": "http://uhcsdb.materials.cmu.edu",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Aurora Robotic Battery Platform",
+      "url": "https://zenodo.org/records/15481956",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "A-Lab (Autonomous Inorganic Synthesis)",
+      "url": "https://www.nature.com/articles/s41586-023-06734-w",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AlphaFlow",
+      "url": "https://github.com/AbolhasaniLab/AlphaFlow",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Swiss Cat+ CO₂ Hydrogenation HTE",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.8314734",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "CAMEO (Closed-Loop Autonomous Exploration)",
+      "url": "https://data.nist.gov/od/ds/mds2-2480/CAMEO_NComm-master.zip",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Olympus SDL Benchmarks",
+      "url": "https://github.com/aspuru-guzik-group/olympus",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Perovskite Database Project",
+      "url": "https://nomad-lab.eu/prod/v1/gui/search/perovskite-solar-cells-database",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Dreher–Doyle Buchwald–Hartwig HTE",
+      "url": "https://github.com/rxn4chemistry/rxn_yields",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Pfizer Suzuki–Miyaura HTE",
+      "url": "https://github.com/rxn4chemistry/rxn_yields",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Pfizer HiTEA",
+      "url": "https://github.com/emmaking-smith/HiTEA",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AstraZeneca ELN Buchwald–Hartwig",
+      "url": "https://github.com/nsf-c-cas",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Minerva HTE",
+      "url": "https://github.com/schwallergroup/minerva",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Experimental Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ChemPile",
+      "url": "https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "SmolInstruct",
+      "url": "https://huggingface.co/datasets/osunlp/SMolInstruct",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "CAMEL",
+      "url": "https://huggingface.co/datasets/camel-ai/chemistry",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemNLP",
+      "url": "https://github.com/OpenBioML/chemnlp",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemQA",
+      "url": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemLLMBench",
+      "url": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemistryQA",
+      "url": "https://github.com/microsoft/chemistry-qa",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MaScQA",
+      "url": "https://github.com/abhijeetgangan/MaSTeA",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "SciCode",
+      "url": "https://scicode-bench.github.io",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ChemData 700K",
+      "url": "https://huggingface.co/datasets/AI4Chem/ChemData700K",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MatSci-Instruct (HoneyBee)",
+      "url": "https://zenodo.org/record/10119842",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MoleculeQA",
+      "url": "https://huggingface.co/datasets/hcaoaf/MoleculeQA",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BioInstruct 25K",
+      "url": "https://huggingface.co/datasets/bio-nlp-umass/bioinstruct",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Lab-Bench",
+      "url": "https://huggingface.co/datasets/futurehouse/lab-bench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ChemBench 4K",
+      "url": "https://huggingface.co/datasets/AI4Chem/ChemBench4K",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "GPQA Diamond",
+      "url": "https://github.com/idavidrein/gpqa",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MaCBench",
+      "url": "https://macbench.lamalab.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemBench",
+      "url": "https://chembench.lamalab.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MatText",
+      "url": "https://huggingface.co/datasets/n0w0f/MatText",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "SciAssess",
+      "url": "https://github.com/sci-assess/SciAssess",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ZINC20-ML",
+      "url": "https://files.docking.org/zinc20-ML/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PMC Open Access Subset",
+      "url": "https://huggingface.co/datasets/pmc/open_access",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatScholar Task-Schema QA (MatSci-NLP)",
+      "url": "https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Mol-Instructions",
+      "url": "https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "USPTO-LLM",
+      "url": "https://zenodo.org/records/14396156",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ChemRxivQuest",
+      "url": "https://arxiv.org/abs/2505.05232",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "USPTO-Lowe",
+      "url": "https://figshare.com/articles/dataset/5104873",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MolTextNet",
+      "url": "https://huggingface.co/datasets/liuganghuggingface/moltextnet",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MolOpt-Instructions",
+      "url": "https://huggingface.co/datasets/blazerye/MolOpt-Instructions",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "TextEdge",
+      "url": "https://drive.google.com/drive/folders/1YCDBzwjwNRIc1FRkB662G3Y5AOWaokUG",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "LAMBench-TrainingSet-v1",
+      "url": "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "LLM4Mat",
+      "url": "https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "LLM-EO",
+      "url": "https://github.com/deepprinciple/llmeo",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Flavor Analysis and Recognition Transformer",
+      "url": "https://github.com/fart-lab/fart/tree/main/dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SCQA (Solar Cell QA)",
+      "url": "https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ScienceQA",
+      "url": "https://scienceqa.github.io/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "SciBench",
+      "url": "https://scibench-ucla.github.io",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MegaScience",
+      "url": "https://huggingface.co/MegaScience",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Mat-Instructions",
+      "url": "https://github.com/AI4MOL/Mat-Instruction",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Open Materials Guide (OMG)",
+      "url": "https://huggingface.co/datasets/iknow-lab/open-materials-guide-2024",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ChemDFM",
+      "url": "https://github.com/OpenDFM/ChemDFM",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ChemTable",
+      "url": "https://github.com/lqzxt/ChemTable",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemCoTBench",
+      "url": "https://huggingface.co/datasets/OpenMol/ChemCoTDataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "SciCUEval",
+      "url": "https://arxiv.org/abs/2505.15094",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatSciBench",
+      "url": "https://arxiv.org/abs/2510.12171",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MolecularIQ",
+      "url": "https://github.com/ml-jku/moleculariq",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatSyn25",
+      "url": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / LLM Training Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "PubChem",
+      "url": "https://pubchem.ncbi.nlm.nih.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Open Reaction Database (ORD)",
+      "url": "https://open-reaction-database.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "PatCID (IBM)",
+      "url": "https://github.com/DS4SD/PatCID",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatScholar",
+      "url": "https://matscholar.com",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Matbench (metadata/text tasks)",
+      "url": "https://matbench.materialsproject.org/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OpenQDC Hub",
+      "url": "https://github.com/valence-labs/openQDC",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "L2M3 - Large Language Model MOF Miner",
+      "url": "https://figshare.com/articles/dataset/L2M3_Database/27187917",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "RetroRules 2026",
+      "url": "https://retrorules.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Text-Mined Solid-State Synthesis (CederGroup)",
+      "url": "https://github.com/CederGroupHub/text-mined-synthesis_public",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Text-Mined Solution-Based Synthesis (CederGroup)",
+      "url": "https://github.com/CederGroupHub/text-mined-solution-synthesis_public",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Solid-State Synthesis w/ Impurity Phases",
+      "url": "https://doi.org/10.6084/m9.figshare.30423274",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ZeoSyn",
+      "url": "https://github.com/eltonpan/zeosyn_dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "PaRoutes",
+      "url": "https://github.com/MolecularAI/PaRoutes",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "USPTO-50k (Schneider)",
+      "url": "https://figshare.com/articles/dataset/USPTO-50K_raw_/25459573",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Syntheseus",
+      "url": "https://github.com/microsoft/syntheseus",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "mech-USPTO-31k",
+      "url": "https://doi.org/10.6084/m9.figshare.24797220",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PMechDB (Polar Mechanism DB)",
+      "url": "https://deeprxn.ics.uci.edu/pmechdb/download",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "RMechDB (Radical Mechanism DB)",
+      "url": "https://deeprxn.ics.uci.edu/rmechdb",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Literature-mined & Text Datasets",
+      "scope": "uncertain"
+    },
+    {
+      "label": "PDEBench",
+      "url": "https://github.com/pdebench/PDEBench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BLASTNet",
+      "url": "https://blastnet.github.io",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Johns Hopkins Turbulence DB (JHTDB)",
+      "url": "https://turbulence.pha.jhu.edu",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Airfoil CFD 2k",
+      "url": "https://data.openei.org/submissions/5970",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PDEArena (collection)",
+      "url": "https://huggingface.co/pdearena",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "WeatherBench 2",
+      "url": "https://github.com/pangeo-data/WeatherBench",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "UT Austin Channel-DNS Suite",
+      "url": "https://turbulence.oden.utexas.edu",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Compressible TPC DNS DB",
+      "url": "https://data.mendeley.com/datasets/wt8t5kxzbs",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Curated RANS ↔ DNS Dataset",
+      "url": "https://doi.org/10.34740/kaggle/dsv/2637500",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NASA Common Research Model (CRM)",
+      "url": "https://commonresearchmodel.larc.nasa.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Darcy-Flow (FNO)",
+      "url": "https://github.com/neuraloperator/neuraloperator",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "HiFi-TURB LES/DNS",
+      "url": "https://cordis.europa.eu/project/id/814837",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NASA High Lift Prediction Workshop (HLPW)",
+      "url": "https://hiliftpw.larc.nasa.gov/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "High-Speed TBL DNS DB",
+      "url": "https://arc.aiaa.org/doi/10.2514/1.J063456",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ML Turbulence (Kaggle)",
+      "url": "https://www.kaggle.com/datasets/ryleymcconkey/ml-turbulence-dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AgentFEM Material Loading Memory",
+      "url": "https://huggingface.co/datasets/HaomingLuo/AgentFEM-Material-Loading-Memory",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AgentFEM Controlled Transient Heat",
+      "url": "https://huggingface.co/datasets/HaomingLuo/AgentFEM-Controlled-Transient-Heat",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PoLyInfo",
+      "url": "https://polymer.nims.go.jp/en/",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Proprietary Datasets (for reference)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "The Materials Data Facility",
+      "url": "https://www.materialsdatafacility.org",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Dataset Resources",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Foundry-ML",
+      "url": "https://materialsdatafacility.org/portal",
+      "section": "Awesome Materials & Chemistry Datasets / Datasets / Dataset Resources",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "https://www.openqdc.io/datasets",
+      "url": "https://www.openqdc.io/datasets",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Data",
+      "url": "https://github.com/Shorku/rhnet/tree/main/data",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Materials Cloud Datasets",
+      "url": "https://www.materialscloud.org/discover/menu",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Atomly",
+      "url": "https://atomly.net/#/",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "https://zenodo.org/records/8091844",
+      "url": "https://zenodo.org/records/8091844",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "https://zenodo.org/records/8092187",
+      "url": "https://zenodo.org/records/8092187",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "http://quantum-machine.org/datasets/",
+      "url": "http://quantum-machine.org/datasets/",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "uncertain"
+    },
+    {
+      "label": "ChemRxivQuest",
+      "url": "https://arxiv.org/abs/2505.05232",
+      "section": "Awesome Materials & Chemistry Datasets / TODO",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Awesome Materials Informatics",
+      "url": "https://github.com/tilde-lab/awesome-materials-informatics",
+      "section": "Awesome Materials & Chemistry Datasets / TODO / Other Links",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OC25 (Open Catalyst 2025) — source",
+      "url": "https://huggingface.co/facebook/OC25",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OPoly26 (Open Polymers 2026) — source",
+      "url": "https://huggingface.co/datasets/colabfit/OPoly26-train",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OPoly26 (Open Polymers 2026) — source",
+      "url": "https://huggingface.co/facebook/OMol25",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MAD (Massive Atomic Diversity) — source",
+      "url": "https://archive.materialscloud.org/records/xdsbt-a3r17",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "qcMol — source",
+      "url": "https://structpred.life.tsinghua.edu.cn/qcmol/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BiDB (van der Waals Bilayer Database) — source",
+      "url": "https://bidb.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "BiDB (van der Waals Bilayer Database) — source",
+      "url": "https://2dhub.org/bidb/bidb.html",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "HetDB (van der Waals 2D Heterostructure Database) — source",
+      "url": "https://hetdb.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "HetDB (van der Waals 2D Heterostructure Database) — source",
+      "url": "https://2dhub.org/hetdb/hetdb.html",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "QPOD (Quantum Point Defects Database) — source",
+      "url": "https://qpod.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "2D Alloy Database — source",
+      "url": "https://cmrdb.fysik.dtu.dk/2dalloys/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "2D Alloy Database — source",
+      "url": "https://2dhub.org/2dalloys/2dalloys.html",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧮 Computational Datasets (8 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NMRexp — source",
+      "url": "https://zenodo.org/records/17296666",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧪 Experimental Datasets (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OpenBind (first release) — source",
+      "url": "https://openbind.uk",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧪 Experimental Datasets (4 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "SAFE Database (LANL) — source",
+      "url": "https://safe.lanl.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧪 Experimental Datasets (4 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "X2DB (Experimental 2D Materials Database) — source",
+      "url": "https://x2db.fysik.dtu.dk/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧪 Experimental Datasets (4 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "X2DB (Experimental 2D Materials Database) — source",
+      "url": "https://2dhub.org/x2db/x2db.html",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧪 Experimental Datasets (4 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "RetroRules 2026 — source",
+      "url": "https://retrorules.org",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 📖 Literature-mined & Text Datasets (1 dataset)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MolecularIQ — source",
+      "url": "https://github.com/ml-jku/moleculariq",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 📚 LLM Training & Benchmark Datasets (4 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MolecularIQ — source",
+      "url": "https://huggingface.co/spaces/ml-jku/molecularIQ_leaderboard",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 📚 LLM Training & Benchmark Datasets (4 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "MatSyn25 (Material Synthesis 2025) — source",
+      "url": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 📚 LLM Training & Benchmark Datasets (4 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Text-Mined Solid-State Synthesis (CederGroup / Kononova) — source",
+      "url": "https://github.com/CederGroupHub/text-mined-synthesis_public",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Text-Mined Solid-State Synthesis (CederGroup / Kononova) — source",
+      "url": "https://doi.org/10.6084/m9.figshare.9722159",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Text-Mined Solution-Based Synthesis (CederGroup / Wang) — source",
+      "url": "https://github.com/CederGroupHub/text-mined-solution-synthesis_public",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Solid-State Synthesis with Impurity Phases (CederGroup, 2025) — source",
+      "url": "https://doi.org/10.6084/m9.figshare.30423274",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ZeoSyn — source",
+      "url": "https://github.com/eltonpan/zeosyn_dataset",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ARROWS³ — source",
+      "url": "https://doi.org/10.5281/zenodo.8331001",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ARROWS³ — source",
+      "url": "https://github.com/njszym/ARROWS",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🧫 Materials Synthesis Recipes & Precursor Data (5 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NIST AM-Bench — source",
+      "url": "https://www.nist.gov/ambench/am-bench-2025-measurements-and-challenge-problems",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NIST AM-Bench — source",
+      "url": "https://data.nist.gov",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Ti-6Al-4V LPBF Process–Structure–Property — source",
+      "url": "https://zenodo.org/records/6587905",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AlSi10Mg LPBF Process–Structure–Property — source",
+      "url": "https://zenodo.org/records/10008435",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "UHCSDB (Ultra-High Carbon Steel Micrograph DB) — source",
+      "url": "http://uhcsdb.materials.cmu.edu",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "UHCSDB (Ultra-High Carbon Steel Micrograph DB) — source",
+      "url": "https://materialsdata.nist.gov/handle/11256/940",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🏭 Processing → Structure → Property (Causality) (4 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Aurora Autonomous Robotic Battery Platform (Empa) — source",
+      "url": "https://zenodo.org/records/15481956",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "A-Lab (Autonomous Inorganic Synthesis, LBNL) — source",
+      "url": "https://www.nature.com/articles/s41586-023-06734-w",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "A-Lab (Autonomous Inorganic Synthesis, LBNL) — source",
+      "url": "https://github.com/CederGroupHub/s4",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AlphaFlow (NC State) — source",
+      "url": "https://github.com/AbolhasaniLab/AlphaFlow",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Swiss Cat+ CO₂ Hydrogenation HTE — source",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.8314734",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "CAMEO (NIST) — source",
+      "url": "https://data.nist.gov/od/ds/mds2-2480/CAMEO_NComm-master.zip",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Olympus — source",
+      "url": "https://github.com/aspuru-guzik-group/olympus",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Perovskite Database Project (NOMAD) — source",
+      "url": "https://nomad-lab.eu/prod/v1/gui/search/perovskite-solar-cells-database",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / 🤖 Self-Driving Lab / Autonomous Experimentation & HTE (7 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Dreher–Doyle Buchwald–Hartwig HTE — source",
+      "url": "https://github.com/rxn4chemistry/rxn_yields",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Pfizer HiTEA — source",
+      "url": "https://github.com/emmaking-smith/HiTEA",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AstraZeneca ELN Buchwald–Hartwig — source",
+      "url": "https://github.com/nsf-c-cas",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Minerva HTE — source",
+      "url": "https://github.com/schwallergroup/minerva",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "PaRoutes — source",
+      "url": "https://zenodo.org/records/6275421",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "PaRoutes — source",
+      "url": "https://github.com/MolecularAI/PaRoutes",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "USPTO-50k (Schneider) — source",
+      "url": "https://figshare.com/articles/dataset/USPTO-50K_raw_/25459573",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "USPTO-50k (Schneider) — source",
+      "url": "http://tdcommons.ai/generation_tasks/retrosyn/",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Syntheseus (Microsoft) — source",
+      "url": "https://github.com/microsoft/syntheseus",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "PMechDB (Polar Mechanism Database) — source",
+      "url": "https://deeprxn.ics.uci.edu/pmechdb/download",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "RMechDB (Radical Mechanism Database) — source",
+      "url": "https://deeprxn.ics.uci.edu/rmechdb",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "uncertain"
+    },
+    {
+      "label": "mech-USPTO-31k — source",
+      "url": "https://doi.org/10.6084/m9.figshare.24797220",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "mech-USPTO-31k — source",
+      "url": "https://github.com/snu-micc/MechFinder",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Transition1x — source",
+      "url": "https://doi.org/10.6084/m9.figshare.19614657",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / June 2026 / ⚗️ Reaction & Synthesis Planning (12 datasets)",
+      "scope": "adjacent"
+    },
+    {
+      "label": "repository commit history",
+      "url": "https://github.com/your-repo/commits",
+      "section": "Awesome Materials & Chemistry Datasets / Changelog / Earlier Updates",
+      "scope": "uncertain"
+    }
+  ],
+  "candidate_datasets": [
+    "2D Alloy Database",
+    "Experimental 2D Materials Database (X2DB)",
+    "Quantum-Chemical Bonding Database (LOBSTER)",
+    "ARROWS³ Synthesis Dataset",
+    "ZeoSyn",
+    "MatSyn25",
+    "Carbon Data",
+    "AQCat25",
+    "OCx24",
+    "A-Lab",
+    "CAMEO",
+    "Perovskite Database Project",
+    "MatText",
+    "TextEdge",
+    "LLM4Mat"
+  ],
+  "coverage_notes": [
+    "Complete pinned raw README audited, including dataset tables, TODO, resources, other links and full changelog.",
+    "All external HTTP(S) Markdown and bare URLs extracted; repeated links retained when label or section differs. Pure internal anchors and non-URL placeholders omitted.",
+    "Tracking parameters dropped; only public content selector query keys retained. No credentials or access-bearing query parameters exported.",
+    "Scope tags are triage, not primary scientific validation. Collection counts and licences are not treated as authoritative dataset evidence.",
+    "Molecular, polymer, protein, reaction, CFD and engineering links remain in extraction as adjacent resources rather than becoming crystal datasets.",
+    "Existing canonical catalog has 115 datasets and 27 resources at comparison time. Exact-URL mismatches can be aliases or derivatives, so missing candidates require identity review.",
+    "Important missing names for verification: 2D Alloy Database, Experimental 2D Materials Database (X2DB), Quantum-Chemical Bonding Database (LOBSTER), ARROWS³ Synthesis Dataset, ZeoSyn, MatSyn25, Carbon Data, AQCat25, OCx24, A-Lab, CAMEO, Perovskite Database Project, MatText, TextEdge, LLM4Mat",
+    "Raw table exact-URL unmatched candidates: OMat24 (Meta), OMC25, Vector-QM24, C2DB, CoRE MOF 2019, QMOF Database, ODAC23, MOFX-DB, Carbon Data, Quantum‑Chemical Bonding DB (LOBSTER), Matbench Discovery, AQCat25, van der Waals Bilayer Database (BiDB), Van der Waals 2D Heterostructure Database (HetDB), Quantum Point Defects Database (QPOD), 2D Alloy Database, MAD (Massive Atomic Diversity), NIST ICSD (subset), CSD (Cambridge), opXRD, MDR SuperCon, OCx24, CoRE MOF 2024, Experimental 2D Materials Database (X2DB), ARROWS³ Synthesis Dataset, A-Lab (Autonomous Inorganic Synthesis), CAMEO (Closed-Loop Autonomous Exploration), MatText, TextEdge, LAMBench-TrainingSet-v1, LLM4Mat, Mat-Instructions, Open Materials Guide (OMG), MatSyn25, L2M3 - Large Language Model MOF Miner, ZeoSyn",
+    "Eight proposed primary-verified additions are in research/collection_blaiszik_additions.json; canonical data was not modified.",
+    "ARROWS Zenodo 8331001 resolves to software njszym/ARROWS v0.0.1 (other-open licence), not by itself a verified 241-experiment dataset; the 241 count was not copied.",
+    "LOBSTER original 2023 Zenodo release has 1520 compounds. Newer NOMAD DOI10.17172/nomad.mc38-9gm1 resolves via DataCite, but collection claim 13800 was not independently verified.",
+    "Carbon-data headline counts 22.9 million atomic environments; provider arithmetic yields 114660 MD snapshots. Labels are from C-GAP-17, not new DFT.",
+    "OCx24 pinned raw CSV has 5412 tests and 672 sample IDs, while clean/processed subsets differ. Collection 572-sample summary was not reused.",
+    "AQCat25 has gated file access and CC BY-NC-SA 4.0 terms; public card access is not unrestricted file access.",
+    "X2DB contains metadata records and explicitly no measurement datasets.",
+    "Existing canonical matches with alternate URLs (for example C2DB, OMat24, CoRE MOF, MAD and OpenLAM) are not new datasets merely because an exact-URL comparison misses them.",
+    "Validated exported URL queries for access-bearing keys and rejected private Figshare /s/ paths; no such URLs remain."
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/blaiszik/awesome-matchem-datasets/d3b1d551eb6abcfd2ea62bcd75ac18c9471900c8/README.md",
+      "title": "Awesome Materials & Chemistry Datasets pinned raw README",
+      "evidence": "Full 82335-byte README fetched from provider GitHub repository at the recorded immutable revision; SHA-256 preserved.",
+      "verified_date": "2026-11-01"
+    }
+  ]
+}

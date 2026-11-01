@@ -418,5 +418,93 @@
         "verified_date": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "Data Resources for Materials Science",
+    "url": "https://github.com/sedaoturak/data-resources-for-materials-science",
+    "kind": "dataset collection",
+    "description": "User-supplied dataset/resource collection. All inspected document links, scope labels and revision provenance are preserved in sources.md; linked dataset counts require their own primary evidence.",
+    "sources": [
+      {
+        "url": "https://github.com/sedaoturak/data-resources-for-materials-science",
+        "title": "Data Resources for Materials Science",
+        "evidence": "Inspected the complete README source and extracted public links by section; adjacent and uncertain links remain labeled in the inventory.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning Materials Datasets / MAST-ML education",
+    "url": "https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254",
+    "kind": "educational dataset collection",
+    "description": "Three MIT-licensed educational tables for MAST-ML: dilute-solute diffusion, perovskite stability and adjacent metallic-glass properties. Feature rows have no atomic coordinates; source families and packaging must remain distinct.",
+    "sources": [
+      {
+        "url": "https://api.figshare.com/v2/articles/7017254",
+        "title": "Machine Learning Materials Datasets Figshare v5",
+        "evidence": "Three educational datasets with property labels and descriptors; release is MIT licensed.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/13008500",
+        "title": "Attached dataset README",
+        "evidence": "Explains normalized/raw diffusion energies, perovskite site/composition features and metallic-glass reduced transition temperature.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "JARVIS-Tools Notebooks",
+    "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks",
+    "kind": "tools and notebook collection",
+    "description": "Archived tutorial repository for electronic structure, force fields, AI and experiments; directs continued development to atomgptlab/jarvis-tools-notebooks. Inventoried README links are navigation resources, not extra dataset counts.",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/JARVIS-Materials-Design/jarvis-tools-notebooks/master/README.md",
+        "title": "Requested notebook README",
+        "evidence": "Lists subject-grouped materials design tutorials and its explicitly linked successor.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "nanoHUB Machine Learning Lab Module",
+    "url": "https://nanohub.org/tools/intromllab",
+    "kind": "interactive educational module",
+    "description": "Version1.7 introductory materials-ML notebook and teaching module. Public descriptions/supporting-document list are readable; running the tool requires login. Program license is GPL3-or-later; example-data rights require separate checking.",
+    "sources": [
+      {
+        "url": "https://nanohub.org/tools/intromllab",
+        "title": "Public module page",
+        "evidence": "Public activity description identifies version1.7 and states login is required to run.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://nanohub.org/resources/license?tool=intromllab_r36&tmpl=component",
+        "title": "Tool license page",
+        "evidence": "Program is GPL version3-or-later.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "REMI: REsource for Materials Informatics",
+    "url": "https://pages.nist.gov/remi/",
+    "kind": "instructional resource and dataset directory",
+    "description": "NIST pre-alpha notebook/resource index with tagged tutorials, learning resources and directly linked experimental combinatorial libraries. Owning GitHub repository is archived; directory entries are not additive datasets.",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv",
+        "title": "Primary resource CSV",
+        "evidence": "Homepage table lists instructional notebook resources and tags.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+        "title": "Open Access Data list",
+        "evidence": "Links experimental Fe–Co–Ni/Fe–Ga–Pd composition-spread data and major material databases.",
+        "verified_date": "2026-11-01"
+      }
+    ]
   }
 ]

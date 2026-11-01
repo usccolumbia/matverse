@@ -1,0 +1,32 @@
+{
+  "checked_date": "2026-11-01",
+  "dataset_records": 145,
+  "resources": 32,
+  "unique_source_urls": 1057,
+  "categories": 12,
+  "unranked_counts": 6,
+  "starrydata_projects": 14,
+  "starrydata_files_metadata_matched": 45,
+  "checks": {
+    "json_schema": "passed",
+    "csv_counts_roundtrip": "passed",
+    "all_dataset_urls_indexed": "passed",
+    "generated_catalog_sources_and_html_current": "passed",
+    "local_links": "passed",
+    "functional_ui_tests": {
+      "passed": 13,
+      "failed": 0
+    },
+    "javascript_syntax": "passed",
+    "browser_search_and_combined_filters": "passed",
+    "browser_details_and_sources": "passed",
+    "browser_filtered_json_export": "passed",
+    "responsive_desktop_and_mobile": "passed",
+    "browser_console_errors": 0
+  },
+  "limits": [
+    "External links in imported collections are discovery leads, not individually audited datasets.",
+    "nanoHUB tool execution requires login and was not tested.",
+    "Upstream full data payloads were not generally downloaded; Starrydata counts are provider metadata corroborated against asset sizes/digests."
+  ]
+}

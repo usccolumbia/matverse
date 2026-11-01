@@ -6,7 +6,7 @@ Add corrections or datasets through an issue or pull request. Prefer an official
 2. Supply a stable slug, one category, release/version, explicit count unit/scope, access and dataset-specific license. Use `null` with precision `unknown` if size is unverified. Do not substitute byte size, atom count, paper count or force components for structure count.
 3. Give an evidence URL and short paraphrase for every numeric claim. Record the check date. Distinguish reported precision from independent verification. Record arithmetic in `count_derivation`; never sum overlapping subsets.
 4. State parentage, repeated releases, mixed structure availability, missing label coverage and access constraints. Keep computational, generated, MLIP-predicted and experimentally measured labels distinguishable.
-5. Run `python3 scripts/build_catalog.py`, then `python3 scripts/build_catalog.py --check`. Review the resulting Markdown and CSV diff.
+5. Run `python3 scripts/build_catalog.py`, `python3 scripts/build_sources.py`, and `python3 scripts/build_site.py`. Check each with `--check`, then run `node --test tests/ui.test.cjs`. Review the Markdown, CSV and HTML changes. All source URLs belong in the generated root `sources.md`; collection inventories live under `research/collection_*.json`.
 
 Update dates and evidence when sizes change. Retain the old release context in a caveat or changelog if the new denominator differs. The catalog's verification date is set in `scripts/build_catalog.py` and its introductory prose; update both for a new curated release. Sources in individual records retain their own dates.
 

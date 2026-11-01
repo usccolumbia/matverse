@@ -1,0 +1,450 @@
+[
+  {
+    "id": "2d-alloys",
+    "name": "2D-Alloy Database",
+    "category": "two_dimensional",
+    "description": "DFT structures and formation thermodynamics for transition-metal dichalcogenide alloy monolayers.",
+    "version": "2DHub provider documentation updated 2026-09-30",
+    "year": 2025,
+    "count": 400,
+    "count_display": "400 monolayer TMDC alloys",
+    "count_unit": "alloy monolayers",
+    "count_scope": "Provider-described 1T and 2H alloy collection",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "atomic structures",
+      "formation enthalpy at 0 K",
+      "formation free energy at 1000 K",
+      "hydrogen binding energy for subset"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://2dhub.org/2dalloys/2dalloys.html",
+      "data": "https://2dhub.org/_downloads/93db2a0b33028278cf5e22b17a3994f7/2dalloys.db",
+      "paper": "https://doi.org/10.1021/jacs.4c13863"
+    },
+    "sources": [
+      {
+        "url": "https://2dhub.org/2dalloys/2dalloys.html",
+        "title": "2DHub: 2D-Alloy Database",
+        "evidence": "Provider specifies 400 1T/2H TMDC alloys, atomic structures, PBE thermodynamics and downloadable ASE database.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A computational alloy cohort, not 400 experimentally synthesized monolayers.",
+      "Free download availability does not establish a verified redistribution licence."
+    ],
+    "tags": [
+      "2D",
+      "alloys",
+      "DFT",
+      "collection-blaiszik"
+    ]
+  },
+  {
+    "id": "x2db",
+    "name": "Experimental 2D Materials Database (X2DB)",
+    "category": "experimental_properties",
+    "description": "Structured literature metadata for experimentally realized monolayer and few-layer materials, linked where possible to computational structures.",
+    "version": "Provider live table, checked 2026-11-01",
+    "year": 2026,
+    "count": 603,
+    "count_display": "Found 603 rows out of 603",
+    "count_unit": "metadata records",
+    "count_scope": "Live unfiltered X2DB rows; multiple publications or samples may share composition",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "literature",
+    "properties": [
+      "synthesis methods",
+      "crystal phase",
+      "layer count",
+      "morphology",
+      "substrates",
+      "characterization metadata"
+    ],
+    "access": "open",
+    "license": "CC BY-NC 4.0",
+    "links": {
+      "homepage": "https://x2db.fysik.dtu.dk/",
+      "data": "https://x2db.fysik.dtu.dk/",
+      "paper": "https://doi.org/10.1021/acsnano.6c01514"
+    },
+    "sources": [
+      {
+        "url": "https://x2db.fysik.dtu.dk/",
+        "title": "X2DB live provider table",
+        "evidence": "Unfiltered table displays 603 rows and CC BY-NC 4.0 licensing.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://2dhub.org/x2db/x2db.html",
+        "title": "2DHub: X2DB documentation",
+        "evidence": "Provider describes experimental literature metadata and computational structure links; explicitly excludes measurement datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Contains metadata, not raw experimental measurement datasets.",
+      "603 rows are not necessarily 603 unique compositions or atomic structures.",
+      "Noncommercial licence conditions apply."
+    ],
+    "tags": [
+      "2D",
+      "experimental-metadata",
+      "structure-linked",
+      "collection-blaiszik"
+    ]
+  },
+  {
+    "id": "lobster-bonding-2023",
+    "name": "Quantum-Chemical Bonding Database for Solid-State Materials (2023)",
+    "category": "property_benchmarks",
+    "description": "LOBSTER bonding descriptors and computational outputs for insulating and semiconducting solids linked to Materials Project IDs.",
+    "version": "Published 2023 Zenodo parts 1 and 2",
+    "year": 2023,
+    "count": 1520,
+    "count_display": "1520 solid-state compounds",
+    "count_unit": "compounds",
+    "count_scope": "Original 2023 release; two archive parts cover one 1520-compound cohort",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "chemical bonding",
+      "COHP-derived descriptors",
+      "LOBSTER outputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://zenodo.org/records/8091844",
+      "data": "https://zenodo.org/records/8091844",
+      "paper": "https://www.nature.com/articles/s41597-023-02477-5",
+      "code": "https://github.com/naik-aakash/lobster-database-paper-analysis-scripts"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/api/records/8091844",
+        "title": "LOBSTER database Part 1 author deposit",
+        "evidence": "Describes all 1520 compounds in lightweight JSON, larger outputs for 700, CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/8092187",
+        "title": "LOBSTER database Part 2 author deposit",
+        "evidence": "Provides remaining 820 large-output records; same cohort and CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Parts 1 and 2 overlap through the common lightweight cohort; do not sum them as separate materials.",
+      "The collection also links a newer 2026 NOMAD DOI with a claimed larger scope; its count was not independently verified and is not substituted here.",
+      "Structures are linked to source IDs; this is chiefly a bonding-property dataset."
+    ],
+    "tags": [
+      "bonding",
+      "LOBSTER",
+      "Scientific-Data",
+      "collection-blaiszik"
+    ]
+  },
+  {
+    "id": "carbon-data-gap17",
+    "name": "Carbon-data synthetic atomistic trajectories",
+    "category": "mlip_configurations",
+    "description": "Carbon melt–quench–anneal trajectories spanning crystalline, graphitic and amorphous environments, labeled by C-GAP-17.",
+    "version": "Provider README, checked 2026-11-01",
+    "year": 2022,
+    "count": 114660,
+    "count_display": "546 trajectories × 210 snapshots = 114,660 snapshots",
+    "count_unit": "MD snapshots",
+    "count_scope": "Arithmetic from provider trajectory and per-trajectory snapshot counts; raw trajectory files not independently enumerated",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "synthetic local energies",
+      "forces",
+      "density",
+      "temperature",
+      "time"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://github.com/jla-gardner/carbon-data",
+      "data": "https://github.com/jla-gardner/carbon-data/tree/main/results",
+      "paper": "https://arxiv.org/abs/2211.16443"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/jla-gardner/carbon-data/main/README.md",
+        "title": "Carbon-data author README",
+        "evidence": "Specifies 546 trajectories, 210 snapshots each and 200 atoms per snapshot; labels come from C-GAP-17.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 22.9-million headline counts atomic environments, not structures or materials.",
+      "Energies and forces are generated by a fitted potential, not newly calculated DFT reference labels.",
+      "Includes amorphous and molecular-like carbon environments alongside crystalline phases.",
+      "Data licence was not verified."
+    ],
+    "tags": [
+      "carbon",
+      "synthetic-labels",
+      "MD",
+      "collection-blaiszik"
+    ],
+    "additional_counts": [
+      {
+        "value": 546,
+        "unit": "trajectories",
+        "scope": "Provider-described uncorrelated runs"
+      },
+      {
+        "value": 22932000,
+        "unit": "atomic environments",
+        "scope": "546 × 210 snapshots × 200 atoms; headline rounded to 22.9 million"
+      }
+    ]
+  },
+  {
+    "id": "zeosyn",
+    "name": "ZeoSyn zeolite synthesis dataset",
+    "category": "experimental_properties",
+    "description": "Literature-curated zeolite hydrothermal routes linking gel composition, crystallization conditions, organic templates and framework products.",
+    "version": "2024 author release",
+    "year": 2024,
+    "count": 23961,
+    "count_display": "23,961 zeolite synthesis routes",
+    "count_unit": "synthesis routes",
+    "count_scope": "Author repository cohort covering 233 zeolite topologies and 921 organic structure-directing agents",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "literature",
+    "properties": [
+      "gel composition",
+      "crystallization temperature",
+      "crystallization time",
+      "aging conditions",
+      "OSDA identity",
+      "IZA framework code"
+    ],
+    "access": "open",
+    "license": "MIT (repository-wide declaration; data-specific licence not separately verified)",
+    "links": {
+      "homepage": "https://github.com/eltonpan/zeosyn_dataset",
+      "data": "https://github.com/eltonpan/zeosyn_dataset/blob/master/dataset/ZEOSYN.xlsx",
+      "paper": "https://doi.org/10.1021/acscentsci.3c01615",
+      "code": "https://github.com/eltonpan/zeosyn_dataset"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/eltonpan/zeosyn_dataset/master/README.md",
+        "title": "ZeoSyn author README",
+        "evidence": "Reports 23961 routes, 233 topologies and 921 OSDAs; identifies source workbook and synthesis fields.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/eltonpan/zeosyn_dataset/master/LICENSE",
+        "title": "ZeoSyn repository licence",
+        "evidence": "Repository declares MIT; no separate dataset-specific licence was located in this bounded audit.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Synthesis routes are not distinct atomic structures or materials.",
+      "Framework codes link products to structural classes; routes do not guarantee unique refined coordinates.",
+      "The collection labels data CC BY; this audit preserves the directly observed repository declaration and the licence uncertainty."
+    ],
+    "tags": [
+      "zeolites",
+      "synthesis",
+      "literature",
+      "collection-blaiszik"
+    ]
+  },
+  {
+    "id": "matsyn25",
+    "name": "Material Synthesis 2025 (MatSyn25)",
+    "category": "experimental_properties",
+    "description": "Automatically extracted two-dimensional-material synthesis procedures with material and process information.",
+    "version": "2025-10-01 author preprint and public data card",
+    "year": 2025,
+    "count": 163240,
+    "count_display": "163,240 pieces of synthesis process information",
+    "count_unit": "synthesis processes",
+    "count_scope": "Author-described extraction from 85160 articles; not a count of unique materials",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "synthesis procedures",
+      "target material identity",
+      "process steps",
+      "conditions"
+    ],
+    "access": "open",
+    "license": "CC BY-NC 4.0",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "data": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "paper": "https://arxiv.org/abs/2510.00776",
+      "code": "https://github.com/MatSynAI/MatSyn25"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2510.00776",
+        "title": "MatSyn25 author preprint",
+        "evidence": "Abstract reports 163240 synthesis processes extracted from 85160 articles.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/MatSynAI/MatSyn25/raw/main/README.md",
+        "title": "MatSyn25 provider data card",
+        "evidence": "Public card explicitly declares cc-by-nc-4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "LLM/text extraction is not independent experimental reproduction.",
+      "Process entries are not distinct crystal structures.",
+      "Noncommercial licence applies; payload completeness was not audited."
+    ],
+    "tags": [
+      "2D",
+      "synthesis",
+      "LLM-extraction",
+      "collection-blaiszik"
+    ]
+  },
+  {
+    "id": "aqcat25",
+    "name": "AQCat25 heterogeneous-catalysis dataset",
+    "category": "surfaces_catalysis",
+    "description": "Spin-aware higher-fidelity DFT catalyst–intermediate data distributed as queryable metadata and ASE archives.",
+    "version": "Provider dataset card, checked 2026-11-01",
+    "year": 2025,
+    "count": 13500000,
+    "count_display": "13.5 million DFT calculation trajectories",
+    "count_unit": "DFT records/frames",
+    "count_scope": "Provider headline wording; approximately 5000 materials and 47000 intermediate–catalyst systems, not 13.5 million unique materials",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "total energy",
+      "adsorption energy",
+      "maximum force",
+      "spin-treatment metadata"
+    ],
+    "access": "registration",
+    "license": "CC BY-NC-SA 4.0",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+      "data": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+      "paper": "https://arxiv.org/abs/2510.22938"
+    },
+    "sources": [
+      {
+        "url": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+        "title": "AQCat25 provider data card",
+        "evidence": "Reports 13.5 million DFT calculation trajectories, about 5K materials and 47K catalyst systems; metadata uses frame_id; file access requires accepting conditions.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Provider headline uses trajectories while metadata is frame-indexed; exact trajectory/frame distinction was not independently reconciled.",
+      "Accepting access conditions is required; raw file retrieval without acceptance returned 401.",
+      "Noncommercial/share-alike licence; commercial arrangements are separate.",
+      "Adsorbate–slab configurations are not bulk-crystal discovery results."
+    ],
+    "tags": [
+      "catalysis",
+      "spin",
+      "gated",
+      "collection-blaiszik"
+    ],
+    "additional_counts": [
+      {
+        "value": 5000,
+        "unit": "materials",
+        "scope": "Approximate provider statement"
+      },
+      {
+        "value": 47000,
+        "unit": "intermediate–catalyst systems",
+        "scope": "Approximate provider statement"
+      }
+    ]
+  },
+  {
+    "id": "ocx24-experimental",
+    "name": "Open Catalyst Experiments 2024 (OCx24) experimental data",
+    "category": "experimental_properties",
+    "description": "Electrocatalyst tests with composition, XRF and XRD phase-matching metadata, linked to a separate computational screening cohort.",
+    "version": "ExpDataDump_241113.csv at fairchem 61266df4188e",
+    "year": 2024,
+    "count": 5412,
+    "count_display": "5,412 raw test rows; 672 distinct sample IDs",
+    "count_unit": "experimental test records",
+    "count_scope": "Directly counted in pinned raw CSV; repeated conditions/reactions/replicates per sample",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "experimental",
+    "properties": [
+      "cell voltage",
+      "current density",
+      "Faradaic efficiency",
+      "composition",
+      "XRF",
+      "XRD phase matches"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data",
+      "data": "https://raw.githubusercontent.com/facebookresearch/fairchem/61266df4188eeca70fc56baebfba8abd74a0c695/src/fairchem/applications/ocx/data/experimental_data/ExpDataDump_241113.csv",
+      "code": "https://github.com/facebookresearch/fairchem"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/61266df4188eeca70fc56baebfba8abd74a0c695/src/fairchem/applications/ocx/data/experimental_data/ExpDataDump_241113.csv",
+        "title": "OCx24 pinned raw experimental CSV",
+        "evidence": "Direct CSV enumeration gives 5412 rows and 672 unique sample id values; SHA-256 saved in receipt.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/src/fairchem/applications/ocx/data/README.md",
+        "title": "OCx24 author data documentation",
+        "evidence": "Defines experimental/XRD/XRF data and separate clean/processed cohorts; computational screening is a separate table.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Raw sample-ID count differs from the collection's 572-sample summary; retain exact cohort and filtering definitions.",
+      "Replicates and test conditions expand row count; rows are not unique compositions.",
+      "XRD phase matches do not establish unique atomic structures for every sample.",
+      "MIT software licence was observed; separate experimental-data reuse licence was not verified."
+    ],
+    "tags": [
+      "electrocatalysis",
+      "XRD-linked",
+      "experiment",
+      "collection-blaiszik"
+    ],
+    "additional_counts": [
+      {
+        "value": 672,
+        "unit": "distinct sample IDs",
+        "scope": "Pinned raw experimental CSV, including all unfiltered samples"
+      }
+    ]
+  }
+]

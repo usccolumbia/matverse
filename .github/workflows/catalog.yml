@@ -16,3 +16,12 @@ jobs:
         run: python scripts/build_catalog.py --check
       - name: Check local links
         run: python scripts/check_local_links.py
+      - name: Verify HTML and source-index generation
+        run: |
+          python scripts/build_site.py --check
+          python scripts/build_sources.py --check
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check search, filters, sorting and exports
+        run: node --test tests/ui.test.cjs

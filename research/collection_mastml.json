@@ -1,0 +1,126 @@
+{
+  "repository": "Machine Learning Materials Datasets / MAST-ML education",
+  "url": "https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254",
+  "revision": "Figshare version5; metadata SHA-256 a89916385075278bdd94780ad0b3eef244e5fdaf184a324001403aa1cf2485b3",
+  "links": [
+    {
+      "label": "README.txt",
+      "url": "https://ndownloader.figshare.com/files/13008500",
+      "section": "Figshare v5 attached files",
+      "scope": "navigation"
+    },
+    {
+      "label": "Dilute_Solute_Diffusion_with_features.csv",
+      "url": "https://ndownloader.figshare.com/files/13007075",
+      "section": "Figshare v5 attached files",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Perovskite_Stability_with_features.csv",
+      "url": "https://ndownloader.figshare.com/files/12978425",
+      "section": "Figshare v5 attached files",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Metallic_Glass_Forming_with_features.csv",
+      "url": "https://ndownloader.figshare.com/files/12978419",
+      "section": "Figshare v5 attached files",
+      "scope": "adjacent"
+    },
+    {
+      "label": "https://www.nature.com/articles/sdata201654",
+      "url": "https://www.nature.com/articles/sdata201654",
+      "section": "Attached README",
+      "scope": "navigation"
+    },
+    {
+      "label": "https://www.sciencedirect.com/science/article/pii/S0927025617301738",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0927025617301738",
+      "section": "Attached README",
+      "scope": "navigation"
+    },
+    {
+      "label": "https://www.sciencedirect.com/science/article/pii/S092702561830274X",
+      "url": "https://www.sciencedirect.com/science/article/pii/S092702561830274X",
+      "section": "Attached README",
+      "scope": "navigation"
+    },
+    {
+      "label": "https://www.sciencedirect.com/science/article/pii/S0022309300000648",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022309300000648",
+      "section": "Attached README",
+      "scope": "navigation"
+    },
+    {
+      "label": "MAST-ML toolkit",
+      "url": "https://github.com/uw-cmg/MAST-ML",
+      "section": "Figshare description",
+      "scope": "navigation"
+    }
+  ],
+  "coverage_notes": [
+    "Extraction boundary: Figshare article metadata v5, its attached README.txt, and metadata-listed file download URLs. CSVs were read only to verify row counts; their cell text was not used to expand links.",
+    "All links means the HTTP/S references in those inspected documents, not all MAST-ML repositories or papers.",
+    "Counts independently parsed after one header row: diffusion408; perovskite1929; metallic glass585. These are educational packaging counts, not new unique crystal structures.",
+    "Metallic-glass data are adjacent, not crystalline structure data. Dataset README bibliography fields are preserved as source links, not treated as independently verified citation metadata."
+  ],
+  "sources": [
+    {
+      "url": "https://api.figshare.com/v2/articles/7017254",
+      "title": "Machine Learning Materials Datasets Figshare v5",
+      "evidence": "Three educational datasets with property labels and descriptors; release is MIT licensed.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/13008500",
+      "title": "Attached dataset README",
+      "evidence": "Explains normalized/raw diffusion energies, perovskite site/composition features and metallic-glass reduced transition temperature.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "response_receipts": [
+    {
+      "url": "https://api.figshare.com/v2/articles/7017254",
+      "final_url": "https://api.figshare.com/v2/articles/7017254",
+      "status": 200,
+      "sha256": "a89916385075278bdd94780ad0b3eef244e5fdaf184a324001403aa1cf2485b3",
+      "bytes": 5158
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/13008500",
+      "redirect_query_omitted": true,
+      "status": 200,
+      "sha256": "f549862c1d7739320d92ce66772cde97c2fc0620a88ac2de22d5bba05e7c4196",
+      "bytes": 6142
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/13008500",
+      "redirect_query_omitted": true,
+      "status": 200,
+      "sha256": "f549862c1d7739320d92ce66772cde97c2fc0620a88ac2de22d5bba05e7c4196",
+      "bytes": 6142
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/13007075",
+      "redirect_query_omitted": true,
+      "status": 200,
+      "sha256": "de66def9d53123d5f2cb27d5c2bd325414b82c4673eeb4b5cc5c6b3b888b04d9",
+      "bytes": 137963
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/12978425",
+      "redirect_query_omitted": true,
+      "status": 200,
+      "sha256": "ff50c0a35e63577b74336280971c808c8fb0fe00b2f008e6d9b5b857fa82f1e0",
+      "bytes": 867014
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/12978419",
+      "redirect_query_omitted": true,
+      "status": 200,
+      "sha256": "b34deadc3618cb7b630959cad51f1b375da8f7fa7bab520d0d2f24607ece392a",
+      "bytes": 159697
+    }
+  ],
+  "readme_url": "https://ndownloader.figshare.com/files/13008500"
+}

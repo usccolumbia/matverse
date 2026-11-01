@@ -1,0 +1,1041 @@
+{
+  "repository": "REMI: REsource for Materials Informatics",
+  "url": "https://pages.nist.gov/remi/",
+  "revision": "596b04435fb577175264a70c4434f5539b809510",
+  "links": [
+    {
+      "label": "Automatminer Basic Tutorial",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/automatminer-nb/automatminer_basic.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Data Retrieval Basics",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/data_retrieval-nb/data_retrieval_basics.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Plot and compare experimental and computational bandgaps",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/data_retrieval-nb/expt_vs_comp_bandgap.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Interacting with Jarvis via MDF Search",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/data_retrieval-nb/jarvis.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Uranium-oxygen bond length analysis using MPDS",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/data_retrieval-nb/mpds.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Visualization using FigRecipes",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/figrecipes-nb/figrecipes_basics.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "navigation"
+    },
+    {
+      "label": "Advanced Visualization using FigRecipes",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/figrecipes-nb/figrecipes_advanced.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Matminer introduction - Predicting bulk modulus",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/bulk_modulus.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Train a Model to Predict Formation Energy using the OQMD",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/formation_e.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Recreating Ling IMMI (2017) - Random Forest with Uncertainty",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/rf-with-uncertainty.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "navigation"
+    },
+    {
+      "label": "Using sklearn Pipeline with matminer",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/sklearn_pipeline.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Using the Crystal Structure Representation of Ward et al. to predict formation enthalpy,using the FLLA dataset.",
+      "url": "https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/voronoi-ward-prb-2017.ipynb",
+      "section": "Homepage instructional resource table / Matminer",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Analyzing data in the JARVIS DFT dataset",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/Analyzing_data_in_the_JARVIS_DFT_dataset.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "BoltzTrap Example",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/BoltztrapExample.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "JARVIS DFT Formation Energies Accuracy Check",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/JARVIS_DFT_FormationEnergiesAccuracyCheck.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "GPU can accelerate model training with respect to CPU using JARVIS-ML CFID dataset",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/JARVIS_ML_LightGBM_GPUvsCPU.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "JARVIS ML TensorFlow Example",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/JARVIS_ML_TensorFlowExample.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "adjacent"
+    },
+    {
+      "label": "JARVIS ML Training GPU",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/JARVIS_ML_TrainingGPU.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "JARVIS Wannier 90 Example",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/JARVIS_Wannier90Example.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Si band structure & density of states",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/Si_bandstructure%26densityof_states.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Simple Machine learning training example with CFID descriptors",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/Simple_Machine_learning_training_example_with_CFID_descriptors.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Simple Silicon atomic structure and analysis example",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/Simple_Silicon_atomic_structure_and_analysis_example.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Python for novice",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/python_beginners_notebook.ipynb",
+      "section": "Homepage instructional resource table / Jarvis",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Introduction",
+      "url": "https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/1-Introduction.ipynb",
+      "section": "Homepage instructional resource table / MDF Forge",
+      "scope": "navigation"
+    },
+    {
+      "label": "Core Query Builder Functions",
+      "url": "https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/2-Core_Query_Builder_Functions.ipynb",
+      "section": "Homepage instructional resource table / MDF Forge",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "General Helper Functions",
+      "url": "https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/4-General_Helper_Functions.ipynb",
+      "section": "Homepage instructional resource table / MDF Forge",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Field Specific Helper Functions",
+      "url": "https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/5-Field-Specific_Helper_Functions.ipynb",
+      "section": "Homepage instructional resource table / MDF Forge",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Data Retrieval Functions",
+      "url": "https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/6-Data_Retrieval_Functions.ipynb",
+      "section": "Homepage instructional resource table / MDF Forge",
+      "scope": "navigation"
+    },
+    {
+      "label": "Band Excitation data processing",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/BE_Processing.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Band Excitation & Contact Kelvin Probe Force Microscopy (cKPFM) data processing",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/BE_Processing_cKPFM.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Band Excitation Relaxation Spectroscopy Data Processing",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/BE_Relaxation%20Processing.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "G-Mode KPFM with Fast Free Force Recovery (F3R)",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/GKPFM_base_notebook.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Static force spectroscopy simulation over a viscoelastic material",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/AFM_simulations/Force_Spectroscopy/Static_Force_Spectroscopy.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Introduction to dynamic AFM simulations",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/AFM_simulations/IntroductionToSimulations/IntroToAFMSimulations.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Dynamic atomic force microscopy simulations over a viscoelastic material",
+      "url": "https://github.com/pycroscopy/pycroscopy/blob/master/jupyter_notebooks/AFM_simulations/Multifrequency_Viscoelasticity/Simulation_SoftMatter.ipynb",
+      "section": "Homepage instructional resource table / pycroscopy",
+      "scope": "adjacent"
+    },
+    {
+      "label": "AFLOW machine learning",
+      "url": "https://colab.research.google.com/drive/1oJa2Qk5HpBPXEoArtJxfz605859MDNCz",
+      "section": "Homepage instructional resource table / AFLOW",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Density of States",
+      "url": "https://plotly.com/python/v3/ipython-notebooks/density-of-states/",
+      "section": "Homepage instructional resource table / Plotly",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "EELS analysis",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/electron_microscopy/EELS/EELS_analysis.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "SEM EDS 4D visualization",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/electron_microscopy/EDS/SEM_EDS_4D_visualisation.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "TEM EDS nanoparticles",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/electron_microscopy/EDS/TEM_EDS_nanoparticles.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Holography",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/electron_microscopy/Holography/Holography.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "Getting Started",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/1_Getting_Started.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "SVD and BSS",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/2_SVD_and_BSS.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Fitting tutorial",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/Fitting_tutorial.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "Online Robust PCA",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/Online_Robust_PCA.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "Working with image data",
+      "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/image_data/working_with_imagedata.ipynb",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Working with image data",
+      "url": "https://github.com/hyperspy/hyperspy-demos/tree/master/image_data",
+      "section": "Homepage instructional resource table / hyperspy",
+      "scope": "navigation"
+    },
+    {
+      "label": "How to extract or plot the NiO band structure from a VASP calculation using pymagen",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Bandstructure%20of%20NiO.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "core functionality of pymatgen,including the core objects representing Elements,Species,Lattices,and Structures",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Basic%20functionality.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "calculate reaction energies using the Materials API and pymatgen",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Calculating%20Reaction%20Energies%20with%20the%20Materials%20API.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "how to plot an XRD plot for the two polymorphs of CsCl ($Pm\\overline{3}m$ and $Fm\\overline{3}m$)",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Calculating%20XRD%20patterns.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "how to obtain an explaination of the different corrections being applied in the Materials Project",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Explanation%20of%20Corrections.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Getting crystal structures from online sources",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Getting%20crystal%20structures%20from%20online%20sources.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "matgen's functionality in terms of creating and editing molecules,as well as its integration with OpenBabel",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Molecule.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ordering of a disordered structure using pymatgen",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Ordering%20Disordered%20Structures.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Plotting and Analyzing a Phase Diagram using the Materials API",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Plotting%20and%20Analyzing%20a%20Phase%20Diagram%20using%20the%20Materials%20API.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Plotting the electronic structure of Fe",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Plotting%20the%20electronic%20structure%20of%20Fe.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Units",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2013-01-01-Units.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Data-driven First Principles Methods for the Study and Design of Alkali Superionic Conductors Part 1 - Structure Generation",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2016-09-08-Data-driven%20First%20Principles%20Methods%20for%20the%20Study%20and%20Design%20of%20Alkali%20Superionic%20Conductors%20Part%201%20-%20Structure%20Generation.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Data-driven First Principles Methods for the Study and Design of Alkali Superionic Conductors Part 2 - Phase and Electrochemical Stability",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2016-09-08-Data-driven%20First%20Principles%20Methods%20for%20the%20Study%20and%20Design%20of%20Alkali%20Superionic%20Conductors%20Part%202%20-%20Phase%20and%20Electrochemical%20Stability.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Data-driven First Principles Methods for the Study and Design of Alkali Superionic Conductors Part 3 - Diffusivity and Ionic Conductivity",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2016-09-08-Data-driven%20First%20Principles%20Methods%20for%20the%20Study%20and%20Design%20of%20Alkali%20Superionic%20Conductors%20Part%203%20-%20Diffusivity%20and%20Ionic%20Conductivity.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "how to use the output from VASP DFPT calculation and the phonopy interface to plot the phonon bandstructure and density of states",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2016-09-25-Plotting%20phonon%20bandstructure%20and%20dos.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "how you can obtain various data from the Materials Project using pymatgen's interface to the Materials API",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-03-02-Getting%20data%20from%20Materials%20Project.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Slab generation and Wulff shape",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-04-03-Slab%20generation%20and%20Wulff%20shape.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Inputs and Analysis of VASP runs",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-04-14-Inputs%20and%20Analysis%20of%20VASP%20runs.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Running Jupyter Notebook on clusters",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-05-11-Running%20Jupyter%20Notebook%20on%20clusters.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Analyze and plot band structures",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-09-03-Analyze%20and%20plot%20band%20structures.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Plotting a Pourbaix Diagram",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2017-12-15-Plotting%20a%20Pourbaix%20Diagram.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ChemEnv - How to automatically identify coordination environments in a structure",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-01-01-ChemEnv%20-%20How%20to%20automatically%20identify%20coordination%20environments%20in%20a%20structure.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Computing the Reaction Diagram between Two Compounds",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-03-09-Computing%20the%20Reaction%20Diagram%20between%20Two%20Compounds.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Plotting COHP from LOBSTER",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-03-14-Plotting%20COHP%20from%20LOBSTER.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Adsorption on solid surfaces",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-07-24-Adsorption%20on%20solid%20surfaces.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Structure Prediction using Pymatgen and the Materials API",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-09-25-Structure%20Prediction%20using%20Pymatgen%20and%20the%20Materials%20API.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Dopant suggestions using Pymatgen",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2018-11-6-Dopant%20suggestions%20using%20Pymatgen.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "How to use Boltztra2 interface",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2019-01-04-How%20to%20use%20Boltztra2%20interface.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "How to plot and evaluate output files from Lobster",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2019-01-11-How%20to%20plot%20and%20evaluate%20output%20files%20from%20Lobster.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Interface Reactions",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2019-03-11-Interface%20Reactions.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "How to plot a Fermi surface",
+      "url": "https://github.com/materialsvirtuallab/matgenb/blob/master/notebooks/2020-07-15-How%20to%20plot%20a%20Fermi%20surface.ipynb",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "How to plot a Fermi surface",
+      "url": "https://github.com/materialsvirtuallab/matgenb/tree/master/notebooks",
+      "section": "Homepage instructional resource table / matgenb",
+      "scope": "navigation"
+    },
+    {
+      "label": "Experimental design with Citrination",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/ExperimentalDesign.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Import Instron",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/ImportInstron.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Citrination t-SNE API",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/TsneDemo.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Citrination t-SNE API",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/tree/master/citrination_api_examples",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Importing data from VASP calculations into Citrination",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/1_ImportVASP.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Working with PIFs",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/2_WorkingWithPIFs.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Introduction to Queries",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/3_IntroQueries.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Machine Learning on Citrination",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/4_MLonCitrination.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Advanced PIF Tutorial",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/AdvancedPif.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Advanced Queries",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_api_examples/tutorial_sequence/AdvancedQueries.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Advanced Queries",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/tree/master/citrination_api_examples/tutorial_sequence",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Citrination Demo on Shape Memory Alloys",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/citrination_ui_examples/JournalPaperToModel.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Citrination Demo on Shape Memory Alloys",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/tree/master/citrination_ui_examples",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Compare Band Gaps From Citrination and Materials Project",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/matminer_examples/BandGapComparisonCitrinationVsMP.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Citrine Data Retrieval Example",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/matminer_examples/DataRetrievalWithMatMiner.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Synthetic Data Demo",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/blob/master/synthetic_data_examples/SyntheticDataDemo.ipynb",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "Synthetic Data Demo",
+      "url": "https://github.com/CitrineInformatics/learn-citrination/tree/master/synthetic_data_examples",
+      "section": "Homepage instructional resource table / Citrine",
+      "scope": "navigation"
+    },
+    {
+      "label": "NANO106 - Symmetry Computations on m3¯¯¯m (Oh) Point Group",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/blob/master/lectures/lecture_4_point_group_symmetry/Symmetry%20Computations%20on%20m-3m%20%28O_h%29%20Point%20Group.ipynb",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NANO106 - Symmetry Computations on mmm(D2h) Point Group",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/blob/master/lectures/lecture_4_point_group_symmetry/Symmetry%20Computations%20on%20mmm%20%28D_2h%29%20Point%20Group.ipynb",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NANO106 - Symmetry Computations on mmm(D2h) Point Group",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/tree/master/lectures/lecture_4_point_group_symmetry/",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Using pymatgen to mine the Materials Project",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/blob/master/lectures/lecture_5_the_230_space_groups/Datamining%20the%20Materials%20Project%20for%20Space%20Group%20statistics.ipynb",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "plot representation quadrics for some rank 2 tensors",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/blob/master/lectures/lecture_10_principal_directions_and_representation_quadrics/Representation_quadrics.ipynb",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "plot an XRD plot for the two polymorphs of CsCl (Pm3¯¯¯m and Fm3¯¯¯m) by computing the structure factors",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/blob/master/lectures/lecture_13_xrd/XRD%20CsCl.ipynb",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "plot an XRD plot for the two polymorphs of CsCl (Pm3¯¯¯m and Fm3¯¯¯m) by computing the structure factors",
+      "url": "https://nbviewer.jupyter.org/github/materialsvirtuallab/nano106/tree/master/lectures/lecture_13_xrd/",
+      "section": "Homepage instructional resource table / MaterialsVirtualLab",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Bayesian Optimization and Regression Analysis for Ferromagnetic Materials",
+      "url": "https://github.com/will-colea/BO_Magnetics",
+      "section": "Homepage instructional resource table / ",
+      "scope": "navigation"
+    },
+    {
+      "label": "issue",
+      "url": "https://github.com/usnistgov/remi/issues",
+      "section": "Repository README / remi",
+      "scope": "navigation"
+    },
+    {
+      "label": "Fe-Co-Ni",
+      "url": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Wang, A., et al. arXiv preprint arXiv:2204.05838 (2022).",
+      "url": "https://arxiv.org/abs/2204.05838",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Yoo, Y. K. et al. Intermetallics 14, 241–247 (2006).",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096697950500186X",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Fe-Ga-Pd",
+      "url": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Kusne, A. G., et al. Nature communications 11.1 (2020): 1-11.",
+      "url": "https://www.nature.com/articles/s41467-020-19597-w",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Long, C. J., et al. Review of Scientific Instruments 78.7 (2007): 072217.",
+      "url": "https://aip.scitation.org/doi/full/10.1063/1.2755487",
+      "section": "Open Access Data list / Combinatorial Library Data",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Materials Resource Registery",
+      "url": "https://materials.registry.nist.gov/",
+      "section": "Open Access Data list / General",
+      "scope": "navigation"
+    },
+    {
+      "label": "Materials Data Facility",
+      "url": "https://www.materialsdatafacility.org/",
+      "section": "Open Access Data list / General",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AFLOW: Automatic FLOW for Materials Discovery",
+      "url": "http://www.aflow.org/",
+      "section": "Open Access Data list / Computation-based",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "JARVIS: Joint Automated Repository for Various Integrated Simulations",
+      "url": "https://jarvis.nist.gov/",
+      "section": "Open Access Data list / Computation-based",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OQMD: Open Quantum Materials Database",
+      "url": "http://oqmd.org/",
+      "section": "Open Access Data list / Computation-based",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Materials Project",
+      "url": "https://materialsproject.org/",
+      "section": "Open Access Data list / Computation-based",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Software Carpentry: Python",
+      "url": "https://swcarpentry.github.io/python-novice-inflammation/",
+      "section": "Learning Resources list / Programming Languages:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Software Carpentry: Plotting and Programming in Python",
+      "url": "http://swcarpentry.github.io/python-novice-gapminder/",
+      "section": "Learning Resources list / Programming Languages:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Software Carpentry: Programming with R",
+      "url": "http://swcarpentry.github.io/r-novice-inflammation/",
+      "section": "Learning Resources list / Programming Languages:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Software Carpentry: R for Reproducible Scientific Analysis",
+      "url": "http://swcarpentry.github.io/r-novice-gapminder/",
+      "section": "Learning Resources list / Programming Languages:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "List of Tutorials",
+      "url": "https://julialang.org/learning/tutorials/",
+      "section": "Learning Resources list / Programming Languages:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Scikit-Learn",
+      "url": "https://scikit-learn.org/stable/",
+      "section": "Learning Resources list / Software Libraries:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Scikit-Image",
+      "url": "https://scikit-image.org/",
+      "section": "Learning Resources list / Software Libraries:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Jupyter Notebooks",
+      "url": "https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/",
+      "section": "Learning Resources list / Notebook Tools:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Pluto Notebooks",
+      "url": "https://juliahub.com/docs/Pluto/OJqMt/0.7.4/",
+      "section": "Learning Resources list / Notebook Tools:",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Materials Data Facility",
+      "url": "https://www.materialsdatafacility.org/",
+      "section": "Learning Resources list / Data Publishing:",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Materials Data Curation System",
+      "url": "https://mdcs.nist.gov/",
+      "section": "Learning Resources list / Data Publishing:",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Git",
+      "url": "http://swcarpentry.github.io/git-novice/",
+      "section": "Learning Resources list / Code handling:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Introduction to Statistical Learning",
+      "url": "http://www-bcf.usc.edu/~gareth/ISL/",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Elements of Statistical Learning",
+      "url": "http://statweb.stanford.edu/~tibs/ElemStatLearn/",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Machine Learning in Materials Science: Recent Progress And Emerging Applications 2016",
+      "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=915933",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Machine Learning for Materials Research Bootcamp and Workshop",
+      "url": "https://www.nanocenter.umd.edu/events/mlmr-2021/",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Practical Deep Learning for Coders",
+      "url": "https://www.fast.ai/",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenDataScience Open Machine Learning Course",
+      "url": "https://mlcourse.ai/",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "DataCamp",
+      "url": "https://www.datacamp.com",
+      "section": "Learning Resources list / Machine Learning:",
+      "scope": "navigation"
+    },
+    {
+      "label": "Open Access Data",
+      "url": "https://pages.nist.gov/remi/data/",
+      "section": "Site navigation",
+      "scope": "navigation"
+    },
+    {
+      "label": "Learning Resources",
+      "url": "https://pages.nist.gov/remi/learn/",
+      "section": "Site navigation",
+      "scope": "navigation"
+    },
+    {
+      "label": "Homepage resource table CSV",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv",
+      "section": "Site source",
+      "scope": "navigation"
+    },
+    {
+      "label": "FeCoNi_benchmark_dataset_220501a.mat",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/FeCoNi_benchmark_dataset_220501a.mat",
+      "section": "Open Access Data / Fe-Co-Ni",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "data description.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/data%20description.txt",
+      "section": "Open Access Data / Fe-Co-Ni",
+      "scope": "navigation"
+    },
+    {
+      "label": "FeGaPd_CMP.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_CMP.txt",
+      "section": "Open Access Data / Fe-Ga-Pd",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "FeGaPd_DFT_regions.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_DFT_regions.txt",
+      "section": "Open Access Data / Fe-Ga-Pd",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "FeGaPd_Mag.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_Mag.txt",
+      "section": "Open Access Data / Fe-Ga-Pd",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "FeGaPd_XRD.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_XRD.txt",
+      "section": "Open Access Data / Fe-Ga-Pd",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "data description.txt",
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/data%20description.txt",
+      "section": "Open Access Data / Fe-Ga-Pd",
+      "scope": "navigation"
+    }
+  ],
+  "coverage_notes": [
+    "Extraction boundary: REMI repository README, homepage index.html and its _data/resources.csv instructional-resource list, directly linked data/index.md and learn/index.md lists, and the two data-library directories/descriptions linked by data/index.md.",
+    "All links means links in those inspected documents and the direct file lists; linked notebooks, papers, external database sites and other REMI directories were not recursively crawled.",
+    "Direct urllib request to the site returned403; public web-tool reading and the owning public GitHub source remained accessible. Source repository is archived; no protection was bypassed.",
+    "The homepage table has 106 listed rows, which are educational resources, not a materials total.",
+    "Directly linked experimental libraries contain921 Fe–Co–Ni and278 Fe–Ga–Pd aligned composition/diffraction/property rows, independently verified from the released files. No atomic-coordinate structures or release-specific data license were found."
+  ],
+  "sources": [
+    {
+      "url": "https://pages.nist.gov/remi/",
+      "title": "REMI public homepage",
+      "evidence": "Pre-alpha instructional notebook platform; homepage table is generated from the repository resource-list CSV.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv",
+      "title": "REMI homepage resource list",
+      "evidence": "Primary CSV provides notebook names, URLs, resource collections and materials/data-science tags.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+      "title": "REMI Open Access Data list",
+      "evidence": "Directly links Fe–Co–Ni and Fe–Ga–Pd combinatorial libraries plus major data portals.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/learn/index.md",
+      "title": "REMI learning resource list",
+      "evidence": "Lists coding, notebook, data-publishing and machine-learning learning resources.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi",
+      "title": "REMI owning repository",
+      "evidence": "Public usnistgov/remi repository uses nist-pages branch and is archived.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "response_receipts": [
+    {
+      "url": "https://pages.nist.gov/remi/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi",
+      "final_url": "https://api.github.com/repos/usnistgov/remi",
+      "status": 200,
+      "sha256": "7a15509185d8e38e8c7b3649225d8c775ecd00fc57713d36504e80a3af6ff714",
+      "bytes": 5893
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi/commits/nist-pages",
+      "final_url": "https://api.github.com/repos/usnistgov/remi/commits/nist-pages",
+      "status": 200,
+      "sha256": "0b4fb4799cba25da12b5e5ee52df2d120a8dd2c288193a77a43a512fe5888726",
+      "bytes": 5447
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi/readme?ref=nist-pages",
+      "final_url": "https://api.github.com/repos/usnistgov/remi/readme?ref=nist-pages",
+      "status": 200,
+      "sha256": "35d348fd252f4b08a07a3f913a4019d48e52a90391d966922f178e95919f6e19",
+      "bytes": 2031
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/index.html",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/index.html",
+      "status": 200,
+      "sha256": "0953ad4d18ba08d55a1e5dace9d5a6b16aefa09894c40bc4aeaabffb7e7076f9",
+      "bytes": 3724
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv",
+      "status": 200,
+      "sha256": "f9b2e873d0e851cd9b1d5c1bc230c779e2b066dd2dd58a4aeb55ed4dced26cb8",
+      "bytes": 27734
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+      "status": 200,
+      "sha256": "7927b34a4db0815830a1b547bca0202d2bbf9da2f13f9c5a829d2437d6b8d1e0",
+      "bytes": 2145
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/learn/index.md",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/learn/index.md",
+      "status": 200,
+      "sha256": "94c48203fa811f9dc2ed06757f1aed24e3a194dc2b74a2745382a08b4761d72f",
+      "bytes": 3117
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi/contents/data/Combinatorial%20Libraries/Fe-Co-Ni?ref=nist-pages",
+      "final_url": "https://api.github.com/repos/usnistgov/remi/contents/data/Combinatorial%20Libraries/Fe-Co-Ni?ref=nist-pages",
+      "status": 200,
+      "sha256": "dfb9f18c07c9583a8800b041113f9a8e14f023d9c675c69ef16c820832999db7",
+      "bytes": 2230
+    },
+    {
+      "url": "https://api.github.com/repos/usnistgov/remi/contents/data/Combinatorial%20Libraries/Fe-Ga-Pd?ref=nist-pages",
+      "final_url": "https://api.github.com/repos/usnistgov/remi/contents/data/Combinatorial%20Libraries/Fe-Ga-Pd?ref=nist-pages",
+      "status": 200,
+      "sha256": "b6ea729cb96c41f8629e11f26353ea0ae23b9c604ee2b5d69c30616f2dc208ef",
+      "bytes": 5166
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/FeCoNi_benchmark_dataset_220501a.mat",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/FeCoNi_benchmark_dataset_220501a.mat",
+      "status": 200,
+      "sha256": "aaee4ddb6cf711e789e1edd6358145746611b273cecf2257699ea057d5feb1dc",
+      "bytes": 289480
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/data%20description.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/data%20description.txt",
+      "status": 200,
+      "sha256": "709b7e7417379a41e0535157a32e60e7fd761d1bf1bef3592e166f3ceeb33e3f",
+      "bytes": 862
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_CMP.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_CMP.txt",
+      "status": 200,
+      "sha256": "6888d23dee27af9f07e071e25e572f4d63b04d8ebb88255a4edb248c356944c8",
+      "bytes": 13639
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_DFT_regions.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_DFT_regions.txt",
+      "status": 200,
+      "sha256": "9839e33415da84f86b746c85d58fb95bb989e378779118a2e3d5e8f851092238",
+      "bytes": 556
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_Mag.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_Mag.txt",
+      "status": 200,
+      "sha256": "b152c0bdc660b3e8ae8ef27bbf0f760d5f1853fdcc1019e7c0098ba22a325df3",
+      "bytes": 2440
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_XRD.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/FeGaPd_XRD.txt",
+      "status": 200,
+      "sha256": "eafe161faf023c0fd822017d8d05c5675e678d0ea52de35aad7e03667d0f0441",
+      "bytes": 1021944
+    },
+    {
+      "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/data%20description.txt",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/data%20description.txt",
+      "status": 200,
+      "sha256": "f6172f0d6bb8e2f190071a2b9884f0e61544eabfbe9fca2cb3287b2a753e3d4a",
+      "bytes": 905
+    }
+  ],
+  "readme_url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/README.md"
+}

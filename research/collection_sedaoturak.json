@@ -1,0 +1,641 @@
+{
+  "repository": "sedaoturak/data-resources-for-materials-science",
+  "url": "https://github.com/sedaoturak/data-resources-for-materials-science",
+  "readme_url": "https://raw.githubusercontent.com/sedaoturak/data-resources-for-materials-science/0df2e06e7caa6a49f807c20a068ce98050a14d13/README.md",
+  "revision": "0df2e06e7caa6a49f807c20a068ce98050a14d13",
+  "links": [
+    {
+      "label": "NIST Materials Genome Initiative (MGI)",
+      "url": "https://www.nist.gov/mgi",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "NIST Materials Data Curation System (Part of MGI)",
+      "url": "https://phasedata.nist.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NIST Materials Data Repository (Part of MGI)",
+      "url": "https://materialsdata.nist.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "MDR NIMS Materials Data Repository",
+      "url": "https://mdr.nims.go.jp/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "The NIMS Materials Database (MatNavi)",
+      "url": "https://mits.nims.go.jp/en/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "The Novel Materials Discovery (NOMAD) Laboratory",
+      "url": "https://nomad-lab.eu/index.php?page=repo-arch",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "notebooks",
+      "url": "https://nomad-lab.eu/aitoolkit",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "The Materials Data Facility (MDF)",
+      "url": "https://materialsdatafacility.org/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "The Joint Automated Repository for Various Integrated Simulations (JARVIS)",
+      "url": "https://jarvis.nist.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Materials Project",
+      "url": "https://materialsproject.org/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Pauling File",
+      "url": "https://paulingfile.com/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MPDS",
+      "url": "https://mpds.io",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NIST Alloy Data",
+      "url": "https://trc.nist.gov/metals_data/",
+      "section": "Databases in Materials Science",
+      "scope": "uncertain"
+    },
+    {
+      "label": "NIST Structural Ceramics Database (SCD) Database",
+      "url": "https://srdata.nist.gov/CeramicDataPortal/scd",
+      "section": "Databases in Materials Science",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Polymer Property Predictor and Database",
+      "url": "https://pppdb.uchicago.edu/",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "NIST Standard Reference Data (SRD)",
+      "url": "https://www.nist.gov/srd/srd-catalog",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "NIST Self-Diffusion Data",
+      "url": "https://www.ctcms.nist.gov/~gkl/selfdiffusion.html",
+      "section": "Databases in Materials Science",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Open Quantum Materials Database (OQMD)",
+      "url": "http://oqmd.org/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Automatic Flow for Materials Discovery (AFLOW)",
+      "url": "http://www.aflowlib.org/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "NRELMatDB",
+      "url": "https://materials.nrel.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "High Throughput Experimental Materials Database (HTEM DB)",
+      "url": "https://htem.nrel.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Matmatch",
+      "url": "https://matmatch.com/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "MatWeb",
+      "url": "http://www.matweb.com/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Materials Cloud",
+      "url": "https://www.materialscloud.org/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Knowledgebase of Interatomic Models (OpenKIM)",
+      "url": "https://openkim.org/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Materials Commons",
+      "url": "https://materialscommons.org/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Crystallography Open Database (COD)",
+      "url": "http://www.crystallography.net/cod/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Organic Materials Database (OMDB)",
+      "url": "https://omdb.mathub.io/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Open Reaction Database (ORD)",
+      "url": "https://open-reaction-database.org",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Polymer Genome",
+      "url": "https://www.polymergenome.org/",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "DoITPoMS Micrograph Library",
+      "url": "https://www.doitpoms.ac.uk/miclib/index.php",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Python for Glass Genomics (PyGGi)",
+      "url": "https://pyggi.iitd.ac.in/",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "The Engineering Toolbox",
+      "url": "https://www.engineeringtoolbox.com/material-properties-t_24.html",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "nanoHUB",
+      "url": "https://nanohub.org/publications/datasets",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "NanoMine",
+      "url": "https://github.com/Duke-MatSci/nanomine",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Topological Quantum Chemistry",
+      "url": "https://www.topologicalquantumchemistry.com/#/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "SciGlass",
+      "url": "https://github.com/epam/SciGlass",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ORNL_AISD-Ex",
+      "url": "https://www.osti.gov/biblio/1907919",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "The Perovskite Database Project",
+      "url": "https://www.perovskitedatabase.com/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Polymer Scholar",
+      "url": "https://polymerscholar.org/",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Computational Materials Repository (CMR)",
+      "url": "https://cmr.fysik.dtu.dk/index.html",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Fatigue Database of AM Alloys2022",
+      "url": "https://figshare.com/articles/dataset/Fatigue_Database_of_Additively_Manufactured_Alloys/22337629",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "DigiMOF",
+      "url": "https://figshare.com/collections/DigiMOF_A_Database_of_Metal_Organic_Framework_Synthesis_Information_Generated_via_Text_Mining/6652495",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OpenDAC",
+      "url": "https://open-dac.github.io/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Catalysis-Hub.org",
+      "url": "https://www.catalysis-hub.org/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Springer Materials",
+      "url": "https://materials.springer.com/",
+      "section": "Databases in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "BEAST DB",
+      "url": "https://beastdb.nrel.gov/",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "COD_HEM",
+      "url": "https://codhem.cecas.clemson.edu/login",
+      "section": "Databases in Materials Science",
+      "scope": "uncertain"
+    },
+    {
+      "label": "COD_HEM associated paper",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0927025624008097",
+      "section": "Databases in Materials Science",
+      "scope": "uncertain"
+    },
+    {
+      "label": "Alexandria Databases",
+      "url": "https://alexandria.icams.rub.de",
+      "section": "Databases in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Stress-Strain Properties Database",
+      "url": "https://github.com/gh-PankajKumar/chemdataextractorv2.3-stresseng",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "ICEM Database",
+      "url": "https://www.innomat.se/icem",
+      "section": "Databases in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Figshare",
+      "url": "https://figshare.com/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Zenodo",
+      "url": "https://zenodo.org/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "NIST Materials Resource Registry",
+      "url": "https://materials.registry.nist.gov/explore/keyword/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Mendeley Data",
+      "url": "https://data.mendeley.com/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Materials Cloud",
+      "url": "https://www.materialscloud.org/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Materials Commons",
+      "url": "https://materialscommons.org/",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "OPoly26",
+      "url": "https://huggingface.co/facebook/OMol25#open-polymers-2026-opoly26-dataset",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OMol25 (The Open Molecules 2025)",
+      "url": "https://huggingface.co/facebook/OMol25",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "OC25 (The Open Catalyst 2025)",
+      "url": "https://huggingface.co/facebook/OC25",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OMat24",
+      "url": "https://fair-chem.github.io/inorganic_materials/datasets/omat24.html",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "OCx24",
+      "url": "https://fair-chem.github.io/catalysts/datasets/ocx24.html",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "ODAC23",
+      "url": "https://fair-chem.github.io/dac/datasets/odac.html",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AQCat25",
+      "url": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "QCML",
+      "url": "https://zenodo.org/records/14859804",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "QM9Star",
+      "url": "https://doi.org/10.6084/m9.figshare.27002905",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Work function and cleavage energy dataset",
+      "url": "https://zenodo.org/records/10703249",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MatPES",
+      "url": "https://matpes.ai/",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MAD-1.5",
+      "url": "https://archive.materialscloud.org/records/18tke-tt476",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MSR-ACC/TAE25",
+      "url": "https://zenodo.org/records/17629321",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MatSyn25",
+      "url": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "AM26",
+      "url": "https://github.com/vldgroup/AM26",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "MOFs_CO2N2O2_ML",
+      "url": "https://github.com/hasancangulbalkan/MOFs_CO2N2O2_ML",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "STEM Bank 26",
+      "url": "https://huggingface.co/buckets/ghollyer/STEM-Bank-26",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "sysTEm",
+      "url": "https://github.com/tankylz/sysTEm_dataset",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Ductile Cast Iron Project",
+      "url": "https://www.ductilecastironproject.com/",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "nanoHUB",
+      "url": "https://nanohub.org/publications/datasets",
+      "section": "Datasets in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "CHiMAD NIST (TDDFT)",
+      "url": "https://acdc.alcf.anl.gov/mdf/detail/kononov_firstprinciples_simulation_graphene_v1.1/",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Mechanical-MNIST",
+      "url": "https://github.com/elejeune11/Mechanical-MNIST",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Elastomeric Foam Materials",
+      "url": "https://acdc.alcf.anl.gov/mdf/detail/foam_db_v1.1/",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Polyinfo",
+      "url": "https://polymer.nims.go.jp/",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "GNoME",
+      "url": "https://github.com/google-deepmind/materials_discovery?tab=readme-ov-file#dataset",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "MP_ALOE",
+      "url": "https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190",
+      "section": "Datasets in Materials Science",
+      "scope": "crystal_related"
+    },
+    {
+      "label": "Peregrine",
+      "url": "https://doi.ccs.ornl.gov/dataset/96b7da99-07e1-562d-88d5-d7e079acfef7",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "BOS-TMC Dataset",
+      "url": "https://zenodo.org/records/19410245",
+      "section": "Datasets in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "Machine Learning Materials Datasets",
+      "url": "https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254",
+      "section": "Toy Datasets for Machine Learning Applications in Materials Science",
+      "scope": "adjacent"
+    },
+    {
+      "label": "JARVIS Materials Design – Tools, Notebooks",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks",
+      "section": "Toy Datasets for Machine Learning Applications in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "Machine Learning Lab Module",
+      "url": "https://nanohub.org/tools/intromllab",
+      "section": "Toy Datasets for Machine Learning Applications in Materials Science",
+      "scope": "navigation"
+    },
+    {
+      "label": "REMI: REsource for Materials Informatics",
+      "url": "https://pages.nist.gov/remi/",
+      "section": "Toy Datasets for Machine Learning Applications in Materials Science",
+      "scope": "navigation"
+    }
+  ],
+  "candidate_datasets": [
+    {
+      "name": "Perovskite Database Project",
+      "url": "https://www.perovskitedatabase.com/",
+      "status": "verified addition proposed",
+      "priority": "high",
+      "reason": "Experimental perovskite solar-cell records and processing/device/property metadata, absent canonical catalog.",
+      "addition_id": "perovskite-solar-cell-database"
+    },
+    {
+      "name": "Work function and cleavage energy dataset",
+      "url": "https://zenodo.org/records/10703249",
+      "status": "verified addition proposed",
+      "priority": "high",
+      "reason": "Explicit DFT surface-configuration release absent canonical catalog.",
+      "addition_id": "work-function-cleavage-surfaces"
+    },
+    {
+      "name": "Topological Quantum Chemistry materials database",
+      "url": "https://www.topologicalquantumchemistry.com/#/",
+      "status": "verified addition proposed",
+      "priority": "high",
+      "reason": "Crystal-structure-linked topological electronic classifications absent canonical catalog.",
+      "addition_id": "tqc-topological-materials-2022"
+    },
+    {
+      "name": "NRELMatDB",
+      "url": "https://materials.nrel.gov/",
+      "status": "verified addition proposed",
+      "priority": "medium",
+      "reason": "Distinct electronic-structure and thermochemistry portal; current access/release must be established.",
+      "addition_id": "nlr-matdb"
+    },
+    {
+      "name": "DigiMOF",
+      "url": "https://figshare.com/collections/DigiMOF_A_Database_of_Metal_Organic_Framework_Synthesis_Information_Generated_via_Text_Mining/6652495",
+      "status": "candidate not independently verified",
+      "priority": "medium",
+      "reason": "MOF synthesis corpus; process records are not independent periodic structures."
+    },
+    {
+      "name": "MOFs_CO2N2O2_ML",
+      "url": "https://github.com/hasancangulbalkan/MOFs_CO2N2O2_ML",
+      "status": "candidate not independently verified",
+      "priority": "medium",
+      "reason": "Adsorption/property release that may reuse counted MOF structures."
+    },
+    {
+      "name": "CHiMAD NIST TDDFT graphene",
+      "url": "https://acdc.alcf.anl.gov/mdf/detail/kononov_firstprinciples_simulation_graphene_v1.1/",
+      "status": "candidate not independently verified",
+      "priority": "medium",
+      "reason": "Irradiated periodic graphene simulation data; MDF parent is already a resource."
+    },
+    {
+      "name": "COD_HEM",
+      "url": "https://codhem.cecas.clemson.edu/login",
+      "status": "candidate not independently verified",
+      "priority": "medium",
+      "reason": "High-entropy materials; login and structure availability require verification."
+    },
+    {
+      "name": "AQCat25",
+      "url": "https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset",
+      "status": "parallel scout verifying",
+      "priority": "high",
+      "reason": "Assigned to experimental_literature scout to avoid duplicate additions."
+    },
+    {
+      "name": "MatSyn25",
+      "url": "https://huggingface.co/datasets/MatSynAI/MatSyn25",
+      "status": "parallel scout verifying",
+      "priority": "high",
+      "reason": "Assigned to experimental_literature scout; source papers and recipes are distinct units."
+    },
+    {
+      "name": "OCx24",
+      "url": "https://fair-chem.github.io/catalysts/datasets/ocx24.html",
+      "status": "parallel scout verifying",
+      "priority": "high",
+      "reason": "Experimental catalyst characterization plus computational labels; other scout covering."
+    }
+  ],
+  "coverage_notes": [
+    "GitHub recursive tree for the default branch contains exactly one tracked file, README.md; no additional in-repository source lists exist.",
+    "Extracted 90 link occurrences and 87 distinct public URLs across Markdown sections; repeated links retain separate section provenance.",
+    "All raw HTTP(S) URL tokens in the README were accounted for by Markdown-link extraction.",
+    "README SHA-256: ce849ca3f98268ab0529c7081e10060c89757a673f2e2185babf388d489e2065. GitHub blob SHA: 63e7676bdd45169a66e8cba38d6acf9008ccf67d.",
+    "Collection descriptions and historic counts are discovery leads, not independently verified dataset metadata.",
+    "Scope labels preserve isolated-molecule, polymer, amorphous, microscopy, processing and navigation links without automatically ranking them as crystal datasets.",
+    "Canonical comparison performed against data/datasets.json (115 rows) and data/resources.json (27 resources), snapshot during this audit.",
+    "Verified additions are provided in research/collection_sedaoturak_additions.json. Work-function data have a CC BY-NC restriction; perovskite devices carry CC BY 4.0; TQC underlying ICSD-coordinate rights are not assumed."
+  ]
+}

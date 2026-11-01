@@ -1,0 +1,240 @@
+[
+  {
+    "id": "mastml-dilute-diffusion-education",
+    "name": "MAST-ML dilute-solute diffusion educational slice",
+    "category": "property_benchmarks",
+    "description": "DFT dilute-solute diffusion barriers in host crystals, packaged with host/solute elemental descriptors for teaching.",
+    "version": "Figshare7017254 v5, 2018-09-11",
+    "year": 2018,
+    "count": 408,
+    "count_display": "408",
+    "count_unit": "host–solute feature/property rows",
+    "count_scope": "Educational Figshare v5 CSV, excluding header; independently parsed408 rows.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "computed",
+    "properties": [
+      "normalized activation energy",
+      "raw activation energy",
+      "host and solute composition",
+      "elemental descriptors"
+    ],
+    "access": "open",
+    "license": "MIT",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254",
+      "data": "https://ndownloader.figshare.com/files/13007075",
+      "paper": "https://doi.org/10.1038/sdata.2016.54"
+    },
+    "sources": [
+      {
+        "url": "https://api.figshare.com/v2/articles/7017254",
+        "title": "MAST-ML educational release metadata",
+        "evidence": "v5 package declares MIT licensing and identifies the diffusion CSV as DFT-based.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/13008500",
+        "title": "Educational dataset README",
+        "evidence": "Defines normalization relative to host self diffusion and a separate raw-energy target.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/13007075",
+        "title": "Official diffusion educational CSV",
+        "evidence": "Independent parse gives408 non-header data rows; source SHA-256 retained in collection inventory.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Educational packaging derived from a prior diffusion corpus; do not add it to the parent as unique new materials.",
+      "Host/solute identities and descriptors are provided; periodic coordinates are absent.",
+      "Normalized and raw activation energies are different targets."
+    ],
+    "tags": [
+      "education",
+      "diffusion",
+      "derived",
+      "composition-only"
+    ]
+  },
+  {
+    "id": "mastml-perovskite-education",
+    "name": "MAST-ML perovskite stability educational slice",
+    "category": "property_benchmarks",
+    "description": "Perovskite-oxide composition and crystallographic site identities paired with DFT stability/property labels and descriptors.",
+    "version": "Figshare7017254 v5, 2018-09-11",
+    "year": 2018,
+    "count": 1929,
+    "count_display": "1,929",
+    "count_unit": "perovskite composition/feature rows",
+    "count_scope": "Educational Figshare v5 CSV, excluding header; independently parsed1929 rows.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "computed",
+    "properties": [
+      "energy above hull",
+      "formation energy",
+      "A/B/X site identities",
+      "elemental descriptors"
+    ],
+    "access": "open",
+    "license": "MIT",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254",
+      "data": "https://ndownloader.figshare.com/files/12978425",
+      "paper": "https://doi.org/10.1016/j.commatsci.2018.04.033"
+    },
+    "sources": [
+      {
+        "url": "https://api.figshare.com/v2/articles/7017254",
+        "title": "MAST-ML educational release metadata",
+        "evidence": "v5 declares MIT licensing and identifies the perovskite CSV as DFT stability data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/13008500",
+        "title": "Educational dataset README",
+        "evidence": "Defines energy-above-hull and formation-energy targets and site-based elemental descriptors.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/12978425",
+        "title": "Official perovskite educational CSV",
+        "evidence": "Independent parse gives1929 non-header data rows; payload hash retained.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "No complete periodic atomic coordinates are present.",
+      "Educational slice and source-study dataset may have different denominators; this is explicitly the packaged row count.",
+      "Computed convex-hull distance is a screening measure, not experimental proof of synthesis or finite-temperature stability."
+    ],
+    "tags": [
+      "education",
+      "perovskite",
+      "DFT",
+      "composition-only"
+    ]
+  },
+  {
+    "id": "remi-fe-co-ni-combinatorial",
+    "name": "REMI Fe-Co-Ni combinatorial library",
+    "category": "diffraction_spectroscopy",
+    "description": "Experimental composition-spread alloy library with aligned X-ray diffraction and magnetic measurements.",
+    "version": "REMI nist-pages source snapshot2026-11-01",
+    "year": 2022,
+    "count": 921,
+    "count_display": "921",
+    "count_unit": "composition-spread sample points",
+    "count_scope": "Released REMI library files at nist-pages commit 596b04435fb577175264a70c4434f5539b809510",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "composition",
+      "X-ray diffraction",
+      "magnetic coercivity",
+      "Kerr rotation"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://pages.nist.gov/remi/data/",
+      "data": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni",
+      "paper": "https://arxiv.org/abs/2204.05838"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+        "title": "REMI direct data list",
+        "evidence": "Identifies this library as composition-spread data for discovery/optimization benchmarking.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/data%20description.txt",
+        "title": "Library data description",
+        "evidence": "Documents sample-wise correspondence of composition, diffraction and magnetic measurements.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni",
+        "title": "Official release files",
+        "evidence": "MATLAB arrays C(921,3), XRD(921,89), Coer(921,1), Kerr(921,1) align across921 samples.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Sample points are not unique fully solved atomic crystal structures; atomic coordinates are absent.",
+      "Combinatorial alloy phases can include mixtures or amorphous regions; the crystalline state is not uniform across the library.",
+      "Release-specific data license was not verified; a general NIST/software license is not silently assigned.",
+      "Shared source experiments may appear in later active-learning studies; benchmark versions must preserve their provenance."
+    ],
+    "tags": [
+      "experimental",
+      "combinatorial-library",
+      "diffraction",
+      "composition-only"
+    ]
+  },
+  {
+    "id": "remi-fe-ga-pd-combinatorial",
+    "name": "REMI Fe-Ga-Pd combinatorial library",
+    "category": "diffraction_spectroscopy",
+    "description": "Composition-spread alloy library combining measured diffraction/magnetic response with computed phase-region labels.",
+    "version": "REMI nist-pages source snapshot2026-11-01",
+    "year": 2020,
+    "count": 278,
+    "count_display": "278",
+    "count_unit": "composition-spread sample points",
+    "count_scope": "Released REMI library files at nist-pages commit 596b04435fb577175264a70c4434f5539b809510",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "composition",
+      "X-ray diffraction",
+      "SQUID voltage",
+      "computed DFT phase-region label"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://pages.nist.gov/remi/data/",
+      "data": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd",
+      "paper": "https://doi.org/10.1038/s41467-020-19597-w"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md",
+        "title": "REMI direct data list",
+        "evidence": "Identifies this library as composition-spread data for discovery/optimization benchmarking.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/data%20description.txt",
+        "title": "Library data description",
+        "evidence": "Documents sample-wise correspondence of composition, diffraction and magnetic measurements.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd",
+        "title": "Official release files",
+        "evidence": "Composition(278,3), XRD(278,551), magnetic(278,2), DFT label(278,) arrays align across278 samples.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Sample points are not unique fully solved atomic crystal structures; atomic coordinates are absent.",
+      "Combinatorial alloy phases can include mixtures or amorphous regions; the crystalline state is not uniform across the library.",
+      "Release-specific data license was not verified; a general NIST/software license is not silently assigned.",
+      "Shared source experiments may appear in later active-learning studies; benchmark versions must preserve their provenance."
+    ],
+    "tags": [
+      "experimental",
+      "combinatorial-library",
+      "diffraction",
+      "composition-only"
+    ]
+  }
+]

@@ -249,3 +249,36 @@ Reproducible DFT geometries seeded from experimental crystallography with comple
 - Computed relaxed coordinates derived from experimental sources; not new experimental measurements.
 
 **Tags:** None assigned.
+
+<a id="nlr-matdb"></a>
+## NLR MatDB (formerly NRELMatDB)
+
+Computational database for renewable-energy materials with relaxed crystal structures, formation thermochemistry and GW electronic/optical properties.
+
+**Size:** Unranked materials (source wording: Not verified).
+
+**Scope:** No current numeric release size was verified from the official portal
+
+**Release:** Official portal snapshot checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** DFT GGA+U relaxed crystal structure; formation enthalpy; chemical-potential stability range; decomposition enthalpy; GW band gap; dielectric function; absorption spectrum.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://materials.nlr.gov/) · [data](https://materials.nlr.gov/) · [paper](https://doi.org/10.1103/PhysRevB.85.115104) · [code](https://github.com/pylada/pylada-light)
+
+**Evidence:**
+
+- [NLR MatDB official portal](https://materials.nlr.gov/) (checked 2026-11-01): Current provider describes stoichiometric fully ordered materials, DFT-relaxed structures, thermochemistry and GW electronic data, with methodology citations.
+- [NLR MatDB help](https://materials.nlr.gov/help) (checked 2026-11-01): Identifies the current computational materials database, its institutional team and photovoltaic-materials discovery scope.
+
+**Reuse and interpretation notes:**
+
+- Old collection URL materials.nrel.gov returned an error; the current official service is materials.nlr.gov.
+- Count and explicit dataset license remain unverified.
+- Planned defect and surface properties listed on the homepage are not treated as released data.
+- The cited formation-energy methodology paper is not a complete frozen dataset descriptor.
+
+**Tags:** renewable energy, electronic structure, GW, thermochemistry, NREL, NLR, collection:sedaoturak.

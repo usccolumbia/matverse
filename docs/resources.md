@@ -16,14 +16,18 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | [Digital Catalysis Platform (DigCat)](https://www.digcat.org/) | database_portal | Experimental-performance and computational-structure platform. Provider page currently reports >0.4M experimental and >0.4M computational records; a 2024 author preprint reports >400k performance records and >300k structures. Counts are version-dependent and not a unique-material ranking; bulk data license not verified. |
 | [MOFX-DB](https://mof.tech.northwestern.edu/) | database_portal | Adsorption-data portal aggregating experimental and hypothetical MOFs, COFs and zeolites. Source datasets overlap CoRE, hMOF, ToBaCCo and IZA; portal totals are not additional unique structures. |
 | [NIMS MatNavi](https://mits.nims.go.jp/en/) | database_portal | Registered browsing across inorganic, metallic, thermophysical and other materials databases; mass downloading and scraping prohibited. |
+| [Data Resources for Materials Science](https://github.com/sedaoturak/data-resources-for-materials-science) | dataset collection | User-supplied dataset/resource collection. All inspected document links, scope labels and revision provenance are preserved in sources.md; linked dataset counts require their own primary evidence. |
 | [ColabFit Exchange](https://materials.colabfit.org/) | dataset exchange | Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains. |
 | [Matbench Discovery data sets](https://matbench-discovery.materialsproject.org/data/sets) | dataset registry and benchmark | Registry of model training/reference/test datasets and a discovery-style stability benchmark. User-nominated page returned HTTP 403; its first-party GitHub registry and WBM documentation were used. |
 | [NIMS MatDaCs](https://mat-dacs.dxmt.nims.go.jp/en/) | dataset_discovery_catalog | Discovery catalogue for materials databases and computational tools, including provider links and openness notes. |
 | [Digital Hydrogen-S](https://digital-hydrogen.com/storage) | dataset_portal_pending_primary_verification | Solid-state hydrogen-storage data portal identified in the supplied review. Primary paper exists; primary content and current portal totals could not be independently inspected. |
 | [SevenNet-Omni domain bridging set](https://doi.org/10.6084/m9.figshare.30399814) | domain bridging data | Primary paper makes the bridging DFT data available through this deposit. Distinguish recomputed bridging structures from the 15 overlapping source datasets and their mixed-domain frame total. |
+| [Machine Learning Materials Datasets / MAST-ML education](https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254) | educational dataset collection | Three MIT-licensed educational tables for MAST-ML: dilute-solute diffusion, perovskite stability and adjacent metallic-glass properties. Feature rows have no atomic coordinates; source families and packaging must remain distinct. |
 | [LeMaterial Atompack](https://huggingface.co/datasets/LeMaterial/Atompack) | format mirror | Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets. |
 | [Awesome Materials & Chemistry Datasets](https://github.com/blaiszik/awesome-matchem-datasets) | github_collection | Broad discovery list of materials and chemistry datasets; verify each numerical claim at the originating repository. |
 | [matminer dataset collection](https://github.com/hackingmaterials/matminer) | github_collection | Python loaders and dataset metadata for community materials datasets; retain original dataset citations and licences. |
+| [REMI: REsource for Materials Informatics](https://pages.nist.gov/remi/) | instructional resource and dataset directory | NIST pre-alpha notebook/resource index with tagged tutorials, learning resources and directly linked experimental combinatorial libraries. Owning GitHub repository is archived; directory entries are not additive datasets. |
+| [nanoHUB Machine Learning Lab Module](https://nanohub.org/tools/intromllab) | interactive educational module | Version1.7 introductory materials-ML notebook and teaching module. Public descriptions/supporting-document list are readable; running the tool requires login. Program license is GPL3-or-later; example-data rights require separate checking. |
 | [OPTIMADE](https://www.optimade.org/) | interoperability API | Common API specification for querying structure providers; a federation/interface, not an additional independent dataset. |
 | [Scientific Data materials Data Descriptors](https://www.nature.com/sdata/collections?page=3&type=collection) | journal_collection | Journal descriptors are discovery/provenance documents; linked external repositories hold the actual data. |
 | [CatApp](https://cmr.fysik.dtu.dk/catapp/catapp.html) | legacy_property_database | Legacy reaction/activation-energy table for elementary surface reactions. The ~3,000-reaction scale is historical; CatApp does not supply detailed atomic geometries, so it is a navigation/property resource. |
@@ -32,6 +36,7 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | [Materials Cloud Archive](https://archive.materialscloud.org/) | repository platform | Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license. |
 | [Materials Data Facility](https://materialsdatafacility.org/) | repository platform | Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals. |
 | [NOMAD Repository and Archive](https://nomad-lab.eu/) | repository platform | Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals. |
+| [JARVIS-Tools Notebooks](https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks) | tools and notebook collection | Archived tutorial repository for electronic structure, force fields, AI and experiments; directs continued development to atomgptlab/jarvis-tools-notebooks. Inventoried README links are navigation resources, not extra dataset counts. |
 | [MatterGen MP-20 reprocessed release](https://github.com/microsoft/mattergen/tree/main/data-release/mp-20) | versioned benchmark derivative | PBE-recomputed and element-filtered MP-20 derivative with its own distributed files; keep separate provenance from CDVAE MP-20. Exact file-row count was not verified, so not added as an independently sized dataset. |
 
 ## Evidence
@@ -61,6 +66,10 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [ColabFit Exchange](https://materials.colabfit.org/) (2026-11-01): Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.
 
+### Data Resources for Materials Science
+
+- [Data Resources for Materials Science](https://github.com/sedaoturak/data-resources-for-materials-science) (2026-11-01): Inspected the complete README source and extracted public links by section; adjacent and uncertain links remain labeled in the inventory.
+
 ### Digital Catalysis Platform (DigCat)
 
 - [DigCat provider laboratory page](https://www.li-lab-cat-design.com/code--database.html) (2026-11-01): Provider reports >0.4 million experimental data and >0.4 million computational data and identifies the current platform/publication.
@@ -70,6 +79,10 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [Crossref publisher-deposited Digital Hydrogen-S metadata](https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434) (2026-11-01): Confirms author paper title, DOI and Elsevier PII S0360319926000716; does not verify database counts.
 
+### JARVIS-Tools Notebooks
+
+- [Requested notebook README](https://raw.githubusercontent.com/JARVIS-Materials-Design/jarvis-tools-notebooks/master/README.md) (2026-11-01): Lists subject-grouped materials design tutorials and its explicitly linked successor.
+
 ### LeMat-GenBench
 
 - [LeMat-GenBench official README](https://raw.githubusercontent.com/LeMaterial/lemat-genbench/main/README.md) (2026-11-01): Defines benchmark families, LeMat-Bulk novelty reference, input formats and comprehensive_multi_mlip_hull configuration.
@@ -77,6 +90,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### LeMaterial Atompack
 
 - [LeMaterial Atompack](https://huggingface.co/datasets/LeMaterial/Atompack) (2026-11-01): Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets.
+
+### Machine Learning Materials Datasets / MAST-ML education
+
+- [Machine Learning Materials Datasets Figshare v5](https://api.figshare.com/v2/articles/7017254) (2026-11-01): Three educational datasets with property labels and descriptors; release is MIT licensed.
+- [Attached dataset README](https://ndownloader.figshare.com/files/13008500) (2026-11-01): Explains normalized/raw diffusion energies, perovskite site/composition features and metallic-glass reduced transition temperature.
 
 ### Matbench Discovery data sets
 
@@ -116,6 +134,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [MOFX-DB primary descriptor](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=931567) (2026-11-01): Describes computational adsorption datasets across multiple source families and thermodynamic conditions.
 
+### nanoHUB Machine Learning Lab Module
+
+- [Public module page](https://nanohub.org/tools/intromllab) (2026-11-01): Public activity description identifies version1.7 and states login is required to run.
+- [Tool license page](https://nanohub.org/resources/license?tool=intromllab_r36&tmpl=component) (2026-11-01): Program is GPL version3-or-later.
+
 ### NIMS MatDaCs
 
 - [NIMS MatDaCs: COD](https://mat-dacs.dxmt.nims.go.jp/en/list/350) (2026-11-01): Provider catalogue entry gives COD description and official link.
@@ -136,6 +159,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### OPTIMADE
 
 - [OPTIMADE](https://www.optimade.org/) (2026-11-01): Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.
+
+### REMI: REsource for Materials Informatics
+
+- [Primary resource CSV](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv) (2026-11-01): Homepage table lists instructional notebook resources and tags.
+- [Open Access Data list](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md) (2026-11-01): Links experimental Fe–Co–Ni/Fe–Ga–Pd composition-spread data and major material databases.
 
 ### Scientific Data materials Data Descriptors
 

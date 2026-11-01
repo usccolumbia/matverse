@@ -130,6 +130,74 @@ Open Raman spectra collection interconnected with crystallographic records.
 
 **Tags:** Raman, CC0, structure-linked.
 
+<a id="remi-fe-co-ni-combinatorial"></a>
+## REMI Fe-Co-Ni combinatorial library
+
+Experimental composition-spread alloy library with aligned X-ray diffraction and magnetic measurements.
+
+**Size:** 921 composition-spread sample points (source wording: 921).
+
+**Scope:** Released REMI library files at nist-pages commit 596b04435fb577175264a70c4434f5539b809510
+
+**Release:** REMI nist-pages source snapshot2026-11-01. **Year:** 2022.
+
+**Provenance:** experimental. **Structure availability:** `composition_only`.
+
+**Labels/content:** composition; X-ray diffraction; magnetic coercivity; Kerr rotation.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://pages.nist.gov/remi/data/) · [data](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni) · [paper](https://arxiv.org/abs/2204.05838)
+
+**Evidence:**
+
+- [REMI direct data list](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md) (checked 2026-11-01): Identifies this library as composition-spread data for discovery/optimization benchmarking.
+- [Library data description](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni/data%20description.txt) (checked 2026-11-01): Documents sample-wise correspondence of composition, diffraction and magnetic measurements.
+- [Official release files](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni) (checked 2026-11-01): MATLAB arrays C(921,3), XRD(921,89), Coer(921,1), Kerr(921,1) align across921 samples.
+
+**Reuse and interpretation notes:**
+
+- Sample points are not unique fully solved atomic crystal structures; atomic coordinates are absent.
+- Combinatorial alloy phases can include mixtures or amorphous regions; the crystalline state is not uniform across the library.
+- Release-specific data license was not verified; a general NIST/software license is not silently assigned.
+- Shared source experiments may appear in later active-learning studies; benchmark versions must preserve their provenance.
+
+**Tags:** experimental, combinatorial-library, diffraction, composition-only.
+
+<a id="remi-fe-ga-pd-combinatorial"></a>
+## REMI Fe-Ga-Pd combinatorial library
+
+Composition-spread alloy library combining measured diffraction/magnetic response with computed phase-region labels.
+
+**Size:** 278 composition-spread sample points (source wording: 278).
+
+**Scope:** Released REMI library files at nist-pages commit 596b04435fb577175264a70c4434f5539b809510
+
+**Release:** REMI nist-pages source snapshot2026-11-01. **Year:** 2020.
+
+**Provenance:** mixed. **Structure availability:** `composition_only`.
+
+**Labels/content:** composition; X-ray diffraction; SQUID voltage; computed DFT phase-region label.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://pages.nist.gov/remi/data/) · [data](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd) · [paper](https://doi.org/10.1038/s41467-020-19597-w)
+
+**Evidence:**
+
+- [REMI direct data list](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md) (checked 2026-11-01): Identifies this library as composition-spread data for discovery/optimization benchmarking.
+- [Library data description](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd/data%20description.txt) (checked 2026-11-01): Documents sample-wise correspondence of composition, diffraction and magnetic measurements.
+- [Official release files](https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Ga-Pd) (checked 2026-11-01): Composition(278,3), XRD(278,551), magnetic(278,2), DFT label(278,) arrays align across278 samples.
+
+**Reuse and interpretation notes:**
+
+- Sample points are not unique fully solved atomic crystal structures; atomic coordinates are absent.
+- Combinatorial alloy phases can include mixtures or amorphous regions; the crystalline state is not uniform across the library.
+- Release-specific data license was not verified; a general NIST/software license is not silently assigned.
+- Shared source experiments may appear in later active-learning studies; benchmark versions must preserve their provenance.
+
+**Tags:** experimental, combinatorial-library, diffraction, composition-only.
+
 <a id="rruff"></a>
 ## RRUFF mineral spectroscopy and diffraction
 

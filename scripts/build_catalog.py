@@ -10,7 +10,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qsl
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-11-01'
@@ -40,7 +40,8 @@ def order(d):
 
 def url_ok(s):
     p = urlparse(s)
-    return p.scheme in {'https', 'http'} and bool(p.netloc) and not p.username and not p.password
+    sensitive = any(k.lower().startswith('x-amz-') or k.lower() in {'access_token', 'token', 'api_key', 'apikey', 'password', 'authorization', 'signature'} for k, v in parse_qsl(p.query))
+    return p.scheme in {'https', 'http'} and bool(p.netloc) and not p.username and not p.password and not sensitive
 
 
 def validate(data, resources):
@@ -72,6 +73,7 @@ def validate(data, resources):
     for r in resources:
         assert all(r.get(k) for k in ['name', 'url', 'kind', 'description', 'sources']), r
         assert url_ok(r['url']), r
+        assert all(url_ok(s['url']) and s['title'] and s['evidence'] for s in r['sources']), r['name']
     return ids
 
 

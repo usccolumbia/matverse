@@ -7,9 +7,10 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 checked = 0
-for path in [ROOT / 'README.md', ROOT / 'CONTRIBUTING.md', *sorted((ROOT / 'docs').rglob('*.md'))]:
+for path in [ROOT / 'README.md', ROOT / 'CONTRIBUTING.md', ROOT / 'sources.md', *sorted((ROOT / 'docs').rglob('*.md'))]:
     body = path.read_text()
     for target in re.findall(r'\]\(([^)]+)\)', body):
+        target = target.strip('<>')
         if urlparse(target).scheme or target.startswith('mailto:'):
             continue
         dest, _, anchor = target.partition('#')

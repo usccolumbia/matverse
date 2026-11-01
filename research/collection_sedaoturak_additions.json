@@ -1,0 +1,255 @@
+{
+  "datasets": [
+    {
+      "id": "work-function-cleavage-surfaces",
+      "name": "Work function and cleavage energy surface database",
+      "category": "surfaces_catalysis",
+      "description": "High-throughput DFT work functions and cleavage energies for crystal-surface slabs, with structures, orientations, terminations and calculation metadata.",
+      "version": "Zenodo v2.1, February 2024",
+      "year": 2024,
+      "count": 58332,
+      "count_display": "58,332 unrelaxed surface records; separate selected relaxed subset of 90",
+      "count_unit": "surface configuration records",
+      "count_scope": "WF-CE_database_58332.json; the 90 relaxed extreme-work-function records are an overlapping follow-up subset",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "work function",
+        "cleavage energy",
+        "slab atomic structure",
+        "Miller index",
+        "surface termination",
+        "DFT total energy"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution Non Commercial 4.0 International (CC BY-NC 4.0)",
+      "links": {
+        "homepage": "https://zenodo.org/records/10703249",
+        "data": "https://doi.org/10.5281/zenodo.10703249",
+        "paper": "https://doi.org/10.1002/adfm.202401764"
+      },
+      "sources": [
+        {
+          "url": "https://zenodo.org/records/10703249",
+          "title": "Work Function and Cleavage Energy Database",
+          "evidence": "Release describes 58,332 unrelaxed slab records, 90 selected relaxed records, and per-record slab geometries with MP IDs.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/api/records/10703249",
+          "title": "Zenodo release metadata",
+          "evidence": "Version 2.1 metadata identifies CC BY-NC 4.0 licensing.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Configurations are surface orientation/termination slabs, not 58,332 distinct bulk compounds.",
+        "Most records are unrelaxed slabs; 90 selected low/high-work-function slabs were ionically relaxed.",
+        "Surface parent materials overlap Materials Project; follow-up relaxed records must not be added as independent materials.",
+        "The non-commercial restriction matters for reuse."
+      ],
+      "tags": [
+        "surfaces",
+        "work function",
+        "cleavage energy",
+        "Materials Project derivative",
+        "collection:sedaoturak"
+      ]
+    },
+    {
+      "id": "perovskite-solar-cell-database",
+      "name": "Perovskite Database Project (solar cells)",
+      "category": "experimental_properties",
+      "description": "Literature-curated metal-halide perovskite solar-cell devices, linking compositions, device stacks, synthesis, performance and bibliographic provenance.",
+      "version": "2021 publication historical corpus; current hosting migrated to NOMAD by 2026",
+      "year": 2021,
+      "count": 42400,
+      "count_display": "over 42,400 devices in the publication corpus",
+      "count_unit": "device records",
+      "count_scope": "Historical Nature Energy release extracted from literature published through February 2020; not a current device-total assertion",
+      "count_precision": "lower_bound",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "perovskite composition",
+        "device stack",
+        "processing conditions",
+        "power conversion efficiency",
+        "current-voltage metrics",
+        "quantum efficiency",
+        "stability",
+        "publication DOI"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International (data, unless otherwise noted); MIT (code)",
+      "links": {
+        "homepage": "https://www.perovskitedatabase.com/",
+        "data": "https://nomad-lab.eu/prod/v1/gui/search/perovskite-solar-cells-database",
+        "paper": "https://doi.org/10.1038/s41560-021-00941-3",
+        "code": "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41560-021-00941-3",
+          "title": "An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles",
+          "evidence": "Methods reports manual extraction of over 42,400 devices through February 2020; records describe device/process/performance attributes and DOI links.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.perovskitedatabase.com/",
+          "title": "Perovskite Database official project page",
+          "evidence": "Official page states hosting migrated from MaterialsZone to NOMAD after the 2020–2026 period and links the current database and code.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.perovskitedatabase.com/how-to-cite/",
+          "title": "Perovskite Database license",
+          "evidence": "Unless otherwise noted, database data are CC BY 4.0 and code MIT.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Device records are not independent crystal structures or unique perovskite compositions.",
+        "Atomic coordinates are not a required input; the catalogue row is composition/process/property context.",
+        "If only averaged device measurements were available, the original curation could represent those as one entry and record the number averaged.",
+        "The paper appeared online in 2021 and in Nature Energy volume 7 (2022); the count is historical.",
+        "The collection’s old MaterialsZone access route has been superseded by the official NOMAD migration."
+      ],
+      "tags": [
+        "perovskite",
+        "photovoltaic",
+        "solar cell",
+        "experimental",
+        "literature",
+        "NOMAD",
+        "collection:sedaoturak"
+      ]
+    },
+    {
+      "id": "tqc-topological-materials-2022",
+      "name": "Topological Quantum Chemistry all-band materials catalog",
+      "category": "property_benchmarks",
+      "description": "DFT and symmetry-based catalog of stable and fragile electronic band topology in nonmagnetic stoichiometric ICSD entries.",
+      "version": "Science 2022 / arXiv 2105.09954v2 publication cohort",
+      "year": 2022,
+      "count": 96196,
+      "count_display": "96,196 processable ICSD entries",
+      "count_unit": "ICSD structure entries",
+      "count_scope": "Historical 2022 all-band topological classification cohort; the count is processable ICSD entries, not unique formulas or exclusively topological materials",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "computed",
+      "properties": [
+        "electronic band structure",
+        "symmetry representations",
+        "stable topology",
+        "fragile topology",
+        "Fermi-level topology"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.topologicalquantumchemistry.com/",
+        "data": "https://www.topologicalquantumchemistry.fr/",
+        "paper": "https://doi.org/10.1126/science.abg9094"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2105.09954",
+          "title": "All Topological Bands of All Nonmagnetic Stoichiometric Materials",
+          "evidence": "Authors report a publicly accessible all-band topology catalog for 96,196 processable ICSD entries; the abstract provides official portal and mirror links.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://arxiv.org/html/2105.09954v2",
+          "title": "All Topological Bands, full author manuscript",
+          "evidence": "Workflow filters ICSD entries for stoichiometry and valid atomic coordinates and calculates symmetry-indicated band topology by DFT.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "This is an ICSD-derived property cohort and overlaps experimental crystal-structure databases.",
+        "The 96,196 entries include both topological and trivial classifications; they are not 96,196 topological discoveries.",
+        "Public classification access does not establish unrestricted redistribution rights to underlying ICSD coordinates.",
+        "Primary portal timed out during this audit; scope and count are verified from the authors’ paper, and current portal availability is not confirmed.",
+        "Nonmagnetic and stoichiometric scope omits disordered and magnetic materials."
+      ],
+      "tags": [
+        "topological materials",
+        "electronic structure",
+        "TQC",
+        "ICSD derivative",
+        "historical cohort",
+        "collection:sedaoturak"
+      ]
+    },
+    {
+      "id": "nlr-matdb",
+      "name": "NLR MatDB (formerly NRELMatDB)",
+      "category": "bulk_computed",
+      "description": "Computational database for renewable-energy materials with relaxed crystal structures, formation thermochemistry and GW electronic/optical properties.",
+      "version": "Official portal snapshot checked 2026-11-01",
+      "year": null,
+      "count": null,
+      "count_display": "Not verified",
+      "count_unit": "materials",
+      "count_scope": "No current numeric release size was verified from the official portal",
+      "count_precision": "unknown",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "DFT GGA+U relaxed crystal structure",
+        "formation enthalpy",
+        "chemical-potential stability range",
+        "decomposition enthalpy",
+        "GW band gap",
+        "dielectric function",
+        "absorption spectrum"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://materials.nlr.gov/",
+        "data": "https://materials.nlr.gov/",
+        "paper": "https://doi.org/10.1103/PhysRevB.85.115104",
+        "code": "https://github.com/pylada/pylada-light"
+      },
+      "sources": [
+        {
+          "url": "https://materials.nlr.gov/",
+          "title": "NLR MatDB official portal",
+          "evidence": "Current provider describes stoichiometric fully ordered materials, DFT-relaxed structures, thermochemistry and GW electronic data, with methodology citations.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://materials.nlr.gov/help",
+          "title": "NLR MatDB help",
+          "evidence": "Identifies the current computational materials database, its institutional team and photovoltaic-materials discovery scope.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Old collection URL materials.nrel.gov returned an error; the current official service is materials.nlr.gov.",
+        "Count and explicit dataset license remain unverified.",
+        "Planned defect and surface properties listed on the homepage are not treated as released data.",
+        "The cited formation-energy methodology paper is not a complete frozen dataset descriptor."
+      ],
+      "tags": [
+        "renewable energy",
+        "electronic structure",
+        "GW",
+        "thermochemistry",
+        "NREL",
+        "NLR",
+        "collection:sedaoturak"
+      ]
+    }
+  ],
+  "resources": [],
+  "coverage_notes": [
+    "Four primary-source-verified additions proposed; canonical data files were not modified.",
+    "AQCat25, MatSyn25 and OCx24 are delegated to the other collection scout to avoid duplicate proposed records.",
+    "Remaining candidate gaps retain their discovery URLs in collection_sedaoturak.json and have not been promoted to ranked datasets without primary verification."
+  ]
+}

@@ -41,6 +41,43 @@ Other denominators (not added to the ranking):
 
 **Tags:** surface, catalysis, DFT, MLIP, trajectory.
 
+<a id="aqcat25"></a>
+## AQCat25 heterogeneous-catalysis dataset
+
+Spin-aware higher-fidelity DFT catalyst–intermediate data distributed as queryable metadata and ASE archives.
+
+**Size:** ~13,500,000 DFT records/frames (source wording: 13.5 million DFT calculation trajectories).
+
+**Scope:** Provider headline wording; approximately 5000 materials and 47000 intermediate–catalyst systems, not 13.5 million unique materials
+
+**Release:** Provider dataset card, checked 2026-11-01. **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** total energy; adsorption energy; maximum force; spin-treatment metadata.
+
+**Access:** registration. **Dataset license:** CC BY-NC-SA 4.0.
+
+**Official routes:** [homepage](https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset) · [data](https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset) · [paper](https://arxiv.org/abs/2510.22938)
+
+Other denominators (not added to the ranking):
+
+- 5,000 materials: Approximate provider statement
+- 47,000 intermediate–catalyst systems: Approximate provider statement
+
+**Evidence:**
+
+- [AQCat25 provider data card](https://huggingface.co/datasets/SandboxAQ/aqcat25-dataset) (checked 2026-11-01): Reports 13.5 million DFT calculation trajectories, about 5K materials and 47K catalyst systems; metadata uses frame_id; file access requires accepting conditions.
+
+**Reuse and interpretation notes:**
+
+- Provider headline uses trajectories while metadata is frame-indexed; exact trajectory/frame distinction was not independently reconciled.
+- Accepting access conditions is required; raw file retrieval without acceptance returned 401.
+- Noncommercial/share-alike licence; commercial arrangements are separate.
+- Adsorbate–slab configurations are not bulk-crystal discovery results.
+
+**Tags:** catalysis, spin, gated, collection-blaiszik.
+
 <a id="oc22"></a>
 ## Open Catalyst 2022 (OC22)
 
@@ -112,6 +149,39 @@ Other denominators (not added to the ranking):
 - Access restrictions/gating must be checked on the official HF download page.
 
 **Tags:** solid-liquid, interfaces, catalysis, MLIP.
+
+<a id="work-function-cleavage-surfaces"></a>
+## Work function and cleavage energy surface database
+
+High-throughput DFT work functions and cleavage energies for crystal-surface slabs, with structures, orientations, terminations and calculation metadata.
+
+**Size:** 58,332 surface configuration records (source wording: 58,332 unrelaxed surface records; separate selected relaxed subset of 90).
+
+**Scope:** WF-CE_database_58332.json; the 90 relaxed extreme-work-function records are an overlapping follow-up subset
+
+**Release:** Zenodo v2.1, February 2024. **Year:** 2024.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** work function; cleavage energy; slab atomic structure; Miller index; surface termination; DFT total energy.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution Non Commercial 4.0 International (CC BY-NC 4.0).
+
+**Official routes:** [homepage](https://zenodo.org/records/10703249) · [data](https://doi.org/10.5281/zenodo.10703249) · [paper](https://doi.org/10.1002/adfm.202401764)
+
+**Evidence:**
+
+- [Work Function and Cleavage Energy Database](https://zenodo.org/records/10703249) (checked 2026-11-01): Release describes 58,332 unrelaxed slab records, 90 selected relaxed records, and per-record slab geometries with MP IDs.
+- [Zenodo release metadata](https://zenodo.org/api/records/10703249) (checked 2026-11-01): Version 2.1 metadata identifies CC BY-NC 4.0 licensing.
+
+**Reuse and interpretation notes:**
+
+- Configurations are surface orientation/termination slabs, not 58,332 distinct bulk compounds.
+- Most records are unrelaxed slabs; 90 selected low/high-work-function slabs were ionically relaxed.
+- Surface parent materials overlap Materials Project; follow-up relaxed records must not be added as independent materials.
+- The non-commercial restriction matters for reuse.
+
+**Tags:** surfaces, work function, cleavage energy, Materials Project derivative, collection:sedaoturak.
 
 <a id="beast-db"></a>
 ## BEAST DB
