@@ -1,0 +1,42 @@
+{
+  "status": "deployed_verified",
+  "platform_app_url": "https://materialsatlas.org/apps/matverse",
+  "full_page_url": "https://materialsatlas.org/matverse/index.html",
+  "catalog_date": "2026-11-01",
+  "dataset_records": 523,
+  "resources": 88,
+  "api_routes": 20,
+  "source_entries": 3433,
+  "snapshot_sha256": "c573abb1bf4828401d4377d99c9a2ca7ae7745a3a4ebd317889973add45e8f09",
+  "platform_catalog_before": 171,
+  "platform_catalog_after": 172,
+  "checks": {
+    "vue_typescript": "passed",
+    "vite_production_build": "passed",
+    "catalog_model_validation": "passed",
+    "installer_idempotence": "passed",
+    "platform_health": {
+      "status": "ok"
+    },
+    "platform_readiness": {
+      "status": "ready",
+      "database": "ready",
+      "workers": {
+        "total": 44,
+        "ready": 43,
+        "blocked": 1
+      }
+    },
+    "browser_search": "passed: incoming superconductor query, thermoelectric search, 3DSC results and detail expansion",
+    "browser_full_page": "passed: current thermoelectric query retained"
+  },
+  "files": {
+    "frontend_v2/src/App.vue": "2e57379ac2e72b203676ea5e427c3218445e3b59b2695b80a98b3b1fb4be39c9",
+    "backend_v2/app/catalog.py": "2bdba64d2bd348ec75ba74954bf76fd4416be5b9b0d4870486dbc32b3657bc1f",
+    "frontend_v2/src/components/MatVerseApp.vue": "f9019c5253b34a0a04836e77526f6d3447fb25c412bb96b7e8eb33b40254656e",
+    "frontend_v2/src/assets/images/matverse.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
+    "frontend_v2/public/matverse/index.html": "c573abb1bf4828401d4377d99c9a2ca7ae7745a3a4ebd317889973add45e8f09"
+  },
+  "http_verified": true,
+  "existing_apps_preserved": true
+}

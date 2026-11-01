@@ -6,7 +6,7 @@
 
 **A source-verified atlas of crystal materials datasets.**
 
-**[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
+**[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · **[Open in MaterialsAtlas](https://materialsatlas.org/apps/matverse)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
 523 dataset and release records · 13 categories · 748 distinct dataset evidence URLs · checked **November 1, 2026**
 
@@ -31,7 +31,7 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 - [Crystal generation and discovery benchmarks](#generation-benchmarks) (7)
 - [Experimental properties and literature extraction](#experimental-properties) (114)
 - [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (30)
-  
+
 ## Read the counts correctly
 
 - **Structures/materials:** usually equilibrium or curated structural records. Polymorphs, temperatures, disorder models and functional variants can create several records per composition.
@@ -102,8 +102,6 @@ Find programmatic access to Materials Project, OQMD, AFLOW, COD, Alexandria, JAR
 Try the **[Materials Cloud OPTIMADE Client](https://optimadeclient.materialscloud.io/)** to select a provider and search its structures. The **[official clients directory](https://www.optimade.org/clients)** compares browser and Python clients. The [provider crosswalk](docs/api-access.md#providers-visible-in-the-supplied-screenshot) records all 17 provider options visible in the supplied screenshot, including Materials Cloud Archive, MPDD, Matterverse, NOMAD, ODBX, Open Materials Database, PSDI, TCOD, 2DMatpedia and AtomGPT.
 
 **[Complete JARVIS audit](docs/jarvis-coverage.md):** all 13 rows in the homepage Databases table (numbered 1–7 and 9–14), all 65 named entries in its linked Figshare table, and all 66 current downloader names are included in the [searchable JARVIS source inventory](https://usccolumbia.github.io/matverse/?view=sources&collection=jarvis_databases). Newly cataloged releases include QETB, FF, interfaces, surfaces, vacancies and electron/phonon Hamiltonians. Alternate portals and mirrors are identified without adding duplicate corpus totals.
-
-
 
 ## Ranked catalog
 

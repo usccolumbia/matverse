@@ -6,7 +6,7 @@
 
 **A source-verified atlas of crystal materials datasets.**
 
-**[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
+**[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · **[Open in MaterialsAtlas](https://materialsatlas.org/apps/matverse)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
 {{DATASETS}} dataset and release records · {{CATEGORIES}} categories · {{SOURCES}} distinct dataset evidence URLs · checked **November 1, 2026**
 
@@ -15,6 +15,8 @@ MatVerse surveys periodic crystal structures and their associated data: experime
 The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Discovery/WBM, Scientific Data descriptors and Starrydata**, alongside established databases and newer releases. It is a broad, living survey rather than an exhaustive census. A record can be a dataset, a named subset, or a release; records are not necessarily independent corpora.
 
 [Read the survey](docs/SURVEY.md) · [Full JSON](data/datasets.json) · [CSV export](data/datasets.csv) · [Repository and resource directory](docs/resources.md) · [Scientific Data index](docs/scientific-data.md) · [ACS paper crosswalk](docs/review-crosswalk.md) · [Lineage and overlap](docs/overlap.md) · [Methods and schema](docs/METHODOLOGY.md)
+
+{{CATEGORY_NAVIGATION}}
 
 ## Read the counts correctly
 

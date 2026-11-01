@@ -133,10 +133,12 @@ def render(data, resources):
             label += f' · [Homepage]({r["homepage"]})'
         search_lines.append(f'| {label} | {cell(r["scope"])} |')
     header = header.replace('{{SEARCH_TOOLS_TABLE}}', '\n'.join(search_lines))
-    lines = [header.rstrip(), '', '## Browse by category', '']
+    navigation = ['## Browse by category', '']
     for cat, title in CATEGORIES.items():
         if counts[cat]:
-            lines.append(f"- [{title}](#{cat.replace('_', '-')}) ({counts[cat]})")
+            navigation.append(f"- [{title}](#{cat.replace('_', '-')}) ({counts[cat]})")
+    header = header.replace('{{CATEGORY_NAVIGATION}}', '\n'.join(navigation))
+    lines = [header.rstrip()]
     lines += ['', '## Ranked catalog', '', 'Sizes descend **within each category**. Approximate figures use `~`, source lower bounds use `≥`, and unverified sizes appear last. Units remain explicit: these are volume rankings, not quality rankings. Click a dataset for its release, official download links, evidence and caveats.', '']
     for cat, title in CATEGORIES.items():
         rows = [d for d in data if d['category'] == cat]
