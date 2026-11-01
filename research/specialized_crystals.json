@@ -1,0 +1,1720 @@
+{
+  "datasets": [
+    {
+      "id": "c2db",
+      "name": "Computational 2D Materials Database (C2DB)",
+      "category": "two_dimensional",
+      "description": "DFT and many-body properties of monolayer crystals, with experimental-derived and generated candidates.",
+      "version": "2024-05-01 release listed on official 2DHub page",
+      "year": 2024,
+      "count": 16789,
+      "count_display": "16,789 rows",
+      "count_unit": "database rows",
+      "count_scope": "Version table entry dated 2024-05-01, not the stale introductory description.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "formation energy",
+        "electronic band structure",
+        "magnetism",
+        "elasticity",
+        "optical response"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://2dhub.org/c2db/c2db.html",
+        "paper": "https://doi.org/10.1088/2053-1583/ac1059"
+      },
+      "sources": [
+        {
+          "url": "https://2dhub.org/c2db/c2db.html",
+          "title": "C2DB official release history",
+          "evidence": "Release table lists 16,789 rows for 2024-05-01; full dataset is provided upon request.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The overview still says around 4,000; the release table is more recent.",
+        "Full download requires an author request; browsing is public.",
+        "Legacy CMR declares CC BY-SA 4.0 globally, but current 2DHub release-specific data license was not verified."
+      ],
+      "tags": [
+        "monolayers",
+        "DFT",
+        "many-body",
+        "nonadditive"
+      ]
+    },
+    {
+      "id": "bidb",
+      "name": "van der Waals Bilayer Database (BiDB)",
+      "category": "two_dimensional",
+      "description": "Stacked homobilayers with DFT interlayer energies and detailed properties for the stable subset.",
+      "version": "2024 publication dataset",
+      "year": 2024,
+      "count": 8451,
+      "count_display": "8,451 homobilayers from 1,052 monolayers",
+      "count_unit": "homobilayer configurations",
+      "count_scope": "All stacking configurations in the 2024 study; detailed labels for 2,586 stable bilayers.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "interlayer binding energy",
+        "electronic properties",
+        "magnetism",
+        "vibrations"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://2dhub.org/bidb/bidb.html",
+        "data": "https://2dhub.org/bidb/bidb.html",
+        "paper": "https://doi.org/10.1038/s41467-024-45003-w"
+      },
+      "sources": [
+        {
+          "url": "https://2dhub.org/bidb/bidb.html",
+          "title": "BiDB official page",
+          "evidence": "8,451 homobilayers are constructed from 1,052 monolayers; 2,586 stable bilayers have expanded labels and an ASE database is linked.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count includes multiple stackings of the same monolayer, not 8,451 distinct chemistries.",
+        "C2DB-derived monolayers overlap the parent family."
+      ],
+      "tags": [
+        "bilayers",
+        "stacking",
+        "DFT"
+      ]
+    },
+    {
+      "id": "hetdb",
+      "name": "van der Waals 2D Heterostructure Database (HetDB)",
+      "category": "two_dimensional",
+      "description": "Relaxed heterobilayers selected for commensurability, small strain and tractable cell size.",
+      "version": "2025 publication dataset",
+      "year": 2025,
+      "count": 336,
+      "count_display": "336 heterobilayers from 44 monolayers",
+      "count_unit": "heterobilayer structures",
+      "count_scope": "Official database description viewed 2026-11-01.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "relaxed structure",
+        "electronic band structure",
+        "band alignment"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://2dhub.org/hetdb/hetdb.html",
+        "paper": "https://doi.org/10.1103/cl8c-8f1f"
+      },
+      "sources": [
+        {
+          "url": "https://2dhub.org/hetdb/hetdb.html",
+          "title": "HetDB official page",
+          "evidence": "336 heterobilayers from 44 monolayers are relaxed with PBE-D3; cells have fewer than 300 atoms and in-plane strain below 1%.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Selection excludes large mismatch or large supercell combinations.",
+        "Count is bilayer combinations, not independent monolayer chemistries."
+      ],
+      "tags": [
+        "heterostructures",
+        "DFT",
+        "interfaces"
+      ]
+    },
+    {
+      "id": "qpod",
+      "name": "Quantum Point Defects Database (QPOD)",
+      "category": "two_dimensional",
+      "description": "Intrinsic point defects in monolayers across charge states, with electronic and optical properties.",
+      "version": "2022-07-11 release table",
+      "year": 2022,
+      "count": 2061,
+      "count_display": "2,061 rows representing 500 distinct intrinsic point defects",
+      "count_unit": "defect-charge-state rows",
+      "count_scope": "Release table lists 2,061 rows; distinct defects are counted separately.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "defect formation energy",
+        "charge transitions",
+        "electronic levels",
+        "magneto-optical properties",
+        "spin coherence"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://2dhub.org/qpod/qpod.html",
+        "paper": "https://doi.org/10.1038/s41524-022-00730-w"
+      },
+      "sources": [
+        {
+          "url": "https://2dhub.org/qpod/qpod.html",
+          "title": "QPOD official page",
+          "evidence": "500 distinct intrinsic defects are evaluated in multiple charge states; version table lists 2,061 rows.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Rows include different charge states; do not report them as 2,061 distinct defects.",
+        "Derived from C2DB host materials."
+      ],
+      "tags": [
+        "defects",
+        "charge-states",
+        "DFT"
+      ]
+    },
+    {
+      "id": "mc2d",
+      "name": "Materials Cloud Two-Dimensional Structure Database (MC2D)",
+      "category": "two_dimensional",
+      "description": "Computational exfoliation of experimentally reported layered bulk crystals, with AiiDA provenance.",
+      "version": "Materials Cloud 2022.84 v1 / 2023 paper",
+      "year": 2022,
+      "count": 3077,
+      "count_display": "3,077 extracted monolayers; 2,710 optimized structures",
+      "count_unit": "monolayer compounds",
+      "count_scope": "2022.84 archive contains 3,077 extracted structures, not all DFT optimized.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "exfoliation energy",
+        "electronic band structure"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "homepage": "https://mc2d.materialscloud.org/",
+        "data": "https://archive.materialscloud.org/records/17gf6-84915",
+        "paper": "https://doi.org/10.1021/acsnano.2c11510"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/records/17gf6-84915",
+          "title": "MC2D archived release",
+          "evidence": "Archive contains 3,077 extracted structures, 2,710 optimized structures and 2,345 electronic band structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/17gf6-84915",
+          "title": "MC2D record metadata",
+          "evidence": "File license is CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Bulk sources include ICSD, COD and MPDS; derived structures may overlap other 2D databases.",
+        "The 3,077 count is broader than the optimized or easily exfoliable subsets."
+      ],
+      "tags": [
+        "exfoliation",
+        "AiiDA",
+        "DFT"
+      ]
+    },
+    {
+      "id": "2dmatpedia",
+      "name": "2DMatPedia",
+      "category": "two_dimensional",
+      "description": "Top-down exfoliation of Materials Project layered parents and bottom-up chemical substitution.",
+      "version": "Figshare v3, 2019",
+      "year": 2019,
+      "count": 6351,
+      "count_display": "6,351 monolayer records",
+      "count_unit": "monolayer structures",
+      "count_scope": "Official 2019 Figshare JSONL archive, independently counted 6,351 parseable records.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "formation energy",
+        "exfoliation energy",
+        "band gap",
+        "electronic structure"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "http://www.2dmatpedia.org/",
+        "data": "https://figshare.com/articles/dataset/7699910/3",
+        "paper": "https://doi.org/10.1038/s41597-019-0097-3"
+      },
+      "sources": [
+        {
+          "url": "https://api.figshare.com/v2/articles/7699910",
+          "title": "2DMatPedia official Figshare metadata",
+          "evidence": "Version 3 releases monolayer structures and properties under CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://ndownloader.figshare.com/files/14399918",
+          "title": "2DMatPedia official JSONL data",
+          "evidence": "Downloaded JSONL contains exactly 6,351 parseable structure records; local SHA-256 retained.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://arxiv.org/abs/1901.09487",
+          "title": "2DMatPedia author paper",
+          "evidence": "Top-down screening and bottom-up element substitutions produce the monolayer collection.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Generated substitutions are not experimental materials discoveries.",
+        "Overlap with Materials Project and other monolayer collections requires structure-level checks."
+      ],
+      "tags": [
+        "Scientific Data",
+        "monolayers",
+        "chemical-substitution",
+        "DFT"
+      ]
+    },
+    {
+      "id": "jarvis-2d",
+      "name": "JARVIS-DFT 2D snapshot",
+      "category": "two_dimensional",
+      "description": "NIST monolayer materials subset with optB88-vdW and related calculated properties.",
+      "version": "d2-12-12-2022.json / Figshare v8",
+      "year": 2022,
+      "count": 1103,
+      "count_display": "1,103 records in downloaded archive (documentation lists 1,109)",
+      "count_unit": "2D material records",
+      "count_scope": "Actual d2-12-12-2022.json.zip payload linked by current jarvis-tools.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "formation energy",
+        "exfoliation energy",
+        "band gap",
+        "elasticity",
+        "dielectric response"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://pages.nist.gov/jarvis/databases/",
+        "data": "https://figshare.com/articles/dataset/6815705",
+        "paper": "https://doi.org/10.1038/s41524-020-00440-1",
+        "code": "https://github.com/usnistgov/jarvis"
+      },
+      "sources": [
+        {
+          "url": "https://api.figshare.com/v2/articles/6815705",
+          "title": "JARVIS-DFT 2D Figshare release",
+          "evidence": "v8 metadata declares CC BY 4.0 and links the dated 2022 archive.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://ndownloader.figshare.com/files/38521268",
+          "title": "Official JARVIS 2D payload",
+          "evidence": "Independent JSON array count of downloaded archive is 1,103; payload SHA-256 retained.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis/databases/",
+          "title": "JARVIS data registry",
+          "evidence": "Documentation reports 1,109 for dft_2d, differing from the linked archive.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Named subset of JARVIS; do not add its count to the entire JARVIS family.",
+        "Documentation and actual payload counts disagree; this record ranks the verified archive."
+      ],
+      "tags": [
+        "NIST",
+        "DFT",
+        "snapshot",
+        "family-subset"
+      ]
+    },
+    {
+      "id": "core-mof",
+      "name": "CoRE MOF Database",
+      "category": "porous_frameworks",
+      "description": "Experimental-derived MOF structures curated for simulation and classified for structural validity.",
+      "version": "CoRE MOF 2025 v1.0",
+      "year": 2025,
+      "count": 43439,
+      "count_display": "43,439 full-family records; 9,256 openly deposited SI structures",
+      "count_unit": "MOF structure records",
+      "count_scope": "Full 2025 family across SI, CSD-modified and CSD-unmodified branches; includes CR and NCR.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "pore geometry",
+        "topology",
+        "predicted partial charges",
+        "predicted stability",
+        "adsorption"
+      ],
+      "access": "mixed",
+      "license": "CC BY 4.0 for Zenodo SI deposit; CSD-derived files have additional CCDC access terms",
+      "links": {
+        "homepage": "https://chung-research-group.github.io/CoRE%20MOF%20Database.dc.html",
+        "data": "https://zenodo.org/records/15621349",
+        "paper": "https://doi.org/10.1016/j.matt.2025.102140",
+        "code": "https://github.com/mtap-research/CoRE-MOF-Tools"
+      },
+      "sources": [
+        {
+          "url": "https://zenodo.org/records/15621349",
+          "title": "CoRE MOF 2025 v1.0",
+          "evidence": "Full family 43,439 = 9,256 SI + 21,009 CSD-modified + 13,174 CSD-unmodified; SI has 2,737 CR and 6,519 NCR entries. CSD update is marked not updated.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/records/15055758",
+          "title": "CoRE MOF 2024 release history",
+          "evidence": "Prior family had 40,837 records and 8,300 SI structures. ASR/FSR duplicates and a recommended unique screening list are documented.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/api/records/15621349",
+          "title": "CoRE MOF 2025 deposit metadata",
+          "evidence": "The SI file deposit declares CC BY 4.0; CSD branches have separate access terms.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Ranked count is the full mixed-access family; the open SI subset has 9,256 structures. The full family is not wholly computation-ready.",
+        "Public 2025 SI contains 9,256 structures; modified CSD files require email registration and unmodified CSD files a CCDC license.",
+        "2025 deposit labels the CSD branches not updated; verify distribution before using those counts as available downloads.",
+        "ASR and FSR variants can derive from the same original structure; use the release-specific recommended screening list."
+      ],
+      "tags": [
+        "MOF",
+        "experimental-derived",
+        "curation",
+        "release-family"
+      ],
+      "additional_counts": [
+        {
+          "count": 9256,
+          "unit": "open SI structure records",
+          "scope": "2025 v1.0 Zenodo subset"
+        },
+        {
+          "count": 2737,
+          "unit": "computation-ready open SI structure records",
+          "scope": "2025 v1.0 SI subset"
+        }
+      ]
+    },
+    {
+      "id": "qmof",
+      "name": "Quantum MOF Database (QMOF)",
+      "category": "porous_frameworks",
+      "description": "Periodic DFT structures and electronic properties for MOFs and coordination polymers.",
+      "version": "Figshare v18 / current author documentation",
+      "year": 2025,
+      "count": 20000,
+      "count_display": "20,000+ MOFs and coordination polymers",
+      "count_unit": "DFT-optimized structures",
+      "count_scope": "Current author README lower bound; no exact current row count inferred from older papers.",
+      "count_precision": "lower_bound",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "DFT total energy",
+        "band gap",
+        "partial charges",
+        "spin density"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/Andrew-S-Rosen/QMOF",
+        "data": "https://figshare.com/articles/dataset/13147324/18",
+        "paper": "https://doi.org/10.1038/s41524-022-00796-6",
+        "code": "https://github.com/Andrew-S-Rosen/QMOF"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Andrew-S-Rosen/QMOF",
+          "title": "QMOF author repository",
+          "evidence": "Current author README describes 20,000+ MOFs and coordination polymers, CC BY 4.0 data, and no trajectories.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/13147324",
+          "title": "QMOF official Figshare metadata",
+          "evidence": "Current version is 18 with CC BY 4.0 data; separate QMOF-Thermo archive is present.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "20,375 is a historical widely cited count; later release notes removed individual structures, so it is not asserted as the current exact count.",
+        "Includes experimental-derived and hypothetical MOFs; overlaps CoRE, Boyd-Woo and other MOF families.",
+        "QMOF-Thermo is separately packaged and not added into this structure count."
+      ],
+      "tags": [
+        "MOF",
+        "DFT",
+        "electronic-properties"
+      ]
+    },
+    {
+      "id": "hmof-wilmer",
+      "name": "Wilmer hypothetical MOF database (hMOF)",
+      "category": "porous_frameworks",
+      "description": "Combinatorial assembly of MOF building blocks with computed pore and gas-storage properties.",
+      "version": "Original 2011/2012 publication corpus",
+      "year": 2012,
+      "count": 137953,
+      "count_display": "137,953 hypothetical MOFs",
+      "count_unit": "generated MOF structures",
+      "count_scope": "Original Wilmer et al. corpus, not a filtered JARVIS or MOFX mirror.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "structure",
+        "pore size",
+        "surface area",
+        "methane adsorption"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "http://hmofs.northwestern.edu/",
+        "paper": "https://doi.org/10.1038/nchem.1192"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nchem.1192",
+          "title": "Wilmer et al., Nature Chemistry",
+          "evidence": "Original study generated 137,953 MOFs from 102 building blocks and calculated pore and methane-storage properties.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://chemgroups.northwestern.edu/hupp/Publications/316.pdf",
+          "title": "Author-hosted original paper",
+          "evidence": "Author paper confirms 137,953 generated structures from 102 building blocks.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is historical; downstream exports can contain fewer structures, including the NIST hMOF mirror.",
+        "Original portal access and an explicit reusable data license were not established in this audit.",
+        "Generated geometries do not establish synthesis or thermodynamic stability."
+      ],
+      "tags": [
+        "MOF",
+        "hypothetical",
+        "GCMC",
+        "historical"
+      ]
+    },
+    {
+      "id": "boyd-woo",
+      "name": "Boyd-Woo hypothetical MOFs for wet flue-gas capture",
+      "category": "porous_frameworks",
+      "description": "Topologically generated MOFs with MEPO-QEq charges and adsorption/process screening labels.",
+      "version": "Materials Cloud 2018.0016 v3, deposited 2019",
+      "year": 2019,
+      "count": 324426,
+      "count_display": "324,426 hypothetical MOFs",
+      "count_unit": "generated MOF structures",
+      "count_scope": "Full Materials Cloud release described by the 2019 archive.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "structure",
+        "partial charges",
+        "CO2 uptake",
+        "working capacity",
+        "gas mixture adsorption"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "data": "https://archive.materialscloud.org/records/nsp7v-2dk91",
+        "paper": "https://doi.org/10.1038/s41586-019-1798-7"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/records/nsp7v-2dk91",
+          "title": "Boyd-Woo Materials Cloud archive",
+          "evidence": "Deposit contains 324,426 hypothetical MOFs; more than 8,000 received refined simulations. MEPO-QEq charges are provided.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/nsp7v-2dk91",
+          "title": "Boyd-Woo file rights",
+          "evidence": "Release metadata declares CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "ARC-MOF and QMOF reuse some structures from this family.",
+        "Charge-generation validation is not proof of synthesizability.",
+        "Only the refined subset has the higher-fidelity calculations."
+      ],
+      "tags": [
+        "MOF",
+        "hypothetical",
+        "carbon-capture",
+        "GCMC"
+      ]
+    },
+    {
+      "id": "arc-mof",
+      "name": "ab initio REPEAT Charge MOF Database (ARC-MOF)",
+      "category": "porous_frameworks",
+      "description": "Diverse collection assembled from experimental and hypothetical MOF databases with DFT-derived charges.",
+      "version": "Zenodo v7 (2025); structure archive ARCMOF_20241004",
+      "year": 2025,
+      "count": 280000,
+      "count_display": "~280,000 MOFs",
+      "count_unit": "MOF structures",
+      "count_scope": "Rounded count in the v7 depositor description; not an independently counted exact archive size.",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "REPEAT partial charges",
+        "adsorption",
+        "chemical descriptors",
+        "geometric descriptors"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "data": "https://zenodo.org/records/16802743",
+        "paper": "https://doi.org/10.1021/acs.chemmater.2c02485",
+        "code": "https://github.com/uowoolab"
+      },
+      "sources": [
+        {
+          "url": "https://zenodo.org/records/16802743",
+          "title": "ARC-MOF v7",
+          "evidence": "Description reports approximately 280,000 experimental and generated MOFs, REPEAT charges, descriptors and adsorption; v5/v6 removed erroneous structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/api/records/16802743",
+          "title": "ARC-MOF rights metadata",
+          "evidence": "v7 API metadata declares cc-by-4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The rounded description persists through revisions; exact current archive count remains unverified.",
+        "all_structures archives describe the larger candidate universe; they are not additive ARC-MOF structures.",
+        "Strong overlap with Boyd-Woo, CoRE, hMOF and other source families."
+      ],
+      "tags": [
+        "MOF",
+        "DFT-charges",
+        "curation",
+        "nonadditive"
+      ]
+    },
+    {
+      "id": "mosaec-db",
+      "name": "MOSAEC MOF Database (MOSAEC-DB)",
+      "category": "porous_frameworks",
+      "description": "Experimental MOFs processed with solvent removal and chemical-consistency checks.",
+      "version": "1.0.0-release, January 2025",
+      "year": 2025,
+      "count": 124000,
+      "count_display": "~124,000 MOF crystal structures",
+      "count_unit": "processed MOF structures",
+      "count_scope": "Rounded count stated by the authors in the open metadata deposit.",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "experimental",
+      "properties": [
+        "structure",
+        "activation status",
+        "chemical descriptors",
+        "partial charges",
+        "structural error flags"
+      ],
+      "access": "mixed",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International; CIF access also requires CSD license",
+      "links": {
+        "data": "https://zenodo.org/records/15808197",
+        "paper": "https://doi.org/10.1039/D4SC07438F",
+        "code": "https://github.com/uowoolab/MOSAEC-DB"
+      },
+      "sources": [
+        {
+          "url": "https://zenodo.org/records/15808197",
+          "title": "MOSAEC-DB author deposit",
+          "evidence": "Approximately 124,000 processed experimental CSD structures; descriptors are open, while CIFs require a valid CSD license. Data terms are CC BY-NC-SA 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Licensing/access of downloadable descriptors differs from CSD structural files.",
+        "Shares experimental source entries with CoRE and QMOF; preprocessing variants are not new independently synthesized materials."
+      ],
+      "tags": [
+        "MOF",
+        "experimental-derived",
+        "curation",
+        "restricted-CIF"
+      ]
+    },
+    {
+      "id": "core-cof",
+      "name": "Computation-Ready Experimental COF Database (CoRE COF)",
+      "category": "porous_frameworks",
+      "description": "Solvent-free and disorder-free COF structures compiled from experimental literature and reconstructed when coordinates were missing.",
+      "version": "DT1242-v7.0; Git commit edbb24a, 2024-03-13",
+      "year": 2024,
+      "count": 1242,
+      "count_display": "1,242 CIFs",
+      "count_unit": "COF structure files",
+      "count_scope": "CoRE-COFs_DT1242-v7.0.zip; independent archive inventory excluding macOS metadata.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "framework geometry"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/core-cof/CoRE-COF-Database",
+        "data": "https://github.com/core-cof/CoRE-COF-Database/blob/master/CoRE-COFs_DT1242-v7.0.zip",
+        "paper": "https://doi.org/10.1016/j.ces.2017.05.004"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/core-cof/CoRE-COF-Database",
+          "title": "CoRE COF author repository",
+          "evidence": "v7 archive contains 1,242 CIFs; README states coordinate-free literature structures were reconstructed from experimental reports.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/core-cof/CoRE-COF-Database/master/CoRE-COFs_DT1242-v7.0.zip",
+          "title": "CoRE COF v7 archive",
+          "evidence": "Independent CIF inventory gives 1,242 files; ZIP SHA-256 and filename manifest retained.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Repository has a software-worded MIT license; explicit applicability to third-party experimental CIFs was not verified.",
+        "Different preprocessing from CURATED COFs; source structures overlap.",
+        "Historical counts 187/280/309/449/591/613 refer to older versions."
+      ],
+      "tags": [
+        "COF",
+        "experimental-derived",
+        "reconstructed",
+        "snapshot"
+      ]
+    },
+    {
+      "id": "curated-cofs",
+      "name": "CURATED covalent organic frameworks",
+      "category": "porous_frameworks",
+      "description": "Literature COFs with tracked corrections, DFT-optimized structures, DDEC charges and adsorption workflows.",
+      "version": "July 2022 extension; Materials Cloud archive updated 2023-11-02",
+      "year": 2022,
+      "count": 871,
+      "count_display": "871 valid COFs plus 110 discarded entries",
+      "count_unit": "valid COF structures",
+      "count_scope": "July 2022 valid subset; excluded/discarded structures are not added.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "structure",
+        "DDEC charges",
+        "pore geometry",
+        "adsorption isotherms",
+        "process performance"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International (Materials Cloud files)",
+      "links": {
+        "homepage": "https://materialscloud-org.github.io/mc-frontend/discover/curated-cofs",
+        "data": "https://archive.materialscloud.org/records/1xf71-nf390",
+        "paper": "https://doi.org/10.1021/acscentsci.9b00619",
+        "code": "https://github.com/danieleongari/CURATED-COFs"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/records/1xf71-nf390",
+          "title": "CURATED COFs archive release history",
+          "evidence": "July 2022 update contains 871 valid COFs and 110 discarded structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/1xf71-nf390",
+          "title": "CURATED COFs file license",
+          "evidence": "Materials Cloud files carry CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "871 is a dated release count, not a claim about all COFs known in 2026.",
+        "The GitHub repository can include discarded original structures and uses a separate software license.",
+        "Built on CoRE-COF sources; substantial overlap is expected."
+      ],
+      "tags": [
+        "COF",
+        "DFT",
+        "AiiDA",
+        "curation"
+      ]
+    },
+    {
+      "id": "hcof-mercado",
+      "name": "Mercado hypothetical 2D and 3D COFs",
+      "category": "porous_frameworks",
+      "description": "Reticularly assembled hypothetical COFs evaluated for methane storage.",
+      "version": "Materials Cloud 2018.0003 v3",
+      "year": 2018,
+      "count": 69840,
+      "count_display": "69,840 hypothetical COFs",
+      "count_unit": "generated COF structures",
+      "count_scope": "v3 CIF/property archive assembled from 666 linkers.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "structure",
+        "density",
+        "surface area",
+        "methane uptake",
+        "heat of desorption",
+        "deliverable capacity"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "data": "https://archive.materialscloud.org/records/cjhyq-nr115",
+        "paper": "https://doi.org/10.1021/acs.chemmater.8b01425"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/records/cjhyq-nr115",
+          "title": "Hypothetical COF Materials Cloud archive",
+          "evidence": "69,840 COFs assembled from 666 linkers into 2D-layered and 3D structures; CIFs and GCMC properties are released.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/cjhyq-nr115",
+          "title": "Hypothetical COF rights",
+          "evidence": "File license is CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Classical simulation/storage predictions do not validate synthesis or DFT stability.",
+        "2D and 3D COFs are combined in this porous-framework category."
+      ],
+      "tags": [
+        "COF",
+        "hypothetical",
+        "GCMC"
+      ]
+    },
+    {
+      "id": "redd-coffee",
+      "name": "ReDD-COFFEE",
+      "category": "porous_frameworks",
+      "description": "Ready-to-use hypothetical COFs with system-specific force fields derived from first principles.",
+      "version": "Materials Cloud 2023.13 v1",
+      "year": 2023,
+      "count": 268687,
+      "count_display": "268,687 COFs",
+      "count_unit": "generated COF structures",
+      "count_scope": "Full v1 repository, including 2D and 3D structures across linkage chemistries.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "structure",
+        "force-field parameters",
+        "energetics"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "links": {
+        "data": "https://archive.materialscloud.org/records/y5gs8-pyj90",
+        "paper": "https://doi.org/10.1039/D3TA00470H"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/record/2023.13",
+          "title": "ReDD-COFFEE v1",
+          "evidence": "Author deposit states 268,687 COFs with system-specific force fields; file rights are CC BY-NC-SA 4.0.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/records/y5gs8-pyj90",
+          "title": "ReDD-COFFEE deposited file rights",
+          "evidence": "File rights specify CC BY-NC-SA 4.0, distinct from the archive metadata license.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Force fields are approximations derived for the hypothetical frameworks.",
+        "Files carry CC BY-NC-SA 4.0; the metadata license is separate."
+      ],
+      "tags": [
+        "COF",
+        "hypothetical",
+        "force-fields"
+      ]
+    },
+    {
+      "id": "iza-zeolites",
+      "name": "IZA Database of Zeolite Structures",
+      "category": "porous_frameworks",
+      "description": "Authoritative framework-type descriptions and representative crystallographic structures.",
+      "version": "Framework type codes updated 2026-07-30",
+      "year": 2026,
+      "count": 270,
+      "count_display": "270 approved framework type codes",
+      "count_unit": "framework topology types",
+      "count_scope": "Approved IZA codes as of latest stated July 2026 update; not all chemical structures.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "experimental",
+      "properties": [
+        "representative structure",
+        "topology",
+        "powder diffraction",
+        "framework composition",
+        "spectra"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.iza-structure.org/databases/",
+        "data": "https://www.iza-structure.org/IZA-SC/ftc_table.php"
+      },
+      "sources": [
+        {
+          "url": "https://europe.iza-structure.org/IZA-SC_FTC.php",
+          "title": "IZA Framework Type Codes",
+          "evidence": "270 framework codes assigned; latest approval July 10, 2026 and page updated July 30, 2026.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.iza-structure.org/databases/",
+          "title": "IZA official database",
+          "evidence": "Provides representative crystallographic data, powder patterns, references, topology descriptions and compositions.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "270 counts framework types, not compositions, CIF files or individual experimental samples.",
+        "Intergrowths/disordered structures form a separate integrated collection."
+      ],
+      "tags": [
+        "zeolite",
+        "experimental",
+        "topology"
+      ]
+    },
+    {
+      "id": "pcod-zeolites",
+      "name": "Deem hypothetical zeolites / PCOD SLC-good",
+      "category": "porous_frameworks",
+      "description": "Monte Carlo-generated zeolite-like frameworks filtered for low classical-force-field energy.",
+      "version": "v2.1 SLC-good download subset",
+      "year": 2011,
+      "count": 331000,
+      "count_display": "331k SLC-good structures; full v2 paper reports >2.6 million unique structures",
+      "count_unit": "hypothetical zeolite frameworks",
+      "count_scope": "Public SLC-good v2.1 subset offered on author download page.",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "structure",
+        "classical energy",
+        "density",
+        "symmetry"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://mwdeem.org/PCOD/index.html",
+        "data": "https://mwdeem.org/PCOD/index.html",
+        "paper": "https://doi.org/10.1039/C0CP02255A"
+      },
+      "sources": [
+        {
+          "url": "https://mwdeem.org/PCOD/index.html",
+          "title": "Deem PCOD author download page",
+          "evidence": "Provides three archives for the 331k SLC-good subset of v2.1; distinguishes it from the larger full database and original >2.6M unique-structure paper.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The same page also mentions over four million full-database structures; denominator/version differ.",
+        "Do not label the downloadable 331k subset as a 2.6M download.",
+        "Force-field energies are not experimental syntheses or DFT validation."
+      ],
+      "tags": [
+        "zeolite",
+        "hypothetical",
+        "historical",
+        "subset"
+      ]
+    },
+    {
+      "id": "zeo-1",
+      "name": "Zeo-1",
+      "category": "porous_frameworks",
+      "description": "Periodic zeolite geometry-optimization trajectories with energies, gradients and stresses for potential fitting.",
+      "version": "Materials Cloud 2021.171; Scientific Data 2022",
+      "year": 2022,
+      "count": 32550,
+      "count_display": "32,550 geometries from 226 systems",
+      "count_unit": "geometry-optimization frames",
+      "count_scope": "All optimization iterations, not independent zeolite frameworks.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "energy",
+        "nuclear gradient",
+        "stress",
+        "Hirshfeld charges"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "data": "https://archive.materialscloud.org/records/3xmh2-vv758",
+        "paper": "https://doi.org/10.1038/s41597-022-01160-5"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-022-01160-5.pdf",
+          "title": "Zeo-1 Scientific Data descriptor",
+          "evidence": "Technical validation states 226 systems and 32,550 geometries; energies, gradients and stresses are given at each step.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/3xmh2-vv758",
+          "title": "Zeo-1 archived rights",
+          "evidence": "Archive file license is CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "32,550 is a frame count; only 226 systems underlie the trajectories.",
+        "Parent structures derive from IZA; structural-family overlap is expected."
+      ],
+      "tags": [
+        "zeolite",
+        "DFT",
+        "MLIP",
+        "trajectory",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "odac23",
+      "name": "Open Direct Air Capture 2023 (ODAC23)",
+      "category": "porous_frameworks",
+      "description": "MOFs with CO2 and water adsorbates, including defective frameworks, for energy/force learning.",
+      "version": "2023 corpus / 2024 ACS Central Science descriptor",
+      "year": 2023,
+      "count": 38983748,
+      "count_display": "38,983,748 DFT single points; 176,032 relaxations; 8,412 frameworks",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "All original train, validation and test splits reported in Table 1.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "total energy",
+        "forces",
+        "adsorption energy",
+        "DDEC charges"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "homepage": "https://open-dac.github.io/",
+        "data": "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac23.md",
+        "paper": "https://doi.org/10.1021/acscentsci.3c01629",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2311.00341v2",
+          "title": "ODAC23 author paper Table 1",
+          "evidence": "Table totals are 38,983,748 configurations, 176,032 relaxations and 8,412 frameworks (pristine plus defective).",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac23.md",
+          "title": "ODAC23 official download documentation",
+          "evidence": "Data license is CC BY 4.0; current documentation deprecates ODAC23 in favor of ODAC25.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Superseded for new projects by ODAC25; retain for benchmark reproduction.",
+        "Current docs overview contains smaller rounded S2EF counts inconsistent with the original full paper; this record explicitly uses the original full corpus.",
+        "Do not combine ODAC23 and ODAC25 energies as if reference and k-point conventions were identical.",
+        "Frameworks derive from CoRE MOF; do not add counts as distinct materials."
+      ],
+      "tags": [
+        "MOF",
+        "adsorption",
+        "MLIP",
+        "trajectory",
+        "superseded"
+      ],
+      "additional_counts": [
+        {
+          "count": 176032,
+          "unit": "DFT relaxation systems",
+          "scope": "original full corpus"
+        },
+        {
+          "count": 8412,
+          "unit": "pristine and defective MOF frameworks",
+          "scope": "original full corpus"
+        }
+      ]
+    },
+    {
+      "id": "odac25",
+      "name": "Open Direct Air Capture 2025 (ODAC25)",
+      "category": "porous_frameworks",
+      "description": "Expanded MOF adsorption configurations for CO2, water, N2 and O2, including functionalized and synthetic frameworks.",
+      "version": "2025 release",
+      "year": 2025,
+      "count": 70000000,
+      "count_display": "nearly 70 million DFT single points across nearly 15,000 MOFs",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "Rounded full corpus size in author documentation.",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "total energy",
+        "forces",
+        "adsorption energy"
+      ],
+      "access": "registration",
+      "license": "Creative Commons Attribution 4.0 International (dataset)",
+      "links": {
+        "data": "https://huggingface.co/facebook/ODAC25",
+        "paper": "https://arxiv.org/abs/2508.03162",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac25.md",
+          "title": "ODAC25 official dataset documentation",
+          "evidence": "Nearly 70M PBE-D3 calculations across nearly 15,000 MOFs; four adsorbates; dataset license CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://huggingface.co/facebook/ODAC25/tree/main",
+          "title": "ODAC25 official access page",
+          "evidence": "Download requires an account, contact sharing and acceptance; model weights have separate FAIR Chemistry terms.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "70 million is rounded configuration scale, not 70 million distinct MOFs.",
+        "Data and model terms differ; the CC BY data license does not describe model weights.",
+        "Supersedes ODAC23 with changed data-generation/reference conventions."
+      ],
+      "tags": [
+        "MOF",
+        "adsorption",
+        "MLIP",
+        "trajectory"
+      ]
+    },
+    {
+      "id": "omc25",
+      "name": "Open Molecular Crystals 2025 (OMC25)",
+      "category": "molecular_crystals",
+      "description": "DFT relaxation trajectories of random molecular-crystal packings generated from OE62 molecules.",
+      "version": "Public 250802 train and validation release; Scientific Data 2026",
+      "year": 2025,
+      "count": 26257042,
+      "count_display": "26,257,042 released train+validation frames; 218,841 starting crystals",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "24,870,226 train + 1,386,816 validation; test is not included in this public count.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "periodic structure",
+        "total energy",
+        "forces",
+        "stress"
+      ],
+      "access": "mixed",
+      "license": "Creative Commons Attribution 4.0 International (dataset)",
+      "links": {
+        "data": "https://huggingface.co/datasets/facebook/OMC25",
+        "paper": "https://doi.org/10.1038/s41597-026-06628-2",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/facebook/OMC25/blob/main/README.md",
+          "title": "OMC25 official dataset card",
+          "evidence": "Train has 24,870,226 frames and 207,271 starting crystals; validation has 1,386,816 frames and 11,570 starting crystals; CC BY 4.0 data.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12979844/",
+          "title": "OMC25 Scientific Data descriptor",
+          "evidence": "Full study describes over 27 million frames, over 230,000 initial crystals and approximately 50,000 molecules.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://facebookresearch.github.io/fairchem/omc25/",
+          "title": "OMC25 official access documentation",
+          "evidence": "Hugging Face repository access is requested; ASE-compatible LMDB data and energy/force/stress labels are documented.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Public train+validation sum is calculated directly from the card; the paper full-corpus 27M+ total includes other splits.",
+        "Frames are not distinct molecular crystals or molecules.",
+        "Hugging Face access is gated; the card also exposes direct data links.",
+        "OMol25 and OE62 are isolated-molecule resources and are not counted as periodic datasets here."
+      ],
+      "tags": [
+        "molecular-crystal",
+        "DFT",
+        "MLIP",
+        "trajectory",
+        "Scientific Data"
+      ],
+      "additional_counts": [
+        {
+          "count": 218841,
+          "unit": "initial molecular crystals",
+          "scope": "sum of public training207271 and validation11570 crystals"
+        }
+      ]
+    },
+    {
+      "id": "x23-dmc",
+      "name": "X23 diffusion Monte Carlo benchmark",
+      "category": "molecular_crystals",
+      "description": "High-accuracy lattice-energy reference values for the established X23 molecular-crystal set.",
+      "version": "2024 DMC reference study",
+      "year": 2024,
+      "count": 23,
+      "count_display": "23 molecular crystals",
+      "count_unit": "benchmark crystal systems",
+      "count_scope": "All X23 molecular crystals evaluated by the 2024 DMC paper.",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "computed",
+      "properties": [
+        "lattice energy",
+        "reference uncertainty",
+        "sublimation enthalpy comparisons"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "paper": "https://doi.org/10.1103/PhysRevLett.133.046401"
+      },
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39121404/",
+          "title": "Author abstract of 2024 X23 DMC paper",
+          "evidence": "The primary paper reports diffusion Monte Carlo lattice energies for all 23 molecular crystals in X23.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "An energy reference benchmark, not a new collection of 23 novel chemical structures.",
+        "Separate reusable data license and machine-readable original coordinate package were not verified; periodic structures are identified by the benchmark.",
+        "Original X23, revised X23b and DMC labels must be versioned separately."
+      ],
+      "tags": [
+        "molecular-crystal",
+        "benchmark",
+        "DMC",
+        "historical"
+      ]
+    },
+    {
+      "id": "dmc-ice13",
+      "name": "DMC-ICE13",
+      "category": "molecular_crystals",
+      "description": "Diffusion Monte Carlo lattice-energy reference benchmark spanning ambient and high-pressure molecular ice.",
+      "version": "2022 JCP reference dataset",
+      "year": 2022,
+      "count": 13,
+      "count_display": "13 ice polymorphs",
+      "count_unit": "benchmark periodic ice polymorphs",
+      "count_scope": "Thirteen phases in the 2022 DMC-ICE13 publication.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "absolute lattice energy",
+        "relative lattice energy",
+        "DFT benchmark energies"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "paper": "https://doi.org/10.1063/5.0102645",
+        "data": "https://discovery.ucl.ac.uk/id/eprint/10162009/1/2207.01353v1.pdf"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2207.01353",
+          "title": "DMC-ICE13 author paper",
+          "evidence": "Defines a 13-polymorph lattice-energy benchmark with DMC references.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10162009/1/2207.01353v1.pdf",
+          "title": "DMC-ICE13 author supporting information",
+          "evidence": "Supporting information supplies all thirteen geometries in POSCAR format plus DFT/DMC input details.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Thirteen polymorphs of one chemical composition, not thirteen distinct compounds.",
+        "Hydrogen ordering/disordering and geometry conventions affect comparisons.",
+        "Explicit data redistribution license not verified."
+      ],
+      "tags": [
+        "molecular-crystal",
+        "ice",
+        "DMC",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "oc20",
+      "name": "Open Catalyst 2020 (OC20)",
+      "category": "surfaces_catalysis",
+      "description": "Adsorbate-surface DFT relaxations and configurations for heterogeneous catalysis learning.",
+      "version": "Corrected S2EF training files, February 2021",
+      "year": 2020,
+      "count": 133934018,
+      "count_display": "133,934,018 corrected S2EF training frames",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "Released corrected S2EF training set, February 2021; excludes validation, test and optional MD/rattled additions.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "periodic slab structure",
+        "adsorption energy",
+        "forces",
+        "relaxed geometry"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "homepage": "https://opencatalystproject.org/",
+        "data": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md",
+        "paper": "https://doi.org/10.1021/acscatal.0c04525",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2010.09990",
+          "title": "OC20 author paper v5",
+          "evidence": "Reports 1,281,040 DFT relaxations and approximately 264,890,000 single-point evaluations.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md",
+          "title": "OC20 official task downloads and changelog",
+          "evidence": "Changelog corrects S2EF training frames from 133,953,162 to 133,934,018; task data license CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Ranked count is the corrected released S2EF training subset. The full paper describes 1,281,040 relaxations and approximately 264,890,000 single-point evaluations across tasks.",
+        "Relaxations are correlated systems/trajectories, not distinct catalyst materials.",
+        "Bulk parent crystals derive from Materials Project; OC20 dense/MD/rattled subsets must not be blindly added."
+      ],
+      "tags": [
+        "surface",
+        "catalysis",
+        "DFT",
+        "MLIP",
+        "trajectory"
+      ],
+      "additional_counts": [
+        {
+          "count": 1281040,
+          "unit": "DFT relaxation systems",
+          "scope": "full original corpus in author paper v5"
+        },
+        {
+          "count": 264890000,
+          "unit": "DFT single-point evaluations",
+          "scope": "approximate full original corpus in author paper v5"
+        }
+      ]
+    },
+    {
+      "id": "oc22",
+      "name": "Open Catalyst 2022 (OC22)",
+      "category": "surfaces_catalysis",
+      "description": "Oxide-surface electrocatalyst configurations including adsorbates and bare surfaces.",
+      "version": "Author paper v3, March 2023",
+      "year": 2022,
+      "count": 9854504,
+      "count_display": "~9,854,504 single points from 62,331 relaxations",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "Full OC22 corpus as stated in the final author-paper v3 abstract.",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "periodic slab structure",
+        "DFT total energy",
+        "forces",
+        "relaxed geometry"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "data": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc22.md",
+        "paper": "https://doi.org/10.1021/acscatal.2c05426",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2206.08917v3",
+          "title": "OC22 final author paper",
+          "evidence": "Final abstract reports 62,331 relaxations and about 9,854,504 single points.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc22.md",
+          "title": "OC22 official data documentation",
+          "evidence": "License is CC BY 4.0; targets are total energies, with S2EF and initial-to-relaxed task files.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Older summaries use 62,521; this record explicitly uses final v3 count 62,331.",
+        "Energy target convention differs from OC20 adsorption-energy targets.",
+        "One system appears in many trajectory frames."
+      ],
+      "tags": [
+        "oxide",
+        "surface",
+        "catalysis",
+        "MLIP"
+      ],
+      "additional_counts": [
+        {
+          "count": 62331,
+          "unit": "DFT relaxation systems",
+          "scope": "final paper v3"
+        }
+      ]
+    },
+    {
+      "id": "oc25",
+      "name": "Open Catalyst 2025 (OC25)",
+      "category": "surfaces_catalysis",
+      "description": "Explicit-solvent catalyst interfaces with solvent, ions and adsorbates across 88 elements.",
+      "version": "2025 author paper and official release",
+      "year": 2025,
+      "count": 7801261,
+      "count_display": "7,801,261 DFT calculations; 1,511,270 unique solvent environments",
+      "count_unit": "DFT configuration evaluations",
+      "count_scope": "Total corpus in author-paper abstract; different from unique environment or substrate counts.",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "periodic interface structure",
+        "total energy",
+        "forces",
+        "solvation energy"
+      ],
+      "access": "registration",
+      "license": "Creative Commons Attribution 4.0 International (dataset)",
+      "links": {
+        "data": "https://huggingface.co/facebook/OC25",
+        "paper": "https://arxiv.org/abs/2509.17862",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2509.17862v1",
+          "title": "OC25 primary dataset paper",
+          "evidence": "Abstract states 7,801,261 calculations across 1,511,270 unique explicit-solvent environments.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc25.md",
+          "title": "OC25 official data documentation",
+          "evidence": "VASP RPBE+D3 energy/force labels, 88 elements and CC BY 4.0 dataset terms; HF download.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Unique solvent environments are not unique crystalline substrates.",
+        "Dataset and accompanying model license terms are distinct.",
+        "Access restrictions/gating must be checked on the official HF download page."
+      ],
+      "tags": [
+        "solid-liquid",
+        "interfaces",
+        "catalysis",
+        "MLIP"
+      ],
+      "additional_counts": [
+        {
+          "count": 1511270,
+          "unit": "unique explicit-solvent environments",
+          "scope": "2025 paper full corpus"
+        }
+      ]
+    },
+    {
+      "id": "beast-db",
+      "name": "BEAST DB",
+      "category": "surfaces_catalysis",
+      "description": "Grand-canonical DFT electrochemical surface calculations at fixed potential and fixed charge in implicit solvent.",
+      "version": "2024 publication corpus",
+      "year": 2024,
+      "count": 20000,
+      "count_display": "over 20,000 surface calculations",
+      "count_unit": "electrochemical DFT calculations",
+      "count_scope": "Lower bound in the original 2024 primary paper.",
+      "count_precision": "lower_bound",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "potential-dependent energy",
+        "electronic structure",
+        "reaction pathways"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://beastdb.nrel.gov/",
+        "paper": "https://doi.org/10.1021/acs.jpcc.4c06826",
+        "code": "https://github.com/Nick-Singstock/BEAST_DB_Manager"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2405.20239",
+          "title": "BEAST DB primary author paper",
+          "evidence": "Describes over 20,000 surface calculations at consistent grand-canonical DFT settings in implicit solvent, both fixed potential and fixed charge.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is 2024 calculation scale, not a verified live 2026 total or count of unique catalysts.",
+        "Original NREL hostname did not resolve from this audit environment; public availability is documented by the paper.",
+        "Dataset-specific license not verified."
+      ],
+      "tags": [
+        "electrocatalysis",
+        "grand-canonical",
+        "DFT",
+        "potential-dependent"
+      ]
+    },
+    {
+      "id": "sac-ncepu",
+      "name": "Computational Single-Atom Catalyst Database (NCEPU)",
+      "category": "surfaces_catalysis",
+      "description": "Graphene-supported transition-metal single-atom catalysts with systematically varied nonmetal coordination.",
+      "version": "2025 JPCC publication corpus",
+      "year": 2025,
+      "count": 1197,
+      "count_display": "1,197 catalyst samples; 657 pass the study binding-energy criterion",
+      "count_unit": "optimized catalyst configurations",
+      "count_scope": "Initial 3d-metal/coordination corpus; subsequent 4d screening candidates are not added.",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "computed",
+      "properties": [
+        "optimized structure identity",
+        "Bader charge",
+        "d-band center",
+        "binding energy",
+        "adsorption energy"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "data": "https://catalysis-ncepu-hvkydg736ykqeq26d5gxrn.streamlit.app/",
+        "paper": "https://doi.org/10.1021/acs.jpcc.5c00491",
+        "code": "https://github.com/Weijie-Yang/AML"
+      },
+      "sources": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.5c00491",
+          "title": "Computational Single-Atom Catalyst Database primary article",
+          "evidence": "1,197 optimized graphene SACs; 657 satisfy the binding-energy criterion and receive O2/O/NO adsorption labels; paper links Streamlit data and AML code.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The paper is CC BY-NC-ND 4.0; an independent dataset license was not verified.",
+        "Portable periodic coordinate download from the Streamlit app was not verified, so structure level is conservatively structure-linked.",
+        "The binding-energy screen is not a general proof of experimental stability or catalytic performance."
+      ],
+      "tags": [
+        "single-atom-catalyst",
+        "graphene",
+        "DFT"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Catalysis-Hub / CatHub",
+      "url": "https://www.catalysis-hub.org/",
+      "kind": "database_portal",
+      "description": "Open surface-reaction collection with geometries, reaction energies and linked calculations; primary 2019 descriptor reported >100,000 adsorption/reaction energies, which is a historical property count rather than a current count of unique materials.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538711/",
+          "title": "Catalysis-Hub primary data descriptor",
+          "evidence": "2019 descriptor documents linked geometries, calculation settings, reaction and activation energies; contributing studies have different scopes.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "CatApp",
+      "url": "https://cmr.fysik.dtu.dk/catapp/catapp.html",
+      "kind": "legacy_property_database",
+      "description": "Legacy reaction/activation-energy table for elementary surface reactions. The ~3,000-reaction scale is historical; CatApp does not supply detailed atomic geometries, so it is a navigation/property resource.",
+      "sources": [
+        {
+          "url": "https://cmr.fysik.dtu.dk/catapp/catapp.html",
+          "title": "CatApp official CMR page",
+          "evidence": "Provides calculated reaction and activation energies on metal surfaces with the 2012 publication reference.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538711/",
+          "title": "Catalysis-Hub primary descriptor discussion of CatApp",
+          "evidence": "Explains that CatApp covers more than 3,000 reactions but lacks atomic structures and detailed calculation output.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Digital Catalysis Platform (DigCat)",
+      "url": "https://www.digcat.org/",
+      "kind": "database_portal",
+      "description": "Experimental-performance and computational-structure platform. Provider page currently reports >0.4M experimental and >0.4M computational records; a 2024 author preprint reports >400k performance records and >300k structures. Counts are version-dependent and not a unique-material ranking; bulk data license not verified.",
+      "sources": [
+        {
+          "url": "https://www.li-lab-cat-design.com/code--database.html",
+          "title": "DigCat provider laboratory page",
+          "evidence": "Provider reports >0.4 million experimental data and >0.4 million computational data and identifies the current platform/publication.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.cambridge.org/engage/chemrxiv/article-details/6760cd4381d2151a02fb5356",
+          "title": "DigCat 2024 author preprint",
+          "evidence": "Reports >400,000 experimental performance records and >300,000 structures; denominator and release differ from later claims.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "MOFX-DB",
+      "url": "https://mof.tech.northwestern.edu/",
+      "kind": "database_portal",
+      "description": "Adsorption-data portal aggregating experimental and hypothetical MOFs, COFs and zeolites. Source datasets overlap CoRE, hMOF, ToBaCCo and IZA; portal totals are not additional unique structures.",
+      "sources": [
+        {
+          "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=931567",
+          "title": "MOFX-DB primary descriptor",
+          "evidence": "Describes computational adsorption datasets across multiple source families and thermodynamic conditions.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "perspective": "specialized periodic crystals",
+      "queries": [
+        "C2DB official release history and license",
+        "MC2D expansion 3077 archive",
+        "2DMatPedia official Figshare JSONL",
+        "CoRE MOF 2024 2025 release access",
+        "QMOF current versions license",
+        "ARC-MOF Zenodo v7",
+        "CoRE COF v7 archive",
+        "CURATED COFs updates",
+        "hypothetical COFs Mercado ReDD-COFFEE",
+        "IZA framework code count PCOD SLC good",
+        "OC20 OC22 OC25 count scopes",
+        "ODAC23 ODAC25 current release",
+        "OMC25 released split sizes",
+        "X23 DMC ICE13 references",
+        "SAC 1197 primary database",
+        "DigCat official provider counts",
+        "BEAST DB grand canonical data"
+      ],
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "limitations": [
+    "No material total should be computed by summing these heterogeneous and overlapping records.",
+    "Source verification was primary-provider or primary-author based. Several pages were fetched through official REST APIs when rendered pages hid licensing; hashes are retained under evidence-specialized.",
+    "Explicit data licenses remain unverified for some 2DHub projects, legacy hMOF/PCOD/IZA, X23/ICE13, BEAST and the SAC portal. A paper or software license was not silently applied to raw data.",
+    "The documented numeric count is deliberately a dated release/subset when live counts are unavailable. OC20/OC22/OC25/ODAC/OMC/Zeo-1 count frames, IZA counts topology types.",
+    "JARVIS 2D archive independently contains 1,103 records despite documentation 1,109. Public OMC25 train+val totals 26,257,042 frames despite full-paper27M+ description.",
+    "DigCat current provider count differs from the requested ACS Perspective >500k computational claim; no unique-material count or exact release behind that claim was independently verified.",
+    "Broader 2D materials such as Alexandria2D belong to the root inorganic-family audit; NOMAD and Materials Cloud are aggregators recorded separately by the root.",
+    "Additional recent resources worth future verification include LitMOF-DB, OC20NEB/AQCat25, zeolite adsorption configurations, MOF stability datasets and private molecular-crystal prediction corpora."
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "perspective": "core_datasets",
+    "queries": [
+      "LeMaterial official datasets and Hugging Face release metadata",
+      "OMat24 main and sAlex split counts",
+      "Alexandria expansion paper and official versioned downloads",
+      "Primary inorganic database statistics and data terms",
+      "MLIP training sets versus model-only availability",
+      "ACS review coverage and count-denominator audit"
+    ],
+    "limitations": [
+      "This survey documents reported counts; most full payloads were not downloaded or structurally deduplicated.",
+      "Unknown sizes and licensing remain explicit rather than inferred."
+    ]
+  },
+  {
+    "perspective": "experimental_literature",
+    "queries": [
+      "2026-11-01: official COD, ICSD, CCDC/CSD, Pearson Crystal Data, MPDS and ICDD release/access pages",
+      "2026-11-01: NIMS MatNavi, AtomWork/AtomWork-Adv, MDR SuperCon and MDR XAFS provider sources",
+      "2026-11-01: Starrydata project repository, live manifest and Figshare public metadata API; stored small snapshots",
+      "2026-11-01: Scientific Data descriptors for HTEM, 3DSC, synthesis, magnetic, thermoelectric, battery and quasicrystal datasets",
+      "2026-11-01: RRUFF/AMCSD, ROD, MAGNDATA and opXRD provider/author sources",
+      "2026-11-01: ACS Perspective coverage follow-up: DigBat/DDSE, DigHyd, Digital Hydrogen-S and Battery Archive",
+      "2026-11-01: Figshare version metadata checked for data licences; licences were not inferred from article licences"
+    ],
+    "limitations": [
+      "No massive data archives were downloaded; structure/record totals are provider- or author-reported unless explicitly identified as arithmetic sums.",
+      "Dataset counts use heterogeneous units and are not comparable as unique-material totals; overlapping databases and derivatives must not be summed.",
+      "Current primary count/licence unavailable for AMCSD and RRUFF; count left null and licence Not verified.",
+      "CSD count is the arithmetic sum of official January-2026 published-structure statistics; AtomWork count historical 2020; AtomWork-Adv count dated March 2026; HTEM count historical 2018.",
+      "ICSD total includes theoretical structures; ICDD includes mixed diffraction provenance; 3DSC labels/structures can be approximate matches.",
+      "Starrydata full and per-project totals overlap; raw sample rows are not deduplicated compositions. See archived manifest for project-specific counts.",
+      "HTEM hostname did not resolve; several portals had retrieval/TLS failures, recorded without bypassing authentication.",
+      "Digital Hydrogen-S portal certificate and publisher access prevented primary-content verification; listed as a resource with no numerical claim.",
+      "Many literature-property resources include noncrystalline samples or polymers; users must filter to their scientific scope.",
+      "Commercial/restricted and freely browsable services are distinguished from permissively licensed bulk data. Not verified is not a claim of unrestricted use."
+    ]
+  },
+  {
+    "perspective": "property_benchmarks",
+    "queries": [
+      {
+        "perspective": "property and generation benchmarks",
+        "queries": [
+          "Matbench official task metadata",
+          "WBM Matbench Discovery data sets",
+          "CDVAE MP-20 Perov-5 Carbon-24",
+          "MatterGen Alex-MP-20 data summary card",
+          "LeMat-GenBench official repository",
+          "OpenLAM Challenges Crystal Philately"
+        ],
+        "method": "Official repositories, source metadata and primary papers; 2026-11-01"
+      },
+      {
+        "perspective": "phonon and transport data",
+        "queries": [
+          "Kyoto PhononDB NIMS MDR migration",
+          "MDR lattice thermal conductivity 103 compounds",
+          "Phonix database release 2026",
+          "Materials Project Phonon database v1.1",
+          "Petretto DFPT phonons 1521",
+          "Ricci electronic transport database BoltzTraP"
+        ],
+        "method": "Author release indexes, institutional collections, Zenodo API and full primary-paper XML"
+      },
+      {
+        "perspective": "electronic and tensor properties",
+        "queries": [
+          "SNUMAT hybrid functional bandgap dataset",
+          "OMDB-GAP1 official downloads",
+          "Materials Project elastic dielectric piezoelectric Scientific Data",
+          "JARVIS supercon_3d supercon_2d",
+          "SuperBand Scientific Data"
+        ],
+        "method": "Primary data descriptors, official dataset loaders and download tables"
+      }
+    ],
+    "limitations": [
+      "This slice prioritizes explicitly released property cohorts and generation benchmarks; broad parent databases are handled in other research slices.",
+      "No summation across materials, structure entries, task samples, source papers, generated candidates or displaced configurations is valid.",
+      "Some publisher/portal pages returned HTTP 403 or captcha; primary-paper text was retrieved as Europe PMC fullTextXML where available. Successful source responses and SHA-256 hashes are retained under research/evidence-benchmarks/.",
+      "Dataset license is marked Not verified unless specific data terms were read; software licensing is not substituted for dataset licensing.",
+      "Downloads of complete multi-terabyte and other large datasets were not performed. Most counts are author-reported release sizes; the PhononDB LTC count was independently derived from the author index.",
+      "Full AFLOW AEL/AGL cohort size, raw LeMat-Synth access, and OpenLAM Crystal Philately bulk download remain unverified.",
+      "No biological macromolecule/PDB or isolated-molecule corpus is included."
+    ]
+  },
+  {
+    "perspective": "specialized_crystals",
+    "queries": [
+      {
+        "perspective": "specialized periodic crystals",
+        "queries": [
+          "C2DB official release history and license",
+          "MC2D expansion 3077 archive",
+          "2DMatPedia official Figshare JSONL",
+          "CoRE MOF 2024 2025 release access",
+          "QMOF current versions license",
+          "ARC-MOF Zenodo v7",
+          "CoRE COF v7 archive",
+          "CURATED COFs updates",
+          "hypothetical COFs Mercado ReDD-COFFEE",
+          "IZA framework code count PCOD SLC good",
+          "OC20 OC22 OC25 count scopes",
+          "ODAC23 ODAC25 current release",
+          "OMC25 released split sizes",
+          "X23 DMC ICE13 references",
+          "SAC 1197 primary database",
+          "DigCat official provider counts",
+          "BEAST DB grand canonical data"
+        ],
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "No material total should be computed by summing these heterogeneous and overlapping records.",
+      "Source verification was primary-provider or primary-author based. Several pages were fetched through official REST APIs when rendered pages hid licensing; hashes are retained under evidence-specialized.",
+      "Explicit data licenses remain unverified for some 2DHub projects, legacy hMOF/PCOD/IZA, X23/ICE13, BEAST and the SAC portal. A paper or software license was not silently applied to raw data.",
+      "The documented numeric count is deliberately a dated release/subset when live counts are unavailable. OC20/OC22/OC25/ODAC/OMC/Zeo-1 count frames, IZA counts topology types.",
+      "JARVIS 2D archive independently contains 1,103 records despite documentation 1,109. Public OMC25 train+val totals 26,257,042 frames despite full-paper27M+ description.",
+      "DigCat current provider count differs from the requested ACS Perspective >500k computational claim; no unique-material count or exact release behind that claim was independently verified.",
+      "Broader 2D materials such as Alexandria2D belong to the root inorganic-family audit; NOMAD and Materials Cloud are aggregators recorded separately by the root.",
+      "Additional recent resources worth future verification include LitMOF-DB, OC20NEB/AQCat25, zeolite adsorption configurations, MOF stability datasets and private molecular-crystal prediction corpora."
+    ]
+  }
+]

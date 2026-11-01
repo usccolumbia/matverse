@@ -1,0 +1,54 @@
+{
+  "verified_date": "2026-11-01",
+  "independent_payload_counts": [
+    {
+      "dataset": "2DMatPedia",
+      "count": 6351,
+      "unit": "parseable JSONL records",
+      "url": "https://ndownloader.figshare.com/files/14399918",
+      "method": "one JSON object per line; every line parsed"
+    },
+    {
+      "dataset": "JARVIS-DFT 2D d2-12-12-2022",
+      "count": 1103,
+      "unit": "JSON array records",
+      "url": "https://ndownloader.figshare.com/files/38521268",
+      "method": "zipfile decompression then len(json.load()); registry separately reports1109"
+    },
+    {
+      "dataset": "CoRE COF v7",
+      "count": 1242,
+      "unit": "CIF archive entries",
+      "url": "https://raw.githubusercontent.com/core-cof/CoRE-COF-Database/master/CoRE-COFs_DT1242-v7.0.zip",
+      "method": "ZIP member count ending .cif; macOS metadata excluded"
+    }
+  ],
+  "arithmetic_counts": [
+    {
+      "dataset": "OMC25 public train+validation",
+      "count": 26257042,
+      "unit": "configuration frames",
+      "components": [
+        24870226,
+        1386816
+      ],
+      "source": "https://huggingface.co/datasets/facebook/OMC25/blob/main/README.md"
+    },
+    {
+      "dataset": "OMC25 public initial crystals",
+      "count": 218841,
+      "unit": "initial crystals",
+      "components": [
+        207271,
+        11570
+      ],
+      "source": "https://huggingface.co/datasets/facebook/OMC25/blob/main/README.md"
+    }
+  ],
+  "scope_corrections": [
+    "OC20 primary ranked count is 133934018 corrected S2EF training frames per official release changelog; full-paper1281040relaxations retained separately.",
+    "OC22 ranked count~9854504frames; final paper62331relaxations differs from old62521.",
+    "CoRE MOF2025full family43439is mixed-access; open SI9256includes2737CRand6519NCR."
+  ],
+  "raw_response_backup": "[local cache path omitted]"
+}

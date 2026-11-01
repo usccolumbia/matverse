@@ -1,0 +1,1707 @@
+{
+  "datasets": [
+    {
+      "id": "cod",
+      "name": "Crystallography Open Database (COD)",
+      "category": "experimental_crystallography",
+      "description": "Open CIF collection spanning inorganic, organic, metal-organic and mineral crystals.",
+      "version": "Live homepage, accessed 2026-11-01",
+      "year": 2026,
+      "count": 535025,
+      "count_display": "535025 entries",
+      "count_unit": "entries",
+      "count_scope": "Live COD mirror counter; latest deposition shown 2026-10-23",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "experimental",
+      "properties": [
+        "atomic coordinates",
+        "unit cells",
+        "space groups"
+      ],
+      "access": "open",
+      "license": "CC0",
+      "links": {
+        "homepage": "https://www.crystallography.net/cod/",
+        "data": "https://www.crystallography.net/cod/archives/"
+      },
+      "sources": [
+        {
+          "url": "https://cod.psdi.ac.uk/",
+          "title": "COD official mirror",
+          "evidence": "Shows 535025 entries, crystal-family coverage excluding biopolymers, and CC0 public-domain dedication.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Entries are database records, not deduplicated compositions or independently validated new materials.",
+        "Scope and data quality must be checked per CIF; reference patterns calculated from CIFs are not measured XRD."
+      ],
+      "tags": [
+        "CIF",
+        "open",
+        "experimental",
+        "foundational"
+      ]
+    },
+    {
+      "id": "icsd",
+      "name": "Inorganic Crystal Structure Database (ICSD)",
+      "category": "experimental_crystallography",
+      "description": "Curated inorganic crystal structures with experimental and separately searchable theoretical collections.",
+      "version": "2026-10-30 announcement",
+      "year": 2026,
+      "count": 347985,
+      "count_display": "347,985 crystal structures",
+      "count_unit": "crystal structures",
+      "count_scope": "Entire ICSD total announced 2026-10-30, including theoretical structures",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "atomic coordinates",
+        "space groups",
+        "unit cells",
+        "experimental metadata"
+      ],
+      "access": "commercial",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://icsd.products.fiz-karlsruhe.de/en",
+        "data": "https://icsd.fiz-karlsruhe.de/"
+      },
+      "sources": [
+        {
+          "url": "https://icsd.products.fiz-karlsruhe.de/en",
+          "title": "ICSD home",
+          "evidence": "News dated 30.10.2026 reports 347,985 crystal structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd",
+          "title": "About ICSD",
+          "evidence": "Theoretical structures are included and can be searched separately from experimental structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products",
+          "title": "ICSD products",
+          "evidence": "Provides licensed Web and desktop access options.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The headline count is not an experimental-only count.",
+        "Free individual deposited structures via CCDC/FIZ Access Structures do not establish bulk redistribution rights."
+      ],
+      "tags": [
+        "CIF",
+        "commercial",
+        "experimental-and-theoretical",
+        "foundational"
+      ]
+    },
+    {
+      "id": "csd",
+      "name": "Cambridge Structural Database (CSD)",
+      "category": "experimental_crystallography",
+      "description": "Curated experimental three-dimensional organic and metal-organic crystal structures.",
+      "version": "CCDC publication-year statistics, 2026-01-01",
+      "year": 2026,
+      "count": 1431347,
+      "count_display": "1,431,347 (arithmetic sum of published-structure table)",
+      "count_unit": "crystal structures",
+      "count_scope": "Sum of 63 rows in official Structures column, publications 1923–2026, cutoff 2026-01-01; not a November live counter",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "experimental",
+      "properties": [
+        "atomic coordinates",
+        "molecular conformation",
+        "crystal packing"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.ccdc.cam.ac.uk/solutions/software/csd/",
+        "data": "https://www.ccdc.cam.ac.uk/structures/"
+      },
+      "sources": [
+        {
+          "url": "https://www.ccdc.cam.ac.uk/media/CSD-Publication-Year-Statistics-2026.pdf",
+          "title": "CCDC CSD Publication Year Statistics, 1 January 2026",
+          "evidence": "Summing 63 published-structure counts gives 1431347. Source marks 2025 as incomplete at the January-2026 cutoff; atom averages are a different column.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://support.ccdc.cam.ac.uk/support/solutions/articles/103000306361/",
+          "title": "CCDC: Access Structures downloads",
+          "evidence": "Individual CIF downloads are free after accepting conditions of use.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.ccdc.cam.ac.uk/structures/",
+          "title": "CCDC/FIZ Access Structures",
+          "evidence": "Distinguishes free retrieval from advanced licensed CSD-Core and ICSD functionality.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is an explicitly computed sum of the provider publication-year table, not an independently deduplicated or live November-2026 total.",
+        "Individual retrieval is free; advanced curated database products require licences.",
+        "Calculated non-CSD depositions are outside the curated experimental CSD remit."
+      ],
+      "tags": [
+        "CIF",
+        "molecular-crystals",
+        "mixed-access",
+        "foundational",
+        "dated-provider-statistics"
+      ]
+    },
+    {
+      "id": "amcsd",
+      "name": "American Mineralogist Crystal Structure Database (AMCSD)",
+      "category": "experimental_crystallography",
+      "description": "Published mineral and synthetic-phase structure refinements with coordinates, cells, symmetry and references.",
+      "version": "Current RRUFF documentation",
+      "year": 2026,
+      "count": null,
+      "count_display": "Not verified",
+      "count_unit": "crystal structures",
+      "count_scope": "Current AMCSD collection; no current primary total verified",
+      "count_precision": "unknown",
+      "structure_level": "periodic_atomic",
+      "provenance": "literature",
+      "properties": [
+        "atomic coordinates",
+        "unit cells",
+        "space groups",
+        "mineral identity"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.rruff.net/",
+        "data": "https://www.rruff.net/about/download-data/"
+      },
+      "sources": [
+        {
+          "url": "https://www.rruff.net/help/faq/",
+          "title": "RRUFF FAQ: AMCSD",
+          "evidence": "Identifies AMCSD as peer-reviewed mineral and synthetic-phase crystallographic refinements.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.rruff.net/help/zip-download/",
+          "title": "RRUFF: ZIP download",
+          "evidence": "AMCSD archives include full structural .amc and minimal CIF files.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Do not infer a permissive data licence from free ZIP availability.",
+        "Overlaps mineral structures in COD and data linked to RRUFF specimens."
+      ],
+      "tags": [
+        "CIF",
+        "minerals",
+        "bulk-download"
+      ]
+    },
+    {
+      "id": "magndata",
+      "name": "MAGNDATA",
+      "category": "experimental_crystallography",
+      "description": "Published commensurate and incommensurate magnetic structures with atomic positions and magnetic moments in magCIF.",
+      "version": "Live landing page, accessed 2026-11-01",
+      "year": 2026,
+      "count": 2000,
+      "count_display": "more than 2000 published ... magnetic structures",
+      "count_unit": "magnetic structures",
+      "count_scope": "Landing-page lower bound, not an enumerated release",
+      "count_precision": "lower_bound",
+      "structure_level": "periodic_atomic",
+      "provenance": "literature",
+      "properties": [
+        "magnetic moments",
+        "magnetic symmetry",
+        "atomic coordinates"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://cryst.ehu.es/magndata/",
+        "data": "https://cryst.ehu.es/magndata/magndata_download.html"
+      },
+      "sources": [
+        {
+          "url": "https://cryst.ehu.es/magndata/",
+          "title": "MAGNDATA landing page",
+          "evidence": "Reports more than 2000 structures and downloadable .mcif information defining positions and moments.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://test2.cryst.ehu.eus/magndata/magndata_download.html",
+          "title": "MAGNDATA bulk download instructions",
+          "evidence": "Bulk repository download requires an approved account; currently academic or educational institutions only.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Individual entries are downloadable; bulk access has registration and institutional restrictions.",
+        "Magnetic structures may be multiple measurements or phases of one composition."
+      ],
+      "tags": [
+        "magCIF",
+        "magnetism",
+        "experimental",
+        "registration-for-bulk"
+      ]
+    },
+    {
+      "id": "pearsons-crystal-data",
+      "name": "Pearson's Crystal Data",
+      "category": "experimental_crystallography",
+      "description": "Critically evaluated inorganic structural datasets rooted in PAULING FILE.",
+      "version": "Release 2023/24",
+      "year": 2023,
+      "count": 395000,
+      "count_display": "about 395,000 structural data sets",
+      "count_unit": "structural datasets",
+      "count_scope": "2023/24 offline release; not a live ASM-MPDS total",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "literature",
+      "properties": [
+        "atomic coordinates when determined",
+        "displacement parameters",
+        "diffraction references"
+      ],
+      "access": "commercial",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://crystalimpact.com/pcd/",
+        "data": "https://asm.mpds.io/"
+      },
+      "sources": [
+        {
+          "url": "https://crystalimpact.com/pcd/",
+          "title": "Pearson's Crystal Data publisher page",
+          "evidence": "2023/24 release has about 395000 structural datasets; announces transition to ASM online MPDS after final offline release.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Some datasets lack determined atom coordinates.",
+        "Shares PAULING FILE provenance with MPDS and related products; counts are not additive.",
+        "Publisher page is historical; future access is directed to ASM MPDS."
+      ],
+      "tags": [
+        "commercial",
+        "PAULING-FILE",
+        "historical-release"
+      ]
+    },
+    {
+      "id": "mpds-pauling-file",
+      "name": "Materials Platform for Data Science (MPDS / PAULING FILE)",
+      "category": "experimental_crystallography",
+      "description": "Literature-curated inorganic structures, physical properties and phase diagrams exposed through GUI and API.",
+      "version": "Live provider counters, accessed 2026-11-01",
+      "year": 2026,
+      "count": 424820,
+      "count_display": "424 820 crystalline structures",
+      "count_unit": "crystalline structures",
+      "count_scope": "Structural counter only, not the sum of datasheets and physical-property records",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "crystal structures",
+        "physical properties",
+        "phase diagrams"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://mpds.io/",
+        "data": "https://mpds.io/#start",
+        "code": "https://mpds.io/developer/"
+      },
+      "sources": [
+        {
+          "url": "https://mpds.io/",
+          "title": "MPDS provider home",
+          "evidence": "Displays 424820 crystalline structures and distinct counters for 1101574 physical properties and 140255 phase diagrams.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://mpds.io/tutorial/",
+          "title": "MPDS introduction",
+          "evidence": "Online PAULING FILE edition; subscription provides full data, with limited free and open subsets.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The platform additionally contains explicitly marked in-house calculated or ML data.",
+        "Free logged-in open access covers a limited subset; full GUI/API require subscription.",
+        "PAULING FILE-derived products overlap and must not be summed."
+      ],
+      "tags": [
+        "PAULING-FILE",
+        "API",
+        "mixed-access",
+        "literature"
+      ]
+    },
+    {
+      "id": "atomwork",
+      "name": "NIMS AtomWork",
+      "category": "experimental_crystallography",
+      "description": "Inorganic crystal structures, phase diagrams and properties curated from literature.",
+      "version": "Historical NIMS data table reproduced in 2020 government materials",
+      "year": 2020,
+      "count": 82000,
+      "count_display": "82,000 crystal structures",
+      "count_unit": "crystal structures",
+      "count_scope": "Historical AtomWork base database count, not AtomWork-Adv or a current live total",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "literature",
+      "properties": [
+        "crystal structures",
+        "phase diagrams",
+        "physical properties"
+      ],
+      "access": "registration",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://mits.nims.go.jp/en/",
+        "data": "https://crystdb.nims.go.jp/"
+      },
+      "sources": [
+        {
+          "url": "https://www.mext.go.jp/content/20200602-mxt_nanozai-000007507_6_2.pdf",
+          "title": "MEXT materials data reference, NIMS-provided table",
+          "evidence": "NIMS table separates AtomWork 82000 structures, 15000 phase diagrams and 55000 properties from AtomWork-Adv.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://mits.nims.go.jp/en/",
+          "title": "NIMS MatNavi",
+          "evidence": "Free registered browsing; mass acquisition and web scraping prohibited.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is historical; no current independent total verified.",
+        "MatNavi access does not authorize bulk scraping.",
+        "Related PAULING FILE/AtomWork products overlap."
+      ],
+      "tags": [
+        "NIMS",
+        "registration",
+        "historical-count"
+      ]
+    },
+    {
+      "id": "atomwork-adv",
+      "name": "NIMS AtomWork-Adv",
+      "category": "experimental_crystallography",
+      "description": "Expert-curated inorganic single-phase structure, property and phase-diagram data.",
+      "version": "2026-03-31 NIMS statistics",
+      "year": 2026,
+      "count": 409723,
+      "count_display": "409,723 crystal structures",
+      "count_unit": "crystal structures",
+      "count_scope": "NIMS statistics as of 2026-03-31, not a live November counter",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "literature",
+      "properties": [
+        "crystal structures",
+        "X-ray diffraction",
+        "phase diagrams",
+        "physical properties"
+      ],
+      "access": "commercial",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://atomwork-adv.nims.go.jp/",
+        "data": "https://atomwork-adv.nims.go.jp/en/service.html"
+      },
+      "sources": [
+        {
+          "url": "https://www.mext.go.jp/content/20260522-mxt_jyohoka01-000050160_3.pdf",
+          "title": "MEXT/NIMS materials data infrastructure presentation",
+          "evidence": "NIMS statistics dated 2026-03-31 give AtomWork-Adv 409723 crystal structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://atomwork-adv.nims.go.jp/service.html?lan=jp",
+          "title": "AtomWork-Adv provider service terms",
+          "evidence": "Purchased licence follows a limited browsing-only trial; licensed use allows limited downloads.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11573338/",
+          "title": "A comprehensive data network for data-driven study of battery materials",
+          "evidence": "Describes expert literature extraction and annual updating of AtomWork-Adv.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Do not conflate property-value counts with structures or materials.",
+        "Limited trial is not an open bulk dataset.",
+        "Shared PAULING FILE lineage creates overlap with other products."
+      ],
+      "tags": [
+        "NIMS",
+        "commercial",
+        "literature"
+      ]
+    },
+    {
+      "id": "starrydata2",
+      "name": "Starrydata2 experimental materials datasets",
+      "category": "experimental_properties",
+      "description": "Digitized experimental property curves with composition, sample and source-paper metadata.",
+      "version": "DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST)",
+      "year": 2026,
+      "count": 106815,
+      "count_display": "106815 samples; 239098 curves",
+      "count_unit": "samples",
+      "count_scope": "Full snapshot; project splits overlap and are not separate additive datasets",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "thermoelectric properties",
+        "thermal conductivity",
+        "magnetism",
+        "dielectric properties",
+        "piezoelectric properties",
+        "battery properties"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://starrydata.github.io/starrydata_datasets/",
+        "data": "https://github.com/starrydata/starrydata_datasets/releases",
+        "paper": "https://doi.org/10.1080/27660400.2025.2590811",
+        "code": "https://github.com/starrydata/starrydata_datasets"
+      },
+      "sources": [
+        {
+          "url": "https://starrydata.github.io/starrydata_datasets/manifest.json",
+          "title": "Starrydata live release manifest",
+          "evidence": "Snapshot reports 106815 sample rows, 239098 curve rows, 66890 figures and 17560 papers with data; file hashes included.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/34875318",
+          "title": "Starrydata 20261101 archival metadata",
+          "evidence": "November-1 archive identifies its data licence as CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/starrydata/starrydata_datasets",
+          "title": "Starrydata dataset release repository",
+          "evidence": "Documents daily project splits and sample-ID collision affecting snapshots from 2026-04-01 through 2026-09-08.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Samples are not deduplicated chemical compositions; curves contain multiple x/y points.",
+        "Avoid affected April–September 2026 snapshots or use composite (SID, sample_id) joins.",
+        "Project splits are membership-based and can overlap; summed project counts overstate the full database.",
+        "Composition and property data do not supply full periodic atomic structures."
+      ],
+      "tags": [
+        "priority",
+        "literature-digitization",
+        "CSV",
+        "temperature-dependent",
+        "hashes"
+      ]
+    },
+    {
+      "id": "mdr-supercon",
+      "name": "MDR SuperCon Datasheet",
+      "category": "experimental_properties",
+      "description": "Versioned successor to the former MatNavi SuperCon superconducting-materials database.",
+      "version": "Ver.240322",
+      "year": 2024,
+      "count": null,
+      "count_display": "No primary release row count verified",
+      "count_unit": "records",
+      "count_scope": "Ver.240322 metadata; historical SuperCon totals are not substituted",
+      "count_precision": "unknown",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "critical temperature",
+        "superconducting material composition",
+        "related measured properties"
+      ],
+      "access": "open",
+      "license": "Creative Commons BY Attribution 4.0 International",
+      "links": {
+        "homepage": "https://doi.org/10.48505/nims.3739",
+        "data": "https://doi.org/10.48505/nims.4487"
+      },
+      "sources": [
+        {
+          "url": "https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja",
+          "title": "MDR SuperCon Datasheet Ver.240322",
+          "evidence": "NIMS describes re-edited SuperCon, DOI-versioned updates, oxide/metal and organic tables, and CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Former GUI service has been replaced by datasheets.",
+        "Use the DOI of the actual version downloaded.",
+        "Full atomic structures are not generally supplied; derivative ML subsets have different cleaning and counts."
+      ],
+      "tags": [
+        "NIMS",
+        "superconductivity",
+        "versioned",
+        "composition-properties"
+      ]
+    },
+    {
+      "id": "3dsc-mp",
+      "name": "3DSC_MP",
+      "category": "experimental_properties",
+      "description": "SuperCon critical temperatures linked to Materials Project crystal structures.",
+      "version": "2023 published release",
+      "year": 2023,
+      "count": 5773,
+      "count_display": "5,759 SuperCon entries matched with 5,773 crystal structures",
+      "count_unit": "matched crystal structures",
+      "count_scope": "Published 3DSC_MP release; count is one-to-many matched structures",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "critical temperature",
+        "composition",
+        "structural descriptors"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/aimat-lab/3DSC",
+        "paper": "https://www.nature.com/articles/s41597-023-02721-y",
+        "code": "https://github.com/aimat-lab/3DSC",
+        "data": "https://doi.org/10.6084/m9.figshare.24499930"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-023-02721-y",
+          "title": "3DSC Scientific Data descriptor",
+          "evidence": "Reports 5759 SuperCon entries and 5773 MP-derived structures; CIFs available; matching sometimes uses artificial doping.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/24499930",
+          "title": "3DSC_MP repository metadata",
+          "evidence": "Confirms public data deposit and its stated licence; applies to deposited files.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Structures can be approximate proxies modified by occupancy substitution; they are not all measurements of the labeled superconducting sample.",
+        "Labels and structures have different provenance."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "superconductivity",
+        "matched-structures"
+      ]
+    },
+    {
+      "id": "3dsc-icsd",
+      "name": "3DSC_ICSD",
+      "category": "experimental_properties",
+      "description": "SuperCon critical temperatures linked to ICSD identifiers and matched structures.",
+      "version": "2023 published release",
+      "year": 2023,
+      "count": 86490,
+      "count_display": "9,150 SuperCon entries matched with 86,490 crystal structures",
+      "count_unit": "matched crystal structures",
+      "count_scope": "Published 3DSC_ICSD matches, including repeated measurement conditions",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "mixed",
+      "properties": [
+        "critical temperature",
+        "composition",
+        "ICSD structure identifiers"
+      ],
+      "access": "mixed",
+      "license": "CC BY 4.0 (public labels/IDs only; underlying ICSD CIFs separately licensed)",
+      "links": {
+        "homepage": "https://github.com/aimat-lab/3DSC",
+        "paper": "https://www.nature.com/articles/s41597-023-02721-y",
+        "code": "https://github.com/aimat-lab/3DSC",
+        "data": "https://doi.org/10.6084/m9.figshare.24499924"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-023-02721-y",
+          "title": "3DSC Scientific Data descriptor",
+          "evidence": "Reports 9150 SuperCon entries matched to 86490 structures; public CSV gives ICSD IDs; full reconstruction requires ICSD licence.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/24499924",
+          "title": "3DSC_ICSD (only Tc and ICSD IDs) repository metadata",
+          "evidence": "Confirms public data deposit and its stated licence; applies to deposited files.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Public IDs and labels do not confer redistribution rights to ICSD CIFs.",
+        "Many matches share composition but differ in measurement conditions; artificial doping can approximate sample structures."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "superconductivity",
+        "licensed-structures"
+      ]
+    },
+    {
+      "id": "rruff",
+      "name": "RRUFF mineral spectroscopy and diffraction",
+      "category": "diffraction_spectroscopy",
+      "description": "Mineral specimen chemistry, Raman/IR spectra, powder XRD and structural metadata.",
+      "version": "Current provider documentation",
+      "year": 2026,
+      "count": null,
+      "count_display": "Current primary sample or spectrum count not verified",
+      "count_unit": "samples",
+      "count_scope": "RRUFF empirical mineral collection; modality counts differ",
+      "count_precision": "unknown",
+      "structure_level": "structure_linked",
+      "provenance": "experimental",
+      "properties": [
+        "Raman spectra",
+        "infrared spectra",
+        "powder XRD",
+        "chemistry",
+        "cell parameters"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.rruff.net/",
+        "data": "https://www.rruff.net/about/download-data/"
+      },
+      "sources": [
+        {
+          "url": "https://www.rruff.net/",
+          "title": "RRUFF home",
+          "evidence": "Lists empirical mineral chemistry, cell parameters and multiple spectroscopic modalities.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.rruff.net/about/download-data/",
+          "title": "RRUFF data downloads",
+          "evidence": "Offers ZIP collections for chemistry, Raman, IR and powder XRD.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.rruff.net/help/zip-download/",
+          "title": "RRUFF download documentation",
+          "evidence": "Distinguishes raw and processed spectra; calculated XRD profiles are labeled processed.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "No current count repeated from third-party catalogues.",
+        "Modalities and repeated measurements do not equal unique minerals.",
+        "Processed XRD may include calculated profiles; do not treat every profile as measured.",
+        "Data licence not independently verified."
+      ],
+      "tags": [
+        "minerals",
+        "Raman",
+        "XRD",
+        "IR",
+        "bulk-download"
+      ]
+    },
+    {
+      "id": "raman-open-database",
+      "name": "Raman Open Database (ROD)",
+      "category": "diffraction_spectroscopy",
+      "description": "Open Raman spectra collection interconnected with crystallographic records.",
+      "version": "Live provider homepage, accessed 2026-11-01",
+      "year": 2026,
+      "count": 1133,
+      "count_display": "1133 entries",
+      "count_unit": "entries",
+      "count_scope": "ROD live counter; latest deposition shown 2025-10-30",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "experimental",
+      "properties": [
+        "Raman spectra",
+        "sample identity",
+        "linked diffraction structure information"
+      ],
+      "access": "open",
+      "license": "CC0",
+      "links": {
+        "homepage": "https://solsa.crystallography.net/rod/",
+        "paper": "https://journals.iucr.org/j/issues/2019/03/00/nb5236/"
+      },
+      "sources": [
+        {
+          "url": "https://solsa.crystallography.net/rod/",
+          "title": "ROD homepage",
+          "evidence": "Shows 1133 entries and CC0 public-domain dedication.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://journals.iucr.org/j/issues/2019/03/00/nb5236/",
+          "title": "ROD primary descriptor",
+          "evidence": "Describes the interconnected Raman and X-ray diffraction identification resource.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Spectrum entries are not a count of unique atomic structures or compositions."
+      ],
+      "tags": [
+        "Raman",
+        "CC0",
+        "structure-linked"
+      ]
+    },
+    {
+      "id": "icdd-pdf5",
+      "name": "ICDD Powder Diffraction File PDF-5+",
+      "category": "diffraction_spectroscopy",
+      "description": "Commercial phase-identification reference combining diffraction and crystal-structure information.",
+      "version": "PDF-5+ 2026",
+      "year": 2026,
+      "count": 1126200,
+      "count_display": "1,126,200+ entries",
+      "count_unit": "reference entries",
+      "count_scope": "PDF-5+ 2026 product headline total; 651200+ coordinate-bearing entries are a subset",
+      "count_precision": "lower_bound",
+      "structure_level": "mixed",
+      "provenance": "mixed",
+      "properties": [
+        "powder diffraction",
+        "phase identification",
+        "reference intensities",
+        "atomic coordinates for subset"
+      ],
+      "access": "commercial",
+      "license": "Limited, nonexclusive, and nontransferable license",
+      "links": {
+        "homepage": "https://www.icdd.com/",
+        "data": "https://www.icdd.com/pdf-5/"
+      },
+      "sources": [
+        {
+          "url": "https://www.icdd.com/assets/files/2026-Product-Booklet.pdf",
+          "title": "ICDD 2026 product booklet",
+          "evidence": "PDF-5+ 2026 advertises 1126200+ entries and 651200+ with atomic coordinates.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.icdd.com/licensing-process/",
+          "title": "ICDD licensing process",
+          "evidence": "Licensed access; restrictions include redistribution and derivative works involving ML or AI, except as expressly authorized.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Reference entries include calculated as well as measured diffraction information.",
+        "Coordinate-bearing entries are a subset, not an additional dataset.",
+        "Terms restrict derivative ML/AI works and redistribution; do not assume training rights from subscription access."
+      ],
+      "tags": [
+        "commercial",
+        "XRD",
+        "ML-restrictions"
+      ]
+    },
+    {
+      "id": "opxrd",
+      "name": "opXRD: Open Experimental Powder X-ray Diffraction Database",
+      "category": "diffraction_spectroscopy",
+      "description": "Labeled and unlabeled experimental powder diffractograms contributed by multiple research institutions.",
+      "version": "2025 paper; downloadable archive v11 (2025-04-28)",
+      "year": 2025,
+      "count": 92552,
+      "count_display": "92,552 diffractograms, 2179 of them labeled",
+      "count_unit": "diffraction patterns",
+      "count_scope": "Count described in author preprint; not independently recounted in v11 archive",
+      "count_precision": "exact",
+      "structure_level": "mixed",
+      "provenance": "experimental",
+      "properties": [
+        "experimental powder XRD",
+        "phase labels for subset",
+        "partial structure information"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://xrd.aimat.science/",
+        "data": "https://zenodo.org/records/15298026",
+        "paper": "https://doi.org/10.1002/aidi.202500044",
+        "code": "https://github.com/aimat-lab/opXRD"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2503.05577v2",
+          "title": "opXRD author preprint v2",
+          "evidence": "Reports 92552 collected diffractograms, 2179 labeled, with broad material coverage.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/records/15298026",
+          "title": "opXRD archive v11",
+          "evidence": "Author archive provides experimental single- and multiphase pXRD data.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://zenodo.org/api/records/15298026",
+          "title": "opXRD Zenodo metadata",
+          "evidence": "Metadata identifies v11 and CC BY 4.0 licence.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Most patterns are unlabeled.",
+        "Not a database of 92552 resolved atomic structures.",
+        "Count is paper-reported; archive payload was not downloaded or independently enumerated."
+      ],
+      "tags": [
+        "XRD",
+        "experimental",
+        "open",
+        "labels-sparse"
+      ]
+    },
+    {
+      "id": "mdr-xafs",
+      "name": "MDR XAFS DB",
+      "category": "diffraction_spectroscopy",
+      "description": "Integrated experimental X-ray absorption fine-structure spectra with standardized metadata and source DOIs.",
+      "version": "Live collection, accessed 2026-11-01",
+      "year": 2026,
+      "count": 2264,
+      "count_display": "2264 items",
+      "count_unit": "collection items",
+      "count_scope": "MDR collection items; a work may include sample/reference spectra and metadata",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "experimental",
+      "properties": [
+        "XAFS spectra",
+        "absorption edges",
+        "measurement metadata",
+        "local structure probes"
+      ],
+      "access": "open",
+      "license": "CC BY-NC-SA 4.0 for whole database; individual data CC BY or CC BY-NC-SA",
+      "links": {
+        "homepage": "https://mdr.nims.go.jp/collections/a0f3fbf1-f94a-4be7-8a66-6b91a24f6b54",
+        "data": "https://doi.org/10.48505/nims.1447",
+        "paper": "https://doi.org/10.1080/27660400.2023.2197518"
+      },
+      "sources": [
+        {
+          "url": "https://mdr.nims.go.jp/collections/a0f3fbf1-f94a-4be7-8a66-6b91a24f6b54",
+          "title": "MDR XAFS DB collection",
+          "evidence": "Shows 2264 items, metadata/API facilities, and distinct whole-database and item-level licences.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Item count is not necessarily a unique-material or individual-spectrum count.",
+        "Inspect each record licence; whole-database reuse has noncommercial/share-alike conditions.",
+        "Local spectroscopy does not guarantee a full atomic structure."
+      ],
+      "tags": [
+        "NIMS",
+        "XAFS",
+        "spectroscopy",
+        "API"
+      ]
+    },
+    {
+      "id": "htem",
+      "name": "High Throughput Experimental Materials Database (HTEM)",
+      "category": "experimental_properties",
+      "description": "Experimental inorganic thin-film libraries combining synthesis, composition, diffraction and optoelectronic measurements.",
+      "version": "2018 Scientific Data descriptor",
+      "year": 2018,
+      "count": 140000,
+      "count_display": ">140,000 entries",
+      "count_unit": "entries",
+      "count_scope": "Historical 2018 database including nonpublic measurements; not current public-only size",
+      "count_precision": "lower_bound",
+      "structure_level": "structure_linked",
+      "provenance": "experimental",
+      "properties": [
+        "synthesis conditions",
+        "composition",
+        "XRD",
+        "optical absorption",
+        "conductivity",
+        "band gap"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://htem.nrel.gov/",
+        "paper": "https://www.nature.com/articles/sdata201853"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/sdata201853",
+          "title": "HTEM Scientific Data descriptor",
+          "evidence": "Reports over 140000 entries with synthesis/characterization; more than half of property data public at publication.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Historical total includes data not publicly released; do not advertise 140000 as an open-download subset.",
+        "Thin-film sample measurements and diffraction features do not generally supply periodic coordinates.",
+        "Current host could not be resolved during this audit; current operational status and size unverified."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "thin-films",
+        "high-throughput-experiment",
+        "historical-count"
+      ]
+    },
+    {
+      "id": "text-mined-solid-state-synthesis",
+      "name": "Text-mined inorganic solid-state synthesis recipes",
+      "category": "experimental_properties",
+      "description": "Machine-extracted precursor, target, operation and condition records with balanced reactions.",
+      "version": "Figshare v3, 2019-09-27",
+      "year": 2019,
+      "count": 19488,
+      "count_display": "19,488 synthesis entries",
+      "count_unit": "synthesis entries",
+      "count_scope": "2019 published v3 dataset, not later repository updates",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "precursors",
+        "target compositions",
+        "operations",
+        "temperature",
+        "time",
+        "balanced reaction"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/CederGroupHub/text-mined-synthesis_public",
+        "data": "https://doi.org/10.6084/m9.figshare.9722159.v3",
+        "paper": "https://www.nature.com/articles/s41597-019-0224-1",
+        "code": "https://github.com/CederGroupHub/text-mined-synthesis_public"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-019-0224-1",
+          "title": "Solid-state synthesis Scientific Data descriptor",
+          "evidence": "Data Records and abstract identify 19488 synthesis entries in the deposited dataset.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/9722159/versions/3",
+          "title": "Solid-state synthesis v3 metadata",
+          "evidence": "Confirms release v3, dated 2019-09-27, under CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Paper also mentions 19744 reactions elsewhere; 19488 is the release-specific Data Records count retained here.",
+        "Reported successful literature procedures do not establish phase purity or experimental reproducibility.",
+        "Later updates have different counts."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "synthesis",
+        "text-mining",
+        "JSON"
+      ]
+    },
+    {
+      "id": "text-mined-solution-synthesis",
+      "name": "Text-mined solution-based inorganic synthesis procedures",
+      "category": "experimental_properties",
+      "description": "Hydrothermal and precipitation procedures with targets, precursors, quantities, operations and reactions.",
+      "version": "Figshare v4, 2022-02-04",
+      "year": 2022,
+      "count": 35675,
+      "count_display": "20,037 hydrothermal ... and 15,638 precipitation ... reactions",
+      "count_unit": "synthesis procedures",
+      "count_scope": "Published v4 JSON release: 20037 + 15638 procedures",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "precursors",
+        "targets",
+        "quantities",
+        "solvents",
+        "operations",
+        "synthesis conditions"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/CederGroupHub/text-mined-solution-synthesis_public",
+        "data": "https://doi.org/10.6084/m9.figshare.16583387.v4",
+        "paper": "https://www.nature.com/articles/s41597-022-01317-2",
+        "code": "https://github.com/CederGroupHub/text-mined-solution-synthesis_public"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-022-01317-2",
+          "title": "Solution-synthesis Scientific Data descriptor",
+          "evidence": "Data Records gives 20037 hydrothermal and 15638 precipitation procedures, each represented as JSON.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/16583387/versions/4",
+          "title": "Solution-synthesis v4 metadata",
+          "evidence": "Confirms v4 data release and CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Procedures are not unique compounds or measured property points.",
+        "Literature extraction is subject to missing fields and publication-selection bias."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "synthesis",
+        "text-mining",
+        "JSON"
+      ]
+    },
+    {
+      "id": "solid-state-synthesis-impurities",
+      "name": "Solid-state synthesis recipes with impurity phases",
+      "category": "experimental_properties",
+      "description": "LLM-extracted target and secondary-phase reactions with synthesis metadata and publication provenance.",
+      "version": "2025 published Figshare release",
+      "year": 2025,
+      "count": 80806,
+      "count_display": "80,806 syntheses ... including 18,869 ... with impurity phase(s)",
+      "count_unit": "synthesis reactions",
+      "count_scope": "Published dataset; 61937 records have no reported impurity phase",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "target reactions",
+        "impurity phases",
+        "precursors",
+        "operations",
+        "temperature",
+        "time"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/slee-lab/solid-state-recipes-with-impurity",
+        "data": "https://doi.org/10.6084/m9.figshare.30423274",
+        "paper": "https://www.nature.com/articles/s41597-025-06222-y",
+        "code": "https://github.com/slee-lab/solid-state-recipes-with-impurity"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-025-06222-y",
+          "title": "Impurity-aware synthesis Scientific Data descriptor",
+          "evidence": "Reports 80806 extracted syntheses, 18869 explicitly including impurities; supplies public JSON deposit.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/30423274",
+          "title": "Impurity synthesis Figshare metadata",
+          "evidence": "Confirms JSON archive and CC BY 4.0 release.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "No reported impurity is not proof of experimental phase purity.",
+        "LLM-extracted literature records require source checking for scientific use."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "synthesis",
+        "impurity-phases",
+        "LLM-extraction"
+      ]
+    },
+    {
+      "id": "cde-thermoelectric",
+      "name": "ChemDataExtractor thermoelectric materials database",
+      "category": "experimental_properties",
+      "description": "Text-mined thermoelectric properties linked to chemical names and measurement temperatures.",
+      "version": "2022 published release",
+      "year": 2022,
+      "count": 22805,
+      "count_display": "22,805 data records",
+      "count_unit": "property records",
+      "count_scope": "Full extracted database described in 2022 paper, before optional aggregated/inferred variant",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "ZT",
+        "thermal conductivity",
+        "Seebeck coefficient",
+        "electrical conductivity",
+        "power factor",
+        "temperature"
+      ],
+      "access": "open",
+      "license": "MIT",
+      "links": {
+        "homepage": "https://github.com/odysie/thermoelectricsdb",
+        "data": "https://doi.org/10.6084/m9.figshare.19658787",
+        "paper": "https://www.nature.com/articles/s41597-022-01752-1",
+        "code": "https://github.com/odysie/thermoelectricsdb"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-022-01752-1.pdf",
+          "title": "Thermoelectric Scientific Data descriptor",
+          "evidence": "Reports 22805 records across 10641 extracted chemical names; estimated extraction precision 82.25%.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/19658787",
+          "title": "Thermoelectric database Figshare metadata",
+          "evidence": "Repository metadata explicitly specifies MIT for data/source archives.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Extracted names are not deduplicated crystal structures.",
+        "Separate aggregated-with-inferences data includes derived values; preserve inference flags.",
+        "Repository MIT licence is recorded separately from article licensing."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "thermoelectrics",
+        "text-mining"
+      ]
+    },
+    {
+      "id": "cde-curie-neel-2018",
+      "name": "ChemDataExtractor Curie and Néel database (2018)",
+      "category": "experimental_properties",
+      "description": "Automatically extracted magnetic-transition temperatures linked to compounds and source documents.",
+      "version": "2018 published release",
+      "year": 2018,
+      "count": 39822,
+      "count_display": "39,822 records",
+      "count_unit": "property records",
+      "count_scope": "2018 full extraction: 11340 Néel and 28482 Curie records",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "Curie temperature",
+        "Néel temperature"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/cjcourt/magdb",
+        "data": "https://doi.org/10.6084/m9.figshare.c.3954418",
+        "paper": "https://www.nature.com/articles/sdata2018111",
+        "code": "https://github.com/cjcourt/magdb"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/sdata2018111",
+          "title": "Magnetic transition Scientific Data descriptor",
+          "evidence": "Reports 39822 extracted records and estimated overall precision 73%; data deposited on Figshare.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Automated literature extraction is not equivalent to expert-validated measurements.",
+        "Property records are not unique compounds.",
+        "Related 2025 dataset uses a different corpus/parser; do not merge counts blindly."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "magnetism",
+        "text-mining",
+        "historical-release"
+      ]
+    },
+    {
+      "id": "cde-curie-neel-2025",
+      "name": "ChemDataExtractor/Snowball Curie–Néel dataset (2025)",
+      "category": "experimental_properties",
+      "description": "Magnetic-transition records extracted using ChemDataExtractor 2.2.2 and Snowball v2.",
+      "version": "Figshare v2; 2025 descriptor",
+      "year": 2025,
+      "count": 56037,
+      "count_display": "56,037 records",
+      "count_unit": "property records",
+      "count_scope": "2025 dataset extracted from 108181 articles; not a deduplicated structure set",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "Curie temperature",
+        "Néel temperature"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/C-R-Kelly/Curie-Neel-temperature-dataset",
+        "data": "https://doi.org/10.6084/m9.figshare.29559686.v2",
+        "paper": "https://www.nature.com/articles/s41597-025-06244-6",
+        "code": "https://github.com/C-R-Kelly/Curie-Neel-temperature-dataset"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-025-06244-6",
+          "title": "2025 magnetic temperature Scientific Data descriptor",
+          "evidence": "Reports 56037 records; evaluation precision 72%, recall 61%; data CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/29559686/versions/2",
+          "title": "Curie–Néel v2 repository metadata",
+          "evidence": "Confirms version and CC BY 4.0 data files.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "NLP errors and ambiguous chemical names remain.",
+        "Count is extracted relationships, not unique magnetic crystals.",
+        "Overlaps earlier magnetic literature datasets; additive union size not established."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "magnetism",
+        "text-mining"
+      ]
+    },
+    {
+      "id": "cde-battery-2020",
+      "name": "ChemDataExtractor battery materials database (2020)",
+      "category": "experimental_properties",
+      "description": "Literature-mined battery material-property relationships in SQL, CSV and JSON.",
+      "version": "Figshare v2, 2020-07-13",
+      "year": 2020,
+      "count": 292313,
+      "count_display": "292,313 data records",
+      "count_unit": "property records",
+      "count_scope": "2020 descriptor full dataset; 214617 unique chemical–property relationships and 17354 extracted chemicals",
+      "count_precision": "exact",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "capacity",
+        "voltage",
+        "conductivity",
+        "Coulombic efficiency",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://github.com/ShuHuang/batterydatabase",
+        "data": "https://doi.org/10.6084/m9.figshare.11888115.v2",
+        "paper": "https://www.nature.com/articles/s41597-020-00602-2",
+        "code": "https://github.com/ShuHuang/batterydatabase"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-020-00602-2",
+          "title": "Battery materials Scientific Data descriptor",
+          "evidence": "Reports 292313 records, 214617 unique chemical-property relations and 17354 chemicals.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/11888115/versions/2",
+          "title": "Battery database v2 metadata",
+          "evidence": "Confirms 2020 release and CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Includes heterogeneous battery materials, not exclusively crystalline solids.",
+        "No full periodic structures; material names and measurements need context.",
+        "Later BatteryBERT enhancement is a different release with different counts."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "batteries",
+        "text-mining",
+        "composition-properties"
+      ]
+    },
+    {
+      "id": "hypod-x",
+      "name": "HYPOD-X: quasicrystals and approximants",
+      "category": "experimental_properties",
+      "description": "Literature-curated compositions, structural types, synthesis, phase regions and temperature-dependent properties.",
+      "version": "Figshare v3, 2024 release",
+      "year": 2024,
+      "count": 1448,
+      "count_display": "915 QCs, 525 ACs, and 8 QCs or ACs",
+      "count_unit": "composition/sample instances",
+      "count_scope": "Composition dataset only; sum of three explicitly reported classes",
+      "count_precision": "exact",
+      "structure_level": "structure_linked",
+      "provenance": "literature",
+      "properties": [
+        "composition",
+        "structure type",
+        "sample fabrication",
+        "phase diagrams",
+        "thermal conductivity",
+        "electrical resistivity",
+        "magnetic susceptibility"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://www.nature.com/articles/s41597-024-04043-z",
+        "paper": "https://www.nature.com/articles/s41597-024-04043-z",
+        "data": "https://doi.org/10.6084/m9.figshare.25650705.v3"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-024-04043-z",
+          "title": "HYPOD-X Scientific Data descriptor",
+          "evidence": "Composition dataset has 915 QC, 525 AC and 8 ambiguous instances; separate property dataset has 1449 curves and 52311 points.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/25650705/versions/3",
+          "title": "HYPOD-X v3 Figshare metadata",
+          "evidence": "Confirms published v3 data deposit and CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Counted sample/composition instances are not atomic coordinate structures.",
+        "Includes aperiodic quasicrystals; approximants are periodic.",
+        "Property dataset overlaps Starrydata infrastructure and should not be summed with it."
+      ],
+      "tags": [
+        "Scientific-Data",
+        "quasicrystals",
+        "approximants",
+        "Starrydata-linked"
+      ]
+    },
+    {
+      "id": "digbat",
+      "name": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "category": "experimental_properties",
+      "description": "Curated solid-electrolyte compositions and transport measurements linked to a separate computational collection.",
+      "version": "June 2026 experimental subset",
+      "year": 2026,
+      "count": 3816,
+      "count_display": "3,816 experimental solid-state electrolytes",
+      "count_unit": "experimental electrolyte materials",
+      "count_scope": "June-2026 experimental subset across inorganic, solid-polymer and gel-polymer modules",
+      "count_precision": "exact",
+      "structure_level": "mixed",
+      "provenance": "literature",
+      "properties": [
+        "ionic conductivity",
+        "activation energy",
+        "temperature",
+        "processing metadata"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.digbat.org",
+        "data": "https://www.digbat.org",
+        "paper": "https://doi.org/10.1016/j.nanoms.2026.07.001"
+      },
+      "sources": [
+        {
+          "url": "https://www.tohoku.ac.jp/en/press/digbat_an_ai_ready_digital_platform_for_solid_state_battery_research.html",
+          "title": "Tohoku University DigBat provider announcement",
+          "evidence": "June-2026 statistics distinguish 3816 experimental materials, 27645 conductivity entries and 852 computational materials.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589965126001236",
+          "title": "DigBat author paper",
+          "evidence": "Describes DDSE extension to inorganic/polymer electrolytes and integrated transport simulations.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Experimental material count excludes the separate 852 computational entries.",
+        "Polymer/gel modules are adjacent to crystalline materials; filter for inorganic SSEs when required.",
+        "Portal connection failed in this audit; release data verified through provider announcement and author paper.",
+        "Open web access does not establish a bulk-redistribution licence."
+      ],
+      "tags": [
+        "solid-electrolytes",
+        "ionic-transport",
+        "DDSE",
+        "mixed-material-classes"
+      ]
+    },
+    {
+      "id": "dighyd",
+      "name": "Digital Hydrogen Platform (DigHyd)",
+      "category": "experimental_properties",
+      "description": "Human-checked literature-mined hydrogen-storage data including capacities and thermodynamic parameters.",
+      "version": "September 2026 author descriptor",
+      "year": 2026,
+      "count": 30000,
+      "count_display": ">30,000 data entries",
+      "count_unit": "data entries",
+      "count_scope": "Published September-2026 database description; not a unique-material count",
+      "count_precision": "lower_bound",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "gravimetric hydrogen capacity",
+        "hydrogenation enthalpy",
+        "hydrogenation entropy",
+        "PCT behavior"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.dighyd.org",
+        "data": "https://www.dighyd.org",
+        "paper": "https://link.springer.com/article/10.1007/s00339-026-09903-6"
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00339-026-09903-6",
+          "title": "DigHyd author descriptor",
+          "evidence": "Reports over 30000 entries from over 4000 experimental sources; human-reviewed capacity and PCT-derived thermodynamic parameters.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Entries are measurements/relationships, not unique structures or materials.",
+        "Full periodic atomic structures and a bulk data licence were not verified.",
+        "Article licence must not be automatically assigned to the live database."
+      ],
+      "tags": [
+        "hydrides",
+        "hydrogen-storage",
+        "literature-digitization"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Awesome Materials & Chemistry Datasets",
+      "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+      "kind": "github_collection",
+      "description": "Broad discovery list of materials and chemistry datasets; verify each numerical claim at the originating repository.",
+      "sources": [
+        {
+          "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+          "title": "Awesome Materials & Chemistry Datasets",
+          "evidence": "README groups structural, property, synthesis and other chemistry/materials datasets with links.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "matminer dataset collection",
+      "url": "https://github.com/hackingmaterials/matminer",
+      "kind": "github_collection",
+      "description": "Python loaders and dataset metadata for community materials datasets; retain original dataset citations and licences.",
+      "sources": [
+        {
+          "url": "https://hackingmaterials.lbl.gov/matminer/dataset_summary.html",
+          "title": "matminer dataset summary",
+          "evidence": "Lists experimental and calculated datasets with descriptions and provenance.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/hackingmaterials/matminer",
+          "title": "matminer repository",
+          "evidence": "Requests citation of original sources when using loaded datasets.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "NIMS MatNavi",
+      "url": "https://mits.nims.go.jp/en/",
+      "kind": "database_portal",
+      "description": "Registered browsing across inorganic, metallic, thermophysical and other materials databases; mass downloading and scraping prohibited.",
+      "sources": [
+        {
+          "url": "https://mits.nims.go.jp/en/",
+          "title": "NIMS MatNavi",
+          "evidence": "Describes component databases, registration and prohibition of mass data acquisition.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "NIMS MatDaCs",
+      "url": "https://mat-dacs.dxmt.nims.go.jp/en/",
+      "kind": "dataset_discovery_catalog",
+      "description": "Discovery catalogue for materials databases and computational tools, including provider links and openness notes.",
+      "sources": [
+        {
+          "url": "https://mat-dacs.dxmt.nims.go.jp/en/list/350",
+          "title": "NIMS MatDaCs: COD",
+          "evidence": "Provider catalogue entry gives COD description and official link.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://mat-dacs.dxmt.nims.go.jp/en/list/316",
+          "title": "NIMS MatDaCs: AtomWork-Adv",
+          "evidence": "Provider catalogue entry supplies database scope and access notes.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Materials Data Facility / Foundry",
+      "url": "https://www.materialsdatafacility.org/",
+      "kind": "data_repository",
+      "description": "Materials-data publication, discovery and access services; Foundry provides programmatic loading of ML-ready deposits.",
+      "sources": [
+        {
+          "url": "https://www.materialsdatafacility.org/",
+          "title": "Materials Data Facility",
+          "evidence": "Describes discovery services and Foundry dataset loading.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://connect.materialsdatafacility.org/how-to",
+          "title": "MDF publishing/discovering guides",
+          "evidence": "Explains data publishing and supported source locations.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "NIST Materials Data Repository",
+      "url": "https://materialsdata.nist.gov/",
+      "kind": "data_repository",
+      "description": "Materials research deposits from NIST and the wider community; terms are defined per provider and collection.",
+      "sources": [
+        {
+          "url": "https://materialsdata.nist.gov/",
+          "title": "NIST Materials Data Repository",
+          "evidence": "Public searchable materials repository; individual providers define data-use terms and review status varies.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "SpringerMaterials",
+      "url": "https://materials.springer.com/",
+      "kind": "commercial_database_portal",
+      "description": "Commercial curated materials-property platform covering several source collections.",
+      "sources": [
+        {
+          "url": "https://www.springernature.com/gp/librarians/products/databases-solutions/springermaterials",
+          "title": "SpringerMaterials publisher overview",
+          "evidence": "Curated properties, figures and graphs platform.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Scientific Data materials Data Descriptors",
+      "url": "https://www.nature.com/sdata/collections?page=3&type=collection",
+      "kind": "journal_collection",
+      "description": "Journal descriptors are discovery/provenance documents; linked external repositories hold the actual data.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/sdata/collections?page=3&type=collection",
+          "title": "Scientific Data collections",
+          "evidence": "Lists a collection on characterisation/performance data of energy materials.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.nature.com/sdata/policies/data-policies",
+          "title": "Scientific Data data policies",
+          "evidence": "Requires repository deposits; journal does not itself host datasets.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Battery Archive",
+      "url": "https://batteryarchive.org/",
+      "kind": "adjacent_experimental_data_portal",
+      "description": "Cross-institution battery cycling and disruptive-test data; cell-performance resource adjacent to crystal datasets. Full CSV files requested by email.",
+      "sources": [
+        {
+          "url": "https://batteryarchive.org/",
+          "title": "Battery Archive provider home",
+          "evidence": "Offers cycling/disruptive-test visualization; complete cell CSVs available by contacting the provider.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Digital Hydrogen-S",
+      "url": "https://digital-hydrogen.com/storage",
+      "kind": "dataset_portal_pending_primary_verification",
+      "description": "Solid-state hydrogen-storage data portal identified in the supplied review. Primary paper exists; primary content and current portal totals could not be independently inspected.",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434",
+          "title": "Crossref publisher-deposited Digital Hydrogen-S metadata",
+          "evidence": "Confirms author paper title, DOI and Elsevier PII S0360319926000716; does not verify database counts.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    "2026-11-01: official COD, ICSD, CCDC/CSD, Pearson Crystal Data, MPDS and ICDD release/access pages",
+    "2026-11-01: NIMS MatNavi, AtomWork/AtomWork-Adv, MDR SuperCon and MDR XAFS provider sources",
+    "2026-11-01: Starrydata project repository, live manifest and Figshare public metadata API; stored small snapshots",
+    "2026-11-01: Scientific Data descriptors for HTEM, 3DSC, synthesis, magnetic, thermoelectric, battery and quasicrystal datasets",
+    "2026-11-01: RRUFF/AMCSD, ROD, MAGNDATA and opXRD provider/author sources",
+    "2026-11-01: ACS Perspective coverage follow-up: DigBat/DDSE, DigHyd, Digital Hydrogen-S and Battery Archive",
+    "2026-11-01: Figshare version metadata checked for data licences; licences were not inferred from article licences"
+  ],
+  "limitations": [
+    "No massive data archives were downloaded; structure/record totals are provider- or author-reported unless explicitly identified as arithmetic sums.",
+    "Dataset counts use heterogeneous units and are not comparable as unique-material totals; overlapping databases and derivatives must not be summed.",
+    "Current primary count/licence unavailable for AMCSD and RRUFF; count left null and licence Not verified.",
+    "CSD count is the arithmetic sum of official January-2026 published-structure statistics; AtomWork count historical 2020; AtomWork-Adv count dated March 2026; HTEM count historical 2018.",
+    "ICSD total includes theoretical structures; ICDD includes mixed diffraction provenance; 3DSC labels/structures can be approximate matches.",
+    "Starrydata full and per-project totals overlap; raw sample rows are not deduplicated compositions. See archived manifest for project-specific counts.",
+    "HTEM hostname did not resolve; several portals had retrieval/TLS failures, recorded without bypassing authentication.",
+    "Digital Hydrogen-S portal certificate and publisher access prevented primary-content verification; listed as a resource with no numerical claim.",
+    "Many literature-property resources include noncrystalline samples or polymers; users must filter to their scientific scope.",
+    "Commercial/restricted and freely browsable services are distinguished from permissively licensed bulk data. Not verified is not a claim of unrestricted use."
+  ]
+}

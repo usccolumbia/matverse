@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-11-01",
+  "dataset_records": 115,
+  "categories": 12,
+  "distinct_dataset_evidence_urls": 179,
+  "resources": 27,
+  "unranked_counts": 5,
+  "scientific_data_indexed_records": 16,
+  "checks": {
+    "required_fields_enums_and_sources": "passed",
+    "unique_identifiers": "passed",
+    "numeric_derivations": "passed",
+    "descending_category_views": "passed",
+    "generated_views_current": "passed",
+    "local_markdown_targets_and_catalog_anchors": "passed",
+    "json_schema_draft_2020_12": "passed",
+    "csv_count_and_source_round_trip": "passed",
+    "python_compilation": "passed"
+  },
+  "limits": [
+    "Full upstream datasets were not independently audited.",
+    "External endpoints can require registration or reject automated access.",
+    "License gaps remain explicit in catalog records."
+  ]
+}

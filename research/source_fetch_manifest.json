@@ -1,0 +1,443 @@
+[
+  {
+    "id": "materiaviva",
+    "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.980852+00:00",
+    "status": 200,
+    "bytes": 29814,
+    "sha256": "0ee149a1bea0e103b50eec8cb60c5dcca49add6d4533f76c93290d20abe9f88e"
+  },
+  {
+    "id": "lemat-bulk",
+    "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.981581+00:00",
+    "status": 200,
+    "bytes": 25115,
+    "sha256": "e40012951dc7868dca6424c0e6d97cfced0307f703dceef184e10388a7511baa"
+  },
+  {
+    "id": "lemat-unique",
+    "url": "https://huggingface.co/datasets/LeMaterial/LeMat-BulkUnique/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.981709+00:00",
+    "status": 200,
+    "bytes": 18820,
+    "sha256": "f8e667b5e5f2c0a0fc98a14d7b12d47998a5927b99c9bd1fc392b7457890b1ae"
+  },
+  {
+    "id": "lemat-traj",
+    "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Traj/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.981821+00:00",
+    "status": 200,
+    "bytes": 22839,
+    "sha256": "432e1640013e593b4b80f4691ecb8712837e48bd3b587a1ae5670b4c68921ed1"
+  },
+  {
+    "id": "omat24",
+    "url": "https://huggingface.co/datasets/facebook/OMAT24/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.981904+00:00",
+    "status": 200,
+    "bytes": 10424,
+    "sha256": "ffd84f23150be2e3b2d432ad34f9a9e57bab1f63154a6860842d2c39215cfa00"
+  },
+  {
+    "id": "lemat-rho",
+    "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Rho/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.981972+00:00",
+    "status": 200,
+    "bytes": 8876,
+    "sha256": "db4f36edf10e9aef3e8ed06a1bdeb96905c22e00a855a32e8493a958845355ad"
+  },
+  {
+    "id": "atompack",
+    "url": "https://huggingface.co/datasets/LeMaterial/Atompack/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:28.982076+00:00",
+    "status": 200,
+    "bytes": 3804,
+    "sha256": "cfad1bc299a1e7b26f0f95c9e7796906c2944abd6da78128f4621e77d1d99fc3"
+  },
+  {
+    "id": "alexandria",
+    "url": "https://alexandria.icams.rub.de/",
+    "retrieved_at": "2026-11-01T15:35:28.982173+00:00",
+    "status": 200,
+    "bytes": 4800,
+    "sha256": "988a6b7ff289eb901e834092473c77d3a92792bcec28239c24536032410996cd"
+  },
+  {
+    "id": "oqmd",
+    "url": "https://oqmd.org/",
+    "retrieved_at": "2026-11-01T15:35:29.583340+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "aflow",
+    "url": "https://aflow.org/",
+    "retrieved_at": "2026-11-01T15:35:29.588994+00:00",
+    "status": 200,
+    "bytes": 2025,
+    "sha256": "fc4c10e6771f25c3581ce8959ac42796a91eecacbf884654106f8a4596525500"
+  },
+  {
+    "id": "mp",
+    "url": "https://next-gen.materialsproject.org/",
+    "retrieved_at": "2026-11-01T15:35:29.591268+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "jarvis",
+    "url": "https://jarvis.nist.gov/",
+    "retrieved_at": "2026-11-01T15:35:29.603921+00:00",
+    "status": 200,
+    "bytes": 39125,
+    "sha256": "e3dfd5292a734e275f30887fc8078f18898b08fcc819c943284fc6429711c3c3"
+  },
+  {
+    "id": "matpes",
+    "url": "https://matpes.ai/",
+    "retrieved_at": "2026-11-01T15:35:29.610666+00:00",
+    "status": 200,
+    "bytes": 65312,
+    "sha256": "8063dc82d2539920821132e399de1df9ac3b21683003bb1f51e88758f167112e"
+  },
+  {
+    "id": "mp-aloe",
+    "url": "https://huggingface.co/datasets/matbench-discovery/mp-aloe/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:35:29.612524+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "dcm-api",
+    "url": "https://api.github.com/repos/google-deepmind/materials_discovery",
+    "retrieved_at": "2026-11-01T15:35:29.709901+00:00",
+    "status": 200,
+    "bytes": 7327,
+    "sha256": "19b3f30c41be7ed2212402e659b2a044ec07f33190043df17ff80ab1e1fe78fc"
+  },
+  {
+    "id": "mptrj",
+    "url": "https://figshare.com/articles/dataset/Materials_Project_Trjectory_MPtrj_Dataset/23713842",
+    "retrieved_at": "2026-11-01T15:35:29.796422+00:00",
+    "status": 202,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "alexandria-datasets",
+    "url": "https://alexandria.icams.rub.de/data/",
+    "retrieved_at": "2026-11-01T15:36:11.519848+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "alexandria-page",
+    "url": "https://alexandria.icams.rub.de/datasets.html",
+    "retrieved_at": "2026-11-01T15:36:11.520312+00:00",
+    "status": 200,
+    "bytes": 14027,
+    "sha256": "18a2c03045a67127594487e2a548407ef4f43c33edca7cbc99d478f63c0b00ae"
+  },
+  {
+    "id": "aflow-home-js",
+    "url": "https://aflow.org/home/home.min.js",
+    "retrieved_at": "2026-11-01T15:36:11.520503+00:00",
+    "status": 200,
+    "bytes": 12262,
+    "sha256": "8fb3436eb121a99c5f370241471ef3cfd25f18a80ed17206034eec656d36ff2b"
+  },
+  {
+    "id": "jarvis-dft",
+    "url": "https://jarvis.nist.gov/jarvisdft/",
+    "retrieved_at": "2026-11-01T15:36:11.520605+00:00",
+    "status": 200,
+    "bytes": 21511,
+    "sha256": "3dbe5ce8a5c209946396488d564cac03c549cd3a581edf276bf70c0dcea0de2f"
+  },
+  {
+    "id": "jarvis-downloads",
+    "url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/",
+    "retrieved_at": "2026-11-01T15:36:11.520731+00:00",
+    "status": 200,
+    "bytes": 18776,
+    "sha256": "624483e22b7214f88a8af71e3e8088caee3b548491ef801d0edc9c163fcfc068"
+  },
+  {
+    "id": "gnome",
+    "url": "https://raw.githubusercontent.com/google-deepmind/materials_discovery/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:11.520877+00:00",
+    "status": 200,
+    "bytes": 5704,
+    "sha256": "67699d0d7928b23009b804b95dbfd7cd024487e3a6a76fff41b5bb3c2f468c21"
+  },
+  {
+    "id": "chgnet",
+    "url": "https://raw.githubusercontent.com/CederGroupHub/chgnet/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:11.520935+00:00",
+    "status": 200,
+    "bytes": 16478,
+    "sha256": "3e05b1f0dde58cd2e69f5ada2cf03ca959f884d03ebab44b4f1cf21dc1c4c3df"
+  },
+  {
+    "id": "m3gnet",
+    "url": "https://raw.githubusercontent.com/materialsvirtuallab/m3gnet/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:11.520991+00:00",
+    "status": 200,
+    "bytes": 24034,
+    "sha256": "8651f915d62fba4143ce7757df689df49388d1f17b006a7924fde5a7cd7999e3"
+  },
+  {
+    "id": "matpes-card",
+    "url": "https://huggingface.co/datasets/materialyze/matpes/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:12.312085+00:00",
+    "status": 200,
+    "bytes": 6365,
+    "sha256": "eabe87aee8fcd0eb4fe97771a4c05050ab0a14556cac3c83c81e4c71a0978c18"
+  },
+  {
+    "id": "matpes-repo",
+    "url": "https://raw.githubusercontent.com/materialyzeai/matpes/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:12.328009+00:00",
+    "status": 200,
+    "bytes": 7178,
+    "sha256": "3764bc1b04d4abaf38660f559d84f77143e56a6bea601c86a56654d9b641e229"
+  },
+  {
+    "id": "openlam",
+    "url": "https://raw.githubusercontent.com/deepmodeling/OpenLAM/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:12.387947+00:00",
+    "status": 200,
+    "bytes": 4970,
+    "sha256": "90630504d2abd40e4a15edd1902e1547b474866770a53ed7234dfed708b31fa5"
+  },
+  {
+    "id": "pet-mad",
+    "url": "https://huggingface.co/datasets/lab-cosmo/pet-mad/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:12.400373+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "nomad-about",
+    "url": "https://about.nomad-lab.eu/researchers.html",
+    "retrieved_at": "2026-11-01T15:36:12.418516+00:00",
+    "status": 200,
+    "bytes": 56083,
+    "sha256": "6f6d38e1f7242976ee6be3abd03919b9754fa52ec008552201565ac8e37d292e"
+  },
+  {
+    "id": "carolina",
+    "url": "http://www.carolinamatdb.org/",
+    "retrieved_at": "2026-11-01T15:36:12.495822+00:00",
+    "status": 200,
+    "bytes": 12390,
+    "sha256": "04dadd22006e11362ab6ed5d954573cca866c9f3e0113bb2e28abb0a8607c93c"
+  },
+  {
+    "id": "elementa",
+    "url": "https://huggingface.co/datasets/PolarisAI/elementa/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:36:12.500301+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "aflow-stats",
+    "url": "https://aflow.org/API/aflowlib_stats/",
+    "retrieved_at": "2026-11-01T15:36:50.283613+00:00",
+    "status": 200,
+    "bytes": 199859,
+    "sha256": "81740b7a25dd883221948eeab194ba7a287d13b85dde64014c6c7c09a64cb42c"
+  },
+  {
+    "id": "alexandria-about",
+    "url": "https://alexandria.icams.rub.de/about.html",
+    "retrieved_at": "2026-11-01T15:36:50.284306+00:00",
+    "status": 200,
+    "bytes": 7824,
+    "sha256": "face62e4ec68f54c1b2ef344f40264bae94d435a4f891bc0079f7c3b6b8e7e3e"
+  },
+  {
+    "id": "mptrj-api",
+    "url": "https://api.figshare.com/v2/articles/23713842",
+    "retrieved_at": "2026-11-01T15:36:50.284416+00:00",
+    "status": 200,
+    "bytes": 6530,
+    "sha256": "726a43d41617576f9ed61511d7b7453d9c4e9681ba784164539420362de73cac"
+  },
+  {
+    "id": "matpes-api",
+    "url": "https://datasets-server.huggingface.co/info?dataset=materialyze%2Fmatpes",
+    "retrieved_at": "2026-11-01T15:36:50.284491+00:00",
+    "status": 200,
+    "bytes": 6619,
+    "sha256": "083e53b111d3c6e2742e240cb3100244d6095803f8e250bb81994d6a4d81b90b"
+  },
+  {
+    "id": "lemat-traj-api",
+    "url": "https://datasets-server.huggingface.co/info?dataset=LeMaterial%2FLeMat-Traj",
+    "retrieved_at": "2026-11-01T15:36:50.284565+00:00",
+    "status": 200,
+    "bytes": 10325,
+    "sha256": "59293c06a52914de1c30781cc74f38be0f46553405df20821f4f1c86cdbfa381"
+  },
+  {
+    "id": "mad-readme",
+    "url": "https://archive.materialscloud.org/records/ffd5a-1hc37/files/README.md",
+    "retrieved_at": "2026-11-01T15:36:50.284633+00:00",
+    "status": 200,
+    "bytes": 3452,
+    "sha256": "534cbf3ca40890160a8cfaf9ca272082b556af20ac4543e07673eef6870e231c"
+  },
+  {
+    "id": "mp-aloe-paper",
+    "url": "https://arxiv.org/html/2507.05559v2",
+    "retrieved_at": "2026-11-01T15:36:50.284688+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "acs-review",
+    "url": "https://pubs.acs.org/pcrhej/article/4/8/1087/5232753/Materials-Databases-Foundations-of-Modern-Digital",
+    "retrieved_at": "2026-11-01T15:36:50.284739+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "elementa-card",
+    "url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:37:38.660468+00:00",
+    "status": 200,
+    "bytes": 2293,
+    "sha256": "1498c7c6a6bd31a918380dc5e68b02404cbfd4c9d444e161c82d1a52a93190a3"
+  },
+  {
+    "id": "mc3d-record",
+    "url": "https://archive.materialscloud.org/records/szjaf-cfv74",
+    "retrieved_at": "2026-11-01T15:37:38.661125+00:00",
+    "status": 200,
+    "bytes": 164168,
+    "sha256": "7fa718542b92494a3a1b0cc74ed0601affc093452fd8aabe721d0b4e97cc25e2"
+  },
+  {
+    "id": "mpf-api",
+    "url": "https://api.figshare.com/v2/articles/19470599",
+    "retrieved_at": "2026-11-01T15:37:38.661252+00:00",
+    "status": 200,
+    "bytes": 5103,
+    "sha256": "45f4ceaf83d46fe7a450701f57f441c6e89c74e9333fedec21dc9cd93c08f2d5"
+  },
+  {
+    "id": "oqmd-again",
+    "url": "https://oqmd.org/",
+    "retrieved_at": "2026-11-01T15:37:38.661356+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "aflow-api-disclaimer",
+    "url": "https://aflow.org/API/aflux/?help(disclaimer)",
+    "retrieved_at": "2026-11-01T15:37:38.661449+00:00",
+    "status": 200,
+    "bytes": 8616,
+    "sha256": "3fcdfca75d9905e659b166c202f1364e10c855627314ab3507b2c3dbf4a37ae2"
+  },
+  {
+    "id": "mad-15-record",
+    "url": "https://archive.materialscloud.org/records/jv1hp-x9d56",
+    "retrieved_at": "2026-11-01T15:37:38.661514+00:00",
+    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+    "id": "openlam-model-card",
+    "url": "https://huggingface.co/deepmodelingcommunity/DPA-3.1-3M/raw/main/README.md",
+    "retrieved_at": "2026-11-01T15:37:38.661574+00:00",
+    "status": 200,
+    "bytes": 3738,
+    "sha256": "22a4b5160fa3932d741439823a06b012c7ba92aa31bf6340c38ebd8404f6650f"
+  },
+  {
+    "id": "gnome-data",
+    "url": "https://raw.githubusercontent.com/google-deepmind/materials_discovery/main/DATASET.md",
+    "retrieved_at": "2026-11-01T15:37:38.661628+00:00",
+    "status": 200,
+    "bytes": 8836,
+    "sha256": "9916546878d33c361feb69b55a05102e2fb8b404af9e4e0869cb3920ed897000"
+  },
+  {
+    "id": "mad-16-record",
+    "url": "https://archive.materialscloud.org/records/ffd5a-1hc37",
+    "retrieved_at": "2026-11-01T15:37:51.938910+00:00",
+    "status": 200,
+    "bytes": 110844,
+    "sha256": "47e5687602c828539a6caf36460383343053b256eb87993c9cd419d2845ad6f7"
+  },
+  {
+    "id": "mad-15-paper",
+    "url": "https://arxiv.org/html/2603.02089v2",
+    "retrieved_at": "2026-11-01T15:37:51.939289+00:00",
+    "status": 200,
+    "bytes": 158821,
+    "sha256": "c290b1a4751c77ce6e71c9b6b911dea0c39fd898fc1ff6da18f7ed8e37eb71fe"
+  },
+  {
+    "id": "openlam-v1",
+    "url": "https://www.aissquare.com/datasets/detail?pageType=datasets&name=OpenLAM-TrainingSet-v1&id=308",
+    "retrieved_at": "2026-11-01T15:37:51.939377+00:00",
+    "status": 200,
+    "bytes": 1450,
+    "sha256": "d8f02888ef9cadf40e2c899c3e6299a1033d0a44ddc783dc8fac94598b345b20"
+  },
+  {
+    "id": "omd",
+    "url": "https://oqmd.org/download/",
+    "retrieved_at": "2026-11-01T15:37:51.939452+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "aflow-help",
+    "url": "https://aflow.org/API/aflux/?help(aflowlib)",
+    "retrieved_at": "2026-11-01T15:37:51.939564+00:00",
+    "status": 200,
+    "bytes": 8616,
+    "sha256": "3fcdfca75d9905e659b166c202f1364e10c855627314ab3507b2c3dbf4a37ae2"
+  },
+  {
+    "id": "jarvis-3d-api",
+    "url": "https://api.figshare.com/v2/articles/6815699",
+    "retrieved_at": "2026-11-01T15:38:21.796351+00:00",
+    "status": 200,
+    "bytes": 6874,
+    "sha256": "1a45a378a0120b150f746071b32a88d21b7719d8d69b1a723761f48907ed9c51"
+  },
+  {
+    "id": "alignn-paper",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2023/dd/d2dd00096b",
+    "retrieved_at": "2026-11-01T15:38:21.796948+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "openlam-paper",
+    "url": "https://arxiv.org/html/2506.01686v3",
+    "retrieved_at": "2026-11-01T15:38:21.797052+00:00",
+    "status": 200,
+    "bytes": 912825,
+    "sha256": "3a86971d1a42e4ff74164e513c17318a82a35a8cbc9e12d3e59d85b4ccbc3166"
+  },
+  {
+    "id": "sevennet-paper",
+    "url": "https://www.nature.com/articles/s41467-026-70195-8",
+    "retrieved_at": "2026-11-01T15:38:21.797133+00:00",
+    "status": 200,
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "id": "mad-16-api",
+    "url": "https://archive.materialscloud.org/api/records/ffd5a-1hc37",
+    "retrieved_at": "2026-11-01T15:38:21.797229+00:00",
+    "status": 200,
+    "bytes": 13925,
+    "sha256": "45a909f360ca928d505d8cc9e78b18022c4416f89cf9a89a0f43c911bba14d18"
+  },
+  {
+    "id": "acs-review-pdf",
+    "url": "https://www.newswise.com/pdf_docs/177806916451774_materials-databases-foundations-of-modern-digital-materials.pdf",
+    "retrieved_at": "2026-11-01",
+    "status": 200,
+    "bytes": 12728345,
+    "sha256": "ba84ecd6087f05993b99b29b28caaf9c5571c5d769d66bce220e5ba919d28b16",
+    "note": "Publicly hosted author/publisher PDF; used for reading only, not redistributed. Original source: DOI 10.1021/prechem.5c00449."
+  }
+]

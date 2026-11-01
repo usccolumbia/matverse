@@ -1,0 +1,422 @@
+[
+  {
+    "name": "NOMAD Repository and Archive",
+    "url": "https://nomad-lab.eu/",
+    "kind": "repository platform",
+    "description": "Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.",
+    "sources": [
+      {
+        "url": "https://cloud.nomad-lab.eu/nomad-lab/",
+        "title": "NOMAD Repository and Archive",
+        "evidence": "Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Materials Cloud Archive",
+    "url": "https://archive.materialscloud.org/",
+    "kind": "repository platform",
+    "description": "Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.",
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/",
+        "title": "Materials Cloud Archive",
+        "evidence": "Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "ColabFit Exchange",
+    "url": "https://materials.colabfit.org/",
+    "kind": "dataset exchange",
+    "description": "Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.",
+    "sources": [
+      {
+        "url": "https://materials.colabfit.org/",
+        "title": "ColabFit Exchange",
+        "evidence": "Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Materials Data Facility",
+    "url": "https://materialsdatafacility.org/",
+    "kind": "repository platform",
+    "description": "Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals.",
+    "sources": [
+      {
+        "url": "https://materialsdatafacility.org/",
+        "title": "Materials Data Facility",
+        "evidence": "Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "OPTIMADE",
+    "url": "https://www.optimade.org/",
+    "kind": "interoperability API",
+    "description": "Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.",
+    "sources": [
+      {
+        "url": "https://www.optimade.org/",
+        "title": "OPTIMADE",
+        "evidence": "Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "LeMaterial Atompack",
+    "url": "https://huggingface.co/datasets/LeMaterial/Atompack",
+    "kind": "format mirror",
+    "description": "Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets.",
+    "sources": [
+      {
+        "url": "https://huggingface.co/datasets/LeMaterial/Atompack",
+        "title": "LeMaterial Atompack",
+        "evidence": "Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "MatterSim training data availability",
+    "url": "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md",
+    "kind": "model and availability reference",
+    "description": "Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets.",
+    "sources": [
+      {
+        "url": "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md",
+        "title": "MatterSim training data availability",
+        "evidence": "Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "SevenNet-Omni domain bridging set",
+    "url": "https://doi.org/10.6084/m9.figshare.30399814",
+    "kind": "domain bridging data",
+    "description": "Primary paper makes the bridging DFT data available through this deposit. Distinguish recomputed bridging structures from the 15 overlapping source datasets and their mixed-domain frame total.",
+    "sources": [
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.30399814",
+        "title": "SevenNet-Omni domain bridging set",
+        "evidence": "Primary paper makes the bridging DFT data available through this deposit. Distinguish recomputed bridging structures from the 15 overlapping source datasets and their mixed-domain frame total.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-026-70195-8",
+        "title": "Optimizing cross-domain transfer for universal machine learning interatomic potentials",
+        "evidence": "Data availability links the DBS database, in-house DFT results and selected benchmarks to Figshare 30399814.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Awesome Materials & Chemistry Datasets",
+    "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+    "kind": "github_collection",
+    "description": "Broad discovery list of materials and chemistry datasets; verify each numerical claim at the originating repository.",
+    "sources": [
+      {
+        "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+        "title": "Awesome Materials & Chemistry Datasets",
+        "evidence": "README groups structural, property, synthesis and other chemistry/materials datasets with links.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "matminer dataset collection",
+    "url": "https://github.com/hackingmaterials/matminer",
+    "kind": "github_collection",
+    "description": "Python loaders and dataset metadata for community materials datasets; retain original dataset citations and licences.",
+    "sources": [
+      {
+        "url": "https://hackingmaterials.lbl.gov/matminer/dataset_summary.html",
+        "title": "matminer dataset summary",
+        "evidence": "Lists experimental and calculated datasets with descriptions and provenance.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/hackingmaterials/matminer",
+        "title": "matminer repository",
+        "evidence": "Requests citation of original sources when using loaded datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIMS MatNavi",
+    "url": "https://mits.nims.go.jp/en/",
+    "kind": "database_portal",
+    "description": "Registered browsing across inorganic, metallic, thermophysical and other materials databases; mass downloading and scraping prohibited.",
+    "sources": [
+      {
+        "url": "https://mits.nims.go.jp/en/",
+        "title": "NIMS MatNavi",
+        "evidence": "Describes component databases, registration and prohibition of mass data acquisition.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIMS MatDaCs",
+    "url": "https://mat-dacs.dxmt.nims.go.jp/en/",
+    "kind": "dataset_discovery_catalog",
+    "description": "Discovery catalogue for materials databases and computational tools, including provider links and openness notes.",
+    "sources": [
+      {
+        "url": "https://mat-dacs.dxmt.nims.go.jp/en/list/350",
+        "title": "NIMS MatDaCs: COD",
+        "evidence": "Provider catalogue entry gives COD description and official link.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://mat-dacs.dxmt.nims.go.jp/en/list/316",
+        "title": "NIMS MatDaCs: AtomWork-Adv",
+        "evidence": "Provider catalogue entry supplies database scope and access notes.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Materials Data Facility / Foundry",
+    "url": "https://www.materialsdatafacility.org/",
+    "kind": "data_repository",
+    "description": "Materials-data publication, discovery and access services; Foundry provides programmatic loading of ML-ready deposits.",
+    "sources": [
+      {
+        "url": "https://www.materialsdatafacility.org/",
+        "title": "Materials Data Facility",
+        "evidence": "Describes discovery services and Foundry dataset loading.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://connect.materialsdatafacility.org/how-to",
+        "title": "MDF publishing/discovering guides",
+        "evidence": "Explains data publishing and supported source locations.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIST Materials Data Repository",
+    "url": "https://materialsdata.nist.gov/",
+    "kind": "data_repository",
+    "description": "Materials research deposits from NIST and the wider community; terms are defined per provider and collection.",
+    "sources": [
+      {
+        "url": "https://materialsdata.nist.gov/",
+        "title": "NIST Materials Data Repository",
+        "evidence": "Public searchable materials repository; individual providers define data-use terms and review status varies.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "SpringerMaterials",
+    "url": "https://materials.springer.com/",
+    "kind": "commercial_database_portal",
+    "description": "Commercial curated materials-property platform covering several source collections.",
+    "sources": [
+      {
+        "url": "https://www.springernature.com/gp/librarians/products/databases-solutions/springermaterials",
+        "title": "SpringerMaterials publisher overview",
+        "evidence": "Curated properties, figures and graphs platform.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Scientific Data materials Data Descriptors",
+    "url": "https://www.nature.com/sdata/collections?page=3&type=collection",
+    "kind": "journal_collection",
+    "description": "Journal descriptors are discovery/provenance documents; linked external repositories hold the actual data.",
+    "sources": [
+      {
+        "url": "https://www.nature.com/sdata/collections?page=3&type=collection",
+        "title": "Scientific Data collections",
+        "evidence": "Lists a collection on characterisation/performance data of energy materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/sdata/policies/data-policies",
+        "title": "Scientific Data data policies",
+        "evidence": "Requires repository deposits; journal does not itself host datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Battery Archive",
+    "url": "https://batteryarchive.org/",
+    "kind": "adjacent_experimental_data_portal",
+    "description": "Cross-institution battery cycling and disruptive-test data; cell-performance resource adjacent to crystal datasets. Full CSV files requested by email.",
+    "sources": [
+      {
+        "url": "https://batteryarchive.org/",
+        "title": "Battery Archive provider home",
+        "evidence": "Offers cycling/disruptive-test visualization; complete cell CSVs available by contacting the provider.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Digital Hydrogen-S",
+    "url": "https://digital-hydrogen.com/storage",
+    "kind": "dataset_portal_pending_primary_verification",
+    "description": "Solid-state hydrogen-storage data portal identified in the supplied review. Primary paper exists; primary content and current portal totals could not be independently inspected.",
+    "sources": [
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434",
+        "title": "Crossref publisher-deposited Digital Hydrogen-S metadata",
+        "evidence": "Confirms author paper title, DOI and Elsevier PII S0360319926000716; does not verify database counts.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Matbench v0.1 suite",
+    "url": "https://matbench.materialsproject.org/",
+    "kind": "benchmark suite",
+    "description": "Thirteen property-prediction tasks from ten underlying sources; includes both composition-only and structure inputs. The catalogue groups shared structure cohorts and does not sum tasks as unique crystals.",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2005.00707",
+        "title": "Benchmarking Materials Property Prediction Methods",
+        "evidence": "Thirteen tasks from ten experimental/DFT sources, 312 to 132k samples.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Matbench Discovery data sets",
+    "url": "https://matbench-discovery.materialsproject.org/data/sets",
+    "kind": "dataset registry and benchmark",
+    "description": "Registry of model training/reference/test datasets and a discovery-style stability benchmark. User-nominated page returned HTTP 403; its first-party GitHub registry and WBM documentation were used.",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/datasets.yml",
+        "title": "Matbench Discovery dataset registry",
+        "evidence": "Registry describes WBM and numerous parent/training datasets; it is navigation/provenance context, not an additive dataset.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "LeMat-GenBench",
+    "url": "https://github.com/LeMaterial/lemat-genbench",
+    "kind": "crystal-generation evaluation framework",
+    "description": "Evaluates generated crystals using validity, distribution, diversity, novelty, and stability metrics with multi-MLIP/hull configurations; its reference datasets overlap LeMat-Bulk. Framework code is Apache licensed; not an additional crystal count.",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/LeMaterial/lemat-genbench/main/README.md",
+        "title": "LeMat-GenBench official README",
+        "evidence": "Defines benchmark families, LeMat-Bulk novelty reference, input formats and comprehensive_multi_mlip_hull configuration.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "MatterGen MP-20 reprocessed release",
+    "url": "https://github.com/microsoft/mattergen/tree/main/data-release/mp-20",
+    "kind": "versioned benchmark derivative",
+    "description": "PBE-recomputed and element-filtered MP-20 derivative with its own distributed files; keep separate provenance from CDVAE MP-20. Exact file-row count was not verified, so not added as an independently sized dataset.",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/microsoft/mattergen/main/data-release/mp-20/README.md",
+        "title": "MatterGen MP-20 data-release README",
+        "evidence": "Describes CC BY 4.0 parent, excluded elements, PBE recomputation and hull filtering.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "AFLOW AEL/AGL thermomechanical property libraries",
+    "url": "https://aflow.org/documentation/",
+    "kind": "property-library access resource",
+    "description": "Distinct AFLOW workflows exposing elastic tensors/moduli and Debye/thermal estimates through AFLUX. Current property-bearing cohort sizes were not verified; no independent current materials count is claimed.",
+    "sources": [
+      {
+        "url": "https://aflow.org/documentation/",
+        "title": "Official AFLOW REST/AFLUX documentation",
+        "evidence": "Documents AEL elastic and AGL thermal keys; states data free for scientific, academic and non-commercial purposes.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Catalysis-Hub / CatHub",
+    "url": "https://www.catalysis-hub.org/",
+    "kind": "database_portal",
+    "description": "Open surface-reaction collection with geometries, reaction energies and linked calculations; primary 2019 descriptor reported >100,000 adsorption/reaction energies, which is a historical property count rather than a current count of unique materials.",
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538711/",
+        "title": "Catalysis-Hub primary data descriptor",
+        "evidence": "2019 descriptor documents linked geometries, calculation settings, reaction and activation energies; contributing studies have different scopes.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "CatApp",
+    "url": "https://cmr.fysik.dtu.dk/catapp/catapp.html",
+    "kind": "legacy_property_database",
+    "description": "Legacy reaction/activation-energy table for elementary surface reactions. The ~3,000-reaction scale is historical; CatApp does not supply detailed atomic geometries, so it is a navigation/property resource.",
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/catapp/catapp.html",
+        "title": "CatApp official CMR page",
+        "evidence": "Provides calculated reaction and activation energies on metal surfaces with the 2012 publication reference.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538711/",
+        "title": "Catalysis-Hub primary descriptor discussion of CatApp",
+        "evidence": "Explains that CatApp covers more than 3,000 reactions but lacks atomic structures and detailed calculation output.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Digital Catalysis Platform (DigCat)",
+    "url": "https://www.digcat.org/",
+    "kind": "database_portal",
+    "description": "Experimental-performance and computational-structure platform. Provider page currently reports >0.4M experimental and >0.4M computational records; a 2024 author preprint reports >400k performance records and >300k structures. Counts are version-dependent and not a unique-material ranking; bulk data license not verified.",
+    "sources": [
+      {
+        "url": "https://www.li-lab-cat-design.com/code--database.html",
+        "title": "DigCat provider laboratory page",
+        "evidence": "Provider reports >0.4 million experimental data and >0.4 million computational data and identifies the current platform/publication.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.cambridge.org/engage/chemrxiv/article-details/6760cd4381d2151a02fb5356",
+        "title": "DigCat 2024 author preprint",
+        "evidence": "Reports >400,000 experimental performance records and >300,000 structures; denominator and release differ from later claims.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "MOFX-DB",
+    "url": "https://mof.tech.northwestern.edu/",
+    "kind": "database_portal",
+    "description": "Adsorption-data portal aggregating experimental and hypothetical MOFs, COFs and zeolites. Source datasets overlap CoRE, hMOF, ToBaCCo and IZA; portal totals are not additional unique structures.",
+    "sources": [
+      {
+        "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=931567",
+        "title": "MOFX-DB primary descriptor",
+        "evidence": "Describes computational adsorption datasets across multiple source families and thermodynamic conditions.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

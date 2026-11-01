@@ -1,0 +1,39 @@
+{
+  "validation_date": "2026-11-01",
+  "datasets": 30,
+  "resources": 5,
+  "issues": [],
+  "derived_counts": [
+    {
+      "source_file": "research/evidence-benchmarks/phonondb_index.md",
+      "sha256": "15e71b6511f5b3b071b7e28cda9b5b987575bd47956bb96c5ccd8fb58a6f475f",
+      "method": "Count Markdown table rows containing a linked material; deduplicate first-column material identifiers.",
+      "rows": 10034,
+      "unique_first_column_identifiers": 10034,
+      "verified_date": "2026-11-01"
+    },
+    {
+      "source_file": "research/evidence-benchmarks/phonondb_ltc_index.md",
+      "sha256": "4bb7f2050fa24e2620090743a3dde55254a0b317018f31ff5e8b83d267cefbd5",
+      "method": "Count Markdown table rows containing a linked material; deduplicate first-column material identifiers.",
+      "rows": 4811,
+      "unique_first_column_identifiers": 4811,
+      "verified_date": "2026-11-01"
+    },
+    {
+      "source_file": "research/evidence-benchmarks/phonondb_103_index.md",
+      "sha256": "e12c12975deaf506fa33b00cf8089e5d88892b5df3e5dd237771c5441ca50ff2",
+      "method": "Count Markdown table rows containing a linked material; deduplicate first-column material identifiers.",
+      "rows": 103,
+      "unique_first_column_identifiers": 103,
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "license_audit": {
+    "Matbench v0.1": "No blanket data-license statement was verified in official task metadata/README; current GitHub LICENSE is MIT for software. Task records remain Not verified rather than inheriting software or article licensing.",
+    "Dryad original releases": "Per-dataset JSON-LD gives CC0-1.0 for elastic, piezoelectric, dielectric and electronic transport archives.",
+    "SNUMAT": "Figshare article 12839240 v7 gives CC BY 4.0 and 10,481 finite-gap compounds.",
+    "JARVIS Supercon": "Figshare article 21370572 v4 groups 3D/2D files and gives CC BY 4.0.",
+    "WBM": "Figshare article 22715158 v40 data-file metadata gives CC BY 4.0."
+  }
+}

@@ -1,0 +1,1245 @@
+{
+  "datasets": [
+    {
+      "id": "materiaviva-open",
+      "name": "MateriaViva Open",
+      "category": "aggregated_crystals",
+      "description": "Cross-database crystal index with structures, source-linked property values, curves and separate model predictions.",
+      "version": "Provider page snapshot, checked 2026-11-01",
+      "year": 2026,
+      "count": 10903588,
+      "count_display": "10,903,588",
+      "count_unit": "deduplicated crystal structures",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "crystal structure",
+        "148 property types",
+        "spectra and curves",
+        "separate model predictions"
+      ],
+      "access": "open",
+      "license": "Per row: CC BY 4.0, CC0 1.0, CC BY-SA 4.0, public domain, or MIT (provider declarations)",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+          "title": "MateriaViva Open \u2014 primary documentation",
+          "evidence": "Card reports 10,903,588 included structures from a 14,590,485-structure pool spanning 55 databases; 290,118 included structures are tagged experimental.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "An aggregate overlapping most parent databases; never add it to their totals.",
+        "Provider reports 2,471,566 stored CIFs with origin_open=false: a matching fingerprint exists in an open source, but the actual stored coordinates came from another or unrecorded source. Filter origin_open for coordinate-source traceability.",
+        "Fingerprint deduplication and per-row licensing are provider claims, not independently audited here.",
+        "Model predictions are distinct from measured or DFT-computed property values."
+      ],
+      "tags": [],
+      "additional_counts": [
+        {
+          "value": 113459302,
+          "unit": "property values",
+          "scope": "148 property types across included structures"
+        },
+        {
+          "value": 850417,
+          "unit": "curves",
+          "scope": "Spectra, DOS and band structure records; separate from structure count"
+        }
+      ]
+    },
+    {
+      "id": "lemat-bulk",
+      "name": "LeMat-Bulk",
+      "category": "aggregated_crystals",
+      "description": "Standardized outputs from Materials Project, Alexandria and OQMD, with functional-compatibility subsets.",
+      "version": "Main card/config metadata snapshot (2025 release)",
+      "year": 2025,
+      "count": 6725590,
+      "count_display": "6,725,590",
+      "count_unit": "structure records",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk",
+          "title": "LeMat-Bulk \u2014 primary documentation",
+          "evidence": "Dataset card and config metadata report 6,725,590 structure records representing 5,860,446 materials; PBE compatible subset has 5,335,299 rows.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "6,725,590 records are not 6,725,590 distinct materials.",
+        "Combines upstream databases; energy corrections and computational settings need subset-aware handling.",
+        "This is the non-unique collection; use BulkUnique for the corresponding fingerprint-deduplicated release."
+      ],
+      "tags": [
+        "PBE",
+        "PBEsol",
+        "SCAN",
+        "harmonization"
+      ]
+    },
+    {
+      "id": "lemat-bulkunique",
+      "name": "LeMat-BulkUnique",
+      "category": "aggregated_crystals",
+      "description": "Fingerprint-deduplicated companion to LeMat-Bulk.",
+      "version": "December 2024 card snapshot",
+      "year": 2024,
+      "count": 5438436,
+      "count_display": "5,438,436",
+      "count_unit": "functional-specific unique records",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (card license section)",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/LeMaterial/LeMat-BulkUnique"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/LeMaterial/LeMat-BulkUnique",
+          "title": "LeMat-BulkUnique \u2014 primary documentation",
+          "evidence": "Card table lists 5,438,436 all records: 5,005,017 PBE, 15,753 PBEsol, and 417,666 SCAN.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Includes functional-specific subsets; the sum must not be described as a count of experimentally known compounds.",
+        "Overlaps LeMat-Bulk and all three source databases."
+      ],
+      "tags": [
+        "deduplication",
+        "BAWL"
+      ]
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "category": "bulk_computed",
+      "description": "High-throughput inorganic structure database, with separate functional releases, trajectories and convex-hull subsets.",
+      "version": "2025-07-02 PBE release, described in 2026 paper",
+      "year": 2026,
+      "count": 5800000,
+      "count_display": "~5.8 million",
+      "count_unit": "DFT-relaxed structures",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (provider About page)",
+      "links": {
+        "homepage": "https://alexandria.icams.rub.de/",
+        "data": "https://alexandria.icams.rub.de/datasets.html",
+        "paper": "https://doi.org/10.1088/2515-7639/ae6620"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1088/2515-7639/ae6620",
+          "title": "Alexandria \u2014 primary documentation",
+          "evidence": "2026 expansion paper reports approximately 5.8 million structures; provider release page lists the complete PBE database dated 2025-07-02.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The figure describes a release, not a live recount or all trajectories.",
+        "Convex-hull stability is computed relative to the reference set; synthesis and dynamical stability require separate evidence."
+      ],
+      "tags": [
+        "PBE",
+        "PBEsol",
+        "SCAN"
+      ]
+    },
+    {
+      "id": "aflow",
+      "name": "AFLOW",
+      "category": "bulk_computed",
+      "description": "High-throughput DFT library of inorganic crystals, alloys and prototype decorations.",
+      "version": "Provider page snapshot, checked 2026-11-01",
+      "year": null,
+      "count": 3929948,
+      "count_display": "3,929,948",
+      "count_unit": "database entries",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "Provider terms: free for scientific, academic and non-commercial use; other use prohibited",
+      "links": {
+        "homepage": "https://aflow.org/",
+        "data": "https://aflow.org/API/aflowlib_stats/",
+        "code": "https://github.com/aflow-org/aflow"
+      },
+      "sources": [
+        {
+          "url": "https://aflow.org/API/aflowlib_stats/",
+          "title": "AFLOW \u2014 primary documentation",
+          "evidence": "Live statistics response gives Aflow_DBs.total.count=3,929,948 and 205,973 chemical systems.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://aflow.org/documentation/",
+          "title": "AFLOW documentation and data disclaimer",
+          "evidence": "The data disclaimer limits free use to scientific, academic and non-commercial purposes.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Entries and calculated properties are different counters.",
+        "The open-source software license is not the data license; see AFLOW API disclaimer.",
+        "Contains hypothetical and experimentally seeded structures, with overlaps across databases."
+      ],
+      "tags": []
+    },
+    {
+      "id": "oqmd",
+      "name": "OQMD",
+      "category": "bulk_computed",
+      "description": "Open Quantum Materials Database of DFT thermodynamic and structural properties.",
+      "version": "Provider page snapshot, checked 2026-11-01",
+      "year": null,
+      "count": 1407395,
+      "count_display": "1,407,395",
+      "count_unit": "materials entries",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (OQMD download terms)",
+      "links": {
+        "homepage": "https://oqmd.org/",
+        "data": "https://oqmd.org/download/"
+      },
+      "sources": [
+        {
+          "url": "https://oqmd.org/",
+          "title": "OQMD \u2014 primary documentation",
+          "evidence": "Official homepage indexed text reports 1,407,395 materials.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count verified in provider search-index content; direct HTTP fetch returned 502 during this audit.",
+        "Predominantly computed entries, including prototype decorations; not a count of experimental discoveries."
+      ],
+      "tags": []
+    },
+    {
+      "id": "gnome",
+      "name": "GNoME released stable-materials set",
+      "category": "bulk_computed",
+      "description": "Public structure release accompanying Graph Networks for Materials Exploration.",
+      "version": "Public stable-materials set; June 2024 overlap update",
+      "year": 2023,
+      "count": 381000,
+      "count_display": "~381,000",
+      "count_unit": "novel structure records",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY-NC 4.0 (data); Apache 2.0 applies to code",
+      "links": {
+        "homepage": "https://github.com/google-deepmind/materials_discovery",
+        "data": "https://github.com/google-deepmind/materials_discovery/blob/main/DATASET.md",
+        "paper": "https://doi.org/10.1038/s41586-023-06735-9"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/google-deepmind/materials_discovery/blob/main/DATASET.md",
+          "title": "GNoME released stable-materials set \u2014 primary documentation",
+          "evidence": "Author DATASET.md describes approximately 381,000 novel structures and a summary revised to reduce overlap with June 2024 external database snapshots.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Ranked by the released novel stable-materials set, not the paper headline of 2.2 million candidate crystals.",
+        "Stability and novelty depend on the calculation protocol and reference database snapshots.",
+        "Non-commercial data license; do not inherit the repository code license."
+      ],
+      "tags": []
+    },
+    {
+      "id": "carolina",
+      "name": "Carolina Materials Database",
+      "category": "bulk_computed",
+      "description": "Generated and computationally screened inorganic crystals hosted by the Carolina Materials Database.",
+      "version": "Provider page snapshot, checked 2026-11-01",
+      "year": null,
+      "count": 214436,
+      "count_display": "214,436",
+      "count_unit": "inorganic materials entries",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "generated",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (provider Terms of Use)",
+      "links": {
+        "homepage": "http://www.carolinamatdb.org/"
+      },
+      "sources": [
+        {
+          "url": "http://www.carolinamatdb.org/",
+          "title": "Carolina Materials Database \u2014 primary documentation",
+          "evidence": "Provider homepage states 214,436 inorganic materials and separately more than 250,000 calculated properties.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Generated candidates and calculated properties do not establish experimental synthesis.",
+        "Homepage text contains typographical space-group wording; no inference about full space-group coverage is made."
+      ],
+      "tags": []
+    },
+    {
+      "id": "materials-project",
+      "name": "Materials Project",
+      "category": "bulk_computed",
+      "description": "Structure-centered computed properties for inorganic materials with API and bulk distribution routes.",
+      "version": "Homepage v2026.04.13 snapshot",
+      "year": 2026,
+      "count": 200487,
+      "count_display": "200,487",
+      "count_unit": "materials entries",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "formation energy",
+        "electronic structure",
+        "elasticity",
+        "phase diagrams"
+      ],
+      "access": "registration",
+      "license": "CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://docs.materialsproject.org/downloading-data",
+        "paper": "https://doi.org/10.1063/1.4812323"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.17188/1693272",
+          "title": "Materials Project \u2014 primary documentation",
+          "evidence": "Provider homepage snapshot reports 200,487 materials and identifies database v2026.04.13.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://docs.materialsproject.org/changes/database-versions",
+          "title": "Materials Project database versions",
+          "evidence": "Version history documents separate BY-NC acceptance for the GNoME dataset and changes in collection membership.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "A dated provider-page figure, not an authenticated query of the latest live database.",
+        "Different property collections cover different subsets; molecule and electrode totals are separate.",
+        "Track GNoME-origin licensing and database version when using API data."
+      ],
+      "tags": []
+    },
+    {
+      "id": "jarvis-dft-3d",
+      "name": "JARVIS-DFT 3D",
+      "category": "bulk_computed",
+      "description": "NIST first-principles bulk materials collection with electronic, elastic and related property labels.",
+      "version": "dft_3d / 2022-12-12 downloader release",
+      "year": 2022,
+      "count": 76000,
+      "count_display": "~76,000",
+      "count_unit": "structure records",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "OptB88vdW properties",
+        "TBmBJ band gaps for subset",
+        "elasticity"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (3D Figshare dataset)",
+      "links": {
+        "homepage": "https://jarvis.nist.gov/",
+        "data": "https://doi.org/10.6084/m9.figshare.6815699",
+        "code": "https://github.com/usnistgov/jarvis"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/usnistgov/jarvis/blob/master/jarvis/db/figshare.py",
+          "title": "JARVIS-DFT 3D \u2014 primary documentation",
+          "evidence": "Official downloader describes the dft_3d release as 76k and points to jdft_3d-12-12-2022.json.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/6815699",
+          "title": "JARVIS-DFT 3D Figshare metadata",
+          "evidence": "Identifies the 2022-12-12 bulk data file and the CC BY 4.0 data license.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Version-pinned bulk downloader count; not a live tally of every JARVIS family database.",
+        "Individual properties are available for subsets; JARVIS-2D and specialized cohorts are listed separately."
+      ],
+      "tags": []
+    },
+    {
+      "id": "mc3d",
+      "name": "Materials Cloud 3D (MC3D)",
+      "category": "bulk_computed",
+      "description": "Reproducible DFT geometries seeded from experimental crystallography with complete AiiDA provenance.",
+      "version": "PBEsol-v2 (2025 paper)",
+      "year": 2025,
+      "count": 32013,
+      "count_display": "32,013",
+      "count_unit": "unique optimized structures",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (Materials Cloud record)",
+      "links": {
+        "homepage": "https://www.materialscloud.org/discover/mc3d",
+        "data": "https://archive.materialscloud.org/records/szjaf-cfv74",
+        "paper": "https://arxiv.org/abs/2508.19223"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2508.19223",
+          "title": "Materials Cloud 3D (MC3D) \u2014 primary documentation",
+          "evidence": "Primary paper reports 72,589 curated unique stoichiometric input structures and 32,013 optimized structures in PBEsol-v2.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "32,013 is the optimized release, not the larger curated input set.",
+        "Computed relaxed coordinates derived from experimental sources; not new experimental measurements."
+      ],
+      "tags": []
+    },
+    {
+      "id": "lemat-traj",
+      "name": "LeMat-Traj",
+      "category": "mlip_configurations",
+      "description": "Standardized relaxation trajectories from Materials Project, Alexandria and OQMD.",
+      "version": "Main metadata/API snapshot, verified 2026-11-01",
+      "year": 2025,
+      "count": 121274458,
+      "count_display": "121,274,458",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress",
+        "magnetic moments where present"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/LeMaterial/LeMat-Traj"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Traj",
+          "title": "LeMat-Traj \u2014 primary documentation",
+          "evidence": "Config metadata and datasets-server API report 112,932,152 PBE, 7,259,866 PBEsol, 497,451 r2SCAN, 172,366 SCAN and 412,623 non-compatible rows; their sum is 121,274,458.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://datasets-server.huggingface.co/info?dataset=LeMaterial%2FLeMat-Traj",
+          "title": "LeMat-Traj dataset server metadata",
+          "evidence": "API corroborates each of the five config row counts used in the sum.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is derived by summing the five configuration-row counts, not the number of parent crystals.",
+        "Narrative per-source tables in the card disagree with config metadata; the ranking uses metadata corroborated by the datasets-server API.",
+        "Large overlap with Alexandria trajectories, MPtrj and upstream databases."
+      ],
+      "tags": [
+        "trajectories",
+        "multi-functional"
+      ],
+      "count_derivation": {
+        "method": "sum of five published config row counts",
+        "values": [
+          112932152,
+          7259866,
+          497451,
+          172366,
+          412623
+        ]
+      }
+    },
+    {
+      "id": "omat24",
+      "name": "Open Materials 2024 (OMat24)",
+      "category": "mlip_configurations",
+      "description": "Non-equilibrium inorganic DFT data generated through rattling, AIMD and relaxation.",
+      "version": "2024-10-18 train + corrected 2024-12-20 validation",
+      "year": 2024,
+      "count": 101849946,
+      "count_display": "101,849,946",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/facebook/OMAT24",
+        "data": "https://huggingface.co/datasets/facebook/OMAT24",
+        "paper": "https://doi.org/10.1038/s43588-026-00996-w",
+        "code": "https://github.com/facebookresearch/fairchem"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/facebook/OMAT24",
+          "title": "Open Materials 2024 (OMat24) \u2014 primary documentation",
+          "evidence": "Card reports 100,824,585 training and 1,025,361 corrected validation configurations for OMat24 itself.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Rank uses explicitly listed main train+validation rows; the paper headline >110 million calculations has a broader scope.",
+        "sAlex is hosted on the same card and listed separately here; the 1M subsplit is not additional data.",
+        "Original validation data contained duplicates; corrected validation was uploaded 2024-12-20."
+      ],
+      "tags": [],
+      "count_derivation": {
+        "method": "train + corrected validation; excludes sAlex and overlapping 1M subsplit",
+        "values": [
+          100824585,
+          1025361
+        ]
+      }
+    },
+    {
+      "id": "elementa-public",
+      "name": "ELEMENTA public core release",
+      "category": "mlip_configurations",
+      "description": "Low-prior DFT-labeled atomic configurations with explicitly bounded composition coverage.",
+      "version": "First public release; card checked 2026-11-01",
+      "year": 2026,
+      "count": 39000000,
+      "count_display": "nearly 39 million",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "DFT energy and force targets"
+      ],
+      "access": "open",
+      "license": "CC BY-NC 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+          "title": "ELEMENTA public core release \u2014 primary documentation",
+          "evidence": "Public card describes nearly 39 million core frames and a separate complete 4.7 million-frame Spin archive.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "This public subset is smaller than the full 210-million-frame corpus described by the authors.",
+        "Nearly 39 million is a rounded provider figure; archives were not downloaded or independently counted.",
+        "Separate Spin archive is not included in this row."
+      ],
+      "tags": []
+    },
+    {
+      "id": "elementa-spin",
+      "name": "ELEMENTA Spin",
+      "category": "mlip_configurations",
+      "description": "DFT-resolved magnetic initializations distributed alongside ELEMENTA.",
+      "version": "Provider page snapshot, checked 2026-11-01",
+      "year": 2026,
+      "count": 4700000,
+      "count_display": "~4.7 million",
+      "count_unit": "magnetic configuration frames",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "structure",
+        "magnetic-state energy landscape"
+      ],
+      "access": "open",
+      "license": "CC BY-NC 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+          "title": "ELEMENTA Spin \u2014 primary documentation",
+          "evidence": "Card identifies the separate ELEMENTA_spin.extxyz archive as the complete 4.7 million-frame Spin dataset.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Magnetic initializations are configurations, not 4.7 million distinct crystals.",
+        "Shares the ELEMENTA family and hosting page."
+      ],
+      "tags": []
+    },
+    {
+      "id": "salex25",
+      "name": "sAlex25",
+      "category": "mlip_configurations",
+      "description": "Alexandria subset for interatomic-potential training from structural relaxation paths.",
+      "version": "sAlex25; 2026 expansion paper",
+      "year": 2026,
+      "count": 14000000,
+      "count_display": "~14 million",
+      "count_unit": "out-of-equilibrium configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (Alexandria provider terms)",
+      "links": {
+        "homepage": "https://alexandria.icams.rub.de/datasets.html",
+        "data": "https://alexandria.icams.rub.de/datasets.html",
+        "paper": "https://doi.org/10.1088/2515-7639/ae6620"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1088/2515-7639/ae6620",
+          "title": "sAlex25 \u2014 primary documentation",
+          "evidence": "2026 primary expansion paper describes sAlex25 as 14 million out-of-equilibrium structures containing forces and stresses.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Version differs from the sAlex supplied with OMat24; versions and parent trajectories overlap.",
+        "Do not add trajectory frames to the Alexandria equilibrium-structure total."
+      ],
+      "tags": []
+    },
+    {
+      "id": "salex-omat24",
+      "name": "sAlex (OMat24 distribution)",
+      "category": "mlip_configurations",
+      "description": "Subsampled Alexandria trajectories supplied with the OMat24 release.",
+      "version": "2024-10-18 sAlex train/validation",
+      "year": 2024,
+      "count": 11000983,
+      "count_display": "11,000,983",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/facebook/OMAT24"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/facebook/OMAT24",
+          "title": "sAlex (OMat24 distribution) \u2014 primary documentation",
+          "evidence": "Card lists sAlex train=10,447,765 and validation=553,218.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Separate from the main OMat24 generated data, but overlaps Alexandria and later sAlex releases."
+      ],
+      "tags": [],
+      "count_derivation": {
+        "method": "sAlex train + validation",
+        "values": [
+          10447765,
+          553218
+        ]
+      }
+    },
+    {
+      "id": "mptrj",
+      "name": "Materials Project Trajectory (MPtrj)",
+      "category": "mlip_configurations",
+      "description": "Selected GGA/GGA+U static and relaxation frames used to train CHGNet.",
+      "version": "MP 2022.9-derived MPtrj / 2023 release",
+      "year": 2023,
+      "count": 1580395,
+      "count_display": "1,580,395",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress",
+        "magnetic moments",
+        "band gap where present"
+      ],
+      "access": "open",
+      "license": "MIT (Figshare dataset record)",
+      "links": {
+        "homepage": "https://github.com/CederGroupHub/chgnet",
+        "data": "https://doi.org/10.6084/m9.figshare.23713842",
+        "paper": "https://doi.org/10.1038/s42256-023-00716-3"
+      },
+      "sources": [
+        {
+          "url": "https://api.figshare.com/v2/articles/23713842",
+          "title": "Materials Project Trajectory (MPtrj) \u2014 primary documentation",
+          "evidence": "Figshare description gives 1,580,395 structures and energies from MP version 2022.9; record license is MIT.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Frames derive from roughly 146k parent compounds; not 1.58 million materials.",
+        "Missing magnetic moments are null, not zero; stress sign and units need explicit conversion.",
+        "Overlaps the source MP database and LeMat trajectories."
+      ],
+      "tags": []
+    },
+    {
+      "id": "mp-aloe",
+      "name": "MP-ALOE",
+      "category": "mlip_configurations",
+      "description": "Active-learning r2SCAN data emphasizing off-equilibrium inorganic structures.",
+      "version": "2025 published dataset",
+      "year": 2025,
+      "count": 909792,
+      "count_display": "909,792",
+      "count_unit": "DFT configuration frames",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "r2SCAN energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "Not verified for downloadable dataset",
+      "links": {
+        "homepage": "https://doi.org/10.1038/s41524-025-01834-9",
+        "paper": "https://arxiv.org/abs/2507.05559",
+        "data": "https://doi.org/10.1038/s41524-025-01834-9"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/s41524-025-01834-9",
+          "title": "MP-ALOE \u2014 primary documentation",
+          "evidence": "Primary paper reports 909,792 frames from 303,264 three-step structure relaxations, covering 89 elements.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The approximately 100 million generated candidates are a selection pool, not the DFT-labeled release.",
+        "Paper data-availability section gives the distribution route; exact dataset license was not verified in this audit."
+      ],
+      "tags": []
+    },
+    {
+      "id": "matpes",
+      "name": "MatPES",
+      "category": "mlip_configurations",
+      "description": "Compact potential-energy-surface data sampled from extensive MD and labeled with PBE and r2SCAN.",
+      "version": "2025.1 size reference; 2025.2 available since 2026-04-15",
+      "year": 2025,
+      "count": 400000,
+      "count_display": "~400,000",
+      "count_unit": "sampled configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "PBE/r2SCAN energy",
+        "forces",
+        "stress",
+        "atomic charges in 2025.2"
+      ],
+      "access": "open",
+      "license": "BSD 3-Clause (Hugging Face dataset card)",
+      "links": {
+        "homepage": "https://matpes.ai/",
+        "data": "https://huggingface.co/datasets/materialyze/matpes",
+        "paper": "https://arxiv.org/abs/2503.04070",
+        "code": "https://github.com/materialyzeai/matpes"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/materialyzeai/matpes",
+          "title": "MatPES \u2014 primary documentation",
+          "evidence": "Author repository describes the initial 2025.1 release as about 400,000 structures; 2025.2 adds charge labels and removes a small number of duplicates.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "400k is a rounded original-release reference; exact 2025.2 rows were not independently verified.",
+        "281 million MD snapshots are the sampling pool, not 281 million DFT configurations.",
+        "PBE and r2SCAN labels must not be counted as twice as many independent geometries."
+      ],
+      "tags": []
+    },
+    {
+      "id": "alignn-ff",
+      "name": "ALIGNN-FF training dataset",
+      "category": "mlip_configurations",
+      "description": "JARVIS-derived force-field training structures and force labels.",
+      "version": "2023 ALIGNN-FF dataset",
+      "year": 2023,
+      "count": 307113,
+      "count_display": "307,113",
+      "count_unit": "energy-labeled configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces"
+      ],
+      "access": "open",
+      "license": "Not verified for training download",
+      "links": {
+        "homepage": "https://github.com/usnistgov/alignn",
+        "data": "https://github.com/usnistgov/jarvis/blob/master/jarvis/db/figshare.py",
+        "paper": "https://doi.org/10.1039/D2DD00096B"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1039/D2DD00096B",
+          "title": "ALIGNN-FF training dataset \u2014 primary documentation",
+          "evidence": "Primary ALIGNN-FF paper reports 307,113 energies and 3,197,795 force labels across 72,708 compounds.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Configuration count differs from parent-compound count and force-component count.",
+        "Overlaps the JARVIS structure family."
+      ],
+      "tags": []
+    },
+    {
+      "id": "mad15",
+      "name": "Massive Atomic Diversity (MAD-1.5)",
+      "category": "mlip_configurations",
+      "description": "Compact all-electron r2SCAN dataset spanning crystals, surfaces, clusters and molecules.",
+      "version": "MAD-1.5, arXiv v2",
+      "year": 2026,
+      "count": 216803,
+      "count_display": "216,803",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "mixed",
+      "provenance": "computed",
+      "properties": [
+        "r2SCAN energy",
+        "forces",
+        "stress for periodic subsets"
+      ],
+      "access": "open",
+      "license": "Not verified for this archived version",
+      "links": {
+        "homepage": "https://arxiv.org/html/2603.02089v2"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2603.02089v2",
+          "title": "Massive Atomic Diversity (MAD-1.5) \u2014 primary documentation",
+          "evidence": "Table 1 reports 216,803 structures across 14 subsets; the set contains both periodic and isolated configurations.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Includes isolated atoms, dimers, trimers and molecules; count is not periodic crystals alone.",
+        "Non-spin-polarized electronic-structure settings limit magnetic applications.",
+        "Newer MAD-1.6 archive is tracked separately; revisions overlap."
+      ],
+      "tags": []
+    },
+    {
+      "id": "mad16",
+      "name": "Massive Atomic Diversity (MAD-1.6)",
+      "category": "mlip_configurations",
+      "description": "Updated mixed-domain r2SCAN reference set with a compatible PBE subset.",
+      "version": "MAD-1.6 archive, October 2026",
+      "year": 2026,
+      "count": null,
+      "count_display": "Not verified",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "unknown",
+      "structure_level": "mixed",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress where available"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (Materials Cloud archive metadata)",
+      "links": {
+        "homepage": "https://archive.materialscloud.org/records/ffd5a-1hc37"
+      },
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/records/ffd5a-1hc37",
+          "title": "Massive Atomic Diversity (MAD-1.6) \u2014 primary documentation",
+          "evidence": "Archive README identifies MAD-1.6 train/validation/test and rejected-frame files, plus a PBE subset; no independently verified total used here.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://archive.materialscloud.org/api/records/ffd5a-1hc37",
+          "title": "MAD-1.6 Materials Cloud metadata",
+          "evidence": "Archive rights metadata identify CC BY 4.0; this audit did not recount the configuration payloads.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "A current archive exists, but total frame count has not been verified; do not substitute the MAD-1.5 total.",
+        "Rejected frames and PBE recomputations should not be added blindly to r2SCAN geometry counts."
+      ],
+      "tags": []
+    },
+    {
+      "id": "mpf2021",
+      "name": "MPF.2021.2.8",
+      "category": "mlip_configurations",
+      "description": "Selected Materials Project snapshots used for the universal M3GNet potential.",
+      "version": "2021-02-08 source / original MPF release",
+      "year": 2022,
+      "count": 187687,
+      "count_display": "187,687",
+      "count_unit": "ionic-step configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0 (Figshare record)",
+      "links": {
+        "homepage": "https://github.com/materialsvirtuallab/m3gnet",
+        "data": "https://doi.org/10.6084/m9.figshare.19470599",
+        "paper": "https://doi.org/10.1038/s41524-024-01227-4"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41524-024-01227-4",
+          "title": "MPF.2021.2.8 \u2014 primary documentation",
+          "evidence": "Primary DIRECT-sampling paper states 187,687 ionic steps from 62,783 MP compounds as of 2021-02-08.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "A subset of MP trajectories, not an independent collection of new compounds.",
+        "Figshare notes version reversion and pymatgen compatibility requirements."
+      ],
+      "tags": []
+    },
+    {
+      "id": "openlam-training",
+      "name": "OpenLAM TrainingSet",
+      "category": "mlip_configurations",
+      "description": "Multitask collection for large atomistic models covering solids, surfaces, liquids and molecular systems.",
+      "version": "OpenLAM-TrainingSet-v1 (2025); later model variants use revised collections",
+      "year": 2025,
+      "count": null,
+      "count_display": "Not verified",
+      "count_unit": "atomic configurations",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "unknown",
+      "structure_level": "mixed",
+      "provenance": "computed",
+      "properties": [
+        "energy",
+        "forces",
+        "virial where present"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://www.aissquare.com/datasets/detail?pageType=datasets&name=OpenLAM-TrainingSet-v1&id=308"
+      },
+      "sources": [
+        {
+          "url": "https://www.aissquare.com/datasets/detail?pageType=datasets&name=OpenLAM-TrainingSet-v1&id=308",
+          "title": "OpenLAM TrainingSet \u2014 primary documentation",
+          "evidence": "LAMBench and DPA-3 primary documentation identify AIS Square as the public training-set distribution; no consistently verified total was extracted.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Collection overlaps upstream public datasets and includes non-crystal domains.",
+        "Model parameter counts (3M, 5M, 7M) are not dataset sizes.",
+        "License and downloadable counts must be checked for the selected component/version."
+      ],
+      "tags": []
+    },
+    {
+      "id": "lemat-rho",
+      "name": "LeMat-Rho",
+      "category": "property_benchmarks",
+      "description": "r2SCAN crystal structures with charge density grids and atom-resolved charge labels.",
+      "version": "2026-10-19 card revision",
+      "year": 2026,
+      "count": 69117,
+      "count_display": "69,117",
+      "count_unit": "materials",
+      "count_scope": "Release described by the cited source",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "charge density",
+        "Bader charge",
+        "energy",
+        "forces",
+        "stress"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://huggingface.co/datasets/LeMaterial/LeMat-Rho"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/LeMaterial/LeMat-Rho",
+          "title": "LeMat-Rho \u2014 primary documentation",
+          "evidence": "Card reports 69,117 materials, Bader charges for 59,613 and unsmoothed charge density for 65,960.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Label coverage differs by column; 69,117 does not imply complete Bader labels.",
+        "Derived from structures with AFLOW, OQMD and MP identifiers."
+      ],
+      "tags": []
+    }
+  ],
+  "resources": [
+    {
+      "name": "NOMAD Repository and Archive",
+      "url": "https://nomad-lab.eu/",
+      "kind": "repository platform",
+      "description": "Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.",
+      "sources": [
+        {
+          "url": "https://cloud.nomad-lab.eu/nomad-lab/",
+          "title": "NOMAD Repository and Archive",
+          "evidence": "Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Materials Cloud Archive",
+      "url": "https://archive.materialscloud.org/",
+      "kind": "repository platform",
+      "description": "Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.",
+      "sources": [
+        {
+          "url": "https://archive.materialscloud.org/",
+          "title": "Materials Cloud Archive",
+          "evidence": "Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "ColabFit Exchange",
+      "url": "https://materials.colabfit.org/",
+      "kind": "dataset exchange",
+      "description": "Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.",
+      "sources": [
+        {
+          "url": "https://materials.colabfit.org/",
+          "title": "ColabFit Exchange",
+          "evidence": "Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Materials Data Facility",
+      "url": "https://materialsdatafacility.org/",
+      "kind": "repository platform",
+      "description": "Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals.",
+      "sources": [
+        {
+          "url": "https://materialsdatafacility.org/",
+          "title": "Materials Data Facility",
+          "evidence": "Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "OPTIMADE",
+      "url": "https://www.optimade.org/",
+      "kind": "interoperability API",
+      "description": "Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.",
+      "sources": [
+        {
+          "url": "https://www.optimade.org/",
+          "title": "OPTIMADE",
+          "evidence": "Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "LeMaterial Atompack",
+      "url": "https://huggingface.co/datasets/LeMaterial/Atompack",
+      "kind": "format mirror",
+      "description": "Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets.",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/LeMaterial/Atompack",
+          "title": "LeMaterial Atompack",
+          "evidence": "Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "MatterSim training data availability",
+      "url": "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md",
+      "kind": "model and availability reference",
+      "description": "Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets.",
+      "sources": [
+        {
+          "url": "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md",
+          "title": "MatterSim training data availability",
+          "evidence": "Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "SevenNet-Omni domain bridging set",
+      "url": "https://doi.org/10.6084/m9.figshare.30399814",
+      "kind": "domain bridging data",
+      "description": "Primary paper makes the bridging DFT data available through this deposit. Distinguish recomputed bridging structures from the 15 overlapping source datasets and their mixed-domain frame total.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.6084/m9.figshare.30399814",
+          "title": "SevenNet-Omni domain bridging set",
+          "evidence": "Primary paper makes the bridging DFT data available through this deposit. Distinguish recomputed bridging structures from the 15 overlapping source datasets and their mixed-domain frame total.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-026-70195-8",
+          "title": "Optimizing cross-domain transfer for universal machine learning interatomic potentials",
+          "evidence": "Data availability links the DBS database, in-house DFT results and selected benchmarks to Figshare 30399814.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    "LeMaterial official datasets and Hugging Face release metadata",
+    "OMat24 main and sAlex split counts",
+    "Alexandria expansion paper and official versioned downloads",
+    "Primary inorganic database statistics and data terms",
+    "MLIP training sets versus model-only availability",
+    "ACS review coverage and count-denominator audit"
+  ],
+  "limitations": [
+    "This survey documents reported counts; most full payloads were not downloaded or structurally deduplicated.",
+    "Unknown sizes and licensing remain explicit rather than inferred."
+  ]
+}

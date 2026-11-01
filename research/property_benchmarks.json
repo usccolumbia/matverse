@@ -1,0 +1,1690 @@
+{
+  "datasets": [
+    {
+      "id": "wbm-matbench-discovery",
+      "name": "WBM / Matbench Discovery stability test set",
+      "category": "property_benchmarks",
+      "description": "Element-substitution candidates with initial structures, DFT-relaxed structures and energies for discovery-style stability evaluation.",
+      "version": "Matbench Discovery filtered WBM release",
+      "year": 2021,
+      "count": 256963,
+      "count_display": "256,963 filtered WBM ComputedStructureEntries; 215,488 after unique-prototype filtering",
+      "count_unit": "structure entries",
+      "count_scope": "Full cleaned WBM test set; original unfiltered WBM has 257,487 entries; unique-prototype subset has 215,488",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "formation energy",
+        "energy above convex hull",
+        "DFT energy",
+        "band gap",
+        "relaxed structure"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://matbench-discovery.materialsproject.org/",
+        "data": "https://figshare.com/articles/dataset/22715158",
+        "paper": "https://doi.org/10.1038/s41524-020-00481-6",
+        "code": "https://github.com/janosh/matbench-discovery"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/wbm/readme.md",
+          "title": "WBM benchmark test-set documentation",
+          "evidence": "257,487 original entries become 256,963 after suspicious-data filtering; unique-prototype subset has 215,488.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/22715158",
+          "title": "Matbench Discovery data-file release metadata",
+          "evidence": "Current Figshare data-file release metadata specifies CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Generated substitutions followed by DFT relaxation; not experimentally discovered compounds.",
+        "Full and unique-prototype subsets are overlapping alternatives, not additive.",
+        "Stability depends on the DFT reference hull and energy corrections."
+      ],
+      "tags": [
+        "benchmark",
+        "stability",
+        "WBM",
+        "Materials Project derivative"
+      ]
+    },
+    {
+      "id": "mp20-cdvae",
+      "name": "MP-20 (CDVAE benchmark)",
+      "category": "generation_benchmarks",
+      "description": "Materials Project / ICSD-derived crystal benchmark with one to twenty atoms per unit cell and fixed train/validation/test splits.",
+      "version": "CDVAE ICLR 2022 release",
+      "year": 2022,
+      "count": 45231,
+      "count_display": "45,231 general inorganic materials",
+      "count_unit": "structures",
+      "count_scope": "CDVAE ICLR 2022 release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "formation energy",
+        "energy above hull"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/txie-93/cdvae/tree/main/data/mp_20",
+        "data": "https://github.com/txie-93/cdvae/tree/main/data/mp_20",
+        "paper": "https://arxiv.org/abs/2110.06197",
+        "code": "https://github.com/txie-93/cdvae"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/txie-93/cdvae/main/data/mp_20/README.md",
+          "title": "CDVAE MP-20 dataset documentation",
+          "evidence": "45,231 entries; 1–20 atoms per unit cell; selected from ICSD-origin Materials Project structures with energy filters.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "DFT-relaxed structures inherit experimental parentage; this does not establish dynamical or finite-temperature stability of every entry.",
+        "Different downstream MP-20 repackagings can remove entries or alter standardization; retain split/version provenance.",
+        "Overlaps Materials Project, ICSD-derived corpora and MatterGen datasets."
+      ],
+      "tags": [
+        "generation",
+        "CSP",
+        "MP derivative",
+        "small cells"
+      ]
+    },
+    {
+      "id": "perov5-cdvae-matbench",
+      "name": "Perov-5 / Matbench perovskites",
+      "category": "generation_benchmarks",
+      "description": "Castelli computational perovskite screening corpus reused by CDVAE for generation and by Matbench for formation-energy regression.",
+      "version": "Castelli corpus / CDVAE and Matbench benchmark derivatives",
+      "year": 2012,
+      "count": 18928,
+      "count_display": "18,928 five-atom perovskite materials",
+      "count_unit": "structures",
+      "count_scope": "Castelli corpus / CDVAE and Matbench benchmark derivatives",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "formation energy"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/txie-93/cdvae/tree/main/data/perov_5",
+        "data": "https://github.com/txie-93/cdvae/tree/main/data/perov_5",
+        "paper": "https://doi.org/10.1039/C2EE22341D",
+        "code": "https://github.com/txie-93/cdvae"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/txie-93/cdvae/main/data/perov_5/README.md",
+          "title": "CDVAE Perov-5 dataset documentation",
+          "evidence": "18,928 structures, all with five atoms; all original corpus entries are included.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Matminer dataset metadata",
+          "evidence": "matbench_perovskites has 18,928 structure/formation-energy samples adapted from Castelli et al.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Perov-5 and Matbench perovskites are task derivatives of the same parent corpus; not independent materials collections.",
+        "Many hypothetical candidates are thermodynamically unstable.",
+        "Formation energy in Matbench is eV per unit cell."
+      ],
+      "tags": [
+        "generation",
+        "perovskite",
+        "Matbench",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "carbon24-cdvae",
+      "name": "Carbon-24 (CDVAE benchmark)",
+      "category": "generation_benchmarks",
+      "description": "Carbon allotrope benchmark selected from AIRSS calculations at 10 GPa; six to twenty-four atoms per unit cell.",
+      "version": "CDVAE ICLR 2022 release, from Pickard 2020 AIRSS archive",
+      "year": 2022,
+      "count": 10153,
+      "count_display": "10,153 lowest-energy carbon structures selected from 101,529 AIRSS structures",
+      "count_unit": "structures",
+      "count_scope": "CDVAE ICLR 2022 release, from Pickard 2020 AIRSS archive",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "energy per atom"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/txie-93/cdvae/tree/main/data/carbon_24",
+        "data": "https://github.com/txie-93/cdvae/tree/main/data/carbon_24",
+        "paper": "https://arxiv.org/abs/2110.06197",
+        "code": "https://github.com/txie-93/cdvae"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/txie-93/cdvae/main/data/carbon_24/README.md",
+          "title": "CDVAE Carbon-24 dataset documentation",
+          "evidence": "Selects the lowest-energy ten percent, 10,153 of 101,529 AIRSS carbon structures at 10 GPa.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Single composition, many structures; not 10,153 chemical compounds.",
+        "High-pressure source; diamond is most stable at the specified pressure, while the remaining entries are metastable or unstable.",
+        "Overlaps the larger AIRSS carbon source archive."
+      ],
+      "tags": [
+        "generation",
+        "carbon",
+        "AIRSS",
+        "10 GPa"
+      ]
+    },
+    {
+      "id": "alex-mp20-mattergen",
+      "name": "Alex-MP-20 (MatterGen)",
+      "category": "generation_benchmarks",
+      "description": "DFT-recomputed Materials Project and Alexandria structures filtered for small cells and energy above hull below 0.1 eV/atom, for generative-model training.",
+      "version": "MatterGen publication training corpus",
+      "year": 2025,
+      "count": 607684,
+      "count_display": "607,684 crystal structures (model data summary)",
+      "count_unit": "structures",
+      "count_scope": "MatterGen publication training corpus",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "DFT energy",
+        "energy above hull",
+        "band gap",
+        "bulk modulus",
+        "magnetic density"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International (upstream MP-20 and Alexandria data-release READMEs)",
+      "links": {
+        "homepage": "https://github.com/microsoft/mattergen",
+        "data": "https://github.com/microsoft/mattergen/tree/main/data-release/alex-mp",
+        "paper": "https://doi.org/10.1038/s41586-025-08628-5",
+        "code": "https://github.com/microsoft/mattergen"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/microsoft/mattergen/blob/main/data_summary_card.md",
+          "title": "Microsoft MatterGen data summary card",
+          "evidence": "Reports 607,684 DFT-relaxed crystal structures from MP v2022.10.28 and Alexandria.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/mattergen/main/data-release/alex-mp/README.md",
+          "title": "MatterGen Alex-MP data-release README",
+          "evidence": "Re-relaxes with PBE; removes Tc, Pm and atomic numbers 84 or higher; training cells have at most twenty atoms and hull energy at most 0.1 eV/atom.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Includes/recomputes MP-20 and Alexandria; not additive with its parent databases.",
+        "607,684 is the publication/model-card corpus count; a local file-row recount was not performed.",
+        "Property labels are sparse and not all structures have every listed property.",
+        "Below a 0.1 eV/atom hull threshold does not mean experimentally synthesized."
+      ],
+      "tags": [
+        "generation",
+        "MatterGen",
+        "Alexandria derivative",
+        "MP derivative"
+      ]
+    },
+    {
+      "id": "alex-mp-mattergen-reference",
+      "name": "Alex-MP reference dataset (MatterGen public release)",
+      "category": "generation_benchmarks",
+      "description": "Combined reference structures and energies distributed to assess novelty and stability of generated crystals.",
+      "version": "Public MatterGen Alex-MP reference release",
+      "year": 2025,
+      "count": 845997,
+      "count_display": "845,997 structures with DFT energies",
+      "count_unit": "structures",
+      "count_scope": "Public MatterGen Alex-MP reference release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "crystal structure",
+        "DFT energy",
+        "reference convex hull"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/microsoft/mattergen",
+        "data": "https://github.com/microsoft/mattergen/tree/main/data-release/alex-mp",
+        "paper": "https://doi.org/10.1038/s41586-025-08628-5",
+        "code": "https://github.com/microsoft/mattergen"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/mattergen/main/README.md",
+          "title": "MatterGen official README",
+          "evidence": "Public Alex-MP reference has 845,997 structures and DFT energies; ICSD structures used in the paper cannot be shared for licensing reasons.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Overlaps Alex-MP-20 and parent databases.",
+        "Public reference differs from the paper’s Alex-MP-ICSD reference: licensed ICSD components are omitted.",
+        "Correction scheme and MLIP-versus-DFT evaluation affect the hull and stability labels."
+      ],
+      "tags": [
+        "generation",
+        "reference hull",
+        "MatterGen"
+      ]
+    },
+    {
+      "id": "matbench-mp-e-form",
+      "name": "Matbench mp_e_form",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 132752,
+      "count_display": "132,752 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench mp_e_form; fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "formation energy (eV/atom)"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "mp_e_form: 132,752 structure inputs; formation-energy target.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "MP snapshot retrieved 2019-04-02; excludes noble gases and formation energies above 2.5 eV.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "MP snapshot retrieved 2019-04-02; excludes noble gases and formation energies above 2.5 eV.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "matbench-mp-electronic",
+      "name": "Matbench mp_gap / mp_is_metal (shared source cohort)",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 106113,
+      "count_display": "106,113 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench mp_gap / mp_is_metal (shared source cohort); fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "PBE band gap",
+        "metallicity"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "mp_gap and mp_is_metal each contain 106,113 structure samples.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "These are two prediction tasks over the same MP-derived source cohort; the count is per task, not their sum.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "These are two prediction tasks over the same MP-derived source cohort; the count is per task, not their sum.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "matbench-elastic",
+      "name": "Matbench log_gvrh / log_kvrh (shared source cohort)",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 10987,
+      "count_display": "10,987 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench log_gvrh / log_kvrh (shared source cohort); fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "log10 VRH shear modulus",
+        "log10 VRH bulk modulus"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "log_gvrh and log_kvrh each have 10,987 structure samples.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "Two tasks share the MP elasticity cohort; positive-modulus and Voigt/Reuss consistency filters were applied.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Two tasks share the MP elasticity cohort; positive-modulus and Voigt/Reuss consistency filters were applied.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "matbench-dielectric",
+      "name": "Matbench dielectric",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 4764,
+      "count_display": "4,764 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench dielectric; fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "refractive index"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "dielectric: 4,764 structure samples; target is refractive index n.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "MP-derived refractive-index task, not the original 1,056-compound dielectric-tensor release; retrieved 2019-04-02.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "MP-derived refractive-index task, not the original 1,056-compound dielectric-tensor release; retrieved 2019-04-02.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "matbench-phonons",
+      "name": "Matbench phonons",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 1265,
+      "count_display": "1,265 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench phonons; fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "highest-frequency optical phonon DOS peak"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "phonons: 1,265 structure samples; highest-frequency phonon DOS peak target.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "Filtered derivative of the Petretto 1,521-compound DFPT corpus; this scalar target is not a full phonon dispersion or thermal conductivity.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Filtered derivative of the Petretto 1,521-compound DFPT corpus; this scalar target is not a full phonon dispersion or thermal conductivity.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "matbench-jdft2d",
+      "name": "Matbench jdft2d",
+      "category": "property_benchmarks",
+      "description": "Fixed Matbench v0.1 structure-to-property prediction task dataset.",
+      "version": "Matbench v0.1",
+      "year": 2020,
+      "count": 636,
+      "count_display": "636 samples per task",
+      "count_unit": "task samples",
+      "count_scope": "Matbench jdft2d; fixed released task sample count",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "exfoliation energy"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://matbench.materialsproject.org/",
+        "data": "https://github.com/materialsproject/matbench/tree/main/matbench",
+        "paper": "https://doi.org/10.1038/s41524-020-00406-3",
+        "code": "https://github.com/materialsproject/matbench"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json",
+          "title": "Official Matbench v0.1 task metadata",
+          "evidence": "jdft2d: 636 structure samples; exfoliation-energy target.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json",
+          "title": "Official Matminer dataset metadata",
+          "evidence": "Adapted from the JARVIS-DFT two-dimensional dataset; an overlapping benchmark subset, not all JARVIS 2D materials.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Adapted from the JARVIS-DFT two-dimensional dataset; an overlapping benchmark subset, not all JARVIS 2D materials.",
+        "Task samples reuse parent datasets; do not sum Matbench tasks as unique crystals.",
+        "Preserve the official order and folds for benchmark comparability."
+      ],
+      "tags": [
+        "Matbench",
+        "benchmark",
+        "structure-based",
+        "derived dataset"
+      ]
+    },
+    {
+      "id": "mp-elastic-2015",
+      "name": "Materials Project elastic tensor release (2015)",
+      "category": "property_benchmarks",
+      "description": "Historical frozen release of DFT elastic tensors, compliance tensors and derived moduli, linked to relaxed CIF/POSCAR structures.",
+      "version": "Publication release",
+      "year": 2015,
+      "count": 1181,
+      "count_display": "1,181 inorganic compounds",
+      "count_unit": "materials",
+      "count_scope": "Publication release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "elastic tensor",
+        "compliance tensor",
+        "bulk modulus",
+        "shear modulus",
+        "elastic anisotropy"
+      ],
+      "access": "open",
+      "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.5061/dryad.h505v",
+        "paper": "https://doi.org/10.1038/sdata.2015.9",
+        "code": "https://github.com/materialsproject/pymatgen"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4432655/",
+          "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+          "evidence": "Data Records specifies 1,181 materials and structure metadata in CIF/POSCAR form.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://datadryad.org/dataset/doi:10.5061/dryad.h505v",
+          "title": "Dryad elastic-tensor dataset metadata",
+          "evidence": "Dataset JSON-LD specifies Creative Commons Zero v1.0 Universal.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Historical descriptor release; not the current total of MP elasticity calculations.",
+        "Overlaps MP and later Matbench elastic cohorts."
+      ],
+      "tags": [
+        "elasticity",
+        "MP derivative",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "mp-piezo-2015",
+      "name": "Materials Project piezoelectric tensor release (2015)",
+      "category": "property_benchmarks",
+      "description": "DFPT intrinsic piezoelectric tensors with crystal structures and maximum longitudinal piezoelectric response.",
+      "version": "Publication release",
+      "year": 2015,
+      "count": 941,
+      "count_display": "941 inorganic crystalline compounds",
+      "count_unit": "materials",
+      "count_scope": "Publication release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "piezoelectric tensor",
+        "maximum longitudinal piezoelectric modulus"
+      ],
+      "access": "open",
+      "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.5061/dryad.n63m4",
+        "paper": "https://doi.org/10.1038/sdata.2015.53",
+        "code": "https://github.com/materialsproject/pymatgen"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4587372/",
+          "title": "A database to enable discovery and design of piezoelectric materials",
+          "evidence": "Reports 941 compounds; CIF/POSCAR structures, tensors and warning flags are released.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://datadryad.org/dataset/doi:10.5061/dryad.n63m4",
+          "title": "Dryad piezoelectric-tensor dataset metadata",
+          "evidence": "Dataset JSON-LD specifies Creative Commons Zero v1.0 Universal.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "0 K, bulk, defect-free and strain-free intrinsic response; not measured ceramic/device coefficients.",
+        "134 of 941 compounds carry one or more consistency-filter warnings; retain flags.",
+        "Overlaps MP; historical release is not the current property count."
+      ],
+      "tags": [
+        "piezoelectric",
+        "MP derivative",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "mp-dielectric-2017",
+      "name": "Materials Project dielectric tensor release (2017)",
+      "category": "property_benchmarks",
+      "description": "DFPT electronic and ionic dielectric tensors, total dielectric response, refractive-index estimates and relaxed structures.",
+      "version": "Publication release",
+      "year": 2017,
+      "count": 1056,
+      "count_display": "1,056 inorganic ordered compounds",
+      "count_unit": "materials",
+      "count_scope": "Publication release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "dielectric tensor",
+        "electronic dielectric constant",
+        "ionic dielectric constant",
+        "refractive index"
+      ],
+      "access": "open",
+      "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.5061/dryad.ph81h",
+        "paper": "https://doi.org/10.1038/sdata.2016.134",
+        "code": "https://github.com/materialsproject/pymatgen"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5315501/",
+          "title": "High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials",
+          "evidence": "Reports 1,056 compounds with DFPT dielectric tensors and structure metadata.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://datadryad.org/dataset/doi:10.5061/dryad.ph81h",
+          "title": "Dryad dielectric-tensor dataset metadata",
+          "evidence": "Dataset JSON-LD specifies Creative Commons Zero v1.0 Universal.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Historical frozen release, overlapping MP; the later 4,764-sample Matbench task is a different cohort and target.",
+        "Includes hypothetical compounds; refractive index is a computational estimate far from optical resonance."
+      ],
+      "tags": [
+        "dielectric",
+        "optical",
+        "MP derivative",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "mp-dfpt-phonons-2018",
+      "name": "Materials Project / Petretto DFPT phonons (2018)",
+      "category": "property_benchmarks",
+      "description": "ABINIT PBEsol harmonic phonon dispersions and DOS, thermodynamic functions, Born effective charges and dielectric tensors.",
+      "version": "Publication release",
+      "year": 2018,
+      "count": 1521,
+      "count_display": "1,521 semiconducting inorganic crystals",
+      "count_unit": "materials",
+      "count_scope": "Publication release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "phonon dispersion",
+        "phonon DOS",
+        "Born effective charges",
+        "dielectric tensor",
+        "vibrational thermodynamics"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.6084/m9.figshare.c.3938023",
+        "paper": "https://doi.org/10.1038/sdata.2018.65"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5928854/",
+          "title": "High-throughput density-functional perturbation theory phonons for inorganic materials",
+          "evidence": "Data Records provides 1,521 materials; ABINIT DDB and processed JSON; 1,508 have fewer than thirteen atomic sites.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Harmonic approximation; not third-order anharmonic force constants or lattice thermal conductivity.",
+        "Includes negative-mode warning flags and omits thermodynamic integration when severe negative frequencies occur.",
+        "Parent of Matbench phonons; overlaps newer MP phonon collections."
+      ],
+      "tags": [
+        "phonon",
+        "DFPT",
+        "MP derivative",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "mp-phonon-2026",
+      "name": "Materials Project Phonon database v1.1",
+      "category": "property_benchmarks",
+      "description": "Versioned Materials Project phonon archive associated with the expanded phonon-calculation program.",
+      "version": "v1.1, 2026-06-08",
+      "year": 2026,
+      "count": 26413,
+      "count_display": "26,413 compounds (archive title)",
+      "count_unit": "materials",
+      "count_scope": "v1.1, 2026-06-08",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "phonon calculations"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.5281/zenodo.20196565"
+      },
+      "sources": [
+        {
+          "url": "https://zenodo.org/records/20196565",
+          "title": "Materials Project Phonon database v1.1 - (26,413 compounds)",
+          "evidence": "Zenodo release title states 26,413 compounds; version v1.1, published 2026-06-08; metadata specifies open access and CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Count is the versioned archive’s compound count, not all displaced configurations or raw calculation files.",
+        "The multi-terabyte payload was not downloaded; label completeness per compound was not audited.",
+        "Shares parent MP materials with earlier phonon subsets; not additive."
+      ],
+      "tags": [
+        "phonon",
+        "MP derivative",
+        "2026 release"
+      ]
+    },
+    {
+      "id": "phonondb-mdr",
+      "name": "PhononDB / MDR harmonic phonon calculation database",
+      "category": "property_benchmarks",
+      "description": "Harmonic phonon calculations made with VASP and phonopy, migrated from the former Kyoto University phonon database to NIMS MDR.",
+      "version": "Kyoto v2018-04-07 parent; migrated MDR collection checked 2026-11-01",
+      "year": 2018,
+      "count": 10034,
+      "count_display": "10,034 collection items / author-index materials",
+      "count_unit": "material calculation entries",
+      "count_scope": "Kyoto v2018-04-07 parent; migrated MDR collection checked 2026-11-01",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "harmonic force constants",
+        "phonon dispersion",
+        "phonon DOS",
+        "phonon thermal properties"
+      ],
+      "access": "open",
+      "license": "Creative Commons BY Attribution 4.0 International",
+      "links": {
+        "homepage": "https://github.com/atztogo/phonondb",
+        "data": "https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en",
+        "code": "https://github.com/phonopy/phonopy"
+      },
+      "sources": [
+        {
+          "url": "https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en",
+          "title": "MDR phonon calculation database",
+          "evidence": "Collection lists 10,034 items, VASP/phonopy calculations and CC BY 4.0 rights.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/atztogo/phonondb",
+          "title": "Phonondb author repository",
+          "evidence": "Confirms Kyoto website closure and migration to NIMS MDR; links the PBEsol material index.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "The Kyoto URL is retired; use the author-maintained MDR migration index.",
+        "Harmonic phonons do not provide lattice thermal conductivity by themselves.",
+        "MDR is the host, not an additional independent phonon dataset."
+      ],
+      "tags": [
+        "phonon",
+        "PBEsol",
+        "Kyoto",
+        "MDR",
+        "NIMS"
+      ]
+    },
+    {
+      "id": "phonondb-mdr-ltc",
+      "name": "PhononDB lattice thermal conductivity (MDR)",
+      "category": "property_benchmarks",
+      "description": "Lattice thermal conductivity release using per-material polynomial machine-learning potentials fitted to VASP PBEsol displaced-supercell data, then phonopy/phono3py force constants.",
+      "version": "Author release index snapshot 2026-11-01",
+      "year": null,
+      "count": 4811,
+      "count_display": "4,811 material rows counted in the author-maintained release index",
+      "count_unit": "listed material calculation entries",
+      "count_scope": "4,811 unique material-ID rows in release index; independently counted, not a paper-reported size",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "lattice thermal conductivity",
+        "second-order force constants",
+        "third-order force constants",
+        "DFT training energies and forces",
+        "polynomial MLP"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/atztogo/phonondb",
+        "data": "https://github.com/atztogo/phonondb/tree/main/mdr/phonondb_LTC",
+        "code": "https://github.com/phonopy/phono3py"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/atztogo/phonondb/main/mdr/phonondb_LTC/README.md",
+          "title": "Phonondb lattice thermal conductivity data on MDR at NIMS",
+          "evidence": "Counted 4,811 linked material rows in the cached author index; methodology uses 200 random-displacement VASP supercells per crystal to fit polynomial potentials.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "An overlapping subset/extension of harmonic PhononDB.",
+        "Force constants and transport are evaluated with fitted polynomial MLPs, not exclusively direct finite-displacement DFT forces.",
+        "Count comes from the current linked index; individual files and successful-LTC completeness were not audited.",
+        "The index says a methodology manuscript is forthcoming."
+      ],
+      "tags": [
+        "phonon",
+        "thermal transport",
+        "MDR",
+        "PBEsol",
+        "MLP-assisted"
+      ]
+    },
+    {
+      "id": "phonondb-103-pbesol",
+      "name": "Phono3py 103-compound finite-displacement dataset (PBEsol)",
+      "category": "property_benchmarks",
+      "description": "Finite-displacement force data for lattice thermal conductivity calculations, supporting the Phonopy/Phono3py methods reference.",
+      "version": "PBEsol finite-displacement release",
+      "year": 2023,
+      "count": 103,
+      "count_display": "103 binary compounds",
+      "count_unit": "compounds",
+      "count_scope": "PBEsol finite-displacement release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "lattice thermal conductivity",
+        "displaced-supercell forces",
+        "anharmonic phonons"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/atztogo/phonondb",
+        "data": "https://github.com/atztogo/phonondb/tree/main/mdr/phono3py_103compounds_fd",
+        "paper": "https://doi.org/10.7566/JPSJ.92.012001",
+        "code": "https://github.com/phonopy/phono3py"
+      },
+      "sources": [
+        {
+          "url": "https://mdr.nims.go.jp/collections/e85f8f40-d810-42ae-91c4-0a07b9641219?locale=en",
+          "title": "Lattice thermal conductivity calculation datasets for 103 binary compounds by finite displacement method",
+          "evidence": "Collection identifies 103 binary compounds and phono3py inputs used for Fig. 17 of JPSJ 92, 012001.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/atztogo/phonondb",
+          "title": "Phonondb author repository",
+          "evidence": "Separately identifies PBEsol and PBE 103-compound finite-displacement releases.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "PBEsol and PBE versions largely share compounds and are not independent chemistry coverage.",
+        "Different from the larger polynomial-MLP-assisted PhononDB LTC release."
+      ],
+      "tags": [
+        "phonon",
+        "thermal transport",
+        "PBEsol",
+        "MDR"
+      ]
+    },
+    {
+      "id": "phonix",
+      "name": "Phonix anharmonic phonon database",
+      "category": "property_benchmarks",
+      "description": "Automated first-principles database of anharmonic phonon interactions and thermal transport for inorganic nonmetallic, nonmagnetic compounds.",
+      "version": "v2026.03.28",
+      "year": 2026,
+      "count": 20912,
+      "count_display": "20,912 unique materials; 6,812 unique materials with thermal conductivity",
+      "count_unit": "unique materials",
+      "count_scope": "Full release: 20,912 unique materials, of which 6,812 have kappa; 28,211 total records include duplicates",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "anharmonic force constants",
+        "phonon interactions",
+        "thermal conductivity",
+        "phonon lifetimes"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 International",
+      "links": {
+        "homepage": "https://phonix-db.org/",
+        "data": "https://phonix-db.org/ver2026.03.28/index.html",
+        "paper": "https://www.nature.com/articles/s41524-026-02033-w",
+        "code": "https://github.com/phonix-db/auto-kappa"
+      },
+      "sources": [
+        {
+          "url": "https://phonix-db.org/ver2026.03.28/index.html",
+          "title": "Phonix v2026.03.28 release statistics",
+          "evidence": "28,211 data records include 7,299 duplicates, leaving 20,912 unique materials; 6,812 unique materials have kappa.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://phonix-db.org/",
+          "title": "Phonix official database documentation",
+          "evidence": "Documents anharmonic phonon scope, MP/PhononDB parentage and CC BY 4.0 licensing.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Only 6,812 of the 20,912 unique materials have thermal-conductivity labels.",
+        "28,211 raw data records contain duplicates and are not unique-material coverage.",
+        "Parent MP/PhononDB structures overlap other collections.",
+        "Nonmetallic/nonmagnetic selection restricts chemistry coverage."
+      ],
+      "tags": [
+        "phonon",
+        "anharmonic",
+        "thermal transport",
+        "2026 release"
+      ]
+    },
+    {
+      "id": "mp-boltztrap-transport",
+      "name": "Materials Project / Ricci electronic transport database",
+      "category": "property_benchmarks",
+      "description": "BoltzTraP electronic transport from MP band structures with temperature/doping dependence under a constant-relaxation-time approximation.",
+      "version": "Publication release",
+      "year": 2017,
+      "count": 48000,
+      "count_display": "approximately 48,000 inorganic materials",
+      "count_unit": "materials",
+      "count_scope": "Publication release",
+      "count_precision": "approximate",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "Seebeck coefficient",
+        "electrical conductivity divided by relaxation time",
+        "electronic thermal conductivity divided by relaxation time",
+        "effective mass",
+        "carrier concentration"
+      ],
+      "access": "open",
+      "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+      "links": {
+        "homepage": "https://materialsproject.org/",
+        "data": "https://doi.org/10.5061/dryad.gn001",
+        "paper": "https://doi.org/10.1038/sdata.2017.85",
+        "code": "https://github.com/materialsproject/pymatgen"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5496472/",
+          "title": "An ab initio electronic transport database for inorganic materials",
+          "evidence": "Data Records reports about 48,000 inorganic crystals; GGA and GGA+U can coexist for the same compound; higher-level and detailed records form two representations.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gn001",
+          "title": "Dryad electronic-transport dataset metadata",
+          "evidence": "Dataset JSON-LD specifies Creative Commons Zero v1.0 Universal.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Two record-detail datasets and multiple functionals are not additional independent materials.",
+        "Constant relaxation time; transport coefficients are often normalized by tau.",
+        "Electronic thermal conductivity is not lattice thermal conductivity.",
+        "The 8,924-entry matminer boltztrap_mp convenience dataset is only a derivative subset at 300 K and 10^18 cm^-3."
+      ],
+      "tags": [
+        "transport",
+        "thermoelectric",
+        "MP derivative",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "snumat-hybrid-gap",
+      "name": "SNUMAT hybrid-functional band-gap dataset",
+      "category": "property_benchmarks",
+      "description": "HSE and GGA electronic gaps, relaxed structures, density of states and magnetic-order information from an automated ICSD-based computation workflow.",
+      "version": "Publication finite-gap release (Figshare v7 update 2021)",
+      "year": 2020,
+      "count": 10481,
+      "count_display": "10,481 materials with finite band gap",
+      "count_unit": "materials",
+      "count_scope": "10,481 nonmetallic materials released with the descriptor, not all portal calculations",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "HSE band gap",
+        "GGA band gap",
+        "direct/indirect gap",
+        "density of states",
+        "magnetic ordering"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "http://www.snumat.com/",
+        "data": "https://figshare.com/articles/dataset/hybrid_bandgap_200821_v1_zip/12839240",
+        "paper": "https://doi.org/10.1038/s41597-020-00723-8",
+        "code": "https://github.com/MDIL-SNU/AMP2"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-020-00723-8",
+          "title": "A band-gap database for semiconducting inorganic materials calculated with hybrid functional",
+          "evidence": "Publication releases 10,481 finite-gap compounds on Figshare; the full portal also includes metals; records contain relaxed POSCAR structures.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/12839240",
+          "title": "SNUMAT Figshare publication-release metadata",
+          "evidence": "Version 7 describes 10,481 inorganic compounds and the 2021-04-13 magnetic-property update; license CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Full SNUMAT and repackaged JARVIS counts can differ because metals and updates are included.",
+        "ICSD-derived selection, finite-gap screening and primitive-cell size limit bias coverage.",
+        "Open Figshare archive; SNUMAT API authorization is a separate access route."
+      ],
+      "tags": [
+        "electronic",
+        "band gap",
+        "hybrid functional",
+        "Scientific Data",
+        "ICSD derivative"
+      ]
+    },
+    {
+      "id": "omdb-gap1",
+      "name": "OMDB-GAP1",
+      "category": "property_benchmarks",
+      "description": "Organic molecular-crystal structures paired with DFT band gaps for electronic-property learning.",
+      "version": "v1.1",
+      "year": 2019,
+      "count": 12500,
+      "count_display": "12,500 materials",
+      "count_unit": "materials",
+      "count_scope": "v1.1",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "PBE band gap",
+        "molecular crystal structure"
+      ],
+      "access": "open",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://omdb.mathub.io/",
+        "data": "https://omdb.mathub.io/dataset/",
+        "paper": "https://doi.org/10.1002/qute.201900023"
+      },
+      "sources": [
+        {
+          "url": "https://omdb.mathub.io/dataset/",
+          "title": "Organic Materials Database dataset downloads",
+          "evidence": "Official download table lists OMDB-GAP1 v1.1, 12,500 materials, and DOI 10.1002/qute.201900023.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Periodic molecular crystals are in scope; these are not isolated-molecule HOMO–LUMO gaps.",
+        "The 260,092 COD entry download on the same page contains ML predictions and is distinct from this DFT-labelled training corpus.",
+        "Overlaps COD-origin molecular crystal structures."
+      ],
+      "tags": [
+        "molecular crystal",
+        "organic",
+        "electronic",
+        "band gap",
+        "COD derivative"
+      ]
+    },
+    {
+      "id": "jarvis-supercon-3d",
+      "name": "JARVIS superconductivity 3D DFT cohort",
+      "category": "property_benchmarks",
+      "description": "Distinct downloadable JARVIS electron–phonon-coupling superconductivity cohort for 3D materials.",
+      "version": "JARVIS-Tools named supercon_3d release",
+      "year": 2022,
+      "count": 1058,
+      "count_display": "1,058 entries",
+      "count_unit": "materials",
+      "count_scope": "JARVIS-Tools named supercon_3d release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "electron–phonon coupling",
+        "logarithmic phonon frequency",
+        "computed superconducting transition temperature"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://jarvis.nist.gov/supercon",
+        "data": "https://figshare.com/ndownloader/files/38307921",
+        "paper": "https://doi.org/10.1038/s41524-022-00933-1",
+        "code": "https://github.com/usnistgov/jarvis"
+      },
+      "sources": [
+        {
+          "url": "https://pages.nist.gov/jarvis/databases/",
+          "title": "JARVIS-Tools database inventory",
+          "evidence": "supercon_3d: 1058 entries; explicitly listed as a superconductivity DFT dataset.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+          "title": "Official JARVIS dataset loader",
+          "evidence": "supercon_3d maps to the corresponding Figshare JSON, count 1058, and primary paper.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/21370572",
+          "title": "JARVIS-SuperconDB Figshare metadata",
+          "evidence": "v4 groups 3D and 2D electron–phonon files, defines Tc through the McMillan–Allen–Dynes formula, and specifies CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Computed phonon-mediated/BCS-oriented superconductivity estimates, not experimental Tc labels.",
+        "A named property cohort overlapping parent JARVIS materials.",
+        "Do not combine with the experimental/composition-only supercon_chem collection."
+      ],
+      "tags": [
+        "superconductivity",
+        "3d",
+        "JARVIS derivative",
+        "electron–phonon"
+      ]
+    },
+    {
+      "id": "jarvis-supercon-2d",
+      "name": "JARVIS superconductivity 2D DFT cohort",
+      "category": "property_benchmarks",
+      "description": "Distinct downloadable JARVIS electron–phonon-coupling superconductivity cohort for 2D materials.",
+      "version": "JARVIS-Tools named supercon_2d release",
+      "year": 2023,
+      "count": 161,
+      "count_display": "161 entries",
+      "count_unit": "materials",
+      "count_scope": "JARVIS-Tools named supercon_2d release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "electron–phonon coupling",
+        "logarithmic phonon frequency",
+        "computed superconducting transition temperature"
+      ],
+      "access": "open",
+      "license": "CC BY 4.0",
+      "links": {
+        "homepage": "https://jarvis.nist.gov/supercon",
+        "data": "https://figshare.com/ndownloader/files/38950433",
+        "paper": "https://doi.org/10.1021/acs.nanolett.2c04420",
+        "code": "https://github.com/usnistgov/jarvis"
+      },
+      "sources": [
+        {
+          "url": "https://pages.nist.gov/jarvis/databases/",
+          "title": "JARVIS-Tools database inventory",
+          "evidence": "supercon_2d: 161 entries; explicitly listed as a superconductivity DFT dataset.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+          "title": "Official JARVIS dataset loader",
+          "evidence": "supercon_2d maps to the corresponding Figshare JSON, count 161, and primary paper.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://api.figshare.com/v2/articles/21370572",
+          "title": "JARVIS-SuperconDB Figshare metadata",
+          "evidence": "v4 groups 3D and 2D electron–phonon files, defines Tc through the McMillan–Allen–Dynes formula, and specifies CC BY 4.0.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Computed phonon-mediated/BCS-oriented superconductivity estimates, not experimental Tc labels.",
+        "A named property cohort overlapping parent JARVIS materials.",
+        "Do not combine with the experimental/composition-only supercon_chem collection."
+      ],
+      "tags": [
+        "superconductivity",
+        "2d",
+        "JARVIS derivative",
+        "electron–phonon"
+      ]
+    },
+    {
+      "id": "superband",
+      "name": "SuperBand electronic-band / superconductivity dataset",
+      "category": "property_benchmarks",
+      "description": "DFT electronic bands, DOS and Fermi-surface representations linked to experimental superconducting-transition labels and crystal geometry.",
+      "version": "Scientific Data 2025 band-data release",
+      "year": 2025,
+      "count": 2474,
+      "count_display": "1,362 superconductors + 1,112 verified nonsuperconductors = 2,474 band-structure entries",
+      "count_unit": "materials",
+      "count_scope": "Scientific Data 2025 band-data release",
+      "count_precision": "exact",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "DFT band structure",
+        "density of states",
+        "Fermi surface",
+        "experimental Tc",
+        "crystal structure"
+      ],
+      "access": "open",
+      "license": "Creative Commons Attribution 4.0 (database); MIT (software)",
+      "links": {
+        "homepage": "https://www.superband.work/",
+        "data": "https://doi.org/10.57760/sciencedb.16728",
+        "paper": "https://doi.org/10.1038/s41597-025-05015-7",
+        "code": "https://github.com/ljcj007/SuperBand"
+      },
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12056090/",
+          "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors",
+          "evidence": "Data Records gives 1,362 superconductors and 1,112 verified nonsuperconductors with band calculations and crystal parameters.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/ljcj007/SuperBand",
+          "title": "SuperBand official repository",
+          "evidence": "Training set has 2,474 band entries; database CC BY 4.0, code MIT; GitHub includes four band-data examples and links the full archive.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "2,474 is the successful DFT band-data cohort, not the larger initial literature/CIF collection.",
+        "Tc labels are experimental; electronic features are computed.",
+        "Repository text informally calls all 2,474 entries superconductors; the paper explicitly separates 1,362 positive and 1,112 negative entries."
+      ],
+      "tags": [
+        "superconductivity",
+        "electronic",
+        "mixed provenance",
+        "Scientific Data"
+      ]
+    },
+    {
+      "id": "openlam-crystal-philately",
+      "name": "OpenLAM Crystal Philately challenge collection",
+      "category": "generation_benchmarks",
+      "description": "Competition crystal collection combining participant submissions and reused open-repository structures, relaxed and scored with OpenLAM models.",
+      "version": "January 2025 first-round challenge-report snapshot",
+      "year": 2025,
+      "count": 19800000,
+      "count_display": "over 19.8 million valid structures (January 2025 report)",
+      "count_unit": "valid structures",
+      "count_scope": "January 2025 first-round challenge-report snapshot",
+      "count_precision": "lower_bound",
+      "structure_level": "periodic_atomic",
+      "provenance": "mixed",
+      "properties": [
+        "crystal structure",
+        "MLIP energy",
+        "model-relative hull membership"
+      ],
+      "access": "registration",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://github.com/deepmodeling/openlam",
+        "data": "https://github.com/deepmodeling/openlam#query-crystal-structures-from-openlam-database",
+        "paper": "https://arxiv.org/abs/2501.16358",
+        "code": "https://github.com/deepmodeling/openlam"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2501.16358",
+          "title": "The OpenLAM Challenges",
+          "evidence": "Full paper reports over 19.8 million valid structures, including 12.8 million uploaded by participants; the rest come from open repositories.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/deepmodeling/openlam",
+          "title": "OpenLAM official repository",
+          "evidence": "Documents crystal-structure and hull queries through an authenticated API.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "19.8 million is not entirely new generated material coverage: 12.8 million are participant uploads and the rest reuse open repositories.",
+        "Historical challenge count; current total and complete bulk archive were not verified.",
+        "OpenLAM model-based hull membership is not DFT ground-state stability or experimental synthesis.",
+        "API queries require a Bohrium account access key; no key was used in this audit.",
+        "Validity, uniqueness, and novelty definitions must be checked before comparison with SUN metrics."
+      ],
+      "tags": [
+        "generation",
+        "OpenLAM",
+        "challenge",
+        "MLIP labels"
+      ]
+    },
+    {
+      "id": "aflow-ael-agl-2017",
+      "name": "AFLOW AEL–AGL thermomechanical cohort (2017)",
+      "category": "property_benchmarks",
+      "description": "Combined Automatic Elasticity Library and Automatic GIBBS Library computed property cohort in AFLOW.",
+      "version": "2017 publication cohort; current count not asserted",
+      "year": 2017,
+      "count": 3500,
+      "count_display": "over 3,500 unique materials (2017 publication)",
+      "count_unit": "materials",
+      "count_scope": "2017 publication cohort; current count not asserted",
+      "count_precision": "lower_bound",
+      "structure_level": "periodic_atomic",
+      "provenance": "computed",
+      "properties": [
+        "elastic tensor",
+        "bulk modulus",
+        "shear modulus",
+        "Poisson ratio",
+        "Debye temperature",
+        "Gruneisen parameter",
+        "Debye-model thermal conductivity"
+      ],
+      "access": "open",
+      "license": "Free for scientific, academic and non-commercial purposes; any other use prohibited (AFLUX documentation)",
+      "links": {
+        "homepage": "https://aflow.org/",
+        "data": "https://aflow.org/documentation/",
+        "paper": "https://doi.org/10.1103/PhysRevMaterials.1.015401"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1103/PhysRevMaterials.1.015401",
+          "title": "Combining the AFLOW GIBBS and elastic libraries to efficiently and robustly screen thermomechanical properties of solids",
+          "evidence": "Abstract reports over 3,500 unique materials; paper describes DFT stress–strain elasticity combined with quasiharmonic Debye thermal estimates.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://aflow.org/documentation/",
+          "title": "AFLOW REST/AFLUX documentation",
+          "evidence": "Documents AEL/AGL properties and limits data reuse to scientific, academic and non-commercial purposes.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Historical cohort count, not current AFLOW property coverage.",
+        "Subset of the broad AFLOW parent database; not additive.",
+        "AGL thermal conductivity is a Debye-model estimate, not full third-order force-constant/Boltzmann transport."
+      ],
+      "tags": [
+        "elasticity",
+        "thermal transport",
+        "AFLOW derivative",
+        "historical release"
+      ]
+    },
+    {
+      "id": "lemat-synth",
+      "name": "LeMat-Synth synthesis-procedure corpus",
+      "category": "property_benchmarks",
+      "description": "LLM/VLM-extracted synthesis procedures and linked performance information across materials classes, with extraction-quality scores.",
+      "version": "v1.0",
+      "year": 2025,
+      "count": 81000,
+      "count_display": "81k source open-access papers (paper); official docs say over 80,000",
+      "count_unit": "source papers",
+      "count_scope": "Source-paper corpus, not unique materials, atomic structures or extracted synthesis records",
+      "count_precision": "approximate",
+      "structure_level": "composition_only",
+      "provenance": "literature",
+      "properties": [
+        "synthesis procedures",
+        "reagents",
+        "processing conditions",
+        "performance values",
+        "extraction quality"
+      ],
+      "access": "mixed",
+      "license": "Not verified",
+      "links": {
+        "homepage": "https://lematerial.org/lemat-synth/overview/",
+        "data": "https://huggingface.co/datasets/LeMaterial/LeMat-Synth",
+        "paper": "https://arxiv.org/abs/2510.26824",
+        "code": "https://github.com/LeMaterial/lematerial-llm-synthesis"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.26824",
+          "title": "LeMat-Synth: a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature",
+          "evidence": "Paper reports 81k curated open-access papers, 35 synthesis methods and 16 material classes.",
+          "verified_date": "2026-11-01"
+        },
+        {
+          "url": "https://lematerial.org/lemat-synth/overview/",
+          "title": "LeMat-Synth official overview",
+          "evidence": "v1.0 built from over 80,000 open-access papers; outputs extracted materials, synthesis recipes, performance data and LLM-based quality scores.",
+          "verified_date": "2026-11-01"
+        }
+      ],
+      "caveats": [
+        "Adjacent process/property context; does not promise periodic atomic coordinates for every record.",
+        "Source papers, extracted recipes and unique materials are different counted units.",
+        "Hugging Face raw dataset card returned HTTP 401 during this audit; code and documentation are public.",
+        "AI extraction and judge scores are not individual expert verification of every recipe."
+      ],
+      "tags": [
+        "synthesis",
+        "literature",
+        "LLM extraction",
+        "LeMaterial",
+        "adjacent context"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Matbench v0.1 suite",
+      "url": "https://matbench.materialsproject.org/",
+      "kind": "benchmark suite",
+      "description": "Thirteen property-prediction tasks from ten underlying sources; includes both composition-only and structure inputs. The catalogue groups shared structure cohorts and does not sum tasks as unique crystals.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2005.00707",
+          "title": "Benchmarking Materials Property Prediction Methods",
+          "evidence": "Thirteen tasks from ten experimental/DFT sources, 312 to 132k samples.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "Matbench Discovery data sets",
+      "url": "https://matbench-discovery.materialsproject.org/data/sets",
+      "kind": "dataset registry and benchmark",
+      "description": "Registry of model training/reference/test datasets and a discovery-style stability benchmark. User-nominated page returned HTTP 403; its first-party GitHub registry and WBM documentation were used.",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/datasets.yml",
+          "title": "Matbench Discovery dataset registry",
+          "evidence": "Registry describes WBM and numerous parent/training datasets; it is navigation/provenance context, not an additive dataset.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "LeMat-GenBench",
+      "url": "https://github.com/LeMaterial/lemat-genbench",
+      "kind": "crystal-generation evaluation framework",
+      "description": "Evaluates generated crystals using validity, distribution, diversity, novelty, and stability metrics with multi-MLIP/hull configurations; its reference datasets overlap LeMat-Bulk. Framework code is Apache licensed; not an additional crystal count.",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/LeMaterial/lemat-genbench/main/README.md",
+          "title": "LeMat-GenBench official README",
+          "evidence": "Defines benchmark families, LeMat-Bulk novelty reference, input formats and comprehensive_multi_mlip_hull configuration.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "MatterGen MP-20 reprocessed release",
+      "url": "https://github.com/microsoft/mattergen/tree/main/data-release/mp-20",
+      "kind": "versioned benchmark derivative",
+      "description": "PBE-recomputed and element-filtered MP-20 derivative with its own distributed files; keep separate provenance from CDVAE MP-20. Exact file-row count was not verified, so not added as an independently sized dataset.",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/mattergen/main/data-release/mp-20/README.md",
+          "title": "MatterGen MP-20 data-release README",
+          "evidence": "Describes CC BY 4.0 parent, excluded elements, PBE recomputation and hull filtering.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "name": "AFLOW AEL/AGL thermomechanical property libraries",
+      "url": "https://aflow.org/documentation/",
+      "kind": "property-library access resource",
+      "description": "Distinct AFLOW workflows exposing elastic tensors/moduli and Debye/thermal estimates through AFLUX. Current property-bearing cohort sizes were not verified; no independent current materials count is claimed.",
+      "sources": [
+        {
+          "url": "https://aflow.org/documentation/",
+          "title": "Official AFLOW REST/AFLUX documentation",
+          "evidence": "Documents AEL elastic and AGL thermal keys; states data free for scientific, academic and non-commercial purposes.",
+          "verified_date": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "perspective": "property and generation benchmarks",
+      "queries": [
+        "Matbench official task metadata",
+        "WBM Matbench Discovery data sets",
+        "CDVAE MP-20 Perov-5 Carbon-24",
+        "MatterGen Alex-MP-20 data summary card",
+        "LeMat-GenBench official repository",
+        "OpenLAM Challenges Crystal Philately"
+      ],
+      "method": "Official repositories, source metadata and primary papers; 2026-11-01"
+    },
+    {
+      "perspective": "phonon and transport data",
+      "queries": [
+        "Kyoto PhononDB NIMS MDR migration",
+        "MDR lattice thermal conductivity 103 compounds",
+        "Phonix database release 2026",
+        "Materials Project Phonon database v1.1",
+        "Petretto DFPT phonons 1521",
+        "Ricci electronic transport database BoltzTraP"
+      ],
+      "method": "Author release indexes, institutional collections, Zenodo API and full primary-paper XML"
+    },
+    {
+      "perspective": "electronic and tensor properties",
+      "queries": [
+        "SNUMAT hybrid functional bandgap dataset",
+        "OMDB-GAP1 official downloads",
+        "Materials Project elastic dielectric piezoelectric Scientific Data",
+        "JARVIS supercon_3d supercon_2d",
+        "SuperBand Scientific Data"
+      ],
+      "method": "Primary data descriptors, official dataset loaders and download tables"
+    }
+  ],
+  "limitations": [
+    "This slice prioritizes explicitly released property cohorts and generation benchmarks; broad parent databases are handled in other research slices.",
+    "No summation across materials, structure entries, task samples, source papers, generated candidates or displaced configurations is valid.",
+    "Some publisher/portal pages returned HTTP 403 or captcha; primary-paper text was retrieved as Europe PMC fullTextXML where available. Successful source responses and SHA-256 hashes are retained under research/evidence-benchmarks/.",
+    "Dataset license is marked Not verified unless specific data terms were read; software licensing is not substituted for dataset licensing.",
+    "Downloads of complete multi-terabyte and other large datasets were not performed. Most counts are author-reported release sizes; the PhononDB LTC count was independently derived from the author index.",
+    "Full AFLOW AEL/AGL cohort size, raw LeMat-Synth access, and OpenLAM Crystal Philately bulk download remain unverified.",
+    "No biological macromolecule/PDB or isolated-molecule corpus is included."
+  ]
+}

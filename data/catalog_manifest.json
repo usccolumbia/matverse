@@ -1,0 +1,34 @@
+{
+  "checked_date": "2026-11-01",
+  "algorithm": "sha256",
+  "inputs": {
+    "data/datasets.json": "5e501e632d7b0682a93823cc4a97d8bc1f029ced7f6c280b4d13ce9a89e4f3d3",
+    "data/resources.json": "a46b9509307a47eb7b577eb2be85a05490c23a803de055f6b8d1d1f13cad033d",
+    "data/dataset.schema.json": "c46e1e40888f0b8094b14e49aa52257e5ff8436d2851acc64b837ed1af75b31e",
+    "templates/README_intro.md.txt": "2cfad0f6985560dbfaaacb6b34e41f6a2a42dd846892ad288aa3384837d2f929",
+    "scripts/build_catalog.py": "4682fe2adfa971409a696b9ae8b2ae5addbed12e71f99034d53eb103556d010a",
+    "docs/SURVEY.md": "5f9ebc35c5148e9b8fdd2f33ab273c161374b28b87638f532a0db835b073fac7",
+    "docs/METHODOLOGY.md": "5a012293783248d56421bdcf77ff3619297ce0ed7da64d23070705611d88257a",
+    "docs/review-crosswalk.md": "1f9a12079674afc427c98ef3c52fc64fa8d7ff5366901dc81bf379b455417554"
+  },
+  "generated_views": {
+    "README.md": "e59180aa15e032c28953c918f7953bd704c07212cb9c6cabd36d22e4fb1ea59b",
+    "docs/catalog/aggregated_crystals.md": "843941e4f2c8c33d9fff2bc12d9b976410a4702e12a09b5b4291b72cad16f126",
+    "docs/catalog/bulk_computed.md": "27049c9d338860380d2f300d02ea00d2631a45c751dcd08e62056e3a200a690f",
+    "docs/catalog/experimental_crystallography.md": "097a350cd04d05ec1eef4fa858c438245d1204e4d8c0d5f89492d369aebcf1a6",
+    "docs/catalog/mlip_configurations.md": "abb10475051b5efc99d08a2d32517ca72c62ffb488ffe9a53a3e72671ceab58a",
+    "docs/catalog/two_dimensional.md": "1e171d0933e817ec1c01a0bad9f419638e3dc3719c5c9d920ef18918e6d3d571",
+    "docs/catalog/porous_frameworks.md": "82ece7bc41eadc508ac28b71fb62de7fb960a311ec0bd07d383d386b45a9208a",
+    "docs/catalog/molecular_crystals.md": "4853d9f8db950e5813c04537756cc90108c6df6edc70b7e0a056ec945f88ab81",
+    "docs/catalog/surfaces_catalysis.md": "abed2c5fff0933a7fe3dd523f68815c3366f454e5c51c9d93c64a1372d701aec",
+    "docs/catalog/property_benchmarks.md": "aa62fd204ba097a5e4e8759ef4e3b4434be7dab046b116579e67d18a7ef5db5b",
+    "docs/catalog/generation_benchmarks.md": "85e12a15b76bf5ae64c2ffd8d8f9c5f2c96f1c127a77aebf909ae7daa73a8d97",
+    "docs/catalog/experimental_properties.md": "4124dbb0f25cf2f544fe5fa7bfb6c790dff536dee36973c09d68634c114b5023",
+    "docs/catalog/diffraction_spectroscopy.md": "6f7d420767a49e23b46f702739affb6d14461c5947769b5dc11fd03b98517a16",
+    "data/datasets.csv": "956bfdfea87e92c3c7869fe8568c631f3915ec5f9a74123b5df2ab5a653ad925",
+    "docs/resources.md": "ce388c1649a089e8bca876af7ef783ea82bdf23615452199725be402668b2e4e",
+    "docs/scientific-data.md": "6ff9a86fdc1068c268992911b97eb9a6cd8e7cfbd11c5fa288fb36e666d44352",
+    "data/summary.json": "488a1a26009c95d220af27cb7a1164874cf7d94c70f0a9f8ba7c83f28497a045"
+  },
+  "scope": "Catalog source files and generated views; excludes upstream dataset payloads and local research caches."
+}
