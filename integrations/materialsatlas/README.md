@@ -8,7 +8,7 @@ MatVerse is integrated into the MaterialsAtlas Vue app catalog as **MatVerse Dat
 
 The platform hosts a copy of MatVerse's self-contained `index.html`. Search, filters, source details, API routes and CSV/JSON export run locally in the visitor's browser. Dataset download links retain their original providers, access requirements and licenses. The platform's existing app navigation, app search and workbench can discover the new catalog entry.
 
-`MatVerseApp.vue` displays the locally hosted directory within the platform workspace. **Open full page** opens the current filter state in its own tab. Incoming MatVerse query parameters are forwarded from either the platform's clean route or its legacy hash route. The GitHub Pages directory remains independently available.
+`MatVerseApp.vue` displays the locally hosted directory within the platform workspace using a slim toolbar and a compact embedded layout. The duplicate hero, overview cards and promotional sections are hidden only inside the platform frame; filters, source notes, record counts, details and export controls remain available. The results area fits the available viewport, with tighter row spacing. **Open full page** opens the current filter state in its own tab. Incoming MatVerse query parameters are forwarded from either the platform's clean route or its legacy hash route. The GitHub Pages directory remains independently available.
 
 ## Install or refresh
 

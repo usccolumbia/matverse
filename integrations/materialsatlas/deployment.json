@@ -28,15 +28,34 @@
       }
     },
     "browser_search": "passed: incoming superconductor query, thermoelectric search, 3DSC results and detail expansion",
-    "browser_full_page": "passed: current thermoelectric query retained"
+    "browser_full_page": "passed: 3DSC query retained, full-page hero visible, compact styles absent",
+    "browser_exports": "passed: CSV and JSON actions available",
+    "browser_api_filters": "passed: interface and authentication filters with 20 access routes"
   },
   "files": {
     "frontend_v2/src/App.vue": "2e57379ac2e72b203676ea5e427c3218445e3b59b2695b80a98b3b1fb4be39c9",
     "backend_v2/app/catalog.py": "2bdba64d2bd348ec75ba74954bf76fd4416be5b9b0d4870486dbc32b3657bc1f",
-    "frontend_v2/src/components/MatVerseApp.vue": "f9019c5253b34a0a04836e77526f6d3447fb25c412bb96b7e8eb33b40254656e",
+    "frontend_v2/src/components/MatVerseApp.vue": "ec878968cac18d0a0629fb46353833a410f3281d048ef6a7c5a4a614fbf537a5",
     "frontend_v2/src/assets/images/matverse.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
     "frontend_v2/public/matverse/index.html": "c573abb1bf4828401d4377d99c9a2ca7ae7745a3a4ebd317889973add45e8f09"
   },
   "http_verified": true,
-  "existing_apps_preserved": true
+  "existing_apps_preserved": true,
+  "compact_layout": {
+    "viewport": {
+      "height": 818,
+      "width": 1236
+    },
+    "frame": {
+      "height": 658.1818237304688,
+      "top": 143.52272033691406
+    },
+    "tableTop": 295.2130584716797,
+    "fullyVisibleDatasetRows": 4,
+    "heroHidden": true,
+    "statsHidden": true,
+    "frontend_only": true,
+    "backend_restarted": false,
+    "previous_table_top": 1077.6136016845703
+  }
 }
