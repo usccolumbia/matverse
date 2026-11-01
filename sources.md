@@ -1033,11 +1033,12 @@ Release: Provider page snapshot, checked 2026-11-01.
 
 #### Materials Project
 
-Release: Homepage v2026.04.13 snapshot.
+Release: Materials Explorer count reported 2026-11-01.
 
 - Homepage: [Materials Project](<https://materialsproject.org/>)
 - Data: [Materials Project](<https://docs.materialsproject.org/downloading-data>)
 - Paper: [Materials Project](<https://doi.org/10.1063/1.4812323>)
+- Evidence (2026-11-01): [Materials Project Materials Explorer — current count correction](<https://next-gen.materialsproject.org/materials>)
 - Evidence (2026-11-01): [Materials Project — primary documentation](<https://doi.org/10.17188/1693272>)
 - Evidence (2026-11-01): [Materials Project database versions](<https://docs.materialsproject.org/changes/database-versions>)
 
@@ -3068,7 +3069,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 
 ## All distinct source URLs
 
-**1226 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
+**1227 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
 
 | Source link | Included as |
 |---|---|
@@ -3976,6 +3977,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Official JARVIS 2D payload](<https://ndownloader.figshare.com/files/38521268>) | Catalog evidence |
 | [Official supercon_chem JSON ZIP](<https://ndownloader.figshare.com/files/40719260>) | Catalog evidence |
 | [IEEE-listed route: Materials Project](<https://next-gen.materialsproject.org>) | Resource evidence |
+| [Materials Project Materials Explorer — current count correction](<https://next-gen.materialsproject.org/materials>) | Catalog evidence |
 | [NOMAD Repository and Archive](<https://nomad-lab.eu/>) | Navigation resource |
 | [notebooks](<https://nomad-lab.eu/aitoolkit>) | sedaoturak/data-resources-for-materials-science |
 | [The Novel Materials Discovery (NOMAD) Laboratory](<https://nomad-lab.eu/index.php?page=repo-arch>) | sedaoturak/data-resources-for-materials-science |

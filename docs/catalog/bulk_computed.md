@@ -127,6 +127,39 @@ Public structure release accompanying Graph Networks for Materials Exploration.
 
 **Tags:** None assigned.
 
+<a id="materials-project"></a>
+## Materials Project
+
+Structure-centered computed properties for inorganic materials with API and bulk distribution routes.
+
+**Size:** 271,325 crystal structure records (source wording: 271,325).
+
+**Scope:** Materials Explorer displayed structure/material records reported by the user on 2026-11-01; not distinct compositions or uniform property coverage
+
+**Release:** Materials Explorer count reported 2026-11-01. **Year:** 2026.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; formation energy; electronic structure; elasticity; phase diagrams.
+
+**Access:** registration. **Dataset license:** CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance.
+
+**Official routes:** [homepage](https://materialsproject.org/) · [data](https://docs.materialsproject.org/downloading-data) · [paper](https://doi.org/10.1063/1.4812323)
+
+**Evidence:**
+
+- [Materials Project Materials Explorer — current count correction](https://next-gen.materialsproject.org/materials) (checked 2026-11-01): User reports 271,325 structures displayed by Materials Explorer on 2026-11-01. This supersedes the older 200,487-entry homepage snapshot used in this catalog. Direct automated verification was blocked by HTTP 403 and a browser challenge; the live database release identifier was not confirmed.
+- [Materials Project — primary documentation](https://doi.org/10.17188/1693272) (checked 2026-11-01): Historical provider homepage snapshot reported 200,487 materials and identified database v2026.04.13. Retained as provenance; superseded for the catalog's current size by the user-reported Materials Explorer count.
+- [Materials Project database versions](https://docs.materialsproject.org/changes/database-versions) (checked 2026-11-01): Version history documents separate BY-NC acceptance for the GNoME dataset and changes in collection membership.
+
+**Reuse and interpretation notes:**
+
+- Current Explorer count supplied by the user on 2026-11-01; automated verification was blocked and the corresponding database version was not confirmed.
+- Different property collections cover different subsets; molecule and electrode totals are separate.
+- Track GNoME-origin licensing and database version when using API data.
+
+**Tags:** None assigned.
+
 <a id="carolina"></a>
 ## Carolina Materials Database
 
@@ -154,38 +187,6 @@ Generated and computationally screened inorganic crystals hosted by the Carolina
 
 - Generated candidates and calculated properties do not establish experimental synthesis.
 - Homepage text contains typographical space-group wording; no inference about full space-group coverage is made.
-
-**Tags:** None assigned.
-
-<a id="materials-project"></a>
-## Materials Project
-
-Structure-centered computed properties for inorganic materials with API and bulk distribution routes.
-
-**Size:** 200,487 materials entries (source wording: 200,487).
-
-**Scope:** Release described by the cited source
-
-**Release:** Homepage v2026.04.13 snapshot. **Year:** 2026.
-
-**Provenance:** computed. **Structure availability:** `periodic_atomic`.
-
-**Labels/content:** crystal structure; formation energy; electronic structure; elasticity; phase diagrams.
-
-**Access:** registration. **Dataset license:** CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance.
-
-**Official routes:** [homepage](https://materialsproject.org/) · [data](https://docs.materialsproject.org/downloading-data) · [paper](https://doi.org/10.1063/1.4812323)
-
-**Evidence:**
-
-- [Materials Project — primary documentation](https://doi.org/10.17188/1693272) (checked 2026-11-01): Provider homepage snapshot reports 200,487 materials and identifies database v2026.04.13.
-- [Materials Project database versions](https://docs.materialsproject.org/changes/database-versions) (checked 2026-11-01): Version history documents separate BY-NC acceptance for the GNoME dataset and changes in collection membership.
-
-**Reuse and interpretation notes:**
-
-- A dated provider-page figure, not an authenticated query of the latest live database.
-- Different property collections cover different subsets; molecule and electrode totals are separate.
-- Track GNoME-origin licensing and database version when using API data.
 
 **Tags:** None assigned.
 

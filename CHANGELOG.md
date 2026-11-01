@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Corrected Materials Project to 271,325 crystal structure records using the user-reported Materials Explorer counter (2026-11-01), replacing the older 200,487-entry homepage snapshot. Preserved the historical evidence and recorded that automated access to the current Explorer was blocked. Regenerated the category rankings, README, exports, source index and searchable site.
+
 ## 0.4.0 — 2026-11-01
 
 Added all 32 distinct URLs from the supplied materials-resource list as a searchable source collection and a complete coverage crosswalk. Added 13 portal, registry, polymer, model, curation, review and documentation resources; merged the two MDF entries into one. UCSD SRD is represented with current counts, payload and rights unverified after endpoint failures. The ADS abstract is correctly attributed to Clark OSD; the NIST Version 2.0 publication remains documentation of the existing WebHTS/SRD 62 family.

@@ -4,7 +4,7 @@
 
 **[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
-164 dataset and release records · 12 categories · 278 distinct dataset evidence URLs · checked **November 1, 2026**
+164 dataset and release records · 12 categories · 279 distinct dataset evidence URLs · checked **November 1, 2026**
 
 MatVerse surveys periodic crystal structures and their associated data: experimental crystallography, computed inorganic solids, machine-learning interatomic potential (MLIP) configurations, 2D materials, porous frameworks, molecular crystals, surfaces, and property and discovery benchmarks. It also includes crystal-related experimental property collections that supply compositions or measurements without complete atomic coordinates.
 
@@ -69,8 +69,8 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [AFLOW](docs/catalog/bulk_computed.md#aflow) | 3,929,948 | database entries | open | Provider terms: free for scientific, academic and non-commercial use; other use prohibited |
 | [OQMD](docs/catalog/bulk_computed.md#oqmd) | 1,407,395 | materials entries | open | CC BY 4.0 (OQMD download terms) |
 | [GNoME released stable-materials set](docs/catalog/bulk_computed.md#gnome) | ~381,000 | novel structure records | open | CC BY-NC 4.0 (data); Apache 2.0 applies to code |
+| [Materials Project](docs/catalog/bulk_computed.md#materials-project) | 271,325 | crystal structure records | registration | CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance |
 | [Carolina Materials Database](docs/catalog/bulk_computed.md#carolina) | 214,436 | inorganic materials entries | open | CC BY 4.0 (provider Terms of Use) |
-| [Materials Project](docs/catalog/bulk_computed.md#materials-project) | 200,487 | materials entries | registration | CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance |
 | [JARVIS-DFT 3D](docs/catalog/bulk_computed.md#jarvis-dft-3d) | ~76,000 | structure records | open | CC BY 4.0 (3D Figshare dataset) |
 | [Materials Cloud 3D (MC3D)](docs/catalog/bulk_computed.md#mc3d) | 32,013 | unique optimized structures | open | CC BY 4.0 (Materials Cloud record) |
 | [NLR MatDB (formerly NRELMatDB)](docs/catalog/bulk_computed.md#nlr-matdb) | Unranked | materials | open | Not verified |

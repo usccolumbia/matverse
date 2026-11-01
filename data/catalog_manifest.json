@@ -2,7 +2,7 @@
   "checked_date": "2026-11-01",
   "algorithm": "sha256",
   "inputs": {
-    "data/datasets.json": "f9705b6d46d6c065ab4ac30c6f535e231da1c47467f238cd4e42dc6799d1c835",
+    "data/datasets.json": "9b84c3205d9a3d59f51dd0a56b831be931e7f6fc7e67f30d263d78fcd2ee700c",
     "data/resources.json": "dfbc47182c328e5df5910e3d01c3195e6829ddc53d2fe5204641d46664480747",
     "data/dataset.schema.json": "c46e1e40888f0b8094b14e49aa52257e5ff8436d2851acc64b837ed1af75b31e",
     "templates/README_intro.md.txt": "5e9b1c13917ed1692352f44f45abd737846df29010a9a0df6554bd61748a25cf",
@@ -21,9 +21,9 @@
     "research/collection_user_resources_20261101.json": "9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47"
   },
   "generated_views": {
-    "README.md": "91c3e2562f562572885ccf14c41e6a43c032c4432b73a8bdc42c454d19a47cec",
+    "README.md": "185924984ed34f8bf6a9e24c80db8eac3a210cd445abb7422b1093ae724d8017",
     "docs/catalog/aggregated_crystals.md": "843941e4f2c8c33d9fff2bc12d9b976410a4702e12a09b5b4291b72cad16f126",
-    "docs/catalog/bulk_computed.md": "3904b3c5fa51c3a70653b6f1b486a1bba218a0c0cc2123447532f56bf94c3b44",
+    "docs/catalog/bulk_computed.md": "924cbcdd71728a0168de58a205ffea121fcaf6dc89998ec4ab5eaddf154ce165",
     "docs/catalog/experimental_crystallography.md": "1da8df20c849135d1a876254a12a5b38374b5b176aa2941bd31509a9dbe39574",
     "docs/catalog/mlip_configurations.md": "a45f66a89e130f3567581cc5f008c751f3d9af380f66ec102433f6b9da166b51",
     "docs/catalog/two_dimensional.md": "1b13f311948205b71cd6fd7992b39addcc486bf1386f458ab15a1d7aff3969b8",
@@ -34,11 +34,11 @@
     "docs/catalog/generation_benchmarks.md": "85e12a15b76bf5ae64c2ffd8d8f9c5f2c96f1c127a77aebf909ae7daa73a8d97",
     "docs/catalog/experimental_properties.md": "ad8cce85c1ef9dc6c970322b125b6b45099f4149dcce400846aa7feb9656dcfb",
     "docs/catalog/diffraction_spectroscopy.md": "24fec0ca33e3cf7a8391ba8915179172fad3a1d37505786f938445dd991de062",
-    "data/datasets.csv": "7ce087cdfd40721e131139a0d068a3ffec2e2af6deebed810c2547af4e0ffce5",
+    "data/datasets.csv": "4db7072e23b0d75a05064fffe84ae2b93a6aa39b52285e14498b94d6f2ce869f",
     "docs/resources.md": "53dc0375272e1508650885f8c13dcf089b631a612eeee0f53cab49ef8dfb0a61",
     "docs/scientific-data.md": "682e3eaeedce193d0455cd922abcc48b66b2ee92c76b1f58fc8238a662fc24af",
     "docs/superconductivity.md": "0f101e95bd3e70c935daa0d2c57e98220654152c9aa3906d293d61fd252696f6",
-    "data/summary.json": "2579948e888f34aaa16f67ca64d06d3980b4452dcff5b75013d5ba1ddd1bbcb2"
+    "data/summary.json": "427ecba553d6f9a4e65b6a6715d1d9d08c18dd7b0b42ca2bcff2430bfd0dfefe"
   },
   "scope": "Catalog source files and generated views; excludes upstream dataset payloads and local research caches."
 }
