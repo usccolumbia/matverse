@@ -23,11 +23,12 @@ def render():
     template = (ROOT / 'web/index.template.html').read_text()
     for token, value in {'__API_COUNT__': len(apis), '__DATASET_COUNT__': len(datasets), '__RESOURCE_COUNT__': len(resources), '__ENTRY_COUNT__': len(inventory['entries']), '__COLLECTION_COUNT__': len(inventory['collections']), '__CATEGORY_COUNT__': len(CATEGORIES), '__SOURCE_COUNT__': len({s['url'] for d in datasets for s in d['sources']})}.items():
         template = template.replace(token, str(value))
-    assert all(template.count(token) == 1 for token in ['__STYLE__', '__CATALOG__', '__APP__', '__LAB_LOGO__'])
+    assert all(template.count(token) == 1 for token in ['__STYLE__', '__CATALOG__', '__APP__', '__LAB_LOGO__', '__MATVERSE_LOGO__'])
     logo = 'data:image/png;base64,' + base64.b64encode((ROOT / 'assets/mleg-logo-dark.png').read_bytes()).decode('ascii')
-    template = template.replace('__LAB_LOGO__', logo)
+    mark = 'data:image/png;base64,' + base64.b64encode((ROOT / 'assets/matverse-logo.png').read_bytes()).decode('ascii')
+    template = template.replace('__LAB_LOGO__', logo).replace('__MATVERSE_LOGO__', mark)
     html = template.replace('__STYLE__', (ROOT / 'web/styles.css').read_text()).replace('__CATALOG__', encoded).replace('__APP__', (ROOT / 'web/app.js').read_text())
-    inputs = ['assets/mleg-logo-dark.png', 'data/datasets.json', 'data/resources.json', 'data/api_sources.json', 'scripts/catalog_supplements.py', 'web/index.template.html', 'web/styles.css', 'web/app.js', 'scripts/collection_inventory.py'] + [c['inventory_file'] for c in inventory['collections']]
+    inputs = ['assets/matverse-logo.png', 'assets/mleg-logo-dark.png', 'data/datasets.json', 'data/resources.json', 'data/api_sources.json', 'scripts/catalog_supplements.py', 'web/index.template.html', 'web/styles.css', 'web/app.js', 'scripts/collection_inventory.py'] + [c['inventory_file'] for c in inventory['collections']]
     manifest = {'catalog_date': DATE, 'dataset_records': len(datasets), 'resources': len(resources), 'api_access_routes': len(apis), 'source_entries': len(inventory['entries']), 'source_collections': len(inventory['collections']), 'sha256': {p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in inputs}, 'index_sha256': hashlib.sha256(html.encode()).hexdigest(), 'note': 'One standalone HTML file; no network requests are needed to search or export the embedded catalog.'}
     return {'index.html': html, 'data/ui_manifest.json': json.dumps(manifest, indent=2) + '\n', '.nojekyll': ''}
 

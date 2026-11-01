@@ -2,6 +2,7 @@
   "checked_date": "2026-11-01",
   "algorithm": "sha256",
   "inputs": {
+    "assets/matverse-logo.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
     "assets/search-box.svg": "61dd8521f4d5084f7dae503176b96679bd05935fa7e2f30c9815da522de8f5b8",
     "assets/mleg-logo.png": "ee8be74f21f2fc334c9fd8bc9a69cde3ea06b781ffe96e4665f6d6bed4bd647c",
     "data/datasets.json": "c4a4e40a9bcec8e63c54afd137550159d9087e2a55ca8b04a96e1298859dd1da",
@@ -21,9 +22,9 @@
     "scripts/mdf_survey.py": "ff450162133daaa839c21e0f35e5d766469e1ec077870705f24e76049da0bd5a",
     "research/mdf_property_search_20261101.json": "e14805cc4f9d527b0844b15171174a77b83e7cdc6daf116967b0a8f54d67389d",
     "research/mdf_selected_metadata_20261101.json": "db54fb09248a7edd3deb76616f8faff933849b1c1d8f5548e0aba7711070ba50",
-    "templates/README_intro.md.txt": "c0b8f6ec168f263e45ff9d403d64a38d88ae8a2ecbf46d6d2a5931ef1c4780d7",
+    "templates/README_intro.md.txt": "18834e2ac15feb04dd127a5c70988b9391cbe1ef3aabbe14e0497b7bfc4080cd",
     "templates/superconductivity.md.txt": "4b8d3b1df2d4fc44f848cd90f5049308af49f4250ede3c28d4eeb8c2c08cbc15",
-    "scripts/build_catalog.py": "027879a06d683825d23272671c68bdcce892e6b7d30c4095284a656d34a3709b",
+    "scripts/build_catalog.py": "70f39b597150b013cdb7016f9d5680d6ae8500c471a0c472e81e664fdeb7a287",
     "docs/SURVEY.md": "8b79930ece4cea3e8a893f3d93f6d883e03dc87d7c7a1b0faf0e5b08325bc6f6",
     "docs/METHODOLOGY.md": "cafff3cc702499647b16a3b2ca5025eacf38bc40877dce7f68ec3fd99794471c",
     "docs/review-crosswalk.md": "1f9a12079674afc427c98ef3c52fc64fa8d7ff5366901dc81bf379b455417554",
@@ -57,7 +58,7 @@
     "research/matbench_coverage_20261101/integration_receipt.json": "8d0e137971b465a2c92788f200970b69cd8598e2bfd6d1f3cb1d25aa37e6dcae"
   },
   "generated_views": {
-    "README.md": "703607a5f0fdd8335fee43034a32e01285caa07eb20dc35cc70b920b6782cb5a",
+    "README.md": "4edde87df38b171735241d49079cb4f7290c13e23b80c31acf4b420da2d90a6b",
     "docs/catalog/aggregated_crystals.md": "32856e930a27c8f7b2bb56a994b8842f2a870ec81f450dbc815d6533fc01a320",
     "docs/catalog/bulk_computed.md": "9e09e9be3f08580d0a311b5f8e468c6f654b41b151a7641471d2519fa3d01514",
     "docs/catalog/experimental_crystallography.md": "1da8df20c849135d1a876254a12a5b38374b5b176aa2941bd31509a9dbe39574",
