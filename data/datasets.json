@@ -42660,5 +42660,441 @@
       "OPTIMADE",
       "repository overlap"
     ]
+  },
+  {
+    "id": "matterverse",
+    "name": "Matterverse",
+    "category": "bulk_computed",
+    "description": "M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": 31791192,
+    "count_display": "31,791,192",
+    "count_unit": "ML-predicted material records",
+    "count_scope": "Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "ML predictions",
+    "properties": [
+      "crystal structures",
+      "M3GNet formation energy predictions",
+      "predicted band gaps",
+      "predicted elastic moduli"
+    ],
+    "access": "open",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://matterverse.ai/",
+      "documentation": "https://matterverse.ai/about",
+      "api_index": "https://providers.optimade.org/index-metadbs/matterverse"
+    },
+    "sources": [
+      {
+        "url": "https://matterverse.ai/about",
+        "title": "Matterverse provider documentation",
+        "evidence": "M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://optimade.matterverse.ai/v1/structures?page_limit=1",
+        "title": "Matterverse bounded API sample",
+        "evidence": "Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ.",
+      "Predicted materials and properties are not experimental discoveries or independently DFT-validated results. Includes Materials Project-derived inputs."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "matterverse",
+      "Matterverse"
+    ]
+  },
+  {
+    "id": "tcod",
+    "name": "Theoretical Crystallography Open Database (TCOD)",
+    "category": "bulk_computed",
+    "description": "Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": 362294,
+    "count_display": "362,294",
+    "count_unit": "theoretical crystal structure entries",
+    "count_scope": "Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed or theoretically refined",
+    "properties": [
+      "crystal structure",
+      "computational provenance"
+    ],
+    "access": "open",
+    "license": "CC0 1.0; acknowledge original structural-data authors",
+    "links": {
+      "homepage": "https://www.crystallography.net/tcod/",
+      "documentation": "https://www.crystallography.net/tcod/",
+      "api_index": "https://providers.optimade.org/index-metadbs/tcod"
+    },
+    "sources": [
+      {
+        "url": "https://www.crystallography.net/tcod/",
+        "title": "Theoretical Crystallography Open Database (TCOD) provider documentation",
+        "evidence": "Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1",
+        "title": "Theoretical Crystallography Open Database (TCOD) bounded API sample",
+        "evidence": "Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "tcod",
+      "Theoretical Crystallography Open Database (TCOD)"
+    ]
+  },
+  {
+    "id": "open-materials-database",
+    "name": "Open Materials Database",
+    "category": "bulk_computed",
+    "description": "Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": 227755,
+    "count_display": "227,755",
+    "count_unit": "structure entries",
+    "count_scope": "Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structures",
+      "computed materials properties"
+    ],
+    "access": "open",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://openmaterialsdb.se/",
+      "documentation": "https://openmaterialsdb.se/",
+      "api_index": "https://optimade-index.openmaterialsdb.se"
+    },
+    "sources": [
+      {
+        "url": "https://openmaterialsdb.se/",
+        "title": "Open Materials Database provider documentation",
+        "evidence": "Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "http://optimade.openmaterialsdb.se/v1/structures?page_limit=1",
+        "title": "Open Materials Database bounded API sample",
+        "evidence": "Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "omdb",
+      "Open Materials Database"
+    ]
+  },
+  {
+    "id": "odbx",
+    "name": "Open Database of Xtals (odbx)",
+    "category": "bulk_computed",
+    "description": "OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": null,
+    "count_display": "Unranked",
+    "count_unit": "structure records",
+    "count_scope": "Full collection size not verified; no estimate assigned.",
+    "count_precision": "unknown",
+    "structure_level": "mixed",
+    "provenance": "provider-listed computational crystal repository; payload unverified",
+    "properties": [
+      "crystal structures"
+    ],
+    "access": "mixed",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://odbx.science/",
+      "documentation": "https://providers.optimade.org/v1/links",
+      "api_index": "https://optimade-index.odbx.science"
+    },
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Open Database of Xtals (odbx) provider documentation",
+        "evidence": "OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ.",
+      "No defensible full-collection size verified; deliberately unranked.  API: OPTIMADE; Advertised route could not be verified: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>"
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "odbx",
+      "Open Database of Xtals (odbx)"
+    ]
+  },
+  {
+    "id": "mpdd",
+    "name": "Material-Property-Descriptor Database (MPDD)",
+    "category": "aggregated_crystals",
+    "description": "Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": 4457640,
+    "count_display": "4,457,640",
+    "count_unit": "atomic structure records",
+    "count_scope": "Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "aggregated; inspect individual source provenance",
+    "properties": [
+      "atomic structures",
+      "material descriptors and featurizer inputs"
+    ],
+    "access": "open",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://optimade.mpdd.org/",
+      "documentation": "https://optimade.mpdd.org/",
+      "api_index": "https://providers.optimade.org/index-metadbs/mpdd"
+    },
+    "sources": [
+      {
+        "url": "https://optimade.mpdd.org/",
+        "title": "Material-Property-Descriptor Database (MPDD) provider documentation",
+        "evidence": "Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1",
+        "title": "Material-Property-Descriptor Database (MPDD) bounded API sample",
+        "evidence": "Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ.",
+      "API meta.data_available reports the total; meta.data_returned also contains that total despite only one data object. Use actual data-array length for downloaded sample size."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "mpdd",
+      "Material-Property-Descriptor Database (MPDD)"
+    ]
+  },
+  {
+    "id": "mpod",
+    "name": "Material Properties Open Database (MPOD)",
+    "category": "experimental_properties",
+    "description": "Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": null,
+    "count_display": "Unranked",
+    "count_unit": "material-property records",
+    "count_scope": "Full collection size not verified; no estimate assigned.",
+    "count_precision": "unknown",
+    "structure_level": "structure_linked",
+    "provenance": "source-dependent; corpus not audited",
+    "properties": [
+      "physical properties of crystalline materials"
+    ],
+    "access": "mixed",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "http://mpod.cimav.edu.mx",
+      "documentation": "https://providers.optimade.org/v1/links",
+      "api_index": "https://providers.optimade.org/index-metadbs/mpod"
+    },
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Material Properties Open Database (MPOD) provider documentation",
+        "evidence": "Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ.",
+      "No defensible full-collection size verified; deliberately unranked.  API: OPTIMADE; Advertised route could not be verified: <urlopen error timed out>"
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "mpod",
+      "Material Properties Open Database (MPOD)"
+    ]
+  },
+  {
+    "id": "anyterial-amdb",
+    "name": "Anyterial — altermagnet database (AMDB)",
+    "category": "property_benchmarks",
+    "description": "Computed altermagnetic crystal structures served by the Anyterial AMDB child database, with site magnetic moments and electronic-property context. The sampled structure is FeO3Sm; the 169-entry API total applies only to AMDB.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": 169,
+    "count_display": "169",
+    "count_unit": "altermagnet structure entries",
+    "count_scope": "Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structures",
+      "site magnetic moments",
+      "altermagnetic electronic-property context"
+    ],
+    "access": "open",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://www.anyterial.se/",
+      "documentation": "https://www.anyterial.se/",
+      "api_index": "https://optimade-index.anyterial.se",
+      "data": "https://altermagnets.anyterial.se/"
+    },
+    "sources": [
+      {
+        "url": "https://www.anyterial.se/",
+        "title": "Anyterial provider documentation",
+        "evidence": "httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://providers.optimade.org/v1/links",
+        "title": "Official OPTIMADE provider registry",
+        "evidence": "Lists provider identity and index URL; listing alone does not establish live data access.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1",
+        "title": "Anyterial bounded API sample",
+        "evidence": "Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1",
+        "title": "AMDB one-record structure sample",
+        "evidence": "Returned one periodic FeO3Sm structure with site moments; meta.data_available=169. No full-corpus validation.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "anyterial",
+      "Anyterial"
+    ]
+  },
+  {
+    "id": "nist-trc-alloy",
+    "name": "NIST TRC Alloy Data",
+    "category": "experimental_properties",
+    "description": "Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.",
+    "version": "Provider/API snapshot, checked 2026-11-01",
+    "year": null,
+    "count": null,
+    "count_display": "Unranked",
+    "count_unit": "experimental property records",
+    "count_scope": "Full collection size not verified; no estimate assigned.",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "experimental literature",
+    "properties": [
+      "thermophysical properties",
+      "thermochemical properties",
+      "composition and measurement conditions",
+      "uncertainty"
+    ],
+    "access": "mixed",
+    "license": "Not verified; inspect collection and original-source terms before redistribution",
+    "links": {
+      "homepage": "https://trc.nist.gov/MetalsAlloyUI/",
+      "documentation": "https://www.nist.gov/mgi/materials-data-resources"
+    },
+    "sources": [
+      {
+        "url": "https://www.nist.gov/mgi/materials-data-resources",
+        "title": "NIST TRC Alloy Data provider documentation",
+        "evidence": "Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nist.gov/mgi/materials-data-resources",
+        "title": "NIST TRC Alloy Data · API access by request documentation",
+        "evidence": "Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.",
+      "Public availability is distinct from reuse permissions; per-record provenance and rights may differ.",
+      "No defensible full-collection size verified; deliberately unranked."
+    ],
+    "tags": [
+      "Repository-coverage-20261101",
+      "nist-trc-alloy",
+      "NIST TRC Alloy Data"
+    ]
   }
 ]

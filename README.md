@@ -8,7 +8,7 @@
 
 **[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · **[Open in MaterialsAtlas](https://materialsatlas.org/apps/matverse)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
-524 dataset and release records · 13 categories · 753 distinct dataset evidence URLs · checked **November 1, 2026**
+532 dataset and release records · 13 categories · 764 distinct dataset evidence URLs · checked **November 1, 2026**
 
 MatVerse surveys periodic crystal structures and their associated data: experimental crystallography, computed inorganic solids, machine-learning interatomic potential (MLIP) configurations, 2D materials, porous frameworks, molecular crystals, surfaces, and property and discovery benchmarks. It also includes crystal-related experimental property collections that supply compositions or measurements without complete atomic coordinates.
 
@@ -18,8 +18,8 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 
 ## Browse by category
 
-- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (3)
-- [Computed bulk inorganic crystals](#bulk-computed) (26)
+- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (4)
+- [Computed bulk inorganic crystals](#bulk-computed) (30)
 - [Experimental crystallography and reference collections](#experimental-crystallography) (9)
 - [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (41)
 - [Two-dimensional and layered materials](#two-dimensional) (12)
@@ -27,9 +27,9 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 - [Molecular crystals and ice](#molecular-crystals) (5)
 - [Surfaces, interfaces and catalysis](#surfaces-catalysis) (18)
 - [Materials properties](#materials-properties) (148)
-- [Computed properties and prediction benchmarks](#property-benchmarks) (87)
+- [Computed properties and prediction benchmarks](#property-benchmarks) (88)
 - [Crystal generation and discovery benchmarks](#generation-benchmarks) (7)
-- [Experimental properties and literature extraction](#experimental-properties) (114)
+- [Experimental properties and literature extraction](#experimental-properties) (116)
 - [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (30)
 
 ## Read the counts correctly
@@ -40,7 +40,7 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 - **Aggregates and derivatives overlap.** LeMat, MateriaViva, parent databases, benchmark subsets and format mirrors cannot be added into one material total.
 - **Access and licensing are separate.** A free website, model license or open-access paper does not establish a dataset's redistribution rights. Unverified terms remain explicit.
 
-Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 22 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
+Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 25 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
 
 The [HTML directory](https://usccolumbia.github.io/matverse/) searches names, properties, methods, tags and source evidence. Filter by category, access, structure availability, license status or counted data type; expand a release for its evidence and caveats. Export the current results as CSV or JSON. The standalone `index.html` also works offline.
 
@@ -62,6 +62,11 @@ The [requested-resource crosswalk](docs/requested-resources.md) maps the Novembe
 | [OPTIMADE provider registry](https://providers.optimade.org/) | Find provider index APIs and discover child structure databases; listing does not guarantee endpoint availability. |
 | [NIST REMI](https://pages.nist.gov/remi/) | Discover materials informatics resources and example datasets; a resource guide rather than a uniform property database. |
 | [OpenAlex](https://openalex.org/) | Find dataset papers and follow references/citations. Scholarly works are discovery leads, not materials-data payloads. |
+| [NIMS Materials Data Repository (MDR)](https://mdr.nims.go.jp/) | Research data and publications with materials-specific metadata, including SuperCon, phonon and spectroscopy collections. Distinct from NIST MDR. |
+| [Materials Commons](https://materialscommons.org/) | Collaborative research-data storage, metadata, versioning and publication with DOI assignment. Public datasets and private workspaces have different permissions. |
+| [MPContribs](https://contribs.materialsproject.org/) | Community-contributed experimental and computational projects linked to Materials Project materials or compositions. Selected hosted projects are already cataloged. |
+| [Physical Sciences Data Infrastructure (PSDI)](https://www.psdi.ac.uk/) | Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts. |
+| [NIST PhaseData](https://phasedata.nist.gov/) | Phase-based experimental and computational materials data, including diffusion, transition temperatures and composition-dependent properties; also indexes historical diffusion literature. |
 
 The **[MDF property-dataset audit](docs/mdf-property-datasets.md)** selects eight structured releases with explicit record counts, target/unit schemas, stable identifiers and declared data rights. Ten targeted MDF searches returned 244 distinct deposits; existing-source mirrors and unverified leads remain distinguishable from new catalog entries. [Search the eight MDF additions](https://usccolumbia.github.io/matverse/?q=MDF-property-20261101).
 
@@ -93,7 +98,7 @@ The **[additional-dataset survey](docs/additional-datasets.md)** extends coverag
 
 ## API-accessible / Agent-ready data sources
 
-**[Search 20 API, SDK and bulk-file routes](https://usccolumbia.github.io/matverse/?view=apis)** · [Access guide and examples](docs/api-access.md) · [Machine-readable API registry](data/api_sources.json)
+**[Search 35 API, SDK and bulk-file routes](https://usccolumbia.github.io/matverse/?view=apis)** · [Access guide and examples](docs/api-access.md) · [Machine-readable API registry](data/api_sources.json)
 
 Find programmatic access to Materials Project, OQMD, AFLOW, COD, Alexandria, JARVIS, NOMAD, Materials Cloud, MPDS and other sources. Each route records its interface type, authentication, formats, scope, documentation and verification status. “Agent-ready” means a documented software access path; it does not certify data quality, complete labels or unrestricted reuse. Query APIs, metadata APIs, bulk SDKs and static downloads remain distinguishable.
 
@@ -115,19 +120,23 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [MateriaViva Open](docs/catalog/aggregated_crystals.md#materiaviva-open) | 10,903,588 | deduplicated crystal structures | open | Per row: CC BY 4.0, CC0 1.0, CC BY-SA 4.0, public domain, or MIT (provider declarations) |
 | [LeMat-Bulk](docs/catalog/aggregated_crystals.md#lemat-bulk) | 6,725,590 | structure records | open | CC BY 4.0 |
 | [LeMat-BulkUnique](docs/catalog/aggregated_crystals.md#lemat-bulkunique) | 5,438,436 | functional-specific unique records | open | CC BY 4.0 (card license section) |
+| [Material-Property-Descriptor Database (MPDD)](docs/catalog/aggregated_crystals.md#mpdd) | 4,457,640 | atomic structure records | open | Not verified; inspect collection and original-source terms before redistribution |
 
 <a id="bulk-computed"></a>
 ### Computed bulk inorganic crystals
 
 | Dataset / release | Reported size | Counted unit | Access | Data license |
 |---|---:|---|---|---|
+| [Matterverse](docs/catalog/bulk_computed.md#matterverse) | 31,791,192 | ML-predicted material records | open | Not verified; inspect collection and original-source terms before redistribution |
 | [NOMAD Repository & Archive — bulk crystals](docs/catalog/bulk_computed.md#nomad-bulk) | 15,065,560 | public bulk-crystal archive entries | open | CC BY 4.0 for open-access content under NOMAD terms; metadata CC0 unless otherwise specified; cite original contributors and sources. |
 | [Alexandria](docs/catalog/bulk_computed.md#alexandria) | ~5,800,000 | DFT-relaxed structures | open | CC BY 4.0 (provider About page) |
 | [AFLOW](docs/catalog/bulk_computed.md#aflow) | 3,929,948 | database entries | open | Provider terms: free for scientific, academic and non-commercial use; other use prohibited |
 | [OQMD](docs/catalog/bulk_computed.md#oqmd) | 1,407,395 | materials entries | open | CC BY 4.0 (OQMD download terms) |
 | [JARVIS-QETB / TB3PY DFT database](docs/catalog/bulk_computed.md#jarvis-qetb) | 829,574 | DFT structure records | open | CC BY 4.0 (Figshare deposit) |
 | [GNoME released stable-materials set](docs/catalog/bulk_computed.md#gnome) | ~381,000 | novel structure records | open | CC BY-NC 4.0 (data); Apache 2.0 applies to code |
+| [Theoretical Crystallography Open Database (TCOD)](docs/catalog/bulk_computed.md#tcod) | 362,294 | theoretical crystal structure entries | open | CC0 1.0; acknowledge original structural-data authors |
 | [Materials Project](docs/catalog/bulk_computed.md#materials-project) | 271,325 | crystal structure records | registration | CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance |
+| [Open Materials Database](docs/catalog/bulk_computed.md#open-materials-database) | 227,755 | structure entries | open | Not verified; inspect collection and original-source terms before redistribution |
 | [Carolina Materials Database](docs/catalog/bulk_computed.md#carolina) | 214,436 | inorganic materials entries | open | CC BY 4.0 (provider Terms of Use) |
 | [PBEsol/SCAN 175k crystalline-material reference cohort](docs/catalog/bulk_computed.md#pbesol-scan-175k-2022) | ~175,000 | crystalline material records | open | CC BY 4.0 |
 | [MP v2022.10.28](docs/catalog/bulk_computed.md#mp-frozen-2022) | 154,718 | relaxed material entries | open | CC-BY-4.0 (provider/benchmark release declaration) |
@@ -147,6 +156,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [HEX high-pressure elemental crystals](docs/catalog/bulk_computed.md#hex-high-pressure-elements) | 228 | element-pressure ground-state cases | open | CC0 1.0 |
 | [NIST MRAS amorphous structural models](docs/catalog/bulk_computed.md#nist-mras-amorphous) | 50 | final amorphous structure files | open | NIST Open License; see linked dataset-specific metadata and NIST terms |
 | [NLR MatDB (formerly NRELMatDB)](docs/catalog/bulk_computed.md#nlr-matdb) | Unranked | materials | open | Not verified |
+| [Open Database of Xtals (odbx)](docs/catalog/bulk_computed.md#odbx) | Unranked | structure records | mixed | Not verified; inspect collection and original-source terms before redistribution |
 
 <a id="experimental-crystallography"></a>
 ### Experimental crystallography and reference collections
@@ -527,6 +537,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [MINT-ATLAS atomistic magnetic interactions](docs/catalog/property_benchmarks.md#mint-atlas) | 209 | OPTIMADE structure records | open | Not verified: client MIT license covers software; no dataset-specific license established |
 | [Bond-focused grain-boundary solute interaction spectra](docs/catalog/property_benchmarks.md#gb-solute-interaction-spectra) | ~200 | binary alloy systems | open | CC BY 4.0 |
 | [Sufyan altermagnetic spin-splitting screening release](docs/catalog/property_benchmarks.md#altermagnet-spin-splitting-2026) | 171 | ranked material records | open | CC BY 4.0 (Zenodo metadata) |
+| [Anyterial — altermagnet database (AMDB)](docs/catalog/property_benchmarks.md#anyterial-amdb) | 169 | altermagnet structure entries | open | Not verified; inspect collection and original-source terms before redistribution |
 | [JARVIS superconductivity 2D DFT cohort](docs/catalog/property_benchmarks.md#jarvis-supercon-2d) | 161 | materials | open | CC BY 4.0 |
 | [HTSC-2025 ambient-pressure BCS superconductor benchmark](docs/catalog/property_benchmarks.md#htsc-2025) | 140 | material records | open | MIT License (ScienceDB V1 registrant metadata) |
 | [HH130 half-Heusler thermal-transport / MLIP release](docs/catalog/property_benchmarks.md#hh130-mathub) | 130 | half-Heusler compounds | open | Not verified for downloadable data/model archive; article is CC BY-NC 3.0 |
@@ -666,10 +677,12 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [304L stainless-steel full-field DIC and infrared thermography](docs/catalog/experimental_properties.md#steel304l-dic-ir-fullfield) | Unranked | specimen-test measurement records | open | CC0 1.0 (Figshare+ v1) |
 | [Corrosion-resistant alloy electrochemical metrics](docs/catalog/experimental_properties.md#corrosion-resistant-alloy-metrics) | Unranked | corrosion metric/condition records | open | CC BY 4.0 |
 | [Inconel718 correlative 3D microstructure and deformation fields](docs/catalog/experimental_properties.md#in718-correlative-3d-ebsd-dic) | Unranked | registered multimodal specimen datasets | open | CC0 1.0 (Dryad) |
+| [Material Properties Open Database (MPOD)](docs/catalog/experimental_properties.md#mpod) | Unranked | material-property records | mixed | Not verified; inspect collection and original-source terms before redistribution |
 | [MDR SuperCon Datasheet](docs/catalog/experimental_properties.md#mdr-supercon) | Unranked | records | open | Creative Commons BY Attribution 4.0 International |
 | [NIST Cryogenic Materials Property Database](docs/catalog/experimental_properties.md#nist-cryogenic-materials) | Unranked | material/property records | open | No collection-specific open data redistribution license verified |
 | [NIST Structural Ceramics Database (SRD 30)](docs/catalog/experimental_properties.md#nist-structural-ceramics-srd30) | Unranked | material/property records | open | Database states copyright U.S. Department of Commerce, all rights reserved; no open data redistribution license verified; data redistribution rights not verified |
 | [NIST targeted-chemical-pressure Ruddlesden–Popper dielectric data](docs/catalog/experimental_properties.md#nist-rp-chemical-pressure-dielectrics) | Unranked | material samples | open | NIST dataset-use permission explicitly stated in README; article-content reuse separately refers to publisher terms |
+| [NIST TRC Alloy Data](docs/catalog/experimental_properties.md#nist-trc-alloy) | Unranked | experimental property records | mixed | Not verified; inspect collection and original-source terms before redistribution |
 | [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)](docs/catalog/experimental_properties.md#nist-webhts-srd62) | Unranked | evaluated material-property records | open | NIST Standard Reference Data copyright; all rights reserved. Specific redistribution license not verified; see provider SRD terms. |
 | [Self-cleaning coating material and property corpora](docs/catalog/experimental_properties.md#self-cleaning-coating-literature) | Unranked | material/property/source group records | open | CC BY 4.0 |
 

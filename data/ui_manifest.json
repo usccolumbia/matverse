@@ -1,16 +1,16 @@
 {
   "catalog_date": "2026-11-01",
-  "dataset_records": 524,
-  "resources": 88,
-  "api_access_routes": 20,
+  "dataset_records": 532,
+  "resources": 103,
+  "api_access_routes": 35,
   "source_entries": 3433,
   "source_collections": 15,
   "sha256": {
     "assets/matverse-logo.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
     "assets/mleg-logo-dark.png": "7bd24d88dfbffcce889db4528c345c4cba226fef48c18eaf5437ef256a9fed77",
-    "data/datasets.json": "81b2ffb1fb4891b4c73f0345b22d427f9be35a8110335289d59f00adf5fda3b5",
-    "data/resources.json": "47ea59ce40186df1ec54826265ea0d4a5b7bd9d3c37305a7ef39e1a8a14d8564",
-    "data/api_sources.json": "119fac299b8eb24d982254e53c58f7e5c6156929f085135acba5a0a0997cb8d1",
+    "data/datasets.json": "5f82fa41649e11fd05693080d0bea977714a0cae8b21752452af1e5866c685ec",
+    "data/resources.json": "04daeb7c2ade6f9e86cfe8f8166d14301a5d77436362c7b67b42adcb5ef9ef1f",
+    "data/api_sources.json": "5d1583db3d5e19379496eb861f9b076eec8a4d7702248d28f815332c61d0e97e",
     "scripts/catalog_supplements.py": "2b0b2113bf66bad1d3f2a8e88a7d332ea8510f9c2549b9acc131060468e63d91",
     "web/index.template.html": "1c0ed52c1df6c9db9d3288bb52a2d5834951d440391358804d544bab16c9dced",
     "web/styles.css": "439fa1f10468af7d2c09507d5daf57cfe3e12b6a052302f95feeaaa1eec4481f",
@@ -32,6 +32,6 @@
     "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5",
     "research/collection_user_resources_20261101.json": "9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47"
   },
-  "index_sha256": "4c3287c11dc624f9054a6732f2057f14a54d48c827d774a44328da250cc3fdff",
+  "index_sha256": "63b370f7402747c21f341aa5d502cbc7b04e5b72aa1f6f2eb7220cc9cf615859",
   "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
 }

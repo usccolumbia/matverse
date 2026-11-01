@@ -242,3 +242,21 @@ test('Matbench directory preserves every row and separates released datasets fro
  assert.equal(datasets.find(d=>d.id==='salex-omat24-validation').count,553218);
  assert.ok(audit.important_scope_notes.Alex.includes('equilibrium'));
 });
+
+test('repository coverage additions are searchable across their appropriate views with API evidence',()=>{
+ const receipt=JSON.parse(fs.readFileSync('research/repository_audit_20261101/integration.json','utf8'));
+ for(const id of receipt.added_dataset_ids){
+  const d=datasets.find(x=>x.id===id);assert.ok(d,id);
+  assert.ok(filter({q:d.name}).some(x=>x.id===id),id+' not searchable');
+ }
+ for(const name of receipt.added_resources){
+  assert.ok(ui.filterResources(resources,{q:name}).some(x=>x.name===name),name+' missing resource');
+ }
+ for(const id of receipt.added_api_ids){
+  const a=apiSources.find(x=>x.id===id);assert.ok(a&&a.sources.length&&a.verification.status,id);
+ }
+ assert.ok(apiSources.find(x=>x.id==='atomgpt-optimade').catalog_ids.includes('jarvis-dft-3d'));
+ assert.ok(!datasets.some(x=>x.id==='atomgpt'));
+ assert.equal(datasets.find(x=>x.id==='odbx').count,null);
+ assert.match(apiSources.find(x=>x.id==='matcloud-optimade').verification.note,/null/);
+});

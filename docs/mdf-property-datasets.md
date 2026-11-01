@@ -1,6 +1,6 @@
 # Property datasets discovered through Materials Data Facility
 
-Checked 2026-11-01. **Eight new structured property cohorts** were selected from **244 distinct public deposit subjects** returned by ten property searches. The full catalog now contains 524 dataset/release records.
+Checked 2026-11-01. **Eight new structured property cohorts** were selected from **244 distinct public deposit subjects** returned by ten property searches. The full catalog now contains 532 dataset/release records.
 
 [MDF homepage](https://www.materialsdatafacility.org/) · [Search MDF](https://www.materialsdatafacility.org/search) · [Foundry-ML](https://foundry-ml.org/) · [Search these MatVerse additions](https://usccolumbia.github.io/matverse/?q=MDF-property-20261101)
 

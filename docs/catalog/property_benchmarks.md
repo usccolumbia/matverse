@@ -2578,6 +2578,39 @@ Other denominators (not added to the ranking):
 
 **Tags:** altermagnetism, spintronics, magndata-derived, band-splitting, additional-materials-20261101.
 
+<a id="anyterial-amdb"></a>
+## Anyterial — altermagnet database (AMDB)
+
+Computed altermagnetic crystal structures served by the Anyterial AMDB child database, with site magnetic moments and electronic-property context. The sampled structure is FeO3Sm; the 169-entry API total applies only to AMDB.
+
+**Size:** 169 altermagnet structure entries (source wording: 169).
+
+**Scope:** Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structures; site magnetic moments; altermagnetic electronic-property context.
+
+**Access:** open. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://www.anyterial.se/) · [documentation](https://www.anyterial.se/) · [api_index](https://optimade-index.anyterial.se) · [data](https://altermagnets.anyterial.se/)
+
+**Evidence:**
+
+- [Anyterial provider documentation](https://www.anyterial.se/) (checked 2026-11-01): httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Anyterial bounded API sample](https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+- [AMDB one-record structure sample](https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1) (checked 2026-11-01): Returned one periodic FeO3Sm structure with site moments; meta.data_available=169. No full-corpus validation.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+
+**Tags:** Repository-coverage-20261101, anyterial, Anyterial.
+
 <a id="jarvis-supercon-2d"></a>
 ## JARVIS superconductivity 2D DFT cohort
 

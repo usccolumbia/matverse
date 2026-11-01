@@ -2,7 +2,7 @@
 
 Checked 2026-11-01. [Search the API directory](https://usccolumbia.github.io/matverse/?view=apis) · [Machine-readable route registry](../data/api_sources.json) · [JARVIS coverage audit](jarvis-coverage.md) · [All source links](../sources.md)
 
-Here, **Agent-ready** means a documented path that software can use to search metadata, retrieve records or download structured files. It is an interface classification, not a certification of scientific quality, complete labels, schema uniformity, autonomous-use permission or unrestricted licensing. The 20 routes below distinguish remote query APIs from bulk SDKs and static downloads. Authentication and the observed verification level remain explicit.
+Here, **Agent-ready** means a documented path that software can use to search metadata, retrieve records or download structured files. It is an interface classification, not a certification of scientific quality, complete labels, schema uniformity, autonomous-use permission or unrestricted licensing. The 35 routes below distinguish remote query APIs from bulk SDKs and static downloads. Authentication and the observed verification level remain explicit.
 
 ## OPTIMADE: one standard across materials databases
 
@@ -77,6 +77,21 @@ To request coordinates, include `lattice_vectors,cartesian_site_positions,specie
 | [Zenodo · records and files REST API](#zenodo) | Native API | Depends on operation or dataset | Metadata response verified |
 | [Starrydata · published bulk files](#starrydata-bulk) | Bulk files | Anonymous public route | Documented; not queried |
 | [NIST SRD 81 insulation measurement API](#nist-insulation) | Native API | Anonymous public route | Small record sample verified |
+| [Matterverse · OPTIMADE](#matterverse-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [Theoretical Crystallography Open Database (TCOD) · OPTIMADE](#tcod-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [Open Materials Database · OPTIMADE](#omdb-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [Open Database of Xtals (odbx) · OPTIMADE provider index](#odbx-optimade) | OPTIMADE | Depends on operation or dataset | Probe unsuccessful |
+| [Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index](#psdi-optimade) | OPTIMADE | Anonymous public route | Metadata response verified |
+| [Material-Property-Descriptor Database (MPDD) · OPTIMADE](#mpdd-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [MatCloud · OPTIMADE provider index](#matcloud-optimade) | OPTIMADE | Depends on operation or dataset | Metadata response verified |
+| [Material Properties Open Database (MPOD) · OPTIMADE](#mpod-optimade) | OPTIMADE | Depends on operation or dataset | Probe unsuccessful |
+| [AtomGPT.org · OPTIMADE](#atomgpt-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [Anyterial · OPTIMADE](#anyterial-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
+| [NIMS MDR · JSON API and OAI-PMH](#nims-mdr-native) | Native API | Anonymous public route | Probe unsuccessful |
+| [Materials Commons · CLI / API](#materials-commons-native) | Bulk SDK | API key | Documented; not queried |
+| [MPContribs · projects and contributions API](#mpcontribs-native) | Native API | Depends on operation or dataset | Small record sample verified |
+| [NIST PhaseData · CDCS API documentation](#nist-phasedata-native) | Native API | Account / authorization | Authentication required |
+| [NIST TRC Alloy Data · API access by request](#nist-trc-alloy-native) | Native API | Account / authorization | Documented; not queried |
 
 **Small record sample verified** means an unauthenticated bounded request returned at least one data record. **Metadata response verified** means only repository/deposit metadata was checked. An empty JSON response does not establish working record retrieval. Authentication failures, timeouts and unavailable registered endpoints are retained. **Documented; not queried** means official documentation was read, but the API, SDK or complete payload was not exercised. No keys or private accounts were used. [Probe receipts](../research/provenance/api_probes_20261101.json).
 
@@ -619,6 +634,405 @@ Probe: [https://srdata.nist.gov/insulation/api/TableAllData](<https://srdata.nis
 - [SRD 81 definitions and uncertainty](https://srdata.nist.gov/insulation/Home/DataFieldDef) (checked 2026-11-01): Defines SI/IP property units, specimen and pre-test conditions, apparatus and test mode; describes relative expanded uncertainty conventions. API numeric fields do not embed units.
 - [SRD 81 release history](https://srdata.nist.gov/insulation/Home/VersionHistory) (checked 2026-11-01): Web version 2.0 released December 2015, superseding version 1.0 released January 2000.
 - [SRD 81 landing page and rights](https://srdata.nist.gov/insulation/) (checked 2026-11-01): Current public page identifies data content last updated 1983 and copyright U.S. Department of Commerce with all rights reserved.
+
+<a id="matterverse-optimade"></a>
+## Matterverse · OPTIMADE
+
+M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://optimade.matterverse.ai](https://optimade.matterverse.ai).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [https://optimade.matterverse.ai/v1/structures?page_limit=1](<https://optimade.matterverse.ai/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [Matterverse](catalog/bulk_computed.md#matterverse)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Matterverse provider documentation](https://matterverse.ai/about) (checked 2026-11-01): M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Matterverse bounded API sample](https://optimade.matterverse.ai/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+<a id="tcod-optimade"></a>
+## Theoretical Crystallography Open Database (TCOD) · OPTIMADE
+
+Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://www.crystallography.net/tcod/optimade](https://www.crystallography.net/tcod/optimade).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [Theoretical Crystallography Open Database (TCOD)](catalog/bulk_computed.md#tcod)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Theoretical Crystallography Open Database (TCOD) provider documentation](https://www.crystallography.net/tcod/) (checked 2026-11-01): Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Theoretical Crystallography Open Database (TCOD) bounded API sample](https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+<a id="omdb-optimade"></a>
+## Open Materials Database · OPTIMADE
+
+Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.
+
+**Interface:** OPTIMADE. **Entrypoint:** [http://optimade.openmaterialsdb.se](http://optimade.openmaterialsdb.se).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [http://optimade.openmaterialsdb.se/v1/structures?page_limit=1](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [Open Materials Database](catalog/bulk_computed.md#open-materials-database)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Open Materials Database provider documentation](https://openmaterialsdb.se/) (checked 2026-11-01): Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Open Materials Database bounded API sample](http://optimade.openmaterialsdb.se/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+<a id="odbx-optimade"></a>
+## Open Database of Xtals (odbx) · OPTIMADE provider index
+
+OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://optimade-index.odbx.science](https://optimade-index.odbx.science).
+
+**Authentication:** Provider index may be public; child access requirements are unverified. No credentials used.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Probe unsuccessful (2026-11-01). Advertised route could not be verified: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>.
+
+Probe: [https://optimade-index.odbx.science/v1/links](<https://optimade-index.odbx.science/v1/links>); no HTTP response recorded.
+
+**Catalog coverage:** [Open Database of Xtals (odbx)](catalog/bulk_computed.md#odbx)
+
+**Limits and interpretation:**
+
+- Advertised route could not be verified: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Open Database of Xtals (odbx) provider documentation](https://providers.optimade.org/v1/links) (checked 2026-11-01): OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+<a id="psdi-optimade"></a>
+## Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index
+
+Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://index.psdi.ac.uk/optimade/afmdb](https://index.psdi.ac.uk/optimade/afmdb).
+
+**Authentication:** Provider index may be public; child access requirements are unverified. No credentials used.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Metadata response verified (2026-11-01). Index JSON returned ten child collections spanning data and publication metadata. Child payloads not queried..
+
+Probe: [https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links](<https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links>); HTTP 200.
+
+**Limits and interpretation:**
+
+- Index JSON returned ten child collections spanning data and publication metadata. Child payloads not queried.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Physical Sciences Data Infrastructure (PSDI) provider documentation](https://www.psdi.ac.uk/) (checked 2026-11-01): Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+<a id="mpdd-optimade"></a>
+## Material-Property-Descriptor Database (MPDD) · OPTIMADE
+
+Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://optimade.mpdd.org](https://optimade.mpdd.org).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [https://optimade.mpdd.org/v1/structures?page_limit=1](<https://optimade.mpdd.org/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [Material-Property-Descriptor Database (MPDD)](catalog/aggregated_crystals.md#mpdd)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Material-Property-Descriptor Database (MPDD) provider documentation](https://optimade.mpdd.org/) (checked 2026-11-01): Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Material-Property-Descriptor Database (MPDD) bounded API sample](http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+- [MPDD HTTPS structure API](https://optimade.mpdd.org/v1/structures?page_limit=1) (checked 2026-11-01): One anonymous structure record retrieved via the current HTTPS deployment; meta.data_available=4,457,640.
+
+<a id="matcloud-optimade"></a>
+## MatCloud · OPTIMADE provider index
+
+High-throughput platform integrating data, simulation and supercomputing. The registry child has a null base_url: no operational structure endpoint was supplied.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://providers.optimade.org/index-metadbs/matcloud](https://providers.optimade.org/index-metadbs/matcloud).
+
+**Authentication:** Provider index may be public; child access requirements are unverified. No credentials used.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Metadata response verified (2026-11-01). Registry index retrieved, but child base_url is null. This is a discovery index, not an operational data API..
+
+Probe: [https://providers.optimade.org/index-metadbs/matcloud/v1/links](<https://providers.optimade.org/index-metadbs/matcloud/v1/links>); HTTP 200.
+
+**Limits and interpretation:**
+
+- Registry index retrieved, but child base_url is null. This is a discovery index, not an operational data API.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [MatCloud provider documentation](https://providers.optimade.org/v1/links) (checked 2026-11-01): High-throughput platform integrating data, simulation and supercomputing. The registry child has a null base_url: no operational structure endpoint was supplied.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+<a id="mpod-optimade"></a>
+## Material Properties Open Database (MPOD) · OPTIMADE
+
+Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.
+
+**Interface:** OPTIMADE. **Entrypoint:** [http://mpod_optimade.cimav.edu.mx](http://mpod_optimade.cimav.edu.mx).
+
+**Authentication:** Provider index may be public; child access requirements are unverified. No credentials used.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Probe unsuccessful (2026-11-01). Advertised route could not be verified: <urlopen error timed out>.
+
+Probe: [http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1](<http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1>); no HTTP response recorded.
+
+**Catalog coverage:** [Material Properties Open Database (MPOD)](catalog/experimental_properties.md#mpod)
+
+**Limits and interpretation:**
+
+- Advertised route could not be verified: <urlopen error timed out>
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Material Properties Open Database (MPOD) provider documentation](https://providers.optimade.org/v1/links) (checked 2026-11-01): Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+<a id="atomgpt-optimade"></a>
+## AtomGPT.org · OPTIMADE
+
+Materials-data service whose current OPTIMADE index exposes JARVIS-DFT. Linked to the existing JARVIS dataset rather than counted as a new independent corpus.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://atomgpt.org/optimade/v1](https://atomgpt.org/optimade/v1).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [https://atomgpt.org/optimade/v1/structures?page_limit=1](<https://atomgpt.org/optimade/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [JARVIS-DFT 3D](catalog/bulk_computed.md#jarvis-dft-3d)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [AtomGPT.org provider documentation](https://atomgpt.org/index/optimade/v1/links) (checked 2026-11-01): Materials-data service whose current OPTIMADE index exposes JARVIS-DFT. Linked to the existing JARVIS dataset rather than counted as a new independent corpus.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [AtomGPT.org bounded API sample](https://atomgpt.org/optimade/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+<a id="anyterial-optimade"></a>
+## Anyterial · OPTIMADE
+
+httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers.
+
+**Interface:** OPTIMADE. **Entrypoint:** [https://altermagnets.anyterial.se/optimade/amdb](https://altermagnets.anyterial.se/optimade/amdb).
+
+**Authentication:** Anonymous read-only sample verified.
+
+**Formats:** OPTIMADE JSON.
+
+**Verification:** Small record sample verified (2026-11-01). One public structure record retrieved; no full-corpus validation..
+
+Probe: [https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>); HTTP 200.
+
+**Catalog coverage:** [Anyterial — altermagnet database (AMDB)](catalog/property_benchmarks.md#anyterial-amdb)
+
+**Limits and interpretation:**
+
+- One public structure record retrieved; no full-corpus validation.
+- Index and child databases have different scopes. Public access does not establish redistribution rights; inspect dataset terms.
+- Property coverage varies by record; metadata totals are provider-reported and are not independently deduplicated.
+
+**Official evidence:**
+
+- [Anyterial provider documentation](https://www.anyterial.se/) (checked 2026-11-01): httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Anyterial bounded API sample](https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+<a id="nims-mdr-native"></a>
+## NIMS MDR · JSON API and OAI-PMH
+
+Research data and publications with materials-specific metadata, including SuperCon, phonon and spectroscopy collections. Distinct from NIST MDR.
+
+**Interface:** Native API. **Entrypoint:** [https://mdr.nims.go.jp/api/v1/datasets](https://mdr.nims.go.jp/api/v1/datasets).
+
+**Authentication:** Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out
+
+**Formats:** JSON, OAI-PMH XML, ZIP.
+
+**Verification:** Probe unsuccessful (2026-11-01). Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out.
+
+Probe: [https://mdr.nims.go.jp/api/v1/datasets?q=phonon](<https://mdr.nims.go.jp/api/v1/datasets?q=phonon>); no HTTP response recorded.
+
+**Limits and interpretation:**
+
+- Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out
+- Metadata access does not imply permission to reuse every attached file; check individual dataset licenses.
+
+**Official evidence:**
+
+- [NIMS MDR · JSON API and OAI-PMH documentation](https://dice.nims.go.jp/services/MDR/manual/html/api.html) (checked 2026-11-01): Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out
+
+<a id="materials-commons-native"></a>
+## Materials Commons · CLI / API
+
+Collaborative research-data storage, metadata, versioning and publication with DOI assignment. Public datasets and private workspaces have different permissions.
+
+**Interface:** Bulk SDK. **Entrypoint:** [https://materialscommons.org/mcdocs2/getting_started/cli.html](https://materialscommons.org/mcdocs2/getting_started/cli.html).
+
+**Authentication:** Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made.
+
+**Formats:** CLI, files, metadata.
+
+**Verification:** Documented; not queried (2026-11-01). Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made..
+
+**Limits and interpretation:**
+
+- Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made.
+- Metadata access does not imply permission to reuse every attached file; check individual dataset licenses.
+
+**Official evidence:**
+
+- [Materials Commons · CLI / API documentation](https://materialscommons.org/mcdocs2/getting_started/cli.html) (checked 2026-11-01): Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made.
+
+<a id="mpcontribs-native"></a>
+## MPContribs · projects and contributions API
+
+Community-contributed experimental and computational projects linked to Materials Project materials or compositions. Selected hosted projects are already cataloged.
+
+**Interface:** Native API. **Entrypoint:** [https://contribs-api.materialsproject.org](https://contribs-api.materialsproject.org).
+
+**Authentication:** Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client.
+
+**Formats:** JSON, tables, structures, attachments.
+
+**Verification:** Small record sample verified (2026-11-01). Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client..
+
+Probe: [https://contribs-api.materialsproject.org/projects/?_limit=1](<https://contribs-api.materialsproject.org/projects/?_limit=1>); HTTP 200.
+
+**Limits and interpretation:**
+
+- Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client.
+- Metadata access does not imply permission to reuse every attached file; check individual dataset licenses.
+
+**Official evidence:**
+
+- [MPContribs · projects and contributions API documentation](https://docs.materialsproject.org/services/mpcontribs) (checked 2026-11-01): Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client.
+
+<a id="nist-phasedata-native"></a>
+## NIST PhaseData · CDCS API documentation
+
+Phase-based experimental and computational materials data, including diffusion, transition temperatures and composition-dependent properties; also indexes historical diffusion literature.
+
+**Interface:** Native API. **Entrypoint:** [https://phasedata.nist.gov/docs/api/](https://phasedata.nist.gov/docs/api/).
+
+**Authentication:** API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider.
+
+**Formats:** CDCS structured data.
+
+**Verification:** Authentication required (2026-11-01). API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider..
+
+**Limits and interpretation:**
+
+- API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider.
+- Metadata access does not imply permission to reuse every attached file; check individual dataset licenses.
+
+**Official evidence:**
+
+- [NIST PhaseData · CDCS API documentation documentation](https://phasedata.nist.gov/) (checked 2026-11-01): API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider.
+
+<a id="nist-trc-alloy-native"></a>
+## NIST TRC Alloy Data · API access by request
+
+Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.
+
+**Interface:** Native API. **Entrypoint:** [https://www.nist.gov/mgi/materials-data-resources](https://www.nist.gov/mgi/materials-data-resources).
+
+**Authentication:** Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
+
+**Formats:** Provider-defined API data.
+
+**Verification:** Documented; not queried (2026-11-01). Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested..
+
+**Catalog coverage:** [NIST TRC Alloy Data](catalog/experimental_properties.md#nist-trc-alloy)
+
+**Limits and interpretation:**
+
+- Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
+- Metadata access does not imply permission to reuse every attached file; check individual dataset licenses.
+
+**Official evidence:**
+
+- [NIST TRC Alloy Data · API access by request documentation](https://www.nist.gov/mgi/materials-data-resources) (checked 2026-11-01): Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
 
 
 [Back to MatVerse](../README.md)

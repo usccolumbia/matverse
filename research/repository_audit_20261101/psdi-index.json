@@ -1,0 +1,133 @@
+{
+   "meta" : {
+       "api_version" : "1.0.0",
+       "query" : {
+           "representation" : "/links"
+       },
+       "more_data_available" : false,
+       "schema" : "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+   },
+   "data" : [
+      {
+         "id" : "afmdb",
+         "type" : "links",
+         "attributes" : {
+            "name": "Atomic Force Microscopy Database",
+            "description": "This is a centralised collection of Atomic Force Microscopy (AFM) data covering a range of physical and biological materials, hosted within the PSDI Community Data Collections.",
+            "base_url": "https://index.psdi.ac.uk/optimade/afmdb",
+            "homepage": "https://resources.psdi.ac.uk/data/b21d01f6-20df-49da-a19a-88f7b42fbd11",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "benchmarkset1500",
+         "type" : "links",
+         "attributes" : {
+            "name": "BenchmarkSet1500",
+            "description": "BenchmarkSet1500 is an open-access multireference excited-state database established to provide the first dedicated high-accuracy benchmark set for organic semiconductor research. The repository comprises 1,500 small organic molecules with consistently computed vertical excited-state properties obtained using state-averaged complete active space self-consistent field (SA-CASSCF) and strongly contracted N-electron valence state second-order perturbation theory (SC-NEVPT2). The dataset focuses on systems where single-reference approaches (e.g. TD-DFT) are known to fail, including molecules exhibiting strong static correlation and inverted singlet-triplet gaps.",
+            "base_url": "https://index.psdi.ac.uk/optimade/benchmarkset1500",
+            "homepage": "https://data-collections.psdi.ac.uk/communities/benchmarkset1500",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "biosimdb",
+         "type" : "links",
+         "attributes" : {
+            "name": "Biomolecular Simulations Database",
+            "description": "Topology, trajectory, and AiiDA data provenance files from molecular dynamics simulations of biomolecules are stored in a repository specifically designed for their preservation and accessibility.",
+            "base_url": "https://index.psdi.ac.uk/optimade/biosimdb",
+            "homepage": "https://resources.psdi.ac.uk/data/bc930fa5-63da-4707-80f8-3c642960796a",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "cathub-datasets",
+         "type" : "links",
+         "attributes" : {
+            "name": "Catalysis Data Infrastructure (CDI) Data Objects",
+            "description": "The Catalysis Data Infrastructure (CDI) Data Objects resource provides access to the UK Catalysis Hub (UKCH) published data objects that support research outputs. Through the CDI Portal and the PSDI Cross Data Search, users can search, explore, and reuse these data resources. In the Catalysis Data Infrastructure (CDI) knowledge graph, data objects are linked with researchers, institutions, publications, and research themes, fostering data discovery, highlighting collaborations, and supporting analysis of data-driven research. CDI Data Objects can be extended to include domain-specific data resources such as chemical entities, materials, or analytical methods.",
+            "base_url": "https://index.psdi.ac.uk/optimade/cathub-datasets",
+            "homepage": "https://resources.psdi.ac.uk/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "cathub-publications",
+         "type" : "links",
+         "attributes" : {
+            "name": "Catalysis Data Infrastructure (CDI) Publications",
+            "description": "The Catalysis Data Infrastructure (CDI) Publications resource provides access to the UK Catalysis Hub (UKCH) Publications, including peer-reviewed articles, books, and theses. CDI Publications offer a dedicated entry point into the CDI knowledge graph through the CDI Portal and the PSDI Cross Data Search to explore and analyse research publications. Within CDI, publications are linked to researchers (authors), institutions, research themes, and associated data objects. The linking enhances publication discovery, displays research relationships, and supports insight into research activity. CDI Publications can be expanded to include domain-specific indexes about chemicals, materials, and analysis methods.",
+            "base_url": "https://index.psdi.ac.uk/optimade/cathub-publications",
+            "homepage": "https://resources.psdi.ac.uk/data/caca6b34-2c2a-41ab-a1b3-2b789cc76421",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "chemotion",
+         "type" : "links",
+         "attributes" : {
+            "name": "Chemotion Repository",
+            "description": "The Chemotion Repository is an open repository of well-structured and machine-readable chemical data created by the Karlsruhe Institute of Technology. The focus of the repository is synthetic and analytical chemistry data. It includes data pertaining to reactions, molecules and physical samples. Data in the repository is uploaded by the community, and is subject to peer review.",
+            "base_url": "https://index.psdi.ac.uk/optimade/chemotion",
+            "homepage": "https://resources.psdi.ac.uk/data/06bdf98c-e51b-4656-a424-2c9e80b68c76",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "data-to-knowledge",
+         "type" : "links",
+         "attributes" : {
+            "name": "Data to Knowledge Community Data Collections",
+            "description": "Data-to-Knowledge Collections provide curated datasets specifically designed for use in machine learning or generated through machine learning processes. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIP XYZ files used for training, the trained MLIP models, and, where available, additional metadata such as AIIDA provenance information. By making these datasets accessible, researchers without the resources to generate such data themselves can leverage them for machine learning. Additionally, the MLIP models can be directly applied in modeling tasks, enabling broader exploration and advancements in research.",
+            "base_url": "https://index.psdi.ac.uk/optimade/data-to-knowledge",
+            "homepage": "https://resources.psdi.ac.uk/data/771d2ae4-7f19-4258-b144-dc212cef6e43",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "pchprop",
+         "type" : "links",
+         "attributes" : {
+            "name": "Physical Chemistry Properties Data Collection",
+            "description": "This collection of datasets focuses on solubility-related information, including boiling points, Henry's law constants, LogS, melting points, and mole fractions. The Physical Chemistry Properties Data Collection provides carefully curated and standardized data on key chemical properties, empowering researchers to effectively model, analyze, and drive innovation in the field of physical chemistry.",
+            "base_url": "https://index.psdi.ac.uk/optimade/pchprop",
+            "homepage": "https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "simpnmr-db",
+         "type" : "links",
+         "attributes" : {
+            "name": "Curated Database of SimpNMR Inputs",
+            "description": "This is a shared collection for ab initio calculations of hyperfine interactions that are used as inputs for SimpNMR. SimpNMR is an open-source python package for analysing paramagnetic NMR data that links Density Functional Theory (DFT) calculations with NMR spectra and helps to assign the peaks and extract the magnetic susceptibility tensor form paramagnetic shifts. This ab initio data is useful for the community involved in computing magnetic properties of molecules due to the difficulty in accurate prediction. It provides access to computational results that are often time consuming to generate, giving researchers a consistent reference point for comparison, method testing, and reproducibility.",
+            "base_url": "https://index.psdi.ac.uk/optimade/simpnmr-db",
+            "homepage": "https://resources.psdi.ac.uk/data/37ddb0ce-30ab-4928-a1c2-35f719470137",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "stfc-open",
+         "type" : "links",
+         "attributes" : {
+            "name": "STFC Open Data",
+            "description": "STFC Open Data includes data and software records from STFC's experimental facilities, such as the ISIS Neutron and Muon Source and the Central Laser Facility. This data source also features long-tail data shared by researchers in the STFC eData institutional repository. Any data or software record originating from STFC with a DOI is published in DataCite, which serves as the source for the `STFC Open Data` collection in PSDI.",
+            "base_url": "https://index.psdi.ac.uk/optimade/stfc-open",
+            "homepage": "https://resources.psdi.ac.uk/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
+            "link_type": "child"
+         }
+      },
+      {
+         "id" : "optimade-providers",
+         "type" : "links",
+         "attributes" : {
+            "name": "OPTIMADE Providers Index Meta-Database",
+            "description": "The list of OPTIMADE providers maintained by Materials-Consortia",
+            "base_url": "https://providers.optimade.org",
+            "homepage": "https://www.optimade.org",
+            "link_type": "providers"
+         }
+      }
+   ]
+}

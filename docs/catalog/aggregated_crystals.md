@@ -102,3 +102,36 @@ Fingerprint-deduplicated companion to LeMat-Bulk.
 - Overlaps LeMat-Bulk and all three source databases.
 
 **Tags:** deduplication, BAWL.
+
+<a id="mpdd"></a>
+## Material-Property-Descriptor Database (MPDD)
+
+Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.
+
+**Size:** 4,457,640 atomic structure records (source wording: 4,457,640).
+
+**Scope:** Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** aggregated; inspect individual source provenance. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** atomic structures; material descriptors and featurizer inputs.
+
+**Access:** open. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://optimade.mpdd.org/) · [documentation](https://optimade.mpdd.org/) · [api_index](https://providers.optimade.org/index-metadbs/mpdd)
+
+**Evidence:**
+
+- [Material-Property-Descriptor Database (MPDD) provider documentation](https://optimade.mpdd.org/) (checked 2026-11-01): Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Material-Property-Descriptor Database (MPDD) bounded API sample](http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+- API meta.data_available reports the total; meta.data_returned also contains that total despite only one data object. Use actual data-array length for downloaded sample size.
+
+**Tags:** Repository-coverage-20261101, mpdd, Material-Property-Descriptor Database (MPDD).

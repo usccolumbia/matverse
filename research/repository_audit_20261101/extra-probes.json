@@ -1,0 +1,43 @@
+[
+  {
+    "key": "nims-mdr-sample",
+    "url": "https://mdr.nims.go.jp/api/v1/datasets?q=phonon",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "mpdd-current-sample",
+    "url": "https://optimade.mpdd.org/v1/structures?page_limit=1",
+    "http_status": 200,
+    "final_url": "https://optimade.mpdd.org/v1/structures?page_limit=1",
+    "sha256": "0abbc67fa6b6e73b4d98de9e157c955774cdb25caf28e170ec6505f0e5156929",
+    "json": true,
+    "rows": 1,
+    "meta": {
+      "query": {
+        "representation": "/structures?page_limit=1"
+      },
+      "api_version": "1.1.0",
+      "more_data_available": true,
+      "schema": "https://schemas.optimade.org/openapi/v1.1.0/optimade.json",
+      "time_stamp": "2026-11-01T19:16:55Z",
+      "data_returned": 4457640,
+      "provider": {
+        "name": "Material-Property-Descriptor Database",
+        "description": "Material-Property-Descriptor Database (MPDD) of atomic structures, optimized for the high-throughput deployment of material featurizers and ML models. A full description is provided at <a href=https://phaseslab.com/mpdd>phaseslab.com/mpdd</a> while a partial-access web interface is provided at <a href=http://mpdd.phaseslab.com>mpdd.phaseslab.com</a>. The database is maintained by Prof. Zi-Kui Liu's Phases Research Lab (<a href=https://phaseslab.org>phaseslab.org</a>) at The Pennsylvania State University",
+        "prefix": "mpdd",
+        "homepage": "http://phaseslab.com/mpdd"
+      },
+      "data_available": 4457640,
+      "implementation": {
+        "name": "optimade-python-tools modified for flattened OPTIMADE+MPDD schema",
+        "version": "0.3",
+        "source_url": "https://github.com/PhasesResearchLab/optimade-python-tools-mpdd",
+        "maintainer": {
+          "email": "ak@psu.edu"
+        },
+        "issue_tracker": "https://github.com/PhasesResearchLab/optimade-python-tools-mpdd/issues"
+      }
+    },
+    "children": []
+  }
+]

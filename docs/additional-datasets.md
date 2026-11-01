@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../README.md) · [Search these additions](https://usccolumbia.github.io/matverse/?q=%22additional-materials-20261101%22) · [All source links](../sources.md)
 
-Checked 2026-11-01. This targeted extension adds **50 dataset/release records** beyond the 304-record baseline. The maintained catalog now contains **524 records**. New records include independently useful property layers and named derived releases; they are not all disjoint material populations.
+Checked 2026-11-01. This targeted extension adds **50 dataset/release records** beyond the 304-record baseline. The maintained catalog now contains **532 records**. New records include independently useful property layers and named derived releases; they are not all disjoint material populations.
 
 ## Questions and search method
 

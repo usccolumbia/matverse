@@ -84,6 +84,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | [MatterSim training data availability](https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md) | model and availability reference | Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets. |
 | [SCLib / JZIS superconducting-transition records](https://jzis.org/materials) | model-curated literature-data portal | Additional primary-source lead outside the IEEE list. Public snapshot reports 13,282 transition results from 6,122 papers, with sample/criterion/condition provenance and CSV downloads. Model checks and sampled-batch checks are not individual expert validation. Project-created data use CC BY 4.0, while upstream-source terms remain applicable; no independent crystal count is claimed here. |
 | [AFLOW AEL/AGL thermomechanical property libraries](https://aflow.org/documentation/) | property-library access resource | Distinct AFLOW workflows exposing elastic tensors/moduli and Debye/thermal estimates through AFLUX. Current property-bearing cohort sizes were not verified; no independent current materials count is claimed. |
+| [Anyterial](https://www.anyterial.se/) | repository / database provider | httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
+| [AtomGPT.org](https://atomgpt.org/) | repository / database provider | Materials-data service whose current OPTIMADE index exposes JARVIS-DFT. Linked to the existing JARVIS dataset rather than counted as a new independent corpus. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
+| [MatCloud](http://matcloud.cnic.cn) | repository / database provider | High-throughput platform integrating data, simulation and supercomputing. The registry child has a null base_url: no operational structure endpoint was supplied. API: OPTIMADE; Registry index retrieved, but child base_url is null. This is a discovery index, not an operational data API. Data reuse terms must be checked per collection. |
+| [Material Properties Open Database (MPOD)](http://mpod.cimav.edu.mx) | repository / database provider | Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation. API: OPTIMADE; Advertised route could not be verified: <urlopen error timed out> Data reuse terms must be checked per collection. |
+| [Material-Property-Descriptor Database (MPDD)](https://optimade.mpdd.org/) | repository / database provider | Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
+| [Materials Commons](https://materialscommons.org/) | repository / database provider | Collaborative research-data storage, metadata, versioning and publication with DOI assignment. Public datasets and private workspaces have different permissions. Data reuse terms must be checked per collection. API: Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made. |
+| [Matterverse](https://matterverse.ai/) | repository / database provider | M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
+| [MPContribs](https://contribs.materialsproject.org/) | repository / database provider | Community-contributed experimental and computational projects linked to Materials Project materials or compositions. Selected hosted projects are already cataloged. Data reuse terms must be checked per collection. API: Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client. |
+| [NIMS Materials Data Repository (MDR)](https://mdr.nims.go.jp/) | repository / database provider | Research data and publications with materials-specific metadata, including SuperCon, phonon and spectroscopy collections. Distinct from NIST MDR. Data reuse terms must be checked per collection. API: Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out |
+| [NIST PhaseData](https://phasedata.nist.gov/) | repository / database provider | Phase-based experimental and computational materials data, including diffusion, transition temperatures and composition-dependent properties; also indexes historical diffusion literature. Data reuse terms must be checked per collection. API: API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider. |
+| [NIST TRC Alloy Data](https://trc.nist.gov/MetalsAlloyUI/) | repository / database provider | Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty. Data reuse terms must be checked per collection. API: Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested. |
+| [Open Database of Xtals (odbx)](https://odbx.science/) | repository / database provider | OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified. API: OPTIMADE; Advertised route could not be verified: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)> Data reuse terms must be checked per collection. |
+| [Open Materials Database](https://openmaterialsdb.se/) | repository / database provider | Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
+| [Physical Sciences Data Infrastructure (PSDI)](https://www.psdi.ac.uk/) | repository / database provider | Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts. API: OPTIMADE; Index JSON returned ten child collections spanning data and publication metadata. Child payloads not queried. Data reuse terms must be checked per collection. |
+| [Theoretical Crystallography Open Database (TCOD)](https://www.crystallography.net/tcod/) | repository / database provider | Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD. API: OPTIMADE; One public structure record retrieved; no full-corpus validation. Data reuse terms must be checked per collection. |
 | [Materials Cloud Archive](https://archive.materialscloud.org/) | repository platform | Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license. |
 | [NOMAD Repository and Archive](https://nomad-lab.eu/) | repository platform | Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals. |
 | [OpenAlex specialized-property discovery](https://openalex.org/) | scholarly discovery | Scholarly metadata search used to discover specialized materials property datasets; citations and retrieved works are not material records. |
@@ -126,9 +141,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 - [Matbench Discovery dataset listing](https://matbench-discovery.materialsproject.org/data/sets) (2026-11-01): ANI-1x: reported5,000,000 configurations/geometries; access public; declared license CC0-1.0. This is a discovery resource, not a new periodic crystal count.
 - [Pinned Matbench Discovery dataset metadata](https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml) (2026-11-01): Preserves release-specific counts, primary download routes and caveats; no large payload audited.
 
+### Anyterial
+
+- [Anyterial provider documentation](https://www.anyterial.se/) (2026-11-01): httk ecosystem gateway to altermagnet, defect, hard-coating alloy and Open Materials databases. Child databases overlap other catalog providers.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Anyterial bounded API sample](https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
 ### Archived Wikipedia List of Superconductors (IEEE-linked PDF)
 
 - [IEEE CSC linked reference list](https://ieeecsc.org/learning-hub/superconductor-databases-resources) (2026-11-01): Directory explicitly links the archived Wikipedia superconductors list PDF.
+
+### AtomGPT.org
+
+- [AtomGPT.org provider documentation](https://atomgpt.org/index/optimade/v1/links) (2026-11-01): Materials-data service whose current OPTIMADE index exposes JARVIS-DFT. Linked to the existing JARVIS dataset rather than counted as a new independent corpus.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [AtomGPT.org bounded API sample](https://atomgpt.org/optimade/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
 
 ### Awesome Materials & Chemistry Datasets
 
@@ -302,6 +329,22 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [Benchmarking Materials Property Prediction Methods](https://arxiv.org/abs/2005.00707) (2026-11-01): Thirteen tasks from ten experimental/DFT sources, 312 to 132k samples.
 
+### MatCloud
+
+- [MatCloud provider documentation](https://providers.optimade.org/v1/links) (2026-11-01): High-throughput platform integrating data, simulation and supercomputing. The registry child has a null base_url: no operational structure endpoint was supplied.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+### Material Properties Open Database (MPOD)
+
+- [Material Properties Open Database (MPOD) provider documentation](https://providers.optimade.org/v1/links) (2026-11-01): Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+### Material-Property-Descriptor Database (MPDD)
+
+- [Material-Property-Descriptor Database (MPDD) provider documentation](https://optimade.mpdd.org/) (2026-11-01): Atomic structures organized for high-throughput material featurizers and machine-learning models, maintained by the Phases Research Lab.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Material-Property-Descriptor Database (MPDD) bounded API sample](http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
 ### Materials Cloud Archive
 
 - [Materials Cloud Archive](https://archive.materialscloud.org/) (2026-11-01): Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.
@@ -309,6 +352,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### Materials Cloud OPTIMADE Client
 
 - [Official OPTIMADE clients guide](https://www.optimade.org/clients) (2026-11-01): Browser interface to select an OPTIMADE provider and child database, filter structures and inspect/download results. A client for existing providers, not an independent crystal dataset.
+
+### Materials Commons
+
+- [Materials Commons provider documentation](https://materialscommons.org/mcdocs2/index.html) (2026-11-01): Collaborative research-data storage, metadata, versioning and publication with DOI assignment. Public datasets and private workspaces have different permissions.
+- [Materials Commons · CLI / API documentation](https://materialscommons.org/mcdocs2/getting_started/cli.html) (2026-11-01): Documentation entrypoint. materials-commons-cli uses an API key and project permissions; no authenticated request was made.
 
 ### Materials Data Facility / Foundry
 
@@ -336,9 +384,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [MatterSim training data availability](https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md) (2026-11-01): Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets.
 
+### Matterverse
+
+- [Matterverse provider documentation](https://matterverse.ai/about) (2026-11-01): M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Matterverse bounded API sample](https://optimade.matterverse.ai/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
 ### MOFX-DB
 
 - [MOFX-DB primary descriptor](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=931567) (2026-11-01): Describes computational adsorption datasets across multiple source families and thermodynamic conditions.
+
+### MPContribs
+
+- [MPContribs provider documentation](https://docs.materialsproject.org/services/mpcontribs) (2026-11-01): Community-contributed experimental and computational projects linked to Materials Project materials or compositions. Selected hosted projects are already cataloged.
+- [MPContribs bounded API sample](https://contribs-api.materialsproject.org/projects/?_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+- [MPContribs · projects and contributions API documentation](https://docs.materialsproject.org/services/mpcontribs) (2026-11-01): Public project sample retrieved anonymously; private projects and write operations require authorization. Python package: mpcontribs-client.
 
 ### nanoHUB Machine Learning Lab Module
 
@@ -356,6 +416,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [NIMS MatDaCs: COD](https://mat-dacs.dxmt.nims.go.jp/en/list/350) (2026-11-01): Provider catalogue entry gives COD description and official link.
 - [NIMS MatDaCs: AtomWork-Adv](https://mat-dacs.dxmt.nims.go.jp/en/list/316) (2026-11-01): Provider catalogue entry supplies database scope and access notes.
+
+### NIMS Materials Data Repository (MDR)
+
+- [NIMS Materials Data Repository (MDR) provider documentation](https://dice.nims.go.jp/services/MDR/en/) (2026-11-01): Research data and publications with materials-specific metadata, including SuperCon, phonon and spectroscopy collections. Distinct from NIST MDR.
+- [NIMS MDR · JSON API and OAI-PMH documentation](https://dice.nims.go.jp/services/MDR/manual/html/api.html) (2026-11-01): Public metadata JSON, individual work metadata and ZIP downloads; OAI-PMH at https://mdr.nims.go.jp/oai. Beta API may change without notice. Probe failed: The read operation timed out
 
 ### NIMS MatNavi
 
@@ -381,10 +446,20 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 - [NIST — Materials Data Resources](https://www.nist.gov/mgi/materials-data-resources) (2026-11-01): Lists general repositories and registries, schemas, phase-based resources and an interatomic-potential repository, with separate descriptions and destinations.
 - [NIST Materials Resource Registry route](https://materials.registry.nist.gov/) (2026-11-01): The published registry endpoint resolved to https://www.nist.gov/mgi during this audit; this redirect does not establish formal end of service.
 
+### NIST PhaseData
+
+- [NIST PhaseData provider documentation](https://phasedata.nist.gov/) (2026-11-01): Phase-based experimental and computational materials data, including diffusion, transition temperatures and composition-dependent properties; also indexes historical diffusion literature.
+- [NIST PhaseData · CDCS API documentation documentation](https://phasedata.nist.gov/) (2026-11-01): API documentation link returned HTTP 401. Account access and dataset permissions must be resolved with the provider.
+
 ### NIST Property Data Summaries for Advanced Materials (SRD 150)
 
 - [SRD150 sintered-alumina example](https://srdata.nist.gov/CeramicDataPortal/Pds/Scdaos) (2026-11-01): Validated summary gives material scope, property values by temperature, combined standard uncertainty notation and SRD30/literature references.
 - [SRD150 scope and access](https://srdata.nist.gov/CeramicDataPortal/pds) (2026-11-01): Provides public reference summaries and links topical collections; evaluation levels vary across typical, evaluated and validated data.
+
+### NIST TRC Alloy Data
+
+- [NIST TRC Alloy Data provider documentation](https://www.nist.gov/mgi/materials-data-resources) (2026-11-01): Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.
+- [NIST TRC Alloy Data · API access by request documentation](https://www.nist.gov/mgi/materials-data-resources) (2026-11-01): Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
 
 ### NIST–NREL Zn–Sn–Ti–O interlaboratory reproducibility study
 
@@ -394,6 +469,17 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### NOMAD Repository and Archive
 
 - [NOMAD Repository and Archive](https://cloud.nomad-lab.eu/nomad-lab/) (2026-11-01): Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.
+
+### Open Database of Xtals (odbx)
+
+- [Open Database of Xtals (odbx) provider documentation](https://providers.optimade.org/v1/links) (2026-11-01): OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+### Open Materials Database
+
+- [Open Materials Database provider documentation](https://openmaterialsdb.se/) (2026-11-01): Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Open Materials Database bounded API sample](http://optimade.openmaterialsdb.se/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
 
 ### Open Molecules 2025
 
@@ -438,6 +524,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 - [OMDB named data releases](https://omdb.mathub.io/dataset/) (2026-11-01): Lists the 12,500-material OMDB-GAP1 and 260,092-material COD prediction releases as distinct products.
 - [OMDB terms](https://omdb.mathub.io/page/terms) (2026-11-01): Terms mention access quotas but do not identify a general data reuse license.
 - [OMDB public materials browser](https://omdb.mathub.io/material) (2026-11-01): Anonymous browser explicitly limits visible data and offers free registration; the page-local displayed totals are not adopted as a full-family count.
+
+### Physical Sciences Data Infrastructure (PSDI)
+
+- [Physical Sciences Data Infrastructure (PSDI) provider documentation](https://www.psdi.ac.uk/) (2026-11-01): Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
 
 ### PoLyInfo
 
@@ -512,6 +603,12 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### SpringerMaterials
 
 - [SpringerMaterials publisher overview](https://www.springernature.com/gp/librarians/products/databases-solutions/springermaterials) (2026-11-01): Curated properties, figures and graphs platform.
+
+### Theoretical Crystallography Open Database (TCOD)
+
+- [Theoretical Crystallography Open Database (TCOD) provider documentation](https://www.crystallography.net/tcod/) (2026-11-01): Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Theoretical Crystallography Open Database (TCOD) bounded API sample](https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1) (2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
 
 ### Tran et al. review: Superconductor Discovery in the Emerging Paradigm of Materials Informatics
 

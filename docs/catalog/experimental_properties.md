@@ -3803,6 +3803,38 @@ Co-registered SEM, HR-DIC and 3D EBSD fields for microstructure–plasticity ana
 
 **Tags:** Scientific Data, processing, verified-2026-11-01, Scientific-Data-descriptor, Scientific-Data-survey-20261101.
 
+<a id="mpod"></a>
+## Material Properties Open Database (MPOD)
+
+Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.
+
+**Size:** Unranked material-property records (source wording: Unranked).
+
+**Scope:** Full collection size not verified; no estimate assigned.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** source-dependent; corpus not audited. **Structure availability:** `structure_linked`.
+
+**Labels/content:** physical properties of crystalline materials.
+
+**Access:** mixed. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](http://mpod.cimav.edu.mx) · [documentation](https://providers.optimade.org/v1/links) · [api_index](https://providers.optimade.org/index-metadbs/mpod)
+
+**Evidence:**
+
+- [Material Properties Open Database (MPOD) provider documentation](https://providers.optimade.org/v1/links) (checked 2026-11-01): Quantitative physical-property data for crystalline materials. The advertised OPTIMADE structure endpoint timed out; data availability and licensing require provider confirmation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+- No defensible full-collection size verified; deliberately unranked.  API: OPTIMADE; Advertised route could not be verified: <urlopen error timed out>
+
+**Tags:** Repository-coverage-20261101, mpod, Material Properties Open Database (MPOD).
+
 <a id="mdr-supercon"></a>
 ## MDR SuperCon Datasheet
 
@@ -3948,6 +3980,38 @@ Other denominators (not added to the ranking):
 - CSV tables include multi-curve columns and blanks; preserve column-specific units and avoid treating every cell as an independent sample.
 
 **Tags:** Data.gov-selection-20261101, verified-2026-11-01, specialist-experimental-data.
+
+<a id="nist-trc-alloy"></a>
+## NIST TRC Alloy Data
+
+Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.
+
+**Size:** Unranked experimental property records (source wording: Unranked).
+
+**Scope:** Full collection size not verified; no estimate assigned.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** experimental literature. **Structure availability:** `composition_only`.
+
+**Labels/content:** thermophysical properties; thermochemical properties; composition and measurement conditions; uncertainty.
+
+**Access:** mixed. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://trc.nist.gov/MetalsAlloyUI/) · [documentation](https://www.nist.gov/mgi/materials-data-resources)
+
+**Evidence:**
+
+- [NIST TRC Alloy Data provider documentation](https://www.nist.gov/mgi/materials-data-resources) (checked 2026-11-01): Experimental thermophysical properties of unary, binary and ternary metallic systems with original-publication provenance and uncertainty.
+- [NIST TRC Alloy Data · API access by request documentation](https://www.nist.gov/mgi/materials-data-resources) (checked 2026-11-01): Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+- No defensible full-collection size verified; deliberately unranked.
+
+**Tags:** Repository-coverage-20261101, nist-trc-alloy, NIST TRC Alloy Data.
 
 <a id="nist-webhts-srd62"></a>
 ## NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)

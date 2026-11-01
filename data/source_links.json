@@ -1,6 +1,6 @@
 {
   "checked_date": "2026-11-01",
-  "unique_urls": 4691,
+  "unique_urls": 4735,
   "collection_repositories": [
     null,
     "blaiszik/awesome-matchem-datasets",
@@ -56,6 +56,15 @@
       ]
     },
     {
+      "url": "http://matcloud.cnic.cn",
+      "labels": [
+        "MatCloud"
+      ],
+      "origins": [
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "http://moleculenet.org/",
       "labels": [
         "BACE",
@@ -66,6 +75,68 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1",
+      "labels": [
+        "Material-Property-Descriptor Database (MPDD) bounded API sample"
+      ],
+      "origins": [
+        "API documentation",
+        "Catalog evidence",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "http://mpod.cimav.edu.mx",
+      "labels": [
+        "Material Properties Open Database (MPOD)",
+        "Material Properties Open Database (MPOD) — homepage"
+      ],
+      "origins": [
+        "Catalog official route",
+        "Navigation resource"
+      ]
+    },
+    {
+      "url": "http://mpod_optimade.cimav.edu.mx",
+      "labels": [
+        "Material Properties Open Database (MPOD) · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1",
+      "labels": [
+        "Material Properties Open Database (MPOD) · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API probe"
+      ]
+    },
+    {
+      "url": "http://optimade.openmaterialsdb.se",
+      "labels": [
+        "Open Materials Database · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "http://optimade.openmaterialsdb.se/v1/structures?page_limit=1",
+      "labels": [
+        "Open Materials Database bounded API sample",
+        "Open Materials Database · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
+        "API probe",
+        "Catalog evidence",
+        "Resource evidence"
       ]
     },
     {
@@ -707,10 +778,35 @@
     {
       "url": "https://altermagnets.anyterial.se/",
       "labels": [
+        "Anyterial — altermagnet database (AMDB) — data",
         "Original source: Anyterial Altermagnets Database"
       ],
       "origins": [
-        "Catalog evidence"
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://altermagnets.anyterial.se/optimade/amdb",
+      "labels": [
+        "Anyterial · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1",
+      "labels": [
+        "AMDB one-record structure sample",
+        "Anyterial bounded API sample",
+        "Anyterial · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
+        "API probe",
+        "Catalog evidence",
+        "Resource evidence"
       ]
     },
     {
@@ -3265,12 +3361,52 @@
       ]
     },
     {
+      "url": "https://atomgpt.org/",
+      "labels": [
+        "AtomGPT.org"
+      ],
+      "origins": [
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "https://atomgpt.org/index/optimade",
       "labels": [
         "atomgpt: AtomGPT.org"
       ],
       "origins": [
         "OPTIMADE clients and screenshot provider options"
+      ]
+    },
+    {
+      "url": "https://atomgpt.org/index/optimade/v1/links",
+      "labels": [
+        "AtomGPT.org provider documentation"
+      ],
+      "origins": [
+        "API documentation",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://atomgpt.org/optimade/v1",
+      "labels": [
+        "AtomGPT.org · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://atomgpt.org/optimade/v1/structures?page_limit=1",
+      "labels": [
+        "AtomGPT.org bounded API sample",
+        "AtomGPT.org · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
+        "API probe",
+        "Resource evidence"
       ]
     },
     {
@@ -7259,6 +7395,36 @@
       ]
     },
     {
+      "url": "https://contribs-api.materialsproject.org",
+      "labels": [
+        "MPContribs · projects and contributions API"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://contribs-api.materialsproject.org/projects/?_limit=1",
+      "labels": [
+        "MPContribs bounded API sample",
+        "MPContribs · projects and contributions API bounded probe"
+      ],
+      "origins": [
+        "API probe",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://contribs.materialsproject.org/",
+      "labels": [
+        "MPContribs"
+      ],
+      "origins": [
+        "Materials dataset search tool",
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "https://contribs.materialsproject.org/projects/Multinary_Oxides",
       "labels": [
         "Primary repository release metadata",
@@ -7989,6 +8155,25 @@
       ]
     },
     {
+      "url": "https://dice.nims.go.jp/services/MDR/en/",
+      "labels": [
+        "NIMS Materials Data Repository (MDR) provider documentation"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://dice.nims.go.jp/services/MDR/manual/html/api.html",
+      "labels": [
+        "NIMS MDR · JSON API and OAI-PMH documentation"
+      ],
+      "origins": [
+        "API documentation",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://digital-hydrogen.com/storage",
       "labels": [
         "Digital Hydrogen-S"
@@ -8144,6 +8329,17 @@
       ],
       "origins": [
         "Collection evidence"
+      ]
+    },
+    {
+      "url": "https://docs.materialsproject.org/services/mpcontribs",
+      "labels": [
+        "MPContribs provider documentation",
+        "MPContribs · projects and contributions API documentation"
+      ],
+      "origins": [
+        "API documentation",
+        "Resource evidence"
       ]
     },
     {
@@ -35915,6 +36111,15 @@
       ]
     },
     {
+      "url": "https://index.psdi.ac.uk/optimade/afmdb",
+      "labels": [
+        "Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
       "url": "https://ischuller.ucsd.edu/",
       "labels": [
         "Schuller Nanoscience Group news archive"
@@ -37032,7 +37237,30 @@
         "Materials Commons"
       ],
       "origins": [
+        "Materials dataset search tool",
+        "Navigation resource",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://materialscommons.org/mcdocs2/getting_started/cli.html",
+      "labels": [
+        "Materials Commons · CLI / API",
+        "Materials Commons · CLI / API documentation"
+      ],
+      "origins": [
+        "API access route",
+        "API documentation",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://materialscommons.org/mcdocs2/index.html",
+      "labels": [
+        "Materials Commons provider documentation"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -37193,6 +37421,30 @@
       ]
     },
     {
+      "url": "https://matterverse.ai/",
+      "labels": [
+        "Matterverse",
+        "Matterverse — homepage"
+      ],
+      "origins": [
+        "Catalog official route",
+        "Navigation resource"
+      ]
+    },
+    {
+      "url": "https://matterverse.ai/about",
+      "labels": [
+        "Matterverse provider documentation",
+        "Matterverse — documentation"
+      ],
+      "origins": [
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://mc2d.materialscloud.org/",
       "labels": [
         "Materials Cloud Two-Dimensional Structure Database (MC2D) — homepage"
@@ -37222,10 +37474,31 @@
     {
       "url": "https://mdr.nims.go.jp/",
       "labels": [
-        "MDR NIMS Materials Data Repository"
+        "MDR NIMS Materials Data Repository",
+        "NIMS Materials Data Repository (MDR)"
       ],
       "origins": [
+        "Materials dataset search tool",
+        "Navigation resource",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://mdr.nims.go.jp/api/v1/datasets",
+      "labels": [
+        "NIMS MDR · JSON API and OAI-PMH"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://mdr.nims.go.jp/api/v1/datasets?q=phonon",
+      "labels": [
+        "NIMS MDR · JSON API and OAI-PMH bounded probe"
+      ],
+      "origins": [
+        "API probe"
       ]
     },
     {
@@ -37296,6 +37569,15 @@
       ],
       "origins": [
         "OPTIMADE clients and screenshot provider options"
+      ]
+    },
+    {
+      "url": "https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links",
+      "labels": [
+        "Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index bounded probe"
+      ],
+      "origins": [
+        "API probe"
       ]
     },
     {
@@ -38430,10 +38712,14 @@
     {
       "url": "https://odbx.science/",
       "labels": [
+        "Open Database of Xtals (odbx)",
+        "Open Database of Xtals (odbx) — homepage",
         "Original source: Open Databases Integration for Materials Design"
       ],
       "origins": [
-        "Catalog evidence"
+        "Catalog evidence",
+        "Catalog official route",
+        "Navigation resource"
       ]
     },
     {
@@ -38619,6 +38905,22 @@
       ]
     },
     {
+      "url": "https://openmaterialsdb.se/",
+      "labels": [
+        "Open Materials Database",
+        "Open Materials Database provider documentation",
+        "Open Materials Database — documentation",
+        "Open Materials Database — homepage"
+      ],
+      "origins": [
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://optimade-gnome.odbx.science",
       "labels": [
         "Matbench Discovery linked primary route"
@@ -38628,20 +38930,44 @@
       ]
     },
     {
+      "url": "https://optimade-index.anyterial.se",
+      "labels": [
+        "Anyterial — altermagnet database (AMDB) — api_index"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://optimade-index.odbx.science",
       "labels": [
+        "Open Database of Xtals (odbx) · OPTIMADE provider index",
+        "Open Database of Xtals (odbx) — api_index",
         "odbx: open database of xtals"
       ],
       "origins": [
+        "API access route",
+        "Catalog official route",
         "OPTIMADE clients and screenshot provider options"
+      ]
+    },
+    {
+      "url": "https://optimade-index.odbx.science/v1/links",
+      "labels": [
+        "Open Database of Xtals (odbx) · OPTIMADE provider index bounded probe"
+      ],
+      "origins": [
+        "API probe"
       ]
     },
     {
       "url": "https://optimade-index.openmaterialsdb.se",
       "labels": [
+        "Open Materials Database — api_index",
         "omdb: Open Materials Database"
       ],
       "origins": [
+        "Catalog official route",
         "OPTIMADE clients and screenshot provider options"
       ]
     },
@@ -38678,6 +39004,64 @@
         "Materials Project · OPTIMADE bounded probe"
       ],
       "origins": [
+        "API probe"
+      ]
+    },
+    {
+      "url": "https://optimade.matterverse.ai",
+      "labels": [
+        "Matterverse · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://optimade.matterverse.ai/v1/structures?page_limit=1",
+      "labels": [
+        "Matterverse bounded API sample",
+        "Matterverse · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
+        "API probe",
+        "Catalog evidence",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://optimade.mpdd.org",
+      "labels": [
+        "Material-Property-Descriptor Database (MPDD) · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://optimade.mpdd.org/",
+      "labels": [
+        "Material-Property-Descriptor Database (MPDD)",
+        "Material-Property-Descriptor Database (MPDD) provider documentation",
+        "Material-Property-Descriptor Database (MPDD) — documentation",
+        "Material-Property-Descriptor Database (MPDD) — homepage"
+      ],
+      "origins": [
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://optimade.mpdd.org/v1/structures?page_limit=1",
+      "labels": [
+        "MPDD HTTPS structure API",
+        "Material-Property-Descriptor Database (MPDD) · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
         "API probe"
       ]
     },
@@ -38949,10 +39333,26 @@
     {
       "url": "https://phasedata.nist.gov/",
       "labels": [
-        "NIST Materials Data Curation System (Part of MGI)"
+        "NIST Materials Data Curation System (Part of MGI)",
+        "NIST PhaseData",
+        "NIST PhaseData provider documentation",
+        "NIST PhaseData · CDCS API documentation documentation"
       ],
       "origins": [
+        "API documentation",
+        "Materials dataset search tool",
+        "Navigation resource",
+        "Resource evidence",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://phasedata.nist.gov/docs/api/",
+      "labels": [
+        "NIST PhaseData · CDCS API documentation"
+      ],
+      "origins": [
+        "API access route"
       ]
     },
     {
@@ -39290,11 +39690,31 @@
       ]
     },
     {
+      "url": "https://providers.optimade.org/index-metadbs/matcloud",
+      "labels": [
+        "MatCloud · OPTIMADE provider index"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://providers.optimade.org/index-metadbs/matcloud/v1/links",
+      "labels": [
+        "MatCloud · OPTIMADE provider index bounded probe"
+      ],
+      "origins": [
+        "API probe"
+      ]
+    },
+    {
       "url": "https://providers.optimade.org/index-metadbs/matterverse",
       "labels": [
+        "Matterverse — api_index",
         "matterverse: Matterverse"
       ],
       "origins": [
+        "Catalog official route",
         "OPTIMADE clients and screenshot provider options"
       ]
     },
@@ -39319,10 +39739,21 @@
     {
       "url": "https://providers.optimade.org/index-metadbs/mpdd",
       "labels": [
+        "Material-Property-Descriptor Database (MPDD) — api_index",
         "mpdd: Material-Property-Descriptor Database"
       ],
       "origins": [
+        "Catalog official route",
         "OPTIMADE clients and screenshot provider options"
+      ]
+    },
+    {
+      "url": "https://providers.optimade.org/index-metadbs/mpod",
+      "labels": [
+        "Material Properties Open Database (MPOD) — api_index"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -39355,9 +39786,11 @@
     {
       "url": "https://providers.optimade.org/index-metadbs/tcod",
       "labels": [
+        "Theoretical Crystallography Open Database (TCOD) — api_index",
         "tcod: Theoretical Crystallography Open Database"
       ],
       "origins": [
+        "Catalog official route",
         "OPTIMADE clients and screenshot provider options"
       ]
     },
@@ -39374,11 +39807,21 @@
       "url": "https://providers.optimade.org/v1/links",
       "labels": [
         "JARVIS databases and Figshare download registry inspected document",
+        "MatCloud provider documentation",
+        "Material Properties Open Database (MPOD) provider documentation",
+        "Material Properties Open Database (MPOD) — documentation",
         "OPTIMADE clients and screenshot provider options inspected document",
-        "OPTIMADE official provider registry"
+        "OPTIMADE official provider registry",
+        "Official OPTIMADE provider registry",
+        "Open Database of Xtals (odbx) provider documentation",
+        "Open Database of Xtals (odbx) — documentation"
       ],
       "origins": [
-        "Collection evidence"
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Collection evidence",
+        "Resource evidence"
       ]
     },
     {
@@ -40742,6 +41185,17 @@
       ]
     },
     {
+      "url": "https://trc.nist.gov/MetalsAlloyUI/",
+      "labels": [
+        "NIST TRC Alloy Data",
+        "NIST TRC Alloy Data — homepage"
+      ],
+      "origins": [
+        "Catalog official route",
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm",
       "labels": [
         "6061-T6 aluminum correlation tables"
@@ -40982,6 +41436,22 @@
       ]
     },
     {
+      "url": "https://www.anyterial.se/",
+      "labels": [
+        "Anyterial",
+        "Anyterial provider documentation",
+        "Anyterial — altermagnet database (AMDB) — documentation",
+        "Anyterial — altermagnet database (AMDB) — homepage"
+      ],
+      "origins": [
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://www.batteryimaginglibrary.com",
       "labels": [
         "Battery Imaging Library (BIL)"
@@ -41161,10 +41631,40 @@
     {
       "url": "https://www.crystallography.net/tcod/",
       "labels": [
-        "Original source: Theoretical Crystallography Open Database"
+        "Original source: Theoretical Crystallography Open Database",
+        "Theoretical Crystallography Open Database (TCOD)",
+        "Theoretical Crystallography Open Database (TCOD) provider documentation",
+        "Theoretical Crystallography Open Database (TCOD) — documentation",
+        "Theoretical Crystallography Open Database (TCOD) — homepage"
       ],
       "origins": [
-        "Catalog evidence"
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://www.crystallography.net/tcod/optimade",
+      "labels": [
+        "Theoretical Crystallography Open Database (TCOD) · OPTIMADE"
+      ],
+      "origins": [
+        "API access route"
+      ]
+    },
+    {
+      "url": "https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1",
+      "labels": [
+        "Theoretical Crystallography Open Database (TCOD) bounded API sample",
+        "Theoretical Crystallography Open Database (TCOD) · OPTIMADE bounded probe"
+      ],
+      "origins": [
+        "API documentation",
+        "API probe",
+        "Catalog evidence",
+        "Resource evidence"
       ]
     },
     {
@@ -43245,9 +43745,17 @@
       "labels": [
         "Materials Data Resources (NIST MGI)",
         "NIST MGI Materials Data Resources",
+        "NIST TRC Alloy Data provider documentation",
+        "NIST TRC Alloy Data · API access by request",
+        "NIST TRC Alloy Data · API access by request documentation",
+        "NIST TRC Alloy Data — documentation",
         "NIST — Materials Data Resources"
       ],
       "origins": [
+        "API access route",
+        "API documentation",
+        "Catalog evidence",
+        "Catalog official route",
         "Navigation resource",
         "Resource evidence",
         "User-supplied materials resources (2026-11-01)"
@@ -43448,6 +43956,19 @@
       ],
       "origins": [
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://www.psdi.ac.uk/",
+      "labels": [
+        "Physical Sciences Data Infrastructure (PSDI)",
+        "Physical Sciences Data Infrastructure (PSDI) provider documentation"
+      ],
+      "origins": [
+        "API documentation",
+        "Materials dataset search tool",
+        "Navigation resource",
+        "Resource evidence"
       ]
     },
     {

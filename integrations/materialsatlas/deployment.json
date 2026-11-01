@@ -3,11 +3,11 @@
   "platform_app_url": "https://materialsatlas.org/apps/matverse",
   "full_page_url": "https://materialsatlas.org/matverse/index.html",
   "catalog_date": "2026-11-01",
-  "dataset_records": 524,
-  "resources": 88,
-  "api_routes": 20,
+  "dataset_records": 532,
+  "resources": 103,
+  "api_routes": 35,
   "source_entries": 3433,
-  "snapshot_sha256": "4c3287c11dc624f9054a6732f2057f14a54d48c827d774a44328da250cc3fdff",
+  "snapshot_sha256": "63b370f7402747c21f341aa5d502cbc7b04e5b72aa1f6f2eb7220cc9cf615859",
   "platform_catalog_before": 171,
   "platform_catalog_after": 172,
   "checks": {
@@ -37,7 +37,7 @@
     "backend_v2/app/catalog.py": "2bdba64d2bd348ec75ba74954bf76fd4416be5b9b0d4870486dbc32b3657bc1f",
     "frontend_v2/src/components/MatVerseApp.vue": "ec878968cac18d0a0629fb46353833a410f3281d048ef6a7c5a4a614fbf537a5",
     "frontend_v2/src/assets/images/matverse.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
-    "frontend_v2/public/matverse/index.html": "4c3287c11dc624f9054a6732f2057f14a54d48c827d774a44328da250cc3fdff"
+    "frontend_v2/public/matverse/index.html": "63b370f7402747c21f341aa5d502cbc7b04e5b72aa1f6f2eb7220cc9cf615859"
   },
   "http_verified": true,
   "existing_apps_preserved": true,
@@ -59,11 +59,10 @@
     "previous_table_top": 1077.6136016845703
   },
   "catalog_refresh": {
-    "dataset": "nomad-bulk",
+    "scope": "15 missing repository providers, 8 datasets, 15 API/access listings",
     "checked_date": "2026-11-01",
-    "bulk_archive_entries": 15065560,
     "frontend_only": true,
     "backend_restarted": false,
-    "backup_directory": "/home/jianjunh/materialsatlas-deployments/matverse-nomad-20261101T191153Z"
+    "backup_directory": "/home/jianjunh/materialsatlas-deployments/matverse-repositories-20261101T191917Z"
   }
 }

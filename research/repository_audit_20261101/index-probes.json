@@ -1,0 +1,332 @@
+[
+  {
+    "key": "matcloud-index",
+    "url": "https://providers.optimade.org/index-metadbs/matcloud/v1/links",
+    "http_status": 200,
+    "final_url": "https://providers.optimade.org/index-metadbs/matcloud/v1/links",
+    "sha256": "af442868862fc9ca40c42cc34bd126ca4fcf9784a35b7ab17245218ef2b00200",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "matcloud",
+        "name": "MatCloud",
+        "description": "A high-throughput computing platform integrating data, simulation and supercomputing.",
+        "base_url": null,
+        "homepage": "http://matcloud.cnic.cn",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "mpdd-index",
+    "url": "https://providers.optimade.org/index-metadbs/mpdd/v1/links",
+    "http_status": 200,
+    "final_url": "https://providers.optimade.org/index-metadbs/mpdd/v1/links",
+    "sha256": "e1dfc3ab41b1ecf554b8a34de22d28d64a7e6fbd242c48c49e5b425d9cf2527e",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "mpdd",
+        "name": "Material-Property-Descriptor Database",
+        "description": "Material-Property-Descriptor Database (MPDD) of atomic structures. Optimized for the high-throughput deployment of material featurizers and ML models. Maintained by Phases Research Lab (phaseslab.org) at The Pennsylvania State University",
+        "base_url": "http://mpddoptimade.phaseslab.org",
+        "homepage": "https://phaseslab.com/mpdd",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "matterverse-index",
+    "url": "https://providers.optimade.org/index-metadbs/matterverse/v1/links",
+    "http_status": 200,
+    "final_url": "https://providers.optimade.org/index-metadbs/matterverse/v1/links",
+    "sha256": "57f88badce138edcce0ce40c8b2854e29a1e4c2b1ddb1f1f73f8b4868d23ab2b",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "matterverse",
+        "name": "Matterverse",
+        "description": "Database of machine learning property predictions for over 31 million hypothetical materials and materials in the Materials Project.",
+        "base_url": "https://optimade.matterverse.ai",
+        "aggregate": "staging",
+        "homepage": "https://matterverse.ai",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "mpod-index",
+    "url": "https://providers.optimade.org/index-metadbs/mpod/v1/links",
+    "http_status": 200,
+    "final_url": "https://providers.optimade.org/index-metadbs/mpod/v1/links",
+    "sha256": "b339ed904533d31ff7768bd25b7d1f74b76d522c6190fa9a7629bcb1301d6e95",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "mpod",
+        "name": "Material Properties Open Database (MPOD)",
+        "description": "MPOD is a web-based, open access repository of quantitative information about the physical properties of crystalline materials.",
+        "base_url": "http://mpod_optimade.cimav.edu.mx",
+        "homepage": "http://mpod.cimav.edu.mx",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "odbx-index",
+    "url": "https://optimade-index.odbx.science/v1/links",
+    "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>"
+  },
+  {
+    "key": "omdb-index",
+    "url": "https://optimade-index.openmaterialsdb.se/v1/links",
+    "http_status": 200,
+    "final_url": "https://optimade-index.openmaterialsdb.se/v1/links",
+    "sha256": "3ba6be47abd32969fb5424e50b763d6f0ec3893db29694805d37ae2407fd88b1",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "omdb_production",
+        "name": "Open Materials Database (omdb) production database",
+        "description": "This is the main production version of the Open Materials Database",
+        "base_url": "http://optimade.openmaterialsdb.se",
+        "homepage": "http://openmaterialsdb.se",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "psdi-index",
+    "url": "https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links",
+    "http_status": 200,
+    "final_url": "https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links/",
+    "sha256": "81f9d6169809ba8ecde09e5046fd68599643e73dec692354f02dd1f5798e5c3d",
+    "json": true,
+    "rows": 11,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "afmdb",
+        "name": "Atomic Force Microscopy Database",
+        "description": "This is a centralised collection of Atomic Force Microscopy (AFM) data covering a range of physical and biological materials, hosted within the PSDI Community Data Collections.",
+        "base_url": "https://index.psdi.ac.uk/optimade/afmdb",
+        "homepage": "https://resources.psdi.ac.uk/data/b21d01f6-20df-49da-a19a-88f7b42fbd11",
+        "link_type": "child"
+      },
+      {
+        "id": "benchmarkset1500",
+        "name": "BenchmarkSet1500",
+        "description": "BenchmarkSet1500 is an open-access multireference excited-state database established to provide the first dedicated high-accuracy benchmark set for organic semiconductor research. The repository comprises 1,500 small organic molecules with consistently computed vertical excited-state properties obtained using state-averaged complete active space self-consistent field (SA-CASSCF) and strongly contracted N-electron valence state second-order perturbation theory (SC-NEVPT2). The dataset focuses on systems where single-reference approaches (e.g. TD-DFT) are known to fail, including molecules exhibiting strong static correlation and inverted singlet-triplet gaps.",
+        "base_url": "https://index.psdi.ac.uk/optimade/benchmarkset1500",
+        "homepage": "https://data-collections.psdi.ac.uk/communities/benchmarkset1500",
+        "link_type": "child"
+      },
+      {
+        "id": "biosimdb",
+        "name": "Biomolecular Simulations Database",
+        "description": "Topology, trajectory, and AiiDA data provenance files from molecular dynamics simulations of biomolecules are stored in a repository specifically designed for their preservation and accessibility.",
+        "base_url": "https://index.psdi.ac.uk/optimade/biosimdb",
+        "homepage": "https://resources.psdi.ac.uk/data/bc930fa5-63da-4707-80f8-3c642960796a",
+        "link_type": "child"
+      },
+      {
+        "id": "cathub-datasets",
+        "name": "Catalysis Data Infrastructure (CDI) Data Objects",
+        "description": "The Catalysis Data Infrastructure (CDI) Data Objects resource provides access to the UK Catalysis Hub (UKCH) published data objects that support research outputs. Through the CDI Portal and the PSDI Cross Data Search, users can search, explore, and reuse these data resources. In the Catalysis Data Infrastructure (CDI) knowledge graph, data objects are linked with researchers, institutions, publications, and research themes, fostering data discovery, highlighting collaborations, and supporting analysis of data-driven research. CDI Data Objects can be extended to include domain-specific data resources such as chemical entities, materials, or analytical methods.",
+        "base_url": "https://index.psdi.ac.uk/optimade/cathub-datasets",
+        "homepage": "https://resources.psdi.ac.uk/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2",
+        "link_type": "child"
+      },
+      {
+        "id": "cathub-publications",
+        "name": "Catalysis Data Infrastructure (CDI) Publications",
+        "description": "The Catalysis Data Infrastructure (CDI) Publications resource provides access to the UK Catalysis Hub (UKCH) Publications, including peer-reviewed articles, books, and theses. CDI Publications offer a dedicated entry point into the CDI knowledge graph through the CDI Portal and the PSDI Cross Data Search to explore and analyse research publications. Within CDI, publications are linked to researchers (authors), institutions, research themes, and associated data objects. The linking enhances publication discovery, displays research relationships, and supports insight into research activity. CDI Publications can be expanded to include domain-specific indexes about chemicals, materials, and analysis methods.",
+        "base_url": "https://index.psdi.ac.uk/optimade/cathub-publications",
+        "homepage": "https://resources.psdi.ac.uk/data/caca6b34-2c2a-41ab-a1b3-2b789cc76421",
+        "link_type": "child"
+      },
+      {
+        "id": "chemotion",
+        "name": "Chemotion Repository",
+        "description": "The Chemotion Repository is an open repository of well-structured and machine-readable chemical data created by the Karlsruhe Institute of Technology. The focus of the repository is synthetic and analytical chemistry data. It includes data pertaining to reactions, molecules and physical samples. Data in the repository is uploaded by the community, and is subject to peer review.",
+        "base_url": "https://index.psdi.ac.uk/optimade/chemotion",
+        "homepage": "https://resources.psdi.ac.uk/data/06bdf98c-e51b-4656-a424-2c9e80b68c76",
+        "link_type": "child"
+      },
+      {
+        "id": "data-to-knowledge",
+        "name": "Data to Knowledge Community Data Collections",
+        "description": "Data-to-Knowledge Collections provide curated datasets specifically designed for use in machine learning or generated through machine learning processes. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIP XYZ files used for training, the trained MLIP models, and, where available, additional metadata such as AIIDA provenance information. By making these datasets accessible, researchers without the resources to generate such data themselves can leverage them for machine learning. Additionally, the MLIP models can be directly applied in modeling tasks, enabling broader exploration and advancements in research.",
+        "base_url": "https://index.psdi.ac.uk/optimade/data-to-knowledge",
+        "homepage": "https://resources.psdi.ac.uk/data/771d2ae4-7f19-4258-b144-dc212cef6e43",
+        "link_type": "child"
+      },
+      {
+        "id": "pchprop",
+        "name": "Physical Chemistry Properties Data Collection",
+        "description": "This collection of datasets focuses on solubility-related information, including boiling points, Henry's law constants, LogS, melting points, and mole fractions. The Physical Chemistry Properties Data Collection provides carefully curated and standardized data on key chemical properties, empowering researchers to effectively model, analyze, and drive innovation in the field of physical chemistry.",
+        "base_url": "https://index.psdi.ac.uk/optimade/pchprop",
+        "homepage": "https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
+        "link_type": "child"
+      },
+      {
+        "id": "simpnmr-db",
+        "name": "Curated Database of SimpNMR Inputs",
+        "description": "This is a shared collection for ab initio calculations of hyperfine interactions that are used as inputs for SimpNMR. SimpNMR is an open-source python package for analysing paramagnetic NMR data that links Density Functional Theory (DFT) calculations with NMR spectra and helps to assign the peaks and extract the magnetic susceptibility tensor form paramagnetic shifts. This ab initio data is useful for the community involved in computing magnetic properties of molecules due to the difficulty in accurate prediction. It provides access to computational results that are often time consuming to generate, giving researchers a consistent reference point for comparison, method testing, and reproducibility.",
+        "base_url": "https://index.psdi.ac.uk/optimade/simpnmr-db",
+        "homepage": "https://resources.psdi.ac.uk/data/37ddb0ce-30ab-4928-a1c2-35f719470137",
+        "link_type": "child"
+      },
+      {
+        "id": "stfc-open",
+        "name": "STFC Open Data",
+        "description": "STFC Open Data includes data and software records from STFC's experimental facilities, such as the ISIS Neutron and Muon Source and the Central Laser Facility. This data source also features long-tail data shared by researchers in the STFC eData institutional repository. Any data or software record originating from STFC with a DOI is published in DataCite, which serves as the source for the `STFC Open Data` collection in PSDI.",
+        "base_url": "https://index.psdi.ac.uk/optimade/stfc-open",
+        "homepage": "https://resources.psdi.ac.uk/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "tcod-index",
+    "url": "https://providers.optimade.org/index-metadbs/tcod/v1/links",
+    "http_status": 200,
+    "final_url": "https://providers.optimade.org/index-metadbs/tcod/v1/links",
+    "sha256": "e704d569f0ec5c6ffe8794318c0428f995ace726098a1005782caaf677e53d4c",
+    "json": true,
+    "rows": 2,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "tcod",
+        "name": "Theoretical Crystallography Open Database",
+        "description": "Open-access collection of theoretically calculated or refined crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers",
+        "base_url": "https://www.crystallography.net/tcod/optimade",
+        "homepage": "https://www.crystallography.net/tcod",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "atomgpt-index",
+    "url": "https://atomgpt.org/index/optimade/v1/links",
+    "http_status": 200,
+    "final_url": "https://atomgpt.org/index/optimade/v1/links",
+    "sha256": "347fa83ee2bd873f5d8f668f1a3752f7ea4a28ce879d8b73150b4e870465751f",
+    "json": true,
+    "rows": 1,
+    "meta": {
+      "query": {
+        "representation": "/links"
+      },
+      "api_version": "1.1.0",
+      "time_stamp": "2026-11-01T19:16:31.599392Z",
+      "data_returned": 1,
+      "data_available": null,
+      "more_data_available": false,
+      "provider": {
+        "name": "AtomGPT.org",
+        "description": "JARVIS-DFT and related materials databases served by AtomGPT.org",
+        "prefix": "atomgpt",
+        "homepage": "https://atomgpt.org"
+      },
+      "schema": "https://schemas.optimade.org/openapi/v1.1/optimade.json"
+    },
+    "children": [
+      {
+        "id": "jarvis-dft",
+        "name": "JARVIS-DFT via AtomGPT.org",
+        "description": "JARVIS-DFT materials database served via AtomGPT.org",
+        "base_url": "https://atomgpt.org/optimade/v1",
+        "homepage": "https://atomgpt.org",
+        "link_type": "child"
+      }
+    ]
+  },
+  {
+    "key": "anyterial-index",
+    "url": "https://optimade-index.anyterial.se/v1/links",
+    "http_status": 200,
+    "final_url": "https://optimade-index.anyterial.se/v1/links",
+    "sha256": "3ae8e2e6992e19736a5d71e60a057c99242e8ee8890e747f467f3a56a2ca9cc2",
+    "json": true,
+    "rows": 3,
+    "meta": {
+      "api_version": "1.0.0",
+      "query": {
+        "representation": "/links"
+      },
+      "more_data_available": false,
+      "schema": "https://schemas.optimade.org/openapi/v1.0/optimade_index.json"
+    },
+    "children": [
+      {
+        "id": "amdb",
+        "name": "Anyterial Altermagnets Database (amdb)",
+        "description": "Anyterial Altermagnets Database (amdb)",
+        "base_url": "https://altermagnets.anyterial.se/optimade/amdb",
+        "homepage": "https://altermagnets.anyterial.se",
+        "link_type": "child"
+      }
+    ]
+  }
+]

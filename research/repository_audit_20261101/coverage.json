@@ -1,0 +1,461 @@
+{
+  "checked_date": "2026-11-01",
+  "catalog_commit": "a9bb2ca565b2c52addea264a90939e66c29a6f9f",
+  "scope": "Selected major materials repositories/databases plus adjacent OPTIMADE providers; not an exhaustive global registry or uptime audit. Dataset mappings are representative, not every child release.",
+  "dataset_records": 524,
+  "resource_records": 88,
+  "api_records": 20,
+  "roster": [
+    {
+      "name": "NOMAD",
+      "dataset_ids": [
+        "nomad-bulk"
+      ],
+      "resource_names": [
+        "NOMAD Repository and Archive"
+      ],
+      "api_ids": [
+        "nomad-native"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Materials Project",
+      "dataset_ids": [
+        "materials-project"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "mp-native",
+        "mp-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "AFLOW",
+      "dataset_ids": [
+        "aflow"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "aflow-aflux",
+        "aflow-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "OQMD",
+      "dataset_ids": [
+        "oqmd"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "oqmd-native",
+        "oqmd-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Alexandria",
+      "dataset_ids": [
+        "alexandria"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "alexandria-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "JARVIS",
+      "dataset_ids": [
+        "jarvis-dft-3d",
+        "jarvis-qetb"
+      ],
+      "resource_names": [
+        "JARVIS Universal Search"
+      ],
+      "api_ids": [
+        "jarvis-optimade",
+        "jarvis-sdk"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Materials Cloud",
+      "dataset_ids": [
+        "mc3d",
+        "mc2d"
+      ],
+      "resource_names": [
+        "Materials Cloud Archive"
+      ],
+      "api_ids": [
+        "mcloud-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Materials Data Facility",
+      "dataset_ids": [],
+      "resource_names": [
+        "Materials Data Facility / Foundry"
+      ],
+      "api_ids": [
+        "mdf-sdk"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "NIST Materials Data Repository",
+      "dataset_ids": [],
+      "resource_names": [
+        "NIST Materials Data Repository"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "DTU CMR / C2DB",
+      "dataset_ids": [
+        "c2db"
+      ],
+      "resource_names": [
+        "Computational Materials Repository (CMR)"
+      ],
+      "api_ids": [
+        "cmr-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "NIMS MatNavi / AtomWork",
+      "dataset_ids": [
+        "atomwork",
+        "atomwork-adv"
+      ],
+      "resource_names": [
+        "NIMS MatNavi"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "NIMS MDR",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-list entry and selected MDR-hosted datasets exist; missing a standalone repository card. NIMS MDR is distinct from NIST MDR."
+    },
+    {
+      "name": "Materials Commons",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "No first-class dataset, repository or API record found; collaboration and data-publication repository."
+    },
+    {
+      "name": "MPContribs",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Selected contributed datasets exist; missing a platform card and dedicated API route."
+    },
+    {
+      "name": "COD",
+      "dataset_ids": [
+        "cod"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "cod-optimade"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "ICSD",
+      "dataset_ids": [
+        "icsd"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "CSD",
+      "dataset_ids": [
+        "csd"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "MPDS / PAULING FILE",
+      "dataset_ids": [
+        "mpds-pauling-file"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "mpds-native"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Pearson's Crystal Data",
+      "dataset_ids": [
+        "pearsons-crystal-data"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "SpringerMaterials",
+      "dataset_ids": [],
+      "resource_names": [
+        "SpringerMaterials"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Organic Materials Database",
+      "dataset_ids": [
+        "omdb-gap1",
+        "omdb-cod-bandgap-predictions"
+      ],
+      "resource_names": [
+        "Organic Materials Database (OMDB)"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Open Materials Database",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-entry-only provider; distinct from the Organic Materials Database (both use OMDB)."
+    },
+    {
+      "name": "Matterverse",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-entry-only provider. Official about page reports 31,791,192 ML-predicted materials; these are not experimental or DFT-validated discoveries."
+    },
+    {
+      "name": "TCOD",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-list and upstream-property mentions only; missing standalone crystal database card."
+    },
+    {
+      "name": "odbx",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-list and upstream-property mentions only; provider homepage could not be read by web tool in this audit."
+    },
+    {
+      "name": "PSDI",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Provider source entry exists; missing discovery-infrastructure card. Do not treat its federated holdings as an independent additive corpus."
+    },
+    {
+      "name": "MPDD",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Provider source entry exists; homepage could not be read by web tool. Registry evidence alone does not verify access or release size."
+    },
+    {
+      "name": "MatCloud",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Listed in current OPTIMADE registry; no first-class MatVerse record found. Service availability and scope need verification."
+    },
+    {
+      "name": "MPOD",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Listed in current OPTIMADE registry; no first-class record. Unrelated to SIMPOD powder diffraction dataset."
+    },
+    {
+      "name": "AtomGPT",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Provider source entry and related JARVIS notebook links exist; no standalone database card."
+    },
+    {
+      "name": "Anyterial",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Upstream MateriaViva property references exist; no standalone provider card."
+    },
+    {
+      "name": "HTEM",
+      "dataset_ids": [
+        "htem"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Carolina Materials Database",
+      "dataset_ids": [
+        "carolina"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "NLR MatDB",
+      "dataset_ids": [
+        "nlr-matdb"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "2DMatPedia",
+      "dataset_ids": [
+        "2dmatpedia"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Open Catalyst",
+      "dataset_ids": [
+        "oc20",
+        "oc22"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Catalysis-Hub",
+      "dataset_ids": [],
+      "resource_names": [
+        "Catalysis-Hub / CatHub"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "ColabFit Exchange",
+      "dataset_ids": [],
+      "resource_names": [
+        "ColabFit Exchange"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "OpenKIM",
+      "dataset_ids": [],
+      "resource_names": [
+        "OpenKIM"
+      ],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "Starrydata",
+      "dataset_ids": [
+        "starrydata2"
+      ],
+      "resource_names": [],
+      "api_ids": [
+        "starrydata-bulk"
+      ],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "ULTERA",
+      "dataset_ids": [
+        "ultera-2025"
+      ],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "first_class",
+      "note": ""
+    },
+    {
+      "name": "NIST PhaseData",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-list entry exists; no dedicated repository card."
+    },
+    {
+      "name": "NIST TRC Alloy Data",
+      "dataset_ids": [],
+      "resource_names": [],
+      "api_ids": [],
+      "status": "missing_first_class",
+      "note": "Source-list entry and a low-temperature dataset subset exist; no parent resource card."
+    }
+  ],
+  "input_hashes": {
+    "datasets": "81b2ffb1fb4891b4c73f0345b22d427f9be35a8110335289d59f00adf5fda3b5",
+    "resources": "47ea59ce40186df1ec54826265ea0d4a5b7bd9d3c37305a7ef39e1a8a14d8564",
+    "api_sources": "119fac299b8eb24d982254e53c58f7e5c6156929f085135acba5a0a0997cb8d1",
+    "collection_entries": "ddc7c96531c263e86524c860f8d23f792dc8bb1d0f523d82d0a1c4a063814c61"
+  }
+}

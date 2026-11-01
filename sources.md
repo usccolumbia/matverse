@@ -18,6 +18,11 @@ Search platforms help find data; individual deposits still require their own cou
 | [OPTIMADE provider registry](<https://providers.optimade.org/>) | Find provider index APIs and discover child structure databases; listing does not guarantee endpoint availability. |
 | [NIST REMI](<https://pages.nist.gov/remi/>) | Discover materials informatics resources and example datasets; a resource guide rather than a uniform property database. |
 | [OpenAlex](<https://openalex.org/>) | Find dataset papers and follow references/citations. Scholarly works are discovery leads, not materials-data payloads. |
+| [NIMS Materials Data Repository (MDR)](<https://mdr.nims.go.jp/>) | Research data and publications with materials-specific metadata, including SuperCon, phonon and spectroscopy collections. Distinct from NIST MDR. |
+| [Materials Commons](<https://materialscommons.org/>) | Collaborative research-data storage, metadata, versioning and publication with DOI assignment. Public datasets and private workspaces have different permissions. |
+| [MPContribs](<https://contribs.materialsproject.org/>) | Community-contributed experimental and computational projects linked to Materials Project materials or compositions. Selected hosted projects are already cataloged. |
+| [Physical Sciences Data Infrastructure (PSDI)](<https://www.psdi.ac.uk/>) | Federated discovery and community collections across physical sciences. Its index links multiple child services; metadata counts are not independent crystal counts. |
+| [NIST PhaseData](<https://phasedata.nist.gov/>) | Phase-based experimental and computational materials data, including diffusion, transition temperatures and composition-dependent properties; also indexes historical diffusion literature. |
 
 ## Source collections supplied by the user
 
@@ -3729,6 +3734,17 @@ Release: December 2024 card snapshot.
 - Homepage: [LeMat-BulkUnique](<https://huggingface.co/datasets/LeMaterial/LeMat-BulkUnique>)
 - Evidence (2026-11-01): [LeMat-BulkUnique — primary documentation](<https://huggingface.co/datasets/LeMaterial/LeMat-BulkUnique>)
 
+#### Material-Property-Descriptor Database (MPDD)
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Material-Property-Descriptor Database (MPDD)](<https://optimade.mpdd.org/>)
+- Documentation: [Material-Property-Descriptor Database (MPDD)](<https://optimade.mpdd.org/>)
+- Api_index: [Material-Property-Descriptor Database (MPDD)](<https://providers.optimade.org/index-metadbs/mpdd>)
+- Evidence (2026-11-01): [Material-Property-Descriptor Database (MPDD) provider documentation](<https://optimade.mpdd.org/>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Material-Property-Descriptor Database (MPDD) bounded API sample](<http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1>)
+
 ### Computed bulk inorganic crystals
 
 #### Alexandria
@@ -3990,6 +4006,49 @@ Release: Public production API query snapshot, 2026-11-01; owner=public and resu
 - Evidence (2026-11-01): [NOMAD official repository overview and counters](<https://nomad-lab.eu/nomad-lab/>)
 - Evidence (2026-11-01): [NOMAD FAQ: counting and imported database overlap](<https://nomad-lab.eu/nomad-lab/faqs.html>)
 - Evidence (2026-11-01): [NOMAD open-content and metadata license terms](<https://nomad-lab.eu/nomad-lab/terms.html>)
+
+#### Matterverse
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Matterverse](<https://matterverse.ai/>)
+- Documentation: [Matterverse](<https://matterverse.ai/about>)
+- Api_index: [Matterverse](<https://providers.optimade.org/index-metadbs/matterverse>)
+- Evidence (2026-11-01): [Matterverse provider documentation](<https://matterverse.ai/about>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Matterverse bounded API sample](<https://optimade.matterverse.ai/v1/structures?page_limit=1>)
+
+#### Theoretical Crystallography Open Database (TCOD)
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Theoretical Crystallography Open Database (TCOD)](<https://www.crystallography.net/tcod/>)
+- Documentation: [Theoretical Crystallography Open Database (TCOD)](<https://www.crystallography.net/tcod/>)
+- Api_index: [Theoretical Crystallography Open Database (TCOD)](<https://providers.optimade.org/index-metadbs/tcod>)
+- Evidence (2026-11-01): [Theoretical Crystallography Open Database (TCOD) provider documentation](<https://www.crystallography.net/tcod/>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Theoretical Crystallography Open Database (TCOD) bounded API sample](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>)
+
+#### Open Materials Database
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Open Materials Database](<https://openmaterialsdb.se/>)
+- Documentation: [Open Materials Database](<https://openmaterialsdb.se/>)
+- Api_index: [Open Materials Database](<https://optimade-index.openmaterialsdb.se>)
+- Evidence (2026-11-01): [Open Materials Database provider documentation](<https://openmaterialsdb.se/>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Open Materials Database bounded API sample](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>)
+
+#### Open Database of Xtals (odbx)
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Open Database of Xtals (odbx)](<https://odbx.science/>)
+- Documentation: [Open Database of Xtals (odbx)](<https://providers.optimade.org/v1/links>)
+- Api_index: [Open Database of Xtals (odbx)](<https://optimade-index.odbx.science>)
+- Evidence (2026-11-01): [Open Database of Xtals (odbx) provider documentation](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
 
 ### Experimental crystallography and reference collections
 
@@ -8142,6 +8201,19 @@ Release: MDR-MP PBE ω_q release as listed in Matbench Discovery at 8869a883a506
 - Evidence (2026-11-01): [Pinned Matbench Discovery dataset metadata](<https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml>)
 - Evidence (2026-11-01): [Preprocessed data for Phonon Fine-tuning deposit](<https://api.figshare.com/v2/articles/31049869>)
 
+#### Anyterial — altermagnet database (AMDB)
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Anyterial — altermagnet database (AMDB)](<https://www.anyterial.se/>)
+- Documentation: [Anyterial — altermagnet database (AMDB)](<https://www.anyterial.se/>)
+- Api_index: [Anyterial — altermagnet database (AMDB)](<https://optimade-index.anyterial.se>)
+- Data: [Anyterial — altermagnet database (AMDB)](<https://altermagnets.anyterial.se/>)
+- Evidence (2026-11-01): [Anyterial provider documentation](<https://www.anyterial.se/>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Anyterial bounded API sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
+- Evidence (2026-11-01): [AMDB one-record structure sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
+
 ### Crystal generation and discovery benchmarks
 
 #### OpenLAM Crystal Philately challenge collection
@@ -9461,6 +9533,25 @@ Release: NIST mds2-2807 data release issued 2023-03-17; files checked 2026-11-01
 - Evidence (2026-11-01): [IUPAC data README](<https://data.nist.gov/od/ds/mds2-2807/Readme.txt>)
 - Evidence (2026-11-01): [Inspected IUPAC reference archive](<https://data.nist.gov/od/ds/mds2-2807/DataFiles.zip>)
 
+#### Material Properties Open Database (MPOD)
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [Material Properties Open Database (MPOD)](<http://mpod.cimav.edu.mx>)
+- Documentation: [Material Properties Open Database (MPOD)](<https://providers.optimade.org/v1/links>)
+- Api_index: [Material Properties Open Database (MPOD)](<https://providers.optimade.org/index-metadbs/mpod>)
+- Evidence (2026-11-01): [Material Properties Open Database (MPOD) provider documentation](<https://providers.optimade.org/v1/links>)
+- Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+
+#### NIST TRC Alloy Data
+
+Release: Provider/API snapshot, checked 2026-11-01.
+
+- Homepage: [NIST TRC Alloy Data](<https://trc.nist.gov/MetalsAlloyUI/>)
+- Documentation: [NIST TRC Alloy Data](<https://www.nist.gov/mgi/materials-data-resources>)
+- Evidence (2026-11-01): [NIST TRC Alloy Data provider documentation](<https://www.nist.gov/mgi/materials-data-resources>)
+- Evidence (2026-11-01): [NIST TRC Alloy Data · API access by request documentation](<https://www.nist.gov/mgi/materials-data-resources>)
+
 ### Diffraction, spectroscopy and characterization
 
 #### ICDD Powder Diffraction File PDF-5+
@@ -10357,6 +10448,118 @@ Role: adjacent molecular or polymer dataset.
 - [Matbench Discovery dataset listing](<https://matbench-discovery.materialsproject.org/data/sets>) (checked 2026-11-01)
 - [Pinned Matbench Discovery dataset metadata](<https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml>) (checked 2026-11-01)
 
+### [NIMS Materials Data Repository (MDR)](<https://mdr.nims.go.jp/>)
+
+Role: repository / database provider.
+
+- [NIMS Materials Data Repository (MDR) provider documentation](<https://dice.nims.go.jp/services/MDR/en/>) (checked 2026-11-01)
+- [NIMS MDR · JSON API and OAI-PMH documentation](<https://dice.nims.go.jp/services/MDR/manual/html/api.html>) (checked 2026-11-01)
+
+### [Materials Commons](<https://materialscommons.org/>)
+
+Role: repository / database provider.
+
+- [Materials Commons provider documentation](<https://materialscommons.org/mcdocs2/index.html>) (checked 2026-11-01)
+- [Materials Commons · CLI / API documentation](<https://materialscommons.org/mcdocs2/getting_started/cli.html>) (checked 2026-11-01)
+
+### [MPContribs](<https://contribs.materialsproject.org/>)
+
+Role: repository / database provider.
+
+- [MPContribs provider documentation](<https://docs.materialsproject.org/services/mpcontribs>) (checked 2026-11-01)
+- [MPContribs bounded API sample](<https://contribs-api.materialsproject.org/projects/?_limit=1>) (checked 2026-11-01)
+- [MPContribs · projects and contributions API documentation](<https://docs.materialsproject.org/services/mpcontribs>) (checked 2026-11-01)
+
+### [Matterverse](<https://matterverse.ai/>)
+
+Role: repository / database provider.
+
+- [Matterverse provider documentation](<https://matterverse.ai/about>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Matterverse bounded API sample](<https://optimade.matterverse.ai/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [Theoretical Crystallography Open Database (TCOD)](<https://www.crystallography.net/tcod/>)
+
+Role: repository / database provider.
+
+- [Theoretical Crystallography Open Database (TCOD) provider documentation](<https://www.crystallography.net/tcod/>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Theoretical Crystallography Open Database (TCOD) bounded API sample](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [Open Materials Database](<https://openmaterialsdb.se/>)
+
+Role: repository / database provider.
+
+- [Open Materials Database provider documentation](<https://openmaterialsdb.se/>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Open Materials Database bounded API sample](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [Open Database of Xtals (odbx)](<https://odbx.science/>)
+
+Role: repository / database provider.
+
+- [Open Database of Xtals (odbx) provider documentation](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+
+### [Physical Sciences Data Infrastructure (PSDI)](<https://www.psdi.ac.uk/>)
+
+Role: repository / database provider.
+
+- [Physical Sciences Data Infrastructure (PSDI) provider documentation](<https://www.psdi.ac.uk/>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+
+### [Material-Property-Descriptor Database (MPDD)](<https://optimade.mpdd.org/>)
+
+Role: repository / database provider.
+
+- [Material-Property-Descriptor Database (MPDD) provider documentation](<https://optimade.mpdd.org/>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Material-Property-Descriptor Database (MPDD) bounded API sample](<http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [MatCloud](<http://matcloud.cnic.cn>)
+
+Role: repository / database provider.
+
+- [MatCloud provider documentation](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+
+### [Material Properties Open Database (MPOD)](<http://mpod.cimav.edu.mx>)
+
+Role: repository / database provider.
+
+- [Material Properties Open Database (MPOD) provider documentation](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+
+### [AtomGPT.org](<https://atomgpt.org/>)
+
+Role: repository / database provider.
+
+- [AtomGPT.org provider documentation](<https://atomgpt.org/index/optimade/v1/links>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [AtomGPT.org bounded API sample](<https://atomgpt.org/optimade/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [Anyterial](<https://www.anyterial.se/>)
+
+Role: repository / database provider.
+
+- [Anyterial provider documentation](<https://www.anyterial.se/>) (checked 2026-11-01)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>) (checked 2026-11-01)
+- [Anyterial bounded API sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>) (checked 2026-11-01)
+
+### [NIST PhaseData](<https://phasedata.nist.gov/>)
+
+Role: repository / database provider.
+
+- [NIST PhaseData provider documentation](<https://phasedata.nist.gov/>) (checked 2026-11-01)
+- [NIST PhaseData · CDCS API documentation documentation](<https://phasedata.nist.gov/>) (checked 2026-11-01)
+
+### [NIST TRC Alloy Data](<https://trc.nist.gov/MetalsAlloyUI/>)
+
+Role: repository / database provider.
+
+- [NIST TRC Alloy Data provider documentation](<https://www.nist.gov/mgi/materials-data-resources>) (checked 2026-11-01)
+- [NIST TRC Alloy Data · API access by request documentation](<https://www.nist.gov/mgi/materials-data-resources>) (checked 2026-11-01)
+
 ## API-accessible / Agent-ready data sources
 
 See the [API guide and OPTIMADE explanation](docs/api-access.md) and [machine-readable route registry](data/api_sources.json). Probe success, authentication and bulk-download status remain separate.
@@ -10512,6 +10715,125 @@ Interface: native_api; authentication: none.
 - [SRD 81 landing page and rights](<https://srdata.nist.gov/insulation/>)
 - Bounded probe: [sample_verified](<https://srdata.nist.gov/insulation/api/TableAllData>)
 
+### [Matterverse · OPTIMADE](<https://optimade.matterverse.ai>)
+
+Interface: optimade; authentication: none.
+
+- [Matterverse provider documentation](<https://matterverse.ai/about>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [Matterverse bounded API sample](<https://optimade.matterverse.ai/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<https://optimade.matterverse.ai/v1/structures?page_limit=1>)
+
+### [Theoretical Crystallography Open Database (TCOD) · OPTIMADE](<https://www.crystallography.net/tcod/optimade>)
+
+Interface: optimade; authentication: none.
+
+- [Theoretical Crystallography Open Database (TCOD) provider documentation](<https://www.crystallography.net/tcod/>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [Theoretical Crystallography Open Database (TCOD) bounded API sample](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>)
+
+### [Open Materials Database · OPTIMADE](<http://optimade.openmaterialsdb.se>)
+
+Interface: optimade; authentication: none.
+
+- [Open Materials Database provider documentation](<https://openmaterialsdb.se/>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [Open Materials Database bounded API sample](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>)
+
+### [Open Database of Xtals (odbx) · OPTIMADE provider index](<https://optimade-index.odbx.science>)
+
+Interface: optimade; authentication: mixed.
+
+- [Open Database of Xtals (odbx) provider documentation](<https://providers.optimade.org/v1/links>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Bounded probe: [unavailable](<https://optimade-index.odbx.science/v1/links>)
+
+### [Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index](<https://index.psdi.ac.uk/optimade/afmdb>)
+
+Interface: optimade; authentication: none.
+
+- [Physical Sciences Data Infrastructure (PSDI) provider documentation](<https://www.psdi.ac.uk/>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Bounded probe: [metadata_verified](<https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links>)
+
+### [Material-Property-Descriptor Database (MPDD) · OPTIMADE](<https://optimade.mpdd.org>)
+
+Interface: optimade; authentication: none.
+
+- [Material-Property-Descriptor Database (MPDD) provider documentation](<https://optimade.mpdd.org/>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [Material-Property-Descriptor Database (MPDD) bounded API sample](<http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1>)
+- [MPDD HTTPS structure API](<https://optimade.mpdd.org/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<https://optimade.mpdd.org/v1/structures?page_limit=1>)
+
+### [MatCloud · OPTIMADE provider index](<https://providers.optimade.org/index-metadbs/matcloud>)
+
+Interface: optimade; authentication: mixed.
+
+- [MatCloud provider documentation](<https://providers.optimade.org/v1/links>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Bounded probe: [metadata_verified](<https://providers.optimade.org/index-metadbs/matcloud/v1/links>)
+
+### [Material Properties Open Database (MPOD) · OPTIMADE](<http://mpod_optimade.cimav.edu.mx>)
+
+Interface: optimade; authentication: mixed.
+
+- [Material Properties Open Database (MPOD) provider documentation](<https://providers.optimade.org/v1/links>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- Bounded probe: [unavailable](<http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1>)
+
+### [AtomGPT.org · OPTIMADE](<https://atomgpt.org/optimade/v1>)
+
+Interface: optimade; authentication: none.
+
+- [AtomGPT.org provider documentation](<https://atomgpt.org/index/optimade/v1/links>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [AtomGPT.org bounded API sample](<https://atomgpt.org/optimade/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<https://atomgpt.org/optimade/v1/structures?page_limit=1>)
+
+### [Anyterial · OPTIMADE](<https://altermagnets.anyterial.se/optimade/amdb>)
+
+Interface: optimade; authentication: none.
+
+- [Anyterial provider documentation](<https://www.anyterial.se/>)
+- [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
+- [Anyterial bounded API sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
+- Bounded probe: [sample_verified](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
+
+### [NIMS MDR · JSON API and OAI-PMH](<https://mdr.nims.go.jp/api/v1/datasets>)
+
+Interface: native_api; authentication: none.
+
+- [NIMS MDR · JSON API and OAI-PMH documentation](<https://dice.nims.go.jp/services/MDR/manual/html/api.html>)
+- Bounded probe: [unavailable](<https://mdr.nims.go.jp/api/v1/datasets?q=phonon>)
+
+### [Materials Commons · CLI / API](<https://materialscommons.org/mcdocs2/getting_started/cli.html>)
+
+Interface: bulk_sdk; authentication: api_key.
+
+- [Materials Commons · CLI / API documentation](<https://materialscommons.org/mcdocs2/getting_started/cli.html>)
+
+### [MPContribs · projects and contributions API](<https://contribs-api.materialsproject.org>)
+
+Interface: native_api; authentication: mixed.
+
+- [MPContribs · projects and contributions API documentation](<https://docs.materialsproject.org/services/mpcontribs>)
+- Bounded probe: [sample_verified](<https://contribs-api.materialsproject.org/projects/?_limit=1>)
+
+### [NIST PhaseData · CDCS API documentation](<https://phasedata.nist.gov/docs/api/>)
+
+Interface: native_api; authentication: account.
+
+- [NIST PhaseData · CDCS API documentation documentation](<https://phasedata.nist.gov/>)
+
+### [NIST TRC Alloy Data · API access by request](<https://www.nist.gov/mgi/materials-data-resources>)
+
+Interface: native_api; authentication: account.
+
+- [NIST TRC Alloy Data · API access by request documentation](<https://www.nist.gov/mgi/materials-data-resources>)
+
 ## Supporting perspective papers
 
 - [Materials Databases: Foundations of Modern Digital Materials](<https://doi.org/10.1021/prechem.5c00449>)
@@ -10524,7 +10846,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 
 ## All distinct source URLs
 
-**4691 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
+**4735 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
 
 | Source link | Included as |
 |---|---|
@@ -10563,7 +10885,9 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [sAlex25 — data](<https://alexandria.icams.rub.de/datasets.html>) | Catalog evidence; Catalog official route |
 | [Alexandria PBE · OPTIMADE](<https://alexandria.icams.rub.de/pbe>) | API access route |
 | [Alexandria PBE · OPTIMADE bounded probe](<https://alexandria.icams.rub.de/pbe/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
-| [Original source: Anyterial Altermagnets Database](<https://altermagnets.anyterial.se/>) | Catalog evidence |
+| [Anyterial — altermagnet database (AMDB) — data](<https://altermagnets.anyterial.se/>) | Catalog evidence; Catalog official route |
+| [Anyterial · OPTIMADE](<https://altermagnets.anyterial.se/optimade/amdb>) | API access route |
+| [Anyterial bounded API sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>) | API documentation; API probe; Catalog evidence; Resource evidence |
 | [Crossref Scientific Data journal index](<https://api.crossref.org/journals/2052-4463/works>) | Collection evidence; Resource evidence |
 | [Crossref publisher-deposited Digital Hydrogen-S metadata](<https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434>) | Resource evidence |
 | [Crossref publisher-deposited review metadata](<https://api.crossref.org/works/10.1021/acs.chemmater.4c01757>) | Resource evidence |
@@ -10833,7 +11157,11 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [uMOF](<https://arxiv.org/html/2608.28100v1>) | Additional materials dataset discoveries |
 | [SoLiD26 revised preprint](<https://arxiv.org/html/2609.28013v2>) | Catalog evidence |
 | [Pearson's Crystal Data — data](<https://asm.mpds.io/>) | Catalog official route |
+| [AtomGPT.org](<https://atomgpt.org/>) | Navigation resource |
 | [atomgpt: AtomGPT.org](<https://atomgpt.org/index/optimade>) | OPTIMADE clients and screenshot provider options |
+| [AtomGPT.org provider documentation](<https://atomgpt.org/index/optimade/v1/links>) | API documentation; Resource evidence |
+| [AtomGPT.org · OPTIMADE](<https://atomgpt.org/optimade/v1>) | API access route |
+| [AtomGPT.org bounded API sample](<https://atomgpt.org/optimade/v1/structures?page_limit=1>) | API documentation; API probe; Resource evidence |
 | [Atomly](<https://atomly.net/#/>) | blaiszik/awesome-matchem-datasets |
 | [NIMS AtomWork-Adv — homepage](<https://atomwork-adv.nims.go.jp/>) | Catalog official route |
 | [NIMS AtomWork-Adv — data](<https://atomwork-adv.nims.go.jp/en/service.html>) | Catalog official route |
@@ -11267,6 +11595,9 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [MatPES v2025.2](<https://colabfit.org/id/DS_q1zgft23gdbl_1>) | Additional materials dataset discoveries |
 | [NASA Common Research Model (CRM)](<https://commonresearchmodel.larc.nasa.gov>) | blaiszik/awesome-matchem-datasets |
 | [MDF publishing and discovery guides](<https://connect.materialsdatafacility.org/how-to>) | Resource evidence |
+| [MPContribs · projects and contributions API](<https://contribs-api.materialsproject.org>) | API access route |
+| [MPContribs bounded API sample](<https://contribs-api.materialsproject.org/projects/?_limit=1>) | API probe; Resource evidence |
+| [MPContribs](<https://contribs.materialsproject.org/>) | Materials dataset search tool; Navigation resource |
 | [Primary repository release metadata](<https://contribs.materialsproject.org/projects/Multinary_Oxides>) | Catalog evidence; Catalog official route |
 | [Live MPContribs project](<https://contribs.materialsproject.org/projects/amorphous_diffusivity>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [Trinquet nonlinear-optical SHG tensor dataset — api](<https://contribs.materialsproject.org/projects/shg>) | Catalog official route |
@@ -11342,6 +11673,8 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [RMechDB (Radical Mechanism DB)](<https://deeprxn.ics.uci.edu/rmechdb>) | blaiszik/awesome-matchem-datasets |
 | [MPDS API documentation](<https://developer.mpds.io/>) | API documentation |
 | [Zenodo developer documentation](<https://developers.zenodo.org/>) | API documentation |
+| [NIMS Materials Data Repository (MDR) provider documentation](<https://dice.nims.go.jp/services/MDR/en/>) | Resource evidence |
+| [NIMS MDR · JSON API and OAI-PMH documentation](<https://dice.nims.go.jp/services/MDR/manual/html/api.html>) | API documentation; Resource evidence |
 | [Digital Hydrogen-S](<https://digital-hydrogen.com/storage>) | Navigation resource |
 | [DMC-ICE13 — data](<https://discovery.ucl.ac.uk/id/eprint/10162009/1/2207.01353v1.pdf>) | Catalog evidence; Catalog official route |
 | [Matbench Discovery linked primary route](<https://dl.fbaipublicfiles.com/large_objects/dac/datasets/odac23_s2ef.tar.gz>) | Collection evidence |
@@ -11358,6 +11691,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Materials Project — data](<https://docs.materialsproject.org/downloading-data>) | Catalog official route |
 | [Materials Project API getting started](<https://docs.materialsproject.org/downloading-data/using-the-api/getting-started>) | API documentation |
 | [Matbench Discovery linked primary route](<https://docs.materialsproject.org/services/ml-and-ai-applications/matpes>) | Collection evidence |
+| [MPContribs provider documentation](<https://docs.materialsproject.org/services/mpcontribs>) | API documentation; Resource evidence |
 | [NOMAD programmatic API guide](<https://docs.nomad-lab.eu/2.0/howto/manage/program/api.html>) | API documentation |
 | [NOMAD download guide](<https://docs.nomad-lab.eu/2.0/howto/manage/program/download.html>) | API documentation |
 | [Peregrine](<https://doi.ccs.ornl.gov/dataset/96b7da99-07e1-562d-88d5-d7e079acfef7>) | sedaoturak/data-resources-for-materials-science |
@@ -14298,6 +14632,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [About ICSD](<https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd>) | Catalog evidence |
 | [ICSD products](<https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products>) | Catalog evidence |
 | [IEEE CSC wiki description](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>) | Navigation resource; Resource evidence |
+| [Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index](<https://index.psdi.ac.uk/optimade/afmdb>) | API access route |
 | [Schuller Nanoscience Group news archive](<https://ischuller.ucsd.edu/>) | Resource evidence |
 | [Schuller group: Foundation of New Superconducting Research Database](<https://ischuller.ucsd.edu/timeline-post/foundation-of-new-superconducting-research-database/>) | Resource evidence |
 | [Original source: NIST JARVIS specialized structure datasets](<https://jarvis-tools.readthedocs.io/en/master/databases.html>) | Catalog evidence |
@@ -14402,6 +14737,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [SPICE 2 — Small-Molecule/Protein Interaction Chemical Energies 2](<https://matbench-discovery.materialsproject.org/data/spice-2>) | Matbench Discovery dataset directory — all 46 rows |
 | [WBM — WBM Benchmark Test Set](<https://matbench-discovery.materialsproject.org/data/wbm>) | Matbench Discovery dataset directory — all 46 rows |
 | [Matbench v0.1](<https://matbench.materialsproject.org/>) | Catalog official route; Navigation resource; blaiszik/awesome-matchem-datasets |
+| [MatCloud](<http://matcloud.cnic.cn>) | Navigation resource |
 | [ColabFit Exchange](<https://materials.colabfit.org/>) | Navigation resource; Resource evidence |
 | [NLR MatDB official portal](<https://materials.nlr.gov/>) | Catalog evidence; Catalog official route |
 | [NLR MatDB help](<https://materials.nlr.gov/help>) | Catalog evidence |
@@ -14411,7 +14747,9 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [SpringerMaterials](<https://materials.springer.com/>) | Navigation resource; sedaoturak/data-resources-for-materials-science |
 | [CURATED covalent organic frameworks — homepage](<https://materialscloud-org.github.io/mc-frontend/discover/curated-cofs>) | Catalog official route |
 | [Materials Cloud](<https://materialscloud.org/home>) | User-supplied materials resources (2026-11-01) |
-| [Materials Commons](<https://materialscommons.org/>) | sedaoturak/data-resources-for-materials-science |
+| [Materials Commons](<https://materialscommons.org/>) | Materials dataset search tool; Navigation resource; sedaoturak/data-resources-for-materials-science |
+| [Materials Commons · CLI / API](<https://materialscommons.org/mcdocs2/getting_started/cli.html>) | API access route; API documentation; Resource evidence |
+| [Materials Commons provider documentation](<https://materialscommons.org/mcdocs2/index.html>) | Resource evidence |
 | [NIST Materials Data Repository](<https://materialsdata.nist.gov/>) | Navigation resource; Resource evidence; User-supplied materials resources (2026-11-01); sedaoturak/data-resources-for-materials-science |
 | [UHCSDB (Ultra-High Carbon Steel Micrograph DB) — source](<https://materialsdata.nist.gov/handle/11256/940>) | blaiszik/awesome-matchem-datasets |
 | [The Materials Data Facility (MDF)](<https://materialsdatafacility.org/>) | User-supplied materials resources (2026-11-01); sedaoturak/data-resources-for-materials-science |
@@ -14426,10 +14764,14 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [MatPES](<https://matpes.ai>) | Catalog official route; Collection evidence; blaiszik/awesome-matchem-datasets |
 | [MatPES](<https://matpes.ai/>) | Catalog official route; sedaoturak/data-resources-for-materials-science |
 | [MatScholar](<https://matscholar.com>) | blaiszik/awesome-matchem-datasets |
+| [Matterverse](<https://matterverse.ai/>) | Catalog official route; Navigation resource |
+| [Matterverse — documentation](<https://matterverse.ai/about>) | API documentation; Catalog evidence; Catalog official route; Resource evidence |
 | [Materials Cloud Two-Dimensional Structure Database (MC2D) — homepage](<https://mc2d.materialscloud.org/>) | Catalog official route |
 | [MC3D conventional-superconductivity screening and Eliashberg dataset — homepage](<https://mc3d.materialscloud.org/?preset=superconductivity>) | Catalog official route |
 | [Materials Data Curation System](<https://mdcs.nist.gov/>) | REMI: REsource for Materials Informatics |
-| [MDR NIMS Materials Data Repository](<https://mdr.nims.go.jp/>) | sedaoturak/data-resources-for-materials-science |
+| [MDR NIMS Materials Data Repository](<https://mdr.nims.go.jp/>) | Materials dataset search tool; Navigation resource; sedaoturak/data-resources-for-materials-science |
+| [NIMS MDR · JSON API and OAI-PMH](<https://mdr.nims.go.jp/api/v1/datasets>) | API access route |
+| [NIMS MDR · JSON API and OAI-PMH bounded probe](<https://mdr.nims.go.jp/api/v1/datasets?q=phonon>) | API probe |
 | [MDR SuperCon](<https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2>) | Resource evidence; blaiszik/awesome-matchem-datasets |
 | [MDR XAFS DB collection](<https://mdr.nims.go.jp/collections/a0f3fbf1-f94a-4be7-8a66-6b91a24f6b54>) | Catalog evidence; Catalog official route |
 | [MDR phonon calculation database](<https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en>) | Catalog evidence; Catalog official route |
@@ -14437,6 +14779,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [MDR SuperCon Datasheet Ver.240322](<https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja>) | Catalog evidence |
 | [The Organic Superconductor Database — APS March 2021 presentation](<https://meetings.aps.org/Meeting/MAR21/Session/X61.3>) | Catalog evidence |
 | [psdi: Physical Sciences Data Infrastructure (PSDI)](<https://metadata.psdi.ac.uk/optimade-index-metadb>) | OPTIMADE clients and screenshot provider options |
+| [Physical Sciences Data Infrastructure (PSDI) · OPTIMADE provider index bounded probe](<https://metadata.psdi.ac.uk/optimade-index-metadb/v1/links>) | API probe |
 | [MINT-ATLAS atomistic magnetic interactions](<https://mintatlas.org/>) | Additional materials dataset discoveries; Catalog official route |
 | [MINT-ATLAS atomistic magnetic interactions](<https://mintatlas.org/optimade/info>) | Additional materials dataset discoveries; Catalog official route |
 | [MINT-ATLAS material/download metadata](<https://mintatlas.org/optimade/v1/extensions/mintatlas/materials/mi-0>) | Catalog evidence |
@@ -14452,11 +14795,15 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [MOFX-DB ToBaCCo structure and property sample](<https://mof.tech.northwestern.edu/mofs.json?name=tobmof-4188>) | Catalog evidence |
 | [MOFinder](<https://mofinder.chemistry.wustl.edu/>) | Additional materials dataset discoveries |
 | [BACE](<http://moleculenet.org/>) | blaiszik/awesome-matchem-datasets |
+| [Material-Property-Descriptor Database (MPDD) bounded API sample](<http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1>) | API documentation; Catalog evidence; Resource evidence |
 | [MPDS](<https://mpds.io>) | sedaoturak/data-resources-for-materials-science |
 | [MPDS provider home](<https://mpds.io/>) | Catalog evidence; Catalog official route |
 | [Materials Platform for Data Science (MPDS / PAULING FILE) — data](<https://mpds.io/#start>) | Catalog official route |
 | [Materials Platform for Data Science (MPDS / PAULING FILE) — code](<https://mpds.io/developer/>) | Catalog official route |
 | [MPDS introduction](<https://mpds.io/tutorial/>) | Catalog evidence |
+| [Material Properties Open Database (MPOD)](<http://mpod.cimav.edu.mx>) | Catalog official route; Navigation resource |
+| [Material Properties Open Database (MPOD) · OPTIMADE](<http://mpod_optimade.cimav.edu.mx>) | API access route |
+| [Material Properties Open Database (MPOD) · OPTIMADE bounded probe](<http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1>) | API probe |
 | [Quantum Cluster Database](<https://muellergroup.jhu.edu/qcd/>) | blaiszik/awesome-matchem-datasets |
 | [Deem PCOD author download page](<https://mwdeem.org/PCOD/index.html>) | Catalog evidence; Catalog official route |
 | [https://nanohub.org/FAIR_workshop_2024](<https://nanohub.org/FAIR_workshop_2024>) | JARVIS-Tools Notebooks |
@@ -14554,7 +14901,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [NOMAD Repository & Archive — bulk crystals — data](<https://nomad-lab.eu/prod/v1/gui/search/entries>) | Catalog official route |
 | [NOMAD](<https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries>) | blaiszik/awesome-matchem-datasets |
 | [Perovskite Database Project](<https://nomad-lab.eu/prod/v1/gui/search/perovskite-solar-cells-database>) | Catalog official route; blaiszik/awesome-matchem-datasets |
-| [Original source: Open Databases Integration for Materials Design](<https://odbx.science/>) | Catalog evidence |
+| [Open Database of Xtals (odbx)](<https://odbx.science/>) | Catalog evidence; Catalog official route; Navigation resource |
 | [OMDB-GAP1 — homepage](<https://omdb.mathub.io/>) | Catalog evidence; Catalog official route; Navigation resource; User-supplied materials resources (2026-11-01); sedaoturak/data-resources-for-materials-science |
 | [OMDB named data releases](<https://omdb.mathub.io/dataset/>) | Catalog evidence; Catalog official route; Resource evidence |
 | [OMDB COD prediction download access check](<https://omdb.mathub.io/dataset/download/gap1-cod_v1.1>) | Catalog evidence; Catalog official route |
@@ -14572,13 +14919,23 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [OpenKIM](<https://openkim.org/>) | Navigation resource; User-supplied materials resources (2026-11-01); sedaoturak/data-resources-for-materials-science |
 | [OpenKIM — About](<https://openkim.org/about/>) | Resource evidence |
 | [OpenKIM — Obtaining Models](<https://openkim.org/doc/usage/obtaining-models/>) | Resource evidence |
+| [Open Materials Database](<https://openmaterialsdb.se/>) | API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence |
 | [Matbench Discovery linked primary route](<https://optimade-gnome.odbx.science>) | Collection evidence |
-| [odbx: open database of xtals](<https://optimade-index.odbx.science>) | OPTIMADE clients and screenshot provider options |
-| [omdb: Open Materials Database](<https://optimade-index.openmaterialsdb.se>) | OPTIMADE clients and screenshot provider options |
+| [Anyterial — altermagnet database (AMDB) — api_index](<https://optimade-index.anyterial.se>) | Catalog official route |
+| [odbx: open database of xtals](<https://optimade-index.odbx.science>) | API access route; Catalog official route; OPTIMADE clients and screenshot provider options |
+| [Open Database of Xtals (odbx) · OPTIMADE provider index bounded probe](<https://optimade-index.odbx.science/v1/links>) | API probe |
+| [omdb: Open Materials Database](<https://optimade-index.openmaterialsdb.se>) | Catalog official route; OPTIMADE clients and screenshot provider options |
 | [Materials Cloud MC3D PBE · OPTIMADE](<https://optimade.materialscloud.org/main/mc3d-pbe-v1>) | API access route |
 | [Materials Cloud MC3D PBE · OPTIMADE bounded probe](<https://optimade.materialscloud.org/main/mc3d-pbe-v1/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
 | [Materials Project · OPTIMADE](<https://optimade.materialsproject.org>) | API access route |
 | [Materials Project · OPTIMADE bounded probe](<https://optimade.materialsproject.org/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
+| [Matterverse · OPTIMADE](<https://optimade.matterverse.ai>) | API access route |
+| [Matterverse bounded API sample](<https://optimade.matterverse.ai/v1/structures?page_limit=1>) | API documentation; API probe; Catalog evidence; Resource evidence |
+| [Material-Property-Descriptor Database (MPDD) · OPTIMADE](<https://optimade.mpdd.org>) | API access route |
+| [Material-Property-Descriptor Database (MPDD)](<https://optimade.mpdd.org/>) | API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence |
+| [MPDD HTTPS structure API](<https://optimade.mpdd.org/v1/structures?page_limit=1>) | API documentation; API probe |
+| [Open Materials Database · OPTIMADE](<http://optimade.openmaterialsdb.se>) | API access route |
+| [Open Materials Database bounded API sample](<http://optimade.openmaterialsdb.se/v1/structures?page_limit=1>) | API documentation; API probe; Catalog evidence; Resource evidence |
 | [Matbench Discovery linked primary route](<https://optimade.org/providers-dashboard/providers/aflow>) | Collection evidence |
 | [Matbench Discovery linked primary route](<https://optimade.org/providers-dashboard/providers/alexandria>) | Collection evidence |
 | [Matbench Discovery linked primary route](<https://optimade.org/providers-dashboard/providers/nmd>) | Collection evidence |
@@ -14606,7 +14963,8 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Pauling File](<https://paulingfile.com/>) | sedaoturak/data-resources-for-materials-science |
 | [Liverpool Ionics Dataset](<https://pcwww.liv.ac.uk/~msd30/lmds/LiIonDatabase.html>) | Catalog evidence; Catalog official route; OpenAlex specialized materials property survey |
 | [Grain boundary properties of elemental metals](<https://perssongroup.lbl.gov/papers/zheng-2020-grain-boundary.pdf>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
-| [NIST Materials Data Curation System (Part of MGI)](<https://phasedata.nist.gov/>) | sedaoturak/data-resources-for-materials-science |
+| [NIST PhaseData](<https://phasedata.nist.gov/>) | API documentation; Materials dataset search tool; Navigation resource; Resource evidence; sedaoturak/data-resources-for-materials-science |
+| [NIST PhaseData · CDCS API documentation](<https://phasedata.nist.gov/docs/api/>) | API access route |
 | [ULTERA high-entropy-alloy property database — homepage](<https://phaseslab.com/ultera/>) | Additional materials dataset discoveries; Catalog official route |
 | [Phonix official database documentation](<https://phonix-db.org/>) | Catalog evidence; Catalog official route |
 | [Phonix v2026.03.28 release statistics](<https://phonix-db.org/ver2026.03.28/index.html>) | Catalog evidence; Catalog official route |
@@ -14644,16 +15002,19 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Provider index: Crystallography Open Database](<https://providers.optimade.org/index-metadbs/cod/v1/links>) | API documentation |
 | [jarvis: Joint Automated Repository for Various Integrated Simulations (JARVIS)](<https://providers.optimade.org/index-metadbs/jarvis>) | OPTIMADE clients and screenshot provider options |
 | [Provider index: JARVIS-DFT](<https://providers.optimade.org/index-metadbs/jarvis/v1/links>) | API documentation |
-| [matterverse: Matterverse](<https://providers.optimade.org/index-metadbs/matterverse>) | OPTIMADE clients and screenshot provider options |
+| [MatCloud · OPTIMADE provider index](<https://providers.optimade.org/index-metadbs/matcloud>) | API access route |
+| [MatCloud · OPTIMADE provider index bounded probe](<https://providers.optimade.org/index-metadbs/matcloud/v1/links>) | API probe |
+| [Matterverse — api_index](<https://providers.optimade.org/index-metadbs/matterverse>) | Catalog official route; OPTIMADE clients and screenshot provider options |
 | [mp: The Materials Project](<https://providers.optimade.org/index-metadbs/mp>) | OPTIMADE clients and screenshot provider options |
 | [Provider index: Materials Project](<https://providers.optimade.org/index-metadbs/mp/v1/links>) | API documentation |
-| [mpdd: Material-Property-Descriptor Database](<https://providers.optimade.org/index-metadbs/mpdd>) | OPTIMADE clients and screenshot provider options |
+| [mpdd: Material-Property-Descriptor Database](<https://providers.optimade.org/index-metadbs/mpdd>) | Catalog official route; OPTIMADE clients and screenshot provider options |
+| [Material Properties Open Database (MPOD) — api_index](<https://providers.optimade.org/index-metadbs/mpod>) | Catalog official route |
 | [nmd: novel materials discovery (NOMAD)](<https://providers.optimade.org/index-metadbs/nmd>) | OPTIMADE clients and screenshot provider options |
 | [oqmd: The Open Quantum Materials Database (OQMD)](<https://providers.optimade.org/index-metadbs/oqmd>) | OPTIMADE clients and screenshot provider options |
 | [Provider index: OQMD](<https://providers.optimade.org/index-metadbs/oqmd/v1/links>) | API documentation |
-| [tcod: Theoretical Crystallography Open Database](<https://providers.optimade.org/index-metadbs/tcod>) | OPTIMADE clients and screenshot provider options |
+| [tcod: Theoretical Crystallography Open Database](<https://providers.optimade.org/index-metadbs/tcod>) | Catalog official route; OPTIMADE clients and screenshot provider options |
 | [twodmatpedia: 2DMatpedia](<https://providers.optimade.org/index-metadbs/twodmatpedia>) | OPTIMADE clients and screenshot provider options |
-| [OPTIMADE official provider registry](<https://providers.optimade.org/v1/links>) | Collection evidence |
+| [MatCloud provider documentation](<https://providers.optimade.org/v1/links>) | API documentation; Catalog evidence; Catalog official route; Collection evidence; Resource evidence |
 | [SAIR](<https://pub.sandboxaq.com/data/ic50-dataset>) | blaiszik/awesome-matchem-datasets |
 | [PubChem](<https://pubchem.ncbi.nlm.nih.gov>) | blaiszik/awesome-matchem-datasets |
 | [PCBA](<https://pubchem.ncbi.nlm.nih.gov/bioassay>) | blaiszik/awesome-matchem-datasets |
@@ -14796,6 +15157,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [teMatDb272 thermoelectric material database — homepage](<https://tematdb.streamlit.app>) | Catalog official route |
 | [MAGNDATA bulk download instructions](<https://test2.cryst.ehu.eus/magndata/magndata_download.html>) | Catalog evidence |
 | [EKHI optical and thermal radiative properties — homepage](<https://thermomat.ehu.eus/ekhi>) | Catalog official route |
+| [NIST TRC Alloy Data](<https://trc.nist.gov/MetalsAlloyUI/>) | Catalog official route; Navigation resource |
 | [6061-T6 aluminum correlation tables](<https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm>) | Catalog evidence |
 | [Regenerator material numerical table](<https://trc.nist.gov/cryogenics/materials/RegeneratorMaterials/Regenerator%20Materials%20rev%2009-22-06.htm>) | Catalog evidence |
 | [NIST Cryogenic Materials Property Database — homepage](<https://trc.nist.gov/cryogenics/materials/materialproperties.htm>) | Catalog official route |
@@ -14824,6 +15186,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [AFLOW: Automatic FLOW for Materials Discovery](<http://www.aflow.org/>) | REMI: REsource for Materials Informatics |
 | [Automatic Flow for Materials Discovery (AFLOW)](<http://www.aflowlib.org/>) | sedaoturak/data-resources-for-materials-science |
 | [OpenLAM TrainingSet — homepage](<https://www.aissquare.com/datasets/detail?pageType=datasets&name=OpenLAM-TrainingSet-v1&id=308>) | Catalog evidence; Catalog official route |
+| [Anyterial](<https://www.anyterial.se/>) | API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence |
 | [Battery Imaging Library (BIL)](<https://www.batteryimaginglibrary.com>) | blaiszik/awesome-matchem-datasets |
 | [BindingDB](<https://www.bindingdb.org/>) | blaiszik/awesome-matchem-datasets |
 | [SPSE hierarchical solid-electrolyte ion transport — homepage](<https://www.bmaterials.cn/>) | Catalog official route |
@@ -14846,7 +15209,9 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Crystallography Open Database · OPTIMADE](<https://www.crystallography.net/cod/optimade>) | API access route |
 | [Crystallography Open Database · OPTIMADE bounded probe](<https://www.crystallography.net/cod/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
 | [Original source: Predicted Crystallography Open Database](<https://www.crystallography.net/pcod/>) | Catalog evidence |
-| [Original source: Theoretical Crystallography Open Database](<https://www.crystallography.net/tcod/>) | Catalog evidence |
+| [Theoretical Crystallography Open Database (TCOD)](<https://www.crystallography.net/tcod/>) | API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence |
+| [Theoretical Crystallography Open Database (TCOD) · OPTIMADE](<https://www.crystallography.net/tcod/optimade>) | API access route |
+| [Theoretical Crystallography Open Database (TCOD) bounded API sample](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>) | API documentation; API probe; Catalog evidence; Resource evidence |
 | [JARVIS-DFT legacy route](<http://www.ctcms.nist.gov/~knc6/JVASP.html>) | User-supplied materials resources (2026-11-01) |
 | [NIST IPR primary provider](<https://www.ctcms.nist.gov/potentials/>) | Navigation resource; Resource evidence |
 | [NIST Self-Diffusion Data](<https://www.ctcms.nist.gov/~gkl/selfdiffusion.html>) | sedaoturak/data-resources-for-materials-science |
@@ -15068,7 +15433,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [NIST — About CDCS](<https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs>) | Navigation resource; Resource evidence |
 | [Configurable Data Curation System (CDCS)](<https://www.nist.gov/itl/ssd/information-systems-group/configurable-data-curation-system-cdcs/about-cdcs>) | User-supplied materials resources (2026-11-01) |
 | [https://www.nist.gov/mgi](<https://www.nist.gov/mgi>) | JARVIS-Tools Notebooks; sedaoturak/data-resources-for-materials-science |
-| [NIST — Materials Data Resources](<https://www.nist.gov/mgi/materials-data-resources>) | Navigation resource; Resource evidence; User-supplied materials resources (2026-11-01) |
+| [NIST — Materials Data Resources](<https://www.nist.gov/mgi/materials-data-resources>) | API access route; API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence; User-supplied materials resources (2026-11-01) |
 | [NIST authoritative relocation notice](<https://www.nist.gov/mml/acmd/nist-cryogenic-materials-property-database-index>) | Catalog evidence |
 | [NIST SRD copyright and licensing statements](<https://www.nist.gov/open/license>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [NIST Data Resources for Adsorption](<https://www.nist.gov/programs-projects/nist-data-resources-adsorption>) | Catalog evidence |
@@ -15089,6 +15454,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [The Perovskite Database Project](<https://www.perovskitedatabase.com/>) | Catalog evidence; Catalog official route; sedaoturak/data-resources-for-materials-science |
 | [Perovskite Database license](<https://www.perovskitedatabase.com/how-to-cite/>) | Catalog evidence |
 | [Polymer Genome](<https://www.polymergenome.org/>) | sedaoturak/data-resources-for-materials-science |
+| [Physical Sciences Data Infrastructure (PSDI)](<https://www.psdi.ac.uk/>) | API documentation; Materials dataset search tool; Navigation resource; Resource evidence |
 | [Cambridge Carbon GAP 20 deposit](<https://www.repository.cam.ac.uk/items/ac362ef1-fa35-4bd4-8b56-2fde6d7b1d2c>) | Catalog evidence |
 | [RRUFF home](<https://www.rruff.net/>) | Catalog evidence; Catalog official route |
 | [RRUFF data downloads](<https://www.rruff.net/about/download-data/>) | Catalog evidence; Catalog official route |

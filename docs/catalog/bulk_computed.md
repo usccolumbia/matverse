@@ -4,6 +4,39 @@
 
 Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
+<a id="matterverse"></a>
+## Matterverse
+
+M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.
+
+**Size:** 31,791,192 ML-predicted material records (source wording: 31,791,192).
+
+**Scope:** Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** ML predictions. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structures; M3GNet formation energy predictions; predicted band gaps; predicted elastic moduli.
+
+**Access:** open. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://matterverse.ai/) · [documentation](https://matterverse.ai/about) · [api_index](https://providers.optimade.org/index-metadbs/matterverse)
+
+**Evidence:**
+
+- [Matterverse provider documentation](https://matterverse.ai/about) (checked 2026-11-01): M3GNet-predicted structures and properties of hypothetical materials and Materials Project materials; predictions require physical validation. Unrelated to this MatVerse directory.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Matterverse bounded API sample](https://optimade.matterverse.ai/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+- Predicted materials and properties are not experimental discoveries or independently DFT-validated results. Includes Materials Project-derived inputs.
+
+**Tags:** Repository-coverage-20261101, matterverse, Matterverse.
+
 <a id="nomad-bulk"></a>
 ## NOMAD Repository & Archive — bulk crystals
 
@@ -204,6 +237,38 @@ Public structure release accompanying Graph Networks for Materials Exploration.
 
 **Tags:** None assigned.
 
+<a id="tcod"></a>
+## Theoretical Crystallography Open Database (TCOD)
+
+Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.
+
+**Size:** 362,294 theoretical crystal structure entries (source wording: 362,294).
+
+**Scope:** Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** computed or theoretically refined. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; computational provenance.
+
+**Access:** open. **Dataset license:** CC0 1.0; acknowledge original structural-data authors.
+
+**Official routes:** [homepage](https://www.crystallography.net/tcod/) · [documentation](https://www.crystallography.net/tcod/) · [api_index](https://providers.optimade.org/index-metadbs/tcod)
+
+**Evidence:**
+
+- [Theoretical Crystallography Open Database (TCOD) provider documentation](https://www.crystallography.net/tcod/) (checked 2026-11-01): Theoretically calculated or refined periodic structures with computational provenance; distinct from experimental COD.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Theoretical Crystallography Open Database (TCOD) bounded API sample](https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+
+**Tags:** Repository-coverage-20261101, tcod, Theoretical Crystallography Open Database (TCOD).
+
 <a id="materials-project"></a>
 ## Materials Project
 
@@ -236,6 +301,38 @@ Structure-centered computed properties for inorganic materials with API and bulk
 - Track GNoME-origin licensing and database version when using API data.
 
 **Tags:** None assigned.
+
+<a id="open-materials-database"></a>
+## Open Materials Database
+
+Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.
+
+**Size:** 227,755 structure entries (source wording: 227,755).
+
+**Scope:** Unfiltered OPTIMADE meta.data_available for the named child database, one-record sample only.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structures; computed materials properties.
+
+**Access:** open. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://openmaterialsdb.se/) · [documentation](https://openmaterialsdb.se/) · [api_index](https://optimade-index.openmaterialsdb.se)
+
+**Evidence:**
+
+- [Open Materials Database provider documentation](https://openmaterialsdb.se/) (checked 2026-11-01): Computational crystal structures and related calculations served through httk. Distinct from Organic Materials Database (omdb.mathub.io), despite the shared OMDB abbreviation.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+- [Open Materials Database bounded API sample](http://optimade.openmaterialsdb.se/v1/structures?page_limit=1) (checked 2026-11-01): Anonymous JSON query returned 1 record(s); exact response and hash retained in research/repository_audit_20261101. Only the sample was inspected.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+
+**Tags:** Repository-coverage-20261101, omdb, Open Materials Database.
 
 <a id="carolina"></a>
 ## Carolina Materials Database
@@ -859,3 +956,35 @@ Computational database for renewable-energy materials with relaxed crystal struc
 - The cited formation-energy methodology paper is not a complete frozen dataset descriptor.
 
 **Tags:** renewable energy, electronic structure, GW, thermochemistry, NREL, NLR, collection:sedaoturak.
+
+<a id="odbx"></a>
+## Open Database of Xtals (odbx)
+
+OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.
+
+**Size:** Unranked structure records (source wording: Unranked).
+
+**Scope:** Full collection size not verified; no estimate assigned.
+
+**Release:** Provider/API snapshot, checked 2026-11-01. **Year:** Not verified.
+
+**Provenance:** provider-listed computational crystal repository; payload unverified. **Structure availability:** `mixed`.
+
+**Labels/content:** crystal structures.
+
+**Access:** mixed. **Dataset license:** Not verified; inspect collection and original-source terms before redistribution.
+
+**Official routes:** [homepage](https://odbx.science/) · [documentation](https://providers.optimade.org/v1/links) · [api_index](https://optimade-index.odbx.science)
+
+**Evidence:**
+
+- [Open Database of Xtals (odbx) provider documentation](https://providers.optimade.org/v1/links) (checked 2026-11-01): OPTIMADE-listed crystal database. Provider index retrieval failed during this check; current release volume, license and payload availability remain unverified.
+- [Official OPTIMADE provider registry](https://providers.optimade.org/v1/links) (checked 2026-11-01): Lists provider identity and index URL; listing alone does not establish live data access.
+
+**Reuse and interpretation notes:**
+
+- Database/provider snapshot checked 2026-11-01; overlapping records and releases must not be summed as unique materials.
+- Public availability is distinct from reuse permissions; per-record provenance and rights may differ.
+- No defensible full-collection size verified; deliberately unranked.  API: OPTIMADE; Advertised route could not be verified: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>
+
+**Tags:** Repository-coverage-20261101, odbx, Open Database of Xtals (odbx).

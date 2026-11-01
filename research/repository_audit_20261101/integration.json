@@ -1,0 +1,52 @@
+{
+  "checked_date": "2026-11-01",
+  "tag": "Repository-coverage-20261101",
+  "added_dataset_ids": [
+    "matterverse",
+    "tcod",
+    "open-materials-database",
+    "odbx",
+    "mpdd",
+    "mpod",
+    "anyterial-amdb",
+    "nist-trc-alloy"
+  ],
+  "added_resources": [
+    "NIMS Materials Data Repository (MDR)",
+    "Materials Commons",
+    "MPContribs",
+    "Matterverse",
+    "Theoretical Crystallography Open Database (TCOD)",
+    "Open Materials Database",
+    "Open Database of Xtals (odbx)",
+    "Physical Sciences Data Infrastructure (PSDI)",
+    "Material-Property-Descriptor Database (MPDD)",
+    "MatCloud",
+    "Material Properties Open Database (MPOD)",
+    "AtomGPT.org",
+    "Anyterial",
+    "NIST PhaseData",
+    "NIST TRC Alloy Data"
+  ],
+  "added_api_ids": [
+    "matterverse-optimade",
+    "tcod-optimade",
+    "omdb-optimade",
+    "odbx-optimade",
+    "psdi-optimade",
+    "mpdd-optimade",
+    "matcloud-optimade",
+    "mpod-optimade",
+    "atomgpt-optimade",
+    "anyterial-optimade",
+    "nims-mdr-native",
+    "materials-commons-native",
+    "mpcontribs-native",
+    "nist-phasedata-native",
+    "nist-trc-alloy-native"
+  ],
+  "dataset_records": 532,
+  "resource_records": 103,
+  "api_records": 35,
+  "scope": "All 15 providers from the missing-first-class audit are now represented; eight data collections are separately searchable. AtomGPT links existing JARVIS data. Broad repositories are resources, not invented aggregate datasets."
+}
