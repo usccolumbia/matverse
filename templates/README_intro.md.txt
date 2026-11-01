@@ -1,4 +1,4 @@
-# MatVerse
+# MatVerse [![Search MatVerse datasets](assets/search-box.svg)](https://usccolumbia.github.io/matverse/?q=thermoelectric)
 
 **A source-verified atlas of crystal materials datasets.**
 
