@@ -1,6 +1,6 @@
 {
   "checked_date": "2026-11-01",
-  "unique_urls": 1057,
+  "unique_urls": 1166,
   "collection_repositories": [
     "blaiszik/awesome-matchem-datasets",
     "JARVIS-Tools Notebooks",
@@ -50,6 +50,28 @@
       "origins": [
         "REMI: REsource for Materials Informatics",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "http://osd.clarku.edu/public/",
+      "labels": [
+        "Organic Superconductor Database (OSD) — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "http://osd.clarku.edu/public/about",
+      "labels": [
+        "IEEE-listed route: Clark OSD",
+        "OSD official about page",
+        "Organic Superconductor Database (OSD) — homepage"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route",
+        "Resource evidence"
       ]
     },
     {
@@ -329,6 +351,15 @@
       ]
     },
     {
+      "url": "https://aclanthology.org/2020.lrec-1.834/",
+      "labels": [
+        "SC-CoMIcs superconductivity information-extraction corpus — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://aflow.org",
       "labels": [
         "AFLOW"
@@ -433,6 +464,33 @@
       ]
     },
     {
+      "url": "https://api.datacite.org/dois/10.48505/nims.3739",
+      "labels": [
+        "NIMS-registered metadata for MDR SuperCon series DOI"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.48505/nims.4487",
+      "labels": [
+        "NIMS-registered metadata for MDR SuperCon Datasheet Ver.240322"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.57760/sciencedb.j00113.00259",
+      "labels": [
+        "ScienceDB HTSC-2025 V1 DOI metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://api.figshare.com/v2/articles/11888115/versions/2",
       "labels": [
         "Battery database v2 metadata"
@@ -496,6 +554,15 @@
       ]
     },
     {
+      "url": "https://api.figshare.com/v2/articles/22975787",
+      "labels": [
+        "JARVIS supercon_chem Figshare version 1 metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://api.figshare.com/v2/articles/23713842",
       "labels": [
         "Materials Project Trajectory (MPtrj) — primary documentation"
@@ -517,6 +584,15 @@
       "url": "https://api.figshare.com/v2/articles/24499930",
       "labels": [
         "3DSC_MP repository metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/25270012",
+      "labels": [
+        "High-pressure hydride dataset Figshare metadata"
       ],
       "origins": [
         "Catalog evidence"
@@ -608,6 +684,24 @@
       ]
     },
     {
+      "url": "https://api.figshare.com/v2/collections/2861821",
+      "labels": [
+        "Robinson HTS collection metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://api.figshare.com/v2/collections/2861821/articles?page_size=100",
+      "labels": [
+        "Robinson HTS public collection articles"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://api.github.com/repos/JARVIS-Materials-Design/jarvis-tools-notebooks",
       "labels": [
         "JARVIS-Tools Notebooks inspected document",
@@ -633,6 +727,24 @@
       ],
       "origins": [
         "Collection evidence"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/henniggroup/BEE-NET/git/trees/f21c260a9117830f2d74f2c5ac844ab671c0c606?recursive=1",
+      "labels": [
+        "BEE-NET immutable public file inventory"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/henniggroup/BETE-NET/git/trees/56bc783908a60e8a15e31b60018e6f3c3e48f593?recursive=1",
+      "labels": [
+        "BETE-NET immutable public file inventory"
+      ],
+      "origins": [
+        "Catalog evidence"
       ]
     },
     {
@@ -700,6 +812,28 @@
       ]
     },
     {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=464",
+      "labels": [
+        "UCI dataset 464 official metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.ics.uci.edu/dataset/464/superconductivty+data",
+      "labels": [
+        "IEEE-listed route: UCI Superconductivty Data",
+        "UCI Superconductivity Data (Hamidieh 2018) — homepage",
+        "UCI Superconductivty Data"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://archive.materialscloud.org",
       "labels": [
         "Materials Cloud Archives"
@@ -719,6 +853,15 @@
       ]
     },
     {
+      "url": "https://archive.materialscloud.org/api/records/0kqen-w8h90",
+      "labels": [
+        "Materials Cloud version 4 metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://archive.materialscloud.org/api/records/17gf6-84915",
       "labels": [
         "MC2D record metadata"
@@ -731,6 +874,33 @@
       "url": "https://archive.materialscloud.org/api/records/1xf71-nf390",
       "labels": [
         "CURATED COFs file license"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/api/records/2hg1p-63427",
+      "labels": [
+        "Materials Cloud 2022.49 metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/api/records/3kbt5-r3n56",
+      "labels": [
+        "Cerqueira EPC archive metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/api/records/3kbt5-r3n56/files/README.txt/content",
+      "labels": [
+        "Cerqueira EPC archive README"
       ],
       "origins": [
         "Catalog evidence"
@@ -773,9 +943,38 @@
       ]
     },
     {
+      "url": "https://archive.materialscloud.org/api/records/skdzy-kyx54",
+      "labels": [
+        "Hennig–Xie Materials Cloud metadata"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content",
+      "labels": [
+        "Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — data",
+        "Hennig–Xie public numerical tables"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://archive.materialscloud.org/record/2023.13",
       "labels": [
         "ReDD-COFFEE v1"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/0kqen-w8h90",
+      "labels": [
+        "Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds — version 4"
       ],
       "origins": [
         "Catalog evidence"
@@ -806,6 +1005,28 @@
       "labels": [
         "CURATED COFs archive release history",
         "CURATED covalent organic frameworks — data"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/2hg1p-63427",
+      "labels": [
+        "Antiperovskite superconductivity DFPT dataset — homepage",
+        "Superconductivity in antiperovskites — data archive"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/3kbt5-r3n56",
+      "labels": [
+        "Cerqueira–Sanna–Marques conventional-superconductor EPC archive — homepage",
+        "Sampling the materials space for conventional superconducting compounds — data archive"
       ],
       "origins": [
         "Catalog evidence",
@@ -851,6 +1072,15 @@
       ],
       "origins": [
         "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/skdzy-kyx54",
+      "labels": [
+        "Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — homepage"
+      ],
+      "origins": [
         "Catalog official route"
       ]
     },
@@ -942,6 +1172,17 @@
       ]
     },
     {
+      "url": "https://arxiv.org/abs/2205.02554",
+      "labels": [
+        "Mapping Superconductivity in High-Pressure Hydrides: The Superhydra Project",
+        "Superhydra binary-hydride database — homepage"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://arxiv.org/abs/2206.08917v3",
       "labels": [
         "OC22 final author paper"
@@ -963,6 +1204,15 @@
       "url": "https://arxiv.org/abs/2211.16443",
       "labels": [
         "Carbon-data synthetic atomistic trajectories — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.12694",
+      "labels": [
+        "JARVIS high-pressure hydride superconductivity campaign — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -1112,9 +1362,27 @@
       ]
     },
     {
+      "url": "https://arxiv.org/html/2312.12694v4",
+      "labels": [
+        "Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning — author version 4"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://arxiv.org/html/2503.05577v2",
       "labels": [
         "opXRD author preprint v2"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2503.20005v1",
+      "labels": [
+        "BEE-NET author preprint"
       ],
       "origins": [
         "Catalog evidence"
@@ -1224,6 +1492,15 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://books.google.com/books?id=bbHgTVWyFlkC",
+      "labels": [
+        "IEEE-listed route: Roberts 1978 supplement"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -2077,6 +2354,17 @@
       ]
     },
     {
+      "url": "https://data.mendeley.com/datasets/xc9fjz2p3h/3",
+      "labels": [
+        "SC-CoMIcs Mendeley Data version 3",
+        "SC-CoMIcs superconductivity information-extraction corpus — homepage"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://data.nist.gov",
       "labels": [
         "NIST AM-Bench — source"
@@ -2093,6 +2381,26 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723",
+      "labels": [
+        "IEEE-listed route: NIST SRD 62 metadata",
+        "NIST SRD 62 official resource metadata"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723",
+      "labels": [
+        "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -2235,6 +2543,17 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1002/adma.202307085",
+      "labels": [
+        "Cerqueira–Sanna–Marques conventional-superconductor EPC archive — paper",
+        "Sampling the Materials Space for Conventional Superconducting Compounds"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1002/aidi.202500044",
       "labels": [
         "opXRD: Open Experimental Powder X-ray Diffraction Database — paper"
@@ -2276,6 +2595,17 @@
         "MAST-ML perovskite stability educational slice — paper"
       ],
       "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.commatsci.2018.07.052",
+      "labels": [
+        "A data-driven statistical model for predicting the critical temperature of a superconductor",
+        "UCI Superconductivity Data (Hamidieh 2018) — paper"
+      ],
+      "origins": [
+        "Catalog evidence",
         "Catalog official route"
       ]
     },
@@ -2460,6 +2790,15 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1038/s41524-018-0085-8",
+      "labels": [
+        "JARVIS supercon_chem experimental composition/Tc benchmark — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1038/s41524-020-00406-3",
       "labels": [
         "Matbench dielectric — paper",
@@ -2486,6 +2825,15 @@
       "url": "https://doi.org/10.1038/s41524-020-00481-6",
       "labels": [
         "WBM / Matbench Discovery stability test set — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1038/s41524-021-00666-7",
+      "labels": [
+        "Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -2528,6 +2876,15 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1038/s41524-024-01475-4",
+      "labels": [
+        "Hennig BETE-NET released EPC cohort — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1038/s41524-025-01834-9",
       "labels": [
         "MP-ALOE — data",
@@ -2536,6 +2893,15 @@
       ],
       "origins": [
         "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1038/s41524-026-01964-8",
+      "labels": [
+        "Hennig BEE-NET public structures and split files — paper"
+      ],
+      "origins": [
         "Catalog official route"
       ]
     },
@@ -2765,9 +3131,36 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1063/1.555540",
+      "labels": [
+        "Roberts superconductive-materials survey (1976; literature through March 1975)"
+      ],
+      "origins": [
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1063/5.0102645",
       "labels": [
         "DMC-ICE13 — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/27660400.2021.1918396",
+      "labels": [
+        "SuperMat public superconductivity linked-record CSV — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/27660400.2022.2153633",
+      "labels": [
+        "SuperCon² text-extracted superconductivity records — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -2786,6 +3179,15 @@
       "url": "https://doi.org/10.1080/27660400.2025.2590811",
       "labels": [
         "Starrydata2 experimental materials datasets — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1088/1674-1056/adf042",
+      "labels": [
+        "HTSC-2025 ambient-pressure BCS superconductor benchmark — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -2843,9 +3245,38 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1103/PhysRevMaterials.7.054806",
+      "labels": [
+        "Superhydra Physical Review Materials article and Supplemental Material",
+        "Superhydra binary-hydride database — paper"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1103/cl8c-8f1f",
       "labels": [
         "van der Waals 2D Heterostructure Database (HetDB) — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1103/sb28-fjc9",
+      "labels": [
+        "MC3D conventional-superconductivity screening and Eliashberg dataset — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1109/TASC.2016.2628700",
+      "labels": [
+        "Robinson HTS Wire Critical Current Database — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -2888,12 +3319,30 @@
       ]
     },
     {
+      "url": "https://doi.org/10.17632/xc9fjz2p3h.3",
+      "labels": [
+        "SC-CoMIcs superconductivity information-extraction corpus — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.18126/8p6m-e135",
       "labels": [
         "MD Simulated Monomer Properties"
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.18434/T4KP8J",
+      "labels": [
+        "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — data"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -2912,6 +3361,51 @@
       ],
       "origins": [
         "nanoHUB Machine Learning Lab Module"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.24432/C53P47",
+      "labels": [
+        "UCI Superconductivity Data (Hamidieh 2018) — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:6g-az",
+      "labels": [
+        "Antiperovskite superconductivity DFPT dataset — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:qv-bq",
+      "labels": [
+        "Cerqueira–Sanna–Marques conventional-superconductor EPC archive — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:x2-ap",
+      "labels": [
+        "MC3D conventional-superconductivity screening and Eliashberg dataset — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3390/cryst12070919",
+      "labels": [
+        "Organic Superconductor Database (OSD) — paper"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -3105,6 +3599,24 @@
       ]
     },
     {
+      "url": "https://doi.org/10.57760/sciencedb.j00113.00259",
+      "labels": [
+        "HTSC-2025 ambient-pressure BCS superconductor benchmark — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.6028/NBS.TN.983",
+      "labels": [
+        "Roberts Properties of Selected Superconductive Materials, 1978 Supplement"
+      ],
+      "origins": [
+        "Navigation resource"
+      ]
+    },
+    {
       "url": "https://doi.org/10.6084/m9.figshare.11888115.v2",
       "labels": [
         "ChemDataExtractor battery materials database (2020) — data"
@@ -3151,6 +3663,15 @@
       ]
     },
     {
+      "url": "https://doi.org/10.6084/m9.figshare.22975787.v1",
+      "labels": [
+        "JARVIS supercon_chem experimental composition/Tc benchmark — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.6084/m9.figshare.23713842",
       "labels": [
         "Materials Project Trajectory (MPtrj) — data"
@@ -3162,7 +3683,7 @@
     {
       "url": "https://doi.org/10.6084/m9.figshare.24499924",
       "labels": [
-        "3DSC_ICSD — data"
+        "3DSC_ICSD — superconductors linked to ICSD structures — data"
       ],
       "origins": [
         "Catalog official route"
@@ -3171,7 +3692,7 @@
     {
       "url": "https://doi.org/10.6084/m9.figshare.24499930",
       "labels": [
-        "3DSC_MP — data"
+        "3DSC_MP — superconductors with Materials Project structures — data"
       ],
       "origins": [
         "Catalog official route"
@@ -3185,6 +3706,15 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.25270012.v1",
+      "labels": [
+        "JARVIS high-pressure hydride superconductivity campaign — data"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -3258,6 +3788,15 @@
       "url": "https://doi.org/10.6084/m9.figshare.9722159.v3",
       "labels": [
         "Text-mined inorganic solid-state synthesis recipes — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.c.2861821",
+      "labels": [
+        "Robinson HTS Wire Critical Current Database — data"
       ],
       "origins": [
         "Catalog official route"
@@ -3403,6 +3942,15 @@
       "url": "https://figshare.com/articles/dataset/7699910/3",
       "labels": [
         "2DMatPedia — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/Data-driven_Design_of_High_Pressure_Hydride_Superconductors_using_DFT_and_Deep_Learning/25270012",
+      "labels": [
+        "JARVIS high-pressure hydride superconductivity campaign — homepage"
       ],
       "origins": [
         "Catalog official route"
@@ -4123,10 +4671,10 @@
     {
       "url": "https://github.com/aimat-lab/3DSC",
       "labels": [
-        "3DSC_ICSD — code",
-        "3DSC_ICSD — homepage",
-        "3DSC_MP — code",
-        "3DSC_MP — homepage"
+        "3DSC_ICSD — superconductors linked to ICSD structures — code",
+        "3DSC_ICSD — superconductors linked to ICSD structures — homepage",
+        "3DSC_MP — superconductors with Materials Project structures — code",
+        "3DSC_MP — superconductors with Materials Project structures — homepage"
       ],
       "origins": [
         "Catalog official route"
@@ -4594,6 +5142,53 @@
       ]
     },
     {
+      "url": "https://github.com/henniggroup/BEE-NET",
+      "labels": [
+        "Hennig BEE-NET public structures and split files — code",
+        "Hennig BEE-NET public structures and split files — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/henniggroup/BEE-NET/tree/f21c260a9117830f2d74f2c5ac844ab671c0c606/structures",
+      "labels": [
+        "Hennig BEE-NET public structures and split files — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/henniggroup/BETE-NET",
+      "labels": [
+        "Hennig BETE-NET released EPC cohort — code",
+        "Hennig BETE-NET released EPC cohort — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/henniggroup/BETE-NET/blob/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json",
+      "labels": [
+        "Hennig BETE-NET released EPC cohort — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/henniggroup/symbolic-regression-utilities",
+      "labels": [
+        "Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — code"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://github.com/hevalatas/ProtBENCH",
       "labels": [
         "ProtBENCH"
@@ -4731,6 +5326,15 @@
       ]
     },
     {
+      "url": "https://github.com/khamidieh/predict_tc",
+      "labels": [
+        "UCI Superconductivity Data (Hamidieh 2018) — code"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ALIGNN_Sc.ipynb",
       "labels": [
         "ALIGNN Superconductor training"
@@ -4810,6 +5414,46 @@
       ],
       "origins": [
         "JARVIS-Tools Notebooks"
+      ]
+    },
+    {
+      "url": "https://github.com/lfoppiano/SuperMat",
+      "labels": [
+        "SuperMat public superconductivity linked-record CSV — code",
+        "SuperMat public superconductivity linked-record CSV — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/lfoppiano/SuperMat/blob/master/data/csv/SuperMat-2.0.csv",
+      "labels": [
+        "SuperMat public superconductivity linked-record CSV — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/lfoppiano/supercon",
+      "labels": [
+        "SuperCon² author repository",
+        "SuperCon² text-extracted superconductivity records — code",
+        "SuperCon² text-extracted superconductivity records — homepage"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/lfoppiano/supercon/blob/main/data/supercon2_v23.04.28_cleanup.csv",
+      "labels": [
+        "SuperCon² text-extracted superconductivity records — data"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -6013,6 +6657,17 @@
       ]
     },
     {
+      "url": "https://github.com/tti-coin/sc-comics",
+      "labels": [
+        "SC-CoMIcs author repository",
+        "SC-CoMIcs superconductivity information-extraction corpus — code"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://github.com/txie-93/cdvae",
       "labels": [
         "Carbon-24 (CDVAE benchmark) — code",
@@ -6092,6 +6747,7 @@
     {
       "url": "https://github.com/usnistgov/jarvis",
       "labels": [
+        "JARVIS supercon_chem experimental composition/Tc benchmark — code",
         "JARVIS superconductivity 2D DFT cohort — code",
         "JARVIS superconductivity 3D DFT cohort — code",
         "JARVIS-DFT 2D snapshot — code",
@@ -6274,6 +6930,26 @@
       "origins": [
         "Catalog official route",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://htsdb.wimbush.eu/about",
+      "labels": [
+        "IEEE-listed route: Robinson critical-current data",
+        "Robinson HTS Wire Critical Current Database — homepage"
+      ],
+      "origins": [
+        "Catalog official route",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://htsdb2.wimbush.eu/about",
+      "labels": [
+        "Robinson HTS database official documentation"
+      ],
+      "origins": [
+        "Catalog evidence"
       ]
     },
     {
@@ -6655,6 +7331,33 @@
       ]
     },
     {
+      "url": "https://huggingface.co/datasets/xiao-qi/HTSC-2025",
+      "labels": [
+        "HTSC-2025 ambient-pressure BCS superconductor benchmark — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/HTSC-2025.json",
+      "labels": [
+        "HTSC-2025 official JSON data"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/README.md",
+      "labels": [
+        "HTSC-2025 official dataset card"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://huggingface.co/facebook/OC25",
       "labels": [
         "OC25 (Open Catalyst 2025)",
@@ -6791,6 +7494,19 @@
       ]
     },
     {
+      "url": "https://ieeecsc.org/learning-hub/superconductor-databases-resources",
+      "labels": [
+        "IEEE CSC Superconductor Databases & Resources",
+        "IEEE CSC linked reference list",
+        "IEEE CSC resource directory",
+        "IEEE CSC wiki description"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://jarvis-tools.readthedocs.io/en/master/publications.html",
       "labels": [
         "various other publications"
@@ -6870,6 +7586,24 @@
       ]
     },
     {
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513",
+      "labels": [
+        "Earlier Hennig–Xie analytical-form study (2019)"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://journals.aps.org/prmaterials/supplemental/10.1103/PhysRevMaterials.7.054806",
+      "labels": [
+        "Superhydra binary-hydride database — data"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://journals.iucr.org/j/issues/2019/03/00/nb5236/",
       "labels": [
         "ROD primary descriptor",
@@ -6896,6 +7630,17 @@
       ],
       "origins": [
         "REMI: REsource for Materials Informatics"
+      ]
+    },
+    {
+      "url": "https://jzis.org/materials",
+      "labels": [
+        "SCLib / JZIS superconducting-transition records",
+        "SCLib public materials snapshot"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
       ]
     },
     {
@@ -7224,6 +7969,15 @@
       ]
     },
     {
+      "url": "https://mc3d.materialscloud.org/?preset=superconductivity",
+      "labels": [
+        "MC3D conventional-superconductivity screening and Eliashberg dataset — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://mdcs.nist.gov/",
       "labels": [
         "Materials Data Curation System"
@@ -7244,9 +7998,11 @@
     {
       "url": "https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2",
       "labels": [
+        "IEEE-listed route: MDR SuperCon Datasheet",
         "MDR SuperCon"
       ],
       "origins": [
+        "Resource evidence",
         "blaiszik/awesome-matchem-datasets"
       ]
     },
@@ -7288,6 +8044,15 @@
       ],
       "origins": [
         "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://mits.nims.go.jp",
+      "labels": [
+        "IEEE-listed route: NIMS MatNavi"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -7801,6 +8566,24 @@
       ]
     },
     {
+      "url": "https://ndownloader.figshare.com/files/40719260",
+      "labels": [
+        "Official supercon_chem JSON ZIP"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://next-gen.materialsproject.org",
+      "labels": [
+        "IEEE-listed route: Materials Project"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://nomad-lab.eu/",
       "labels": [
         "NOMAD Repository and Archive"
@@ -7971,7 +8754,19 @@
       "labels": [
         "JARVIS data registry",
         "JARVIS-DFT 2D snapshot — homepage",
-        "JARVIS-Tools database inventory"
+        "JARVIS-Tools database inventory",
+        "JARVIS-Tools official dataset inventory"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/",
+      "labels": [
+        "JARVIS supercon_chem Tc benchmark",
+        "JARVIS supercon_chem experimental composition/Tc benchmark — homepage"
       ],
       "origins": [
         "Catalog evidence",
@@ -8277,6 +9072,24 @@
       ]
     },
     {
+      "url": "https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/DATA_SOURCES.md",
+      "labels": [
+        "SCLib provenance and upstream-license notes"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/LICENSE-DATA",
+      "labels": [
+        "SCLib data license"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://raw.githubusercontent.com/LeMaterial/lemat-genbench/main/README.md",
       "labels": [
         "LeMat-GenBench official README"
@@ -8373,6 +9186,42 @@
       ]
     },
     {
+      "url": "https://raw.githubusercontent.com/henniggroup/BEE-NET/f21c260a9117830f2d74f2c5ac844ab671c0c606/README.md",
+      "labels": [
+        "BEE-NET author release documentation"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/LICENSE",
+      "labels": [
+        "BETE-NET repository licence"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/README.md",
+      "labels": [
+        "BETE-NET author release documentation"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json",
+      "labels": [
+        "BETE-NET released data header"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/datasets.yml",
       "labels": [
         "Matbench Discovery dataset registry"
@@ -8394,6 +9243,51 @@
       "url": "https://raw.githubusercontent.com/jla-gardner/carbon-data/main/README.md",
       "labels": [
         "Carbon-data author README"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lfoppiano/SuperMat/master/README.md",
+      "labels": [
+        "SuperMat author repository README"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lfoppiano/SuperMat/master/data/csv/SuperMat-2.0.csv",
+      "labels": [
+        "SuperMat public CSV 2.0"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v22.12.03.csv",
+      "labels": [
+        "SuperCon² original CSV v22.12.03"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v23.04.28_cleanup.csv",
+      "labels": [
+        "SuperCon² cleaned CSV v23.04.28"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ljcj007/SuperBand/main/superband.csv",
+      "labels": [
+        "SuperBand official reference CSV snapshot"
       ],
       "origins": [
         "Catalog evidence"
@@ -8694,6 +9588,27 @@
       ]
     },
     {
+      "url": "https://srd.nist.gov/jpcrdreprint/1.555540.pdf",
+      "labels": [
+        "IEEE-listed route: Roberts survey",
+        "Survey of superconductive materials and critical evaluation of selected properties"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://srdata.nist.gov/CeramicDataPortal/hit",
+      "labels": [
+        "IEEE-listed route: NIST legacy WebHTS portal",
+        "NIST WebHTS search portal"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://srdata.nist.gov/CeramicDataPortal/scd",
       "labels": [
         "NIST Structural Ceramics Database (SCD) Database"
@@ -8746,6 +9661,27 @@
       ],
       "origins": [
         "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://steam-material-library.docs.cern.ch/",
+      "labels": [
+        "SMaLi reference documentation"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://steam.docs.cern.ch/libraries/materials/",
+      "labels": [
+        "CERN STEAM Materials Library (SMaLi)",
+        "CERN STEAM Materials documentation",
+        "IEEE-listed route: CERN materials"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
       ]
     },
     {
@@ -8846,6 +9782,28 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf",
+      "labels": [
+        "Archived Wikipedia List of Superconductors (IEEE-linked PDF)",
+        "IEEE-listed route: Archived Wikipedia list"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://wiki.ieeecsc.org/",
+      "labels": [
+        "IEEE CSC Superconductor Properties Wiki",
+        "IEEE-listed route: CSC Wiki"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
       ]
     },
     {
@@ -9092,6 +10050,24 @@
       ]
     },
     {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML",
+      "labels": [
+        "3DSC primary article full text"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12056090/fullTextXML",
+      "labels": [
+        "SuperBand primary article full text"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://www.engineeringtoolbox.com/material-properties-t_24.html",
       "labels": [
         "The Engineering Toolbox"
@@ -9277,6 +10253,15 @@
       ]
     },
     {
+      "url": "https://www.mdpi.com/2073-4352/12/7/919",
+      "labels": [
+        "A Database for Crystalline Organic Conductors and Superconductors"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://www.mext.go.jp/content/20200602-mxt_nanozai-000007507_6_2.pdf",
       "labels": [
         "MEXT materials data reference, NIMS-provided table"
@@ -9340,9 +10325,36 @@
       ]
     },
     {
+      "url": "https://www.nature.com/articles/s41524-021-00666-7",
+      "labels": [
+        "Xie et al. Eliashberg theory paper"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://www.nature.com/articles/s41524-024-01227-4",
       "labels": [
         "MPF.2021.2.8 — primary documentation"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41524-024-01475-4",
+      "labels": [
+        "BETE-NET journal paper"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41524-026-01964-8",
+      "labels": [
+        "BEE-NET journal paper"
       ],
       "origins": [
         "Catalog evidence"
@@ -9458,8 +10470,8 @@
       "url": "https://www.nature.com/articles/s41597-023-02721-y",
       "labels": [
         "3DSC Scientific Data descriptor",
-        "3DSC_ICSD — paper",
-        "3DSC_MP — paper"
+        "3DSC_ICSD — superconductors linked to ICSD structures — paper",
+        "3DSC_MP — superconductors with Materials Project structures — paper"
       ],
       "origins": [
         "Catalog evidence",
@@ -9570,6 +10582,33 @@
       "origins": [
         "JARVIS-Tools Notebooks",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/open/license",
+      "labels": [
+        "NIST SRD copyright and licensing statements"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20",
+      "labels": [
+        "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/publications/properties-selected-superconductive-materials-1978-supplement",
+      "labels": [
+        "NIST Technical Note 983 publication record"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {

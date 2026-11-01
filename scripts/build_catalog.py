@@ -162,10 +162,20 @@ def render(data, resources):
         lines.append(f"| [{cell(d['name'])}](catalog/{d['category']}.md#{d['id']}) | {CATEGORIES[d['category']]} | {size(d)} {cell(d['count_unit'])} | {links} |")
     lines += ['', 'Further journal searching should consider perovskites, high-entropy materials, defects, diffraction, battery and magnetic materials, and phonon/electron-phonon datasets. Inclusion requires a verified primary descriptor and an explicit scope; a journal article license alone does not establish the accompanying data license.', '']
     outputs['docs/scientific-data.md'] = '\n'.join(lines)
+    superconductivity = [d for d in data if 'superconductivity' in d['tags']]
+    topic_lines = ['| Dataset / release | Reported size | Counted unit | Structure availability | Label provenance | Access |', '|---|---:|---|---|---|---|']
+    for d in sorted(superconductivity, key=order):
+        topic_lines.append('| ' + ' | '.join([f"[{cell(d['name'])}](catalog/{d['category']}.md#{d['id']})", size(d), cell(d['count_unit']), cell(d['structure_level']), cell(d['provenance']), cell(d['access'])]) + ' |')
+    topic_resources = [r for r in resources if re.search(r'superconduct', json.dumps(r), re.I)]
+    resource_lines = ['| Resource | Role | Availability and use |', '|---|---|---|']
+    for r in sorted(topic_resources, key=lambda r:r['name'].casefold()):
+        resource_lines.append(f"| [{cell(r['name'])}]({r['url']}) | {cell(r['kind'])} | {cell(r['description'])} |")
+    topic_template = (ROOT / 'templates/superconductivity.md.txt').read_text()
+    outputs['docs/superconductivity.md'] = topic_template.replace('{{TOPIC_COUNT}}', str(len(superconductivity))).replace('{{DATASET_TABLE}}', '\n'.join(topic_lines)).replace('{{RESOURCE_TABLE}}', '\n'.join(resource_lines))
     summary = dict(checked_date=DATE, dataset_records=len(data), categories=dict(counts), unranked_records=unknown, distinct_dataset_source_urls=source_count, navigation_resources=len(resources), count_total=None, count_total_note='Intentionally omitted: units, overlapping datasets and releases are not additive.')
     outputs['data/summary.json'] = json.dumps(summary, indent=2, ensure_ascii=False) + '\n'
     input_paths = ['data/datasets.json', 'data/resources.json', 'data/dataset.schema.json',
-                   'templates/README_intro.md.txt', 'scripts/build_catalog.py',
+                   'templates/README_intro.md.txt', 'templates/superconductivity.md.txt', 'scripts/build_catalog.py',
                    'docs/SURVEY.md', 'docs/METHODOLOGY.md', 'docs/review-crosswalk.md']
     manifest = {
         'checked_date': DATE,

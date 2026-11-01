@@ -1,15 +1,15 @@
 {
   "catalog_date": "2026-11-01",
-  "dataset_records": 145,
-  "resources": 32,
+  "dataset_records": 162,
+  "resources": 39,
   "source_entries": 789,
   "source_collections": 6,
   "sha256": {
-    "data/datasets.json": "338ba3ceee7ad2a9bbee9cdbf36d22597a783a23ac87de09bc113bd9b83331dc",
-    "data/resources.json": "d4109fa631170ee3a0b313051ffd7eb68bd4738df118d0317779993e7f89d4ee",
-    "web/index.template.html": "cf35c94c0aab6064ff18650c79af4d8ee4ffc4a38a857e6ade291da457474f83",
-    "web/styles.css": "bd839900b4452aff5d50e700257487306ff2026d7aadf61a90447194a447b420",
-    "web/app.js": "88f34ed8b0f8c0c982b5ea67874d34588a6f982eec7defdb6382a30234cb0858",
+    "data/datasets.json": "8dc77288a766c11454e941d0deb0fec6841216cd4ec344ed686aae92158eb5ed",
+    "data/resources.json": "05a3f22e61bda14749975288f868951401728889d88ed9b7d16dae8c34c99623",
+    "web/index.template.html": "cfd5af8a8db6aff13b02cf7c454066b4cea80289e18cbd2965a1e7f23226392f",
+    "web/styles.css": "b3eb0a11382c164837421aa9e53aa1a9a9aac2c2f460f53cb73ce8330c6c90df",
+    "web/app.js": "712e1013ce52ae213527c153cc93fc402ce81367f424644457946d776260345a",
     "scripts/collection_inventory.py": "6a2e4e0161b2bb00f052cfbec3725d00b40f89f972766f7843b59377780314d6",
     "research/collection_blaiszik.json": "a31eea035404648c58874f5f95c1c16fdecbbb2c5dde9533911ca123d3bc98eb",
     "research/collection_jarvis_notebooks.json": "fdf8858af8517d8fdb5b05f1d18df8135e83fc1975becd831c5f91b31f4f7d46",
@@ -18,6 +18,6 @@
     "research/collection_remi.json": "6d778f961f8e3177053361e1e9a3a764fa4f2dad6503b030b2c292fe9571d923",
     "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5"
   },
-  "index_sha256": "1fe639600b3c3b66b995db50f04ccef1283418f3adcb12a13182d3953e316630",
+  "index_sha256": "cbccacdcb0652ce9297ab2a676122690d9e25256ce75cafa3d1f9e97da5546f4",
   "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
 }

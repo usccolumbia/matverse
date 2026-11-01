@@ -4,9 +4,10 @@ const REPO = 'https://github.com/usccolumbia/matverse';
 const DEFAULT_STATE = {q:'', category:'', access:'', structure:'', license:'', unit:'', sort:'category', view:'datasets', collection:'', scope:''};
 const SCOPE_LABELS = {crystal_related:'Crystal-related',adjacent:'Adjacent domains',navigation:'Portals & navigation',uncertain:'Scope uncertain'};
 function normalize(value){return String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim();}
-function queryTokens(query){return (String(query).match(/"[^"]+"|\S+/g)||[]).map(t=>normalize(t.replace(/^"|"$/g,''))).filter(Boolean);}
-function searchable(record,categories={}){return normalize(JSON.stringify(record)+' '+(categories[record.category]||''));}
-function matchesQuery(record,query,categories={}){const text=searchable(record,categories);return queryTokens(query).every(token=>text.includes(token));}
+function normalizeSearch(value){return normalize(value).replace(/\b(?:superconductors?|superconductivity|superconducting|superconductive|supercon)\b/g,'superconductivity').replace(/\bcritical temperatures?\b|\bt c\b/g,'tc');}
+function queryTokens(query){return (normalizeSearch(query).match(/"[^"]+"|\S+/g)||[]).map(t=>t.replace(/^"|"$/g,'')).filter(Boolean);}
+function searchable(record,categories={}){const raw=JSON.stringify(record)+' '+(categories[record.category]||'');return normalize(raw)+' '+normalizeSearch(raw);}
+function matchesQuery(record,query,categories={}){const text=searchable(record,categories);return queryTokens(query).every(token=>token==='tc'?/\btc\b/.test(text):text.includes(token));}
 function unitKind(d){
   const u=normalize(d.count_unit);
   if(/frame|configuration|ionic step|snapshot/.test(u))return 'configurations';
@@ -37,6 +38,11 @@ function filterDatasets(data,state,categories){
 }
 function filterResources(data,state){return data.filter(d=>matchesQuery(d,state.q)).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));}
 function filterSourceEntries(data,state){return data.filter(e=>(!state.collection||e.collection===state.collection)&&(!state.scope||e.scope===state.scope)&&matchesQuery(e,state.q)).sort((a,b)=>a.collection_name.localeCompare(b.collection_name,'en',{sensitivity:'base'})||a.position-b.position);}
+function globalSearchState(query,view='datasets'){return {...DEFAULT_STATE,q:query,view};}
+function searchOverview(catalog,query){
+  const state=globalSearchState(query);
+  return {datasets:filterDatasets(catalog.datasets,{...state,sort:'name'},catalog.categories),resources:filterResources(catalog.resources,state),sources:filterSourceEntries(catalog.sourceEntries,state)};
+}
 function csvFor(rows,kind='datasets'){
   const fields=kind==='sources'?['id','label','url','collection','collection_name','collection_url','position','section','scope']:kind==='resources'?['name','kind','url','description','sources']:['id','name','category','version','year','count','count_display','count_unit','count_scope','count_precision','structure_level','provenance','properties','access','license','links','sources','caveats','tags'];
   const quote=value=>{
@@ -100,6 +106,17 @@ function startApp(){
     $('active-filters').hidden=chips.length===0;
     $('reset').disabled=chips.length===0&&state.sort===DEFAULT_STATE.sort;
   }
+  function renderSearchOverview(){
+    const panel=$('search-overview');
+    if(!state.q.trim()){panel.hidden=true;panel.innerHTML='';return;}
+    const matches=searchOverview(catalog,state.q);
+    const current=state.view==='sources'?'this source-entry view':state.view==='resources'?'the portal view':'the dataset view';
+    const labels={datasets:'dataset records',resources:'portals & resources',sources:'source entries'};
+    const switches=Object.entries(matches).map(([view,rows])=>`<button type="button" data-search-view="${view}">${rows.length} ${labels[view]} <span aria-hidden="true">↗</span></button>`).join('');
+    const previews=state.view!=='datasets'?matches.datasets.slice(0,8).map(d=>`<button type="button" data-open-dataset="${esc(d.id)}">${esc(d.name)} <span aria-hidden="true">↗</span></button>`).join(''):'';
+    panel.innerHTML=`<p><strong>Search across MatVerse.</strong> Results below use ${current} and its selected filters. Open a result group to search it without those filters.</p><div class="search-view-links">${switches}</div>${previews?`<div class="search-dataset-previews"><span>DATASET MATCHES ELSEWHERE IN THE ATLAS</span>${previews}</div>`:''}`;
+    panel.hidden=false;
+  }
   function render(){
     const resourceMode=state.view==='resources',sourceMode=state.view==='sources',datasetMode=state.view==='datasets';
     visible=sourceMode?filterSourceEntries(sourceEntries,state):resourceMode?filterResources(resources,state):filterDatasets(datasets,state,categories);
@@ -127,7 +144,7 @@ function startApp(){
     if(datasetMode)$('dataset-rows').innerHTML=visible.map(datasetRow).join('');
     else $('resource-grid').innerHTML=sourceMode?visible.map(sourceEntryCard).join(''):visible.map(r=>`<article class="resource-card"><span class="resource-kind">${esc(r.kind)}</span><h3>${external(r.url,esc(r.name)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p>${esc(r.description)}</p><details><summary>Source evidence · ${r.sources.length}</summary><ul>${sourceList(r)}</ul></details></article>`).join('');
     $('export-csv').disabled=$('export-json').disabled=visible.length===0;
-    renderChips();updateURL();
+    renderChips();renderSearchOverview();updateURL();
   }
   function reset(){state={...DEFAULT_STATE,view:state.view};render();}
   function expand(id,force=false){
@@ -157,6 +174,12 @@ function startApp(){
   $('clear-search').addEventListener('click',()=>{state.q='';render();$('search').focus();});
   $('type-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-unit]');if(b){state.unit=b.dataset.unit;render();}});
   $('active-filters').addEventListener('click',e=>{const b=e.target.closest('[data-clear]');if(b){state[b.dataset.clear]='';render();}});
+  $('search-overview').addEventListener('click',e=>{
+    const viewButton=e.target.closest('[data-search-view]');
+    if(viewButton){state=globalSearchState(state.q,viewButton.dataset.searchView);render();return;}
+    const datasetButton=e.target.closest('[data-open-dataset]');
+    if(datasetButton){const id=datasetButton.dataset.openDataset;state=globalSearchState(state.q);render();expand(id,true);$('release-'+id)?.scrollIntoView({block:'start'});}
+  });
   for(const v of ['datasets','resources','sources'])$('view-'+v).addEventListener('click',()=>{state.view=v;render();});
   $('reset').addEventListener('click',reset);$('empty-reset').addEventListener('click',reset);
   $('dataset-rows').addEventListener('click',e=>{const b=e.target.closest('[data-expand]');if(b)expand(b.dataset.expand);});
@@ -173,5 +196,5 @@ function startApp(){
   $('export-csv').addEventListener('click',()=>download('csv'));$('export-json').addEventListener('click',()=>download('json'));
   render();openHash();
 }
-if(typeof module!=='undefined'&&module.exports)module.exports={normalize,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,filterSourceEntries,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
+if(typeof module!=='undefined'&&module.exports)module.exports={normalize,normalizeSearch,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,filterSourceEntries,searchOverview,globalSearchState,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
 if(typeof document!=='undefined')startApp();

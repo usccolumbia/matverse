@@ -1,0 +1,54 @@
+{
+  "checked_date": "2026-11-01",
+  "base_commit": "92370b02efe239983e341b7374a6c354615450a5",
+  "input_sha256": {
+    "research/superconductivity_hennig_additions.json": "37d82c72310e7da1c1a62aa0b213e33514a9def5e48653360d05c92df56d65fe",
+    "research/superconductivity_public_additions.json": "bdb0d39e8c4acf1b023e5c58ce242dafe9cf299b7909bdde19cebb5b41c3fc11",
+    "research/superconductivity_public_resources.json": "caef5eb42cce73279d9f2e6ba69eae77bb311009aba5c5a50e53dc8b642b8bd4",
+    "research/superconductivity_specialized_additions.json": "575fabb7e6ff7c5733aaa8b8903164fdf3707ae494212314e5eae00bf1a8544d",
+    "research/superconductivity_existing_corrections.json": "67d6df99bea8ea75a544223bad191e528e55620efc1eed52a8955453a4f4967c"
+  },
+  "dataset_records": 162,
+  "superconductivity_dataset_records": 23,
+  "new_dataset_ids": [
+    "antiperovskite-superconductivity-dfpt",
+    "cerqueira-conventional-epc",
+    "hennig-bee-net-structures",
+    "hennig-bete-net",
+    "hennig-xie-eliashberg-benchmark",
+    "htsc-2025",
+    "jarvis-high-pressure-hydride-2024",
+    "jarvis-supercon-chem",
+    "mc3d-superconductivity",
+    "nist-webhts-srd62",
+    "osd-organic-superconductors",
+    "robinson-hts-critical-current",
+    "sc-comics",
+    "supercon2-text",
+    "superhydra",
+    "supermat-linked-records",
+    "uci-superconductivity-2018"
+  ],
+  "new_resource_count": 7,
+  "merged_duplicate_proposals": [
+    {
+      "proposal_id": "sampling-conventional-superconductors",
+      "canonical_id": "cerqueira-conventional-epc",
+      "reason": "Same Materials Cloud record/DOI; one upstream release, not two datasets"
+    }
+  ],
+  "updated_existing_ids": [
+    "3dsc-mp",
+    "3dsc-icsd",
+    "superband",
+    "mdr-supercon"
+  ],
+  "integration_notes": [
+    "Equivalent 3DSC additional-count denominators deduplicated.",
+    "3DSC display names now state superconductors and their structure parent.",
+    "Hennig direct releases carry full researcher and group search tags.",
+    "Robinson year follows selected v23 release publication (2025), rather than original paper year.",
+    "All thirteen IEEE scientific source routes are retained in directory-source evidence.",
+    "No upstream data payloads are published in this repository."
+  ]
+}

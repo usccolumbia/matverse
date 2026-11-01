@@ -1,0 +1,118 @@
+[
+  {
+    "name": "IEEE CSC Superconductor Databases & Resources",
+    "url": "https://ieeecsc.org/learning-hub/superconductor-databases-resources",
+    "kind": "subject-resource directory",
+    "description": "Navigation directory linking the CSC wiki, UCI, NIST reference sources, OSD, existing MP/NIMS resources, Robinson wire data and CERN materials models. Its thirteen scientific routes are not thirteen independent datasets.",
+    "sources": [
+      {
+        "url": "https://ieeecsc.org/learning-hub/superconductor-databases-resources",
+        "title": "IEEE CSC resource directory",
+        "evidence": "Lists thirteen scientific resource routes, including two routes to WebHTS/SRD 62 and historical reference books/tables.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "IEEE CSC Superconductor Properties Wiki",
+    "url": "https://wiki.ieeecsc.org/",
+    "kind": "community property-reference wiki",
+    "description": "Community-maintained superconducting parameters with literature citations, including Tc, Jc, critical fields, specific heat, gap and structure parameters. IEEE advertises thousands of materials; an independently verified record count, data export and dataset-wide license were not established. IEEE states that it verifies publication provenance rather than entry accuracy.",
+    "sources": [
+      {
+        "url": "https://ieeecsc.org/learning-hub/superconductor-databases-resources",
+        "title": "IEEE CSC wiki description",
+        "evidence": "Describes community property entries and explicitly limits its assurance to publication in peer-reviewed sources.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Roberts superconductive-materials survey (1976; literature through March 1975)",
+    "url": "https://doi.org/10.1063/1.555540",
+    "kind": "historical evaluated data tables",
+    "description": "B. W. Roberts reference compilation of critical temperatures, critical fields, composition and crystal-structure types, including negative experiments. IEEE labels it by the 1975 literature cutoff; the publication is Journal of Physical and Chemical Reference Data 5, 581 (1976). Retained as a reference source rather than a separately counted modern dataset.",
+    "sources": [
+      {
+        "url": "https://srd.nist.gov/jpcrdreprint/1.555540.pdf",
+        "title": "Survey of superconductive materials and critical evaluation of selected properties",
+        "evidence": "Title/abstract identifies the 1976 publication, March 1975 literature cutoff and property tables.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Roberts Properties of Selected Superconductive Materials, 1978 Supplement",
+    "url": "https://doi.org/10.6028/NBS.TN.983",
+    "kind": "historical reference supplement",
+    "description": "NBS Technical Note 983 supplements the earlier survey with literature through fall 1977, including Tc, critical fields, crystal structure and negative experiments. No independent structure or sample total is inferred from this publication.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/publications/properties-selected-superconductive-materials-1978-supplement",
+        "title": "NIST Technical Note 983 publication record",
+        "evidence": "Official record confirms Roberts, 1978, title and DOI 10.6028/NBS.TN.983.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "CERN STEAM Materials Library (SMaLi)",
+    "url": "https://steam.docs.cern.ch/libraries/materials/",
+    "kind": "material-property model library",
+    "description": "Collection of coded material-property functions for superconducting-magnet engineering, with C implementations and wrappers for Python, MATLAB, GetDP and COMSOL. Documentation includes HTS/LTS critical-current-density models. This is a model/software library, not a counted experimental crystal database.",
+    "sources": [
+      {
+        "url": "https://steam.docs.cern.ch/libraries/materials/",
+        "title": "CERN STEAM Materials documentation",
+        "evidence": "Identifies material-property C code, wrappers, documentation and the CERN GitLab source repository.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://steam-material-library.docs.cern.ch/",
+        "title": "SMaLi reference documentation",
+        "evidence": "Documents superconducting critical current and HTS/LTS critical-current-density function families.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Archived Wikipedia List of Superconductors (IEEE-linked PDF)",
+    "url": "https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf",
+    "kind": "archived reference list",
+    "description": "IEEE-linked historical list hosted on an academic website. It is retained as a source-navigation route; currency, row count and independent validation were not established, so it is not ranked as a new dataset.",
+    "sources": [
+      {
+        "url": "https://ieeecsc.org/learning-hub/superconductor-databases-resources",
+        "title": "IEEE CSC linked reference list",
+        "evidence": "Directory explicitly links the archived Wikipedia superconductors list PDF.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "SCLib / JZIS superconducting-transition records",
+    "url": "https://jzis.org/materials",
+    "kind": "model-curated literature-data portal",
+    "description": "Additional primary-source lead outside the IEEE list. Public snapshot reports 13,282 transition results from 6,122 papers, with sample/criterion/condition provenance and CSV downloads. Model checks and sampled-batch checks are not individual expert validation. Project-created data use CC BY 4.0, while upstream-source terms remain applicable; no independent crystal count is claimed here.",
+    "sources": [
+      {
+        "url": "https://jzis.org/materials",
+        "title": "SCLib public materials snapshot",
+        "evidence": "2026-10-31 version 98b37554e5a6 reports 13,282 results, 7,556 material entries counted separately per paper and 6,122 papers; model-review limitations are explicit.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/LICENSE-DATA",
+        "title": "SCLib data license",
+        "evidence": "Project-created data CC BY 4.0; original upstream terms remain in force.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/DATA_SOURCES.md",
+        "title": "SCLib provenance and upstream-license notes",
+        "evidence": "Documents arXiv/NIMS/MP provenance routes and per-record upstream-license handling; provider statements require source-specific assessment.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

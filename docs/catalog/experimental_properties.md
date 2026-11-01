@@ -142,9 +142,9 @@ Other denominators (not added to the ranking):
 **Tags:** priority, literature-digitization, CSV, temperature-dependent, hashes.
 
 <a id="3dsc-icsd"></a>
-## 3DSC_ICSD
+## 3DSC_ICSD — superconductors linked to ICSD structures
 
-SuperCon critical temperatures linked to ICSD identifiers and matched structures.
+Experimental SuperCon critical temperatures associated with ICSD identifiers and matched crystal structures; public coordinates remain subject to ICSD licensing.
 
 **Size:** 86,490 matched crystal structures (source wording: 9,150 SuperCon entries matched with 86,490 crystal structures).
 
@@ -160,17 +160,26 @@ SuperCon critical temperatures linked to ICSD identifiers and matched structures
 
 **Official routes:** [homepage](https://github.com/aimat-lab/3DSC) · [paper](https://www.nature.com/articles/s41597-023-02721-y) · [code](https://github.com/aimat-lab/3DSC) · [data](https://doi.org/10.6084/m9.figshare.24499924)
 
+Other denominators (not added to the ranking):
+
+- 9,150 SuperCon composition/Tc entries: Experimental label cohort associated with 86490 structure matches; not additional materials
+
 **Evidence:**
 
 - [3DSC Scientific Data descriptor](https://www.nature.com/articles/s41597-023-02721-y) (checked 2026-11-01): Reports 9150 SuperCon entries matched to 86490 structures; public CSV gives ICSD IDs; full reconstruction requires ICSD licence.
 - [3DSC_ICSD (only Tc and ICSD IDs) repository metadata](https://api.figshare.com/v2/articles/24499924) (checked 2026-11-01): Confirms public data deposit and its stated licence; applies to deposited files.
+- [3DSC primary article full text](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML) (checked 2026-11-01): Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.
 
 **Reuse and interpretation notes:**
 
 - Public IDs and labels do not confer redistribution rights to ICSD CIFs.
 - Many matches share composition but differ in measurement conditions; artificial doping can approximate sample structures.
+- The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.
+- Tc = 0 denotes tested nonsuperconducting entries in the source labels.
+- Public CSV identifies original ICSD structures, not redistributed or necessarily already artificially doped coordinates; reconstructing adapted structures requires licensed ICSD access.
+- Repeated crystallographic measurements or measurement temperatures can generate many structures for a single SuperCon entry.
 
-**Tags:** Scientific-Data, superconductivity, licensed-structures.
+**Tags:** Scientific-Data, superconductivity, licensed-structures, superconductor, superconductors.
 
 <a id="lemat-synth"></a>
 ## LeMat-Synth synthesis-procedure corpus
@@ -533,6 +542,44 @@ Machine-extracted precursor, target, operation and condition records with balanc
 
 **Tags:** Scientific-Data, synthesis, text-mining, JSON.
 
+<a id="supercon2-text"></a>
+## SuperCon² text-extracted superconductivity records
+
+Automatically extracted literature records linking material mentions to critical-temperature statements, pressure and bibliographic context.
+
+**Size:** 18,943 text-extracted material-property records (source wording: 18,943 nonheader rows in the named cleaned CSV; original v22.12.03 has 40,324 rows).
+
+**Scope:** Named v23.04.28 cleaned CSV, independently recounted; rows are not necessarily unique materials
+
+**Release:** supercon2_v23.04.28_cleanup.csv; snapshot 2026-11-01. **Year:** 2023.
+
+**Provenance:** literature. **Structure availability:** `composition_only`.
+
+**Labels/content:** material mention; composition mention; critical-temperature statement; pressure mention; measurement method; bibliographic provenance.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://github.com/lfoppiano/supercon) · [data](https://github.com/lfoppiano/supercon/blob/main/data/supercon2_v23.04.28_cleanup.csv) · [paper](https://doi.org/10.1080/27660400.2022.2153633) · [code](https://github.com/lfoppiano/supercon)
+
+Other denominators (not added to the ranking):
+
+- 40,324 text-extracted records: Original supercon2_v22.12.03.csv, independently counted; not additive to cleaned release
+
+**Evidence:**
+
+- [SuperCon² author repository](https://github.com/lfoppiano/supercon) (checked 2026-11-01): Repository describes automatic superconductivity information extraction from an arXiv-paper corpus and exposes versioned CSV outputs.
+- [SuperCon² cleaned CSV v23.04.28](https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v23.04.28_cleanup.csv) (checked 2026-11-01): CSV parser counted 18,943 nonheader rows; SHA-256 f7598571a59a35ae1ba281643f41f80248863f9e73e13b39e45659ea6170eb2d.
+- [SuperCon² original CSV v22.12.03](https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v22.12.03.csv) (checked 2026-11-01): Original version independently contains 40,324 nonheader rows; it is not interchangeable with the later cleaned release.
+
+**Reuse and interpretation notes:**
+
+- Rows are extracted assertions and can include repeated mentions, incomplete formulas, and statements about experimental or theoretical work.
+- These counts do not establish unique superconducting materials or independently validated experimental Tc labels.
+- Data-specific reuse license was not verified; software or article licensing is not substituted for dataset rights.
+- Shares literature and extraction methodology with SuperMat; no union deduplication was performed.
+
+**Tags:** superconductivity, text mining, SuperCon, literature extraction, Tc, superconductor, superconductors.
+
 <a id="starrydata-magnetic-materials"></a>
 ## Starrydata — Magnetic Materials
 
@@ -573,6 +620,41 @@ Other denominators (not added to the ranking):
 - The provider documents 2026 sample-ID collisions and corrected releases; preserve source-paper IDs when joining.
 
 **Tags:** Starrydata, project-subset, MagneticMaterials, literature-digitization, overlap, CSV.
+
+<a id="jarvis-supercon-chem"></a>
+## JARVIS supercon_chem experimental composition/Tc benchmark
+
+A downloadable SuperCon-derived composition and critical-temperature benchmark exposed through JARVIS-Tools and JARVIS-Leaderboard.
+
+**Size:** 16,414 composition/Tc records (source wording: 16,414 composition/Tc records).
+
+**Scope:** Official supercon_chem.json.zip version 1; independently parsed JSON list
+
+**Release:** Figshare version 1 (2023-05-20). **Year:** 2023.
+
+**Provenance:** experimental. **Structure availability:** `composition_only`.
+
+**Labels/content:** chemical formula; experimental critical temperature; source identifier.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (Figshare deposit).
+
+**Official routes:** [homepage](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/) · [data](https://doi.org/10.6084/m9.figshare.22975787.v1) · [paper](https://doi.org/10.1038/s41524-018-0085-8) · [code](https://github.com/usnistgov/jarvis)
+
+**Evidence:**
+
+- [JARVIS-Tools official dataset inventory](https://pages.nist.gov/jarvis/databases/) (checked 2026-11-01): Lists supercon_chem as a downloadable 16,414-entry superconductor chemical-formula dataset.
+- [JARVIS supercon_chem Tc benchmark](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/) (checked 2026-11-01): Defines formula-only experimental-Tc prediction and consistently identifies dataset size 16,414.
+- [JARVIS supercon_chem Figshare version 1 metadata](https://api.figshare.com/v2/articles/22975787) (checked 2026-11-01): Confirms 2023-05-20 deposit, CC BY 4.0 rights, the downloadable JSON ZIP, and provenance links to vstanev1/Supercon and the Stanev paper.
+- [Official supercon_chem JSON ZIP](https://ndownloader.figshare.com/files/40719260) (checked 2026-11-01): Independently parsed 16,414 records with id, Tc and formula fields. ZIP SHA-256 14b7489822a1c25407cd6c83989dfca7f14263dfe6b5dc9f859969430c09e5b7.
+
+**Reuse and interpretation notes:**
+
+- Contains no atomic coordinates; source identifiers and formulas do not establish an unambiguous crystal structure.
+- A derivative of SuperCon/Stanev data; overlap with MDR SuperCon, UCI and other cleaned SuperCon benchmarks must not be counted as independent new measurements.
+- Includes Tc = 0 records; 16,414 is not a count of positive superconductors.
+- Official JARVIS DFT supercon_3d and supercon_2d cohorts have different structures, labels and counts.
+
+**Tags:** superconductivity, JARVIS, SuperCon, experimental Tc, composition benchmark, derivative, superconductor, superconductors.
 
 <a id="starrydata-battery-materials"></a>
 ## Starrydata — Battery Materials
@@ -657,9 +739,9 @@ Other denominators (not added to the ranking):
 **Tags:** Starrydata, project-subset, DielectricMaterials, literature-digitization, overlap, CSV.
 
 <a id="3dsc-mp"></a>
-## 3DSC_MP
+## 3DSC_MP — superconductors with Materials Project structures
 
-SuperCon critical temperatures linked to Materials Project crystal structures.
+Experimental SuperCon critical temperatures associated with matched Materials Project crystal structures, including approximate doping proxies.
 
 **Size:** 5,773 matched crystal structures (source wording: 5,759 SuperCon entries matched with 5,773 crystal structures).
 
@@ -675,17 +757,25 @@ SuperCon critical temperatures linked to Materials Project crystal structures.
 
 **Official routes:** [homepage](https://github.com/aimat-lab/3DSC) · [paper](https://www.nature.com/articles/s41597-023-02721-y) · [code](https://github.com/aimat-lab/3DSC) · [data](https://doi.org/10.6084/m9.figshare.24499930)
 
+Other denominators (not added to the ranking):
+
+- 5,759 SuperCon composition/Tc entries: Experimental label cohort associated with 5773 matched structures; not additional materials
+
 **Evidence:**
 
 - [3DSC Scientific Data descriptor](https://www.nature.com/articles/s41597-023-02721-y) (checked 2026-11-01): Reports 5759 SuperCon entries and 5773 MP-derived structures; CIFs available; matching sometimes uses artificial doping.
 - [3DSC_MP repository metadata](https://api.figshare.com/v2/articles/24499930) (checked 2026-11-01): Confirms public data deposit and its stated licence; applies to deposited files.
+- [3DSC primary article full text](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML) (checked 2026-11-01): Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.
 
 **Reuse and interpretation notes:**
 
 - Structures can be approximate proxies modified by occupancy substitution; they are not all measurements of the labeled superconducting sample.
 - Labels and structures have different provenance.
+- The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.
+- Tc = 0 denotes tested nonsuperconducting entries in the source labels.
+- Fourteen matched SuperCon entries have two MP structures, explaining 5,773 structures versus 5,759 matched labels.
 
-**Tags:** Scientific-Data, superconductivity, matched-structures.
+**Tags:** Scientific-Data, superconductivity, matched-structures, superconductor, superconductors.
 
 <a id="ocx24-experimental"></a>
 ## Open Catalyst Experiments 2024 (OCx24) experimental data
@@ -1076,6 +1166,70 @@ Literature-curated compositions, structural types, synthesis, phase regions and 
 
 **Tags:** Scientific-Data, quasicrystals, approximants, Starrydata-linked.
 
+<a id="supermat-linked-records"></a>
+## SuperMat public superconductivity linked-record CSV
+
+Public linked material, critical-temperature, pressure and measurement-method records exported from the SuperMat annotated literature corpus.
+
+**Size:** 1,305 linked literature records (source wording: 1,305 nonheader linked-record rows in SuperMat-2.0.csv).
+
+**Scope:** Public CSV 2.0 export, independently counted; not the entire article-annotation corpus
+
+**Release:** SuperMat-2.0.csv; snapshot 2026-11-01. **Year:** 2021.
+
+**Provenance:** literature. **Structure availability:** `composition_only`.
+
+**Labels/content:** material mention; critical-temperature statement; pressure mention; measurement method; article identifier.
+
+**Access:** mixed. **Dataset license:** CC BY 4.0 (dataset); Apache 2.0 (code).
+
+**Official routes:** [homepage](https://github.com/lfoppiano/SuperMat) · [data](https://github.com/lfoppiano/SuperMat/blob/master/data/csv/SuperMat-2.0.csv) · [paper](https://doi.org/10.1080/27660400.2021.1918396) · [code](https://github.com/lfoppiano/SuperMat)
+
+**Evidence:**
+
+- [SuperMat author repository README](https://raw.githubusercontent.com/lfoppiano/SuperMat/master/README.md) (checked 2026-11-01): Specifies dataset CC BY 4.0 and code Apache 2.0; notes copyrighted full-text corpus cannot be publicly distributed and is held in a private submodule.
+- [SuperMat public CSV 2.0](https://raw.githubusercontent.com/lfoppiano/SuperMat/master/data/csv/SuperMat-2.0.csv) (checked 2026-11-01): Independently parsed 1,305 nonheader rows with material, tcValue, pressure, me_method and source-filename fields. SHA-256 80e84ab67649a562a838c5a58fa8bb8025fe1e3225ad2eb664d9bcf3be8ed3ce.
+
+**Reuse and interpretation notes:**
+
+- Public linked CSV is accessible; full copyrighted article text and full annotations are not generally public.
+- Rows describe literature relations and may include partial material mentions; they are not 1,305 unique compositions or independently measured Tc values.
+- Original paper corpus statistics describe another unit/version and are not substituted for this CSV row count.
+
+**Tags:** superconductivity, text mining, named entities, relation extraction, SuperCon, superconductor, superconductors.
+
+<a id="sc-comics"></a>
+## SC-CoMIcs superconductivity information-extraction corpus
+
+Superconductivity abstract corpus with stand-off named-entity and relation annotations for materials information extraction.
+
+**Size:** 1,000 annotated abstracts (source wording: 1,000 superconductivity-related abstracts).
+
+**Scope:** SC-CoMIcs version 3 corpus; abstracts are not unique material records
+
+**Release:** Mendeley Data version 3 (2021-06-29). **Year:** 2021.
+
+**Provenance:** literature. **Structure availability:** `composition_only`.
+
+**Labels/content:** material entity annotations; critical-temperature text annotations; relation annotations.
+
+**Access:** open. **Dataset license:** CC BY-NC 3.0 (deposit and abstract text); separate annotation-specific license Not verified.
+
+**Official routes:** [homepage](https://data.mendeley.com/datasets/xc9fjz2p3h/3) · [data](https://doi.org/10.17632/xc9fjz2p3h.3) · [paper](https://aclanthology.org/2020.lrec-1.834/) · [code](https://github.com/tti-coin/sc-comics)
+
+**Evidence:**
+
+- [SC-CoMIcs Mendeley Data version 3](https://data.mendeley.com/datasets/xc9fjz2p3h/3) (checked 2026-11-01): Author deposit describes 1,000 abstracts and stand-off annotations; abstract sharing is specifically permitted under CC BY-NC 3.0 and version 3 does not change the corpus content.
+- [SC-CoMIcs author repository](https://github.com/tti-coin/sc-comics) (checked 2026-11-01): Provides corpus tools and annotated files; links abstract text to the Mendeley deposit under CC BY-NC 3.0.
+
+**Reuse and interpretation notes:**
+
+- Abstract text has a noncommercial license; a separate annotation-specific license was not independently verified.
+- The ranked count denotes documents, not superconducting compounds or measured Tc observations.
+- Useful for information-extraction benchmarks, not a ready-made atomic-structure/Tc dataset.
+
+**Tags:** superconductivity, text mining, corpus, named entities, relation extraction, superconductor, superconductors.
+
 <a id="starrydata-solid-state-battery-materials"></a>
 ## Starrydata — Solid State Battery Materials
 
@@ -1231,6 +1385,40 @@ Other denominators (not added to the ranking):
 
 **Tags:** Starrydata, project-subset, AirBatteryMaterials, literature-digitization, overlap, CSV.
 
+<a id="robinson-hts-critical-current"></a>
+## Robinson HTS Wire Critical Current Database
+
+Experimental critical-current characterizations of commercial HTS wire and film samples across temperature, field magnitude and field angle, with n-values and downloadable data.
+
+**Size:** 24 wire/film characterization datasets (source wording: 24 public wire/film-characterization datasets in Figshare collection v23).
+
+**Scope:** Collection articles_count=24, independently matched by the 24-item public articles list; not the number of measurement points or unique superconducting compounds
+
+**Release:** Figshare collection v23, published 2025-10-14; checked 2026-11-01. **Year:** 2025.
+
+**Provenance:** experimental. **Structure availability:** `composition_only`.
+
+**Labels/content:** critical current; n-value; temperature dependence; magnetic-field dependence; field-angle dependence; wire/sample metadata.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution 4.0 International (individual datasets).
+
+**Official routes:** [homepage](https://htsdb.wimbush.eu/about) · [data](https://doi.org/10.6084/m9.figshare.c.2861821) · [paper](https://doi.org/10.1109/TASC.2016.2628700)
+
+**Evidence:**
+
+- [Robinson HTS collection metadata](https://api.figshare.com/v2/collections/2861821) (checked 2026-11-01): Public collection v23 declares 24 articles and a 2025-10-14 publication snapshot.
+- [Robinson HTS public collection articles](https://api.figshare.com/v2/collections/2861821/articles?page_size=100) (checked 2026-11-01): Public list contains 24 characterization datasets, including commercial wires and a YBCO film.
+- [Robinson HTS database official documentation](https://htsdb2.wimbush.eu/about) (checked 2026-11-01): Describes complete Figshare datasets for particular samples, critical-current/n-value curves and CC BY 4.0 licensing.
+
+**Reuse and interpretation notes:**
+
+- Twenty-four counts characterized wire/film datasets; each contains many operating-condition measurements and is not a new bulk crystal.
+- Commercial product/sample variation matters; multiple products can share the same superconducting composition.
+- No atomic-coordinate structures are promised by the wire-performance dataset.
+- The web visualizer is JavaScript-dependent; the Figshare collection provides the archival data route.
+
+**Tags:** superconductivity, HTS, critical current, wire, REBCO, BSCCO, experimental curves, superconductor, superconductors.
+
 <a id="mdr-supercon"></a>
 ## MDR SuperCon Datasheet
 
@@ -1253,11 +1441,49 @@ Versioned successor to the former MatNavi SuperCon superconducting-materials dat
 **Evidence:**
 
 - [MDR SuperCon Datasheet Ver.240322](https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja) (checked 2026-11-01): NIMS describes re-edited SuperCon, DOI-versioned updates, oxide/metal and organic tables, and CC BY 4.0.
+- [NIMS-registered metadata for MDR SuperCon Datasheet Ver.240322](https://api.datacite.org/dois/10.48505/nims.4487) (checked 2026-11-01): Confirms version-specific title, re-edited SuperCon description, related README DOI and CC BY 4.0 rights; supplies no release row count.
+- [NIMS-registered metadata for MDR SuperCon series DOI](https://api.datacite.org/dois/10.48505/nims.3739) (checked 2026-11-01): Confirms series landing page and CC BY 4.0; series DOI should not be treated as a fixed version or fixed row count.
 
 **Reuse and interpretation notes:**
 
 - Former GUI service has been replaced by datasheets.
 - Use the DOI of the actual version downloaded.
 - Full atomic structures are not generally supplied; derivative ML subsets have different cleaning and counts.
+- Ver.240322 is a specifically verified version, not a claim to the latest release.
+- Direct NIMS dataset access timed out during this audit; version, DOI relationships and CC BY 4.0 were corroborated using NIMS-registered DataCite metadata. A release row count remains unverified.
 
-**Tags:** NIMS, superconductivity, versioned, composition-properties.
+**Tags:** NIMS, superconductivity, versioned, composition-properties, superconductor, superconductors.
+
+<a id="nist-webhts-srd62"></a>
+## NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)
+
+Evaluated literature data for oxide superconductors, linking thermal, mechanical and superconducting properties with composition, processing and numeric structural descriptors.
+
+**Size:** Unranked evaluated material-property records (source wording: Current material/measurement count not verified).
+
+**Scope:** Historical SRD 62 corpus; no numeric total inferred from portal or search choices
+
+**Release:** Data content last updated 1996; provider metadata version 1.0.0 (2015). **Year:** 2015.
+
+**Provenance:** literature. **Structure availability:** `structure_linked`.
+
+**Labels/content:** critical temperature; superconducting properties; thermal properties; mechanical properties; density; crystal structure descriptors; processing conditions.
+
+**Access:** open. **Dataset license:** NIST Standard Reference Data copyright; all rights reserved. Specific redistribution license not verified; see provider SRD terms..
+
+**Official routes:** [homepage](https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723) · [data](https://doi.org/10.18434/T4KP8J) · [paper](https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20)
+
+**Evidence:**
+
+- [NIST SRD 62 official resource metadata](https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723) (checked 2026-11-01): Identifies WebHTS, DOI 10.18434/T4KP8J, public access, oxide-superconductor scope, evaluated properties and structural tables.
+- [NIST WebHTS search portal](https://srdata.nist.gov/CeramicDataPortal/hit) (checked 2026-11-01): Portal explicitly states last data-content update 1996; query fields include structure type and chemical family.
+- [NIST SRD copyright and licensing statements](https://www.nist.gov/open/license) (checked 2026-11-01): Distinguishes copyrighted Standard Reference Data from other NIST employee works; no blanket public-domain assumption is warranted.
+
+**Reuse and interpretation notes:**
+
+- Provider page remains reachable; no end-of-service declaration was found, but the scientific data are historical (last content update 1996).
+- Public browsing is distinct from permission to redistribute the copyrighted SRD compilation.
+- Numeric structural tables do not establish a downloadable CIF/atomic-coordinate dataset.
+- IEEE lists the metadata route and legacy search portal separately; both point to the same SRD 62 corpus.
+
+**Tags:** superconductivity, oxide, cuprate, reference data, NIST, historical, superconductor, superconductors.

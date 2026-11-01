@@ -7,8 +7,10 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | Resource | Role | Description |
 |---|---|---|
 | [Battery Archive](https://batteryarchive.org/) | adjacent_experimental_data_portal | Cross-institution battery cycling and disruptive-test data; cell-performance resource adjacent to crystal datasets. Full CSV files requested by email. |
+| [Archived Wikipedia List of Superconductors (IEEE-linked PDF)](https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf) | archived reference list | IEEE-linked historical list hosted on an academic website. It is retained as a source-navigation route; currency, row count and independent validation were not established, so it is not ranked as a new dataset. |
 | [Matbench v0.1 suite](https://matbench.materialsproject.org/) | benchmark suite | Thirteen property-prediction tasks from ten underlying sources; includes both composition-only and structure inputs. The catalogue groups shared structure cohorts and does not sum tasks as unique crystals. |
 | [SpringerMaterials](https://materials.springer.com/) | commercial_database_portal | Commercial curated materials-property platform covering several source collections. |
+| [IEEE CSC Superconductor Properties Wiki](https://wiki.ieeecsc.org/) | community property-reference wiki | Community-maintained superconducting parameters with literature citations, including Tc, Jc, critical fields, specific heat, gap and structure parameters. IEEE advertises thousands of materials; an independently verified record count, data export and dataset-wide license were not established. IEEE states that it verifies publication provenance rather than entry accuracy. |
 | [LeMat-GenBench](https://github.com/LeMaterial/lemat-genbench) | crystal-generation evaluation framework | Evaluates generated crystals using validity, distribution, diversity, novelty, and stability metrics with multi-MLIP/hull configurations; its reference datasets overlap LeMat-Bulk. Framework code is Apache licensed; not an additional crystal count. |
 | [Materials Data Facility / Foundry](https://www.materialsdatafacility.org/) | data_repository | Materials-data publication, discovery and access services; Foundry provides programmatic loading of ML-ready deposits. |
 | [NIST Materials Data Repository](https://materialsdata.nist.gov/) | data_repository | Materials research deposits from NIST and the wider community; terms are defined per provider and collection. |
@@ -26,16 +28,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | [LeMaterial Atompack](https://huggingface.co/datasets/LeMaterial/Atompack) | format mirror | Public atomistic datasets repackaged for streaming in Atompack format. The card identifies upstream MatPES, MP-ALOE, MPtrj, OMat24 and OC20; do not count format mirrors as new datasets. |
 | [Awesome Materials & Chemistry Datasets](https://github.com/blaiszik/awesome-matchem-datasets) | github_collection | Broad discovery list of materials and chemistry datasets; verify each numerical claim at the originating repository. |
 | [matminer dataset collection](https://github.com/hackingmaterials/matminer) | github_collection | Python loaders and dataset metadata for community materials datasets; retain original dataset citations and licences. |
+| [Roberts superconductive-materials survey (1976; literature through March 1975)](https://doi.org/10.1063/1.555540) | historical evaluated data tables | B. W. Roberts reference compilation of critical temperatures, critical fields, composition and crystal-structure types, including negative experiments. IEEE labels it by the 1975 literature cutoff; the publication is Journal of Physical and Chemical Reference Data 5, 581 (1976). Retained as a reference source rather than a separately counted modern dataset. |
+| [Roberts Properties of Selected Superconductive Materials, 1978 Supplement](https://doi.org/10.6028/NBS.TN.983) | historical reference supplement | NBS Technical Note 983 supplements the earlier survey with literature through fall 1977, including Tc, critical fields, crystal structure and negative experiments. No independent structure or sample total is inferred from this publication. |
 | [REMI: REsource for Materials Informatics](https://pages.nist.gov/remi/) | instructional resource and dataset directory | NIST pre-alpha notebook/resource index with tagged tutorials, learning resources and directly linked experimental combinatorial libraries. Owning GitHub repository is archived; directory entries are not additive datasets. |
 | [nanoHUB Machine Learning Lab Module](https://nanohub.org/tools/intromllab) | interactive educational module | Version1.7 introductory materials-ML notebook and teaching module. Public descriptions/supporting-document list are readable; running the tool requires login. Program license is GPL3-or-later; example-data rights require separate checking. |
 | [OPTIMADE](https://www.optimade.org/) | interoperability API | Common API specification for querying structure providers; a federation/interface, not an additional independent dataset. |
 | [Scientific Data materials Data Descriptors](https://www.nature.com/sdata/collections?page=3&type=collection) | journal_collection | Journal descriptors are discovery/provenance documents; linked external repositories hold the actual data. |
 | [CatApp](https://cmr.fysik.dtu.dk/catapp/catapp.html) | legacy_property_database | Legacy reaction/activation-energy table for elementary surface reactions. The ~3,000-reaction scale is historical; CatApp does not supply detailed atomic geometries, so it is a navigation/property resource. |
+| [CERN STEAM Materials Library (SMaLi)](https://steam.docs.cern.ch/libraries/materials/) | material-property model library | Collection of coded material-property functions for superconducting-magnet engineering, with C implementations and wrappers for Python, MATLAB, GetDP and COMSOL. Documentation includes HTS/LTS critical-current-density models. This is a model/software library, not a counted experimental crystal database. |
 | [MatterSim training data availability](https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md) | model and availability reference | Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets. |
+| [SCLib / JZIS superconducting-transition records](https://jzis.org/materials) | model-curated literature-data portal | Additional primary-source lead outside the IEEE list. Public snapshot reports 13,282 transition results from 6,122 papers, with sample/criterion/condition provenance and CSV downloads. Model checks and sampled-batch checks are not individual expert validation. Project-created data use CC BY 4.0, while upstream-source terms remain applicable; no independent crystal count is claimed here. |
 | [AFLOW AEL/AGL thermomechanical property libraries](https://aflow.org/documentation/) | property-library access resource | Distinct AFLOW workflows exposing elastic tensors/moduli and Debye/thermal estimates through AFLUX. Current property-bearing cohort sizes were not verified; no independent current materials count is claimed. |
 | [Materials Cloud Archive](https://archive.materialscloud.org/) | repository platform | Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license. |
 | [Materials Data Facility](https://materialsdatafacility.org/) | repository platform | Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals. |
 | [NOMAD Repository and Archive](https://nomad-lab.eu/) | repository platform | Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals. |
+| [IEEE CSC Superconductor Databases & Resources](https://ieeecsc.org/learning-hub/superconductor-databases-resources) | subject-resource directory | Navigation directory linking the CSC wiki, UCI, NIST reference sources, OSD, existing MP/NIMS resources, Robinson wire data and CERN materials models. Its thirteen scientific routes are not thirteen independent datasets. |
 | [JARVIS-Tools Notebooks](https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks) | tools and notebook collection | Archived tutorial repository for electronic structure, force fields, AI and experiments; directs continued development to atomgptlab/jarvis-tools-notebooks. Inventoried README links are navigation resources, not extra dataset counts. |
 | [MatterGen MP-20 reprocessed release](https://github.com/microsoft/mattergen/tree/main/data-release/mp-20) | versioned benchmark derivative | PBE-recomputed and element-filtered MP-20 derivative with its own distributed files; keep separate provenance from CDVAE MP-20. Exact file-row count was not verified, so not added as an independently sized dataset. |
 
@@ -44,6 +51,10 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### AFLOW AEL/AGL thermomechanical property libraries
 
 - [Official AFLOW REST/AFLUX documentation](https://aflow.org/documentation/) (2026-11-01): Documents AEL elastic and AGL thermal keys; states data free for scientific, academic and non-commercial purposes.
+
+### Archived Wikipedia List of Superconductors (IEEE-linked PDF)
+
+- [IEEE CSC linked reference list](https://ieeecsc.org/learning-hub/superconductor-databases-resources) (2026-11-01): Directory explicitly links the archived Wikipedia superconductors list PDF.
 
 ### Awesome Materials & Chemistry Datasets
 
@@ -62,6 +73,11 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 - [CatApp official CMR page](https://cmr.fysik.dtu.dk/catapp/catapp.html) (2026-11-01): Provides calculated reaction and activation energies on metal surfaces with the 2012 publication reference.
 - [Catalysis-Hub primary descriptor discussion of CatApp](https://pmc.ncbi.nlm.nih.gov/articles/PMC6538711/) (2026-11-01): Explains that CatApp covers more than 3,000 reactions but lacks atomic structures and detailed calculation output.
 
+### CERN STEAM Materials Library (SMaLi)
+
+- [CERN STEAM Materials documentation](https://steam.docs.cern.ch/libraries/materials/) (2026-11-01): Identifies material-property C code, wrappers, documentation and the CERN GitLab source repository.
+- [SMaLi reference documentation](https://steam-material-library.docs.cern.ch/) (2026-11-01): Documents superconducting critical current and HTS/LTS critical-current-density function families.
+
 ### ColabFit Exchange
 
 - [ColabFit Exchange](https://materials.colabfit.org/) (2026-11-01): Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.
@@ -78,6 +94,27 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### Digital Hydrogen-S
 
 - [Crossref publisher-deposited Digital Hydrogen-S metadata](https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434) (2026-11-01): Confirms author paper title, DOI and Elsevier PII S0360319926000716; does not verify database counts.
+
+### IEEE CSC Superconductor Databases & Resources
+
+- [IEEE CSC resource directory](https://ieeecsc.org/learning-hub/superconductor-databases-resources) (2026-11-01): Lists thirteen scientific resource routes, including two routes to WebHTS/SRD 62 and historical reference books/tables.
+- [IEEE-listed route: CSC Wiki](https://wiki.ieeecsc.org/) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Archived Wikipedia list](https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: UCI Superconductivty Data](https://archive.ics.uci.edu/dataset/464/superconductivty+data) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: NIST SRD 62 metadata](https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: NIST legacy WebHTS portal](https://srdata.nist.gov/CeramicDataPortal/hit) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Roberts survey](https://srd.nist.gov/jpcrdreprint/1.555540.pdf) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Roberts 1978 supplement](https://books.google.com/books?id=bbHgTVWyFlkC) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Clark OSD](http://osd.clarku.edu/public/about) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Materials Project](https://next-gen.materialsproject.org) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: NIMS MatNavi](https://mits.nims.go.jp) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: MDR SuperCon Datasheet](https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: Robinson critical-current data](https://htsdb.wimbush.eu/about) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+- [IEEE-listed route: CERN materials](https://steam.docs.cern.ch/libraries/materials/) (2026-11-01): Scientific route listed by the IEEE CSC directory; retained with its original role as a discovery or reference link. Listing alone does not independently validate this destination or establish a new dataset.
+
+### IEEE CSC Superconductor Properties Wiki
+
+- [IEEE CSC wiki description](https://ieeecsc.org/learning-hub/superconductor-databases-resources) (2026-11-01): Describes community property entries and explicitly limits its assurance to publication in peer-reviewed sources.
 
 ### JARVIS-Tools Notebooks
 
@@ -165,10 +202,24 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 - [Primary resource CSV](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv) (2026-11-01): Homepage table lists instructional notebook resources and tags.
 - [Open Access Data list](https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md) (2026-11-01): Links experimental Fe–Co–Ni/Fe–Ga–Pd composition-spread data and major material databases.
 
+### Roberts Properties of Selected Superconductive Materials, 1978 Supplement
+
+- [NIST Technical Note 983 publication record](https://www.nist.gov/publications/properties-selected-superconductive-materials-1978-supplement) (2026-11-01): Official record confirms Roberts, 1978, title and DOI 10.6028/NBS.TN.983.
+
+### Roberts superconductive-materials survey (1976; literature through March 1975)
+
+- [Survey of superconductive materials and critical evaluation of selected properties](https://srd.nist.gov/jpcrdreprint/1.555540.pdf) (2026-11-01): Title/abstract identifies the 1976 publication, March 1975 literature cutoff and property tables.
+
 ### Scientific Data materials Data Descriptors
 
 - [Scientific Data collections](https://www.nature.com/sdata/collections?page=3&type=collection) (2026-11-01): Lists a collection on characterisation/performance data of energy materials.
 - [Scientific Data data policies](https://www.nature.com/sdata/policies/data-policies) (2026-11-01): Requires repository deposits; journal does not itself host datasets.
+
+### SCLib / JZIS superconducting-transition records
+
+- [SCLib public materials snapshot](https://jzis.org/materials) (2026-11-01): 2026-10-31 version 98b37554e5a6 reports 13,282 results, 7,556 material entries counted separately per paper and 6,122 papers; model-review limitations are explicit.
+- [SCLib data license](https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/LICENSE-DATA) (2026-11-01): Project-created data CC BY 4.0; original upstream terms remain in force.
+- [SCLib provenance and upstream-license notes](https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/DATA_SOURCES.md) (2026-11-01): Documents arXiv/NIMS/MP provenance routes and per-record upstream-license handling; provider statements require source-specific assessment.
 
 ### SevenNet-Omni domain bridging set
 

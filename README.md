@@ -4,7 +4,7 @@
 
 **[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
-145 dataset and release records · 12 categories · 211 distinct dataset evidence URLs · checked **November 1, 2026**
+162 dataset and release records · 12 categories · 265 distinct dataset evidence URLs · checked **November 1, 2026**
 
 MatVerse surveys periodic crystal structures and their associated data: experimental crystallography, computed inorganic solids, machine-learning interatomic potential (MLIP) configurations, 2D materials, porous frameworks, molecular crystals, surfaces, and property and discovery benchmarks. It also includes crystal-related experimental property collections that supply compositions or measurements without complete atomic coordinates.
 
@@ -20,13 +20,15 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 - **Aggregates and derivatives overlap.** LeMat, MateriaViva, parent databases, benchmark subsets and format mirrors cannot be added into one material total.
 - **Access and licensing are separate.** A free website, model license or open-access paper does not establish a dataset's redistribution rights. Unverified terms remain explicit.
 
-Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 6 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
+Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 7 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
 
 The [HTML directory](https://usccolumbia.github.io/matverse/) searches names, properties, methods, tags and source evidence. Filter by category, access, structure availability, license status or counted data type; expand a release for its evidence and caveats. Export the current results as CSV or JSON. The standalone `index.html` also works offline.
 
 The separate **[Source entries view](https://usccolumbia.github.io/matverse/?view=sources)** searches all 789 imported link occurrences from the six requested collections. This includes every extracted entry from [Blaiszik's list](https://usccolumbia.github.io/matverse/?view=sources&collection=blaiszik) (274 occurrences, 218 URLs) and [Seda Oturak's list](https://usccolumbia.github.io/matverse/?view=sources&collection=sedaoturak) (90 occurrences, 87 URLs). Filter by collection and scope; export labels, URLs and original sections. All are included in [sources.md](sources.md). The [coverage audit](docs/collection-coverage.md) records revisions, extraction boundaries and hashes. Imported links include adjacent domains and discovery resources; individual counts and licenses need their own evidence before entering the ranked dataset table.
 
 **[All 14 Starrydata project datasets](docs/starrydata.md)** are individually searchable, with separate sample/curve/figure/paper counts and download links. The [45-file manifest](data/starrydata_files.json) retains file sizes and SHA-256 values corroborated against release asset metadata. Projects overlap and are subsets of the combined Starrydata entry.
+
+**[Superconductivity datasets and resources](docs/superconductivity.md)** compare experimental critical temperatures, matched crystal structures, electronic bands, computed electron–phonon data and model-training releases, including Hennig-group contributions. Search recognizes “superconductor,” “superconducting,” “superconductivity” and “SuperCon.” When a source-list filter hides a catalog dataset, the search overview exposes matching dataset records and opens them with the query preserved.
 
 ## Browse by category
 
@@ -36,11 +38,11 @@ The separate **[Source entries view](https://usccolumbia.github.io/matverse/?vie
 - [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (15)
 - [Two-dimensional and layered materials](#two-dimensional) (8)
 - [MOFs, COFs and zeolites](#porous-frameworks) (15)
-- [Molecular crystals and ice](#molecular-crystals) (3)
+- [Molecular crystals and ice](#molecular-crystals) (4)
 - [Surfaces, interfaces and catalysis](#surfaces-catalysis) (7)
-- [Computed properties and prediction benchmarks](#property-benchmarks) (28)
+- [Computed properties and prediction benchmarks](#property-benchmarks) (38)
 - [Crystal generation and discovery benchmarks](#generation-benchmarks) (6)
-- [Experimental properties and literature extraction](#experimental-properties) (35)
+- [Experimental properties and literature extraction](#experimental-properties) (41)
 - [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (7)
 
 ## Ranked catalog
@@ -148,6 +150,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | Dataset / release | Reported size | Counted unit | Access | Data license |
 |---|---:|---|---|---|
 | [Open Molecular Crystals 2025 (OMC25)](docs/catalog/molecular_crystals.md#omc25) | 26,257,042 | DFT configuration frames | mixed | Creative Commons Attribution 4.0 International (dataset) |
+| [Organic Superconductor Database (OSD)](docs/catalog/molecular_crystals.md#osd-organic-superconductors) | 184 | crystal structure entries | mixed | Not verified |
 | [X23 diffusion Monte Carlo benchmark](docs/catalog/molecular_crystals.md#x23-dmc) | 23 | benchmark crystal systems | open | Not verified |
 | [DMC-ICE13](docs/catalog/molecular_crystals.md#dmc-ice13) | 13 | benchmark periodic ice polymorphs | open | Not verified |
 
@@ -176,14 +179,19 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [LeMat-Rho](docs/catalog/property_benchmarks.md#lemat-rho) | 69,117 | materials | open | CC BY 4.0 |
 | [Materials Project / Ricci electronic transport database](docs/catalog/property_benchmarks.md#mp-boltztrap-transport) | ~48,000 | materials | open | Creative Commons Zero v1.0 Universal (CC0-1.0) |
 | [Materials Project Phonon database v1.1](docs/catalog/property_benchmarks.md#mp-phonon-2026) | 26,413 | materials | open | Creative Commons Attribution 4.0 International |
+| [UCI Superconductivity Data (Hamidieh 2018)](docs/catalog/property_benchmarks.md#uci-superconductivity-2018) | 21,263 | tabular material records | open | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | [Phonix anharmonic phonon database](docs/catalog/property_benchmarks.md#phonix) | 20,912 | unique materials | open | Creative Commons Attribution 4.0 International |
 | [OMDB-GAP1](docs/catalog/property_benchmarks.md#omdb-gap1) | 12,500 | materials | open | Not verified |
 | [Matbench log_gvrh / log_kvrh (shared source cohort)](docs/catalog/property_benchmarks.md#matbench-elastic) | 10,987 | task samples | open | Not verified |
 | [SNUMAT hybrid-functional band-gap dataset](docs/catalog/property_benchmarks.md#snumat-hybrid-gap) | 10,481 | materials | open | CC BY 4.0 |
 | [PhononDB / MDR harmonic phonon calculation database](docs/catalog/property_benchmarks.md#phonondb-mdr) | 10,034 | material calculation entries | open | Creative Commons BY Attribution 4.0 International |
+| [Cerqueira–Sanna–Marques conventional-superconductor EPC archive](docs/catalog/property_benchmarks.md#cerqueira-conventional-epc) | ~7,000 | electron–phonon calculations | open | CC BY 4.0 |
+| [Hennig BEE-NET public structures and split files](docs/catalog/property_benchmarks.md#hennig-bee-net-structures) | 5,241 | public CIF structures | mixed | Not verified |
 | [PhononDB lattice thermal conductivity (MDR)](docs/catalog/property_benchmarks.md#phonondb-mdr-ltc) | 4,811 | listed material calculation entries | open | Not verified |
 | [Matbench dielectric](docs/catalog/property_benchmarks.md#matbench-dielectric) | 4,764 | task samples | open | Not verified |
+| [MC3D conventional-superconductivity screening and Eliashberg dataset](docs/catalog/property_benchmarks.md#mc3d-superconductivity) | 4,533 | screened metal structures | open | Creative Commons Attribution 4.0 International |
 | [AFLOW AEL–AGL thermomechanical cohort (2017)](docs/catalog/property_benchmarks.md#aflow-ael-agl-2017) | ≥3,500 | materials | open | Free for scientific, academic and non-commercial purposes; any other use prohibited (AFLUX documentation) |
+| [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](docs/catalog/property_benchmarks.md#hennig-xie-eliashberg-benchmark) | 3,046 | descriptor/Tc table rows | open | Apache-2.0 |
 | [SuperBand electronic-band / superconductivity dataset](docs/catalog/property_benchmarks.md#superband) | 2,474 | materials | open | Creative Commons Attribution 4.0 (database); MIT (software) |
 | [MAST-ML perovskite stability educational slice](docs/catalog/property_benchmarks.md#mastml-perovskite-education) | 1,929 | perovskite composition/feature rows | open | MIT |
 | [Materials Project / Petretto DFPT phonons (2018)](docs/catalog/property_benchmarks.md#mp-dfpt-phonons-2018) | 1,521 | materials | open | Not verified |
@@ -193,9 +201,14 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [JARVIS superconductivity 3D DFT cohort](docs/catalog/property_benchmarks.md#jarvis-supercon-3d) | 1,058 | materials | open | CC BY 4.0 |
 | [Materials Project dielectric tensor release (2017)](docs/catalog/property_benchmarks.md#mp-dielectric-2017) | 1,056 | materials | open | Creative Commons Zero v1.0 Universal (CC0-1.0) |
 | [Materials Project piezoelectric tensor release (2015)](docs/catalog/property_benchmarks.md#mp-piezo-2015) | 941 | materials | open | Creative Commons Zero v1.0 Universal (CC0-1.0) |
+| [JARVIS high-pressure hydride superconductivity campaign](docs/catalog/property_benchmarks.md#jarvis-high-pressure-hydride-2024) | ≥900 | structure-pressure calculation cases | open | Creative Commons Attribution 4.0 International |
+| [Superhydra binary-hydride database](docs/catalog/property_benchmarks.md#superhydra) | 880 | hypothetical hydride structures | open | Not verified |
+| [Hennig BETE-NET released EPC cohort](docs/catalog/property_benchmarks.md#hennig-bete-net) | 806 | released crystal structures | open | Apache-2.0 (repository declaration) |
 | [Matbench jdft2d](docs/catalog/property_benchmarks.md#matbench-jdft2d) | 636 | task samples | open | Not verified |
 | [MAST-ML dilute-solute diffusion educational slice](docs/catalog/property_benchmarks.md#mastml-dilute-diffusion-education) | 408 | host–solute feature/property rows | open | MIT |
+| [Antiperovskite superconductivity DFPT dataset](docs/catalog/property_benchmarks.md#antiperovskite-superconductivity-dfpt) | 384 | material calculation cases | open | Creative Commons Attribution 4.0 International |
 | [JARVIS superconductivity 2D DFT cohort](docs/catalog/property_benchmarks.md#jarvis-supercon-2d) | 161 | materials | open | CC BY 4.0 |
+| [HTSC-2025 ambient-pressure BCS superconductor benchmark](docs/catalog/property_benchmarks.md#htsc-2025) | 140 | material records | open | MIT License (ScienceDB V1 registrant metadata) |
 | [Phono3py 103-compound finite-displacement dataset (PBEsol)](docs/catalog/property_benchmarks.md#phonondb-103-pbesol) | 103 | compounds | open | Not verified |
 
 <a id="generation-benchmarks"></a>
@@ -219,7 +232,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Material Synthesis 2025 (MatSyn25)](docs/catalog/experimental_properties.md#matsyn25) | 163,240 | synthesis processes | open | CC BY-NC 4.0 |
 | [High Throughput Experimental Materials Database (HTEM)](docs/catalog/experimental_properties.md#htem) | ≥140,000 | entries | mixed | Not verified |
 | [Starrydata2 experimental materials datasets](docs/catalog/experimental_properties.md#starrydata2) | 106,815 | samples | open | CC BY 4.0 |
-| [3DSC_ICSD](docs/catalog/experimental_properties.md#3dsc-icsd) | 86,490 | matched crystal structures | mixed | CC BY 4.0 (public labels/IDs only; underlying ICSD CIFs separately licensed) |
+| [3DSC_ICSD — superconductors linked to ICSD structures](docs/catalog/experimental_properties.md#3dsc-icsd) | 86,490 | matched crystal structures | mixed | CC BY 4.0 (public labels/IDs only; underlying ICSD CIFs separately licensed) |
 | [LeMat-Synth synthesis-procedure corpus](docs/catalog/experimental_properties.md#lemat-synth) | ~81,000 | source papers | mixed | Not verified |
 | [Solid-state synthesis recipes with impurity phases](docs/catalog/experimental_properties.md#solid-state-synthesis-impurities) | 80,806 | synthesis reactions | open | CC BY 4.0 |
 | [ChemDataExtractor/Snowball Curie–Néel dataset (2025)](docs/catalog/experimental_properties.md#cde-curie-neel-2025) | 56,037 | property records | open | CC BY 4.0 |
@@ -231,10 +244,12 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [ZeoSyn zeolite synthesis dataset](docs/catalog/experimental_properties.md#zeosyn) | 23,961 | synthesis routes | open | MIT (repository-wide declaration; data-specific licence not separately verified) |
 | [ChemDataExtractor thermoelectric materials database](docs/catalog/experimental_properties.md#cde-thermoelectric) | 22,805 | property records | open | MIT |
 | [Text-mined inorganic solid-state synthesis recipes](docs/catalog/experimental_properties.md#text-mined-solid-state-synthesis) | 19,488 | synthesis entries | open | CC BY 4.0 |
+| [SuperCon² text-extracted superconductivity records](docs/catalog/experimental_properties.md#supercon2-text) | 18,943 | text-extracted material-property records | open | Not verified |
 | [Starrydata — Magnetic Materials](docs/catalog/experimental_properties.md#starrydata-magnetic-materials) | 16,607 | samples | open | CC BY 4.0 |
+| [JARVIS supercon_chem experimental composition/Tc benchmark](docs/catalog/experimental_properties.md#jarvis-supercon-chem) | 16,414 | composition/Tc records | open | CC BY 4.0 (Figshare deposit) |
 | [Starrydata — Battery Materials](docs/catalog/experimental_properties.md#starrydata-battery-materials) | 14,087 | samples | open | CC BY 4.0 |
 | [Starrydata — Dielectric Materials](docs/catalog/experimental_properties.md#starrydata-dielectric-materials) | 9,904 | samples | open | CC BY 4.0 |
-| [3DSC_MP](docs/catalog/experimental_properties.md#3dsc-mp) | 5,773 | matched crystal structures | open | CC BY 4.0 |
+| [3DSC_MP — superconductors with Materials Project structures](docs/catalog/experimental_properties.md#3dsc-mp) | 5,773 | matched crystal structures | open | CC BY 4.0 |
 | [Open Catalyst Experiments 2024 (OCx24) experimental data](docs/catalog/experimental_properties.md#ocx24-experimental) | 5,412 | experimental test records | open | Not verified |
 | [Starrydata — Condensed Matter](docs/catalog/experimental_properties.md#starrydata-condensed-matter) | 4,409 | samples | open | CC BY 4.0 |
 | [DigBat / Dynamic Database of Solid-State Electrolytes](docs/catalog/experimental_properties.md#digbat) | 3,816 | experimental electrolyte materials | open | Not verified |
@@ -245,11 +260,15 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Starrydata — Organic Thermoelectric Materials](docs/catalog/experimental_properties.md#starrydata-organic-thermoelectric-materials) | 1,590 | samples | open | CC BY 4.0 |
 | [Starrydata — Hypermaterial](docs/catalog/experimental_properties.md#starrydata-hypermaterial) | 1,525 | samples | open | CC BY 4.0 |
 | [HYPOD-X: quasicrystals and approximants](docs/catalog/experimental_properties.md#hypod-x) | 1,448 | composition/sample instances | open | CC BY 4.0 |
+| [SuperMat public superconductivity linked-record CSV](docs/catalog/experimental_properties.md#supermat-linked-records) | 1,305 | linked literature records | mixed | CC BY 4.0 (dataset); Apache 2.0 (code) |
+| [SC-CoMIcs superconductivity information-extraction corpus](docs/catalog/experimental_properties.md#sc-comics) | 1,000 | annotated abstracts | open | CC BY-NC 3.0 (deposit and abstract text); separate annotation-specific license Not verified |
 | [Starrydata — Solid State Battery Materials](docs/catalog/experimental_properties.md#starrydata-solid-state-battery-materials) | 967 | samples | open | CC BY 4.0 |
 | [Starrydata — Piezoelectric Materials](docs/catalog/experimental_properties.md#starrydata-piezoelectric-materials) | 680 | samples | open | CC BY 4.0 |
 | [Experimental 2D Materials Database (X2DB)](docs/catalog/experimental_properties.md#x2db) | 603 | metadata records | open | CC BY-NC 4.0 |
 | [Starrydata — Air Battery Materials](docs/catalog/experimental_properties.md#starrydata-air-battery-materials) | 529 | samples | open | CC BY 4.0 |
+| [Robinson HTS Wire Critical Current Database](docs/catalog/experimental_properties.md#robinson-hts-critical-current) | 24 | wire/film characterization datasets | open | Creative Commons Attribution 4.0 International (individual datasets) |
 | [MDR SuperCon Datasheet](docs/catalog/experimental_properties.md#mdr-supercon) | Unranked | records | open | Creative Commons BY Attribution 4.0 International |
+| [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)](docs/catalog/experimental_properties.md#nist-webhts-srd62) | Unranked | evaluated material-property records | open | NIST Standard Reference Data copyright; all rights reserved. Specific redistribution license not verified; see provider SRD terms. |
 
 <a id="diffraction-spectroscopy"></a>
 ### Diffraction, spectroscopy and characterization

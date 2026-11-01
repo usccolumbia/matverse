@@ -27,4 +27,10 @@ Keep the source release and identifiers when joining records. Distinguish exact 
 
 Alternate functional labels and coordinate variants can be useful paired data, but do not automatically increase chemical diversity. Experimental determinations at different temperatures may be scientifically distinct even when a structural matcher merges them. Deduplication must follow the intended use and preserve the originals' provenance.
 
+## Superconductivity lineage
+
+SuperCon is an upstream measurement collection; the UCI feature table and 3DSC matches are derivatives with different row and structure units. The [3DSC release](https://github.com/aimat-lab/3DSC) matches experimental labels to Materials Project and ICSD structures, sometimes with artificial doping. Its MP and ICSD branches reuse labels and overlapping compositions, so their record counts are not additive. Randomly splitting matched structures can also place the same composition or label in training and testing.
+
+Computed electron–phonon collections and learned-model releases introduce another layer of reuse. A structure file distributed with a model need not contain its target labels, and an Allen–Dynes or Eliashberg critical temperature is a calculated quantity under a stated protocol. High-pressure hydride results must retain pressure and dynamical-stability context when compared with ambient-pressure materials. The [superconductivity supplement](superconductivity.md) documents source-specific units, pressure limits and upstream relationships, including Hennig-group model releases and their parent calculation sets.
+
 [Back to MatVerse](../README.md)

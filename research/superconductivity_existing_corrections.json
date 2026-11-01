@@ -1,0 +1,163 @@
+{
+  "3dsc-mp": {
+    "additional_counts": [
+      {
+        "value": 5759,
+        "unit": "SuperCon composition/Tc entries",
+        "scope": "Experimental label cohort associated with 5773 matched structures; not additional materials"
+      },
+      {
+        "value": 5759,
+        "unit": "matched SuperCon composition/Tc entries",
+        "scope": "2023 published 3DSC MP cohort; not additive to matched-structure count"
+      }
+    ],
+    "caveats": [
+      "Structures can be approximate proxies modified by occupancy substitution; they are not all measurements of the labeled superconducting sample.",
+      "Labels and structures have different provenance.",
+      "The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.",
+      "Tc = 0 denotes tested nonsuperconducting entries in the source labels.",
+      "Fourteen matched SuperCon entries have two MP structures, explaining 5,773 structures versus 5,759 matched labels."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02721-y",
+        "title": "3DSC Scientific Data descriptor",
+        "evidence": "Reports 5759 SuperCon entries and 5773 MP-derived structures; CIFs available; matching sometimes uses artificial doping.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/24499930",
+        "title": "3DSC_MP repository metadata",
+        "evidence": "Confirms public data deposit and its stated licence; applies to deposited files.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML",
+        "title": "3DSC primary article full text",
+        "evidence": "Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  "3dsc-icsd": {
+    "additional_counts": [
+      {
+        "value": 9150,
+        "unit": "SuperCon composition/Tc entries",
+        "scope": "Experimental label cohort associated with 86490 structure matches; not additional materials"
+      },
+      {
+        "value": 9150,
+        "unit": "matched SuperCon composition/Tc entries",
+        "scope": "2023 published 3DSC ICSD cohort; not additive to matched-structure count"
+      }
+    ],
+    "caveats": [
+      "Public IDs and labels do not confer redistribution rights to ICSD CIFs.",
+      "Many matches share composition but differ in measurement conditions; artificial doping can approximate sample structures.",
+      "The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.",
+      "Tc = 0 denotes tested nonsuperconducting entries in the source labels.",
+      "Public CSV identifies original ICSD structures, not redistributed or necessarily already artificially doped coordinates; reconstructing adapted structures requires licensed ICSD access.",
+      "Repeated crystallographic measurements or measurement temperatures can generate many structures for a single SuperCon entry."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02721-y",
+        "title": "3DSC Scientific Data descriptor",
+        "evidence": "Reports 9150 SuperCon entries matched to 86490 structures; public CSV gives ICSD IDs; full reconstruction requires ICSD licence.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/24499924",
+        "title": "3DSC_ICSD (only Tc and ICSD IDs) repository metadata",
+        "evidence": "Confirms public data deposit and its stated licence; applies to deposited files.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML",
+        "title": "3DSC primary article full text",
+        "evidence": "Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  "superband": {
+    "additional_counts": [
+      {
+        "value": 8625,
+        "unit": "reference catalogue CSV rows",
+        "scope": "Official GitHub superband.csv snapshot 2026-11-01; excludes header; not the 2,474 band-data cohort"
+      }
+    ],
+    "caveats": [
+      "2,474 is the successful DFT band-data cohort, not the larger initial literature/CIF collection.",
+      "Tc labels are experimental; electronic features are computed.",
+      "Repository text informally calls all 2,474 entries superconductors; the paper explicitly separates 1,362 positive and 1,112 negative entries.",
+      "Official superband.csv contains 8,625 nonheader reference/catalogue rows in the audited snapshot; this is not a replacement for the 2,474 computed-band cohort.",
+      "The snapshot has 8,598 nonempty formula fields and 27 blank formula fields; row counts are not a cleaned unique-material total.",
+      "The paper excludes extreme-pressure hydrides without suitable ambient-pressure structural data from the band cohort, while retaining such formulas in the reference catalogue."
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12056090/",
+        "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors",
+        "evidence": "Data Records gives 1,362 superconductors and 1,112 verified nonsuperconductors with band calculations and crystal parameters.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/ljcj007/SuperBand",
+        "title": "SuperBand official repository",
+        "evidence": "Training set has 2,474 band entries; database CC BY 4.0, code MIT; GitHub includes four band-data examples and links the full archive.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05015-7",
+        "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors — Scientific Data descriptor",
+        "evidence": "Publisher DOI and Crossref metadata verify the corresponding Scientific Data descriptor; the selected release count is supported by the other evidence listed here.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ljcj007/SuperBand/main/superband.csv",
+        "title": "SuperBand official reference CSV snapshot",
+        "evidence": "CSV parser counted 8,625 nonheader rows, of which 8,598 have nonempty formula fields; SHA-256 0ab0d37a1dee14146b0d94daf4745df90d73122c6f34c3c2c7d65d8af57ccfb5.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12056090/fullTextXML",
+        "title": "SuperBand primary article full text",
+        "evidence": "Data Records confirms 1,362 superconductors plus 1,112 nonsuperconductors; pressure-limited exclusions explain why catalogue references can exceed the band cohort.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  "mdr-supercon": {
+    "caveats": [
+      "Former GUI service has been replaced by datasheets.",
+      "Use the DOI of the actual version downloaded.",
+      "Full atomic structures are not generally supplied; derivative ML subsets have different cleaning and counts.",
+      "Ver.240322 is a specifically verified version, not a claim to the latest release.",
+      "Direct NIMS dataset access timed out during this audit; version, DOI relationships and CC BY 4.0 were corroborated using NIMS-registered DataCite metadata. A release row count remains unverified."
+    ],
+    "sources": [
+      {
+        "url": "https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja",
+        "title": "MDR SuperCon Datasheet Ver.240322",
+        "evidence": "NIMS describes re-edited SuperCon, DOI-versioned updates, oxide/metal and organic tables, and CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.48505/nims.4487",
+        "title": "NIMS-registered metadata for MDR SuperCon Datasheet Ver.240322",
+        "evidence": "Confirms version-specific title, re-edited SuperCon description, related README DOI and CC BY 4.0 rights; supplies no release row count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.48505/nims.3739",
+        "title": "NIMS-registered metadata for MDR SuperCon series DOI",
+        "evidence": "Confirms series landing page and CC BY 4.0; series DOI should not be treated as a fixed version or fixed row count.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+}

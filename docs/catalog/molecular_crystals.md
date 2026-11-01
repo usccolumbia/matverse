@@ -45,6 +45,40 @@ Other denominators (not added to the ranking):
 
 **Tags:** molecular-crystal, DFT, MLIP, trajectory, Scientific Data.
 
+<a id="osd-organic-superconductors"></a>
+## Organic Superconductor Database (OSD)
+
+Quasi-two-dimensional crystalline organic conductors and superconductors with literature measurements, CSD-linked crystal structures and tight-binding electronic calculations.
+
+**Size:** 184 crystal structure entries (source wording: 184 CSD crystal structures associated with 110 materials and 440 measured properties (2022 paper)).
+
+**Scope:** Historical 2022 publication cohort; 184 structures are not 184 independently confirmed superconductors or a current portal-total assertion
+
+**Release:** 2022 publication cohort; public portal checked 2026-11-01. **Year:** 2022.
+
+**Provenance:** mixed. **Structure availability:** `structure_linked`.
+
+**Labels/content:** critical temperature; critical magnetic fields; experimental electromagnetic properties; crystal structure; tight-binding band structure; molecular packing.
+
+**Access:** mixed. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](http://osd.clarku.edu/public/about) · [data](http://osd.clarku.edu/public/) · [paper](https://doi.org/10.3390/cryst12070919)
+
+**Evidence:**
+
+- [A Database for Crystalline Organic Conductors and Superconductors](https://www.mdpi.com/2073-4352/12/7/919) (checked 2026-11-01): 2022 paper reports 110 materials, 184 CSD structures and 440 measured properties; describes manual measurements and tight-binding calculations.
+- [OSD official about page](http://osd.clarku.edu/public/about) (checked 2026-11-01): Confirms open public browsing, CSD-source CIFs, manually entered literature measurements and tight-binding electronic structures.
+
+**Reuse and interpretation notes:**
+
+- Includes organic conductors and other correlated electronic states as well as superconductors; not every material has superconducting Tc.
+- Underlying CIFs originate from CSD; public links/viewers do not establish unrestricted coordinate redistribution.
+- The 184-structure publication cohort overlaps CSD and can contain multiple structures for one material.
+- Dataset-wide reuse licensing was not found; the paper’s article license is not substituted for data licensing.
+- HTTP public pages were reachable in the direct retrieval; an HTTPS browser-tool request failed, so the observed HTTP route is retained.
+
+**Tags:** superconductivity, organic, molecular crystal, CSD derivative, mixed provenance, superconductor, superconductors.
+
 <a id="x23-dmc"></a>
 ## X23 diffusion Monte Carlo benchmark
 

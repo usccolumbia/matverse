@@ -1475,6 +1475,16 @@ Release: Public 250802 train and validation release; Scientific Data 2026.
 - Evidence (2026-11-01): [OMC25 official access documentation](<https://facebookresearch.github.io/fairchem/omc25/>)
 - Evidence (2026-11-01): [Open Molecular Crystals 2025 (OMC25) dataset and models — Scientific Data descriptor](<https://doi.org/10.1038/s41597-026-06628-2>)
 
+#### Organic Superconductor Database (OSD)
+
+Release: 2022 publication cohort; public portal checked 2026-11-01.
+
+- Homepage: [Organic Superconductor Database (OSD)](<http://osd.clarku.edu/public/about>)
+- Data: [Organic Superconductor Database (OSD)](<http://osd.clarku.edu/public/>)
+- Paper: [Organic Superconductor Database (OSD)](<https://doi.org/10.3390/cryst12070919>)
+- Evidence (2026-11-01): [A Database for Crystalline Organic Conductors and Superconductors](<https://www.mdpi.com/2073-4352/12/7/919>)
+- Evidence (2026-11-01): [OSD official about page](<http://osd.clarku.edu/public/about>)
+
 #### X23 diffusion Monte Carlo benchmark
 
 Release: 2024 DMC reference study.
@@ -1632,6 +1642,18 @@ Release: v1.1, 2026-06-08.
 - Data: [Materials Project Phonon database v1.1](<https://doi.org/10.5281/zenodo.20196565>)
 - Evidence (2026-11-01): [Materials Project Phonon database v1.1 - (26,413 compounds)](<https://zenodo.org/records/20196565>)
 
+#### UCI Superconductivity Data (Hamidieh 2018)
+
+Release: 2018 UCI release; official metadata checked 2026-11-01.
+
+- Homepage: [UCI Superconductivity Data (Hamidieh 2018)](<https://archive.ics.uci.edu/dataset/464/superconductivty+data>)
+- Data: [UCI Superconductivity Data (Hamidieh 2018)](<https://doi.org/10.24432/C53P47>)
+- Paper: [UCI Superconductivity Data (Hamidieh 2018)](<https://doi.org/10.1016/j.commatsci.2018.07.052>)
+- Code: [UCI Superconductivity Data (Hamidieh 2018)](<https://github.com/khamidieh/predict_tc>)
+- Evidence (2026-11-01): [UCI Superconductivty Data](<https://archive.ics.uci.edu/dataset/464/superconductivty+data>)
+- Evidence (2026-11-01): [UCI dataset 464 official metadata](<https://archive.ics.uci.edu/api/dataset?id=464>)
+- Evidence (2026-11-01): [A data-driven statistical model for predicting the critical temperature of a superconductor](<https://doi.org/10.1016/j.commatsci.2018.07.052>)
+
 #### Phonix anharmonic phonon database
 
 Release: v2026.03.28.
@@ -1684,6 +1706,31 @@ Release: Kyoto v2018-04-07 parent; migrated MDR collection checked 2026-11-01.
 - Evidence (2026-11-01): [MDR phonon calculation database](<https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en>)
 - Evidence (2026-11-01): [Phonondb author repository](<https://github.com/atztogo/phonondb>)
 
+#### Cerqueira–Sanna–Marques conventional-superconductor EPC archive
+
+Release: Materials Cloud 2023.163 v1; 2024 Advanced Materials paper.
+
+- Homepage: [Cerqueira–Sanna–Marques conventional-superconductor EPC archive](<https://archive.materialscloud.org/records/3kbt5-r3n56>)
+- Data: [Cerqueira–Sanna–Marques conventional-superconductor EPC archive](<https://doi.org/10.24435/materialscloud:qv-bq>)
+- Paper: [Cerqueira–Sanna–Marques conventional-superconductor EPC archive](<https://doi.org/10.1002/adma.202307085>)
+- Evidence (2026-11-01): [Cerqueira EPC archive metadata](<https://archive.materialscloud.org/api/records/3kbt5-r3n56>)
+- Evidence (2026-11-01): [Cerqueira EPC archive README](<https://archive.materialscloud.org/api/records/3kbt5-r3n56/files/README.txt/content>)
+- Evidence (2026-11-01): [Sampling the Materials Space for Conventional Superconducting Compounds](<https://doi.org/10.1002/adma.202307085>)
+- Evidence (2026-11-01): [Sampling the materials space for conventional superconducting compounds — data archive](<https://archive.materialscloud.org/records/3kbt5-r3n56>)
+
+#### Hennig BEE-NET public structures and split files
+
+Release: Git revision f21c260a9117830f2d74f2c5ac844ab671c0c606 (2026-10-05); journal paper 2026.
+
+- Homepage: [Hennig BEE-NET public structures and split files](<https://github.com/henniggroup/BEE-NET>)
+- Data: [Hennig BEE-NET public structures and split files](<https://github.com/henniggroup/BEE-NET/tree/f21c260a9117830f2d74f2c5ac844ab671c0c606/structures>)
+- Paper: [Hennig BEE-NET public structures and split files](<https://doi.org/10.1038/s41524-026-01964-8>)
+- Code: [Hennig BEE-NET public structures and split files](<https://github.com/henniggroup/BEE-NET>)
+- Evidence (2026-11-01): [BEE-NET immutable public file inventory](<https://api.github.com/repos/henniggroup/BEE-NET/git/trees/f21c260a9117830f2d74f2c5ac844ab671c0c606?recursive=1>)
+- Evidence (2026-11-01): [BEE-NET author release documentation](<https://raw.githubusercontent.com/henniggroup/BEE-NET/f21c260a9117830f2d74f2c5ac844ab671c0c606/README.md>)
+- Evidence (2026-11-01): [BEE-NET author preprint](<https://arxiv.org/html/2503.20005v1>)
+- Evidence (2026-11-01): [BEE-NET journal paper](<https://www.nature.com/articles/s41524-026-01964-8>)
+
 #### PhononDB lattice thermal conductivity (MDR)
 
 Release: Author release index snapshot 2026-11-01.
@@ -1704,6 +1751,16 @@ Release: Matbench v0.1.
 - Evidence (2026-11-01): [Official Matbench v0.1 task metadata](<https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json>)
 - Evidence (2026-11-01): [Official Matminer dataset metadata](<https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json>)
 
+#### MC3D conventional-superconductivity screening and Eliashberg dataset
+
+Release: Materials Cloud 2025.175, version 4 (2025-11-04).
+
+- Homepage: [MC3D conventional-superconductivity screening and Eliashberg dataset](<https://mc3d.materialscloud.org/?preset=superconductivity>)
+- Data: [MC3D conventional-superconductivity screening and Eliashberg dataset](<https://doi.org/10.24435/materialscloud:x2-ap>)
+- Paper: [MC3D conventional-superconductivity screening and Eliashberg dataset](<https://doi.org/10.1103/sb28-fjc9>)
+- Evidence (2026-11-01): [Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds — version 4](<https://archive.materialscloud.org/records/0kqen-w8h90>)
+- Evidence (2026-11-01): [Materials Cloud version 4 metadata](<https://archive.materialscloud.org/api/records/0kqen-w8h90>)
+
 #### AFLOW AEL–AGL thermomechanical cohort (2017)
 
 Release: 2017 publication cohort; current count not asserted.
@@ -1713,6 +1770,19 @@ Release: 2017 publication cohort; current count not asserted.
 - Paper: [AFLOW AEL–AGL thermomechanical cohort (2017)](<https://doi.org/10.1103/PhysRevMaterials.1.015401>)
 - Evidence (2026-11-01): [Combining the AFLOW GIBBS and elastic libraries to efficiently and robustly screen thermomechanical properties of solids](<https://doi.org/10.1103/PhysRevMaterials.1.015401>)
 - Evidence (2026-11-01): [AFLOW REST/AFLUX documentation](<https://aflow.org/documentation/>)
+
+#### Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark
+
+Release: Materials Cloud 2021.150 v1 (2021-09-18); journal paper 2022.
+
+- Homepage: [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](<https://archive.materialscloud.org/records/skdzy-kyx54>)
+- Data: [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](<https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content>)
+- Paper: [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](<https://doi.org/10.1038/s41524-021-00666-7>)
+- Code: [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](<https://github.com/henniggroup/symbolic-regression-utilities>)
+- Evidence (2026-11-01): [Hennig–Xie Materials Cloud metadata](<https://archive.materialscloud.org/api/records/skdzy-kyx54>)
+- Evidence (2026-11-01): [Hennig–Xie public numerical tables](<https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content>)
+- Evidence (2026-11-01): [Xie et al. Eliashberg theory paper](<https://www.nature.com/articles/s41524-021-00666-7>)
+- Evidence (2026-11-01): [Earlier Hennig–Xie analytical-form study (2019)](<https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513>)
 
 #### SuperBand electronic-band / superconductivity dataset
 
@@ -1725,6 +1795,8 @@ Release: Scientific Data 2025 band-data release.
 - Evidence (2026-11-01): [SuperBand: an Electronic-band and Fermi surface structure database of superconductors](<https://pmc.ncbi.nlm.nih.gov/articles/PMC12056090/>)
 - Evidence (2026-11-01): [SuperBand official repository](<https://github.com/ljcj007/SuperBand>)
 - Evidence (2026-11-01): [SuperBand: an Electronic-band and Fermi surface structure database of superconductors — Scientific Data descriptor](<https://doi.org/10.1038/s41597-025-05015-7>)
+- Evidence (2026-11-01): [SuperBand official reference CSV snapshot](<https://raw.githubusercontent.com/ljcj007/SuperBand/main/superband.csv>)
+- Evidence (2026-11-01): [SuperBand primary article full text](<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12056090/fullTextXML>)
 
 #### MAST-ML perovskite stability educational slice
 
@@ -1813,6 +1885,40 @@ Release: Publication release.
 - Evidence (2026-11-01): [A database to enable discovery and design of piezoelectric materials](<https://pmc.ncbi.nlm.nih.gov/articles/PMC4587372/>)
 - Evidence (2026-11-01): [Dryad piezoelectric-tensor dataset metadata](<https://datadryad.org/dataset/doi:10.5061/dryad.n63m4>)
 
+#### JARVIS high-pressure hydride superconductivity campaign
+
+Release: Figshare version 1 (2024-02-23); paper arXiv v4 (2024-05-31).
+
+- Homepage: [JARVIS high-pressure hydride superconductivity campaign](<https://figshare.com/articles/dataset/Data-driven_Design_of_High_Pressure_Hydride_Superconductors_using_DFT_and_Deep_Learning/25270012>)
+- Data: [JARVIS high-pressure hydride superconductivity campaign](<https://doi.org/10.6084/m9.figshare.25270012.v1>)
+- Paper: [JARVIS high-pressure hydride superconductivity campaign](<https://arxiv.org/abs/2312.12694>)
+- Evidence (2026-11-01): [Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning — author version 4](<https://arxiv.org/html/2312.12694v4>)
+- Evidence (2026-11-01): [High-pressure hydride dataset Figshare metadata](<https://api.figshare.com/v2/articles/25270012>)
+
+#### Superhydra binary-hydride database
+
+Release: 2023 Physical Review Materials release; 2022 preprint dataset.
+
+- Homepage: [Superhydra binary-hydride database](<https://arxiv.org/abs/2205.02554>)
+- Data: [Superhydra binary-hydride database](<https://journals.aps.org/prmaterials/supplemental/10.1103/PhysRevMaterials.7.054806>)
+- Paper: [Superhydra binary-hydride database](<https://doi.org/10.1103/PhysRevMaterials.7.054806>)
+- Evidence (2026-11-01): [Mapping Superconductivity in High-Pressure Hydrides: The Superhydra Project](<https://arxiv.org/abs/2205.02554>)
+- Evidence (2026-11-01): [Superhydra Physical Review Materials article and Supplemental Material](<https://doi.org/10.1103/PhysRevMaterials.7.054806>)
+
+#### Hennig BETE-NET released EPC cohort
+
+Release: Git revision 56bc783908a60e8a15e31b60018e6f3c3e48f593 (2024-08-20); journal paper 2025.
+
+- Homepage: [Hennig BETE-NET released EPC cohort](<https://github.com/henniggroup/BETE-NET>)
+- Data: [Hennig BETE-NET released EPC cohort](<https://github.com/henniggroup/BETE-NET/blob/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json>)
+- Paper: [Hennig BETE-NET released EPC cohort](<https://doi.org/10.1038/s41524-024-01475-4>)
+- Code: [Hennig BETE-NET released EPC cohort](<https://github.com/henniggroup/BETE-NET>)
+- Evidence (2026-11-01): [BETE-NET immutable public file inventory](<https://api.github.com/repos/henniggroup/BETE-NET/git/trees/56bc783908a60e8a15e31b60018e6f3c3e48f593?recursive=1>)
+- Evidence (2026-11-01): [BETE-NET released data header](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json>)
+- Evidence (2026-11-01): [BETE-NET journal paper](<https://www.nature.com/articles/s41524-024-01475-4>)
+- Evidence (2026-11-01): [BETE-NET author release documentation](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/README.md>)
+- Evidence (2026-11-01): [BETE-NET repository licence](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/LICENSE>)
+
 #### Matbench jdft2d
 
 Release: Matbench v0.1.
@@ -1835,6 +1941,15 @@ Release: Figshare7017254 v5, 2018-09-11.
 - Evidence (2026-11-01): [Educational dataset README](<https://ndownloader.figshare.com/files/13008500>)
 - Evidence (2026-11-01): [Official diffusion educational CSV](<https://ndownloader.figshare.com/files/13007075>)
 
+#### Antiperovskite superconductivity DFPT dataset
+
+Release: Materials Cloud 2022.49, version 1.
+
+- Homepage: [Antiperovskite superconductivity DFPT dataset](<https://archive.materialscloud.org/records/2hg1p-63427>)
+- Data: [Antiperovskite superconductivity DFPT dataset](<https://doi.org/10.24435/materialscloud:6g-az>)
+- Evidence (2026-11-01): [Superconductivity in antiperovskites — data archive](<https://archive.materialscloud.org/records/2hg1p-63427>)
+- Evidence (2026-11-01): [Materials Cloud 2022.49 metadata](<https://archive.materialscloud.org/api/records/2hg1p-63427>)
+
 #### JARVIS superconductivity 2D DFT cohort
 
 Release: JARVIS-Tools named supercon_2d release.
@@ -1846,6 +1961,17 @@ Release: JARVIS-Tools named supercon_2d release.
 - Evidence (2026-11-01): [JARVIS-Tools database inventory](<https://pages.nist.gov/jarvis/databases/>)
 - Evidence (2026-11-01): [Official JARVIS dataset loader](<https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py>)
 - Evidence (2026-11-01): [JARVIS-SuperconDB Figshare metadata](<https://api.figshare.com/v2/articles/21370572>)
+
+#### HTSC-2025 ambient-pressure BCS superconductor benchmark
+
+Release: ScienceDB V1; official Hugging Face JSON snapshot 2026-11-01.
+
+- Homepage: [HTSC-2025 ambient-pressure BCS superconductor benchmark](<https://huggingface.co/datasets/xiao-qi/HTSC-2025>)
+- Data: [HTSC-2025 ambient-pressure BCS superconductor benchmark](<https://doi.org/10.57760/sciencedb.j00113.00259>)
+- Paper: [HTSC-2025 ambient-pressure BCS superconductor benchmark](<https://doi.org/10.1088/1674-1056/adf042>)
+- Evidence (2026-11-01): [HTSC-2025 official dataset card](<https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/README.md>)
+- Evidence (2026-11-01): [HTSC-2025 official JSON data](<https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/HTSC-2025.json>)
+- Evidence (2026-11-01): [ScienceDB HTSC-2025 V1 DOI metadata](<https://api.datacite.org/dois/10.57760/sciencedb.j00113.00259>)
 
 #### Phono3py 103-compound finite-displacement dataset (PBEsol)
 
@@ -1970,16 +2096,17 @@ Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
 - Evidence (2026-11-01): [Starrydata 20261101 archival metadata](<https://api.figshare.com/v2/articles/34875318>)
 - Evidence (2026-11-01): [Starrydata dataset release repository](<https://github.com/starrydata/starrydata_datasets>)
 
-#### 3DSC_ICSD
+#### 3DSC_ICSD — superconductors linked to ICSD structures
 
 Release: 2023 published release.
 
-- Homepage: [3DSC_ICSD](<https://github.com/aimat-lab/3DSC>)
-- Paper: [3DSC_ICSD](<https://www.nature.com/articles/s41597-023-02721-y>)
-- Code: [3DSC_ICSD](<https://github.com/aimat-lab/3DSC>)
-- Data: [3DSC_ICSD](<https://doi.org/10.6084/m9.figshare.24499924>)
+- Homepage: [3DSC_ICSD — superconductors linked to ICSD structures](<https://github.com/aimat-lab/3DSC>)
+- Paper: [3DSC_ICSD — superconductors linked to ICSD structures](<https://www.nature.com/articles/s41597-023-02721-y>)
+- Code: [3DSC_ICSD — superconductors linked to ICSD structures](<https://github.com/aimat-lab/3DSC>)
+- Data: [3DSC_ICSD — superconductors linked to ICSD structures](<https://doi.org/10.6084/m9.figshare.24499924>)
 - Evidence (2026-11-01): [3DSC Scientific Data descriptor](<https://www.nature.com/articles/s41597-023-02721-y>)
 - Evidence (2026-11-01): [3DSC_ICSD (only Tc and ICSD IDs) repository metadata](<https://api.figshare.com/v2/articles/24499924>)
+- Evidence (2026-11-01): [3DSC primary article full text](<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML>)
 
 #### LeMat-Synth synthesis-procedure corpus
 
@@ -2103,6 +2230,18 @@ Release: Figshare v3, 2019-09-27.
 - Evidence (2026-11-01): [Solid-state synthesis Scientific Data descriptor](<https://www.nature.com/articles/s41597-019-0224-1>)
 - Evidence (2026-11-01): [Solid-state synthesis v3 metadata](<https://api.figshare.com/v2/articles/9722159/versions/3>)
 
+#### SuperCon² text-extracted superconductivity records
+
+Release: supercon2_v23.04.28_cleanup.csv; snapshot 2026-11-01.
+
+- Homepage: [SuperCon² text-extracted superconductivity records](<https://github.com/lfoppiano/supercon>)
+- Data: [SuperCon² text-extracted superconductivity records](<https://github.com/lfoppiano/supercon/blob/main/data/supercon2_v23.04.28_cleanup.csv>)
+- Paper: [SuperCon² text-extracted superconductivity records](<https://doi.org/10.1080/27660400.2022.2153633>)
+- Code: [SuperCon² text-extracted superconductivity records](<https://github.com/lfoppiano/supercon>)
+- Evidence (2026-11-01): [SuperCon² author repository](<https://github.com/lfoppiano/supercon>)
+- Evidence (2026-11-01): [SuperCon² cleaned CSV v23.04.28](<https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v23.04.28_cleanup.csv>)
+- Evidence (2026-11-01): [SuperCon² original CSV v22.12.03](<https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v22.12.03.csv>)
+
 #### Starrydata — Magnetic Materials
 
 Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
@@ -2116,6 +2255,19 @@ Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
 - Evidence (2026-11-01): [Starrydata MagneticMaterials project manifest](<https://starrydata.github.io/starrydata_datasets/manifest.json>)
 - Evidence (2026-11-01): [Starrydata 20261101 archival metadata](<https://api.figshare.com/v2/articles/34875318>)
 - Evidence (2026-11-01): [Starrydata latest release asset metadata](<https://api.github.com/repos/starrydata/starrydata_datasets/releases/latest>)
+
+#### JARVIS supercon_chem experimental composition/Tc benchmark
+
+Release: Figshare version 1 (2023-05-20).
+
+- Homepage: [JARVIS supercon_chem experimental composition/Tc benchmark](<https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/>)
+- Data: [JARVIS supercon_chem experimental composition/Tc benchmark](<https://doi.org/10.6084/m9.figshare.22975787.v1>)
+- Paper: [JARVIS supercon_chem experimental composition/Tc benchmark](<https://doi.org/10.1038/s41524-018-0085-8>)
+- Code: [JARVIS supercon_chem experimental composition/Tc benchmark](<https://github.com/usnistgov/jarvis>)
+- Evidence (2026-11-01): [JARVIS-Tools official dataset inventory](<https://pages.nist.gov/jarvis/databases/>)
+- Evidence (2026-11-01): [JARVIS supercon_chem Tc benchmark](<https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/>)
+- Evidence (2026-11-01): [JARVIS supercon_chem Figshare version 1 metadata](<https://api.figshare.com/v2/articles/22975787>)
+- Evidence (2026-11-01): [Official supercon_chem JSON ZIP](<https://ndownloader.figshare.com/files/40719260>)
 
 #### Starrydata — Battery Materials
 
@@ -2145,16 +2297,17 @@ Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
 - Evidence (2026-11-01): [Starrydata 20261101 archival metadata](<https://api.figshare.com/v2/articles/34875318>)
 - Evidence (2026-11-01): [Starrydata latest release asset metadata](<https://api.github.com/repos/starrydata/starrydata_datasets/releases/latest>)
 
-#### 3DSC_MP
+#### 3DSC_MP — superconductors with Materials Project structures
 
 Release: 2023 published release.
 
-- Homepage: [3DSC_MP](<https://github.com/aimat-lab/3DSC>)
-- Paper: [3DSC_MP](<https://www.nature.com/articles/s41597-023-02721-y>)
-- Code: [3DSC_MP](<https://github.com/aimat-lab/3DSC>)
-- Data: [3DSC_MP](<https://doi.org/10.6084/m9.figshare.24499930>)
+- Homepage: [3DSC_MP — superconductors with Materials Project structures](<https://github.com/aimat-lab/3DSC>)
+- Paper: [3DSC_MP — superconductors with Materials Project structures](<https://www.nature.com/articles/s41597-023-02721-y>)
+- Code: [3DSC_MP — superconductors with Materials Project structures](<https://github.com/aimat-lab/3DSC>)
+- Data: [3DSC_MP — superconductors with Materials Project structures](<https://doi.org/10.6084/m9.figshare.24499930>)
 - Evidence (2026-11-01): [3DSC Scientific Data descriptor](<https://www.nature.com/articles/s41597-023-02721-y>)
 - Evidence (2026-11-01): [3DSC_MP repository metadata](<https://api.figshare.com/v2/articles/24499930>)
+- Evidence (2026-11-01): [3DSC primary article full text](<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML>)
 
 #### Open Catalyst Experiments 2024 (OCx24) experimental data
 
@@ -2284,6 +2437,28 @@ Release: Figshare v3, 2024 release.
 - Evidence (2026-11-01): [HYPOD-X Scientific Data descriptor](<https://www.nature.com/articles/s41597-024-04043-z>)
 - Evidence (2026-11-01): [HYPOD-X v3 Figshare metadata](<https://api.figshare.com/v2/articles/25650705/versions/3>)
 
+#### SuperMat public superconductivity linked-record CSV
+
+Release: SuperMat-2.0.csv; snapshot 2026-11-01.
+
+- Homepage: [SuperMat public superconductivity linked-record CSV](<https://github.com/lfoppiano/SuperMat>)
+- Data: [SuperMat public superconductivity linked-record CSV](<https://github.com/lfoppiano/SuperMat/blob/master/data/csv/SuperMat-2.0.csv>)
+- Paper: [SuperMat public superconductivity linked-record CSV](<https://doi.org/10.1080/27660400.2021.1918396>)
+- Code: [SuperMat public superconductivity linked-record CSV](<https://github.com/lfoppiano/SuperMat>)
+- Evidence (2026-11-01): [SuperMat author repository README](<https://raw.githubusercontent.com/lfoppiano/SuperMat/master/README.md>)
+- Evidence (2026-11-01): [SuperMat public CSV 2.0](<https://raw.githubusercontent.com/lfoppiano/SuperMat/master/data/csv/SuperMat-2.0.csv>)
+
+#### SC-CoMIcs superconductivity information-extraction corpus
+
+Release: Mendeley Data version 3 (2021-06-29).
+
+- Homepage: [SC-CoMIcs superconductivity information-extraction corpus](<https://data.mendeley.com/datasets/xc9fjz2p3h/3>)
+- Data: [SC-CoMIcs superconductivity information-extraction corpus](<https://doi.org/10.17632/xc9fjz2p3h.3>)
+- Paper: [SC-CoMIcs superconductivity information-extraction corpus](<https://aclanthology.org/2020.lrec-1.834/>)
+- Code: [SC-CoMIcs superconductivity information-extraction corpus](<https://github.com/tti-coin/sc-comics>)
+- Evidence (2026-11-01): [SC-CoMIcs Mendeley Data version 3](<https://data.mendeley.com/datasets/xc9fjz2p3h/3>)
+- Evidence (2026-11-01): [SC-CoMIcs author repository](<https://github.com/tti-coin/sc-comics>)
+
 #### Starrydata — Solid State Battery Materials
 
 Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
@@ -2336,6 +2511,17 @@ Release: DB snapshot 2026-11-01 02:00:01 UTC+0900 (JST).
 - Evidence (2026-11-01): [Starrydata 20261101 archival metadata](<https://api.figshare.com/v2/articles/34875318>)
 - Evidence (2026-11-01): [Starrydata latest release asset metadata](<https://api.github.com/repos/starrydata/starrydata_datasets/releases/latest>)
 
+#### Robinson HTS Wire Critical Current Database
+
+Release: Figshare collection v23, published 2025-10-14; checked 2026-11-01.
+
+- Homepage: [Robinson HTS Wire Critical Current Database](<https://htsdb.wimbush.eu/about>)
+- Data: [Robinson HTS Wire Critical Current Database](<https://doi.org/10.6084/m9.figshare.c.2861821>)
+- Paper: [Robinson HTS Wire Critical Current Database](<https://doi.org/10.1109/TASC.2016.2628700>)
+- Evidence (2026-11-01): [Robinson HTS collection metadata](<https://api.figshare.com/v2/collections/2861821>)
+- Evidence (2026-11-01): [Robinson HTS public collection articles](<https://api.figshare.com/v2/collections/2861821/articles?page_size=100>)
+- Evidence (2026-11-01): [Robinson HTS database official documentation](<https://htsdb2.wimbush.eu/about>)
+
 #### MDR SuperCon Datasheet
 
 Release: Ver.240322.
@@ -2343,6 +2529,19 @@ Release: Ver.240322.
 - Homepage: [MDR SuperCon Datasheet](<https://doi.org/10.48505/nims.3739>)
 - Data: [MDR SuperCon Datasheet](<https://doi.org/10.48505/nims.4487>)
 - Evidence (2026-11-01): [MDR SuperCon Datasheet Ver.240322](<https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja>)
+- Evidence (2026-11-01): [NIMS-registered metadata for MDR SuperCon Datasheet Ver.240322](<https://api.datacite.org/dois/10.48505/nims.4487>)
+- Evidence (2026-11-01): [NIMS-registered metadata for MDR SuperCon series DOI](<https://api.datacite.org/dois/10.48505/nims.3739>)
+
+#### NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)
+
+Release: Data content last updated 1996; provider metadata version 1.0.0 (2015).
+
+- Homepage: [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)](<https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723>)
+- Data: [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)](<https://doi.org/10.18434/T4KP8J>)
+- Paper: [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62)](<https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20>)
+- Evidence (2026-11-01): [NIST SRD 62 official resource metadata](<https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723>)
+- Evidence (2026-11-01): [NIST WebHTS search portal](<https://srdata.nist.gov/CeramicDataPortal/hit>)
+- Evidence (2026-11-01): [NIST SRD copyright and licensing statements](<https://www.nist.gov/open/license>)
 
 ### Diffraction, spectroscopy and characterization
 
@@ -2621,6 +2820,64 @@ Role: instructional resource and dataset directory.
 - [Primary resource CSV](<https://raw.githubusercontent.com/usnistgov/remi/nist-pages/_data/resources.csv>) (checked 2026-11-01)
 - [Open Access Data list](<https://raw.githubusercontent.com/usnistgov/remi/nist-pages/data/index.md>) (checked 2026-11-01)
 
+### [IEEE CSC Superconductor Databases & Resources](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>)
+
+Role: subject-resource directory.
+
+- [IEEE CSC resource directory](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>) (checked 2026-11-01)
+- [IEEE-listed route: CSC Wiki](<https://wiki.ieeecsc.org/>) (checked 2026-11-01)
+- [IEEE-listed route: Archived Wikipedia list](<https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf>) (checked 2026-11-01)
+- [IEEE-listed route: UCI Superconductivty Data](<https://archive.ics.uci.edu/dataset/464/superconductivty+data>) (checked 2026-11-01)
+- [IEEE-listed route: NIST SRD 62 metadata](<https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723>) (checked 2026-11-01)
+- [IEEE-listed route: NIST legacy WebHTS portal](<https://srdata.nist.gov/CeramicDataPortal/hit>) (checked 2026-11-01)
+- [IEEE-listed route: Roberts survey](<https://srd.nist.gov/jpcrdreprint/1.555540.pdf>) (checked 2026-11-01)
+- [IEEE-listed route: Roberts 1978 supplement](<https://books.google.com/books?id=bbHgTVWyFlkC>) (checked 2026-11-01)
+- [IEEE-listed route: Clark OSD](<http://osd.clarku.edu/public/about>) (checked 2026-11-01)
+- [IEEE-listed route: Materials Project](<https://next-gen.materialsproject.org>) (checked 2026-11-01)
+- [IEEE-listed route: NIMS MatNavi](<https://mits.nims.go.jp>) (checked 2026-11-01)
+- [IEEE-listed route: MDR SuperCon Datasheet](<https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2>) (checked 2026-11-01)
+- [IEEE-listed route: Robinson critical-current data](<https://htsdb.wimbush.eu/about>) (checked 2026-11-01)
+- [IEEE-listed route: CERN materials](<https://steam.docs.cern.ch/libraries/materials/>) (checked 2026-11-01)
+
+### [IEEE CSC Superconductor Properties Wiki](<https://wiki.ieeecsc.org/>)
+
+Role: community property-reference wiki.
+
+- [IEEE CSC wiki description](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>) (checked 2026-11-01)
+
+### [Roberts superconductive-materials survey (1976; literature through March 1975)](<https://doi.org/10.1063/1.555540>)
+
+Role: historical evaluated data tables.
+
+- [Survey of superconductive materials and critical evaluation of selected properties](<https://srd.nist.gov/jpcrdreprint/1.555540.pdf>) (checked 2026-11-01)
+
+### [Roberts Properties of Selected Superconductive Materials, 1978 Supplement](<https://doi.org/10.6028/NBS.TN.983>)
+
+Role: historical reference supplement.
+
+- [NIST Technical Note 983 publication record](<https://www.nist.gov/publications/properties-selected-superconductive-materials-1978-supplement>) (checked 2026-11-01)
+
+### [CERN STEAM Materials Library (SMaLi)](<https://steam.docs.cern.ch/libraries/materials/>)
+
+Role: material-property model library.
+
+- [CERN STEAM Materials documentation](<https://steam.docs.cern.ch/libraries/materials/>) (checked 2026-11-01)
+- [SMaLi reference documentation](<https://steam-material-library.docs.cern.ch/>) (checked 2026-11-01)
+
+### [Archived Wikipedia List of Superconductors (IEEE-linked PDF)](<https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf>)
+
+Role: archived reference list.
+
+- [IEEE CSC linked reference list](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>) (checked 2026-11-01)
+
+### [SCLib / JZIS superconducting-transition records](<https://jzis.org/materials>)
+
+Role: model-curated literature-data portal.
+
+- [SCLib public materials snapshot](<https://jzis.org/materials>) (checked 2026-11-01)
+- [SCLib data license](<https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/LICENSE-DATA>) (checked 2026-11-01)
+- [SCLib provenance and upstream-license notes](<https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/DATA_SOURCES.md>) (checked 2026-11-01)
+
 ## Supporting perspective papers
 
 - [Materials Databases: Foundations of Modern Digital Materials](<https://doi.org/10.1021/prechem.5c00449>)
@@ -2632,7 +2889,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 
 ## All distinct source URLs
 
-**1057 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
+**1166 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
 
 | Source link | Included as |
 |---|---|
@@ -2645,6 +2902,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [2DHub: X2DB documentation](<https://2dhub.org/x2db/x2db.html>) | Catalog evidence; blaiszik/awesome-matchem-datasets |
 | [Elastomeric Foam Materials](<https://acdc.alcf.anl.gov/mdf/detail/foam_db_v1.1/>) | sedaoturak/data-resources-for-materials-science |
 | [CHiMAD NIST (TDDFT)](<https://acdc.alcf.anl.gov/mdf/detail/kononov_firstprinciples_simulation_graphene_v1.1/>) | sedaoturak/data-resources-for-materials-science |
+| [SC-CoMIcs superconductivity information-extraction corpus — paper](<https://aclanthology.org/2020.lrec-1.834/>) | Catalog official route |
 | [AFLOW](<https://aflow.org>) | blaiszik/awesome-matchem-datasets |
 | [AFLOW — homepage](<https://aflow.org/>) | Catalog official route |
 | [AFLOW — data](<https://aflow.org/API/aflowlib_stats/>) | Catalog evidence; Catalog official route |
@@ -2655,6 +2913,9 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Alexandria — homepage](<https://alexandria.icams.rub.de/>) | Catalog official route |
 | [sAlex25 — data](<https://alexandria.icams.rub.de/datasets.html>) | Catalog official route |
 | [Crossref publisher-deposited Digital Hydrogen-S metadata](<https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434>) | Resource evidence |
+| [NIMS-registered metadata for MDR SuperCon series DOI](<https://api.datacite.org/dois/10.48505/nims.3739>) | Catalog evidence |
+| [NIMS-registered metadata for MDR SuperCon Datasheet Ver.240322](<https://api.datacite.org/dois/10.48505/nims.4487>) | Catalog evidence |
+| [ScienceDB HTSC-2025 V1 DOI metadata](<https://api.datacite.org/dois/10.57760/sciencedb.j00113.00259>) | Catalog evidence |
 | [Battery database v2 metadata](<https://api.figshare.com/v2/articles/11888115/versions/2>) | Catalog evidence |
 | [SNUMAT Figshare publication-release metadata](<https://api.figshare.com/v2/articles/12839240>) | Catalog evidence |
 | [QMOF official Figshare metadata](<https://api.figshare.com/v2/articles/13147324>) | Catalog evidence |
@@ -2662,9 +2923,11 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Thermoelectric database Figshare metadata](<https://api.figshare.com/v2/articles/19658787>) | Catalog evidence |
 | [JARVIS-SuperconDB Figshare metadata](<https://api.figshare.com/v2/articles/21370572>) | Catalog evidence |
 | [Matbench Discovery data-file release metadata](<https://api.figshare.com/v2/articles/22715158>) | Catalog evidence |
+| [JARVIS supercon_chem Figshare version 1 metadata](<https://api.figshare.com/v2/articles/22975787>) | Catalog evidence |
 | [Materials Project Trajectory (MPtrj) — primary documentation](<https://api.figshare.com/v2/articles/23713842>) | Catalog evidence |
 | [3DSC_ICSD (only Tc and ICSD IDs) repository metadata](<https://api.figshare.com/v2/articles/24499924>) | Catalog evidence |
 | [3DSC_MP repository metadata](<https://api.figshare.com/v2/articles/24499930>) | Catalog evidence |
+| [High-pressure hydride dataset Figshare metadata](<https://api.figshare.com/v2/articles/25270012>) | Catalog evidence |
 | [HYPOD-X v3 Figshare metadata](<https://api.figshare.com/v2/articles/25650705/versions/3>) | Catalog evidence |
 | [Curie–Néel v2 repository metadata](<https://api.figshare.com/v2/articles/29559686/versions/2>) | Catalog evidence |
 | [Impurity synthesis Figshare metadata](<https://api.figshare.com/v2/articles/30423274>) | Catalog evidence |
@@ -2674,9 +2937,13 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [MAST-ML educational release metadata](<https://api.figshare.com/v2/articles/7017254>) | Catalog evidence; Collection evidence; Resource evidence |
 | [2DMatPedia official Figshare metadata](<https://api.figshare.com/v2/articles/7699910>) | Catalog evidence |
 | [Solid-state synthesis v3 metadata](<https://api.figshare.com/v2/articles/9722159/versions/3>) | Catalog evidence |
+| [Robinson HTS collection metadata](<https://api.figshare.com/v2/collections/2861821>) | Catalog evidence |
+| [Robinson HTS public collection articles](<https://api.figshare.com/v2/collections/2861821/articles?page_size=100>) | Catalog evidence |
 | [JARVIS-Tools Notebooks inspected document](<https://api.github.com/repos/JARVIS-Materials-Design/jarvis-tools-notebooks>) | Collection evidence |
 | [JARVIS-Tools Notebooks inspected document](<https://api.github.com/repos/JARVIS-Materials-Design/jarvis-tools-notebooks/commits/master>) | Collection evidence |
 | [JARVIS-Tools Notebooks inspected document](<https://api.github.com/repos/atomgptlab/jarvis-tools-notebooks/commits/master>) | Collection evidence |
+| [BEE-NET immutable public file inventory](<https://api.github.com/repos/henniggroup/BEE-NET/git/trees/f21c260a9117830f2d74f2c5ac844ab671c0c606?recursive=1>) | Catalog evidence |
+| [BETE-NET immutable public file inventory](<https://api.github.com/repos/henniggroup/BETE-NET/git/trees/56bc783908a60e8a15e31b60018e6f3c3e48f593?recursive=1>) | Catalog evidence |
 | [Starrydata latest release asset metadata](<https://api.github.com/repos/starrydata/starrydata_datasets/releases/latest>) | Catalog evidence |
 | [REMI owning repository](<https://api.github.com/repos/usnistgov/remi>) | Collection evidence |
 | [REMI: REsource for Materials Informatics inspected document](<https://api.github.com/repos/usnistgov/remi/commits/nist-pages>) | Collection evidence |
@@ -2684,22 +2951,34 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [REMI: REsource for Materials Informatics inspected document](<https://api.github.com/repos/usnistgov/remi/contents/data/Combinatorial%20Libraries/Fe-Ga-Pd?ref=nist-pages>) | Collection evidence |
 | [REMI: REsource for Materials Informatics inspected document](<https://api.github.com/repos/usnistgov/remi/readme?ref=nist-pages>) | Collection evidence |
 | [High-Speed TBL DNS DB](<https://arc.aiaa.org/doi/10.2514/1.J063456>) | blaiszik/awesome-matchem-datasets |
+| [UCI dataset 464 official metadata](<https://archive.ics.uci.edu/api/dataset?id=464>) | Catalog evidence |
+| [UCI Superconductivty Data](<https://archive.ics.uci.edu/dataset/464/superconductivty+data>) | Catalog evidence; Catalog official route; Resource evidence |
 | [Materials Cloud Archives](<https://archive.materialscloud.org>) | blaiszik/awesome-matchem-datasets |
 | [Materials Cloud Archive](<https://archive.materialscloud.org/>) | Navigation resource; Resource evidence |
+| [Materials Cloud version 4 metadata](<https://archive.materialscloud.org/api/records/0kqen-w8h90>) | Catalog evidence |
 | [MC2D record metadata](<https://archive.materialscloud.org/api/records/17gf6-84915>) | Catalog evidence |
 | [CURATED COFs file license](<https://archive.materialscloud.org/api/records/1xf71-nf390>) | Catalog evidence |
+| [Materials Cloud 2022.49 metadata](<https://archive.materialscloud.org/api/records/2hg1p-63427>) | Catalog evidence |
+| [Cerqueira EPC archive metadata](<https://archive.materialscloud.org/api/records/3kbt5-r3n56>) | Catalog evidence |
+| [Cerqueira EPC archive README](<https://archive.materialscloud.org/api/records/3kbt5-r3n56/files/README.txt/content>) | Catalog evidence |
 | [Zeo-1 archived rights](<https://archive.materialscloud.org/api/records/3xmh2-vv758>) | Catalog evidence |
 | [Hypothetical COF rights](<https://archive.materialscloud.org/api/records/cjhyq-nr115>) | Catalog evidence |
 | [MAD-1.6 Materials Cloud metadata](<https://archive.materialscloud.org/api/records/ffd5a-1hc37>) | Catalog evidence |
 | [Boyd-Woo file rights](<https://archive.materialscloud.org/api/records/nsp7v-2dk91>) | Catalog evidence |
+| [Hennig–Xie Materials Cloud metadata](<https://archive.materialscloud.org/api/records/skdzy-kyx54>) | Catalog evidence |
+| [Hennig–Xie public numerical tables](<https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content>) | Catalog evidence; Catalog official route |
 | [ReDD-COFFEE v1](<https://archive.materialscloud.org/record/2023.13>) | Catalog evidence |
+| [Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds — version 4](<https://archive.materialscloud.org/records/0kqen-w8h90>) | Catalog evidence |
 | [MC2D archived release](<https://archive.materialscloud.org/records/17gf6-84915>) | Catalog evidence; Catalog official route |
 | [MAD-1.5](<https://archive.materialscloud.org/records/18tke-tt476>) | sedaoturak/data-resources-for-materials-science |
 | [CURATED COFs archive release history](<https://archive.materialscloud.org/records/1xf71-nf390>) | Catalog evidence; Catalog official route |
+| [Superconductivity in antiperovskites — data archive](<https://archive.materialscloud.org/records/2hg1p-63427>) | Catalog evidence; Catalog official route |
+| [Cerqueira–Sanna–Marques conventional-superconductor EPC archive — homepage](<https://archive.materialscloud.org/records/3kbt5-r3n56>) | Catalog evidence; Catalog official route |
 | [Zeo-1 — data](<https://archive.materialscloud.org/records/3xmh2-vv758>) | Catalog official route |
 | [Hypothetical COF Materials Cloud archive](<https://archive.materialscloud.org/records/cjhyq-nr115>) | Catalog evidence; Catalog official route |
 | [Massive Atomic Diversity (MAD-1.6) — homepage](<https://archive.materialscloud.org/records/ffd5a-1hc37>) | Catalog evidence; Catalog official route |
 | [Boyd-Woo Materials Cloud archive](<https://archive.materialscloud.org/records/nsp7v-2dk91>) | Catalog evidence; Catalog official route |
+| [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — homepage](<https://archive.materialscloud.org/records/skdzy-kyx54>) | Catalog official route |
 | [Materials Cloud 3D (MC3D) — data](<https://archive.materialscloud.org/records/szjaf-cfv74>) | Catalog official route |
 | [MAD (Massive Atomic Diversity)](<https://archive.materialscloud.org/records/xdsbt-a3r17>) | blaiszik/awesome-matchem-datasets |
 | [ReDD-COFFEE — data](<https://archive.materialscloud.org/records/y5gs8-pyj90>) | Catalog evidence; Catalog official route |
@@ -2709,9 +2988,11 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [All Topological Bands of All Nonmagnetic Stoichiometric Materials](<https://arxiv.org/abs/2105.09954>) | Catalog evidence |
 | [MP-20 (CDVAE benchmark) — paper](<https://arxiv.org/abs/2110.06197>) | Catalog official route |
 | [REMI Fe-Co-Ni combinatorial library — paper](<https://arxiv.org/abs/2204.05838>) | Catalog official route; REMI: REsource for Materials Informatics |
+| [Superhydra binary-hydride database — homepage](<https://arxiv.org/abs/2205.02554>) | Catalog evidence; Catalog official route |
 | [OC22 final author paper](<https://arxiv.org/abs/2206.08917v3>) | Catalog evidence |
 | [DMC-ICE13 author paper](<https://arxiv.org/abs/2207.01353>) | Catalog evidence |
 | [Carbon-data synthetic atomistic trajectories — paper](<https://arxiv.org/abs/2211.16443>) | Catalog official route |
+| [JARVIS high-pressure hydride superconductivity campaign — paper](<https://arxiv.org/abs/2312.12694>) | Catalog official route |
 | [BEAST DB primary author paper](<https://arxiv.org/abs/2405.20239>) | Catalog evidence |
 | [The OpenLAM Challenges](<https://arxiv.org/abs/2501.16358>) | Catalog evidence; Catalog official route |
 | [MatPES — paper](<https://arxiv.org/abs/2503.04070>) | Catalog official route |
@@ -2727,7 +3008,9 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [LeMat-Synth synthesis-procedure corpus — paper](<https://arxiv.org/abs/2510.26824>) | Catalog evidence; Catalog official route |
 | [All Topological Bands, full author manuscript](<https://arxiv.org/html/2105.09954v2>) | Catalog evidence |
 | [ODAC23 author paper Table 1](<https://arxiv.org/html/2311.00341v2>) | Catalog evidence |
+| [Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning — author version 4](<https://arxiv.org/html/2312.12694v4>) | Catalog evidence |
 | [opXRD author preprint v2](<https://arxiv.org/html/2503.05577v2>) | Catalog evidence |
+| [BEE-NET author preprint](<https://arxiv.org/html/2503.20005v1>) | Catalog evidence |
 | [OC25 primary dataset paper](<https://arxiv.org/html/2509.17862v1>) | Catalog evidence |
 | [Massive Atomic Diversity (MAD-1.5) — homepage](<https://arxiv.org/html/2603.02089v2>) | Catalog evidence; Catalog official route |
 | [Pearson's Crystal Data — data](<https://asm.mpds.io/>) | Catalog official route |
@@ -2739,6 +3022,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [BEAST DB](<https://beastdb.nrel.gov/>) | Catalog official route; sedaoturak/data-resources-for-materials-science |
 | [van der Waals Bilayer Database (BiDB)](<https://bidb.fysik.dtu.dk/>) | blaiszik/awesome-matchem-datasets |
 | [BLASTNet](<https://blastnet.github.io>) | blaiszik/awesome-matchem-datasets |
+| [IEEE-listed route: Roberts 1978 supplement](<https://books.google.com/books?id=bbHgTVWyFlkC>) | Resource evidence |
 | [C2DB](<https://c2db.fysik.dtu.dk>) | blaiszik/awesome-matchem-datasets |
 | [Computational Single-Atom Catalyst Database (NCEPU) — data](<https://catalysis-ncepu-hvkydg736ykqeq26d5gxrn.streamlit.app/>) | Catalog official route |
 | [ChemBench](<https://chembench.lamalab.org>) | blaiszik/awesome-matchem-datasets |
@@ -2832,8 +3116,11 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [NIMS AtomWork — data](<https://crystdb.nims.go.jp/>) | Catalog official route |
 | [Mendeley Data](<https://data.mendeley.com/>) | sedaoturak/data-resources-for-materials-science |
 | [Compressible TPC DNS DB](<https://data.mendeley.com/datasets/wt8t5kxzbs>) | blaiszik/awesome-matchem-datasets |
+| [SC-CoMIcs Mendeley Data version 3](<https://data.mendeley.com/datasets/xc9fjz2p3h/3>) | Catalog evidence; Catalog official route |
 | [NIST AM-Bench — source](<https://data.nist.gov>) | blaiszik/awesome-matchem-datasets |
 | [CAMEO (NIST) — source](<https://data.nist.gov/od/ds/mds2-2480/CAMEO_NComm-master.zip>) | blaiszik/awesome-matchem-datasets |
+| [NIST SRD 62 official resource metadata](<https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723>) | Catalog evidence; Resource evidence |
+| [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — homepage](<https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723>) | Catalog official route |
 | [Airfoil CFD 2k](<https://data.openei.org/submissions/5970>) | blaiszik/awesome-matchem-datasets |
 | [Jupyter Notebooks](<https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/>) | REMI: REsource for Materials Informatics |
 | [Dryad electronic-transport dataset metadata](<https://datadryad.org/dataset/doi:10.5061/dryad.gn001>) | Catalog evidence |
@@ -2849,11 +3136,13 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Materials Project — data](<https://docs.materialsproject.org/downloading-data>) | Catalog official route |
 | [Peregrine](<https://doi.ccs.ornl.gov/dataset/96b7da99-07e1-562d-88d5-d7e079acfef7>) | sedaoturak/data-resources-for-materials-science |
 | [Work function and cleavage energy surface database — paper](<https://doi.org/10.1002/adfm.202401764>) | Catalog official route |
+| [Cerqueira–Sanna–Marques conventional-superconductor EPC archive — paper](<https://doi.org/10.1002/adma.202307085>) | Catalog evidence; Catalog official route |
 | [opXRD: Open Experimental Powder X-ray Diffraction Database — paper](<https://doi.org/10.1002/aidi.202500044>) | Catalog official route |
 | [Accelerating Catalyst Materials Discovery With Large Artificial Intelligence Models](<https://doi.org/10.1002/anie.202526150>) | Supporting perspective |
 | [OMDB-GAP1 — paper](<https://doi.org/10.1002/qute.201900023>) | Catalog official route |
 | [Computation-Ready Experimental COF Database (CoRE COF) — paper](<https://doi.org/10.1016/j.ces.2017.05.004>) | Catalog official route |
 | [MAST-ML perovskite stability educational slice — paper](<https://doi.org/10.1016/j.commatsci.2018.04.033>) | Catalog official route |
+| [UCI Superconductivity Data (Hamidieh 2018) — paper](<https://doi.org/10.1016/j.commatsci.2018.07.052>) | Catalog evidence; Catalog official route |
 | [CoRE MOF Database — paper](<https://doi.org/10.1016/j.matt.2025.102140>) | Catalog official route |
 | [DigBat / Dynamic Database of Solid-State Electrolytes — paper](<https://doi.org/10.1016/j.nanoms.2026.07.001>) | Catalog official route |
 | [ab initio REPEAT Charge MOF Database (ARC-MOF) — paper](<https://doi.org/10.1021/acs.chemmater.2c02485>) | Catalog official route |
@@ -2874,14 +3163,18 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Wilmer hypothetical MOF database (hMOF) — paper](<https://doi.org/10.1038/nchem.1192>) | Catalog official route |
 | [REMI Fe-Ga-Pd combinatorial library — paper](<https://doi.org/10.1038/s41467-020-19597-w>) | Catalog official route |
 | [van der Waals Bilayer Database (BiDB) — paper](<https://doi.org/10.1038/s41467-024-45003-w>) | Catalog official route |
+| [JARVIS supercon_chem experimental composition/Tc benchmark — paper](<https://doi.org/10.1038/s41524-018-0085-8>) | Catalog official route |
 | [Matbench jdft2d — paper](<https://doi.org/10.1038/s41524-020-00406-3>) | Catalog official route |
 | [JARVIS-DFT 2D snapshot — paper](<https://doi.org/10.1038/s41524-020-00440-1>) | Catalog official route |
 | [WBM / Matbench Discovery stability test set — paper](<https://doi.org/10.1038/s41524-020-00481-6>) | Catalog official route |
+| [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — paper](<https://doi.org/10.1038/s41524-021-00666-7>) | Catalog official route |
 | [Quantum Point Defects Database (QPOD) — paper](<https://doi.org/10.1038/s41524-022-00730-w>) | Catalog official route |
 | [Quantum MOF Database (QMOF) — paper](<https://doi.org/10.1038/s41524-022-00796-6>) | Catalog official route |
 | [JARVIS superconductivity 3D DFT cohort — paper](<https://doi.org/10.1038/s41524-022-00933-1>) | Catalog official route |
 | [MPF.2021.2.8 — paper](<https://doi.org/10.1038/s41524-024-01227-4>) | Catalog official route |
+| [Hennig BETE-NET released EPC cohort — paper](<https://doi.org/10.1038/s41524-024-01475-4>) | Catalog official route |
 | [MP-ALOE — data](<https://doi.org/10.1038/s41524-025-01834-9>) | Catalog evidence; Catalog official route |
+| [Hennig BEE-NET public structures and split files — paper](<https://doi.org/10.1038/s41524-026-01964-8>) | Catalog official route |
 | [Perovskite Database Project (solar cells) — paper](<https://doi.org/10.1038/s41560-021-00941-3>) | Catalog official route |
 | [Boyd-Woo hypothetical MOFs for wet flue-gas capture — paper](<https://doi.org/10.1038/s41586-019-1798-7>) | Catalog official route |
 | [GNoME released stable-materials set — paper](<https://doi.org/10.1038/s41586-023-06735-9>) | Catalog official route |
@@ -2906,22 +3199,36 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [ReDD-COFFEE — paper](<https://doi.org/10.1039/D3TA00470H>) | Catalog official route |
 | [MOSAEC MOF Database (MOSAEC-DB) — paper](<https://doi.org/10.1039/D4SC07438F>) | Catalog official route |
 | [Materials Project — paper](<https://doi.org/10.1063/1.4812323>) | Catalog official route |
+| [Roberts superconductive-materials survey (1976; literature through March 1975)](<https://doi.org/10.1063/1.555540>) | Navigation resource |
 | [DMC-ICE13 — paper](<https://doi.org/10.1063/5.0102645>) | Catalog official route |
+| [SuperMat public superconductivity linked-record CSV — paper](<https://doi.org/10.1080/27660400.2021.1918396>) | Catalog official route |
+| [SuperCon² text-extracted superconductivity records — paper](<https://doi.org/10.1080/27660400.2022.2153633>) | Catalog official route |
 | [MDR XAFS DB — paper](<https://doi.org/10.1080/27660400.2023.2197518>) | Catalog official route |
 | [Starrydata2 experimental materials datasets — paper](<https://doi.org/10.1080/27660400.2025.2590811>) | Catalog official route |
+| [HTSC-2025 ambient-pressure BCS superconductor benchmark — paper](<https://doi.org/10.1088/1674-1056/adf042>) | Catalog official route |
 | [Computational 2D Materials Database (C2DB) — paper](<https://doi.org/10.1088/2053-1583/ac1059>) | Catalog official route |
 | [sAlex25 — paper](<https://doi.org/10.1088/2515-7639/ae6620>) | Catalog evidence; Catalog official route |
 | [NLR MatDB (formerly NRELMatDB) — paper](<https://doi.org/10.1103/PhysRevB.85.115104>) | Catalog official route |
 | [X23 diffusion Monte Carlo benchmark — paper](<https://doi.org/10.1103/PhysRevLett.133.046401>) | Catalog official route |
 | [AFLOW AEL–AGL thermomechanical cohort (2017) — paper](<https://doi.org/10.1103/PhysRevMaterials.1.015401>) | Catalog evidence; Catalog official route |
+| [Superhydra binary-hydride database — paper](<https://doi.org/10.1103/PhysRevMaterials.7.054806>) | Catalog evidence; Catalog official route |
 | [van der Waals 2D Heterostructure Database (HetDB) — paper](<https://doi.org/10.1103/cl8c-8f1f>) | Catalog official route |
+| [MC3D conventional-superconductivity screening and Eliashberg dataset — paper](<https://doi.org/10.1103/sb28-fjc9>) | Catalog official route |
+| [Robinson HTS Wire Critical Current Database — paper](<https://doi.org/10.1109/TASC.2016.2628700>) | Catalog official route |
 | [Topological Quantum Chemistry all-band materials catalog — paper](<https://doi.org/10.1126/science.abg9094>) | Catalog official route |
 | [AIMNet2 Dataset](<https://doi.org/10.1184/R1/27629937.v1>) | blaiszik/awesome-matchem-datasets |
 | [Quantum‑Chemical Bonding DB (LOBSTER)](<https://doi.org/10.17172/nomad.mc38-9gm1>) | blaiszik/awesome-matchem-datasets |
 | [Materials Project — primary documentation](<https://doi.org/10.17188/1693272>) | Catalog evidence |
+| [SC-CoMIcs superconductivity information-extraction corpus — data](<https://doi.org/10.17632/xc9fjz2p3h.3>) | Catalog official route |
 | [MD Simulated Monomer Properties](<https://doi.org/10.18126/8p6m-e135>) | blaiszik/awesome-matchem-datasets |
+| [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — data](<https://doi.org/10.18434/T4KP8J>) | Catalog official route |
 | [The rise of the digital materials ecosystem](<https://doi.org/10.20517/aiagent.2026.08>) | Supporting perspective |
 | [10.21981/CPNK-XE48](<https://doi.org/10.21981/CPNK-XE48>) | nanoHUB Machine Learning Lab Module |
+| [UCI Superconductivity Data (Hamidieh 2018) — data](<https://doi.org/10.24432/C53P47>) | Catalog official route |
+| [Antiperovskite superconductivity DFPT dataset — data](<https://doi.org/10.24435/materialscloud:6g-az>) | Catalog official route |
+| [Cerqueira–Sanna–Marques conventional-superconductor EPC archive — data](<https://doi.org/10.24435/materialscloud:qv-bq>) | Catalog official route |
+| [MC3D conventional-superconductivity screening and Eliashberg dataset — data](<https://doi.org/10.24435/materialscloud:x2-ap>) | Catalog official route |
+| [Organic Superconductor Database (OSD) — paper](<https://doi.org/10.3390/cryst12070919>) | Catalog official route |
 | [Curated RANS ↔ DNS Dataset](<https://doi.org/10.34740/kaggle/dsv/2637500>) | blaiszik/awesome-matchem-datasets |
 | [MDR XAFS DB — data](<https://doi.org/10.48505/nims.1447>) | Catalog official route |
 | [MDR SuperCon Datasheet — homepage](<https://doi.org/10.48505/nims.3739>) | Catalog official route |
@@ -2943,15 +3250,19 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [BigSolDB](<https://doi.org/10.5281/zenodo.6809668>) | blaiszik/awesome-matchem-datasets |
 | [ARROWS³ — source](<https://doi.org/10.5281/zenodo.8331001>) | blaiszik/awesome-matchem-datasets |
 | [SuperBand electronic-band / superconductivity dataset — data](<https://doi.org/10.57760/sciencedb.16728>) | Catalog official route |
+| [HTSC-2025 ambient-pressure BCS superconductor benchmark — data](<https://doi.org/10.57760/sciencedb.j00113.00259>) | Catalog official route |
+| [Roberts Properties of Selected Superconductive Materials, 1978 Supplement](<https://doi.org/10.6028/NBS.TN.983>) | Navigation resource |
 | [ChemDataExtractor battery materials database (2020) — data](<https://doi.org/10.6084/m9.figshare.11888115.v2>) | Catalog official route |
 | [Text-mined solution-based inorganic synthesis procedures — data](<https://doi.org/10.6084/m9.figshare.16583387.v4>) | Catalog official route |
 | [MPF.2021.2.8 — data](<https://doi.org/10.6084/m9.figshare.19470599>) | Catalog official route |
 | [Transition1x](<https://doi.org/10.6084/m9.figshare.19614657>) | blaiszik/awesome-matchem-datasets |
 | [ChemDataExtractor thermoelectric materials database — data](<https://doi.org/10.6084/m9.figshare.19658787>) | Catalog official route |
+| [JARVIS supercon_chem experimental composition/Tc benchmark — data](<https://doi.org/10.6084/m9.figshare.22975787.v1>) | Catalog official route |
 | [Materials Project Trajectory (MPtrj) — data](<https://doi.org/10.6084/m9.figshare.23713842>) | Catalog official route |
-| [3DSC_ICSD — data](<https://doi.org/10.6084/m9.figshare.24499924>) | Catalog official route |
-| [3DSC_MP — data](<https://doi.org/10.6084/m9.figshare.24499930>) | Catalog official route |
+| [3DSC_ICSD — superconductors linked to ICSD structures — data](<https://doi.org/10.6084/m9.figshare.24499924>) | Catalog official route |
+| [3DSC_MP — superconductors with Materials Project structures — data](<https://doi.org/10.6084/m9.figshare.24499930>) | Catalog official route |
 | [mech-USPTO-31k](<https://doi.org/10.6084/m9.figshare.24797220>) | blaiszik/awesome-matchem-datasets |
+| [JARVIS high-pressure hydride superconductivity campaign — data](<https://doi.org/10.6084/m9.figshare.25270012.v1>) | Catalog official route |
 | [HYPOD-X: quasicrystals and approximants — data](<https://doi.org/10.6084/m9.figshare.25650705.v3>) | Catalog official route |
 | [QM9Star](<https://doi.org/10.6084/m9.figshare.27002905>) | sedaoturak/data-resources-for-materials-science |
 | [ChemDataExtractor/Snowball Curie–Néel dataset (2025) — data](<https://doi.org/10.6084/m9.figshare.29559686.v2>) | Catalog official route |
@@ -2960,6 +3271,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [JARVIS-DFT 3D — data](<https://doi.org/10.6084/m9.figshare.6815699>) | Catalog official route |
 | [Text-Mined Solid-State Synthesis (CederGroup / Kononova) — source](<https://doi.org/10.6084/m9.figshare.9722159>) | blaiszik/awesome-matchem-datasets |
 | [Text-mined inorganic solid-state synthesis recipes — data](<https://doi.org/10.6084/m9.figshare.9722159.v3>) | Catalog official route |
+| [Robinson HTS Wire Critical Current Database — data](<https://doi.org/10.6084/m9.figshare.c.2861821>) | Catalog official route |
 | [Materials Project / Petretto DFPT phonons (2018) — data](<https://doi.org/10.6084/m9.figshare.c.3938023>) | Catalog official route |
 | [ChemDataExtractor Curie and Néel database (2018) — data](<https://doi.org/10.6084/m9.figshare.c.3954418>) | Catalog official route |
 | [Phono3py 103-compound finite-displacement dataset (PBEsol) — paper](<https://doi.org/10.7566/JPSJ.92.012001>) | Catalog official route |
@@ -2976,6 +3288,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [USPTO-Lowe](<https://figshare.com/articles/dataset/5104873>) | blaiszik/awesome-matchem-datasets |
 | [JARVIS-DFT 2D snapshot — data](<https://figshare.com/articles/dataset/6815705>) | Catalog official route |
 | [2DMatPedia — data](<https://figshare.com/articles/dataset/7699910/3>) | Catalog official route |
+| [JARVIS high-pressure hydride superconductivity campaign — homepage](<https://figshare.com/articles/dataset/Data-driven_Design_of_High_Pressure_Hydride_Superconductors_using_DFT_and_Deep_Learning/25270012>) | Catalog official route |
 | [Fatigue Database of AM Alloys2022](<https://figshare.com/articles/dataset/Fatigue_Database_of_Additively_Manufactured_Alloys/22337629>) | sedaoturak/data-resources-for-materials-science |
 | [L2M3 - Large Language Model MOF Miner](<https://figshare.com/articles/dataset/L2M3_Database/27187917>) | blaiszik/awesome-matchem-datasets |
 | [Machine Learning Materials Datasets](<https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254>) | Catalog official route; Navigation resource; Requested collection; sedaoturak/data-resources-for-materials-science |
@@ -3052,7 +3365,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Computational Single-Atom Catalyst Database (NCEPU) — code](<https://github.com/Weijie-Yang/AML>) | Catalog official route |
 | [MaScQA](<https://github.com/abhijeetgangan/MaSTeA>) | blaiszik/awesome-matchem-datasets |
 | [AFLOW — code](<https://github.com/aflow-org/aflow>) | Catalog official route |
-| [3DSC_MP — code](<https://github.com/aimat-lab/3DSC>) | Catalog official route |
+| [3DSC_ICSD — superconductors linked to ICSD structures — code](<https://github.com/aimat-lab/3DSC>) | Catalog official route |
 | [opXRD: Open Experimental Powder X-ray Diffraction Database — code](<https://github.com/aimat-lab/opXRD>) | Catalog official route |
 | [Olympus — source](<https://github.com/aspuru-guzik-group/olympus>) | blaiszik/awesome-matchem-datasets |
 | [https://github.com/atomgptlab/jarvis-tools-notebooks](<https://github.com/atomgptlab/jarvis-tools-notebooks>) | JARVIS-Tools Notebooks |
@@ -3100,6 +3413,11 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Using sklearn Pipeline with matminer](<https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/sklearn_pipeline.ipynb>) | REMI: REsource for Materials Informatics |
 | [Using the Crystal Structure Representation of Ward et al. to predict formation enthalpy,using the FLLA dataset.](<https://github.com/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/voronoi-ward-prb-2017.ipynb>) | REMI: REsource for Materials Informatics |
 | [MOFs_CO2N2O2_ML](<https://github.com/hasancangulbalkan/MOFs_CO2N2O2_ML>) | sedaoturak/data-resources-for-materials-science |
+| [Hennig BEE-NET public structures and split files — code](<https://github.com/henniggroup/BEE-NET>) | Catalog official route |
+| [Hennig BEE-NET public structures and split files — data](<https://github.com/henniggroup/BEE-NET/tree/f21c260a9117830f2d74f2c5ac844ab671c0c606/structures>) | Catalog official route |
+| [Hennig BETE-NET released EPC cohort — code](<https://github.com/henniggroup/BETE-NET>) | Catalog official route |
+| [Hennig BETE-NET released EPC cohort — data](<https://github.com/henniggroup/BETE-NET/blob/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json>) | Catalog official route |
+| [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — code](<https://github.com/henniggroup/symbolic-regression-utilities>) | Catalog official route |
 | [ProtBENCH](<https://github.com/hevalatas/ProtBENCH>) | blaiszik/awesome-matchem-datasets |
 | [Getting Started](<https://github.com/hyperspy/hyperspy-demos/blob/master/1_Getting_Started.ipynb>) | REMI: REsource for Materials Informatics |
 | [SVD and BSS](<https://github.com/hyperspy/hyperspy-demos/blob/master/2_SVD_and_BSS.ipynb>) | REMI: REsource for Materials Informatics |
@@ -3115,6 +3433,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [WBM / Matbench Discovery stability test set — code](<https://github.com/janosh/matbench-discovery>) | Catalog official route |
 | [Carbon Data](<https://github.com/jla-gardner/carbon-data>) | Catalog official route; blaiszik/awesome-matchem-datasets |
 | [Carbon-data synthetic atomistic trajectories — data](<https://github.com/jla-gardner/carbon-data/tree/main/results>) | Catalog official route |
+| [UCI Superconductivity Data (Hamidieh 2018) — code](<https://github.com/khamidieh/predict_tc>) | Catalog official route |
 | [ALIGNN Superconductor training](<https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ALIGNN_Sc.ipynb>) | JARVIS-Tools Notebooks |
 | [ParsingWebpages(JARVIS_DFT)](<https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ParsingWebpages(JARVIS_DFT>) | JARVIS-Tools Notebooks |
 | [https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ParsingWebpages(JARVIS_DFT).ipynb](<https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ParsingWebpages(JARVIS_DFT).ipynb>) | JARVIS-Tools Notebooks |
@@ -3124,6 +3443,10 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [XRD Matching](<https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/XRD_Matching.ipynb>) | JARVIS-Tools Notebooks |
 | [Open catalyst project load model](<https://github.com/knc6/jarvis-tools-notebooks/blob/master/jarvis-tools-notebooks/ocp_load_pretrained_models.ipynb>) | JARVIS-Tools Notebooks |
 | [https://github.com/knc6/slides](<https://github.com/knc6/slides>) | JARVIS-Tools Notebooks |
+| [SuperMat public superconductivity linked-record CSV — code](<https://github.com/lfoppiano/SuperMat>) | Catalog official route |
+| [SuperMat public superconductivity linked-record CSV — data](<https://github.com/lfoppiano/SuperMat/blob/master/data/csv/SuperMat-2.0.csv>) | Catalog official route |
+| [SuperCon² author repository](<https://github.com/lfoppiano/supercon>) | Catalog evidence; Catalog official route |
+| [SuperCon² text-extracted superconductivity records — data](<https://github.com/lfoppiano/supercon/blob/main/data/supercon2_v23.04.28_cleanup.csv>) | Catalog official route |
 | [SuperBand official repository](<https://github.com/ljcj007/SuperBand>) | Catalog evidence; Catalog official route |
 | [ChemTable](<https://github.com/lqzxt/ChemTable>) | blaiszik/awesome-matchem-datasets |
 | [Introduction](<https://github.com/materials-data-facility/forge/blob/master/docs/tutorials/1-Introduction.ipynb>) | REMI: REsource for Materials Informatics |
@@ -3250,6 +3573,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Starrydata — Resistor — data](<https://github.com/starrydata/starrydata_datasets/releases/tag/latest>) | Catalog official route |
 | [sysTEm](<https://github.com/tankylz/sysTEm_dataset>) | sedaoturak/data-resources-for-materials-science |
 | [Awesome Materials Informatics](<https://github.com/tilde-lab/awesome-materials-informatics>) | blaiszik/awesome-matchem-datasets |
+| [SC-CoMIcs author repository](<https://github.com/tti-coin/sc-comics>) | Catalog evidence; Catalog official route |
 | [MP-20 (CDVAE benchmark) — code](<https://github.com/txie-93/cdvae>) | Catalog official route |
 | [Carbon-24 (CDVAE benchmark) — data](<https://github.com/txie-93/cdvae/tree/main/data/carbon_24>) | Catalog official route |
 | [MP-20 (CDVAE benchmark) — data](<https://github.com/txie-93/cdvae/tree/main/data/mp_20>) | Catalog official route |
@@ -3278,6 +3602,8 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Wilmer hypothetical MOF database (hMOF) — homepage](<http://hmofs.northwestern.edu/>) | Catalog official route |
 | [HTEM-DB](<https://htem.nrel.gov>) | blaiszik/awesome-matchem-datasets |
 | [High Throughput Experimental Materials Database (HTEM DB)](<https://htem.nrel.gov/>) | Catalog official route; sedaoturak/data-resources-for-materials-science |
+| [IEEE-listed route: Robinson critical-current data](<https://htsdb.wimbush.eu/about>) | Catalog official route; Resource evidence |
+| [Robinson HTS database official documentation](<https://htsdb2.wimbush.eu/about>) | Catalog evidence |
 | [MegaScience](<https://huggingface.co/MegaScience>) | blaiszik/awesome-matchem-datasets |
 | [STEM Bank 26](<https://huggingface.co/buckets/ghollyer/STEM-Bank-26>) | sedaoturak/data-resources-for-materials-science |
 | [SCQA (Solar Cell QA)](<https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159>) | blaiszik/awesome-matchem-datasets |
@@ -3316,6 +3642,9 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [MatText](<https://huggingface.co/datasets/n0w0f/MatText>) | blaiszik/awesome-matchem-datasets |
 | [SmolInstruct](<https://huggingface.co/datasets/osunlp/SMolInstruct>) | blaiszik/awesome-matchem-datasets |
 | [PMC Open Access Subset](<https://huggingface.co/datasets/pmc/open_access>) | blaiszik/awesome-matchem-datasets |
+| [HTSC-2025 ambient-pressure BCS superconductor benchmark — homepage](<https://huggingface.co/datasets/xiao-qi/HTSC-2025>) | Catalog official route |
+| [HTSC-2025 official JSON data](<https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/HTSC-2025.json>) | Catalog evidence |
+| [HTSC-2025 official dataset card](<https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/README.md>) | Catalog evidence |
 | [OC25 (Open Catalyst 2025)](<https://huggingface.co/facebook/OC25>) | Catalog official route; blaiszik/awesome-matchem-datasets; sedaoturak/data-resources-for-materials-science |
 | [Open Direct Air Capture 2025 (ODAC25) — data](<https://huggingface.co/facebook/ODAC25>) | Catalog official route |
 | [ODAC25 official access page](<https://huggingface.co/facebook/ODAC25/tree/main>) | Catalog evidence |
@@ -3330,6 +3659,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [ICSD home](<https://icsd.products.fiz-karlsruhe.de/en>) | Catalog evidence; Catalog official route |
 | [About ICSD](<https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd>) | Catalog evidence |
 | [ICSD products](<https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products>) | Catalog evidence |
+| [IEEE CSC wiki description](<https://ieeecsc.org/learning-hub/superconductor-databases-resources>) | Navigation resource; Resource evidence |
 | [various other publications](<https://jarvis-tools.readthedocs.io/en/master/publications.html>) | JARVIS-Tools Notebooks |
 | [JARVIS-Tools](<https://jarvis-tools.readthedocs.io/en/master/tutorials.html>) | JARVIS-Tools Notebooks |
 | [NIST-AIMS workshop](<http://jarvis.nist.gov/events/aims>) | JARVIS-Tools Notebooks |
@@ -3339,9 +3669,12 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [More info](<https://jarvis.nist.gov/events/school>) | JARVIS-Tools Notebooks |
 | [JARVIS superconductivity 2D DFT cohort — homepage](<https://jarvis.nist.gov/supercon>) | Catalog official route |
 | [Frustrated Lewis Pairs Database](<https://jingyun-ye.github.io/FLPDB/>) | blaiszik/awesome-matchem-datasets |
+| [Earlier Hennig–Xie analytical-form study (2019)](<https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513>) | Catalog evidence |
+| [Superhydra binary-hydride database — data](<https://journals.aps.org/prmaterials/supplemental/10.1103/PhysRevMaterials.7.054806>) | Catalog official route |
 | [ROD primary descriptor](<https://journals.iucr.org/j/issues/2019/03/00/nb5236/>) | Catalog evidence; Catalog official route |
 | [Pluto Notebooks](<https://juliahub.com/docs/Pluto/OJqMt/0.7.4/>) | REMI: REsource for Materials Informatics |
 | [List of Tutorials](<https://julialang.org/learning/tutorials/>) | REMI: REsource for Materials Informatics |
+| [SCLib public materials snapshot](<https://jzis.org/materials>) | Navigation resource; Resource evidence |
 | [Polymer Genome](<https://khazana.gatech.edu/dataset/>) | blaiszik/awesome-matchem-datasets |
 | [LeMat-Synth official overview](<https://lematerial.org/lemat-synth/overview/>) | Catalog evidence; Catalog official route |
 | [DigHyd author descriptor](<https://link.springer.com/article/10.1007/s00339-026-09903-6>) | Catalog evidence; Catalog official route |
@@ -3374,13 +3707,15 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [MatPES](<https://matpes.ai/>) | Catalog official route; sedaoturak/data-resources-for-materials-science |
 | [MatScholar](<https://matscholar.com>) | blaiszik/awesome-matchem-datasets |
 | [Materials Cloud Two-Dimensional Structure Database (MC2D) — homepage](<https://mc2d.materialscloud.org/>) | Catalog official route |
+| [MC3D conventional-superconductivity screening and Eliashberg dataset — homepage](<https://mc3d.materialscloud.org/?preset=superconductivity>) | Catalog official route |
 | [Materials Data Curation System](<https://mdcs.nist.gov/>) | REMI: REsource for Materials Informatics |
 | [MDR NIMS Materials Data Repository](<https://mdr.nims.go.jp/>) | sedaoturak/data-resources-for-materials-science |
-| [MDR SuperCon](<https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2>) | blaiszik/awesome-matchem-datasets |
+| [MDR SuperCon](<https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2>) | Resource evidence; blaiszik/awesome-matchem-datasets |
 | [MDR XAFS DB collection](<https://mdr.nims.go.jp/collections/a0f3fbf1-f94a-4be7-8a66-6b91a24f6b54>) | Catalog evidence; Catalog official route |
 | [MDR phonon calculation database](<https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en>) | Catalog evidence; Catalog official route |
 | [Lattice thermal conductivity calculation datasets for 103 binary compounds by finite displacement method](<https://mdr.nims.go.jp/collections/e85f8f40-d810-42ae-91c4-0a07b9641219?locale=en>) | Catalog evidence |
 | [MDR SuperCon Datasheet Ver.240322](<https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce?locale=ja>) | Catalog evidence |
+| [IEEE-listed route: NIMS MatNavi](<https://mits.nims.go.jp>) | Resource evidence |
 | [NIMS MatNavi](<https://mits.nims.go.jp/en/>) | Catalog evidence; Catalog official route; Navigation resource; Resource evidence; sedaoturak/data-resources-for-materials-science |
 | [OpenDataScience Open Machine Learning Course](<https://mlcourse.ai/>) | REMI: REsource for Materials Informatics |
 | [MOFX-DB](<https://mof.tech.northwestern.edu/>) | Navigation resource |
@@ -3433,6 +3768,8 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [README.txt](<https://ndownloader.figshare.com/files/13008500>) | Catalog evidence; Collection evidence; Collection provenance; Machine Learning Materials Datasets / MAST-ML education; Resource evidence |
 | [2DMatPedia official JSONL data](<https://ndownloader.figshare.com/files/14399918>) | Catalog evidence |
 | [Official JARVIS 2D payload](<https://ndownloader.figshare.com/files/38521268>) | Catalog evidence |
+| [Official supercon_chem JSON ZIP](<https://ndownloader.figshare.com/files/40719260>) | Catalog evidence |
+| [IEEE-listed route: Materials Project](<https://next-gen.materialsproject.org>) | Resource evidence |
 | [NOMAD Repository and Archive](<https://nomad-lab.eu/>) | Navigation resource |
 | [notebooks](<https://nomad-lab.eu/aitoolkit>) | sedaoturak/data-resources-for-materials-science |
 | [The Novel Materials Discovery (NOMAD) Laboratory](<https://nomad-lab.eu/index.php?page=repo-arch>) | sedaoturak/data-resources-for-materials-science |
@@ -3450,8 +3787,11 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [OQMD](<https://oqmd.org>) | blaiszik/awesome-matchem-datasets |
 | [OQMD — homepage](<https://oqmd.org/>) | Catalog evidence; Catalog official route |
 | [OQMD — data](<https://oqmd.org/download/>) | Catalog official route |
+| [Organic Superconductor Database (OSD) — data](<http://osd.clarku.edu/public/>) | Catalog official route |
+| [OSD official about page](<http://osd.clarku.edu/public/about>) | Catalog evidence; Catalog official route; Resource evidence |
 | [OpenExp](<https://osf.io/e68v4/files/3dv4k>) | blaiszik/awesome-matchem-datasets |
 | [JARVIS data registry](<https://pages.nist.gov/jarvis/databases/>) | Catalog evidence; Catalog official route |
+| [JARVIS supercon_chem Tc benchmark](<https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/>) | Catalog evidence; Catalog official route |
 | [REMI public homepage](<https://pages.nist.gov/remi/>) | Collection evidence; Navigation resource; Requested collection; sedaoturak/data-resources-for-materials-science |
 | [Open Access Data](<https://pages.nist.gov/remi/data/>) | Catalog official route; REMI: REsource for Materials Informatics |
 | [Learning Resources](<https://pages.nist.gov/remi/learn/>) | REMI: REsource for Materials Informatics |
@@ -3484,6 +3824,8 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Quantum Point Defects Database (QPOD)](<https://qpod.fysik.dtu.dk/>) | blaiszik/awesome-matchem-datasets |
 | [QM9](<http://quantum-machine.org/datasets/>) | blaiszik/awesome-matchem-datasets |
 | [Requested notebook README](<https://raw.githubusercontent.com/JARVIS-Materials-Design/jarvis-tools-notebooks/master/README.md>) | Collection evidence; Collection provenance; Resource evidence |
+| [SCLib provenance and upstream-license notes](<https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/DATA_SOURCES.md>) | Resource evidence |
+| [SCLib data license](<https://raw.githubusercontent.com/JackZH26/SCLib_JZIS/main/LICENSE-DATA>) | Resource evidence |
 | [LeMat-GenBench official README](<https://raw.githubusercontent.com/LeMaterial/lemat-genbench/main/README.md>) | Resource evidence |
 | [Successor JARVIS notebook README](<https://raw.githubusercontent.com/atomgptlab/jarvis-tools-notebooks/master/README.md>) | Collection evidence |
 | [Phonondb lattice thermal conductivity data on MDR at NIMS](<https://raw.githubusercontent.com/atztogo/phonondb/main/mdr/phonondb_LTC/README.md>) | Catalog evidence |
@@ -3494,9 +3836,18 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [OCx24 pinned raw experimental CSV](<https://raw.githubusercontent.com/facebookresearch/fairchem/61266df4188eeca70fc56baebfba8abd74a0c695/src/fairchem/applications/ocx/data/experimental_data/ExpDataDump_241113.csv>) | Catalog evidence; Catalog official route |
 | [OCx24 author data documentation](<https://raw.githubusercontent.com/facebookresearch/fairchem/main/src/fairchem/applications/ocx/data/README.md>) | Catalog evidence |
 | [Matminer dataset metadata](<https://raw.githubusercontent.com/hackingmaterials/matminer/main/src/matminer/datasets/dataset_metadata.json>) | Catalog evidence |
+| [BEE-NET author release documentation](<https://raw.githubusercontent.com/henniggroup/BEE-NET/f21c260a9117830f2d74f2c5ac844ab671c0c606/README.md>) | Catalog evidence |
+| [BETE-NET repository licence](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/LICENSE>) | Catalog evidence |
+| [BETE-NET author release documentation](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/README.md>) | Catalog evidence |
+| [BETE-NET released data header](<https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json>) | Catalog evidence |
 | [Matbench Discovery dataset registry](<https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/datasets.yml>) | Resource evidence |
 | [WBM benchmark test-set documentation](<https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/wbm/readme.md>) | Catalog evidence |
 | [Carbon-data author README](<https://raw.githubusercontent.com/jla-gardner/carbon-data/main/README.md>) | Catalog evidence |
+| [SuperMat author repository README](<https://raw.githubusercontent.com/lfoppiano/SuperMat/master/README.md>) | Catalog evidence |
+| [SuperMat public CSV 2.0](<https://raw.githubusercontent.com/lfoppiano/SuperMat/master/data/csv/SuperMat-2.0.csv>) | Catalog evidence |
+| [SuperCon² original CSV v22.12.03](<https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v22.12.03.csv>) | Catalog evidence |
+| [SuperCon² cleaned CSV v23.04.28](<https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v23.04.28_cleanup.csv>) | Catalog evidence |
+| [SuperBand official reference CSV snapshot](<https://raw.githubusercontent.com/ljcj007/SuperBand/main/superband.csv>) | Catalog evidence |
 | [Official Matbench v0.1 task metadata](<https://raw.githubusercontent.com/materialsproject/matbench/main/matbench/matbench_v0.1_dataset_metadata.json>) | Catalog evidence |
 | [MatterGen official README](<https://raw.githubusercontent.com/microsoft/mattergen/main/README.md>) | Catalog evidence |
 | [MatterGen Alex-MP data-release README](<https://raw.githubusercontent.com/microsoft/mattergen/main/data-release/alex-mp/README.md>) | Catalog evidence |
@@ -3527,10 +3878,14 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Scikit-Learn](<https://scikit-learn.org/stable/>) | REMI: REsource for Materials Informatics |
 | [SIDER](<http://sideeffects.embl.de/>) | blaiszik/awesome-matchem-datasets |
 | [ROD homepage](<https://solsa.crystallography.net/rod/>) | Catalog evidence; Catalog official route |
+| [IEEE-listed route: Roberts survey](<https://srd.nist.gov/jpcrdreprint/1.555540.pdf>) | Resource evidence |
+| [NIST WebHTS search portal](<https://srdata.nist.gov/CeramicDataPortal/hit>) | Catalog evidence; Resource evidence |
 | [NIST Structural Ceramics Database (SCD) Database](<https://srdata.nist.gov/CeramicDataPortal/scd>) | sedaoturak/data-resources-for-materials-science |
 | [Starrydata — Resistor — homepage](<https://starrydata.github.io/starrydata_datasets/>) | Catalog official route |
 | [Starrydata live release manifest](<https://starrydata.github.io/starrydata_datasets/manifest.json>) | Catalog evidence |
 | [Elements of Statistical Learning](<http://statweb.stanford.edu/~tibs/ElemStatLearn/>) | REMI: REsource for Materials Informatics |
+| [SMaLi reference documentation](<https://steam-material-library.docs.cern.ch/>) | Resource evidence |
+| [IEEE-listed route: CERN materials](<https://steam.docs.cern.ch/libraries/materials/>) | Navigation resource; Resource evidence |
 | [qcMol](<https://structpred.life.tsinghua.edu.cn/qcmol/>) | blaiszik/awesome-matchem-datasets |
 | [CCDC: Access Structures downloads](<https://support.ccdc.cam.ac.uk/support/solutions/articles/103000306361/>) | Catalog evidence |
 | [Git](<http://swcarpentry.github.io/git-novice/>) | REMI: REsource for Materials Informatics |
@@ -3548,6 +3903,8 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [UT Austin Channel-DNS Suite](<https://turbulence.oden.utexas.edu>) | blaiszik/awesome-matchem-datasets |
 | [Johns Hopkins Turbulence DB (JHTDB)](<https://turbulence.pha.jhu.edu>) | blaiszik/awesome-matchem-datasets |
 | [UHCSDB (Ultra-High Carbon Steel Micrographs)](<http://uhcsdb.materials.cmu.edu>) | blaiszik/awesome-matchem-datasets |
+| [IEEE-listed route: Archived Wikipedia list](<https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf>) | Navigation resource; Resource evidence |
+| [IEEE-listed route: CSC Wiki](<https://wiki.ieeecsc.org/>) | Navigation resource; Resource evidence |
 | [HIV](<https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data>) | blaiszik/awesome-matchem-datasets |
 | [Introduction to Statistical Learning](<http://www-bcf.usc.edu/~gareth/ISL/>) | REMI: REsource for Materials Informatics |
 | [The Cambridge Cluster Database](<https://www-wales.ch.cam.ac.uk/CCD.html>) | blaiszik/awesome-matchem-datasets |
@@ -3581,6 +3938,8 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [DoITPoMS Micrograph Library](<https://www.doitpoms.ac.uk/miclib/index.php>) | sedaoturak/data-resources-for-materials-science |
 | [Ductile Cast Iron Project](<https://www.ductilecastironproject.com/>) | sedaoturak/data-resources-for-materials-science |
 | [ChEMBL](<https://www.ebi.ac.uk/chembl/>) | blaiszik/awesome-matchem-datasets |
+| [3DSC primary article full text](<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML>) | Catalog evidence |
+| [SuperBand primary article full text](<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12056090/fullTextXML>) | Catalog evidence |
 | [The Engineering Toolbox](<https://www.engineeringtoolbox.com/material-properties-t_24.html>) | sedaoturak/data-resources-for-materials-science |
 | [ToxCast](<https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data>) | blaiszik/awesome-matchem-datasets |
 | [Practical Deep Learning for Coders](<https://www.fast.ai/>) | REMI: REsource for Materials Informatics |
@@ -3602,6 +3961,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [The Materials Data Facility](<https://www.materialsdatafacility.org>) | blaiszik/awesome-matchem-datasets |
 | [Materials Data Facility](<https://www.materialsdatafacility.org/>) | Navigation resource; REMI: REsource for Materials Informatics; Resource evidence |
 | [MatWeb](<http://www.matweb.com/>) | sedaoturak/data-resources-for-materials-science |
+| [A Database for Crystalline Organic Conductors and Superconductors](<https://www.mdpi.com/2073-4352/12/7/919>) | Catalog evidence |
 | [MEXT materials data reference, NIMS-provided table](<https://www.mext.go.jp/content/20200602-mxt_nanozai-000007507_6_2.pdf>) | Catalog evidence |
 | [MEXT/NIMS materials data infrastructure presentation](<https://www.mext.go.jp/content/20260522-mxt_jyohoka01-000050160_3.pdf>) | Catalog evidence |
 | [Machine Learning for Materials Research Bootcamp and Workshop](<https://www.nanocenter.umd.edu/events/mlmr-2021/>) | REMI: REsource for Materials Informatics |
@@ -3609,7 +3969,10 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Kusne, A. G., et al. Nature communications 11.1 (2020): 1-11.](<https://www.nature.com/articles/s41467-020-19597-w>) | REMI: REsource for Materials Informatics |
 | [Optimizing cross-domain transfer for universal machine learning interatomic potentials](<https://www.nature.com/articles/s41467-026-70195-8>) | Resource evidence |
 | [The joint automated repository for various integrated simulations (JARVIS) for data-driven materials design](<https://www.nature.com/articles/s41524-020-00440-1>) | JARVIS-Tools Notebooks |
+| [Xie et al. Eliashberg theory paper](<https://www.nature.com/articles/s41524-021-00666-7>) | Catalog evidence |
 | [MPF.2021.2.8 — primary documentation](<https://www.nature.com/articles/s41524-024-01227-4>) | Catalog evidence |
+| [BETE-NET journal paper](<https://www.nature.com/articles/s41524-024-01475-4>) | Catalog evidence |
+| [BEE-NET journal paper](<https://www.nature.com/articles/s41524-026-01964-8>) | Catalog evidence |
 | [Phonix anharmonic phonon database — paper](<https://www.nature.com/articles/s41524-026-02033-w>) | Catalog official route |
 | [An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles](<https://www.nature.com/articles/s41560-021-00941-3>) | Catalog evidence |
 | [A-Lab (Autonomous Inorganic Synthesis)](<https://www.nature.com/articles/s41586-023-06734-w>) | blaiszik/awesome-matchem-datasets |
@@ -3621,7 +3984,7 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [ChemDataExtractor thermoelectric materials database — paper](<https://www.nature.com/articles/s41597-022-01752-1>) | Catalog official route |
 | [Thermoelectric Scientific Data descriptor](<https://www.nature.com/articles/s41597-022-01752-1.pdf>) | Catalog evidence |
 | [Quantum-Chemical Bonding Database for Solid-State Materials (2023) — paper](<https://www.nature.com/articles/s41597-023-02477-5>) | Catalog official route |
-| [3DSC_MP — paper](<https://www.nature.com/articles/s41597-023-02721-y>) | Catalog evidence; Catalog official route |
+| [3DSC Scientific Data descriptor](<https://www.nature.com/articles/s41597-023-02721-y>) | Catalog evidence; Catalog official route |
 | [HYPOD-X Scientific Data descriptor](<https://www.nature.com/articles/s41597-024-04043-z>) | Catalog evidence; Catalog official route |
 | [Impurity-aware synthesis Scientific Data descriptor](<https://www.nature.com/articles/s41597-025-06222-y>) | Catalog evidence; Catalog official route |
 | [2025 magnetic temperature Scientific Data descriptor](<https://www.nature.com/articles/s41597-025-06244-6>) | Catalog evidence; Catalog official route |
@@ -3632,6 +3995,9 @@ The [ACS crosswalk](docs/review-crosswalk.md) and [related-paper notes](docs/rel
 | [Scientific Data data policies](<https://www.nature.com/sdata/policies/data-policies>) | Resource evidence |
 | [NIST AM-Bench](<https://www.nist.gov/ambench/am-bench-2025-measurements-and-challenge-problems>) | blaiszik/awesome-matchem-datasets |
 | [https://www.nist.gov/mgi](<https://www.nist.gov/mgi>) | JARVIS-Tools Notebooks; sedaoturak/data-resources-for-materials-science |
+| [NIST SRD copyright and licensing statements](<https://www.nist.gov/open/license>) | Catalog evidence |
+| [NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — paper](<https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20>) | Catalog official route |
+| [NIST Technical Note 983 publication record](<https://www.nist.gov/publications/properties-selected-superconductive-materials-1978-supplement>) | Resource evidence |
 | [NIST Standard Reference Data (SRD)](<https://www.nist.gov/srd/srd-catalog>) | sedaoturak/data-resources-for-materials-science |
 | [SPICE (OpenQDC)](<https://www.openqdc.io/datasets>) | blaiszik/awesome-matchem-datasets |
 | [QMugs](<https://www.openqdc.io/datasets/qmugs>) | blaiszik/awesome-matchem-datasets |

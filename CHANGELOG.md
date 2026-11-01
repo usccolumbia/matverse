@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-11-01
+
+Fixed searches for superconductor/superconductivity/SuperCon and critical-temperature/Tc terminology. A search overview now exposes dataset matches while browsing filtered source inventories and opens another result group with the query preserved and restrictive filters cleared. Both 3DSC release names explicitly identify their superconductivity/structure scope.
+
+Added 17 dataset/release records, bringing superconductivity coverage from 6 to 23 records, and seven reference resources. These include Hennig BETE-NET, the BEE-NET public structure/split release, the Hennig–Xie benchmark, upstream Cerqueira EPC data, UCI, JARVIS chemistry and high-pressure hydrides, OSD, NIST WebHTS, Robinson wire data, MC3D superconductivity, antiperovskites, Superhydra, HTSC-2025 and literature-extraction corpora. Preserved all thirteen IEEE scientific routes, corrected the interpretation of SuperBand's larger reference CSV, and documented 3DSC denominators and overlapping source lineages.
+
+The catalog now contains 162 dataset/release records, 39 navigation resources and 1,166 distinct source URLs. Seven sizes remain unranked. Added a generated superconductivity supplement, source/count audit notes and regression tests; all 19 functional tests pass. Public-file gaps, unknown licenses, experimental versus calculated Tc and pressure limitations remain explicit.
+
 ## 0.2.1 — 2026-11-01
 
 Added a searchable Source entries view for all 789 imported link occurrences across six collections, with collection/scope filters, original sections and CSV/JSON export. All 274 Blaiszik and 90 Seda Oturak entries are included; the two lists contain 296 distinct URLs together. Added a generated collection coverage audit and complete entry JSON. Both GitHub list revisions were rechecked against live HEAD. Imported discovery links remain separate from the 145 evidence-backed ranked records.

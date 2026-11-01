@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-11-01",
+  "dataset_records": 162,
+  "superconductivity_dataset_records": 23,
+  "functional_tests_passed": 19,
+  "search_checks": {
+    "superconductor": "Both 3DSC releases appear;23 dataset matches",
+    "superconductivity": "Both3DSC releases appear",
+    "Richard Hennig": "3 direct Hennig releases",
+    "source_filter_blaiszik_crystal_related": "Dataset preview exposes both3DSC releases; opening preserves query and clears source filters"
+  },
+  "responsive_checks": {
+    "desktop_requested": [
+      1440,
+      1050
+    ],
+    "mobile_requested": [
+      390,
+      844
+    ],
+    "source_previews_fit_mobile": true,
+    "mobile_body_width_matches_viewport": true,
+    "table_scroll_is_independent_of_page": true,
+    "browser_errors_or_warnings": 0
+  },
+  "index_sha256": "cbccacdcb0652ce9297ab2a676122690d9e25256ce75cafa3d1f9e97da5546f4",
+  "note": "Browser DOM, native scrolling and rendered UI checked. Wide tables retain their own horizontal scrolling."
+}

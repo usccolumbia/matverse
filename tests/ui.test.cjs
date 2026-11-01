@@ -48,6 +48,27 @@ test('provider and dataset names search regardless of case and punctuation',()=>
  assert.ok(filter({q:'LEMAT-TRAJ'}).some(d=>d.id==='lemat-traj'));
  assert.ok(filter({q:'LeMaterial'}).some(d=>d.id==='lemat-traj'));
 });
+test('superconductor terminology variants all find both 3DSC structure datasets',()=>{
+ for(const q of ['superconductor','superconductors','superconductivity','superconducting','SuperCon','3DSC']){
+  const ids=filter({q}).map(d=>d.id);
+  assert.ok(ids.includes('3dsc-mp'),q+' misses 3DSC_MP');assert.ok(ids.includes('3dsc-icsd'),q+' misses 3DSC_ICSD');
+ }
+ assert.ok(filter({q:'"critical temperature" 3DSC'}).some(d=>d.id==='3dsc-mp'));
+ assert.ok(filter({q:'critical temperature 3DSC'}).some(d=>d.id==='3dsc-mp'));
+ assert.ok(filter({q:'Tc 3DSC'}).some(d=>d.id==='3dsc-mp'));
+ assert.ok(ui.matchesQuery({properties:['critical temperature']},'temperature'));
+ assert.ok(!ui.matchesQuery({url:'https://example.org/scratch'},'Tc'));
+ assert.ok(!ui.matchesQuery({name:'semiconductor crystals'},'superconductor'));
+});
+test('global search exposes 3DSC even when a selected source collection has no 3DSC entry',()=>{
+ const scoped={...ui.DEFAULT_STATE,view:'sources',collection:'blaiszik',scope:'crystal_related',q:'3DSC'};
+ assert.equal(ui.filterSourceEntries(inventory.entries,scoped).length,0);
+ const overview=ui.searchOverview({datasets,resources,categories,sourceEntries:inventory.entries},scoped.q);
+ assert.ok(overview.datasets.some(d=>d.id==='3dsc-mp'));assert.ok(overview.datasets.some(d=>d.id==='3dsc-icsd'));
+ const opened=ui.globalSearchState(scoped.q,'datasets');
+ assert.equal(opened.collection,'');assert.equal(opened.scope,'');assert.equal(opened.q,'3DSC');
+ assert.ok(ui.filterDatasets(datasets,opened,categories).some(d=>d.id==='3dsc-mp'));
+});
 test('multiple search terms must match; quotes retain phrases',()=>{
  const rows=filter({q:'"band gap" DFT'});assert.ok(rows.length>0);assert.ok(rows.every(d=>ui.matchesQuery(d,'"band gap" DFT',categories)));
  assert.equal(filter({q:'no_such_matverse_dataset_0294'}).length,0);

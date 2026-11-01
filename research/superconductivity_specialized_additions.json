@@ -1,0 +1,627 @@
+[
+  {
+    "id": "mc3d-superconductivity",
+    "name": "MC3D conventional-superconductivity screening and Eliashberg dataset",
+    "category": "property_benchmarks",
+    "description": "Electron–phonon and superconductivity calculations on experimental-derived MC3D metal structures, with refined isotropic and anisotropic Migdal–Eliashberg subsets.",
+    "version": "Materials Cloud 2025.175, version 4 (2025-11-04)",
+    "year": 2025,
+    "count": 4533,
+    "count_display": "4,533 nonmagnetic metals screened; refined subsets of 250 isotropic and 140 anisotropic Eliashberg calculations",
+    "count_unit": "screened metal structures",
+    "count_scope": "Version 4 initial Allen–Dynes screening cohort; refined subsets are nested",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "electron–phonon coupling",
+      "Eliashberg spectral function",
+      "calculated critical temperature",
+      "superconducting gap",
+      "prediction sensitivity"
+    ],
+    "access": "open",
+    "license": "Creative Commons Attribution 4.0 International",
+    "links": {
+      "homepage": "https://mc3d.materialscloud.org/?preset=superconductivity",
+      "data": "https://doi.org/10.24435/materialscloud:x2-ap",
+      "paper": "https://doi.org/10.1103/sb28-fjc9"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/records/0kqen-w8h90",
+        "title": "Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds — version 4",
+        "evidence": "Archive describes 4,533 initial metals, 250 refined dynamically stable structures and 140 anisotropic cases; supplies AiiDA archives and tables.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/0kqen-w8h90",
+        "title": "Materials Cloud version 4 metadata",
+        "evidence": "Confirms publication date 2025-11-04 and CC BY 4.0 deposit rights.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Tc labels are calculated; experimental provenance of the starting crystal structures does not make Tc experimental.",
+      "The 250 and 140 cases are subsets, not additional structures to add to 4,533.",
+      "Earlier preprint/archive versions quote smaller refined subsets; these counts refer specifically to version 4.",
+      "Overlaps the broad MC3D structural family; count this as a property release, not an independent sum of new structures."
+    ],
+    "tags": [
+      "superconductivity",
+      "DFPT",
+      "electron-phonon coupling",
+      "Eliashberg",
+      "MC3D",
+      "high-throughput"
+    ],
+    "additional_counts": [
+      {
+        "value": 250,
+        "unit": "structures",
+        "scope": "Version 4 refined dynamically stable isotropic Migdal–Eliashberg subset"
+      },
+      {
+        "value": 140,
+        "unit": "structures",
+        "scope": "Version 4 anisotropic Migdal–Eliashberg subset of the refined cohort"
+      }
+    ]
+  },
+  {
+    "id": "sampling-conventional-superconductors",
+    "name": "Sampling the materials space for conventional superconducting compounds",
+    "category": "property_benchmarks",
+    "description": "High-throughput electron–phonon training data and follow-up calculations used to screen conventional superconductors.",
+    "version": "Materials Cloud 2023.163, version 1",
+    "year": 2023,
+    "count": 7000,
+    "count_display": "Around 7,000 electron–phonon calculations",
+    "count_unit": "electron–phonon calculation cases",
+    "count_scope": "Initial computed training dataset described in the 2023 archive; unique-material count not independently recounted",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "phonons",
+      "electron–phonon coupling",
+      "logarithmic phonon frequency",
+      "calculated critical temperature",
+      "ground-state properties"
+    ],
+    "access": "open",
+    "license": "Creative Commons Attribution 4.0 International",
+    "links": {
+      "homepage": "https://archive.materialscloud.org/records/3kbt5-r3n56",
+      "data": "https://doi.org/10.24435/materialscloud:qv-bq",
+      "paper": "https://doi.org/10.1002/adma.202307085"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/records/3kbt5-r3n56",
+        "title": "Sampling the materials space for conventional superconducting compounds — data archive",
+        "evidence": "Author deposit describes around 7,000 electron–phonon calculations used to train a model, followed by screening approximately 200,000 compounds and DFPT validation of selected candidates.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/3kbt5-r3n56",
+        "title": "Materials Cloud 2023.163 metadata",
+        "evidence": "Confirms 2023-10-30 release and CC BY 4.0 deposit rights.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Approximately 200,000 screened compounds carry model predictions and must not be counted as 200,000 DFPT-labeled superconductors.",
+      "The ranked count is approximate and denotes calculation cases; an independent exact unique-structure recount was not performed.",
+      "Computed Tc and stability screening do not establish experimental superconductivity.",
+      "Training data can overlap other published high-throughput electron–phonon collections; no cross-family deduplication was performed."
+    ],
+    "tags": [
+      "superconductivity",
+      "DFPT",
+      "electron-phonon coupling",
+      "high-throughput",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "antiperovskite-superconductivity-dfpt",
+    "name": "Antiperovskite superconductivity DFPT dataset",
+    "category": "property_benchmarks",
+    "description": "Electron–phonon calculations for cubic antiperovskites XYZ3 with metal X/Z and H, B, C, N, O or P on the Y site.",
+    "version": "Materials Cloud 2022.49, version 1",
+    "year": 2022,
+    "count": 384,
+    "count_display": "Electron–phonon calculations for 384 antiperovskites",
+    "count_unit": "material calculation cases",
+    "count_scope": "Starting DFPT cohort in the 2022 archive, including dynamically unstable cases",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "phonons",
+      "electron–phonon coupling",
+      "calculated critical temperature",
+      "electronic descriptors"
+    ],
+    "access": "open",
+    "license": "Creative Commons Attribution 4.0 International",
+    "links": {
+      "homepage": "https://archive.materialscloud.org/records/2hg1p-63427",
+      "data": "https://doi.org/10.24435/materialscloud:6g-az"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/records/2hg1p-63427",
+        "title": "Superconductivity in antiperovskites — data archive",
+        "evidence": "Describes 384 starting DFPT cases, approximately 40% with imaginary phonons, and 16 calculated cases above 5 K.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/2hg1p-63427",
+        "title": "Materials Cloud 2022.49 metadata",
+        "evidence": "Confirms 2022-04-06 release, downloadable calculation archives and CC BY 4.0 rights.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The cohort includes dynamically unstable materials; 384 is not a count of stable superconductors.",
+      "The further 44 materials above 5 K are model predictions and are not added to the DFPT cohort count.",
+      "All superconducting temperatures in this release are theoretical."
+    ],
+    "tags": [
+      "superconductivity",
+      "DFPT",
+      "antiperovskites",
+      "electron-phonon coupling",
+      "high-throughput"
+    ],
+    "additional_counts": [
+      {
+        "value": 16,
+        "unit": "calculated material cases",
+        "scope": "Initial DFPT cohort with calculated Tc above 5 K"
+      }
+    ]
+  },
+  {
+    "id": "superhydra",
+    "name": "Superhydra binary-hydride database",
+    "category": "property_benchmarks",
+    "description": "Template-generated binary hydrides with calculated electronic, vibrational and chemical descriptors at high pressure.",
+    "version": "2023 Physical Review Materials release; 2022 preprint dataset",
+    "year": 2023,
+    "count": 880,
+    "count_display": "880 hypothetical structures; 139 superconducting cases in the McMillan–Allen–Dynes approximation",
+    "count_unit": "hypothetical hydride structures",
+    "count_scope": "Binary-hydride template cohort at 200 GPa, not 880 independent Tc-positive observations",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "structural template",
+      "pressure",
+      "electronic descriptors",
+      "vibrational descriptors",
+      "electron–phonon coupling",
+      "calculated critical temperature"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://arxiv.org/abs/2205.02554",
+      "data": "https://journals.aps.org/prmaterials/supplemental/10.1103/PhysRevMaterials.7.054806",
+      "paper": "https://doi.org/10.1103/PhysRevMaterials.7.054806"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2205.02554",
+        "title": "Mapping Superconductivity in High-Pressure Hydrides: The Superhydra Project",
+        "evidence": "Authors report 880 hypothetical binary-hydride structures and 139 superconducting cases under the McMillan–Allen–Dynes approximation.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.1103/PhysRevMaterials.7.054806",
+        "title": "Superhydra Physical Review Materials article and Supplemental Material",
+        "evidence": "Published article identifies the supplemental CSV release; the cohort is generated by element substitution into structural templates.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The main count includes the full hypothetical-structure cohort, not just calculated superconductors.",
+      "Structure-linked classification is conservative: complete atomic coordinates in the supplemental CSV were not independently audited.",
+      "Dataset-specific reuse license was not verified.",
+      "The campaign is pressure-specific and calculated; it does not establish synthesis, experimental Tc or ambient-pressure stability."
+    ],
+    "tags": [
+      "superconductivity",
+      "hydrides",
+      "high pressure",
+      "template generation",
+      "electron-phonon coupling"
+    ],
+    "additional_counts": [
+      {
+        "value": 139,
+        "unit": "calculated superconducting structures",
+        "scope": "McMillan–Allen–Dynes superconducting subset of the 880-case cohort"
+      }
+    ]
+  },
+  {
+    "id": "jarvis-high-pressure-hydride-2024",
+    "name": "JARVIS high-pressure hydride superconductivity campaign",
+    "category": "property_benchmarks",
+    "description": "Pressure-resolved DFT/DFPT hydride calculations, superconductivity labels and accompanying ALIGNN models released by the authors.",
+    "version": "Figshare version 1 (2024-02-23); paper arXiv v4 (2024-05-31)",
+    "year": 2024,
+    "count": 900,
+    "count_display": "Over 900 high-pressure hydride electron–phonon/DFT calculation cases",
+    "count_unit": "structure-pressure calculation cases",
+    "count_scope": "Author paper v4 calculation campaign; repeated pressures per candidate are not unique compounds",
+    "count_precision": "lower_bound",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "pressure",
+      "phonons",
+      "electron–phonon coupling",
+      "calculated critical temperature",
+      "phase energy",
+      "machine-learning predictions"
+    ],
+    "access": "open",
+    "license": "Creative Commons Attribution 4.0 International",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/Data-driven_Design_of_High_Pressure_Hydride_Superconductors_using_DFT_and_Deep_Learning/25270012",
+      "data": "https://doi.org/10.6084/m9.figshare.25270012.v1",
+      "paper": "https://arxiv.org/abs/2312.12694"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2312.12694v4",
+        "title": "Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning — author version 4",
+        "evidence": "Latest author version describes over 900 EPC/DFT cases spanning multiple pressures and 122 dynamically stable cases above the MgB2 reference Tc.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25270012",
+        "title": "High-pressure hydride dataset Figshare metadata",
+        "evidence": "Version 1 deposit contains raw DFT hydride data, ALIGNN data/models, a notebook and phase energies; license is CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The same candidate is evaluated at multiple pressures; over 900 is not a unique-composition count.",
+      "This pressure-resolved release is distinct from the existing JARVIS ambient 3D and 2D superconductivity cohorts, but source structures overlap JARVIS, 3DSC and earlier hydride work.",
+      "Calculated Tc labels and model predictions coexist in the package; model predictions are not additional DFT validation.",
+      "Earlier manuscript versions used different training-set wording; the selected lower-bound count follows author version 4."
+    ],
+    "tags": [
+      "superconductivity",
+      "JARVIS",
+      "hydrides",
+      "high pressure",
+      "DFPT",
+      "ALIGNN"
+    ],
+    "additional_counts": [
+      {
+        "value": 122,
+        "unit": "structure-pressure cases",
+        "scope": "Dynamically stable computed cases reported above MgB2 reference Tc of 39 K"
+      }
+    ]
+  },
+  {
+    "id": "htsc-2025",
+    "name": "HTSC-2025 ambient-pressure BCS superconductor benchmark",
+    "category": "property_benchmarks",
+    "description": "A curated benchmark of crystal CIFs and literature theoretical Tc values for recent ambient-pressure conventional-superconductor candidates.",
+    "version": "ScienceDB V1; official Hugging Face JSON snapshot 2026-11-01",
+    "year": 2025,
+    "count": 140,
+    "count_display": "140 material records with CIF structures and Tc values",
+    "count_unit": "material records",
+    "count_scope": "140 top-level material keys independently counted in official HTSC-2025.json",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "calculated critical temperature"
+    ],
+    "access": "open",
+    "license": "MIT License (ScienceDB V1 registrant metadata)",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/xiao-qi/HTSC-2025",
+      "data": "https://doi.org/10.57760/sciencedb.j00113.00259",
+      "paper": "https://doi.org/10.1088/1674-1056/adf042"
+    },
+    "sources": [
+      {
+        "url": "https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/README.md",
+        "title": "HTSC-2025 official dataset card",
+        "evidence": "Describes 140 ambient-pressure BCS materials compiled from recent theoretical studies, grouped into six material families.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/HTSC-2025.json",
+        "title": "HTSC-2025 official JSON data",
+        "evidence": "Independently parsed 140 material keys; entries contain CIF text and a tc field. SHA-256 fba2681d115fcd131e0e09086bf0a271d6ecb5ef9e46f238be98d3faac0f92a3.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.57760/sciencedb.j00113.00259",
+        "title": "ScienceDB HTSC-2025 V1 DOI metadata",
+        "evidence": "Registrant metadata gives version V1, MIT rights and the theoretical-superconductor benchmark description.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The cohort primarily compiles predicted superconductors, not 140 experimentally demonstrated high-Tc materials; MgB2 also appears as a reference.",
+      "The dataset viewer can display one row because the JSON is a single dictionary; 140 is the number of material entries inside it.",
+      "Literature-calculated Tc values can use different computational assumptions and should not be treated as a uniformly recomputed experimental benchmark."
+    ],
+    "tags": [
+      "superconductivity",
+      "ambient pressure",
+      "BCS",
+      "hydrides",
+      "crystal benchmark"
+    ]
+  },
+  {
+    "id": "supercon2-text",
+    "name": "SuperCon² text-extracted superconductivity records",
+    "category": "experimental_properties",
+    "description": "Automatically extracted literature records linking material mentions to critical-temperature statements, pressure and bibliographic context.",
+    "version": "supercon2_v23.04.28_cleanup.csv; snapshot 2026-11-01",
+    "year": 2023,
+    "count": 18943,
+    "count_display": "18,943 nonheader rows in the named cleaned CSV; original v22.12.03 has 40,324 rows",
+    "count_unit": "text-extracted material-property records",
+    "count_scope": "Named v23.04.28 cleaned CSV, independently recounted; rows are not necessarily unique materials",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "material mention",
+      "composition mention",
+      "critical-temperature statement",
+      "pressure mention",
+      "measurement method",
+      "bibliographic provenance"
+    ],
+    "access": "open",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://github.com/lfoppiano/supercon",
+      "data": "https://github.com/lfoppiano/supercon/blob/main/data/supercon2_v23.04.28_cleanup.csv",
+      "paper": "https://doi.org/10.1080/27660400.2022.2153633",
+      "code": "https://github.com/lfoppiano/supercon"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/lfoppiano/supercon",
+        "title": "SuperCon² author repository",
+        "evidence": "Repository describes automatic superconductivity information extraction from an arXiv-paper corpus and exposes versioned CSV outputs.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v23.04.28_cleanup.csv",
+        "title": "SuperCon² cleaned CSV v23.04.28",
+        "evidence": "CSV parser counted 18,943 nonheader rows; SHA-256 f7598571a59a35ae1ba281643f41f80248863f9e73e13b39e45659ea6170eb2d.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lfoppiano/supercon/main/data/supercon2_v22.12.03.csv",
+        "title": "SuperCon² original CSV v22.12.03",
+        "evidence": "Original version independently contains 40,324 nonheader rows; it is not interchangeable with the later cleaned release.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Rows are extracted assertions and can include repeated mentions, incomplete formulas, and statements about experimental or theoretical work.",
+      "These counts do not establish unique superconducting materials or independently validated experimental Tc labels.",
+      "Data-specific reuse license was not verified; software or article licensing is not substituted for dataset rights.",
+      "Shares literature and extraction methodology with SuperMat; no union deduplication was performed."
+    ],
+    "tags": [
+      "superconductivity",
+      "text mining",
+      "SuperCon",
+      "literature extraction",
+      "Tc"
+    ],
+    "additional_counts": [
+      {
+        "value": 40324,
+        "unit": "text-extracted records",
+        "scope": "Original supercon2_v22.12.03.csv, independently counted; not additive to cleaned release"
+      }
+    ]
+  },
+  {
+    "id": "supermat-linked-records",
+    "name": "SuperMat public superconductivity linked-record CSV",
+    "category": "experimental_properties",
+    "description": "Public linked material, critical-temperature, pressure and measurement-method records exported from the SuperMat annotated literature corpus.",
+    "version": "SuperMat-2.0.csv; snapshot 2026-11-01",
+    "year": 2021,
+    "count": 1305,
+    "count_display": "1,305 nonheader linked-record rows in SuperMat-2.0.csv",
+    "count_unit": "linked literature records",
+    "count_scope": "Public CSV 2.0 export, independently counted; not the entire article-annotation corpus",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "material mention",
+      "critical-temperature statement",
+      "pressure mention",
+      "measurement method",
+      "article identifier"
+    ],
+    "access": "mixed",
+    "license": "CC BY 4.0 (dataset); Apache 2.0 (code)",
+    "links": {
+      "homepage": "https://github.com/lfoppiano/SuperMat",
+      "data": "https://github.com/lfoppiano/SuperMat/blob/master/data/csv/SuperMat-2.0.csv",
+      "paper": "https://doi.org/10.1080/27660400.2021.1918396",
+      "code": "https://github.com/lfoppiano/SuperMat"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/lfoppiano/SuperMat/master/README.md",
+        "title": "SuperMat author repository README",
+        "evidence": "Specifies dataset CC BY 4.0 and code Apache 2.0; notes copyrighted full-text corpus cannot be publicly distributed and is held in a private submodule.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lfoppiano/SuperMat/master/data/csv/SuperMat-2.0.csv",
+        "title": "SuperMat public CSV 2.0",
+        "evidence": "Independently parsed 1,305 nonheader rows with material, tcValue, pressure, me_method and source-filename fields. SHA-256 80e84ab67649a562a838c5a58fa8bb8025fe1e3225ad2eb664d9bcf3be8ed3ce.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Public linked CSV is accessible; full copyrighted article text and full annotations are not generally public.",
+      "Rows describe literature relations and may include partial material mentions; they are not 1,305 unique compositions or independently measured Tc values.",
+      "Original paper corpus statistics describe another unit/version and are not substituted for this CSV row count."
+    ],
+    "tags": [
+      "superconductivity",
+      "text mining",
+      "named entities",
+      "relation extraction",
+      "SuperCon"
+    ]
+  },
+  {
+    "id": "sc-comics",
+    "name": "SC-CoMIcs superconductivity information-extraction corpus",
+    "category": "experimental_properties",
+    "description": "Superconductivity abstract corpus with stand-off named-entity and relation annotations for materials information extraction.",
+    "version": "Mendeley Data version 3 (2021-06-29)",
+    "year": 2021,
+    "count": 1000,
+    "count_display": "1,000 superconductivity-related abstracts",
+    "count_unit": "annotated abstracts",
+    "count_scope": "SC-CoMIcs version 3 corpus; abstracts are not unique material records",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "material entity annotations",
+      "critical-temperature text annotations",
+      "relation annotations"
+    ],
+    "access": "open",
+    "license": "CC BY-NC 3.0 (deposit and abstract text); separate annotation-specific license Not verified",
+    "links": {
+      "homepage": "https://data.mendeley.com/datasets/xc9fjz2p3h/3",
+      "data": "https://doi.org/10.17632/xc9fjz2p3h.3",
+      "paper": "https://aclanthology.org/2020.lrec-1.834/",
+      "code": "https://github.com/tti-coin/sc-comics"
+    },
+    "sources": [
+      {
+        "url": "https://data.mendeley.com/datasets/xc9fjz2p3h/3",
+        "title": "SC-CoMIcs Mendeley Data version 3",
+        "evidence": "Author deposit describes 1,000 abstracts and stand-off annotations; abstract sharing is specifically permitted under CC BY-NC 3.0 and version 3 does not change the corpus content.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/tti-coin/sc-comics",
+        "title": "SC-CoMIcs author repository",
+        "evidence": "Provides corpus tools and annotated files; links abstract text to the Mendeley deposit under CC BY-NC 3.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Abstract text has a noncommercial license; a separate annotation-specific license was not independently verified.",
+      "The ranked count denotes documents, not superconducting compounds or measured Tc observations.",
+      "Useful for information-extraction benchmarks, not a ready-made atomic-structure/Tc dataset."
+    ],
+    "tags": [
+      "superconductivity",
+      "text mining",
+      "corpus",
+      "named entities",
+      "relation extraction"
+    ]
+  },
+  {
+    "id": "jarvis-supercon-chem",
+    "name": "JARVIS supercon_chem experimental composition/Tc benchmark",
+    "category": "experimental_properties",
+    "description": "A downloadable SuperCon-derived composition and critical-temperature benchmark exposed through JARVIS-Tools and JARVIS-Leaderboard.",
+    "version": "Figshare version 1 (2023-05-20)",
+    "year": 2023,
+    "count": 16414,
+    "count_display": "16,414 composition/Tc records",
+    "count_unit": "composition/Tc records",
+    "count_scope": "Official supercon_chem.json.zip version 1; independently parsed JSON list",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "chemical formula",
+      "experimental critical temperature",
+      "source identifier"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare deposit)",
+    "links": {
+      "homepage": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/",
+      "data": "https://doi.org/10.6084/m9.figshare.22975787.v1",
+      "paper": "https://doi.org/10.1038/s41524-018-0085-8",
+      "code": "https://github.com/usnistgov/jarvis"
+    },
+    "sources": [
+      {
+        "url": "https://pages.nist.gov/jarvis/databases/",
+        "title": "JARVIS-Tools official dataset inventory",
+        "evidence": "Lists supercon_chem as a downloadable 16,414-entry superconductor chemical-formula dataset.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/",
+        "title": "JARVIS supercon_chem Tc benchmark",
+        "evidence": "Defines formula-only experimental-Tc prediction and consistently identifies dataset size 16,414.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/22975787",
+        "title": "JARVIS supercon_chem Figshare version 1 metadata",
+        "evidence": "Confirms 2023-05-20 deposit, CC BY 4.0 rights, the downloadable JSON ZIP, and provenance links to vstanev1/Supercon and the Stanev paper.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/40719260",
+        "title": "Official supercon_chem JSON ZIP",
+        "evidence": "Independently parsed 16,414 records with id, Tc and formula fields. ZIP SHA-256 14b7489822a1c25407cd6c83989dfca7f14263dfe6b5dc9f859969430c09e5b7.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Contains no atomic coordinates; source identifiers and formulas do not establish an unambiguous crystal structure.",
+      "A derivative of SuperCon/Stanev data; overlap with MDR SuperCon, UCI and other cleaned SuperCon benchmarks must not be counted as independent new measurements.",
+      "Includes Tc = 0 records; 16,414 is not a count of positive superconductors.",
+      "Official JARVIS DFT supercon_3d and supercon_2d cohorts have different structures, labels and counts."
+    ],
+    "tags": [
+      "superconductivity",
+      "JARVIS",
+      "SuperCon",
+      "experimental Tc",
+      "composition benchmark",
+      "derivative"
+    ]
+  }
+]

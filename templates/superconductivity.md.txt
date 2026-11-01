@@ -1,0 +1,59 @@
+# Superconductivity datasets: measurements, structures and computed targets
+
+[Search superconductors](https://usccolumbia.github.io/matverse/?q=superconductor) · [Back to MatVerse](../README.md) · [All source links](../sources.md)
+
+Checked 2026-11-01. This supplement covers **{{TOPIC_COUNT}} dataset/release records**, together with specialist reference resources. Experimental transition temperatures, structure matches, electron–phonon calculations and learned-model training inputs describe different evidence. Their reported sizes help locate data, but cannot be added into a count of superconducting materials.
+
+The supplement asks which public releases cover these tasks, what Hennig-group papers actually distribute, and how structure access, pressure, overlap and label provenance affect reuse. Three independent primary-source audits examined the [Hennig releases](../research/superconductivity_hennig_notes.md), [public experimental/reference resources](../research/superconductivity_public_notes.md), and [specialized computational releases](../research/superconductivity_specialized_notes.md). Dataset cards retain individual download routes, licenses, versions, evidence and caveats. This is a targeted coverage supplement, not an exhaustive census.
+
+## Dataset and release inventory
+
+Reported volumes descend below; the counted unit remains explicit. A CIF inventory, resampled numerical table, wire-characterization collection and evaluated-property corpus have different denominators. `structure_linked` includes identifiers or structural references; it does not promise unrestricted CIF downloads. `mixed` requires the card's availability notes.
+
+{{DATASET_TABLE}}
+
+## Experimental labels and links to structure
+
+The [UCI benchmark](https://archive.ics.uci.edu/dataset/464/superconductivty+data) contains 21,263 composition-based rows derived from NIMS SuperCon. Its descriptor and formula files represent the same samples. Unlike a crystal-coordinate dataset, it supports formula-based Tc regression; its elemental feature aggregates should not be mistaken for measured properties of each compound. The versioned MDR SuperCon collection is recorded separately as an upstream resource, with an unverified current size.
+
+The [JARVIS chemistry benchmark](https://doi.org/10.6084/m9.figshare.22975787.v1) supplies another 16,414-record formula/Tc derivative, including zero-Tc entries. Its public ZIP was independently parsed. It shares SuperCon ancestry with the UCI release, while the existing JARVIS 3D/2D cohorts provide calculated electron–phonon targets. Those experimental and computed releases are separate tasks even though they share the JARVIS platform.
+
+[3DSC](https://www.nature.com/articles/s41597-023-02721-y) supplies a different bridge: 5,759 SuperCon entries are associated with 5,773 Materials Project structures, while 9,150 entries yield 86,490 ICSD structure matches. Repeated structure determinations and measurement conditions contribute to that difference. Artificial doping can make a structure an approximate proxy for a labeled sample. The public ICSD-derived labels and identifiers do not confer redistribution rights to the underlying ICSD coordinates.
+
+[SuperBand](https://github.com/ljcj007/SuperBand) adds electronic-band and Fermi-surface data rather than another copy of a Tc-only benchmark. Its 2,474-entry calculated-band cohort includes 1,362 superconductors and 1,112 verified nonsuperconductors. A broader repository reference CSV has a different scope and must not replace that band-data denominator. The [Organic Superconductor Database paper](https://doi.org/10.3390/cryst12070919) instead describes 110 materials, 184 CSD structures and 440 measured properties in its 2022 cohort, including organic conductors and other correlated states. The structure and property counts are distinct, and CSD-related reuse terms require separate checking.
+
+NIST WebHTS/SRD 62 and Robinson HTS data cover further experimental uses. [WebHTS](https://srdata.nist.gov/CeramicDataPortal/hit) remains a reachable evaluated-property resource, but says its data content was last updated in 1996. Its SRD copyright terms are not replaced by a blanket public-domain assumption. The [Robinson archive](https://doi.org/10.6084/m9.figshare.c.2861821) contains 24 public wire/film-characterization datasets in its checked collection snapshot. These contain curves over operating conditions; 24 is neither a compound count nor a measurement-point total.
+
+## Hennig-group datasets and their public release boundaries
+
+[BETE-NET](https://github.com/henniggroup/BETE-NET) provides released structures and electron–phonon data, whereas [BEE-NET](https://github.com/henniggroup/BEE-NET) currently distributes structures and split files without its full target JSON in the checked public Git snapshot. This release distinction matters independently of their model performance. The associated papers are [Accelerating superconductor discovery through tempered deep learning of the electron-phonon spectral function](https://doi.org/10.1038/s41524-024-01475-4) and [Developing a complete AI-accelerated workflow for superconductor discovery](https://doi.org/10.1038/s41524-026-01964-8).
+
+BETE-NET's current public inventory has 806 CIFs and 806 composition rows, while its paper describes 818 accepted materials. The released train/test index files also need version matching. These discrepancies are recorded explicitly rather than resolved by assuming that the present files reproduce the paper's complete cohort. BEE-NET contains 5,241 public CIFs, with a documented 4,192-entry training pool and 1,049-entry test set. Its README explicitly marks the full target database and model ensembles as untracked. Public structures therefore do not establish a complete ready-to-train target download.
+
+BEE-NET reuses calculations by [Cerqueira, Sanna and Marques](https://archive.materialscloud.org/records/3kbt5-r3n56); that archive is attributed to its original creators. Its approximate 7,000 model-data denominator differs from the broader calculation total in the associated paper and from BEE's selected subset. These are calculated conventional-superconductivity targets. BEE's ambient-pressure training domain and stated spectral range limit direct use for high-pressure, high-frequency hydrides. A few experimentally confirmed discovery examples do not make its entire training cohort experimentally measured superconductors.
+
+The [Hennig–Xie Eliashberg benchmark](https://archive.materialscloud.org/records/skdzy-kyx54), associated with the [2022 paper](https://doi.org/10.1038/s41524-021-00666-7), exposes small numerical tables rather than a CIF corpus. Five tables contain 3,046 rows, including an overlapping 29-row comparison baseline; excluding that table gives 3,017. The paper's underlying spectral cases instead comprise 55 physical cases and 2,819 artificial spectra. Resampling the Coulomb pseudopotential expands rows without creating new crystals. Hydride comparisons do not provide a uniform pressure-resolved structural dataset. The related 2019 analytical-form study is documented within this lineage; an earlier standalone data release was not verified.
+
+## Other computed and specialized data
+
+The [MC3D superconductivity release](https://doi.org/10.24435/materialscloud:x2-ap) screens 4,533 metals in archive version 4, with nested refined cohorts of 250 isotropic and 140 anisotropic Migdal–Eliashberg cases. The [antiperovskite archive](https://doi.org/10.24435/materialscloud:6g-az) starts with 384 DFPT cases, including unstable cases, and identifies 16 calculated cases above 5 K. These initial pools and refined or positive subsets must retain their separate denominators.
+
+[Superhydra](https://doi.org/10.1103/PhysRevMaterials.7.054806) contains 880 hypothetical binary-hydride structures at 200 GPa, with a 139-case calculated superconducting subset. The [JARVIS high-pressure hydride campaign](https://doi.org/10.6084/m9.figshare.25270012.v1) instead reports more than 900 structure-pressure calculation cases; repeated pressures do not create new compositions. [HTSC-2025](https://huggingface.co/datasets/xiao-qi/HTSC-2025) compiles 140 ambient-pressure candidates with CIFs and predominantly literature-calculated Tc. None of these headline counts establishes that every listed material has experimentally confirmed superconductivity.
+
+[SuperCon²](https://github.com/lfoppiano/supercon), [SuperMat](https://github.com/lfoppiano/SuperMat), and [SC-CoMIcs](https://data.mendeley.com/datasets/xc9fjz2p3h/3) support literature extraction at different levels: 18,943 cleaned extracted records, 1,305 public linked CSV records, and 1,000 annotated abstracts respectively. Text assertions, relational records and source documents are different units. Repeated mentions, incomplete formulas and mixed theoretical/experimental statements prevent their totals from becoming counts of unique validated superconducting crystals. Full-text and annotation licensing also require separate checks.
+
+Computed Tc can refer to Allen–Dynes/McMillan estimates, isotropic Eliashberg solutions or more detailed treatments under specified numerical settings. These labels should not be mixed silently with experiment or with one another. Negative results and dynamical-instability exclusions also change the apparent task; a regression table containing known superconductors does not by itself define a superconductor-versus-nonsuperconductor classification benchmark.
+
+## Reference portals and engineering resources
+
+{{RESOURCE_TABLE}}
+
+The [IEEE CSC directory](https://ieeecsc.org/learning-hub/superconductor-databases-resources) has thirteen scientific routes, all retained in the source audit and source index. Its community wiki carries literature citations, but IEEE limits its assurance to publication provenance. Historical Roberts compilations, an archived reference list and CERN's coded material-property functions remain reference resources. Their existence does not establish thirteen additional independent crystal datasets. A modern model-curated portal likewise requires source-specific checks; automated review is not individual expert validation.
+
+## Reuse and discovery
+
+Retain parent identifiers, sample/phase context, pressure, calculation settings, version and label method. SuperCon derivatives overlap each other, while BEE reuses an upstream EPC archive. Split at the composition, structure family or source level needed for the scientific question; a random structure-row split can leak repeated labels or closely related samples.
+
+The interface recognizes the superconductivity term family and the critical-temperature/Tc alias. A search overview shows matches across dataset records, reference portals and imported source links. It preserves the query when opening another result group and clears that group's restrictive filters, so a source collection without a 3DSC link cannot conceal the catalog's two 3DSC records.
+
+The three questions therefore have separate answers: public coverage spans experimental, structure-linked and computed tasks; Hennig releases have specific public-file boundaries that differ from paper training counts; and usable comparisons require pressure, lineage, access and label provenance alongside scale. Counts here remain release-specific. Large payloads were not all downloaded or independently deduplicated, unverified sizes remain unranked, and access failures are not treated as evidence of service termination.

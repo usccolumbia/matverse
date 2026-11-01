@@ -1,0 +1,337 @@
+[
+  {
+    "id": "hennig-bete-net",
+    "name": "Hennig BETE-NET released EPC cohort",
+    "category": "property_benchmarks",
+    "description": "DFT electron–phonon spectral data, phonon descriptors and CIFs released with the tempered-learning superconductivity study.",
+    "version": "Git revision 56bc783908a60e8a15e31b60018e6f3c3e48f593 (2024-08-20); journal paper 2025",
+    "year": 2025,
+    "count": 806,
+    "count_display": "806 released composition rows and 806 CIF files; paper cohort: 818",
+    "count_unit": "released crystal structures",
+    "count_scope": "Public Git snapshot: complete comp column and matching CIF inventory; distinct from the paper-described 818-material cohort",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "Eliashberg spectral function alpha2F",
+      "phonon DOS",
+      "electron–phonon coupling lambda",
+      "phonon frequency moments",
+      "computed superconducting Tc"
+    ],
+    "access": "open",
+    "license": "Apache-2.0 (repository declaration)",
+    "links": {
+      "homepage": "https://github.com/henniggroup/BETE-NET",
+      "data": "https://github.com/henniggroup/BETE-NET/blob/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json",
+      "paper": "https://doi.org/10.1038/s41524-024-01475-4",
+      "code": "https://github.com/henniggroup/BETE-NET"
+    },
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/henniggroup/BETE-NET/git/trees/56bc783908a60e8a15e31b60018e6f3c3e48f593?recursive=1",
+        "title": "BETE-NET immutable public file inventory",
+        "evidence": "Non-truncated tree has 806 CIFs and an 89104840-byte database.json.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json",
+        "title": "BETE-NET released data header",
+        "evidence": "Complete first JSON field comp contains 806 row labels; only a 256 KiB prefix was retrieved.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41524-024-01475-4",
+        "title": "BETE-NET journal paper",
+        "evidence": "Describes high-quality calculations for 818 dynamically stable materials, selected from a larger attempted/converged pool.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/README.md",
+        "title": "BETE-NET author release documentation",
+        "evidence": "Identifies database, corresponding CIFs, split indices and predictions as paper data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/LICENSE",
+        "title": "BETE-NET repository licence",
+        "evidence": "Repository licence file declares Apache License 2.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "806 is a public-file denominator, not a correction to the paper's 818-material scientific cohort. The discrepancy remains unresolved.",
+      "Published train/test index files contain 824 labels; 18 do not occur in the released comp row labels. Match indices to the intended data version before reuse.",
+      "Tc targets are calculated from electron–phonon spectra; these are not 806 measured superconductors.",
+      "A pressure-resolved release field was not verified; do not treat this as a high-pressure hydride benchmark.",
+      "Repository licensing is recorded independently of the journal article licence."
+    ],
+    "tags": [
+      "superconductivity",
+      "Hennig",
+      "electron–phonon",
+      "computed Tc",
+      "release discrepancy"
+    ],
+    "additional_counts": [
+      {
+        "value": 818,
+        "unit": "materials",
+        "scope": "Journal-described dynamically stable cohort; differs from current public file count"
+      },
+      {
+        "value": 1265,
+        "unit": "converged calculations",
+        "scope": "2024 author-preprint denominator before filtering, not the released cohort"
+      },
+      {
+        "value": 1600,
+        "unit": "attempted calculations",
+        "scope": "2024 author-preprint submitted calculations, not successful records"
+      }
+    ]
+  },
+  {
+    "id": "hennig-bee-net-structures",
+    "name": "Hennig BEE-NET public structures and split files",
+    "category": "property_benchmarks",
+    "description": "Public structural subset and split metadata for BEE-NET, trained on DFT Eliashberg spectra reused from the Cerqueira superconductivity archive.",
+    "version": "Git revision f21c260a9117830f2d74f2c5ac844ab671c0c606 (2026-10-05); journal paper 2026",
+    "year": 2026,
+    "count": 5241,
+    "count_display": "5,241 CIF files; documented pool 4,192 train / 1,049 test",
+    "count_unit": "public CIF structures",
+    "count_scope": "Public Git structures plus split files; full target database and model checkpoints are explicitly not tracked",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structures",
+      "train/test partitions",
+      "upstream-linked computed Eliashberg spectra",
+      "documented Allen–Dynes Tc targets"
+    ],
+    "access": "mixed",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://github.com/henniggroup/BEE-NET",
+      "data": "https://github.com/henniggroup/BEE-NET/tree/f21c260a9117830f2d74f2c5ac844ab671c0c606/structures",
+      "paper": "https://doi.org/10.1038/s41524-026-01964-8",
+      "code": "https://github.com/henniggroup/BEE-NET"
+    },
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/henniggroup/BEE-NET/git/trees/f21c260a9117830f2d74f2c5ac844ab671c0c606?recursive=1",
+        "title": "BEE-NET immutable public file inventory",
+        "evidence": "Non-truncated public tree contains exactly 5241 CIFs and split indices; no database.json or licence file.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/henniggroup/BEE-NET/f21c260a9117830f2d74f2c5ac844ab671c0c606/README.md",
+        "title": "BEE-NET author release documentation",
+        "evidence": "States 5241 entries, 1049 test and 4192 training-pool entries; database.json and model ensembles are not tracked; points to Cerqueira upstream.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://arxiv.org/html/2503.20005v1",
+        "title": "BEE-NET author preprint",
+        "evidence": "Training is ambient-pressure and Tc comparison uses DFT-derived Allen–Dynes values; high-pressure hydrides are outside its stated domain.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41524-026-01964-8",
+        "title": "BEE-NET journal paper",
+        "evidence": "Describes the AI-assisted discovery workflow; training-data availability points to BEE-NET GitHub.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Structure files and split metadata are open; a complete ready-to-train target database was not present in the public Git snapshot or GitHub Releases.",
+      "The 5241 entries are a curated subset of upstream calculations, not an independent set of newly computed or experimentally measured superconductors.",
+      "A large screened candidate pool and DFT-selected hits are different denominators from this training-structure release.",
+      "Two experimentally confirmed examples in the study do not convert all training labels into experimental Tc.",
+      "Ambient-pressure training and the stated 100 meV spectral ceiling limit use for high-pressure/high-frequency hydrides.",
+      "No data licence was located in the public repository."
+    ],
+    "tags": [
+      "superconductivity",
+      "Hennig",
+      "partial release",
+      "ambient pressure",
+      "upstream derivative"
+    ],
+    "additional_counts": [
+      {
+        "value": 4192,
+        "unit": "training-pool entries",
+        "scope": "Author README, prior to bootstrap sampling; not additional structures"
+      },
+      {
+        "value": 1049,
+        "unit": "test entries",
+        "scope": "Author README and released test-ID file; included in 5241 total"
+      }
+    ]
+  },
+  {
+    "id": "hennig-xie-eliashberg-benchmark",
+    "name": "Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark",
+    "category": "property_benchmarks",
+    "description": "Public descriptor and Tc tables combining artificial spectra, computed material cases, literature hydrides and an Allen–Dynes comparison baseline.",
+    "version": "Materials Cloud 2021.150 v1 (2021-09-18); journal paper 2022",
+    "year": 2022,
+    "count": 3046,
+    "count_display": "3,046 CSV rows across five tables; 3,017 excluding the 29-row comparison table",
+    "count_unit": "descriptor/Tc table rows",
+    "count_scope": "Direct CSV count: artificial 2819 + calculated 30 + literature 149 + hydrides 19 + AD29 baseline 29; not unique materials",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "mixed",
+    "properties": [
+      "Eliashberg Tc",
+      "Allen–Dynes Tc",
+      "lambda",
+      "omega_log",
+      "omega_2",
+      "Coulomb pseudopotential mu*",
+      "symbolic-regression prefactors"
+    ],
+    "access": "open",
+    "license": "Apache-2.0",
+    "links": {
+      "homepage": "https://archive.materialscloud.org/records/skdzy-kyx54",
+      "data": "https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content",
+      "paper": "https://doi.org/10.1038/s41524-021-00666-7",
+      "code": "https://github.com/henniggroup/symbolic-regression-utilities"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/api/records/skdzy-kyx54",
+        "title": "Hennig–Xie Materials Cloud metadata",
+        "evidence": "Authors include Hennig and Xie; archive contains data_tables.zip plus SISSO records; rights metadata explicitly declares Apache-2.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content",
+        "title": "Hennig–Xie public numerical tables",
+        "evidence": "429059-byte ZIP matches published MD5 86c68504d1780b6fc7eaccbd4116706c. Direct counts: AD29 29, artificial 2819, calculated 30, hydrides 19, literature 149.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41524-021-00666-7",
+        "title": "Xie et al. Eliashberg theory paper",
+        "evidence": "Separates 13 calculated, 29 classic and 13 hydride material spectra from 2819 artificial spectra; physical cases are resampled across mu*.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513",
+        "title": "Earlier Hennig–Xie analytical-form study (2019)",
+        "evidence": "Provides the prior Allen–Dynes-based formula context; no standalone 2018 data release was verified.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "3046 counts all public table rows, including an overlapping comparison baseline; it does not mean 3046 distinct crystals.",
+      "The primary spectral collection comprises 55 physical material cases plus 2819 artificial spectra; resampling mu* expands numerical rows.",
+      "Hydride validation has 13 material spectral functions / 19 table rows, not 19 unique hydride crystals.",
+      "Tables provide numerical theoretical targets and comparison values; no full CIF collection is deposited here.",
+      "Hydride pressures and full raw spectral inputs are not uniformly encoded in the public descriptor tables; consult original references. The paper says raw data are available upon request.",
+      "The 2019 analytical-form paper and the 2021 archive / 2022 successor paper are related; do not advertise an unverified separate 2018 release."
+    ],
+    "tags": [
+      "superconductivity",
+      "Hennig",
+      "Eliashberg",
+      "Allen–Dynes",
+      "artificial spectra",
+      "hydride validation"
+    ],
+    "additional_counts": [
+      {
+        "value": 2874,
+        "unit": "spectral functions/cases",
+        "scope": "Paper total: 55 physical cases plus 2819 artificial spectra; not all unique crystals"
+      },
+      {
+        "value": 55,
+        "unit": "physical material spectral functions",
+        "scope": "13 in-house calculated + 29 literature classic + 13 literature hydrides"
+      },
+      {
+        "value": 2819,
+        "unit": "artificial spectral cases",
+        "scope": "Synthetic trimodal model subset"
+      },
+      {
+        "value": 19,
+        "unit": "hydride table rows",
+        "scope": "13 hydride cases resampled across mu*"
+      }
+    ]
+  },
+  {
+    "id": "cerqueira-conventional-epc",
+    "name": "Cerqueira–Sanna–Marques conventional-superconductor EPC archive",
+    "category": "property_benchmarks",
+    "description": "Open ground-state and electron–phonon calculations used upstream of Hennig BEE-NET, with structures, spectra and theoretical Tc estimates.",
+    "version": "Materials Cloud 2023.163 v1; 2024 Advanced Materials paper",
+    "year": 2024,
+    "count": 7000,
+    "count_display": "around 7,000 model-data calculations; paper reports >8,250 total EPC calculations",
+    "count_unit": "electron–phonon calculations",
+    "count_scope": "Approximate model-data cohort described by archive; broader public batch archive includes additional calculations and was not enumerated",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "optimized crystal structure",
+      "Eliashberg alpha2F",
+      "phonon bands",
+      "electron–phonon coupling",
+      "Allen–Dynes Tc",
+      "isotropic Eliashberg Tc"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://archive.materialscloud.org/records/3kbt5-r3n56",
+      "data": "https://doi.org/10.24435/materialscloud:qv-bq",
+      "paper": "https://doi.org/10.1002/adma.202307085"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/api/records/3kbt5-r3n56",
+        "title": "Cerqueira EPC archive metadata",
+        "evidence": "Around 7000 electron–phonon calculations; 17 batch archives; rights metadata CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/3kbt5-r3n56/files/README.txt/content",
+        "title": "Cerqueira EPC archive README",
+        "evidence": "Documents optimized CIF, alpha2F by smearing, phonon outputs and separate McMillan/Allen–Dynes and isotropic-Eliashberg Tc files.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.1002/adma.202307085",
+        "title": "Sampling the Materials Space for Conventional Superconducting Compounds",
+        "evidence": "Paper distinguishes a broader total exceeding 8250 ab initio EPC calculations from ML screening over 191528 candidates.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Created by Cerqueira, Sanna and Marques, not the Hennig group; included because BEE-NET directly reuses a subset.",
+      "Do not sum the archive with the overlapping BEE-NET subset or parent Alexandria structures.",
+      "The approximate 7000 model-data figure and >8250 total calculations are distinct denominators; all raw archive records were not counted.",
+      "Tc values are computed conventional-superconductivity estimates, not experimental confirmations.",
+      "The reused BEE domain is ambient pressure; no pressure-resolved hydride benchmark is implied for all records."
+    ],
+    "tags": [
+      "superconductivity",
+      "electron–phonon",
+      "upstream source",
+      "Hennig-associated reuse",
+      "computed Tc"
+    ]
+  }
+]

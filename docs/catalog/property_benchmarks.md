@@ -228,6 +228,41 @@ Versioned Materials Project phonon archive associated with the expanded phonon-c
 
 **Tags:** phonon, MP derivative, 2026 release.
 
+<a id="uci-superconductivity-2018"></a>
+## UCI Superconductivity Data (Hamidieh 2018)
+
+Composition-based superconducting critical-temperature regression benchmark derived from the original NIMS SuperCon database.
+
+**Size:** 21,263 tabular material records (source wording: 21,263 tabular instances, 81 input features plus critical temperature).
+
+**Scope:** Rows in the UCI regression release; train.csv and unique_m.csv are two representations of the same 21,263 samples
+
+**Release:** 2018 UCI release; official metadata checked 2026-11-01. **Year:** 2018.
+
+**Provenance:** experimental. **Structure availability:** `composition_only`.
+
+**Labels/content:** superconducting critical temperature; chemical formula; composition-derived elemental descriptors.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+**Official routes:** [homepage](https://archive.ics.uci.edu/dataset/464/superconductivty+data) · [data](https://doi.org/10.24432/C53P47) · [paper](https://doi.org/10.1016/j.commatsci.2018.07.052) · [code](https://github.com/khamidieh/predict_tc)
+
+**Evidence:**
+
+- [UCI Superconductivty Data](https://archive.ics.uci.edu/dataset/464/superconductivty+data) (checked 2026-11-01): Official page reports 21,263 instances, 81 features, a formula companion file, NIMS SuperCon parentage and CC BY 4.0.
+- [UCI dataset 464 official metadata](https://archive.ics.uci.edu/api/dataset?id=464) (checked 2026-11-01): Confirms instance/feature counts, 2018 release and dataset DOI 10.24432/C53P47.
+- [A data-driven statistical model for predicting the critical temperature of a superconductor](https://doi.org/10.1016/j.commatsci.2018.07.052) (checked 2026-11-01): Primary paper describes formula-derived features, preprocessing of NIMS SuperCon data and the regression scope.
+
+**Reuse and interpretation notes:**
+
+- Derived from NIMS SuperCon; not an independent experimental acquisition or an additive expansion of the original/MDR collection.
+- No periodic atomic coordinates are included; repeated compositions and sample variants need not be unique compounds.
+- The two CSV files contain the same sample cohort and must not be added together.
+- Elemental thermal-conductivity and similar descriptors are computed feature aggregates, not measured compound properties.
+- The original regression task concerns known superconductors and does not establish classification of superconductors versus nonsuperconductors.
+
+**Tags:** superconductivity, Tc, UCI, composition-only, SuperCon derivative, benchmark, Superconductivty Data (provider spelling), superconductor, superconductors.
+
 <a id="phonix"></a>
 ## Phonix anharmonic phonon database
 
@@ -388,6 +423,88 @@ Harmonic phonon calculations made with VASP and phonopy, migrated from the forme
 
 **Tags:** phonon, PBEsol, Kyoto, MDR, NIMS.
 
+<a id="cerqueira-conventional-epc"></a>
+## Cerqueira–Sanna–Marques conventional-superconductor EPC archive
+
+Open ground-state and electron–phonon calculations used upstream of Hennig BEE-NET, with structures, spectra and theoretical Tc estimates.
+
+**Size:** ~7,000 electron–phonon calculations (source wording: around 7,000 model-data calculations; paper reports >8,250 total EPC calculations).
+
+**Scope:** Approximate model-data cohort described by archive; broader public batch archive includes additional calculations and was not enumerated
+
+**Release:** Materials Cloud 2023.163 v1; 2024 Advanced Materials paper. **Year:** 2024.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** optimized crystal structure; Eliashberg alpha2F; phonon bands; electron–phonon coupling; Allen–Dynes Tc; isotropic Eliashberg Tc.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://archive.materialscloud.org/records/3kbt5-r3n56) · [data](https://doi.org/10.24435/materialscloud:qv-bq) · [paper](https://doi.org/10.1002/adma.202307085)
+
+**Evidence:**
+
+- [Cerqueira EPC archive metadata](https://archive.materialscloud.org/api/records/3kbt5-r3n56) (checked 2026-11-01): Around 7000 electron–phonon calculations; 17 batch archives; rights metadata CC BY 4.0.
+- [Cerqueira EPC archive README](https://archive.materialscloud.org/api/records/3kbt5-r3n56/files/README.txt/content) (checked 2026-11-01): Documents optimized CIF, alpha2F by smearing, phonon outputs and separate McMillan/Allen–Dynes and isotropic-Eliashberg Tc files.
+- [Sampling the Materials Space for Conventional Superconducting Compounds](https://doi.org/10.1002/adma.202307085) (checked 2026-11-01): Paper distinguishes a broader total exceeding 8250 ab initio EPC calculations from ML screening over 191528 candidates.
+- [Sampling the materials space for conventional superconducting compounds — data archive](https://archive.materialscloud.org/records/3kbt5-r3n56) (checked 2026-11-01): Author deposit describes around 7,000 electron–phonon calculations used to train a model, followed by screening approximately 200,000 compounds and DFPT validation of selected candidates.
+
+**Reuse and interpretation notes:**
+
+- Created by Cerqueira, Sanna and Marques, not the Hennig group; included because BEE-NET directly reuses a subset.
+- Do not sum the archive with the overlapping BEE-NET subset or parent Alexandria structures.
+- The approximate 7000 model-data figure and >8250 total calculations are distinct denominators; all raw archive records were not counted.
+- Tc values are computed conventional-superconductivity estimates, not experimental confirmations.
+- The reused BEE domain is ambient pressure; no pressure-resolved hydride benchmark is implied for all records.
+- Approximately 200,000 screened compounds carry model predictions and must not be counted as 200,000 DFPT-labeled superconductors.
+- The ranked count is approximate and denotes calculation cases; an independent exact unique-structure recount was not performed.
+- Computed Tc and stability screening do not establish experimental superconductivity.
+- Training data can overlap other published high-throughput electron–phonon collections; no cross-family deduplication was performed.
+
+**Tags:** superconductivity, electron–phonon, upstream source, Hennig-associated reuse, computed Tc, superconductor, superconductors.
+
+<a id="hennig-bee-net-structures"></a>
+## Hennig BEE-NET public structures and split files
+
+Public structural subset and split metadata for BEE-NET, trained on DFT Eliashberg spectra reused from the Cerqueira superconductivity archive.
+
+**Size:** 5,241 public CIF structures (source wording: 5,241 CIF files; documented pool 4,192 train / 1,049 test).
+
+**Scope:** Public Git structures plus split files; full target database and model checkpoints are explicitly not tracked
+
+**Release:** Git revision f21c260a9117830f2d74f2c5ac844ab671c0c606 (2026-10-05); journal paper 2026. **Year:** 2026.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structures; train/test partitions; upstream-linked computed Eliashberg spectra; documented Allen–Dynes Tc targets.
+
+**Access:** mixed. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://github.com/henniggroup/BEE-NET) · [data](https://github.com/henniggroup/BEE-NET/tree/f21c260a9117830f2d74f2c5ac844ab671c0c606/structures) · [paper](https://doi.org/10.1038/s41524-026-01964-8) · [code](https://github.com/henniggroup/BEE-NET)
+
+Other denominators (not added to the ranking):
+
+- 4,192 training-pool entries: Author README, prior to bootstrap sampling; not additional structures
+- 1,049 test entries: Author README and released test-ID file; included in 5241 total
+
+**Evidence:**
+
+- [BEE-NET immutable public file inventory](https://api.github.com/repos/henniggroup/BEE-NET/git/trees/f21c260a9117830f2d74f2c5ac844ab671c0c606?recursive=1) (checked 2026-11-01): Non-truncated public tree contains exactly 5241 CIFs and split indices; no database.json or licence file.
+- [BEE-NET author release documentation](https://raw.githubusercontent.com/henniggroup/BEE-NET/f21c260a9117830f2d74f2c5ac844ab671c0c606/README.md) (checked 2026-11-01): States 5241 entries, 1049 test and 4192 training-pool entries; database.json and model ensembles are not tracked; points to Cerqueira upstream.
+- [BEE-NET author preprint](https://arxiv.org/html/2503.20005v1) (checked 2026-11-01): Training is ambient-pressure and Tc comparison uses DFT-derived Allen–Dynes values; high-pressure hydrides are outside its stated domain.
+- [BEE-NET journal paper](https://www.nature.com/articles/s41524-026-01964-8) (checked 2026-11-01): Describes the AI-assisted discovery workflow; training-data availability points to BEE-NET GitHub.
+
+**Reuse and interpretation notes:**
+
+- Structure files and split metadata are open; a complete ready-to-train target database was not present in the public Git snapshot or GitHub Releases.
+- The 5241 entries are a curated subset of upstream calculations, not an independent set of newly computed or experimentally measured superconductors.
+- A large screened candidate pool and DFT-selected hits are different denominators from this training-structure release.
+- Two experimentally confirmed examples in the study do not convert all training labels into experimental Tc.
+- Ambient-pressure training and the stated 100 meV spectral ceiling limit use for high-pressure/high-frequency hydrides.
+- No data licence was located in the public repository.
+
+**Tags:** superconductivity, Hennig, partial release, ambient pressure, upstream derivative, superconductor, superconductors, Richard G. Hennig, Hennig group, University of Florida.
+
 <a id="phonondb-mdr-ltc"></a>
 ## PhononDB lattice thermal conductivity (MDR)
 
@@ -452,6 +569,44 @@ Fixed Matbench v0.1 structure-to-property prediction task dataset.
 
 **Tags:** Matbench, benchmark, structure-based, derived dataset.
 
+<a id="mc3d-superconductivity"></a>
+## MC3D conventional-superconductivity screening and Eliashberg dataset
+
+Electron–phonon and superconductivity calculations on experimental-derived MC3D metal structures, with refined isotropic and anisotropic Migdal–Eliashberg subsets.
+
+**Size:** 4,533 screened metal structures (source wording: 4,533 nonmagnetic metals screened; refined subsets of 250 isotropic and 140 anisotropic Eliashberg calculations).
+
+**Scope:** Version 4 initial Allen–Dynes screening cohort; refined subsets are nested
+
+**Release:** Materials Cloud 2025.175, version 4 (2025-11-04). **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; electron–phonon coupling; Eliashberg spectral function; calculated critical temperature; superconducting gap; prediction sensitivity.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution 4.0 International.
+
+**Official routes:** [homepage](https://mc3d.materialscloud.org/?preset=superconductivity) · [data](https://doi.org/10.24435/materialscloud:x2-ap) · [paper](https://doi.org/10.1103/sb28-fjc9)
+
+Other denominators (not added to the ranking):
+
+- 250 structures: Version 4 refined dynamically stable isotropic Migdal–Eliashberg subset
+- 140 structures: Version 4 anisotropic Migdal–Eliashberg subset of the refined cohort
+
+**Evidence:**
+
+- [Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds — version 4](https://archive.materialscloud.org/records/0kqen-w8h90) (checked 2026-11-01): Archive describes 4,533 initial metals, 250 refined dynamically stable structures and 140 anisotropic cases; supplies AiiDA archives and tables.
+- [Materials Cloud version 4 metadata](https://archive.materialscloud.org/api/records/0kqen-w8h90) (checked 2026-11-01): Confirms publication date 2025-11-04 and CC BY 4.0 deposit rights.
+
+**Reuse and interpretation notes:**
+
+- Tc labels are calculated; experimental provenance of the starting crystal structures does not make Tc experimental.
+- The 250 and 140 cases are subsets, not additional structures to add to 4,533.
+- Earlier preprint/archive versions quote smaller refined subsets; these counts refer specifically to version 4.
+- Overlaps the broad MC3D structural family; count this as a property release, not an independent sum of new structures.
+
+**Tags:** superconductivity, DFPT, electron-phonon coupling, Eliashberg, MC3D, high-throughput, superconductor, superconductors.
+
 <a id="aflow-ael-agl-2017"></a>
 ## AFLOW AEL–AGL thermomechanical cohort (2017)
 
@@ -484,6 +639,50 @@ Combined Automatic Elasticity Library and Automatic GIBBS Library computed prope
 
 **Tags:** elasticity, thermal transport, AFLOW derivative, historical release.
 
+<a id="hennig-xie-eliashberg-benchmark"></a>
+## Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark
+
+Public descriptor and Tc tables combining artificial spectra, computed material cases, literature hydrides and an Allen–Dynes comparison baseline.
+
+**Size:** 3,046 descriptor/Tc table rows (source wording: 3,046 CSV rows across five tables; 3,017 excluding the 29-row comparison table).
+
+**Scope:** Direct CSV count: artificial 2819 + calculated 30 + literature 149 + hydrides 19 + AD29 baseline 29; not unique materials
+
+**Release:** Materials Cloud 2021.150 v1 (2021-09-18); journal paper 2022. **Year:** 2022.
+
+**Provenance:** mixed. **Structure availability:** `mixed`.
+
+**Labels/content:** Eliashberg Tc; Allen–Dynes Tc; lambda; omega_log; omega_2; Coulomb pseudopotential mu*; symbolic-regression prefactors.
+
+**Access:** open. **Dataset license:** Apache-2.0.
+
+**Official routes:** [homepage](https://archive.materialscloud.org/records/skdzy-kyx54) · [data](https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content) · [paper](https://doi.org/10.1038/s41524-021-00666-7) · [code](https://github.com/henniggroup/symbolic-regression-utilities)
+
+Other denominators (not added to the ranking):
+
+- 2,874 spectral functions/cases: Paper total: 55 physical cases plus 2819 artificial spectra; not all unique crystals
+- 55 physical material spectral functions: 13 in-house calculated + 29 literature classic + 13 literature hydrides
+- 2,819 artificial spectral cases: Synthetic trimodal model subset
+- 19 hydride table rows: 13 hydride cases resampled across mu*
+
+**Evidence:**
+
+- [Hennig–Xie Materials Cloud metadata](https://archive.materialscloud.org/api/records/skdzy-kyx54) (checked 2026-11-01): Authors include Hennig and Xie; archive contains data_tables.zip plus SISSO records; rights metadata explicitly declares Apache-2.0.
+- [Hennig–Xie public numerical tables](https://archive.materialscloud.org/api/records/skdzy-kyx54/files/data_tables.zip/content) (checked 2026-11-01): 429059-byte ZIP matches published MD5 86c68504d1780b6fc7eaccbd4116706c. Direct counts: AD29 29, artificial 2819, calculated 30, hydrides 19, literature 149.
+- [Xie et al. Eliashberg theory paper](https://www.nature.com/articles/s41524-021-00666-7) (checked 2026-11-01): Separates 13 calculated, 29 classic and 13 hydride material spectra from 2819 artificial spectra; physical cases are resampled across mu*.
+- [Earlier Hennig–Xie analytical-form study (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513) (checked 2026-11-01): Provides the prior Allen–Dynes-based formula context; no standalone 2018 data release was verified.
+
+**Reuse and interpretation notes:**
+
+- 3046 counts all public table rows, including an overlapping comparison baseline; it does not mean 3046 distinct crystals.
+- The primary spectral collection comprises 55 physical material cases plus 2819 artificial spectra; resampling mu* expands numerical rows.
+- Hydride validation has 13 material spectral functions / 19 table rows, not 19 unique hydride crystals.
+- Tables provide numerical theoretical targets and comparison values; no full CIF collection is deposited here.
+- Hydride pressures and full raw spectral inputs are not uniformly encoded in the public descriptor tables; consult original references. The paper says raw data are available upon request.
+- The 2019 analytical-form paper and the 2021 archive / 2022 successor paper are related; do not advertise an unverified separate 2018 release.
+
+**Tags:** superconductivity, Hennig, Eliashberg, Allen–Dynes, artificial spectra, hydride validation, superconductor, superconductors, Richard G. Hennig, Hennig group, University of Florida.
+
 <a id="superband"></a>
 ## SuperBand electronic-band / superconductivity dataset
 
@@ -503,6 +702,10 @@ DFT electronic bands, DOS and Fermi-surface representations linked to experiment
 
 **Official routes:** [homepage](https://www.superband.work/) · [data](https://doi.org/10.57760/sciencedb.16728) · [paper](https://doi.org/10.1038/s41597-025-05015-7) · [code](https://github.com/ljcj007/SuperBand)
 
+Other denominators (not added to the ranking):
+
+- 8,625 reference catalogue CSV rows: Official GitHub superband.csv snapshot 2026-11-01; excludes header; not the 2,474 band-data cohort
+
 **Count derivation:** superconductor + nonsuperconductor band cohorts; 1,362 + 1,112 = 2,474.
 
 **Evidence:**
@@ -510,14 +713,19 @@ DFT electronic bands, DOS and Fermi-surface representations linked to experiment
 - [SuperBand: an Electronic-band and Fermi surface structure database of superconductors](https://pmc.ncbi.nlm.nih.gov/articles/PMC12056090/) (checked 2026-11-01): Data Records gives 1,362 superconductors and 1,112 verified nonsuperconductors with band calculations and crystal parameters.
 - [SuperBand official repository](https://github.com/ljcj007/SuperBand) (checked 2026-11-01): Training set has 2,474 band entries; database CC BY 4.0, code MIT; GitHub includes four band-data examples and links the full archive.
 - [SuperBand: an Electronic-band and Fermi surface structure database of superconductors — Scientific Data descriptor](https://doi.org/10.1038/s41597-025-05015-7) (checked 2026-11-01): Publisher DOI and Crossref metadata verify the corresponding Scientific Data descriptor; the selected release count is supported by the other evidence listed here.
+- [SuperBand official reference CSV snapshot](https://raw.githubusercontent.com/ljcj007/SuperBand/main/superband.csv) (checked 2026-11-01): CSV parser counted 8,625 nonheader rows, of which 8,598 have nonempty formula fields; SHA-256 0ab0d37a1dee14146b0d94daf4745df90d73122c6f34c3c2c7d65d8af57ccfb5.
+- [SuperBand primary article full text](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12056090/fullTextXML) (checked 2026-11-01): Data Records confirms 1,362 superconductors plus 1,112 nonsuperconductors; pressure-limited exclusions explain why catalogue references can exceed the band cohort.
 
 **Reuse and interpretation notes:**
 
 - 2,474 is the successful DFT band-data cohort, not the larger initial literature/CIF collection.
 - Tc labels are experimental; electronic features are computed.
 - Repository text informally calls all 2,474 entries superconductors; the paper explicitly separates 1,362 positive and 1,112 negative entries.
+- Official superband.csv contains 8,625 nonheader reference/catalogue rows in the audited snapshot; this is not a replacement for the 2,474 computed-band cohort.
+- The snapshot has 8,598 nonempty formula fields and 27 blank formula fields; row counts are not a cleaned unique-material total.
+- The paper excludes extreme-pressure hydrides without suitable ambient-pressure structural data from the band cohort, while retaining such formulas in the reference catalogue.
 
-**Tags:** superconductivity, electronic, mixed provenance, Scientific Data.
+**Tags:** superconductivity, electronic, mixed provenance, Scientific Data, superconductor, superconductors.
 
 <a id="mastml-perovskite-education"></a>
 ## MAST-ML perovskite stability educational slice
@@ -709,7 +917,7 @@ Distinct downloadable JARVIS electron–phonon-coupling superconductivity cohort
 - A named property cohort overlapping parent JARVIS materials.
 - Do not combine with the experimental/composition-only supercon_chem collection.
 
-**Tags:** superconductivity, 3d, JARVIS derivative, electron–phonon.
+**Tags:** superconductivity, 3d, JARVIS derivative, electron–phonon, superconductor, superconductors.
 
 <a id="mp-dielectric-2017"></a>
 ## Materials Project dielectric tensor release (2017)
@@ -773,6 +981,123 @@ DFPT intrinsic piezoelectric tensors with crystal structures and maximum longitu
 - Overlaps MP; historical release is not the current property count.
 
 **Tags:** piezoelectric, MP derivative, Scientific Data.
+
+<a id="jarvis-high-pressure-hydride-2024"></a>
+## JARVIS high-pressure hydride superconductivity campaign
+
+Pressure-resolved DFT/DFPT hydride calculations, superconductivity labels and accompanying ALIGNN models released by the authors.
+
+**Size:** ≥900 structure-pressure calculation cases (source wording: Over 900 high-pressure hydride electron–phonon/DFT calculation cases).
+
+**Scope:** Author paper v4 calculation campaign; repeated pressures per candidate are not unique compounds
+
+**Release:** Figshare version 1 (2024-02-23); paper arXiv v4 (2024-05-31). **Year:** 2024.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; pressure; phonons; electron–phonon coupling; calculated critical temperature; phase energy; machine-learning predictions.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution 4.0 International.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/Data-driven_Design_of_High_Pressure_Hydride_Superconductors_using_DFT_and_Deep_Learning/25270012) · [data](https://doi.org/10.6084/m9.figshare.25270012.v1) · [paper](https://arxiv.org/abs/2312.12694)
+
+Other denominators (not added to the ranking):
+
+- 122 structure-pressure cases: Dynamically stable computed cases reported above MgB2 reference Tc of 39 K
+
+**Evidence:**
+
+- [Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning — author version 4](https://arxiv.org/html/2312.12694v4) (checked 2026-11-01): Latest author version describes over 900 EPC/DFT cases spanning multiple pressures and 122 dynamically stable cases above the MgB2 reference Tc.
+- [High-pressure hydride dataset Figshare metadata](https://api.figshare.com/v2/articles/25270012) (checked 2026-11-01): Version 1 deposit contains raw DFT hydride data, ALIGNN data/models, a notebook and phase energies; license is CC BY 4.0.
+
+**Reuse and interpretation notes:**
+
+- The same candidate is evaluated at multiple pressures; over 900 is not a unique-composition count.
+- This pressure-resolved release is distinct from the existing JARVIS ambient 3D and 2D superconductivity cohorts, but source structures overlap JARVIS, 3DSC and earlier hydride work.
+- Calculated Tc labels and model predictions coexist in the package; model predictions are not additional DFT validation.
+- Earlier manuscript versions used different training-set wording; the selected lower-bound count follows author version 4.
+
+**Tags:** superconductivity, JARVIS, hydrides, high pressure, DFPT, ALIGNN, superconductor, superconductors.
+
+<a id="superhydra"></a>
+## Superhydra binary-hydride database
+
+Template-generated binary hydrides with calculated electronic, vibrational and chemical descriptors at high pressure.
+
+**Size:** 880 hypothetical hydride structures (source wording: 880 hypothetical structures; 139 superconducting cases in the McMillan–Allen–Dynes approximation).
+
+**Scope:** Binary-hydride template cohort at 200 GPa, not 880 independent Tc-positive observations
+
+**Release:** 2023 Physical Review Materials release; 2022 preprint dataset. **Year:** 2023.
+
+**Provenance:** computed. **Structure availability:** `structure_linked`.
+
+**Labels/content:** structural template; pressure; electronic descriptors; vibrational descriptors; electron–phonon coupling; calculated critical temperature.
+
+**Access:** open. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://arxiv.org/abs/2205.02554) · [data](https://journals.aps.org/prmaterials/supplemental/10.1103/PhysRevMaterials.7.054806) · [paper](https://doi.org/10.1103/PhysRevMaterials.7.054806)
+
+Other denominators (not added to the ranking):
+
+- 139 calculated superconducting structures: McMillan–Allen–Dynes superconducting subset of the 880-case cohort
+
+**Evidence:**
+
+- [Mapping Superconductivity in High-Pressure Hydrides: The Superhydra Project](https://arxiv.org/abs/2205.02554) (checked 2026-11-01): Authors report 880 hypothetical binary-hydride structures and 139 superconducting cases under the McMillan–Allen–Dynes approximation.
+- [Superhydra Physical Review Materials article and Supplemental Material](https://doi.org/10.1103/PhysRevMaterials.7.054806) (checked 2026-11-01): Published article identifies the supplemental CSV release; the cohort is generated by element substitution into structural templates.
+
+**Reuse and interpretation notes:**
+
+- The main count includes the full hypothetical-structure cohort, not just calculated superconductors.
+- Structure-linked classification is conservative: complete atomic coordinates in the supplemental CSV were not independently audited.
+- Dataset-specific reuse license was not verified.
+- The campaign is pressure-specific and calculated; it does not establish synthesis, experimental Tc or ambient-pressure stability.
+
+**Tags:** superconductivity, hydrides, high pressure, template generation, electron-phonon coupling, superconductor, superconductors.
+
+<a id="hennig-bete-net"></a>
+## Hennig BETE-NET released EPC cohort
+
+DFT electron–phonon spectral data, phonon descriptors and CIFs released with the tempered-learning superconductivity study.
+
+**Size:** 806 released crystal structures (source wording: 806 released composition rows and 806 CIF files; paper cohort: 818).
+
+**Scope:** Public Git snapshot: complete comp column and matching CIF inventory; distinct from the paper-described 818-material cohort
+
+**Release:** Git revision 56bc783908a60e8a15e31b60018e6f3c3e48f593 (2024-08-20); journal paper 2025. **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** Eliashberg spectral function alpha2F; phonon DOS; electron–phonon coupling lambda; phonon frequency moments; computed superconducting Tc.
+
+**Access:** open. **Dataset license:** Apache-2.0 (repository declaration).
+
+**Official routes:** [homepage](https://github.com/henniggroup/BETE-NET) · [data](https://github.com/henniggroup/BETE-NET/blob/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json) · [paper](https://doi.org/10.1038/s41524-024-01475-4) · [code](https://github.com/henniggroup/BETE-NET)
+
+Other denominators (not added to the ranking):
+
+- 818 materials: Journal-described dynamically stable cohort; differs from current public file count
+- 1,265 converged calculations: 2024 author-preprint denominator before filtering, not the released cohort
+- 1,600 attempted calculations: 2024 author-preprint submitted calculations, not successful records
+
+**Evidence:**
+
+- [BETE-NET immutable public file inventory](https://api.github.com/repos/henniggroup/BETE-NET/git/trees/56bc783908a60e8a15e31b60018e6f3c3e48f593?recursive=1) (checked 2026-11-01): Non-truncated tree has 806 CIFs and an 89104840-byte database.json.
+- [BETE-NET released data header](https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json) (checked 2026-11-01): Complete first JSON field comp contains 806 row labels; only a 256 KiB prefix was retrieved.
+- [BETE-NET journal paper](https://www.nature.com/articles/s41524-024-01475-4) (checked 2026-11-01): Describes high-quality calculations for 818 dynamically stable materials, selected from a larger attempted/converged pool.
+- [BETE-NET author release documentation](https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/README.md) (checked 2026-11-01): Identifies database, corresponding CIFs, split indices and predictions as paper data.
+- [BETE-NET repository licence](https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/LICENSE) (checked 2026-11-01): Repository licence file declares Apache License 2.0.
+
+**Reuse and interpretation notes:**
+
+- 806 is a public-file denominator, not a correction to the paper's 818-material scientific cohort. The discrepancy remains unresolved.
+- Published train/test index files contain 824 labels; 18 do not occur in the released comp row labels. Match indices to the intended data version before reuse.
+- Tc targets are calculated from electron–phonon spectra; these are not 806 measured superconductors.
+- A pressure-resolved release field was not verified; do not treat this as a high-pressure hydride benchmark.
+- Repository licensing is recorded independently of the journal article licence.
+
+**Tags:** superconductivity, Hennig, electron–phonon, computed Tc, release discrepancy, superconductor, superconductors, Richard G. Hennig, Hennig group, University of Florida.
 
 <a id="matbench-jdft2d"></a>
 ## Matbench jdft2d
@@ -839,6 +1164,42 @@ DFT dilute-solute diffusion barriers in host crystals, packaged with host/solute
 
 **Tags:** education, diffusion, derived, composition-only.
 
+<a id="antiperovskite-superconductivity-dfpt"></a>
+## Antiperovskite superconductivity DFPT dataset
+
+Electron–phonon calculations for cubic antiperovskites XYZ3 with metal X/Z and H, B, C, N, O or P on the Y site.
+
+**Size:** 384 material calculation cases (source wording: Electron–phonon calculations for 384 antiperovskites).
+
+**Scope:** Starting DFPT cohort in the 2022 archive, including dynamically unstable cases
+
+**Release:** Materials Cloud 2022.49, version 1. **Year:** 2022.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; phonons; electron–phonon coupling; calculated critical temperature; electronic descriptors.
+
+**Access:** open. **Dataset license:** Creative Commons Attribution 4.0 International.
+
+**Official routes:** [homepage](https://archive.materialscloud.org/records/2hg1p-63427) · [data](https://doi.org/10.24435/materialscloud:6g-az)
+
+Other denominators (not added to the ranking):
+
+- 16 calculated material cases: Initial DFPT cohort with calculated Tc above 5 K
+
+**Evidence:**
+
+- [Superconductivity in antiperovskites — data archive](https://archive.materialscloud.org/records/2hg1p-63427) (checked 2026-11-01): Describes 384 starting DFPT cases, approximately 40% with imaginary phonons, and 16 calculated cases above 5 K.
+- [Materials Cloud 2022.49 metadata](https://archive.materialscloud.org/api/records/2hg1p-63427) (checked 2026-11-01): Confirms 2022-04-06 release, downloadable calculation archives and CC BY 4.0 rights.
+
+**Reuse and interpretation notes:**
+
+- The cohort includes dynamically unstable materials; 384 is not a count of stable superconductors.
+- The further 44 materials above 5 K are model predictions and are not added to the DFPT cohort count.
+- All superconducting temperatures in this release are theoretical.
+
+**Tags:** superconductivity, DFPT, antiperovskites, electron-phonon coupling, high-throughput, superconductor, superconductors.
+
 <a id="jarvis-supercon-2d"></a>
 ## JARVIS superconductivity 2D DFT cohort
 
@@ -870,7 +1231,40 @@ Distinct downloadable JARVIS electron–phonon-coupling superconductivity cohort
 - A named property cohort overlapping parent JARVIS materials.
 - Do not combine with the experimental/composition-only supercon_chem collection.
 
-**Tags:** superconductivity, 2d, JARVIS derivative, electron–phonon.
+**Tags:** superconductivity, 2d, JARVIS derivative, electron–phonon, superconductor, superconductors.
+
+<a id="htsc-2025"></a>
+## HTSC-2025 ambient-pressure BCS superconductor benchmark
+
+A curated benchmark of crystal CIFs and literature theoretical Tc values for recent ambient-pressure conventional-superconductor candidates.
+
+**Size:** 140 material records (source wording: 140 material records with CIF structures and Tc values).
+
+**Scope:** 140 top-level material keys independently counted in official HTSC-2025.json
+
+**Release:** ScienceDB V1; official Hugging Face JSON snapshot 2026-11-01. **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; calculated critical temperature.
+
+**Access:** open. **Dataset license:** MIT License (ScienceDB V1 registrant metadata).
+
+**Official routes:** [homepage](https://huggingface.co/datasets/xiao-qi/HTSC-2025) · [data](https://doi.org/10.57760/sciencedb.j00113.00259) · [paper](https://doi.org/10.1088/1674-1056/adf042)
+
+**Evidence:**
+
+- [HTSC-2025 official dataset card](https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/README.md) (checked 2026-11-01): Describes 140 ambient-pressure BCS materials compiled from recent theoretical studies, grouped into six material families.
+- [HTSC-2025 official JSON data](https://huggingface.co/datasets/xiao-qi/HTSC-2025/raw/main/HTSC-2025.json) (checked 2026-11-01): Independently parsed 140 material keys; entries contain CIF text and a tc field. SHA-256 fba2681d115fcd131e0e09086bf0a271d6ecb5ef9e46f238be98d3faac0f92a3.
+- [ScienceDB HTSC-2025 V1 DOI metadata](https://api.datacite.org/dois/10.57760/sciencedb.j00113.00259) (checked 2026-11-01): Registrant metadata gives version V1, MIT rights and the theoretical-superconductor benchmark description.
+
+**Reuse and interpretation notes:**
+
+- The cohort primarily compiles predicted superconductors, not 140 experimentally demonstrated high-Tc materials; MgB2 also appears as a reference.
+- The dataset viewer can display one row because the JSON is a single dictionary; 140 is the number of material entries inside it.
+- Literature-calculated Tc values can use different computational assumptions and should not be treated as a uniformly recomputed experimental benchmark.
+
+**Tags:** superconductivity, ambient pressure, BCS, hydrides, crystal benchmark, superconductor, superconductors.
 
 <a id="phonondb-103-pbesol"></a>
 ## Phono3py 103-compound finite-displacement dataset (PBEsol)
