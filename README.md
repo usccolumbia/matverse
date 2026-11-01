@@ -16,6 +16,22 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 
 [Read the survey](docs/SURVEY.md) · [Full JSON](data/datasets.json) · [CSV export](data/datasets.csv) · [Repository and resource directory](docs/resources.md) · [Scientific Data index](docs/scientific-data.md) · [ACS paper crosswalk](docs/review-crosswalk.md) · [Lineage and overlap](docs/overlap.md) · [Methods and schema](docs/METHODOLOGY.md)
 
+## Browse by category
+
+- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (3)
+- [Computed bulk inorganic crystals](#bulk-computed) (25)
+- [Experimental crystallography and reference collections](#experimental-crystallography) (9)
+- [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (41)
+- [Two-dimensional and layered materials](#two-dimensional) (12)
+- [MOFs, COFs and zeolites](#porous-frameworks) (24)
+- [Molecular crystals and ice](#molecular-crystals) (5)
+- [Surfaces, interfaces and catalysis](#surfaces-catalysis) (18)
+- [Materials properties](#materials-properties) (148)
+- [Computed properties and prediction benchmarks](#property-benchmarks) (87)
+- [Crystal generation and discovery benchmarks](#generation-benchmarks) (7)
+- [Experimental properties and literature extraction](#experimental-properties) (114)
+- [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (30)
+  
 ## Read the counts correctly
 
 - **Structures/materials:** usually equilibrium or curated structural records. Polymorphs, temperatures, disorder models and functional variants can create several records per composition.
@@ -87,21 +103,7 @@ Try the **[Materials Cloud OPTIMADE Client](https://optimadeclient.materialsclou
 
 **[Complete JARVIS audit](docs/jarvis-coverage.md):** all 13 rows in the homepage Databases table (numbered 1–7 and 9–14), all 65 named entries in its linked Figshare table, and all 66 current downloader names are included in the [searchable JARVIS source inventory](https://usccolumbia.github.io/matverse/?view=sources&collection=jarvis_databases). Newly cataloged releases include QETB, FF, interfaces, surfaces, vacancies and electron/phonon Hamiltonians. Alternate portals and mirrors are identified without adding duplicate corpus totals.
 
-## Browse by category
 
-- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (3)
-- [Computed bulk inorganic crystals](#bulk-computed) (25)
-- [Experimental crystallography and reference collections](#experimental-crystallography) (9)
-- [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (41)
-- [Two-dimensional and layered materials](#two-dimensional) (12)
-- [MOFs, COFs and zeolites](#porous-frameworks) (24)
-- [Molecular crystals and ice](#molecular-crystals) (5)
-- [Surfaces, interfaces and catalysis](#surfaces-catalysis) (18)
-- [Materials properties](#materials-properties) (148)
-- [Computed properties and prediction benchmarks](#property-benchmarks) (87)
-- [Crystal generation and discovery benchmarks](#generation-benchmarks) (7)
-- [Experimental properties and literature extraction](#experimental-properties) (114)
-- [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (30)
 
 ## Ranked catalog
 
