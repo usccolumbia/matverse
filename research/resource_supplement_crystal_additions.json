@@ -1,0 +1,65 @@
+[
+  {
+    "id": "omdb-cod-bandgap-predictions",
+    "name": "OMDB-GAP1 models: COD band-gap prediction release",
+    "category": "property_benchmarks",
+    "description": "SOAP/kernel-ridge and SchNet band-gap predictions for a large COD-derived organic-crystal screening set, distinct from the DFT-labelled OMDB-GAP1 training corpus.",
+    "version": "COD predictions v1.1 on the OMDB dataset page; 2019 paper cohort",
+    "year": 2019,
+    "count": 260092,
+    "count_display": "260,092 COD crystal entries with model-predicted band gaps",
+    "count_unit": "COD crystal prediction records",
+    "count_scope": "Named v1.1 COD prediction download, corresponding to the paper cohort of organic structures with at most 500 atoms per unit cell",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "machine-learning predicted band gap",
+      "SOAP/kernel-ridge band-gap prediction",
+      "SchNet band-gap prediction",
+      "ensemble band-gap prediction"
+    ],
+    "access": "registration",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://omdb.mathub.io/dataset/",
+      "data": "https://omdb.mathub.io/dataset/download/gap1-cod_v1.1",
+      "paper": "https://doi.org/10.1002/qute.201900023"
+    },
+    "sources": [
+      {
+        "url": "https://omdb.mathub.io/dataset/",
+        "title": "OMDB official dataset downloads",
+        "evidence": "Separately lists OMDB-GAP1 v1.1 at 12,500 materials and a COD v1.1 machine-learning prediction download at 260,092 materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qute.201900023",
+        "title": "Band Gap Prediction for Large Organic Crystal Structures with Machine Learning",
+        "evidence": "Section 3.2 describes selecting organic COD structures containing C/H and supported elements, limiting cells to 500 atoms, and computing 260,092 model predictions; Data Availability identifies the release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/dataset/download/gap1-cod_v1.1",
+        "title": "OMDB COD prediction download access check",
+        "evidence": "Public download link redirects to the login page, which offers free registration; payload was not obtained without an account.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Properties are machine-learning predictions, not 260,092 new DFT calculations or measured band gaps.",
+      "The source crystal structures are COD-derived and overlap the COD family; no independent new-structure total is implied.",
+      "Provider release count was not independently recounted because download currently requires login.",
+      "Structure-linked classification denotes the named COD-source linkage; atomic-coordinate content and exact payload columns were not inspected.",
+      "Dataset-specific reuse license was not identified in the inspected download and terms pages."
+    ],
+    "tags": [
+      "organic crystals",
+      "COD derivative",
+      "OMDB",
+      "band gap",
+      "machine-learning predictions",
+      "registration"
+    ]
+  }
+]

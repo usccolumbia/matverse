@@ -1,0 +1,29 @@
+{
+  "checked_date": "2026-11-01",
+  "base_commit": "c6d88fcba4ecdcd81b9f753c0eea5ed0d091c38f",
+  "dataset_records": 164,
+  "resources": 51,
+  "new_dataset_ids": [
+    "omdb-cod-bandgap-predictions",
+    "compsc-literature-epc"
+  ],
+  "superconductivity_records": 24,
+  "merged_duplicate": "Two MDF resource entries merged; StanevCSV/JARVISJSON exact mirror counted once",
+  "source_inputs_sha256": {
+    "research/resource_supplement_crystal_additions.json": "525803e20b32656fbc50c0e71180039f9d820e813431b1a722c505b9e35c830b",
+    "research/resource_supplement_crystal_notes.md": "574f37b24db85ca2be4939d44d24c3ac6d7d38105540c9935d24b5b5cdfc022c",
+    "research/resource_supplement_crystal_resources.json": "5d2a88c92127448a411dc2281e4310c0bc209f5d2ba6de00509be23fed0d0e9c",
+    "research/resource_supplement_infrastructure_notes.md": "f322e6bafc9012e1f94b5e9785368571207fd21aa57fb44a7fc69bbacbbd0aaf",
+    "research/resource_supplement_infrastructure_patches.json": "c0a510cfede4c5ffd655e98ffed3056572f1aeb652faa0a7ec0a0518bd160d31",
+    "research/resource_supplement_infrastructure_resources.json": "7c2f3781257f05773aa3a156fe6f92ec2888bc1b8af4d1e3421f9e7aea7467fb",
+    "research/resource_supplement_superconductivity_additions.json": "7732f37d9802ad8ec19b8944b59a9a49637ba24fc8674366e572b3fcb9924fa7",
+    "research/resource_supplement_superconductivity_notes.md": "df044206e08f35380769f428de078cdc8f0a391b62591d4dada2ffb9809595e2",
+    "research/resource_supplement_superconductivity_resources.json": "988b6bcbb6c2c983d84116c25d8538d7f9861c6d2de391e37b93b0872690cb17"
+  },
+  "notes": [
+    "Supplied ADS abstract maps to Clark OSD; UCSD SRD is independently documented.",
+    "Inherited 3DSC/JARVIS zero labels are qualified using the author missing-target convention.",
+    "All 32 distinct supplied URLs are preserved in collection_user_resources_20261101.json.",
+    "CompSC and OMDB prediction releases added; MDF aliases merged; CDCS duplicate collapsed."
+  ]
+}

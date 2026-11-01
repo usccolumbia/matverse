@@ -169,15 +169,16 @@ Other denominators (not added to the ranking):
 - [3DSC Scientific Data descriptor](https://www.nature.com/articles/s41597-023-02721-y) (checked 2026-11-01): Reports 9150 SuperCon entries matched to 86490 structures; public CSV gives ICSD IDs; full reconstruction requires ICSD licence.
 - [3DSC_ICSD (only Tc and ICSD IDs) repository metadata](https://api.figshare.com/v2/articles/24499924) (checked 2026-11-01): Confirms public data deposit and its stated licence; applies to deposited files.
 - [3DSC primary article full text](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML) (checked 2026-11-01): Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.
+- [Upstream SuperCon missing-target convention](https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md) (checked 2026-11-01): The 3DSC descriptor identifies this Stanev parent. Its author README assigns zero to unreported Tc; inherited zeros must be assessed with measurement provenance.
 
 **Reuse and interpretation notes:**
 
 - Public IDs and labels do not confer redistribution rights to ICSD CIFs.
 - Many matches share composition but differ in measurement conditions; artificial doping can approximate sample structures.
 - The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.
-- Tc = 0 denotes tested nonsuperconducting entries in the source labels.
 - Public CSV identifies original ICSD structures, not redistributed or necessarily already artificially doped coordinates; reconstructing adapted structures requires licensed ICSD access.
 - Repeated crystallographic measurements or measurement temperatures can generate many structures for a single SuperCon entry.
+- The 3DSC authors operationally label Tc=0 entries as nonsuperconductors. Their Stanev parent also assigns zero to unreported Tc; zero alone does not verify a tested negative or a lower-temperature detection bound.
 
 **Tags:** Scientific-Data, superconductivity, licensed-structures, superconductor, superconductors.
 
@@ -622,23 +623,27 @@ Other denominators (not added to the ranking):
 **Tags:** Starrydata, project-subset, MagneticMaterials, literature-digitization, overlap, CSV.
 
 <a id="jarvis-supercon-chem"></a>
-## JARVIS supercon_chem experimental composition/Tc benchmark
+## Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark
 
-A downloadable SuperCon-derived composition and critical-temperature benchmark exposed through JARVIS-Tools and JARVIS-Leaderboard.
+SuperCon-derived author composition/Tc table mirrored in JARVIS JSON format. Unreported critical temperatures are encoded as zero; no atomic coordinates are included.
 
 **Size:** 16,414 composition/Tc records (source wording: 16,414 composition/Tc records).
 
-**Scope:** Official supercon_chem.json.zip version 1; independently parsed JSON list
+**Scope:** Same 16,414 formula/Tc pair multiset in the Stanev author CSV and JARVIS JSON; row order and identifiers differ
 
-**Release:** Figshare version 1 (2023-05-20). **Year:** 2023.
+**Release:** JARVIS Figshare v1 (2023-05-20); upstream 2018 author table, Git revision 6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5. **Year:** 2023.
 
-**Provenance:** experimental. **Structure availability:** `composition_only`.
+**Provenance:** literature measurements and zero-coded missing targets. **Structure availability:** `composition_only`.
 
-**Labels/content:** chemical formula; experimental critical temperature; source identifier.
+**Labels/content:** reported superconducting critical temperature; chemical formula; zero-coded unreported Tc targets.
 
 **Access:** open. **Dataset license:** CC BY 4.0 (Figshare deposit).
 
-**Official routes:** [homepage](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/) · [data](https://doi.org/10.6084/m9.figshare.22975787.v1) · [paper](https://doi.org/10.1038/s41524-018-0085-8) · [code](https://github.com/usnistgov/jarvis)
+**Official routes:** [homepage](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/) · [data](https://doi.org/10.6084/m9.figshare.22975787.v1) · [paper](https://doi.org/10.1038/s41524-018-0085-8) · [code](https://github.com/usnistgov/jarvis) · [upstream](https://github.com/vstanev1/Supercon/tree/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5) · [upstream_csv](https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/Supercon_data.csv)
+
+Other denominators (not added to the ranking):
+
+- 3,966 zero-coded Tc rows: Both public formats; includes unreported targets and does not establish confirmed negative experiments
 
 **Evidence:**
 
@@ -646,6 +651,8 @@ A downloadable SuperCon-derived composition and critical-temperature benchmark e
 - [JARVIS supercon_chem Tc benchmark](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/) (checked 2026-11-01): Defines formula-only experimental-Tc prediction and consistently identifies dataset size 16,414.
 - [JARVIS supercon_chem Figshare version 1 metadata](https://api.figshare.com/v2/articles/22975787) (checked 2026-11-01): Confirms 2023-05-20 deposit, CC BY 4.0 rights, the downloadable JSON ZIP, and provenance links to vstanev1/Supercon and the Stanev paper.
 - [Official supercon_chem JSON ZIP](https://ndownloader.figshare.com/files/40719260) (checked 2026-11-01): Independently parsed 16,414 records with id, Tc and formula fields. ZIP SHA-256 14b7489822a1c25407cd6c83989dfca7f14263dfe6b5dc9f859969430c09e5b7.
+- [Stanev author missing-target convention](https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md) (checked 2026-11-01): Author states unreported critical temperatures are encoded as Tc=0. These values do not automatically establish tested negative experiments.
+- [Stanev author CSV and JARVIS mirror audit](https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/Supercon_data.csv) (checked 2026-11-01): CSV has 16,414 rows and 3,966 zeros; the exact (formula, numerical Tc) multiset matches official JARVIS JSON with zero extra/missing pairs. CSV SHA-256: b34a955cc59f7a1556bc92c4b9db559bfd634c03227b7e95337a2e5d69227dd6.
 
 **Reuse and interpretation notes:**
 
@@ -653,8 +660,10 @@ A downloadable SuperCon-derived composition and critical-temperature benchmark e
 - A derivative of SuperCon/Stanev data; overlap with MDR SuperCon, UCI and other cleaned SuperCon benchmarks must not be counted as independent new measurements.
 - Includes Tc = 0 records; 16,414 is not a count of positive superconductors.
 - Official JARVIS DFT supercon_3d and supercon_2d cohorts have different structures, labels and counts.
+- Tc=0 includes targets assigned when critical temperature was unreported. The 3,966 zero-coded rows are not automatically confirmed negative experiments or distinct compounds.
+- The two public formats represent the same cohort and are counted once. The author repository has no explicit data license; CC BY 4.0 is recorded for the JARVIS Figshare deposit.
 
-**Tags:** superconductivity, JARVIS, SuperCon, experimental Tc, composition benchmark, derivative, superconductor, superconductors.
+**Tags:** superconductivity, JARVIS, SuperCon, experimental Tc, composition benchmark, derivative, superconductor, superconductors, Stanev, Supercon_data.csv, missing labels.
 
 <a id="starrydata-battery-materials"></a>
 ## Starrydata — Battery Materials
@@ -766,14 +775,15 @@ Other denominators (not added to the ranking):
 - [3DSC Scientific Data descriptor](https://www.nature.com/articles/s41597-023-02721-y) (checked 2026-11-01): Reports 5759 SuperCon entries and 5773 MP-derived structures; CIFs available; matching sometimes uses artificial doping.
 - [3DSC_MP repository metadata](https://api.figshare.com/v2/articles/24499930) (checked 2026-11-01): Confirms public data deposit and its stated licence; applies to deposited files.
 - [3DSC primary article full text](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663493/fullTextXML) (checked 2026-11-01): Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.
+- [Upstream SuperCon missing-target convention](https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md) (checked 2026-11-01): The 3DSC descriptor identifies this Stanev parent. Its author README assigns zero to unreported Tc; inherited zeros must be assessed with measurement provenance.
 
 **Reuse and interpretation notes:**
 
 - Structures can be approximate proxies modified by occupancy substitution; they are not all measurements of the labeled superconducting sample.
 - Labels and structures have different provenance.
 - The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.
-- Tc = 0 denotes tested nonsuperconducting entries in the source labels.
 - Fourteen matched SuperCon entries have two MP structures, explaining 5,773 structures versus 5,759 matched labels.
+- The 3DSC authors operationally label Tc=0 entries as nonsuperconductors. Their Stanev parent also assigns zero to unreported Tc; zero alone does not verify a tested negative or a lower-temperature detection bound.
 
 **Tags:** Scientific-Data, superconductivity, matched-structures, superconductor, superconductors.
 
@@ -1478,6 +1488,7 @@ Evaluated literature data for oxide superconductors, linking thermal, mechanical
 - [NIST SRD 62 official resource metadata](https://data.nist.gov/od/id/ECBCC1C130112ED9E04306570681B10723) (checked 2026-11-01): Identifies WebHTS, DOI 10.18434/T4KP8J, public access, oxide-superconductor scope, evaluated properties and structural tables.
 - [NIST WebHTS search portal](https://srdata.nist.gov/CeramicDataPortal/hit) (checked 2026-11-01): Portal explicitly states last data-content update 1996; query fields include structure type and chemical family.
 - [NIST SRD copyright and licensing statements](https://www.nist.gov/open/license) (checked 2026-11-01): Distinguishes copyrighted Standard Reference Data from other NIST employee works; no blanket public-domain assumption is warranted.
+- [NIST 62: NIST/NRIM High Temperature Superconductors Database Version 2.0](https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20) (checked 2026-11-01): R. G. Munro’s 2008 publication documents the same WebHTS/SRD 62 family and 1987–1996 literature; no distinct downloadable corpus/count established.
 
 **Reuse and interpretation notes:**
 

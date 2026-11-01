@@ -11,6 +11,7 @@ import re
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse, parse_qsl
+from collection_inventory import load_inventory
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-11-01'
@@ -102,7 +103,8 @@ def render(data, resources):
     counts = Counter(d['category'] for d in data)
     unknown = sum(d['count'] is None for d in data)
     source_count = len({s['url'] for d in data for s in d['sources']})
-    header = (ROOT / 'templates/README_intro.md.txt').read_text().replace('{{DATASETS}}', str(len(data))).replace('{{CATEGORIES}}', str(len(counts))).replace('{{SOURCES}}', str(source_count)).replace('{{UNRANKED}}', str(unknown))
+    collection_inventory = load_inventory(ROOT)
+    header = (ROOT / 'templates/README_intro.md.txt').read_text().replace('{{DATASETS}}', str(len(data))).replace('{{CATEGORIES}}', str(len(counts))).replace('{{SOURCES}}', str(source_count)).replace('{{UNRANKED}}', str(unknown)).replace('{{SOURCE_ENTRY_COUNT}}', str(collection_inventory['entry_count'])).replace('{{SOURCE_COLLECTION_COUNT}}', str(len(collection_inventory['collections'])))
     lines = [header.rstrip(), '', '## Browse by category', '']
     for cat, title in CATEGORIES.items():
         if counts[cat]:
@@ -176,7 +178,7 @@ def render(data, resources):
     outputs['data/summary.json'] = json.dumps(summary, indent=2, ensure_ascii=False) + '\n'
     input_paths = ['data/datasets.json', 'data/resources.json', 'data/dataset.schema.json',
                    'templates/README_intro.md.txt', 'templates/superconductivity.md.txt', 'scripts/build_catalog.py',
-                   'docs/SURVEY.md', 'docs/METHODOLOGY.md', 'docs/review-crosswalk.md']
+                   'docs/SURVEY.md', 'docs/METHODOLOGY.md', 'docs/review-crosswalk.md', 'scripts/collection_inventory.py'] + [c['inventory_file'] for c in collection_inventory['collections']]
     manifest = {
         'checked_date': DATE,
         'algorithm': 'sha256',

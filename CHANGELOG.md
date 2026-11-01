@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 — 2026-11-01
+
+Added all 32 distinct URLs from the supplied materials-resource list as a searchable source collection and a complete coverage crosswalk. Added 13 portal, registry, polymer, model, curation, review and documentation resources; merged the two MDF entries into one. UCSD SRD is represented with current counts, payload and rights unverified after endpoint failures. The ADS abstract is correctly attributed to Clark OSD; the NIST Version 2.0 publication remains documentation of the existing WebHTS/SRD 62 family.
+
+Added corrected CompSC (586 structures) and the separate OMDB COD band-gap prediction release (260,092 model-prediction records). Updated OMDB download access to registration and corroborated AtomWork/AtomWork-Adv counters and terms with provider pages. MatVerse now contains 164 dataset/release records, 51 resources, 821 imported source entries across seven collections, and 1,226 distinct source URLs.
+
+Verified that Stanev CSV and JARVIS supercon_chem JSON have the identical 16,414 formula/Tc pair multiset, including 3,966 zero-coded targets. Their author’s unreported-Tc convention is explicit, and inherited 3DSC zero labels no longer imply independently confirmed negative experiments. All 19 functional tests pass; original legacy URLs and source hashes remain preserved.
+
 ## 0.3.0 — 2026-11-01
 
 Fixed searches for superconductor/superconductivity/SuperCon and critical-temperature/Tc terminology. A search overview now exposes dataset matches while browsing filtered source inventories and opens another result group with the query preserved and restrictive filters cleared. Both 3DSC release names explicitly identify their superconductivity/structure scope.

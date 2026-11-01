@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Materials Data Facility / Foundry",
+    "url": "https://www.materialsdatafacility.org/",
+    "kind": "materials repository and data-access platform",
+    "description": "Materials-data publication and discovery services, with Foundry providing programmatic search and loading of machine-learning-ready deposits. Access and reuse conditions must be checked per deposit. Collection, file and record totals must not be summed as unique crystals. This is the canonical merged resource for the duplicate Materials Data Facility entries.",
+    "sources": [
+      {
+        "url": "https://www.materialsdatafacility.org/",
+        "title": "Materials Data Facility",
+        "evidence": "Describes publication and discovery services and links Foundry. The non-www domain redirects here; both supplied routes returned the same final response body.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/MLMI2-CSSI/foundry",
+        "title": "Foundry — official source repository",
+        "evidence": "Documents the Python client for searching, loading and obtaining schemas and citations for machine-learning-ready data, integrated with Materials Data Facility.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://connect.materialsdatafacility.org/how-to",
+        "title": "MDF publishing and discovery guides",
+        "evidence": "Retained from the existing catalog record as its original guide route; this supplement independently verified the homepage and Foundry source repository.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

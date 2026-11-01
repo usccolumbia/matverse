@@ -68,6 +68,7 @@ Quasi-two-dimensional crystalline organic conductors and superconductors with li
 
 - [A Database for Crystalline Organic Conductors and Superconductors](https://www.mdpi.com/2073-4352/12/7/919) (checked 2026-11-01): 2022 paper reports 110 materials, 184 CSD structures and 440 measured properties; describes manual measurements and tight-binding calculations.
 - [OSD official about page](http://osd.clarku.edu/public/about) (checked 2026-11-01): Confirms open public browsing, CSD-source CIFs, manually entered literature measurements and tight-binding electronic structures.
+- [The Organic Superconductor Database — APS March 2021 presentation](https://meetings.aps.org/Meeting/MAR21/Session/X61.3) (checked 2026-11-01): Owen Ganter and Charles C. Agosta, Clark University, 19 March 2021. Describes OSD organic-crystal, electronic and experimental content; the supplied ADS bibcode belongs to this project.
 
 **Reuse and interpretation notes:**
 

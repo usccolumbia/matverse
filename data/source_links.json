@@ -1,15 +1,34 @@
 {
   "checked_date": "2026-11-01",
-  "unique_urls": 1166,
+  "unique_urls": 1226,
   "collection_repositories": [
     "blaiszik/awesome-matchem-datasets",
     "JARVIS-Tools Notebooks",
     "Machine Learning Materials Datasets / MAST-ML education",
     "nanoHUB Machine Learning Lab Module",
     "REMI: REsource for Materials Informatics",
-    "sedaoturak/data-resources-for-materials-science"
+    "sedaoturak/data-resources-for-materials-science",
+    "User-supplied materials resources (2026-11-01)"
   ],
   "sources": [
+    {
+      "url": "http://aflowlib.org/",
+      "labels": [
+        "Automatic Flow for Materials Discovery (AFLOW)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
+      "url": "http://crystallography.net/cod/",
+      "labels": [
+        "Crystallography Open Database (COD)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
     {
       "url": "http://hmofs.northwestern.edu/",
       "labels": [
@@ -45,10 +64,12 @@
       "url": "http://oqmd.org/",
       "labels": [
         "OQMD: Open Quantum Materials Database",
+        "Open Quantum Materials Database (OQDM; official abbreviation OQMD)",
         "Open Quantum Materials Database (OQMD)"
       ],
       "origins": [
         "REMI: REsource for Materials Informatics",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
       ]
     },
@@ -72,6 +93,15 @@
         "Catalog evidence",
         "Catalog official route",
         "Resource evidence"
+      ]
+    },
+    {
+      "url": "http://pppdb.uchicago.edu/",
+      "labels": [
+        "Polymer Property Predictor and Database (PPPDB)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -224,6 +254,24 @@
       ]
     },
     {
+      "url": "http://www.ctcms.nist.gov/~knc6/JVASP.html",
+      "labels": [
+        "JARVIS-DFT legacy route"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
+      "url": "http://www.icdd.com/",
+      "labels": [
+        "International Center for Diffraction Data (ICDD)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "http://www.matweb.com/",
       "labels": [
         "MatWeb"
@@ -248,6 +296,15 @@
       ],
       "origins": [
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://2dhub.org/",
+      "labels": [
+        "2DHub official portal"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -458,6 +515,15 @@
       "url": "https://api.crossref.org/works/10.1016/j.ijhydene.2026.153434",
       "labels": [
         "Crossref publisher-deposited Digital Hydrogen-S metadata"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1021/acs.chemmater.4c01757",
+      "labels": [
+        "Crossref publisher-deposited review metadata"
       ],
       "origins": [
         "Resource evidence"
@@ -834,6 +900,15 @@
       ]
     },
     {
+      "url": "https://archive.ics.uci.edu/ml/datasets/superconductivty+data",
+      "labels": [
+        "UCI Superconductivty Data legacy route"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://archive.materialscloud.org",
       "labels": [
         "Materials Cloud Archives"
@@ -1112,6 +1187,15 @@
       "origins": [
         "Catalog evidence",
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1610.07673",
+      "labels": [
+        "Topology-Scaling Identification of Layered Solids and Stable Exfoliated 2D Materials"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -1398,6 +1482,15 @@
       ]
     },
     {
+      "url": "https://arxiv.org/html/2510.25971v1",
+      "labels": [
+        "Author-posted full review manuscript"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://arxiv.org/html/2603.02089v2",
       "labels": [
         "Massive Atomic Diversity (MAD-1.5) — homepage",
@@ -1442,6 +1535,15 @@
       ],
       "origins": [
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://atomwork-adv.nims.go.jp/en/service.html?lan=en",
+      "labels": [
+        "AtomWork-Adv provider counters and service limits"
+      ],
+      "origins": [
+        "Catalog evidence"
       ]
     },
     {
@@ -1555,6 +1657,18 @@
       ],
       "origins": [
         "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://cmr.fysik.dtu.dk/",
+      "labels": [
+        "CMR official portal",
+        "Computational Materials Repository (CMR)"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -2280,7 +2394,7 @@
     {
       "url": "https://connect.materialsdatafacility.org/how-to",
       "labels": [
-        "MDF publishing/discovering guides"
+        "MDF publishing and discovery guides"
       ],
       "origins": [
         "Resource evidence"
@@ -2329,10 +2443,22 @@
     {
       "url": "https://crystdb.nims.go.jp/",
       "labels": [
-        "NIMS AtomWork — data"
+        "NIMS AtomWork provider release and access terms",
+        "NIMS AtomWork — data",
+        "NIMS AtomWork — homepage"
       ],
       "origins": [
+        "Catalog evidence",
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://crystdb.nims.go.jp/en/",
+      "labels": [
+        "Inorganic Materials Database (NMIS; NIMS AtomWork)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -2397,10 +2523,12 @@
     {
       "url": "https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723",
       "labels": [
+        "NIST High Temperature Superconducting Materials Database / SRD 62",
         "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — homepage"
       ],
       "origins": [
-        "Catalog official route"
+        "Catalog official route",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -2574,6 +2702,7 @@
     {
       "url": "https://doi.org/10.1002/qute.201900023",
       "labels": [
+        "OMDB-GAP1 models: COD band-gap prediction release — paper",
         "OMDB-GAP1 — paper"
       ],
       "origins": [
@@ -2634,6 +2763,17 @@
       ],
       "origins": [
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1021/acs.chemmater.4c01757",
+      "labels": [
+        "Superconductor Discovery in the Emerging Paradigm of Materials Informatics",
+        "Tran et al. review: Superconductor Discovery in the Emerging Paradigm of Materials Informatics"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Supporting perspective"
       ]
     },
     {
@@ -2792,7 +2932,7 @@
     {
       "url": "https://doi.org/10.1038/s41524-018-0085-8",
       "labels": [
-        "JARVIS supercon_chem experimental composition/Tc benchmark — paper"
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — paper"
       ],
       "origins": [
         "Catalog official route"
@@ -3245,6 +3385,15 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1103/PhysRevMaterials.7.054805",
+      "labels": [
+        "CompSC literature-curated conventional-superconductor structures and EPC parameters — paper"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1103/PhysRevMaterials.7.054806",
       "labels": [
         "Superhydra Physical Review Materials article and Supplemental Material",
@@ -3665,7 +3814,7 @@
     {
       "url": "https://doi.org/10.6084/m9.figshare.22975787.v1",
       "labels": [
-        "JARVIS supercon_chem experimental composition/Tc benchmark — data"
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — data"
       ],
       "origins": [
         "Catalog official route"
@@ -4550,6 +4699,15 @@
       ]
     },
     {
+      "url": "https://github.com/MLMI2-CSSI/foundry",
+      "labels": [
+        "Foundry — official source repository"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://github.com/MatSynAI/MatSyn25",
       "labels": [
         "Material Synthesis 2025 (MatSyn25) — code"
@@ -5198,6 +5356,33 @@
       ]
     },
     {
+      "url": "https://github.com/huantd/matsdata",
+      "labels": [
+        "CompSC literature-curated conventional-superconductor structures and EPC parameters — code"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/huantd/matsdata/tree/main/CompSC/202305",
+      "labels": [
+        "CompSC literature-curated conventional-superconductor structures and EPC parameters — homepage"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://github.com/huantd/matsdata/tree/main/papers/supercond_2024_01",
+      "labels": [
+        "Author review figure data"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://github.com/hyperspy/hyperspy-demos/blob/master/1_Getting_Started.ipynb",
       "labels": [
         "Getting Started"
@@ -5459,12 +5644,14 @@
     {
       "url": "https://github.com/ljcj007/SuperBand",
       "labels": [
+        "SuperBand",
         "SuperBand electronic-band / superconductivity dataset — code",
         "SuperBand official repository"
       ],
       "origins": [
         "Catalog evidence",
-        "Catalog official route"
+        "Catalog official route",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -6727,6 +6914,33 @@
       ]
     },
     {
+      "url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "labels": [
+        "User-supplied materials resources (2026-11-01)"
+      ],
+      "origins": [
+        "Requested collection"
+      ]
+    },
+    {
+      "url": "https://github.com/usnistgov/MDCS",
+      "labels": [
+        "NIST — Materials Data Curation System source repository"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/usnistgov/MDCS/blob/develop/LICENSE.md",
+      "labels": [
+        "MDCS — NIST Software Licensing Statement"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
       "url": "https://github.com/usnistgov/aims2024_workshop",
       "labels": [
         "https://github.com/usnistgov/aims2024_workshop"
@@ -6747,11 +6961,11 @@
     {
       "url": "https://github.com/usnistgov/jarvis",
       "labels": [
-        "JARVIS supercon_chem experimental composition/Tc benchmark — code",
         "JARVIS superconductivity 2D DFT cohort — code",
         "JARVIS superconductivity 3D DFT cohort — code",
         "JARVIS-DFT 2D snapshot — code",
-        "JARVIS-DFT 3D — code"
+        "JARVIS-DFT 3D — code",
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — code"
       ],
       "origins": [
         "Catalog official route"
@@ -6858,6 +7072,15 @@
       ]
     },
     {
+      "url": "https://github.com/vstanev1/Supercon/tree/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5",
+      "labels": [
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — upstream"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://github.com/wells-wood-research/PDBench",
       "labels": [
         "PDBench"
@@ -6888,6 +7111,15 @@
       "url": "https://hackingmaterials.lbl.gov/matminer/dataset_summary.html",
       "labels": [
         "matminer dataset summary"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://hennig.mse.ufl.edu/resources/",
+      "labels": [
+        "Hennig Materials Theory Lab resources"
       ],
       "origins": [
         "Resource evidence"
@@ -7449,10 +7681,12 @@
     {
       "url": "https://icsd.fiz-karlsruhe.de/",
       "labels": [
-        "Inorganic Crystal Structure Database (ICSD) — data"
+        "Inorganic Crystal Structure Database (ICSD) — data",
+        "Inorganic Crystal Structures Database (ICSD)"
       ],
       "origins": [
-        "Catalog official route"
+        "Catalog official route",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -7503,6 +7737,24 @@
       ],
       "origins": [
         "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://ischuller.ucsd.edu/",
+      "labels": [
+        "Schuller Nanoscience Group news archive"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://ischuller.ucsd.edu/timeline-post/foundation-of-new-superconducting-research-database/",
+      "labels": [
+        "Schuller group: Foundation of New Superconducting Research Database"
+      ],
+      "origins": [
         "Resource evidence"
       ]
     },
@@ -7589,6 +7841,15 @@
       "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.174513",
       "labels": [
         "Earlier Hennig–Xie analytical-form study (2019)"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.054805",
+      "labels": [
+        "Machine-learning approach for discovery of conventional superconductors"
       ],
       "origins": [
         "Catalog evidence"
@@ -7808,10 +8069,12 @@
     {
       "url": "https://materials.registry.nist.gov/",
       "labels": [
-        "Materials Resource Registery"
+        "Materials Resource Registery",
+        "NIST Materials Resource Registry route"
       ],
       "origins": [
-        "REMI: REsource for Materials Informatics"
+        "REMI: REsource for Materials Informatics",
+        "Resource evidence"
       ]
     },
     {
@@ -7844,6 +8107,15 @@
       ]
     },
     {
+      "url": "https://materialscloud.org/home",
+      "labels": [
+        "Materials Cloud"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://materialscommons.org/",
       "labels": [
         "Materials Commons"
@@ -7855,12 +8127,14 @@
     {
       "url": "https://materialsdata.nist.gov/",
       "labels": [
+        "Materials Data Repository (NIST)",
         "NIST Materials Data Repository",
         "NIST Materials Data Repository (Part of MGI)"
       ],
       "origins": [
         "Navigation resource",
         "Resource evidence",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
       ]
     },
@@ -7876,12 +8150,10 @@
     {
       "url": "https://materialsdatafacility.org/",
       "labels": [
-        "Materials Data Facility",
         "The Materials Data Facility (MDF)"
       ],
       "origins": [
-        "Navigation resource",
-        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
       ]
     },
@@ -7907,6 +8179,7 @@
       "url": "https://materialsproject.org/",
       "labels": [
         "Materials Project",
+        "Materials Project (MP)",
         "Materials Project / Petretto DFPT phonons (2018) — homepage",
         "Materials Project / Ricci electronic transport database — homepage",
         "Materials Project Phonon database v1.1 — homepage",
@@ -7918,7 +8191,17 @@
       "origins": [
         "Catalog official route",
         "REMI: REsource for Materials Informatics",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://materialsweb.org/",
+      "labels": [
+        "MaterialsWeb"
+      ],
+      "origins": [
+        "Navigation resource"
       ]
     },
     {
@@ -8047,6 +8330,15 @@
       ]
     },
     {
+      "url": "https://meetings.aps.org/Meeting/MAR21/Session/X61.3",
+      "labels": [
+        "The Organic Superconductor Database — APS March 2021 presentation"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://mits.nims.go.jp",
       "labels": [
         "IEEE-listed route: NIMS MatNavi"
@@ -8058,13 +8350,11 @@
     {
       "url": "https://mits.nims.go.jp/en/",
       "labels": [
-        "NIMS AtomWork — homepage",
         "NIMS MatNavi",
         "The NIMS Materials Database (MatNavi)"
       ],
       "origins": [
         "Catalog evidence",
-        "Catalog official route",
         "Navigation resource",
         "Resource evidence",
         "sedaoturak/data-resources-for-materials-science"
@@ -8082,10 +8372,12 @@
     {
       "url": "https://mof.tech.northwestern.edu/",
       "labels": [
-        "MOFX-DB"
+        "MOFX-DB",
+        "Metal Organic Framework Database (MOFDB)"
       ],
       "origins": [
-        "Navigation resource"
+        "Navigation resource",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -8639,18 +8931,81 @@
       ],
       "origins": [
         "Catalog official route",
+        "Navigation resource",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
       ]
     },
     {
       "url": "https://omdb.mathub.io/dataset/",
       "labels": [
-        "OMDB-GAP1 — data",
+        "OMDB named data releases",
+        "OMDB official dataset downloads",
+        "OMDB-GAP1 models: COD band-gap prediction release — homepage",
         "Organic Materials Database dataset downloads"
       ],
       "origins": [
         "Catalog evidence",
+        "Catalog official route",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://omdb.mathub.io/dataset/download/gap1-cod_v1.1",
+      "labels": [
+        "OMDB COD prediction download access check",
+        "OMDB-GAP1 models: COD band-gap prediction release — data"
+      ],
+      "origins": [
+        "Catalog evidence",
         "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://omdb.mathub.io/dataset/download/gap1_v1.1",
+      "labels": [
+        "OMDB-GAP1 download access check",
+        "OMDB-GAP1 — data"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://omdb.mathub.io/material",
+      "labels": [
+        "OMDB public materials browser"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://omdb.mathub.io/page/about",
+      "labels": [
+        "OMDB provider description"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://omdb.mathub.io/page/terms",
+      "labels": [
+        "OMDB terms"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qute.201900023",
+      "labels": [
+        "Band Gap Prediction for Large Organic Crystal Structures with Machine Learning"
+      ],
+      "origins": [
+        "Catalog evidence"
       ]
     },
     {
@@ -8705,10 +9060,31 @@
     {
       "url": "https://openkim.org/",
       "labels": [
-        "Knowledgebase of Interatomic Models (OpenKIM)"
+        "Knowledgebase of Interatomic Models (OpenKIM)",
+        "OpenKIM"
       ],
       "origins": [
+        "Navigation resource",
+        "User-supplied materials resources (2026-11-01)",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://openkim.org/about/",
+      "labels": [
+        "OpenKIM — About"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://openkim.org/doc/usage/obtaining-models/",
+      "labels": [
+        "OpenKIM — Obtaining Models"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -8766,7 +9142,7 @@
       "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/",
       "labels": [
         "JARVIS supercon_chem Tc benchmark",
-        "JARVIS supercon_chem experimental composition/Tc benchmark — homepage"
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — homepage"
       ],
       "origins": [
         "Catalog evidence",
@@ -8942,19 +9318,38 @@
     {
       "url": "https://polymer.nims.go.jp/",
       "labels": [
+        "NIMS — PoLyInfo",
+        "PoLyInfo",
         "Polyinfo"
       ],
       "origins": [
+        "Navigation resource",
+        "Resource evidence",
         "sedaoturak/data-resources-for-materials-science"
       ]
     },
     {
       "url": "https://polymer.nims.go.jp/en/",
       "labels": [
-        "PoLyInfo"
+        "PoLyInfo",
+        "Polymer Database (PoLyInfo)"
       ],
       "origins": [
+        "User-supplied materials resources (2026-11-01)",
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://polymerdatabase.com/home.html",
+      "labels": [
+        "Polymer Properties Database",
+        "Polymer Properties Database (PolymerDatabase.com)",
+        "PolymerDatabase.com — current endpoint availability"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -8969,10 +9364,41 @@
     {
       "url": "https://pppdb.uchicago.edu/",
       "labels": [
-        "Polymer Property Predictor and Database"
+        "PPPDB — Polymer Property Predictor and Database",
+        "Polymer Property Predictor and Database",
+        "Polymer Property Predictor and Database (PPPDB)"
       ],
       "origins": [
+        "Navigation resource",
+        "Resource evidence",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://pppdb.uchicago.edu/chi",
+      "labels": [
+        "PPPDB — Flory–Huggins Interaction Parameter Database"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://pppdb.uchicago.edu/cloud_points",
+      "labels": [
+        "PPPDB — Cloud Point Database"
+      ],
+      "origins": [
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://pppdb.uchicago.edu/tg",
+      "labels": [
+        "PPPDB — Glass Transition Temperature Database"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -9009,6 +9435,17 @@
       ],
       "origins": [
         "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://pubs.acs.org/cmatex/article/36/22/10939/154808/Superconductor-Discovery-in-the-Emerging-Paradigm",
+      "labels": [
+        "ACS published review",
+        "Superconductor Discovery in the Emerging Paradigm of Materials Informatics (ACS review)"
+      ],
+      "origins": [
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -9055,6 +9492,15 @@
       ],
       "origins": [
         "blaiszik/awesome-matchem-datasets"
+      ]
+    },
+    {
+      "url": "https://query.openkim.org/",
+      "labels": [
+        "OpenKIM Query API"
+      ],
+      "origins": [
+        "Resource evidence"
       ]
     },
     {
@@ -9216,6 +9662,35 @@
       "url": "https://raw.githubusercontent.com/henniggroup/BETE-NET/56bc783908a60e8a15e31b60018e6f3c3e48f593/database.json",
       "labels": [
         "BETE-NET released data header"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/README",
+      "labels": [
+        "CompSC author README, corrected release"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/poscar.tgz",
+      "labels": [
+        "CompSC literature-curated conventional-superconductor structures and EPC parameters — data",
+        "CompSC released periodic structures"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/supercond_May23.csv",
+      "labels": [
+        "CompSC released CSV"
       ],
       "origins": [
         "Catalog evidence"
@@ -9512,6 +9987,36 @@
       ]
     },
     {
+      "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md",
+      "labels": [
+        "Stanev author missing-target convention",
+        "Upstream SuperCon missing-target convention"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/Supercon_data.csv",
+      "labels": [
+        "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark — upstream_csv",
+        "Stanev author CSV and JARVIS mirror audit"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://repository.nomad-coe.eu/",
+      "labels": [
+        "Novel Materials Discovery Laboratory Database (NOMAD)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://retrorules.org",
       "labels": [
         "RetroRules 2026",
@@ -9598,9 +10103,23 @@
       ]
     },
     {
+      "url": "https://srd.physics.ucsd.edu/",
+      "labels": [
+        "UCSD Superconducting Research Database",
+        "UCSD Superconducting Research Database (SRD)",
+        "UCSD Superconducting Research Database (Schuller group)"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://srdata.nist.gov/CeramicDataPortal/hit",
       "labels": [
         "IEEE-listed route: NIST legacy WebHTS portal",
+        "NIST High Temperature Superconducting Materials Database search portal",
         "NIST WebHTS search portal"
       ],
       "origins": [
@@ -9695,6 +10214,15 @@
       ]
     },
     {
+      "url": "https://supercon.nims.go.jp/en/",
+      "labels": [
+        "Super Conducting Material Database (SuperCon)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://support.ccdc.cam.ac.uk/support/solutions/articles/103000306361/",
       "labels": [
         "CCDC: Access Structures downloads"
@@ -9785,6 +10313,15 @@
       ]
     },
     {
+      "url": "https://ui.adsabs.harvard.edu/abs/2021APS..MARX61003G/abstract",
+      "labels": [
+        "Organic Superconductor Database conference abstract (ADS 2021APS..MARX61003G)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf",
       "labels": [
         "Archived Wikipedia List of Superconductors (IEEE-linked PDF)",
@@ -9793,6 +10330,18 @@
       "origins": [
         "Navigation resource",
         "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://webff-documentation.readthedocs.io/en/latest/Introduction.html",
+      "labels": [
+        "WebFF",
+        "WebFF Documentation — Introduction"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -9898,6 +10447,15 @@
       ],
       "origins": [
         "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://www.ccdc.cam.ac.uk/solutions/csd-system/components/csd",
+      "labels": [
+        "The Cambridge Structural Database (CSD)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -10253,6 +10811,17 @@
       ]
     },
     {
+      "url": "https://www.materialsweb.org/",
+      "labels": [
+        "Materials Web",
+        "MaterialsWeb direct access check"
+      ],
+      "origins": [
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://www.mdpi.com/2073-4352/12/7/919",
       "labels": [
         "A Database for Crystalline Organic Conductors and Superconductors"
@@ -10574,6 +11143,26 @@
       ]
     },
     {
+      "url": "https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs",
+      "labels": [
+        "Configurable Data Curation System (CDCS / MDCS)",
+        "NIST — About CDCS"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/itl/ssd/information-systems-group/configurable-data-curation-system-cdcs/about-cdcs",
+      "labels": [
+        "Configurable Data Curation System (CDCS)"
+      ],
+      "origins": [
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
       "url": "https://www.nist.gov/mgi",
       "labels": [
         "NIST Materials Genome Initiative (MGI)",
@@ -10582,6 +11171,19 @@
       "origins": [
         "JARVIS-Tools Notebooks",
         "sedaoturak/data-resources-for-materials-science"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/mgi/materials-data-resources",
+      "labels": [
+        "Materials Data Resources (NIST MGI)",
+        "NIST MGI Materials Data Resources",
+        "NIST — Materials Data Resources"
+      ],
+      "origins": [
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
       ]
     },
     {
@@ -10594,12 +11196,28 @@
       ]
     },
     {
-      "url": "https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20",
+      "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
       "labels": [
-        "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — paper"
+        "NIST 62 / NIST–NRIM superconductors Version 2.0 publication",
+        "NIST 62. NIST/NRIM High Temperature Superconductors Database: Version 2.0",
+        "NIST 62: NIST/NRIM High Temperature Superconductors Database Version 2.0"
       ],
       "origins": [
-        "Catalog official route"
+        "Catalog evidence",
+        "Navigation resource",
+        "Resource evidence",
+        "User-supplied materials resources (2026-11-01)"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20",
+      "labels": [
+        "NIST WebHTS / High Temperature Superconducting Materials Database (SRD 62) — paper",
+        "NIST WebHTS Version 2.0 publication (1999)"
+      ],
+      "origins": [
+        "Catalog official route",
+        "Resource evidence"
       ]
     },
     {

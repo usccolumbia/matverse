@@ -1,0 +1,86 @@
+[
+  {
+    "name": "UCSD Superconducting Research Database (Schuller group)",
+    "url": "https://srd.physics.ucsd.edu/",
+    "kind": "database_reference",
+    "description": "Community database of materials tested for superconductivity, inviting researchers to upload results to reduce redundant testing. Live endpoint returned server errors during verification; current material/test counts, positive/negative/untested status definitions, crystal-file availability, uploader authentication and license remain unverified. This UCSD project is separate from NIST SRD 62.",
+    "sources": [
+      {
+        "url": "https://ischuller.ucsd.edu/timeline-post/foundation-of-new-superconducting-research-database/",
+        "title": "Schuller group: Foundation of New Superconducting Research Database",
+        "evidence": "Project-owning UCSD group identifies the SRD as a database of materials tested for superconductivity and invites researcher uploads to avoid redundant experiments.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://ischuller.ucsd.edu/",
+        "title": "Schuller Nanoscience Group news archive",
+        "evidence": "Group news dates the database-foundation announcement to 13 March 2019.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srd.physics.ucsd.edu/",
+        "title": "UCSD Superconducting Research Database",
+        "evidence": "Search-indexed primary interface exposes Name, Structure and Transition filters; direct requests returned HTTP 500 or timed out on the verification date. No current count or public bulk payload was verified.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Tran et al. review: Superconductor Discovery in the Emerging Paradigm of Materials Informatics",
+    "url": "https://doi.org/10.1021/acs.chemmater.4c01757",
+    "kind": "literature_review",
+    "description": "2024 Chemistry of Materials review by Huan Tran, Hieu-Chi Dam, Christopher Kuenneth, Vu Ngoc Tuoc and Hiori Kino, 36(22), 10939–10966. Surveys computational hydrides and superconductivity informatics, including composition tables, structure matching, EPC computation and literature extraction. Used for discovery leads; current releases were checked at author repositories.",
+    "sources": [
+      {
+        "url": "https://pubs.acs.org/cmatex/article/36/22/10939/154808/Superconductor-Discovery-in-the-Emerging-Paradigm",
+        "title": "ACS published review",
+        "evidence": "Publisher-indexed page verifies title, five authors, pages, online publication 8 November 2024 and CC BY 4.0. Direct publisher requests returned 403.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1021/acs.chemmater.4c01757",
+        "title": "Crossref publisher-deposited review metadata",
+        "evidence": "Confirms DOI, title, authors, 2024-11-08 publication and CC BY 4.0 version-of-record license.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://arxiv.org/html/2510.25971v1",
+        "title": "Author-posted full review manuscript",
+        "evidence": "Full manuscript is accessible; arXiv posting dated 29 October 2025 identifies the 2024 journal article. Dataset table identifies CompSC and the Stanev subset as leads.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/huantd/matsdata/tree/main/papers/supercond_2024_01",
+        "title": "Author review figure data",
+        "evidence": "Author README identifies three CSV files for Figures 1, 3 and 15; these are figure-supporting files rather than a newly independent superconductor corpus.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIST 62 / NIST–NRIM superconductors Version 2.0 publication",
+    "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
+    "kind": "database_documentation",
+    "description": "R. G. Munro’s NIST publication page (16 October 2008) documents evaluated superconducting, thermal, mechanical and crystallographic properties from 1987–1996 literature. Treated as documentation of the already cataloged NIST SRD 62 / WebHTS database family; the page does not establish a separate downloadable corpus or new release denominator.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
+        "title": "NIST 62. NIST/NRIM High Temperature Superconductors Database: Version 2.0",
+        "evidence": "Primary NIST publication metadata identifies R. G. Munro, 2008-10-16, evaluated properties and 1987–1996 source literature; it supplies no entry count or distinct downloadable dataset.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/hit",
+        "title": "NIST High Temperature Superconducting Materials Database search portal",
+        "evidence": "Same portal explicitly calls itself WebHTS and NIST Standard Reference Database 62, cites DOI 10.18434/T4KP8J and states last data-content update 1996.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20",
+        "title": "NIST WebHTS Version 2.0 publication (1999)",
+        "evidence": "Begley and Munro’s 1999 page describes the same evaluated oxide-superconductor property families; separate publication dates do not establish independent dataset releases.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

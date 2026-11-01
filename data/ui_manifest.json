@@ -1,23 +1,24 @@
 {
   "catalog_date": "2026-11-01",
-  "dataset_records": 162,
-  "resources": 39,
-  "source_entries": 789,
-  "source_collections": 6,
+  "dataset_records": 164,
+  "resources": 51,
+  "source_entries": 821,
+  "source_collections": 7,
   "sha256": {
-    "data/datasets.json": "8dc77288a766c11454e941d0deb0fec6841216cd4ec344ed686aae92158eb5ed",
-    "data/resources.json": "05a3f22e61bda14749975288f868951401728889d88ed9b7d16dae8c34c99623",
-    "web/index.template.html": "cfd5af8a8db6aff13b02cf7c454066b4cea80289e18cbd2965a1e7f23226392f",
+    "data/datasets.json": "f9705b6d46d6c065ab4ac30c6f535e231da1c47467f238cd4e42dc6799d1c835",
+    "data/resources.json": "dfbc47182c328e5df5910e3d01c3195e6829ddc53d2fe5204641d46664480747",
+    "web/index.template.html": "a8a122ad7be4c88d61cb25bf865b366ca4eb30ce656e9e033760eef38cadd3fe",
     "web/styles.css": "b3eb0a11382c164837421aa9e53aa1a9a9aac2c2f460f53cb73ce8330c6c90df",
-    "web/app.js": "712e1013ce52ae213527c153cc93fc402ce81367f424644457946d776260345a",
+    "web/app.js": "0b3e97e49e486f50dc85705de1b1b108b27ea537d76b8a86ab2472df5841bca8",
     "scripts/collection_inventory.py": "6a2e4e0161b2bb00f052cfbec3725d00b40f89f972766f7843b59377780314d6",
     "research/collection_blaiszik.json": "a31eea035404648c58874f5f95c1c16fdecbbb2c5dde9533911ca123d3bc98eb",
     "research/collection_jarvis_notebooks.json": "fdf8858af8517d8fdb5b05f1d18df8135e83fc1975becd831c5f91b31f4f7d46",
     "research/collection_mastml.json": "99babb75920f3f47c91ae183296e4cec8a1161a52adfc9c7745ce3e1d6e971a6",
     "research/collection_nanohub_mllab.json": "239e3802d47dd3d4db1b722bd01ed53038bfe8740da6f4e0d4a7ae90cf407b36",
     "research/collection_remi.json": "6d778f961f8e3177053361e1e9a3a764fa4f2dad6503b030b2c292fe9571d923",
-    "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5"
+    "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5",
+    "research/collection_user_resources_20261101.json": "9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47"
   },
-  "index_sha256": "cbccacdcb0652ce9297ab2a676122690d9e25256ce75cafa3d1f9e97da5546f4",
+  "index_sha256": "4dcce087858f1b33dc5114320e956ea34eaee439c56b2e225f5dc80fca2a9faf",
   "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
 }

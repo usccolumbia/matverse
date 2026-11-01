@@ -6,14 +6,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 | Resource | Role | Description |
 |---|---|---|
+| [WebFF](https://webff-documentation.readthedocs.io/en/latest/Introduction.html) | adjacent force-field repository and curation infrastructure | Documented repository for molecular-dynamics force-field parameters for organic and soft materials, using XML schemas and NIST curation infrastructure. Documentation describes public search/download and authorized-account curation. The documentation was reachable, but the live webff.nist.gov data portal could not be confirmed in this audit. Force-field parameterizations are not crystal datasets; a blanket data license was not verified. |
+| [Polymer Property Predictor and Database (PPPDB)](https://pppdb.uchicago.edu/) | adjacent polymer phase-property database and tools | CHiMaD-associated polymer data and prediction tools covering Flory–Huggins interaction parameters, glass-transition temperatures and cloud points, with phase-diagram and structure-factor applications. Public property tables were accessible without signing in. Periodic atomic structures and a database-wide reuse license were not verified. |
+| [Polymer Properties Database (PolymerDatabase.com)](https://polymerdatabase.com/home.html) | adjacent polymer reference (availability limited) | User-nominated polymer reference endpoint retained for discovery provenance. The requested page and HTTP, root-domain and www variants returned a hosting-provider page saying the site is temporarily unavailable, rather than polymer data, on the audit date. Original content, registration conditions and data licensing could not be verified; this observation is not a formal end-of-service claim. |
+| [PoLyInfo](https://polymer.nims.go.jp/) | adjacent polymer-property database | NIMS literature-derived polymer properties with chemical constitutive structures, sample, preparation and measurement information. Chemical polymer structures do not imply periodic atomic crystal structures. Access requires DICE registration, an eligible email domain and a MatNavi usage application; bulk acquisition and scraping are prohibited, and redistribution requires written NIMS permission. A separate paid-dataset route is advertised. |
 | [Battery Archive](https://batteryarchive.org/) | adjacent_experimental_data_portal | Cross-institution battery cycling and disruptive-test data; cell-performance resource adjacent to crystal datasets. Full CSV files requested by email. |
 | [Archived Wikipedia List of Superconductors (IEEE-linked PDF)](https://webdisk.science.upjs.sk/~martin_gmitra/Theory%20of%20Condensed%20Matter/Supporting%20Materials/11/List_of_superconductors_wikipedia.pdf) | archived reference list | IEEE-linked historical list hosted on an academic website. It is retained as a source-navigation route; currency, row count and independent validation were not established, so it is not ranked as a new dataset. |
 | [Matbench v0.1 suite](https://matbench.materialsproject.org/) | benchmark suite | Thirteen property-prediction tasks from ten underlying sources; includes both composition-only and structure inputs. The catalogue groups shared structure cohorts and does not sum tasks as unique crystals. |
 | [SpringerMaterials](https://materials.springer.com/) | commercial_database_portal | Commercial curated materials-property platform covering several source collections. |
 | [IEEE CSC Superconductor Properties Wiki](https://wiki.ieeecsc.org/) | community property-reference wiki | Community-maintained superconducting parameters with literature citations, including Tc, Jc, critical fields, specific heat, gap and structure parameters. IEEE advertises thousands of materials; an independently verified record count, data export and dataset-wide license were not established. IEEE states that it verifies publication provenance rather than entry accuracy. |
 | [LeMat-GenBench](https://github.com/LeMaterial/lemat-genbench) | crystal-generation evaluation framework | Evaluates generated crystals using validity, distribution, diversity, novelty, and stability metrics with multi-MLIP/hull configurations; its reference datasets overlap LeMat-Bulk. Framework code is Apache licensed; not an additional crystal count. |
-| [Materials Data Facility / Foundry](https://www.materialsdatafacility.org/) | data_repository | Materials-data publication, discovery and access services; Foundry provides programmatic loading of ML-ready deposits. |
 | [NIST Materials Data Repository](https://materialsdata.nist.gov/) | data_repository | Materials research deposits from NIST and the wider community; terms are defined per provider and collection. |
+| [NIST 62 / NIST–NRIM superconductors Version 2.0 publication](https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20) | database documentation | R. G. Munro’s NIST publication page (16 October 2008) documents evaluated superconducting, thermal, mechanical and crystallographic properties from 1987–1996 literature. Treated as documentation of the already cataloged NIST SRD 62 / WebHTS database family; the page does not establish a separate downloadable corpus or new release denominator. |
+| [Computational Materials Repository (CMR)](https://cmr.fysik.dtu.dk/) | database portal | DTU portal for project-specific ASE databases spanning low-dimensional materials, bulk crystals, perovskites, surfaces and related benchmarks. Provides project documentation, browser routes, downloadable databases and an OPTIMADE route. Provider states CMR databases use CC BY-SA 4.0. Portal totals are not an additional crystal dataset. |
+| [Organic Materials Database (OMDB)](https://omdb.mathub.io/) | database portal | Electronic and magnetic information portal for periodic organic and organometallic crystals, including band structures, DOS and magnetic-excitation tools. Named downloads distinguish DFT-labelled OMDB-GAP1 from COD model predictions. Public browsing is limited and named downloads currently redirect to free-registration login; a current full-family count and dataset-wide reuse license were not verified. |
+| [UCSD Superconducting Research Database (Schuller group)](https://srd.physics.ucsd.edu/) | database reference | Community database of materials tested for superconductivity, inviting researchers to upload results to reduce redundant testing. Live endpoint returned server errors during verification; current material/test counts, positive/negative/untested status definitions, crystal-file availability, uploader authentication and license remain unverified. This UCSD project is separate from NIST SRD 62. |
 | [Catalysis-Hub / CatHub](https://www.catalysis-hub.org/) | database_portal | Open surface-reaction collection with geometries, reaction energies and linked calculations; primary 2019 descriptor reported >100,000 adsorption/reaction energies, which is a historical property count rather than a current count of unique materials. |
 | [Digital Catalysis Platform (DigCat)](https://www.digcat.org/) | database_portal | Experimental-performance and computational-structure platform. Provider page currently reports >0.4M experimental and >0.4M computational records; a 2024 author preprint reports >400k performance records and >300k structures. Counts are version-dependent and not a unique-material ranking; bulk data license not verified. |
 | [MOFX-DB](https://mof.tech.northwestern.edu/) | database_portal | Adsorption-data portal aggregating experimental and hypothetical MOFs, COFs and zeolites. Source datasets overlap CoRE, hMOF, ToBaCCo and IZA; portal totals are not additional unique structures. |
@@ -32,16 +39,21 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 | [Roberts Properties of Selected Superconductive Materials, 1978 Supplement](https://doi.org/10.6028/NBS.TN.983) | historical reference supplement | NBS Technical Note 983 supplements the earlier survey with literature through fall 1977, including Tc, critical fields, crystal structure and negative experiments. No independent structure or sample total is inferred from this publication. |
 | [REMI: REsource for Materials Informatics](https://pages.nist.gov/remi/) | instructional resource and dataset directory | NIST pre-alpha notebook/resource index with tagged tutorials, learning resources and directly linked experimental combinatorial libraries. Owning GitHub repository is archived; directory entries are not additive datasets. |
 | [nanoHUB Machine Learning Lab Module](https://nanohub.org/tools/intromllab) | interactive educational module | Version1.7 introductory materials-ML notebook and teaching module. Public descriptions/supporting-document list are readable; running the tool requires login. Program license is GPL3-or-later; example-data rights require separate checking. |
+| [OpenKIM](https://openkim.org/) | interatomic-model archive and testing infrastructure | Versioned archive of physics-based and machine-learning interatomic potentials, with model verification, property tests, simulation interfaces and a public query API. Crystal Genome organizes model-generated crystal-property predictions. Models and their test results must not be counted as independent experimentally measured or DFT-labeled crystals; an archive-wide data license was not verified. |
 | [OPTIMADE](https://www.optimade.org/) | interoperability API | Common API specification for querying structure providers; a federation/interface, not an additional independent dataset. |
 | [Scientific Data materials Data Descriptors](https://www.nature.com/sdata/collections?page=3&type=collection) | journal_collection | Journal descriptors are discovery/provenance documents; linked external repositories hold the actual data. |
+| [MaterialsWeb](https://materialsweb.org/) | legacy database portal | Hennig-group portal historically covering calculated 2D materials, bulk materials and computational benchmarks. Author paper released an 826-monolayer cohort in 2017. Current host failed TLS access in the 2026-11-01 audit, so live browsing, bulk downloads, current totals and data reuse rights remain unverified. |
 | [CatApp](https://cmr.fysik.dtu.dk/catapp/catapp.html) | legacy_property_database | Legacy reaction/activation-energy table for elementary surface reactions. The ~3,000-reaction scale is historical; CatApp does not supply detailed atomic geometries, so it is a navigation/property resource. |
+| [Tran et al. review: Superconductor Discovery in the Emerging Paradigm of Materials Informatics](https://doi.org/10.1021/acs.chemmater.4c01757) | literature review | 2024 Chemistry of Materials review by Huan Tran, Hieu-Chi Dam, Christopher Kuenneth, Vu Ngoc Tuoc and Hiori Kino, 36(22), 10939–10966. Surveys computational hydrides and superconductivity informatics, including composition tables, structure matching, EPC computation and literature extraction. Used for discovery leads; current releases were checked at author repositories. |
 | [CERN STEAM Materials Library (SMaLi)](https://steam.docs.cern.ch/libraries/materials/) | material-property model library | Collection of coded material-property functions for superconducting-magnet engineering, with C implementations and wrappers for Python, MATLAB, GetDP and COMSOL. Documentation includes HTS/LTS critical-current-density models. This is a model/software library, not a counted experimental crystal database. |
+| [Materials Data Facility / Foundry](https://www.materialsdatafacility.org/) | materials repository and data-access platform | Materials-data publication and discovery services, with Foundry providing programmatic search and loading of machine-learning-ready deposits. Access and reuse conditions must be checked per deposit. Collection, file and record totals must not be summed as unique crystals. This is the canonical merged resource for the duplicate Materials Data Facility entries. |
+| [NIST MGI Materials Data Resources](https://www.nist.gov/mgi/materials-data-resources) | materials resource directory | NIST directory of materials repositories, registries, schemas, phase-data resources and atomistic-potential services. It is a discovery resource, not an additional crystal dataset; access and reuse terms belong to each linked provider. Its Materials Resource Registry link currently redirects to the MGI landing page. |
 | [MatterSim training data availability](https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md) | model and availability reference | Public model cards describe training data sizes and released checkpoints. This survey did not verify a complete public training-data download, so checkpoint sizes are not ranked as datasets. |
 | [SCLib / JZIS superconducting-transition records](https://jzis.org/materials) | model-curated literature-data portal | Additional primary-source lead outside the IEEE list. Public snapshot reports 13,282 transition results from 6,122 papers, with sample/criterion/condition provenance and CSV downloads. Model checks and sampled-batch checks are not individual expert validation. Project-created data use CC BY 4.0, while upstream-source terms remain applicable; no independent crystal count is claimed here. |
 | [AFLOW AEL/AGL thermomechanical property libraries](https://aflow.org/documentation/) | property-library access resource | Distinct AFLOW workflows exposing elastic tensors/moduli and Debye/thermal estimates through AFLUX. Current property-bearing cohort sizes were not verified; no independent current materials count is claimed. |
 | [Materials Cloud Archive](https://archive.materialscloud.org/) | repository platform | Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license. |
-| [Materials Data Facility](https://materialsdatafacility.org/) | repository platform | Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals. |
 | [NOMAD Repository and Archive](https://nomad-lab.eu/) | repository platform | Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals. |
+| [Configurable Data Curation System (CDCS / MDCS)](https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs) | scientific data curation software infrastructure | NIST software infrastructure for schema-based capture, sharing, transformation and federated discovery of structured scientific data. Materials Data Curation System is a materials-oriented implementation. It is not a standalone dataset: deployment-specific access and data terms apply. The software carries the NIST Software Licensing Statement, with separate third-party terms. |
 | [IEEE CSC Superconductor Databases & Resources](https://ieeecsc.org/learning-hub/superconductor-databases-resources) | subject-resource directory | Navigation directory linking the CSC wiki, UCI, NIST reference sources, OSD, existing MP/NIMS resources, Robinson wire data and CERN materials models. Its thirteen scientific routes are not thirteen independent datasets. |
 | [JARVIS-Tools Notebooks](https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks) | tools and notebook collection | Archived tutorial repository for electronic structure, force fields, AI and experiments; directs continued development to atomgptlab/jarvis-tools-notebooks. Inventoried README links are navigation resources, not extra dataset counts. |
 | [MatterGen MP-20 reprocessed release](https://github.com/microsoft/mattergen/tree/main/data-release/mp-20) | versioned benchmark derivative | PBE-recomputed and element-filtered MP-20 derivative with its own distributed files; keep separate provenance from CDVAE MP-20. Exact file-row count was not verified, so not added as an independently sized dataset. |
@@ -81,6 +93,17 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### ColabFit Exchange
 
 - [ColabFit Exchange](https://materials.colabfit.org/) (2026-11-01): Searchable atomistic datasets and standardized configurations; tracks separate property and configuration identifiers, including mixed molecular and periodic domains.
+
+### Computational Materials Repository (CMR)
+
+- [CMR official portal](https://cmr.fysik.dtu.dk/) (2026-11-01): Defines each project as an ASE database with a project page and browse/download access; links an OPTIMADE endpoint and states all CMR databases are CC BY-SA 4.0.
+- [2DHub official portal](https://2dhub.org/) (2026-11-01): Current home for C2DB and related 2D databases, links back to CMR; these named datasets are already separate catalog records.
+
+### Configurable Data Curation System (CDCS / MDCS)
+
+- [NIST — About CDCS](https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs) (2026-11-01): Describes XML-schema-driven data capture, curation and transformation, document storage and federation across curation instances; the user-supplied older organizational path resolves here.
+- [NIST — Materials Data Curation System source repository](https://github.com/usnistgov/MDCS) (2026-11-01): Provides the materials implementation and describes schema-generated forms, REST retrieval, document storage and federated search.
+- [MDCS — NIST Software Licensing Statement](https://github.com/usnistgov/MDCS/blob/develop/LICENSE.md) (2026-11-01): Permits use, modification and distribution subject to retaining the notice, marking changes and acknowledging NIST; third-party components have separate terms.
 
 ### Data Resources for Materials Science
 
@@ -145,14 +168,17 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [Materials Cloud Archive](https://archive.materialscloud.org/) (2026-11-01): Versioned dataset deposits with DOI records, files and, for selected datasets, AiiDA provenance graphs. Each deposit needs its own count and license.
 
-### Materials Data Facility
-
-- [Materials Data Facility](https://materialsdatafacility.org/) (2026-11-01): Materials-data publication and discovery infrastructure. Collection-level counts must not be summed as unique crystals.
-
 ### Materials Data Facility / Foundry
 
-- [Materials Data Facility](https://www.materialsdatafacility.org/) (2026-11-01): Describes discovery services and Foundry dataset loading.
-- [MDF publishing/discovering guides](https://connect.materialsdatafacility.org/how-to) (2026-11-01): Explains data publishing and supported source locations.
+- [Materials Data Facility](https://www.materialsdatafacility.org/) (2026-11-01): Describes publication and discovery services and links Foundry. The non-www domain redirects here; both supplied routes returned the same final response body.
+- [Foundry — official source repository](https://github.com/MLMI2-CSSI/foundry) (2026-11-01): Documents the Python client for searching, loading and obtaining schemas and citations for machine-learning-ready data, integrated with Materials Data Facility.
+- [MDF publishing and discovery guides](https://connect.materialsdatafacility.org/how-to) (2026-11-01): Retained from the existing catalog record as its original guide route; this supplement independently verified the homepage and Foundry source repository.
+
+### MaterialsWeb
+
+- [Hennig Materials Theory Lab resources](https://hennig.mse.ufl.edu/resources/) (2026-11-01): Provider lab explicitly links MaterialsWeb routes for 2D and bulk materials.
+- [Topology-Scaling Identification of Layered Solids and Stable Exfoliated 2D Materials](https://arxiv.org/abs/1610.07673) (2026-11-01): Author paper identifies 826 monolayers and says optimized structures and related data were provided at MaterialsWeb; this is a historical paper cohort.
+- [MaterialsWeb direct access check](https://www.materialsweb.org/) (2026-11-01): Requested HTTPS host could not be fetched by the web tool; independent standard urllib access reported a TLS unrecognized-name failure for www and bare host.
 
 ### matminer dataset collection
 
@@ -185,17 +211,56 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 
 - [NIMS MatNavi](https://mits.nims.go.jp/en/) (2026-11-01): Describes component databases, registration and prohibition of mass data acquisition.
 
+### NIST 62 / NIST–NRIM superconductors Version 2.0 publication
+
+- [NIST 62. NIST/NRIM High Temperature Superconductors Database: Version 2.0](https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20) (2026-11-01): Primary NIST publication metadata identifies R. G. Munro, 2008-10-16, evaluated properties and 1987–1996 source literature; it supplies no entry count or distinct downloadable dataset.
+- [NIST High Temperature Superconducting Materials Database search portal](https://srdata.nist.gov/CeramicDataPortal/hit) (2026-11-01): Same portal explicitly calls itself WebHTS and NIST Standard Reference Database 62, cites DOI 10.18434/T4KP8J and states last data-content update 1996.
+- [NIST WebHTS Version 2.0 publication (1999)](https://www.nist.gov/publications/nist-www-high-temperature-superconducting-materials-database-webhts-version-20) (2026-11-01): Begley and Munro’s 1999 page describes the same evaluated oxide-superconductor property families; separate publication dates do not establish independent dataset releases.
+
 ### NIST Materials Data Repository
 
 - [NIST Materials Data Repository](https://materialsdata.nist.gov/) (2026-11-01): Public searchable materials repository; individual providers define data-use terms and review status varies.
+
+### NIST MGI Materials Data Resources
+
+- [NIST — Materials Data Resources](https://www.nist.gov/mgi/materials-data-resources) (2026-11-01): Lists general repositories and registries, schemas, phase-based resources and an interatomic-potential repository, with separate descriptions and destinations.
+- [NIST Materials Resource Registry route](https://materials.registry.nist.gov/) (2026-11-01): The published registry endpoint resolved to https://www.nist.gov/mgi during this audit; this redirect does not establish formal end of service.
 
 ### NOMAD Repository and Archive
 
 - [NOMAD Repository and Archive](https://cloud.nomad-lab.eu/nomad-lab/) (2026-11-01): Code-agnostic raw and normalized computational and experimental archives. Provider snapshot reports 19,425,275 entries and 4,346,100 represented materials; these heterogeneous counters are not a count of unique bulk crystals.
 
+### OpenKIM
+
+- [OpenKIM — About](https://openkim.org/about/) (2026-11-01): Describes the curated interatomic-potential archive, versioning and DOIs, KIM API, verification checks, and Crystal Genome property predictions using archived potentials.
+- [OpenKIM Query API](https://query.openkim.org/) (2026-11-01): Documents public queries over model, test and associated result records; these are different record types rather than a unique-crystal census.
+- [OpenKIM — Obtaining Models](https://openkim.org/doc/usage/obtaining-models/) (2026-11-01): Provides public instructions for obtaining archived models, including package and source distribution routes.
+
 ### OPTIMADE
 
 - [OPTIMADE](https://www.optimade.org/) (2026-11-01): Common API specification for querying structure providers; a federation/interface, not an additional independent dataset.
+
+### Organic Materials Database (OMDB)
+
+- [OMDB provider description](https://omdb.mathub.io/page/about) (2026-11-01): Describes an organic/organometallic electronic-structure database with DFT and advanced query tools.
+- [OMDB named data releases](https://omdb.mathub.io/dataset/) (2026-11-01): Lists the 12,500-material OMDB-GAP1 and 260,092-material COD prediction releases as distinct products.
+- [OMDB terms](https://omdb.mathub.io/page/terms) (2026-11-01): Terms mention access quotas but do not identify a general data reuse license.
+- [OMDB public materials browser](https://omdb.mathub.io/material) (2026-11-01): Anonymous browser explicitly limits visible data and offers free registration; the page-local displayed totals are not adopted as a full-family count.
+
+### PoLyInfo
+
+- [NIMS — PoLyInfo](https://polymer.nims.go.jp/) (2026-11-01): Describes polymer property and sample information; states account/application conditions, restrictions on mass acquisition and scraping, permission requirements for redistribution, and a fee-based dataset service.
+
+### Polymer Properties Database (PolymerDatabase.com)
+
+- [PolymerDatabase.com — current endpoint availability](https://polymerdatabase.com/home.html) (2026-11-01): HTTP 200 response contained an iPage hosting-provider temporary-unavailability page; HTTP and HTTPS/root/www variants returned the same response body.
+
+### Polymer Property Predictor and Database (PPPDB)
+
+- [PPPDB — Polymer Property Predictor and Database](https://pppdb.uchicago.edu/) (2026-11-01): Links polymer property databases and phase-diagram, random-phase structure-factor and cloud-point prediction applications; the HTTP endpoint upgrades to HTTPS.
+- [PPPDB — Flory–Huggins Interaction Parameter Database](https://pppdb.uchicago.edu/chi) (2026-11-01): The public table presents polymer-pair interaction parameters, temperatures and literature references.
+- [PPPDB — Glass Transition Temperature Database](https://pppdb.uchicago.edu/tg) (2026-11-01): A public table of polymer glass-transition data was accessible during the audit.
+- [PPPDB — Cloud Point Database](https://pppdb.uchicago.edu/cloud_points) (2026-11-01): A public cloud-point data table was accessible during the audit.
 
 ### REMI: REsource for Materials Informatics
 
@@ -229,3 +294,20 @@ These resources are navigation layers, collections, APIs, format mirrors or adja
 ### SpringerMaterials
 
 - [SpringerMaterials publisher overview](https://www.springernature.com/gp/librarians/products/databases-solutions/springermaterials) (2026-11-01): Curated properties, figures and graphs platform.
+
+### Tran et al. review: Superconductor Discovery in the Emerging Paradigm of Materials Informatics
+
+- [ACS published review](https://pubs.acs.org/cmatex/article/36/22/10939/154808/Superconductor-Discovery-in-the-Emerging-Paradigm) (2026-11-01): Publisher-indexed page verifies title, five authors, pages, online publication 8 November 2024 and CC BY 4.0. Direct publisher requests returned 403.
+- [Crossref publisher-deposited review metadata](https://api.crossref.org/works/10.1021/acs.chemmater.4c01757) (2026-11-01): Confirms DOI, title, authors, 2024-11-08 publication and CC BY 4.0 version-of-record license.
+- [Author-posted full review manuscript](https://arxiv.org/html/2510.25971v1) (2026-11-01): Full manuscript is accessible; arXiv posting dated 29 October 2025 identifies the 2024 journal article. Dataset table identifies CompSC and the Stanev subset as leads.
+- [Author review figure data](https://github.com/huantd/matsdata/tree/main/papers/supercond_2024_01) (2026-11-01): Author README identifies three CSV files for Figures 1, 3 and 15; these are figure-supporting files rather than a newly independent superconductor corpus.
+
+### UCSD Superconducting Research Database (Schuller group)
+
+- [Schuller group: Foundation of New Superconducting Research Database](https://ischuller.ucsd.edu/timeline-post/foundation-of-new-superconducting-research-database/) (2026-11-01): Project-owning UCSD group identifies the SRD as a database of materials tested for superconductivity and invites researcher uploads to avoid redundant experiments.
+- [Schuller Nanoscience Group news archive](https://ischuller.ucsd.edu/) (2026-11-01): Group news dates the database-foundation announcement to 13 March 2019.
+- [UCSD Superconducting Research Database](https://srd.physics.ucsd.edu/) (2026-11-01): Search-indexed primary interface exposes Name, Structure and Transition filters; direct requests returned HTTP 500 or timed out on the verification date. No current count or public bulk payload was verified.
+
+### WebFF
+
+- [WebFF Documentation — Introduction](https://webff-documentation.readthedocs.io/en/latest/Introduction.html) (2026-11-01): Describes the force-field repository, organic/soft-material scope, XML provenance, exploration/download route and account-controlled curation route.

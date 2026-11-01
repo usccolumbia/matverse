@@ -94,7 +94,7 @@ Open Quantum Materials Database of DFT thermodynamic and structural properties.
 - Count verified in provider search-index content; direct HTTP fetch returned 502 during this audit.
 - Predominantly computed entries, including prototype decorations; not a count of experimental discoveries.
 
-**Tags:** None assigned.
+**Tags:** OQDM (user-listed spelling).
 
 <a id="gnome"></a>
 ## GNoME released stable-materials set

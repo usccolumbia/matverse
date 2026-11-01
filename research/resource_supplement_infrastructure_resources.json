@@ -1,0 +1,148 @@
+[
+  {
+    "name": "NIST MGI Materials Data Resources",
+    "url": "https://www.nist.gov/mgi/materials-data-resources",
+    "kind": "materials resource directory",
+    "description": "NIST directory of materials repositories, registries, schemas, phase-data resources and atomistic-potential services. It is a discovery resource, not an additional crystal dataset; access and reuse terms belong to each linked provider. Its Materials Resource Registry link currently redirects to the MGI landing page.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/mgi/materials-data-resources",
+        "title": "NIST — Materials Data Resources",
+        "evidence": "Lists general repositories and registries, schemas, phase-based resources and an interatomic-potential repository, with separate descriptions and destinations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://materials.registry.nist.gov/",
+        "title": "NIST Materials Resource Registry route",
+        "evidence": "The published registry endpoint resolved to https://www.nist.gov/mgi during this audit; this redirect does not establish formal end of service.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "OpenKIM",
+    "url": "https://openkim.org/",
+    "kind": "interatomic-model archive and testing infrastructure",
+    "description": "Versioned archive of physics-based and machine-learning interatomic potentials, with model verification, property tests, simulation interfaces and a public query API. Crystal Genome organizes model-generated crystal-property predictions. Models and their test results must not be counted as independent experimentally measured or DFT-labeled crystals; an archive-wide data license was not verified.",
+    "sources": [
+      {
+        "url": "https://openkim.org/about/",
+        "title": "OpenKIM — About",
+        "evidence": "Describes the curated interatomic-potential archive, versioning and DOIs, KIM API, verification checks, and Crystal Genome property predictions using archived potentials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://query.openkim.org/",
+        "title": "OpenKIM Query API",
+        "evidence": "Documents public queries over model, test and associated result records; these are different record types rather than a unique-crystal census.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://openkim.org/doc/usage/obtaining-models/",
+        "title": "OpenKIM — Obtaining Models",
+        "evidence": "Provides public instructions for obtaining archived models, including package and source distribution routes.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "PoLyInfo",
+    "url": "https://polymer.nims.go.jp/",
+    "kind": "adjacent polymer-property database",
+    "description": "NIMS literature-derived polymer properties with chemical constitutive structures, sample, preparation and measurement information. Chemical polymer structures do not imply periodic atomic crystal structures. Access requires DICE registration, an eligible email domain and a MatNavi usage application; bulk acquisition and scraping are prohibited, and redistribution requires written NIMS permission. A separate paid-dataset route is advertised.",
+    "sources": [
+      {
+        "url": "https://polymer.nims.go.jp/",
+        "title": "NIMS — PoLyInfo",
+        "evidence": "Describes polymer property and sample information; states account/application conditions, restrictions on mass acquisition and scraping, permission requirements for redistribution, and a fee-based dataset service.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Polymer Property Predictor and Database (PPPDB)",
+    "url": "https://pppdb.uchicago.edu/",
+    "kind": "adjacent polymer phase-property database and tools",
+    "description": "CHiMaD-associated polymer data and prediction tools covering Flory–Huggins interaction parameters, glass-transition temperatures and cloud points, with phase-diagram and structure-factor applications. Public property tables were accessible without signing in. Periodic atomic structures and a database-wide reuse license were not verified.",
+    "sources": [
+      {
+        "url": "https://pppdb.uchicago.edu/",
+        "title": "PPPDB — Polymer Property Predictor and Database",
+        "evidence": "Links polymer property databases and phase-diagram, random-phase structure-factor and cloud-point prediction applications; the HTTP endpoint upgrades to HTTPS.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pppdb.uchicago.edu/chi",
+        "title": "PPPDB — Flory–Huggins Interaction Parameter Database",
+        "evidence": "The public table presents polymer-pair interaction parameters, temperatures and literature references.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pppdb.uchicago.edu/tg",
+        "title": "PPPDB — Glass Transition Temperature Database",
+        "evidence": "A public table of polymer glass-transition data was accessible during the audit.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pppdb.uchicago.edu/cloud_points",
+        "title": "PPPDB — Cloud Point Database",
+        "evidence": "A public cloud-point data table was accessible during the audit.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "WebFF",
+    "url": "https://webff-documentation.readthedocs.io/en/latest/Introduction.html",
+    "kind": "adjacent force-field repository and curation infrastructure",
+    "description": "Documented repository for molecular-dynamics force-field parameters for organic and soft materials, using XML schemas and NIST curation infrastructure. Documentation describes public search/download and authorized-account curation. The documentation was reachable, but the live webff.nist.gov data portal could not be confirmed in this audit. Force-field parameterizations are not crystal datasets; a blanket data license was not verified.",
+    "sources": [
+      {
+        "url": "https://webff-documentation.readthedocs.io/en/latest/Introduction.html",
+        "title": "WebFF Documentation — Introduction",
+        "evidence": "Describes the force-field repository, organic/soft-material scope, XML provenance, exploration/download route and account-controlled curation route.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Configurable Data Curation System (CDCS / MDCS)",
+    "url": "https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs",
+    "kind": "scientific data curation software infrastructure",
+    "description": "NIST software infrastructure for schema-based capture, sharing, transformation and federated discovery of structured scientific data. Materials Data Curation System is a materials-oriented implementation. It is not a standalone dataset: deployment-specific access and data terms apply. The software carries the NIST Software Licensing Statement, with separate third-party terms.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs",
+        "title": "NIST — About CDCS",
+        "evidence": "Describes XML-schema-driven data capture, curation and transformation, document storage and federation across curation instances; the user-supplied older organizational path resolves here.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/usnistgov/MDCS",
+        "title": "NIST — Materials Data Curation System source repository",
+        "evidence": "Provides the materials implementation and describes schema-generated forms, REST retrieval, document storage and federated search.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/usnistgov/MDCS/blob/develop/LICENSE.md",
+        "title": "MDCS — NIST Software Licensing Statement",
+        "evidence": "Permits use, modification and distribution subject to retaining the notice, marking changes and acknowledging NIST; third-party components have separate terms.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Polymer Properties Database (PolymerDatabase.com)",
+    "url": "https://polymerdatabase.com/home.html",
+    "kind": "adjacent polymer reference (availability limited)",
+    "description": "User-nominated polymer reference endpoint retained for discovery provenance. The requested page and HTTP, root-domain and www variants returned a hosting-provider page saying the site is temporarily unavailable, rather than polymer data, on the audit date. Original content, registration conditions and data licensing could not be verified; this observation is not a formal end-of-service claim.",
+    "sources": [
+      {
+        "url": "https://polymerdatabase.com/home.html",
+        "title": "PolymerDatabase.com — current endpoint availability",
+        "evidence": "HTTP 200 response contained an iPage hosting-provider temporary-unavailability page; HTTP and HTTPS/root/www variants returned the same response body.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

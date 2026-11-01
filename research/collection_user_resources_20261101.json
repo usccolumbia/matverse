@@ -1,0 +1,422 @@
+{
+  "repository": "User-supplied materials resources (2026-11-01)",
+  "url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+  "revision": "User request received 2026-11-01; distinct original URLs preserved",
+  "retrieved_date": "2026-11-01",
+  "input_link_occurrences": 34,
+  "links": [
+    {
+      "label": "Materials Data Resources (NIST MGI)",
+      "url": "https://www.nist.gov/mgi/materials-data-resources",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://www.nist.gov/mgi/materials-data-resources"
+      ],
+      "treatment": "New resource",
+      "note": "Directory includes registries, repositories and schemas. The registry endpoint currently redirects to the MGI page."
+    },
+    {
+      "label": "The Materials Data Facility (MDF)",
+      "url": "https://materialsdatafacility.org/",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://www.materialsdatafacility.org/"
+      ],
+      "treatment": "Merged existing resource",
+      "note": "Bare and www MDF domains identify one service. Foundry functionality and both source routes are preserved."
+    },
+    {
+      "label": "Inorganic Crystal Structures Database (ICSD)",
+      "url": "https://icsd.fiz-karlsruhe.de/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "icsd"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset; legacy login route",
+      "note": "Retained the verified release count; user-provided 159,000 is a historical lower figure, not a current replacement."
+    },
+    {
+      "label": "Crystallography Open Database (COD)",
+      "url": "http://crystallography.net/cod/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "cod"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset",
+      "note": "Original HTTP URL is preserved; current provider and version-specific count remain in the dataset card."
+    },
+    {
+      "label": "The Cambridge Structural Database (CSD)",
+      "url": "https://www.ccdc.cam.ac.uk/solutions/csd-system/components/csd",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "csd"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset; redirect",
+      "note": "Old component URL redirects to the current CSD product page. Individual retrieval and licensed bulk use differ."
+    },
+    {
+      "label": "Automatic Flow for Materials Discovery (AFLOW)",
+      "url": "http://aflowlib.org/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "aflow"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset; alias",
+      "note": "AFLOWlib and AFLOW homepages returned identical responses. They do not count as two repositories."
+    },
+    {
+      "label": "Materials Project (MP)",
+      "url": "https://materialsproject.org/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "materials-project"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset",
+      "note": "Retained the documented release size; the supplied 120K description is historical."
+    },
+    {
+      "label": "Open Quantum Materials Database (OQDM; official abbreviation OQMD)",
+      "url": "http://oqmd.org/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "oqmd"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset; spelling correction",
+      "note": "Official abbreviation is OQMD. The supplied OQDM spelling is retained as a search alias."
+    },
+    {
+      "label": "Computational Materials Repository (CMR)",
+      "url": "https://cmr.fysik.dtu.dk/",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://cmr.fysik.dtu.dk/"
+      ],
+      "treatment": "New portal resource",
+      "note": "Project ASE databases and downloads; named 2DHub children overlap existing catalog entries."
+    },
+    {
+      "label": "Organic Materials Database (OMDB)",
+      "url": "https://omdb.mathub.io/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "omdb-gap1",
+        "omdb-cod-bandgap-predictions"
+      ],
+      "resource_urls": [
+        "https://omdb.mathub.io/"
+      ],
+      "treatment": "Updated access; new prediction release",
+      "note": "12,500 DFT training structures and 260,092 COD model predictions are distinct cohorts. Downloads require registration."
+    },
+    {
+      "label": "Materials Web",
+      "url": "https://www.materialsweb.org/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://materialsweb.org/"
+      ],
+      "treatment": "New legacy portal resource",
+      "note": "Historical 2D/bulk resource; current TLS access failed. A new downloadable corpus/count was not inferred."
+    },
+    {
+      "label": "JARVIS-DFT legacy route",
+      "url": "http://www.ctcms.nist.gov/~knc6/JVASP.html",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "jarvis-dft-3d",
+        "jarvis-2d"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing datasets; legacy route",
+      "note": "Old JVASP page leads toward a login front end. Separately verified public bulk releases remain distinct."
+    },
+    {
+      "label": "Novel Materials Discovery Laboratory Database (NOMAD)",
+      "url": "https://repository.nomad-coe.eu/",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://nomad-lab.eu/"
+      ],
+      "treatment": "Existing portal; redirect",
+      "note": "Legacy repository host redirects to NOMAD. Archive entries are not a unique-crystal census."
+    },
+    {
+      "label": "Materials Cloud",
+      "url": "https://materialscloud.org/home",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://archive.materialscloud.org/"
+      ],
+      "treatment": "Existing archive platform",
+      "note": "Includes publication and provenance services; individual MC3D/MC2D/EPC deposits have separate counts."
+    },
+    {
+      "label": "Super Conducting Material Database (SuperCon)",
+      "url": "https://supercon.nims.go.jp/en/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "mdr-supercon"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset lineage",
+      "note": "Retained the versioned MDR SuperCon record and historical GUI URL; current release size is unverified."
+    },
+    {
+      "label": "Metal Organic Framework Database (MOFDB)",
+      "url": "https://mof.tech.northwestern.edu/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://mof.tech.northwestern.edu/"
+      ],
+      "treatment": "Existing portal; name crosswalk",
+      "note": "The supplied MOFDB route is branded MOFX DB and hosts overlapping framework/adsorption datasets."
+    },
+    {
+      "label": "International Center for Diffraction Data (ICDD)",
+      "url": "http://www.icdd.com/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "icdd-pdf5"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing diffraction dataset",
+      "note": "Corrected scope: organic and inorganic diffraction data. Paid product/version counts remain explicit."
+    },
+    {
+      "label": "Materials Data Repository (NIST)",
+      "url": "https://materialsdata.nist.gov/",
+      "scope": "navigation",
+      "section": "Materials data resources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://materialsdata.nist.gov/"
+      ],
+      "treatment": "Existing repository resource",
+      "note": "Repository platform; provider-level records/files do not create another independent crystal corpus."
+    },
+    {
+      "label": "Inorganic Materials Database (NMIS; NIMS AtomWork)",
+      "url": "https://crystdb.nims.go.jp/en/",
+      "scope": "crystal_related",
+      "section": "Materials data resources",
+      "catalog_ids": [
+        "atomwork",
+        "atomwork-adv"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing datasets; source and terms update",
+      "note": "The supplied NMIS label refers to NIMS AtomWork. Base and advanced products retain separate releases and access terms."
+    },
+    {
+      "label": "Knowledgebase of Interatomic Models (OpenKIM)",
+      "url": "https://openkim.org/",
+      "scope": "navigation",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://openkim.org/"
+      ],
+      "treatment": "New model-archive resource",
+      "note": "Potential models, verification tests and generated predictions are separate record types, not experimentally measured crystals."
+    },
+    {
+      "label": "Polymer Database (PoLyInfo)",
+      "url": "https://polymer.nims.go.jp/en/",
+      "scope": "adjacent",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://polymer.nims.go.jp/"
+      ],
+      "treatment": "New adjacent polymer resource",
+      "note": "DICE/MatNavi application and provider restrictions apply; chemical polymer structures do not imply periodic coordinates."
+    },
+    {
+      "label": "Polymer Property Predictor and Database (PPPDB)",
+      "url": "http://pppdb.uchicago.edu/",
+      "scope": "adjacent",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://pppdb.uchicago.edu/"
+      ],
+      "treatment": "New adjacent polymer resource",
+      "note": "Public polymer-property tables and prediction tools; atomic-coordinate payload and blanket data license unverified."
+    },
+    {
+      "label": "WebFF",
+      "url": "https://webff-documentation.readthedocs.io/en/latest/Introduction.html",
+      "scope": "adjacent",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://webff-documentation.readthedocs.io/en/latest/Introduction.html"
+      ],
+      "treatment": "New force-field resource",
+      "note": "Documentation is reachable; live data portal could not be confirmed. Parameters are not crystal records."
+    },
+    {
+      "label": "Configurable Data Curation System (CDCS)",
+      "url": "https://www.nist.gov/itl/ssd/information-systems-group/configurable-data-curation-system-cdcs/about-cdcs",
+      "scope": "navigation",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://www.nist.gov/itl/ai/applied-ai-research-group/configurable-data-curation-system-cdcs/about-cdcs"
+      ],
+      "treatment": "New curation-software resource",
+      "note": "Repeated CDCS bullet counted once. Original path redirects to the current NIST organizational path."
+    },
+    {
+      "label": "Polymer Properties Database",
+      "url": "https://polymerdatabase.com/home.html",
+      "scope": "adjacent",
+      "section": "Models, polymers and curation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://polymerdatabase.com/home.html"
+      ],
+      "treatment": "New historical reference resource",
+      "note": "Endpoint currently serves a hosting-provider unavailability page. No formal service-termination claim is inferred."
+    },
+    {
+      "label": "SuperBand",
+      "url": "https://github.com/ljcj007/SuperBand",
+      "scope": "crystal_related",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "superband"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset",
+      "note": "2,474 band-data entries remain separate from the larger reference CSV. Negative-label provenance needs care."
+    },
+    {
+      "label": "UCI Superconductivty Data legacy route",
+      "url": "https://archive.ics.uci.edu/ml/datasets/superconductivty+data",
+      "scope": "crystal_related",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "uci-superconductivity-2018"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset; legacy route",
+      "note": "21,263 composition-based rows are a SuperCon derivative; formula/descriptor files represent the same cohort."
+    },
+    {
+      "label": "NIST High Temperature Superconducting Materials Database / SRD 62",
+      "url": "https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723",
+      "scope": "crystal_related",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "nist-webhts-srd62"
+      ],
+      "resource_urls": [],
+      "treatment": "Existing dataset family",
+      "note": "Historical WebHTS/SRD 62 corpus; content last updated 1996. Current count and redistribution rights remain qualified."
+    },
+    {
+      "label": "Superconductor Discovery in the Emerging Paradigm of Materials Informatics (ACS review)",
+      "url": "https://pubs.acs.org/cmatex/article/36/22/10939/154808/Superconductor-Discovery-in-the-Emerging-Paradigm",
+      "scope": "navigation",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "compsc-literature-epc"
+      ],
+      "resource_urls": [
+        "https://doi.org/10.1021/acs.chemmater.4c01757"
+      ],
+      "treatment": "New review and dataset lead",
+      "note": "Verified 2024 review; accessible author manuscript. CompSC current corrected release has 586 structures, not the older 587 count."
+    },
+    {
+      "label": "NIST 62: NIST/NRIM High Temperature Superconductors Database Version 2.0",
+      "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
+      "scope": "navigation",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "nist-webhts-srd62"
+      ],
+      "resource_urls": [
+        "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20"
+      ],
+      "treatment": "New supporting documentation",
+      "note": "The 2008 publication documents the same SRD 62/WebHTS family; it is not another experimental corpus."
+    },
+    {
+      "label": "Organic Superconductor Database conference abstract (ADS 2021APS..MARX61003G)",
+      "url": "https://ui.adsabs.harvard.edu/abs/2021APS..MARX61003G/abstract",
+      "scope": "navigation",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [
+        "osd-organic-superconductors"
+      ],
+      "resource_urls": [],
+      "treatment": "Supporting abstract; attribution corrected",
+      "note": "Official APS abstract describes Clark OSD (Ganter/Agosta, March 2021). It does not establish UCSD SRD counts or structures."
+    },
+    {
+      "label": "UCSD Superconducting Research Database (SRD)",
+      "url": "https://srd.physics.ucsd.edu/",
+      "scope": "crystal_related",
+      "section": "Additional superconductivity sources",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://srd.physics.ucsd.edu/"
+      ],
+      "treatment": "New community-database reference",
+      "note": "Owning UCSD group documents the project. Live server errors left current counts, payload, licensing and test-status definitions unverified."
+    }
+  ],
+  "duplicate_input_mentions": [
+    {
+      "label": "CDCS",
+      "url": "https://www.nist.gov/itl/ssd/information-systems-group/configurable-data-curation-system-cdcs/about-cdcs",
+      "occurrences": 2
+    },
+    {
+      "label": "UCSD SRD",
+      "url": "https://srd.physics.ucsd.edu/",
+      "occurrences": 2
+    }
+  ],
+  "coverage_notes": [
+    "The supplied list contains 26 resource bullets, including CDCS twice, plus 8 additional link mentions, including UCSD SRD twice. The inventory collapses exact URL duplicates to 32 entries; one canonical resource is used for CDCS.",
+    "Original HTTP/HTTPS schemes, historical hostnames and requested article routes are retained as source links. Their inclusion does not assert that each legacy endpoint remains functional.",
+    "The OQDM and NMIS labels are preserved with the correct OQMD and NIMS/AtomWork identities; historical user-supplied numerical descriptions are not substituted for verified release counts.",
+    "Polymers, force-field/model libraries, registries, curation software, review papers and dataset portals receive scope labels and do not increase the count of independent crystal datasets.",
+    "The supplied ADS bibcode resolves to the Clark University Organic Superconductor Database conference presentation; it is kept distinct from UCSD SRD."
+  ],
+  "id": "user_resources_20261101"
+}

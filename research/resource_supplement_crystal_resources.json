@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Computational Materials Repository (CMR)",
+    "url": "https://cmr.fysik.dtu.dk/",
+    "kind": "database_portal",
+    "description": "DTU portal for project-specific ASE databases spanning low-dimensional materials, bulk crystals, perovskites, surfaces and related benchmarks. Provides project documentation, browser routes, downloadable databases and an OPTIMADE route. Provider states CMR databases use CC BY-SA 4.0. Portal totals are not an additional crystal dataset.",
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR official portal",
+        "evidence": "Defines each project as an ASE database with a project page and browse/download access; links an OPTIMADE endpoint and states all CMR databases are CC BY-SA 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://2dhub.org/",
+        "title": "2DHub official portal",
+        "evidence": "Current home for C2DB and related 2D databases, links back to CMR; these named datasets are already separate catalog records.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Organic Materials Database (OMDB)",
+    "url": "https://omdb.mathub.io/",
+    "kind": "database_portal",
+    "description": "Electronic and magnetic information portal for periodic organic and organometallic crystals, including band structures, DOS and magnetic-excitation tools. Named downloads distinguish DFT-labelled OMDB-GAP1 from COD model predictions. Public browsing is limited and named downloads currently redirect to free-registration login; a current full-family count and dataset-wide reuse license were not verified.",
+    "sources": [
+      {
+        "url": "https://omdb.mathub.io/page/about",
+        "title": "OMDB provider description",
+        "evidence": "Describes an organic/organometallic electronic-structure database with DFT and advanced query tools.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/dataset/",
+        "title": "OMDB named data releases",
+        "evidence": "Lists the 12,500-material OMDB-GAP1 and 260,092-material COD prediction releases as distinct products.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/page/terms",
+        "title": "OMDB terms",
+        "evidence": "Terms mention access quotas but do not identify a general data reuse license.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/material",
+        "title": "OMDB public materials browser",
+        "evidence": "Anonymous browser explicitly limits visible data and offers free registration; the page-local displayed totals are not adopted as a full-family count.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "MaterialsWeb",
+    "url": "https://materialsweb.org/",
+    "kind": "legacy_database_portal",
+    "description": "Hennig-group portal historically covering calculated 2D materials, bulk materials and computational benchmarks. Author paper released an 826-monolayer cohort in 2017. Current host failed TLS access in the 2026-11-01 audit, so live browsing, bulk downloads, current totals and data reuse rights remain unverified.",
+    "sources": [
+      {
+        "url": "https://hennig.mse.ufl.edu/resources/",
+        "title": "Hennig Materials Theory Lab resources",
+        "evidence": "Provider lab explicitly links MaterialsWeb routes for 2D and bulk materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://arxiv.org/abs/1610.07673",
+        "title": "Topology-Scaling Identification of Layered Solids and Stable Exfoliated 2D Materials",
+        "evidence": "Author paper identifies 826 monolayers and says optimized structures and related data were provided at MaterialsWeb; this is a historical paper cohort.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.materialsweb.org/",
+        "title": "MaterialsWeb direct access check",
+        "evidence": "Requested HTTPS host could not be fetched by the web tool; independent standard urllib access reported a TLS unrecognized-name failure for www and bare host.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

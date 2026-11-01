@@ -10,8 +10,9 @@ Checked 2026-11-01. The source-entry directory preserves every labeled public HT
 | [nanoHUB Machine Learning Lab Module](<https://nanohub.org/tools/intromllab>) | 41 / 41 | 27 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=nanohub_mllab) |
 | [REMI: REsource for Materials Informatics](<https://pages.nist.gov/remi/>) | 146 / 146 | 145 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=remi) |
 | [sedaoturak/data-resources-for-materials-science](<https://github.com/sedaoturak/data-resources-for-materials-science>) | 90 / 90 | 87 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=sedaoturak) |
+| [User-supplied materials resources (2026-11-01)](<https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md>) | 32 / 32 | 32 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=user_resources_20261101) |
 
-**789 occurrences; 576 distinct entry URLs across all six collections.** Repeated entries and links shared between lists are retained with their original context. Blaiszik and Seda Oturak together contribute 364 occurrences and 296 distinct URLs at the inspected revisions.
+**821 entries; 601 distinct entry URLs across all 7 collections.** Repeated entries and links shared between lists are retained with their original context unless the collection boundary explicitly documents exact-URL deduplication. Blaiszik and Seda Oturak together contribute 364 occurrences and 296 distinct URLs at the inspected revisions.
 
 ## What complete coverage means
 
@@ -111,5 +112,18 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 - Scope labels preserve isolated-molecule, polymer, amorphous, microscopy, processing and navigation links without automatically ranking them as crystal datasets.
 - Canonical comparison performed against data/datasets.json (115 rows) and data/resources.json (27 resources), snapshot during this audit.
 - Verified additions are provided in research/collection_sedaoturak_additions.json. Work-function data have a CC BY-NC restriction; perovskite devices carry CC BY 4.0; TQC underlying ICSD-coordinate rights are not assumed.
+
+### User-supplied materials resources (2026-11-01)
+
+- Inventory: [research/collection_user_resources_20261101.json](../research/collection_user_resources_20261101.json)
+- Revision: `User request received 2026-11-01; distinct original URLs preserved`
+- Inventory SHA-256: `9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47`
+- Scope counts: {"adjacent": 4, "crystal_related": 17, "navigation": 11, "uncertain": 0}
+
+- The supplied list contains 26 resource bullets, including CDCS twice, plus 8 additional link mentions, including UCSD SRD twice. The inventory collapses exact URL duplicates to 32 entries; one canonical resource is used for CDCS.
+- Original HTTP/HTTPS schemes, historical hostnames and requested article routes are retained as source links. Their inclusion does not assert that each legacy endpoint remains functional.
+- The OQDM and NMIS labels are preserved with the correct OQMD and NIMS/AtomWork identities; historical user-supplied numerical descriptions are not substituted for verified release counts.
+- Polymers, force-field/model libraries, registries, curation software, review papers and dataset portals receive scope labels and do not increase the count of independent crystal datasets.
+- The supplied ADS bibcode resolves to the Clark University Organic Superconductor Database conference presentation; it is kept distinct from UCSD SRD.
 
 [All source links](../sources.md) · [Complete entry JSON](../data/collection_entries.json) · [Back to catalog](../README.md)

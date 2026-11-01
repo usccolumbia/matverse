@@ -156,6 +156,30 @@
         "Verified additions are provided in research/collection_sedaoturak_additions.json. Work-function data have a CC BY-NC restriction; perovskite devices carry CC BY 4.0; TQC underlying ICSD-coordinate rights are not assumed."
       ],
       "source_index_missing_url_count": 0
+    },
+    {
+      "id": "user_resources_20261101",
+      "name": "User-supplied materials resources (2026-11-01)",
+      "url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "revision": "User request received 2026-11-01; distinct original URLs preserved",
+      "inventory_file": "research/collection_user_resources_20261101.json",
+      "inventory_sha256": "9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47",
+      "entry_count": 32,
+      "unique_url_count": 32,
+      "scope_counts": {
+        "adjacent": 4,
+        "crystal_related": 17,
+        "navigation": 11,
+        "uncertain": 0
+      },
+      "coverage_notes": [
+        "The supplied list contains 26 resource bullets, including CDCS twice, plus 8 additional link mentions, including UCSD SRD twice. The inventory collapses exact URL duplicates to 32 entries; one canonical resource is used for CDCS.",
+        "Original HTTP/HTTPS schemes, historical hostnames and requested article routes are retained as source links. Their inclusion does not assert that each legacy endpoint remains functional.",
+        "The OQDM and NMIS labels are preserved with the correct OQMD and NIMS/AtomWork identities; historical user-supplied numerical descriptions are not substituted for verified release counts.",
+        "Polymers, force-field/model libraries, registries, curation software, review papers and dataset portals receive scope labels and do not increase the count of independent crystal datasets.",
+        "The supplied ADS bibcode resolves to the Clark University Organic Superconductor Database conference presentation; it is kept distinct from UCSD SRD."
+      ],
+      "source_index_missing_url_count": 0
     }
   ],
   "entries": [
@@ -8837,10 +8861,362 @@
       "url": "https://pages.nist.gov/remi/",
       "section": "Toy Datasets for Machine Learning Applications in Materials Science",
       "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-001",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 1,
+      "label": "Materials Data Resources (NIST MGI)",
+      "url": "https://www.nist.gov/mgi/materials-data-resources",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-002",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 2,
+      "label": "The Materials Data Facility (MDF)",
+      "url": "https://materialsdatafacility.org/",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-003",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 3,
+      "label": "Inorganic Crystal Structures Database (ICSD)",
+      "url": "https://icsd.fiz-karlsruhe.de/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-004",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 4,
+      "label": "Crystallography Open Database (COD)",
+      "url": "http://crystallography.net/cod/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-005",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 5,
+      "label": "The Cambridge Structural Database (CSD)",
+      "url": "https://www.ccdc.cam.ac.uk/solutions/csd-system/components/csd",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-006",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 6,
+      "label": "Automatic Flow for Materials Discovery (AFLOW)",
+      "url": "http://aflowlib.org/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-007",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 7,
+      "label": "Materials Project (MP)",
+      "url": "https://materialsproject.org/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-008",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 8,
+      "label": "Open Quantum Materials Database (OQDM; official abbreviation OQMD)",
+      "url": "http://oqmd.org/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-009",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 9,
+      "label": "Computational Materials Repository (CMR)",
+      "url": "https://cmr.fysik.dtu.dk/",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-010",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 10,
+      "label": "Organic Materials Database (OMDB)",
+      "url": "https://omdb.mathub.io/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-011",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 11,
+      "label": "Materials Web",
+      "url": "https://www.materialsweb.org/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-012",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 12,
+      "label": "JARVIS-DFT legacy route",
+      "url": "http://www.ctcms.nist.gov/~knc6/JVASP.html",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-013",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 13,
+      "label": "Novel Materials Discovery Laboratory Database (NOMAD)",
+      "url": "https://repository.nomad-coe.eu/",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-014",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 14,
+      "label": "Materials Cloud",
+      "url": "https://materialscloud.org/home",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-015",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 15,
+      "label": "Super Conducting Material Database (SuperCon)",
+      "url": "https://supercon.nims.go.jp/en/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-016",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 16,
+      "label": "Metal Organic Framework Database (MOFDB)",
+      "url": "https://mof.tech.northwestern.edu/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-017",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 17,
+      "label": "International Center for Diffraction Data (ICDD)",
+      "url": "http://www.icdd.com/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-018",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 18,
+      "label": "Materials Data Repository (NIST)",
+      "url": "https://materialsdata.nist.gov/",
+      "section": "Materials data resources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-019",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 19,
+      "label": "Inorganic Materials Database (NMIS; NIMS AtomWork)",
+      "url": "https://crystdb.nims.go.jp/en/",
+      "section": "Materials data resources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-020",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 20,
+      "label": "Knowledgebase of Interatomic Models (OpenKIM)",
+      "url": "https://openkim.org/",
+      "section": "Models, polymers and curation",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-021",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 21,
+      "label": "Polymer Database (PoLyInfo)",
+      "url": "https://polymer.nims.go.jp/en/",
+      "section": "Models, polymers and curation",
+      "scope": "adjacent"
+    },
+    {
+      "id": "user_resources_20261101-022",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 22,
+      "label": "Polymer Property Predictor and Database (PPPDB)",
+      "url": "http://pppdb.uchicago.edu/",
+      "section": "Models, polymers and curation",
+      "scope": "adjacent"
+    },
+    {
+      "id": "user_resources_20261101-023",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 23,
+      "label": "WebFF",
+      "url": "https://webff-documentation.readthedocs.io/en/latest/Introduction.html",
+      "section": "Models, polymers and curation",
+      "scope": "adjacent"
+    },
+    {
+      "id": "user_resources_20261101-024",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 24,
+      "label": "Configurable Data Curation System (CDCS)",
+      "url": "https://www.nist.gov/itl/ssd/information-systems-group/configurable-data-curation-system-cdcs/about-cdcs",
+      "section": "Models, polymers and curation",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-025",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 25,
+      "label": "Polymer Properties Database",
+      "url": "https://polymerdatabase.com/home.html",
+      "section": "Models, polymers and curation",
+      "scope": "adjacent"
+    },
+    {
+      "id": "user_resources_20261101-026",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 26,
+      "label": "SuperBand",
+      "url": "https://github.com/ljcj007/SuperBand",
+      "section": "Additional superconductivity sources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-027",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 27,
+      "label": "UCI Superconductivty Data legacy route",
+      "url": "https://archive.ics.uci.edu/ml/datasets/superconductivty+data",
+      "section": "Additional superconductivity sources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-028",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 28,
+      "label": "NIST High Temperature Superconducting Materials Database / SRD 62",
+      "url": "https://data.nist.gov/pdr/lps/ECBCC1C130112ED9E04306570681B10723",
+      "section": "Additional superconductivity sources",
+      "scope": "crystal_related"
+    },
+    {
+      "id": "user_resources_20261101-029",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 29,
+      "label": "Superconductor Discovery in the Emerging Paradigm of Materials Informatics (ACS review)",
+      "url": "https://pubs.acs.org/cmatex/article/36/22/10939/154808/Superconductor-Discovery-in-the-Emerging-Paradigm",
+      "section": "Additional superconductivity sources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-030",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 30,
+      "label": "NIST 62: NIST/NRIM High Temperature Superconductors Database Version 2.0",
+      "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
+      "section": "Additional superconductivity sources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-031",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 31,
+      "label": "Organic Superconductor Database conference abstract (ADS 2021APS..MARX61003G)",
+      "url": "https://ui.adsabs.harvard.edu/abs/2021APS..MARX61003G/abstract",
+      "section": "Additional superconductivity sources",
+      "scope": "navigation"
+    },
+    {
+      "id": "user_resources_20261101-032",
+      "collection": "user_resources_20261101",
+      "collection_name": "User-supplied materials resources (2026-11-01)",
+      "collection_url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
+      "position": 32,
+      "label": "UCSD Superconducting Research Database (SRD)",
+      "url": "https://srd.physics.ucsd.edu/",
+      "section": "Additional superconductivity sources",
+      "scope": "crystal_related"
     }
   ],
-  "entry_count": 789,
-  "unique_url_count": 576,
+  "entry_count": 821,
+  "unique_url_count": 601,
   "checked_date": "2026-11-01",
   "note": "Complete imported link inventory within the documented extraction boundaries; not a list of independently verified crystal datasets."
 }

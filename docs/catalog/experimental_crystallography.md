@@ -116,21 +116,29 @@ Expert-curated inorganic single-phase structure, property and phase-diagram data
 
 **Labels/content:** crystal structures; X-ray diffraction; phase diagrams; physical properties.
 
-**Access:** commercial. **Dataset license:** Not verified.
+**Access:** commercial. **Dataset license:** Commercial licensed access under NIMS provider terms; limited downloads; trial has no download permission..
 
 **Official routes:** [homepage](https://atomwork-adv.nims.go.jp/) · [data](https://atomwork-adv.nims.go.jp/en/service.html)
+
+Other denominators (not added to the ranking):
+
+- 746,888 XRD records: Provider-displayed counter; not additional structures
+- 568,195 property records: Provider-displayed counter; not additional structures
+- 49,650 phase diagrams: Provider-displayed counter; not additional structures
 
 **Evidence:**
 
 - [MEXT/NIMS materials data infrastructure presentation](https://www.mext.go.jp/content/20260522-mxt_jyohoka01-000050160_3.pdf) (checked 2026-11-01): NIMS statistics dated 2026-03-31 give AtomWork-Adv 409723 crystal structures.
 - [AtomWork-Adv provider service terms](https://atomwork-adv.nims.go.jp/service.html?lan=jp) (checked 2026-11-01): Purchased licence follows a limited browsing-only trial; licensed use allows limited downloads.
 - [A comprehensive data network for data-driven study of battery materials](https://pmc.ncbi.nlm.nih.gov/articles/PMC11573338/) (checked 2026-11-01): Describes expert literature extraction and annual updating of AtomWork-Adv.
+- [AtomWork-Adv provider counters and service limits](https://atomwork-adv.nims.go.jp/en/service.html?lan=en) (checked 2026-11-01): Corroborates 409,723 structures, 746,888 XRD records, 568,195 properties and 49,650 phase diagrams. Paid license permits 5,000 downloads/year; the 72-hour/1,000-page-view trial excludes downloads.
 
 **Reuse and interpretation notes:**
 
 - Do not conflate property-value counts with structures or materials.
 - Limited trial is not an open bulk dataset.
 - Shared PAULING FILE lineage creates overlap with other products.
+- Provider permits 5,000 downloads/year under a paid license; the 72-hour/1,000-page trial is browsing-only. This does not establish bulk redistribution rights.
 
 **Tags:** NIMS, commercial, literature.
 
@@ -204,30 +212,36 @@ Inorganic crystal structures, phase diagrams and properties curated from literat
 
 **Size:** 82,000 crystal structures (source wording: 82,000 crystal structures).
 
-**Scope:** Historical AtomWork base database count, not AtomWork-Adv or a current live total
+**Scope:** Provider homepage displays 82000 structures for the base 2010/06 release; not a new November release or AtomWork-Adv total
 
-**Release:** Historical NIMS data table reproduced in 2020 government materials. **Year:** 2020.
+**Release:** NIMS AtomWork base data release 2010/06; provider counters checked 2026-11-01. **Year:** 2010.
 
 **Provenance:** literature. **Structure availability:** `periodic_atomic`.
 
 **Labels/content:** crystal structures; phase diagrams; physical properties.
 
-**Access:** registration. **Dataset license:** Not verified.
+**Access:** registration. **Dataset license:** NIMS proprietary terms: written permission required for reproduction, republication or third-party distribution; bulk acquisition and scraping prohibited..
 
-**Official routes:** [homepage](https://mits.nims.go.jp/en/) · [data](https://crystdb.nims.go.jp/)
+**Official routes:** [homepage](https://crystdb.nims.go.jp/) · [data](https://crystdb.nims.go.jp/)
+
+Other denominators (not added to the ranking):
+
+- 55,000 property records: Displayed base AtomWork counter; not additional structures
+- 15,000 phase diagrams: Displayed base AtomWork counter; not additional structures
 
 **Evidence:**
 
 - [MEXT materials data reference, NIMS-provided table](https://www.mext.go.jp/content/20200602-mxt_nanozai-000007507_6_2.pdf) (checked 2026-11-01): NIMS table separates AtomWork 82000 structures, 15000 phase diagrams and 55000 properties from AtomWork-Adv.
 - [NIMS MatNavi](https://mits.nims.go.jp/en/) (checked 2026-11-01): Free registered browsing; mass acquisition and web scraping prohibited.
+- [NIMS AtomWork provider release and access terms](https://crystdb.nims.go.jp/) (checked 2026-11-01): Displays data release 2010/06, 82,000 crystal structures, 55,000 property records and 15,000 phase diagrams. Registered access; bulk acquisition/scraping prohibited; written permission required for reproduction or third-party distribution.
 
 **Reuse and interpretation notes:**
 
-- Count is historical; no current independent total verified.
 - MatNavi access does not authorize bulk scraping.
 - Related PAULING FILE/AtomWork products overlap.
+- Primary provider page corroborates displayed counters; records were not independently deduplicated. The underlying base release remains 2010/06.
 
-**Tags:** NIMS, registration, historical-count.
+**Tags:** NIMS, registration, historical-count, Inorganic Materials Database, NMIS (user-listed spelling).
 
 <a id="magndata"></a>
 ## MAGNDATA

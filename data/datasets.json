@@ -260,7 +260,9 @@
       "Count verified in provider search-index content; direct HTTP fetch returned 502 during this audit.",
       "Predominantly computed entries, including prototype decorations; not a count of experimental discoveries."
     ],
-    "tags": []
+    "tags": [
+      "OQDM (user-listed spelling)"
+    ]
   },
   {
     "id": "gnome",
@@ -778,7 +780,7 @@
       "physical properties"
     ],
     "access": "commercial",
-    "license": "Not verified",
+    "license": "Commercial licensed access under NIMS provider terms; limited downloads; trial has no download permission.",
     "links": {
       "homepage": "https://atomwork-adv.nims.go.jp/",
       "data": "https://atomwork-adv.nims.go.jp/en/service.html"
@@ -801,17 +803,41 @@
         "title": "A comprehensive data network for data-driven study of battery materials",
         "evidence": "Describes expert literature extraction and annual updating of AtomWork-Adv.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://atomwork-adv.nims.go.jp/en/service.html?lan=en",
+        "title": "AtomWork-Adv provider counters and service limits",
+        "evidence": "Corroborates 409,723 structures, 746,888 XRD records, 568,195 properties and 49,650 phase diagrams. Paid license permits 5,000 downloads/year; the 72-hour/1,000-page-view trial excludes downloads.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
       "Do not conflate property-value counts with structures or materials.",
       "Limited trial is not an open bulk dataset.",
-      "Shared PAULING FILE lineage creates overlap with other products."
+      "Shared PAULING FILE lineage creates overlap with other products.",
+      "Provider permits 5,000 downloads/year under a paid license; the 72-hour/1,000-page trial is browsing-only. This does not establish bulk redistribution rights."
     ],
     "tags": [
       "NIMS",
       "commercial",
       "literature"
+    ],
+    "additional_counts": [
+      {
+        "value": 746888,
+        "unit": "XRD records",
+        "scope": "Provider-displayed counter; not additional structures"
+      },
+      {
+        "value": 568195,
+        "unit": "property records",
+        "scope": "Provider-displayed counter; not additional structures"
+      },
+      {
+        "value": 49650,
+        "unit": "phase diagrams",
+        "scope": "Provider-displayed counter; not additional structures"
+      }
     ]
   },
   {
@@ -920,12 +946,12 @@
     "name": "NIMS AtomWork",
     "category": "experimental_crystallography",
     "description": "Inorganic crystal structures, phase diagrams and properties curated from literature.",
-    "version": "Historical NIMS data table reproduced in 2020 government materials",
-    "year": 2020,
+    "version": "NIMS AtomWork base data release 2010/06; provider counters checked 2026-11-01",
+    "year": 2010,
     "count": 82000,
     "count_display": "82,000 crystal structures",
     "count_unit": "crystal structures",
-    "count_scope": "Historical AtomWork base database count, not AtomWork-Adv or a current live total",
+    "count_scope": "Provider homepage displays 82000 structures for the base 2010/06 release; not a new November release or AtomWork-Adv total",
     "count_precision": "exact",
     "structure_level": "periodic_atomic",
     "provenance": "literature",
@@ -935,9 +961,9 @@
       "physical properties"
     ],
     "access": "registration",
-    "license": "Not verified",
+    "license": "NIMS proprietary terms: written permission required for reproduction, republication or third-party distribution; bulk acquisition and scraping prohibited.",
     "links": {
-      "homepage": "https://mits.nims.go.jp/en/",
+      "homepage": "https://crystdb.nims.go.jp/",
       "data": "https://crystdb.nims.go.jp/"
     },
     "sources": [
@@ -952,17 +978,37 @@
         "title": "NIMS MatNavi",
         "evidence": "Free registered browsing; mass acquisition and web scraping prohibited.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://crystdb.nims.go.jp/",
+        "title": "NIMS AtomWork provider release and access terms",
+        "evidence": "Displays data release 2010/06, 82,000 crystal structures, 55,000 property records and 15,000 phase diagrams. Registered access; bulk acquisition/scraping prohibited; written permission required for reproduction or third-party distribution.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
-      "Count is historical; no current independent total verified.",
       "MatNavi access does not authorize bulk scraping.",
-      "Related PAULING FILE/AtomWork products overlap."
+      "Related PAULING FILE/AtomWork products overlap.",
+      "Primary provider page corroborates displayed counters; records were not independently deduplicated. The underlying base release remains 2010/06."
     ],
     "tags": [
       "NIMS",
       "registration",
-      "historical-count"
+      "historical-count",
+      "Inorganic Materials Database",
+      "NMIS (user-listed spelling)"
+    ],
+    "additional_counts": [
+      {
+        "value": 55000,
+        "unit": "property records",
+        "scope": "Displayed base AtomWork counter; not additional structures"
+      },
+      {
+        "value": 15000,
+        "unit": "phase diagrams",
+        "scope": "Displayed base AtomWork counter; not additional structures"
+      }
     ]
   },
   {
@@ -3060,6 +3106,12 @@
         "title": "OSD official about page",
         "evidence": "Confirms open public browsing, CSD-source CIFs, manually entered literature measurements and tight-binding electronic structures.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://meetings.aps.org/Meeting/MAR21/Session/X61.3",
+        "title": "The Organic Superconductor Database — APS March 2021 presentation",
+        "evidence": "Owen Ganter and Charles C. Agosta, Clark University, 19 March 2021. Describes OSD organic-crystal, electronic and experimental content; the supplied ADS bibcode belongs to this project.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
@@ -3574,6 +3626,69 @@
     ]
   },
   {
+    "id": "omdb-cod-bandgap-predictions",
+    "name": "OMDB-GAP1 models: COD band-gap prediction release",
+    "category": "property_benchmarks",
+    "description": "SOAP/kernel-ridge and SchNet band-gap predictions for a large COD-derived organic-crystal screening set, distinct from the DFT-labelled OMDB-GAP1 training corpus.",
+    "version": "COD predictions v1.1 on the OMDB dataset page; 2019 paper cohort",
+    "year": 2019,
+    "count": 260092,
+    "count_display": "260,092 COD crystal entries with model-predicted band gaps",
+    "count_unit": "COD crystal prediction records",
+    "count_scope": "Named v1.1 COD prediction download, corresponding to the paper cohort of organic structures with at most 500 atoms per unit cell",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "machine-learning predictions",
+    "properties": [
+      "machine-learning predicted band gap",
+      "SOAP/kernel-ridge band-gap prediction",
+      "SchNet band-gap prediction",
+      "ensemble band-gap prediction"
+    ],
+    "access": "registration",
+    "license": "Not verified",
+    "links": {
+      "homepage": "https://omdb.mathub.io/dataset/",
+      "data": "https://omdb.mathub.io/dataset/download/gap1-cod_v1.1",
+      "paper": "https://doi.org/10.1002/qute.201900023"
+    },
+    "sources": [
+      {
+        "url": "https://omdb.mathub.io/dataset/",
+        "title": "OMDB official dataset downloads",
+        "evidence": "Separately lists OMDB-GAP1 v1.1 at 12,500 materials and a COD v1.1 machine-learning prediction download at 260,092 materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qute.201900023",
+        "title": "Band Gap Prediction for Large Organic Crystal Structures with Machine Learning",
+        "evidence": "Section 3.2 describes selecting organic COD structures containing C/H and supported elements, limiting cells to 500 atoms, and computing 260,092 model predictions; Data Availability identifies the release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/dataset/download/gap1-cod_v1.1",
+        "title": "OMDB COD prediction download access check",
+        "evidence": "Public download link redirects to the login page, which offers free registration; payload was not obtained without an account.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Properties are machine-learning predictions, not 260,092 new DFT calculations or measured band gaps.",
+      "The source crystal structures are COD-derived and overlap the COD family; no independent new-structure total is implied.",
+      "Provider release count was not independently recounted because download currently requires login.",
+      "Structure-linked classification denotes the named COD-source linkage; atomic-coordinate content and exact payload columns were not inspected.",
+      "Dataset-specific reuse license was not identified in the inspected download and terms pages."
+    ],
+    "tags": [
+      "organic crystals",
+      "COD derivative",
+      "OMDB",
+      "band gap",
+      "machine-learning predictions",
+      "registration"
+    ]
+  },
+  {
     "id": "wbm-matbench-discovery",
     "name": "WBM / Matbench Discovery stability test set",
     "category": "property_benchmarks",
@@ -4066,11 +4181,11 @@
       "PBE band gap",
       "molecular crystal structure"
     ],
-    "access": "open",
+    "access": "registration",
     "license": "Not verified",
     "links": {
       "homepage": "https://omdb.mathub.io/",
-      "data": "https://omdb.mathub.io/dataset/",
+      "data": "https://omdb.mathub.io/dataset/download/gap1_v1.1",
       "paper": "https://doi.org/10.1002/qute.201900023"
     },
     "sources": [
@@ -4079,12 +4194,19 @@
         "title": "Organic Materials Database dataset downloads",
         "evidence": "Official download table lists OMDB-GAP1 v1.1, 12,500 materials, and DOI 10.1002/qute.201900023.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://omdb.mathub.io/dataset/download/gap1_v1.1",
+        "title": "OMDB-GAP1 download access check",
+        "evidence": "Named v1.1 download redirects to free-registration login. Limited public browsing does not establish anonymous bulk access; payload was not downloaded.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
       "Periodic molecular crystals are in scope; these are not isolated-molecule HOMO–LUMO gaps.",
       "The 260,092 COD entry download on the same page contains ML predictions and is distinct from this DFT-labelled training corpus.",
-      "Overlaps COD-origin molecular crystal structures."
+      "Overlaps COD-origin molecular crystal structures.",
+      "The current named download requires registration; public browsing and bulk-download access are separate."
     ],
     "tags": [
       "molecular crystal",
@@ -4757,7 +4879,7 @@
     "version": "Scientific Data 2025 band-data release",
     "year": 2025,
     "count": 2474,
-    "count_display": "1,362 superconductors + 1,112 verified nonsuperconductors = 2,474 band-structure entries",
+    "count_display": "1,362 superconductors plus 1,112 paper-designated nonsuperconductor entries = 2,474 band-data entries",
     "count_unit": "materials",
     "count_scope": "Scientific Data 2025 band-data release",
     "count_precision": "exact",
@@ -4816,7 +4938,8 @@
       "Repository text informally calls all 2,474 entries superconductors; the paper explicitly separates 1,362 positive and 1,112 negative entries.",
       "Official superband.csv contains 8,625 nonheader reference/catalogue rows in the audited snapshot; this is not a replacement for the 2,474 computed-band cohort.",
       "The snapshot has 8,598 nonempty formula fields and 27 blank formula fields; row counts are not a cleaned unique-material total.",
-      "The paper excludes extreme-pressure hydrides without suitable ambient-pressure structural data from the band cohort, while retaining such formulas in the reference catalogue."
+      "The paper excludes extreme-pressure hydrides without suitable ambient-pressure structural data from the band cohort, while retaining such formulas in the reference catalogue.",
+      "The 1,112 negative labels are the paper’s designation, not an independent negative-experiment audit here. Review inherited SuperCon/3DSC missing-Tc conventions before treating zeros as confirmed negatives."
     ],
     "tags": [
       "superconductivity",
@@ -5551,6 +5674,94 @@
       "benchmark",
       "structure-based",
       "derived dataset"
+    ]
+  },
+  {
+    "id": "compsc-literature-epc",
+    "name": "CompSC literature-curated conventional-superconductor structures and EPC parameters",
+    "category": "property_benchmarks",
+    "description": "Literature-computed electron–phonon parameters linked to atomic structures curated by Tran and Vu for conventional-superconductor machine learning. The public corrected release contains periodic structures and pressure-dependent targets.",
+    "version": "May 2023 dataset; duplicate removed August 2024; repository revision ec5411ca41a0726cad01324609ed34940c9e20ab",
+    "year": 2023,
+    "count": 586,
+    "count_display": "586 atomic structures; 583 values of lambda and 566 values of omega_log after August 2024 duplicate removal",
+    "count_unit": "crystal structures",
+    "count_scope": "Corrected CompSC/202305 public CSV and poscar.tgz at pinned repository revision; 586 rows and 586 regular POSCAR files, including multiple pressures/structures for a composition.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "literature",
+    "properties": [
+      "electron–phonon coupling lambda (literature-computed)",
+      "logarithmic phonon frequency omega_log (literature-computed)",
+      "pressure",
+      "lattice parameters",
+      "atomic species and fractional coordinates",
+      "literature references"
+    ],
+    "access": "open",
+    "license": "Not verified; no repository license file or data license statement found.",
+    "links": {
+      "homepage": "https://github.com/huantd/matsdata/tree/main/CompSC/202305",
+      "data": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/poscar.tgz",
+      "paper": "https://doi.org/10.1103/PhysRevMaterials.7.054805",
+      "code": "https://github.com/huantd/matsdata"
+    },
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/README",
+        "title": "CompSC author README, corrected release",
+        "evidence": "Author documents original 587 structures and the August 2024 duplicate removal, leaving 586 structures, 583 lambda values and 566 omega_log values.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/supercond_May23.csv",
+        "title": "CompSC released CSV",
+        "evidence": "Direct parse: 586 rows with 272 distinct composition strings; 583 numeric Lambda values and 566 numeric omlog values. 584 pressures parse numerically, spanning 0–800; two pressure cells contain filename-like strings.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/poscar.tgz",
+        "title": "CompSC released periodic structures",
+        "evidence": "In-memory archive listing contains exactly 586 regular files named struct-*.vasp; no extraction needed.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.054805",
+        "title": "Machine-learning approach for discovery of conventional superconductors",
+        "evidence": "Tran and Vu, Physical Review Materials 7, 054805 (31 May 2023): predicts lambda and omega_log from structures; Tc is computed afterward rather than supplied as experimental ground truth.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Targets are literature-computed EPC parameters, not experimental Tc measurements; composition repeats across pressure and structural cases.",
+      "The 2024 ACS review reports the earlier 587-structure cohort; the public corrected denominator is 586.",
+      "The pressure column has two nonnumeric cells (IDs 567 and 568: 270Pa.vasp and 300Pa.vasp). Numeric values reach 800; do not impose the review’s historical up-to-500-GPa description on the released file.",
+      "Missing lambda and omega_log labels are distinct from zero. A downstream Tc estimate requires a specified formula and Coulomb pseudopotential.",
+      "Public downloading does not establish redistribution rights."
+    ],
+    "additional_counts": [
+      {
+        "value": 583,
+        "unit": "numeric lambda records",
+        "scope": "corrected 586-row CSV"
+      },
+      {
+        "value": 566,
+        "unit": "numeric omega_log records",
+        "scope": "corrected 586-row CSV"
+      }
+    ],
+    "tags": [
+      "superconductivity",
+      "electron-phonon",
+      "EPC",
+      "high-pressure",
+      "hydrides",
+      "literature-curated",
+      "POSCAR",
+      "CompSC",
+      "superconductor",
+      "superconductors"
     ]
   },
   {
@@ -6439,15 +6650,21 @@
         "title": "3DSC primary article full text",
         "evidence": "Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md",
+        "title": "Upstream SuperCon missing-target convention",
+        "evidence": "The 3DSC descriptor identifies this Stanev parent. Its author README assigns zero to unreported Tc; inherited zeros must be assessed with measurement provenance.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
       "Public IDs and labels do not confer redistribution rights to ICSD CIFs.",
       "Many matches share composition but differ in measurement conditions; artificial doping can approximate sample structures.",
       "The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.",
-      "Tc = 0 denotes tested nonsuperconducting entries in the source labels.",
       "Public CSV identifies original ICSD structures, not redistributed or necessarily already artificially doped coordinates; reconstructing adapted structures requires licensed ICSD access.",
-      "Repeated crystallographic measurements or measurement temperatures can generate many structures for a single SuperCon entry."
+      "Repeated crystallographic measurements or measurement temperatures can generate many structures for a single SuperCon entry.",
+      "The 3DSC authors operationally label Tc=0 entries as nonsuperconductors. Their Stanev parent also assigns zero to unreported Tc; zero alone does not verify a tested negative or a lower-temperature detection bound."
     ],
     "tags": [
       "Scientific-Data",
@@ -7251,22 +7468,22 @@
   },
   {
     "id": "jarvis-supercon-chem",
-    "name": "JARVIS supercon_chem experimental composition/Tc benchmark",
+    "name": "Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark",
     "category": "experimental_properties",
-    "description": "A downloadable SuperCon-derived composition and critical-temperature benchmark exposed through JARVIS-Tools and JARVIS-Leaderboard.",
-    "version": "Figshare version 1 (2023-05-20)",
+    "description": "SuperCon-derived author composition/Tc table mirrored in JARVIS JSON format. Unreported critical temperatures are encoded as zero; no atomic coordinates are included.",
+    "version": "JARVIS Figshare v1 (2023-05-20); upstream 2018 author table, Git revision 6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5",
     "year": 2023,
     "count": 16414,
     "count_display": "16,414 composition/Tc records",
     "count_unit": "composition/Tc records",
-    "count_scope": "Official supercon_chem.json.zip version 1; independently parsed JSON list",
+    "count_scope": "Same 16,414 formula/Tc pair multiset in the Stanev author CSV and JARVIS JSON; row order and identifiers differ",
     "count_precision": "exact",
     "structure_level": "composition_only",
-    "provenance": "experimental",
+    "provenance": "literature measurements and zero-coded missing targets",
     "properties": [
+      "reported superconducting critical temperature",
       "chemical formula",
-      "experimental critical temperature",
-      "source identifier"
+      "zero-coded unreported Tc targets"
     ],
     "access": "open",
     "license": "CC BY 4.0 (Figshare deposit)",
@@ -7274,7 +7491,9 @@
       "homepage": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/supercon_chem_Tc/",
       "data": "https://doi.org/10.6084/m9.figshare.22975787.v1",
       "paper": "https://doi.org/10.1038/s41524-018-0085-8",
-      "code": "https://github.com/usnistgov/jarvis"
+      "code": "https://github.com/usnistgov/jarvis",
+      "upstream": "https://github.com/vstanev1/Supercon/tree/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5",
+      "upstream_csv": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/Supercon_data.csv"
     },
     "sources": [
       {
@@ -7300,13 +7519,27 @@
         "title": "Official supercon_chem JSON ZIP",
         "evidence": "Independently parsed 16,414 records with id, Tc and formula fields. ZIP SHA-256 14b7489822a1c25407cd6c83989dfca7f14263dfe6b5dc9f859969430c09e5b7.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md",
+        "title": "Stanev author missing-target convention",
+        "evidence": "Author states unreported critical temperatures are encoded as Tc=0. These values do not automatically establish tested negative experiments.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/Supercon_data.csv",
+        "title": "Stanev author CSV and JARVIS mirror audit",
+        "evidence": "CSV has 16,414 rows and 3,966 zeros; the exact (formula, numerical Tc) multiset matches official JARVIS JSON with zero extra/missing pairs. CSV SHA-256: b34a955cc59f7a1556bc92c4b9db559bfd634c03227b7e95337a2e5d69227dd6.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
       "Contains no atomic coordinates; source identifiers and formulas do not establish an unambiguous crystal structure.",
       "A derivative of SuperCon/Stanev data; overlap with MDR SuperCon, UCI and other cleaned SuperCon benchmarks must not be counted as independent new measurements.",
       "Includes Tc = 0 records; 16,414 is not a count of positive superconductors.",
-      "Official JARVIS DFT supercon_3d and supercon_2d cohorts have different structures, labels and counts."
+      "Official JARVIS DFT supercon_3d and supercon_2d cohorts have different structures, labels and counts.",
+      "Tc=0 includes targets assigned when critical temperature was unreported. The 3,966 zero-coded rows are not automatically confirmed negative experiments or distinct compounds.",
+      "The two public formats represent the same cohort and are counted once. The author repository has no explicit data license; CC BY 4.0 is recorded for the JARVIS Figshare deposit."
     ],
     "tags": [
       "superconductivity",
@@ -7316,7 +7549,17 @@
       "composition benchmark",
       "derivative",
       "superconductor",
-      "superconductors"
+      "superconductors",
+      "Stanev",
+      "Supercon_data.csv",
+      "missing labels"
+    ],
+    "additional_counts": [
+      {
+        "value": 3966,
+        "unit": "zero-coded Tc rows",
+        "scope": "Both public formats; includes unreported targets and does not establish confirmed negative experiments"
+      }
     ]
   },
   {
@@ -7530,14 +7773,20 @@
         "title": "3DSC primary article full text",
         "evidence": "Confirms 5,759 labels/5,773 MP structures and 9,150 labels/86,490 ICSD structures, artificial doping, ICSD reconstruction limitations and source-cohort overlap.",
         "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vstanev1/Supercon/6e56e577b2239ebb6bebdcaeefc9ba470a3d5ce5/README.md",
+        "title": "Upstream SuperCon missing-target convention",
+        "evidence": "The 3DSC descriptor identifies this Stanev parent. Its author README assigns zero to unreported Tc; inherited zeros must be assessed with measurement provenance.",
+        "verified_date": "2026-11-01"
       }
     ],
     "caveats": [
       "Structures can be approximate proxies modified by occupancy substitution; they are not all measurements of the labeled superconducting sample.",
       "Labels and structures have different provenance.",
       "The matched SuperCon composition/Tc-entry count is distinct from the larger matched-structure count; the two 3DSC cohorts overlap and should not be summed as independent materials.",
-      "Tc = 0 denotes tested nonsuperconducting entries in the source labels.",
-      "Fourteen matched SuperCon entries have two MP structures, explaining 5,773 structures versus 5,759 matched labels."
+      "Fourteen matched SuperCon entries have two MP structures, explaining 5,773 structures versus 5,759 matched labels.",
+      "The 3DSC authors operationally label Tc=0 entries as nonsuperconductors. Their Stanev parent also assigns zero to unreported Tc; zero alone does not verify a tested negative or a lower-temperature detection bound."
     ],
     "tags": [
       "Scientific-Data",
@@ -8901,6 +9150,12 @@
         "url": "https://www.nist.gov/open/license",
         "title": "NIST SRD copyright and licensing statements",
         "evidence": "Distinguishes copyrighted Standard Reference Data from other NIST employee works; no blanket public-domain assumption is warranted.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nist.gov/publications/nist-62-nistnrim-high-temperature-superconductors-database-version-20",
+        "title": "NIST 62: NIST/NRIM High Temperature Superconductors Database Version 2.0",
+        "evidence": "R. G. Munro’s 2008 publication documents the same WebHTS/SRD 62 family and 1987–1996 literature; no distinct downloadable corpus/count established.",
         "verified_date": "2026-11-01"
       }
     ],

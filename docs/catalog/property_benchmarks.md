@@ -4,6 +4,41 @@
 
 Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
+<a id="omdb-cod-bandgap-predictions"></a>
+## OMDB-GAP1 models: COD band-gap prediction release
+
+SOAP/kernel-ridge and SchNet band-gap predictions for a large COD-derived organic-crystal screening set, distinct from the DFT-labelled OMDB-GAP1 training corpus.
+
+**Size:** 260,092 COD crystal prediction records (source wording: 260,092 COD crystal entries with model-predicted band gaps).
+
+**Scope:** Named v1.1 COD prediction download, corresponding to the paper cohort of organic structures with at most 500 atoms per unit cell
+
+**Release:** COD predictions v1.1 on the OMDB dataset page; 2019 paper cohort. **Year:** 2019.
+
+**Provenance:** machine-learning predictions. **Structure availability:** `structure_linked`.
+
+**Labels/content:** machine-learning predicted band gap; SOAP/kernel-ridge band-gap prediction; SchNet band-gap prediction; ensemble band-gap prediction.
+
+**Access:** registration. **Dataset license:** Not verified.
+
+**Official routes:** [homepage](https://omdb.mathub.io/dataset/) · [data](https://omdb.mathub.io/dataset/download/gap1-cod_v1.1) · [paper](https://doi.org/10.1002/qute.201900023)
+
+**Evidence:**
+
+- [OMDB official dataset downloads](https://omdb.mathub.io/dataset/) (checked 2026-11-01): Separately lists OMDB-GAP1 v1.1 at 12,500 materials and a COD v1.1 machine-learning prediction download at 260,092 materials.
+- [Band Gap Prediction for Large Organic Crystal Structures with Machine Learning](https://onlinelibrary.wiley.com/doi/full/10.1002/qute.201900023) (checked 2026-11-01): Section 3.2 describes selecting organic COD structures containing C/H and supported elements, limiting cells to 500 atoms, and computing 260,092 model predictions; Data Availability identifies the release.
+- [OMDB COD prediction download access check](https://omdb.mathub.io/dataset/download/gap1-cod_v1.1) (checked 2026-11-01): Public download link redirects to the login page, which offers free registration; payload was not obtained without an account.
+
+**Reuse and interpretation notes:**
+
+- Properties are machine-learning predictions, not 260,092 new DFT calculations or measured band gaps.
+- The source crystal structures are COD-derived and overlap the COD family; no independent new-structure total is implied.
+- Provider release count was not independently recounted because download currently requires login.
+- Structure-linked classification denotes the named COD-source linkage; atomic-coordinate content and exact payload columns were not inspected.
+- Dataset-specific reuse license was not identified in the inspected download and terms pages.
+
+**Tags:** organic crystals, COD derivative, OMDB, band gap, machine-learning predictions, registration.
+
 <a id="wbm-matbench-discovery"></a>
 ## WBM / Matbench Discovery stability test set
 
@@ -311,19 +346,21 @@ Organic molecular-crystal structures paired with DFT band gaps for electronic-pr
 
 **Labels/content:** PBE band gap; molecular crystal structure.
 
-**Access:** open. **Dataset license:** Not verified.
+**Access:** registration. **Dataset license:** Not verified.
 
-**Official routes:** [homepage](https://omdb.mathub.io/) · [data](https://omdb.mathub.io/dataset/) · [paper](https://doi.org/10.1002/qute.201900023)
+**Official routes:** [homepage](https://omdb.mathub.io/) · [data](https://omdb.mathub.io/dataset/download/gap1_v1.1) · [paper](https://doi.org/10.1002/qute.201900023)
 
 **Evidence:**
 
 - [Organic Materials Database dataset downloads](https://omdb.mathub.io/dataset/) (checked 2026-11-01): Official download table lists OMDB-GAP1 v1.1, 12,500 materials, and DOI 10.1002/qute.201900023.
+- [OMDB-GAP1 download access check](https://omdb.mathub.io/dataset/download/gap1_v1.1) (checked 2026-11-01): Named v1.1 download redirects to free-registration login. Limited public browsing does not establish anonymous bulk access; payload was not downloaded.
 
 **Reuse and interpretation notes:**
 
 - Periodic molecular crystals are in scope; these are not isolated-molecule HOMO–LUMO gaps.
 - The 260,092 COD entry download on the same page contains ML predictions and is distinct from this DFT-labelled training corpus.
 - Overlaps COD-origin molecular crystal structures.
+- The current named download requires registration; public browsing and bulk-download access are separate.
 
 **Tags:** molecular crystal, organic, electronic, band gap, COD derivative.
 
@@ -688,7 +725,7 @@ Other denominators (not added to the ranking):
 
 DFT electronic bands, DOS and Fermi-surface representations linked to experimental superconducting-transition labels and crystal geometry.
 
-**Size:** 2,474 materials (source wording: 1,362 superconductors + 1,112 verified nonsuperconductors = 2,474 band-structure entries).
+**Size:** 2,474 materials (source wording: 1,362 superconductors plus 1,112 paper-designated nonsuperconductor entries = 2,474 band-data entries).
 
 **Scope:** Scientific Data 2025 band-data release
 
@@ -724,6 +761,7 @@ Other denominators (not added to the ranking):
 - Official superband.csv contains 8,625 nonheader reference/catalogue rows in the audited snapshot; this is not a replacement for the 2,474 computed-band cohort.
 - The snapshot has 8,598 nonempty formula fields and 27 blank formula fields; row counts are not a cleaned unique-material total.
 - The paper excludes extreme-pressure hydrides without suitable ambient-pressure structural data from the band cohort, while retaining such formulas in the reference catalogue.
+- The 1,112 negative labels are the paper’s designation, not an independent negative-experiment audit here. Review inherited SuperCon/3DSC missing-Tc conventions before treating zeros as confirmed negatives.
 
 **Tags:** superconductivity, electronic, mixed provenance, Scientific Data, superconductor, superconductors.
 
@@ -1130,6 +1168,47 @@ Fixed Matbench v0.1 structure-to-property prediction task dataset.
 - Preserve the official order and folds for benchmark comparability.
 
 **Tags:** Matbench, benchmark, structure-based, derived dataset.
+
+<a id="compsc-literature-epc"></a>
+## CompSC literature-curated conventional-superconductor structures and EPC parameters
+
+Literature-computed electron–phonon parameters linked to atomic structures curated by Tran and Vu for conventional-superconductor machine learning. The public corrected release contains periodic structures and pressure-dependent targets.
+
+**Size:** 586 crystal structures (source wording: 586 atomic structures; 583 values of lambda and 566 values of omega_log after August 2024 duplicate removal).
+
+**Scope:** Corrected CompSC/202305 public CSV and poscar.tgz at pinned repository revision; 586 rows and 586 regular POSCAR files, including multiple pressures/structures for a composition.
+
+**Release:** May 2023 dataset; duplicate removed August 2024; repository revision ec5411ca41a0726cad01324609ed34940c9e20ab. **Year:** 2023.
+
+**Provenance:** literature. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** electron–phonon coupling lambda (literature-computed); logarithmic phonon frequency omega_log (literature-computed); pressure; lattice parameters; atomic species and fractional coordinates; literature references.
+
+**Access:** open. **Dataset license:** Not verified; no repository license file or data license statement found..
+
+**Official routes:** [homepage](https://github.com/huantd/matsdata/tree/main/CompSC/202305) · [data](https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/poscar.tgz) · [paper](https://doi.org/10.1103/PhysRevMaterials.7.054805) · [code](https://github.com/huantd/matsdata)
+
+Other denominators (not added to the ranking):
+
+- 583 numeric lambda records: corrected 586-row CSV
+- 566 numeric omega_log records: corrected 586-row CSV
+
+**Evidence:**
+
+- [CompSC author README, corrected release](https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/README) (checked 2026-11-01): Author documents original 587 structures and the August 2024 duplicate removal, leaving 586 structures, 583 lambda values and 566 omega_log values.
+- [CompSC released CSV](https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/supercond_May23.csv) (checked 2026-11-01): Direct parse: 586 rows with 272 distinct composition strings; 583 numeric Lambda values and 566 numeric omlog values. 584 pressures parse numerically, spanning 0–800; two pressure cells contain filename-like strings.
+- [CompSC released periodic structures](https://raw.githubusercontent.com/huantd/matsdata/ec5411ca41a0726cad01324609ed34940c9e20ab/CompSC/202305/poscar.tgz) (checked 2026-11-01): In-memory archive listing contains exactly 586 regular files named struct-*.vasp; no extraction needed.
+- [Machine-learning approach for discovery of conventional superconductors](https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.054805) (checked 2026-11-01): Tran and Vu, Physical Review Materials 7, 054805 (31 May 2023): predicts lambda and omega_log from structures; Tc is computed afterward rather than supplied as experimental ground truth.
+
+**Reuse and interpretation notes:**
+
+- Targets are literature-computed EPC parameters, not experimental Tc measurements; composition repeats across pressure and structural cases.
+- The 2024 ACS review reports the earlier 587-structure cohort; the public corrected denominator is 586.
+- The pressure column has two nonnumeric cells (IDs 567 and 568: 270Pa.vasp and 300Pa.vasp). Numeric values reach 800; do not impose the review’s historical up-to-500-GPa description on the released file.
+- Missing lambda and omega_log labels are distinct from zero. A downstream Tc estimate requires a specified formula and Coulomb pseudopotential.
+- Public downloading does not establish redistribution rights.
+
+**Tags:** superconductivity, electron-phonon, EPC, high-pressure, hydrides, literature-curated, POSCAR, CompSC, superconductor, superconductors.
 
 <a id="mastml-dilute-diffusion-education"></a>
 ## MAST-ML dilute-solute diffusion educational slice

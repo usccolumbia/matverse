@@ -1,0 +1,20 @@
+{
+  "checked_date": "2026-11-01",
+  "dataset_records": 164,
+  "resources": 51,
+  "source_entries": 821,
+  "source_collections": 7,
+  "requested_unique_urls": 32,
+  "all_requested_urls_in_sources_md_and_json": true,
+  "functional_tests_passed": 19,
+  "browser_checks": {
+    "requested_collection": "32 of821 entries;7 source collections",
+    "CDCS": "1 canonical resource and1 supplied-list entry",
+    "UCSD": "1 reference resource; availability and count limits visible",
+    "CompSC": "1 dataset record;586 structures",
+    "console_errors_or_warnings": 0,
+    "body_width_matches_viewport": true
+  },
+  "index_sha256": "4dcce087858f1b33dc5114320e956ea34eaee439c56b2e225f5dc80fca2a9faf",
+  "note": "Source inventory and crosswalk generated from the supplied list; original legacy URLs retained. No upstream data payloads published."
+}

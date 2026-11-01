@@ -18,7 +18,7 @@ def render():
                'collections': inventory['collections'], 'sourceEntries': inventory['entries']}
     encoded = json.dumps(payload, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
     template = (ROOT / 'web/index.template.html').read_text()
-    for token, value in {'__DATASET_COUNT__': len(datasets), '__RESOURCE_COUNT__': len(resources), '__ENTRY_COUNT__': len(inventory['entries']), '__CATEGORY_COUNT__': len(CATEGORIES), '__SOURCE_COUNT__': len({s['url'] for d in datasets for s in d['sources']})}.items():
+    for token, value in {'__DATASET_COUNT__': len(datasets), '__RESOURCE_COUNT__': len(resources), '__ENTRY_COUNT__': len(inventory['entries']), '__COLLECTION_COUNT__': len(inventory['collections']), '__CATEGORY_COUNT__': len(CATEGORIES), '__SOURCE_COUNT__': len({s['url'] for d in datasets for s in d['sources']})}.items():
         template = template.replace(token, str(value))
     assert all(template.count(token) == 1 for token in ['__STYLE__', '__CATALOG__', '__APP__'])
     html = template.replace('__STYLE__', (ROOT / 'web/styles.css').read_text()).replace('__CATALOG__', encoded).replace('__APP__', (ROOT / 'web/app.js').read_text())

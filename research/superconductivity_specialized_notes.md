@@ -2,6 +2,10 @@
 
 Completed ten dataset proposals and four existing-entry correction proposals. Only the three assigned research outputs were edited; canonical data and UI were left to the parent agent. Primary author repositories, data deposits, NIST documentation, archive metadata and author papers support these proposals. Cached raw responses remain under the ignored `research/cache/superconductivity-specialized/` directory; no full articles are mirrored in these tracked outputs.
 
+## Follow-up correction
+
+The original zero-Tc interpretation in the accompanying correction-proposal snapshot is superseded by the [later primary-source audit](resource_supplement_superconductivity_notes.md). The Stanev author maps unreported Tc to zero; the canonical catalog now qualifies inherited zero labels. The original proposal JSON remains a historical audit artifact.
+
 ## Integration format
 
 `superconductivity_specialized_additions.json` is an array of full canonical dataset records. `superconductivity_existing_corrections.json` is a dictionary keyed by canonical ID; each value contains replacement field values suitable for a shallow update of the existing record. Existing source and caveat lists were retained and extended. Main counts and names were deliberately omitted from corrections, so the parent agent's naming/tag changes can be retained.
