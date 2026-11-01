@@ -9,8 +9,27 @@ const SCOPE_LABELS = {crystal_related:'Crystal-related',adjacent:'Adjacent domai
 function normalize(value){return String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim();}
 function normalizeSearch(value){return normalize(value).replace(/\b(?:superconductors?|superconductivity|superconducting|superconductive|supercon)\b/g,'superconductivity').replace(/\bcritical temperatures?\b|\bt c\b/g,'tc');}
 function queryTokens(query){return (normalizeSearch(query).match(/"[^"]+"|\S+/g)||[]).map(t=>t.replace(/^"|"$/g,'')).filter(Boolean);}
-function searchable(record,categories={}){const raw=JSON.stringify(record)+' '+(categories[record.category]||'');return normalize(raw)+' '+normalizeSearch(raw);}
-function matchesQuery(record,query,categories={}){const text=searchable(record,categories);return queryTokens(query).every(token=>token==='tc'?/\btc\b/.test(text):text.includes(token));}
+// The bundled catalog is immutable. Index it once, rather than serializing and
+// normalizing thousands of evidence records during every input event.
+const searchIndex=new WeakMap();
+const nameCollator=new Intl.Collator('en',{sensitivity:'base'});
+function searchable(record,categories={}){
+  const category=categories[record.category]||'';
+  const cached=searchIndex.get(record);
+  if(cached&&cached.category===category)return cached.text;
+  const raw=JSON.stringify(record)+' '+category;
+  return normalize(raw)+' '+normalizeSearch(raw);
+}
+function prepareSearchIndex(catalog){
+  for(const [key,categories] of [['datasets',catalog.categories],['resources',{}],['sourceEntries',{}],['apiSources',{}]])
+    for(const record of catalog[key]||[])searchIndex.set(record,{category:categories?.[record.category]||'',text:searchable(record,categories)});
+}
+function queryMatcher(query,categories){
+  const tokens=queryTokens(query);
+  if(!tokens.length)return ()=>true;
+  return record=>{const text=searchable(record,categories);return tokens.every(token=>token==='tc'?/\btc\b/.test(text):text.includes(token));};
+}
+function matchesQuery(record,query,categories={}){return queryMatcher(query,categories)(record);}
 function unitKind(d){
   const u=normalize(d.count_unit);
   if(/frame|configuration|ionic step|snapshot/.test(u))return 'configurations';
@@ -21,7 +40,7 @@ function unitKind(d){
 function licenseUnknown(d){return /not verified|unverified|not stated/i.test(d.license);}
 function sortDatasets(rows,sort,categories){
   const rank=Object.keys(categories);
-  const name=(a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'})||a.id.localeCompare(b.id);
+  const name=(a,b)=>nameCollator.compare(a.name,b.name)||a.id.localeCompare(b.id);
   return [...rows].sort((a,b)=>{
     if(sort==='name')return name(a,b);
     if(sort==='newest')return (b.year??-1)-(a.year??-1)||name(a,b);
@@ -32,16 +51,17 @@ function sortDatasets(rows,sort,categories){
   });
 }
 function filterDatasets(data,state,categories){
+  const matches=queryMatcher(state.q,categories);
   return sortDatasets(data.filter(d=>
     (!state.category||d.category===state.category)&&(!state.access||d.access===state.access)&&
     (!state.structure||d.structure_level===state.structure)&&
     (!state.license||(state.license==='unknown'?licenseUnknown(d):!licenseUnknown(d)))&&
-    (!state.unit||(state.unit==='unknown'?d.count===null:unitKind(d)===state.unit))&&matchesQuery(d,state.q,categories)
+    (!state.unit||(state.unit==='unknown'?d.count===null:unitKind(d)===state.unit))&&matches(d)
   ),state.sort,categories);
 }
-function filterResources(data,state){return data.filter(d=>matchesQuery(d,state.q)).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));}
+function filterResources(data,state){const matches=queryMatcher(state.q);return data.filter(matches).sort((a,b)=>nameCollator.compare(a.name,b.name));}
 function filterAPIs(data,state){return filterResources(data.filter(r=>(!state.api_kind||r.kind===state.api_kind)&&(!state.api_auth||r.auth===state.api_auth)),state);}
-function filterSourceEntries(data,state){return data.filter(e=>(!state.collection||e.collection===state.collection)&&(!state.scope||e.scope===state.scope)&&matchesQuery(e,state.q)).sort((a,b)=>a.collection_name.localeCompare(b.collection_name,'en',{sensitivity:'base'})||a.position-b.position);}
+function filterSourceEntries(data,state){const matches=queryMatcher(state.q);return data.filter(e=>(!state.collection||e.collection===state.collection)&&(!state.scope||e.scope===state.scope)&&matches(e)).sort((a,b)=>nameCollator.compare(a.collection_name,b.collection_name)||a.position-b.position);}
 function globalSearchState(query,view='datasets'){return {...DEFAULT_STATE,q:query,view};}
 function searchOverview(catalog,query){
   const state=globalSearchState(query);
@@ -68,6 +88,7 @@ function propertyAccessHTML(d){
 function startApp(){
   const catalog=JSON.parse(document.getElementById('catalog-data').textContent);
   const {datasets,resources,categories,collections,sourceEntries,apiSources}=catalog;
+  prepareSearchIndex(catalog);
   const params=new URLSearchParams(location.search);
   let state={...DEFAULT_STATE};
   for(const k of Object.keys(DEFAULT_STATE))if(params.has(k))state[k]=params.get(k);
@@ -80,7 +101,7 @@ function startApp(){
   if(!['category','largest','smallest','name','newest'].includes(state.sort))state.sort='category';
   if(!['','structures','configurations','observations','unknown'].includes(state.unit))state.unit='';
   const expanded=new Set();
-  let visible=[];
+  let visible=[],searchTimer;
   const $=id=>document.getElementById(id);
   const esc=escapeHTML;
   const external=(url,label,cls='')=>`<a href="${esc(safeURL(url))}" target="_blank" rel="noopener"${cls?` class="${cls}"`:''}>${label}</a>`;
@@ -101,7 +122,7 @@ function startApp(){
   }
   function datasetRow(d){
     const open=expanded.has(d.id);const provider=d.links.homepage||d.links.data||d.links.paper;
-    return `<tr class="dataset-row${open?' expanded':''}" id="release-${d.id}" data-id="${d.id}"><td>${external(provider,esc(d.name)+'<span class="external-arrow" aria-hidden="true">↗</span>','dataset-link')}<p class="category-label">${d.year?`<span class="year-pill">${d.year}</span>`:''}${esc(categoryShort[d.category]||categories[d.category])}</p></td><td><span class="dataset-count${d.count===null?' unranked':''}">${formatCount(d)}</span><span class="count-unit">${esc(d.count_unit)}</span></td><td><div class="properties">${d.properties.slice(0,3).map(p=>`<span class="property-tag">${esc(p)}</span>`).join('')}${d.properties.length>3?`<span class="property-tag">+${d.properties.length-3}</span>`:''}</div><p class="dataset-description">${esc(d.description)}</p>${d.property_dataset?`<p class="property-route-label">Via MateriaViva · ${d.property_dataset.upstream_sources.length} original source${d.property_dataset.upstream_sources.length===1?'':'s'}</p>`:''}</td><td><span class="access-badge ${d.access}">${accessLabel[d.access]}</span><p class="license-text">${esc(d.license)}</p></td><td class="details-cell"><button class="details-toggle" type="button" aria-expanded="${open}" aria-controls="detail-${d.id}" aria-label="${open?'Close':'View'} details for ${esc(d.name)}" data-expand="${d.id}">${open?'−':'i'}</button></td></tr><tr class="detail-row" id="detail-${d.id}"${open?'':' hidden'}><td colspan="5">${detailHTML(d)}</td></tr>`;
+    return `<tr class="dataset-row${open?' expanded':''}" id="release-${d.id}" data-id="${d.id}"><td>${external(provider,esc(d.name)+'<span class="external-arrow" aria-hidden="true">↗</span>','dataset-link')}<p class="category-label">${d.year?`<span class="year-pill">${d.year}</span>`:''}${esc(categoryShort[d.category]||categories[d.category])}</p></td><td><span class="dataset-count${d.count===null?' unranked':''}">${formatCount(d)}</span><span class="count-unit">${esc(d.count_unit)}</span></td><td><div class="properties">${d.properties.slice(0,3).map(p=>`<span class="property-tag">${esc(p)}</span>`).join('')}${d.properties.length>3?`<span class="property-tag">+${d.properties.length-3}</span>`:''}</div><p class="dataset-description">${esc(d.description)}</p>${d.property_dataset?`<p class="property-route-label">Via MateriaViva · ${d.property_dataset.upstream_sources.length} original source${d.property_dataset.upstream_sources.length===1?'':'s'}</p>`:''}</td><td><span class="access-badge ${d.access}">${accessLabel[d.access]}</span><p class="license-text">${esc(d.license)}</p></td><td class="details-cell"><button class="details-toggle" type="button" aria-expanded="${open}" aria-controls="detail-${d.id}" aria-label="${open?'Close':'View'} details for ${esc(d.name)}" data-expand="${d.id}">${open?'−':'i'}</button></td></tr><tr class="detail-row" id="detail-${d.id}"${open?'':' hidden'}><td colspan="5">${open?detailHTML(d):''}</td></tr>`;
   }
   function sourceEntryCard(e){
     return `<article class="resource-card source-entry"><span class="resource-kind">${esc(SCOPE_LABELS[e.scope])}</span><h3>${external(e.url,esc(e.label)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p class="entry-section">${esc(e.section)}</p><p class="entry-url">${external(e.url,esc(e.url))}</p><div class="entry-origin"><span>FROM SOURCE COLLECTION</span>${external(e.collection_url,esc(e.collection_name))}<small>Original link occurrence ${e.position} · imported discovery lead</small></div></article>`;
@@ -136,9 +157,10 @@ function startApp(){
     panel.hidden=false;
   }
   function render(){
+    clearTimeout(searchTimer);
     const resourceMode=state.view==='resources',sourceMode=state.view==='sources',datasetMode=state.view==='datasets',apiMode=state.view==='apis';
     visible=apiMode?filterAPIs(apiSources,state):sourceMode?filterSourceEntries(sourceEntries,state):resourceMode?filterResources(resources,state):filterDatasets(datasets,state,categories);
-    $('search').value=state.q;
+    if($('search').value!==state.q)$('search').value=state.q;
     for(const k of ['category','access','structure','license','sort','collection','scope','api_kind','api_auth'])$(k).value=state[k];
     $('clear-search').hidden=!state.q;
     document.querySelectorAll('.dataset-filter').forEach(el=>el.hidden=!datasetMode);
@@ -162,8 +184,9 @@ function startApp(){
     $('resource-grid').hidden=datasetMode||visible.length===0;
     $('empty-state').hidden=visible.length!==0;
     $('table-footnote').textContent=apiMode?'Verification is dated: a small record sample, metadata response, empty response, authentication requirement or unsuccessful probe are different outcomes. Interface access does not establish scientific quality or data reuse rights.':sourceMode?'Entries preserve source context; exact-URL deduplication is documented per collection. Scope labels aid discovery; destinations, counts and licenses require their own evidence. Source entries are excluded from dataset size rankings.':resourceMode?'Portals, APIs and collections are navigation resources, not additional independent crystal datasets.':'~ Approximate · ≥ Reported lower bound · Unranked = size unverified. “Public access” describes availability; data may still carry restrictions. Expand a release for its source evidence.';
-    if(datasetMode)$('dataset-rows').innerHTML=visible.map(datasetRow).join('');
-    else $('resource-grid').innerHTML=apiMode?visible.map(apiCard).join(''):sourceMode?visible.map(sourceEntryCard).join(''):visible.map(r=>`<article class="resource-card"><span class="resource-kind">${esc(r.kind)}</span><h3>${external(r.url,esc(r.name)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p>${esc(r.description)}</p><details><summary>Source evidence · ${r.sources.length}</summary><ul>${sourceList(r)}</ul></details></article>`).join('');
+    // Clear the inactive view too, so its old DOM does not accumulate.
+    $('dataset-rows').innerHTML=datasetMode?visible.map(datasetRow).join(''):'';
+    $('resource-grid').innerHTML=datasetMode?'':apiMode?visible.map(apiCard).join(''):sourceMode?visible.map(sourceEntryCard).join(''):visible.map(r=>`<article class="resource-card"><span class="resource-kind">${esc(r.kind)}</span><h3>${external(r.url,esc(r.name)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p>${esc(r.description)}</p><details><summary>Source evidence · ${r.sources.length}</summary><ul>${sourceList(r)}</ul></details></article>`).join('');
     $('export-csv').disabled=$('export-json').disabled=visible.length===0;
     renderChips();renderSearchOverview();updateURL();
   }
@@ -173,7 +196,7 @@ function startApp(){
     const open=force||!expanded.has(id);
     if(open)expanded.add(id);else expanded.delete(id);
     const row=$('release-'+id),panel=$('detail-'+id),button=row?.querySelector('[data-expand]');
-    if(row&&panel&&button){row.classList.toggle('expanded',open);panel.hidden=!open;button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',`${open?'Close':'View'} details for ${d.name}`);button.textContent=open?'−':'i';if(open&&matchMedia('(max-width:700px)').matches){$('dataset-table-wrap').scrollTo({left:0});panel.scrollIntoView({block:'nearest'});}}
+    if(row&&panel&&button){if(open&&!panel.firstElementChild.innerHTML)panel.firstElementChild.innerHTML=detailHTML(d);row.classList.toggle('expanded',open);panel.hidden=!open;button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',`${open?'Close':'View'} details for ${d.name}`);button.textContent=open?'−':'i';if(open&&matchMedia('(max-width:700px)').matches){$('dataset-table-wrap').scrollTo({left:0});panel.scrollIntoView({block:'nearest'});}}
   }
   function openHash(){
     let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
@@ -191,7 +214,11 @@ function startApp(){
   $('stat-resources').textContent=$('resource-view-count').textContent=resources.length;
   $('checked-date').textContent=new Intl.DateTimeFormat('en-GB',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(catalog.checkedDate+'T12:00:00Z')).toUpperCase();
   $('filters').addEventListener('submit',e=>e.preventDefault());
-  $('search').addEventListener('input',e=>{state.q=e.target.value;render();});
+  // Coalesce fast typing; keep input responsive and use only the latest query.
+  const scheduleSearch=()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>render(),100);};
+  $('search').addEventListener('input',e=>{state.q=e.target.value;clearTimeout(searchTimer);if(!e.isComposing)scheduleSearch();});
+  $('search').addEventListener('compositionend',e=>{state.q=e.target.value;scheduleSearch();});
+  $('search').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.isComposing){e.preventDefault();render();}});
   for(const k of ['category','access','structure','license','sort','collection','scope','api_kind','api_auth'])$(k).addEventListener('change',e=>{state[k]=e.target.value;render();});
   $('clear-search').addEventListener('click',()=>{state.q='';render();$('search').focus();});
   $('type-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-unit]');if(b){state.unit=b.dataset.unit;render();}});
@@ -211,6 +238,7 @@ function startApp(){
   window.addEventListener('hashchange',openHash);
   window.addEventListener('popstate',()=>{const p=new URLSearchParams(location.search);state={...DEFAULT_STATE};for(const k in state)if(p.has(k))state[k]=p.get(k);render();openHash();});
   function download(type){
+    render(); // Include a query still waiting for the typing delay.
     if(!visible.length)return;
     const content=type==='csv'?csvFor(visible,state.view):JSON.stringify(visible,null,2)+'\n';
     const blob=new Blob([content],{type:type==='csv'?'text/csv;charset=utf-8':'application/json;charset=utf-8'});
@@ -219,5 +247,5 @@ function startApp(){
   $('export-csv').addEventListener('click',()=>download('csv'));$('export-json').addEventListener('click',()=>download('json'));
   render();openHash();
 }
-if(typeof module!=='undefined'&&module.exports)module.exports={propertyAccessHTML,normalize,normalizeSearch,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,filterAPIs,filterSourceEntries,searchOverview,globalSearchState,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
+if(typeof module!=='undefined'&&module.exports)module.exports={prepareSearchIndex,propertyAccessHTML,normalize,normalizeSearch,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,filterAPIs,filterSourceEntries,searchOverview,globalSearchState,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
 if(typeof document!=='undefined')startApp();

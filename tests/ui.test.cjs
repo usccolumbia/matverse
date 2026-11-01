@@ -260,3 +260,12 @@ test('repository coverage additions are searchable across their appropriate view
  assert.equal(datasets.find(x=>x.id==='odbx').count,null);
  assert.match(apiSources.find(x=>x.id==='matcloud-optimade').verification.note,/null/);
 });
+test('prepared index preserves every match, order, phrase and synonym across views',()=>{
+ const catalog={datasets,resources,apiSources,categories,sourceEntries:inventory.entries};
+ const queries=['','s','superconductor','critical temperature','Tc','"Materials Project"','band gap','NOMAD','thermoelectric','not-a-real-dataset'];
+ const ids=results=>Object.fromEntries(Object.entries(results).map(([kind,rows])=>[kind,rows.map(r=>r.id||r.name)]));
+ const before=queries.map(q=>ids(ui.searchOverview(catalog,q)));
+ ui.prepareSearchIndex(catalog);
+ queries.forEach((q,i)=>assert.deepEqual(ids(ui.searchOverview(catalog,q)),before[i]));
+ assert.equal(ui.matchesQuery(datasets[0],'alternate category',{[datasets[0].category]:'alternate category'}),true);
+});
