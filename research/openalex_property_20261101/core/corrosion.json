@@ -1,0 +1,4201 @@
+{
+  "mode": "search",
+  "query": "alloy corrosion dataset database",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Dataset of electrochemical corrosion for special materials in marine environments",
+      "authors": [
+        "Xuelian Xiao",
+        "Ming Lou",
+        "Haokai Dong",
+        "Kai Xu",
+        "Yan Ma",
+        "Keke Chang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xuelian Xiao",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Lou",
+          "orcid": "0000-0003-4796-8871",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haokai Dong",
+          "orcid": "0000-0002-9901-2719",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kai Xu",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Ma",
+          "orcid": "0000-0002-1206-7822",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keke Chang",
+          "orcid": "0000-0001-9118-7031",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ScienceDB",
+      "doi": "10.57760/sciencedb.011l8",
+      "type": "dataset",
+      "url": "https://doi.org/10.57760/sciencedb.011l8",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.57760/sciencedb.011l8",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "This dataset falls within the fields of marine materials corrosion and electrochemistry and systematically compiles electrochemical corrosion data for representative marine special materials, including TiC-based cermets, WC-based cemented carbides, Ni-based alloys, Ti-based alloys, and Ti-modified duplex stainless steels. The dataset contains both structured parameter data and continuous electrochemical curve data. The Excel database consists of seven worksheets and approximately 532,000 valid data entries, covering different material compositions, processing states, temperatures, hydrostatic pressures, immersion times, and electrolyte conditions. The dataset can be used for comparative evaluation of corrosion resistance across different material systems, analysis of environmental effects on corrosion behaviour, and investigation of passive-film and interfacial electrochemical mechanisms. It can also serve as a data resource for materials informatics and machine learning, enabling the establishment of quantitative composition–environment–corrosion property relationships and the development of predictive models for corrosion performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Corrosion Mechanisms and Protective Strategies in Aluminum Alloys",
+      "authors": [
+        "Amlan Das",
+        "R. Shashanka"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Amlan Das",
+          "orcid": null,
+          "affiliations": [
+            "The Charutar Vidya Mandal (CVM) University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "R. Shashanka",
+          "orcid": "0000-0002-6705-763X",
+          "affiliations": [
+            "Global Academy of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "IntechOpen eBooks",
+      "doi": "10.5772/intechopen.1013382",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.5772/intechopen.1013382",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.intechopen.com/citation-pdf-url/1236834",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "While aluminum alloys are practically employed in aerospace, automotive, marine, and structural fields for their excellent strength-to-weight ratio and easy workability, corrosion generally occurs in them. Corrosion, particularly in these alloys, is caused by micro-galvanic interaction between local anodes and cathodes created by intermetallic particles and the surrounding matrix. This manifests in various forms of corrosion, such as pitting, intergranular corrosion, selective dissolution, trenching, exfoliation, and surface grain etch-out. The degradation progresses further in conjunction with alloy composition, thermomechanical history, the type of environment the alloy is exposed to, and grain energy linked with defect densities. Studies have primarily focused on understanding the electrochemical nature of corrosion and have indicated that the protective passive layer of aluminum oxide (AlO) is vital to resisting corrosion, although its efficacy can be undermined under harsh conditions like chloride-rich environments. Techniques to protect aluminum alloys include alloying modifications, surface treatments such as anodizing and conversion coatings, cathodic protection, and corrosion inhibitors. Still, there are issues regarding the balance of mechanical properties versus corrosion resistance, environmentally friendly protective coatings, and a detailed understanding of localized corrosion on the microscale. Therefore, multiscale modeling, advanced characterization procedures, and sustainable material solutions are underway to ensure aluminum alloy components exhibit enhanced durability and longer service life in harsh environments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Data-driven corrosion assessment of magnesium alloys: A multi-level graph attention network for quantitative hydrogen-evolution prediction",
+      "authors": [
+        "Xinqian Zhao",
+        "Xu Qin",
+        "Shouxin Xia",
+        "Jiabao Long",
+        "Dabiao Xia",
+        "Huabao Yang",
+        "Di Zhao",
+        "Qinghang Wang",
+        "Daolun Chen"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xinqian Zhao",
+          "orcid": null,
+          "affiliations": [
+            "Yangzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xu Qin",
+          "orcid": "0009-0004-7173-3292",
+          "affiliations": [
+            "Yangzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shouxin Xia",
+          "orcid": null,
+          "affiliations": [
+            "Yangzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiabao Long",
+          "orcid": null,
+          "affiliations": [
+            "Yangzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dabiao Xia",
+          "orcid": "0000-0003-1563-4893",
+          "affiliations": [
+            "Ji Hua Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huabao Yang",
+          "orcid": "0009-0003-1974-9919",
+          "affiliations": [
+            "Shaoxing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Di Zhao",
+          "orcid": null,
+          "affiliations": [
+            "Suzhou University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qinghang Wang",
+          "orcid": "0000-0002-7640-7195",
+          "affiliations": [
+            "Yangzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daolun Chen",
+          "orcid": null,
+          "affiliations": [
+            "Toronto Metropolitan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Magnesium and Alloys",
+      "doi": "10.1016/j.jma.2025.101964",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jma.2025.101964",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.jma.2025.101964",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnesium (Mg) alloys are highly valued in aerospace, biomedical and other fields due to their high specific strength. However, non-uniform corrosion failure during service remains a core challenge that restricts their engineering applications. Traditional corrosion kinetics models fail to accurately elucidate the cross-scale synergy mechanism between microstructure and macroscopic corrosion behavior. In this study, based on 13 kinds of Mg alloys, 20 sets of 100-h hydrogen evolution curves, and characterization data from scanning electron microscopy (SEM) and electron backscatter diffraction (EBSD) information, a multi-level corrosion kinetics database was constructed, covering physicochemical parameters, micro-grain topological structures and second phase features, as well as macroscopic statistical characteristics and temporal dimension. Through machine learning algorithms, key corrosion driving factors were identified, and a multi-level graph attention network modeling framework was proposed, where the grains and grain boundaries were constructed as a graph structure, and the hierarchical interaction modeling between microstructure and corrosion kinetics was realized by combining the attention mechanism. The model has been validated in a new Mg alloy dataset for its predictive capability across compositional systems. This work provides a new computational paradigm and significantly enhances the predictability and efficiency of corrosion-resistant Mg alloy design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Pitting corrosion growth of an Inconel alloy revealed by three-dimensional reconstruction",
+      "authors": [
+        "Xinyu Li",
+        "Lijun Wang",
+        "Yang Liu",
+        "Yanjing Su",
+        "Mingjia Yao",
+        "Haiyou Huang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xinyu Li",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lijun Wang",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Liu",
+          "orcid": "0000-0002-0684-8366",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanjing Su",
+          "orcid": "0000-0003-2773-4015",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingjia Yao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haiyou Huang",
+          "orcid": "0000-0002-2801-2535",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Microstructures",
+      "doi": "10.20517/microstructures.2025.139",
+      "type": "article",
+      "url": "https://doi.org/10.20517/microstructures.2025.139",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://f.oaes.cc/xmlpdf/published/article/de43eb64affcfab79172e81f65b449b0/microstructures50139.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Establishing a high-quality service database is crucial for the service evaluation and life prediction of materials and equipment, particularly in the nuclear power industry, where data that accurately capture the internal evolution of service-related defects can improve the reliability of predictive models. This study investigates the pitting corrosion growth of Inconel 690 alloy by systematically tracking different growth stages of pits using optical microscopy, scanning electron microscopy, and three-dimensional (3D) reconstruction techniques, thereby obtaining comprehensive pitting evolution data. Three-dimensional models were constructed under corrosion conditions of 70 and 90 °C, and the temporal evolution of key geometric parameters was analyzed using a power-law relationship to characterize the growth behavior and time dependence of pitting corrosion. In addition, the shielding effect of the lacy cover on pit interiors was analyzed, highlighting the necessity of acquiring comprehensive pitting evolution data. This work provides a representative example for the collection and analysis of full-information data to support service performance evaluation and digital twin applications in nuclear power materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Lifetime Assessment of Ni-Base Alloys Under Combined Effects of Creep and Corrosion for Supercritical CO2–Molten Salts Heat Exchangers",
+      "authors": [
+        "Rishi Pillai",
+        "Debashish Sur",
+        "Sangkeun Lee",
+        "Marie Romedenne"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Rishi Pillai",
+          "orcid": null,
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Debashish Sur",
+          "orcid": "0000-0002-7954-9949",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sangkeun Lee",
+          "orcid": null,
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marie Romedenne",
+          "orcid": "0000-0003-1793-6561",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "JOM",
+      "doi": "10.1007/s11837-026-08778-5",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11837-026-08778-5",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Advances in Understanding of Secondary Phases and Their Corrosion Implications in Stainless Steel Alloys—A Review",
+      "authors": [
+        "Ihsan‐ul‐Haq Toor"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ihsan‐ul‐Haq Toor",
+          "orcid": "0000-0002-0755-639X",
+          "affiliations": [
+            "King Fahd University of Petroleum and Minerals"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Corrosion and Materials Degradation",
+      "doi": "10.3390/cmd7010009",
+      "type": "review",
+      "url": "https://doi.org/10.3390/cmd7010009",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2624-5558/7/1/9/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The formation and evolution of secondary phases, such as sigma (σ), chi (χ), Laves, carbides (M23C6), and nitrides (Cr2N), have a fundamental impact on the corrosion resistance of stainless steels. These stages alter the matrix’s local chemistry, compromise the passive film’s quality, and promote micro-galvanic interaction, which enhances localized corrosion issues. The thermodynamic stability, precipitation kinetics, and corrosion consequences of secondary phases in austenitic, ferritic, duplex, and lightweight (Fe–Mn–Al–C) stainless-steel systems are thoroughly reviewed and discussed in this paper. Advances in high-resolution characterization techniques, such as TEM, EBSD, atom-probe tomography, and in situ synchrotron techniques, have made it possible to map corrosion problems caused by secondary phases at the nanoscale. Computational thermodynamics (CALPHAD, DICTRA, TC-PRISMA) and emerging machine-learning models now provide quantitative prediction of phase formation and dissolution. Strategies for mitigation through alloy design, thermal treatment, and surface engineering are summarized, together with additive-manufacturing approaches for microstructural tailoring. Finally, this review highlights the integration of multi-scale modeling and sustainable alloy design to ensure phase-stable, corrosion-resistant stainless steels that enhance asset integrity and infrastructure reliability as per Sustainable Development Goals.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Laser Processing of Fe-Cr-B Alloys: Microstructure Evolution, Non-Equilibrium Solidification and Wear–Corrosion Performance",
+      "authors": [
+        "Lei He",
+        "Changle Zhang",
+        "Jiang Ju",
+        "Zhizu Zhang",
+        "Jintao Liu",
+        "Huajun Zhang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Lei He",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "Luoyang Ship Material Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changle Zhang",
+          "orcid": "0000-0001-6866-950X",
+          "affiliations": [
+            "Luoyang Ship Material Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiang Ju",
+          "orcid": "0000-0002-6834-135X",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhizu Zhang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jintao Liu",
+          "orcid": "0000-0003-1203-3187",
+          "affiliations": [
+            "Luoyang Ship Material Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huajun Zhang",
+          "orcid": "0000-0002-5135-8198",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma19132767",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma19132767",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/ma19132767",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Fe-Cr-B alloys are recognized as candidate wear- and corrosion-resistant materials strengthened by high-hardness boride phases. Conventional casting produces coarse continuous network borides and severe elemental segregation under near-equilibrium slow solidification (10−1–102 K/s), resulting in high brittleness and limited service reliability. Laser processing includes laser cladding (103–106 K/s), LPBF/DED (106–108 K/s) and laser remelting, which feature extreme non-equilibrium rapid solidification but differ significantly in thermal gradient G, solidification rate R, and phase evolution behavior. To avoid over-extrapolation, this review strictly classifies evidence into direct LPBF evidence, direct DED evidence, laser cladding evidence, casting evidence, and indirect inference. Quantitative comparisons reveal that laser cladding refines borides from 150 to 300 μm to 10.8–20 μm, while DED further achieves 1–5 μm equiaxed grains and relative density > 98%. Meanwhile, laser-cladding Fe-Cr-B coatings achieve a maximum hardness of ~1052 HV0.5, and ~18% higher wear resistance and ~70% lower cavitation mass loss compared with cast counterparts. Non-equilibrium mechanisms including solute trapping, interface absolute stability, constitutional undercooling, and columnar-to-equiaxed transition (CET) controlled by the Gn/R ratio are systematically analyzed. Thermal–solutal coupling, grain nucleation, and boride precipitation kinetics under rapid cooling are emphasized. Current limitations include incomplete non-equilibrium thermodynamic databases, insufficient standardization, limited post-processing (heat treatment, HIP) studies, and missing unified performance datasets. Future directions are proposed toward quantitative phase-field modeling, standardized tribocorrosion characterization, high-throughput experiments, and machine learning-assisted optimization. This review provides a rigorous analytical framework for the composition–process–microstructure–performance design of laser-processed Fe-Cr-B alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Research Advances in the Corrosion Behavior and Underlying Mechanisms of Additively Manufactured Titanium Alloys",
+      "authors": [
+        "Boyan Zhang",
+        "Yuman Tang",
+        "B Q Liu",
+        "Teng Liu",
+        "Zhisheng Nong",
+        "Hongliang Zhang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Boyan Zhang",
+          "orcid": "0000-0001-5170-281X",
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuman Tang",
+          "orcid": null,
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "B Q Liu",
+          "orcid": "0000-0002-3907-773X",
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Teng Liu",
+          "orcid": "0000-0002-2185-7260",
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhisheng Nong",
+          "orcid": "0000-0001-9296-6272",
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongliang Zhang",
+          "orcid": "0009-0003-2218-0452",
+          "affiliations": [
+            "Shenyang Aerospace University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Crystals",
+      "doi": "10.3390/cryst16070418",
+      "type": "article",
+      "url": "https://doi.org/10.3390/cryst16070418",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2073-4352/16/7/418/pdf?version=1782498226",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Titanium alloys are irreplaceable in aerospace, biomedical and marine industries due to their low density, high specific strength and excellent biocompatibility. Conventional manufacturing methods suffer from low material utilization and difficulty in fabricating complex components, while additive manufacturing (AM) realizes near-net-shape forming of customized structures but introduces unique non-equilibrium microstructures and defects, which significantly alter the corrosion behavior and limit the long-term service reliability of additively manufactured (AMed) titanium alloys. This work systematically analyzes the corrosion behavior of titanium alloys fabricated by four mainstream AM processes: LPBF (laser powder bed fusion)/SLM (selective laser melting), EBM (electron beam melting), DED (directed energy deposition) and WAAM (wire arc additive manufacturing). It quantitatively summarizes the key electrochemical parameters and discusses the regulatory effects of matrix composition, post-treatment and service environment on their corrosion behaviors. The universal corrosion mechanisms—namely, passive film breakdown, micro-galvanic corrosion, and defect-induced localized corrosion—as well as process-specific corrosion mechanisms inherent to AMed titanium alloys are systematically elucidated. This study offers theoretical foundations for optimizing corrosion resistance and ensuring the reliable engineering implementation of AMed titanium alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Predicting Corrosion Behaviour of Magnesium Alloy Using Machine Learning Approaches",
+      "authors": [
+        "Tülay Yıldırım",
+        "Hüseyin Zengin"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Tülay Yıldırım",
+          "orcid": "0000-0001-5933-9752",
+          "affiliations": [
+            "Karabük University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hüseyin Zengin",
+          "orcid": "0000-0001-7518-1625",
+          "affiliations": [
+            "Johannes Kepler University of Linz"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met15111183",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met15111183",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/15/11/1183/pdf?version=1761319345",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The primary objective of this study is to develop a machine learning-based predictive model using corrosion rate data for magnesium alloys compiled from the literature. Corrosion rates measured under different deformation rates and heat treatment parameters were analyzed using artificial intelligence algorithms. Variables such as chemical composition, heat treatment temperature and time, deformation state, pH, test method, and test duration were used as inputs in the dataset. Various regression algorithms were compared with the PyCaret AutoML library, and the models with the highest accuracy scores were analyzed with Gradient Extra Trees and AdaBoost regression methods. The findings of this study demonstrate that modelling corrosion behaviour by integrating chemical composition with experimental conditions and processing parameters substantially enhances predictive accuracy. The regression models, developed using the PyCaret library, achieved high accuracy scores, producing corrosion rate predictions that are remarkably consistent with experimental values reported in the literature. Detailed tables and figures confirm that the most influential factors governing corrosion were successfully identified, providing valuable insights into the underlying mechanisms. These results highlight the potential of AI-assisted decision systems as powerful tools for material selection and experimental design, and, when supported by larger databases, for predicting the corrosion life of magnesium alloys and guiding the development of new alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Supervised machine learning for corrosion assessment of multi-principal element alloys using experimental and generative datasets",
+      "authors": [
+        "M. Ghorbani",
+        "Ziyuan Li",
+        "Aleksandar Pasquini",
+        "Rajesh Vasa",
+        "N. Birbilis"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "M. Ghorbani",
+          "orcid": "0000-0001-9287-1644",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ziyuan Li",
+          "orcid": "0000-0001-9400-6902",
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aleksandar Pasquini",
+          "orcid": "0009-0008-7547-2658",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajesh Vasa",
+          "orcid": "0000-0003-4805-1467",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Birbilis",
+          "orcid": "0000-0002-7910-7470",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-025-00700-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-025-00700-9",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-025-00700-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Multi principal element alloys (MPEAs) have emerged as a novel class of materials with complex compositions and tuneable properties, making them promising candidates for corrosion-resistant applications. However, their vast compositional space complicates the establishment of clear composition-property relationships using conventional experimental and computational methods, which typically yield insufficient data for effectively mapping causal relationships. This study investigates MPEA corrosion behaviour via supervised machine learning (ML). A dataset of alloy compositions, phases, electrolyte characteristics, and corrosion properties was used to train ML models, including random forest, neural network, kernel ridge regression, and LassoIC. To address data scarcity and enhance prediction accuracy, a generative adversarial network (GAN) was employed to generate synthetic data. Retraining the ML models with augmented data led to improvements in predictive accuracy for corrosion properties. The results highlight the effectiveness of an integrated GAN-ML approach in exploring MPEA compositional complexity and accelerating the design of corrosion-resistant alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Accurate segmentation of localized corrosion in structural alloys via deep learning",
+      "authors": [
+        "Liang Zhao",
+        "Jenifer Locke",
+        "Fei Xu",
+        "Tiankai Yao",
+        "Xiaolei Guo"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Liang Zhao",
+          "orcid": "0000-0002-7541-9696",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jenifer Locke",
+          "orcid": "0000-0003-3673-4236",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fei Xu",
+          "orcid": "0000-0002-5353-8571",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tiankai Yao",
+          "orcid": "0000-0001-8330-7638",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaolei Guo",
+          "orcid": "0000-0003-1007-5148",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-025-00633-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-025-00633-3",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-025-00633-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract This study presents a deep learning-based approach for the automated segmentation of corrosion damage in scanning electron microscopy (SEM) images. The proposed method enables rapid and accurate segmentation of corrosion features in these SEM images, making it highly suitable for real-time applications such as automated microscopy. Specifically, a dedicated corrosion segmentation database tailored for this task is constructed. The newly constructed dataset, alongside data from two public databases, are employed to jointly train a deep learning-based model modified with a texture refinement module. Compared to the same model without the texture refinement module, the refined model substantially enhances the efficacy and efficiency of corrosion segmentation. Furthermore, the methodology developed here is extendable to segmentation tasks for other materials with similar resolution, texture, and contrast characteristics, thereby paving the way for accelerated and automated analysis in corrosion science and beyond.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Accurate Segmentation of Localized Corrosion in Structural Alloys Via Deep Learning",
+      "authors": [
+        "Tiankai Yao",
+        "Jenifer Locke",
+        "Fei Xu",
+        "Xiaolei Guo"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Tiankai Yao",
+          "orcid": "0000-0001-8330-7638",
+          "affiliations": [
+            "Idaho National Laboratory",
+            "Government of the United States of America"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jenifer Locke",
+          "orcid": "0000-0003-3673-4236",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fei Xu",
+          "orcid": "0000-0002-5353-8571",
+          "affiliations": [
+            "Idaho National Laboratory",
+            "Government of the United States of America"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaolei Guo",
+          "orcid": "0000-0003-1007-5148",
+          "affiliations": [
+            "Idaho National Laboratory",
+            "Government of the United States of America"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "SSRN Electronic Journal",
+      "doi": "10.2139/ssrn.5146108",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.5146108",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.2139/ssrn.5146108",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Influence of Prestrain on Microstructural Evolution and Corrosion Behavior of Copper-Based Alloys",
+      "authors": [
+        "Muhssn Hamzah Shamky",
+        "Haider Zghair Jumaah",
+        "Talib Ali Ridha Elias",
+        "Noaman Abdulrahman Karam"
+      ],
+      "year": 2025,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Precision mechanics & digital fabrication.",
+      "doi": "10.56578/pmdf020204",
+      "type": "article",
+      "url": "https://doi.org/10.56578/pmdf020204",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://library.acadlore.com/PMDF/2025/2/2/PMDF_02.02_04.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The influence of prestrain on the microstructural evolution and corrosion behaviour of copper-based alloys has been systematically investigated to elucidate the mechanisms by which mechanical preconditioning enhances structural integrity and electrochemical stability.Prestrain, applied prior to subsequent thermomechanical treatments, has been found to significantly alter dislocation density, grain size distribution, phase transformation pathways, and precipitate morphology and distribution.These changes collectively promote grain refinement and the formation of nanocrystalline domains, thereby improving both strength and ductility.Enhanced effects have been observed in Cu-Cr-Zr and Cu-Al-Ni alloys, particularly when prestrain is introduced via cold rolling or friction stir processing (FSP).In these systems, microstructural stability during post-deformation ageing is markedly improved due to the suppression of grain coarsening and the controlled precipitation of strengthening phases.Moreover, prestrain modifies the local chemical and crystallographic environment in a manner that critically impacts electrochemical behavior.Intermediate levels of mechanical stress have been shown to improve corrosion resistance by facilitating the formation of uniform, adherent passive films, while excessive strain introduces microstructural heterogeneities that serve as initiation sites for intergranular and stress corrosion cracking.These phenomena were characterized using X-ray diffraction, scanning and transmission electron microscopy (TEM), and electrochemical techniques including potentiodynamic polarization and electrochemical impedance spectroscopy.The interplay between mechanical preconditioning, microstructural refinement, and corrosion mechanisms has been clarified, offering insights into process-structure-property relationships.The findings hold particular relevance for the design and optimization of copper alloys in high-performance applications such as electronic interconnects, biomedical implants, and aerospace components, where dimensional stability, chemical resilience, and machinability are of paramount importance.The study underscores the critical role of prestrain not only as a structural refinement tool but also as a means of tailoring corrosion resistance through controlled microstructural engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Aqueous corrosion of additively manufactured multi principal element alloys: a critical review",
+      "authors": [
+        "Marzie Ghorbani",
+        "Majid Laleh",
+        "Oumaïma Gharbi",
+        "Marie‐Agathe Charpagne",
+        "Hamish L. Fraser",
+        "Rajeev Gupta",
+        "Mitra L. Taheri",
+        "N. Birbilis"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Marzie Ghorbani",
+          "orcid": null,
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Majid Laleh",
+          "orcid": "0000-0003-1584-6941",
+          "affiliations": [
+            "University of Wollongong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oumaïma Gharbi",
+          "orcid": "0000-0002-1386-6167",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Laboratoire de Réactivité de Surface"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marie‐Agathe Charpagne",
+          "orcid": "0000-0003-4323-6577",
+          "affiliations": [
+            "University of Illinois Urbana-Champaign"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hamish L. Fraser",
+          "orcid": "0000-0002-5517-3983",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajeev Gupta",
+          "orcid": "0000-0003-2684-1994",
+          "affiliations": [
+            "North Carolina State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitra L. Taheri",
+          "orcid": "0000-0001-5349-1411",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Birbilis",
+          "orcid": "0000-0002-7910-7470",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-025-00701-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-025-00701-8",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-025-00701-8_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "This review explores the aqueous corrosion of multi-principal element alloys (MPEAs) that have been prepared using additive manufacturing (AM), inclusive of laser powder bed fusion, directed energy deposition and electron beam melting. The impact of additive manufacturing techniques upon the microstructural features of MPEAs may influence corrosion resistance, through inducing an influence on grain size, phase distribution, and local nano-chemistry. Emphasis is placed on the comparative performance of MPEAs in various corrosive environments, highlighting key findings. The review aims to provide insights into the influence of AM as a processing method for MPEA production – in the context of impact upon corrosion.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Coatings and Surface Modification of Alloys for Tribo-Corrosion Applications",
+      "authors": [
+        "R.J.K. Wood",
+        "Ping Lu"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "R.J.K. Wood",
+          "orcid": "0000-0003-0681-9239",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ping Lu",
+          "orcid": "0000-0002-8978-4061",
+          "affiliations": [
+            "University of Southampton",
+            "Coventry University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Coatings",
+      "doi": "10.3390/coatings14010099",
+      "type": "article",
+      "url": "https://doi.org/10.3390/coatings14010099",
+      "cited_by_count": 94,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2079-6412/14/1/99/pdf?version=1704969978",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This review of the tribocorrosion of coatings and surface modifications covers nearly 195 papers and reviews that have been published in the past 15 years, as compared to only 37 works published up to 2007, which were the subject of a previous review published in 2007. It shows that the research into the subject area is vibrant and growing, to cover emerging deposition, surface modification and testing techniques as well as environmental influences and modelling developments. This growth reflects the need for machines to operate in harsh environments coupled with requirements for increased service life, lower running costs and improved safety factors. Research has also reacted to the need for multifunctional coating surfaces as well as functionally graded systems with regard to depth. The review covers a range of coating types designed for a wide range of potential applications. The emerging technologies are seen to be molten-, solution-, PVD- and PEO-based coatings, with CVD coatings being a less popular solution. There is a growing research interest in duplex surface engineering and coating systems. Surface performance shows a strong playoff between wear, friction and corrosion rates, often with antagonistic relationships and complicated interactions between multiple mechanisms at different scale lengths within tribocorrosion contacts. The tribologically induced stresses are seen to drive damage propagation and accelerate corrosion either within the coating or at the coating coating–substrate interface. This places a focus on coating defect density. The environment (such as pH, DO2, CO2, salinity and temperature) is also shown to have a strong influence on tribocorrosion performance. Coating and surface modification solutions being developed for tribocorrosion applications include a whole range of electrodeposited coatings, hard and tough coatings and high-impedance coatings such as doped diamond-like carbon. Hybrid and multilayered coatings are also being used to control damage penetration into the coating (to increase toughness) and to manage stresses. A particular focus involves the combination of various treatment techniques. The review also shows the importance of the microstructure, the active phases that are dissolved and the critical role of surface films and their composition (oxide or passive) in tribocorrosion performance which, although discovered for bulk materials, is equally applicable to coating performance. New techniques show methods for revealing the response of surfaces to tribocorrosion (i.e., scanning electrochemical microscopy). Modelling tribocorrosion has yet to embrace the full range of coatings and the fact that some coatings/environments result in reduced wear and thus are antagonistic rather than synergistic. The actual synergistic/antagonistic mechanisms are not well understood, making them difficult to model.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Corrosion Modeling of Aluminum Alloys: A Brief Review",
+      "authors": [
+        "A. Ruiz‐Garcia",
+        "Vicente Esquivel‐Peña",
+        "Francisco A. Godínez",
+        "Rodrigo Montoya"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "A. Ruiz‐Garcia",
+          "orcid": "0000-0001-9542-2019",
+          "affiliations": [
+            "Universidad Nacional Autónoma de México"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vicente Esquivel‐Peña",
+          "orcid": "0000-0003-4876-7318",
+          "affiliations": [
+            "Universidad Nacional Autónoma de México"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francisco A. Godínez",
+          "orcid": "0000-0003-0905-3945",
+          "affiliations": [
+            "Universidad Nacional Autónoma de México"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rodrigo Montoya",
+          "orcid": "0000-0001-5529-9167",
+          "affiliations": [
+            "Universidad Nacional Autónoma de México"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemElectroChem",
+      "doi": "10.1002/celc.202300712",
+      "type": "article",
+      "url": "https://doi.org/10.1002/celc.202300712",
+      "cited_by_count": 32,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/celc.202300712",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Corrosion remains a critical concern in various industries, particularly in applications involving aluminum alloys due to their widespread usage as light structural materials. This work provides a comprehensive overview of the recent advances in modeling techniques for better understanding the corrosion behavior of aluminum alloys. The present study encompasses the state‐of‐the‐art of computational approaches, highlighting their strengths and limitations. Special attention is given to transport models, galvanic couples, localized corrosion, and the incorporation of different factors, such as pH variations, electrolyte thicknesses and dynamic electrolytes into corrosion models. Furthermore, the review delves into both bulk and atmospheric corrosion models. On the other hand, this work also emphasizes a clear differentiation between models designed for bare aluminum alloys and those tailored for coated ones. Additionally, it addresses certain challenges associated with the experimental validation of such models. This review concludes with perspectives on both sophisticated transport models to bridge the gap between industrial and academic investigations, as well as the integration of machine learning and artificial intelligence techniques in corrosion modeling, offering promising directions for future research in this field.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "How solute atoms control aqueous corrosion of Al-alloys",
+      "authors": [
+        "Huan Zhao",
+        "Yue Yin",
+        "Yuxiang Wu",
+        "Siyuan Zhang",
+        "Andrea M. Mingers",
+        "Dirk Ponge",
+        "Baptiste Gault",
+        "Michael Rohwerder",
+        "Dierk Raabe"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Huan Zhao",
+          "orcid": "0000-0001-8840-084X",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yue Yin",
+          "orcid": null,
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuxiang Wu",
+          "orcid": "0000-0002-1014-9824",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siyuan Zhang",
+          "orcid": "0000-0001-7045-0865",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrea M. Mingers",
+          "orcid": null,
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dirk Ponge",
+          "orcid": "0000-0002-6378-379X",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Baptiste Gault",
+          "orcid": "0000-0002-4934-0458",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Rohwerder",
+          "orcid": "0000-0002-2466-3963",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dierk Raabe",
+          "orcid": "0000-0003-0194-6124",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-44802-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-024-44802-5",
+      "cited_by_count": 70,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-024-44802-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Aluminum alloys play an important role in circular metallurgy due to their good recyclability and 95% energy gain when made from scrap. Their low density and high strength translate linearly to lower greenhouse gas emissions in transportation, and their excellent corrosion resistance enhances product longevity. The durability of Al alloys stems from the dense barrier oxide film strongly bonded to the surface, preventing further degradation. However, despite decades of research, the individual elemental reactions and their influence on the nanoscale characteristics of the oxide film during corrosion in multicomponent Al alloys remain unresolved questions. Here, we build up a direct correlation between the near-atomistic picture of the corrosion oxide film and the solute reactivity in the aqueous corrosion of a high-strength Al-Zn-Mg-Cu alloy. We reveal the formation of nanocrystalline Al oxide and highlight the solute partitioning between the oxide and the matrix and segregation to the internal interface. The sharp decrease in partitioning content of Mg in the peak-aged alloy emphasizes the impact of heat treatment on the oxide stability and corrosion kinetics. Through H isotopic labelling with deuterium, we provide direct evidence that the oxide acts as a trap for this element, pointing at the essential role of the Al oxide might act as a kinetic barrier in preventing H embrittlement. Our findings advance the mechanistic understanding of further improving the stability of Al oxide, guiding the design of corrosion-resistant alloys for potential applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Machine learning accelerated discovery of corrosion-resistant high-entropy alloys",
+      "authors": [
+        "Cheng Hui Zeng",
+        "Andrew Neils",
+        "Jack Lesko",
+        "Nathan Post"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Cheng Hui Zeng",
+          "orcid": "0000-0002-1296-913X",
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Neils",
+          "orcid": "0000-0001-8679-3168",
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jack Lesko",
+          "orcid": null,
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nathan Post",
+          "orcid": "0000-0002-8516-9029",
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2024.112925",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2024.112925",
+      "cited_by_count": 64,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.commatsci.2024.112925",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Corrosion has a wide impact on society, causing catastrophic damage to structurally engineered components. An emerging class of corrosion-resistant materials are high-entropy alloys. However, high-entropy alloys live in high-dimensional composition and configuration space, making materials designs via experimental trial-and-error or brute-force ab initio calculations almost impossible. Here we develop a physics-informed machine-learning framework to identify corrosion-resistant high-entropy alloys. Three metrics are used to evaluate the corrosion resistance, including single-phase formability, surface energy and the compactness of oxide films formed on an alloy surface evaluated by Pilling–Bedworth ratios. We used random forest models to predict the single-phase formability, trained on an experimental dataset. Machine learning inter-atomic potentials were employed to calculate surface energies and Pilling–Bedworth ratios, which are trained on first-principles data fast sampled using embedded atom models. A combination of random forest models and high-fidelity machine learning potentials represents the first of its kind to relate chemical compositions to corrosion resistance of high-entropy alloys, paving the way for automatic design of materials with superior corrosion protection. This framework was demonstrated on AlCrFeCoNi high-entropy alloys and we identified composition regions with high corrosion resistance from a wide range of compositions. Machine learning predicted lattice constants and surface energies are consistent with values by first-principles calculations. The predicted single-phase formability and corrosion-resistant compositions of AlCrFeCoNi agree well with experiments. This framework provides a computationally efficient approach to navigate high-dimensional composition space of high-entropy alloys. It is general in its application and applicable to other complex materials, enabling high-throughput screening of material candidates and potentially accelerating the iteration of integrated computational materials engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Current Progress in Aqueous Corrosion of Multi-Principal Element Alloys",
+      "authors": [
+        "M. Ghorbani",
+        "Ziyuan Li",
+        "Yao Qiu",
+        "Philippe Marcus",
+        "John R. Scully",
+        "Oumaïma Gharbi",
+        "Hong Luo",
+        "Rajeev Gupta",
+        "Zhuoran Zeng",
+        "Hamish L. Fraser",
+        "Mitra L. Taheri",
+        "N. Birbilis"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "M. Ghorbani",
+          "orcid": "0000-0001-9287-1644",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ziyuan Li",
+          "orcid": "0000-0001-9400-6902",
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yao Qiu",
+          "orcid": "0000-0001-7206-2065",
+          "affiliations": [
+            "Deakin University",
+            "Wuhan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Philippe Marcus",
+          "orcid": "0000-0002-9140-0047",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Chimie ParisTech - PSL",
+            "Université Paris Sciences et Lettres",
+            "Institut de Recherche de Chimie Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John R. Scully",
+          "orcid": "0000-0001-5353-766X",
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oumaïma Gharbi",
+          "orcid": "0000-0002-1386-6167",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Laboratoire de Réactivité de Surface"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Luo",
+          "orcid": "0000-0001-8612-7851",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajeev Gupta",
+          "orcid": "0000-0003-2684-1994",
+          "affiliations": [
+            "North Carolina State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhuoran Zeng",
+          "orcid": "0000-0002-6367-3881",
+          "affiliations": [
+            "Hunan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hamish L. Fraser",
+          "orcid": "0000-0002-5517-3983",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitra L. Taheri",
+          "orcid": "0000-0001-5349-1411",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Birbilis",
+          "orcid": "0000-0002-7910-7470",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metallurgical and Materials Transactions A",
+      "doi": "10.1007/s11661-024-07473-x",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11661-024-07473-x",
+      "cited_by_count": 22,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11661-024-07473-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "While multi-principal element alloys (MPEAs) remain a promising class of materials owing to several attractive mechanical properties, their corrosion performance is also unique. In this concise review, we present an emerging overview of some of the general features related to MPEA corrosion, following a decade of work in the field. This includes highlighting some of the key aspects related to the electrochemical phenomena in MPEA corrosion, and the relevant future works required for a holistic mechanistic understanding. In addition, a comprehensive database of the reported corrosion performance of MPEAs is presented—based on works reported to date. The database is assembled to also allow users to undertake machine learning or their own data analysis, with a parsed representation of alloy composition, test electrolyte, and corrosion-related parameters.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Current progress in corrosion of multi principal element alloys",
+      "authors": [
+        "M. Ghorbani",
+        "Ziyuan Li",
+        "Yao Qiu",
+        "Philippe Marcus",
+        "John R. Scully",
+        "Oumaïma Gharbi",
+        "Haowen Luo",
+        "Rajeev Gupta",
+        "Zhuoran Zeng",
+        "Hamish L. Fraser",
+        "Mitra L. Taheri",
+        "N. Birbilis"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "M. Ghorbani",
+          "orcid": "0000-0001-9287-1644",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ziyuan Li",
+          "orcid": "0000-0001-9400-6902",
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yao Qiu",
+          "orcid": "0000-0001-7206-2065",
+          "affiliations": [
+            "Deakin University",
+            "Wuhan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Philippe Marcus",
+          "orcid": "0000-0002-9140-0047",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Chimie ParisTech - PSL",
+            "Université Paris Sciences et Lettres",
+            "Institut de Recherche de Chimie Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John R. Scully",
+          "orcid": "0000-0001-5353-766X",
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oumaïma Gharbi",
+          "orcid": "0000-0002-1386-6167",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Laboratoire de Réactivité de Surface"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haowen Luo",
+          "orcid": "0009-0008-1982-5914",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajeev Gupta",
+          "orcid": "0000-0003-2684-1994",
+          "affiliations": [
+            "North Carolina State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhuoran Zeng",
+          "orcid": "0000-0002-6367-3881",
+          "affiliations": [
+            "Hunan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hamish L. Fraser",
+          "orcid": "0000-0002-5517-3983",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitra L. Taheri",
+          "orcid": "0000-0001-5349-1411",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Birbilis",
+          "orcid": "0000-0002-7910-7470",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2405.05623",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2405.05623",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2405.05623",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Whilst multi-principal element alloys (MPEAs) remain a promising class of materials owing to several attractive mechanical properties, their corrosion performance is also unique. In this concise review, we present an emerging overview of some of the general features related to MPEA corrosion, following a decade of work in the field. This includes highlighting some of the key aspects related to the electrochemical phenomena in MPEA corrosion, and the relevant future works required for a holistic mechanistic understanding. In addition, a comprehensive database of the reported corrosion performance of MPEAs is presented, based on works reported to date. The database is assembled to also allow users to undertake machine learning or their own data analysis, with a parsed representation of alloy composition, test electrolyte, and corrosion related parameters.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Long-term corrosion of copper alloys in the soil: new aspects of corrosion morphology in archaeological vessels from south-western Iran",
+      "authors": [
+        "Omid Oudbashı",
+        "Reza Naseri",
+        "Parnia Asadi Hasanvand"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Omid Oudbashı",
+          "orcid": "0000-0002-7984-8199",
+          "affiliations": [
+            "University of Gothenburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Reza Naseri",
+          "orcid": "0000-0001-5425-5875",
+          "affiliations": [
+            "Zabol University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Parnia Asadi Hasanvand",
+          "orcid": null,
+          "affiliations": [
+            "Isfahan University of Art"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Heritage Science",
+      "doi": "10.1186/s40494-024-01176-7",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s40494-024-01176-7",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://heritagesciencejournal.springeropen.com/counter/pdf/10.1186/s40494-024-01176-7",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract A group of copper-based objects excavated at Deh Dumen cemetery, in south-western Iran, was studied and analysed to examine the long-term corrosion morphology and mechanism in the soil burial environment. For this purpose, twenty-two samples from twenty-one copper-based vessels were studied and analysed using X-ray diffraction, scanning electron microscopy—energy dispersive X-ray spectroscopy, micro-Raman spectroscopy and metallography techniques. The results of the analyses showed that the majority of vessels are made of tin bronze, along with two arsenical copper samples. The extent of corrosion observed ranges from very thin corrosion crusts to thick crusts and entirely corroded structures. These three identified corrosion morphologies display a multi-layered corrosion stratigraphy as well as the preserved limit of the original surface. The corrosion crusts include internal tin-rich and external copper-rich layers, and the main corrosion mechanism for the formation of multi-layered corrosion crusts is decuprification or selective dissolution of copper during the long-term burial time in a moderately Cl-contaminated soil. The three identified corrosion morphologies are similar to the previously published morphologies, but some clear deviations are apparent and are discussed here.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Model construction of corrosion resistance of alloying elements for low alloy steel in marine atmospheric corrosive environment based on machine learning",
+      "authors": [
+        "Fulong Wang",
+        "Wei Liu",
+        "Yipu Sun",
+        "Bo Zhang",
+        "Hai Li",
+        "Longjun Chen",
+        "Bowen Hou",
+        "Haoyu Zhang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Fulong Wang",
+          "orcid": "0009-0007-4875-5698",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Liu",
+          "orcid": "0000-0002-0023-2368",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yipu Sun",
+          "orcid": "0000-0002-1172-2661",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bo Zhang",
+          "orcid": "0000-0002-2837-3509",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hai Li",
+          "orcid": "0000-0002-9659-1153",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Longjun Chen",
+          "orcid": "0009-0006-3762-3043",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bowen Hou",
+          "orcid": "0000-0002-2145-2407",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoyu Zhang",
+          "orcid": "0000-0001-5070-7547",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Corrosion Reviews",
+      "doi": "10.1515/corrrev-2023-0162",
+      "type": "article",
+      "url": "https://doi.org/10.1515/corrrev-2023-0162",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.degruyterbrill.com/document/doi/10.1515/corrrev-2023-0162/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The study focused on constructing a machine learning model, considering the interaction of alloying elements on corrosion resistance of low alloy steels in the marine atmospheric environment. Spearman’s analysis was applied, and the relationship between alloying element and corrosion rate was evaluated based on random forest (RF) importance and Shapley additive explanation (SHAP) analysis. The prediction performance of the six models (RF, multilayer perceptron (MLP), ridge regression (RR), K-nearest neighbor regression (KNN), logistic regression (LR), and support vector machine (SVM) was compared by using the preferred dominant elements as input variables. Afterwards, a high-precision corrosion rate prediction model based on RF was constructed. Finally, the generalizability of the model was demonstrated using 10 lines of steel corrosion data from several new marine atmospheric environments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Enhancing corrosion-resistant alloy design through natural language processing and deep learning",
+      "authors": [
+        "Kasturi Narasimha Sasidhar",
+        "Nima Hamidi Siboni",
+        "Jaber Rezaei Mianroodi",
+        "Michael Rohwerder",
+        "Jörg Neugebauer",
+        "Dierk Raabe"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Kasturi Narasimha Sasidhar",
+          "orcid": "0000-0003-2951-2555",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nima Hamidi Siboni",
+          "orcid": "0000-0002-0305-5870",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaber Rezaei Mianroodi",
+          "orcid": "0000-0003-4778-3260",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Rohwerder",
+          "orcid": "0000-0002-2466-3963",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jörg Neugebauer",
+          "orcid": "0000-0002-7903-2472",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dierk Raabe",
+          "orcid": "0000-0003-0194-6124",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.adg7992",
+      "type": "article",
+      "url": "https://doi.org/10.1126/sciadv.adg7992",
+      "cited_by_count": 80,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.science.org/doi/pdf/10.1126/sciadv.adg7992?download=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We propose strategies that couple natural language processing with deep learning to enhance machine capability for corrosion-resistant alloy design. First, accuracy of machine learning models for materials datasets is often limited by their inability to incorporate textual data. Manual extraction of numerical parameters from descriptions of alloy processing or experimental methodology inevitably leads to a reduction in information density. To overcome this, we have developed a fully automated natural language processing approach to transform textual data into a form compatible for feeding into a deep neural network. This approach has resulted in a pitting potential prediction accuracy substantially beyond state of the art. Second, we have implemented a deep learning model with a transformed-input feature space, consisting of a set of elemental physical/chemical property-based numerical descriptors of alloys replacing alloy compositions. This helped identification of those descriptors that are most critical toward enhancing their pitting potential. In particular, configurational entropy, atomic packing efficiency, local electronegativity differences, and atomic radii differences proved to be the most critical.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Corrosion performance of wire arc additively manufactured NAB alloy",
+      "authors": [
+        "Ayda Shahriari",
+        "C. Dharmendra",
+        "Babak Shalchi Amirkhiz",
+        "Mohsen Mohammadi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Ayda Shahriari",
+          "orcid": "0000-0002-0393-5755",
+          "affiliations": [
+            "University of New Brunswick",
+            "Marine Additive Manufacturing Centre of Excellence"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C. Dharmendra",
+          "orcid": "0000-0002-1550-9219",
+          "affiliations": [
+            "University of New Brunswick",
+            "Marine Additive Manufacturing Centre of Excellence"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Babak Shalchi Amirkhiz",
+          "orcid": "0000-0002-6756-0278",
+          "affiliations": [
+            "University of New Brunswick",
+            "Natural Resources Canada",
+            "Marine Additive Manufacturing Centre of Excellence"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohsen Mohammadi",
+          "orcid": "0000-0002-8071-354X",
+          "affiliations": [
+            "University of New Brunswick",
+            "Marine Additive Manufacturing Centre of Excellence"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-023-00405-x",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-023-00405-x",
+      "cited_by_count": 30,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-023-00405-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Nickel–aluminum bronzes (NAB) are vital alloys, known for biofouling resistance, crucial for marine and shipbuilding industries. This study examined corrosion performance of NAB samples fabricated by wire arc additive manufacturing (WAAM) in as-built and heat-treated conditions. Microstructural analysis revealed the WAAM-NAB parts primarily consisted of the α-phase (copper) and three types of κ-phases: κII (spherical Fe3Al), κIII (Ni–Al in lamellar shape) within the interdendritic areas, and iron-rich κIV particles dispersed throughout the matrix. In contrast, casting-produced NAB showed the formation of a rosette-like κI phase as well. Corrosion behavior comparisons between the two NAB fabrication methods were also assessed. The microstructural characterizations revealed a rise in the size of the κIV particles after heat-treated at 350 °C for 2 h (HT1). Heat treatment at 550 °C for 4 h (HT2) resulted in a needle-like κV, coarsening of κII, partial spheroidization of κIII, and reduced κIV precipitation. When heat-treated to 675 °C for 6 h (HT3), κII and κV were coarsened, κIII was completely spheroidized, and κIV precipitation was significantly reduced. These microstructural features in HT2 and HT3 conditions steeply decreased their corrosion resistance compared to the WAAM as-built part. The as-built WAAM sample showed superior corrosion resistance in chloride solution, attributed to fewer κ-intermetallic phases and a finer microstructure. The κ-phases, irrespective of morphology, act as the cathodic areas versus the α-dendritic matrix, fostering microgalvanic cell formation. Consequently, precipitation of all cathodic κ-phases draws a higher galvanic current of the anodic α-phase, meaning a lower corrosion resistance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Fatigue database of complex metallic alloys",
+      "authors": [
+        "Zian Zhang",
+        "Haoxuan Tang",
+        "Zhiping Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Zian Zhang",
+          "orcid": "0009-0003-0037-8417",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoxuan Tang",
+          "orcid": "0009-0006-3034-990X",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiping Xu",
+          "orcid": "0000-0002-2833-1966",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02354-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02354-1",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02354-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The past few decades have witnessed rapid progresses in the research and development of complex metallic alloys such as metallic glasses and multi-principal element alloys, which offer new solutions to tackle engineering problems of materials such as the strength-toughness conflict and deployment in harsh environments and/or for long-term service. A fatigue database (FatigueData-CMA2022) is compiled from the literature by the end of 2022. Data for both metallic glasses and multi-principal element alloys are included and analyzed for their statistics and patterns. Automatic extraction and manual examination are combined in the workflow to improve the efficiency of processing, the quality of published data, and the reusability. The database contains 272 fatigue datasets of S-N (the stress-life relation), ε-N (the strain-life relation), and da/dN-ΔK (the relation between the fatigue crack growth rate and the stress intensity factor range) data, together with the information of materials, processing and testing conditions, and mechanical properties. The database and scripts are released in open repositories, which are designed in formats that can be continuously expanded and updated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Titanium Alloys Database for Medical Applications",
+      "authors": [
+        "Vaso Manojlović",
+        "Gordana Marković"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Vaso Manojlović",
+          "orcid": "0000-0002-3009-2909",
+          "affiliations": [
+            "University of Belgrade"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gordana Marković",
+          "orcid": "0000-0003-1169-2084",
+          "affiliations": [
+            "Institute for Technology of Nuclear and other Mineral Raw Materials"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metallurgical and Materials Data",
+      "doi": "10.30544/mmd5",
+      "type": "article",
+      "url": "https://doi.org/10.30544/mmd5",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://metall-mater-data.com/index.php/home/article/download/5/1",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Titanium alloys are widely applied, particularly in biomedical engineering, due to their exceptional combination of mechanical strength, corrosion resistance, and biocompatibility. The low modulus of elasticity of these titanium alloys in comparison to other materials used in medical applications is a main characteristic. However, some of these alloys' components, such as aluminum and vanadium, can have adverse effects on the human body. Consequently, new titanium alloys with low modulus of elasticity and no toxic alloying elements are currently being developed. In this research, 238 titanium alloys were collected, almost entirely composed of biocompatible alloying elements. The primary motivation behind creating such a database is to establish a foundation for designing new alloys using machine learning methods. The database can assist researchers, engineers, and biomedical professionals in developing titanium alloys for various medical applications, thereby improving health outcomes and driving advancements in biomaterials and biomedical engineering. Database URL: https://doi.org/10.5281/zenodo.7802694",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Study of the anticorrosive behavior of samarium as a corrosion inhibitor in multilayer systems for aluminum alloy",
+      "authors": [
+        "José Antonio Cabello Mendez",
+        "Ailed Arguelles Rojas",
+        "José de Jesús Pérez Bueno",
+        "Y. Meas"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "José Antonio Cabello Mendez",
+          "orcid": "0000-0003-0748-6712",
+          "affiliations": [
+            "Center of Research and Technologic Development in Electrochemistry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ailed Arguelles Rojas",
+          "orcid": null,
+          "affiliations": [
+            "Center of Research and Technologic Development in Electrochemistry",
+            "Universidad Tecnológica del Centro de Veracruz"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José de Jesús Pérez Bueno",
+          "orcid": "0000-0002-7775-405X",
+          "affiliations": [
+            "Center of Research and Technologic Development in Electrochemistry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Y. Meas",
+          "orcid": "0000-0002-6494-0769",
+          "affiliations": [
+            "Center of Research and Technologic Development in Electrochemistry"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-023-30193-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-023-30193-y",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-023-30193-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract This study shows a multilayer system based on samarium compounds as a corrosion inhibitor and a continuous SiO2 layer by atmospheric pressure plasma jet (APPJ) as a protective barrier for aluminim alloy AA3003. One of the main advantages of this new coating is that it does not require vacuum chambers, which makes it easy to incorporate into production lines for automotive and aeronautical components, etc. The deposit of samarium corrosion inhibitor was carried out by two methods for comparison, the immersion method and a novel method to deposit corrosion inhibitor by APPJ. The multilayer system generated was homogeneous, continuous, adherent, and dense. The electrochemical behavior shows that the samarium compound was completely oxidized on coatings by the immersion method and favors corrosion. The APPJ deposition method shows a protective behavior against corrosion by both samarium compounds and silica depositions. XPS analyses show that the amount of Sm(OH)3 increases by the APPJ method compared with the immersion method since the spectrum of O1s is mainly controlled by OH. It was determined that the best processing times for the electrochemical study of the multilayer system were 40 min for the immersion method and 30 s for the APPJ method for the layer of corrosion inhibitor. In the case of the SiO2 barrier layer by APPJ, the best time was 60 s of exposure to the plasma jet and this coating could reduce the corrosion of AA3003 by 31.42%.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "A Machine Learning Method for Predicting Corrosion Weight Gain of Uranium and Uranium Alloys",
+      "authors": [
+        "Xiaoyuan Wang",
+        "Wanying Zhang",
+        "Weidong Zhang",
+        "Yibo Ai"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Xiaoyuan Wang",
+          "orcid": "0000-0002-4205-4862",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wanying Zhang",
+          "orcid": "0000-0001-6179-3567",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weidong Zhang",
+          "orcid": "0000-0001-8025-3582",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Ai",
+          "orcid": "0000-0001-8931-4556",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma16020631",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma16020631",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/16/2/631/pdf?version=1673260443",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "As an irreplaceable structural and functional material in strategic equipment, uranium and uranium alloys are generally susceptible to corrosion reactions during service, and predicting corrosion behavior has important research significance. There have been substantial studies conducted on metal corrosion research. Accelerated experiments can shorten the test time, but there are still differences in real corrosion processes. Numerical simulation methods can avoid radioactive experiments, but it is difficult to fully simulate a real corrosion environment. The modeling of real corrosion data using machine learning methods allows for effective corrosion prediction. This research used machine learning methods to study the corrosion of uranium and uranium alloys in air and established a corrosion weight gain prediction model. Eleven classic machine learning algorithms for regression were compared and a ten-fold cross validation method was used to choose the highest accuracy algorithm, which was the extra trees algorithm. Feature selection methods, including the extra trees and Pearson correlation analysis methods, were used to select the most important four factors in corrosion weight gain. As a result, the prediction accuracy of the corrosion weight gain prediction model was 96.8%, which could determine a good prediction of corrosion for uranium and uranium alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Corrosion inhibitors of alloys and metals in acidic solution: A bibliometric analysis from 2010 to 2022",
+      "authors": [],
+      "year": 2023,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "International Journal of Corrosion and Scale Inhibition",
+      "doi": "10.17675/2305-6894-2023-12-2-19",
+      "type": "article",
+      "url": "https://doi.org/10.17675/2305-6894-2023-12-2-19",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://dx.doi.org/10.17675/2305-6894-2023-12-2-19",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Corrosion poses a significant challenge in terms of its economic, environmental, safety, and public health impacts.The available data indicate that the losses attributed to corrosion are substantial, with annual costs reaching billions of dollars across several industries, including but not limited to, the oil and gas, aviation, maritime, and agricultural sectors.Furthermore, corrosion is an ongoing process that affects the longevity and effectiveness of structures, equipment, and industrial installations.Overall, corrosion is a major issue that demands effective preventative measures to safeguard materials from its harmful effects and minimize the resulting economic and environmental losses.Of the various strategies available for preventing or mitigating the degradation or devaluation of metal surfaces, the utilization of corrosion inhibitors (CIs) represents one of the most formidable approaches for safeguarding metal surfaces against the pernicious effects of corrosion.Due to its accessibility and costeffectiveness, this methodology has gained considerable traction and is rapidly ascending in popularity.This bibliometric analysis focuses on research in the field of corrosion inhibitors (CIs), examining the growth, distribution, and impact of publications over the past few decades.A total of 13161 publications were retrieved from the Scopus database between 2010 and 2022.The results reveal a remarkable exponential growth in research on CIs, with the largest number of publications originating from China, India, and Morocco, underscoring the importance of greater collaboration and knowledge-sharing among researchers worldwide.This bibliometric study provides valuable insights into the current state of research on CIs, identifying areas with potential for growth and development in this important field.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Computational modeling of metallic nanoclusters and nano-alloys for catalytic and corrosion applications.",
+      "authors": [
+        "Pablo Álvarez Zapatero"
+      ],
+      "year": 2023,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": null,
+      "doi": "10.35376/10324/59753",
+      "type": "dissertation",
+      "url": "https://doi.org/10.35376/10324/59753",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://uvadoc.uva.es/bitstream/10324/59753/1/TESIS-2086-230606.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "A D",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Machine-learning-guided descriptor selection for predicting corrosion resistance in multi-principal element alloys",
+      "authors": [
+        "Ankit Roy",
+        "M. F. N. Taufique",
+        "Hrishabh Khakurel",
+        "Ram Devanathan",
+        "Duane D. Johnson",
+        "Ganesh Balasubramanian"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ankit Roy",
+          "orcid": "0000-0003-3451-9217",
+          "affiliations": [
+            "Pacific Northwest National Laboratory",
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. F. N. Taufique",
+          "orcid": "0000-0002-0356-4579",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hrishabh Khakurel",
+          "orcid": "0000-0001-5328-8034",
+          "affiliations": [
+            "The University of Texas at Arlington"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ram Devanathan",
+          "orcid": "0000-0001-8125-4237",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Duane D. Johnson",
+          "orcid": "0000-0003-0794-7283",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ganesh Balasubramanian",
+          "orcid": "0000-0003-1834-5501",
+          "affiliations": [
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-021-00208-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-021-00208-y",
+      "cited_by_count": 104,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-021-00208-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract More than $270 billion is spent on combatting corrosion annually in the USA alone. As such, we present a machine-learning (ML) approach to down select corrosion-resistant alloys. Our focus is on a non-traditional class of alloys called multi-principal element alloys (MPEAs). Given the vast search space due to the variety of compositions and descriptors to be considered, and based upon existing corrosion data for MPEAs, we demonstrate descriptor optimization to predict corrosion resistance of any given MPEA. Our ML model with descriptor optimization predicts the corrosion resistance of a given MPEA in the presence of an aqueous environment by down selecting two environmental descriptors (pH of the medium and halide concentration), one chemical composition descriptor (atomic % of element with minimum reduction potential), and two atomic descriptors (difference in lattice constant ( $$\\Delta {{{\\mathrm{a}}}}$$ Δ a ) and average reduction potential). Our findings show that, while it is possible to down select corrosion-resistant MPEAs by using ML from a large search space, a larger dataset and higher quality data are needed to accurately predict the corrosion rate of MPEAs. This study shows both the promise and the perils of ML when applied to a complex chemical phenomenon like corrosion of alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "High-throughput calculations combining machine learning to investigate the corrosion properties of binary Mg alloys",
+      "authors": [
+        "Yaowei Wang",
+        "Tian Xie",
+        "Qingli Tang",
+        "Mingxu Wang",
+        "Tao Ying",
+        "Hong Zhu",
+        "Xiaoqin Zeng"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Yaowei Wang",
+          "orcid": "0000-0003-3570-748X",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian Xie",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qingli Tang",
+          "orcid": "0009-0007-6927-3292",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingxu Wang",
+          "orcid": "0000-0002-7769-9353",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tao Ying",
+          "orcid": "0000-0002-6592-4699",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Zhu",
+          "orcid": "0000-0001-7919-5661",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "University of Michigan",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoqin Zeng",
+          "orcid": "0000-0002-1466-070X",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Magnesium and Alloys",
+      "doi": "10.1016/j.jma.2021.12.007",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jma.2021.12.007",
+      "cited_by_count": 81,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S221395672200010X/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnesium (Mg) alloys have shown great prospects as both structural and biomedical materials, while poor corrosion resistance limits their further application. In this work, to avoid the time-consuming and laborious experiment trial, a high-throughput computational strategy based on first-principles calculations is designed for screening corrosion-resistant binary Mg alloy with intermetallics, from both the thermodynamic and kinetic perspectives. The stable binary Mg intermetallics with low equilibrium potential difference with respect to the Mg matrix are firstly identified. Then, the hydrogen adsorption energies on the surfaces of these Mg intermetallics are calculated, and the corrosion exchange current density is further calculated by a hydrogen evolution reaction (HER) kinetic model. Several intermetallics, e.g. Y3Mg, Y2Mg and La5Mg, are identified to be promising intermetallics which might effectively hinder the cathodic HER. Furthermore, machine learning (ML) models are developed to predict Mg intermetallics with proper hydrogen adsorption energy employing work function (Wf) and weighted first ionization energy (WFIE). The generalization of the ML models is tested on five new binary Mg intermetallics with the average root mean square error (RMSE) of 0.11 eV. This study not only predicts some promising binary Mg intermetallics which may suppress the galvanic corrosion, but also provides a high-throughput screening strategy and ML models for the design of corrosion-resistant alloy, which can be extended to ternary Mg alloys or other alloy systems.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Chromate-Free Corrosion Protection Strategies for Magnesium Alloys—A Review: Part III—Corrosion Inhibitors and Combining Them with Other Protection Strategies",
+      "authors": [
+        "Bahram Vaghefinazari",
+        "Ewa Wierzbicka",
+        "Peter Visser",
+        "Ralf Posner",
+        "Raul Arrabal",
+        "Endzhe Matykina",
+        "M. Mohedano",
+        "Carsten Blawert",
+        "Mikhail L. Zheludkevich",
+        "Sviatlana V. Lamaka"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Bahram Vaghefinazari",
+          "orcid": "0000-0001-5035-6476",
+          "affiliations": [
+            "Helmholtz-Zentrum Hereon"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ewa Wierzbicka",
+          "orcid": "0000-0001-8064-4823",
+          "affiliations": [
+            "Universidad Complutense de Madrid",
+            "Military University of Technology in Warsaw"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Visser",
+          "orcid": "0000-0002-6388-382X",
+          "affiliations": [
+            "AkzoNobel (Netherlands)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ralf Posner",
+          "orcid": null,
+          "affiliations": [
+            "Henkel (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raul Arrabal",
+          "orcid": "0000-0002-7649-4049",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Endzhe Matykina",
+          "orcid": "0000-0002-9929-2618",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Mohedano",
+          "orcid": "0000-0002-9318-3031",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carsten Blawert",
+          "orcid": null,
+          "affiliations": [
+            "Helmholtz-Zentrum Hereon"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikhail L. Zheludkevich",
+          "orcid": "0000-0002-9658-9619",
+          "affiliations": [
+            "Helmholtz-Zentrum Hereon"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sviatlana V. Lamaka",
+          "orcid": "0000-0002-0349-0899",
+          "affiliations": [
+            "Helmholtz-Zentrum Hereon"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma15238489",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma15238489",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/15/23/8489/pdf?version=1669798496",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Owing to the unique active corrosion protection characteristic of hexavalent chromium-based systems, they have been projected to be highly effective solutions against the corrosion of many engineering metals. However, hexavalent chromium, rendered a highly toxic and carcinogenic substance, is being phased out of industrial applications. Thus, over the past few years, extensive and concerted efforts have been made to develop environmentally friendly alternative technologies with comparable or better corrosion protection performance to that of hexavalent chromium-based technologies. The introduction of corrosion inhibitors to a coating system on magnesium surface is a cost-effective approach not only for improving the overall corrosion protection performance, but also for imparting active inhibition during the service life of the magnesium part. Therefore, in an attempt to resemble the unique active corrosion protection characteristic of the hexavalent chromium-based systems, the incorporation of inhibitors to barrier coatings on magnesium alloys has been extensively investigated. In Part III of the Review, several types of corrosion inhibitors for magnesium and its alloys are reviewed. A discussion of the state-of-the-art inhibitor systems, such as iron-binding inhibitors and inhibitor mixtures, is presented, and perspective directions of research are outlined, including in silico or computational screening of corrosion inhibitors. Finally, the combination of corrosion inhibitors with other corrosion protection strategies is reviewed. Several reported highly protective coatings with active inhibition capabilities stemming from the on-demand activation of incorporated inhibitors can be considered a promising replacement for hexavalent chromium-based technologies, as long as their deployment is adequately addressed.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Nano- and micro-mechanical properties and corrosion performance of a HVOF sprayed AlCoCrFeNi high-entropy alloy coating",
+      "authors": [
+        "Ashok Meghwal",
+        "Surinder Singh",
+        "Ameey Anupam",
+        "Hannah J. King",
+        "Christiane Schulz",
+        "Colin J. Hall",
+        "Paul Richard Munroe",
+        "Christopher C. Berndt",
+        "Andrew Siao Ming Ang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ashok Meghwal",
+          "orcid": "0000-0003-1060-6009",
+          "affiliations": [
+            "Australian Research Council",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Surinder Singh",
+          "orcid": "0000-0002-3375-6088",
+          "affiliations": [
+            "Australian Research Council",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ameey Anupam",
+          "orcid": "0000-0003-2998-0949",
+          "affiliations": [
+            "Australian Research Council",
+            "Indian Institute of Technology Madras",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hannah J. King",
+          "orcid": "0000-0002-2548-2603",
+          "affiliations": [
+            "Australian Research Council",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christiane Schulz",
+          "orcid": "0000-0002-3764-9503",
+          "affiliations": [
+            "Australian Research Council",
+            "University of South Australia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Colin J. Hall",
+          "orcid": "0000-0002-8908-3062",
+          "affiliations": [
+            "Australian Research Council",
+            "University of South Australia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paul Richard Munroe",
+          "orcid": "0000-0002-5091-2513",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher C. Berndt",
+          "orcid": "0000-0002-7581-1639",
+          "affiliations": [
+            "Australian Research Council",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Siao Ming Ang",
+          "orcid": "0000-0001-7664-9971",
+          "affiliations": [
+            "Australian Research Council",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Alloys and Compounds",
+      "doi": "10.1016/j.jallcom.2022.165000",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jallcom.2022.165000",
+      "cited_by_count": 82,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://unsworks.unsw.edu.au/bitstreams/0e104137-ae0b-4779-8094-42a357ad208a/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Data-driven pitting evolution prediction for corrosion-resistant alloys by time-series analysis",
+      "authors": [
+        "Xue Feng Jiang",
+        "Yu Jing Yan",
+        "Yanjing Su"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Xue Feng Jiang",
+          "orcid": "0000-0001-7441-0828",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu Jing Yan",
+          "orcid": "0000-0003-4048-0603",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanjing Su",
+          "orcid": "0000-0003-2773-4015",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-022-00307-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-022-00307-4",
+      "cited_by_count": 23,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-022-00307-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Corrosion initiation and propagation are a time-series problem, evolving continuously with corrosion time, and future pitting behavior depends closely on the past. Predicting localized corrosion for corrosion-resistant alloys remains a great challenge, as macroscopic experiments and microscopic theoretical simulations cannot couple internal and external factors to describe the pitting evolution from a time dimension. In this work, a data-driven method based on time-series analysis was explored. Taking cobalt-based alloys and duplex stainless steels as the case scenario, a corrosion propagation model was built to predict the free corrosion potential (E corr ) using a long short-term memory neural network (LSTM) based on 150 days of immersion testing in saline solution. Compared to traditional machine learning methods, the time-series analysis method was more consistent with the evolution of ground truth in the E corr prediction of the subsequent 70 days’ immersion, illustrating that time-series dependency of pitting propagation could be captured and utilized.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Image Deep Learning Assisted Prediction of Mechanical and Corrosion Behavior for Al-Zn-Mg Alloys",
+      "authors": [
+        "Min Ao",
+        "Yucheng Ji",
+        "Xiaoguang Sun",
+        "Fengjia Guo",
+        "Kui Xiao",
+        "Chaofang Dong"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Min Ao",
+          "orcid": "0000-0002-0389-4615",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yucheng Ji",
+          "orcid": "0000-0002-0313-5360",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoguang Sun",
+          "orcid": "0000-0002-0463-5519",
+          "affiliations": [
+            "CRRC (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengjia Guo",
+          "orcid": null,
+          "affiliations": [
+            "Nanshan Group (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kui Xiao",
+          "orcid": "0000-0002-1172-195X",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaofang Dong",
+          "orcid": "0000-0002-0430-3135",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2022.3161519",
+      "type": "article",
+      "url": "https://doi.org/10.1109/access.2022.3161519",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09739738.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The use of metallographic images to predict the mechanical properties of materials and their corrosion behavior is helpful in achieving nondestructive detection and quality control. However, after a long-term attempt, the traditional methods cannot accurately correlate the mechanical properties and corrosion behavior of materials with the corresponding microstructure images. In this study, we propose a deep learning strategy to predict the mechanical property and corrosion behavior of large-scale extruded aluminum profiles using surface optical microstructure images. The proposed models with remarkable properties were established through experimental dataset collection, dataset preprocessing, deep learning network modification, and key parameter screening. Taking extruded Al-Zn-Mg alloys with different surface microstructures as example materials, 4,800 sets of “metallographic image – hardness (HV) – corrosion potential (Ecorr)” data were experimentally collected to establish the HV and Ecorrmodels with prediction accuracies of 90% and 82%, respectively. The proposed HV and Ecorrmodels exhibit great generalization ability with mean average errors of 1.8 HV and 7.0 mV on experimental validation sets, respectively. The proposed model can accurately correlate the metallographic images, mechanical property, and corrosion behavior, which can provide theoretical support for intelligent and nondestructive testing methods to further prevent unexpected material failure.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Corrosion Resistance of 3D-Printed Titanium Alloy Ti64-ELI Parts for Dental Application",
+      "authors": [
+        "L. Lebea",
+        "Harry Ngwangwa",
+        "Dawood Ahmed Desai",
+        "Fulufhelo James Nemavhola"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "L. Lebea",
+          "orcid": "0000-0001-8076-1536",
+          "affiliations": [
+            "Tshwane University of Technology",
+            "University of South Africa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Harry Ngwangwa",
+          "orcid": "0000-0001-5486-8049",
+          "affiliations": [
+            "University of South Africa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dawood Ahmed Desai",
+          "orcid": "0000-0002-5608-4528",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fulufhelo James Nemavhola",
+          "orcid": "0000-0002-6250-5157",
+          "affiliations": [
+            "University of South Africa"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Bionics and Biomechanics",
+      "doi": "10.1155/2022/1804417",
+      "type": "article",
+      "url": "https://doi.org/10.1155/2022/1804417",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://downloads.hindawi.com/journals/abb/2022/1804417.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Corrosion in the human body can cause materials to change structurally and release undesirable products that may bring about complications such as toxicity and inflammation. These may jeopardize the mechanical stability of prostheses. The purpose of this study was to evaluate the effect of solutions (Ringer’s and table salt [NaCl]) and immersion periods on 3D-printed titanium alloy Ti64-ELI samples and the changes in mechanical properties before and after corrosion testing. The microstructure of prepared samples was analyzed, and the formation of α- and β-phases was studied. During testing, the β-phases showed up as white, and the α-phases presented as dark. In both, corrosion by pitting was observed after corrosion analysis. The results show that, by comparing NaCl and Ringer’s, the E corr of the solutions increased by 0.8 V and the I corr decreased by an order of magnitude. It was observed that the weight loss in the solutions will lead to dental implant instability and will cause failure.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Atmospheric corrosion rate prediction of low-alloy steel using machine learning models",
+      "authors": [
+        "A A Thanush",
+        "Chitra P",
+        "J Kasinath",
+        "R Surya Prakash"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "A A Thanush",
+          "orcid": null,
+          "affiliations": [
+            "Thiagarajar College of Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chitra P",
+          "orcid": null,
+          "affiliations": [
+            "Thiagarajar College of Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J Kasinath",
+          "orcid": null,
+          "affiliations": [
+            "Thiagarajar College of Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "R Surya Prakash",
+          "orcid": null,
+          "affiliations": [
+            "Thiagarajar College of Engineering"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "IOP Conference Series Materials Science and Engineering",
+      "doi": "10.1088/1757-899x/1248/1/012050",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1088/1757-899x/1248/1/012050",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://iopscience.iop.org/article/10.1088/1757-899X/1248/1/012050/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Corrosion mitigation is one of the indispensable needs in many industries and is currently being pursued by various methods like surface modification, corrosion inhibitor addition, and cathodic protection systems. Corrosion rate prediction can help in designing alloys with an optimized composition of materials such that it has a lower corrosion rate in the environment where they are exposed. Corrosion rate prediction can also help the manufacturers to plan the replacement of the sample used in advance. Machine learning, which is the science of making machines learn without being explicitly programmed and without using pre-determined equations, can help overcome challenges in predicting corrosion of various materials under a variety of environmental conditions. In this paper, three machine learning algorithms namely Support Vector Regression, Multiple Linear Regression, and Random Forest Regression are used to develop a Hybrid model to predict the corrosion rate of materials. Feature reduction is performed after feature importance calculation using Random Forest Regression model. The accuracy of the developed models were calculated using r2 scores as an evaluation metric for different train-test split ratios. The input data for various conditions such as open, sheltered, coastal. Etc. are fed to the model and the performance was evaluated. The results show that the proposed Hybrid model outperforms the other baseline approaches with an accuracy of 91.46%, for predicting corrosion rate of materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Effect of Ti-B Grain Refiners on Wear and Corrosion of the A332 Alloy with Sr Modification",
+      "authors": [
+        "Bruno Edu Arendarchuck",
+        "Andre R. Mayer",
+        "Willian Rafael de Oliveira",
+        "Anderson Geraldo Marenda Pukasiewicz",
+        "Luciano Augusto Lourençato",
+        "Hipólito Carvajal Fals",
+        "E. Martínez"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Bruno Edu Arendarchuck",
+          "orcid": "0000-0001-6617-6955",
+          "affiliations": [
+            "Universidade Tecnológica Federal do Paraná"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andre R. Mayer",
+          "orcid": null,
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Willian Rafael de Oliveira",
+          "orcid": "0000-0002-3067-0772",
+          "affiliations": [
+            "Universidade Tecnológica Federal do Paraná"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anderson Geraldo Marenda Pukasiewicz",
+          "orcid": "0000-0002-1108-7151",
+          "affiliations": [
+            "Universidade Tecnológica Federal do Paraná"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luciano Augusto Lourençato",
+          "orcid": "0000-0001-8134-1314",
+          "affiliations": [
+            "Universidade Tecnológica Federal do Paraná"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hipólito Carvajal Fals",
+          "orcid": "0000-0001-5061-8763",
+          "affiliations": [
+            "Universidade Tecnológica Federal do Paraná"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "E. Martínez",
+          "orcid": "0000-0002-3042-4803",
+          "affiliations": [
+            "Universidad de La Rioja"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Sciences",
+      "doi": "10.3390/app13010430",
+      "type": "article",
+      "url": "https://doi.org/10.3390/app13010430",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/app13010430",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Grain refiners play a critical role in changing characteristics and properties of casting aluminum alloys. The Al-Si alloy (A332) is one of the most popular hypoeutectic alloys with a large range of industrial applications. It has a varied phase and morphology; however, it features problems with acicular-shaped eutectic phase, and generally exhibits dendritic cast grain type. To change this situation, the Sr element acts as a modifier of eutectic, which, along with a grain refiner may increase mechanical properties. In this work, two different grain refiners (Al5Ti1B, Al5Ti2B) were applied to the A332 alloy modified with Sr, and analyzed in relation to grain size, hardness, corrosion resistance, and wear behavior. Corrosion tests in 3.5 wt.% NaCl solution, nanoindentations, and Heyn’s method to analyze grain size and microhardness as optical and SEM images were made to examine the changes caused by grain refiners. A reduction in grain size was achieved, and the influence in size and hardness of the β-Fe phase was verified in the wear and corrosion analyses.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Assessment of Outliers in Alloy Datasets Using Unsupervised Techniques",
+      "authors": [
+        "Madison Wenzlick",
+        "Osman Mamun",
+        "Ram Devanathan",
+        "Kelly Rose",
+        "Jeffrey A. Hawk"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Madison Wenzlick",
+          "orcid": "0000-0003-1375-4218",
+          "affiliations": [
+            "National Energy Technology Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Osman Mamun",
+          "orcid": "0000-0002-3005-016X",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ram Devanathan",
+          "orcid": "0000-0001-8125-4237",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kelly Rose",
+          "orcid": "0000-0001-6130-4727",
+          "affiliations": [
+            "National Energy Technology Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey A. Hawk",
+          "orcid": "0000-0001-5017-0727",
+          "affiliations": [
+            "National Energy Technology Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "JOM",
+      "doi": "10.1007/s11837-022-05204-4",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11837-022-05204-4",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11837-022-05204-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Quantitative Evaluation of the Ability of Accelerated Tests to Simulate On-Road Corrosion Morphology of Automotive Aluminum Alloys",
+      "authors": [
+        "D. Zhang",
+        "Jayendran Srinivasan",
+        "Jenifer Locke"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "D. Zhang",
+          "orcid": null,
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jayendran Srinivasan",
+          "orcid": "0000-0001-8411-490X",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jenifer Locke",
+          "orcid": "0000-0003-3673-4236",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "CORROSION",
+      "doi": "10.5006/4174",
+      "type": "article",
+      "url": "https://doi.org/10.5006/4174",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://meridian.allenpress.com/corrosion/article-pdf/78/12/1229/3161372/4174.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Three wrought automotive Al-Mg-Si alloys (6xxx-series) were exposed to an on-road service environment and in six standard laboratory-accelerated exposure tests. Optical micrographs of all these exposures were obtained and the resulting corrosion morphology was quantified using fractal dimension analysis and corrosion boundary length-to-area ratios. Additionally, the images were also used to train a convolutional neural network (CNN)-based pattern recognition algorithm, which was then used to quantitatively identify which accelerated test was the closest match to the field exposures. Overall, no single accelerated test could fully capture the on-road results or ubiquitously be the most appropriate test regardless of alloy and temper. However, results from fractal dimension and length-to-area ratio analyses identified that among the tests studied, those with acidified electrolytes are more appropriate for matching on-road corrosion morphology. The CNN algorithm output also agreed with this finding, indicating that the results from tests with acidified electrolytes correlated to field morphology with a confidence >70% for most of the images tested, thus showing the utility of these methods in providing quantitative bases for morphology comparison. Assessed in the context of literature evidence for localized corrosion mechanisms in 6xxx-series alloys, these results also indicated that pH may play an influential role in how corrosion morphology develops in these alloys upon exposure to a complex on-road environment.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Electrochemical metrics for corrosion resistant alloys",
+      "authors": [
+        "Clara M. Nyby",
+        "Xiaolei Guo",
+        "James E. Saal",
+        "Szu‐Chia Chien",
+        "Angela Yu Gerard",
+        "Huibin Ke",
+        "Tianshu Li",
+        "Pin Lu",
+        "Christian Oberdörfer",
+        "Sarita Sahu",
+        "Sirui Li",
+        "Christopher David Taylor",
+        "Wolfgang Windl",
+        "John R. Scully",
+        "G. S. Frankel"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Clara M. Nyby",
+          "orcid": "0000-0003-0258-1278",
+          "affiliations": [
+            "Citrine Informatics (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaolei Guo",
+          "orcid": "0000-0002-8074-7205",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James E. Saal",
+          "orcid": "0000-0003-0935-158X",
+          "affiliations": [
+            "Citrine Informatics (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Szu‐Chia Chien",
+          "orcid": "0000-0002-1239-7258",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Angela Yu Gerard",
+          "orcid": "0000-0001-9621-1045",
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huibin Ke",
+          "orcid": "0000-0002-3794-2312",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tianshu Li",
+          "orcid": "0000-0001-8664-092X",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pin Lu",
+          "orcid": "0000-0001-6466-4031",
+          "affiliations": [
+            "QuesTek (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Oberdörfer",
+          "orcid": "0000-0002-0494-7029",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sarita Sahu",
+          "orcid": "0000-0003-3052-9442",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sirui Li",
+          "orcid": "0000-0002-2267-4335",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher David Taylor",
+          "orcid": "0000-0002-0252-0988",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wolfgang Windl",
+          "orcid": "0000-0001-5892-0684",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John R. Scully",
+          "orcid": "0000-0001-5353-766X",
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "G. S. Frankel",
+          "orcid": "0000-0003-0573-3548",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-021-00840-y",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-021-00840-y",
+      "cited_by_count": 129,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-021-00840-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Corrosion is an electrochemical phenomenon. It can occur via different modes of attack, each having its own mechanisms, and therefore there are multiple metrics for evaluating corrosion resistance. In corrosion resistant alloys (CRAs), the rate of localized corrosion can exceed that of uniform corrosion by orders of magnitude. Therefore, instead of uniform corrosion rate, more complex electrochemical parameters are required to capture the salient features of corrosion phenomena. Here, we collect a database with an emphasis on metrics related to localized corrosion. The six sections of the database include data on various metal alloys with measurements of (1) pitting potential, Epit, (2) repassivation potential, Erp, (3) crevice corrosion potential, Ecrev, (4) pitting temperature, Tpit, (5) crevice corrosion temperature, Tcrev, and (6) corrosion potential, Ecorr, corrosion current density, icorr, passivation current density, ipass, and corrosion rate. The experimental data were collected from 85 publications and include Al- and Fe-based alloys, high entropy alloys (HEAs), and a Ni-Cr-Mo ternary system. This dataset could be used in the design of highly corrosion resistant alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "High temperature oxidation of corrosion resistant alloys from machine learning",
+      "authors": [
+        "Christopher David Taylor",
+        "Brett M. Tossey"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Christopher David Taylor",
+          "orcid": "0000-0002-0252-0988",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brett M. Tossey",
+          "orcid": "0000-0002-3135-3349",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Materials Degradation",
+      "doi": "10.1038/s41529-021-00184-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41529-021-00184-3",
+      "cited_by_count": 100,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41529-021-00184-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Parabolic rate constants, k p , were collected from published reports and calculated from corrosion product data (sample mass gain or corrosion product thickness) and tabulated for 75 alloys exposed to temperatures between ~800 and 2000 K (~500–1700 o C; 900–3000 o F). Data were collected for environments including lab air, ambient and supercritical carbon dioxide, supercritical water, and steam. Materials studied include low- and high-Cr ferritic and austenitic steels, nickel superalloys, and aluminide materials. A combination of Arrhenius analysis, simple linear regression, supervised and unsupervised machine learning methods were used to investigate the relations between composition and oxidation kinetics. The supervised machine learning techniques produced the lowest mean standard errors. The most significant elements controlling oxidation kinetics were Ni, Cr, Al, and Fe, with Mo and Co composition also found to be significant features. The activation energies produced from the machine learning analysis were in the correct distributions for the diffusion constants for the oxide scales expected to dominate in each class.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Investigations of the intrinsic corrosion and hydrogen susceptibility of metals and alloys using density functional theory",
+      "authors": [
+        "Christopher David Taylor",
+        "Huibin Ke"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Christopher David Taylor",
+          "orcid": "0000-0002-0252-0988",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huibin Ke",
+          "orcid": "0000-0002-3794-2312",
+          "affiliations": [
+            "Pacific Northwest National Laboratory",
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Corrosion Reviews",
+      "doi": "10.1515/corrrev-2020-0094",
+      "type": "article",
+      "url": "https://doi.org/10.1515/corrrev-2020-0094",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.degruyter.com/document/doi/10.1515/corrrev-2020-0094/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Mechanisms for materials degradation are usually inferred from electrochemical measurements and characterization performed before, during, and after exposure testing and/or failure analysis of service materials. Predicting corrosion and other materials degradation modes, such as hydrogen-assisted cracking, from first-principles has generally been limited to thermodynamic predictions from Pourbaix or Ellingham diagrams and the Galvanic series. Using electronic structure calculations, modern first-principles methods can predict ab initio the key rate-controlling processes for corrosion and hydrogen susceptibility as a function of pH, potential, and solution chemistry, and materials composition and microstructure. Herein we review density functional theory (DFT) approaches for studying the electrochemical reactions occurring on fresh metal and alloy surfaces related to environmentally assisted cracking and localized corrosion/pitting. Predicted changes in surface chemistry as a function of the environment were correlated against experimental crack growth rate data obtained for alloys 718, 725, and pipeline steel under electrochemical control. We also review the application of the method to study the effects of alloying on the chloride susceptibility of stainless steels and Ni–Cr-based corrosion-resistant alloys. Perspectives for improving the model are given, and extending it to future fields of application in corrosion science and engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Design of novel NiSiAlY alloys in marine salt-spray environment: Part II. Al-Ni-Si-Y thermodynamic dataset",
+      "authors": [
+        "Kai Xu",
+        "Keke Chang",
+        "Miao Yu",
+        "Dapeng Zhou",
+        "Yong Du",
+        "Liping Wang"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Kai Xu",
+          "orcid": "0000-0002-8460-5992",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keke Chang",
+          "orcid": "0000-0001-9118-7031",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Miao Yu",
+          "orcid": "0000-0002-1538-8701",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dapeng Zhou",
+          "orcid": "0000-0002-4162-3197",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong Du",
+          "orcid": "0000-0002-4187-3989",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liping Wang",
+          "orcid": "0000-0002-9003-9376",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Material Science and Technology",
+      "doi": "10.1016/j.jmst.2021.01.088",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmst.2021.01.088",
+      "cited_by_count": 33,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "A strong and ductile medium-entropy alloy resists hydrogen embrittlement and corrosion",
+      "authors": [
+        "Hong Luo",
+        "Seok Su Sohn",
+        "Wenjun Lu",
+        "Linlin Li",
+        "Xiaogang Li",
+        "Chandrahaasan K. Soundararajan",
+        "Waldemar Krieger",
+        "Zhiming Li",
+        "Dierk Raabe"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Hong Luo",
+          "orcid": "0000-0001-8612-7851",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seok Su Sohn",
+          "orcid": "0000-0002-4504-0028",
+          "affiliations": [
+            "Korea University",
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenjun Lu",
+          "orcid": "0000-0003-0871-9565",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linlin Li",
+          "orcid": "0000-0001-7181-6654",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaogang Li",
+          "orcid": "0000-0001-9255-7559",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chandrahaasan K. Soundararajan",
+          "orcid": "0000-0003-2580-9634",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Waldemar Krieger",
+          "orcid": "0000-0003-3914-0257",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiming Li",
+          "orcid": "0000-0002-8170-5621",
+          "affiliations": [
+            "Central South University",
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dierk Raabe",
+          "orcid": "0000-0003-0194-6124",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-020-16791-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-020-16791-8",
+      "cited_by_count": 320,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-020-16791-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Strong and ductile materials that have high resistance to corrosion and hydrogen embrittlement are rare and yet essential for realizing safety-critical energy infrastructures, hydrogen-based industries, and transportation solutions. Here we report how we reconcile these constraints in the form of a strong and ductile CoNiV medium-entropy alloy with face-centered cubic structure. It shows high resistance to hydrogen embrittlement at ambient temperature at a strain rate of 10−4 s−1, due to its low hydrogen diffusivity and the deformation twinning that impedes crack propagation. Moreover, a dense oxide film formed on the alloy’s surface reduces the hydrogen uptake rate, and provides high corrosion resistance in dilute sulfuric acid with a corrosion current density below 7 μA cm−2. The combination of load carrying capacity and resistance to harsh environmental conditions may qualify this multi-component alloy as a potential candidate material for sustainable and safe infrastructures and devices.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Effect of Mn Element Addition on the Microstructure, Mechanical Properties, and Corrosion Properties of Mg-3Zn-0.2Ca Alloy",
+      "authors": [
+        "Yu Yan Han",
+        "Chen You",
+        "Yun Zhao",
+        "Min Fang Chen",
+        "Liang Wang"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Yu Yan Han",
+          "orcid": null,
+          "affiliations": [
+            "Tianjin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chen You",
+          "orcid": "0000-0002-2332-4898",
+          "affiliations": [
+            "Tianjin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yun Zhao",
+          "orcid": "0000-0001-7587-7702",
+          "affiliations": [
+            "Tianjin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Min Fang Chen",
+          "orcid": null,
+          "affiliations": [
+            "Tianjin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liang Wang",
+          "orcid": "0000-0001-6542-761X",
+          "affiliations": [
+            "Tianjin University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Materials",
+      "doi": "10.3389/fmats.2019.00324",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmats.2019.00324",
+      "cited_by_count": 38,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmats.2019.00324/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnesium-zinc-calcium alloys have unique advantages of being used as biomedical bone implants since their mechanical properties and biocompatibility are similar to human tissues. However, insufficient strength and poor corrosion resistance have been the major problems to stunt the application. In this paper, the changes of microstructure, mechanical properties and corrosion resistance of ternary Mg-3Zn-0.2Ca(wt.%) with different contents of Mn (0.3, 0.5, 0.7, 0.9, wt.%) are studied. With the increase of Mn content, the grain size of as-cast alloy first decreases and then increases, this indicates that the amount of Mn affects the degree of subcooling of the alloy. At the 320℃/24h homogenizing treatment, the large and uneven dendrites are transformed into uniform equiaxed grains, the mechanical properties of alloys with different Mn contents are different on the basis of Mg-3Zn-0.2Ca(wt.%) alloy. The five alloys were extruded into bar with a diameter of 8 mm through hot-extrusion process. Quaternary Mg-3Zn-0.2Ca-XMn (X=0.3, 0.5, 0.7, 0.9) (wt.%) alloys are investegated and the results show that 0.5wt% Mn alloy has the best yield tensile strength (YS) (302MPa) and good ultimate tensile strength (UTS) (327MPa). The reason is that the different contents of Mn restrain the dynamic recrystallization in extrusion process, which remarkedly reduced the grain size. Moreover, each alloy is investigated by electrochemical measurements at 37℃ in a simulated body fluid (SBF). The electrochemical results show that the corrosion potential of Mn-contained alloys are increased compared to ternary Mg-3Zn-0.2Ca (wt.%) alloy, and 0.5wt.% Mn-contained alloy perfoms the best result.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "First-principles search for alloying elements that increase corrosion resistance of Mg with second-phase particles of transition metal impurities",
+      "authors": [
+        "Mingfei Zhang",
+        "Louis G. Hector",
+        "Yang Guo",
+        "Ming Liu",
+        "Liang Qi"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Mingfei Zhang",
+          "orcid": "0000-0002-4865-6274",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Louis G. Hector",
+          "orcid": "0000-0001-7299-6482",
+          "affiliations": [
+            "General Motors (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Guo",
+          "orcid": "0009-0005-9897-2389",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Liu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liang Qi",
+          "orcid": "0000-0002-6038-2907",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2019.04.018",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2019.04.018",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.commatsci.2019.04.018",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Advanced 3D characterisation of iodine induced stress corrosion cracks in zirconium alloys",
+      "authors": [
+        "Conor Gillen",
+        "Alistair Garner",
+        "Adam J. Plowman",
+        "Christopher Peter Race",
+        "Tristan Lowe",
+        "Christopher Jones",
+        "Katie L. Moore",
+        "Philipp Frankel"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Conor Gillen",
+          "orcid": "0000-0003-0472-7672",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alistair Garner",
+          "orcid": "0000-0002-8337-087X",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adam J. Plowman",
+          "orcid": "0000-0002-9781-7353",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher Peter Race",
+          "orcid": "0000-0002-9775-687X",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tristan Lowe",
+          "orcid": null,
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher Jones",
+          "orcid": "0000-0002-9134-0128",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Katie L. Moore",
+          "orcid": "0000-0003-1615-7232",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Philipp Frankel",
+          "orcid": "0000-0001-5612-2937",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Characterization",
+      "doi": "10.1016/j.matchar.2018.04.034",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matchar.2018.04.034",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1044580318300263/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this study, a range of advanced techniques have been used to characterise iodine-induced stress corrosion cracks, and investigate their interaction with microstructure in zirconium alloys used as cladding material in nuclear power reactors. C-ring samples, machined from cladding tubes in a recrystallised and cold worked condition, were subjected to compressive stress while submerged in an iodine-ethanol solution to simulate stress corrosion cracks arising from pellet cladding interaction. The complex morphology of these stress corrosion cracks was imaged in 3D using X-ray computed tomography (XCT), and subsequent analysis using both 2D and 3D electron backscatter diffraction (EBSD) allowed for the interaction of these cracks with microstructure to be investigated. Intergranular cracking modes were observed to dominate in the recrystallised microstructure, resulting in cracking in the radial direction with variations on the order of the grain size. Crack propagation in the cold worked microstructure was observed to be correlated with the direction of the elongated grains, resulting in a more tangential crack path with less local variation and a microstructure potentially more susceptible to iodine-induced stress corrosion cracking. 3D-EBSD using serial sectioning allows for the determination of the full five-parameter grain boundary description, and opens up the possibility of a statistical analysis of susceptible boundaries to SCC. Nanoscale secondary ion mass spectrometry (NanoSIMS) was also used to map the chemical distribution in the crack tip region and provides possible evidence of iodine segregation ahead of the crack tip. The results provide new insight into crack propagation mechanisms in recrystallised and cold worked microstructures, and pave the way for a more mechanistic understanding of crack propagation through advanced characterisation of iodine-induced stress corrosion cracks in zirconium alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Compositional study of a corrosion protective layer formed by leachable lithium salts in a coating defect on AA2024-T3 aluminium alloys",
+      "authors": [
+        "Kristof Marcoen",
+        "Peter Visser",
+        "Gustavo F. Trindade",
+        "Marie‐Laure Abel",
+        "John F. Watts",
+        "J.M.C. Mol",
+        "Herman Albert Terryn",
+        "Tom Hauffman"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Kristof Marcoen",
+          "orcid": "0000-0003-2831-483X",
+          "affiliations": [
+            "Vrije Universiteit Brussel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Visser",
+          "orcid": "0000-0002-6388-382X",
+          "affiliations": [
+            "AkzoNobel (Netherlands)",
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gustavo F. Trindade",
+          "orcid": "0000-0001-6998-814X",
+          "affiliations": [
+            "University of Surrey"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marie‐Laure Abel",
+          "orcid": null,
+          "affiliations": [
+            "University of Surrey"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John F. Watts",
+          "orcid": "0000-0003-2109-0335",
+          "affiliations": [
+            "University of Surrey"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.M.C. Mol",
+          "orcid": "0000-0003-1810-5145",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Herman Albert Terryn",
+          "orcid": "0000-0003-2639-5496",
+          "affiliations": [
+            "Vrije Universiteit Brussel",
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tom Hauffman",
+          "orcid": "0000-0002-3456-0271",
+          "affiliations": [
+            "Vrije Universiteit Brussel"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Progress in Organic Coatings",
+      "doi": "10.1016/j.porgcoat.2018.02.011",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.porgcoat.2018.02.011",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0300944017308731",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 39,
+      "known": 50,
+      "pct": 78,
+      "text": "文献类型：journal-article = 39/50（78%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

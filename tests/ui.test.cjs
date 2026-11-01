@@ -4,6 +4,7 @@ const fs=require('node:fs');
 const ui=require('../web/app.js');
 const datasets=JSON.parse(fs.readFileSync('data/datasets.json','utf8'));
 const resources=JSON.parse(fs.readFileSync('data/resources.json','utf8'));
+const apiSources=JSON.parse(fs.readFileSync('data/api_sources.json','utf8'));
 const categories=JSON.parse(fs.readFileSync('data/summary.json','utf8')).categories;
 const filter=patch=>ui.filterDatasets(datasets,{...ui.DEFAULT_STATE,...patch},categories);
 const inventory=JSON.parse(fs.readFileSync('data/collection_entries.json','utf8'));
@@ -118,4 +119,116 @@ test('every Starrydata project is searchable with three direct file links',()=>{
  assert.equal(projects.length,14);assert.equal(manifest.files.length,45);
  const rows=filter({q:'Starrydata project-subset'});assert.ok(projects.every(p=>rows.some(d=>d.id===p.id)));
  for(const p of projects){for(const k of ['papers','samples','curves'])assert.ok(p.links[k].endsWith('.csv.gz'));assert.equal(p.count_unit,'samples');}
+});
+test('API search combines interface and authentication and remains visible in global search',()=>{
+ const state={...ui.DEFAULT_STATE,view:'apis',q:'Materials Project',api_kind:'native_api',api_auth:'api_key'};
+ const native=ui.filterAPIs(apiSources,state);
+ assert.deepEqual(native.map(r=>r.id),['mp-native']);
+ const standard=ui.filterAPIs(apiSources,{...state,api_kind:'optimade',api_auth:'none'});
+ assert.ok(standard.some(r=>r.id==='mp-optimade'));
+ assert.equal(ui.filterAPIs(apiSources,{...state,q:'not_a_real_provider_293'}).length,0);
+ const global=ui.searchOverview({datasets,resources,categories,sourceEntries:inventory.entries,apiSources},'OPTIMADE');
+ assert.ok(global.apis.some(r=>r.id==='jarvis-optimade'));
+ assert.ok(global.apis.some(r=>r.id==='mp-optimade'));
+ const cleared=ui.globalSearchState(state.q,'apis');assert.equal(cleared.api_auth,'');assert.equal(cleared.api_kind,'');
+});
+test('API exports preserve authentication, verification limits and source evidence',()=>{
+ const rows=ui.filterAPIs(apiSources,{...ui.DEFAULT_STATE,q:'JARVIS'});
+ const csv=ui.csvFor(rows,'apis');
+ for(const field of ['entrypoint','auth','auth_notes','verification','sources','limitations'])assert.ok(csv.includes('"'+field+'"'));
+ const jarvis=rows.find(r=>r.id==='jarvis-optimade');
+ assert.equal(jarvis.verification.status,'empty_response');
+ assert.ok(csv.includes('empty_response'));assert.ok(csv.includes(jarvis.entrypoint));
+ assert.equal(apiSources.find(r=>r.id==='mp-native').verification.status,'auth_required');
+ assert.equal(apiSources.find(r=>r.id==='huggingface').verification.status,'metadata_verified');
+});
+test('JARVIS inventory covers every homepage row, documented release and downloader name',()=>{
+ const c=JSON.parse(fs.readFileSync('research/collection_jarvis_databases.json','utf8'));
+ const home=c.links.filter(e=>e.section==='JARVIS homepage / Databases');
+ const docs=c.links.filter(e=>e.section==='JARVIS-Tools / Figshare based databases');
+ assert.equal(home.length,13);assert.equal(docs.length,65);
+ assert.deepEqual(home.map(e=>Number(e.label.split('.')[0])),[1,2,3,4,5,6,7,9,10,11,12,13,14]);
+ assert.equal(new Set(c.links.filter(e=>e.registry_key).map(e=>e.registry_key)).size,66);
+ assert.equal(entryFilter({collection:'jarvis_databases'}).length,c.links.length);
+ for(const e of home)assert.ok((e.catalog_ids||[]).length+(e.resource_urls||[]).length>0,e.label);
+ for(const name of ['stm','wtbh_electron','wtbh_phonon'])assert.equal(docs.find(e=>e.label===name).registry_key,null);
+});
+test('Scientific Data descriptor and new-release searches agree with the journal index',()=>{
+ const journal=JSON.parse(fs.readFileSync('data/scientific_data_index.json','utf8'));
+ const mapped=new Set(journal.descriptors.flatMap(d=>d.catalog_ids));
+ const found=filter({q:'"Scientific-Data-descriptor"'});
+ assert.equal(found.length,journal.catalog_records);
+ assert.deepEqual(new Set(found.map(d=>d.id)),mapped);
+ assert.equal(filter({q:'"Scientific-Data-survey-20261101"'}).length,journal.new_catalog_records);
+ for(const id of ['mp-elastic-2015','mp-piezo-2015','mp-dfpt-phonons-2018','3dsc-mp','3dsc-icsd'])assert.ok(mapped.has(id));
+ const sourceRows=entryFilter({collection:'sdata_20261101'});
+ assert.ok(sourceRows.length>=journal.title_candidates);
+ assert.ok(sourceRows.some(e=>e.section==='Unreviewed broad title candidate'&&e.scope==='uncertain'));
+});
+
+test('additional-materials search finds every integrated release while keeping model labels explicit',()=>{
+ const receipt=JSON.parse(fs.readFileSync('research/additional_20261101/integration_receipt.json','utf8'));
+ const rows=filter({q:'"additional-materials-20261101"'});
+ assert.deepEqual(new Set(rows.map(d=>d.id)),new Set(receipt.new_dataset_ids));
+ assert.ok(rows.find(d=>d.id==='solid26').count_unit.includes('configuration'));
+ assert.ok(rows.find(d=>d.id==='asi-paracrystalline-models').provenance.includes('MTP'));
+ assert.equal(rows.find(d=>d.id==='ultera-2025').access,'restricted');
+});
+
+test('every MateriaViva property is individually searchable with exact provenance and denominators',()=>{
+ const manifest=JSON.parse(fs.readFileSync('research/materiaviva_properties_20261101/property_manifest.json','utf8'));
+ const rows=filter({category:'materials_properties'});
+ assert.equal(rows.length,148);
+ assert.equal(rows.reduce((s,d)=>s+d.count,0),manifest.rows);
+ for(const d of rows){
+  const p=d.property_dataset,m=manifest.per_property[p.property_key];
+  assert.equal(d.count,m.rows);assert.equal(p.structures,m.structures);assert.equal(p.unit,m.unit);assert.equal(p.value_kind,m.kind);
+  assert.deepEqual(Object.fromEntries(p.upstream_sources.map(u=>[u.source_id,u.values])),m.sources);
+  assert.equal(p.upstream_sources.reduce((s,u)=>s+u.values,0),d.count);
+  assert.ok(filter({category:'materials_properties',q:p.property_key}).some(r=>r.id===d.id));
+  assert.ok(filter({category:'materials_properties',q:d.properties[0]}).some(r=>r.id===d.id));
+  assert.ok(d.links.data.includes('/resolve/'+p.revision+'/properties/'+p.property_key+'.parquet'));
+  assert.equal(d.count_unit,'property values');assert.equal(d.structure_level,'structure_linked');
+ }
+ for(const [q,key] of [['superconductor Tc','tc-superconducting'],['ionic conductivity','ionic-conductivity'],['band gap','band-gap'],['NMR EFG','nmr-efg-max'],['SHG','shg-coefficient']]){
+  assert.ok(filter({category:'materials_properties',q}).some(r=>r.id==='materiaviva-property-'+key),q);
+ }
+ assert.equal(filter({category:'materials_properties',q:'Matvina'}).length,148);
+});
+
+test('property access view and exports distinguish direct delivery from all upstream providers',()=>{
+ const d=datasets.find(d=>d.id==='materiaviva-property-band-gap'),p=d.property_dataset;
+ const html=ui.propertyAccessHTML(d);
+ assert.ok(html.includes('DIRECT ACCESS SOURCE'));assert.ok(html.includes('ORIGINAL SOURCES / INDIRECT ACCESS'));
+ assert.ok(html.includes(p.direct_access));assert.ok(html.includes(p.direct_download));
+ for(const u of p.upstream_sources){assert.ok(html.includes(u.url.replaceAll('&','&amp;')));assert.ok(html.includes(u.values.toLocaleString('en-US')));}
+ assert.equal(ui.propertyAccessHTML(datasets.find(d=>!d.property_dataset)),'');
+ const csv=ui.csvFor([d]);assert.ok(csv.includes('"property_dataset"'));assert.ok(csv.includes('direct_access'));assert.ok(csv.includes('upstream_sources'));
+ const escaped=ui.propertyAccessHTML({...d,property_dataset:{...p,provider:'<script>alert(1)</script>'}});
+ assert.ok(!escaped.includes('<script>'));assert.ok(escaped.includes('&lt;script&gt;'));
+});
+
+test('Data.gov selection retains eight new datasets and avoids CAMEO and conditional thermoelectric double counts',()=>{
+ const receipt=JSON.parse(fs.readFileSync('research/datagov_20261101/integration_receipt.json','utf8'));
+ assert.equal(receipt.new_dataset_ids.length,8);
+ const rows=filter({q:'Data.gov-selection-20261101'});
+ assert.deepEqual(new Set(rows.map(d=>d.id)),new Set([...receipt.new_dataset_ids,...receipt.existing_selected_ids]));
+ assert.ok(!datasets.some(d=>d.id==='gdr-low-temperature-thermoelectric-2016'));
+ assert.ok(resources.some(r=>r.kind==='conditional thermoelectric development dataset'));
+ assert.ok(apiSources.some(r=>r.id==='nist-insulation'&&r.verification.status==='sample_verified'));
+ assert.equal(entryFilter({collection:'datagov_20261101'}).length,320);
+});
+
+test('Matbench directory preserves every row and separates released datasets from adjacent resources',()=>{
+ const audit=JSON.parse(fs.readFileSync('research/matbench_coverage_20261101/audit.json','utf8'));
+ const receipt=JSON.parse(fs.readFileSync('research/matbench_coverage_20261101/integration_receipt.json','utf8'));
+ assert.equal(audit.entries.length,46);assert.equal(audit.all_keys_agree,true);
+ const entries=entryFilter({collection:'matbench_discovery_20261101'});assert.equal(entries.length,46);
+ const ids=new Set(datasets.map(d=>d.id));const urls=new Set(resources.map(r=>r.url));
+ for(const e of audit.entries){assert.ok(entries.some(x=>x.url===e.detail_url));assert.ok(e.catalog_ids.length||e.resource_url);for(const id of e.catalog_ids)assert.ok(ids.has(id));if(e.resource_url)assert.ok(urls.has(e.resource_url));}
+ assert.equal(receipt.new_dataset_ids.length,13);
+ assert.equal(datasets.find(d=>d.id==='materials-project').count,271325);
+ assert.equal(datasets.find(d=>d.id==='mp-frozen-2022').count,154718);
+ assert.equal(datasets.find(d=>d.id==='salex-omat24-validation').count,553218);
+ assert.ok(audit.important_scope_notes.Alex.includes('equilibrium'));
 });

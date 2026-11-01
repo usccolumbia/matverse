@@ -1,0 +1,870 @@
+{
+  "verified_date": "2026-11-01",
+  "journal_metadata_source": "../journal_candidates.json",
+  "leads": [
+    {
+      "title": "Open data for evolutionary synthesis: an introduction to the NESCent collection",
+      "doi": "10.1038/sdata.2014.30",
+      "url": "https://doi.org/10.1038/sdata.2014.30",
+      "publication_date": "2014-09-02",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+      "doi": "10.1038/sdata.2015.9",
+      "url": "https://doi.org/10.1038/sdata.2015.9",
+      "publication_date": "2015-03-17",
+      "disposition": "existing",
+      "dataset_id": "mp-elastic-2015",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "A database to enable discovery and design of piezoelectric materials",
+      "doi": "10.1038/sdata.2015.53",
+      "url": "https://doi.org/10.1038/sdata.2015.53",
+      "publication_date": "2015-09-29",
+      "disposition": "existing",
+      "dataset_id": "mp-piezo-2015",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "High-throughput ab-initio dilute solute diffusion database",
+      "doi": "10.1038/sdata.2016.54",
+      "url": "https://doi.org/10.1038/sdata.2016.54",
+      "publication_date": "2016-07-19",
+      "disposition": "existing",
+      "dataset_id": "uw-cmg-dilute-solute-diffusion",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials",
+      "doi": "10.1038/sdata.2016.134",
+      "url": "https://doi.org/10.1038/sdata.2016.134",
+      "publication_date": "2017-01-31",
+      "disposition": "existing",
+      "dataset_id": "mp-dielectric-2017",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "An ab initio electronic transport database for inorganic materials",
+      "doi": "10.1038/sdata.2017.85",
+      "url": "https://doi.org/10.1038/sdata.2017.85",
+      "publication_date": "2017-07-04",
+      "disposition": "existing",
+      "dataset_id": "mp-boltztrap-transport",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Machine-learned and codified synthesis parameters of oxide materials",
+      "doi": "10.1038/sdata.2017.127",
+      "url": "https://doi.org/10.1038/sdata.2017.127",
+      "publication_date": "2017-09-12",
+      "disposition": "added",
+      "dataset_id": "oxide-synthesis-aggregates-2017",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Experimental formation enthalpies for intermetallic phases and other inorganic compounds",
+      "doi": "10.1038/sdata.2017.162",
+      "url": "https://doi.org/10.1038/sdata.2017.162",
+      "publication_date": "2017-10-24",
+      "disposition": "added",
+      "dataset_id": "experimental-formation-enthalpy-2017",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "High-throughput density-functional perturbation theory phonons for inorganic materials",
+      "doi": "10.1038/sdata.2018.65",
+      "url": "https://doi.org/10.1038/sdata.2018.65",
+      "publication_date": "2018-05-01",
+      "disposition": "existing",
+      "dataset_id": "mp-dfpt-phonons-2018",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Computational screening of high-performance optoelectronic materials using OptB88vdW and TB-mBJ formalisms",
+      "doi": "10.1038/sdata.2018.82",
+      "url": "https://doi.org/10.1038/sdata.2018.82",
+      "publication_date": "2018-05-08",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Combining tensile testing and structural analysis at the single collagen fibril level",
+      "doi": "10.1038/sdata.2018.229",
+      "url": "https://doi.org/10.1038/sdata.2018.229",
+      "publication_date": "2018-10-23",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Synthesis, optical imaging, and absorption spectroscopy data for 179072 metal oxides",
+      "doi": "10.1038/s41597-019-0019-4",
+      "url": "https://doi.org/10.1038/s41597-019-0019-4",
+      "publication_date": "2019-03-27",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "179,072 metal-oxide high-throughput synthesis/optical release assigned to characterization perspective."
+    },
+    {
+      "title": "High-throughput calculations of catalytic properties of bimetallic alloy surfaces",
+      "doi": "10.1038/s41597-019-0080-z",
+      "url": "https://doi.org/10.1038/s41597-019-0080-z",
+      "publication_date": "2019-05-28",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "2DMatPedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches",
+      "doi": "10.1038/s41597-019-0097-3",
+      "url": "https://doi.org/10.1038/s41597-019-0097-3",
+      "publication_date": "2019-06-12",
+      "disposition": "existing",
+      "dataset_id": "2dmatpedia",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Text-mined dataset of inorganic materials synthesis recipes",
+      "doi": "10.1038/s41597-019-0224-1",
+      "url": "https://doi.org/10.1038/s41597-019-0224-1",
+      "publication_date": "2019-10-15",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Author Correction: Text-mined dataset of inorganic materials synthesis recipes",
+      "doi": "10.1038/s41597-019-0297-x",
+      "url": "https://doi.org/10.1038/s41597-019-0297-x",
+      "publication_date": "2019-11-15",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Physical and chemical descriptors for predicting interfacial thermal resistance",
+      "doi": "10.1038/s41597-020-0373-2",
+      "url": "https://doi.org/10.1038/s41597-020-0373-2",
+      "publication_date": "2020-02-03",
+      "disposition": "added",
+      "dataset_id": "itr-interface-descriptors",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Author Correction: Physical and chemical descriptors for predicting interfacial thermal resistance",
+      "doi": "10.1038/s41597-020-0405-y",
+      "url": "https://doi.org/10.1038/s41597-020-0405-y",
+      "publication_date": "2020-02-17",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "An automatically curated first-principles database of ferroelectrics",
+      "doi": "10.1038/s41597-020-0407-9",
+      "url": "https://doi.org/10.1038/s41597-020-0407-9",
+      "publication_date": "2020-03-03",
+      "disposition": "existing",
+      "dataset_id": "smidt-ferroelectric-2020",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "High dielectric ternary oxides from crystal structure prediction and high-throughput screening",
+      "doi": "10.1038/s41597-020-0418-6",
+      "url": "https://doi.org/10.1038/s41597-020-0418-6",
+      "publication_date": "2020-03-06",
+      "disposition": "added",
+      "dataset_id": "predicted-high-dielectric-oxides",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "High-throughput screening platform for solid electrolytes combining hierarchical ion-transport prediction algorithms",
+      "doi": "10.1038/s41597-020-0474-y",
+      "url": "https://doi.org/10.1038/s41597-020-0474-y",
+      "publication_date": "2020-05-21",
+      "disposition": "added",
+      "dataset_id": "spse-ion-transport-2020",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A band-gap database for semiconducting inorganic materials calculated with hybrid functional",
+      "doi": "10.1038/s41597-020-00723-8",
+      "url": "https://doi.org/10.1038/s41597-020-00723-8",
+      "publication_date": "2020-11-11",
+      "disposition": "existing",
+      "dataset_id": "snumat-hybrid-gap",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys",
+      "doi": "10.1038/s41597-020-00768-9",
+      "url": "https://doi.org/10.1038/s41597-020-00768-9",
+      "publication_date": "2020-12-08",
+      "disposition": "added",
+      "dataset_id": "mpea-borg-expanded",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Electrochemical metrics for corrosion resistant alloys",
+      "doi": "10.1038/s41597-021-00840-y",
+      "url": "https://doi.org/10.1038/s41597-021-00840-y",
+      "publication_date": "2021-02-11",
+      "disposition": "added",
+      "dataset_id": "corrosion-resistant-alloy-metrics",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Materials informatics platform with three dimensional structures, workflow and thermoelectric applications",
+      "doi": "10.1038/s41597-021-01022-6",
+      "url": "https://doi.org/10.1038/s41597-021-01022-6",
+      "publication_date": "2021-09-07",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Zeo-1, a computational data set of zeolite structures",
+      "doi": "10.1038/s41597-022-01160-5",
+      "url": "https://doi.org/10.1038/s41597-022-01160-5",
+      "publication_date": "2022-02-22",
+      "disposition": "existing",
+      "dataset_id": "zeo-1",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Aluminum alloy compositions and properties extracted from a corpus of scientific manuscripts and US patents",
+      "doi": "10.1038/s41597-022-01215-7",
+      "url": "https://doi.org/10.1038/s41597-022-01215-7",
+      "publication_date": "2022-03-30",
+      "disposition": "added",
+      "dataset_id": "aluminum-alloy-literature-2022",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Reproducible long-term cycling data of Al2O3 coated LiNi0.70Co0.15Mn0.15O2 cathodes for lithium-ion batteries",
+      "doi": "10.1038/s41597-022-01217-5",
+      "url": "https://doi.org/10.1038/s41597-022-01217-5",
+      "publication_date": "2022-03-30",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+      "doi": "10.1038/s41597-022-01283-9",
+      "url": "https://doi.org/10.1038/s41597-022-01283-9",
+      "publication_date": "2022-04-26",
+      "disposition": "existing",
+      "dataset_id": "dax-ti-experimental",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "A database of refractive indices and dielectric constants auto-generated using ChemDataExtractor",
+      "doi": "10.1038/s41597-022-01295-5",
+      "url": "https://doi.org/10.1038/s41597-022-01295-5",
+      "publication_date": "2022-05-03",
+      "disposition": "existing",
+      "dataset_id": "cde-refractive-dielectric-2022",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Auto-generated database of semiconductor band gaps using ChemDataExtractor",
+      "doi": "10.1038/s41597-022-01294-6",
+      "url": "https://doi.org/10.1038/s41597-022-01294-6",
+      "publication_date": "2022-05-03",
+      "disposition": "existing",
+      "dataset_id": "cde-bandgaps-2022",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Dataset of solution-based inorganic materials synthesis procedures extracted from the scientific literature",
+      "doi": "10.1038/s41597-022-01317-2",
+      "url": "https://doi.org/10.1038/s41597-022-01317-2",
+      "publication_date": "2022-05-25",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Text-mined dataset of gold nanoparticle synthesis procedures, morphologies, and size entities",
+      "doi": "10.1038/s41597-022-01321-6",
+      "url": "https://doi.org/10.1038/s41597-022-01321-6",
+      "publication_date": "2022-05-26",
+      "disposition": "added",
+      "dataset_id": "aunp-textmined-synthesis",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Auto-generating databases of Yield Strength and Grain Size using ChemDataExtractor",
+      "doi": "10.1038/s41597-022-01301-w",
+      "url": "https://doi.org/10.1038/s41597-022-01301-w",
+      "publication_date": "2022-06-09",
+      "disposition": "added",
+      "dataset_id": "cde-yield-grainsize",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A multi-city urban atmospheric greenhouse gas measurement data synthesis",
+      "doi": "10.1038/s41597-022-01467-3",
+      "url": "https://doi.org/10.1038/s41597-022-01467-3",
+      "publication_date": "2022-06-24",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Fatigue dataset of high-entropy alloys",
+      "doi": "10.1038/s41597-022-01368-5",
+      "url": "https://doi.org/10.1038/s41597-022-01368-5",
+      "publication_date": "2022-07-06",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "High accuracy barrier heights, enthalpies, and rate coefficients for chemical reactions",
+      "doi": "10.1038/s41597-022-01529-6",
+      "url": "https://doi.org/10.1038/s41597-022-01529-6",
+      "publication_date": "2022-07-18",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Multi-modal Dataset of a Polycrystalline Metallic Material: 3D Microstructure and Deformation Fields",
+      "doi": "10.1038/s41597-022-01525-w",
+      "url": "https://doi.org/10.1038/s41597-022-01525-w",
+      "publication_date": "2022-08-01",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "A thermoelectric materials database auto-generated from the scientific literature using ChemDataExtractor",
+      "doi": "10.1038/s41597-022-01752-1",
+      "url": "https://doi.org/10.1038/s41597-022-01752-1",
+      "publication_date": "2022-10-22",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Dataset for Fracture and Impact Toughness of High-Entropy Alloys",
+      "doi": "10.1038/s41597-022-01911-4",
+      "url": "https://doi.org/10.1038/s41597-022-01911-4",
+      "publication_date": "2023-01-19",
+      "disposition": "added",
+      "dataset_id": "hea-fracture-impact-2023",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Conductivity experiments for electrolyte formulations and their automated analysis",
+      "doi": "10.1038/s41597-023-01936-3",
+      "url": "https://doi.org/10.1038/s41597-023-01936-3",
+      "publication_date": "2023-01-19",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "doi": "10.1038/s41597-023-01954-1",
+      "url": "https://doi.org/10.1038/s41597-023-01954-1",
+      "publication_date": "2023-02-11",
+      "disposition": "existing",
+      "dataset_id": "ternary-fluoride-electrode-pairs",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "A global synthesis of high-resolution stable isotope data from benthic foraminifera of the last deglaciation",
+      "doi": "10.1038/s41597-023-02024-2",
+      "url": "https://doi.org/10.1038/s41597-023-02024-2",
+      "publication_date": "2023-03-10",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "A corpus of CO2 electrocatalytic reduction process extracted from the scientific literature",
+      "doi": "10.1038/s41597-023-02089-z",
+      "url": "https://doi.org/10.1038/s41597-023-02089-z",
+      "publication_date": "2023-03-29",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Fatigue database of additively manufactured alloys",
+      "doi": "10.1038/s41597-023-02150-x",
+      "url": "https://doi.org/10.1038/s41597-023-02150-x",
+      "publication_date": "2023-05-02",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Spectroscopic-parameter or fatigue characterization lead; avoid overlap with characterization perspective."
+    },
+    {
+      "title": "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes",
+      "doi": "10.1038/s41597-023-02262-4",
+      "url": "https://doi.org/10.1038/s41597-023-02262-4",
+      "publication_date": "2023-06-02",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Fatigue database of complex metallic alloys",
+      "doi": "10.1038/s41597-023-02354-1",
+      "url": "https://doi.org/10.1038/s41597-023-02354-1",
+      "publication_date": "2023-07-12",
+      "disposition": "existing",
+      "dataset_id": "fatiguedata-cma2022",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Elastic modulus data for additively and conventionally manufactured variants of Ti-6Al-4V, IN718 and AISI 316 L",
+      "doi": "10.1038/s41597-023-02387-6",
+      "url": "https://doi.org/10.1038/s41597-023-02387-6",
+      "publication_date": "2023-07-20",
+      "disposition": "added",
+      "dataset_id": "bam-temperature-elastic-alloys",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+      "doi": "10.1038/s41597-023-02411-9",
+      "url": "https://doi.org/10.1038/s41597-023-02411-9",
+      "publication_date": "2023-07-29",
+      "disposition": "existing",
+      "dataset_id": "cu-alloys-mechanical-2023",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Automated Construction of a Photocatalysis Dataset for Water-Splitting Applications",
+      "doi": "10.1038/s41597-023-02511-6",
+      "url": "https://doi.org/10.1038/s41597-023-02511-6",
+      "publication_date": "2023-09-22",
+      "disposition": "added",
+      "dataset_id": "cde-photocatalysis-water-splitting",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A globally synthesised and flagged bee occurrence dataset and cleaning workflow",
+      "doi": "10.1038/s41597-023-02626-w",
+      "url": "https://doi.org/10.1038/s41597-023-02626-w",
+      "publication_date": "2023-11-02",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Large language model enhanced corpus of CO2 reduction electrocatalysts and synthesis procedures",
+      "doi": "10.1038/s41597-024-03180-9",
+      "url": "https://doi.org/10.1038/s41597-024-03180-9",
+      "publication_date": "2024-04-06",
+      "disposition": "added",
+      "dataset_id": "co2-electrocatalyst-llm-corpus",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A document-level information extraction pipeline for layered cathode materials for sodium-ion batteries",
+      "doi": "10.1038/s41597-024-03196-1",
+      "url": "https://doi.org/10.1038/s41597-024-03196-1",
+      "publication_date": "2024-04-11",
+      "disposition": "added",
+      "dataset_id": "layered-na-cathode-textmine",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Tensile testing data of additive manufactured ASTM D638 standard specimens with embedded internal geometrical features",
+      "doi": "10.1038/s41597-024-03369-y",
+      "url": "https://doi.org/10.1038/s41597-024-03369-y",
+      "publication_date": "2024-05-16",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "CALiSol-23: Experimental electrolyte conductivity data for various Li-salts and solvent combinations",
+      "doi": "10.1038/s41597-024-03575-8",
+      "url": "https://doi.org/10.1038/s41597-024-03575-8",
+      "publication_date": "2024-07-10",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Second-harmonic generation tensors from high-throughput density-functional perturbation theory",
+      "doi": "10.1038/s41597-024-03590-9",
+      "url": "https://doi.org/10.1038/s41597-024-03590-9",
+      "publication_date": "2024-07-11",
+      "disposition": "existing",
+      "dataset_id": "trinquet-shg-2024",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "In-Situ Characterization of Cathode Catalyst Degradation in PEM Fuel Cells",
+      "doi": "10.1038/s41597-024-03662-w",
+      "url": "https://doi.org/10.1038/s41597-024-03662-w",
+      "publication_date": "2024-07-27",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "First-principles data for solid solution niobium-tantalum-vanadium alloys with body-centered-cubic structures",
+      "doi": "10.1038/s41597-024-03720-3",
+      "url": "https://doi.org/10.1038/s41597-024-03720-3",
+      "publication_date": "2024-08-22",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "A Database of Stress-Strain Properties Auto-generated from the Scientific Literature using ChemDataExtractor",
+      "doi": "10.1038/s41597-024-03979-6",
+      "url": "https://doi.org/10.1038/s41597-024-03979-6",
+      "publication_date": "2024-11-23",
+      "disposition": "added",
+      "dataset_id": "cde-stress-strain-2024",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A global multi catchment and multi dataset synthesis for water fluxes and storage changes on land",
+      "doi": "10.1038/s41597-024-04203-1",
+      "url": "https://doi.org/10.1038/s41597-024-04203-1",
+      "publication_date": "2024-12-05",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "The first experimentally obtained dataset on processing parameters and properties of soft magnetic composites",
+      "doi": "10.1038/s41597-024-04286-w",
+      "url": "https://doi.org/10.1038/s41597-024-04286-w",
+      "publication_date": "2025-01-03",
+      "disposition": "added",
+      "dataset_id": "softmag-fe-mgo",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Dataset of tensile properties for sub-sized specimens of nuclear structural materials",
+      "doi": "10.1038/s41597-024-04329-2",
+      "url": "https://doi.org/10.1038/s41597-024-04329-2",
+      "publication_date": "2025-01-11",
+      "disposition": "added",
+      "dataset_id": "nuclear-subsize-tensile",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Accurate Dehydrogenation Enthalpies Dataset for Liquid Organic Hydrogen Carriers",
+      "doi": "10.1038/s41597-025-04468-0",
+      "url": "https://doi.org/10.1038/s41597-025-04468-0",
+      "publication_date": "2025-01-29",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Sustainability indicators in high entropy alloy design: an economic, environmental, and societal database",
+      "doi": "10.1038/s41597-025-04568-x",
+      "url": "https://doi.org/10.1038/s41597-025-04568-x",
+      "publication_date": "2025-02-17",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Laser powder bed fusion dataset for relative density prediction of commercial metallic alloys",
+      "doi": "10.1038/s41597-025-04576-x",
+      "url": "https://doi.org/10.1038/s41597-025-04576-x",
+      "publication_date": "2025-03-04",
+      "disposition": "added",
+      "dataset_id": "lpbf-relative-density",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Comprehensive Toughness Dataset of Nuclear Reactor Structural Materials using Charpy V-Notch Impact Testing",
+      "doi": "10.1038/s41597-025-04823-1",
+      "url": "https://doi.org/10.1038/s41597-025-04823-1",
+      "publication_date": "2025-04-01",
+      "disposition": "added",
+      "dataset_id": "nuclear-charpy-impact",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Machine learning and DFT database for C-H dissociation on single-atom alloy surfaces in methane decomposition",
+      "doi": "10.1038/s41597-025-04885-1",
+      "url": "https://doi.org/10.1038/s41597-025-04885-1",
+      "publication_date": "2025-04-17",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors",
+      "doi": "10.1038/s41597-025-05015-7",
+      "url": "https://doi.org/10.1038/s41597-025-05015-7",
+      "publication_date": "2025-05-06",
+      "disposition": "existing",
+      "dataset_id": "superband",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Dataset of tensorial optical and transport properties of materials from the Wannier function method",
+      "doi": "10.1038/s41597-025-05396-9",
+      "url": "https://doi.org/10.1038/s41597-025-05396-9",
+      "publication_date": "2025-07-01",
+      "disposition": "existing",
+      "dataset_id": "fang-wannier-optical-transport-2025",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Synthesis of a global daily average gapless land surface temperature dataset from 2003 to 2018",
+      "doi": "10.1038/s41597-025-05498-4",
+      "url": "https://doi.org/10.1038/s41597-025-05498-4",
+      "publication_date": "2025-07-10",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Mechanical performance dataset for alloy with applications at low temperatures",
+      "doi": "10.1038/s41597-025-05512-9",
+      "url": "https://doi.org/10.1038/s41597-025-05512-9",
+      "publication_date": "2025-07-15",
+      "disposition": "added",
+      "dataset_id": "alloydata-lowtemp",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials",
+      "doi": "10.1038/s41597-025-05799-8",
+      "url": "https://doi.org/10.1038/s41597-025-05799-8",
+      "publication_date": "2025-08-16",
+      "disposition": "existing",
+      "dataset_id": "polyanion-sodium-cathode-2025",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "A Dataset of Fatigue Properties for Welded Joints",
+      "doi": "10.1038/s41597-025-06067-5",
+      "url": "https://doi.org/10.1038/s41597-025-06067-5",
+      "publication_date": "2025-11-18",
+      "disposition": "added",
+      "dataset_id": "weld-fatigue-2025",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Experimental Exchange Interaction Dataset for Magnetic Materials: Spin Waves to MC Simulations",
+      "doi": "10.1038/s41597-025-06099-x",
+      "url": "https://doi.org/10.1038/s41597-025-06099-x",
+      "publication_date": "2025-11-19",
+      "disposition": "added",
+      "dataset_id": "ins-exchange-magnetic-2025",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+      "doi": "10.1038/s41597-025-06196-x",
+      "url": "https://doi.org/10.1038/s41597-025-06196-x",
+      "publication_date": "2025-12-05",
+      "disposition": "existing",
+      "dataset_id": "migration-barriers-literature-2025",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Multi-phase dataset for bulk Ti and the Ti-6Al-4V alloy",
+      "doi": "10.1038/s41597-025-05302-3",
+      "url": "https://doi.org/10.1038/s41597-025-05302-3",
+      "publication_date": "2025-12-05",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Comprehensive grain size database of sediments of different types of dunes in Gurbantunggut Desert",
+      "doi": "10.1038/s41597-025-06242-8",
+      "url": "https://doi.org/10.1038/s41597-025-06242-8",
+      "publication_date": "2025-12-10",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+      "doi": "10.1038/s41597-025-06295-9",
+      "url": "https://doi.org/10.1038/s41597-025-06295-9",
+      "publication_date": "2025-12-11",
+      "disposition": "existing",
+      "dataset_id": "cu-cr-x-figure-extraction",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Materials dataset from microgravity levitation experiments on the China Space Station",
+      "doi": "10.1038/s41597-025-06428-0",
+      "url": "https://doi.org/10.1038/s41597-025-06428-0",
+      "publication_date": "2026-01-16",
+      "disposition": "added",
+      "dataset_id": "css-levitation-thermophysical",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Synthesised database of wild bee and hoverfly records in Europe",
+      "doi": "10.1038/s41597-026-06644-2",
+      "url": "https://doi.org/10.1038/s41597-026-06644-2",
+      "publication_date": "2026-01-30",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Open Molecular Crystals 2025 (OMC25) dataset and models",
+      "doi": "10.1038/s41597-026-06628-2",
+      "url": "https://doi.org/10.1038/s41597-026-06628-2",
+      "publication_date": "2026-02-04",
+      "disposition": "existing",
+      "dataset_id": "omc25",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "An integrated database of combustion properties of metallic materials",
+      "doi": "10.1038/s41597-026-06862-8",
+      "url": "https://doi.org/10.1038/s41597-026-06862-8",
+      "publication_date": "2026-02-16",
+      "disposition": "existing",
+      "dataset_id": "metal-combustion-properties",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "High Entropy Alloys Database generated with Large Language Model",
+      "doi": "10.1038/s41597-026-06930-z",
+      "url": "https://doi.org/10.1038/s41597-026-06930-z",
+      "publication_date": "2026-03-05",
+      "disposition": "added",
+      "dataset_id": "hea-llm-2026",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "EKHI: an open database of optical and thermal radiative properties of solid materials",
+      "doi": "10.1038/s41597-026-07083-9",
+      "url": "https://doi.org/10.1038/s41597-026-07083-9",
+      "publication_date": "2026-03-24",
+      "disposition": "existing",
+      "dataset_id": "ekhi-radiative-2026",
+      "reason": "Same paper/release is represented in current catalog."
+    },
+    {
+      "title": "Charting the Landscape of Oxygen Ion Conductors: A 60-Year Dataset with Interpretable Regression Models",
+      "doi": "10.1038/s41597-026-07100-x",
+      "url": "https://doi.org/10.1038/s41597-026-07100-x",
+      "publication_date": "2026-04-01",
+      "disposition": "added",
+      "dataset_id": "oxygen-ion-conductor-2026",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Database of tensile test results of carbon fibers impregnated with thermoplastic polymer",
+      "doi": "10.1038/s41597-026-07333-w",
+      "url": "https://doi.org/10.1038/s41597-026-07333-w",
+      "publication_date": "2026-05-02",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Correction: Materials dataset from microgravity levitation experiments on the China Space Station",
+      "doi": "10.1038/s41597-026-07369-y",
+      "url": "https://doi.org/10.1038/s41597-026-07369-y",
+      "publication_date": "2026-05-08",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Compilation of Creep Property Data for Nuclear Structural Materials",
+      "doi": "10.1038/s41597-026-07563-y",
+      "url": "https://doi.org/10.1038/s41597-026-07563-y",
+      "publication_date": "2026-06-02",
+      "disposition": "added",
+      "dataset_id": "nuclear-creep-properties",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "CeraMIRScan: Mid-infrared OCT Scan Dataset for Ceramic Quality Assessment",
+      "doi": "10.1038/s41597-026-07650-0",
+      "url": "https://doi.org/10.1038/s41597-026-07650-0",
+      "publication_date": "2026-06-24",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Datasets on the mechanical behavior of rotary-cut veneer under tensile, compressive, and shear loading",
+      "doi": "10.1038/s41597-026-07687-1",
+      "url": "https://doi.org/10.1038/s41597-026-07687-1",
+      "publication_date": "2026-06-26",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Annotated digital image correlation displacement fields from fatigue crack growth experiments on aluminium alloys",
+      "doi": "10.1038/s41597-026-07722-1",
+      "url": "https://doi.org/10.1038/s41597-026-07722-1",
+      "publication_date": "2026-06-26",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Curated dataset of multinary alloy HER catalysts for composition-only modelling with Magpie descriptors and GP baselines",
+      "doi": "10.1038/s41597-026-07856-2",
+      "url": "https://doi.org/10.1038/s41597-026-07856-2",
+      "publication_date": "2026-07-21",
+      "disposition": "added",
+      "dataset_id": "her-multinary-alloys-2026",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "LOMS.cz: An open dynamic database of Judd-Ofelt spectroscopic parameters for rare-earth-doped materials",
+      "doi": "10.1038/s41597-026-08025-1",
+      "url": "https://doi.org/10.1038/s41597-026-08025-1",
+      "publication_date": "2026-08-22",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Spectroscopic-parameter or fatigue characterization lead; avoid overlap with characterization perspective."
+    },
+    {
+      "title": "In-situ high-speed thermal video data in Laser Powder Bed Fusion on copper-ceramic substrates",
+      "doi": "10.1038/s41597-026-08029-x",
+      "url": "https://doi.org/10.1038/s41597-026-08029-x",
+      "publication_date": "2026-08-29",
+      "disposition": "deferred",
+      "dataset_id": null,
+      "reason": "Title-screened property/materials lead; not promoted without release/scope verification in this perspective."
+    },
+    {
+      "title": "Text-mined dataset of sol-gel synthesis protocols with phase purity outcomes using large language models",
+      "doi": "10.1038/s41597-026-08492-6",
+      "url": "https://doi.org/10.1038/s41597-026-08492-6",
+      "publication_date": "2026-10-15",
+      "disposition": "added",
+      "dataset_id": "solgel-phase-purity-2026",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    },
+    {
+      "title": "Trace-IN625 a source aware literature derived dataset of tensile properties and microstructure for additively manufactured IN625",
+      "doi": "10.1038/s41597-026-08585-2",
+      "url": "https://doi.org/10.1038/s41597-026-08585-2",
+      "publication_date": "2026-10-19",
+      "disposition": "added",
+      "dataset_id": "trace-in625-tensile",
+      "reason": "Primary article and data release verified; full record in additions.json."
+    }
+  ]
+}

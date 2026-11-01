@@ -1,0 +1,33 @@
+{
+  "revision": "6010a086ade47c2c99d1b2dca3a944c3996959a4",
+  "requests": [
+    {
+      "key": "licences",
+      "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/licences.json",
+      "status": 200,
+      "bytes": 21095,
+      "sha256": "ee4e11dbf74a8e63ffcd5b986a0ee8b2455b92d7194fb6f4a46893d84024c80d"
+    },
+    {
+      "key": "properties_tree",
+      "url": "https://huggingface.co/api/datasets/AI4QC/MateriaViva-Open/tree/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties?recursive=false&limit=1000",
+      "status": 200,
+      "bytes": 47053,
+      "sha256": "0f87ebd5855ed488582d105a2fcd0f975d76a3962161b2243454b658958a3b26"
+    },
+    {
+      "key": "pinned_manifest",
+      "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties/MANIFEST.json",
+      "status": 200,
+      "bytes": 29635,
+      "sha256": "5898069cd792ba9f247a3188e1146307d230bd97af5928f641cd4ef086d51a4a"
+    },
+    {
+      "key": "pinned_readme",
+      "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/raw/6010a086ade47c2c99d1b2dca3a944c3996959a4/README.md",
+      "status": 200,
+      "bytes": 29814,
+      "sha256": "0ee149a1bea0e103b50eec8cb60c5dcca49add6d4533f76c93290d20abe9f88e"
+    }
+  ]
+}

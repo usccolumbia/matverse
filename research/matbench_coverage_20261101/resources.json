@@ -1,0 +1,194 @@
+[
+  {
+    "name": "SMAX Maximum Entropy Dataset",
+    "url": "https://arxiv.org/abs/2602.23489",
+    "kind": "unreleased training dataset",
+    "description": "Chemistry-agnostic maximum-entropy configurations for robust interatomic potentials under extreme thermodynamic conditions, augmented with relaxed structures and lower-energy environments. Used to train the GRACE SMAX models. Unreleased training corpus; public models are separate. The paper (https://arxiv.org/html/2602.23489v1) reports 1,660,322 training and 33,064 test configurations, totaling 1,693,386 structures. As checked on 2026-09-13, the paper's data-availability statement promises the dataset on manuscript acceptance. Pretrained SMAX models (https://gracemaker.readthedocs.io/en/latest/gracemaker/foundation/#smax-models) are listed separately; their availability does not establish a public dataset release.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "SMAX: reported1,693,386 configurations/geometries; access unreleased; declared license unreleased. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "SMAX"
+    ]
+  },
+  {
+    "name": "Open Molecules 2025",
+    "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Molecular energies and forces spanning neutral organics, biomolecules, electrolytes, and metal complexes across 83 elements. Configurations include varying total charges and spin multiplicities, with structures up to roughly 350 atoms. Molecular/polymer reference resource, outside the periodic-crystal ranking. Counts the 101,666,280-structure training split in Table 1 (https://arxiv.org/html/2505.08762v1#S2.T1). The 4M and neutral subsets overlap it; validation and evaluation splits are additional. Dataset downloads require a Hugging Face account and access request. The data use CC-BY-4.0, not the separate FAIR Chemistry license for model weights. OPoly26 (/data/opoly26) extends coverage to polymers. The electronic-structure subset (/data/omol25-electronic) provides richer ORCA outputs for approximately four million existing OMol25 configurations.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "OMol25: reported101,666,280 configurations/geometries; access public; declared license CC-BY-4.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OMol25"
+    ]
+  },
+  {
+    "name": "Open Molecules 2025 Electronic-Structure Subset",
+    "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Rich electronic-structure outputs for an approximately four-million-configuration subset of OMol25, including wavefunction files, density matrices, and raw ORCA outputs for learning properties beyond energies and forces. Molecular/polymer reference resource, outside the periodic-crystal ranking. Rounded subset size reported by the project. These configurations overlap OMol25 (/data/omol25); they are not additional structures. The documented subset is distributed through Argonne's application process and Globus. The much larger full-corpus electronic-output archive is available only on request and is not counted here.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "OMol25 Electronic: reported4,000,000 configurations/geometries; access public; declared license CC-BY-4.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OMol25 Electronic"
+    ]
+  },
+  {
+    "name": "Open Polymers 2026",
+    "url": "https://arxiv.org/abs/2512.23117",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Polymer-derived clusters with varying monomers, chain lengths, architectures, and solvation, including configurations with up to 360 atoms. Uses the OMol25 level of theory to extend molecular potentials to polymer environments. Molecular/polymer reference resource, outside the periodic-crystal ranking. The paper (https://arxiv.org/html/2512.23117v1) lists 6,099,878 training, 210,924 validation, and 259,740 test structures, totaling 6,570,542 configurations. Distributed from the OMol25 Hugging Face page under CC-BY-4.0. Account and access-request requirements apply there.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "OPoly26: reported6,570,542 configurations/geometries; access public; declared license CC-BY-4.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OPoly26"
+    ]
+  },
+  {
+    "name": "Small-Molecule/Protein Interaction Chemical Energies 2",
+    "url": "https://github.com/openmm/spice-dataset",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Molecular conformations for learning energies, forces, charges, and multipoles across 17 elements. Covers drug-like molecules, peptides, solvated species, ion pairs, water clusters, and noncovalent interactions. Molecular/polymer reference resource, outside the periodic-crystal ranking. Approximately two million conformations. The version-2 table (https://github.com/openmm/spice-dataset#spice-a-dataset-for-training-machine-learning-potentials) lists 2,008,628, but version 2.0.1 removes configurations with broken bonds. The count is rounded rather than presenting the older total as an exact size for the corrected release. The dataset is CC0; the accompanying generation scripts have a separate MIT license.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "SPICE 2: reported2,000,000 configurations/geometries; access public; declared license CC0-1.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "SPICE 2"
+    ]
+  },
+  {
+    "name": "Revised Molecular Dynamics 17",
+    "url": "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Molecular-dynamics configurations of ten molecules with energies and forces recomputed using tight convergence and dense integration grids. Provides fixed training and test splits for evaluating molecular force-field learning. Molecular/polymer reference resource, outside the periodic-crystal ranking. Materials counts the ten molecules in the release (https://doi.org/10.6084/m9.figshare.12672038.v4). Nine have 100,000 configurations each; azobenzene has 99,988 after failed calculations, giving 999,988 total structures. Frames come from correlated time series. The authors recommend using the supplied small training splits rather than treating large random frame samples as independent data.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "rMD17: reported999,988 configurations/geometries; access public; declared license CC0-1.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "rMD17"
+    ]
+  },
+  {
+    "name": "ANI-1x Active-Learning Molecular Dataset",
+    "url": "https://github.com/aiqm/ANI1x_datasets",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Active-learning molecular configurations sampled with dynamics, normal modes, torsions, and dimers. Provides energies, forces, charges, and multipoles for organic molecules containing hydrogen, carbon, nitrogen, and oxygen. Molecular/polymer reference resource, outside the periodic-crystal ranking. Approximately five million configurations of 64,000 molecules and molecular complexes, following the authors' ANI-1x description (https://pmc.ncbi.nlm.nih.gov/articles/PMC6602931/). Both counts are rounded. Label availability varies across methods and properties; missing HDF5 values are not computed results. The same archive includes ANI-1ccx, approximately 500,000 selected configurations relabeled with an approximate CCSD(T)/CBS scheme. They overlap ANI-1x and are not added to its structure count.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "ANI-1x: reported5,000,000 configurations/geometries; access public; declared license CC0-1.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "ANI-1x"
+    ]
+  },
+  {
+    "name": "Quantum Chemistry of 134 Thousand Small Organic Molecules",
+    "url": "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904",
+    "kind": "adjacent molecular or polymer dataset",
+    "description": "Equilibrium geometries and quantum-chemical properties of small organic molecules with up to nine heavy atoms. Includes energies, harmonic frequencies, dipoles, polarizabilities, and thermochemical properties, rather than off-equilibrium force trajectories. Molecular/polymer reference resource, outside the periodic-crystal ranking. Counts the full 133,885-molecule archive. The authors' README (https://springernature.figshare.com/articles/dataset/Readme_file_Data_description_for_Quantum_chemistry_structures_and_properties_of_134_kilo_molecules_/1057641) flags 3,054 structures failing a geometry-to-SMILES consistency check; filtered benchmark variants should state their exclusions.",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery dataset listing",
+        "evidence": "QM9: reported133,885 configurations/geometries; access public; declared license CC0-1.0. This is a discovery resource, not a new periodic crystal count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Preserves release-specific counts, primary download routes and caveats; no large payload audited.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "QM9"
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "iupac-solid-liquid-reference-2023",
+    "name": "IUPAC solid–liquid equilibrium reference observations",
+    "category": "experimental_properties",
+    "description": "Literature-compiled reference solubility/liquidus observations for ten binary solid–liquid equilibrium systems, with source identifiers and accepted/rejected flags.",
+    "version": "NIST mds2-2807 data release issued 2023-03-17; files checked 2026-11-01",
+    "year": 2023,
+    "count": 3446,
+    "count_display": "3,446",
+    "count_unit": "released SLE observations",
+    "count_scope": "Numeric source-tagged rows in ten *_SLE*.xlsx tables only; includes 21 explicitly rejected R rows, which must remain distinguishable from 3,425 accepted rows. Other property workbooks not added.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental; critically compiled literature",
+    "properties": [
+      "solute/solvent identity and InChI",
+      "liquid mole fraction",
+      "absolute temperature K (ITS-90)",
+      "pressure kPa where tabulated",
+      "source reference",
+      "accepted/rejected status"
+    ],
+    "access": "open",
+    "license": "Catalog declares NIST data-use terms; separate redistribution rights of compiled third-party measurements not verified",
+    "links": {
+      "paper": "https://doi.org/10.1515/pac-2021-1002",
+      "data": "https://data.nist.gov/od/ds/mds2-2807/DataFiles.zip",
+      "readme": "https://data.nist.gov/od/ds/mds2-2807/Readme.txt",
+      "catalog": "https://catalog.data.gov/dataset/literature-experimental-data-for-reference-materials-for-phase-equilibrium-studies-2-solid-aae7b"
+    },
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/literature-experimental-data-for-reference-materials-for-phase-equilibrium-studies-2-solid-aae7b",
+        "title": "Data.gov agency release metadata",
+        "evidence": "Attached ranks 88/91. Identifies NIST ark:/88434/mds2-2807, publication DOI, ZIP/README routes and a NIST license-policy link.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-2807/Readme.txt",
+        "title": "IUPAC data README",
+        "evidence": "Maps twenty workbooks to the technical-report figures and distinguishes solid-liquid, vapor-liquid, liquid-liquid, excess enthalpy and activity-coefficient data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-2807/DataFiles.zip",
+        "title": "Inspected IUPAC reference archive",
+        "evidence": "Independently counted 3,446 source-tagged observations in ten SLE tables: 3,425 accepted and 21 R-rejected; headers define mole fraction, temperature scale, source codes and pressure context.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A specialized solid/solution thermodynamic reference set, not a crystal-coordinate database.",
+      "Do not train on R-rejected observations as accepted targets; preserve those curation flags.",
+      "Ten binary systems and twenty workbooks are not 3,446 independent materials. Repeated digitized/literature observations may share experiments.",
+      "Pressure and mole fraction occupy different columns in two workbooks; parse by explicit header instead of fixed column offsets.",
+      "Uncertainty completeness and underlying source-paper rights were not independently established for every measurement."
+    ],
+    "tags": [
+      "Data.gov-selection-20261101",
+      "solid-liquid equilibrium",
+      "solubility",
+      "quality flags",
+      "reference materials"
+    ],
+    "additional_counts": [
+      {
+        "value": 10,
+        "unit": "binary SLE systems",
+        "scope": "Ten separately named SLE workbooks"
+      },
+      {
+        "value": 3425,
+        "unit": "accepted SLE observations",
+        "scope": "Blank status flag according to workbook definitions"
+      },
+      {
+        "value": 21,
+        "unit": "rejected observations",
+        "scope": "Explicit R status; excluded from accepted observations"
+      }
+    ],
+    "count_derivation": {
+      "method": "Header-mapped count of numeric source-tagged x1/T data rows in ten SLE tables",
+      "values": [
+        145,
+        302,
+        1110,
+        1086,
+        157,
+        16,
+        79,
+        132,
+        106,
+        313
+      ]
+    }
+  }
+]

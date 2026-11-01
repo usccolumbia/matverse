@@ -38,8 +38,9 @@ Other denominators (not added to the ranking):
 - Provider reports 2,471,566 stored CIFs with origin_open=false: a matching fingerprint exists in an open source, but the actual stored coordinates came from another or unrecorded source. Filter origin_open for coordinate-source traceability.
 - Fingerprint deduplication and per-row licensing are provider claims, not independently audited here.
 - Model predictions are distinct from measured or DFT-computed property values.
+- Structure-release licensing is separate from property-row terms: the property manifest reports 97,837,513 open, 15,215,145 unclear, 313,041 noncommercial and 93,603 restricted value rows. Preserve each row’s licence and licence_class; these global totals do not determine each property’s class distribution.
 
-**Tags:** None assigned.
+**Tags:** MateriaViva, MaterialViva, Matvina, 148 property tables.
 
 <a id="lemat-bulk"></a>
 ## LeMat-Bulk

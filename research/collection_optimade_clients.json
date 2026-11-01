@@ -1,0 +1,183 @@
+{
+  "name": "OPTIMADE clients and screenshot provider options",
+  "url": "https://www.optimade.org/clients",
+  "checked_date": "2026-11-01",
+  "revision": "Provider registry response SHA-256 60afab5ecfde397c17e61856f934b74e62d17b5de24b658ee10d8ecc43d0244e",
+  "coverage_notes": [
+    "Both requested client links plus the 17 provider options visibly readable in the supplied screenshot. This is a bounded screenshot crosswalk, not a claim to inventory every currently registered provider.",
+    "Provider IDs, names and index URLs corroborated against the official provider registry on 2026-11-01. Follow index links to child databases; registration is not proof of current endpoint availability or full client compatibility.",
+    "The provider named Matterverse is separate from the MatVerse catalog. Open Materials Database (omdb) is also distinct from the Organic Materials Database at omdb.mathub.io."
+  ],
+  "sources": [
+    {
+      "url": "https://providers.optimade.org/v1/links",
+      "title": "OPTIMADE official provider registry",
+      "evidence": "Corroborates the IDs, names and index URLs for the 17 screenshot-visible options.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://www.optimade.org/clients",
+      "title": "Official OPTIMADE client comparison",
+      "evidence": "Lists the Materials Cloud browser client and explains single-database versus federated access.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "response_receipts": [
+    {
+      "url": "https://providers.optimade.org/v1/links",
+      "status": 200,
+      "bytes": 13680,
+      "sha256": "60afab5ecfde397c17e61856f934b74e62d17b5de24b658ee10d8ecc43d0244e"
+    }
+  ],
+  "links": [
+    {
+      "label": "Materials Cloud OPTIMADE Client",
+      "url": "https://optimadeclient.materialscloud.io/",
+      "section": "Requested OPTIMADE client links",
+      "scope": "navigation"
+    },
+    {
+      "label": "OPTIMADE clients directory",
+      "url": "https://www.optimade.org/clients",
+      "section": "Requested OPTIMADE client links",
+      "scope": "navigation"
+    },
+    {
+      "label": "alexandria: Alexandria",
+      "url": "https://providers.optimade.org/index-metadbs/alexandria",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "alexandria",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "cod: Crystallography Open Database",
+      "url": "https://providers.optimade.org/index-metadbs/cod",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "cod",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "cmr: Computational materials repository (CMR)",
+      "url": "https://providers.optimade.org/index-metadbs/cmr",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "cmr",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "mcloud: Materials Cloud",
+      "url": "https://www.materialscloud.org/optimade/main",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "mcloud",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "mcloudarchive: Materials Cloud Archive",
+      "url": "https://www.materialscloud.org/optimade/archive",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "mcloudarchive",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "mp: The Materials Project",
+      "url": "https://providers.optimade.org/index-metadbs/mp",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "mp",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "mpdd: Material-Property-Descriptor Database",
+      "url": "https://providers.optimade.org/index-metadbs/mpdd",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "mpdd",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "matterverse: Matterverse",
+      "url": "https://providers.optimade.org/index-metadbs/matterverse",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "matterverse",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "nmd: novel materials discovery (NOMAD)",
+      "url": "https://providers.optimade.org/index-metadbs/nmd",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "nmd",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "odbx: open database of xtals",
+      "url": "https://optimade-index.odbx.science",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "odbx",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "omdb: Open Materials Database",
+      "url": "https://optimade-index.openmaterialsdb.se",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "omdb",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "oqmd: The Open Quantum Materials Database (OQMD)",
+      "url": "https://providers.optimade.org/index-metadbs/oqmd",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "oqmd",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "jarvis: Joint Automated Repository for Various Integrated Simulations (JARVIS)",
+      "url": "https://providers.optimade.org/index-metadbs/jarvis",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "jarvis",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "psdi: Physical Sciences Data Infrastructure (PSDI)",
+      "url": "https://metadata.psdi.ac.uk/optimade-index-metadb",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "psdi",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "tcod: Theoretical Crystallography Open Database",
+      "url": "https://providers.optimade.org/index-metadbs/tcod",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "tcod",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "twodmatpedia: 2DMatpedia",
+      "url": "https://providers.optimade.org/index-metadbs/twodmatpedia",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "twodmatpedia",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    },
+    {
+      "label": "atomgpt: AtomGPT.org",
+      "url": "https://atomgpt.org/index/optimade",
+      "section": "Provider options visible in supplied client screenshot",
+      "scope": "navigation",
+      "provider_id": "atomgpt",
+      "note": "Provider index from the official registry; not an independently tested child data API."
+    }
+  ]
+}

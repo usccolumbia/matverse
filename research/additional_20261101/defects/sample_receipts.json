@@ -1,0 +1,44 @@
+[
+  {
+    "key": "quantum-query",
+    "url": "https://quantumdefects.com/api/getdefects",
+    "method": "POST",
+    "query": {
+      "elements": [
+        {
+          "unused": false,
+          "term": "Si",
+          "eID": 14,
+          "dType": 0
+        }
+      ]
+    },
+    "status": 200,
+    "bytes": 49824,
+    "path": "research/cache/additional_20261101/defects/quantum-query.body",
+    "sha256": "47203cc0bb23dc0f37af9fa306721267bbcd195f3314966ee0440317dec37de9",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "gbdb-fe",
+    "url": "https://crystalium.materialyze.ai/data/Fe",
+    "method": "GET",
+    "query": null,
+    "status": 200,
+    "bytes": 618909,
+    "path": "research/cache/additional_20261101/defects/gbdb-fe.body",
+    "sha256": "ce37986774c4171ea9a1d389579036adb154aaa88a2947fa51d57e888789e3e4",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "nist-zip",
+    "url": "https://data.nist.gov/od/ds/mds2-3831/Amorphous_Molecule_Construction.zip",
+    "method": "GET",
+    "query": null,
+    "status": 200,
+    "bytes": 25878457,
+    "path": "research/cache/additional_20261101/defects/nist-zip.body",
+    "sha256": "153d2889f34a86db89fbf08b96e64f8ac2312ea71dd74a57128b1ee5b264435c",
+    "date": "2026-11-01"
+  }
+]

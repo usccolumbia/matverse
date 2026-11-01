@@ -1,0 +1,728 @@
+[
+  {
+    "id": "nemad-magnetic",
+    "name": "Northeast Materials Database (NEMAD) — magnetic materials",
+    "category": "experimental_properties",
+    "description": "LLM-extracted magnetic literature records with transition temperatures, magnetization and crystallographic descriptors.",
+    "version": "2025 paper release, checked 2026-11-01",
+    "year": 2025,
+    "count": 67573,
+    "count_display": "67,573",
+    "count_unit": "magnetic-material entries",
+    "count_scope": "Paper release; composition, structural descriptors and magnetic properties define entries",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Curie / Néel / Curie-Weiss temperature (K)",
+      "coercivity (Oe)",
+      "magnetization and remanence (A/m)",
+      "magnetic moment (μB)",
+      "susceptibility",
+      "crystallographic descriptors and source DOI"
+    ],
+    "access": "open",
+    "license": "Unknown for full website database; processed ML archive declares CC BY 4.0",
+    "links": {
+      "homepage": "https://www.nemad.org",
+      "publication": "https://doi.org/10.1038/s41467-025-64458-z",
+      "processed_data": "https://github.com/sumanitani/NEMAD-MagneticML",
+      "archive": "https://doi.org/10.5281/zenodo.17042814"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41467-025-64458-z",
+        "title": "The northeast materials database for magnetic materials",
+        "evidence": "Publisher/full text reports 67,573 entries and Table 1 units; full database at nemad.org and processed training data on GitHub/Zenodo.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/records/17042814",
+        "title": "NEMAD-MagneticML v1.0 deposit",
+        "evidence": "Open processed ML release; deposit metadata declares CC BY 4.0. This does not establish the license of the full website corpus.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Independent extraction release; source literature may overlap CDE Curie–Néel and Starrydata magnetic records, so counts cannot be added as unique materials.",
+      "NEMAD is a separate author/provider extraction lineage from Court/Cole ChemDataExtractor/Snowball Curie–Néel releases; literature overlap is plausible and no row-level deduplication or inherited-source equivalence is established.",
+      "Crystal structure/lattice/space-group descriptors do not establish complete atomic-coordinate coverage.",
+      "Retain experimental-status flag and source DOI; property completeness varies. Website requires JavaScript; full live corpus not exported in this audit."
+    ],
+    "tags": [
+      "magnetism",
+      "literature-mining",
+      "conditions-required"
+    ]
+  },
+  {
+    "id": "nemad-thermoelectric",
+    "name": "NEMAD / GPTArticleExtractor thermoelectric database",
+    "category": "experimental_properties",
+    "description": "Literature-extracted experimental and computational thermoelectric properties with separate measurement temperatures and structural metadata.",
+    "version": "2025 paper release, checked 2026-11-01",
+    "year": 2025,
+    "count": 7123,
+    "count_display": "7,123",
+    "count_unit": "thermoelectric compound entries",
+    "count_scope": "Published 2025 database cohort; not independently deduplicated compositions",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "Seebeck coefficient (μV/K)",
+      "electrical conductivity (S/m)",
+      "thermal conductivity (W/m/K)",
+      "power factor (μW/m/K²)",
+      "dimensionless ZT",
+      "property-specific temperature (K)",
+      "lattice parameters (Å)"
+    ],
+    "access": "open",
+    "license": "Unknown; no dataset-specific license verified",
+    "links": {
+      "homepage": "https://nemad.org",
+      "publication": "https://doi.org/10.1016/j.commatsci.2025.113855",
+      "preprint": "https://arxiv.org/abs/2501.00564"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2501.00564v1",
+        "title": "Large Language Model-Driven Database for Thermoelectric Materials",
+        "evidence": "Authors report 7,123 entries from Elsevier literature, approximately 66% from experimental papers. Table 1 provides an experimental/theoretical flag, property-specific temperatures and units; conclusion identifies nemad.org as the open database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.commatsci.2025.113855",
+        "title": "Published thermoelectric database paper",
+        "evidence": "OpenAlex identifies the 2025 Computational Materials Science version of the same named work; not counted separately from preprint.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Approximately66% of records are experimental; retain the origin flag. Bulk, thin-film and nanostructured material forms are mixed and must remain distinguished.",
+      "Same hosting platform as magnetic NEMAD but a separate property corpus; no addition to a global unique-material count.",
+      "May overlap Starrydata and ChemDataExtractor thermoelectric source literature.",
+      "Experimental-status field must be retained; missing or mixed measurement temperatures cannot be collapsed into one row-level condition.",
+      "Descriptive crystal metadata does not guarantee complete atomic coordinates.",
+      "Full JavaScript website export and dataset license were not verified."
+    ],
+    "tags": [
+      "thermoelectric",
+      "literature-mining",
+      "temperature-dependent"
+    ]
+  },
+  {
+    "id": "tematdb272",
+    "name": "teMatDb272 thermoelectric material database",
+    "category": "experimental_properties",
+    "description": "Digitized temperature-dependent transport curves filtered for agreement between reported and recalculated ZT.",
+    "version": "teMatDb v1.1.6 / teMatDb272 (2025-05-26)",
+    "year": 2025,
+    "count": 272,
+    "count_display": "272",
+    "count_unit": "curated thermoelectric sample curve sets",
+    "count_scope": "High-fidelity subset in teMatDb v1.1.6, selected from 355 raw digitized curve sets",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Seebeck coefficient versus temperature",
+      "electrical resistivity versus temperature",
+      "thermal conductivity versus temperature",
+      "dimensionless ZT versus temperature"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo v1.1.6 deposit)",
+    "links": {
+      "homepage": "https://tematdb.streamlit.app",
+      "publication": "https://arxiv.org/abs/2505.19150",
+      "download": "https://doi.org/10.5281/zenodo.15518036",
+      "repository": "https://github.com/byungkiryu/teMatDb"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/15518036",
+        "title": "teMatDb v1.1.6: Thermoelectric Material Database",
+        "evidence": "Deposit reports 355 raw curve sets and 272 high-fidelity samples; metadata declares CC BY 4.0 and exposes versioned ZIP.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://arxiv.org/abs/2505.19150",
+        "title": "A High-Quality Thermoelectric Material Database with Self-Consistent ZT Filtering",
+        "evidence": "Preprint describes 14,717 temperature-property pairs in 272 sample sets across 262 publications and self-consistent ZT filtering.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Curve sets and temperature-property pairs are different counting units; neither is a unique-crystal count.",
+      "Keep digitized curves, units and individual temperature grids; do not replace them with peak-ZT scalars.",
+      "Property units should be read from the released per-property data; the deposit summary does not establish one global stored-unit convention.",
+      "Independent digitization may overlap UCSB, ESTM and Starrydata source experiments."
+    ],
+    "tags": [
+      "thermoelectric",
+      "digitized-curves",
+      "temperature-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 355,
+        "unit": "raw sample curve sets",
+        "scope": "Parent digitized cohort before self-consistent ZT filtering"
+      },
+      {
+        "value": 14717,
+        "unit": "temperature-property pairs",
+        "scope": "teMatDb272 as reported by accompanying preprint"
+      },
+      {
+        "value": 262,
+        "unit": "publications",
+        "scope": "Sources for teMatDb272"
+      }
+    ]
+  },
+  {
+    "id": "estm-simd",
+    "name": "ESTM experimentally synthesized thermoelectric materials",
+    "category": "experimental_properties",
+    "description": "Manually compiled thermoelectric observations released with the SIMD materials representation study.",
+    "version": "2022 paper release, checked 2026-11-01",
+    "year": 2022,
+    "count": 5205,
+    "count_display": "5,205",
+    "count_unit": "composition-temperature observations",
+    "count_scope": "Published ESTM cohort, verified as 5,205 rows × 8 columns in dataset/estm.xlsx",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "measurement temperature (K)",
+      "Seebeck coefficient (μV/K)",
+      "electrical conductivity (S/m)",
+      "thermal conductivity (W/m/K)",
+      "power factor (W/m/K²)",
+      "dimensionless ZT",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "Unknown; no dataset-specific or repository license verified",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41524-022-00897-2",
+      "repository": "https://github.com/KRICT-DATA/SIMD",
+      "download": "https://github.com/KRICT-DATA/SIMD/blob/main/dataset/estm.xlsx"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41524-022-00897-2",
+        "title": "A public database of thermoelectric materials and system-identified material representation for data-driven discovery",
+        "evidence": "Paper reports 5,205 observations for 880 materials, identified by composition and measuring temperature.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/KRICT-DATA/SIMD",
+        "title": "SIMD primary repository",
+        "evidence": "README distinguishes full ESTM from a separately distributed Starrydata subset. Downloaded ESTM worksheet has 5,205 rows and explicit units in all property column names.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "ESTM is distinct from the repository's separately included Starrydata slice; do not catalog that slice as another independent source.",
+      "880 material count is provider-reported; 5,205 is the observation count.",
+      "Power factor and ZT can be derived from measured quantities; preserve this distinction.",
+      "No periodic atomic structures are provided in the released worksheet."
+    ],
+    "tags": [
+      "thermoelectric",
+      "experimental",
+      "temperature-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 880,
+        "unit": "unique thermoelectric materials",
+        "scope": "Paper-reported compositions represented by the observations"
+      }
+    ]
+  },
+  {
+    "id": "wenzhou-te",
+    "name": "WenzhouTE computed thermoelectric database",
+    "category": "property_benchmarks",
+    "description": "Additional transport and thermomechanical calculations on Materials Project structures using deformation-potential transport and an elastic-model lattice conductivity.",
+    "version": "Provider homepage snapshot checked 2026-11-01",
+    "year": 2024,
+    "count": 3607,
+    "count_display": "3,607",
+    "count_unit": "calculated materials",
+    "count_scope": "Provider homepage cohorts: 1,915 class-1 + 1,692 class-2 calculations",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "Seebeck coefficient (μV/K)",
+      "electrical conductivity (kS/m in paper tables)",
+      "electronic / lattice thermal conductivity (W/m/K)",
+      "dimensionless ZT",
+      "carrier concentration (cm⁻³)",
+      "elastic constants / moduli (GPa)",
+      "Debye temperature and Grüneisen parameter"
+    ],
+    "access": "open",
+    "license": "Unknown for database; article CC BY 4.0 does not establish data licensing",
+    "links": {
+      "homepage": "https://hezhu2024.github.io/",
+      "search": "https://hezhu2024.github.io/materials/search.html",
+      "publication": "https://doi.org/10.3390/ma17102200"
+    },
+    "sources": [
+      {
+        "url": "https://hezhu2024.github.io/",
+        "title": "WenzhouTE primary provider homepage",
+        "evidence": "Homepage states 1,915 calculated materials from class 1 and 1,692 from class 2; the sum is 3,607.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.mdpi.com/1996-1944/17/10/2200",
+        "title": "Wenzhou TE: A First-Principle-Calculated Thermoelectric Materials Database",
+        "evidence": "Methods specify PBE/VASP, BoltzTraP2, deformation-potential relaxation times and Slack-formula lattice conductivity; Table 2 labels 300 K transport properties.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The article reports 1,915 + 1,656 screened materials, while the live homepage reports 1,915 + 1,692. This row uses the homepage snapshot, not the paper total.",
+      "Material identities overlap Materials Project; this is a new property calculation release, not 3,607 novel compounds.",
+      "Lattice conductivity is a Slack-model estimate from elastic properties, not a full anharmonic BTE calculation.",
+      "Carry temperature, carrier concentration, carrier type and approximation with transport values.",
+      "Browser search page loads but a full row export was not audited."
+    ],
+    "tags": [
+      "thermoelectric",
+      "elastic",
+      "model-estimated-ltc"
+    ],
+    "count_derivation": {
+      "method": "Sum of disjoint K-means class-1 and class-2 calculated-material cohorts on provider homepage",
+      "values": [
+        1915,
+        1692
+      ]
+    }
+  },
+  {
+    "id": "hh130-mathub",
+    "name": "HH130 half-Heusler thermal-transport / MLIP release",
+    "category": "property_benchmarks",
+    "description": "Compound-specific interatomic potentials and configuration datasets supporting anharmonic thermal transport of half-Heusler crystals.",
+    "version": "2024 paper release, checked 2026-11-01",
+    "year": 2024,
+    "count": 130,
+    "count_display": "130",
+    "count_unit": "half-Heusler compounds",
+    "count_scope": "HH130 material-level cohort; thermal-transport study performed on an 80-compound subset",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "DFT energies and forces",
+      "interatomic force constants",
+      "phonon properties",
+      "lattice thermal conductivity including four-phonon scattering (W/m/K)"
+    ],
+    "access": "open",
+    "license": "Unknown for downloadable data/model archive; article is CC BY-NC 3.0",
+    "links": {
+      "publication": "https://doi.org/10.1039/D4DD00240G",
+      "homepage": "http://www.mathub3d.net",
+      "download": "http://www.mathub3d.net/static/database/HH130.zip"
+    },
+    "sources": [
+      {
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00240g",
+        "title": "HH130 primary Digital Discovery paper",
+        "evidence": "Paper describes 130 half-Heuslers, 31,891 configurations and 390 compound-specific models; data-availability statement gives provider ZIP and thermal conductivity analysis for 80 compounds at 300 K.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Keep material, configuration and model counts separate.",
+      "Thermal conductivities include MLIP-based higher-order force constants; they are computed estimates, not measurements.",
+      "Only 80 of the 130 compounds enter the reported thermal-transport analysis.",
+      "Temperature and phonon-scattering order must accompany conductivity.",
+      "Live provider archive accessibility is documented in primary/hh_download_access.json; no archive was downloaded or inspected.",
+      "Potential training configurations are a specialized property-supporting release and should not be added to other MLIP datasets as unique structures.",
+      "Live provider homepage and archive both returned HTTP 502 during this audit; paper gives a public release route, but current download availability is unresolved."
+    ],
+    "tags": [
+      "phonons",
+      "thermal-conductivity",
+      "half-heusler",
+      "mlip"
+    ],
+    "additional_counts": [
+      {
+        "value": 31891,
+        "unit": "configurations",
+        "scope": "HH130 training dataset, as reported by paper"
+      },
+      {
+        "value": 390,
+        "unit": "MLIP models",
+        "scope": "Three models for each of 130 compounds"
+      },
+      {
+        "value": 80,
+        "unit": "compounds",
+        "scope": "Thermal-transport analysis subset"
+      }
+    ]
+  },
+  {
+    "id": "dax-ti-experimental",
+    "name": "DAX-Ti experimental Ti-alloy mechanical-property compilation",
+    "category": "experimental_properties",
+    "description": "Composition, phases and processing conditions linked to experimental Ti-alloy stiffness, hardness and strength.",
+    "version": "2022 paper release, checked 2026-11-01",
+    "year": 2022,
+    "count": 282,
+    "count_display": "282",
+    "count_unit": "alloy entries",
+    "count_scope": "Static-0.1.0 cohort from 105 experimental studies",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Young modulus (GPa)",
+      "Vickers hardness (HV)",
+      "yield / ultimate strength (MPa)",
+      "elongation (%)",
+      "grain size (μm)",
+      "oxygen content (wppm)",
+      "phase constituents and processing conditions"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo dataset)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-022-01283-9",
+      "download": "https://doi.org/10.5281/zenodo.6089749",
+      "repository": "https://gitlab.com/comari/dax-ti"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01283-9",
+        "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+        "evidence": "Paper reports 282 entries from 105 studies; Table 1 supplies units, reference DOI, phases and treatment conditions; experiments are at room temperature.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/records/6089749",
+        "title": "DAX-Ti static-0.1.0 deposit",
+        "evidence": "Open CC BY 4.0 deposit exposes static CSV, field definitions and helper script; description identifies 282 distinct alloys.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Room-temperature alloy properties depend on processing, phases and test method, not composition alone.",
+      "Tensile strain is positive and compression strain negative; some nonfracturing specimens have deformation capped at ±50%.",
+      "Not every entry contains all properties; oxygen/grain-size coverage is incomplete.",
+      "Phase labels are not full periodic atomic structures."
+    ],
+    "tags": [
+      "mechanical",
+      "elastic",
+      "hardness",
+      "alloys",
+      "processing-aware"
+    ]
+  },
+  {
+    "id": "cu-alloys-mechanical-2023",
+    "name": "Copper-alloy mechanical properties and electrical conductivity (Gorsse 2023)",
+    "category": "experimental_properties",
+    "description": "Literature-derived Cu-alloy treatment conditions and mechanical/electrical measurements for precipitation-strengthened alloy design.",
+    "version": "2023 paper release, checked 2026-11-01",
+    "year": 2023,
+    "count": 1831,
+    "count_display": "1,831",
+    "count_unit": "composition-processing-property-reference records",
+    "count_scope": "Published 2023 Cu-alloy CSV release; approximately 150 alloy compositions",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Vickers hardness (HV)",
+      "yield strength (MPa)",
+      "ultimate tensile strength (MPa)",
+      "electrical conductivity (%IACS)",
+      "solution / ageing temperature (K)",
+      "treatment time (h)",
+      "cold reduction (%)"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Figshare dataset)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-02411-9",
+      "download": "https://doi.org/10.6084/m9.figshare.23735373.v1",
+      "collection": "https://doi.org/10.6084/m9.figshare.c.6475600.v1"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02411-9",
+        "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+        "evidence": "Data Records specify 1,831 records; conditions, target units and source DOI fields are documented. Approximately 150 compositions are represented.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/23735373",
+        "title": "Figshare primary dataset metadata",
+        "evidence": "Public CSV Cu_alloys_database_2023_06_06.csv; metadata declares CC0 and DOI 10.6084/m9.figshare.23735373.v1.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Observation count is not distinct-alloy count.",
+      "Microstructure is often insufficiently reported; thermal and thermomechanical processing are retained instead.",
+      "Mechanical properties are sparse: paper reports 1,614 hardness, 163 yield-strength, 276 ultimate-strength and 1,826 conductivity records.",
+      "May share source experiments with the separate Cu-Cr-X release; no cross-release deduplication performed.",
+      "Composition/property tables do not contain full atomic structures."
+    ],
+    "tags": [
+      "mechanical",
+      "hardness",
+      "electrical-conductivity",
+      "alloys",
+      "processing-aware"
+    ]
+  },
+  {
+    "id": "cu-cr-x-figure-extraction",
+    "name": "Cu-Cr-X mechanical and electrical property dataset",
+    "category": "experimental_properties",
+    "description": "Automated figure extraction linked to manually curated composition, processing and literature metadata for Cu-Cr-X alloys.",
+    "version": "2025 paper release, checked 2026-11-01",
+    "year": 2025,
+    "count": 3018,
+    "count_display": "3,018",
+    "count_unit": "alloy composition-processing-property records",
+    "count_scope": "Paper cohort extracted from 251 figures in 146 papers",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "hardness (source-specific units)",
+      "yield / tensile strength (MPa)",
+      "electrical conductivity (%IACS)",
+      "thermal / thermomechanical processing metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-025-06295-9",
+      "download": "https://doi.org/10.6084/m9.figshare.29369987.v2",
+      "repository": "https://github.com/PPW6/Auto_fig_extractor"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-06295-9",
+        "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+        "evidence": "Paper reports 3,018 records from 251 figures across 146 papers; Figshare JSON/XLSX release and source DOI are documented.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/29369987",
+        "title": "Cu-Cr-X Figshare v2 metadata",
+        "evidence": "Public JSON archive and XLSX available; metadata declares CC BY 4.0 and version DOI 10.6084/m9.figshare.29369987.v2.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A figure-derived record is not an independent composition or unique crystal.",
+      "Keep property-unit and treatment metadata per record; extraction and outlier labels remain useful quality evidence.",
+      "Shares an application domain and potentially experiments with Gorsse 2023; distinct extraction/release does not imply disjoint data.",
+      "Full spreadsheet units and per-property completeness were not independently audited."
+    ],
+    "tags": [
+      "mechanical",
+      "alloys",
+      "figure-extraction",
+      "processing-aware"
+    ]
+  },
+  {
+    "id": "polyverse-load-hardness",
+    "name": "polyVERSE load-dependent experimental Vickers hardness",
+    "category": "experimental_properties",
+    "description": "Experimental indentation hardness with applied load, released separately from DFT-derived hardness proxy rows.",
+    "version": "2026 paper release, checked 2026-11-01",
+    "year": 2026,
+    "count": 2480,
+    "count_display": "2,480",
+    "count_unit": "composition-load hardness observations",
+    "count_scope": "Published curated experimental subset; verified as 2,480 data rows in only_exp_data.csv",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Vickers hardness (GPa in paper abstract; verify stored-unit convention)",
+      "indentation load (N)",
+      "chemical composition"
+    ],
+    "access": "open",
+    "license": "Custom Georgia Tech Research Corporation General Public Use License; commercial-gain sale requires separate agreement",
+    "links": {
+      "publication": "https://doi.org/10.1007/s00339-026-09913-4",
+      "repository": "https://github.com/Ramprasad-Group/polyVERSE/tree/main/Other/AM_hardness",
+      "download": "https://github.com/Ramprasad-Group/polyVERSE/blob/main/Other/AM_hardness/only_exp_data.csv",
+      "license": "https://github.com/Ramprasad-Group/polyVERSE/blob/main/LICENSE"
+    },
+    "sources": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s00339-026-09913-4",
+        "title": "Load-dependent hardness prediction for materials using machine learning",
+        "evidence": "Methods report 2,480 unique composition-load records, 69 elements and 514 chemical systems; applied loads span below 2 to above 50 N.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Ramprasad-Group/polyVERSE/main/Other/AM_hardness/only_exp_data.csv",
+        "title": "polyVERSE primary experimental data CSV",
+        "evidence": "Downloaded CSV contains 2,480 data rows with composition, load, hardness, category and type fields.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Ramprasad-Group/polyVERSE/main/LICENSE",
+        "title": "polyVERSE GTRC license",
+        "evidence": "License explicitly includes code, data and documentation; grants redistribution/modification under conditions and requires a separate agreement for commercial-gain sales.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Repository also provides computed proxy hardness; retain experimental category and do not combine them as measured values.",
+      "The article abstract reports GPa but its conclusion reports MPa; CSV column lacks unit metadata. Stored hardness-unit convention needs checking before quantitative harmonization.",
+      "Processing/microstructure metadata are largely absent.",
+      "Dataset can contain noncrystalline alloy compositions; a crystalline-only subset has not been isolated.",
+      "Custom license is not an OSI/Creative-Commons open-data license."
+    ],
+    "tags": [
+      "hardness",
+      "experimental",
+      "load-dependent",
+      "license-restricted"
+    ]
+  },
+  {
+    "id": "mce-llm-2024",
+    "name": "LLM-extracted magnetocaloric materials database (Yuan–Yang–Patra–Liao)",
+    "category": "experimental_properties",
+    "description": "Magnetocaloric literature records retaining entropy change, magnetic field and transition temperature, with separately curated MP-linked subsets.",
+    "version": "2024 paper release, checked 2026-11-01",
+    "year": 2024,
+    "count": 6614,
+    "count_display": "6,614",
+    "count_unit": "literature-extracted material-property rows",
+    "count_scope": "Current modified6125.csv parsed with Python csv: 6,614 rows excluding header; paper describes 6,615 entries",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature_extracted_mixed",
+    "properties": [
+      "magnetic entropy change ΔSM (source units; typically J/kg/K)",
+      "magnetic field (T or kOe, source field)",
+      "Curie temperature (source field)",
+      "material name",
+      "source literature metadata for linked subset"
+    ],
+    "access": "open",
+    "license": "Unknown; no repository dataset license verified",
+    "links": {
+      "publication": "https://doi.org/10.1063/5.0206855",
+      "preprint": "https://arxiv.org/abs/2403.02553",
+      "repository": "https://github.com/RunqingYang1996/MCEdatabase",
+      "download": "https://github.com/RunqingYang1996/MCEdatabase/blob/main/databasecsv/modified6125.csv"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2403.02553v1",
+        "title": "Enhancing Magnetocaloric Material Discovery: A Machine Learning Approach Using an Autogenerated Database by Large Language Models",
+        "evidence": "Paper reports 6,615 raw entries, 1,426 inorganic-filtered entries and 752 MP matches. ML training normalizes fields to 5 T and uses 229 unique materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/RunqingYang1996/MCEdatabase",
+        "title": "Primary MCE database repository",
+        "evidence": "README distinguishes raw, inorganic and human-corrected MP-linked releases. Downloaded modified6125.csv parses to 6,614 data rows; updated linked CSV parses to 714 rows.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Published and current CSV counts disagree (6,615 vs 6,614; 752 MP matches vs 714 rows in current human-corrected linked CSV); filename labels are not trusted counts.",
+      "The raw database includes organic and alloyed materials; it is not wholly a periodic inorganic crystal dataset.",
+      "Raw field units and string/range values need normalization; field strength strongly affects entropy change.",
+      "The paper's linearly scaled 5 T maximum-per-material training values are derived targets, not direct measurements all made at 5 T.",
+      "Source abstracts may describe experimental and computed results; retain origin and do not label the entire corpus uniformly experimental."
+    ],
+    "tags": [
+      "magnetocaloric",
+      "literature-mining",
+      "field-dependent",
+      "mixed-origin"
+    ]
+  },
+  {
+    "id": "fatiguedata-cma2022",
+    "name": "FatigueData-CMA2022 complex metallic-alloy fatigue database",
+    "category": "experimental_properties",
+    "description": "Literature-derived stress-life, strain-life and fatigue-crack-growth curves with processing, load and testing conditions.",
+    "version": "2023 paper release, checked 2026-11-01",
+    "year": 2023,
+    "count": 272,
+    "count_display": "272",
+    "count_unit": "fatigue test-condition datasets",
+    "count_scope": "Paper release covering metallic glasses and multi-principal element alloys; not a count of compositions or scalar data points",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "stress-life S–N curves (MPa and cycles)",
+      "strain-life ε–N curves",
+      "fatigue crack growth da/dN–ΔK curves",
+      "strength and fracture toughness",
+      "processing sequence",
+      "test temperature, load ratio and environment"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare dataset); MIT applies separately to accompanying scripts",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-02354-1",
+      "download": "https://doi.org/10.6084/m9.figshare.23007362.v2",
+      "repository": "https://github.com/xuzpgroup/ZianZhang/tree/main/FatigueData-CMA2022"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02354-1",
+        "title": "Fatigue database of complex metallic alloys",
+        "evidence": "Paper documents 272 test-condition datasets with three fatigue-curve families, material/processing/testing metadata and default MPa stress units.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/23007362",
+        "title": "FatigueData-CMA2022 deposit metadata",
+        "evidence": "Open v2 deposit includes MAT, JSON and XLSX with CC BY 4.0 license.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Includes amorphous metallic glasses as well as crystalline MPEAs; filter material class for crystal-specific use.",
+      "Dataset count differs from number of compositions and curve points; EXCEL curves are sampled to 500 points per dataset while MAT/JSON preserve richer curves.",
+      "When unspecified, authors assume uniaxial testing at 25 °C in air and stress concentration Kt=1; these are imputed defaults, not reported measurements.",
+      "Use stress ratio, surface/processing state and run-out flags; do not aggregate fatigue values by composition alone."
+    ],
+    "tags": [
+      "mechanical",
+      "fatigue",
+      "curves",
+      "mixed-structure",
+      "processing-aware"
+    ]
+  }
+]

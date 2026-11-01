@@ -1,0 +1,279 @@
+[
+  {
+    "id": "dl-add-tmd-stm-defects",
+    "name": "DL-ADD MoS2/WS2 atomic-defect STM benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Experimental STM surface images and impurity/void annotations for defect segmentation in two transition-metal dichalcogenides.",
+    "version": "2023 descriptor cohort; deposit checked 2026-11-01",
+    "year": 2023,
+    "count": 105,
+    "count_display": "105",
+    "count_unit": "original STM benchmark images",
+    "count_scope": "Published evaluation cohort:70 MoS2 training +20 MoS2 test +15 WS2 transfer-test images; augmented variants excluded",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "STM topographic images",
+      "impurity/void segmentation labels",
+      "pixel defect locations",
+      "sample bias and tunneling-current conditions"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (OSF project license)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-02004-6",
+      "data": "https://doi.org/10.17605/OSF.IO/ZXGTJ"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02004-6",
+        "title": "Deep learning based atomic defect detection framework for two-dimensional materials",
+        "evidence": "Technical Validation reports 90 MoS2 images split 70/20 and15 WS2 transfer-test images. Images use50×50 or60×60 nm fields,256×256 px, constant-current−1 V sample bias and1 nA.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/zxgtj/",
+        "title": "OSF DL-ADD primary project metadata",
+        "evidence": "Public project titled TMD-FET defect autodetection at STM images has MoS2/WS2 data folders and a project-license relationship.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+        "title": "OSF dataset-associated license",
+        "evidence": "Associated project license is CC-By Attribution 4.0 International.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "105 counts original paper benchmark images, not all repository files, masks or augmented training examples.",
+      "Training augmentation pastes defect crops onto backgrounds and applies image transforms; generated variants are not independent measurements.",
+      "Image labels represent defect appearance, not fully resolved atomic coordinates or definitive impurity chemical identities.",
+      "Underlying materials are MoS2 and WS2;105 images are not105 unique crystal structures."
+    ],
+    "tags": [
+      "Scientific Data",
+      "final-title-audit",
+      "characterization",
+      "condition-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 90,
+        "unit": "MoS2 original images",
+        "scope": "70 training +20 held-out test images"
+      },
+      {
+        "value": 15,
+        "unit": "WS2 original images",
+        "scope": "Transfer-test cohort"
+      }
+    ],
+    "count_derivation": {
+      "method": "Sum of published independent image cohorts; augmentation excluded",
+      "values": [
+        70,
+        20,
+        15
+      ]
+    }
+  },
+  {
+    "id": "steel304l-dic-ir-fullfield",
+    "name": "304L stainless-steel full-field DIC and infrared thermography",
+    "category": "experimental_properties",
+    "description": "Synchronized displacement, strain, temperature and mechanical-loading data for calibrating metal-plasticity models.",
+    "version": "2024 descriptor cohort; deposit checked 2026-11-01",
+    "year": 2024,
+    "count": null,
+    "count_display": "Not reported",
+    "count_unit": "specimen-test measurement records",
+    "count_scope": "Independent test-record count not established; seven geometry designs are reported",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "full-field displacement and strain",
+      "infrared temperature fields",
+      "force-extension-time histories",
+      "specimen geometry coordinates (mm)",
+      "rolling orientation and loading-rate metadata"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Figshare+ v1)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-024-03949-y",
+      "data": "https://doi.org/10.25452/figshare.plus.25483534.v1"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-03949-y",
+        "title": "Digital image correlation and infrared thermography data for seven unique geometries of304L stainless steel",
+        "evidence": "Descriptor supplies raw/postprocessed DIC/IR and force data, specimen drawings, test matrix and metallurgy report; tests vary orientation, rate and thermal loading.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25483534",
+        "title": "304L Figshare+ primary metadata",
+        "evidence": "Open deposit is version 1, DOI 10.25452/figshare.plus.25483534.v1, under CC0; metadata confirms repeated conditions and raw plus synchronized/registered outputs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "One rolled304L sheet lot; geometries, orientations and repeated tests are not independent material compositions.",
+      "No periodic atomic-coordinate release is established; geometric coordinates describe specimen boundaries and measurement grids.",
+      "Preserve specimen ID, rolling direction, rate, thermal loading and synchronization metadata.",
+      "Some tests have two DIC systems instead of IR; not every modality exists for every test.",
+      "Processed arrays can contain NaN for missing spatial/temporal data; MATLAB7.3 files require HDF5-compatible readers."
+    ],
+    "tags": [
+      "Scientific Data",
+      "final-title-audit",
+      "characterization",
+      "condition-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 7,
+        "unit": "unique nonstandard specimen geometries",
+        "scope": "Descriptor reports seven unique geometries,with conventional tensile dog-bone comparisons"
+      }
+    ]
+  },
+  {
+    "id": "hawaii-ironoxide-correlative-grains",
+    "name": "Correlative chemical, crystallographic and magnetic iron-oxide grains",
+    "category": "experimental_properties",
+    "description": "Individual natural iron-oxide grain chemistry, EBSD phase/orientation and magnetic-domain images registered across techniques.",
+    "version": "2018 descriptor cohort; deposit checked 2026-11-01",
+    "year": 2018,
+    "count": 23,
+    "count_display": "23",
+    "count_unit": "deposited component datasets",
+    "count_scope": "PANGAEA publication-series component count; not grain or crystal count",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "microprobe elemental composition (atomic %)",
+      "SEM/BSE and phase observations",
+      "EBSD orientations and Euler angles",
+      "AFM/MFM magnetic-domain images",
+      "before/after-heating grain comparisons"
+    ],
+    "access": "open",
+    "license": "CC BY 3.0 Unported (PANGAEA publication series)",
+    "links": {
+      "publication": "https://doi.org/10.1038/sdata.2018.162",
+      "data": "https://doi.org/10.1594/PANGAEA.886180"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/sdata2018162",
+        "title": "Chemical,crystallographic and magnetic characterisation of individual iron-oxide grains in Hawaiian lavas",
+        "evidence": "Descriptor investigates 3–6 individual~3–10 µm grains from each of 11 lava flows with MFM, microprobe and SEM/EBSD; per-grain binders align techniques.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.pangaea.de/10.1594/PANGAEA.886180",
+        "title": "PANGAEA primary publication series",
+        "evidence": "Landing page identifies23 component datasets, CC BY 3.0 Unported licensing and download routes for constituent data.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Natural-lava provenance is geological, but included evidence is grain-level material chemistry, crystallography and magnetism rather than a geospatial survey.",
+      "23 denotes component deposits; the exact count of fully characterized grains was not independently established.",
+      "EBSD orientations and microscopy are not a periodic atomic-coordinate database.",
+      "Per-site deposits and per-grain binders are complementary representations and must not be summed as independent samples.",
+      "Retain grain/site identifier, heating history and chemistry-quality flags; microprobe analyses with>2%Si can include surrounding material."
+    ],
+    "tags": [
+      "Scientific Data",
+      "final-title-audit",
+      "characterization",
+      "condition-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 11,
+        "unit": "sampled lava-flow/site groups",
+        "scope": "Published study provenance groups"
+      }
+    ]
+  },
+  {
+    "id": "aisi52100-rolling-contact-fatigue",
+    "name": "AISI52100 grease-lubricated rolling-contact fatigue benchmark",
+    "category": "experimental_properties",
+    "description": "Per-trial bearing-steel fatigue lifetime, post-test damage microscopy and derived Weibull statistics under controlled lubrication.",
+    "version": "2026 descriptor cohort; deposit checked 2026-11-01",
+    "year": 2026,
+    "count": 63,
+    "count_display": "63",
+    "count_unit": "four-ball tribometer trials",
+    "count_scope": "21 independent trials for each of three calcium-grease grades",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "time to failure (s)",
+      "post-test pitting/crack/deformation microscopy",
+      "Weibull lifetime quantiles",
+      "survival, hazard and probability-density functions",
+      "grease and mechanical-test conditions"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Mendeley Data v3)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-026-08057-7",
+      "data": "https://doi.org/10.17632/d5n3zgvs7p.3"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-08057-7",
+        "title": "Rolling contact fatigue dataset for AISI52100 bearing steel balls under calcium grease lubrication",
+        "evidence": "Descriptor reports 63 trials,21 per NLGI 0/00/000 grade, at 1470 rpm,5739 N peak axial load and35±3°C;1,140 optical images accompany per-trial metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.mendeley.com/datasets/d5n3zgvs7p/3",
+        "title": "Mendeley Data rolling-contact-fatigue v3",
+        "evidence": "Primary deposit is public, dated 25June2026, version 3, under CC BY 4.0; description identifies IP300 four-ball tests on AISI52100.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A material-response/tribology benchmark rather than a resolved-crystal structure cohort; one bearing-steel grade is investigated.",
+      "Each trial has one time-to-failure value; three lower balls in a trial share that elapsed time and are not independent fatigue tests.",
+      "Microscopy images show damage at50×magnification(5×objective)and2160×1620 px; image count differs from trial count.",
+      "Weibull curves and lifetime quantiles are derived statistical outputs, not additional measured trials."
+    ],
+    "tags": [
+      "Scientific Data",
+      "final-title-audit",
+      "characterization",
+      "condition-dependent"
+    ],
+    "additional_counts": [
+      {
+        "value": 1140,
+        "unit": "post-test optical microscopy images",
+        "scope": "Damage images across63 trials and their lower balls"
+      },
+      {
+        "value": 3,
+        "unit": "calcium grease grades",
+        "scope": "NLGI0,00,000 with extreme-pressure additives"
+      }
+    ],
+    "count_derivation": {
+      "method": "21 trials in each of three grease-grade groups",
+      "values": [
+        21,
+        21,
+        21
+      ]
+    }
+  }
+]

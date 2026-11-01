@@ -1,0 +1,286 @@
+[
+  {
+    "id": "cde-dye-sensitized-solar-devices",
+    "name": "ChemDataExtractor dye-sensitized solar-cell devices",
+    "category": "experimental_properties",
+    "description": "Literature-extracted dye-sensitized solar-cell records with device performance and component-material information.",
+    "version": "Figshare 13516220 v1; independently counted JSONL release",
+    "year": 2022,
+    "count": 41860,
+    "count_display": "41,860",
+    "count_unit": "device-report JSON documents",
+    "count_scope": "Downloaded Figshare v1 JSON archive has 26,930 Elsevier + 14,930 RSC documents, with 41,860 distinct internal IDs. Paper instead states 41,680 devices and 475,045 attribute sub-entries.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "power conversion efficiency",
+      "open-circuit voltage",
+      "short-circuit current/current density",
+      "fill factor",
+      "device/material names",
+      "irradiance and area when available",
+      "source DOI",
+      "measured/derived value flags"
+    ],
+    "access": "open",
+    "license": "MIT",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01355-w",
+      "data": "https://doi.org/10.6084/m9.figshare.13516220.v1",
+      "repository": "https://github.com/edbeard/dsc_db"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01355-w",
+        "title": "Perovskite- and Dye-Sensitized Solar-Cell Device Databases Auto-generated Using ChemDataExtractor",
+        "evidence": "Describes a DSC device corpus with 475,045 property/material sub-entries; article device count is 41,680. Data contain cognate photovoltaic properties and component materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/13516220",
+        "title": "Dye-sensitized Solar Cell Database v1",
+        "evidence": "Deposit declares MIT. Downloaded dsc_json.zip independently contains 41,860 JSONL documents with distinct internal IDs across Elsevier/RSC files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Records represent reported photovoltaic devices, not unique chemical compositions or periodic crystal structures.",
+      "Raw, standardized and algebraically derived device quantities coexist; retain calculated-value flags and irradiance/area assumptions.",
+      "Multiple reports of the same material/device can occur; no global physical-device deduplication established.",
+      "JSON and MongoDB releases are alternate formats of the same population.",
+      "Published 41,680 device count disagrees with the 41,860-document archive recount; this record uses the archive and does not silently equate them.",
+      "DSCs include molecular dyes, electrolytes and engineered layers; this is adjacent to crystal-structure data."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "device-or-engineered-material-scope"
+    ]
+  },
+  {
+    "id": "cde-perovskite-solar-devices",
+    "name": "ChemDataExtractor perovskite solar-cell devices",
+    "category": "experimental_properties",
+    "description": "Literature-extracted perovskite solar-device performance and component-material records.",
+    "version": "Figshare 13516238 v1; independently counted JSONL release",
+    "year": 2022,
+    "count": 15818,
+    "count_display": "15,818",
+    "count_unit": "device-report JSON documents",
+    "count_scope": "Downloaded Figshare v1 archive has 8,259 Elsevier + 7,559 RSC documents with distinct internal IDs; paper reports 185,836 property/material sub-entries for these 15,818 devices.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "power conversion efficiency",
+      "open-circuit voltage",
+      "short-circuit current/current density",
+      "fill factor",
+      "device/material names",
+      "irradiance and area when available",
+      "source DOI",
+      "measured/derived value flags"
+    ],
+    "access": "open",
+    "license": "MIT",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01355-w",
+      "data": "https://doi.org/10.6084/m9.figshare.13516238.v1",
+      "repository": "https://github.com/edbeard/pv_database"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01355-w",
+        "title": "Perovskite- and Dye-Sensitized Solar-Cell Device Databases Auto-generated Using ChemDataExtractor",
+        "evidence": "Separately describes PSC and DSC corpora; the PSC corpus contains 185,836 attribute sub-entries organized into 15,818 photovoltaic records.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/13516238",
+        "title": "Perovskite Solar Cell Database v1",
+        "evidence": "Deposit declares MIT. Independently parsed PSC JSONL files contain 15,818 documents and distinct internal IDs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Records represent reported photovoltaic devices, not unique chemical compositions or periodic crystal structures.",
+      "Raw, standardized and algebraically derived device quantities coexist; retain calculated-value flags and irradiance/area assumptions.",
+      "Multiple reports of the same material/device can occur; no global physical-device deduplication established.",
+      "JSON and MongoDB releases are alternate formats of the same population.",
+      "Distinct extraction lineage from the manually compiled Perovskite Database Project, with potentially overlapping source papers/devices. Do not add as independent unique materials."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "device-or-engineered-material-scope"
+    ]
+  },
+  {
+    "id": "psc-fabrication-textmine-2025",
+    "name": "Text-mined perovskite solar-device fabrication attributes",
+    "category": "experimental_properties",
+    "description": "Article-level extraction of perovskite-device layer materials, architecture and fabrication details.",
+    "version": "Figshare 25868737 v2; 3,164-record JSON recount",
+    "year": 2025,
+    "count": 3164,
+    "count_display": "3,164",
+    "count_unit": "article-linked fabrication records",
+    "count_scope": "Figshare v2 JSON RECORDS list contains 3,164 entries with 3,164 unique source DOIs and 30 fields. Paper Phase I subset contains 1,505 records; the final population includes Phase II expansion.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "perovskite composition and ion fractions",
+      "substrate/transport-layer/contact materials",
+      "cell architecture/flexibility",
+      "layer deposition method",
+      "spin-coating rate and duration",
+      "annealing conditions",
+      "top-contact thickness"
+    ],
+    "access": "open",
+    "license": "CC0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-04566-z",
+      "data": "https://doi.org/10.6084/m9.figshare.25868737.v2",
+      "repository": "https://github.com/vvatpvv/psc-database"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-04566-z",
+        "title": "Auto-generating a database on the fabrication details of perovskite solar devices",
+        "evidence": "Data Records identifies 30 attributes; after filtering, 1,505 Phase I records and 3,164 combined final records were retained.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25868737",
+        "title": "device_attributes_combined.json v2",
+        "evidence": "Data deposit declares CC0; downloaded JSON independently contains 3,164 records and unique DOIs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "One record is linked to a paper and is not a count of every separately fabricated/tested device in that paper.",
+      "Phase I intentionally reuses source papers represented in the existing Perovskite Database Project; Phase II adds an independent source-paper expansion. Counts are not disjoint.",
+      "Current extraction can return one HTL and one ETL; double-layer transport materials may be incompletely represented.",
+      "Composition/layer labels and deposition parameters do not provide periodic atomic coordinates or guarantee a unique phase.",
+      "This fabrication corpus is distinct from the CDE photovoltaic-performance corpus; source overlap remains possible."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "device-or-engineered-material-scope"
+    ]
+  },
+  {
+    "id": "optical-emissivity-designs-2022",
+    "name": "Optical emissivity curves for heterogeneous engineered designs",
+    "category": "experimental_properties",
+    "description": "Figure-extracted emissivity curves with materials, geometry and experimental/computational method metadata.",
+    "version": "Figshare 20773552 v1; 153-JSON archive recount",
+    "year": 2022,
+    "count": 153,
+    "count_display": "153",
+    "count_unit": "emissivity curve records",
+    "count_scope": "153 one-curve JSON records extracted from 176 figures in 64 papers; source figures contain 550 curves, so this is a successfully extracted subset.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "spectral emissivity (dimensionless)",
+      "wavelength/frequency axis units",
+      "material list",
+      "engineered geometry/layer keywords",
+      "measurement or calculation method",
+      "curve extraction quality score",
+      "source DOI/figure"
+    ],
+    "access": "open",
+    "license": "CC0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01699-3",
+      "data": "https://doi.org/10.6084/m9.figshare.20773552.v1",
+      "collection": "https://doi.org/10.6084/m9.figshare.c.6037004.v1",
+      "repository": "https://github.com/ViktoriiaBaib/curvedataextraction"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01699-3",
+        "title": "Optical emissivity dataset of multi-material heterogeneous designs generated with automated figure extraction",
+        "evidence": "Data Records defines one JSON per curve, containing material, geometry, method, axes units, legend and quality score; 153 curves retrieved from 550 total source curves.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/20773552",
+        "title": "Emissivity data release v1",
+        "evidence": "Figshare declares CC0; downloaded emissivity_dataset.zip independently contains 153 curve JSON files. Payload explicitly identifies calculated as well as experimental curves.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Curves describe engineered films, multilayers, composites and other geometries, not unique bulk crystals.",
+      "Experimental and simulated curves coexist; preserve data_type and modeling/measurement method.",
+      "The extraction retains only colored curves that the pipeline recovered; reported recall is 27% over all source curves and 55% over colored curves.",
+      "Quality scores flag curve gaps/conflicting points; digitized points are not original instrument output.",
+      "Geometry keywords are not full atomistic structures; do not merge this release with EKHI as disjoint materials."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "device-or-engineered-material-scope"
+    ]
+  },
+  {
+    "id": "self-cleaning-coating-literature",
+    "name": "Self-cleaning coating material and property corpora",
+    "category": "experimental_properties",
+    "description": "Text-mined coating-material dictionaries, property-value groups and stability/durability sentiment statistics.",
+    "version": "Figshare 23896434 v2; 38-table archive inventory",
+    "year": 2024,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "material/property/source group records",
+    "count_scope": "Release includes 38 JSON tables from a 39,011-paper corpus. Tables cover six overlapping function/property corpora, material dictionaries/frequencies, grouped numerical values and sentiment summaries; no reconciled unique observation/material total is asserted.",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "contact angle",
+      "sliding angle",
+      "refractive index",
+      "transmittance",
+      "material frequency/co-occurrence",
+      "stability/durability sentiment",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-02983-0",
+      "data": "https://doi.org/10.6084/m9.figshare.23896434.v2",
+      "repository": "https://github.com/MasterAI-EAM/self-cleaning"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-02983-0",
+        "title": "Automatically Generated Datasets: Present and Potential Self-Cleaning Coating Materials",
+        "evidence": "Data Records describes four output formats: material statistics, dictionary, numerical self-cleaning/optical values, and stability/durability sentiment. The 39,011 figure is source-paper count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/23896434/versions/2",
+        "title": "Self-cleaning coating data release v2",
+        "evidence": "Figshare declares CC BY 4.0. Downloaded RAR contains 38 JSON tables; inspected value tables group each numeric value with lists of DOI/material pairs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "39,011 papers, 38 JSON files, unique numeric-value groups and individual DOI/material pairs are different units; none is promoted as a unique crystal count.",
+      "Hydrophilic, hydrophobic, oleophobic, omniphobic, photocatalytic and self-cleaning corpora can overlap; do not sum them as independent materials.",
+      "Material names may refer to polymers, composites, coatings or substrates; no atomic crystal structures.",
+      "Automated value/material pairing and sentiment labels require source-context checks; sentiment is not a measured durability property.",
+      "Article states data release omits original-text excerpts; source DOI provenance remains available."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "device-or-engineered-material-scope"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "jarvis-wtbh-electron",
+    "operation": "merge_metadata_and_append_evidence",
+    "reason": "The 2021 Scientific Data descriptor describes the existing electron Wannier-Hamiltonian family; avoid creating a duplicate dataset.",
+    "set": {
+      "year": 2021,
+      "links.paper": "https://doi.org/10.1038/s41597-021-00885-z",
+      "links.original_release": "https://doi.org/10.6084/m9.figshare.c.5192276.v2",
+      "license": "CC BY 4.0 for the original four-part Figshare Hamiltonian collection; licence of the separately linked 1,440-entry index snapshot was not independently rechecked"
+    },
+    "append_sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-021-00885-z",
+        "title": "Scientific Data electron-Wannier descriptor",
+        "evidence": "Original article reports 1,771 materials: 1,406 3D and 365 2D. It describes archived Wannier90 input/output and Hamiltonian files and DFT-vs-Wannier comparison data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/collections/5192276/articles",
+        "title": "Original Figshare Hamiltonian collection",
+        "evidence": "Four listed partitions were inspected through their individual public metadata: all declare CC BY 4.0, and together they currently list 1,772 unique JVASP-*.zip files, including 365 2D archives.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "append_caveats": [
+      "The selected downloader/documentation snapshot count of 1,440 is preserved. Original 2021 paper count 1,771 and present original-collection inventory count 1,772 have different scope/version and must not replace it silently.",
+      "The inspected original collection has 1,407 3D zip archives and 365 2D zip archives; the one-archive difference from the publication remains unexplained."
+    ],
+    "append_additional_counts": [
+      {
+        "value": 1771,
+        "unit": "materials",
+        "scope": "2021 publication cohort: 1,406 3D plus 365 2D; different from selected 1,440-entry documentation snapshot"
+      },
+      {
+        "value": 1772,
+        "unit": "unique material zip archives",
+        "scope": "Current four-part original Figshare collection inventory; 1,407 3D plus 365 2D"
+      }
+    ],
+    "preserve_fields": [
+      "count",
+      "count_unit",
+      "count_scope",
+      "count_precision",
+      "version",
+      "structure_level"
+    ]
+  }
+]

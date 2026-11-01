@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-01",
+  "receipts": [
+    {
+      "id": "aflow",
+      "url": "https://providers.optimade.org/index-metadbs/aflow/v1/links",
+      "status": 200,
+      "sha256": "0ca12d523aa26ec49cd67e411ed3397745c9aa2dbcdd822c1c5ea27003a98c4d",
+      "bytes": 1015,
+      "links": [
+        [
+          "aflow",
+          "https://aflow.org/API/optimade/",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "alexandria",
+      "url": "https://providers.optimade.org/index-metadbs/alexandria/v1/links",
+      "status": 200,
+      "sha256": "9c03b0173d4eb39512b3c41bc920b76ab7ba80099266c5ce4def4e19b1f2f798",
+      "bytes": 1547,
+      "links": [
+        [
+          "alexandria-pbesol",
+          "https://alexandria.icams.rub.de/pbesol",
+          "child"
+        ],
+        [
+          "alexandria-pbe",
+          "https://alexandria.icams.rub.de/pbe",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cod",
+      "url": "https://providers.optimade.org/index-metadbs/cod/v1/links",
+      "status": 200,
+      "sha256": "0dad2427adef89cfb3964913b89a7460fe80e3a20a21378641ead823a442fc72",
+      "bytes": 1168,
+      "links": [
+        [
+          "cod",
+          "https://www.crystallography.net/cod/optimade",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cmr",
+      "url": "https://providers.optimade.org/index-metadbs/cmr/v1/links",
+      "status": 200,
+      "sha256": "c89b26f6e9864b2d2a5bf773880c82866fb2a7accd5193767fc14f9c33da4ffc",
+      "bytes": 1134,
+      "links": [
+        [
+          "cmr",
+          "https://cmr-optimade.fysik.dtu.dk",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "mcloud",
+      "url": "https://www.materialscloud.org/optimade/main/v1/links",
+      "status": 200,
+      "sha256": "500a5f35fe7ff1f8cc9833a04f02fc226f7be69208b6573fe156737d2cd558fe",
+      "bytes": 8822,
+      "links": [
+        [
+          "index",
+          "https://optimade.materialscloud.org/main/index",
+          "root"
+        ],
+        [
+          "mc3d-pbe-v1",
+          "https://optimade.materialscloud.org/main/mc3d-pbe-v1",
+          "child"
+        ],
+        [
+          "mc3d-pbesol-v1",
+          "https://optimade.materialscloud.org/main/mc3d-pbesol-v1",
+          "child"
+        ],
+        [
+          "mc3d-pbesol-v2",
+          "https://optimade.materialscloud.org/main/mc3d-pbesol-v2",
+          "child"
+        ],
+        [
+          "mc2d",
+          "https://optimade.materialscloud.org/main/mc2d",
+          "child"
+        ],
+        [
+          "2dtopo",
+          "https://optimade.materialscloud.org/main/2dtopo",
+          "child"
+        ],
+        [
+          "pyrene-mofs",
+          "https://optimade.materialscloud.org/main/pyrene-mofs",
+          "child"
+        ],
+        [
+          "curated-cofs",
+          "https://optimade.materialscloud.org/main/curated-cofs",
+          "child"
+        ],
+        [
+          "stoceriaitf",
+          "https://optimade.materialscloud.org/main/stoceriaitf",
+          "child"
+        ],
+        [
+          "autowannier",
+          "https://optimade.materialscloud.org/main/autowannier",
+          "child"
+        ],
+        [
+          "tin-antimony-sulfoiodide",
+          "https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide",
+          "child"
+        ],
+        [
+          "aiida",
+          null,
+          "external"
+        ],
+        [
+          "aflow",
+          "https://providers.optimade.org/index-metadbs/aflow",
+          "external"
+        ],
+        [
+          "alexandria",
+          "https://providers.optimade.org/index-metadbs/alexandria",
+          "external"
+        ],
+        [
+          "ccdc",
+          null,
+          "external"
+        ],
+        [
+          "cod",
+          "https://providers.optimade.org/index-metadbs/cod",
+          "external"
+        ],
+        [
+          "ccpnc",
+          null,
+          "external"
+        ],
+        [
+          "cmr",
+          "https://providers.optimade.org/index-metadbs/cmr",
+          "external"
+        ],
+        [
+          "httk",
+          null,
+          "external"
+        ],
+        [
+          "matcloud",
+          "https://providers.optimade.org/index-metadbs/matcloud",
+          "external"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "mp",
+      "url": "https://providers.optimade.org/index-metadbs/mp/v1/links",
+      "status": 200,
+      "sha256": "10115a83c0db855ab78aec7b333283f6f6c1b8e8f2f0d03261354ef945e6ff6f",
+      "bytes": 1130,
+      "links": [
+        [
+          "mp",
+          "https://optimade.materialsproject.org",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "mpds",
+      "url": "https://providers.optimade.org/index-metadbs/mpds/v1/links",
+      "status": 200,
+      "sha256": "9a835f5c081d34a8b17e799a902ac1ee59c4e8c9ed96edbd4b42dc5ae8beced2",
+      "bytes": 1175,
+      "links": [
+        [
+          "mpds",
+          "https://api.mpds.io",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "nmd",
+      "url": "https://providers.optimade.org/index-metadbs/nmd/v1/links",
+      "status": 200,
+      "sha256": "54215153258134cae94384631806ec411062efc1d38f266123bb9d873c869502",
+      "bytes": 1079,
+      "links": [
+        [
+          "nmd",
+          "https://nomad-lab.eu/prod/v1/optimade/",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "oqmd",
+      "url": "https://providers.optimade.org/index-metadbs/oqmd/v1/links",
+      "status": 200,
+      "sha256": "88fdc4e3beadc0e6e8315d9c077c32f2189d29e0c35f7e3e2f0b9fc0984f1656",
+      "bytes": 1097,
+      "links": [
+        [
+          "oqmd",
+          "https://oqmd.org/optimade/",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "jarvis",
+      "url": "https://providers.optimade.org/index-metadbs/jarvis/v1/links",
+      "status": 200,
+      "sha256": "4cd87ed5233c81f6da45d3518a35c4293f53faa1e88a8af6c8243f1a292ce6b2",
+      "bytes": 1173,
+      "links": [
+        [
+          "jarvis",
+          "https://jarvis.nist.gov/optimade/jarvisdft",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "tcod",
+      "url": "https://providers.optimade.org/index-metadbs/tcod/v1/links",
+      "status": 200,
+      "sha256": "e704d569f0ec5c6ffe8794318c0428f995ace726098a1005782caaf677e53d4c",
+      "bytes": 1219,
+      "links": [
+        [
+          "tcod",
+          "https://www.crystallography.net/tcod/optimade",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "twodmatpedia",
+      "url": "https://providers.optimade.org/index-metadbs/twodmatpedia/v1/links",
+      "status": 200,
+      "sha256": "039f0c08e971ce3469d377d8aa8a116c7d6b8d0f57663372952d963bd2970220",
+      "bytes": 1113,
+      "links": [
+        [
+          "twodmatpedia",
+          "http://optimade.2dmatpedia.org",
+          "child"
+        ],
+        [
+          "optimade-providers",
+          "https://providers.optimade.org",
+          "providers"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "file_qe_tb",
+      "url": "https://api.figshare.com/v2/file/download/29070555",
+      "error": "'utf-8' codec can't decode byte 0xc6 in position 12: invalid continuation byte",
+      "bytes_read": 2000001,
+      "sha256_of_bytes_read": "77dc190c9352d872d23ebb97e79f4cee0bbc2fa6f3f708c32b27203ce88a3cf9",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": false
+    },
+    {
+      "id": "file_jff",
+      "url": "https://api.figshare.com/v2/file/download/28937793",
+      "error": "'utf-8' codec can't decode bytes in position 10-11: invalid continuation byte",
+      "bytes_read": 2000001,
+      "sha256_of_bytes_read": "58b815786d35d138e78e3e4cc218ae6d3bb77f080660fb48c7b12dac9b710d6c",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": false
+    },
+    {
+      "id": "file_interfacedb",
+      "url": "https://api.figshare.com/v2/file/download/46355692",
+      "error": "'utf-8' codec can't decode byte 0x98 in position 12: invalid start byte",
+      "bytes_read": 853973,
+      "sha256_of_bytes_read": "96fde70e1b2254477df6a6b22e4ecd15df82e8d9afcd3e9804659038536ece7b",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": true,
+      "archive_member": "interface_db_dd.json",
+      "record_count": 593,
+      "first_record_keys": [
+        "jid",
+        "atoms",
+        "initial_atoms",
+        "final_energy",
+        "optb88vdw_bandgap",
+        "optb88vdw_cbm",
+        "optb88vdw_vbm",
+        "offset"
+      ]
+    },
+    {
+      "id": "file_surfacedb",
+      "url": "https://api.figshare.com/v2/file/download/46355689",
+      "error": "'utf-8' codec can't decode byte 0x98 in position 12: invalid start byte",
+      "bytes_read": 2000001,
+      "sha256_of_bytes_read": "1808959c038cc9e8aacb2663c58b4e1ba1ccdab9f087ea68e3762cfa6a4b4ebb",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": false
+    },
+    {
+      "id": "file_vacancydb",
+      "url": "https://api.figshare.com/v2/file/download/40750811",
+      "error": "'utf-8' codec can't decode byte 0xb1 in position 11: invalid start byte",
+      "bytes_read": 311294,
+      "sha256_of_bytes_read": "0b4c92a740c2892b23b353aac2e3e5d68cbe90ff6dfb21a0a5d7a7185b4c9a68",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": true,
+      "archive_member": "vacancydb.json",
+      "record_count": 464,
+      "first_record_keys": [
+        "jid",
+        "bulk_atoms",
+        "bulk_formula",
+        "bulk_energy",
+        "defective_atoms",
+        "symbol",
+        "wycoff",
+        "defective_energy",
+        "chem_pot",
+        "material_type",
+        "ff_vac",
+        "id",
+        "ef"
+      ]
+    },
+    {
+      "id": "file_dft_3d",
+      "url": "https://api.figshare.com/v2/file/download/38521619",
+      "error": "'utf-8' codec can't decode byte 0x8c in position 12: invalid start byte",
+      "bytes_read": 2000001,
+      "sha256_of_bytes_read": "561e6669403ab7cd4832b3e5e3f823ddb1979c33b66ba3cbb3982c0934c4805b",
+      "note": "The file/download route returned a ZIP archive, not file metadata; read was bounded at 2,000,001 bytes.",
+      "complete_archive": false
+    }
+  ]
+}

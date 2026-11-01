@@ -1,0 +1,258 @@
+[
+  {
+    "name": "A Materials Properties Dataset for Elastomeric Foam Impact Mitigating Materials",
+    "url": "https://data.nist.gov/od/id/mds2-2606",
+    "kind": "adjacent polymer mechanics dataset",
+    "description": "Elastic impact foams: raw/processed DMA, DIC, compression, drop-tower, micro-CT, FTIR and DSC data with analysis tools. Strong reuse documentation includes batch/specimen IDs, geometry and uncertainty. VN01 notes report frequency ±5%, moduli ±8%, temperature ±0.1°C; its SHA-256 matches provider. A catalog-listed EVA1 notes file returned 404. Noncrystalline polymer/foam resource; no unique-crystal count. NIST non-SRD reuse terms apply.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/a-materials-properties-dataset-for-elastomeric-foam-impact-mitigating-materials",
+        "title": "A Materials Properties Dataset for Elastomeric Foam Impact Mitigating Materials — Data.gov primary-agency metadata",
+        "evidence": "Data descriptor DOI10.1038/s41597-023-02092-4; catalog advertises212 resources including payload/hash pairs, not212 independent materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/VN01/VN01_notes_DMA_data.txt",
+        "title": "Downloaded foam specimen/test notes",
+        "evidence": "Defines geometry with standard deviations, test60°C to−30°C and0.3–30rad/s, and measurement uncertainty; SHA-256 verified.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/data_framework_DMA.txt",
+        "title": "DMA data framework",
+        "evidence": "Documents native instrument files, XLS metadata tab, frequency/temperature tabs and material/batch/specimen naming.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Broadband Electromagnetic Properties of Engineered Flexible Absorber Materials",
+    "url": "https://doi.org/10.18434/mds2-2911",
+    "kind": "adjacent composite electromagnetic measurements",
+    "description": "Version 1.0.0 CSV figure data for PDMS/barium-hexaferrite nanoparticle composites up to 110 GHz. On-wafer calibration/de-embedding, finite-element calculations and mixing models support reuse. Values include extracted/model-derived effective properties and should not be treated as direct intrinsic single-crystal constants. NIST non-SRD reuse terms; no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/broadband-electromagnetic-properties-of-engineered-flexible-absorber-materials",
+        "title": "Broadband Electromagnetic Properties of Engineered Flexible Absorber Materials — Data.gov primary-agency metadata",
+        "evidence": "CSV files distinguish calculated/extracted permittivity/permeability and distributed circuit parameters.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-2911/README.txt",
+        "title": "Downloaded versioned absorber README",
+        "evidence": "Lists figure/file scope,30%/60% weight loading, mTRL/series-resistor calibration and model-based extraction.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-2911/Figure%207a.csv",
+        "title": "Downloaded effective-permittivity CSV",
+        "evidence": "Public structured numeric payload inspected; figure-derived effective values, not an independent crystal census.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Data for A Switchable Longitudinal & Shear BLS Microscope for Comprehensive Modulus Imaging of Semiconductor Packaging Materials",
+    "url": "https://data.nist.gov/od/id/mds2-4059",
+    "kind": "adjacent polymer modulus imaging dataset",
+    "description": "Longitudinal/shear BLS maps and comparison nanoindentation/DMA for proof-of-concept packaging epoxies. TXT headers give GHz/GPa/µm units; raw spectra, fits and code are documented. Calibration uses VIPA free spectral ranges; lab 21±2°C/35±5%RH. Derived moduli assume density/refractive index and filtering; README erroneously cites companion DOI 3725, so retain 4059 identifier. Polymer resource, no crystal count; NIST non-SRD terms.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/data-for-a-switchable-longitudinal-shear-bls-microscope-for-comprehensive-modulus-imaging--c473d",
+        "title": "Data for A Switchable Longitudinal & Shear BLS Microscope for Comprehensive Modulus Imaging of Semiconductor Packaging Materials — Data.gov primary-agency metadata",
+        "evidence": "Two epoxy sample designs; public payload/hash pairs and CADRE access route.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4059/4059_ReadMe_20260421.txt",
+        "title": "Downloaded BLS4059 README",
+        "evidence": "Defines raw/fit data, calibration, cure schedules, missing-value masks, assumed density1.20g/cm³/index1.55 and interpolation/filtering; provider SHA-256 matches.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4059/Fig4/Fig4d_Youngs_modulus.txt",
+        "title": "Downloaded BLS Young modulus map",
+        "evidence": "Structured map with index coordinates and Young modulus inGPa inspected.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Data for A Dual Mode Brillouin/Low-Frequency Raman Spectroscopy Microscope for Local Mechanical Property Imaging for Semiconductor Packaging Materials",
+    "url": "https://data.nist.gov/od/id/mds2-3725",
+    "kind": "adjacent polymer spectroscopy dataset",
+    "description": "BLS/low-frequency Raman raw spectra, fits and time/temperature axes for epoxy cure, glass transition and hyperspectral mapping. Calibration uses LaAlO3 Raman reference and VIPA free spectral ranges; lab 21±2°C/35±5%RH. Units and figure mappings are documented; masks and model fits must remain distinct from measured signals. Polymer resource under NIST non-SRD terms.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/data-for-a-dual-mode-brillouin-low-frequency-raman-spectroscopy-microscope-for-local-mecha-99ad6",
+        "title": "Data for A Dual Mode Brillouin/Low-Frequency Raman Spectroscopy Microscope for Local Mechanical Property Imaging for Semiconductor Packaging Materials — Data.gov primary-agency metadata",
+        "evidence": "Dataset accompanies IEEE ECTC2025 DOI10.1109/ECTC51687.2025.00288.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-3725/ReadMe_20260427.txt",
+        "title": "Downloaded BLS/LFR3725 README",
+        "evidence": "Specifies calibration, room conditions,GHz/cm−1/min/°C axes, masks and fit components.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3725/Fig2/Fig2_data.txt",
+        "title": "Downloaded Raman spectrum",
+        "evidence": "Experimental and fitted component columns are separately supplied in a public text payload.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Aged and unaged PBIA-based copolymer testing for soft body armor applications",
+    "url": "https://data.nist.gov/od/id/mds2-2123",
+    "kind": "adjacent polymer aging dataset",
+    "description": "Three PBIA-based fibers: tensile, FTIR and moisture data with CSV/XLS/ODS exports and hydrothermal-aging condition codes. README names ASTM D3822/C1557, FTIR cm−1/absorbance units and nominal 23°C/30%RH testing. Its citation mistakenly points to laminate DOI M32078; catalog identifies PBIA as M32123/mds2-2123. Polymer resource under NIST non-SRD terms; archive contents not independently recounted.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/aged-and-unaged-pbia-based-copolymer-testing-for-soft-body-armor-applications",
+        "title": "Aged and unaged PBIA-based copolymer testing for soft body armor applications — Data.gov primary-agency metadata",
+        "evidence": "Primary agency catalog links tensile/FTIR/moisture ZIPs and SHA-256 files.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-2123/copolymer_PPTA_readme.txt",
+        "title": "Downloaded PBIA README",
+        "evidence": "Defines four aging conditions, file schemas and mechanical-test methods; no additional restrictions stated.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Aged and unaged flexible unidirectional composite laminate tensile testing for soft body armor applications",
+    "url": "https://doi.org/10.18434/M32078",
+    "kind": "adjacent composite tensile dataset",
+    "description": "PPTA flexible UD laminate tensile data across aging, displacement rate, gauge length, width and orientation, with raw CSV, summary spreadsheets and failure videos. README/catalog disagree on an example specimen dimension and 75% vs 76% aging RH; check specimen files and methods before pooling. Testing nominal 23°C/30%RH; README states no tensile standard exists for this material. NIST non-SRD terms; no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/aged-and-unaged-flexible-unidirectional-composite-laminate-tensile-testing-for-soft-body-a",
+        "title": "Aged and unaged flexible unidirectional composite laminate tensile testing for soft body armor applications — Data.gov primary-agency metadata",
+        "evidence": "Catalog describes accelerated70°C aging up to150days and3crosshead rates/3gauge lengths.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/8B3BFE0480BD4943E053245706812C692078/UD_tensile_strip_readme.txt",
+        "title": "Downloaded UD tensile README",
+        "evidence": "Documents folder codes,raw CSV and multiple-format specimen summaries, test conditions and method DOI10.3791/58991.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Data of High-Temperature Dynamic LCM Testing Setup",
+    "url": "https://gdr.openei.org/submissions/1449",
+    "kind": "adjacent drilling-material performance dataset",
+    "description": "Nine XLSX test files plus two methods papers for polymer/fiber additives in 5 wt% bentonite mud, fracture widths 1000/3000µm and 100–400 psi. Downloaded water-control workbook has time, filtrate, pressure and temperature columns. One catalog description says 130°F while filename says 300°F; verify actual test records before pooling. CC BY 4.0; fluid/sealing system performance, no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/data-of-high-temperature-dynamic-lcm-testing-setup",
+        "title": "Data of High-Temperature Dynamic LCM Testing Setup — Data.gov primary-agency metadata",
+        "evidence": "DOI10.15121/1986090; tests at120/300°F are described, with a temperature metadata conflict.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://gdr.openei.org/files/1449/HT%20Dyn%20LCM%20Water_1000m_120F.xlsx",
+        "title": "Downloaded LCM water-control workbook",
+        "evidence": "Workbook independently opened; sheet records2019-09-26,120°F and named pressure/filtrate/time channels.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Near Infrared Spectra of Origin-defined and Real-world Textiles (NIR-SORT): A spectroscopic and materials characterization dataset for known provenance and post-consumer fabrics",
+    "url": "https://data.nist.gov/od/id/mds2-3325",
+    "kind": "adjacent textile spectroscopy benchmark",
+    "description": "NIR-SORT provides textile spectra, microscopy, data dictionary, conditions, reference/uncertainty schemas, utility scripts and NIST data/code terms. Catalog describes 113 fabrics and nominal 7 replicates on 3 instruments; inspected root SampleInformation.csv has 64 rows/64 unique IDs, so 113 is unconfirmed as a reconciled payload count. Consumer fabric content is nominal garment-label information, explicitly uncorroborated. Polymer/textile resource; MDF is a mirror, no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/near-infrared-spectra-of-origin-defined-and-real-world-textiles-nir-sort-a-spectroscopic-a",
+        "title": "Near Infrared Spectra of Origin-defined and Real-world Textiles (NIR-SORT): A spectroscopic and materials characterization dataset for known provenance and post-consumer fabrics — Data.gov primary-agency metadata",
+        "evidence": "Catalog cites Scientific Data DOI10.1038/s41597-026-07434-6 and mirror10.18126/61v0-rf98.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/DataDictionary.csv",
+        "title": "Downloaded NIR data dictionary",
+        "evidence": "Defines spectral units,nulls,uncertainty and environment fields; explicitly qualifies consumer label provenance.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/SampleInformation.csv",
+        "title": "Downloaded root fabric metadata",
+        "evidence": "Independently counted64rows and64unique Sample ID strings, differing from113fabric catalog scope.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/license.txt",
+        "title": "Downloaded NIR-SORT license",
+        "evidence": "NIST data terms permit worldwide royalty-free reuse with acknowledgment and modified-data notices; separate code terms.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "EAF Slag Characterization",
+    "url": "https://doi.org/10.23719/1531971",
+    "kind": "adjacent industrial-solid leaching dataset",
+    "description": "Three verified XLSX files for EAF slag pH-dependent leaching, acid-neutralization and fraction comparisons. Workbooks retain sample/test IDs, mg/L, mg/kg-dry, liquid/solid ratios, detection limits, LeachXS 3.0.79 processing and 2025 review dates. Below-limit values use half detection limits; means and replicates coexist. EPA default U.S. public-domain terms. Industrial-solid reuse reference with no atomic crystal structure count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/eaf-slag-characterization",
+        "title": "EAF Slag Characterization — Data.gov primary-agency metadata",
+        "evidence": "Live9,662,778-byte ZIP inspected;3workbooks and35constituent sheets in the single-batch workbook.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pasteur.epa.gov/uploads/10.23719/1531971/OneDrive_1_1-31-2025%20%281%29.zip",
+        "title": "Downloaded EAF workbook ZIP",
+        "evidence": "All3XLSX opened; Scenario and Granular-Al tables carry units,test IDs,detection limits and substitution statements.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pasteur.epa.gov/license/sciencehub-license.html",
+        "title": "EPA data license",
+        "evidence": "EPA-produced data default to U.S.public domain unless otherwise specified; associated metadata limitations apply.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Lost Circulation Materials in Geothermal Drilling: Thermal Degradation, Viscosity, Compression, and Flow Loop Tests",
+    "url": "https://gdr.openei.org/submissions/1660",
+    "kind": "adjacent drilling-material performance dataset",
+    "description": "Thermal degradation, viscosity, compression and flow-loop measurements for lost-circulation materials, with photos and methods papers. Downloaded degradation workbook contains 7 material tabs, temperature/time, mass-before/after and grams units; full archive coverage was not audited. Catalog reports 90–250°C tests and material/condition-coded files. CC BY 4.0; heterogeneous drilling additives and system performance, no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/lost-circulation-materials-in-geothermal-drilling-thermal-degradation-viscosity-compressio",
+        "title": "Lost Circulation Materials in Geothermal Drilling: Thermal Degradation, Viscosity, Compression, and Flow Loop Tests — Data.gov primary-agency metadata",
+        "evidence": "DOI10.15121/2473672; methods papers and4experimental modalities.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://gdr.openei.org/files/1660/DegradationTest_Information.xlsx",
+        "title": "Downloaded thermal-degradation workbook",
+        "evidence": "Seven sheet names and mass/temperature/time headers inspected; rows include replicates.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "Data for Advanced Metrology Suite for Linking Residual Stress to Fundamental Properties of Thermoset Packaging Materials",
+    "url": "https://data.nist.gov/od/id/mds2-3698",
+    "kind": "adjacent packaging-polymer metrology dataset",
+    "description": "DSC, rheology, DIC, vapor uptake and stress-bench data for a commercial encapsulant epoxy, with CSV/XLSX/MAT, calibration images and method notes. Catalog describes about 2.5 GB and links ECTC 2025 paper 10.1109/ECTC51687.2025.00078. Not independently bulk-downloaded or recounted; _hold and current file routes may overlap. NIST non-SRD terms; adjacent cure/residual-stress resource, no crystal count.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/data-for-advanced-metrology-suite-for-linking-residual-stress-to-fundamentalproperties-of--43ee8",
+        "title": "Data for Advanced Metrology Suite for Linking Residual Stress to Fundamental Properties of Thermoset Packaging Materials — Data.gov primary-agency metadata",
+        "evidence": "Primary catalog lists raw/processed/notes andCADRE project navigation; full numerical-quality assessment is outside this check.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

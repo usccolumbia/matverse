@@ -1,0 +1,4210 @@
+{
+  "mode": "search",
+  "query": "battery electrode materials property dataset",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Machine Learning for Electrode Materials: Property Prediction via Composition",
+      "authors": [
+        "Hao Wu",
+        "Cameron J. Hargreaves",
+        "Arpit Mishra",
+        "Gian‐Marco Rignanese"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Hao Wu",
+          "orcid": "0009-0004-3740-0291",
+          "affiliations": [
+            "Avesta Holding (Belgium)",
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cameron J. Hargreaves",
+          "orcid": "0000-0001-5509-9501",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arpit Mishra",
+          "orcid": "0000-0002-8902-2219",
+          "affiliations": [
+            "Avesta Holding (Belgium)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gian‐Marco Rignanese",
+          "orcid": "0000-0002-1422-1205",
+          "affiliations": [
+            "Walloon Excellence in Lifesciences and Biotechnology",
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Theory and Simulations",
+      "doi": "10.1002/adts.70493",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adts.70493",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2603.07805",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT In this work, we benchmark three leading composition based Machine Learning (ML) frameworks, MODNet, CrabNet, and a random forest model based on Magpie features, predicting the properties of battery electrode materials using the Materials Project Battery Explorer dataset. We evaluate these models based on predictive accuracy, visualize numerical features using two‐dimensional embeddings, and quantify performance using standard metrics. Our results demonstrate that CrabNet consistently outperforms the other models across all tests. To validate these findings, we employ bootstrap resampling and two cross‐validation (CV) strategies (leave one cluster out and stratified 5‐fold CV), comparing each model against a control baseline, using unseen experimental data as a hold‐out test. We also apply unsupervised clustering using t‐SNE and DBSCAN on physically observed features extracted from matminer, revealing coherent material groupings without prior labels. The final selected model consistently improves over controls, and we believe can be used as a early stage oracle for electrode materials composition screening. Our study aims to identify the error distributions and limitations of the approach, discussing the challenges with developing robust ML models. Despite these constraints, our findings suggest the final selected model is effective for early‐stage compositional screening.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Carbogel paper based on starch as a flexible structural electrode for lithium-ion batteries",
+      "authors": [
+        "Monika Bakierska"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Monika Bakierska",
+          "orcid": "0000-0002-2379-7548",
+          "affiliations": [
+            "Jagiellonian University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Repozytorium Otwartych Danych Badawczych Uczelni Krakowskich - Uniwersytet Jagielloński",
+      "doi": "10.57903/uj/4mrtnk",
+      "type": "dataset",
+      "url": "https://doi.org/10.57903/uj/4mrtnk",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.57903/uj/4mrtnk",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The dataset comprises experimental data collected under the research project focused on the development and characterization of starch-based carbon aerogel (carbogel) paper as a flexible structural electrode material for lithium-ion batteries. The primary aim of the dataset is to support the investigation of the physicochemical, structural, and electrochemical properties of the developed materials. The dataset includes results obtained from multiple analytical techniques, such as X-ray diffraction (XRD), scanning electron microscopy (SEM), elemental analysis (EA), nitrogen sorption measurements, electrochemical characterization (EC, GCDT), and mechanical testing. These data provide comprehensive insight into material composition, morphology, porosity, electrical performance, and mechanical stability. The scope of the dataset covers raw data generated during laboratory experiments, as well as a subset of processed and analyzed data, accompanied by supporting graphical and documentation files. The dataset is intended to enable reproducibility of the study, facilitate further analysis, and support the dissemination of research findings related to advanced electrode materials for energy storage applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "MACHINE LEARNING ACCELERATED PROPERTY PREDICTION AND SCREENING OF STABLE LITHIUM-BASED BATTERY MATERIALS",
+      "authors": [
+        "To Anh Duc"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "To Anh Duc",
+          "orcid": "0000-0002-6279-1560",
+          "affiliations": [
+            "Trung tâm Vũ trụ Việt Nam",
+            "Vietnam Academy of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Science Natural Science",
+      "doi": "10.18173/2354-1059.2026-0005",
+      "type": "article",
+      "url": "https://doi.org/10.18173/2354-1059.2026-0005",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://hnuejs.edu.vn/ns/article/download/1383/717",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Rapid screening of battery materials is critical to meeting the growing demand for high-performance energy-storage solutions. In this study, we employ a data-driven approach to evaluate and characterize stable lithium-containing compounds with potential applications in next-generation batteries. We retrieved a dataset of 1,846 stable lithium-based materials from the Materials Project database using the mp-api. By leveraging the matminer library, we generated a comprehensive set of composition-based and structure-based features, including elemental- property and density descriptors. A Random Forest Regressor was trained to predict the band gap of these materials, a key electronic property that determines their suitability as electrolytes or electrodes. The model achieved a mean coefficient of determination (R2) of 0.77 ± 0.04 and a mean absolute error (MAE) of 0.48 ± 0.05 eV across 10-fold cross-validation, demonstrating robust predictive capability. Feature- importance analysis revealed that electronegativity and Mendeleev number are the most significant predictors of band-gap energy. These findings underscore the effectiveness of machine learning in accelerating property prediction for battery materials and provide a pathway to more efficient experimental targeting.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "AI ‐Driven Discovery of High Performance Polymer Electrodes for Next‐Generation Batteries",
+      "authors": [
+        "Subhash V. S. Ganti",
+        "Lukas Wölfel",
+        "Christopher Kuenneth"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Subhash V. S. Ganti",
+          "orcid": "0009-0002-7448-3992",
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lukas Wölfel",
+          "orcid": null,
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher Kuenneth",
+          "orcid": null,
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Polymer Science",
+      "doi": "10.1002/pol.20250198",
+      "type": "article",
+      "url": "https://doi.org/10.1002/pol.20250198",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pol.20250198",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT The use of transition group metals in electric batteries requires extensive usage of critical elements like lithium, cobalt, and nickel, which pose significant environmental challenges. Replacing these metals with redox‐active organic materials offers a promising alternative, thereby reducing the carbon footprint of batteries by one order of magnitude. However, this approach faces critical obstacles, including the limited availability of suitable redox‐active organic materials and issues such as lower electronic conductivity, voltage, specific capacity, and long‐term stability. To overcome the limitations for lower voltage and specific capacity, a machine learning (ML) driven battery informatics framework is developed and implemented. This framework utilizes an extensive battery dataset and advanced ML techniques to accelerate and enhance the identification, optimization, and design of redox‐active organic materials. In this contribution, a data‐fusion ML coupled meta learning model capable of predicting the battery properties, voltage, and specific capacity for various organic negative electrodes and charge carriers (positive electrode materials) combinations is presented. The ML models accelerate experimentation, facilitate the inverse design of battery materials, and identify suitable candidates from three extensive material libraries to advance sustainable energy‐storage technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "AI-Driven Discovery of High Performance Polymer Electrodes for Next-Generation Batteries",
+      "authors": [
+        "Subhash V. S. Ganti",
+        "Lukas Wölfel",
+        "Christopher Künneth"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Subhash V. S. Ganti",
+          "orcid": null,
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lukas Wölfel",
+          "orcid": null,
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher Künneth",
+          "orcid": "0000-0002-6958-4679",
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Polymer Science",
+      "doi": "10.15495/epub_ubt_00009018",
+      "type": "article",
+      "url": "https://doi.org/10.15495/epub_ubt_00009018",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.15495/epub_ubt_00009018",
+        "url_kind": "landing",
+        "version": null,
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The use of transition group metals in electric batteries requires extensive usage of critical elements like lithium, cobalt, and nickel, which pose significant environmental challenges. Replacing these metals with redox-active organic materials offers a promising alternative, thereby reducing the carbon footprint of batteries by one order of magnitude. However, this approach faces critical obstacles, including the limited availability of suitable redox-active organic materials and issues such as lower electronic conductivity, voltage, specific capacity, and long-term stability. To overcome the limitations for lower voltage and specific capacity, a machine learning (ML) driven battery informatics framework is developed and implemented. This framework utilizes an extensive battery dataset and advanced ML techniques to accelerate and enhance the identification, optimization, and design of redox-active organic materials. In this contribution, a data-fusion ML coupled meta learning model capable of predicting the battery properties, voltage, and specific capacity for various organic negative electrodes and charge carriers (positive electrode materials) combinations is presented. The ML models accelerate experimentation, facilitate the inverse design of battery materials, and identify suitable candidates from three extensive material libraries to advance sustainable energy-storage technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Screening Vanadium-Based Electrode Materials for Lithium-Ion Batteries Based on Machine Learning and First-Principles",
+      "authors": [
+        "Yunhe Mo",
+        "Weigang Cao",
+        "Lequan Zhao",
+        "Zhenqiang Tang",
+        "Long Zheng",
+        "Zongying Cai"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yunhe Mo",
+          "orcid": null,
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weigang Cao",
+          "orcid": "0000-0001-5258-2354",
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lequan Zhao",
+          "orcid": null,
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenqiang Tang",
+          "orcid": null,
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Long Zheng",
+          "orcid": "0009-0007-9163-9748",
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zongying Cai",
+          "orcid": null,
+          "affiliations": [
+            "North China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "化学学报",
+      "doi": "10.6023/a25030076",
+      "type": "article",
+      "url": "https://doi.org/10.6023/a25030076",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://sioc-journal.cn/Jwk_hxxb/EN/article/downloadArticleFile.do?attachType=PDF&id=351291",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "This study investigates the discovery of vanadium-based electrode materials for lithium-ion batteries using a combination of machine learning and first-principles calculations.The study extracted data for 4694 vanadium-based materials from the Materials Project database and calculated their maximum theoretical capacities using pymatgen.Correlation analysis revealed that material density has the highest correlation with theoretical capacity (Comprehensive score is 0.905), indicating that density is a key factor affecting the performance of vanadium-based materials.Based on this finding, three machine learning models (Deep Neural Network -DNN, Random Forest -RF, and Support Vector Regression -SVR) were constructed, with hyperparameters optimized using a genetic algorithm.The results showed that the DNN model performed best, achieving an R 2 value of 0.771.SHAP analysis further confirmed the significant contribution of density to the model predictions.Based on model predictions, the top 0.5% of high-density materials were selected from the original dataset, ultimately identifying 26 potential vanadium-based electrode materials.Among these, V6O13, MgV5O12, and V2MoO8 exhibited theoretical capacities exceeding 650 mAh/g, with open-circuit voltages of 2.56, 0.64, and 0.49 V, respectively.First-principles calculations indicated that V6O13 possesses metallic properties with high electron density of states, which is beneficial for enhancing conductivity; MgV5O12 and V2MoO8 exhibit metallic and semi-metallic characteristics, respectively.Adsorption energy calculations showed that V6O13 has the lowest adsorption energy, indicating its strongest lithium-ion adsorption capability.Based on open-circuit voltage calculations, V6O13 is suitable as a cathode material, while MgV5O12 and V2MoO8 are more appropriate as anode materials.This study successfully identified high-performance vanadium-based electrode materials through the integration of machine learning and first-principles calculations, significantly shortening the experimental process.It provides new insights into the design of lithium-ion battery electrode materials and demonstrates the enormous potential of machine learning in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "VOLTA: A tool for battery screening bridging the gap between virtual electrode materials and practical applications",
+      "authors": [
+        "Antonio Carnevali",
+        "M. Rosa Palacín",
+        "Clare P. Grey",
+        "Alejandro A. Franco"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Antonio Carnevali",
+          "orcid": "0009-0000-5252-4111",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Rosa Palacín",
+          "orcid": "0000-0001-7351-2005",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Alistore",
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Clare P. Grey",
+          "orcid": "0000-0001-5572-192X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "University of Cambridge",
+            "Alistore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Universitaire de France",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy storage materials",
+      "doi": "10.1016/j.ensm.2024.103254",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ensm.2024.103254",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.ensm.2024.103254",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present a battery screening Python pipeline, VOLTA. It allows for a novel battery active material explorative workflow, prioritizing the cell level performance indicators, such as cell capacity and voltage profile. This is achieved by the construction of a starting dataset of both observed and virtual active materials from the Materials Project, the implementation of the physics-based ARTISTIC project pipeline for the assessment of practical electrode properties like porosity and thickness, and the coupling of the electrodes into virtual cells, whose figures of merit are calculated, like voltage and capacity. The screening can be conducted by applying filters to these cell-level properties, achieving a indirect selection of the most suitable active materials. The approach is validated through comparison to current commercial battery technology, and we demonstrate that VOLTA is able to identify promising electrode materials for high energy batteries, like the wellknown LiCoO2, LiNiO2 and graphite. We also illustrate a case-study, where the pipeline is used to identify suitable low-voltage, realistic virtual batteries obtained by combining entries of the Materials Project battery database (a battery revealing type of task).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "High-Entropy Electrode Materials: Synthesis, Properties and Outlook",
+      "authors": [
+        "Dongxiao Li",
+        "Chang Liu",
+        "Shusheng Tao",
+        "Jieming Cai",
+        "Biao Zhong",
+        "Jie Li",
+        "Wentao Deng",
+        "Hongshuai Hou",
+        "Guoqiang Zou",
+        "Xiaobo Ji"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Dongxiao Li",
+          "orcid": "0000-0002-6560-5540",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chang Liu",
+          "orcid": "0000-0003-3016-3997",
+          "affiliations": [
+            "Hunan Institute of Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shusheng Tao",
+          "orcid": null,
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jieming Cai",
+          "orcid": null,
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Biao Zhong",
+          "orcid": null,
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Li",
+          "orcid": "0000-0002-1558-8623",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wentao Deng",
+          "orcid": "0000-0002-2064-2970",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongshuai Hou",
+          "orcid": "0000-0001-8201-4614",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guoqiang Zou",
+          "orcid": "0000-0001-7115-6190",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaobo Ji",
+          "orcid": "0000-0002-5405-7913",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nano-Micro Letters",
+      "doi": "10.1007/s40820-024-01504-3",
+      "type": "review",
+      "url": "https://doi.org/10.1007/s40820-024-01504-3",
+      "cited_by_count": 89,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40820-024-01504-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-entropy materials represent a new category of high-performance materials, first proposed in 2004 and extensively investigated by researchers over the past two decades. The definition of high-entropy materials has continuously evolved. In the last ten years, the discovery of an increasing number of high-entropy materials has led to significant advancements in their utilization in energy storage, electrocatalysis, and related domains, accompanied by a rise in techniques for fabricating high-entropy electrode materials. Recently, the research emphasis has shifted from solely improving the performance of high-entropy materials toward exploring their reaction mechanisms and adopting cleaner preparation approaches. However, the current definition of high-entropy materials remains relatively vague, and the preparation method of high-entropy materials is based on the preparation method of single metal/low- or medium-entropy materials. It should be noted that not all methods applicable to single metal/low- or medium-entropy materials can be directly applied to high-entropy materials. In this review, the definition and development of high-entropy materials are briefly reviewed. Subsequently, the classification of high-entropy electrode materials is presented, followed by a discussion of their applications in energy storage and catalysis from the perspective of synthesis methods. Finally, an evaluation of the advantages and disadvantages of various synthesis methods in the production process of different high-entropy materials is provided, along with a proposal for potential future development directions for high-entropy materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "authors": [
+        "Lauren M. McRae",
+        "Don McTaggart",
+        "Scott C. Warren",
+        "Jack D. Sundberg"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Lauren M. McRae",
+          "orcid": "0000-0002-0360-9626",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Don McTaggart",
+          "orcid": "0000-0001-7941-924X",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Scott C. Warren",
+          "orcid": "0000-0002-2883-0204",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jack D. Sundberg",
+          "orcid": "0000-0001-5739-8919",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+      "doi": "10.17615/0jq3-1w59",
+      "type": "article",
+      "url": "https://doi.org/10.17615/0jq3-1w59",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://cdr.lib.unc.edu/downloads/4f16cd98q",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Battery electrode slurry rheology and its impact on manufacturing",
+      "authors": [
+        "Carl D. Reynolds",
+        "Helen Walker",
+        "Ameir Mahgoub",
+        "Ebenezer Mayowa Adebayo",
+        "Emma Kendrick"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Carl D. Reynolds",
+          "orcid": "0000-0001-9736-0413",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Birmingham"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helen Walker",
+          "orcid": "0000-0002-1908-8001",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ameir Mahgoub",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ebenezer Mayowa Adebayo",
+          "orcid": "0000-0002-0206-4740",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emma Kendrick",
+          "orcid": "0000-0002-4219-964X",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Birmingham"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy Advances",
+      "doi": "10.1039/d4ya00380b",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4ya00380b",
+      "cited_by_count": 58,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/ya/d4ya00380b",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Slurry rheology is a critical metrology tool for understanding and optimising the manufacture of battery electrodes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "The rise of high-entropy battery materials",
+      "authors": [
+        "Bin Ouyang",
+        "Yan Zeng"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Bin Ouyang",
+          "orcid": "0000-0002-8181-6815",
+          "affiliations": [
+            "Florida State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Zeng",
+          "orcid": "0000-0002-5831-1210",
+          "affiliations": [
+            "Florida State University",
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-45309-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-024-45309-9",
+      "cited_by_count": 177,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-024-45309-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The emergence of high-entropy materials has inspired the exploration of novel materials in diverse technologies. In electrochemical energy storage, high-entropy design has shown advantageous impacts on battery materials such as suppressing undesired short-range order, frustrating energy landscape, decreasing volumetric change and reducing the reliance on critical metals. This comment addresses the definition and potential improper use of the term “high entropy” in the context of battery materials design, highlights the unique properties of high-entropy materials in battery applications, and outlines the remaining challenges in the synthesis, characterization, and computational modeling of high-entropy battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Machine Learning Approaches for Designing Electrode Materials for Lithium‐Ion Batteries",
+      "authors": [
+        "Viswesh Prakash",
+        "Sagnik Acharya",
+        "Henu Sharma",
+        "Anil Daliprasad Pathak",
+        "Kisor Kumar Sahu"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Viswesh Prakash",
+          "orcid": "0009-0003-2274-2507",
+          "affiliations": [
+            "National Institute of Technology Karnataka"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sagnik Acharya",
+          "orcid": "0009-0007-2891-9050",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Henu Sharma",
+          "orcid": "0000-0002-6928-3067",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anil Daliprasad Pathak",
+          "orcid": "0000-0003-3136-4969",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kisor Kumar Sahu",
+          "orcid": "0000-0003-2488-0420",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.1002/9783527838851.ch3",
+      "type": "other",
+      "url": "https://doi.org/10.1002/9783527838851.ch3",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/9783527838851.ch3",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium-ion batteries (LIBs) have enabled the widespread adoption of electric vehicles (EVs) and portable electronic devices and are growing in popularity. Increasingly, emphasis has been placed on sustainable and clean energy for efficient energy storage systems, leading to their accelerated adaptation. The electrodes of LIBs are a topic of great interest to improve the energy density, performance, and reliability of these batteries for wide-spread applications. Artificial intelligence (AI) and machine learning (ML) have proven to be extremely valuable tools for the development of computational models and optimization techniques in multiple fields of science. The developments of ML in predicting different characteristics of batteries, including electrolyte and electrode materials, and their interactions are hot topics in both industry and academia. This chapter highlights state-of-the-art techniques and achievements in applying ML to different aspects of electrode materials for improving various performance metrics of LIBs. The coupling of ML tools with physics-inspired computational models can produce deep insight and significantly fast-track research protocols and product development through integrated computational materials engineering (ICME) framework. This chapter depicts how outstanding results guided by ML are a promising alternative for complex computational calculations as a first screening tool for discovering materials for different battery applications. ML-based interatomic potentials have also been briefly covered. They turn out to be extremely useful in exploring the properties of battery materials at the atomistic length scales while simultaneously providing accuracy and speed. This chapter presents a detailed account of how ML techniques have been successfully applied for identifying, screening, and designing the electrode materials as well as optimizing the manufacturing processes, enhancing the performance of LIBs owing to the electrodes, and finding applications in the characterization of batteries for second life or chemical recycling. Some possible future directions for integration with onboard BMS and cloud BMS, IoT sensors, and blockchain have also been discussed. A roadmap for assessing material consumption through ML has also been provided for the realization of a sustainable future.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "2-Dimensional Ti3C2Tx/NaF nano-composites as electrode materials for hybrid battery-supercapacitor applications",
+      "authors": [
+        "M. Bilal Riaz",
+        "Danish Hussain",
+        "Saif Ullah Awan",
+        "Syed Rizwan",
+        "Sana Zainab",
+        "Saqlain A. Shah"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "M. Bilal Riaz",
+          "orcid": null,
+          "affiliations": [
+            "National University of Sciences and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Danish Hussain",
+          "orcid": "0000-0003-2917-0911",
+          "affiliations": [
+            "National University of Sciences and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saif Ullah Awan",
+          "orcid": "0000-0003-3370-3880",
+          "affiliations": [
+            "National University of Sciences and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Syed Rizwan",
+          "orcid": "0000-0002-6934-0949",
+          "affiliations": [
+            "National University of Sciences and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sana Zainab",
+          "orcid": "0000-0001-9080-7198",
+          "affiliations": [
+            "National University of Sciences and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saqlain A. Shah",
+          "orcid": "0000-0002-0800-9910",
+          "affiliations": [
+            "Forman Christian College"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-52280-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-024-52280-4",
+      "cited_by_count": 28,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-024-52280-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The increasing global demand for energy storage solutions has spurred interest in advanced materials for electrochemical energy storage devices. Transition-metal carbides and nitrides known as MXenes, characterized by remarkable conductivity and tunable properties, have gained attention for their potential in energy storage applications. The properties of two-dimensional (2-D) MXenes can be tuned by doping or composite formation for energy storage applications. We report a novel Ti3C2Tx/NaF composite via a straightforward hydrothermal process for supercapacitor electrode applications. Three different composites with varying NaF concentrations (1%, 3%, and 5%) were synthesized under uniform conditions. Structural characterization using X-ray diffraction (XRD) and scanning electron microscopy (SEM) confirmed the successful formation of the composites, whereas, distinct shifts in XRD peaks and new peaks revealed the presence of NaF. Electrochemical performance was evaluated by cyclic voltammetry (CV), galvanostatic charging-discharging (GCD), and electrochemical impedance spectroscopy (EIS). The composites exhibited pseudo-capacitive behavior with reversible redox reactions during charge and discharge cycles. Specific capacitance of 191 F/g at scan rates of 2 mV/s was measured in 1M KOH. Electrochemical impedance spectroscopy (EIS) revealed an escalating impedance factor as NaF content increases within Ti3C2Tx. This study underscores the versatile energy storage potential of Ti3C2Tx/NaF composites, offering insights into their tailored properties and behavior.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Navigating materials chemical space to discover new battery electrodes using machine learning",
+      "authors": [
+        "Mukhtar Lawan Adam",
+        "Oyawale Adetunji Moses",
+        "Jonathan P. Mailoa",
+        "Chang‐Yu Hsieh",
+        "Xue‐Feng Yu",
+        "Hao Li",
+        "Haitao Zhao"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Mukhtar Lawan Adam",
+          "orcid": "0000-0002-4155-868X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shenzhen Institutes of Advanced Technology",
+            "Bayero University Kano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oyawale Adetunji Moses",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shenzhen Institutes of Advanced Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan P. Mailoa",
+          "orcid": "0000-0003-2239-6192",
+          "affiliations": [
+            "Tencent (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chang‐Yu Hsieh",
+          "orcid": "0000-0002-6242-4218",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xue‐Feng Yu",
+          "orcid": "0000-0003-2566-6194",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shenzhen Institutes of Advanced Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haitao Zhao",
+          "orcid": "0000-0002-2448-8448",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shenzhen Institutes of Advanced Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy storage materials",
+      "doi": "10.1016/j.ensm.2023.103090",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ensm.2023.103090",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.2139/ssrn.4421581",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "VOLTA: a tool for battery screening bridging the gap between virtual electrode materials and practical applications",
+      "authors": [
+        "Antonio Carnevali",
+        "M. Rosa Palacín",
+        "Clare P. Grey",
+        "Alejandro A. Franco"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Antonio Carnevali",
+          "orcid": "0009-0000-5252-4111",
+          "affiliations": [
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Rosa Palacín",
+          "orcid": "0000-0001-7351-2005",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Clare P. Grey",
+          "orcid": "0000-0001-5572-192X",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2023-vcgnf",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2023-vcgnf",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/652668e78bab5d20551ad1b7/original/volta-a-tool-for-battery-screening-bridging-the-gap-between-virtual-electrode-materials-and-practical-applications.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present a battery screening Python pipeline, VOLTA. It allows for a novel battery active material explorative workflow, prioritizing the cell level performance indicators, such as cell capacity and voltage profile. This is achieved by the construction of a starting dataset of both observed and virtual active materials from the Materials Project, the implementation of the physics-based ARTISTIC project pipeline for the assessment of practical electrode properties like porosity and thickness, and the coupling of the electrodes into virtual cells, whose figures of merit are calculated, like voltage and capacity. The screening can be conducted by applying filters to these cell-level properties, achieving an indirect selection of the most suitable active materials. The approach is validated through comparison to current commercial battery technology, and we demonstrate that VOLTA is able to identify promising electrode materials for high energy batteries, like the well-known LiCoO2, LiNiO2 and graphite. We also illustrate a case-study, where the pipeline is used to identify suitable low-voltage, realistic virtual batteries obtained by combining entries of the Materials Project battery database (a battery revealing type of task).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Toward high-performance energy and power battery cells with machine learning-based optimization of electrode manufacturing",
+      "authors": [
+        "Marc Duquesnoy",
+        "Chaoyue Liu",
+        "Vishank Kumar",
+        "Elixabete Ayerbe",
+        "Alejandro A. Franco"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Marc Duquesnoy",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaoyue Liu",
+          "orcid": "0000-0002-0301-1683",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vishank Kumar",
+          "orcid": "0000-0001-8869-3312",
+          "affiliations": [
+            "Umicore (Belgium)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elixabete Ayerbe",
+          "orcid": "0000-0003-4092-2088",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Alistore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Universitaire de France",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Power Sources",
+      "doi": "10.1016/j.jpowsour.2023.233674",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jpowsour.2023.233674",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.jpowsour.2023.233674",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The optimization of the electrode manufacturing process is important for upscaling the application of Lithium-Ion Batteries (LIBs) to cater for growing energy demand. LIB manufacturing is important to be optimized because it determines the practical performance of the cells when the latter are being used in applications such as electric vehicles. In this study, we tackled the issue of high-performance electrodes for desired battery applications by proposing a data-driven approach supported by a deterministic machine learning-assisted pipeline for bi-objective optimization of the electrochemical performances. This pipeline allows the inverse design of the process parameters to adopt to manufacture electrodes for energy or power applications. This work is an analogy to our previous work that addressed the optimization of the electrode microstructures for kinetic, ionic, and electronic transport properties improvement. An electrochemical model is fed with the electrode properties characterizing the electrode microstructures generated by manufacturing simulations, and used to simulate the electrochemical performances. Secondly, the resulting dataset was used to train a deterministic model to implement fast optimizations to identify optimal electrodes. Our results suggested a high amount of active material, combined with intermediate values of solid content in the slurry and calendering degree, to achieve the optimal electrodes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Design of functional binders for high-specific-energy lithium-ion batteries: from molecular structure to electrode properties",
+      "authors": [
+        "Qin Tian",
+        "Haoyi Yang",
+        "Quan Li",
+        "Xiqian Yu",
+        "Hong Li"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Qin Tian",
+          "orcid": "0000-0003-3484-751X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoyi Yang",
+          "orcid": "0009-0003-9463-9330",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Quan Li",
+          "orcid": "0000-0001-8563-1802",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiqian Yu",
+          "orcid": "0000-0001-8513-518X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Li",
+          "orcid": "0000-0002-8659-086X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Industrial Chemistry and Materials",
+      "doi": "10.1039/d3im00089c",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3im00089c",
+      "cited_by_count": 193,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2023/im/d3im00089c",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "This review systematically summarizes the research progress of functional binders in lithium-ion batteries and elucidates the main functions of advanced binders to deal with the challenges of high-specific-energy electrodes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "authors": [
+        "Don McTaggart",
+        "Jack D. Sundberg",
+        "Lauren M. McRae",
+        "Scott C. Warren"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Don McTaggart",
+          "orcid": "0000-0001-7941-924X",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jack D. Sundberg",
+          "orcid": "0000-0001-5739-8919",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lauren M. McRae",
+          "orcid": "0000-0002-0360-9626",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Scott C. Warren",
+          "orcid": "0000-0002-2883-0204",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-01954-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-01954-1",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-01954-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Although lithium-ion batteries have transformed energy storage, there is a need to develop battery technologies with improved performance. Fluoride-ion batteries (FIBs) may be promising alternatives in part due to their high theoretical energy density and natural elemental abundance. However, electrode materials for FIBs, particularly cathodes, have not been systematically evaluated, limiting rapid progress. Here, we evaluate ternary fluorides from the Materials Project crystal structure database to identify promising cathode materials for FIBs. Structures are further assessed based on stability and whether fluorination/defluorination occurs without unwanted disproportionation reactions. Properties are presented for pairs of fluorinated/defluorinated materials including theoretical energy densities, cost approximations, and bandgaps. We aim to supply a dataset for extracting property and structural trends of ternary fluoride materials that may aid in the discovery of next-generation battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Volta: A Tool for Battery Screening Bridging the Gap between Virtual Electrode Materials and Practical Applications",
+      "authors": [
+        "Antonio Carnevali",
+        "M. Rosa Palacín",
+        "Clare P. Grey",
+        "Alejandro A. Franco"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Antonio Carnevali",
+          "orcid": "0009-0000-5252-4111",
+          "affiliations": [
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Rosa Palacín",
+          "orcid": "0000-0001-7351-2005",
+          "affiliations": [
+            "Alistore",
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Clare P. Grey",
+          "orcid": "0000-0001-5572-192X",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ECS Meeting Abstracts",
+      "doi": "10.1149/ma2023-02151mtgabs",
+      "type": "conference-abstract",
+      "url": "https://doi.org/10.1149/ma2023-02151mtgabs",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "For millennia, materials science has relied on the paradigm of empiricism to describe the physical world and to fuel technological advance. It was only some centuries ago that the paradigm of mathematical modelling was introduced, boosting scientific knowledge with the introduction of laws in the form of equations. Their predictive capability proved essential to the human understanding of nature, but, as the complexity of the problems increased over time, equations became more and more impenetrable, with analytical solutions being often rather challenging to determine. Electronic computers cut this Gordian knot for us, allowing for quick(er) calculations of approximate solutions to the equations mentioned above. [1] Battery science has greatly benefit from these advances: Density Functional Theory allowed for e.g. reliable quantifications of active materials’ figures of merit like stability or operational potential. The introduction of multiscale modelling was also allowed by this third paradigm of science, leveraging quick computation speeds to infer cell level properties from lower-level ones. [2] The data generated both with experimentation and computation has now accumulated, and a great amount is being published on platforms like, but not limited to, the Materials Project. [3] This is where science enters the so-called fourth paradigm, i.e. data driven science, [4] where statistical methods can contaminate and enhance the “traditional” physico-chemical ones. In fact, new approaches to materials screening are being published with increasing frequency, like neural networks able to predict material properties [5], or generative algorithms able to suggest novel materials. [6] It is important to notice that these methods rely heavily on data quality, hence are not to be seen as a substitute for first principle calculations, but rather as techniques able to expand their scope and capabilities. Battery science itself can greatly benefit from the fourth paradigm of science as well: it is in this context that we developed the present work, in an endeavor to tackle a specific issue in battery science: active materials screening has rarely considered the properties that emerge when coupling two active materials, embedding them into composite electrodes and connecting them electrically. The present work introduces a Python-based combinatorial materials screening workflow, named VOLTA. Its pipeline allows for a novel battery active material explorative workflow, that prioritizes the cell level performance indicators, like cell capacity and voltage profile. This is achieved by the construction of a starting dataset of both observed and virtual active materials from the Materials Project, the implementation of a physics-based pipeline for the assessment of practical electrode properties like porosity and thickness, [7] and the coupling of the electrodes into virtual cells, whose figures of merit are calculated, like voltage and capacity. The screening can be conducted by applying filters to these cell-level properties, achieving an indirect selection of the most suitable active materials. The approach is validated through comparison to current commercial battery technology, and we demonstrate that VOLTA is able to identify promising electrode materials for high energy batteries, like the well-known LCO, LNO and graphite. We also illustrate a case-study, where the pipeline is used in a low-voltage \"battery discovery\" problem. Bibliography [1] Agrawal, A., & Choudhary, A. (2016). Perspective: Materials informatics and big data: Realization of the “fourth paradigm” of science in materials science. APL Materials , 4 (5), 053208. [2] Jain, A., Ong, S. P., Hautier, G., Chen, W., Richards, W. D., Dacek, S., Cholia, S., Gunter, D., Skinner, D., Ceder, G., & Persson, K. A. (2013). Commentary: The Materials Project: A materials genome approach to accelerating materials innovation. APL Materials , 1 (1), 011002. [3] Franco, A. A., Rucci, A., Brandell, D., Frayret, C., Gaberscek, M., Jankowski, P., & Johansson, P. (2019). Boosting Rechargeable Batteries R&D by Multiscale Modeling: Myth or Reality? Chemical Reviews , 119 (7), 4569–4627. [4] Hey, T., Tansley, S., Tolle, K., & Gray, J. (2009). The Fourth Paradigm: Data-Intensive Scientific Discovery. The Fourth Paradigm: Data-Intensive Scientific Discovery , 39–44. [5] Wang, A. Y.-T., Kauwe, S. K., Murdock, R. J., & Sparks, D. (2021). Compositionally-Restricted Attention-Based Network for Materials Property Predictions. Npj Computational Materials , 33. [6] Dan, Y., Zhao, Y., Li, X., Li, S., Hu, M., & Hu, J. (2020). Generative adversarial networks (GAN) based efficient sampling of chemical composition space for inverse design of inorganic materials. Npj Computational Materials , 6 (1), 84. [7] Lombardo, T., Caro, F., Ngandjong, A. C., Hoock, J. B., Duquesnoy, M., Delepine, J. C., Ponchelet, A., Doison, S., & Franco, A. A. (2022). The ARTISTIC Online Calculator: Exploring the Impact of Lithium-Ion Battery Electrode Manufacturing Parameters Interactively Through Your Browser. Batteries & Supercaps , 5 (3), e202100324.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Benchmarking the electrochemical parameters of the LiNi0.8Mn0.1Co0.1O2 positive electrode material for Li-ion batteries",
+      "authors": [
+        "Aleksandra A. Savina",
+        "Artem M. Abakumov"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Aleksandra A. Savina",
+          "orcid": "0000-0002-7108-8535",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Artem M. Abakumov",
+          "orcid": "0000-0002-7135-4629",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Heliyon",
+      "doi": "10.1016/j.heliyon.2023.e21881",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e21881",
+      "cited_by_count": 34,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.heliyon.2023.e21881",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The layered oxide LiNi0.8Mn0.1Co0.1O2 (NMC811, NCM811) is of utmost technological importance as a positive electrode (cathode) material for the forthcoming generation of Li-ion batteries. In this contribution, we have collected 548 research articles comprising >950 records on the electrochemical properties of NMC811 as a cathode material in half-cells with metallic Li counter electrode. The analysis of distribution histograms provided statistically-relevant values of such key characteristics of NMC811 as the first cycle discharge capacity and Coulombic efficiency, discharge capacities at different upper cut-off voltages, capacity fade and capacity retention at the 0.1C - 5C current densities. We derived equations describing the relationships between discharge capacity and upper cut-off voltage, Ni content in the LiNixMnyCozO2 compositions in vicinity of NMC811, antisite disorder, and the C-rate. Additionally, the distribution histograms were used for a qualitative comparison between various groups of NMC811 materials, such as benchmarks in various optimizations vs obtained in course of synthesis development, lab-made vs commercial, polycrystalline vs single-crystal. The results of this analysis provide justified values to be used as benchmarks in further works related to optimizing and improving NMC811 and related materials, eliminating random picking up from a huge pool of published data.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Challenges and advances of organic electrode materials for sustainable secondary batteries",
+      "authors": [
+        "Ruijuan Shi",
+        "Shilong Jiao",
+        "Qianqian Yue",
+        "Guangqin Gu",
+        "Kai Zhang",
+        "Yong Zhao"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ruijuan Shi",
+          "orcid": "0009-0004-7838-9252",
+          "affiliations": [
+            "Henan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shilong Jiao",
+          "orcid": "0000-0002-4012-2833",
+          "affiliations": [
+            "Henan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qianqian Yue",
+          "orcid": null,
+          "affiliations": [
+            "Henan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guangqin Gu",
+          "orcid": "0000-0001-9508-1306",
+          "affiliations": [
+            "Henan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kai Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Nankai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong Zhao",
+          "orcid": "0000-0002-5039-4576",
+          "affiliations": [
+            "Henan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Exploration",
+      "doi": "10.1002/exp.20220066",
+      "type": "review",
+      "url": "https://doi.org/10.1002/exp.20220066",
+      "cited_by_count": 113,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/EXP.20220066",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Organic electrode materials (OEMs) emerge as one of the most promising candidates for the next-generation rechargeable batteries, mainly owing to their advantages of bountiful resources, high theoretical capacity, structural designability, and sustainability. However, OEMs usually suffer from poor electronic conductivity and unsatisfied stability in common organic electrolytes, ultimately leading to their deteriorating output capacity and inferior rate capability. Making clear of the issues from microscale to macroscale level is of great importance for the exploration of novel OEMs. Herein, the challenges and advanced strategies to boost the electrochemical performance of redox-active OEMs for sustainable secondary batteries are systematically summarized. Particularly, the characterization technologies and computational methods to elucidate the complex redox reaction mechanisms and confirm the organic radical intermediates of OEMs have been introduced. Moreover, the structural design of OEMs-based full cells and the outlook for OEMs are further presented. This review will shed light on the in-depth understanding and development of OEMs for sustainable secondary batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Interpretable learning of voltage for electrode design of multivalent metal-ion batteries",
+      "authors": [
+        "Xiuying Zhang",
+        "Jun Rong Zhou",
+        "Jing Lü",
+        "Lei Shen"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Xiuying Zhang",
+          "orcid": "0000-0002-7393-9567",
+          "affiliations": [
+            "National University of Singapore",
+            "Peking University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Rong Zhou",
+          "orcid": "0000-0001-7899-2909",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jing Lü",
+          "orcid": "0000-0002-6780-7322",
+          "affiliations": [
+            "Peking University",
+            "Collaborative Innovation Center of Quantum Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lei Shen",
+          "orcid": "0000-0001-6198-5753",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00858-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00858-9",
+      "cited_by_count": 48,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00858-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Deep learning (DL) has indeed emerged as a powerful tool for rapidly and accurately predicting materials properties from big data, such as the design of current commercial Li-ion batteries. However, its practical utility for multivalent metal-ion batteries (MIBs), the most promising future solution of large-scale energy storage, is limited due to scarce MIB data availability and poor DL model interpretability. Here, we develop an interpretable DL model as an effective and accurate method for learning electrode voltages of multivalent MIBs (divalent magnesium, calcium, zinc, and trivalent aluminum) at small dataset limits (150–500). Using the experimental results as validation, our model is much more accurate than machine-learning models, which usually are better than DL in the small dataset regime. Besides the high accuracy, our feature-engineering-free DL model is explainable, which automatically extracts the atom covalent radius as the most important feature for the voltage learning by visualizing vectors from the layers of the neural network. The presented model potentially accelerates the design and optimization of multivalent MIB materials with fewer data and less domain-knowledge restriction and is implemented into a publicly available online tool kit in http://batteries.2dmatpedia.org/ for the battery community.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Artificial neural network approach for multiphase segmentation of battery electrode nano-CT images",
+      "authors": [
+        "Zeliang Su",
+        "Étienne Decencière",
+        "Tuan‐Tu Nguyen",
+        "Kaoutar El-Amiry",
+        "Vincent De Andrade",
+        "Alejandro A. Franco",
+        "Arnaud Demortière"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Zeliang Su",
+          "orcid": "0000-0001-7142-8977",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Étienne Decencière",
+          "orcid": "0000-0002-1349-8042",
+          "affiliations": [
+            "Université Paris Sciences et Lettres",
+            "Centre de Morphologie Mathématique - CMM",
+            "École Nationale Supérieure des Mines de Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tuan‐Tu Nguyen",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Renault (France)",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaoutar El-Amiry",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vincent De Andrade",
+          "orcid": "0000-0003-0987-6618",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "Advanced Photon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Universitaire de France",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arnaud Demortière",
+          "orcid": "0000-0002-4706-4592",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00709-7",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00709-7",
+      "cited_by_count": 65,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00709-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The segmentation of tomographic images of the battery electrode is a crucial processing step, which will have an additional impact on the results of material characterization and electrochemical simulation. However, manually labeling X-ray CT images (XCT) is time-consuming, and these XCT images are generally difficult to segment with histographical methods. We propose a deep learning approach with an asymmetrical depth encode-decoder convolutional neural network (CNN) for real-world battery material datasets. This network achieves high accuracy while requiring small amounts of labeled data and predicts a volume of billions voxel within few minutes. While applying supervised machine learning for segmenting real-world data, the ground truth is often absent. The results of segmentation are usually qualitatively justified by visual judgement. We try to unravel this fuzzy definition of segmentation quality by identifying the uncertainty due to the human bias diluted in the training data. Further CNN trainings using synthetic data show quantitative impact of such uncertainty on the determination of material’s properties. Nano-XCT datasets of various battery materials have been successfully segmented by training this neural network from scratch. We will also show that applying the transfer learning, which consists of reusing a well-trained network, can improve the accuracy of a similar dataset.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Nanoindentation Size Effects in Lithiated and Sodiated Battery Electrode Materials",
+      "authors": [
+        "Marc Papakyriakou",
+        "Mu Lu",
+        "Shuman Xia"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Marc Papakyriakou",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mu Lu",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuman Xia",
+          "orcid": "0000-0003-4778-444X",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Applied Mechanics",
+      "doi": "10.1115/1.4054512",
+      "type": "article",
+      "url": "https://doi.org/10.1115/1.4054512",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/89/7/071007/6883046/jam_89_7_071007.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Deformation and stress in battery electrode materials are strongly coupled with diffusion processes, and this coupling plays a crucial role in the chemical and structural stability of these materials. In this work, we performed a comparative study of the mechanical characteristics of two model materials (lithiated and sodiated germanium (Ge)) by nanoindentation. A particular focus of the study was on the indentation size effects and harnessing them to understand the chemo-mechanical interplay in these materials. While the quasi-static measurement results showed no significant size dependence, size effects inherent in the nanoindentation creep response were observed and utilized to investigate the deformation mechanism of each material. Supplemented by computational chemo-mechanical modeling, we found that lithiated Ge creeps through a stress-gradient-induced diffusion (SGID) mechanism but a model combining the SGID and conventional shear transformation deformation (STD) mechanisms was needed to capture the creep behavior of sodiated Ge. Broadly, this work reveals the importance of stress-diffusion coupling in governing the deformation of active electrode materials and provides a quantitative framework for characterizing and understanding such coupling.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Machine-Learning-Driven Advanced Characterization of Battery Electrodes",
+      "authors": [
+        "Donal P. Finegan",
+        "Isaac Squires",
+        "Amir Dahari",
+        "Steve Kench",
+        "Katherine Jungjohann",
+        "Samuel J. Cooper"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Donal P. Finegan",
+          "orcid": "0000-0003-4633-560X",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isaac Squires",
+          "orcid": "0000-0003-1919-061X",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Amir Dahari",
+          "orcid": "0000-0003-0142-8597",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Steve Kench",
+          "orcid": "0000-0002-7263-6724",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Katherine Jungjohann",
+          "orcid": "0000-0002-8132-1230",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuel J. Cooper",
+          "orcid": "0000-0003-4055-6903",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Energy Letters",
+      "doi": "10.1021/acsenergylett.2c01996",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsenergylett.2c01996",
+      "cited_by_count": 76,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.2c01996",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Materials characterization is fundamental to our understanding of lithium ion battery electrodes and their performance limitations. Advances in laboratory-based characterization techniques have yielded powerful insights into the structure–function relationship of electrodes, yet there is still far to go. Further improvements rely, in part, on gaining a deeper understanding of complex physical heterogeneities in the materials. However, practical limitations in characterization techniques inhibit our ability to combine data directly. For example, some characterization techniques are destructive, thus preventing additional analyses on the same region. Fortunately, artificial intelligence (AI) has shown great potential for achieving representative, 3D, multi-modal datasets by leveraging data collected from a range of techniques. In this Perspective, we give an overview of recent advances in lab-based characterization techniques for Li-ion electrodes. We then discuss how AI methods can combine and enhance these techniques, leading to substantial acceleration in our understanding of electrodes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Operando Methods and Probes for Battery Electrodes and Materials",
+      "authors": [
+        "Grant, Alex",
+        "Colm O’Dwyer"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Grant, Alex",
+          "orcid": null,
+          "affiliations": [
+            "Environmental Research Institute",
+            "Tyndall National Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Colm O’Dwyer",
+          "orcid": "0000-0001-7429-015X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2207.12098",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2207.12098",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2207.12098",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "With the importance of Li-ion and emerging alternative batteries to our electric future, predicting new sustainable materials, electrolytes and complete cells that safely provide high performance, long life, energy dense capability is critically important. Understanding interface, microstructure of materials, the nature of electrolytes and factors that affect or limit long term performance are key to new battery chemistries, cell form factors and alternative materials. The electrochemical processes which cause these changes are also difficult to probe because of their metastability and lifetimes, which can be of nanosecond to sub nanosecond time domains. Consequently, developing and adapting high-resolution, non-destructive methods to capture these processes proves challenging, requiring state-of-the-art techniques.Recent progress is very promising, where optical spectroscopies, synchrotron radiation techniques, and energy-specific atom probe tomography and microscopy methods are just some of the approaches that are unravelling the true internal behaviour of battery cells in real-time.In this review, we overview many of the most promising non-destructive methods developed in recent years to assess battery material properties, interfaces, processes,and reactions under operando conditions in electrodes and full cells.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Interpretable learning of voltage for electrode design of multivalent metal-ion batteries",
+      "authors": [
+        "Xiuying Zhang",
+        "Zhou, Jun",
+        "Lu, Jing",
+        "Shen, Lei"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Xiuying Zhang",
+          "orcid": "0000-0001-6427-9061",
+          "affiliations": [
+            "National University of Singapore",
+            "Peking University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhou, Jun",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lu, Jing",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shen, Lei",
+          "orcid": null,
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2201.04493",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2201.04493",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2201.04493",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Deep learning (DL) has indeed emerged as a powerful tool for rapidly and accurately predicting materials properties from big data, such as the design of current commercial Li-ion batteries. However, its practical utility for multivalent metal-ion batteries (MIBs), the most promising future solution of large-scale energy storage, is limited due to the scarce MIB data availability and poor DL model interpretability. Here, we develop an interpretable DL model as an effective and accurate method for learning electrode voltages of multivalent MIBs (divalent magnesium, calcium, zinc, and trivalent aluminum) at small dataset limits (150~500). Using the experimental results as validation, our model is much more accurate than machine-learning models which usually are better than DL in the small dataset regime. Besides the high accuracy, our feature-engineering-free DL model is explainable, which automatically extracts the atom covalent radius as the most important feature for the voltage learning by visualizing vectors from the layers of the neural network. The presented model potentially accelerates the design and optimization of multivalent MIB materials with fewer data and less domain-knowledge restriction, and is implemented into a publicly available online tool kit in http://batteries.2dmatpedia.org/ for the battery community.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "Application of deep learning for informatics aided design of electrode materials in metal-ion batteries",
+      "authors": [
+        "Bin Ma",
+        "Lisheng Zhang",
+        "Wentao Wang",
+        "Hanqing Yu",
+        "Xianbin Yang",
+        "Siyan Chen",
+        "Huizhi Wang",
+        "Xinhua Liu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Bin Ma",
+          "orcid": "0000-0002-1159-4719",
+          "affiliations": [
+            "Jilin University",
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lisheng Zhang",
+          "orcid": "0000-0003-3958-4018",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wentao Wang",
+          "orcid": null,
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hanqing Yu",
+          "orcid": "0000-0002-3687-1137",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xianbin Yang",
+          "orcid": "0000-0002-7483-2550",
+          "affiliations": [
+            "Jilin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siyan Chen",
+          "orcid": "0000-0003-1257-8988",
+          "affiliations": [
+            "Jilin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huizhi Wang",
+          "orcid": "0000-0001-6998-1896",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinhua Liu",
+          "orcid": "0000-0002-4111-7235",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Green Energy & Environment",
+      "doi": "10.1016/j.gee.2022.10.002",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.gee.2022.10.002",
+      "cited_by_count": 43,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2468025722001467/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "To develop emerging electrode materials and improve the performances of batteries, the machine learning techniques can provide insights to discover, design and develop battery new materials in high-throughput way. In this paper, two deep learning models are developed and trained with two feature groups extracted from the Materials Project datasets to predict the battery electrochemical performances including average voltage, specific capacity and specific energy. The deep learning models are trained with the multilayer perceptron as the core. The Bayesian optimization and Monte Carlo methods are applied to improve the prediction accuracy of models. Based on 10 types of ion batteries, the correlation coefficients are maintained above 0.9 compared to DFT calculation results and the mean absolute error of the prediction results for voltages of two models can reach 0.41 V and 0.20 V, respectively. The electrochemical performance prediction times for the two trained models on thousands of batteries are only 72.9 ms and 75.7 ms. Besides, the two deep learning models are applied to approach the screening of emerging electrode materials for sodium-ion and potassium-ion batteries. This work can contribute to a high-throughput computational method to accelerate the rational and fast materials discovery and design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Atom probe analysis of electrode materials for Li-ion batteries: challenges and ways forward",
+      "authors": [
+        "Se‐Ho Kim",
+        "Stoichko Antonov",
+        "Xuyang Zhou",
+        "Leigh T. Stephenson",
+        "Chanwon Jung",
+        "Ayman Amr El-Zoka",
+        "Daniel K. Schreiber",
+        "Michele Conroy",
+        "Baptiste Gault"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Se‐Ho Kim",
+          "orcid": "0000-0003-1227-8897",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stoichko Antonov",
+          "orcid": "0000-0001-8886-2040",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuyang Zhou",
+          "orcid": "0000-0002-3789-4103",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Leigh T. Stephenson",
+          "orcid": "0000-0002-7852-2509",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chanwon Jung",
+          "orcid": "0000-0002-9782-0261",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ayman Amr El-Zoka",
+          "orcid": "0000-0003-3793-6569",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel K. Schreiber",
+          "orcid": "0000-0003-3101-5013",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michele Conroy",
+          "orcid": "0000-0002-6658-1819",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Baptiste Gault",
+          "orcid": "0000-0002-4934-0458",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/d1ta10050e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d1ta10050e",
+      "cited_by_count": 59,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2022/ta/d1ta10050e",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The worldwide development of electric vehicles as well as large-scale or grid-scale energy storage to compensate for the intermittent nature of renewable energy generation has led to a surge of interest in battery technology. Understanding the factors controlling battery capacity and, critically, their degradation mechanisms to ensure long-term, sustainable and safe operation requires detailed knowledge of their microstructure and chemistry, and their evolution under operating conditions, on the nanoscale. Atom probe tomography (APT) provides compositional mapping of materials in three dimensions with sub-nanometre resolution, and is poised to play a key role in battery research. However, APT is underpinned by an intense electric field that can drive lithium migration, and many battery materials are reactive oxides, requiring careful handling and sample transfer. Here, we report on the analysis of both anode and cathode materials and show that electric-field driven migration can be suppressed by using shielding by embedding powder particles in a metallic matrix or by using a thin conducting surface layer. We demonstrate that for a typical cathode material, cryogenic specimen preparation and transport under ultra-high vacuum leads to major delithiation of the specimen during the analysis. In contrast, the transport of specimens through air enables the analysis of the material. Finally, we discuss the possible physical underpinnings and discuss ways forward to enable shielding from the electric field, which helps address the challenges inherent to the APT analysis of battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Quantitative assessment of machine-learning segmentation of battery electrode materials for active material quantification",
+      "authors": [
+        "Josh J. Bailey",
+        "Aaron Wade",
+        "Adam M. Boyce",
+        "Ye Shui Zhang",
+        "Dan J. L. Brett",
+        "Paul Robert Shearing"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Josh J. Bailey",
+          "orcid": "0000-0003-2397-6690",
+          "affiliations": [
+            "Queen's University Belfast",
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aaron Wade",
+          "orcid": "0000-0003-1713-5617",
+          "affiliations": [
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adam M. Boyce",
+          "orcid": "0000-0002-8164-1808",
+          "affiliations": [
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ye Shui Zhang",
+          "orcid": "0000-0003-0095-3015",
+          "affiliations": [
+            "University of Aberdeen",
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dan J. L. Brett",
+          "orcid": "0000-0002-8545-3126",
+          "affiliations": [
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paul Robert Shearing",
+          "orcid": "0000-0002-1387-9531",
+          "affiliations": [
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Power Sources",
+      "doi": "10.1016/j.jpowsour.2022.232503",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jpowsour.2022.232503",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.jpowsour.2022.232503",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "X-ray computed tomography (CT) is an important tool for studying battery electrode microstructures but relies on robust segmentation for validity. Here, several approaches to applying accessible machine-learning segmentation software to segment open-source lithium-ion battery (LIB) electrode tomograms are followed to identify the optimised methodology that minimises variation in active material volume fraction quantification across three users. Iterative, manual training across seven cross-sectional slices (<5%) of a tomogram is identified as an optimal balance between variance and user interaction, where 10–25% of each slice was trained. This approach is applied to lab-based X-ray CT data and compared with data obtained by focused-ion beam/scanning electron microscopy slice-and-view tomography. Variation in active material volume fraction between users is lower for at least one of these two approaches (10% or 25%) when applied to raw LIB cathode tomograms, versus unsupervised techniques such as simple and watershed segmentations. On average, the absolute volume fraction values are closer to that acquired by the correlated technique, most closely matching for high-resolution data. The present analysis provides an optimised approach for using open-source software to apply machine-learning segmentation when quantifying active material volume fractions in cutting-edge LIB electrodes, providing a more robust route to active material quantification.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "authors": [
+        "Don McTaggart",
+        "Jack D. Sundberg",
+        "Lauren M. McRae",
+        "Scott C. Warren"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Don McTaggart",
+          "orcid": "0000-0001-7941-924X",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jack D. Sundberg",
+          "orcid": "0000-0001-5739-8919",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lauren M. McRae",
+          "orcid": "0000-0002-0360-9626",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Scott C. Warren",
+          "orcid": "0000-0002-2883-0204",
+          "affiliations": [
+            "University of North Carolina at Chapel Hill"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2022-bhcf0",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2022-bhcf0",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6341a7edea6a22ceba0edb13/original/assessing-ternary-materials-for-fluoride-ion-batteries.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Although lithium‐ion batteries have transformed energy storage, there is a need to develop battery technologies with improved performance. Fluoride‐ion batteries (FIBs) may be promising alternatives in part due to their high theoretical energy density and natural elemental abundance. However, electrode materials for FIBs, particularly cathodes, have not been systematically evaluated, limiting rapid progress. Here, we evaluate ternary fluorides from the Materials Project crystal structure database to identify promising cathode materials for FIBs. Structures are further assessed based on stability and whether fluorination/defluorination occurs without unwanted disproportionation reactions. Properties are presented for pairs of fluorinated/defluorinated materials including theoretical energy densities, cost approximations, and bandgaps. We aim to supply a dataset for extracting property and structural trends of ternary fluoride materials that may aid in the discovery of next‐generation battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "The soluble lead flow battery: Image-based modelling of porous carbon electrodes",
+      "authors": [
+        "Ewan J. Fraser",
+        "James Le Houx",
+        "Luis F. Arenas",
+        "K.K.J. Ranga Dinesh",
+        "Richard G. A. Wills"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ewan J. Fraser",
+          "orcid": "0000-0001-9592-9071",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James Le Houx",
+          "orcid": "0000-0002-1576-0673",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luis F. Arenas",
+          "orcid": "0000-0002-9579-5082",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "K.K.J. Ranga Dinesh",
+          "orcid": "0000-0001-9176-6834",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Richard G. A. Wills",
+          "orcid": "0000-0002-4805-7589",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Energy Storage",
+      "doi": "10.1016/j.est.2022.104791",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.est.2022.104791",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.est.2022.104791",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A novel numerical modelling framework coupling physics-based model equations and image-based input parameters is developed to simulate the behaviour of the soluble lead flow battery when reticulated vitreous carbon (RVC) electrodes are used. Experimental results are presented to validate the model. Open-source software OpenImpala is used to predict the macro-homogeneous properties of RVC from computed tomography scans of various grades of RVC. The process is repeated on manipulated datasets where a voxel dilation technique has been used to estimate the geometry of RVC electrodes with a range of thicknesses of electrodeposited material. The model predicts that with a region of free electrolyte dividing the electrodes, the electrolyte velocity is low within the electrodes. This is exacerbated by a build-up of deposit close to the inlet. By dividing the electrodes with only a porous separator, a deposit build-up is no longer seen, and the concentration within the electrodes is shown to be far more even. Finally, with an applied current density of 50 mA cm−2, the overpotential is predicted to be reduced by over 100 mV when 100 ppi RVC electrodes are used instead of 10 ppi electrodes. An experimentally validated voltage efficiency of over 80% is achieved.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "New Generalized Informatics Framework for Development of Large Scale Virtual Battery Material Databases",
+      "authors": [
+        "Scott Broderick",
+        "Kaito Miyamoto",
+        "Krishna Rajan"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Scott Broderick",
+          "orcid": "0000-0003-4945-6212",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaito Miyamoto",
+          "orcid": "0000-0003-1827-5494",
+          "affiliations": [
+            "Toyota Motor North America (United States)",
+            "Toyota Motor North America Research & Development (United States)",
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Krishna Rajan",
+          "orcid": "0000-0001-8496-3311",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2203.08697",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2203.08697",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2203.08697",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "In this paper, we introduce an approach for the prediction of capacity for over 100,000 spinel compounds relevant for battery materials, from which we propose the 20 most promising candidate materials. In the design of batteries, selecting the proper material is difficult because there are so many metrics to consider, including capacity which is a fundamental engineering property. Using reported experimental data as our starting point, we demonstrate how we can build a dataset that provides a guide for the selection of battery materials. Although we focus on capacity of Li based spinel structures for electrode materials relevant for usage in batteries, the methodology developed and demonstrated here can be adapted to other properties, structures, and site occupancies. Further, theoretical capacity is often used as a guideline for material design of battery materials. In this paper, we show how this is insufficient for representing experimental measurements, while our methodology closes this gap and provides an accurate computational representation of experimental data.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "A Comprehensive Review of Available Battery Datasets, RUL Prediction Approaches, and Advanced Battery Management",
+      "authors": [
+        "Shahid A. Hasib",
+        "Saiful Islam",
+        "Ripon Kumar Chakrabortty",
+        "Michael J. Ryan",
+        "Dip Kumar Saha",
+        "Md. Hafiz Ahamed",
+        "Sumaya Ishrat Moyeen",
+        "Sajal K. Das",
+        "Md F. Ali",
+        "M. Robiul Islam",
+        "Zinat Tasneem",
+        "Faisal Rahman Badal"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Shahid A. Hasib",
+          "orcid": "0000-0003-4511-0310",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saiful Islam",
+          "orcid": "0000-0002-1795-2089",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ripon Kumar Chakrabortty",
+          "orcid": "0000-0002-7373-0149",
+          "affiliations": [
+            "UNSW Sydney",
+            "UNSW Canberra"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael J. Ryan",
+          "orcid": "0000-0002-6335-3773",
+          "affiliations": [
+            "UNSW Sydney",
+            "UNSW Canberra"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dip Kumar Saha",
+          "orcid": "0000-0002-9772-4130",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Md. Hafiz Ahamed",
+          "orcid": "0000-0001-9389-2666",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sumaya Ishrat Moyeen",
+          "orcid": "0000-0003-3701-9357",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sajal K. Das",
+          "orcid": "0000-0002-0596-4816",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Md F. Ali",
+          "orcid": null,
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Robiul Islam",
+          "orcid": "0009-0002-7858-8601",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zinat Tasneem",
+          "orcid": "0000-0003-3328-4620",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Faisal Rahman Badal",
+          "orcid": "0000-0002-7463-7675",
+          "affiliations": [
+            "Rajshahi University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2021.3089032",
+      "type": "article",
+      "url": "https://doi.org/10.1109/access.2021.3089032",
+      "cited_by_count": 275,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1109/access.2021.3089032",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Battery ensures power solutions for many necessary portable devices such as electric vehicles, mobiles, and laptops. Owing to the rapid growth of Li-ion battery users, unwanted incidents involving Li-ion batteries have also increased to some extent. In particular, the sudden breakdown of industrial and lightweight machinery due to battery failure causes a substantial economic loss for the industry. Consequently, battery state estimation, management system, and estimation of the remaining useful life (RUL) have become a topic of interest for researchers. Considering this, appropriate battery data acquisition and proper information on available battery data sets may require. This review paper is mainly focused on three parts. The first one is battery data acquisitions with commercially and freely available Li-ion battery data set information. The second is the estimation of the states of battery with the battery management system. And third is battery RUL estimation. Various RUL prognostic methods applied for Li-ion batteries are classified, discussed, and reviewed based on their essential performance parameters. Information on commercially and publicly available data sets of many battery models under various conditions is also reviewed. Various battery states are reviewed considering advanced battery management systems. To that end, a comparative study of Li-ion battery RUL prediction is provided together with the investigation of various RUL prediction algorithms and mathematical modelling.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "ACCURATE PREDICTION OF VOLTAGE OF BATTERY ELECTRODE MATERIALS USING ATTENTION BASED GRAPH NEURAL NETWORKS",
+      "authors": [
+        "Edirisuriya M. Dilanga Siriwardane",
+        "Steph-Yves Louis",
+        "Rajendra Prasad Joshi",
+        "Neeraj Kumar",
+        "Jianjun Hu"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Edirisuriya M. Dilanga Siriwardane",
+          "orcid": "0000-0001-8960-5273",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Steph-Yves Louis",
+          "orcid": "0000-0003-1954-5791",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajendra Prasad Joshi",
+          "orcid": "0000-0001-6990-4962",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Neeraj Kumar",
+          "orcid": "0000-0001-6713-2129",
+          "affiliations": [
+            "Pacific Northwest National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianjun Hu",
+          "orcid": "0000-0002-8725-6660",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2021-6n061",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2021-6n061",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.26434/chemrxiv-2021-6n061",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Performing first principle calculations to discover electrodes’ properties in the large chemical space is a challenging task. While machine learning (ML) has been applied to effectively accelerate those discoveries, most of the applied methods ignore the materials’ spatial information and only use pre-defined features: based only on chemical compositions. We propose two attention-based graph convolutional neural network techniques to learn the average voltage of electrodes. Our proposed method, which combines both atomic composition and atomic coordinates in 3D-space, improves the accuracy in voltage prediction by 17% when compared to composition based ML models. The first model directly learns the chemical reaction of electrodes and metal-ions to predict their average voltage, whereas the second model combines electrodes’ ML predicted formation energy (Eform) to compute their average voltage. Our models demonstrates improved accuracy in transferability from our subset of learned metal-ions to other metal-ions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Data-Driven Electrode Parameter Identification for Vanadium Redox Flow Batteries Through Experimental and Numerical Methods",
+      "authors": [
+        "Ziqiang Cheng",
+        "Kevin M. Tenny",
+        "Alberto Pizzolato",
+        "Antoni Forner‐Cuenca",
+        "Vittorio Verda",
+        "Yet‐Ming Chiang",
+        "Fikile Richard Brushett",
+        "Reza Behrou"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Ziqiang Cheng",
+          "orcid": "0000-0003-2592-8537",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kevin M. Tenny",
+          "orcid": "0000-0002-3104-3746",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto Pizzolato",
+          "orcid": "0000-0001-8301-2733",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antoni Forner‐Cuenca",
+          "orcid": "0000-0002-7681-0435",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vittorio Verda",
+          "orcid": "0000-0002-4069-2713",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yet‐Ming Chiang",
+          "orcid": "0000-0002-0833-7674",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fikile Richard Brushett",
+          "orcid": "0000-0002-7361-6637",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Reza Behrou",
+          "orcid": "0000-0003-3136-3886",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Energy",
+      "doi": "10.1016/j.apenergy.2020.115530",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.apenergy.2020.115530",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.sciencedirect.com/science/article/am/pii/S0306261920310424",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The vanadium redox flow battery (VRFB) is a promising energy storage technology for stationary applications (e.g., renewables integration) that offers a pathway to cost-effectiveness through independent scaling of power and energy as well as longevity. Many current research efforts are focused on improving battery performance through electrode modifications, but high-throughput, laboratory-scale testing can be time- and material-intensive. Advances in multiphysics-based numerical modeling and data-driven parameter identification afford a computational platform to expand the design space by rapidly screening a diverse array of electrode configurations. Herein, a 3D VRFB model is first developed and validated against experimental results. Subsequently, a new 2D model is composed, yielding a computationally-light simulation framework, which is used to span bounded values of the electrode thickness, porosity, volumetric area, fiber diameter, and kinetic rate constant across six cell polarization voltages. This generates a dataset of 7350 electrode property combinations for each cell voltage, which is used to evaluate the effect of these structural properties on the pressure drop and current density. These structure-performance relationships are further quantified using Kendall $\\tau$ rank correlation coefficients to highlight the dependence of cell performance on bulk electrode morphology and to identify improved property sets. This statistical framework may serve as a general guideline for parameter identification for more advanced electrode designs and redox flow battery (RFB) stacks.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Integrated Numerical and Experimental Data-Driven Parameter Identification of Electrode Properties in All-Vanadium Redox Flow Batteries",
+      "authors": [
+        "Ziqiang Cheng",
+        "Kevin M. Tenny",
+        "Alberto Pizzolato",
+        "Antoni Forner‐Cuenca",
+        "Vittorio Verda",
+        "Yet‐Ming Chiang",
+        "Fikile Richard Brushett",
+        "Reza Behrou"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Ziqiang Cheng",
+          "orcid": "0000-0003-2592-8537",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kevin M. Tenny",
+          "orcid": "0000-0002-3104-3746",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto Pizzolato",
+          "orcid": "0000-0001-8301-2733",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antoni Forner‐Cuenca",
+          "orcid": "0000-0002-7681-0435",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vittorio Verda",
+          "orcid": "0000-0002-4069-2713",
+          "affiliations": [
+            "Politecnico di Torino"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yet‐Ming Chiang",
+          "orcid": "0000-0002-0833-7674",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fikile Richard Brushett",
+          "orcid": "0000-0002-7361-6637",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Reza Behrou",
+          "orcid": "0000-0003-3136-3886",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.11936124.v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv.11936124.v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74d320f50db6dc4396faf/original/integrated-numerical-and-experimental-data-driven-parameter-identification-of-electrode-properties-in-all-vanadium-redox-flow-batteries.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The vanadium redox flow battery (VRFB) is a promising energy storage technology for stationary applications (e.g., renewables integration) that offers a pathway to cost-effectiveness through independent scaling of power and energy as well as longevity. Many current research efforts are focused on improving battery performance through electrode modifications, but high-throughput, laboratory-scale testing can be time- and material-intensive. Advances in multiphysics-based numerical modeling and data-driven parameter identification afford a computational platform to expand the design space by rapidly screening a diverse array of electrode configurations. Herein, a 3D VRFB model is first developed and validated against experimental results. Subsequently, a new 2D model is composed, yielding a computationally light simulation framework, which is used to generate a dataset of 16800 electrode property combinations under four different cell voltages to track the impact of different structural parameters on the cell current density. These structure-performance relationships are quantified using Kendall $\\tau$ rank correlation coefficients to highlight the dependence of cell performance on bulk electrode morphology and to identify improved property sets. This statistical framework may serve as a general guideline for parameter identification for more advanced electrode designs.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Multimodal Nanoscale Tomographic Imaging for Battery Electrodes",
+      "authors": [
+        "Simon Müller",
+        "Manuel Lippuner",
+        "Mariana Verezhak",
+        "Vincent De Andrade",
+        "Francesco De Carlo",
+        "Vanessa Claire Wood"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Simon Müller",
+          "orcid": "0000-0001-5885-121X",
+          "affiliations": [
+            "ETH Zurich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manuel Lippuner",
+          "orcid": null,
+          "affiliations": [
+            "ETH Zurich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mariana Verezhak",
+          "orcid": "0000-0001-6897-8476",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vincent De Andrade",
+          "orcid": "0000-0003-0987-6618",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "Advanced Photon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesco De Carlo",
+          "orcid": "0000-0003-1068-7785",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "Advanced Photon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vanessa Claire Wood",
+          "orcid": "0000-0001-6435-0227",
+          "affiliations": [
+            "ETH Zurich"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.201904119",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.201904119",
+      "cited_by_count": 41,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.dora.lib4ri.ch/psi/dload/psi:32139/PDF2/view",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Accurate representations of the 3D structure within a lithium‐ion battery are key to understanding performance limitations. However, obtaining exact reconstructions of electrodes, where the active particles, the carbon black and polymeric binder domain, and the pore space are visualized is challenging. Here, it is shown that multimodal imaging can be used to overcome this challenge. High‐resolution ptychographic X‐ray computed tomography are combined with lower resolution but higher contrast transmission X‐ray tomographic microscopy to obtain 3D reconstructions of pristine and cycled graphite‐silicon composite electrodes. This cross‐correlation enables quantitative analysis of the surface of active particles, including the heterogeneity of carbon‐black and binder domain and solid‐electrolyte interphase coverage. Capturing the active particles as well as the carbon black‐binder domain allows using these segmented structures for electrochemical simulations to highlight the influence of the particle embedding on local state of charge heterogeneities.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "A dataset of the thioacetmide supported formation of ZrO2 coating on Ni-rich layered structure cathode materials in lithium-ion batteries",
+      "authors": [
+        "Van‐Chuong Ho",
+        "Seunghun Jeong",
+        "Taeeun Yim",
+        "Junyoung Mun"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Van‐Chuong Ho",
+          "orcid": "0000-0003-1919-4995",
+          "affiliations": [
+            "Incheon National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seunghun Jeong",
+          "orcid": null,
+          "affiliations": [
+            "Incheon National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taeeun Yim",
+          "orcid": "0000-0002-7057-9308",
+          "affiliations": [
+            "Incheon National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junyoung Mun",
+          "orcid": "0000-0001-9965-5709",
+          "affiliations": [
+            "Incheon National University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2020.105458",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2020.105458",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352340920303528/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A dataset in this report is regarding a research article “Crucial Role of Thioacetamide for ZrO2 Coating on the Fragile Surface of Ni-rich Layered Cathode in Lithium Ion Batteries” [1]. Thioacetamide (TA) is introduced to form a homogeneous ZrO2-coating in a facile method through washing with Zr(SO4)2 aqueous solution. The presence of the data in this paper indicated the role of TA for surface modification of LiNi0.82Co0.09Mn0.09O2 (NCM82) materials by ZrO2, leading to improve the electrochemical performance of NCM82 Ni-rich cathode materials. These data were proceeded measurement electrochemical properties of cathode electrode on a battery cycler, the surface characteristics of the cathode materials were investigated by SEM, EDS mapping, TEM and XPS. X-ray diffraction (XRD, Rigaku, SmartLab) was used to evaluate the influence of the coating layer on the microstructure of active materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Influence of Conductive Additives and Binder on the Impedance of Lithium-Ion Battery Electrodes: Effect of Morphology",
+      "authors": [
+        "Simon Hein",
+        "Timo Danner",
+        "Daniel Westhoff",
+        "Benedikt Prifling",
+        "Rares‐George Scurtu",
+        "Lea Sophie Kremer",
+        "Alice Hoffmann",
+        "André Hilger",
+        "Markus Osenberg",
+        "Ingo Manke",
+        "Margret Wohlfahrt‐Mehrens",
+        "Volker Schmidt",
+        "Arnulf Latz"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Simon Hein",
+          "orcid": "0000-0002-6728-9983",
+          "affiliations": [
+            "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Timo Danner",
+          "orcid": "0000-0003-2336-6059",
+          "affiliations": [
+            "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel Westhoff",
+          "orcid": "0000-0002-7818-9021",
+          "affiliations": [
+            "Universität Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benedikt Prifling",
+          "orcid": "0000-0002-2952-0208",
+          "affiliations": [
+            "Universität Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rares‐George Scurtu",
+          "orcid": "0000-0003-1635-4930",
+          "affiliations": [
+            "Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lea Sophie Kremer",
+          "orcid": "0000-0002-2411-3785",
+          "affiliations": [
+            "Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alice Hoffmann",
+          "orcid": "0000-0003-0541-1194",
+          "affiliations": [
+            "Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "André Hilger",
+          "orcid": "0000-0002-6454-7967",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Markus Osenberg",
+          "orcid": "0000-0003-0836-627X",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ingo Manke",
+          "orcid": "0000-0001-9795-5345",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Margret Wohlfahrt‐Mehrens",
+          "orcid": "0000-0002-5118-5215",
+          "affiliations": [
+            "Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Volker Schmidt",
+          "orcid": "0000-0001-7451-8185",
+          "affiliations": [
+            "Universität Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arnulf Latz",
+          "orcid": "0000-0003-1449-8172",
+          "affiliations": [
+            "Universität Ulm",
+            "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Electrochemical Society",
+      "doi": "10.1149/1945-7111/ab6b1d",
+      "type": "article",
+      "url": "https://doi.org/10.1149/1945-7111/ab6b1d",
+      "cited_by_count": 176,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1149/1945-7111/ab6b1d/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Most cathode materials for lithium-ion batteries exhibit a low electronic conductivity. Hence, a significant amount of conductive graphitic additives are introduced during electrode production. The mechanical stability and electronic connection of the electrode is enhanced by a mixed phase formed by the carbon and binder materials. However, this mixed phase, the carbon binder domain (CBD), hinders the transport of lithium ions through the electrolyte pore network. Thus, reducing the performance at higher currents. In this work we combine microstructure resolved simulations with impedance measurements on symmetrical cells to identify the influence of the CBD distribution. Microstructures of NMC622 electrodes are obtained through synchrotron X-ray tomography. Resolving the CBD using tomography techniques is challenging. Therefore, three different CBD distributions are incorporated via a structure generator. We present results of microstructure resolved impedance spectroscopy and lithiation simulations, which reproduce the experimental results of impedance spectroscopy and galvanostatic lithiation measurements, thus, providing a link between the spatial CBD distribution, electrode impedance, and half-cell performance. The results demonstrate the significance of the CBD distribution and enable predictive simulations for battery design. The accumulation of CBD at contact points between particles is identified as the most likely configuration in the electrodes under consideration.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Multifunctional Energy and Power Materials for Batteries and Supercapacitors",
+      "authors": [
+        "Anish G. Patel"
+      ],
+      "year": 2020,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "OakTrust (Texas A&M University Libraries)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Multifunctional energy and power systems can simultaneously store energy and accomplish a second function. Typically, the other function is structural or safety related. Both of these rely on robust mechanical properties along with good electrochemical properties for storing energy. However, there is an inherent tradeoff between mechanical and electrochemical properties. This presents a unique challenge in fabricating materials with both high energy storage (specific energy, specific power, rate capability, cycle stability, and etc.) and high mechanical properties (Young’s modulus, ultimate strength, ultimate strain, toughness, etc.). This dissertation focuses on the use of high performance nanomaterials (reduced graphene oxide, carbon nanotubes, and/or aramid nanofibers) for use in multiple energy storage device components. Namely, aramid nanofibers are used to fabricate thermally stable and mechanically robust battery separators while reduced graphene oxide, carbon nanotubes, and aramid nanofibers are used in a composite electrode to fabricate structural supercapacitor electrodes.\\n \\nAramid nanofiber separators were fabricated using vacuum-assisted filtration. The separators possessed excellent thermal stability with a high 5 wt% decomposition temperature of 447 °C. In addition, the aramid nanofiber separator was able to self-extinguish when exposed to flames. The separator also possessed excellent mechanical properties such as a Young’s modulus of 8.8 GPa. Finally, the separator possessed a reduced capacity of 123.4 mA h g⁻¹ in a lithium nickel manganese cobalt oxide vs lithium battery setup. Holistically, the separator possessed a good combination of thermal, mechanical, and electrochemical properties for safer lithium ion batteries.\\n\\nReduced graphene oxide/aramid nanofiber/carbon nanotube composite electrodes for supercapacitors were fabricated using vacuum-assisted filtration and studied using both an informatics and experimental approach. The informatics study focused on using data science to minimize the number of experiments required to find the optimal combination of the three components in the composite. An optimal composition was found that performed better than the initial experimental dataset by 5.5 % (using a unique multifunctional metric). The experimental study focused on systematically varying the carbon nanotube content to better understand how carbon nanotubes affect the electrode. This work found that the carbon nanotubes can increase the mechanical and electrochemical response of the electrode.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Is Cobalt Needed in Ni-Rich Positive Electrode Materials for Lithium Ion Batteries?",
+      "authors": [
+        "Hongyang Li",
+        "Marc M. E. Cormier",
+        "Ning Zhang",
+        "Julie Inglis",
+        "Jing Li",
+        "Jeff R. Dahn"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Hongyang Li",
+          "orcid": "0009-0002-8877-0204",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marc M. E. Cormier",
+          "orcid": "0000-0003-0067-4278",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ning Zhang",
+          "orcid": "0000-0002-1719-3043",
+          "affiliations": [
+            "Dalhousie University",
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julie Inglis",
+          "orcid": "0000-0001-9164-7966",
+          "affiliations": [
+            "McMaster University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jing Li",
+          "orcid": "0000-0003-3698-7102",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeff R. Dahn",
+          "orcid": "0000-0002-6997-2436",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Electrochemical Society",
+      "doi": "10.1149/2.1381902jes",
+      "type": "article",
+      "url": "https://doi.org/10.1149/2.1381902jes",
+      "cited_by_count": 343,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1149/2.1381902jes/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "As a derivative of LiNiO 2 , NCA (LiNi 1-x-y Co x Al y O 2 ) is widely used in the electric vehicle industry because of its high energy density. It is thought that Co and Al both play important roles in enhancing NCA material properties. However, there is no solid evidence in the literature that clearly shows that Co is required in NCA with high nickel (e.g. when 1-x-y > 0.9) content. Therefore, a systematic study on the roles of different cation substituents in a series of LiNi 1-n M n O 2 (M = Al, Mn, Mg, or Co) materials was made. In-situ X-ray diffraction (XRD) and differential capacity versus voltage (dQ/dV vs. V) studies showed that the multiple phase transitions in Li x NiO 2 during charge and discharge, thought to cause poor charge-discharge capacity retention, were suppressed in Li x Ni 0.95 M 0.05 O 2 (M = Al, Mn, or Mg), while 5% Co failed to suppress the phase transitions. First principles calculations were made to understand the function of each substituent. Accelerating rate calorimetry shows that unlike Al, Mn, or Mg, Co has no contribution to safety improvement. Therefore, we believe that Co brings little or no value at all to NCA-type materials with high Ni content (> 90% Ni in the transition metal layer) and we hope this paper will spur more interest in Co-free materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "High areal capacity battery electrodes enabled by segregated nanotube networks",
+      "authors": [
+        "Sang‐Hoon Park",
+        "Paul J. King",
+        "Ruiyuan Tian",
+        "Conor S. Boland",
+        "João Coelho",
+        "Chuanfang John Zhang",
+        "Patrick McBean",
+        "Niall McEvoy",
+        "Matthias P. Kremer",
+        "Dermot Daly",
+        "Jonathan N. Coleman",
+        "Valeria Nicolosi"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Sang‐Hoon Park",
+          "orcid": "0000-0002-9998-1368",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paul J. King",
+          "orcid": null,
+          "affiliations": [
+            "Trinity College Dublin",
+            "Nokia (Ireland)",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruiyuan Tian",
+          "orcid": "0000-0003-1282-1087",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Conor S. Boland",
+          "orcid": "0000-0003-4376-6770",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "João Coelho",
+          "orcid": "0000-0003-4217-3842",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chuanfang John Zhang",
+          "orcid": "0000-0001-8663-3674",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Patrick McBean",
+          "orcid": "0000-0003-1227-8301",
+          "affiliations": [
+            "Trinity College Dublin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Niall McEvoy",
+          "orcid": "0000-0001-5950-8755",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthias P. Kremer",
+          "orcid": "0000-0002-2160-1097",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dermot Daly",
+          "orcid": "0009-0009-8309-3647",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan N. Coleman",
+          "orcid": "0000-0001-9659-9721",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Valeria Nicolosi",
+          "orcid": "0000-0002-7637-4813",
+          "affiliations": [
+            "Trinity College Dublin",
+            "Advanced Materials and BioEngineering Research"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Energy",
+      "doi": "10.1038/s41560-019-0398-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41560-019-0398-y",
+      "cited_by_count": 480,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/2262/86861",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Application of DFT-based machine learning for developing molecular electrode materials in Li-ion batteries",
+      "authors": [
+        "Omar Adel Allam",
+        "Byung Woo Cho",
+        "Ki Chul Kim",
+        "Seung Soon Jang"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Omar Adel Allam",
+          "orcid": "0000-0002-7090-7842",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Byung Woo Cho",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ki Chul Kim",
+          "orcid": "0000-0002-9359-9811",
+          "affiliations": [
+            "Georgia Institute of Technology",
+            "Konkuk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seung Soon Jang",
+          "orcid": "0000-0002-1920-421X",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "RSC Advances",
+      "doi": "10.1039/c8ra07112h",
+      "type": "article",
+      "url": "https://doi.org/10.1039/c8ra07112h",
+      "cited_by_count": 176,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1039/c8ra07112h",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this study, we utilize a density functional theory-machine learning framework to develop a high-throughput screening method for designing new molecular electrode materials. For this purpose, a density functional theory modeling approach is employed to predict basic quantum mechanical quantities such as redox potentials, and electronic properties such as electron affinity, highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO), for a selected set of organic materials. Both the electronic properties and structural information, such as the numbers of oxygen atoms, lithium atoms, boron atoms, carbon atoms, hydrogen atoms, and aromatic rings, are considered as input variables for the machine learning-based prediction of redox potentials. The large-set of input variables are further downsized using a linear correlation analysis to have six core input variables, namely electron affinity, HOMO, LUMO, HOMO-LUMO gap, the number of oxygen atoms and the number of lithium atoms. The artificial neural network trained using the quasi-Newton method demonstrates a capability for accurately estimating the redox potentials. From the contribution analysis, in which the influence of each input on the target are accessed, we highlight that the electron affinity has the highest contribution to redox potential, followed by the number of oxygen atoms, HOMO-LUMO gap, the number of lithium atoms, LUMO, and HOMO, in order.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "A Cylindrical Cell for Operando Neutron Diffraction of Li-Ion Battery Electrode Materials",
+      "authors": [
+        "Laura Vitoux",
+        "Martin Reichardt",
+        "Sébastien Sallard",
+        "Petr Novák",
+        "Denis V. Sheptyakov",
+        "Claire Villevieille"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Laura Vitoux",
+          "orcid": null,
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Reichardt",
+          "orcid": null,
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sébastien Sallard",
+          "orcid": "0000-0001-7347-511X",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Petr Novák",
+          "orcid": "0000-0001-6993-5021",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Denis V. Sheptyakov",
+          "orcid": "0000-0002-3001-6586",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Claire Villevieille",
+          "orcid": "0000-0001-8782-4800",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Energy Research",
+      "doi": "10.3389/fenrg.2018.00076",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fenrg.2018.00076",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fenrg.2018.00076/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Neutron diffraction is a powerful technique to localize and quantity lithium in battery electrode materials. However, obtaining high-quality Operando neutron diffraction data is challenging because it requires achieving good electrochemical performance while cycling a large amount of active material to ensure optimal signal-to-noise ratios. We have developed a cylindrical cell specifically suited for operando neutron studies, and used it to investigate the structural changes in the Ni-rich LiNi0.6Co0.2Mn0.2O2 cathode material during cycling between 2.5 and 4.3 V vs Li+/Li. The cell demonstrates reliable electrochemical performance, even after long-term cycling, and the important crystal structure parameters of the active material, including Li occupancy, could be successfully refined with the Rietveld method using neutron diffraction data collected in operando after appropriate background subtraction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Compatibility issues between electrodes and electrolytes in solid-state batteries",
+      "authors": [
+        "Yaosen Tian",
+        "Tan Shi",
+        "William D. Richards",
+        "Juchuan Li",
+        "Jae Chul Kim",
+        "Shou‐Hang Bo",
+        "Gerbrand Ceder"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Yaosen Tian",
+          "orcid": "0000-0003-4988-2553",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tan Shi",
+          "orcid": "0000-0003-0312-2639",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William D. Richards",
+          "orcid": "0000-0002-8126-5048",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juchuan Li",
+          "orcid": "0000-0002-6587-5591",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jae Chul Kim",
+          "orcid": "0000-0001-9999-6853",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shou‐Hang Bo",
+          "orcid": "0000-0001-8963-5261",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "orcid": "0000-0001-9275-3605",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Massachusetts Institute of Technology",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/c7ee00534b",
+      "type": "article",
+      "url": "https://doi.org/10.1039/c7ee00534b",
+      "cited_by_count": 396,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2017/ee/c7ee00534b",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Compatibility and stability issues in all-solid-state batteries and methods for investigation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "New electrode materials for lithium- and sodium-ion batteries",
+      "authors": [
+        "Q Xia",
+        "CD Ling",
+        "C Wang",
+        "M Avdeev"
+      ],
+      "year": 2017,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "The Australian Nuclear Science and Technology Organisation Institutional Repository (The Australian Nuclear Science and Technology Organisation)",
+      "doi": null,
+      "type": "conference-abstract",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://apo.ansto.gov.au/bitstreams/980b928b-c6fe-4b83-b658-1f94c768e382/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "As a result of increased energy demand, energy storage has become a growing global concern over the past decade. Electrochemical energy storage (EES) technologies based on batteries are beginning to show considerable promise as a result of many breakthroughs in the last few years due to their appealing features including high round-trip efficiency, flexible power, energy characteristics to meet different grid functions, long cycle life, and low maintenance [1, 2]. My project focuses on the discovery, characterisation and optimisation of electrode and solid electrolyte materials in both lithium-ion batteries and sodium-ion batteries, in which the investigation of nuclear materials and magnetic structures and the dynamics of Li/Na ion are key issues. In this presentation three techniques below that have been heavily utilised to theoretically and experimentally characterise new electrode materials will be systematically discussed. 1. Ab initio calculation—It is employed to identify and compare the energies of framework structures with hosting Li/Na from materials data mining, which give an improved understanding of how the experimentally determined structures arise and how they will evolve with mobile ion concentration under electrochemical cycling. Knowledge of the ground-state magnetic structure also permits the accurate calculation of redox potentials, in conjunction with electrochemical measurements. 2. Neutron scattering—It concerns new crystalline materials for light metal-ion batteries in several ways. Neutron diffraction reveals the location and occupancies of Li/Na sites in the crystal lattice and, hence, conduction pathways. In situ experiments explicitly reveal Li/Na ion mobility, as well as phase changes under operating conditions that undermine long-term stability. Inelastic and quasielastic neutron scattering probe the dynamics of the mobile ions and the supporting lattice. Besides, low temperature neutron diffraction reveals the spin-ordered ground states of the transition metal countercations, which are not only fundamentally fascinating due to their complex super-super-exchange pathways, but also characteristic of their electrochemical states in batteries. 3. In-situ TEM characterisation—It is performed to study how materials degrade on a larger scale over repeated cycling: nanocrystallisation, and changes in the roughness of the interfaces. The information of the materials failure collected by virtue of this technique will help to effectively design accurate ways to optimise the materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Structure–property insights into nanostructured electrodes for Li-ion batteries from local structural and diffusional probes",
+      "authors": [
+        "Josefa Vidal Laveda",
+        "Beth J. Johnston",
+        "Gary W. Paterson",
+        "Peter J. Baker",
+        "Matthew G. Tucker",
+        "Helen Y. Playford",
+        "Kirsten M. Ø. Jensen",
+        "Simon J. L. Billinge",
+        "Serena A. Cussen"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Josefa Vidal Laveda",
+          "orcid": "0000-0001-6625-0879",
+          "affiliations": [
+            "University of Glasgow"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Beth J. Johnston",
+          "orcid": "0000-0002-3586-1682",
+          "affiliations": [
+            "University of Glasgow"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gary W. Paterson",
+          "orcid": "0000-0002-4680-048X",
+          "affiliations": [
+            "University of Glasgow"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter J. Baker",
+          "orcid": "0000-0002-2306-2648",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Research Complex at Harwell",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew G. Tucker",
+          "orcid": "0000-0002-2891-7086",
+          "affiliations": [
+            "Oak Ridge National Laboratory",
+            "Spallation Neutron Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helen Y. Playford",
+          "orcid": "0000-0001-5445-8605",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Research Complex at Harwell",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kirsten M. Ø. Jensen",
+          "orcid": "0000-0003-0291-217X",
+          "affiliations": [
+            "Oak Ridge National Laboratory",
+            "Spallation Neutron Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon J. L. Billinge",
+          "orcid": "0000-0002-9734-4998",
+          "affiliations": [
+            "Brookhaven National Laboratory",
+            "Columbia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Serena A. Cussen",
+          "orcid": "0000-0002-9303-4220",
+          "affiliations": [
+            "University of Glasgow"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/c7ta04400c",
+      "type": "article",
+      "url": "https://doi.org/10.1039/c7ta04400c",
+      "cited_by_count": 33,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2018/ta/c7ta04400c",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Microwave heating presents a faster, lower energy synthetic methodology for the realization of functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Tortuosity Determination of Battery Electrodes and Separators by Impedance Spectroscopy",
+      "authors": [
+        "Johannes Landesfeind",
+        "Johannes Hattendorff",
+        "Andreas Ehrl",
+        "Wolfgang A. Wall",
+        "Hubert Andreas Gasteiger"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Johannes Landesfeind",
+          "orcid": "0000-0003-0333-2185",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johannes Hattendorff",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreas Ehrl",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wolfgang A. Wall",
+          "orcid": "0000-0001-7419-3384",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hubert Andreas Gasteiger",
+          "orcid": "0000-0001-8199-8703",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Electrochemical Society",
+      "doi": "10.1149/2.1141607jes",
+      "type": "article",
+      "url": "https://doi.org/10.1149/2.1141607jes",
+      "cited_by_count": 731,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1149/2.1141607jes/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium ion battery performance at high charge/discharge rates is largely determined by the ionic resistivity of an electrode and separator which are filled with electrolyte. Key to understand and to model ohmic losses in porous battery components is porosity as well as tortuosity. In the first part, we use impedance spectroscopy measurements in a new experimental setup to obtain the tortuosities and MacMullin numbers of some commonly used separators, demonstrating experimental errors of <8%. In the second part, we present impedance measurements of electrodes in symmetric cells using a blocking electrode configuration, which is obtained by using a non-intercalating electrolyte. The effective ionic resistivity of the electrode can be fit with a transmission-line model, allowing us to quantify the porosity dependent MacMullin numbers and tortuosities of electrodes with different active materials and different conductive carbon content. Best agreement between the transmission-line model and the impedance data is found when constant-phase elements rather than simple capacitors are used.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Tool for Tortuosity Estimation in Lithium Ion Battery Porous Electrodes",
+      "authors": [
+        "Martin Ebner",
+        "Vanessa Claire Wood"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Martin Ebner",
+          "orcid": "0000-0003-0267-0908",
+          "affiliations": [
+            "ETH Zurich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vanessa Claire Wood",
+          "orcid": "0000-0001-6435-0227",
+          "affiliations": [
+            "ETH Zurich"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Electrochemical Society",
+      "doi": "10.1149/2.0111502jes",
+      "type": "article",
+      "url": "https://doi.org/10.1149/2.0111502jes",
+      "cited_by_count": 181,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1149/2.0111502jes/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present an open source software application \" BruggemanEstimator \" that allows a user to estimate the tortuosity of a porous electrode. BruggemanEstimator determines the Bruggeman exponent based on the Differential Effective Medium approximation and as input requires only two microscope images: one of the top and one of a cross section through an electrode. These images, which can be easily acquired with a scanning electron or optical microscope, are used to extract a sampling of active particle shapes as well as the orientation of the particles within the electrode. We validate the accuracy of BruggemanEstimator by comparing the estimated Bruggeman exponents to values calculated by performing numerical diffusion simulations on three-dimensional microstructures obtained from tomographic techniques.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "发表年份（5 年一档）",
+      "value": "2020–2024",
+      "count": 35,
+      "known": 50,
+      "pct": 70,
+      "text": "发表年份（5 年一档）：2020–2024 = 35/50（70%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

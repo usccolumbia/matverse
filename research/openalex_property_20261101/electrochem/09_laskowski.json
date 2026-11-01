@@ -1,0 +1,4189 @@
+{
+  "mode": "search",
+  "query": "solid electrolyte conductivity dataset Laskowski",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "OBELiX: a curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes",
+      "authors": [
+        "Félix Therrien",
+        "Jamal Abou Haibeh",
+        "Divya Sharma",
+        "Rhiannon Hendley",
+        "Leah Wairimu Mungai",
+        "Sun Sun",
+        "Alain Tchagang",
+        "Jiang Su",
+        "Samuel Huberman",
+        "Yoshua Bengio",
+        "Hongyu Guo",
+        "Álex Hernández-García",
+        "Homin Shin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Félix Therrien",
+          "orcid": "0000-0003-1074-7805",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jamal Abou Haibeh",
+          "orcid": null,
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "McGill University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Divya Sharma",
+          "orcid": "0000-0002-5672-5700",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rhiannon Hendley",
+          "orcid": "0009-0004-9383-0157",
+          "affiliations": [
+            "University of Ottawa",
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Leah Wairimu Mungai",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Kenya",
+            "Mila - Quebec Artificial Intelligence Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sun Sun",
+          "orcid": null,
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alain Tchagang",
+          "orcid": "0000-0001-8619-9441",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiang Su",
+          "orcid": null,
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuel Huberman",
+          "orcid": "0000-0003-0865-8096",
+          "affiliations": [
+            "McGill University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshua Bengio",
+          "orcid": "0000-0002-9322-3515",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongyu Guo",
+          "orcid": "0000-0002-7663-2421",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Álex Hernández-García",
+          "orcid": "0000-0002-5473-4507",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Homin Shin",
+          "orcid": "0000-0001-9300-6898",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d5dd00441a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5dd00441a",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00441a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "OBELiX is a database of 599 synthesized solid electrolyte materials and their experimentally measured room temperature ionic conductivities gathered from literature and curated by domain experts.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Data-driven prediction of ionic conductivity in solid-state electrolytes with machine learning and large language models",
+      "authors": [
+        "Haewon Kim",
+        "Taekgi Lee",
+        "Seongeun Hong",
+        "Kyeong‐Ho Kim",
+        "Yongchul G. Chung"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Haewon Kim",
+          "orcid": "0009-0007-5486-9851",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taekgi Lee",
+          "orcid": "0009-0000-2130-2970",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seongeun Hong",
+          "orcid": "0009-0006-1823-0594",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kyeong‐Ho Kim",
+          "orcid": "0000-0002-5760-4599",
+          "affiliations": [
+            "Pukyong National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongchul G. Chung",
+          "orcid": "0000-0002-7756-0589",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0307954",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0307954",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2601.10997",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state electrolytes (SSEs) are attractive for next-generation lithium-ion batteries due to improved safety and stability, but their low room-temperature ionic conductivity hinders practical application. Experimental synthesis and testing of new SSEs remain time-consuming and resource-intensive. Machine learning offers an accelerated route for SSE discovery; however, composition-only models neglect structural factors important for ion transport, while graph neural networks are challenged by the scarcity of structure-labeled conductivity data and the prevalence of crystallographic disorder in crystal structures (CIFs). Here, we train two complementary predictors on the same room-temperature, structure-labeled dataset (n = 499). A gradient-boosted tree regressor model using stoichiometric descriptors alone achieves a test MAE of 1.108 in log(S/cm); adding geometric descriptors (combined MAE = 1.172) does not lower the test error but reveals complementary structural information through Shapley Additive exPlanations, which shows that stoichiometric descriptors, particularly the oxygen ratio, dominate feature importance (seven of the top ten features), with three geometric descriptors (density, Lmax, and Lmin) also contributing meaningfully. In parallel, we fine-tune large language models (LLMs) using compact text prompts derived from CIF metadata (formula with optional symmetry and disorder tags), avoiding direct use of raw atomic coordinates. Notably, while Mistral-7B achieves the lowest absolute error [MAE = 0.798 in log(S/cm)], Qwen3-8B demonstrates the best overall ranking performance (SRCC = 0.849) using formula and disorder information, eliminating the need for numerical feature extraction from CIF files. Together, these results show that global geometric descriptors improve tree-based predictions and enable interpretable structure-property analysis, while LLMs provide a competitive low-preprocessing alternative for rapid SSE screening.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "The application of machine learning in the research and development of solid-state electrolyte materials",
+      "authors": [
+        "Changjing Ma",
+        "Yan Wu",
+        "Songrui Wang",
+        "He Tang",
+        "Xiaokun Zhang",
+        "Fei Xu",
+        "Zhe Liu",
+        "Hongqiang Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Changjing Ma",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Wu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Songrui Wang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "He Tang",
+          "orcid": "0009-0006-5781-607X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaokun Zhang",
+          "orcid": "0000-0002-9575-4643",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fei Xu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhe Liu",
+          "orcid": "0000-0001-7268-6214",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongqiang Wang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chinese Science Bulletin (Chinese Version)",
+      "doi": "10.1360/csb-2026-0137",
+      "type": "article",
+      "url": "https://doi.org/10.1360/csb-2026-0137",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.sciengine.com/doi/pdf/0E78A53B847947D3879E01468DE4ADDC",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "固态电池凭借其高能量密度和优异安全性, 在锂电池领域展现出巨大应用潜力. 高性能固态电解质材料的开发与设计, 对固态电池整体性能起着决定性作用. 然而, 当前固态电解质的研发、合成及应用长期受限于长流程的研发周期, 严重制约了固态电池的实用化进程. 机器学习为固态电解质研究带来新的研究范式: 通过理论与实验数据双驱动, 构建机器学习模型, 可显著加速固态电解质材料设计和性能优化. 本文系统介绍了机器学习在固态电解质研究中的建模方式, 包括材料结构与特征表示、特征描述符筛选及机器学习模型的构建与评估. 在此基础上, 进一步探讨了机器学习在固态电池领域的应用, 涵盖材料性质的计算加速与关联函数学习、材料结构与组分设计、配方与工艺优化以及器件性能的预测与加速评价四个典型场景, 以帮助研究人员快速了解该领域的前沿进展. 最后, 本文展望了机器学习在固态电解质领域中的未来发展方向, 以期为固态电解质材料研发提供新的思路.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Novel fast Li-ion conductors for solid-state electrolytes from first-principles",
+      "authors": [
+        "Tushar Singh Thakur",
+        "Loris Ercole",
+        "Nicola Marzari"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Tushar Singh Thakur",
+          "orcid": "0009-0004-5176-7516",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Loris Ercole",
+          "orcid": "0000-0002-8089-9524",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicola Marzari",
+          "orcid": "0000-0002-9764-0199",
+          "affiliations": [
+            "University of Cambridge",
+            "Paul Scherrer Institute",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/d5ee07336g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5ee07336g",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2026/ee/d5ee07336g",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "at room temperature. We further present the entire screening protocol, including the workflows where the accuracy of the pinball model is improved self-consistently, necessary for automatically running the required calculations and analysing their results.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Regulating Na+ vacancies and stabilizing lattice structure via Al3+/O2- doping for low-cost dry-air-stable NaCl-based solid electrolytes",
+      "authors": [
+        "Chengyu Fu",
+        "Chenjie Lou",
+        "Liming Zhang",
+        "Longfei Li",
+        "Baozhang Li",
+        "Yi Sun",
+        "Mingxue Tang",
+        "Pengcheng Shi",
+        "XuYong Feng",
+        "Hongfa Xiang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Chengyu Fu",
+          "orcid": null,
+          "affiliations": [
+            "Hefei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chenjie Lou",
+          "orcid": "0000-0002-0684-9625",
+          "affiliations": [
+            "Center for High Pressure Science and Technology Advanced Research",
+            "Center for High Pressure Science & Technology Advanced Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liming Zhang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Longfei Li",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Baozhang Li",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Sun",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingxue Tang",
+          "orcid": "0000-0001-5819-5048",
+          "affiliations": [
+            "Center for High Pressure Science and Technology Advanced Research",
+            "Center for High Pressure Science & Technology Advanced Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pengcheng Shi",
+          "orcid": null,
+          "affiliations": [
+            "Hefei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "XuYong Feng",
+          "orcid": "0009-0005-5363-671X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongfa Xiang",
+          "orcid": "0000-0002-6182-1932",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy Materials",
+      "doi": "10.20517/energymater.2026.211",
+      "type": "article",
+      "url": "https://doi.org/10.20517/energymater.2026.211",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://f.oaes.cc/xmlpdf/published/article/d4d3a852397b540671da413735c68b6c/em60211.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Sodium chloride (NaCl) is attractive as a solid electrolyte because of its wide electrochemical stability window, excellent dry-air stability, favorable cathode compatibility, and low cost; however, its intrinsically low ionic conductivity has severely limited practical application. Here, we report an Al3+/O2- co-doping strategy that introduces Na+ vacancies and mixed Cl-/O2- anion environments into the NaCl lattice, thereby converting NaCl from a poor ionic conductor into a fast-ion-conducting solid electrolyte. The optimized composition, Na0.4625Al0.25Cl0.7875O0.2125, exhibits an ionic conductivity of 2.7 × 10-4 S cm-1 at 30 °C. Through combined X-ray diffraction, solid-state nuclear magnetic resonance, and pair distribution function analysis, Na0.4625Al0.25Cl0.7875O0.2125 is identified as a single-phase face-centered cubic structure (space group Fm-3m) that hosts a high concentration of Na+ vacancies (37.6%) at the 4a sites, creating a continuous 3D transmission network for rapid Na+ migration. Electrochemically, Na0.4625Al0.25Cl0.7875O0.2125 exhibits a wide stability window of 1.05~4.24 V vs. Na2Sn. In an all-solid-state cell with the configuration NaNi1/3Mn1/3Ti1/3O2||Na0.4625Al0.25Cl0.7875O0.2125||Na3PS4||Na2Sn, capacity retentions of 89% and 83% are achieved after 100 cycles over voltage windows of 2.4-4.2 and 2.4-4.4 V, respectively.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Raman Signatures of Lithium Ion Dynamics in LLZO Garnet Electrolytes: Atomistic Insights from MD-Raman Calculations",
+      "authors": [
+        "Takeru Miyagawa",
+        "Willis O’Leary",
+        "Manuel Grumet",
+        "Hyunwon Chu",
+        "Jennifer L. M. Rupp",
+        "Waldemar Kaiser",
+        "David A. Egger"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Takeru Miyagawa",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Willis O’Leary",
+          "orcid": "0000-0003-1126-0214",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manuel Grumet",
+          "orcid": "0009-0009-9169-8793",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunwon Chu",
+          "orcid": "0000-0001-5763-474X",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jennifer L. M. Rupp",
+          "orcid": "0000-0001-7160-0108",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Waldemar Kaiser",
+          "orcid": "0000-0001-9069-690X",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David A. Egger",
+          "orcid": "0000-0001-8424-902X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2608.04690",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2608.04690",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2608.04690",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium lanthanum zirconate (LLZO) garnets are among the most promising solid electrolytes for next-generation batteries owing to their high ionic conductivity, chemical stability, and compatibility with lithium metal. Raman spectroscopy is commonly employed to distinguish the highly conductive cubic phase from the poorly conductive tetragonal phase of LLZO, yet the atomistic origin of these spectral differences and their direct connection to Li-ion transport remain unresolved. Here, we close this gap by comparing computed and experimental Raman spectra for the tetragonal, cubic, and Ta-doped variants of LLZO, with the computed spectra obtained from the MD-Raman approach that combines machine-learning molecular dynamics with first-principles polarizability calculations. We show that the contrasting ionic transport behavior across these LLZO variants is encoded in the vibrational dynamics of the lithium sublattice and gives rise to distinct features in their Raman spectra. A symmetry-resolved analysis further reveals that experimentally observed Raman peaks do not correspond to individual normal modes, but instead arise from overlapping contributions of multiple symmetry channels, challenging conventional peak-assignment approaches. By explicitly connecting experimentally accessible Raman signatures to the underlying atomic-scale dynamics, our results show how Raman spectroscopy can move beyond empirical phase identification toward a microscopic probe of Li-ion dynamics in lithium garnet electrolytes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Leveraging transfer learning for accurate estimation of ionic migration barriers in solids",
+      "authors": [
+        "Reshma Devi",
+        "Keith T. Butler",
+        "Gopalakrishnan Sai Gautam"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Reshma Devi",
+          "orcid": "0000-0002-1820-308X",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith T. Butler",
+          "orcid": "0000-0001-5432-5597",
+          "affiliations": [
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gopalakrishnan Sai Gautam",
+          "orcid": "0000-0002-1303-0976",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-026-01972-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-026-01972-8",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-026-01972-8_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Rate performance of several applications, such as batteries, fuel cells, and electrochemical sensors, is exponentially dependent on the ionic migration barrier ( E m ) within solids, a difficult-to-estimate quantity. Previous approaches to identify materials with low E m have often relied on imprecise descriptors or rules-of-thumb. Here, we present a graph-neural-network-based architecture that leverages principles of transfer learning to efficiently and accurately predict E m across a variety of materials. We use a model (labeled MPT) that has been simultaneously pre-trained on seven bulk properties, introduce architectural modifications to build inductive bias on different migration pathways in a structure, and subsequently fine-tune (FT) on a manually-curated, literature-derived, first-principles computational dataset of 619 E m values. Importantly, our best-performing FT model (labeled MODEL-3, based on test set scores) demonstrates substantially better accuracy compared to classical machine learning methods, graph models trained from scratch, and a universal machine learned interatomic potential, with a R 2 score and a mean absolute error of 0.703 ± 0.109 and 0.261 ± 0.034 eV, respectively, on the test set and is able to classify ‘good’ ionic conductors with an 80% accuracy. Thus, our work demonstrates the effective use of FT strategies and MPT architectural modifications to predict E m , and can be extended to make predictions on other data-scarce material properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Electrokinetics of organic-inorganic composite materials for electrocatalysis and energy storage",
+      "authors": [
+        "Tianlai Xia",
+        "Yaoti Cheng",
+        "Xiaodong Geng",
+        "Nan Zhu",
+        "Fengwang Li",
+        "Mianqi Xue"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Tianlai Xia",
+          "orcid": "0000-0002-4391-0296",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Technical Institute of Physics and Chemistry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yaoti Cheng",
+          "orcid": null,
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaodong Geng",
+          "orcid": null,
+          "affiliations": [
+            "Dalian University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nan Zhu",
+          "orcid": null,
+          "affiliations": [
+            "Dalian University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengwang Li",
+          "orcid": "0000-0003-1531-2966",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mianqi Xue",
+          "orcid": "0000-0002-6023-2618",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Technical Institute of Physics and Chemistry",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science China Materials",
+      "doi": "10.1007/s40843-025-3994-9",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40843-025-3994-9",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40843-025-3994-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Electrokinetics, which explores charge transfer and mass transport under electric fields, has emerged as a vital domain in advancing energy storage and electrocatalysis. The integration of organic and inorganic components into composite materials offers unique opportunities to optimize electrokinetic properties, leveraging the structural stability and conductivity of inorganic phases alongside the functional diversity of organic elements. These synergies enhance charge transfer, ionic mobility, and catalytic activity, making these composites indispensable in applications such as batteries, fuel cells, and electrocatalytic systems. This review explores the intersection of electrokinetic phenomena and organic-inorganic composite materials, focusing on their fundamental principles, design strategies, and performance optimization. Emphasis is placed on advanced materials, including metal-organic frameworks, organic-carbon hybrids, and single-atom catalysts, and their applications such as energy storage, wearable devices and electrocatalysis. The review highlights advanced in situ and operando techniques for probing electrokinetic processes, shedding light on the interplay between structure, interface, and transport dynamics. By bridging the gap between electrokinetic theory and material design, this work aims to provide insights into the development of next-generation materials for sustainable energy technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Tuning the Conversion Mechanisms of Metal–Sulfur Batteries: From Nanostructures to Single Atoms",
+      "authors": [
+        "Jia-Xing Guo",
+        "Hangqi Su",
+        "Lele Gao",
+        "Guangrui Zhang",
+        "Jiahang Chen",
+        "Erhuan Zhang",
+        "Xiangwen Gao",
+        "Dingsheng S. Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jia-Xing Guo",
+          "orcid": "0000-0003-0947-8337",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hangqi Su",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lele Gao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guangrui Zhang",
+          "orcid": "0000-0002-6559-9136",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiahang Chen",
+          "orcid": "0000-0001-5970-6954",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Erhuan Zhang",
+          "orcid": "0009-0000-9888-0621",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangwen Gao",
+          "orcid": "0000-0002-3271-912X",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dingsheng S. Wang",
+          "orcid": "0000-0003-0074-7633",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.74219",
+      "type": "review",
+      "url": "https://doi.org/10.1002/adma.74219",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13532431/pdf/ADMA-38-e74219.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Rechargeable metal-sulfur (M-S) batteries (Li, Na, K, Al, Zn, Mg, Ca, Cu, Fe‑based) are promising alternatives to conventional lithium‑ion batteries, featuring high energy density and cost‑effectiveness. However, their advancement is severely hindered by the sluggish sulfur conversion kinetics and the notorious polysulfide shuttle effect of the sulfur cathode. Thus, rational design of catalytic cathode materials is pivotal to realizing the practical application of M-S batteries. This review first evaluates the practical viability of various M-S batteries, further delineates the chemical behavior and transformation processes of sulfide intermediates, and summarizes the theoretical methodologies for probing sulfur cathode conversion chemistry. Notably, three classic heterogeneous catalysis mechanisms, namely Langmuir-Hinshelwood, Eley-Rideal, and Mars-van Krevelen, are innovatively utilized to interpret the cathode catalytic behavior in M-S batteries for the first time. Following this, it elaborates on the rational design principles targeting the supports and active sites of catalytic cathode materials, ranging from nanostructured engineering to single-atom catalysis, aiming to further reinforce sulfur immobilization and accelerate redox reaction kinetics across various M-S systems. Furthermore, it highlights advances in characterization strategies for guiding rational material design and elucidating precise electrocatalytic mechanisms, and ultimately prospects the pivotal future research directions toward practical liquid and solid-state M-S battery systems.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Machine-learned interatomic potentials for modeling multicomponent metallic systems: a comprehensive review",
+      "authors": [
+        "Yash Kokane",
+        "H. M. Jayaprakash",
+        "Akash Ashok Deshmukh",
+        "Prakhar Singh Rajput",
+        "Manish Sahoo",
+        "Raghavan Ranganathan"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yash Kokane",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology Gandhinagar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "H. M. Jayaprakash",
+          "orcid": null,
+          "affiliations": [
+            "University of Mysore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akash Ashok Deshmukh",
+          "orcid": "0000-0002-9311-6533",
+          "affiliations": [
+            "Liaoning Academy of Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prakhar Singh Rajput",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology Gandhinagar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manish Sahoo",
+          "orcid": null,
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raghavan Ranganathan",
+          "orcid": "0000-0003-1015-791X",
+          "affiliations": [
+            "Indian Institute of Technology Gandhinagar"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Research Letters",
+      "doi": "10.1080/21663831.2026.2684721",
+      "type": "article",
+      "url": "https://doi.org/10.1080/21663831.2026.2684721",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/21663831.2026.2684721?needAccess=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Multicomponent alloys demonstrate outstanding mechanical, chemical, and physical performance, but their vast compositional space cannot be efficiently navigated using conventional trial-and-error strategies. Progress is further hindered by the scarcity of accurate interatomic potentials for such complex chemistries, limiting predictive atomistic modeling. Machine-learned interatomic potentials (MLIPs) have recently emerged as powerful tools that deliver near-quantum accuracy while extending accessible length and time scales, thereby accelerating alloy design and discovery. This review examines recent advances in MLIP frameworks for multicomponent alloys, focusing on structural and thermodynamic predictions while highlighting key unresolved challenges, including transferability, extrapolation reliability, uncertainty quantification, and efficient dataset generation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Machine learning-enhanced exploration of 2D MXene van der Waals heterostructures for energy storage",
+      "authors": [
+        "A. S. Shruthi",
+        "Abhilash Ravikumar"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "A. S. Shruthi",
+          "orcid": null,
+          "affiliations": [
+            "Amrita Vishwa Vidyapeetham"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abhilash Ravikumar",
+          "orcid": "0000-0003-2208-7488",
+          "affiliations": [
+            "Amrita Vishwa Vidyapeetham"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Discover Electrochemistry.",
+      "doi": "10.1007/s44373-025-00084-0",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s44373-025-00084-0",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://link.springer.com/content/pdf/10.1007/s44373-025-00084-0.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of materials for advanced battery technologies is being revolutionized by two-dimensional (2D) MXene van der Waals (vdW) heterostructures, which offer improved regulation of interfacial chemistry, ion mobility, and electronic structure. Despite their considerable theoretical promise for energy storage applications, MXenes encounter challenges related to material instability and the extensive array of unexamined heterostructure combinations that impede practical implementation. This perspective explores the potential of machine learning (ML) to transform the identification of resilient and efficient 2D MXene van der Waals heterostructures for electrochemical energy storage. Machine learning approaches can achieve orders of magnitude speedup over traditional DFT methods while maintaining chemical accuracy. We examine present computational constraints, particularly the difficulties in precisely simulating intricate dynamic processes and van der Waals interactions within MXene systems. The amalgamation of density functional theory (DFT) with machine learning methodologies presents a promising strategy for assessing several prospective 2D MXene configurations while preserving high predictive precision. Through the analysis of recent advancements in MXene-based systems, including vanadium carbide (V 2 CT x ) achieving experimental capacities up to 631 mAh g −1 , double transition metal VNbCT x reaching 520.5 mAh g −1 , andniobium carbide (Nb 2 CT x ) demonstrating versatile multi-ion storage capabilities across lithium, sodium, and potassium systems, we illustrate how integrated ML–DFT frameworks can expedite systematic discovery initiatives for dependable and efficient materials that are crucial for actualizing the potential of 2D MXene van der Waals heterostructures in advanced energy storage applications. Graphical abstract",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Probing charge-transfer processes in Pt/TiO 2 photocatalysts by amperometric/potentiometric photo-SECM",
+      "authors": [
+        "Tianyu Bo",
+        "Haoqing Su",
+        "Ziyuan Wang",
+        "Je Hyun Bae",
+        "Gaukhar Askarova",
+        "Shu Hu",
+        "Michael V. Mirkin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Tianyu Bo",
+          "orcid": "0000-0002-7976-6513",
+          "affiliations": [
+            "The Graduate Center, CUNY",
+            "City University of New York",
+            "Queens University of Charlotte",
+            "Queens College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoqing Su",
+          "orcid": "0000-0001-9155-732X",
+          "affiliations": [
+            "Yale University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ziyuan Wang",
+          "orcid": "0009-0003-9433-5521",
+          "affiliations": [
+            "Queens University of Charlotte",
+            "Queens College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Je Hyun Bae",
+          "orcid": "0000-0001-8840-2706",
+          "affiliations": [
+            "Queens University of Charlotte",
+            "Queens College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gaukhar Askarova",
+          "orcid": "0000-0002-6720-6711",
+          "affiliations": [
+            "The Graduate Center, CUNY",
+            "City University of New York",
+            "Queens University of Charlotte",
+            "Queens College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shu Hu",
+          "orcid": "0000-0002-5041-0169",
+          "affiliations": [
+            "Yale University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael V. Mirkin",
+          "orcid": "0000-0002-3424-5810",
+          "affiliations": [
+            "City University of New York",
+            "Queens University of Charlotte",
+            "Queens College"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2527861123",
+      "type": "article",
+      "url": "https://doi.org/10.1073/pnas.2527861123",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2527861123",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Electrocatalysts in combination with photoelectrodes can provide higher activity and/or lower overpotential for a broad range of photoelectrochemical processes. Although cocatalyst nanoparticles (NPs) on semiconductor surfaces have been extensively studied, spatially resolved kinetic measurements of charge-transfer processes in such systems remain challenging. Here, we introduce a unique approach based on a single setup employing contact amperometric/potentiometric photo-scanning electrochemical microscopy for quantitative, high-resolution measurements of photoelectrochemical processes in nanostructured photocatalysts. Amperometric SECM experiments are coupled with nanoscale local potential measurements made using the same nanotip, which is brought within the tunneling distance from the sample surface. Pt NPs electrodeposited on the surface of Nb-doped TiO 2 rutile (110) single crystals are used as a model experimental system to demonstrate the capabilities of the developed technique for probing local rates of photogenerated hole/electron transfers, such as overall water splitting (OWS) with coevolved H 2 and O 2 , as well as the oxidation/reduction of a reversible redox mediator (e.g., ferro/ferricyanide). This methodology resolves spatial variations in photocatalytic reactivity of nanoscale cocatalysts supported on semiconductors with a spatial resolution on the order of 10 nm. In the Pt/Nb:TiO2 system, this method identifies distinct cathodic and anodic sites separated by ~150 nm, with local surface potentials of approximately −0.53 V and +0.58 V vs. Ag/AgCl, respectively. Complementary structural/compositional and spectroscopic analyses reveal the coexistence of metallic Pt and oxidized Pt species under OWS conditions, establishing asymmetric surface energetics consistent with a ~1.5 eV difference in local band-edge position and thereby driving directional carrier separation within Nb:TiO 2 .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Machine Learning-Enhanced Molecular Dynamics: Current State, Challenges and Perspectives",
+      "authors": [
+        "Christos Stavrogiannis",
+        "Filippos D. Sofos",
+        "Theodoros E. Karakasidis"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Christos Stavrogiannis",
+          "orcid": "0000-0003-2289-2495",
+          "affiliations": [
+            "University of Thessaly"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Filippos D. Sofos",
+          "orcid": "0000-0001-5036-2120",
+          "affiliations": [
+            "University of Thessaly"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Theodoros E. Karakasidis",
+          "orcid": "0000-0001-9580-0702",
+          "affiliations": [
+            "University of Thessaly"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Archives of Computational Methods in Engineering",
+      "doi": "10.1007/s11831-026-10505-x",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11831-026-10505-x",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11831-026-10505-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Atomic-scale simulations, such as molecular dynamics (MD), have undergone a rapid evolution during the past decades, leading to their broad adoption in various scientific and engineering fields, where they have unveiled hidden phenomena otherwise inaccessible through experiments. In recent years, the integration of machine learning (ML), either as a post-processing tool or embedded directly in a hybrid manner to the simulation workflow, has further enhanced the predictive power of MD by improving accuracy, reducing computational costs, and uncovering patterns in high-dimensional data. This review investigates the integration of MD with ML by identifying existing approaches for their combination within popular simulation platforms. It incorporates an analysis of research trends from 2020 to 2025 based on Scopus-indexed publications. By synthesizing recent developments and highlighting ongoing challenges, this review aims to guide future efforts in exploiting the full potential of MD/ML integration across scientific and engineering disciplines, such as computational chemistry and physics, biomolecular engineering, medicine, soft matter physics, materials science and nanotechnology.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Spinel oxide crystallography governing lattice-coupled water-redox electrocatalysis",
+      "authors": [
+        "Tianqi Ma",
+        "Mincan Yang",
+        "Jiamu Feng",
+        "Linai Zhou",
+        "Weilin Xu",
+        "Eryang Mao",
+        "Jun Wan"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Tianqi Ma",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mincan Yang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiamu Feng",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linai Zhou",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weilin Xu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eryang Mao",
+          "orcid": "0000-0003-3875-1232",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Wan",
+          "orcid": "0000-0002-7575-7118",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Smart Materials and Devices",
+      "doi": "10.70401/smd.2026.0025",
+      "type": "article",
+      "url": "https://doi.org/10.70401/smd.2026.0025",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://oss.sciexplor.com/manuscript/798/publish/SMD_202546.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Electrocatalytic water splitting is a key technology for sustainable hydrogen production, but its efficiency is limited by the slow kinetics of the oxygen evolution reaction (OER) and the hydrogen evolution reaction (HER). Spinel oxides (AB2O4) have drawn significant interest due to their electrochemical stability, tunable electronic properties, and low cost. Their catalytic performance is highly influenced by the crystalline phase, which governs charge transport, active site density, and reaction energetics. However, the effects of phase transitions and structural variations on electrocatalysis remain insufficiently explored. This review systematically evaluates the performance of spinel oxides across six primary crystal phases: cubic, hexagonal, tetragonal, orthorhombic, rhombohedral, and monoclinic, discussing how these structural features affect charge transport, intermediate adsorption, and reaction energetics. The review emphasizes the structure-electronic-catalytic performance relationships and covers phase variants, including coordination environment modulation, defect regulation, metastable phase transitions, and strain engineering. It further examines how phase symmetry, oxygen coordination, orbital rearrangement, and interfacial characteristics influence OER and HER kinetics. Challenges in phase engineering, such as controlling phase transitions and stabilizing metastable phases, are also highlighted. This review provides a framework for understanding the electrocatalytic behavior of spinel oxides and offers guidance for designing high-performance catalysts for water splitting.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "External-stimuli-assisted photocatalysis for solar chemical conversion",
+      "authors": [
+        "Yiyang Li",
+        "Mengqi Duan",
+        "Wentian Niu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yiyang Li",
+          "orcid": "0000-0002-9278-7386",
+          "affiliations": [
+            "University of Oxford"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mengqi Duan",
+          "orcid": null,
+          "affiliations": [
+            "University of Oxford"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wentian Niu",
+          "orcid": "0009-0006-7314-9633",
+          "affiliations": [
+            "University of Oxford"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Discover Chemistry.",
+      "doi": "10.1007/s44371-026-00874-4",
+      "type": "review",
+      "url": "https://doi.org/10.1007/s44371-026-00874-4",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://link.springer.com/content/pdf/10.1007/s44371-026-00874-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Heterogeneous photocatalysis offers a promising route for solar-to-chemical energy conversion, yet its efficiency continues to be constrained by rapid electron-hole recombination and sluggish surface redox kinetics. Recent advances show that integrating external stimuli, such as electric, magnetic, thermal, microwave fields, can provide dynamically tuneable driving forces that influence charge, spin, and lattice behaviour in semiconductors. These external-stimuli interactions enable new mechanisms for promoting charge carrier separation, stabilising intermediates, and modulating interfacial energetics beyond the limits of conventional band-structure engineering. This review presents a comprehensive discussion of external-stimuli-assisted heterogeneous photocatalysis. We examine how different fields interact with semiconductors through various pathways. Representative material platforms, including metal oxides, polar-faceted supports, two-dimensional chalcogenides, are analysed to reveal structure-activity relationships. We further discuss emerging synergistic effects in multi-stimuli systems, where coupled fields create non-linear enhancements in photocatalytic performance. Advances in operando characterisation techniques are highlighted as essential tools for probing these dynamic processes. Together, these developments illustrate how external stimuli can be harnessed to design adaptive, field-responsive photocatalytic systems capable of significantly higher activity, selectivity, and stability. By outlining mechanistic principles, material design strategies, and key challenges, this review provides a framework for developing next-generation solar-to-chemical energy technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Machine learning pipelines for the design of solid-state electrolytes",
+      "authors": [
+        "Vinamr Jain",
+        "Zhilong Wang",
+        "Fengqi You"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Vinamr Jain",
+          "orcid": "0009-0006-7544-7482",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhilong Wang",
+          "orcid": "0000-0002-1910-3654",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengqi You",
+          "orcid": "0000-0001-9609-4299",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Horizons",
+      "doi": "10.1039/d5mh01525a",
+      "type": "review",
+      "url": "https://doi.org/10.1039/d5mh01525a",
+      "cited_by_count": 32,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/mh/d5mh01525a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": ") and provide concrete strategies through transfer learning and active learning frameworks. We bridge conventional computational methods (DFT, molecular dynamics) with modern ML techniques, demonstrating hybrid workflows that overcome individual limitations. The review concludes with actionable recommendations for multi-objective optimization, explainable AI implementation, and physics-informed model development, establishing a comprehensive roadmap for the next generation of AI-accelerated solid-state battery materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Applications and Advances of Machine Learning in the Development of Solid-State Electrolytes for Lithium-Ion Batteries",
+      "authors": [
+        "Tiantian Gao",
+        "Yufeng Wu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Tiantian Gao",
+          "orcid": "0009-0001-5424-2238",
+          "affiliations": [
+            "North University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yufeng Wu",
+          "orcid": "0000-0002-3705-2950",
+          "affiliations": [
+            "Shanxi University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Omega",
+      "doi": "10.1021/acsomega.5c08467",
+      "type": "review",
+      "url": "https://doi.org/10.1021/acsomega.5c08467",
+      "cited_by_count": 57,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.5c08467?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state electrolytes (SSEs) have attracted considerable attention for their ability to effectively suppress lithium dendrite growth and enhance the safety and life cycle of lithium-ion batteries (LIBs). However, the commercialization of SSEs has been hindered by low ionic conductivity, limited mechanical strength, and poor interfacial compatibility. Recently, machine learning (ML) has arisen as a helpful tool in SSE studies owing to its efficient data processing and pattern recognition capabilities. This paper reviews recent progress in the application of ML techniques to SSE development for LIBs. It first discusses SSE database creation strategies, then examines the strong influence of descriptor selection on the model's predictive performance of SSE properties, and then highlights the use of various ML algorithms, such as predictive models and generative models, in predicting key SSE properties, including ionic conductivity, elastic moduli, and thermodynamic stability. Additionally, we systemically analyze and compare the interpretability and evaluation metrics of the ML models. We hope this review can provide researchers with a comprehensive perspective, promote the deeper integration of ML in SSE development, and facilitate rapid next-generation SSE discovery and design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Toward AI ecosystems for electrolyte and interface engineering in solid-state batteries",
+      "authors": [
+        "Zhilong Wang",
+        "Wolfgang G. Zeier",
+        "Fengqi You"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Zhilong Wang",
+          "orcid": "0000-0002-1910-3654",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wolfgang G. Zeier",
+          "orcid": "0000-0001-7749-5089",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "University of Münster",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengqi You",
+          "orcid": "0000-0001-9609-4299",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.aea0638",
+      "type": "review",
+      "url": "https://doi.org/10.1126/sciadv.aea0638",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.science.org/doi/pdf/10.1126/sciadv.aea0638?download=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state batteries (SSBs) are pivotal for sustainable energy storage, delivering extended life span, low-temperature resilience, and enhanced safety. However, designing stable solid electrolytes and interfaces in SSBs remains a formidable challenge. As a disruptive catalyst for paradigm shifts spanning materials discovery and energy system redesign, artificial intelligence (AI) is unleashing unprecedented possibilities-could it be the key breakthrough for SSB innovation? Here, we critically review the progress of AI applications in electrolyte and interface engineering, covering key aspects such as stability, conductivity, mechanical properties, and interface resistance. This work emphasizes the integration of cutting-edge modeling strategies, including the materials' screening pipelines, machine learning force fields, and generative models. Furthermore, we conduct an in-depth analysis of persistent challenges and propose a roadmap featuring multiscale modeling and multimodal models with physical constraints to build an intelligent ecosystem for SSB development. This review is expected to inspire interdisciplinary collaborations and drive forward energy materials design, ultimately accelerating the development of sustainable and cutting-edge battery technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Novel fast Li-ion conductors for solid-state electrolytes from first-principles",
+      "authors": [
+        "Thakur, Tushar Singh",
+        "Ecole, Loris",
+        "Nicola Marzari"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Thakur, Tushar Singh",
+          "orcid": null,
+          "affiliations": [
+            "National Center of Competence in Research Materials’ Revolution: Computational Design and Discovery of Novel Materials",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ecole, Loris",
+          "orcid": null,
+          "affiliations": [
+            "National Center of Competence in Research Materials’ Revolution: Computational Design and Discovery of Novel Materials",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicola Marzari",
+          "orcid": "0000-0002-9764-0199",
+          "affiliations": [
+            "National Center of Competence in Research Materials’ Revolution: Computational Design and Discovery of Novel Materials",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Apollo (University of Cambridge)",
+      "doi": "10.24435/materialscloud:zh-cn",
+      "type": "article",
+      "url": "https://doi.org/10.24435/materialscloud:zh-cn",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.repository.cam.ac.uk/bitstreams/8a9cb259-8078-4d14-86f7-4768948aaca6/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present a high-throughput computational screening for fast lithium-ion conductors to identify promising materials for application in all solid-state electrolytes. Starting from more than 30,000 Li-containing experimental structures sourced from Crystallography Open Database, Inorganic Crystal Structure Database and Materials Platform for Data Science, we perform highly automated calculations to identify electronic insulators. On these ~1000 structures, we use molecular dynamics simulations to estimate Li-ion diffusivities using the pinball model, which describes the potential energy landscape of diffusing lithium with accuracy similar to density functional theory while being 200-500 times faster. Then we study the ~60 most promising and previously unknown fast conductors with full first-principles molecular dynamics simulations at several temperatures to estimate their activation barriers. The MD trajectories of these structures are included along with all the structures on which electronic strutcure calculations were performed. The entire screening provenance is provided for one structure to facilitate the reproduction of this screening.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Predicting ionic conductivity in solids from the machine-learned potential energy landscape",
+      "authors": [
+        "A. Maevskiy",
+        "Alexandra Carvalho",
+        "Emil Sataev",
+        "Volha Turchyna",
+        "Keian Noori",
+        "Aleksandr S. Rodin",
+        "A. H. Castro Neto",
+        "A. Ustyuzhanin"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "A. Maevskiy",
+          "orcid": "0000-0003-1652-8005",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexandra Carvalho",
+          "orcid": "0000-0002-2851-1887",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emil Sataev",
+          "orcid": "0009-0000-2891-0792",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Volha Turchyna",
+          "orcid": "0009-0005-1081-2947",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keian Noori",
+          "orcid": "0000-0003-1939-7477",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aleksandr S. Rodin",
+          "orcid": "0000-0001-5321-7690",
+          "affiliations": [
+            "National University of Singapore",
+            "Yale-NUS College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. H. Castro Neto",
+          "orcid": "0000-0003-0613-4010",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Ustyuzhanin",
+          "orcid": "0000-0001-7865-2357",
+          "affiliations": [
+            "National University of Singapore",
+            "Constructor University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review Research",
+      "doi": "10.1103/physrevresearch.7.023167",
+      "type": "article",
+      "url": "https://doi.org/10.1103/physrevresearch.7.023167",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevResearch.7.023167",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Discovering new superionic materials is essential for advancing solid-state batteries, which offer improved energy density and safety compared to traditional lithium-ion batteries with liquid electrolytes. Conventional computational methods for identifying such materials are resource-intensive and not easily scalable. Recently, universal interatomic potential models have been developed using equivariant graph neural networks. These models are trained on extensive datasets of first-principles force and energy calculations. One can achieve significant computational advantages by leveraging them as the foundation for traditional methods of assessing the ionic conductivity, such as molecular dynamics or nudged elastic band techniques. However, the generalization error from model inference on diverse atomic structures arising in such calculations can compromise the reliability of the results. In this work, we propose an approach for the quick and reliable screening of ionic conductors through the analysis of a universal interatomic potential. Our method incorporates a set of heuristic structure descriptors that effectively employ the rich knowledge of the underlying model while requiring minimal generalization capabilities. Using our descriptors, we rank lithium-containing materials in the Materials Project database according to their expected ionic conductivity. Eight out of the ten highest-ranked materials are confirmed to be superionic at room temperature in first-principles calculations. Notably, our method achieves a speed-up factor of approximately 50 compared to molecular dynamics driven by a machine-learning potential, and it is at least 3000 times faster compared to first-principles molecular dynamics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Classification of (dis)ordered structures as superionic lithium conductors with an experimental structure–conductivity database",
+      "authors": [
+        "Daniel B. McHaffie",
+        "Zachery W. B. Iton",
+        "Jadon M. Bienz",
+        "Forrest A. L. Laskowski",
+        "Kimberly A. See"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Daniel B. McHaffie",
+          "orcid": "0000-0002-7265-7584",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zachery W. B. Iton",
+          "orcid": "0000-0002-2226-9006",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jadon M. Bienz",
+          "orcid": "0000-0002-6973-653X",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Forrest A. L. Laskowski",
+          "orcid": "0000-0001-8909-483X",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kimberly A. See",
+          "orcid": "0000-0002-0133-9693",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d5dd00052a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5dd00052a",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00052a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "A data-driven approach identifies 241 superionic Li solid electrolyte candidates using a curated structure–conductivity database and graph features compatible with disordered crystals. Validation of Li 9 B 19 S 33 highlights the method’s effectiveness.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Benchmarking machine learning models for predicting lithium ion migration",
+      "authors": [
+        "Artem D. Dembitskiy",
+        "Innokentiy S. Humonen",
+        "Roman A. Eremin",
+        "Dmitry A. Aksyonov",
+        "Stanislav S. Fedotov",
+        "Semen Budennyy"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Artem D. Dembitskiy",
+          "orcid": "0000-0002-0158-8083",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology",
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Innokentiy S. Humonen",
+          "orcid": "0000-0003-2621-507X",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Roman A. Eremin",
+          "orcid": "0000-0002-2550-9239",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dmitry A. Aksyonov",
+          "orcid": "0000-0002-3692-4809",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stanislav S. Fedotov",
+          "orcid": "0000-0003-4348-6517",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Semen Budennyy",
+          "orcid": "0000-0001-6916-2030",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01571-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01571-z",
+      "cited_by_count": 28,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01571-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of fast ionic conductors to improve the performance of electrochemical devices relies on expensive high-throughput (HT) density functional theory (DFT) calculations of transport properties. Machine learning (ML) can accelerate HT workflows but requires high-quality data to ensure accurate predictions from trained models. In this study, we introduce the LiTraj dataset, which comprises 13,000 percolation and 122,000 migration barriers, and 1700 migration trajectories, calculated for Li-ion in diverse crystal structures using empirical force fields and DFT, respectively. With LiTraj, we demonstrate that classical ML models and graph neural networks (GNNs) for structure-to-property prediction of percolation and migration barriers can distinguish between “fast” and “poor” ionic conductors. Furthermore, we evaluate the capability of GNN-based universal ML interatomic potentials (uMLIPs) to identify optimal Li-ion migration trajectories. Fine-tuned uMLIPs achieve near-DFT accuracy in predicting migration barriers, significantly accelerating HT screenings of new ionic conductors.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Machine-learning-assisted discovery of lattice dynamics signatures of sodium superionic conductors",
+      "authors": [
+        "Ogheneyoma Aghoghovbia",
+        "Riccardo Rurali",
+        "Mohammed Al‐Fahdi",
+        "Joshua Ojih",
+        "De‐en Jiang",
+        "Ming Hu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Ogheneyoma Aghoghovbia",
+          "orcid": "0009-0009-3132-8424",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Riccardo Rurali",
+          "orcid": "0000-0002-4086-4191",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohammed Al‐Fahdi",
+          "orcid": "0000-0001-5296-8433",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joshua Ojih",
+          "orcid": "0000-0003-0108-8318",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "De‐en Jiang",
+          "orcid": "0000-0001-5167-0731",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Hu",
+          "orcid": "0000-0002-8209-0139",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Horizons",
+      "doi": "10.1039/d5mh01176k",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5mh01176k",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/mh/d5mh01176k",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "VDOS center, acoustic cutoff frequency, and low-frequency phonon coupling into machine learning frameworks, accelerating the discovery and rational design of high-performance sodium superionic conductors.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Revisiting the ion dynamics in Li x CoO 2 and Na x CoO 2",
+      "authors": [
+        "Ryoichi Tatara",
+        "Daisuke Igarashi",
+        "Masanobu Nakayama",
+        "Tomooki Hosaka",
+        "Kazuki Ohishi",
+        "Izumi Umegaki",
+        "Jumpei Nakamura",
+        "Akihiro Koda",
+        "Hiroto Ohta",
+        "Rasmus Palm",
+        "Martin Må̊nsson",
+        "Eun Jeong Kim",
+        "Kei Kubota",
+        "Jun Sugiyama",
+        "Shinichi Komaba"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Ryoichi Tatara",
+          "orcid": "0000-0002-8148-5294",
+          "affiliations": [
+            "Tokyo University of Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daisuke Igarashi",
+          "orcid": "0000-0002-4107-3367",
+          "affiliations": [
+            "Tokyo University of Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masanobu Nakayama",
+          "orcid": "0000-0002-5113-053X",
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomooki Hosaka",
+          "orcid": "0000-0002-5922-8320",
+          "affiliations": [
+            "Tokyo University of Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuki Ohishi",
+          "orcid": "0000-0003-1494-6502",
+          "affiliations": [
+            "Comprehensive Research Organization for Science and Society",
+            "CROSS Neutron Science and Technology Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Izumi Umegaki",
+          "orcid": "0000-0001-9271-3574",
+          "affiliations": [
+            "High Energy Accelerator Research Organization",
+            "Institute of Materials Structure Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jumpei Nakamura",
+          "orcid": "0000-0002-8381-5074",
+          "affiliations": [
+            "High Energy Accelerator Research Organization",
+            "Institute of Materials Structure Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akihiro Koda",
+          "orcid": "0000-0002-4453-4472",
+          "affiliations": [
+            "High Energy Accelerator Research Organization",
+            "Institute of Materials Structure Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroto Ohta",
+          "orcid": "0000-0002-0268-9468",
+          "affiliations": [
+            "Doshisha University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rasmus Palm",
+          "orcid": "0000-0002-1129-9234",
+          "affiliations": [
+            "KTH Royal Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Må̊nsson",
+          "orcid": "0000-0002-3086-9642",
+          "affiliations": [
+            "KTH Royal Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eun Jeong Kim",
+          "orcid": "0000-0002-2941-0682",
+          "affiliations": [
+            "Tokyo University of Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kei Kubota",
+          "orcid": "0000-0001-8941-3650",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Sugiyama",
+          "orcid": "0000-0002-0916-5333",
+          "affiliations": [
+            "Comprehensive Research Organization for Science and Society",
+            "CROSS Neutron Science and Technology Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shinichi Komaba",
+          "orcid": "0000-0002-9757-5905",
+          "affiliations": [
+            "Tokyo University of Science"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemical Science",
+      "doi": "10.1039/d5sc03394b",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5sc03394b",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d5sc03394b",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "By combining operando muon spin spectroscopy and molecular dynamics simulations, this study reveals how ion size, electrostatic interactions, and crystal structure influence self-diffusion in layered Li x CoO 2 and Na x CoO 2 .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Computational screening of sodium solid electrolytes through unsupervised learning",
+      "authors": [
+        "Damdae Park",
+        "Wonsuk Chung",
+        "Byoung Koun Min",
+        "Ung Lee",
+        "Seungho Yu",
+        "Kyeongsu Kim"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Damdae Park",
+          "orcid": "0000-0003-3340-2156",
+          "affiliations": [
+            "Korea Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wonsuk Chung",
+          "orcid": null,
+          "affiliations": [
+            "Korea Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Byoung Koun Min",
+          "orcid": "0000-0001-5766-0251",
+          "affiliations": [
+            "Korea University",
+            "Korea Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ung Lee",
+          "orcid": "0000-0001-6693-5309",
+          "affiliations": [
+            "Korea University",
+            "Korea Institute of Science and Technology",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seungho Yu",
+          "orcid": "0000-0003-3912-6463",
+          "affiliations": [
+            "Korea Institute of Science and Technology",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kyeongsu Kim",
+          "orcid": "0000-0002-9383-7605",
+          "affiliations": [
+            "Korea Institute of Science and Technology",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-024-01392-6",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-024-01392-6",
+      "cited_by_count": 28,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-024-01392-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract All-solid-state Na-ion batteries have emerged as alternatives of all-solid-state Li-ion batteries owing to the global abundance of Na element. However, the attempts to seek a commercially viable Na-ion solid-state electrolyte (SSE) are challenging due to the relatively poor understanding of the structures which are effective for conducting Na-ion compared to Li-ion SSE. In this study, unsupervised machine learning is performed to reveal the major characteristics of possible Na-ion SSEs. The descriptor vector that consists of 180 quantitative structure-properties for 12,670 Na-ion contained SSE structures was utilized as training data for the unsupervised clustering via the hierarchical density-based spatial clustering of applications with noise. The resulted clusters identified 12 structure groups including experimentally proven Na-ion superconductor ones such as NASICONs and thiophosphates. The post hoc analysis of the clusters reveals that the structure groups with high conductivity shares the similar characteristics implying the existence of mobility ion channels and the weak interactions between Na-ions and the proximate atoms. The ab initio molecular dynamics simulation results are presented to confirm the promising Na-ion SSE group shows characteristic tendencies in Na ion diffusivity distinguishable from other groups. The Na-ion SSEs map provided in this study will serve as fundamental guidelines to develop novel Na-ion SSEs for all-solid-state Na-ion batteries",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Effects of Al concentration on the structure and conductivity of lithium lanthanum zirconium oxide",
+      "authors": [
+        "Alexandra C. Moy",
+        "Alicia Maria Manjón-Sanz",
+        "Tori C. Caracciolo",
+        "Maxim V. Lobanov",
+        "Gabriel M. Veith",
+        "Jeff S. Sakamoto"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Alexandra C. Moy",
+          "orcid": "0000-0002-4402-5432",
+          "affiliations": [
+            "Oak Ridge National Laboratory",
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alicia Maria Manjón-Sanz",
+          "orcid": "0000-0002-7091-3484",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tori C. Caracciolo",
+          "orcid": null,
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxim V. Lobanov",
+          "orcid": "0000-0001-7305-6601",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gabriel M. Veith",
+          "orcid": "0000-0002-5186-4461",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeff S. Sakamoto",
+          "orcid": "0000-0002-3099-462X",
+          "affiliations": [
+            "University of California, Santa Barbara",
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/d4ta04862h",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4ta04862h",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/ta/d4ta04862h",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "New structural contributions to conductivity in cubic Li 7−3 x Al x La 3 Zr 2 O 12 and differences in conductivity controlling mechanisms between different substitution types are revealed.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Classification of (Dis)ordered Structures as Superionic Lithium Conductors",
+      "authors": [
+        "Daniel B. McHaffie",
+        "Zachery W. B. Iton",
+        "Jadon M. Bienz",
+        "Forrest A. L. Laskowski",
+        "Kimberly A. See"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Daniel B. McHaffie",
+          "orcid": "0000-0002-7265-7584",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zachery W. B. Iton",
+          "orcid": "0000-0002-2226-9006",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jadon M. Bienz",
+          "orcid": "0000-0002-6973-653X",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Forrest A. L. Laskowski",
+          "orcid": "0000-0001-8909-483X",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kimberly A. See",
+          "orcid": "0000-0002-0133-9693",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2024-712r9",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2024-712r9",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-712r9",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state electrolytes (SSEs) are critical for the development of high-performance all-solid-state batteries. Data-driven efforts to discover novel SSEs have been constrained by the absence of databases linking ionic conductivity with structure, as well as by challenges in encoding structural information for the disorder that is often found in superionic conductors. Here, we construct the largest database to date of experimentally measured ionic conductivity values paired with corresponding crystal structures, comprising 548 Li-containing compounds. Graph-based features, derived using a transfer learning framework, enable learning directly from disordered crystals, and AtomSets models leveraging these features outperform domain-specific features in a classification task. These models are employed to screen the Inorganic Crystal Structure Database (ICSD) and Materials Project for superionic Li-containing compounds. We identify 241 compounds with predicted superionic conductivity and band gaps greater than 1 eV, providing promising candidates for future experimental validation and the development of advanced SSEs for all-solid-state batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "XPS Binding Energy Shifts in 2D Ti 3 C 2 T z MXene go largely Beyond Intuitive Explanations: Rationalization from DFT Simulations and Experiments",
+      "authors": [
+        "Florian Brette",
+        "Stéphane Celerier",
+        "Christine Canaff",
+        "Lola Loupias",
+        "Michaël Paris",
+        "Aurélien Habrioux",
+        "Florent Boucher",
+        "Vincent Mauchamp"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Florian Brette",
+          "orcid": "0009-0002-1643-771X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Université de Poitiers",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stéphane Celerier",
+          "orcid": "0000-0001-6308-2494",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christine Canaff",
+          "orcid": "0000-0002-4597-551X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lola Loupias",
+          "orcid": "0000-0002-3019-0250",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michaël Paris",
+          "orcid": "0000-0002-8671-0630",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aurélien Habrioux",
+          "orcid": "0000-0002-4761-1007",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Florent Boucher",
+          "orcid": "0000-0001-5438-3930",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vincent Mauchamp",
+          "orcid": "0000-0002-2381-2234",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Université de Poitiers"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Small Methods",
+      "doi": "10.1002/smtd.202400848",
+      "type": "article",
+      "url": "https://doi.org/10.1002/smtd.202400848",
+      "cited_by_count": 63,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hal.science/hal-04755682v1/document",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract MXenes are prototypes of surface tunable 2D materials with vast potential for properties tuning. Accurately characterizing their surface functionalization and its role in electronic structure is crucial, X‐ray photoelectron spectroscopy (XPS) being among the go‐to methods to do so. Despite extensive use, XPS analysis remains however intricate. Focusing on the benchmark MXene Ti 3 C 2 T z , Density Functional Theory (DFT) calculations of core‐level binding energy shifts ( BE .s.) are combined with experiments in order to provide a quantitative interpretation of XPS spectra. This approach demonstrates that BE .s. are driven by the complex interplay between chemical, structural, and subtle electronic structure effects preventing analysis from intuitive arguments or comparison with reference materials. In particular, it is shown that O terminations induce the largest BE .s. at Ti 2p levels despite lower electronegativity than F. Additionally, F 1s levels show weak sensitivity to the F local environment, explaining the single contribution in the spectrum, whereas O 1s states are significantly affected by the local surface chemistry. Finally, clear indicators of surface group vacancies are given at Ti 2p and O 1s levels. These results demonstrate the combination of calculations with experiments as a method of the highest value for MXenes XPS spectra analysis, providing guidelines for otherwise complex interpretations.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "A Workflow for Identifying Viable Crystal Structures with Partially Occupied Sites Applied to the Solid Electrolyte Cubic Li 7 La 3 Zr 2 O 12",
+      "authors": [
+        "Julian Holland",
+        "Tom Demeyere",
+        "Arihant Bhandari",
+        "Felix Hanke",
+        "Victor Milman",
+        "Chris‐Kriton Skylaris"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Julian Holland",
+          "orcid": "0000-0001-8959-0112",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tom Demeyere",
+          "orcid": "0000-0002-5023-6156",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arihant Bhandari",
+          "orcid": "0000-0002-2914-9402",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Felix Hanke",
+          "orcid": "0000-0002-4155-5980",
+          "affiliations": [
+            "BIOVIA"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Victor Milman",
+          "orcid": "0000-0003-2258-1347",
+          "affiliations": [
+            "BIOVIA"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris‐Kriton Skylaris",
+          "orcid": "0000-0003-0258-3433",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Physical Chemistry Letters",
+      "doi": "10.1021/acs.jpclett.3c02064",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jpclett.3c02064",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.3c02064",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Experimental and theoretical works have, to date, been unable to uncover the ground state configuration of prominent solid electrolyte candidate cubic Li$_7$La$_3$Zr$_2$O$_{12}$ (c-LLZO). Computational studies rely on an initial low-energy structure as a reference point. In this study, we present a methodology to identify energetically favourable configurations of c-LLZO, enabling the isolation of low-energy structures, for a crystallographically predicted structure. We begin by eliminating structures that involve overlapping Li atoms based on nearest neighbour counts. We further reduce the configuration space by eliminating symmetry images from all remaining structures. This is followed up with a machine learning-based energetic ordering of all remaining structures. By considering the geometrical constraints that emerge from this methodology we determine that a large portion of previously reported structures may not be feasible or stable. The method developed here could be extended to other ion conductors and partially occupied crystals. Furthermore, we provide all structures generated in a freely accessible database with the aim to improve accuracy and reproducibility in future c-LLZO research.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Assessing the Surface Chemistry of 2D Transition Metal Carbides (MXenes): A Combined Experimental/Theoretical 13C Solid State NMR Approach",
+      "authors": [
+        "Florian Brette",
+        "Dani Kourati",
+        "Michaël Paris",
+        "Lola Loupias",
+        "Stéphane Celerier",
+        "Thierry Cabioc’h",
+        "Michaël Deschamps",
+        "Florent Boucher",
+        "Vincent Mauchamp"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Florian Brette",
+          "orcid": "0009-0002-1643-771X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Université de Poitiers",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dani Kourati",
+          "orcid": "0009-0001-0870-4833",
+          "affiliations": [
+            "Université d'Orléans",
+            "Centre National de la Recherche Scientifique",
+            "Conditions Extrêmes et Matériaux Haute Température et Irradiation"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michaël Paris",
+          "orcid": "0000-0002-8671-0630",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lola Loupias",
+          "orcid": "0000-0002-3019-0250",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stéphane Celerier",
+          "orcid": "0000-0001-6308-2494",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Poitiers",
+            "Institut de Chimie des Milieux et des Matériaux de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thierry Cabioc’h",
+          "orcid": "0000-0002-5736-2788",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Université de Poitiers"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michaël Deschamps",
+          "orcid": "0000-0001-8309-3932",
+          "affiliations": [
+            "Université d'Orléans",
+            "Centre National de la Recherche Scientifique",
+            "Conditions Extrêmes et Matériaux Haute Température et Irradiation"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Florent Boucher",
+          "orcid": "0000-0001-5438-3930",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut des Matériaux Jean Rouxel",
+            "Nantes Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vincent Mauchamp",
+          "orcid": "0000-0002-2381-2234",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Université de Poitiers"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.2c11290",
+      "type": "article",
+      "url": "https://doi.org/10.1021/jacs.2c11290",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hal.science/hal-04012767/document",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "The surface functionalization of 2D transition metal carbides or nitrides, so-called MXenes, is one of the fundamental levers allowing to deeply modify their physicochemical properties. Beyond new approaches to control this pivotal parameter, the ability to unambiguously assess their surface chemistry is thus key to expand the application fields of this large class of 2D materials. Using a combination of experiments and state of the art density functional theory calculations, we show that the NMR signal of the carbon─the element common to all MXene carbides and corresponding MAX phase precursors─is extremely sensitive to the MXene functionalization, although carbon atoms are not directly bonded to the surface groups. The simulations include the orbital part to the NMR shielding and the contribution from the Knight shift, which is crucial to achieve good correlation with the experimental data, as demonstrated on a set of reference MXene precursors. Starting with the Ti 3 C 2 T x MXene benchmark system, we confirm the high sensitivity of the 13 C NMR shift to the exfoliation process. Developing a theoretical protocol to straightforwardly simulate different surface chemistries, we show that the 13 C NMR shift variations can be quantitatively related to different surface compositions and number of surface chemistry variants induced by the different etching agents. In addition, we propose that the etching agent affects not only the nature of the surface groups but also their spatial distribution. The direct correlation between surface chemistry and 13 C NMR shift is further confirmed on the V 2 CT x, Mo 2 CT x, and Nb 2 CT x MXenes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Multimodal machine learning for materials science: composition-structure bimodal learning for experimentally measured properties",
+      "authors": [
+        "Sheng Gong",
+        "Shuo Wang",
+        "Taishan Zhu",
+        "Yang Shao‐Horn",
+        "Jeffrey C. Grossman"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Sheng Gong",
+          "orcid": "0000-0002-7457-7959",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuo Wang",
+          "orcid": "0000-0002-7907-9676",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taishan Zhu",
+          "orcid": "0000-0001-9462-5666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Shao‐Horn",
+          "orcid": "0000-0001-8714-2121",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey C. Grossman",
+          "orcid": "0000-0003-1281-2359",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2309.04478",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2309.04478",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2309.04478",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The widespread application of multimodal machine learning models like GPT-4 has revolutionized various research fields including computer vision and natural language processing. However, its implementation in materials informatics remains underexplored, despite the presence of materials data across diverse modalities, such as composition and structure. The effectiveness of machine learning models trained on large calculated datasets depends on the accuracy of calculations, while experimental datasets often have limited data availability and incomplete information. This paper introduces a novel approach to multimodal machine learning in materials science via composition-structure bimodal learning. The proposed COmposition-Structure Bimodal Network (COSNet) is designed to enhance learning and predictions of experimentally measured materials properties that have incomplete structure information. Bimodal learning significantly reduces prediction errors across distinct materials properties including Li conductivity in solid electrolyte, band gap, refractive index, dielectric constant, energy, and magnetic moment, surpassing composition-only learning methods. Furthermore, we identified that data augmentation based on modal availability plays a pivotal role in the success of bimodal learning.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "The Liverpool materials discovery server: a suite of computational tools for the collaborative discovery of materials",
+      "authors": [
+        "Samantha Durdy",
+        "Cameron J. Hargreaves",
+        "Mark Dennison",
+        "Benjamin Wagg",
+        "Michael Moran",
+        "Jon A. Newnham",
+        "Michael W. Gaultois",
+        "Matthew J. Rosseinsky",
+        "Matthew Stephen Dyer"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Samantha Durdy",
+          "orcid": "0000-0003-3742-2306",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cameron J. Hargreaves",
+          "orcid": null,
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Dennison",
+          "orcid": null,
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin Wagg",
+          "orcid": null,
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Moran",
+          "orcid": null,
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jon A. Newnham",
+          "orcid": "0000-0002-8408-7232",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael W. Gaultois",
+          "orcid": "0000-0003-2172-2507",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew J. Rosseinsky",
+          "orcid": "0000-0002-1910-2483",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Stephen Dyer",
+          "orcid": "0000-0002-4923-3003",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d3dd00093a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3dd00093a",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2023/dd/d3dd00093a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Liverpool materials discovery server (https://lmds.liverpool.ac.uk) provides easy access to six state of the art computational tools. Creation of such cloud platforms enables collaboration between experimental and computational researchers.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Quantification of freeze–thaw hysteresis of unfrozen water content and electrical resistivity from time lapse measurements in the active layer and permafrost",
+      "authors": [
+        "Soňa Tomaškovičová",
+        "Thomas Ingeman‐Nielsen"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Soňa Tomaškovičová",
+          "orcid": "0000-0002-2461-8863",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Ingeman‐Nielsen",
+          "orcid": "0000-0002-0776-4869",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Permafrost and Periglacial Processes",
+      "doi": "10.1002/ppp.2201",
+      "type": "article",
+      "url": "https://doi.org/10.1002/ppp.2201",
+      "cited_by_count": 29,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppp.2201",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract We quantified seasonal, in‐situ variation in ground electrical resistivity, unfrozen water content, and ground temperature using daily and sub‐daily measurements in active layer and in permafrost on a high‐latitude monitoring site in West Greenland. The in‐situ unfrozen water content in a clayey soil undergoing phase change was 10% higher during freezing than during thawing at the same ground temperature, thus shifting the freezing curve parameterization seasonally. The freeze–thaw unfrozen water content hysteresis was a measurable part of the energy balance of the active layer and corresponds to 12.1% of the total yearly enthalpy change for our field site. We also observed and quantified hysteresis in the relationships between ground electrical resistivity and unfrozen water content, where the inverted resistivities during freezing in the temperature range from 0°C to approximately −4°C were up to one order of magnitude higher than during thawing at the same unfrozen water content. As a result, the petro‐physical models that uniquely derive soil unfrozen water content from bulk soil electrical resistivity measured from ground surface do not fully capture the complexity of the in‐situ processes. The hysteresis should therefore be considered in quantitative interpretation of ground resistivity changes in terms of ground temperature and ice content changes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Surface modification of Co3O4 nanostructures using wide range of natural compounds from rotten apple juice for the efficient oxygen evolution reaction",
+      "authors": [
+        "Abdul Jaleel Laghari",
+        "Umair Aftab",
+        "Aqeel Ahmed Shah",
+        "Muhammad Yameen Solangi",
+        "Muhammad Ishaque Abro",
+        "Sameerah I. Al‐Saeedi",
+        "Noha Naeim",
+        "Ayman Nafady",
+        "Brigitte Vigolo",
+        "Mélanie Emo",
+        "Antonia Infantes‐Molina",
+        "Aneela Tahira",
+        "Zafar Hussain Ibupoto"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Abdul Jaleel Laghari",
+          "orcid": "0000-0003-1931-6374",
+          "affiliations": [
+            "University of Sindh",
+            "Mehran University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Umair Aftab",
+          "orcid": "0000-0001-6439-6014",
+          "affiliations": [
+            "University of Sindh",
+            "Mehran University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aqeel Ahmed Shah",
+          "orcid": "0000-0003-3040-1668",
+          "affiliations": [
+            "NED University of Engineering and Technology",
+            "University of Karachi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muhammad Yameen Solangi",
+          "orcid": "0000-0002-5408-687X",
+          "affiliations": [
+            "University of Sindh",
+            "Mehran University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muhammad Ishaque Abro",
+          "orcid": null,
+          "affiliations": [
+            "University of Sindh",
+            "Mehran University of Engineering and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sameerah I. Al‐Saeedi",
+          "orcid": "0000-0002-7918-0029",
+          "affiliations": [
+            "Princess Nourah bint Abdulrahman University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Noha Naeim",
+          "orcid": "0000-0002-2240-4554",
+          "affiliations": [
+            "Port Said University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ayman Nafady",
+          "orcid": "0000-0003-1484-6894",
+          "affiliations": [
+            "King Saud University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brigitte Vigolo",
+          "orcid": "0000-0002-1463-0121",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Jean Lamour",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mélanie Emo",
+          "orcid": "0000-0003-3599-6824",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Jean Lamour",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antonia Infantes‐Molina",
+          "orcid": "0000-0001-6360-773X",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Universidad de Málaga"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aneela Tahira",
+          "orcid": "0000-0002-0918-4518",
+          "affiliations": [
+            "University of Sindh"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zafar Hussain Ibupoto",
+          "orcid": "0000-0002-6756-9862",
+          "affiliations": [
+            "University of Sindh"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Hydrogen Energy",
+      "doi": "10.1016/j.ijhydene.2023.01.072",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ijhydene.2023.01.072",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hal.univ-lorraine.fr/hal-04197563/document",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": null,
+      "authors": [],
+      "year": 2023,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Publications of the Institute of Geophysics Polish Academy of Sciences. C/Publications of the Institute of Geophysics. C",
+      "doi": "10.25171/instgeoph_pas_publs-2023-002",
+      "type": "paratext",
+      "url": "https://doi.org/10.25171/instgeoph_pas_publs-2023-002",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pub.igf.edu.pl/files/Pdf/Pubs/447.pdf?t=1692350526",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "public-domain"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "The effects of aluminum concentration on the microstructural and electrochemical properties of lithium lanthanum zirconium oxide",
+      "authors": [
+        "Alexandra C. Moy",
+        "Grit Häuschen",
+        "Dina Fattakhova‐Rohlfing",
+        "J. Wolfenstine",
+        "Martin Finsterbusch",
+        "Jeff S. Sakamoto"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Alexandra C. Moy",
+          "orcid": "0000-0002-4402-5432",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Grit Häuschen",
+          "orcid": "0000-0001-9196-243X",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dina Fattakhova‐Rohlfing",
+          "orcid": "0000-0003-2008-0151",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J. Wolfenstine",
+          "orcid": "0000-0002-4274-3713",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Finsterbusch",
+          "orcid": "0000-0001-7027-7636",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeff S. Sakamoto",
+          "orcid": "0000-0002-3099-462X",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/d2ta03676b",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d2ta03676b",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/2423973",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "LLZO is a promising solid-state electrolyte for Li-metal batteries. It is known that Al stabilizes the high conductivity cubic phase. In this study, the effect of Al concentration on the microstructure and electrochemical behavior was investigated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Influence of heavy Hf doping in CeO2: Prediction on various physical properties",
+      "authors": [
+        "Khandaker Monower Hossain",
+        "S.K. Mitro",
+        "Samina Afrin Moon",
+        "M. Ali",
+        "Sumal Chandra",
+        "Md.A. Hossain"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Khandaker Monower Hossain",
+          "orcid": "0000-0003-4007-0460",
+          "affiliations": [
+            "University of Rajshahi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S.K. Mitro",
+          "orcid": "0000-0003-4840-9801",
+          "affiliations": [
+            "Jamalpur Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samina Afrin Moon",
+          "orcid": null,
+          "affiliations": [
+            "Mawlana Bhashani Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Ali",
+          "orcid": "0000-0002-1374-3642",
+          "affiliations": [
+            "Sonargaon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sumal Chandra",
+          "orcid": "0000-0003-2214-8746",
+          "affiliations": [
+            "Mawlana Bhashani Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Md.A. Hossain",
+          "orcid": "0000-0002-8521-7940",
+          "affiliations": [
+            "Mawlana Bhashani Science and Technology University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Results in Physics",
+      "doi": "10.1016/j.rinp.2022.105569",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.rinp.2022.105569",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2211379722002935/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "This work employs density functional theory for calculating the structural, mechanical, anisotropic, thermal, electronic, and optical properties of Ce1-xHfxO2 (x = 0, 0.25, 0.5, and 0.75) to explore the heavy substitutional doping effects of Hf. The cubic phase of CeO2 is transformed to tetragonal when 50% Ce is replaced by Hf. The computed formation energy and elastic constants demonstrate the phase stability of studied materials. The present calculation demonstrates the ductility of both undoped and Hf-doped CeO2, but the tetragonal Ce0.5Hf0.5O2 reveals highest ductility as compared to other phases. Moreover, the tetragonal phase is the most anisotropic one than that of other phases. Interestingly, both pure and doped phases are acceptable for thermal barrier coating, however doping with 75% Hf at Ce-site makes it even more suitable. The semiconducting nature of CeO2 is evolved because of having band gap in the electronic band structure, which is supported by its experimental report. The band gap is increased with increasing doping of Hf. The optical absorption and conductivity reconfirm the semiconducting nature of the titled materials. Furthermore, the overall optical nature predicts the efficient uses of Ce1-xHfxO2 in microelectronics, integrated circuits, and solar panel.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Electrocatalysis Goes Nuts",
+      "authors": [
+        "Andrew R. Akbashev"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Andrew R. Akbashev",
+          "orcid": "0000-0003-1573-1773",
+          "affiliations": [
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Catalysis",
+      "doi": "10.1021/acscatal.2c00123",
+      "type": "editorial",
+      "url": "https://doi.org/10.1021/acscatal.2c00123",
+      "cited_by_count": 124,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.dora.lib4ri.ch/psi/dload/psi:41302/PDF4/view",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "While searching for new nanoelectrocatalysts with outstanding performance, researchers often disregard the complexity and true usability of such materials. Here, it is argued that the chemical and structural complexity of electrocatalytic materials and electrodes reported in numerous studies significantly exceeds the quality of their characterization, making meaningful interpretation of the data impossible and providing little (or no) scientific insight as a result. It is suggested that the experiments should be designed with the aim of obtaining an interpretable electrochemical response by minimizing the complexity of electrode materials. A greater recognition of the worrisome state of the field will help improve the quality of research in electrocatalysis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Overcoming significant challenges in extracting off-stoichiometric thermodynamics using the compound energy formalism through complementary use of experimental and first principles data: A case study of Ba1-xSrxFeO3-δ",
+      "authors": [
+        "Steven A. Wilson",
+        "Ellen B. Stechel",
+        "Christopher L. Muhich"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Steven A. Wilson",
+          "orcid": "0000-0001-7087-5265",
+          "affiliations": [
+            "Arizona State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ellen B. Stechel",
+          "orcid": "0000-0002-5379-2908",
+          "affiliations": [
+            "Arizona State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher L. Muhich",
+          "orcid": "0000-0003-3089-559X",
+          "affiliations": [
+            "Arizona State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Solid State Ionics",
+      "doi": "10.1016/j.ssi.2022.116115",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ssi.2022.116115",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.sciencedirect.com/science/article/am/pii/S0167273822002648?via%3Dihub",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Automatic Migration Path Exploration for Multivalent Battery Cathodes using Geometrical Descriptors",
+      "authors": [
+        "Felix T. Bölle",
+        "Arghya Bhowmik",
+        "Tejs Vegge",
+        "Juan Maria García Lastra",
+        "Ivano E. Castelli"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Felix T. Bölle",
+          "orcid": "0000-0002-6421-1486",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arghya Bhowmik",
+          "orcid": "0000-0003-3198-5116",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tejs Vegge",
+          "orcid": "0000-0002-1484-0284",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juan Maria García Lastra",
+          "orcid": "0000-0001-5311-3656",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivano E. Castelli",
+          "orcid": "0000-0001-5880-5045",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Batteries & Supercaps",
+      "doi": "10.1002/batt.202100086",
+      "type": "article",
+      "url": "https://doi.org/10.1002/batt.202100086",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/batt.202100086",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Stable and fast ionic conductors for magnesium cathode materials have the prospect of enabling high energy density batteries beyond current Lithium‐ion technologies. So far, only a few candidate materials have been identified leading to data only being scarcely available to the community. Here, we present a systematic study, in the framework of Density Functional Theory, including the estimation of the migration barrier for 16 materials through employing Nudged Elastic Band (NEB) calculations. By introducing a path finder algorithm based on the idea of Voronoi tessellations, we show that an estimate of the transition state configuration can be extracted automatically prior to running NEB‐calculations. Using geometrical descriptors in combination with a principal component analysis it is possible to further sub‐group the migration paths. This approach also extends to materials which are not part of the study, making it a viable approach to more efficiently explore crystal structures with distinguishable migration characteristics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Flocculation of Clay Suspensions by Anionic and Cationic Polyelectrolytes: A Systematic Analysis",
+      "authors": [
+        "Ahmad Shakeel",
+        "Zeinab Safar",
+        "Maria Ibanez",
+        "Leon A. van Paassen",
+        "Claire Chassagne"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Ahmad Shakeel",
+          "orcid": "0000-0002-0627-7540",
+          "affiliations": [
+            "University of Engineering and Technology Lahore",
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zeinab Safar",
+          "orcid": "0000-0003-1011-1962",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria Ibanez",
+          "orcid": null,
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Leon A. van Paassen",
+          "orcid": "0000-0002-5050-0260",
+          "affiliations": [
+            "Arizona State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Claire Chassagne",
+          "orcid": "0000-0003-3223-8657",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Minerals",
+      "doi": "10.3390/min10110999",
+      "type": "article",
+      "url": "https://doi.org/10.3390/min10110999",
+      "cited_by_count": 68,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-163X/10/11/999/pdf?version=1605064411",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The characteristics of clayey suspensions, majorly composed of quartz microparticles, in the presence of anionic and cationic polyelectrolytes were investigated using different techniques. A wide range of clay concentrations was used, i.e., from 0.07 to 1000 g/L for different experimental techniques, based on the fact that the clay concentration possible to analyze with selected experimental methods was significantly different. The optimum flocculant to clay ratio was defined as the ratio that gives the fastest initial floc growth by static light scattering or fastest initial settling velocity by settling column experiments. In case of anionic polyelectrolyte, it was observed that the optimum flocculant dose depends on the amount of cations present in the system. For suspensions made with demi-water, a lower optimum flocculant dose (<1 mg/g) than for suspensions prepared in tap water (2.28 mg/g) was observed. At these lower salinities, the supernatant remained turbid in all the experiments and was, therefore, not a good measure for optimal anionic based flocculation. The equilibrium floc size at a given shear rate was found to be independent on the shear history of the floc and only dependent on the current applied shear. This was confirmed by both light scattering and rheological analysis. In case of cationic polyelectrolyte, the optimum flocculant ratio (5–6 mg/g) corresponded to the ratio that gives the lowest electrophoretic mobility for each clay concentration and to the ratio that gives the fastest settling velocity for the highest clay concentrations (12–15 g/L), where static light scattering measurements were not possible. All investigation techniques, therefore, proved to be good indicators for predicting the optimum flocculant to clay ratio. For the lowest concentrations (1.75–8.7 g/L) studied by settling column measurements, the optimum flocculant ratio was observed to increase with decreasing clay concentration, for fixed mixing conditions. The optimum flocculant to clay ratio was not always corresponding to the clearest supernatant and the size of flocs at optimum dosage was dependent on the mixing efficiency. The equilibrium floc size at a given shear rate was found to be dependent on the shear history of the floc and the current applied shear. This was confirmed by both light scattering and rheological analysis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Native Defects and Their Doping Response in the Lithium Solid Electrolyte Li 7 La 3 Zr 2 O 12",
+      "authors": [
+        "Alexander G. Squires",
+        "David O. Scanlon",
+        "Benjamin J. Morgan"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Alexander G. Squires",
+          "orcid": "0000-0001-6967-3690",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Bath"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David O. Scanlon",
+          "orcid": "0000-0001-9174-8601",
+          "affiliations": [
+            "Diamond Light Source",
+            "Thomas Young Centre",
+            "The Faraday Institution",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin J. Morgan",
+          "orcid": "0000-0002-3056-8233",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Bath"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.9b04319",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.9b04319",
+      "cited_by_count": 76,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.26434/chemrxiv.9031346",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Li-stuffed garnets LixM2M3′O12 are promising Li-ion solid electrolytes with potential use in solid-state batteries. One strategy for optimising ionic conductivities in these materials is to tune lithium stoichiometries through aliovalent doping, which is often assumed to produce proportionate numbers of charge compensating Li vacancies. The native defect chemistry of the Li-stuffed garnets, and their response to doping, however, are not well understood, and it is unknown to what degree a simple vacancy-compensation model is valid. Here, we report hybrid density-functional–theory calculations of a broad range of native defects in the prototypical Li-garnet Li7La3Zr2O12. We calculate equilibrium defect concentrations as a function of synthesis conditions, and model the response of these defect populations to extrinsic doping. We predict a rich defect chemistry that includes Li and O vacancies and interstitials, and significant numbers of cation-antisite defects. Under reducing conditions, O vacancies act as colour-centres by trapping electrons. We find that supervalent (donor) doping does not produce charge compensating Li vacancies under all synthesis conditions; under Li-rich / Zr-poor conditions the dominant compensating defects are LiZr antisites, and Li stoichiometries strongly deviate from those predicted by simple “vacancy compensation” models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Analysis of a coal preparation plant. Part 1. Changes in water quality, coal seam, and plant performance",
+      "authors": [
+        "Ghislain Bournival",
+        "Masataka Yoshida",
+        "Nicholas J. Cox",
+        "Noel W.A. Lambert",
+        "Seher Ata"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Ghislain Bournival",
+          "orcid": "0000-0001-8401-3105",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masataka Yoshida",
+          "orcid": "0000-0002-2171-506X",
+          "affiliations": [
+            "UNSW Sydney",
+            "Mitsubishi Corporation (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholas J. Cox",
+          "orcid": "0000-0002-7815-6115",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Noel W.A. Lambert",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seher Ata",
+          "orcid": "0000-0002-3705-6441",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Fuel Processing Technology",
+      "doi": "10.1016/j.fuproc.2019.03.022",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.fuproc.2019.03.022",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://unsworks.unsw.edu.au/bitstreams/153087e2-9951-433f-9eba-c8cc21ee8443/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Analysis of a coal preparation plant. Part 2. Effect of water quality on flotation performance",
+      "authors": [
+        "Ghislain Bournival",
+        "Masataka Yoshida",
+        "Nicholas J. Cox",
+        "Noel W.A. Lambert",
+        "Seher Ata"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Ghislain Bournival",
+          "orcid": "0000-0001-8401-3105",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masataka Yoshida",
+          "orcid": "0000-0002-2171-506X",
+          "affiliations": [
+            "UNSW Sydney",
+            "Mitsubishi Corporation (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholas J. Cox",
+          "orcid": "0000-0002-7815-6115",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Noel W.A. Lambert",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seher Ata",
+          "orcid": "0000-0002-3705-6441",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Fuel Processing Technology",
+      "doi": "10.1016/j.fuproc.2019.03.023",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.fuproc.2019.03.023",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://unsworks.unsw.edu.au/bitstreams/6b668486-bf83-4654-99b1-95d0df380bdc/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Machine Learning of Big Materials Data",
+      "authors": [
+        "Zheng Chen"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Zheng Chen",
+          "orcid": "0000-0002-4379-9065",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "eScholarship (California Digital Library)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://escholarship.org/uc/item/89j4z0hf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "In the past decades, theoretical calculations of materials properties have become more accurate and accessible due to the successful development of ab initio codes, as well as advances in computational power. With the booming development of high-throughput computational materials repositories, opportunities have emerged in the area of data-driven discovery of new materials guided by machine learning. However, the interpretation of large materials data sets needs to be performed from an integrated perspective of statistics and materials science intuition. In this thesis, we will address this challenge by demonstrating how the integration of high-throughput software workflows, automated data generation, and machine learning can yield powerful new approaches to materials analysis and optimization. This thesis is broadly divided into two topics. In the first topic (Chapters 2 and 3), we present comprehensive first-principle investigations of the effect of transition metal mixing on layered P2 oxides, using P2 NaxCo0.2Mn0.2Ti0.2Ni0.2Ru0.2O2 as model systems. Our results show that transition metal mixing significantly suppresses the formation of strongly ordered intermediates. Using ab initio molecular dynamics simulations and the climbing image nudged elastic band method, we reveal that transition metal substitution has a pronounced effect on the Na site occupancy energy and Na diffusion energy barriers. By employing a site percolation model, we derive theoretical upper and lower bounds on the concentration of transition metal species in the layered P2 oxides based on their effects on Na diffusion energy barriers. Another key innovation is the use of the MatErials Graph Network (MEGNet) model, a graph-based deep learning approach recently developed in our group, on layered P2 oxides for accurate energy prediction, which we will apply to study mixing energies in a “high-entropy” P2 NaxCo0.2Mn0.2Ti0.2Ni0.2Ru0.2O2. In the second topic (Chapters 4, 5, and 6), we present the development of a first-of-its-kind computational reference XAS database (XASdb). More importantly, we have developed a novel Ensemble-Learned Spectra IdEntification (ELSIE) algorithm that leverages on ensemble learning techniques to match an unknown target K-edge XANES spectra with computed spectra in XASdb. We will also discuss the development of general machine learning approaches to rapidly and efficiently identify the coordination environment of absorbing atoms from K-edge XANES.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Comparison of Bubble Size Distributions Inferred from Acoustic, Optical Visualisation, and Laser Diffraction",
+      "authors": [
+        "Pratik Desai",
+        "Woon Choon Ng",
+        "Michael J. Hines",
+        "Yassir Riaz",
+        "Václav Tesař",
+        "William B. Zimmerman"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Pratik Desai",
+          "orcid": "0000-0001-5266-0359",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Woon Choon Ng",
+          "orcid": null,
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael J. Hines",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yassir Riaz",
+          "orcid": null,
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Václav Tesař",
+          "orcid": "0000-0002-1319-4479",
+          "affiliations": [
+            "Czech Academy of Sciences",
+            "Czech Academy of Sciences, Institute of Thermomechanics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William B. Zimmerman",
+          "orcid": "0000-0001-7123-737X",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Colloids and Interfaces",
+      "doi": "10.3390/colloids3040065",
+      "type": "article",
+      "url": "https://doi.org/10.3390/colloids3040065",
+      "cited_by_count": 34,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2504-5377/3/4/65/pdf?version=1575529321",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Bubble measurement has been widely discussed in the literature and comparison studies have been widely performed to validate the results obtained for various forms of bubble size inferences. This paper explores three methods used to obtain a bubble size distribution—optical detection, laser diffraction and acoustic inferences—for a bubble cloud. Each of these methods has advantages and disadvantages due to their intrinsic inference methodology or design flaws due to lack of specificity in measurement. It is clearly demonstrated that seeing bubbles and hearing them are substantially and quantitatively different. The main hypothesis being tested is that for a bubble cloud, acoustic methods are able to detect smaller bubbles compared to the other techniques, as acoustic measurements depend on an intrinsic bubble property, whereas photonics and optical methods are unable to “see” a smaller bubble that is behind a larger bubble. Acoustic methods provide a real-time size distribution for a bubble cloud, whereas for other techniques, appropriate adjustments or compromises must be made in order to arrive at robust data. Acoustic bubble spectrometry consistently records smaller bubbles that were not detected by the other techniques. The difference is largest for acoustic methods and optical methods, with size differences ranging from 5–79% in average bubble size. Differences in size between laser diffraction and optical methods ranged from 5–68%. The differences between laser diffraction and acoustic methods are less, and range between 0% (i.e., in agreement) up to 49%. There is a wider difference observed between the optical method, laser diffraction and acoustic methods whilst good agreement between laser diffraction and acoustic methods. The significant disagreement between laser diffraction and acoustic method (35% and 49%) demonstrates the hypothesis, as there is a higher proportion of smaller bubbles in these measurements (i.e., the smaller bubbles ‘hide’ during measurement via laser diffraction). This study, which shows that acoustic bubble spectrometry is able to detect smaller bubbles than laser diffraction and optical techniques. This is supported by heat and mass transfer studies that show enhanced performance due to increased interfacial area of microbubbles, compared to fine bubbles.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Least Squares Neural Network-Based Wireless E-Nose System Using an SnO2 Sensor Array",
+      "authors": [
+        "Areej Shahid",
+        "Jong-Hyeok Choi",
+        "Abu ul Hassan S. Rana",
+        "Hyun‐Seok Kim"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Areej Shahid",
+          "orcid": "0000-0001-8279-4657",
+          "affiliations": [
+            "Dongguk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jong-Hyeok Choi",
+          "orcid": "0000-0002-5758-9704",
+          "affiliations": [
+            "Dongguk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abu ul Hassan S. Rana",
+          "orcid": "0000-0002-4668-671X",
+          "affiliations": [
+            "Dongguk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyun‐Seok Kim",
+          "orcid": "0000-0003-1127-5766",
+          "affiliations": [
+            "Dongguk University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Sensors",
+      "doi": "10.3390/s18051446",
+      "type": "article",
+      "url": "https://doi.org/10.3390/s18051446",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1424-8220/18/5/1446/pdf?version=1525594227",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Over the last few decades, the development of the electronic nose (E-nose) for detection and quantification of dangerous and odorless gases, such as methane (CH₄) and carbon monoxide (CO), using an array of SnO₂ gas sensors has attracted considerable attention. This paper addresses sensor cross sensitivity by developing a classifier and estimator using an artificial neural network (ANN) and least squares regression (LSR), respectively. Initially, the ANN was implemented using a feedforward pattern recognition algorithm to learn the collective behavior of an array as the signature of a particular gas. In the second phase, the classified gas was quantified by minimizing the mean square error using LSR. The combined approach produced 98.7% recognition probability, with 95.5 and 94.4% estimated gas concentration accuracies for CH₄ and CO, respectively. The classifier and estimator parameters were deployed in a remote microcontroller for the actualization of a wireless E-nose system.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Characterisation of frother properties in coal preparation process water",
+      "authors": [
+        "Ghislain Bournival",
+        "Syeda Rubaiya Muin",
+        "Noel W.A. Lambert",
+        "Seher Ata"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Ghislain Bournival",
+          "orcid": "0000-0001-8401-3105",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Syeda Rubaiya Muin",
+          "orcid": "0000-0001-8913-5064",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Noel W.A. Lambert",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seher Ata",
+          "orcid": "0000-0002-3705-6441",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Minerals Engineering",
+      "doi": "10.1016/j.mineng.2017.04.006",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.mineng.2017.04.006",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://unsworks.unsw.edu.au/bitstreams/1c48b811-6c18-4feb-8c08-a8df68a48b58/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Pressure Filtration of Oil Sands Mature Fine Tailings",
+      "authors": [
+        "Rosalynn S. Loerke"
+      ],
+      "year": 2017,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "ERA: Education and Research Archive (University of Alberta)",
+      "doi": "10.7939/r3sb3xb1q",
+      "type": "dissertation",
+      "url": "https://doi.org/10.7939/r3sb3xb1q",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.7939/r3sb3xb1q",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Dewatering of the oil sands mature fine tailings (MFT) is studied through pressure filtration following treatment by dual polymer flocculants. Polymer pairs consisting of anionic polyacrylamide (A3335) and cationic polyDADMAC (Alcomer 7115), and A3335 and non-ionic polyethylene oxide (PEO) are tested. The effect of the residual bitumen in MFT on dewaterability and filtration is also assessed. Ideal clay systems of kaolinite are compared against kaolinite slurries homogenized with bitumen at the same concentration that exists in the MFT. The dual polymer treatment of MFT is found to be more efficient than the single polymer treatment in terms of shorter capillary suction times (CST), higher filter cake solids content, higher net water release (NWR), faster water release rate, and lower specific resistance to filtration (SRF). Additionally, it is found that the addition of bitumen to pure kaolinite decreases filterability performance, but the kaolinite/bitumen mixture had comparable filterability to dual polymer flocculated MFT if treated with the same dosage of the dual polymers. The porosity of the filter cakes are assessed with micro computed tomography (micro-CT). It is found that the porosity correlates well with solids content data and that pore connectivity increases with dual polymer treatment.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Mineralization, sorption and desorption of chlorpyrifos in aquatic sediments and soils",
+      "authors": [
+        "Seyoum Yami Gebremariam"
+      ],
+      "year": 2011,
+      "author_details": [
+        {
+          "name": "Seyoum Yami Gebremariam",
+          "orcid": "0000-0003-2251-1680",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Research Exchange (Washington State University)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/2376/2913",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Increased utilization of agrochemicals poses a substantial public health and ecological concern should they be transported to aquatic ecosystems.This dissertation presents a comprehensive literature review and results of a series of laboratory experiments investigating the mineralization, sorption and desorption of chlorpyrifos, a widely used organophosphorus insecticide.An extensive review of literature found that published sorption coefficients for chlorpyrifos in soils and sediments spanned up to two orders of magnitude.Normalizing the partition coefficient to organic content failed to substantially reduce variability, indicating the difficulty in predicting the sorptive behavior of chlorpyrifos without resorting to experimental methods specific to the soil or sediment of interest.Mineralization was iv studied using laboratory microcosms operated under drain-fill and permanently flooded conditions.Drain-fill cycling resulted in significantly lower mineralization rates relative to the permanently flooded condition due to enhanced partitioning of the pesticide to the sediment phase.Mineralization half-lives were 5-6 years and confirmed that chlorpyrifos and its metabolites can persist in aquatic environments for decades before they completely dissipate, particularly if sorbed to sediment.Sorption and desorption was studied using eight different aquatic soils and sediments using the batch equilibrium method.Sorption significantly correlated with organic content.The K d values varied from 35.2 L/kg in low organic reservoir sediment to 123.3 L/kg in moderately organic cranberry soils.The K oc values varied from 3,606 to 5,983 L/kg.Desorption of chlorpyrifos exhibited hysteresis that increased with organic content and occurred in a dual mode with a labile and non-labile fraction.A mathematical model was used to determine the fraction of the labile component and the long-term fate of the non-labile component.The model quantified the long-term desorption of chlorpyrifos under repeated desorption events and predicted that contaminated aquatic soils and sediments can serve as a secondary and long-term source for chlorpyrifos pollution.Results also suggested that unfavorable energy changes during desorption, along with limitation on v diffusivity of water molecules through the hydrophobic region of the organic fraction, may explain the observed hysteresis and biphasic nature of chlorpyrifos desorption.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 37,
+      "known": 50,
+      "pct": 74,
+      "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

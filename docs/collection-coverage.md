@@ -4,15 +4,23 @@ Checked 2026-11-01. The source-entry directory preserves every labeled public HT
 
 | Collection | Imported / inventoried entries | Distinct entry URLs | Missing from sources.md | Search |
 |---|---:|---:|---:|---|
+| [Additional materials dataset discoveries](<https://github.com/usccolumbia/matverse>) | 243 / 243 | 184 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=additional_20261101) |
 | [blaiszik/awesome-matchem-datasets](<https://github.com/blaiszik/awesome-matchem-datasets>) | 274 / 274 | 218 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=blaiszik) |
+| [Data.gov materials search — supplied 320-result attachment](<https://catalog.data.gov/?q=materials&sort=relevance&results=320>) | 320 / 320 | 314 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=datagov_20261101) |
+| [JARVIS databases and Figshare download registry](<https://jarvis.nist.gov/#Databases>) | 82 / 82 | 80 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=jarvis_databases) |
 | [JARVIS-Tools Notebooks](<https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks>) | 229 / 229 | 104 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=jarvis_notebooks) |
 | [Machine Learning Materials Datasets / MAST-ML education](<https://figshare.com/articles/dataset/MAST-ML_Education_Datasets/7017254>) | 9 / 9 | 9 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=mastml) |
+| [Matbench Discovery dataset directory — all 46 rows](<https://matbench-discovery.materialsproject.org/data/sets>) | 46 / 46 | 46 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=matbench_discovery_20261101) |
+| [MDF property dataset search](<https://www.materialsdatafacility.org/search>) | 244 / 244 | 244 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=mdf_properties_20261101) |
 | [nanoHUB Machine Learning Lab Module](<https://nanohub.org/tools/intromllab>) | 41 / 41 | 27 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=nanohub_mllab) |
+| [OpenAlex specialized materials property survey](<https://openalex.org/>) | 138 / 138 | 138 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=openalex_properties_20261101) |
+| [OPTIMADE clients and screenshot provider options](<https://www.optimade.org/clients>) | 19 / 19 | 19 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=optimade_clients) |
 | [REMI: REsource for Materials Informatics](<https://pages.nist.gov/remi/>) | 146 / 146 | 145 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=remi) |
+| [Scientific Data materials journal search](<https://www.nature.com/sdata/>) | 1520 / 1520 | 1520 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=sdata_20261101) |
 | [sedaoturak/data-resources-for-materials-science](<https://github.com/sedaoturak/data-resources-for-materials-science>) | 90 / 90 | 87 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=sedaoturak) |
 | [User-supplied materials resources (2026-11-01)](<https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md>) | 32 / 32 | 32 | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection=user_resources_20261101) |
 
-**821 entries; 601 distinct entry URLs across all 7 collections.** Repeated entries and links shared between lists are retained with their original context unless the collection boundary explicitly documents exact-URL deduplication. Blaiszik and Seda Oturak together contribute 364 occurrences and 296 distinct URLs at the inspected revisions.
+**3433 entries; 3128 distinct entry URLs across all 15 collections.** Repeated entries and links shared between lists are retained with their original context unless the collection boundary explicitly documents exact-URL deduplication. Blaiszik and Seda Oturak together contribute 364 occurrences and 296 distinct URLs at the inspected revisions.
 
 ## What complete coverage means
 
@@ -21,6 +29,18 @@ Every entry in each checked inventory is included in sources.md, the downloadabl
 The collection revisions, extraction boundaries and inventory hashes below make this claim reproducible. Live GitHub HEAD matched both requested list revisions when rechecked on 2026-11-01. This is an inventory-completeness check, not independent validation of each destination, dataset size or license. A crystal-related scope label is a triage aid; it does not certify atomic-coordinate availability. The ranked catalog maintains its separate evidence requirements.
 
 ## Revisions and extraction boundaries
+
+### Additional materials dataset discoveries
+
+- Inventory: [research/collection_additional_20261101.json](../research/collection_additional_20261101.json)
+- Revision: `Local targeted survey 2026-11-01`
+- Inventory SHA-256: `e642ea1ff447e80bd129583115f926251734b02c979c15dbc5c3c60fe402a240`
+- Scope counts: {"adjacent": 0, "crystal_related": 198, "navigation": 0, "uncertain": 45}
+
+- 50 new source-backed records were selected beyond the 304-record baseline. Searches cover defects/disorder, porous/adsorption, specialized functional/low-dimensional materials, and atomistic/experimental property collections.
+- Every official route from the new records and every public URL from the four topical lead ledgers is preserved. This is a bounded search inventory, not a census of the internet.
+- Parent datasets, variants, measured observations, calculated frames, generated structures and predicted properties remain distinguishable. Unverified counts/licenses and restricted access remain explicit.
+- All work stays local until the user authorizes publishing.
 
 ### blaiszik/awesome-matchem-datasets
 
@@ -47,6 +67,29 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 - Existing canonical matches with alternate URLs (for example C2DB, OMat24, CoRE MOF, MAD and OpenLAM) are not new datasets merely because an exact-URL comparison misses them.
 - Validated exported URL queries for access-bearing keys and rejected private Figshare /s/ paths; no such URLs remain.
 
+### Data.gov materials search — supplied 320-result attachment
+
+- Inventory: [research/collection_datagov_20261101.json](../research/collection_datagov_20261101.json)
+- Revision: `2026-11-01 attachment and live title crosswalk`
+- Inventory SHA-256: `fd2be3960e5b387d104fb3e5227ad29500d457f3dcf4e0af4b01b3f44cfd6b72`
+- Scope counts: {"adjacent": 0, "crystal_related": 14, "navigation": 0, "uncertain": 306}
+
+- All 320 attached search-result occurrences are retained; the search reports 2,469 results overall, which were not all reviewed.
+- Only the documented shortlist received primary-source/payload auditing. Other imported links remain discovery leads, not quality-approved datasets.
+- Eight new datasets and an existing adsorption collection form the crystal-related shortlist. Adjacent polymer/composite data, software and handbooks remain resources.
+
+### JARVIS databases and Figshare download registry
+
+- Inventory: [research/collection_jarvis_databases.json](../research/collection_jarvis_databases.json)
+- Revision: `3b0c9d0f0c15759135de857dbc93e010db01eb29`
+- Inventory SHA-256: `58dd81bdca414d7ff9764dfbe5d9a40791088280dfd7d0016d6c12860b82e152`
+- Scope counts: {"adjacent": 10, "crystal_related": 65, "navigation": 7, "uncertain": 0}
+
+- All 13 rows of the homepage Databases table; source numbering skips 8 and ends at 14. WebApps, Tools, Tutorials and Outreach tables are outside this requested extraction boundary.
+- All 65 named entries of the linked Figshare documentation table, plus 4 additional names present only in the pinned 66-key get_db_info() downloader registry.
+- The stm, wtbh_electron and wtbh_phonon documentation entries require dedicated helpers; they are not current data(name) keys. Original spellings, including halide_peroskites, are preserved.
+- Documentation counts refer to named snapshots; upstream databases, derivative mirrors, parameterizations and portal totals overlap. Imported discovery entries are searchable, but entries without individual primary evidence are not all promoted to ranked crystal datasets.
+
 ### JARVIS-Tools Notebooks
 
 - Inventory: [research/collection_jarvis_notebooks.json](../research/collection_jarvis_notebooks.json)
@@ -71,6 +114,29 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 - Counts independently parsed after one header row: diffusion408; perovskite1929; metallic glass585. These are educational packaging counts, not new unique crystal structures.
 - Metallic-glass data are adjacent, not crystalline structure data. Dataset README bibliography fields are preserved as source links, not treated as independently verified citation metadata.
 
+### Matbench Discovery dataset directory — all 46 rows
+
+- Inventory: [research/collection_matbench_discovery_20261101.json](../research/collection_matbench_discovery_20261101.json)
+- Revision: `8869a883a5067015b815886d878bd7aaa3862d2d`
+- Inventory SHA-256: `b526049a93c6fd8078d187a58e59e66c5bb9198f1f036fa2fff387ce0a77ce36`
+- Scope counts: {"adjacent": 7, "crystal_related": 36, "navigation": 3, "uncertain": 0}
+
+- All46dataset rows in the rendered data/sets table match all46keys in pinneddata/datasets.yml. Each original row has one searchable source entry.
+- Existing families, exact new releases, unreleased corpora and adjacent molecular datasets remain distinguishable. The directory reports both structures/configurations and source-defined materials.
+- Historical snapshots and unreleased full-corpus sizes do not overwrite current public catalog counts. Allwork remains local until explicit push authorization.
+
+### MDF property dataset search
+
+- Inventory: [research/collection_mdf_properties_20261101.json](../research/collection_mdf_properties_20261101.json)
+- Revision: `Public MDF search snapshot 2026-11-01`
+- Inventory SHA-256: `18f4d0791b787e945d23d66d9075edf4be7cf894e6f2b50e9f1f507b1cdb0fd3`
+- Scope counts: {"adjacent": 16, "crystal_related": 8, "navigation": 0, "uncertain": 220}
+
+- All 244 distinct deposit subjects returned by ten complete property queries (each limit=100; every query total was below that cap) are inventoried as source entries. This is not a complete inventory of all MDF deposits.
+- Eight structured property cohorts were selected for explicit counts, target/unit schemas, stable DOI/source IDs and stated dataset rights. This checks documentation quality, not end-to-end scientific correctness or payload completeness.
+- MP elastic/dielectric/piezoelectric and diffusion mirrors were identified as existing source lineages; parent and derivative counts are not added.
+- Most returned deposits remain discovery leads. Public metadata retrieval is distinct from authorized bulk transfer. No credentials were used.
+
 ### nanoHUB Machine Learning Lab Module
 
 - Inventory: [research/collection_nanohub_mllab.json](../research/collection_nanohub_mllab.json)
@@ -84,6 +150,28 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 - Public tool license is GNU GPL version3-or-later; this software license is not automatically a license for every example dataset.
 - No unique materials count is asserted; visible usage/user counters are not dataset sizes.
 
+### OpenAlex specialized materials property survey
+
+- Inventory: [research/collection_openalex_properties_20261101.json](../research/collection_openalex_properties_20261101.json)
+- Revision: `Search snapshot 2026-11-01`
+- Inventory SHA-256: `26283a58fb06bee74e56bf33216c7c8f70e7d76a42cc6b4f5e481131abc46cdf`
+- Scope counts: {"adjacent": 0, "crystal_related": 97, "navigation": 41, "uncertain": 0}
+
+- 42 bounded query/traversal outputs; 1761 deduplicated query-retrieved works retained in a separate discovery ledger. Only selected release evidence and query entrypoints are imported here; unreviewed general search hits are not all promoted into source cards.
+- 35 new catalog releases plus the updated existing DDSE/DigBat family. All counts are release-specific and units remain distinct.
+- Primary-source bodies, downloaded payloads and caches remain ignored; normalized work metadata, query outcomes, hashes, candidate decisions and counts are retained.
+
+### OPTIMADE clients and screenshot provider options
+
+- Inventory: [research/collection_optimade_clients.json](../research/collection_optimade_clients.json)
+- Revision: `Provider registry response SHA-256 60afab5ecfde397c17e61856f934b74e62d17b5de24b658ee10d8ecc43d0244e`
+- Inventory SHA-256: `19c8cd0886b36e775d772b201e64c2a53db84132e8d4f3ba27733da64f311120`
+- Scope counts: {"adjacent": 0, "crystal_related": 0, "navigation": 19, "uncertain": 0}
+
+- Both requested client links plus the 17 provider options visibly readable in the supplied screenshot. This is a bounded screenshot crosswalk, not a claim to inventory every currently registered provider.
+- Provider IDs, names and index URLs corroborated against the official provider registry on 2026-11-01. Follow index links to child databases; registration is not proof of current endpoint availability or full client compatibility.
+- The provider named Matterverse is separate from the MatVerse catalog. Open Materials Database (omdb) is also distinct from the Organic Materials Database at omdb.mathub.io.
+
 ### REMI: REsource for Materials Informatics
 
 - Inventory: [research/collection_remi.json](../research/collection_remi.json)
@@ -96,6 +184,18 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 - Direct urllib request to the site returned403; public web-tool reading and the owning public GitHub source remained accessible. Source repository is archived; no protection was bypassed.
 - The homepage table has 106 listed rows, which are educational resources, not a materials total.
 - Directly linked experimental libraries contain921 Fe–Co–Ni and278 Fe–Ga–Pd aligned composition/diffraction/property rows, independently verified from the released files. No atomic-coordinate structures or release-specific data license were found.
+
+### Scientific Data materials journal search
+
+- Inventory: [research/collection_sdata_20261101.json](../research/collection_sdata_20261101.json)
+- Revision: `Crossref ISSN 2052-4463 journal snapshot through 2026-11-01`
+- Inventory SHA-256: `0f4ee5680cdc903516a005bbc7d40e7d10e6bac8bc448c0dd85f564e7b253c50`
+- Scope counts: {"adjacent": 0, "crystal_related": 127, "navigation": 44, "uncertain": 1349}
+
+- Complete cursor retrieval returned 9,304 distinct indexed journal works; indexing itself and full-text review are not claimed complete.
+- All 1,514 broad title-keyword candidates are retained, plus 6 verified descriptor matches missed by title screening. Unreviewed candidates include irrelevant false positives.
+- 90 verified new records were integrated with existing descriptor-linked releases. A shared oxide-synthesis aggregate was merged once. Counts, conditions, source lineages and rights remain release-specific.
+- Most source entries remain uncertain discovery leads; only mapped primary-source-verified releases appear in the ranked catalog. Corrections are not new datasets. Raw bodies and payloads stay in ignored local caches.
 
 ### sedaoturak/data-resources-for-materials-science
 

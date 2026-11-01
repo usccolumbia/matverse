@@ -1,0 +1,14 @@
+{
+  "verified_date": "2026-11-01",
+  "validator": "scripts/build_catalog.py validate",
+  "existing_records": 214,
+  "new_records": 30,
+  "schema_and_url_ok": "passed",
+  "unknown_size_ids": [
+    "ins-exchange-magnetic-2025",
+    "corrosion-resistant-alloy-metrics"
+  ],
+  "oxygen_csv_rows": 483,
+  "enthalpy_top_level_count": 1276,
+  "canonical_edited": false
+}

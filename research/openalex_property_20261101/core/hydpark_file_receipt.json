@@ -1,0 +1,23 @@
+{
+  "url": "https://zenodo.org/api/records/10680097/files/ML-HYDPARK_v0.0.5.csv/content",
+  "status": 200,
+  "sha256": "41d1549a0b0b72355184cebe19d8da0b1ed18f87c7e1bf5527073a4246421af0",
+  "bytes": 100494,
+  "rows": 772,
+  "fields": [
+    "",
+    "index",
+    "Material_Class",
+    "Composition_Formula",
+    "Hydrogen_Weight_Percent",
+    "Heat_of_Formation_kJperMolH2",
+    "Temperature_oC",
+    "Pressure_Atmospheres_Absolute",
+    "Entropy_of_Formation_JperMolH2perK",
+    "Equilibrium_Pressure_25C",
+    "LnEquilibrium_Pressure_25C",
+    "HtoM",
+    "Reference"
+  ],
+  "scope": "CSV data rows; not independently deduplicated crystals"
+}

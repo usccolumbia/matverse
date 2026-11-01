@@ -1,0 +1,36 @@
+[
+  {
+    "name": "CAMEO1.0 active-learning demonstration software",
+    "url": "https://data.nist.gov/od/id/mds2-2480",
+    "kind": "software and already-represented benchmark data",
+    "description": "MATLAB autonomous-experiment simulation with Fe-Ga-Pd demonstration data. All four demonstration arrays are byte-for-byte identical to the existing REMI Fe-Ga-Pd corpus; do not add a second dataset/count. Bundled Graph Cut components have their own restrictive notices.",
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/mds2-2480",
+        "title": "NIST CAMEO release",
+        "evidence": "Downloaded archive includes FeGaPd_CMP,DFT_regions,Mag,XRD; each byte hash matches existing REMI nist-pages source. Current metadata version1.0.1.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIST–NREL Zn–Sn–Ti–O interlaboratory reproducibility study",
+    "url": "https://data.nist.gov/od/id/86CF87E90A931F6FE05324570681D1922065",
+    "kind": "specialist study and partial data/code release",
+    "description": "Strong cross-laboratory metrology case study with reported95% agreement intervals of0.1–0.2eV for band gap,24–29nm for thickness and0.08–0.37 orders of magnitude for sheet resistance. Current v1.0.7 archive includes cluster/XRD peak/three-spectrum CSVs and notebooks; full measurement extraction depends on hte.registry.nist.gov. HTEM/HTE source overlap and full-payload accessibility remain unresolved, so it is retained as a resource without an independent corpus count.",
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/86CF87E90A931F6FE05324570681D1922065",
+        "title": "NIST current primary release",
+        "evidence": "Old round-robin-data-update.zip returns404; current metadata links a verified8,753,821byte NIST-NREL-Interlaboratory-Figures-master.zip. Notebooks fetch primary records from the HTE registry; included CSVs cover selected analyses.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.1021/acscombsci.8b00158",
+        "title": "Primary interlaboratory paper",
+        "evidence": "Explicitly compares two laboratories and different measurement modalities, reporting type-dependent agreement and systematic differences.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "checked_date": "2026-11-01",
+  "initial_catalog_records": 354,
+  "new_dataset_ids": [
+    "nist-srd81-insulation",
+    "nist-cryogenic-materials",
+    "nist-structural-ceramics-srd30",
+    "usgs-rockjock-xrd-2021",
+    "nist-hafnia-planar-reference-2025",
+    "nist-mgo-apt-spectra",
+    "nist-rp-chemical-pressure-dielectrics",
+    "iupac-solid-liquid-reference-2023"
+  ],
+  "existing_selected_ids": [
+    "nist-isodb"
+  ],
+  "new_resource_urls": [
+    "https://www.sandia.gov/matlstechref/",
+    "https://srdata.nist.gov/CeramicDataPortal/pds",
+    "https://www.nist.gov/srd/nist-standard-reference-database-31",
+    "https://data.nist.gov/od/id/mds2-2480",
+    "https://data.nist.gov/od/id/86CF87E90A931F6FE05324570681D1922065",
+    "https://data.nist.gov/od/id/mds2-2606",
+    "https://doi.org/10.18434/mds2-2911",
+    "https://data.nist.gov/od/id/mds2-4059",
+    "https://data.nist.gov/od/id/mds2-3725",
+    "https://data.nist.gov/od/id/mds2-2123",
+    "https://doi.org/10.18434/M32078",
+    "https://gdr.openei.org/submissions/1449",
+    "https://data.nist.gov/od/id/mds2-3325",
+    "https://doi.org/10.23719/1531971",
+    "https://gdr.openei.org/submissions/1660",
+    "https://data.nist.gov/od/id/mds2-3698",
+    "https://www.ctcms.nist.gov/potentials/",
+    "https://gdr.openei.org/submissions/692"
+  ],
+  "api_ids": [
+    "nist-insulation"
+  ],
+  "attachment_occurrences": 320,
+  "distinct_attachment_titles": 263,
+  "catalog_reported_total": 2469,
+  "decision": "GDR thermoelectric development tables retained as conditional resource; CAMEO arrays duplicate existing REMI data and are not recounted.",
+  "input_sha256": {
+    "research/datagov_20261101/reference/additions.json": "948bc1ea563ebaf0f427cc89c99968118633ae622980a99afaeeee9c3c506b8c",
+    "research/datagov_20261101/reference/artifact_manifest.json": "1c1fe8d3d77017b164bd5345f08199bf7a74773cae430ef74ee4bff92c560339",
+    "research/datagov_20261101/reference/leads.json": "68a0b486f3d572f451e85e122180daeaf8a9182325cbe925318562d5f258772c",
+    "research/datagov_20261101/reference/receipts.json": "c1e8bc4b5c2a9fa225f0a9a10d472f715fbfe1a4dd17b62aaee52f257578dfe5",
+    "research/datagov_20261101/reference/resources.json": "805d09fad9e0972509e5ea6f7ccda5b90ffca5c9753099e1ddcb779bcb62dbd6",
+    "research/datagov_20261101/reference/validation.json": "8fa8219d11d5148202afcb194ca881d89bead581071c7cf99ede33dcfe318163",
+    "research/datagov_20261101/metrology/additions.json": "0218a3998cd4bef0cb5051a895838bd94b06991541733dbf47ad0440cf330615",
+    "research/datagov_20261101/metrology/leads.json": "5bf7e8f4139be77e75148d8979984d390c60d7ab1c599929305af4737d27427c",
+    "research/datagov_20261101/metrology/payload_verification.json": "168d6f9c6a3c3b04ddce3a19c8fadf972e1d13b38cae4fec710a4c1919a04845",
+    "research/datagov_20261101/metrology/receipts.json": "7f976c2734501c2be1dcde89f9b51fdd6dcdb5f9ac0f64e21fcbf6932cd693bb",
+    "research/datagov_20261101/metrology/resources.json": "03bf5034c5a637983fac989e8e84744d3bf92bf1b03c5a122881bbd4ea2e91b5",
+    "research/datagov_20261101/applied/additions.json": "53554248cb5556e944b66eb0823f3f30312cb854b6069f01886d5476fc0c92bf",
+    "research/datagov_20261101/applied/leads.json": "ebe5f912ea7bc93d9710de65e55e7e848c3c53e765a819025b86d8d858ce7804",
+    "research/datagov_20261101/applied/receipts.json": "83acdbe46b9c9d4ae2985c83289512e0bb5bd39c1aaec45b60992fa059c442b7",
+    "research/datagov_20261101/applied/resources.json": "1f7c552fc7eb20f922f9d4cdc0c426dd6914dc9e608473299c383c86a0fa2e70",
+    "research/datagov_20261101/coordinator/additions.json": "3485796dd9ea48af5ab3a1d98145da3940f0871f38ea9c7184c8b54bc422d2d3",
+    "research/datagov_20261101/coordinator/fetch_receipts.json": "894c3cbe3e8fef53470b5f43266be7e5a47fb27683697347288c2ce9e8c80376",
+    "research/datagov_20261101/coordinator/iupac_count_receipt.json": "d3806df32e1ad7887709e9b978ec60d5a3bf030da59460d3465c3713f12d0a31",
+    "research/datagov_20261101/coordinator/leads.json": "d3a281e9cb2bf203bc897b5fb6577395747cb5286276c62ab55c86cff0753a35",
+    "research/datagov_20261101/coordinator/resources.json": "1111a249678fef6f5080bc86afed96fbf94aa0071c8613da643b210a5a137c27"
+  }
+}

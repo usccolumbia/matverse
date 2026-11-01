@@ -1,0 +1,111 @@
+{
+  "source": "https://api.crossref.org/journals/2052-4463/works",
+  "journal": "Scientific Data",
+  "issn": "2052-4463",
+  "cutoff": "2026-11-01",
+  "complete": true,
+  "unique_works": 9304,
+  "title_candidates": 1514,
+  "total_reported": 9304,
+  "title_keyword_regex": "material|crystal|alloy|metal|semiconductor|perovskite|oxide|ceramic|ferro|magnet|superconduct|thermoelectric|thermal|conduct|electrolyt|batter|cataly|adsorp|\\bmof|\\bcof|zeolit|phonon|dielect|piezo|diffraction|spectroscop|microscop|microstructur|synthesis|atomistic|density.functional|molecular.dynamics|atom.probe|chemical|polymer|mechanic|stress|strain|fracture|fatigue|corrosion|weld|manufactur|graphene|two.dimensional|\\b2d\\b|nanomaterial|carbon|quantum|elastic|hardness|tensile|wurtz|heusler|topolog|hydrogen.storage|inorganic|ab.initio|electronic|band.gap|surface|interface|nanoparticle|raman|x.ray|infrared|\\bxrd\\b|plasma|sinter|diffus|migration|propert|compound|enthalp|simulation|energy|spectr|nanostruct|lithium|sodium|electron|silicon|steel|alumin|titanium|copper|stabilit|transition|grain|amorph|coating|thermodynamic|high.entropy",
+  "pages": [
+    {
+      "page": 1,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "644308ee8d8974b33646b872450c7d666faea691f0da1c48baa3893e0953f533",
+      "bytes": 765468,
+      "cursor_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "page": 2,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "d2e627a031f0680fbdfbf8c70d11e4249b1c4e7784ce082c96dcbcdb55c9bd0a",
+      "bytes": 703921,
+      "cursor_sha256": "7e98e3ecb8444fe2737e9b715ff4c1cb7d3e7365547bfe7046d7f04f98f7dd1b"
+    },
+    {
+      "page": 3,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "33dc2847aff2915f270274ae96fb04a4d865468bc147c526ca38d8026de832c7",
+      "bytes": 705170,
+      "cursor_sha256": "14d70653f7b999061580d231ce1c0a7354c956ee9e97bffa27f18f9ff6ee5b86"
+    },
+    {
+      "page": 4,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "c0924f583811b5a82e6f8fb0da0a47733405e83199e997bf1ab3964a67eeb387",
+      "bytes": 705393,
+      "cursor_sha256": "b4da75c2e06e0333ce6471153422a73be8fb0e40bafa1b64995c4ff8856d76a2"
+    },
+    {
+      "page": 5,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "f4d00c6675f02fa81c1ea4c68245dfe88a489e53cc352af14bca96ce1f798a6f",
+      "bytes": 706800,
+      "cursor_sha256": "588217a3eeb3020b214b955c8c86347a0068a8d4adf7e7e3e5e8222185983e0d"
+    },
+    {
+      "page": 6,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "7ecd6dfbe44c2f87f160d3a234187bedd2505b9769fdba4dcf64a10d4611b5f6",
+      "bytes": 705351,
+      "cursor_sha256": "efdd515e996b5981c12fc2e7d7c23bd7f8325740a34d80f9b8aaaef5aeb087be"
+    },
+    {
+      "page": 7,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "4e815f1d432ca0bb961e635f94132c18b58e57c701a1cdc32fd0a269911ae7ac",
+      "bytes": 705157,
+      "cursor_sha256": "9580902d6c14e56d1c723e83c3af70d5659185e70ba537bdd94c40ce80fad227"
+    },
+    {
+      "page": 8,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "33833c35c870553911160a48b6b7d3cce5c462a480c26ce5f33198c676639b9a",
+      "bytes": 707746,
+      "cursor_sha256": "ce1d2100240787de768d7c5b79f75cb17a9df594bfeb6a4ec7792a3ab41107b8"
+    },
+    {
+      "page": 9,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 1000,
+      "sha256": "08aecd728ce3ecf04c94d6c3d5d52ffa283d82155024176ab3f02743712610c9",
+      "bytes": 584384,
+      "cursor_sha256": "ea90c5678260cb442009bd235a2675d5e606460785f5f32560089eff9923d558"
+    },
+    {
+      "page": 10,
+      "status": 200,
+      "total_reported": 9304,
+      "returned": 304,
+      "sha256": "1090228105fdec33cc6f49e699693be2c136bc93b84f83b2567ce158a9db1919",
+      "bytes": 124475,
+      "cursor_sha256": "10d3d52e13b3b1642641a0fdc065d4df6056a3f8f563a5821274513db7f60d41"
+    }
+  ],
+  "note": "Full journal title/DOI metadata retrieval through the cutoff; title-keyword triage is broad and can include biomedical or environmental false positives. Primary-source audit controls catalog promotion.",
+  "initial_title_candidates": 1166,
+  "query_parameters": {
+    "rows": 1000,
+    "select": "DOI,title,published,type,link",
+    "filter": "until-pub-date:2026-11-01",
+    "initial_cursor": "*"
+  }
+}

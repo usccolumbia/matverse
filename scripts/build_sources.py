@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 from urllib.parse import urlparse
-from build_catalog import CATEGORIES, DATE, url_ok
+from build_catalog import CATEGORIES, DATE, url_ok, load_search_tools
 from collection_inventory import load_inventory
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,6 +29,17 @@ def render():
            'Collection-listed links are discovery leads. Their presence here does not mean every destination is still accessible, every resource supplies crystal coordinates, or every count/license has been verified. Crystal-related additions enter the ranked catalog only with their own evidence; adjacent molecular, polymer, engineering and handbook resources remain labeled in the collection inventories.','',
            f'**All {collection_inventory["entry_count"]} imported link occurrences are searchable** in the [Source entries view](https://usccolumbia.github.io/matverse/?view=sources). See the [collection coverage audit](docs/collection-coverage.md) and [complete entry JSON](data/collection_entries.json). Both requested GitHub lists are included in full within the documented extraction boundaries.','',
            '## Source collections supplied by the user','']
+    tools_lines = ['## Materials dataset search tools', '', 'Search platforms help find data; individual deposits still require their own count, structure, method and reuse checks. The [MDF property audit](docs/mdf-property-datasets.md) documents selected releases and existing-source mirrors.', '', '| Search tool | What it searches |', '|---|---|']
+    for r in load_search_tools():
+        register(r['url'],r['name'],'Materials dataset search tool')
+        label=link(r['name'],r['url'])
+        if r.get('homepage'):
+            register(r['homepage'],r['name']+' homepage','Materials dataset search tool')
+            label+=' · '+link('Homepage',r['homepage'])
+        tools_lines.append(f'| {label} | {text(r["scope"])} |')
+    # Place the requested search-tools section before the existing collection inventory.
+    marker=lines.index('## Source collections supplied by the user')
+    lines[marker:marker]=tools_lines+['']
     collections=[]
     for path in sorted((ROOT/'research').glob('collection_*.json')):
         if path.stem.endswith('_additions'):continue
@@ -80,6 +91,17 @@ def render():
         for s in r['sources']:
             register(s['url'],s['title'],'Resource evidence')
             lines += [f'- {link(s["title"],s["url"])} (checked {s["verified_date"]})']
+        lines += ['']
+    lines += ['## API-accessible / Agent-ready data sources', '', 'See the [API guide and OPTIMADE explanation](docs/api-access.md) and [machine-readable route registry](data/api_sources.json). Probe success, authentication and bulk-download status remain separate.', '']
+    for r in json.loads((ROOT/'data/api_sources.json').read_text()):
+        register(r['entrypoint'],r['name'],'API access route')
+        lines += ['### '+link(r['name'],r['entrypoint']), '', f'Interface: {r["kind"]}; authentication: {r["auth"]}.', '']
+        for s in r['sources']:
+            register(s['url'],s['title'],'API documentation')
+            lines += ['- '+link(s['title'],s['url'])]
+        if r['verification'].get('probe_url'):
+            u=r['verification']['probe_url'];register(u,r['name']+' bounded probe','API probe')
+            lines += ['- Bounded probe: '+link(r['verification']['status'],u)]
         lines += ['']
     references=[('Materials Databases: Foundations of Modern Digital Materials','https://doi.org/10.1021/prechem.5c00449'),('The rise of the digital materials ecosystem','https://doi.org/10.20517/aiagent.2026.08'),('Accelerating Catalyst Materials Discovery With Large Artificial Intelligence Models','https://doi.org/10.1002/anie.202526150'),('Roadmap for transforming heterogeneous catalysis with artificial intelligence','https://doi.org/10.1038/s41929-026-01479-x'),('Superconductor Discovery in the Emerging Paradigm of Materials Informatics','https://doi.org/10.1021/acs.chemmater.4c01757')]
     lines += ['## Supporting perspective papers','']

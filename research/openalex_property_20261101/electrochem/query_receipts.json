@@ -1,0 +1,542 @@
+[
+  {
+    "file": "01_solid_electrolyte.json",
+    "query": "solid electrolyte ionic conductivity database",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 38,
+        "known": 50,
+        "pct": 76,
+        "text": "文献类型：journal-article = 38/50（76%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "02_battery_electrode.json",
+    "query": "battery electrode materials property dataset",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "发表年份（5 年一档）",
+        "value": "2020–2024",
+        "count": 35,
+        "known": 50,
+        "pct": 70,
+        "text": "发表年份（5 年一档）：2020–2024 = 35/50（70%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "03_experimental_conductivity.json",
+    "query": "experimental ionic conductivity database lithium",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 36,
+        "known": 50,
+        "pct": 72,
+        "text": "文献类型：journal-article = 36/50（72%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "04_diffusion.json",
+    "query": "diffusion coefficient materials dataset",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 37,
+        "known": 50,
+        "pct": 74,
+        "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "05_solute_diffusion.json",
+    "query": "diffusion database dilute solute materials",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 40,
+        "known": 50,
+        "pct": 80,
+        "text": "文献类型：journal-article = 40/50（80%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "06_liquid_electrolytes.json",
+    "query": "battery electrolyte conductivity dataset CALiSol",
+    "stats": {
+      "raw_hits": 10,
+      "after_dedup": 10,
+      "shown": 10,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 10,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "发表年份（5 年一档）",
+        "value": "2025–2029",
+        "count": 9,
+        "known": 10,
+        "pct": 90,
+        "text": "发表年份（5 年一档）：2025–2029 = 9/10（90%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 7,
+        "known": 10,
+        "pct": 70,
+        "text": "文献类型：journal-article = 7/10（70%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 10,
+        "known": 10,
+        "pct": 100,
+        "text": "主命中源：openalex = 10/10（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "07_migration_barriers.json",
+    "query": "ionic migration barriers dataset",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 49,
+      "shown": 49,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 49,
+        "known": 49,
+        "pct": 100,
+        "text": "主命中源：openalex = 49/49（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "08_electrolyte_experiments.json",
+    "query": "conductivity electrolyte formulations experiments",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 37,
+        "known": 50,
+        "pct": 74,
+        "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  },
+  {
+    "file": "09_laskowski.json",
+    "query": "solid electrolyte conductivity dataset Laskowski",
+    "stats": {
+      "raw_hits": 50,
+      "after_dedup": 50,
+      "shown": 50,
+      "cache_hit_rate": 0.0,
+      "sort": "year_desc"
+    },
+    "network_status": "ok",
+    "coverage": [
+      {
+        "source": "openalex",
+        "name_zh": "OpenAlex",
+        "coverage": "自动检索",
+        "hit_count": 50,
+        "outcome": "ok",
+        "error": null,
+        "applied_filters": "none"
+      },
+      {
+        "source": "cnki",
+        "name_zh": "中国知网（CNKI）",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      },
+      {
+        "source": "wanfang",
+        "name_zh": "万方数据",
+        "coverage": "需用户回填",
+        "hit_count": 0,
+        "outcome": "n/a",
+        "error": null,
+        "applied_filters": "n/a"
+      }
+    ],
+    "warnings": [],
+    "advisories": [
+      {
+        "dimension": "文献类型",
+        "value": "journal-article",
+        "count": 37,
+        "known": 50,
+        "pct": 74,
+        "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      },
+      {
+        "dimension": "主命中源",
+        "value": "openalex",
+        "count": 50,
+        "known": 50,
+        "pct": 100,
+        "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+      }
+    ]
+  }
+]

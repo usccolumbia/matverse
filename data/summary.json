@@ -1,23 +1,24 @@
 {
   "checked_date": "2026-11-01",
-  "dataset_records": 164,
+  "dataset_records": 523,
   "categories": {
     "aggregated_crystals": 3,
-    "bulk_computed": 9,
+    "bulk_computed": 25,
     "experimental_crystallography": 9,
-    "mlip_configurations": 15,
-    "two_dimensional": 8,
-    "porous_frameworks": 15,
-    "molecular_crystals": 4,
-    "surfaces_catalysis": 7,
-    "property_benchmarks": 40,
-    "generation_benchmarks": 6,
-    "experimental_properties": 41,
-    "diffraction_spectroscopy": 7
+    "mlip_configurations": 41,
+    "two_dimensional": 12,
+    "porous_frameworks": 24,
+    "molecular_crystals": 5,
+    "surfaces_catalysis": 18,
+    "property_benchmarks": 87,
+    "generation_benchmarks": 7,
+    "experimental_properties": 114,
+    "diffraction_spectroscopy": 30,
+    "materials_properties": 148
   },
-  "unranked_records": 7,
-  "distinct_dataset_source_urls": 279,
-  "navigation_resources": 51,
+  "unranked_records": 22,
+  "distinct_dataset_source_urls": 748,
+  "navigation_resources": 88,
   "count_total": null,
   "count_total_note": "Intentionally omitted: units, overlapping datasets and releases are not additive."
 }

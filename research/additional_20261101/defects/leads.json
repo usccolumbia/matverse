@@ -1,0 +1,86 @@
+[
+  {
+    "name": "QPOD",
+    "disposition": "duplicate",
+    "reason": "Existing qpod record; two-dimensional intrinsic point defects.",
+    "url": "https://qpoddatabase.org/"
+  },
+  {
+    "name": "JARVIS vacancy data",
+    "disposition": "duplicate",
+    "reason": "Existing jarvis-vacancydb record.",
+    "url": "https://jarvis.nist.gov/"
+  },
+  {
+    "name": "Wolverton ABO3 vacancy data",
+    "disposition": "duplicate",
+    "reason": "Existing mdf-wolverton-oxides record; not the newer OQMD site-label cohort.",
+    "url": "https://doi.org/10.6084/m9.figshare.5334142"
+  },
+  {
+    "name": "Carbon GAP17",
+    "disposition": "duplicate",
+    "reason": "Existing carbon-data-gap17; parent owns GAP20/GAP20U and other normalized MLIP releases.",
+    "url": "https://doi.org/10.17863/CAM.7453"
+  },
+  {
+    "name": "ML_charged_defects",
+    "disposition": "deferred-overlap",
+    "reason": "Repository states transformations/alignment of oxygen-vacancy results; independent new calculation volume not established.",
+    "url": "https://github.com/kumagai-group/ML_charged_defects"
+  },
+  {
+    "name": "Nickel irradiation electronic stopping data",
+    "disposition": "deferred-overlap",
+    "reason": "Aalto/Fairdata release verifies atomistic Ni structures and CC BY 4.0; unresolved overlap with IAEA CascadesDB prevents independent promotion.",
+    "url": "https://doi.org/10.23729/47acaa36-60b7-489b-9c1b-042556af1b1e"
+  },
+  {
+    "name": "PRAM rigid amorphous porous database",
+    "disposition": "routed",
+    "reason": "Lead routed to porous-materials perspective; strong potentially distinct amorphous carbons/kerogens/polymers.",
+    "url": "https://doi.org/10.1038/s41524-024-01469-2"
+  },
+  {
+    "name": "Olmsted 388 FCC GBs",
+    "disposition": "deferred-lineage",
+    "reason": "Historic primary corpus with publicly reused crystallography/properties; independent original coordinate release and rights need more verification.",
+    "url": "https://github.com/ichesser/GB_octonion_code"
+  },
+  {
+    "name": "Imeall iron grain boundaries",
+    "disposition": "deferred",
+    "reason": "Author repository and 2017 paper identified; publication snapshot count and rights for data versus code not verified in this pass.",
+    "url": "https://github.com/Montmorency/imeall"
+  },
+  {
+    "name": "Grain boundary embrittlement genome",
+    "disposition": "deferred-release",
+    "reason": "Primary paper verified but independent dataset release route not established; 2025 preprint differs from publication in base-metal coverage.",
+    "url": "https://doi.org/10.1063/5.0264543"
+  },
+  {
+    "name": "Fe\u2013Ni\u2013Cr public MD samples",
+    "disposition": "promoted",
+    "reason": "Two released sample configurations; atoms and cascade history not counted as structures.",
+    "url": "https://doi.org/10.18150/HOMYLH"
+  },
+  {
+    "name": "GRAINSMITH",
+    "disposition": "excluded-software",
+    "reason": "Generator software does not establish a specific independent dataset release.",
+    "url": "https://arxiv.org/abs/2609.22666"
+  },
+  {
+    "name": "irradiapy",
+    "disposition": "excluded-software",
+    "reason": "README says MD cascade databases are not distributed with the software.",
+    "url": "https://github.com/acgc99/irradiapy"
+  },
+  {
+    "name": "Device/wafer SEM production defects",
+    "disposition": "excluded-scope",
+    "reason": "Wafer-level manufacturing inspection records do not match atomistic materials defect scope.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252516/"
+  }
+]

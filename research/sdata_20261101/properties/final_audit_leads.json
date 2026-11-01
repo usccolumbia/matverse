@@ -1,0 +1,66 @@
+{
+  "verified_date": "2026-11-01",
+  "leads": [
+    {
+      "title": "ChemDataExtractor dye-sensitized solar-cell devices",
+      "doi": "10.1038/s41597-022-01355-w",
+      "urls": {
+        "paper": "https://doi.org/10.1038/s41597-022-01355-w",
+        "data": "https://doi.org/10.6084/m9.figshare.13516220.v1",
+        "repository": "https://github.com/edbeard/dsc_db"
+      },
+      "disposition": "added",
+      "dataset_id": "cde-dye-sensitized-solar-devices",
+      "reason": "Distinct verified release; measurement/device/engineered-material scope and overlap caveats recorded."
+    },
+    {
+      "title": "ChemDataExtractor perovskite solar-cell devices",
+      "doi": "10.1038/s41597-022-01355-w",
+      "urls": {
+        "paper": "https://doi.org/10.1038/s41597-022-01355-w",
+        "data": "https://doi.org/10.6084/m9.figshare.13516238.v1",
+        "repository": "https://github.com/edbeard/pv_database"
+      },
+      "disposition": "added",
+      "dataset_id": "cde-perovskite-solar-devices",
+      "reason": "Distinct verified release; measurement/device/engineered-material scope and overlap caveats recorded."
+    },
+    {
+      "title": "Text-mined perovskite solar-device fabrication attributes",
+      "doi": "10.1038/s41597-025-04566-z",
+      "urls": {
+        "paper": "https://doi.org/10.1038/s41597-025-04566-z",
+        "data": "https://doi.org/10.6084/m9.figshare.25868737.v2",
+        "repository": "https://github.com/vvatpvv/psc-database"
+      },
+      "disposition": "added",
+      "dataset_id": "psc-fabrication-textmine-2025",
+      "reason": "Distinct verified release; measurement/device/engineered-material scope and overlap caveats recorded."
+    },
+    {
+      "title": "Optical emissivity curves for heterogeneous engineered designs",
+      "doi": "10.1038/s41597-022-01699-3",
+      "urls": {
+        "paper": "https://doi.org/10.1038/s41597-022-01699-3",
+        "data": "https://doi.org/10.6084/m9.figshare.20773552.v1",
+        "collection": "https://doi.org/10.6084/m9.figshare.c.6037004.v1",
+        "repository": "https://github.com/ViktoriiaBaib/curvedataextraction"
+      },
+      "disposition": "added",
+      "dataset_id": "optical-emissivity-designs-2022",
+      "reason": "Distinct verified release; measurement/device/engineered-material scope and overlap caveats recorded."
+    },
+    {
+      "title": "Self-cleaning coating material and property corpora",
+      "doi": "10.1038/s41597-024-02983-0",
+      "urls": {
+        "paper": "https://doi.org/10.1038/s41597-024-02983-0",
+        "data": "https://doi.org/10.6084/m9.figshare.23896434.v2",
+        "repository": "https://github.com/MasterAI-EAM/self-cleaning"
+      },
+      "disposition": "added",
+      "dataset_id": "self-cleaning-coating-literature",
+      "reason": "Distinct verified release; measurement/device/engineered-material scope and overlap caveats recorded."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "dataset_id": "metal-combustion-properties",
+    "doi": "10.1038/s41597-026-06862-8",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-026-06862-8?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "418b50998a891ded84fa3f94ea094fd5d257fa314a267225f3b051ab2eb7ba83",
+    "work": {
+      "id": "https://openalex.org/W7129020205",
+      "doi": "https://doi.org/10.1038/s41597-026-06862-8",
+      "title": "An integrated database of combustion properties of metallic materials",
+      "publication_year": 2026,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "ml-hydpark",
+    "doi": "10.1021/acs.jpclett.9b02971",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1021/acs.jpclett.9b02971?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "934844034fd54438cde77e98c68a8403e4203df234662e287f7890b22ea67827",
+    "work": {
+      "id": "https://openalex.org/W2992619312",
+      "doi": "https://doi.org/10.1021/acs.jpclett.9b02971",
+      "title": "Extracting an Empirical Intermetallic Hydride Design Principle from Limited Data via Interpretable Machine Learning",
+      "publication_year": 2019,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "obelix",
+    "doi": "10.1039/d5dd00441a",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1039/d5dd00441a?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "eb0860c777427fb9d4620b52041c91bdd3657c9b238155e0c1a2d5f6a8142acb",
+    "work": {
+      "id": "https://openalex.org/W7124464449",
+      "doi": "https://doi.org/10.1039/d5dd00441a",
+      "title": "OBELiX: a curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes",
+      "publication_year": 2026,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "liverpool-ionics",
+    "doi": "10.1038/s41524-022-00951-z",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41524-022-00951-z?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "e4a255f504558b37261c86009bda8cf312f3f9ceb8d7c38eefb42898ada51a00",
+    "work": {
+      "id": "https://openalex.org/W4316591929",
+      "doi": "https://doi.org/10.1038/s41524-022-00951-z",
+      "title": "A database of experimentally measured lithium solid electrolyte conductivities evaluated with machine learning",
+      "publication_year": 2023,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "caltech-li-conductivity-571",
+    "doi": "10.1039/d5dd00052a",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1039/d5dd00052a?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "4331a3fc95cec432abc708a526f412b4ec598e2b295826effa22f39d86be1fac",
+    "work": {
+      "id": "https://openalex.org/W4410010765",
+      "doi": "https://doi.org/10.1039/d5dd00052a",
+      "title": "Classification of (dis)ordered structures as superionic lithium conductors with an experimental structure–conductivity database",
+      "publication_year": 2025,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "shon-ionic-conductivity-2023",
+    "doi": "10.1021/acsomega.3c01424",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1021/acsomega.3c01424?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "2e2c2e0b378c1f26589411c470b5e7e0665869915e576122e724a600982eb0fc",
+    "work": {
+      "id": "https://openalex.org/W4378745440",
+      "doi": "https://doi.org/10.1021/acsomega.3c01424",
+      "title": "Extracting Chemical Information from Scientific Literature Using Text Mining: Building an Ionic Conductivity Database for Solid-State Electrolytes",
+      "publication_year": 2023,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "uw-cmg-dilute-solute-diffusion",
+    "doi": "10.1038/sdata.2016.54",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/sdata.2016.54?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "57d586aa2a4a2aa237f1f633e8f00b03d8a725bc7aeec9a7f7ebe2273137dfe7",
+    "work": {
+      "id": "https://openalex.org/W2272864591",
+      "doi": "https://doi.org/10.1038/sdata.2016.54",
+      "title": "High-throughput ab-initio dilute solute diffusion database",
+      "publication_year": 2016,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "ternary-fluoride-electrode-pairs",
+    "doi": "10.1038/s41597-023-01954-1",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-023-01954-1?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "6849fca871897cf3320c4a8bcad876487c1cf5d0aa18538b47fa28b950ff52bc",
+    "work": {
+      "id": "https://openalex.org/W4320037140",
+      "doi": "https://doi.org/10.1038/s41597-023-01954-1",
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "publication_year": 2023,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "migration-barriers-literature-2025",
+    "doi": "10.1038/s41597-025-06196-x",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-025-06196-x?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "eae50ad7e9e216a6a0bebdb7e0bfa6193589e2f3f455beb9d8b29a29ff386fbf",
+    "work": {
+      "id": "https://openalex.org/W4417033727",
+      "doi": "https://doi.org/10.1038/s41597-025-06196-x",
+      "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+      "publication_year": 2025,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "polyanion-sodium-cathode-2025",
+    "doi": "10.1038/s41597-025-05799-8",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-025-05799-8?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "14399f09cd8caa1a7995f00d619d78b2dd50f53579fb939ad049fbd556fb07dc",
+    "work": {
+      "id": "https://openalex.org/W4413270743",
+      "doi": "https://doi.org/10.1038/s41597-025-05799-8",
+      "title": "Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials",
+      "publication_year": 2025,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "oxygen-migration-perovskites-2016",
+    "doi": "10.1016/j.ssi.2016.09.007",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.ssi.2016.09.007?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "f546b1002f9dbdc0fedc23e59d8ca306966ae91552fc0a2d78e384d9f43bc486",
+    "work": {
+      "id": "https://openalex.org/W2516364701",
+      "doi": "https://doi.org/10.1016/j.ssi.2016.09.007",
+      "title": "Factors controlling oxygen migration barriers in perovskites",
+      "publication_year": 2016,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "materialscloud-fast-li-ion-conductors",
+    "doi": "10.1039/d5ee07336g",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1039/d5ee07336g?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "242b2998dccf657aa30fe6b6c386f9738767f852a289a5fa85478e89a96676cb",
+    "work": {
+      "id": "https://openalex.org/W7155204543",
+      "doi": "https://doi.org/10.1039/d5ee07336g",
+      "title": "Novel fast Li-ion conductors for solid-state electrolytes from first-principles",
+      "publication_year": 2026,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "smidt-ferroelectric-2020",
+    "doi": "10.1038/s41597-020-0407-9",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-020-0407-9?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "fb802e71f5d8600af4fb7768226a9e30c08de41a6ae4837177786236c7f7b4c1",
+    "work": {
+      "id": "https://openalex.org/W3010383729",
+      "doi": "https://doi.org/10.1038/s41597-020-0407-9",
+      "title": "An automatically curated first-principles database of ferroelectrics",
+      "publication_year": 2020,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "ricci-polar-ferroelectrics-2024",
+    "doi": "10.1038/s41524-023-01193-3",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41524-023-01193-3?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "trinquet-shg-2024",
+    "doi": "10.1038/s41597-024-03590-9",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-024-03590-9?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "f5062c68a3445f9c6f53a4e761379dcbcdf000c1e1068e288fb1c1a30b4c2219",
+    "work": {
+      "id": "https://openalex.org/W4400548768",
+      "doi": "https://doi.org/10.1038/s41597-024-03590-9",
+      "title": "Second-harmonic generation tensors from high-throughput density-functional perturbation theory",
+      "publication_year": 2024,
+      "type": "data-paper",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "fang-wannier-optical-transport-2025",
+    "doi": "10.1038/s41597-025-05396-9",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-025-05396-9?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "cde-bandgaps-2022",
+    "doi": "10.1038/s41597-022-01294-6",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-022-01294-6?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "cde-refractive-dielectric-2022",
+    "doi": "10.1038/s41597-022-01295-5",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-022-01295-5?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "refractiveindex-info",
+    "doi": "10.1038/s41597-023-02898-2",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-023-02898-2?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "topohse-db",
+    "doi": "10.1088/2632-2153/ae97d8",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1088/2632-2153/ae97d8?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "01d20984f13c824eff2537588ea359ba9622137c234739ac90035449708baf64",
+    "work": {
+      "id": "https://openalex.org/W7202141236",
+      "doi": "https://doi.org/10.1088/2632-2153/ae97d8",
+      "title": "TopoHSE-DB: a topological materials database for generative and predictive models",
+      "publication_year": 2026,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "ipop-v3",
+    "doi": "10.1038/s41598-024-58351-w",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41598-024-58351-w?select=id,doi,title,publication_year,type,is_retracted",
+    "status": 200,
+    "sha256": "50fd58e7e51f182f82afc034b5b383fa0a4cdca330f79faa9efba0d9f0610c74",
+    "work": {
+      "id": "https://openalex.org/W4393381741",
+      "doi": "https://doi.org/10.1038/s41598-024-58351-w",
+      "title": "Optical property dataset of inorganic phosphor",
+      "publication_year": 2024,
+      "type": "article",
+      "is_retracted": false
+    }
+  },
+  {
+    "dataset_id": "ekhi-radiative-2026",
+    "doi": "10.1038/s41597-026-07083-9",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1038/s41597-026-07083-9?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "digbat",
+    "doi": "10.1016/j.nanoms.2023.08.002",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nanoms.2023.08.002?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "dataset_id": "digbat",
+    "doi": "10.32604/cmc.2024.060288",
+    "request_url": "https://api.openalex.org/works/https://doi.org/10.32604/cmc.2024.060288?select=id,doi,title,publication_year,type,is_retracted",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

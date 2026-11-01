@@ -1,0 +1,39 @@
+{
+  "name": "pd_ordered",
+  "url": "https://api.figshare.com/v2/articles/11783661",
+  "status": 200,
+  "raw_file": "research/cache/sdata_characterization/pd_ordered_deposit.json",
+  "sha256": "8cc8cb00c025a05521503d8089127671342ae5970f28d313cda41c8059e9d342",
+  "title": "Electron microscopy dataset for the recognition of nanoscale ordering effects and location of nanoparticles — Dataset 1 (ordered)",
+  "doi": "10.6084/m9.figshare.11783661.v1",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "version": 1,
+  "publication_date": null,
+  "access_right": null,
+  "file_count": 754,
+  "total_file_bytes": 983547517,
+  "file_examples": [
+    {
+      "name": "ordered_description_w_units.csv",
+      "bytes": 49574,
+      "checksum": "6b4ac0880b8f7576568eba30e4feb18e",
+      "url": "https://ndownloader.figshare.com/files/21945831"
+    },
+    {
+      "name": "ordered_description.csv",
+      "bytes": 49547,
+      "checksum": "afe87449977bcff8362d9de51884b16d",
+      "url": "https://ndownloader.figshare.com/files/21945834"
+    },
+    {
+      "name": "labels_ordered.csv",
+      "bytes": 2904,
+      "checksum": "b939405098627b7d053ddf8a3e16f836",
+      "url": "https://ndownloader.figshare.com/files/21944325"
+    }
+  ]
+}

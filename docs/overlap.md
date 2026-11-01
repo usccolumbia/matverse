@@ -34,3 +34,7 @@ SuperCon is an upstream measurement collection; the UCI feature table and 3DSC m
 Computed electron–phonon collections and learned-model releases introduce another layer of reuse. A structure file distributed with a model need not contain its target labels, and an Allen–Dynes or Eliashberg critical temperature is a calculated quantity under a stated protocol. High-pressure hydride results must retain pressure and dynamical-stability context when compared with ambient-pressure materials. The [superconductivity supplement](superconductivity.md) documents source-specific units, pressure limits and upstream relationships, including Hennig-group model releases and their parent calculation sets.
 
 [Back to MatVerse](../README.md)
+
+## JARVIS access layers and historical mirrors
+
+The [complete JARVIS audit](jarvis-coverage.md) maps the homepage database rows and all entries in the linked Figshare table. The download registry includes mirrors of AFLOW, Alexandria, COD, Materials Project, OQMD and other sources. These mirrors can differ in date, schema and subset selection; their sizes are not new material totals to add to the parent database. JARVIS-DFT2 and Universal Search are alternate access layers. The [API directory](api-access.md) distinguishes these navigation and machine-access routes from ranked data releases.

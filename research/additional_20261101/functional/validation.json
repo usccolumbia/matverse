@@ -1,0 +1,11 @@
+{
+  "verified_date": "2026-11-01",
+  "canonical_records": 304,
+  "staged_records": 13,
+  "combined_records": 317,
+  "catalog_validator": "scripts/build_catalog.py:validate(old + additions, [])",
+  "catalog_validator_status": "passed",
+  "json_schema_status": "passed",
+  "canonical_id_overlap": [],
+  "additions_sha256": "071f65f79100aeb67544e66fa352dea69d67f6dc1516b5b480b94b7961de25c4"
+}

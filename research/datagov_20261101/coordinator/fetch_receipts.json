@@ -1,0 +1,51 @@
+[
+  {
+    "key": "iupac_catalog",
+    "url": "https://catalog.data.gov/dataset/literature-experimental-data-for-reference-materials-for-phase-equilibrium-studies-2-solid-aae7b",
+    "status": 200,
+    "bytes": 126797,
+    "sha256": "1ab742a154d8c3cd9ae0a4640003c07130c8ba2d6d8d161f08cd18a3346e08d2"
+  },
+  {
+    "key": "iupac_readme",
+    "url": "https://data.nist.gov/od/ds/mds2-2807/Readme.txt",
+    "status": 200,
+    "bytes": 1580,
+    "sha256": "776a121046bb88cdf57994981ae23b2a0d500ed27777538e5718e75ac7148e75"
+  },
+  {
+    "key": "iupac_data",
+    "url": "https://data.nist.gov/od/ds/mds2-2807/DataFiles.zip",
+    "status": 200,
+    "bytes": 290911,
+    "sha256": "cc8c51827c344bd56e778c78d82c18db835ea689b4b41bef918705e30a73eaa2"
+  },
+  {
+    "key": "ipr_catalog",
+    "url": "https://catalog.data.gov/dataset/nist-interatomic-potentials-repository",
+    "status": 200,
+    "bytes": 127078,
+    "sha256": "e06f3a01100e7510b275b7b7f3005e9782e6a2ca537e85a194e8385ed45a019f"
+  },
+  {
+    "key": "ipr_provider",
+    "url": "https://www.ctcms.nist.gov/potentials/",
+    "status": 200,
+    "bytes": 30816,
+    "sha256": "4b174dce0c2780a33b269c256d0c4b9534d4525e4e4d31e1eb7457e19b4cc6e9"
+  },
+  {
+    "key": "jarvis_leaderboard_catalog",
+    "url": "https://catalog.data.gov/dataset/jarvis-leaderboard-large-scale-benchmark-of-materials-design-methods",
+    "status": 200,
+    "bytes": 127421,
+    "sha256": "f7e9a1df97f8b1e8245874118bb2d33a40d3ae5e0b4fb5dd1b93b542750fa1df"
+  },
+  {
+    "key": "search_page",
+    "url": "https://catalog.data.gov/?q=materials&sort=relevance&results=320",
+    "status": 200,
+    "bytes": 1268707,
+    "sha256": "0a62cd3e56a633f86345fb4fedfe212b0cf56da9ea9f4031c9718ddd28cff25c"
+  }
+]

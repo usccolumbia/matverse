@@ -1,0 +1,3357 @@
+{
+  "mode": "search",
+  "query": "fatigue database complex metallic alloys",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Corrigendum to “Physics-informed deep neural network framework for prediction of fatigue crack growth in LPBF-manufactured metallic alloys” [Int. J. Fatigue 208 (2026) 109522]",
+      "authors": [
+        "Ayhan Ince"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ayhan Ince",
+          "orcid": "0000-0002-2892-8551",
+          "affiliations": [
+            "Fraunhofer Institute for Mechanics of Materials",
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Fatigue",
+      "doi": "10.1016/j.ijfatigue.2026.109568",
+      "type": "erratum",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109568",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "A Fatigue Strength Prediction Method for Ferrous Alloys Based on the CNN‐GRU Model With Bayesian Optimization",
+      "authors": [
+        "Song Bai",
+        "Chengcheng Guo",
+        "Jiexuan Yan",
+        "Junyu Guo",
+        "Tingyu Zhang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Song Bai",
+          "orcid": "0009-0007-8147-9576",
+          "affiliations": [
+            "Southwest Petroleum University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chengcheng Guo",
+          "orcid": "0000-0001-7559-9503",
+          "affiliations": [
+            "Southwest Petroleum University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiexuan Yan",
+          "orcid": "0009-0000-0691-2666",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junyu Guo",
+          "orcid": "0000-0001-9462-9501",
+          "affiliations": [
+            "Southwest Petroleum University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tingyu Zhang",
+          "orcid": "0009-0009-5780-2518",
+          "affiliations": [
+            "Southwest Petroleum University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Fatigue & Fracture of Engineering Materials & Structures",
+      "doi": "10.1111/ffe.70326",
+      "type": "article",
+      "url": "https://doi.org/10.1111/ffe.70326",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Fatigue strength prediction is crucial for ensuring the structural integrity and durability of metallic components under cyclic loading. While traditional methods rely heavily on extensive experimental testing, recent advances in deep learning offer promising alternatives for ferrous alloys with unknown fatigue strength. This paper proposes a CNN‐GRU model with Bayesian optimization (B‐CNN‐GRU)‐based fatigue strength prediction method for ferrous alloys. The model integrates convolutional neural networks (CNN) for extracting local interaction patterns among neighboring descriptors and gated recurrent units (GRU) for capturing cross‐feature sequential dependencies, enabling a comprehensive analysis of complex material descriptors. To enhance performance, Bayesian optimization is employed to automatically identify the optimal hyperparameters of the hybrid architecture. A dedicated dataset comprising 1753 samples with 20 features is constructed from a public materials database. Experimental results demonstrate that the proposed B‐CNN‐GRU model significantly outperforms other baseline models, including CNN, RNN, LSTM, GRU, and CNN‐GRU, achieving superior performance with an R 2 of 0.9913 and substantially lower MAE, RMSE, and MAPE. Further application studies on 35 unseen ferrous alloys confirm the model's excellent generalization capability, stability, and high prediction accuracy, showcasing its strong potential for practical engineering applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Fatigue Crack Growth Assessment and Fatigue Resistance Enhancement of Aluminium Alloys",
+      "authors": [
+        "Ma Mohin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ma Mohin",
+          "orcid": "0000-0003-2240-464X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "University of Hertfordshire Research Archive (University of Hertfordshire)",
+      "doi": "10.83056/mmu.32505858",
+      "type": "dissertation",
+      "url": "https://doi.org/10.83056/mmu.32505858",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://uhra.herts.ac.uk/id/eprint/16045/1/09208400%20MOHIN%20M%20A%20final%20version%20of%20submission.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Fatigue damage of aluminium alloys is one of the key concerns in transport industries, particularly in the aerospace industry. The purpose of the project is to develop new knowledge and techniques against fatigue failure for these industries through a systematic investigation of fatigue resistance and crack growth behaviours of aluminium alloys. Fatigue and fracture mechanics have been investigated analytically, numerically and experimentally in this project. Overload transient effect on fatigue crack growth has been examined by considering various parameters including crack closure, overload ratio (OLR), load ratio ( ratio), baseline stress intensity factor range, (∆ ) and geometry. It was found that crack closure can be correlated qualitatively and quantitatively to all other parameters associated with overload transient behaviour. It is proposed that the effect of crack tip plasticity on the non-linearity of the compliance curve can be separated to obtain reliable crack closure measurement. In this project, different methods are used to better understand the transient retardation process so that the damage tolerance design (DTD) of the components made of aluminium alloys can be enhanced. Another important parameter for fatigue and damage tolerance design (DTD) of engineering components is the threshold stress intensity factor range for fatigue crack growth, ∆ ℎ. A small variation in identification of ∆ ℎ can lead to a big change in overall estimation of fatigue life. In this project, an analytical model has been developed for aluminium alloys by fitting an analytical curve with raw crack growth data in order to identify the ∆ ℎ. This model has the capacity to identify ∆ ℎ for different aluminium alloys at various ratios. There is a great demand for enhanced fatigue life of aluminium alloys in the transport industry. This project has carried out a detailed investigation of electromagnetic treatment (ET) in the form of electropulsing treatment to develop an efficient technique for fatigue resistance enhancement. ET parameters including the treatment intensity, treatment time and the number of applications have been optimised. It is suggested that the duration of ET treatment can be used as the main parameter among all these to control the fatigue resistance of the aluminium alloy. The improvement in fatigue resistance has been explained by the change in microhardness and conductivity of aluminium alloy due to ET. Additionally, the fracture morphology was analysed using scanning electron microscopy (SEM). The precipitates and dislocation characteristics were also studied using transmission electron microscopy (TEM). The outcomes of this investigation will help improve structural integrity by enhancing fatigue resistance of aluminium alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Fatigue Crack Growth in Metallic Materials (Volume II)",
+      "authors": [
+        "F.V. Antunes",
+        "Francisco Alberto Diaz"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "F.V. Antunes",
+          "orcid": "0000-0002-0336-4729",
+          "affiliations": [
+            "University of Coimbra"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francisco Alberto Diaz",
+          "orcid": "0000-0003-0467-542X",
+          "affiliations": [
+            "Universidad de Jaén"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma19102063",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma19102063",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/19/10/2063/pdf?version=1779268249",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The in-service failure of critical components in cars, ships, aeroplanes, trains, etc [...].",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Emerging Designs and Developments of Biodegradable Metallic Alloys for Biomedical Applications",
+      "authors": [
+        "Promise Chima Ubah",
+        "Musa Yahaya Abubakar",
+        "Anidobu Clara Obianuju",
+        "Khalil Nazir Abdullahi",
+        "Saidu Bello Mamudu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Promise Chima Ubah",
+          "orcid": "0009-0004-4924-9330",
+          "affiliations": [
+            "Federal University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Musa Yahaya Abubakar",
+          "orcid": null,
+          "affiliations": [
+            "Federal University Wukari"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anidobu Clara Obianuju",
+          "orcid": null,
+          "affiliations": [
+            "Federal University Wukari"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khalil Nazir Abdullahi",
+          "orcid": null,
+          "affiliations": [
+            "Federal University Wukari"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saidu Bello Mamudu",
+          "orcid": null,
+          "affiliations": [
+            "Federal University Wukari"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "NextGen Chemical Discoveries",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://novalexpress.com/NGCD/index.php/ngcd/article/download/19/46",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Biodegradable metal alloys are new classes of biomaterials that can offer mechanical support that will dissolve in the human body after the therapeutic regime. Alloy implants made from magnesium, zinc and iron will have more advantages than conventional ones as they do not present long term side effects. Also, they will not require removal. This study explains recent findings, designs and constructions of metal alloys that are highly biodegradable for temporary purposes. Welders of materials beneath human skin must certainly be familiar with each of these properties: corrosion house, integrity, biocompatibility. Research shows that your body responds quickly to natural elements, helping performance and recovery. We include antioxidants and growth problem solvers. We have updated the breakdown systems and your human response. Apart from that, new applications can arise in injections, arthritis, and heart and tissue repair. All of these methods require careful timing to function correctly. While having known alloys presents great issues for material outcome and \"degradation\" of parts, the challenges continue. Hospitals can use biodegradable metallic alloys, which allow for the use of advanced materials for the transfer from lab study to common practice.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Sustainable thermoelectric materials based on metallic alloys and intermetallic compounds",
+      "authors": [
+        "Olga Caballero‐Calero",
+        "Cristina Vicente Manzano",
+        "Marisol Martín‐González"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Olga Caballero‐Calero",
+          "orcid": "0000-0003-1777-7126",
+          "affiliations": [
+            "Institute of Micro and Nanotechnology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cristina Vicente Manzano",
+          "orcid": "0000-0001-5708-6544",
+          "affiliations": [
+            "Institute of Micro and Nanotechnology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marisol Martín‐González",
+          "orcid": "0000-0002-5687-3674",
+          "affiliations": [
+            "Institute of Micro and Nanotechnology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "APL Energy",
+      "doi": "10.1063/5.0341326",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0341326",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.aip.org/aip/ape/article-pdf/doi/10.1063/5.0341326/21133373/031501_1_5.0341326.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This review provides an overview of recent advances in metallic and intermetallic alloys, which have emerged as promising alternatives to traditional semiconductor thermoelectrics for power generation and active solid-state cooling. Driven by the abundance, low toxicity, mechanical robustness, and manufacturability of these materials, we examine current trends in metallic (e.g., Cu–Ni, Ni–Fe, Ni–Au) and intermetallic (Heuslers, skutterudites, Zintl phases, silicon-rich silicides, clathrates, stannides, etc.) families to gain insight into the physical basis of their performance and to inform future developments. Unlike the traditional focus on high-zT semiconductors, we highlight the importance of high-power factor (PF = σ·S2) in these materials for achieving compelling device-level performance, particularly for Peltier cooling under realistic thermal-resistance constraints. We also discuss phonon-engineering strategies to reduce lattice thermal conductivity while preserving electrical transport. The review concludes by exploring opportunities in thin films and microfabrication to unlock nanostructured architectures, conformal modules, and material-efficient devices. While some of the systems discussed (e.g., Ni–Au or Hf-rich half-Heuslers) are not intrinsically sustainable in terms of elemental abundance or cost, they are included to illustrate key physical mechanisms that can be translated to more sustainable material platforms.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "A data-informed knowledge discovery framework to predict fatigue properties of additively manufactured Ti–6Al–4V, IN718 and AlSi10Mg alloys using fatigue databases",
+      "authors": [
+        "Samuel Onimpa Alfred",
+        "Mehdi Amiri"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Samuel Onimpa Alfred",
+          "orcid": "0009-0000-2142-0555",
+          "affiliations": [
+            "George Mason University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mehdi Amiri",
+          "orcid": "0000-0002-4729-8129",
+          "affiliations": [
+            "George Mason University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Progress in Additive Manufacturing",
+      "doi": "10.1007/s40964-025-00965-1",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40964-025-00965-1",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40964-025-00965-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract With the increasing interest in utilizing additive manufacturing (AM) for fatigue-critical applications, reliable fatigue analysis tools are increasingly necessary. Unlike traditional manufacturing processes, AM involves a greater number of process parameters and manufacturing variables which adds complexity to the development of mechanistic fatigue models. Data-driven models, to some extent, have shown predictive capabilities for the fatigue properties of AM alloys. However, no study has extensively investigated fatigue properties across different AM alloys with the aim of developing predictive models for fatigue databases. A data-informed knowledge discovery framework is developed for exploring diverse AM fatigue datasets in the literature. Characteristics of the AM fatigue datasets are first analyzed within this framework to uncover data-driven insights for machine learning modeling. Machine learning techniques are then used to solve classification and regression problems using fatigue ratio as the property of interest. k-nearest neighbors and support vector machine classifiers are used to classify process parameters and manufacturing variables to determine the class of fatigue ratio they belong to based on a pre-defined threshold. Similarly, a Gaussian process regression (GPR) model is used to predict the fatigue ratio of AM alloys with a 95% prediction interval. The Shapley Additive exPlanations (SHAP) method is used to explain the predictions of the GPR model. This framework is validated using Ti–6Al–4V, IN718, and AlSi10Mg datasets from the literature. The proposed framework efficiently maps process parameters, post-processing sequences, and AM types to the fatigue ratio, thereby providing an efficient surrogate modeling methodology for estimating fatigue properties from available datasets.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Assessing the Neutron Attenuation Properties of Metallic Amorphous Alloys",
+      "authors": [
+        "AMY SHARON JANET V.",
+        "SOUPARNIKA P.",
+        "Muhammedali V. P."
+      ],
+      "year": 2025,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Vidhyayana",
+      "doi": "10.58213/vidhyayana.v10isi3.2196",
+      "type": "article",
+      "url": "https://doi.org/10.58213/vidhyayana.v10isi3.2196",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "http://vidhyayanaejournal.org/index.php/journal/article/download/vidhyayana.v10isi3.2196/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Neutron shielding is essential in various Applications including high-energy physics experiments, medical physics, space exploration studies, and nuclear power generation. Because of their easily adjustable features, such as their electrical neutrality and high penetration, high-tech materials are usually used to attenuate the neutrons in these applications. In addition to lead, other common materials include borated polyethylene and concrete. But these materials are big and heavy, and they have environmental problems that could lead to a shift to alternative technologies. Metallic amorphous alloys (MAA), also referred to as bulk metallic glasses, are one of the newest scientific developments with enormous promise for neutron shielding because of their amorphous atomic structure. The amorphous structure of metallic alloys is thought to be responsible for their distinctive characteristics. The alloy has a high mechanical strength, is corrosion-resistant, and remains stable at high temperatures. Composition flexibility is made feasible by the fact that MAAs can contain elements like as boron, gadolinium, and dysprosium, all of which have a very large neutron capture cross-section and enhance both thermal and fast neutron attenuation. The extraordinary versatility and properties of MAAs make them a suitable option for the next generation of materials to be used for neutron shielding. They are used in nuclear reactors as robust barriers and for lightweight shielding to be used in space travel, among other applications. This paper will discuss the basic properties, advantages over conventional materials, and possible uses of MAAs in neutron attenuation. This research seriously in-depths the challenges presently being faced by the programme, analyses them in a panoramic context, and evaluates their efficacy comprehensively with the hope that it will prove what makes MAA so revolutionizing when significantly improving the security aspect of Radiation Shielding Technology alongside an overall efficiency.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Fatigue failure mechanisms and life prediction of additive manufactured metallic lattices: a comprehensive review",
+      "authors": [
+        "Hao Xin",
+        "Dingcheng Tang",
+        "Linwei Dang",
+        "Lei Gao",
+        "Zhenyu Yang",
+        "Bin Wu",
+        "Xiaofan He",
+        "Zhixin Zhan"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Hao Xin",
+          "orcid": null,
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dingcheng Tang",
+          "orcid": "0000-0003-3560-2397",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linwei Dang",
+          "orcid": null,
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lei Gao",
+          "orcid": "0009-0000-7871-8328",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenyu Yang",
+          "orcid": "0000-0003-3163-7998",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bin Wu",
+          "orcid": "0000-0002-7747-5878",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaofan He",
+          "orcid": null,
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhixin Zhan",
+          "orcid": "0000-0002-1842-0391",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Virtual and Physical Prototyping",
+      "doi": "10.1080/17452759.2025.2451124",
+      "type": "article",
+      "url": "https://doi.org/10.1080/17452759.2025.2451124",
+      "cited_by_count": 33,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/17452759.2025.2451124?needAccess=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "In recent years, expanding application scenarios have imposed higher demands on the geometric design and performance of metallic structures. Additive manufacturing (AM) has become essential for producing complex, customised geometries. Metallic lattice materials, known for their periodic structural arrangements, offer lightweight solutions ideal for high-strength applications like aerospace. However, during long-term use, these structures are often subjected to cyclic loading, making fatigue resistance a critical property. The complexity of fatigue-related challenges necessitates thorough research to fully understand the fatigue behaviours of these materials. This paper adopts a standard research approach to explore fatigue issues, with a focus on AM metallic lattice materials. It reviews common manufacturing methods and post-processing techniques, with particular emphasis on the unique process-induced defects found in lattice structures. The study also delves into the fatigue behaviours influenced by specific configurations and loading conditions, categorises the factors impacting fatigue failure in lattice materials, and presents a comprehensive review of fatigue life prediction methods, derived from an enhanced understanding of the fatigue process and the development of progressive fatigue failure algorithms. Finally, the current research advancements and limitations are discussed to provide a clearer perspective on the fatigue challenges associated with AM metallic lattice materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Fatigue database of complex metallic alloys",
+      "authors": [
+        "Zian Zhang",
+        "Haoxuan Tang",
+        "Zhiping Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Zian Zhang",
+          "orcid": "0009-0003-0037-8417",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoxuan Tang",
+          "orcid": "0009-0006-3034-990X",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiping Xu",
+          "orcid": "0000-0002-2833-1966",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02354-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02354-1",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02354-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The past few decades have witnessed rapid progresses in the research and development of complex metallic alloys such as metallic glasses and multi-principal element alloys, which offer new solutions to tackle engineering problems of materials such as the strength-toughness conflict and deployment in harsh environments and/or for long-term service. A fatigue database (FatigueData-CMA2022) is compiled from the literature by the end of 2022. Data for both metallic glasses and multi-principal element alloys are included and analyzed for their statistics and patterns. Automatic extraction and manual examination are combined in the workflow to improve the efficiency of processing, the quality of published data, and the reusability. The database contains 272 fatigue datasets of S-N (the stress-life relation), ε-N (the strain-life relation), and da/dN-ΔK (the relation between the fatigue crack growth rate and the stress intensity factor range) data, together with the information of materials, processing and testing conditions, and mechanical properties. The database and scripts are released in open repositories, which are designed in formats that can be continuously expanded and updated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Fatigue database of complex metallic alloys",
+      "authors": [
+        "Zian Zhang",
+        "Haoxuan Tang",
+        "Zhiping Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Zian Zhang",
+          "orcid": "0009-0003-0037-8417",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoxuan Tang",
+          "orcid": "0009-0006-3034-990X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiping Xu",
+          "orcid": "0000-0002-2833-1966",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.23007362",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.23007362",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/Fatigue_database_of_complex_metallic_alloys/23007362",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Metallic glasses and multi-principal element alloys are two representative groups of alloys with high complexity in chemical compositions and atomic-level structures. Their development offers new solutions to tackle engineering problems of materials such as the strength-toughness conflict and deployment in harsh environments and/or for long-term service. The past few decades have witnessed rapid progresses in the research and development of these alloys, with the space of material design much explored and the overall performance significantly elevated. A fatigue database (FatigueData-CMA2022) is compiled from the literature by the end of 2022. Data for both metallic glasses and multi-principal element alloys are included and analyzed for their statistics and patterns. Automatic extraction and manual examination are combined in the workflow to improve the efficiency of processing, the quality of published data, and the reusability. The database contains 272 fatigue datasets of S-N (the stress-life relation), e-N (the strain-life relation), and da/dN-delta K (the relation between the fatigue crack growth rate and the stress intensity factor range) data, together with the information of materials, processing and testing conditions, and static mechanical properties. The database is designed in a format that can be continuously expanded and updated. Consistent data models are provided to derive fatigue strengths from the S-N data, which allow follow-up data mining and optimization for the composition-processing-microstructure-performance relationships. The database and scripts are released in open repositories.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Fatigue database of additively manufactured alloys",
+      "authors": [
+        "Zian Zhang",
+        "Zhiping Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Zian Zhang",
+          "orcid": "0009-0003-0037-8417",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiping Xu",
+          "orcid": "0000-0002-2833-1966",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02150-x",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02150-x",
+      "cited_by_count": 43,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02150-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Fatigue is a process of mechanical degradation that is usually assessed based on empirical rules and experimental data obtained from standardized tests. Fatigue data of engineering materials are commonly reported in S-N (the stress-life relation), ε-N (the strain-life relation), and da/dN-ΔK (the relation between the fatigue crack growth rate and the stress intensity factor range) data. Fatigue and static mechanical properties of additively manufactured (AM) alloys, as well as the types of materials, parameters of AM, processing, and testing are collected from thousands of scientific articles till the end of 2022 using natural language processing, machine learning, and computer vision techniques. The results show that the performance of AM alloys could reach that of conventional alloys although data dispersion and system deviation are present. The database (FatigueData-AM2022) is formatted in compact structures, hosted in an open repository, and analyzed to show their patterns and statistics. The quality of data collected from the literature is measured by defining rating scores for datasets reported in individual studies and through the fill rates of data entries across all the datasets. The database also serves as a high-quality training set for data processing using machine learning models. The procedures of data extraction and analysis are outlined and the tools are publicly released. A unified language of fatigue data is suggested to regulate data reporting for the fatigue performance of materials to facilitate data sharing and the development of open science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Understanding and design of metallic alloys guided by phase-field simulations",
+      "authors": [
+        "Yuhong Zhao"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yuhong Zhao",
+          "orcid": "0000-0003-3333-0869",
+          "affiliations": [
+            "Ministry of Education of the People's Republic of China",
+            "North University of China",
+            "Liaoning Academy of Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-023-01038-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-023-01038-z",
+      "cited_by_count": 237,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-023-01038-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Phase-field method (PFM) has become a mainstream computational method for predicting the evolution of nano and mesoscopic microstructures and properties during materials processes. The paper briefly reviews latest progresses in applying PFM to understanding the thermodynamic driving forces and mechanisms underlying microstructure evolution in metallic materials and related processes, including casting, aging, deformation, additive manufacturing, and defects, etc. Focus on designing alloys by integrating PFM with constitutive relations and machine learning. Several examples are presented to demonstrate the potential of integrated PFM in discovering new multi-scale phenomena and high-performance alloys. The article ends with prospects for promising research directions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "A state of the art on surface morphology of selective laser-melted metallic alloys",
+      "authors": [
+        "Mustafa Kuntoğlu",
+        "Emin Salur",
+        "Eyüb Canlı",
+        "Abdullah Aslan",
+        "Munish Kumar Gupta",
+        "Saad Waqar",
+        "Grzegorz Królczyk",
+        "Jinyang Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Mustafa Kuntoğlu",
+          "orcid": "0000-0002-7291-9468",
+          "affiliations": [
+            "Selçuk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emin Salur",
+          "orcid": "0000-0003-0984-3496",
+          "affiliations": [
+            "Selçuk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eyüb Canlı",
+          "orcid": "0000-0002-9358-1603",
+          "affiliations": [
+            "Selçuk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdullah Aslan",
+          "orcid": "0000-0001-8348-3471",
+          "affiliations": [
+            "Selçuk University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Munish Kumar Gupta",
+          "orcid": "0000-0002-0777-1559",
+          "affiliations": [
+            "Opole University of Technology",
+            "Graphic Era University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saad Waqar",
+          "orcid": "0000-0002-3645-4720",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Grzegorz Królczyk",
+          "orcid": "0000-0002-2967-1719",
+          "affiliations": [
+            "Opole University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyang Xu",
+          "orcid": "0000-0001-7364-9837",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Mechanical System and Vibration"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "doi": "10.1007/s00170-023-11534-7",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00170-023-11534-7",
+      "cited_by_count": 52,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00170-023-11534-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The possibility of producing complex metallic parts in various industries can be attributed to the selective laser melting (SLM) additive manufacturing method. As a powder bed fusion technique, SLM fabricates the product layer by layer. The state-of-the-art research on SLM, the metallic alloys utilized in the process, and the surface morphology of fabricated parts are discussed in this paper. The present report contributes to the literature by providing a comprehensive overview of the surface morphology of metallic alloys fabricated using the SLM additive manufacturing method. The article covers recent research on SLM, metallic alloys used in the process, and the surface morphology of fabricated parts. Insights into the challenges and opportunities of SLM for the fabrication of metallic parts with desired surface properties are provided. In the first part, parameters representing surface morphology are introduced and types of surface defects are viewed. Subsequently, influence of process variables during the production phase is discussed in-depth, overviewing several parameters such as laser, scanning, and geometric parameters. Surface morphology enhancement, namely in situ treatment, post-processing, and finishing-machining techniques, is viewed separately by classifying them into subtopics, in respect of their improvement effectiveness. Mechanical aspects of the microstructure and surface are evaluated in correlation with the surface morphology. The discussion of the findings considering the advantages and disadvantages of this technology is summarized finally. It is concluded that laser parameter effect’s significance depends on the work alloy. In the literature, process parameters are systematically studied, and better surface quality and favourable surface morphology of as build surfaces are possible. Moreover, it has been concluded that the surface morphology and quality of SLMed products can be improved with in situ techniques and post-treatments. Relieving residual stresses and decreasing porosity on the surface (various types of holes, pinholes, vacancies, etc.) during SLM operation are possible by base plate heating, powder preheating, and re-scanning. It is also noticed that the machinability studies of SLMed parts mainly focus on mechanical machining such as grinding and milling. Studies on the correlation between surface morphology of SLMed parts and mechanical properties are relatively scarce comparing to works on SLM production parameters. Finally, as an emerging technology for vast production of industrial items, it is concluded that surface morphology of SLMed products needs systematic correlation studies between process parameters and surface results.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Review of internal and external surface finishing technologies for additively manufactured metallic alloys components and new frontiers",
+      "authors": [
+        "Wondwosen Demisse",
+        "Jiajun Xu",
+        "Lucas Rice",
+        "Pawan Tyagi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Wondwosen Demisse",
+          "orcid": null,
+          "affiliations": [
+            "University of the District of Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiajun Xu",
+          "orcid": "0000-0001-8854-5918",
+          "affiliations": [
+            "University of the District of Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lucas Rice",
+          "orcid": null,
+          "affiliations": [
+            "United States Department of Energy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pawan Tyagi",
+          "orcid": "0000-0002-7541-1344",
+          "affiliations": [
+            "University of the District of Columbia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Progress in Additive Manufacturing",
+      "doi": "10.1007/s40964-023-00412-z",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40964-023-00412-z",
+      "cited_by_count": 31,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/2281182",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Fatigue dataset of high-entropy alloys",
+      "authors": [
+        "Shiyi Chen",
+        "Xuesong Fan",
+        "Baldur Steingrimsson",
+        "Qingang Xiong",
+        "Weidong Li",
+        "Peter Kaehuei Liaw"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Shiyi Chen",
+          "orcid": "0000-0002-2913-4497",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuesong Fan",
+          "orcid": "0000-0002-0358-4422",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Baldur Steingrimsson",
+          "orcid": "0000-0001-8074-7611",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qingang Xiong",
+          "orcid": "0000-0002-8484-6163",
+          "affiliations": [
+            "State Key Laboratory of Pulp and Paper Engineering",
+            "South China University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weidong Li",
+          "orcid": "0000-0002-8535-0709",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Kaehuei Liaw",
+          "orcid": "0000-0003-0185-3411",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01368-5",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01368-5",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01368-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Fatigue failure of metallic structures is of great concern to industrial applications. A material will not be practically useful if it is prone to fatigue failures. To take the advantage of lately emerged high-entropy alloys (HEAs) for designing novel fatigue-resistant alloys, we compiled a fatigue database of HEAs from the literature reported until the beginning of 2022. The database is subdivided into three categories, i.e., low-cycle fatigue (LCF), high-cycle fatigue (HCF), and fatigue crack growth rate (FCGR), which contain 15, 23, and 28 distinct data records, respectively. Each data record in any of three categories is characteristic of a summary, which is comprised of alloy compositions, key fatigue properties, and additional information influential to, or interrelated with, fatigue (e.g., material processing history, phase constitution, grain size, uniaxial tensile properties, and fatigue testing conditions), and an individual dataset, which makes up the original fatigue testing curve. Some representative individual datasets in each category are graphically visualized. The dataset is hosted in an open data repository, Materials Cloud.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Surface Modification Techniques for Metallic Biomedical Alloys: A Concise Review",
+      "authors": [
+        "Salikh Omarov",
+        "Nurlan Nauryz",
+        "Didier Talamona",
+        "Asma Perveen"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Salikh Omarov",
+          "orcid": null,
+          "affiliations": [
+            "Nazarbayev University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nurlan Nauryz",
+          "orcid": null,
+          "affiliations": [
+            "Nazarbayev University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Didier Talamona",
+          "orcid": "0000-0002-5969-5770",
+          "affiliations": [
+            "Nazarbayev University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Asma Perveen",
+          "orcid": "0000-0003-4077-4118",
+          "affiliations": [
+            "Nazarbayev University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met13010082",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met13010082",
+      "cited_by_count": 44,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/13/1/82/pdf?version=1672361046",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Developing biomaterials with appropriate physiochemical and mechanical properties as per the requirements set by biomedical applications remains a challenge. This challenge has pushed research in the direction of biomaterials development and the surface modification of existing materials that could be useful for biomedical applications. Keeping this demand in focus, this paper intends to conduct an in-depth review, which includes, first, the requirements of biomedical surfaces associated with the growth of cells on biomedical alloys, such as the bone formation, adhesion, increased wear resistance and biofilm formation; second, possible biomaterials candidates for such applications; and third, possible surface modification techniques. Both subtractive and additive methods of surface modification are discussed, along with their pros and cons. Hence, this study gives an excellent compendium of scientific works conducted on surface modification techniques and the development of biocompatible surface alloys, along with research trends.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Corrosion, stress corrosion cracking and corrosion fatigue behavior of magnesium alloy bioimplants",
+      "authors": [
+        "Priyabrata Das",
+        "T. S. Sampath Kumar",
+        "Kisor Kumar Sahu",
+        "Srikant Gollapudi"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Priyabrata Das",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "T. S. Sampath Kumar",
+          "orcid": "0000-0001-6268-3079",
+          "affiliations": [
+            "Indian Institute of Technology Madras"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kisor Kumar Sahu",
+          "orcid": "0000-0003-2488-0420",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Srikant Gollapudi",
+          "orcid": "0000-0002-0424-6759",
+          "affiliations": [
+            "Indian Institute of Technology Bhubaneswar"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Corrosion Reviews",
+      "doi": "10.1515/corrrev-2021-0088",
+      "type": "article",
+      "url": "https://doi.org/10.1515/corrrev-2021-0088",
+      "cited_by_count": 72,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.degruyter.com/document/doi/10.1515/corrrev-2021-0088/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The use of magnesium and its alloys as temporary implants has gained interest in the last two decades due to their good mechanical properties and bio-degradability in the in-vivo conditions. However, the issues of higher corrosion rate and stress corrosion cracking persist, which are responsible for the implants’ early failure. This review paper focuses on the challenges involved in the use of magnesium-based implants and the advancements in mitigating the corrosion-related issues for in-vivo use of biodegradable magnesium alloy implants. Herein we review the degradation behavior of three groups of magnesium alloys, i.e., aluminum-containing Mg alloy, rare earth element (REE) containing Mg alloy, and aluminum-free Mg alloy in a variety of testing media. We also review various surface modification techniques such as mechanical methods, physical methods, and chemical methods adopted to address the shortcomings of the Mg alloys. Furthermore, recent developments in Mg based bioimplants such as Mg-based open porous scaffolds, nanostructured Mg alloys and Mg based bulk metallic glasses are reviewed. In the end, recent clinical trials of the Mg-based implant were reported in detail.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Fatigue Properties of Ti Alloys with an Ultrafine Grained Structure: Challenges and Achievements",
+      "authors": [
+        "Irina Petrovna Semenova",
+        "Iuliia Mikhailovna Modina",
+        "Andrey Gennadievich Stotskiy",
+        "Alexander Vadimovich Polyakov",
+        "Mikhail V. Pesin"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Irina Petrovna Semenova",
+          "orcid": "0000-0002-1857-9909",
+          "affiliations": [
+            "Ufa State Aviation Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Iuliia Mikhailovna Modina",
+          "orcid": "0000-0002-7836-3990",
+          "affiliations": [
+            "Ufa State Aviation Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrey Gennadievich Stotskiy",
+          "orcid": "0000-0002-2667-1115",
+          "affiliations": [
+            "Ufa State Aviation Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Vadimovich Polyakov",
+          "orcid": "0000-0002-0220-2920",
+          "affiliations": [
+            "Perm National Research Polytechnic University",
+            "Ufa State Aviation Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikhail V. Pesin",
+          "orcid": null,
+          "affiliations": [
+            "Perm National Research Polytechnic University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met12020312",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met12020312",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/12/2/312/pdf?version=1644496517",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Ultrafine-grained (UFG) structure formation in Ti alloys, by severe plastic deformation (SPD) processing and enhancement of their mechanical properties, including fatigue properties, has been demonstrated in numerous studies in the past 20 years. The present overview analyzes the fatigue properties achieved to date in Ti alloys subjected to SPD. Such aspects are examined as the effect of a UFG structure on the fatigue behavior of commercially pure (CP) Ti, two-phase Ti alloys, using the popular Ti-6Al-4V alloy as an example, as well as on the kinetics and mechanisms of fatigue failure. The prospects and problems of the practical application of UFG Ti materials in medicine and aircraft engine construction are discussed.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Effect of Deoxidizing and Alloying Routes on the Evolution of Non-Metallic Inclusions in 55SiCr Spring Steel",
+      "authors": [
+        "Jinwen Liu",
+        "Haiyan Tang",
+        "Luzhao Guo",
+        "Jiaquan Zhang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jinwen Liu",
+          "orcid": "0000-0001-9340-8109",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haiyan Tang",
+          "orcid": "0009-0002-2401-4610",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luzhao Guo",
+          "orcid": "0000-0002-5116-2523",
+          "affiliations": [
+            "Shougang (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiaquan Zhang",
+          "orcid": "0000-0002-9331-9146",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met12091531",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met12091531",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/12/9/1531/pdf?version=1663335093",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Compared to the conventional deoxidation process with Al or Si-Mn for 55SiCr spring steel production, the possibility of using a Si-Ca-Ba compounded deoxidizer to control the behavior of non-metallic inclusions in spring steel was explored in this study. The effect of the addition sequence of deoxidizer and alloys into molten steel on the morphology, size, and composition of the inclusions was emphatically studied at 1873 K (1600 °C) using a high-temperature electric resistance furnace. The results indicate that adding alloy first can form less harmful inclusions in steel, which are roughly spherical and smaller than 3 μm in diameter, and its inclusion evolution path is MnO-SiO2-Al2O3→CaO-SiO2-Al2O3 and CaO-Al2O3-MgO. While adding deoxidizer first, the inclusions in steel are harmful due to its mostly irregular geometry and relatively large size over 5 μm. The inclusion evolution path is Fe-O→CaO-Al2O3(-SiO2) and CaO-Al2O3-MgO. The formation and evolution mechanism of inclusions under different addition sequences were discussed. In addition, the solubility limits of MgO from refractory into steel were studied to inhibit its corrosion by molten steel.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Precipitation kinetics in metallic alloys: Experiments and modeling",
+      "authors": [
+        "A. Deschamps",
+        "Christopher R. Hutchinson"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "A. Deschamps",
+          "orcid": "0000-0002-6038-9201",
+          "affiliations": [
+            "Institut polytechnique de Grenoble",
+            "Centre National de la Recherche Scientifique",
+            "Science et Ingénierie des Matériaux et Procédés",
+            "Université Grenoble Alpes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher R. Hutchinson",
+          "orcid": "0000-0003-1025-4445",
+          "affiliations": [
+            "Monash University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2021.117338",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2021.117338",
+      "cited_by_count": 230,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.actamat.2021.117338",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Welding of high-entropy alloys and compositionally complex alloys—an overview",
+      "authors": [
+        "Michael Rhode",
+        "Tim Richter",
+        "Dirk Schroepfer",
+        "Anna Maria Manzoni",
+        "Mike Schneider",
+        "Guillaume Laplanche"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Michael Rhode",
+          "orcid": "0000-0003-4490-4688",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing",
+            "Otto-von-Guericke-Universität Magdeburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tim Richter",
+          "orcid": "0000-0003-0271-0957",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dirk Schroepfer",
+          "orcid": "0000-0003-2226-9337",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anna Maria Manzoni",
+          "orcid": "0000-0001-7252-9286",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mike Schneider",
+          "orcid": "0000-0002-8329-5742",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guillaume Laplanche",
+          "orcid": "0000-0001-9559-0928",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Welding in the World",
+      "doi": "10.1007/s40194-021-01110-6",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40194-021-01110-6",
+      "cited_by_count": 51,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40194-021-01110-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract High-entropy alloys (HEAs) and compositionally complex alloys (CCAs) represent new classes of materials containing five or more alloying elements (concentration of each element ranging from 5 to 35 at. %). In the present study, HEAs are defined as single-phase solid solutions; CCAs contain at least two phases. The alloy concept of HEAs/CCAs is fundamentally different from most conventional alloys and promises interesting properties for industrial applications (e.g., to overcome the strength-ductility trade-off). To date, little attention has been paid to the weldability of HEAs/CCAs encompassing effects on the welding metallurgy. It remains open whether welding of HEAs/CCAs may lead to the formation of brittle intermetallics and promote elemental segregation at crystalline defects. The effect on the weld joint properties (strength, corrosion resistance) must be investigated. The weld metal and heat-affected zone in conventional alloys are characterized by non-equilibrium microstructural evolutions that most probably occur in HEAs/CCAs. The corresponding weldability has not yet been studied in detail in the literature, and the existing information is not documented in a comprehensive way. Therefore, this study summarizes the most important results on the welding of HEAs/CCAs and their weld joint properties, classified by HEA/CCA type (focused on CoCrFeMnNi and Al x CoCrCu y FeNi system) and welding process.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Chemically complex intermetallic alloys: A new frontier for innovative structural materials",
+      "authors": [
+        "Tao Yang",
+        "Boxuan Cao",
+        "Tianlong Zhang",
+        "Yushun Zhao",
+        "W.H. Liu",
+        "Haojie Kong",
+        "Junhua Luan",
+        "Ji‐Jung Kai",
+        "Way Kuo",
+        "C.T. Liu"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Tao Yang",
+          "orcid": "0000-0003-4355-9210",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Boxuan Cao",
+          "orcid": "0000-0001-8221-1749",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tianlong Zhang",
+          "orcid": "0000-0002-1877-8238",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yushun Zhao",
+          "orcid": "0000-0003-3071-0065",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "W.H. Liu",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haojie Kong",
+          "orcid": "0000-0003-3508-661X",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junhua Luan",
+          "orcid": "0000-0002-0736-200X",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ji‐Jung Kai",
+          "orcid": "0000-0001-7848-8753",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Way Kuo",
+          "orcid": "0000-0002-8845-1708",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C.T. Liu",
+          "orcid": "0000-0001-7888-9725",
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Today",
+      "doi": "10.1016/j.mattod.2021.12.004",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.mattod.2021.12.004",
+      "cited_by_count": 129,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1369702121004557/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Intermetallic materials are bestowed by diverse ordered superlattice structures together with many unusual properties. In particular, the advent of chemically complex intermetallic alloys (CCIMAs) has received considerable attention in recent years and offers a new paradigm to develop novel metallic materials for advanced structural applications. These newly emerged CCIMAs exhibit synergistic modulations of structural and chemical features, such as self-assembled long-range close-packed ordering, complex sublattice occupancy, and interfacial disordered nanoscale layer, potentially allowing for superb physical and mechanical properties that are unmatched in conventional metallic materials. In this paper, we critically review the historical developments and recent advances in ordered intermetallic materials from the simple binary to chemically complex alloy systems. We are focused on the unique multicomponent superlattice microstructures, nanoscale grain-boundary segregation, and disordering, as well as the various extraordinary mechanical and functional properties of these newly developed CCIMAs. Finally, perspectives on the future research orientation, challenges, and opportunities of this new frontier are provided.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "SteBLife, a New Approach for the Accelerated Generation of Metallic Materials’ Fatigue Data",
+      "authors": [
+        "Ruth Acosta",
+        "Haoran Wu",
+        "Ramanan Sridaran Venkat",
+        "Fabian Weber",
+        "Jochen Tenkamp",
+        "Frank Walther",
+        "Peter H. Starke"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Ruth Acosta",
+          "orcid": "0000-0002-8860-2465",
+          "affiliations": [
+            "University of Applied Sciences Kaiserslautern",
+            "Saarland University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoran Wu",
+          "orcid": "0000-0002-8441-8935",
+          "affiliations": [
+            "University of Applied Sciences Kaiserslautern",
+            "Saarland University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ramanan Sridaran Venkat",
+          "orcid": "0000-0003-3029-8429",
+          "affiliations": [
+            "Saarland University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fabian Weber",
+          "orcid": "0000-0002-0745-0253",
+          "affiliations": [
+            "Saarland University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jochen Tenkamp",
+          "orcid": "0000-0002-4804-6134",
+          "affiliations": [
+            "TU Dortmund University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Frank Walther",
+          "orcid": "0000-0003-2287-2099",
+          "affiliations": [
+            "TU Dortmund University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter H. Starke",
+          "orcid": "0000-0002-8033-0602",
+          "affiliations": [
+            "University of Applied Sciences Kaiserslautern"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met10060798",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met10060798",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/10/6/798/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The service life of materials and components exposed to repeated mechanical loads is limited, which is why the understanding of the damage evolution and estimating its fatigue life is of high importance for its technical application. This paper shows how temperature and magnetic field measurement methods can be used to describe the cyclic deformation behaviour of metallic materials and to derive parameters from this, which are used in short-term methods to calculate the fatigue life. Within the SteBLife (stepped-bar fatigue life) approach, only three to five fatigue tests with a stepped fatigue specimen are required to determine a complete S–N or Woehler curve with scatter bands for different failure probabilities. If only a trend S–N curve is required, the number of tests can be reduced to a single fatigue test only. In the framework of this paper, these approaches will be presented for normalised SAE 1045 (C45E) and quenched and tempered SAE 4140 (42CrMo4) steels.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Anisotropic fatigue properties of Alloy 718 manufactured by Electron Beam Powder Bed Fusion",
+      "authors": [
+        "Arun Ramanathan Balachandramurthi",
+        "Johan J. Moverare",
+        "Thomas Hansson",
+        "Robert Pederson"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Arun Ramanathan Balachandramurthi",
+          "orcid": "0000-0002-8664-4573",
+          "affiliations": [
+            "University West"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johan J. Moverare",
+          "orcid": "0000-0002-8304-0221",
+          "affiliations": [
+            "Linköping University",
+            "University West"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Hansson",
+          "orcid": "0000-0001-7991-6369",
+          "affiliations": [
+            "University West",
+            "GKN (Sweden)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Robert Pederson",
+          "orcid": "0000-0002-7675-7152",
+          "affiliations": [
+            "University West"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Fatigue",
+      "doi": "10.1016/j.ijfatigue.2020.105898",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2020.105898",
+      "cited_by_count": 30,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0142112320304291/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this study, Alloy 718 specimens manufactured by Electron Beam Powder Bed Fusion process are subjected to two different post-treatments to have different microstructural features. Low cycle fatigue testing has been performed both parallel and transverse to the build direction. EB-PBF Alloy 718 exhibits anisotropic fatigue behaviour; the fatigue life is better along the parallel direction compared to the transverse direction. The anisotropy in fatigue life is related to the anisotropy in the Young's modulus. The pseudo-elastic stress vs. fatigue life approach is presented as a potential solution to handle anisotropy in fatigue life assessment of additively manufactured engineering components.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "An Entropy-Based Failure Prediction Model for the Creep and Fatigue of Metallic Materials",
+      "authors": [
+        "Jundong Wang",
+        "Yao Yao"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Jundong Wang",
+          "orcid": "0000-0001-7402-5495",
+          "affiliations": [
+            "Northwestern Polytechnical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yao Yao",
+          "orcid": "0000-0002-0879-4269",
+          "affiliations": [
+            "Xi'an University of Architecture and Technology",
+            "Northwestern Polytechnical University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Entropy",
+      "doi": "10.3390/e21111104",
+      "type": "article",
+      "url": "https://doi.org/10.3390/e21111104",
+      "cited_by_count": 33,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1099-4300/21/11/1104/pdf?version=1574215122",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "It is well accepted that the second law of thermodynamics describes an irreversible process, which can be reflected by the entropy increase. Irreversible creep and fatigue damage can also be represented by a gradually increasing damage parameter. In the current study, an entropy-based failure prediction model for creep and fatigue is proposed based on the Boltzmann probabilistic entropy theory and continuum damage mechanics. A new method to determine the entropy increment rate for creep and fatigue processes is proposed. The relationship between entropy increase rate during creep process and normalized creep failure time is developed and compared with the experimental results. An empirical formula is proposed to describe the evolution law of entropy increase rate and normalized creep time. An entropy-based model is developed to predict the change of creep strain during the damage process. Experimental results of metals and alloys with different stresses and at different temperatures are adopted to verify the proposed model. It shows that the theoretical predictions agree well with experimental data.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Effect of electropulsing on the fatigue resistance of aluminium alloy 2014-T6",
+      "authors": [
+        "Anatolii Babutskyi",
+        "Ma Mohin",
+        "Andreas Chrysanthou",
+        "Yigeng Xu",
+        "Andrew Lewis"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Anatolii Babutskyi",
+          "orcid": null,
+          "affiliations": [
+            "University of Hertfordshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ma Mohin",
+          "orcid": "0000-0003-2240-464X",
+          "affiliations": [
+            "Manchester Metropolitan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreas Chrysanthou",
+          "orcid": "0000-0001-9554-5676",
+          "affiliations": [
+            "University of Hertfordshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yigeng Xu",
+          "orcid": "0000-0002-7194-2308",
+          "affiliations": [
+            "Cranfield University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Lewis",
+          "orcid": "0000-0003-0241-5333",
+          "affiliations": [
+            "University of Hertfordshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Science and Engineering A",
+      "doi": "10.1016/j.msea.2019.138679",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.msea.2019.138679",
+      "cited_by_count": 30,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://uhra.herts.ac.uk/id/eprint/8105/1/MSEA_D_19_04753R1.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "Ab initio phase stabilities and mechanical properties of multicomponent alloys: A comprehensive review for high entropy alloys and compositionally complex alloys",
+      "authors": [
+        "Yuji Ikeda",
+        "Blazej Grabowski",
+        "Fritz Körmann"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Yuji Ikeda",
+          "orcid": "0000-0001-9176-3270",
+          "affiliations": [
+            "Kyoto University",
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Blazej Grabowski",
+          "orcid": "0000-0003-4281-5665",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fritz Körmann",
+          "orcid": "0000-0003-3050-6291",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Characterization",
+      "doi": "10.1016/j.matchar.2018.06.019",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matchar.2018.06.019",
+      "cited_by_count": 340,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1044580318306636/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Multicomponent alloys with multiple principal elements including high entropy alloys (HEAs) and compositionally complex alloys (CCAs) are attracting rapidly growing attention. The endless possibilities to explore new alloys and the hope for better combinations of materials properties have stimulated a remarkable number of research works in the last years. Most of these works have been based on experimental approaches, but ab initio calculations have emerged as a powerful approach that complements experiment and serves as a predictive tool for the identification and characterization of promising alloys. The theoretical ab initio modeling of phase stabilities and mechanical properties of multi-principal element alloys by means of density functional theory (DFT) is reviewed. A general thermodynamic framework is laid down that provides a bridge between the quantities accessible with DFT and the targeted thermodynamic and mechanical properties. It is shown how chemical disorder and various finite-temperature excitations can be modeled with DFT. Different concepts to study crystal and alloy phase stabilities, the impact of lattice distortions (a core effect of HEAs), magnetic transitions, and chemical short-range order are discussed along with specific examples. Strategies to study elastic properties, stacking fault energies, and their dependence on, e.g., temperature or alloy composition are illustrated. Finally, we provide an extensive compilation of multi-principal element alloys and various material properties studied with DFT so far (a set of over 500 alloy-property combinations).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "New multiphase compositionally complex alloys driven by the high entropy alloy approach",
+      "authors": [
+        "Anna Maria Manzoni",
+        "Uwe Glatzel"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Anna Maria Manzoni",
+          "orcid": "0000-0001-7252-9286",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Uwe Glatzel",
+          "orcid": "0000-0002-9637-2727",
+          "affiliations": [
+            "University of Bayreuth"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Characterization",
+      "doi": "10.1016/j.matchar.2018.06.036",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matchar.2018.06.036",
+      "cited_by_count": 138,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.helmholtz-berlin.de/pubbin/oai_publication?VT=1&ID=97490",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Science and technology in high-entropy alloys",
+      "authors": [
+        "Weiran Zhang",
+        "Peter Kaehuei Liaw",
+        "Yong Zhang"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Weiran Zhang",
+          "orcid": "0000-0002-7042-2554",
+          "affiliations": [
+            "State Key Laboratory for Advanced Metals and Materials",
+            "University of Tennessee at Knoxville",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Kaehuei Liaw",
+          "orcid": "0000-0003-0185-3411",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong Zhang",
+          "orcid": "0000-0002-6355-9923",
+          "affiliations": [
+            "State Key Laboratory for Advanced Metals and Materials",
+            "University of Tennessee at Knoxville",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science China Materials",
+      "doi": "10.1007/s40843-017-9195-8",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40843-017-9195-8",
+      "cited_by_count": 1142,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "First-Principles Approaches to Metals, Alloys, and Metallic Compounds",
+      "authors": [
+        "Richard Dronskowski"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Richard Dronskowski",
+          "orcid": "0000-0002-1925-9624",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "MDPI eBooks",
+      "doi": "10.3390/books978-3-03897-359-1",
+      "type": "book",
+      "url": "https://doi.org/10.3390/books978-3-03897-359-1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://mdpi-res.com/bookfiles/book/873/FirstPrinciples_Approaches_to_Metals_Alloys_and_Metallic_Compounds.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Since the addition of Al to high-Mn steels is known to reduce their sensitivity to hydrogen-induced delayed fracture, we investigate possible trapping effects connected to the presence of Al in the grain interior employing density-functional theory (DFT).The role of Al-based precipitates is also investigated to understand the relevance of short-range ordering effects.So-called E2 1 -Fe 3 AlC κ-carbides are frequently observed in Fe-Mn-Al-C alloys.Since H tends to occupy the same positions as C in these precipitates, the interaction and competition between both interstitials is also investigated via DFT-based simulations.While the individual H-H/C-H chemical interactions are generally repulsive, the tendency of interstitials to increase the lattice parameter can yield a net increase of the trapping capability.An increased Mn content is shown to enhance H trapping due to attractive short-range interactions.Favorable short-range ordering is expected to occur at the interface between an Fe matrix and the E2 1 -Fe 3 AlC κ-carbides, which is identified as a particularly attractive trapping site for H.At the same time, accumulation of H at sites of this type is observed to yield decohesion of this interface, thereby promoting fracture formation.The interplay of these effects, evident in the trapping energies at various locations and dependent on the H concentration, can be expressed mathematically, resulting in a term that describes the hydrogen embrittlement.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Three-dimensional constitutive model for structural and functional fatigue of shape memory alloy actuators",
+      "authors": [
+        "Yves Chemisky",
+        "Darren J. Hartl",
+        "Fodil Meraghni"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Yves Chemisky",
+          "orcid": "0000-0002-8725-9554",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Arts et Métiers",
+            "Laboratoire d'Étude des Microstructures et de Mécanique des Matériaux",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Darren J. Hartl",
+          "orcid": "0000-0001-9922-0481",
+          "affiliations": [
+            "Texas A&M University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fodil Meraghni",
+          "orcid": "0000-0002-5043-8700",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Arts et Métiers",
+            "Laboratoire d'Étude des Microstructures et de Mécanique des Matériaux",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Fatigue",
+      "doi": "10.1016/j.ijfatigue.2018.03.016",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2018.03.016",
+      "cited_by_count": 53,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hal.science/hal-01762224v1/file/LEM3_FATIGUE_2018_MERAGHNI.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Metal Alloys for Fusion‐Based Additive Manufacturing",
+      "authors": [
+        "Duyao Zhang",
+        "Shoujin Sun",
+        "Dong Qiu",
+        "Mark A. Gibson",
+        "Matthew Simon Dargusch",
+        "Milan Brandt",
+        "Ma Qian",
+        "Mark Alan Easton"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Duyao Zhang",
+          "orcid": "0000-0002-3437-8795",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shoujin Sun",
+          "orcid": "0000-0002-0220-6956",
+          "affiliations": [
+            "Defence Materials Technology Centre (Australia)",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dong Qiu",
+          "orcid": "0000-0003-4978-2077",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark A. Gibson",
+          "orcid": "0000-0002-3909-6228",
+          "affiliations": [
+            "Commonwealth Scientific and Industrial Research Organisation",
+            "CSIRO Manufacturing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Simon Dargusch",
+          "orcid": "0000-0003-4336-5811",
+          "affiliations": [
+            "The University of Queensland",
+            "Defence Materials Technology Centre (Australia)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Milan Brandt",
+          "orcid": "0000-0002-2437-3413",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ma Qian",
+          "orcid": "0000-0001-9705-6913",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Alan Easton",
+          "orcid": "0000-0002-9377-9572",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Engineering Materials",
+      "doi": "10.1002/adem.201700952",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adem.201700952",
+      "cited_by_count": 232,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adem.201700952",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Metal additive manufacturing (AM) is an innovative manufacturing technique, which builds parts incrementally layer by layer. Thus, metal AM has inherent advantages in part complexity, time, and waste saving. However, due to its complex thermal cycle and rapid solidification during processing, the alloys well suit and commercially used for metal AM today are limited. Therefore, it is important to understand the alloying strategy and current progress with materials performance to consider alloy development for metal AM. This review presents the current range of alloys available for metal AM, including titanium, steel, nickel, aluminum, less common alloys (including Mg alloys, metal matrix composites alloys, and low melting point alloys), and compositionally complex alloys (including bulk metallic glasses and high entropy alloys) with a focus on the relationship between compositions, processing, microstructures, and properties of each alloy system. In addition, some promising alloy systems for metal AM are highlighted. Approaches for designing and optimizing new materials for metal AM have been summarized.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Microstructural Features Controlling the Variability in Low-Cycle Fatigue Properties of Alloy Inconel 718DA at Intermediate Temperature",
+      "authors": [
+        "Damien Texier",
+        "Ana Casanova Gómez",
+        "Stéphane Pierret",
+        "Jean‐Michel Franchet",
+        "Tresa M. Pollock",
+        "Patrick Villechaise",
+        "Jonathan Cormier"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Damien Texier",
+          "orcid": "0000-0002-4473-7827",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "University of California, Santa Barbara",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Institut Pprime",
+            "École de Technologie Supérieure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ana Casanova Gómez",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "University of Cambridge",
+            "Institut Pprime",
+            "Cambridge University Press"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stéphane Pierret",
+          "orcid": null,
+          "affiliations": [
+            "Safran (France)",
+            "Safran Aircraft Engines (France)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jean‐Michel Franchet",
+          "orcid": "0000-0001-7742-7561",
+          "affiliations": [
+            "Safran (France)",
+            "Safran Aircraft Engines (France)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tresa M. Pollock",
+          "orcid": "0000-0001-9948-1083",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Patrick Villechaise",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Institut Pprime"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan Cormier",
+          "orcid": "0000-0002-4613-4472",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+            "Institut Pprime"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metallurgical and Materials Transactions A",
+      "doi": "10.1007/s11661-015-3291-8",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11661-015-3291-8",
+      "cited_by_count": 84,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11661-015-3291-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "A critical review of high entropy alloys and related concepts",
+      "authors": [
+        "Daniel B. Miracle",
+        "Oleg N. Senkov"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Daniel B. Miracle",
+          "orcid": "0000-0002-7473-0351",
+          "affiliations": [
+            "United States Air Force Research Laboratory",
+            "Wright-Patterson Air Force Base",
+            "U.S. Air Force Research Laboratory Materials and Manufacturing Directorate"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oleg N. Senkov",
+          "orcid": "0000-0001-5587-415X",
+          "affiliations": [
+            "United States Air Force Research Laboratory",
+            "Wright-Patterson Air Force Base",
+            "UES (United States)",
+            "U.S. Air Force Research Laboratory Materials and Manufacturing Directorate"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2016.08.081",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2016.08.081",
+      "cited_by_count": 9067,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Fatigue of Metallic Stents: From Clinical Evidence to Computational Analysis",
+      "authors": [
+        "Ferdinando Auricchio",
+        "Andreï Constantinescu",
+        "Michele Conti",
+        "Giulia Scalet"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Ferdinando Auricchio",
+          "orcid": "0000-0002-3735-2400",
+          "affiliations": [
+            "University of Pavia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreï Constantinescu",
+          "orcid": "0000-0003-4702-4256",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Polytechnique",
+            "Laboratoire Mécanique des Solides"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michele Conti",
+          "orcid": "0000-0003-1275-0653",
+          "affiliations": [
+            "University of Pavia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giulia Scalet",
+          "orcid": "0000-0001-7683-566X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "École Polytechnique",
+            "University of Pavia",
+            "Laboratoire Mécanique des Solides"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Annals of Biomedical Engineering",
+      "doi": "10.1007/s10439-015-1447-8",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10439-015-1447-8",
+      "cited_by_count": 51,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10439-015-1447-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Fatigue behavior of hydrogen pre-charged low alloy Cr–Mo steel",
+      "authors": [
+        "Chiara Colombo",
+        "Gabriele Fumagalli",
+        "F. Bolzoni",
+        "Giorgia Gobbi",
+        "Laura Maria Vergani"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Chiara Colombo",
+          "orcid": "0000-0003-2074-6726",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gabriele Fumagalli",
+          "orcid": "0000-0002-9452-2402",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "F. Bolzoni",
+          "orcid": "0000-0003-4344-0260",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giorgia Gobbi",
+          "orcid": "0000-0001-7127-1287",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Laura Maria Vergani",
+          "orcid": "0000-0003-2353-7751",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Fatigue",
+      "doi": "10.1016/j.ijfatigue.2015.06.002",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2015.06.002",
+      "cited_by_count": 73,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://re.public.polimi.it/bitstream/11311/983351/4/IJF_preprint.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Alloying and Processing Effects on the Aqueous Corrosion Behavior of High-Entropy Alloys",
+      "authors": [
+        "Zhi Yuan Tang",
+        "Lu Huang",
+        "Wei Jian He",
+        "Peter Kaehuei Liaw"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Zhi Yuan Tang",
+          "orcid": null,
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lu Huang",
+          "orcid": "0000-0001-8318-2687",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Jian He",
+          "orcid": "0000-0002-6638-9691",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Kaehuei Liaw",
+          "orcid": "0000-0003-0185-3411",
+          "affiliations": [
+            "University of Tennessee at Knoxville"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Entropy",
+      "doi": "10.3390/e16020895",
+      "type": "article",
+      "url": "https://doi.org/10.3390/e16020895",
+      "cited_by_count": 235,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1099-4300/16/2/895/pdf?version=1424785289",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The effects of metallurgical factors on the aqueous corrosion behavior of high-entropy alloys (HEAs) are reviewed in this article. Alloying (e.g., Al and Cu) and processing (e.g., heat treatments) effects on the aqueous corrosion behavior of HEAs, including passive film formation, galvanic corrosion, and pitting corrosion, are discussed in detail. Corrosion rates of HEAs are calculated using electrochemical measurements and the weight-loss method. Available experimental corrosion data of HEAs in two common solutions [sulfuric acid (0.5 M H2SO4) and salt water (3.5 weight percent, wt.%, NaCl)], such as the corrosion potential (Ecorr), corrosion current density (icorr), pitting potential (Epit), and passive region (ΔE), are summarized and compared with conventional corrosion-resistant alloys. Possible directions of future work on the corrosion behavior of HEAs are suggested.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "High Temperature Fatigue and Fatigue-Creep Responses of Alloy 617 - Experimental and Unified Constitutive Modeling.",
+      "authors": [
+        "Patrick Graham Pritchard"
+      ],
+      "year": 2014,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/9450",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "North Carolina State University Theses Civil Engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Development of wear resistant coatings based on complex metallic alloys for functional application",
+      "authors": [
+        "Wolfgang Vollnhofer"
+      ],
+      "year": 2012,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "reposiTUm (TU Wien)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/20.500.12708/9919",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Da eine fortschreitende Abnützung von Maschinenkomponenten zu einem drastischen Anstieg an Energieverbrauch und Kosten führt, hat die Entwicklung neuer, hoch abnützungsresistenter Materialien große Bedeutung für verschiedenste industrielle Anwendungen. Ihre einzigartige Kombination von mechanischen, elektrischen und thermischen Eigenschaften macht komplexe Metallverbindungen (CMAs), insbesondere das quasikristalline Al59Cu25.5Fe12.5B3 und AlMgB14 zu vielversprechenden und kosteneffizienten Materialen für abnützungsresistente Schutzschichten.Zur Abscheidung von Al59Cu25.5Fe12.5B3 und AlMgB14 Schichten mittels Magnetron Sputtern, wurde ein geeignetes Beschichtungssystem konstruiert. Entsprechende Targets wurden durch Heißpressen eines Elementarpulvergemisches hergestellt. Zur Herstellung von Al59Cu25.5Fe12.5B3 Targets konnte zusätzlich das kommerziell erhältliche Pulver St Gobain Cristome F1 verwendet werden. Zur Schichtabscheidung wurden verschiedene Substrate wie: Hartmetall WC-Co, Stahl K600 und K890, epitaktisches Si und keramisches Al2O3 verwendet. Um die Haftbarkeit zu verbessern und übermäßige Diffusion zu vermeiden, wurden folgende Materialien als mögliche Zwischenschicht getestet: Chrom (Cr), Kupfer (Cu), Titan (Ti), Mangan (Mn) und Nickel (Ni). Zur Optimierung der Schichteigenschaften wurden die Beschichtungsleistung, der Substrat-Target Abstand, der Arbeitsgasdruck, die Substrattemperatur und die Bias Spannung variiert. Die Targets und die abgeschiedenen Schichten wurden mit folgenden Methoden analysiert: Induktiv-gekoppelte-Plasma Massen Spektroskopie (ICP-MS), Energiedispersive Röntgenspektroskopie (EDS), Rasterelektronenmikroskop (SEM), Röntgen Diffraktometrie (XRD), Transmissionselektronenmikroskopie (TEM), Rasterkraftmikroskop (AFM).Während die AlMgB Targets aus 90 % AlMgB14 Phase und etwa 10 % Al2MgO4 bestehen, enthalten die bei 600 °C auf WC-Co Hartmetall abgeschiedenen Schichten nur eine amorphe Bor Phase. Auch ein nachträgliches Erhitzen auf 900 °C bewirkt nicht die Ausbildung einer kristallinen AlMgB14 Schicht. Der Beschichtungsprozess mit RF Magnetron Sputtern beinhaltet auch einige technische Schwierigkeiten wie: Bruch-/Rissbildung in den AlMgB Targets auch bei niedriger Beschichtungsleistung (3.8 W/cm2) und sehr niedrige Beschichtungsraten (20 nm/min für eine Beschichtungsleistung von 15.2 W/cm2).AlCuFeB Targets mit der chemischen Zusammensetzung von Al59Cu25.5Fe12.5B3 aber ohne die quasikristalline Struktur konnten durch Heißpressen bei niedrigen Temperaturen hergestellt werden. Da die Targets nur aus metallischen Phasen bestehen, kann DC Magnetron Sputtern zur Schichtabscheidung verwendet werden. Mit diesen Targets können AlCuFeB Schichten, bestehend aus 40 % quasikristalliner AlCuFe Phase und 60 % Al50Cu40Fe10 ß Phase abgeschieden werden. Die Schichten bestehen aus einer Al50Cu40Fe10 ß Phasen Matrix, in der quasikristalline Körner mit einem Durchmesser von etwa 10 nm eingebettet sind. Die AlCuFeB Schichten haften gut auf den verschiedenen Substraten. Jedoch zeigen sich auf Si, ab einer Schichtdicke von etwa 1 mym, Ablösungserscheinungen. Die AlCuFeB Schichten weisen günstige Eigenschaften für die Nanoimprint Lithograpie (NIL) auf und können daher als potentielle abnützungsresistente Schutzschichten in diesem Bereich angesehen werden. Bei Abspanversuchen mit Aluminium konnte die Lebensdauer des Abspanwerkzeuges gegenüber einer kommerziell verfügbaren TiB2 Schutzschicht erhöht werden.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "The Role of Environment on High Temperature Creep-Fatigue Behavior of Alloy 617",
+      "authors": [
+        "Laura Carroll",
+        "C. Cabet",
+        "Richard N. Wright"
+      ],
+      "year": 2010,
+      "author_details": [
+        {
+          "name": "Laura Carroll",
+          "orcid": "0000-0003-4426-9979",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C. Cabet",
+          "orcid": "0000-0002-0040-6049",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Richard N. Wright",
+          "orcid": "0000-0002-4447-3841",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ASME Pressure Vessels and Piping Conference (PVP)",
+      "doi": "10.1115/pvp2010-26126",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1115/pvp2010-26126",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/986946",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Alloy 617 is the leading candidate material for an intermediate heat exchanger (IHX) application of the Very High Temperature Nuclear Reactor (VHTR), expected to have an outlet temperature as high as 950°C. Acceptance of Alloy 617 in Section III of the ASME Code for nuclear construction requires a detailed understanding of the creep-fatigue behavior. Initial creep-fatigue work on Alloy 617 suggests a more dominant role of environment with increasing temperature and/or hold times evidenced through changes in creep-fatigue crack growth mechanism/s and failure life. Furthermore, previous work on corrosion of nickel base alloys in impure helium has suggested that this environment is far from inert with respect to Alloy 617. Continuous cycle fatigue and creep-fatigue testing of Alloy 617 was conducted at 950°C and 0.3% and 0.6% total strain in air to simulate damage modes expected in a VHTR application. Continuous cycle and creep-fatigue specimens exhibited intergranular cracking, but did not show evidence of grain boundary cavitation. Despite the absence of grain boundary cavitation to accelerate crack propagation, the addition of a hold time at peak tensile strain was detrimental to cycle life. This suggests that creep-fatigue interaction may occur by a different mechanism or that the environment may be partially responsible for accelerating failure.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Thermodynamic Database Development for Mg Alloys with RE Elements and Applications to Mg Alloy Design",
+      "authors": [
+        "Youn‐Bae Kang",
+        "Liling Jin",
+        "In‐Ho Jung",
+        "Arthur Daniel Pelton",
+        "Patrice Chartrand",
+        "Carton D. Fuerst"
+      ],
+      "year": 2010,
+      "author_details": [
+        {
+          "name": "Youn‐Bae Kang",
+          "orcid": "0000-0003-0615-0168",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liling Jin",
+          "orcid": "0000-0002-7687-2599",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "In‐Ho Jung",
+          "orcid": "0000-0002-9744-7276",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arthur Daniel Pelton",
+          "orcid": "0000-0002-5356-0605",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Patrice Chartrand",
+          "orcid": "0000-0002-9649-2809",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carton D. Fuerst",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "PolyPublie (École Polytechnique de Montréal)",
+      "doi": null,
+      "type": "conference-paper",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.tms.org/Meetings/Annual-10/PDFs/AM10-Tuesday.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Rare earth (RE) elements are often added to Mg-based alloys in order to improve creep resistance and strength at elevated temperature by forming stable precipitates with Mg (MgxREy), Al (AlxREy) or Zn (ZnxREy). Thermodynamic models and databases can provide invaluable information to elucidate the complex precipitation behaviors involving RE. In the present study, recent progress of Mg alloy database development with Fact Sage toward adding RE elements, including the systems Mg-RE and Al-RE (RE = La, Ce, Pr, Nd, Y, Sc, ...), and a number of Mg-Al-RE, Mg-Zn-RE and Mg-Mn-RE systems (RE = La, Ce, Y, Sc), is presented. Applications of the newly developed database to the Mg alloy design are also illustrated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Metallic glasses…on the threshold",
+      "authors": [
+        "Alan Lindsay Greer"
+      ],
+      "year": 2009,
+      "author_details": [
+        {
+          "name": "Alan Lindsay Greer",
+          "orcid": "0000-0001-7360-5439",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Today",
+      "doi": "10.1016/s1369-7021(09)70037-9",
+      "type": "article",
+      "url": "https://doi.org/10.1016/s1369-7021(09)70037-9",
+      "cited_by_count": 483,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1369702109700379/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Metallic glasses, first discovered nearly 50 years ago, are currently among the most actively studied metallic materials. Available in sections up to several centimeters, with many novel, applicable properties, metallic glasses have also been the focus of research advancing our understanding of liquids and of glasses in general. Here we outline some key features of the glassy state in metals. The next few years will bring exciting advances, as we are on the threshold of exploiting new opportunities for microstructural design, opening up much broader application of the fascinating materials formed from metallic glasses and their derivatives.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Laser induced breakdown spectroscopy on metallic alloys: Solving inhomogeneous optically thick plasmas",
+      "authors": [
+        "Cristian Adrián D’Angelo",
+        "Diego M. Díaz Pace",
+        "Graciela Bertuccelli",
+        "Daniela Bertuccelli"
+      ],
+      "year": 2007,
+      "author_details": [
+        {
+          "name": "Cristian Adrián D’Angelo",
+          "orcid": "0000-0001-8827-6201",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Diego M. Díaz Pace",
+          "orcid": "0000-0001-6355-8675",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Graciela Bertuccelli",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniela Bertuccelli",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Spectrochimica Acta Part B Atomic Spectroscopy",
+      "doi": "10.1016/j.sab.2007.10.049",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.sab.2007.10.049",
+      "cited_by_count": 36,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0584854707003618",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "EFFECTS OF NON-METALLIC INCLUSIONS ON FATIGUE PROPERTIES OF CALCIUM TREATED STEELS",
+      "authors": [
+        "Pekko Juvonen"
+      ],
+      "year": 2004,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Aaltodoc (Aalto University)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 48,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://aaltodoc.aalto.fi/handle/123456789/2490",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Fatigue behaviour of 22 industrial test charges of AISI 8620 carburizing steel with two different calcium treatment levels was studied. The research work consisted mainly of rotating bending fatigue tests, residual stress and surface roughness measurements, electron microscopy, different steel cleanliness level and statistical inclusion size estimation methods.\\n\\nThere were no significant differences between the σw/Rm ratios of the casts with the large amount of calcium injection and the casts with the small amount of calcium injection. In the casts with the large amount of calcium injection, the fatigue cracks initiated mostly from the surface and interior inclusions. In the casts with the small amount of calcium injection, the fatigue cracks initiated mostly from the surface discontinuities. The inclusions responsible for fatigue crack initiation were in the most cases calcium aluminates encapsulated in calcium sulfide containing small amounts of magnesia and/or silica. The fatigue crack initiation from cracked and non-cracked inclusions resulted in similar fatigue life on the same ΔK level. The fatigue strength scatter was larger in the casts with the large amount of calcium injection. In rotating bending fatigue the σw/Rm ratio was almost independent of inclusion size in the average fatigue crack initiating inclusion size region smaller than ∼ 70-90 µm.\\n\\nThe results of DIN 50 602 and SFS-ENV 10247 inclusion rating methods and ultrasonic tests in immersion did not correlate with the inclusions that were responsible for fatigue failure in these steels. The results may, however, suggest guidelines for the fatigue properties and the machinability of these steels when the contents of certain alloying elements are taken into account. Ultrasonic tests in immersion provide more relevant information about the fatigue properties and machinability of these steels than the conventional inclusion rating methods do, but its resolution capability still needs improvement.\\n\\nIn most casts the maximum inclusion sizes predicted by the statistics of extreme value method were much smaller than the size of the inclusions found at the fatigue crack initiation sites of the fatigue specimens. The studied steels seemed to have two different inclusion size distributions, i.e., the inclusions detected at the polished microsections and the inclusions at the fatigue crack initiation sites. Both distributions had similar morphology and chemical composition, which was contrary to the earlier findings of the bilinear nature of inclusion distribution in some steels. The successful application of the Murakami-Endo model with these steels requires quite a large inspection area, approximately 8400 mm2 at least, to enable the detection of the population of the largest inclusions, which are responsible for fatigue failure.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Fatigue crack growth mechanisms in Al–Si–Mg alloys",
+      "authors": [
+        "Diana A. Lados"
+      ],
+      "year": 2004,
+      "author_details": [
+        {
+          "name": "Diana A. Lados",
+          "orcid": "0000-0003-1903-1563",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Surface Engineering",
+      "doi": "10.1179/sur.2004.20.6.416",
+      "type": "article",
+      "url": "https://doi.org/10.1179/sur.2004.20.6.416",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://digital.wpi.edu/downloads/qn59q404b",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "public-domain"
+      },
+      "oa_source": "openalex",
+      "abstract": "Owing to the increasing use of cyclically loaded cast aluminium components in automotive and aerospace applications, the fatigue and fatigue crack growth characteristics of aluminium castings are of great interest. Despite the extensive research efforts dedicated to this topic, a fundamental, mechanistic understanding of these alloys’ behaviour when subjected to dynamic loading is still lacking. The present research investigates the mechanisms active at the microstructure level during dynamic loading and failure of Al–Si–Mg alloys. Five model alloys were cast to isolate the contribution of constituent phases on fatigue resistance. The major constituent phases, α-Al dendrites, Al/Si eutectic phase, and Mg–Si strengthening precipitates were mechanistically investigated to relate microstructure to near-threshold crack growth D δKth and crack propagation regimes (regions II and III) for alloys of different Si composition/morphology, grain size, (secondary dendrite arm spacing) SDAS and heat treatment. A procedure to evaluate the actual fracture toughness from fatigue crack growth data has been successfully developed based on a complex elastic plastic fracture mechanics (EPFM/J-integral) approach. Residual stress–microstructure interactions, commonly overlooked by researchers in the field, are also comprehensively defined and accounted for both experimentally and mathematically. Revisions of ASTM E647 are in progress.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Materials Properties Database for Selection of High-Temperature Alloys and Concepts of Alloy Design for SOFC Applications",
+      "authors": [
+        "Ziqin Yang",
+        "Dean M. Paxton",
+        "K. Scott Weil",
+        "Jeffry W. Stevenson",
+        "Prabhakar Singh"
+      ],
+      "year": 2002,
+      "author_details": [
+        {
+          "name": "Ziqin Yang",
+          "orcid": "0000-0002-7436-9770",
+          "affiliations": [
+            "United States Department of Commerce",
+            "Office of Scientific and Technical Information",
+            "Pacific Northwest National Laboratory",
+            "National Technical Information Service"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dean M. Paxton",
+          "orcid": null,
+          "affiliations": [
+            "United States Department of Commerce",
+            "Office of Scientific and Technical Information",
+            "Pacific Northwest National Laboratory",
+            "National Technical Information Service"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "K. Scott Weil",
+          "orcid": null,
+          "affiliations": [
+            "United States Department of Commerce",
+            "Office of Scientific and Technical Information",
+            "Pacific Northwest National Laboratory",
+            "National Technical Information Service"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffry W. Stevenson",
+          "orcid": "0000-0002-7421-4859",
+          "affiliations": [
+            "United States Department of Commerce",
+            "Office of Scientific and Technical Information",
+            "Pacific Northwest National Laboratory",
+            "National Technical Information Service"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prabhakar Singh",
+          "orcid": "0000-0002-5000-4902",
+          "affiliations": [
+            "United States Department of Commerce",
+            "Office of Scientific and Technical Information",
+            "Pacific Northwest National Laboratory",
+            "National Technical Information Service"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.2172/15010553",
+      "type": "report",
+      "url": "https://doi.org/10.2172/15010553",
+      "cited_by_count": 33,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/15010553",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "To serve as an interconnect / gas separator in an SOFC stack, an alloy should demonstrate the ability to provide (i) bulk and surface stability against oxidation and corrosion during prolonged exposure to the fuel cell environment, (ii) thermal expansion compatibility with the other stack components, (iii) chemical compatibility with adjacent stack components, (iv) high electrical conductivity of the surface reaction products, (v) mechanical reliability and durability at cell exposure conditions, (vii) good manufacturability, processability and fabricability, and (viii) cost effectiveness. As the first step of this approach, a composition and property database was compiled for high temperature alloys in order to assist in determining which alloys offer the most promise for SOFC interconnect applications in terms of oxidation and corrosion resistance. The high temperature alloys of interest included Ni-, Fe-, Co-base superal",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Effects of alloy chemistry, cold work, and water chemistry on corrosion fatigue and stress corrosion cracking of nickel alloys and welds.",
+      "authors": [
+        "Omesh K. Chopra",
+        "William K. Soppet",
+        "William J. Shack"
+      ],
+      "year": 2001,
+      "author_details": [
+        {
+          "name": "Omesh K. Chopra",
+          "orcid": null,
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William K. Soppet",
+          "orcid": null,
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William J. Shack",
+          "orcid": null,
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.2172/925005",
+      "type": "report",
+      "url": "https://doi.org/10.2172/925005",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.osti.gov/servlets/purl/925005",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Reactor vessel internal components made of nickel-base alloys are susceptible to environmentally assisted cracking (EAC). A better understanding of the causes and mechanisms of this cracking may permit less conservative estimates of damage accumulation and requirements on inspection intervals. The objective of this work is to evaluate and compare the resistance of Alloys 600 and 690 and their welds, such as Alloys 82, 182, 52, and 152, to EAC in simulated light water reactor environments. The existing crack growth rate (CGR) data for these alloys under cyclic and constant loads have been evaluated to establish the effects of alloy chemistry, cold work, and water chemistry. The experimental fatigue CGRs are compared with CGRs that would be expected in air under the same mechanical loading conditions to obtain a qualitative understanding of the degree and range of conditions for significant environmental enhancement in growth rates. The existing stress corrosion cracking (SCC) data on Alloys 600 and 690 and Alloy 82, 182, and 52 welds have been compiled and analyzed to determine the influence of key parameters on growth rates in simulated PWR and BWR environments. The SCC data for these alloys have been evaluated with correlations developed by Scott and by Ford and Andresen.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Advances in Fatigue and Fracture Mechanics Analyses for Metallic Aircraft Structures",
+      "authors": [
+        "Jr. J. C. Newman"
+      ],
+      "year": 2000,
+      "author_details": [
+        {
+          "name": "Jr. J. C. Newman",
+          "orcid": null,
+          "affiliations": [
+            "Langley Research Center"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "NASA Technical Reports Server (NASA)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/2060/20000040431",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "This paper reviews some of the advances that have been made in stress analyses of cracked aircraft components, in the understanding of the fatigue and fatigue-crack growth process, and in the prediction of residual strength of complex aircraft structures with widespread fatigue damage. Finite-element analyses of cracked metallic structures are now used to determine accurate stress-intensity factors for cracks at structural details. Observations of small-crack behavior at open and rivet-loaded holes and the development of small-crack theory has lead to the prediction of stress-life behavior for components with stress concentrations under aircraft spectrum loading. Fatigue-crack growth under simulated aircraft spectra can now be predicted with the crack-closure concept. Residual strength of cracked panels with severe out-of-plane deformations (buckling) in the presence of stiffeners and multiple-site damage can be predicted with advanced elastic-plastic finite-element analyses and the critical crack-tip-opening angle (CTOA) fracture criterion. These advances are helping to assure continued safety of aircraft structures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Multi-scale numerical modelling of phase transition phenomena in metallic alloys",
+      "authors": [
+        "Ali Chirazi"
+      ],
+      "year": 2000,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Greenwich Academic Literature Archive (University of Greenwich)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://gala.gre.ac.uk/id/eprint/10686/5/Ali%20Chirazi%202000.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "A multiscale numerical model of the solidification process involving the metallic alloys is proposed. The purpose of this model is to increase our basic knowledge of the physics of the solidification by incorporating atomic aspects of the phase change and, therefore, to predict the rnicrostructural features of the phase transformation based on the alloy parameters, such as the solute concentration and the process parameters, such as the cooling rate and surface roughness. The proposed multiscale strategy, is based on the parametric study of the solidification process at atomistic (nano), microscopic (rneso) and macroscopic levels. Once the major parameters, influencing the process at each scale, are identified, the three different levels are linked via the creation of relevant databases and the passage of information from one scale to another is implemented by using these databases. The multiscale model utilises the Molecular Dynamics (MD) methods at the atomic level, the Cellular Automaton (CA) method at the microscale and the Finite Volume (FV) models at the macroscale. The combination of these methods allowed us to study the phase transition beginning from the atomic clusterisation, progressing to the microstructure formation and culminating in the bulk formation at the macro level.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 36,
+      "known": 50,
+      "pct": 72,
+      "text": "文献类型：journal-article = 36/50（72%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sandia",
+    "attached_ranks": [
+      10
+    ],
+    "literal_title": "Technical Reference for Hydrogen Compatibility of Materials",
+    "occurrences": [
+      {
+        "rank": 10,
+        "title": "Technical Reference for Hydrogen Compatibility of Materials",
+        "organization": "Department of Energy",
+        "updated_label": "July 14, 2026 at 09:10 PM",
+        "summary": "Sandia National Laboratories is conducting an extensive review of reports and journal publications to gather existing materials data for inclusion in the Technical Reference for Hydrogen..."
+      }
+    ],
+    "disposition": "resource",
+    "primary_url": "https://www.sandia.gov/matlstechref/",
+    "rationale": "Chaptered evaluated handbook; archived PDF live; complementary structured database under construction.",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "id": "nist-srd81-insulation",
+    "attached_ranks": [
+      27,
+      28
+    ],
+    "literal_title": "NIST Heat Transmission Properties of Insulating and Building Materials Database - SRD 81",
+    "occurrences": [
+      {
+        "rank": 27,
+        "title": "NIST Heat Transmission Properties of Insulating and Building Materials Database - SRD 81",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "January 07, 2000",
+        "summary": "NIST has accumulated a valuable and comprehensive collection of thermal conductivity data from measurements performed with a 200-mm square guarded-hot-plate apparatus. The guarded-hot-plate test..."
+      },
+      {
+        "rank": 28,
+        "title": "NIST Heat Transmission Properties of Insulating and Building Materials Database - SRD 81",
+        "organization": "Department of Commerce",
+        "updated_label": "January 07, 2000",
+        "summary": "NIST has accumulated a valuable and comprehensive collection of thermal conductivity data from measurements performed with a 200-mm square guarded-hot-plate apparatus. The guarded-hot-plate test..."
+      }
+    ],
+    "disposition": "selected_dataset",
+    "primary_url": "https://srdata.nist.gov/insulation/",
+    "rationale": "Best machine reuse evidence: documented complete public JSON measurement response, specimen/test schema and uncertainty guidance; licensing and API unit caveats retained.",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "id": "nist-cryogenic-materials",
+    "attached_ranks": [
+      40,
+      41,
+      44
+    ],
+    "literal_title": "NIST Cryogenic Materials Property Database",
+    "occurrences": [
+      {
+        "rank": 40,
+        "title": "NIST Cryogenic Materials Property Database",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "January 01, 2009",
+        "summary": "This database contains cryogenic material property data."
+      },
+      {
+        "rank": 41,
+        "title": "NIST Cryogenic Materials Property Database",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "January 01, 2009",
+        "summary": "This database contains cryogenic material property data."
+      },
+      {
+        "rank": 44,
+        "title": "NIST Cryogenic Materials Property Database",
+        "organization": "Department of Commerce",
+        "updated_label": "January 01, 2009",
+        "summary": "This database contains cryogenic material property data."
+      }
+    ],
+    "disposition": "selected_unranked_dataset",
+    "primary_url": "https://trc.nist.gov/cryogenics/materials/materialproperties.htm",
+    "rationale": "Reusable numerical coefficients, explicit equations/units/ranges and source references; no verified homogeneous count or bulk release.",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "id": "nist-property-summaries-srd150",
+    "attached_ranks": [
+      58,
+      59
+    ],
+    "literal_title": "NIST Property Data Summaries for Advanced Materials - SRD 150",
+    "occurrences": [
+      {
+        "rank": 58,
+        "title": "NIST Property Data Summaries for Advanced Materials - SRD 150",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "June 22, 2015",
+        "summary": "Property Data Summaries are collections of property values derived from surveys of published data. These collections typically focus on either one material or one particular property. Studies of..."
+      },
+      {
+        "rank": 59,
+        "title": "NIST Property Data Summaries for Advanced Materials - SRD 150",
+        "organization": "Department of Commerce",
+        "updated_label": "June 22, 2015",
+        "summary": "Property Data Summaries are collections of property values derived from surveys of published data. These collections typically focus on either one material or one particular property. Studies of..."
+      }
+    ],
+    "disposition": "resource",
+    "primary_url": "https://srdata.nist.gov/CeramicDataPortal/pds",
+    "rationale": "Valuable small reference summaries, but derived/overlapping SRD30 and topical collections; do not promote as independent ranked materials count.",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "id": "nist-structural-ceramics-srd30",
+    "attached_ranks": [
+      195,
+      197
+    ],
+    "literal_title": "NIST Structural Ceramics Database - SRD 30",
+    "occurrences": [
+      {
+        "rank": 195,
+        "title": "NIST Structural Ceramics Database - SRD 30",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "June 22, 2015",
+        "summary": "The NIST WWW Structural Ceramics Database (WebSCD) provides evaluated materials property data for a wide range of advanced ceramics known variously as structural ceramics, engineering ceramics,..."
+      },
+      {
+        "rank": 197,
+        "title": "NIST Structural Ceramics Database - SRD 30",
+        "organization": "Department of Commerce",
+        "updated_label": "June 22, 2015",
+        "summary": "The NIST WWW Structural Ceramics Database (WebSCD) provides evaluated materials property data for a wide range of advanced ceramics known variously as structural ceramics, engineering ceramics,..."
+      }
+    ],
+    "disposition": "selected_unranked_dataset",
+    "primary_url": "https://srdata.nist.gov/CeramicDataPortal/scd",
+    "rationale": "Live numerical tables include sample processing, method, bibliography and property-specific evaluation; no verified bulk export/count.",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "id": "acers-nist-srd31",
+    "attached_ranks": [
+      230,
+      231
+    ],
+    "literal_title": "ACerS-NIST Phase Equilibria Diagrams Database - SRD 31",
+    "occurrences": [
+      {
+        "rank": 230,
+        "title": "ACerS-NIST Phase Equilibria Diagrams Database - SRD 31",
+        "organization": "Department of Commerce",
+        "updated_label": "April 03, 2015",
+        "summary": "The data in the ACerS-NIST Phase Equilibria Diagrams Database, jointly copyrighted by NIST and The American Ceramic Society, provide maps of the equilibrium chemical and structural behaviors..."
+      },
+      {
+        "rank": 231,
+        "title": "ACerS-NIST Phase Equilibria Diagrams Database - SRD 31",
+        "organization": "National Institute of Standards and Technology",
+        "updated_label": "April 03, 2015",
+        "summary": "The data in the ACerS-NIST Phase Equilibria Diagrams Database, jointly copyrighted by NIST and The American Ceramic Society, provide maps of the equilibrium chemical and structural behaviors..."
+      }
+    ],
+    "disposition": "commercial_resource",
+    "primary_url": "https://www.nist.gov/srd/nist-standard-reference-database-31",
+    "rationale": "Strong expert evaluation but current full product requires purchase/subscription; diagrams not material records.",
+    "verified_date": "2026-11-01"
+  }
+]

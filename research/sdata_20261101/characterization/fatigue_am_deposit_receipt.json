@@ -1,0 +1,39 @@
+{
+  "name": "fatigue_am",
+  "url": "https://api.figshare.com/v2/articles/22337629",
+  "status": 200,
+  "raw_file": "research/cache/sdata_characterization/fatigue_am_deposit.json",
+  "sha256": "32c53c7d22b0a0e98c2e89ea50a92dc6d30f13b0c93965ce417994ab6f95d9a8",
+  "title": "Fatigue Database of Additively Manufactured Alloys",
+  "doi": "10.6084/m9.figshare.22337629.v2",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "version": 2,
+  "publication_date": null,
+  "access_right": null,
+  "file_count": 3,
+  "total_file_bytes": 82423954,
+  "file_examples": [
+    {
+      "name": "FatigueData-AM2022.mat",
+      "bytes": 5820607,
+      "checksum": "1f66b2a5e48146c2d5a27739ad24ff30",
+      "url": "https://ndownloader.figshare.com/files/41023478"
+    },
+    {
+      "name": "FatigueData-AM2022.json",
+      "bytes": 69558939,
+      "checksum": "f0d565902c000b277480bb6fa2e5f711",
+      "url": "https://ndownloader.figshare.com/files/41023481"
+    },
+    {
+      "name": "FatigueData-AM2022.xlsx",
+      "bytes": 7044408,
+      "checksum": "0a7db5fe40892cc420b9ac3713e596ad",
+      "url": "https://ndownloader.figshare.com/files/41023484"
+    }
+  ]
+}

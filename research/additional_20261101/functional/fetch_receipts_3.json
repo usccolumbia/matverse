@@ -1,0 +1,131 @@
+[
+  {
+    "key": "mint-capabilities",
+    "url": "https://mintatlas.org/optimade/v1/extensions/mintatlas/info",
+    "final_url_without_query": "https://mintatlas.org/optimade/v1/extensions/mintatlas/info",
+    "status": 200,
+    "bytes": 1193,
+    "sha256": "2734ea4867e6dfd867efc3b5e4b216a9e29ed57bc1dcbefa05a81d94271b1290",
+    "cache_path": "research/cache/additional_20261101/functional/mint-capabilities.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "mint-structures",
+    "url": "https://mintatlas.org/optimade/v1/structures?page_limit=1",
+    "final_url_without_query": "https://mintatlas.org/optimade/v1/structures",
+    "status": 200,
+    "bytes": 3331,
+    "sha256": "8dcc1ac8ea4947fa1cc2c853bc0a77542585a34fb95c3ec3dd1b5897b7bcb0b9",
+    "cache_path": "research/cache/additional_20261101/functional/mint-structures.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "spin-hall-v2-api",
+    "url": "https://archive.materialscloud.org/api/records/rfcdy-wcy32",
+    "final_url_without_query": "https://archive.materialscloud.org/api/records/rfcdy-wcy32",
+    "status": 200,
+    "bytes": 9614,
+    "sha256": "e437676b7a76e206bbef6e40ea77098029c26d1bf0cb8a0e86acf11b52eb8683",
+    "cache_path": "research/cache/additional_20261101/functional/spin-hall-v2-api.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "spin-hall-v2-readme",
+    "url": "https://archive.materialscloud.org/api/records/rfcdy-wcy32/files/README.txt/content",
+    "final_url_without_query": "https://rgw.cscs.ch/mc-archive/1b/cd/e957-cd9f-4509-bf3e-d74620ace8e9/data",
+    "status": 200,
+    "bytes": 3526,
+    "sha256": "d286e0a6d7a1c25b8f56a4c9ade6f07f36e13525367a96ecd746b31561165703",
+    "cache_path": "research/cache/additional_20261101/functional/spin-hall-v2-readme.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "altermagnet-api",
+    "url": "https://zenodo.org/api/records/19109715",
+    "final_url_without_query": "https://zenodo.org/api/records/19109715",
+    "status": 200,
+    "bytes": 5613,
+    "sha256": "d637ac6c2f2353dc1ea491cff1a50622e7231be97dd7c9e4c691b5cfd4e3f012",
+    "cache_path": "research/cache/additional_20261101/functional/altermagnet-api.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "altermagnet-repo",
+    "url": "https://api.github.com/repos/Anyterial/altermagnets/git/trees/main?recursive=1",
+    "final_url_without_query": "https://api.github.com/repos/Anyterial/altermagnets/git/trees/main",
+    "status": 200,
+    "bytes": 27702,
+    "sha256": "ec36df6f22a123017463b84046e60e90b2e11c64a0cc830559bcbca034ef4957",
+    "cache_path": "research/cache/additional_20261101/functional/altermagnet-repo.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "novamag-api",
+    "url": "https://zenodo.org/api/records/3241267",
+    "final_url_without_query": "https://zenodo.org/api/records/3241267",
+    "status": 200,
+    "bytes": 6734,
+    "sha256": "e49ba5a5dcf492832e2688a18fc50a7b309f1da64cc71ed86c67d02a0ee65e5a",
+    "cache_path": "research/cache/additional_20261101/functional/novamag-api.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "chiral-page",
+    "url": "https://materialsfingerprint.com",
+    "final_url_without_query": "https://materialsfingerprint.com",
+    "status": 200,
+    "bytes": 110416,
+    "sha256": "1106edb678c715efec84cfdba9bc46fb84bec18e4cdaad7c48310849541af7a7",
+    "cache_path": "research/cache/additional_20261101/functional/chiral-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "phonon-nju",
+    "url": "http://phonon.nju.edu.cn",
+    "final_url_without_query": "http://phonon.nju.edu.cn",
+    "status": 200,
+    "bytes": 2623,
+    "sha256": "136bbd8126a58630d4ad9575571423e5a5415b2780cb54a1b57cf595a9650e9f",
+    "cache_path": "research/cache/additional_20261101/functional/phonon-nju.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "c1db-one-cif",
+    "url": "https://cmrdb.fysik.dtu.dk/c1db/cif/ZrSe4Hf5Br10-6b6280765d7f",
+    "error_type": "HTTPError",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "heusler-ternary-head",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+    "final_url_without_query": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+    "status": 206,
+    "bytes": 65536,
+    "sha256": "754d1a3d62efe49aaeb6fb51ff3f75e910203f936803a55dbd4d212ff7025755",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-ternary-head.raw",
+    "verified_date": "2026-11-01",
+    "partial_body": true
+  },
+  {
+    "key": "heusler-quaternary-head",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+    "final_url_without_query": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+    "status": 206,
+    "bytes": 65536,
+    "sha256": "0e66ff8b9ef259aabb1a3aeff3597fb3f51440f1e77949004c14a57c912d056d",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-quaternary-head.raw",
+    "verified_date": "2026-11-01",
+    "partial_body": true
+  },
+  {
+    "key": "heusler-alld-head",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+    "final_url_without_query": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+    "status": 206,
+    "bytes": 65536,
+    "sha256": "399fdc16f292b7bf647bb960d5fcf6977d8446734e082207ed2c523a71f5d863",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-alld-head.raw",
+    "verified_date": "2026-11-01",
+    "partial_body": true
+  }
+]

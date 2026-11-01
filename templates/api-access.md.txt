@@ -1,0 +1,73 @@
+# API-accessible / Agent-ready data sources
+
+Checked {{DATE}}. [Search the API directory](https://usccolumbia.github.io/matverse/?view=apis) · [Machine-readable route registry](../data/api_sources.json) · [JARVIS coverage audit](jarvis-coverage.md) · [All source links](../sources.md)
+
+Here, **Agent-ready** means a documented path that software can use to search metadata, retrieve records or download structured files. It is an interface classification, not a certification of scientific quality, complete labels, schema uniformity, autonomous-use permission or unrestricted licensing. The {{API_COUNT}} routes below distinguish remote query APIs from bulk SDKs and static downloads. Authentication and the observed verification level remain explicit.
+
+## OPTIMADE: one standard across materials databases
+
+**Try it in a browser:** [Materials Cloud OPTIMADE Client](https://optimadeclient.materialscloud.io/) · [Official OPTIMADE clients directory](https://www.optimade.org/clients).
+
+The Materials Cloud client lets you choose a provider and a child database, filter structures, and inspect or download results. It queries a selected database at a time. The official clients directory also describes tools for searching across providers, including `optimade.science` and `optimade-python-tools`. These clients are access tools for existing databases; they do not add independent structure counts. [Official client comparison](https://www.optimade.org/clients).
+
+### Providers visible in the supplied screenshot
+
+The following 17 provider options are visible in your screenshot and matched to the official registry. Index links lead to provider directories, from which clients discover child database endpoints. This list records advertised providers; individual endpoint availability, authentication and API version still require checking. [Provider registry](https://providers.optimade.org/v1/links).
+
+{{OPTIMADE_PROVIDERS}}
+
+`matterverse` names the separate Matterverse database. `omdb` here names Open Materials Database, distinct from the Organic Materials Database at `omdb.mathub.io`. The screenshot is a snapshot; the [live provider registry](https://providers.optimade.org/) can change.
+
+**OPTIMADE — Open Databases Integration for Materials Design** defines a common HTTP API, filter language and structure representation across participating providers. The consortium lists specification **v1.3.0 (December 2025)** as its latest release at this check. Individual servers may implement other compatible versions or only a subset of optional fields. [Consortium overview](https://www.optimade.org/), [specification](https://www.optimade.org/api-specification).
+
+Start with the machine-readable [provider index](https://providers.optimade.org/v1/links), follow each provider's index `/links` to its child databases, then inspect the child's versioned `/info` and `/info/structures`. Query `/v1/structures` with `filter`, `response_fields` and `page_limit`, and follow the returned `links.next` for pagination. A provider index is a directory; it is not itself a structure database. [Registry documentation](https://providers.optimade.org/), [API specification](https://www.optimade.org/api-specification).
+
+The standard describes chemical formulas, elements, lattice vectors, Cartesian site positions, species and periodic dimensions. Properties such as band gaps or critical temperatures may be provider extensions; their names, units and provenance still need inspection. OPTIMADE does not harmonize DFT functionals, remove duplicate structures, grant a data license or bypass authentication. [Specification](https://www.optimade.org/api-specification).
+
+For example, this small COD query requests binary Si–O records and only a few fields. It is an illustrative standard query; the COD request timed out during this audit, while several other registered providers returned records.
+
+```bash
+curl --fail --get 'https://www.crystallography.net/cod/optimade/v1/structures' \
+  --data-urlencode 'filter=elements HAS ALL "Si","O" AND nelements=2' \
+  --data-urlencode 'response_fields=chemical_formula_descriptive,nelements' \
+  --data-urlencode 'page_limit=1'
+```
+
+To request coordinates, include `lattice_vectors,cartesian_site_positions,species_at_sites,species,dimension_types` when supported. Keep provider IDs, query text, API/database versions and retrieval date with each result. A server's `meta.data_available` and matched-result count refer to its served subset; neither automatically replaces a separately versioned catalog count. [Official query example and field explanation](https://www.optimade.org/), [specification](https://www.optimade.org/api-specification).
+
+## Access routes and observed verification
+
+{{API_TABLE}}
+
+**Small record sample verified** means an unauthenticated bounded request returned at least one data record. **Metadata response verified** means only repository/deposit metadata was checked. An empty JSON response does not establish working record retrieval. Authentication failures, timeouts and unavailable registered endpoints are retained. **Documented; not queried** means official documentation was read, but the API, SDK or complete payload was not exercised. No keys or private accounts were used. [Probe receipts](../research/provenance/api_probes_20261101.json).
+
+## Reproducible access examples
+
+Materials Project's native API requires a key; its separately registered OPTIMADE endpoint returned a small public sample. The official client can obtain its key from `MP_API_KEY` in the environment:
+
+```python
+from mp_api.client import MPRester
+
+with MPRester() as mpr:
+    records = mpr.materials.summary.search(
+        material_ids=["mp-149"], fields=["material_id", "structure"]
+    )
+```
+
+This snippet follows the [official client documentation](https://docs.materialsproject.org/downloading-data/using-the-api/getting-started); authenticated execution was not tested here.
+
+JARVIS's bulk SDK is a different access pattern:
+
+```python
+from jarvis.db.figshare import data
+
+records = data("dft_3d")  # Downloads/loads a complete named release.
+```
+
+Use the [JARVIS audit](jarvis-coverage.md) to choose a named snapshot and distinguish special helper functions. This is not a remote filtered property query. Inspect the [pinned registry](../research/collection_jarvis_databases.json) before downloading large archives.
+
+For an automated workflow, select the required structure/property scope, inspect authentication and reuse terms, pin the served release or file revision, request a small sample, then paginate or download with the provider's supported client. Preserve IDs, units, method provenance and file checksums alongside the data. Bulk files on Figshare, Zenodo or Hugging Face remain dataset-specific formats even when their metadata API is uniform.
+
+{{API_DETAILS}}
+
+[Back to MatVerse](../README.md)

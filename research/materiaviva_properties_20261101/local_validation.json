@@ -1,0 +1,40 @@
+{
+  "checked_date": "2026-11-01",
+  "publication_status": "local only; no commit or push",
+  "catalog_records": 523,
+  "navigation_resources": 88,
+  "categories": 13,
+  "api_routes": 20,
+  "materiaviva_property_tables": 148,
+  "materiaviva_upstream_source_ids": 56,
+  "matbench_page_entries": 46,
+  "matbench_new_datasets": 13,
+  "matbench_new_resources": 8,
+  "datagov_new_datasets": 8,
+  "datagov_new_resources": 18,
+  "checks": {
+    "ui_tests": {
+      "passed": 28,
+      "failed": 0
+    },
+    "scientific_data_tests": {
+      "passed": 4,
+      "failed": 0
+    },
+    "json_schema": "passed",
+    "generated_views": "current",
+    "local_markdown_links": 1304,
+    "git_diff_check": "passed"
+  },
+  "screenshots": [
+    "research/cache/materiaviva-property-preview.png",
+    "research/cache/matbench-coverage-preview.png"
+  ],
+  "inputs_sha256": {
+    "data/datasets.json": "8e5052e499fe85cd332a93cbf9c497e236a01c72d6129410b71b7f09ed2cac73",
+    "data/resources.json": "47ea59ce40186df1ec54826265ea0d4a5b7bd9d3c37305a7ef39e1a8a14d8564",
+    "data/api_sources.json": "26560ed128c200d9921ef6268b99ce2b2c4d94a07af1d86dba73d739282175c4",
+    "web/app.js": "030feac537aa0a5e549ab50c0e6b66d9bcc02b0a8114fa07ace894321cc783c2",
+    "research/collection_matbench_discovery_20261101.json": "b526049a93c6fd8078d187a58e59e66c5bb9198f1f036fa2fff387ce0a77ce36"
+  }
+}

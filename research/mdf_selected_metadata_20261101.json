@@ -1,0 +1,1248 @@
+{
+  "foundry_experimental_band_gaps_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2021-08-12T22:06:45.686575Z",
+      "source_id": "foundry_experimental_band_gaps_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "foundry_experimental_band_gaps"
+    },
+    "title": "Graph Network Based Deep Learning of Band Gaps - Experimental Band Gaps",
+    "doi": "10.18126/wg3u-g8vu",
+    "publication_year": 2021,
+    "description": null,
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "type": "train",
+          "path": "data_exp_no_repeat_new.json",
+          "label": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "source publication of the band gap value",
+          "units": "",
+          "type": "input",
+          "key": [
+            "reference"
+          ]
+        },
+        {
+          "description": "corresponding id in ICSD of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "icsd_id"
+          ]
+        },
+        {
+          "description": "the structure of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "structure"
+          ]
+        },
+        {
+          "description": "reduced composition of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "composition"
+          ]
+        },
+        {
+          "description": "Additional information about this bandgap measurement",
+          "units": "",
+          "type": "input",
+          "key": [
+            "comments"
+          ]
+        },
+        {
+          "description": "the type of the band gap, e.g., direct or indirect",
+          "units": "",
+          "type": "input",
+          "key": [
+            "bandgap type"
+          ]
+        },
+        {
+          "description": "experimental method used to measure the band gap",
+          "units": "",
+          "type": "input",
+          "key": [
+            "exp method"
+          ]
+        },
+        {
+          "description": "the space group of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "space group"
+          ]
+        },
+        {
+          "description": "value of the band gap",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "bandgap value (eV)"
+          ]
+        },
+        {
+          "description": "band gap measurement temperature",
+          "units": "K",
+          "type": "input",
+          "key": [
+            "temp (K)"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 2808,
+      "short_name": "experimental_band_gaps",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "foundry_assorted_computational_band_gaps_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2021-08-12T21:08:51.184011Z",
+      "source_id": "foundry_assorted_computational_band_gaps_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "foundry_assorted_computational_band_gaps"
+    },
+    "title": "Graph Network Based Deep Learning of Band Gaps - Assorted Computational Band Gaps",
+    "doi": "10.18126/7io9-1z9k",
+    "publication_year": 2021,
+    "description": null,
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "path": "All_no_MP_Aflow_OQMD_new.json",
+          "label": "train",
+          "type": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "source publication of the band gap value",
+          "units": "",
+          "type": "input",
+          "key": [
+            "reference"
+          ]
+        },
+        {
+          "description": "corresponding id in ICSD of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "icsd_id"
+          ]
+        },
+        {
+          "description": "the structure of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "structure"
+          ]
+        },
+        {
+          "description": "reduced composition of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "composition"
+          ]
+        },
+        {
+          "description": "Additional information about this bandgap measurement",
+          "units": "",
+          "type": "input",
+          "key": [
+            "comments"
+          ]
+        },
+        {
+          "description": "the type of the band gap, e.g., direct or indirect",
+          "units": "",
+          "type": "input",
+          "key": [
+            "bandgap type"
+          ]
+        },
+        {
+          "description": "functional used to calculate the band gap",
+          "units": "",
+          "type": "input",
+          "key": [
+            "comp method"
+          ]
+        },
+        {
+          "description": "the space group of this compound",
+          "units": "",
+          "type": "input",
+          "key": [
+            "space group"
+          ]
+        },
+        {
+          "description": "value of the band gap",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "bandgap value (eV)"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 105594,
+      "short_name": "assorted_computational_band_gaps",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "double_perovskite_bandgap_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-19T20:49:02.406470Z",
+      "source_id": "double_perovskite_bandgap_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "double_perovskite_bandgap"
+    },
+    "title": "Machine learning bandgaps of double perovskites",
+    "doi": "10.18126/lss6-o5x4",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing DFT-calculated band gaps of 1306 double perovskite oxide materials"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "type": "train",
+          "path": "Dataset_double_perovskites_gap_v1.csv",
+          "label": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Material composition",
+          "units": "",
+          "type": "input",
+          "key": [
+            "formula"
+          ]
+        },
+        {
+          "description": "Element 1 on the A sub-lattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "a_1"
+          ]
+        },
+        {
+          "description": "Element 2 on the A sub-lattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "a_2"
+          ]
+        },
+        {
+          "description": "Element 1 on the B sub-lattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "b_1"
+          ]
+        },
+        {
+          "description": "Element 2 on the B sub-lattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "b_2"
+          ]
+        },
+        {
+          "description": "DFT-calculated bandgap",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "gap gllbsc"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 1306,
+      "short_name": "Dataset_double_perovskite_bandgap",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "perovskite_opbandcenter_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-19T21:21:04.684528Z",
+      "source_id": "perovskite_opbandcenter_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "perovskite_opbandcenter"
+    },
+    "title": "Discovery and engineering of low work function perovskite materials",
+    "doi": "10.18126/f3p0-2c5f",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing DFT-calculated O p-band center energies for 2912 perovskite oxides"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "type": "train",
+          "path": "Perovskite_Opband_dataset_v1.csv",
+          "label": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Material composition with brackets denoting different sublattices",
+          "units": "",
+          "type": "input",
+          "key": [
+            "Composition with sublattices"
+          ]
+        },
+        {
+          "description": "Material composition",
+          "units": "",
+          "type": "input",
+          "key": [
+            "Composition"
+          ]
+        },
+        {
+          "description": "DFT-GGA+U calculated O p-band center, referenced to Fermi level",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "O pband (GGA+U)_[eV]"
+          ]
+        },
+        {
+          "description": "DFT-GGA calculated O p-band center, referenced to Fermi level",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "O pband (GGA)_[eV]"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 2912,
+      "short_name": "perovskite_Opbandcenter_dataset",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "heusler_magnetization_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-19T22:03:29.196264Z",
+      "source_id": "heusler_magnetization_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "heusler_magnetization"
+    },
+    "title": "University of Alabama Heusler database",
+    "doi": "10.18126/un63-ohqv",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing saturation magnetization values of 1153 Heusler compounds"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "type": "train",
+          "path": "Dataset_heusler_magnetic_v1.csv",
+          "label": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Material composition",
+          "units": "",
+          "type": "input",
+          "key": [
+            "formula"
+          ]
+        },
+        {
+          "description": "Type of Heusler structure",
+          "units": "",
+          "type": "input",
+          "key": [
+            "heusler type"
+          ]
+        },
+        {
+          "description": "Number of electrons in Heusler structure",
+          "units": "",
+          "type": "input",
+          "key": [
+            "num_electron"
+          ]
+        },
+        {
+          "description": "The structure type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "struct type"
+          ]
+        },
+        {
+          "description": "Lattice constant",
+          "units": "Angstroms",
+          "type": "input",
+          "key": [
+            "latt const"
+          ]
+        },
+        {
+          "description": "The structure tetragonality factor (c/a)",
+          "units": "",
+          "type": "input",
+          "key": [
+            "tetragonality"
+          ]
+        },
+        {
+          "description": "Formation energy",
+          "units": "eV/atom",
+          "type": "input",
+          "key": [
+            "e_form"
+          ]
+        },
+        {
+          "description": "Polarization at Fermi level",
+          "units": "%",
+          "type": "input",
+          "key": [
+            "pol fermi"
+          ]
+        },
+        {
+          "description": "Magnetic moment of structure",
+          "units": "Bohr magneton",
+          "type": "input",
+          "key": [
+            "mu_b"
+          ]
+        },
+        {
+          "description": "Saturation magnetization",
+          "units": "emu/cc",
+          "type": "target",
+          "key": [
+            "mu_b saturation"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 1153,
+      "short_name": "Dataset_heusler_magnetization",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "semiconductor_defectlevels_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-19T19:48:15.925895Z",
+      "source_id": "semiconductor_defectlevels_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "semiconductor_defectlevels"
+    },
+    "title": "Machine learning for impurity charge-state transition levels in semiconductors from elemental properties using multi-fidelity datasets",
+    "doi": "10.18126/ite0-3iah",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing DFT-calculated defect charge state transition levels of 2910 semiconductor-impurity pairs"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "path": "Dataset_semiconductor_defectlevels_v1.csv",
+          "label": "train",
+          "type": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Composition of host",
+          "units": "",
+          "type": "input",
+          "key": [
+            "host_material"
+          ]
+        },
+        {
+          "description": "Host element of A site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "host_element_a"
+          ]
+        },
+        {
+          "description": "Host element of B site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "host_element_b"
+          ]
+        },
+        {
+          "description": "Impurity element type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "impurity"
+          ]
+        },
+        {
+          "description": "Removed element type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "removed_element"
+          ]
+        },
+        {
+          "description": "Type of the lattice site the impurity resides",
+          "units": "",
+          "type": "input",
+          "key": [
+            "site_type"
+          ]
+        },
+        {
+          "description": "Name of the lattice site the impurity resides",
+          "units": "",
+          "type": "input",
+          "key": [
+            "site"
+          ]
+        },
+        {
+          "description": "Whether impurity resides on the A sublattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "is_a_latt"
+          ]
+        },
+        {
+          "description": "Whether impurity is on an interstitial site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "is_interstitial"
+          ]
+        },
+        {
+          "description": "Whether impurity is on a A-site interstitial site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "is_interstitial_a"
+          ]
+        },
+        {
+          "description": "Whether impurity is on a B-site interstitial site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "is_interstitial_b"
+          ]
+        },
+        {
+          "description": "Whether impurity is on a neutral interstitial site",
+          "units": "",
+          "type": "input",
+          "key": [
+            "is_interstitial_n"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Al"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_As"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Cd"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Ga"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_In"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_P"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_S"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Sb"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Se"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_Te"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_i_Cd_site"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_i_S_site"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_i_Se_site"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_i_Te_site"
+          ]
+        },
+        {
+          "description": "One-hot encoding of site type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "M_i_neut_site"
+          ]
+        },
+        {
+          "description": "Initial charge of defect",
+          "units": "electrons",
+          "type": "input",
+          "key": [
+            "charge_from"
+          ]
+        },
+        {
+          "description": "Final charge of defect",
+          "units": "electrons",
+          "type": "input",
+          "key": [
+            "charge_to"
+          ]
+        },
+        {
+          "description": "Experimental bandgap of the host material",
+          "units": "eV",
+          "type": "input",
+          "key": [
+            "host bandgap_[eV]"
+          ]
+        },
+        {
+          "description": "Lattice constant of the host material",
+          "units": "Angstroms",
+          "type": "input",
+          "key": [
+            "host lattice constant_[Ang.]"
+          ]
+        },
+        {
+          "description": "Dielectric constant of the host material",
+          "units": "",
+          "type": "input",
+          "key": [
+            "host_epsilon"
+          ]
+        },
+        {
+          "description": "Band alignment correction shift",
+          "units": "eV",
+          "type": "input",
+          "key": [
+            "ba_shift"
+          ]
+        },
+        {
+          "description": "DFT-PBE calculated defect charge state transition levels",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "pbe defect level (relative to VBM)_[eV]"
+          ]
+        },
+        {
+          "description": "Modified band alignment correction shift",
+          "units": "eV",
+          "type": "input",
+          "key": [
+            "mba_pbe"
+          ]
+        },
+        {
+          "description": "Modified band alignment correction shift, given as fraction of the bandgap",
+          "units": "",
+          "type": "input",
+          "key": [
+            "mba_pbe_gapfrac"
+          ]
+        },
+        {
+          "description": "DFT-HSE calculated defect charge state transition levels",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "hse defect level (relative to VBM)_[eV]"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 2910,
+      "short_name": "Dataset_semiconductor_defectlevels",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "wolverton_oxides_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-20T14:10:49.136138Z",
+      "source_id": "wolverton_oxides_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "wolverton_oxides"
+    },
+    "title": "High-throughput DFT calculations of formation energy, stability and oxygen vacancy formation energy of ABO3 perovskites",
+    "doi": "10.18126/h15n-7wu8",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing DFT-calculated formation energy and convex hull energies of 4914 perovskite oxides"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "type": "train",
+          "path": "Dataset_wolverton_oxides_v1.csv",
+          "label": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Material composition",
+          "units": "",
+          "type": "input",
+          "key": [
+            "formula"
+          ]
+        },
+        {
+          "description": "Element on the A-site sublattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "atom a"
+          ]
+        },
+        {
+          "description": "Element on the B-site sublattice",
+          "units": "",
+          "type": "input",
+          "key": [
+            "atom b"
+          ]
+        },
+        {
+          "description": "Structural category of perovskite structure type",
+          "units": "",
+          "type": "input",
+          "key": [
+            "lowest distortion"
+          ]
+        },
+        {
+          "description": "DFT-calculated formation energy, relative to elements",
+          "units": "eV/atom",
+          "type": "target",
+          "key": [
+            "e_form"
+          ]
+        },
+        {
+          "description": "DFT-calculated convex hull energy",
+          "units": "eV/atom",
+          "type": "target",
+          "key": [
+            "e_hull"
+          ]
+        },
+        {
+          "description": "Magnetic moment of the relaxed structure",
+          "units": "Bohr magneton",
+          "type": "input",
+          "key": [
+            "mu_b"
+          ]
+        },
+        {
+          "description": "Atomic volume of the relaxed structure",
+          "units": "Ang^3 per atom",
+          "type": "input",
+          "key": [
+            "vpa"
+          ]
+        },
+        {
+          "description": "DFT-PBE calculated band gap",
+          "units": "eV",
+          "type": "input",
+          "key": [
+            "gap pbe"
+          ]
+        },
+        {
+          "description": "Lattice constant of the a-axis",
+          "units": "Angstrom",
+          "type": "input",
+          "key": [
+            "a"
+          ]
+        },
+        {
+          "description": "Lattice constant of the b-axis",
+          "units": "Angstrom",
+          "type": "input",
+          "key": [
+            "b"
+          ]
+        },
+        {
+          "description": "Lattice constant of the c-axis",
+          "units": "Angstrom",
+          "type": "input",
+          "key": [
+            "c"
+          ]
+        },
+        {
+          "description": "Lattice alpha angle",
+          "units": "degrees",
+          "type": "input",
+          "key": [
+            "alpha"
+          ]
+        },
+        {
+          "description": "Lattice beta angle",
+          "units": "degrees",
+          "type": "input",
+          "key": [
+            "beta"
+          ]
+        },
+        {
+          "description": "Lattice gamma angle",
+          "units": "degrees",
+          "type": "input",
+          "key": [
+            "gamma"
+          ]
+        },
+        {
+          "description": "Oxygen vacancy formation energy",
+          "units": "eV",
+          "type": "target",
+          "key": [
+            "e_form oxygen"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 4914,
+      "short_name": "Dataset_wolverton_oxides",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  },
+  "steel_strength_v1.1": {
+    "mdf": {
+      "resource_type": "dataset",
+      "organizations": [
+        "Foundry"
+      ],
+      "ingest_date": "2022-07-18T19:04:21.825566Z",
+      "source_id": "steel_strength_v1.1",
+      "scroll_id": 0,
+      "version": 1,
+      "source_name": "steel_strength"
+    },
+    "title": "Mechanical properties of some steels",
+    "doi": "10.18126/524z-vd6m",
+    "publication_year": 2022,
+    "description": [
+      {
+        "descriptionType": "Other",
+        "description": "Dataset containing compositions and mechanical properties (yield strength, tensile strength, elongation) of 312 steel alloys"
+      }
+    ],
+    "rights": [
+      {
+        "rights": "CC-BY 4.0"
+      }
+    ],
+    "foundry": {
+      "splits": [
+        {
+          "path": "Dataset_steel_strength.csv",
+          "label": "train",
+          "type": "train"
+        }
+      ],
+      "keys": [
+        {
+          "description": "Steel composition",
+          "units": "",
+          "type": "input",
+          "key": [
+            "formula"
+          ]
+        },
+        {
+          "description": "C weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "c"
+          ]
+        },
+        {
+          "description": "Mn weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "mn"
+          ]
+        },
+        {
+          "description": "Si weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "si"
+          ]
+        },
+        {
+          "description": "Cr weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "cr"
+          ]
+        },
+        {
+          "description": "Ni weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "ni"
+          ]
+        },
+        {
+          "description": "Mo weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "mo"
+          ]
+        },
+        {
+          "description": "V weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "v"
+          ]
+        },
+        {
+          "description": "N weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "n"
+          ]
+        },
+        {
+          "description": "Nb weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "nb"
+          ]
+        },
+        {
+          "description": "Co weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "co"
+          ]
+        },
+        {
+          "description": "W weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "w"
+          ]
+        },
+        {
+          "description": "Al weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "al"
+          ]
+        },
+        {
+          "description": "Ti weight percent",
+          "units": "wt %",
+          "type": "input",
+          "key": [
+            "ti"
+          ]
+        },
+        {
+          "description": "yield strength in MPa",
+          "units": "MPa",
+          "type": "target",
+          "key": [
+            "yield strength"
+          ]
+        },
+        {
+          "description": "tensile strength in MPa",
+          "units": "MPa",
+          "type": "target",
+          "key": [
+            "tensile strength"
+          ]
+        },
+        {
+          "description": "elongation at fracture",
+          "units": "%",
+          "type": "target",
+          "key": [
+            "elongation"
+          ]
+        },
+        {
+          "description": "categorization of Cr amount",
+          "units": "",
+          "type": "input",
+          "key": [
+            "cr_amount"
+          ]
+        }
+      ],
+      "domain": [
+        "materials science"
+      ],
+      "data_type": "tabular",
+      "n_items": 312,
+      "short_name": "Dataset_steel_strength",
+      "task_type": [
+        "supervised"
+      ]
+    }
+  }
+}

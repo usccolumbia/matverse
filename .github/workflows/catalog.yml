@@ -14,6 +14,8 @@ jobs:
           python-version: '3.12'
       - name: Validate evidence fields and generated views
         run: python scripts/build_catalog.py --check
+      - name: Check descriptor normalization and journal metadata
+        run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Check local links
         run: python scripts/check_local_links.py
       - name: Verify HTML and source-index generation

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "records": 9,
+  "new_ids": [
+    "pormake-moftransformer-1m",
+    "mofx-db",
+    "tobacco-mofs",
+    "nist-isodb",
+    "phononmofdb",
+    "mace-mp-mof0-training",
+    "porous-heat-capacity-2022",
+    "symgnn-zeolite-adsorption",
+    "zeodiff-diffusion"
+  ],
+  "existing_catalog_count": 304,
+  "validation": "build_catalog.validate(existing + additions, []) passed",
+  "schema_validation": "JSON Schema Draft2020-12 passed",
+  "sha256": "ac5caa60411aa27cb5add890a34da3afad1e90a9cfb35fa238096253766ede97"
+}

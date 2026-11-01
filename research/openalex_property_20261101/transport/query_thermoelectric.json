@@ -1,0 +1,4443 @@
+{
+  "mode": "search",
+  "query": "thermoelectric transport dataset database",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "A computed thermoelectric feature database for 50,992 GNoME materials (v1)",
+      "authors": [
+        "Akshay Deshpande"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Akshay Deshpande",
+          "orcid": "0009-0003-0616-2537",
+          "affiliations": [
+            "Trine University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.21899131",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.21899131",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.21899131",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "A machine-learning-ready feature set of physical properties computed for 50,992 novel crystalline materials from Google DeepMind's GNoME database, oriented toward thermoelectric screening. For each material it provides composition and structure descriptors, CHGNet universal-potential energetics, magnetism, and a 64-dimensional learned crystal embedding, and — the distinctive part — a complete lattice-thermal-transport layer: elastic constants, Debye temperature, sound velocities, Cahill/Clarke minimum-kappa bounds, the Grueneisen parameter (via a CHGNet equation-of-state), and a Slack-model lattice thermal conductivity. To our knowledge this thermal-transport feature layer has not previously been computed and released for the GNoME set. Files: (1) gnome_thermoelectric_features.parquet — main table, one row per material, all scalar features plus the 64-d embedding; (2) gnome_elastic_tensors.parquet — full 6x6 Voigt elastic tensor per material; (3) gnome_relaxed_structures.parquet — CHGNet-relaxed structure (CIF) per material. See README.md and SCHEMA.md inside the archive for methods, validation, and the full column dictionary. Derived from GNoME (Google DeepMind), which is licensed CC BY-NC 4.0; this derived dataset is released under the same NonCommercial terms.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Temperature-Dependent Lorenz Number in BiSbTe Thermoelectrics",
+      "authors": [
+        "Elkin I. Gutiérrez Velásquez",
+        "Héctor G. Parra",
+        "Jesús Manuel Gutiérrez Bernal"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Elkin I. Gutiérrez Velásquez",
+          "orcid": "0000-0002-4326-946X",
+          "affiliations": [
+            "Universidad Militar Nueva Granada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Héctor G. Parra",
+          "orcid": "0000-0002-6184-8000",
+          "affiliations": [
+            "Universidad Militar Nueva Granada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jesús Manuel Gutiérrez Bernal",
+          "orcid": "0000-0003-1975-1878",
+          "affiliations": [
+            "Universidad Nacional de Colombia",
+            "Fundación Universitaria Los Libertadores"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Composites Science",
+      "doi": "10.3390/jcs10080424",
+      "type": "article",
+      "url": "https://doi.org/10.3390/jcs10080424",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/jcs10080424",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Lorenz number is a critical parameter for separating the electronic and lattice contributions to thermal conductivity in thermoelectric materials through the Wiedemann–Franz law. However, the classical Sommerfeld approximation often fails to accurately represent the temperature-dependent transport behavior of BiSbTe-based thermoelectric materials. This study presents a systematic analysis of the temperature dependence of the Lorenz number using experimental data compiled from eleven independent studies. A unified database was established through literature review, data extraction, normalization, and statistical analysis. Linear, exponential, and quadratic regression models were evaluated to identify the mathematical representation that best describes the reported behavior, and a Processing Complexity Index (PCI) was introduced to examine potential relationships between fabrication-route complexity and the degree of nonlinearity. The compiled datasets consistently exhibited an overall increase in the Lorenz number with temperature, although noticeable variability in magnitude and curvature was observed among studies, reflecting differences in material composition, processing routes, and experimental conditions. While the quadratic model generally achieved the best statistical performance, linear and exponential models provided comparable fits for some datasets, indicating that no single functional form is universally optimal. The proposed correlations provide a statistically representative framework for improving thermal conductivity decomposition and thermoelectric characterization within the investigated temperature range (300–500 K). Nevertheless, the correlations are constrained by the scope of the literature-derived database and should not be interpreted as universally applicable predictive models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "High-throughput screening of Heusler alloys for thermoelectrics combining machine-learned densities of states and first-principles transport",
+      "authors": [
+        "Shivam Randive",
+        "Rahul Dixit",
+        "Himanshu Pandey"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Shivam Randive",
+          "orcid": "0009-0005-1403-4484",
+          "affiliations": [
+            "Sardar Vallabhbhai National Institute of Technology Surat"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rahul Dixit",
+          "orcid": null,
+          "affiliations": [
+            "Sardar Vallabhbhai National Institute of Technology Surat"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Himanshu Pandey",
+          "orcid": "0000-0002-7380-366X",
+          "affiliations": [
+            "Sardar Vallabhbhai National Institute of Technology Surat"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.18179",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2610.18179",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2610.18179",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of their population, and ten of the eleven established half-Heusler thermoelectrics calculated pass. Predicted spectra lose most band gaps, unnoticed by spectral-similarity metrics, yet still rank passing compounds near the top. The screen certifies 80 computational candidates, 61 without reported measurements. Computed or predicted, the DOS can choose what to calculate; only a band structure shows whether a gap exists.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Inverse design of functional materials: a case study in thermoelectrics",
+      "authors": [
+        "Xiangdong Wang",
+        "Jialin Ji",
+        "Yasong Wu",
+        "Xinru Bi",
+        "Hang Xiao",
+        "Lu Liu",
+        "Jinyang Xi",
+        "Lili Xi",
+        "Jiong Yang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xiangdong Wang",
+          "orcid": "0000-0002-1065-5241",
+          "affiliations": [
+            "Shanghai University",
+            "Jiaxing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jialin Ji",
+          "orcid": "0000-0001-9561-8409",
+          "affiliations": [
+            "Jiaxing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yasong Wu",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinru Bi",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hang Xiao",
+          "orcid": "0000-0002-0565-6696",
+          "affiliations": [
+            "Lingnan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lu Liu",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyang Xi",
+          "orcid": "0000-0003-4198-2840",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-026-02307-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-026-02307-3",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-026-02307-3_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Artificial intelligence is transforming materials discovery from trial-and-error experimentation towards data driven design. Here we present a thermoelectric inverse-design (TEID) framework that integrates the MatHub-3d database, a generative model, and hierarchical screening across low-, medium-, and high-accuracy calculations. Trained on MatHub-3d, a crystal diffusion variational autoencoder generated 6400 candidate structures as the starting point of the workflow. Deduplication and stoichiometric/elemental constraints reduced this set to 1461 compositions. At the low-accuracy stage, pretrained machine-learning models rapidly narrowed the search space: M3GNet identified 1053 dynamically stable structures, and MEGNet returned 1005 thermodynamically viable compounds. At the density functional theory level, automated workflows comprising structural relaxation, convex hull analysis, band gap filtering, and deformation potential approximation electrical transport screening yielded 64 promising high-performance candidates. Phonon and third-order interatomic-force-constant calculations ultimately identified four dynamically stable and previously unreported compounds, DyTlTeSe, Li 2 In 4 Cu 2 Te 8 , Na 3 CaP 3 , and Si 2 Cu 3 AgS 6 with lattice thermal conductivities of 0.67–1.72 W m −1 K −1 . When combined with electrical transport calculations that include both deformation potential and polar optical phonon scattering, Na 3 CaP 3 and Si 2 Cu 3 AgS 6 achieve exceptional n-type performance, with ZT values of 1.59 and 2.24 at 700 K. These results demonstrate TEID as a generalizable framework for data-driven discovery and validation of novel functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Large language model-driven database for thermoelectric materials",
+      "authors": [
+        "Suman Itani",
+        "Yibo Zhang",
+        "Jiadong Zang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Suman Itani",
+          "orcid": "0009-0000-3142-7881",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Zhang",
+          "orcid": "0000-0001-8150-1111",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiadong Zang",
+          "orcid": "0000-0002-5089-9806",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2025.113855",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2025.113855",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2501.00564",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Dimensional transport crossovers in thermoelectrics revealed by a simple transport model",
+      "authors": [
+        "Xiaoxuan Zhang",
+        "Thomas C. Chasapis",
+        "Kaiqing Lu",
+        "Maxwell Thomas Dylla",
+        "Meizhu Huang",
+        "Gerald Jeffrey Snyder",
+        "Yue Lin"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Xiaoxuan Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fujian Institute of Research on the Structure of Matter",
+            "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas C. Chasapis",
+          "orcid": "0000-0003-4218-7427",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaiqing Lu",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fujian Institute of Research on the Structure of Matter",
+            "University of Chinese Academy of Sciences",
+            "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxwell Thomas Dylla",
+          "orcid": "0000-0001-8461-5122",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Meizhu Huang",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fujian Institute of Research on the Structure of Matter",
+            "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yue Lin",
+          "orcid": "0000-0001-9196-9180",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fujian Institute of Research on the Structure of Matter",
+            "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-025-65985-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-025-65985-5",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-025-65985-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Quantum confinement gives low-dimensional materials distinctive electronic behaviour, but assessing their effective band structure dimensionality (D) is difficult. Conventional probes such as angle-resolved photoemission spectroscopy (ARPES) or scanning tunneling microscopy (STM) demand ultra clean surfaces and expensive facilities. We introduce a generalized transport model that functions as an internal dimensionality meter: by tracking how the Seebeck coefficient varies with carrier concentration or temperature, we deduce D from two scaling laws, $$S\\propto \\left(\\frac{D}{2}\\right){{\\mathrm{ln}}}T$$ in non-degenerate regimes (e.g. $$\\left|S\\right|\\ge 200{{{\\rm{\\mu }}}}{{{\\rm{V}}}}{{{{\\rm{K}}}}}^{-1}$$ ) and $$S\\propto {n}^{-2/D}$$ in degenerate regimes (e.g. $$\\left|S\\right|\\le 150\\,{{{\\rm{\\mu }}}}{{{\\rm{V}}}}{{{{\\rm{K}}}}}^{-1}$$ ). Applying this approach to SrTiO3, few-layer Bi2O2Se and Pb1-xSnxTe uncovers temperature-, doping- and alloy-induced crossovers between three-dimensional and lower-dimensional transport. The method offers a rapid, scattering independent framework to design quantum and thermoelectric properties. A simple transport model infers a material’s electronic dimensionality from standard transport measurements, revealing temperature-, doping- and alloying-driven shifts between low-dimensional and 3D transport in SrTiO3, Bi2O2Se and Pb1-xSnxTe.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "First-principles investigation of thermoelectric transport in the two-dimensional Sn4Sb8 monolayer",
+      "authors": [
+        "Raphael M. Tromer",
+        "Isaac M. Félix",
+        "Georges Daniel Amvame Nze",
+        "Fábio Lúcio Lópes de Mendonça",
+        "Marcelo Lopes Pereira"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Raphael M. Tromer",
+          "orcid": "0000-0002-6180-5641",
+          "affiliations": [
+            "Universidade de Brasília"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isaac M. Félix",
+          "orcid": "0000-0003-0062-2195",
+          "affiliations": [
+            "Universidade Federal de Campina Grande"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Georges Daniel Amvame Nze",
+          "orcid": "0000-0001-5271-5540",
+          "affiliations": [
+            "Universidade de Brasília"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fábio Lúcio Lópes de Mendonça",
+          "orcid": "0000-0001-7100-7304",
+          "affiliations": [
+            "Universidade de Brasília"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marcelo Lopes Pereira",
+          "orcid": "0000-0001-9058-510X",
+          "affiliations": [
+            "Universidade de Brasília"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-025-23953-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-025-23953-5",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-025-23953-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric materials play a crucial role in energy conversion technologies by enabling the direct transformation of heat into electricity, offering a promising route for sustainable energy harvesting. This study investigates the thermoelectric properties of the two-dimensional [Formula: see text][Formula: see text] monolayer using first-principles calculations within the density functional theory (DFT) framework, combined with Boltzmann transport theory. We systematically compute the electrical conductivity, Seebeck coefficient, and electronic contribution to thermal conductivity using the BoltzTraP code. At the same time, the relaxation time is determined via an Arrhenius approach, enabling the estimation of absolute transport coefficients. The lattice thermal conductivity is also obtained through a semi-empirical method that accounts for phonon contributions. The thermoelectric figure of merit (ZT) is evaluated across various chemical potentials and temperatures, revealing strong anisotropy between the x and y transport directions. At room temperature ([Formula: see text] K), the maximum ZT values reach 0.5 for electrons and 0.35 for holes. As the temperature increases, the thermoelectric efficiency improves, with the highest ZT reaching 0.81 for electrons along the x direction at [Formula: see text] K. At the same time, hole transport becomes nearly isotropic with [Formula: see text] in both directions. These results establish [Formula: see text][Formula: see text] as a strong candidate for thermoelectric applications, demonstrating significant efficiency from ambient to high temperatures. The material’s favorable transport properties and high ZT values make it an excellent prospect for energy conversion technologies. Future research should focus on experimental validation and potential optimizations through strain engineering and doping strategies to enhance performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "AI‐Driven Defect Engineering for Advanced Thermoelectric Materials",
+      "authors": [
+        "Chenguang Fu",
+        "Mouyang Cheng",
+        "Nguyen Tuan Hung",
+        "Eunbi Rha",
+        "Zhantao Chen",
+        "Ryotaro Okabe",
+        "Denisse Córdova Carrizales",
+        "Manasi Mandal",
+        "Yongqiang Q. Cheng",
+        "Mingda Li"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Chenguang Fu",
+          "orcid": "0000-0002-9545-3277",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mouyang Cheng",
+          "orcid": "0009-0001-7014-2464",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nguyen Tuan Hung",
+          "orcid": "0000-0003-4156-6230",
+          "affiliations": [
+            "Tohoku University",
+            "Frontier Research Institute for Interdisciplinary Sciences, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eunbi Rha",
+          "orcid": "0009-0007-4633-577X",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhantao Chen",
+          "orcid": "0000-0003-1954-3868",
+          "affiliations": [
+            "SLAC National Accelerator Laboratory",
+            "Linac Coherent Light Source",
+            "Stanford University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryotaro Okabe",
+          "orcid": "0000-0002-5095-5951",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Denisse Córdova Carrizales",
+          "orcid": null,
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manasi Mandal",
+          "orcid": "0000-0002-1541-9678",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongqiang Q. Cheng",
+          "orcid": "0000-0002-3263-4812",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingda Li",
+          "orcid": "0000-0002-7055-6368",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.202505642",
+      "type": "review",
+      "url": "https://doi.org/10.1002/adma.202505642",
+      "cited_by_count": 38,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1002/adma.202505642",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric materials offer a promising pathway to directly convert waste heat to electricity. However, achieving high performance remains challenging due to intrinsic trade-offs between electrical conductivity, the Seebeck coefficient, and thermal conductivity, which are further complicated by the presence of defects. This review explores how artificial intelligence (AI) and machine learning (ML) are transforming thermoelectric materials design. Advanced ML approaches including deep neural networks, graph-based models, and transformer architectures, integrated with high-throughput simulations and growing databases, effectively capture structure-property relationships in a complex multiscale defect space and overcome the \"curse of dimensionality\". This review discusses AI-enhanced defect engineering strategies such as composition optimization, entropy and dislocation engineering, and grain boundary design, along with emerging inverse design techniques for generating materials with targeted properties. Finally, it outlines future opportunities in novel physics mechanisms and sustainability, highlighting the critical role of AI in accelerating the discovery of thermoelectric materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Bayesian optimization of solution-processed thermoelectric polymers using a database of ab initio electronic structure data",
+      "authors": [
+        "Connor Ganley",
+        "Howard Edan Katz",
+        "Paulette Clancy"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Connor Ganley",
+          "orcid": "0000-0003-3851-3218",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Howard Edan Katz",
+          "orcid": "0000-0002-3190-2475",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paulette Clancy",
+          "orcid": "0000-0002-0468-6420",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Research Square",
+      "doi": "10.21203/rs.3.rs-5850990/v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.21203/rs.3.rs-5850990/v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.researchsquare.com/article/rs-5850990/latest.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Historically, organic materials design takes place wherein the components in the system are chosen based on expert knowledge of organic synthetic chemistry. Experimental synthesis and processing, often followed by computational validation, is a standard route to design materials such as polymers. The advent of data-driven machine learning approach can now shift that paradigm to one in which computational information \\textit{leads} experimental validation to select a much smaller, more promising and perhaps unexpected set of new materials. This work describes one such investigation to characterize novel, hypothetical, and promising polymer candidates by their calculated molecular-scale electronic and chemical parameters. Subsequently, we optimize them for a key chemical property using a chemically-informed Bayesian surrogate model representing those properties. As a test case, over 7300 combinations of novel, hypothetical semiconducting diketopyrrolopyrrole-based (DPP) polymers and commonly used solvents, generated by density functional theory, were screened based on their free energies of solvation, G$_{solv}$. From this synthetic data set, we trained a physics-informed Gaussian process model that linked molecular-scale electronic structure properties to G$_{solv}$, and then used Bayesian optimization via the PAL 2.0 software to identify key descriptors for predicting optimal polymer solvation. Implicit and explicit solvation models of these synthetic polymers, combined with Bayesian optimization, exhibited a minimum in $\\Delta$G$_{solv}$ as a function of the solvent dielectric. As a result, we predict an ''optimal'' solvent dielectric (around 10) for the entire DPP-based polymer class. The chemically-informed nature of our approach allowed us to identify a molecular electronic property that demonstrates near-linear additivity when constructing an aggregate synthetic polymer from functional group sub-units. This linearly related property was the isotropic quadrupole moment, which we found to be highly correlated to $\\Delta$G$_{solv}$. As validation of this chemical insight, we showed that this minimum $\\Delta$G$_{solv}$ was associated with the highest experimentally measured conductivity among a set of synthesized doped polymers. The importance of these observations is that PAL 2.0 has provided the chemical insight that can now allow us to quickly screen solvents for potential DPP-based polymers based on the polymer repeat unit's quadrupole moments and to identify preferred compatible solvents corresponding to a minimized $\\Delta$G$_{solv}$. This study also highlights the effectiveness of the PAL 2.0 algorithm to find the optimal solution using just 6\\% of the parameter space and in a very short execution time (on the order of minutes), a feat which cannot be duplicated experimentally.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Simulation and Modelling of Organic Thermoelectric Materials and Devices",
+      "authors": [
+        "Najmeh Zahabi"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Najmeh Zahabi",
+          "orcid": "0000-0003-2089-2731",
+          "affiliations": [
+            "Linköping University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Linköping studies in science and technology. Dissertations",
+      "doi": "10.3384/9789181180787",
+      "type": "book",
+      "url": "https://doi.org/10.3384/9789181180787",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://liu.diva-portal.org/smash/get/diva2:1956489/FULLTEXT01",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "As the need for autonomous and on-site renewable power sources grows, developing efficient energy solutions for distributed sensors, wearable electronics, cooling systems, and other low-power applications has become increasingly critical.Organic thermoelectric generators (TEGs), which convert low-grade heat into electrical energy through the Seebeck effect, offer a promising solution for powering these devices.Organic TEGs possess some advantages over inorganic TEGs in the context of sustainable energy harvesting because the active materials are often solution-processable at room temperature, which enables scalable patterning and printing techniques.Furthermore, these semiconductors are typically derived from Earth-abundant, non-toxic elements, making them environmentally friendly and sustainable.Among organic semiconductors, conducting polymers, particularly PEDOT (Poly(3,4ethylenedioxythiophene)), emerge as pivotal materials in organic TEGs due to their favorable electrical and thermal properties.Thus, a deep understanding of these polymers is essential for guiding material design and optimizing device performance.In this regard, computational methods represent an important tool in studies of organic thermoelectric materials and devices since they not only provide insights into the electronic and thermal properties of materials on atomic and molecular levels but also allow for the prediction of the device's performance without the need for extensive experimental work.This thesis employs multi-scale computational modeling to advance the understanding and optimization of organic thermoelectric materials and devices, including: (I) Finite element method modeling to analyze and optimize the micro-TEGs, (II) Ab initio molecular dynamics simulations to investigate charge transport mechanisms in PEDOT conducting polymer, and (III) Machine learning approaches to predict and study the electronic properties of PEDOT thin films.Part (I) presents that achieving power densities in the range of mW cm-2 at a temperature gradient of 10 K is feasible through geometrical optimization and utilizing advanced organic thermoelectric inks.Particularly, we simulated the PEDOT:PSS/BBL:PEI micro-TEGs and v improved device efficiency under varying thermal gradients using COMSOL software.In part (II), we developed a computational technique based on ab initio molecular dynamics to trace the temporal motion of charge carriers in a single PEDOT chain and in coupled chains with varying degrees of interaction.Subsequently, we used ab initio molecular dynamics to demonstrate that charge transport along the chains is band-like, while transport across chains follows a hopping-like mechanism.The calculated polaron mobility along the chains reached 4 cm2V-1s-1, providing a theoretical upper limit for thiophene-based conducting polymers.Also, we quantified the hopping rate between chains, consistent with Marcus theory, by analyzing polaron jumps.Part (III) integrates computational modeling with machine learning to explore changes in morphological and transport properties of PEDOT:Tos prepared using different solvents.We employed convolutional neural networks to achieve high accuracy (r2>0.99) in predicting electronic coupling values and significantly accelerated the analysis compared to density functional theory calculations.This approach enabled detailed investigations into how different solvents affect the electronic coupling of PEDOT dimers.We believe that our findings on organic thermoelectric material and devices provide a comprehensive framework for improving the performance and scalability of organic TEGs and open new avenues for further research.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Autogenerating a Domain-Specific Question-Answering Data Set from a Thermoelectric Materials Database to Enable High-Performing BERT Models",
+      "authors": [
+        "Odysseas Sierepeklis",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Odysseas Sierepeklis",
+          "orcid": "0000-0002-5102-1018",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "Research Complex at Harwell"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.5c00840",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jcim.5c00840",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.5c00840?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide We present a method for autogenerating a large domain-specific question-answering (QA) dataset from a thermoelectric materials database. We show that a small language model, BERT, once fine-tuned on this automatically generated dataset of 99,757 QA pairs about thermoelectric materials, affords better performance in the field of thermoelectric materials compared to a BERT model fine-tuned on the generic English-language QA data set, SQuAD-v2. We further show that mixing the two data sets (ours and SQuAD-v2), which have significantly different syntactic and semantic scopes, allows the BERT model to achieve even better performance. The best-performing BERT model fine-tuned on the mixed data set outperforms the models fine-tuned on the other two data sets by scoring an exact match of 67.93% and an F 1 score of 72.29% when evaluated on our test data set. This has important implications as it demonstrates the ability to realize high-performing small language models, with modest computational resources, empowered by domain-specific materials data sets which can be generated according to our method.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "HH130: a standardized database of machine learning interatomic potentials, datasets, and its applications in the thermal transport of half-Heusler thermoelectrics",
+      "authors": [
+        "Yuyan Yang",
+        "Yifei Lin",
+        "Shengnan Dai",
+        "Yifan Zhu",
+        "Jinyang Xi",
+        "Lili Xi",
+        "Xiaokun Gu",
+        "David Joseph Singh",
+        "Wenqing Zhang",
+        "Jiong Yang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yuyan Yang",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifei Lin",
+          "orcid": "0000-0002-3184-9213",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shengnan Dai",
+          "orcid": "0000-0002-1077-3934",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifan Zhu",
+          "orcid": "0000-0002-6351-8582",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Southern University of Science and Technology",
+            "Shanghai Institute of Ceramics",
+            "University of Chinese Academy of Sciences",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyang Xi",
+          "orcid": "0000-0003-4198-2840",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaokun Gu",
+          "orcid": "0000-0003-3803-3951",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Joseph Singh",
+          "orcid": "0000-0001-7750-1485",
+          "affiliations": [
+            "University of Missouri"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenqing Zhang",
+          "orcid": "0000-0002-2551-6375",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Southern University of Science and Technology",
+            "Shanghai Institute of Ceramics",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure",
+            "Guangdong Provincial Key Laboratory Of Computational Science And Material Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d4dd00240g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4dd00240g",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/dd/d4dd00240g",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "The HH130, a standardized machine-learning interatomic potential database for 130 half-Heusler compounds. The lattice thermal conductivities considering both three and four phonon interactions for the half-Heuslers have been studied by using HH130.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Molecular perspective and engineering of thermal transport and thermoelectricity in polymers",
+      "authors": [
+        "Sai Chandra Yelishala",
+        "Connor Murphy",
+        "Longji Cui"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Sai Chandra Yelishala",
+          "orcid": "0000-0001-9841-7135",
+          "affiliations": [
+            "University of Colorado Boulder"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Connor Murphy",
+          "orcid": null,
+          "affiliations": [
+            "University of Colorado Boulder"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Longji Cui",
+          "orcid": "0000-0003-0469-3230",
+          "affiliations": [
+            "University of Colorado Boulder"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/d3ta08071d",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3ta08071d",
+      "cited_by_count": 29,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/ta/d3ta08071d",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This review highlights molecular and nanoscale engineering of electrically insulating and semiconducting polymers for improved heat transport and thermoelectricity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Thermoelectric transport in molecular crystals driven by gradients of thermal electronic disorder",
+      "authors": [
+        "Jan Elsner",
+        "Yucheng Xu",
+        "Elliot D. Goldberg",
+        "Filip Ivanovic",
+        "Aaron Dines",
+        "Samuele Giannini",
+        "Henning Sirringhaus",
+        "Jochen Blumberger"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Jan Elsner",
+          "orcid": "0000-0002-3685-3940",
+          "affiliations": [
+            "Thomas Young Centre",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yucheng Xu",
+          "orcid": "0009-0004-9552-4305",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elliot D. Goldberg",
+          "orcid": "0009-0007-3640-8699",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Filip Ivanovic",
+          "orcid": null,
+          "affiliations": [
+            "Thomas Young Centre",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aaron Dines",
+          "orcid": "0009-0005-2651-5314",
+          "affiliations": [
+            "Thomas Young Centre",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuele Giannini",
+          "orcid": "0000-0002-1094-3921",
+          "affiliations": [
+            "Thomas Young Centre",
+            "Institute for the Chemistry of OrganoMetallic Compounds",
+            "National Research Council",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Henning Sirringhaus",
+          "orcid": "0000-0001-9827-6061",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jochen Blumberger",
+          "orcid": "0000-0002-1546-6765",
+          "affiliations": [
+            "Thomas Young Centre",
+            "University College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.adr1758",
+      "type": "article",
+      "url": "https://doi.org/10.1126/sciadv.adr1758",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1126/sciadv.adr1758",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric materials convert a temperature gradient into a voltage. This phenomenon is relatively well understood for inorganic materials but much less so for organic semiconductors (OSs). These materials present a challenge because the strong thermal fluctuations of electronic coupling between the molecules result in partially delocalized charge carriers that cannot be treated with traditional theories for thermoelectricity. Here, we develop a quantum dynamical simulation approach revealing in atomistic detail how the charge carrier wave function moves along a temperature gradient in an organic molecular crystal. We find that the wave function propagates from hot to cold in agreement with the experiment, and we obtain a Seebeck coefficient in good agreement with experimental measurements that are also reported in this work. Detailed analysis reveals that gradients in thermal electronic disorder play an important role in determining the magnitude of the Seebeck coefficient, opening unexplored avenues for the design of OSs with improved Seebeck coefficients.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Wenzhou TE: A First-Principle-Calculated Thermoelectric Materials Database",
+      "authors": [
+        "Ying Fang",
+        "Hezhu Shao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Ying Fang",
+          "orcid": "0009-0004-3125-5804",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hezhu Shao",
+          "orcid": "0000-0002-8945-6973",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma17102200",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma17102200",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/ma17102200",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Since the implementation of the Materials Genome Project by the Obama administration in the United States, the development of various computational materials' databases has fundamentally expanded the choice of industries such as materials and energy. In the field of thermoelectric materials, the thermoelectric figure of merit (ZT) quantifies the performance of the material. From the viewpoint of calculations for vast materials, the ZT values are not easily obtained due to their computational complexity. Here, we show how to build a database of thermoelectric materials based on first-principle calculations for the electronic and heat transport of materials. Firstly, the initial structures are classified according to the values of bandgap and other basic properties using the clustering algorithm K-means in machine learning, and high-throughput first principle calculations are carried out for narrow-bandgap semiconductors which exhibit a potential thermoelectric application. The present framework of calculations mainly includes a deformation potential module, an electrical transport performance module, a mechanical and a thermodynamic properties module. We have also set up a search webpage for the calculated database of thermoelectric materials, providing search facilities and the ability to view the related physical properties of materials. Our work may inspire the construction of more computational databases of first-principle thermoelectric materials and accelerate research progress in the field of thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Wenzhou TE: a first-principles calculated thermoelectric materials database",
+      "authors": [
+        "Ying Fang",
+        "Hezhu Shao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Ying Fang",
+          "orcid": "0009-0004-3125-5804",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hezhu Shao",
+          "orcid": "0000-0002-8945-6973",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2404.02571",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2404.02571",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2404.02571",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Since the implementation of the Materials Genome Project by the Obama administration in the United States, the development of various computational materials databases has fundamentally expanded the choices of industries such as materials and energy. In the field of thermoelectric materials, the thermoelectric figure of merit ZT quantifies the performance of the material. From the viewpoint of calculations for vast materials, the ZT values are not easily obtained due to their computational complexity. Here, we show how to build a database of thermoelectric materials based on first-principles calculations for the electronic and heat transport of materials. Firstly, the initial structures are classified according to the values of bandgap and other basic properties using the clustering algorithm K-means in machine learning, and high-throughput first principles calculations are carried out for narrow-bandgap semiconductors which exhibiting potential thermoelectric application. The present framework of calculations mainly includes deformation potential module, electrical transport performance module, mechanical and thermodynamic properties module. We have also set up a search webpage for the calculated database of thermoelectric materials, providing searching and viewing the related physical properties of materials. Our work may inspire the construction of more computational databases of first-principle thermoelectric materials and accelerate research progress in the field of thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "On The Thermal Conductivity of Conjugated Polymers for Thermoelectrics",
+      "authors": [
+        "Xabier Rodríguez‐Martínez",
+        "Fernán Saiz",
+        "Bernhard Dörling",
+        "Sara Marina",
+        "Jiali Guo",
+        "Kai Xu",
+        "Hu Chen",
+        "Jaime Martín",
+        "Iain A. McCulloch",
+        "Riccardo Rurali",
+        "Juan Sebastian Reparaz",
+        "Mariano Campoy‐Quiles"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Xabier Rodríguez‐Martínez",
+          "orcid": "0000-0002-6715-4392",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fernán Saiz",
+          "orcid": "0000-0001-8565-8044",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bernhard Dörling",
+          "orcid": "0000-0003-3171-0526",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sara Marina",
+          "orcid": "0000-0003-4603-5973",
+          "affiliations": [
+            "University of the Basque Country",
+            "Polymat"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiali Guo",
+          "orcid": "0000-0002-6212-2383",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kai Xu",
+          "orcid": "0000-0001-6999-1904",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hu Chen",
+          "orcid": "0000-0001-5597-2964",
+          "affiliations": [
+            "King Abdullah University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaime Martín",
+          "orcid": "0000-0002-9669-7273",
+          "affiliations": [
+            "Universidade da Coruña",
+            "Ikerbasque",
+            "University of the Basque Country",
+            "Polymat"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Iain A. McCulloch",
+          "orcid": "0000-0002-6340-7217",
+          "affiliations": [
+            "Princeton University",
+            "University of Oxford",
+            "King Abdullah University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Riccardo Rurali",
+          "orcid": "0000-0002-4086-4191",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juan Sebastian Reparaz",
+          "orcid": "0000-0001-9679-0075",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mariano Campoy‐Quiles",
+          "orcid": "0000-0002-8911-640X",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.202401705",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.202401705",
+      "cited_by_count": 37,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202401705",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The thermal conductivity (κ) governs how heat propagates in a material, and thus is a key parameter that constrains the lifetime of optoelectronic devices and the performance of thermoelectrics (TEs). In organic electronics, understanding what determines κ has been elusive and experimentally challenging. Here, by measuring κ in 17 π‐conjugated materials over different spatial directions, it is statistically shown how microstructure unlocks two markedly different thermal transport regimes. κ in long‐range ordered polymers follows standard thermal transport theories: improved ordering implies higher κ and increased anisotropy. κ increases with stiffer backbones, higher molecular weights and heavier repeat units. Therein, charge and thermal transport go hand‐in‐hand and can be decoupled solely via the film texture, as supported by molecular dynamics simulations. In largely amorphous polymers, however, κ correlates negatively with the persistence length and the mass of the repeat unit, and thus an anomalous, albeit useful, behavior is found. Importantly, it is shown that for quasi‐amorphous co‐polymers (e.g., IDT‐BT) κ decreases with increasing charge mobility, yielding a 10‐fold enhancement of the TE figure‐of‐merit ZT compared to semi‐crystalline counterparts (under comparable electrical conductivities). Finally, specific material design rules for high and low κ in organic semiconductors are provided.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Machine learning based feature engineering for thermoelectric materials by design",
+      "authors": [
+        "U. S. Vaitesswar",
+        "Daniil Bash",
+        "Tan Huang",
+        "Jose Recatala‐Gomez",
+        "Tianqi Deng",
+        "Shuo‐Wang Yang",
+        "Xiaonan Wang",
+        "Kedar Hippalgaonkar"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "U. S. Vaitesswar",
+          "orcid": "0000-0002-9479-1549",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniil Bash",
+          "orcid": "0000-0001-8979-7228",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "National University of Singapore",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tan Huang",
+          "orcid": null,
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jose Recatala‐Gomez",
+          "orcid": "0000-0003-3560-2768",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tianqi Deng",
+          "orcid": "0000-0002-9826-7138",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Institute of High Performance Computing",
+            "State Key Laboratory of Silicon Materials",
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuo‐Wang Yang",
+          "orcid": "0000-0001-9217-4988",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Institute of High Performance Computing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaonan Wang",
+          "orcid": "0000-0001-9775-2417",
+          "affiliations": [
+            "National University of Singapore",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kedar Hippalgaonkar",
+          "orcid": "0000-0002-1270-9047",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d3dd00131h",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3dd00131h",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/dd/d3dd00131h",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "We train several machine learning models on a dataset comprised by Materials Project and calculated thermoelectric power factor. We show that a random forest model outperforms more complex approaches for the dataset and allows for interpretability.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Carrier-phonon decoupling in perovskite thermoelectrics via entropy engineering",
+      "authors": [
+        "Yunpeng Zheng",
+        "Qinghua Zhang",
+        "Caijuan Shi",
+        "Zhifang Zhou",
+        "Yang Lu",
+        "Jian Guo Han",
+        "Hetian Chen",
+        "Yunpeng Ma",
+        "Yujun Zhang",
+        "Changpeng Lin",
+        "Wei Xu",
+        "Weigang Ma",
+        "Qian Li",
+        "Yueyang Yang",
+        "Bin Wei",
+        "Bingbing Yang",
+        "Mingchu Zou",
+        "Wenyu Zhang",
+        "Chang Liu",
+        "Lvye Dou",
+        "Dongliang Yang",
+        "Jinle Lan",
+        "Di Yi",
+        "Xing Zhang",
+        "Lin Gu",
+        "Ce‐Wen Nan",
+        "Yuanhua Lin"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yunpeng Zheng",
+          "orcid": "0000-0002-5178-2212",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Fuzhou University",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qinghua Zhang",
+          "orcid": "0000-0001-9086-7000",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Caijuan Shi",
+          "orcid": "0000-0003-2080-6098",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of High Energy Physics",
+            "Beijing Synchrotron Radiation Facility"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhifang Zhou",
+          "orcid": "0000-0002-4359-1731",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Lu",
+          "orcid": "0000-0002-0946-7155",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jian Guo Han",
+          "orcid": "0000-0002-2335-830X",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hetian Chen",
+          "orcid": "0000-0003-4505-403X",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yunpeng Ma",
+          "orcid": null,
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yujun Zhang",
+          "orcid": "0000-0003-4892-1100",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of High Energy Physics",
+            "Beijing Synchrotron Radiation Facility"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changpeng Lin",
+          "orcid": "0000-0002-6405-2390",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Xu",
+          "orcid": "0000-0003-4750-4428",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Rome International Center for Materials Science",
+            "Institute of High Energy Physics",
+            "Beijing Synchrotron Radiation Facility"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weigang Ma",
+          "orcid": "0000-0003-0178-3994",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Li",
+          "orcid": "0000-0001-7922-598X",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yueyang Yang",
+          "orcid": "0000-0001-5118-4602",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bin Wei",
+          "orcid": "0000-0003-0125-1760",
+          "affiliations": [
+            "Henan Polytechnic University",
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bingbing Yang",
+          "orcid": "0000-0003-0394-6224",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Solid State Physics",
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingchu Zou",
+          "orcid": null,
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenyu Zhang",
+          "orcid": "0000-0002-1924-6591",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chang Liu",
+          "orcid": "0000-0001-5271-0723",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lvye Dou",
+          "orcid": "0000-0002-3766-6864",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dongliang Yang",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of High Energy Physics",
+            "Beijing Synchrotron Radiation Facility"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinle Lan",
+          "orcid": "0000-0001-6844-0879",
+          "affiliations": [
+            "Beijing University of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Di Yi",
+          "orcid": "0000-0002-7209-1947",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing Zhang",
+          "orcid": "0000-0002-7545-0773",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lin Gu",
+          "orcid": "0000-0002-7504-031X",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ce‐Wen Nan",
+          "orcid": "0000-0002-3261-4053",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuanhua Lin",
+          "orcid": "0000-0002-5652-6701",
+          "affiliations": [
+            "State Key Laboratory of New Ceramics and Fine Processing",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-52063-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-024-52063-5",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-024-52063-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermoelectrics converting heat and electricity directly attract broad attentions. To enhance the thermoelectric figure of merit, zT , one of the key points is to decouple the carrier-phonon transport. Here, we propose an entropy engineering strategy to realize the carrier-phonon decoupling in the typical SrTiO 3 -based perovskite thermoelectrics. By high-entropy design, the lattice thermal conductivity could be reduced nearly to the amorphous limit, 1.25 W m −1 K −1 . Simultaneously, entropy engineering can tune the Ti displacement, improving the weighted mobility to 65 cm 2 V −1 s −1 . Such carrier-phonon decoupling behaviors enable the greatly enhanced μ W / κ L of ~5.2 × 10 3 cm 3 K J −1 V −1 . The measured maximum zT of 0.24 at 488 K and the estimated zT of ~0.8 at 1173 K in (Sr 0.2 Ba 0.2 Ca 0.2 Pb 0.2 La 0.2 )TiO 3 film are among the best of n -type thermoelectric oxides. These results reveal that the entropy engineering may be a promising strategy to decouple the carrier-phonon transport and achieve higher zT in thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Predicting High‐Performance Thermoelectric Materials With StarryData2",
+      "authors": [
+        "Nuttawat Parse",
+        "Jose Recatala‐Gomez",
+        "Ruiming Zhu",
+        "Andre K. Y. Low",
+        "Kedar Hippalgaonkar",
+        "Tomoya MATO",
+        "Yukari Katsura",
+        "Supree Pinitsoontorn"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Nuttawat Parse",
+          "orcid": "0009-0004-3936-380X",
+          "affiliations": [
+            "Khon Kaen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jose Recatala‐Gomez",
+          "orcid": "0000-0003-3560-2768",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruiming Zhu",
+          "orcid": "0009-0000-2270-2669",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andre K. Y. Low",
+          "orcid": "0000-0002-0985-5123",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kedar Hippalgaonkar",
+          "orcid": "0000-0002-1270-9047",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomoya MATO",
+          "orcid": "0000-0002-0918-6468",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yukari Katsura",
+          "orcid": "0000-0002-8905-2995",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Supree Pinitsoontorn",
+          "orcid": "0000-0002-4921-1541",
+          "affiliations": [
+            "Khon Kaen University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Theory and Simulations",
+      "doi": "10.1002/adts.202400308",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adts.202400308",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adts.202400308",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract In recent years, machine learning (ML) has emerged as a potential tool in the exploration of thermoelectric (TE) materials. This study exploits the StarryData2 public database to construct an ML model for predicting the figure‐of‐merit ZT of TE materials. The original dataset from StarryData2 (372,480 datapoints) underwent systematic cleaning, resulting in a refined dataset of 18,126 instances with 2,761 unique compounds. The cleaned data is employed to train an XGBoost regressor model, utilizing chemical formulas of TE compounds as features to predict ZT at given temperatures. The XGBoost regressor exhibited high prediction accuracy, achieving the coefficient of determination (R2) scores of 0.815 and mean absolute error (MAE) of 0.103 for the test set, further evaluated through cross‐validation across 5 folds. The learning curve analysis demonstrated improved model performance with increased training data. Furthermore, the contributions of different chemical descriptors to ZT are analyzed based on feature importance analysis. Beyond conventional TE families in the training set, the trained model is applied to predict ZT for promising unexplored TE materials and estimate optimal doping concentrations. This comprehensive study shows the impact of ML on TE material research, offering valuable insights and accelerating the discovery of materials with enhanced TE properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Grain Boundary Engineering Enhances the Thermoelectric Properties of Y2Te3",
+      "authors": [
+        "Jamil Ur Rahman",
+        "Shuping Guo",
+        "Nicolás Pérez",
+        "Kyuseon Jang",
+        "Chanwon Jung",
+        "Pingjun Ying",
+        "Christina Scheu",
+        "Duncan Zavanelli",
+        "Siyuan Zhang",
+        "A. V. Sotnikov",
+        "Gerald Jeffrey Snyder",
+        "Jeroen van den Brink",
+        "Kornelius Nielsch",
+        "Ran He"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Jamil Ur Rahman",
+          "orcid": "0000-0003-0185-043X",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuping Guo",
+          "orcid": "0000-0003-4536-6893",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicolás Pérez",
+          "orcid": "0000-0002-8312-1662",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kyuseon Jang",
+          "orcid": "0000-0003-1826-7443",
+          "affiliations": [
+            "Korea Advanced Institute of Science and Technology",
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chanwon Jung",
+          "orcid": "0000-0002-9782-0261",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Pukyong National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pingjun Ying",
+          "orcid": "0009-0008-4034-2474",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christina Scheu",
+          "orcid": "0000-0001-7916-1533",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Duncan Zavanelli",
+          "orcid": "0000-0003-2079-1412",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siyuan Zhang",
+          "orcid": "0000-0002-5475-3871",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. V. Sotnikov",
+          "orcid": "0000-0002-9773-8129",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeroen van den Brink",
+          "orcid": "0000-0001-6594-9610",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kornelius Nielsch",
+          "orcid": "0000-0003-2271-7726",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research",
+            "Technische Universität Dresden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ran He",
+          "orcid": "0000-0002-0295-6837",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.202404243",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.202404243",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202404243",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The performance of thermoelectric materials is typically assessed using the dimensionless figure of merit, zT. Increasing zT is challenging due to the intricate relationships between electrical and thermal transport properties. This study focuses on Y2Te3‐based thermoelectric materials, which are predicted to be promising for high‐temperature applications due to their inherently low lattice thermal conductivity. A series of Y2+xTe3 compositions with excess Y is synthesized to explore the effects on electronic and structural characteristics. Density functional theory calculations suggest that additional Y atoms increase charge carriers, thereby enhancing electrical conductivity and boosting thermoelectric performance. X‐ray diffraction analysis reveals that the presence of excess Y reduces lattice volume and alters bonding structures. Furthermore, the addition of Bi significantly enhances the power factor by promoting the segregation of elemental Bi particles and the formation of Y‐Bi‐rich grain boundaries, which improve weighted mobility. This microstructural optimization leads to a fourfold increase in the Seebeck coefficient, resulting in a peak zT of 1.23 at 973 K and a predicted maximum conversion efficiency of 10.3% under a temperature difference of 673 K. These findings highlight the potential of Y2Te3 for high‐temperature thermoelectric applications and demonstrate the effectiveness of grain boundary engineering in enhancing thermoelectric performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Thermoelectric Prediction from Material Descriptors Using Machine Learning Technique",
+      "authors": [
+        "Pakawat Sungphueng",
+        "Kittiphong Amnuyswat"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Pakawat Sungphueng",
+          "orcid": null,
+          "affiliations": [
+            "King Mongkut's Institute of Technology Ladkrabang"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kittiphong Amnuyswat",
+          "orcid": null,
+          "affiliations": [
+            "King Mongkut's Institute of Technology Ladkrabang"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Current Applied Science and Technology",
+      "doi": "10.55003/cast.2023.06.23.014",
+      "type": "article",
+      "url": "https://doi.org/10.55003/cast.2023.06.23.014",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://li01.tci-thaijo.org/index.php/cast/article/download/255980/176258",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this work, we employed a machine learning framework to predict the thermoelectric power factors of materials based on their composition and structure. To generate a broad range of materials for analysis, we sourced an existing dataset from the Materials Project database. The electronic transport properties, which serve as the output variables, were obtained from the same database via a Boltzmann transport theory calculation beyond ab-initio method. These properties were used to generate input data, or material descriptors, which rely solely on atomic information and crystal structure without recourse to density functional theory calculations. The descriptors were transformed into numerical features using the open-source software Matminer. Non-linear machine learning regression models were trained and tested on the transformed datasets, and their performance was evaluated. The optimized random forest model produced the most accurate predictions, with a yield of 88%. The ultimate goals of this research were to develop material selection strategies that bypass the need for self-consumption in density functional theory calculations, and to demonstrate the potential of machine learning models to describe the thermoelectric properties of existing materials datasets.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "TEXplorer.org: Thermoelectric material properties data platform for experimental and first-principles calculation results",
+      "authors": [
+        "Yea‐Lee Lee",
+        "Hyungseok Lee",
+        "Seunghun Jang",
+        "Jungho Shin",
+        "Taeshik Kim",
+        "Sejin Byun",
+        "In Jae Chung",
+        "Jino Im",
+        "Hyunju Chang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yea‐Lee Lee",
+          "orcid": "0000-0001-8076-5211",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyungseok Lee",
+          "orcid": "0000-0001-6432-5670",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jungho Shin",
+          "orcid": "0009-0000-3472-008X",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taeshik Kim",
+          "orcid": "0000-0003-3382-9459",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sejin Byun",
+          "orcid": "0000-0003-3959-2528",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "In Jae Chung",
+          "orcid": "0000-0001-6274-3369",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jino Im",
+          "orcid": "0000-0001-6594-8773",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "APL Materials",
+      "doi": "10.1063/5.0137642",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0137642",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/5.0137642",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Scientific databases offer remarkable potential for solving complex questions in materials science, such as global optimization of materials and designing unknown materials for novel properties. ThermoElectric materials eXplorer (TEXplorer) is a web-based platform designed to collect and share all types of thermoelectric materials data, including synthesis information, materials characterization, transport measurements, and electronic structures obtained from experiments and computations. TEXplorer also provides valuable tools, such as an easy upload and download system, retrieval, automatic post-processing calculations, visualization of datasets, and toolkits for predicting thermoelectric properties through machine learning models. Using the platform, we collected and managed the thermoelectric dataset of SnSe and Bi2Te3 with various doping/alloying elements in this study in order to investigate the complex relationship between doping/alloying elements and the thermoelectric properties of host materials. The web-based interactive data platform enables efficient management and utilization of experimental and computational datasets, supporting the acceleration of data-driven materials research and autonomous material synthesis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Predicting thermoelectric transport properties from composition with attention-based deep learning",
+      "authors": [
+        "Luis M. Antunes",
+        "Keith T. Butler",
+        "Ricardo Grau‐Crespo"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Luis M. Antunes",
+          "orcid": "0000-0002-4867-5635",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith T. Butler",
+          "orcid": "0000-0001-5432-5597",
+          "affiliations": [
+            "Queen Mary University of London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ricardo Grau‐Crespo",
+          "orcid": "0000-0001-8845-1719",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Machine Learning Science and Technology",
+      "doi": "10.1088/2632-2153/acc4a9",
+      "type": "article",
+      "url": "https://doi.org/10.1088/2632-2153/acc4a9",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1088/2632-2153/acc4a9",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermoelectric materials can be used to construct devices which recycle waste heat into electricity. However, the best known thermoelectrics are based on rare, expensive or even toxic elements, which limits their widespread adoption. To enable deployment on global scales, new classes of effective thermoelectrics are thus required. Ab initio models of transport properties can help in the design of new thermoelectrics, but they are still too computationally expensive to be solely relied upon for high-throughput screening in the vast chemical space of all possible candidates. Here, we use models constructed with modern machine learning techniques to scan very large areas of inorganic materials space for novel thermoelectrics, using composition as an input. We employ an attention-based deep learning model, trained on data derived from ab initio calculations, to predict a material’s Seebeck coefficient, electrical conductivity, and power factor over a range of temperatures and n- or p-type doping levels, with surprisingly good performance given the simplicity of the input, and with significantly lower computational cost. The results of applying the model to a space of known and hypothetical binary and ternary selenides reveal several materials that may represent promising thermoelectrics. Our study establishes a protocol for composition-based prediction of thermoelectric behaviour that can be easily enhanced as more accurate theoretical or experimental databases become available.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Best thermoelectric efficiency of ever-explored materials",
+      "authors": [
+        "Byungki Ryu",
+        "Jaywan Chung",
+        "Masaya Kumagai",
+        "Tomoya MATO",
+        "Yuki Ando",
+        "Sakiko Gunji",
+        "Atsumi Tanaka",
+        "Dewi Yana",
+        "Masayuki Fujimoto",
+        "Yoji Imai",
+        "Yukari Katsura",
+        "Su-Dong Park"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Byungki Ryu",
+          "orcid": "0000-0002-0867-6457",
+          "affiliations": [
+            "Korea Electrotechnology Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaywan Chung",
+          "orcid": "0000-0001-5281-6771",
+          "affiliations": [
+            "Korea Electrotechnology Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masaya Kumagai",
+          "orcid": "0000-0003-4766-8625",
+          "affiliations": [
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomoya MATO",
+          "orcid": "0000-0002-0918-6468",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuki Ando",
+          "orcid": "0000-0002-9386-2990",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sakiko Gunji",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atsumi Tanaka",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dewi Yana",
+          "orcid": "0000-0002-1074-915X",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masayuki Fujimoto",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoji Imai",
+          "orcid": "0009-0008-3477-2515",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yukari Katsura",
+          "orcid": "0000-0002-8905-2995",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Su-Dong Park",
+          "orcid": null,
+          "affiliations": [
+            "Korea Electrotechnology Research Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "iScience",
+      "doi": "10.1016/j.isci.2023.106494",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.isci.2023.106494",
+      "cited_by_count": 56,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://www.cell.com/article/S2589004223005710/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A thermoelectric device is a heat engine that directly converts heat into electricity. Many materials with a high figure of merit Z T have been discovered in the anticipation of a high thermoelectric efficiency. However, there has been a lack of investigations on efficiency-based material evaluation, and little is known about the achievable limit of thermoelectric efficiency. Here, we report the highest thermoelectric efficiency using 12,645 published materials. The 97,841,810 thermoelectric efficiencies are calculated using 808,610 device configurations under various heat-source temperatures ( T h ) when the cold-side temperature is 300 K, solving one-dimensional thermoelectric integral equations with temperature-dependent thermoelectric properties. For infinite-cascade devices, a thermoelectric efficiency larger than 33% (≈⅓) is achievable when T h exceeds 1400 K. For single-stage devices, the best efficiency of 17.1% (≈1/6) is possible when T h is 860 K. Leg segmentation can overcome this limit, delivering a very high efficiency of 24% (≈1/4) when T h is 1100 K.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Artificial Intelligence Guided Thermoelectric Materials Design and Discovery",
+      "authors": [
+        "Guangshuai Han",
+        "Yixuan Sun",
+        "Yining Feng",
+        "Guang Lin",
+        "Na Lü"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Guangshuai Han",
+          "orcid": "0000-0001-9297-5072",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yixuan Sun",
+          "orcid": "0000-0003-1109-3380",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yining Feng",
+          "orcid": "0000-0001-5683-0079",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guang Lin",
+          "orcid": "0000-0002-0976-1987",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Na Lü",
+          "orcid": "0000-0002-6367-1341",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Electronic Materials",
+      "doi": "10.1002/aelm.202300042",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aelm.202300042",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aelm.202300042",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Materials discovery from the infinite earth repository is a major bottleneck for revolutionary technological progress. This labor‐intensive and time‐consuming process hinders the discovery of new materials. Although machine learning techniques show an excellent capability for speeding up materials discovery, obtaining effective material feature representations is still challenging, and making a precise prediction of the material properties is still tricky. This work focuses on developing an automatic material design and discovery framework enabled by data‐driven artificial intelligence (AI) models. Multiple types of material descriptors are first developed to promote the representation and encoding of the materials’ uniqueness, resulting in improved performance for different molecular properties predictions. The material's thermoelectric (TE) properties prediction is then utilized as a baseline to demonstrate the investigation logistic. The proposed framework achieves more than 90% accuracy for predicting materials' TE properties. Furthermore, the developed AI models identify 6 promising p‐type TE materials and 8 promising n‐type TE materials. The prediction results are evaluated by density functional theory calculations and agree with the material's TE property provided by experimental results. The proposed framework is expected to accelerate the design and discovery of the new functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "A thermoelectric materials database auto-generated from the scientific literature using ChemDataExtractor",
+      "authors": [
+        "Odysseas Sierepeklis",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Odysseas Sierepeklis",
+          "orcid": "0000-0002-5102-1018",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01752-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01752-1",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01752-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "An auto-generated thermoelectric-materials database is presented, containing 22,805 data records, automatically generated from the scientific literature, spanning 10,641 unique extracted chemical names. Each record contains a chemical entity and one of the seminal thermoelectric properties: thermoelectric figure of merit, ZT; thermal conductivity, κ; Seebeck coefficient, S; electrical conductivity, σ; power factor, PF; each linked to their corresponding recorded temperature, T. The database was auto-generated using the automatic sentence-parsing capabilities of the chemistry-aware, natural language processing toolkit, ChemDataExtractor 2.0, adapted for application in the thermoelectric-materials domain, following a rule-based sentence-simplification step. Data were mined from the text of 60,843 scientific papers that were sourced from three scientific publishers: Elsevier, the Royal Society of Chemistry, and Springer. To the best of our knowledge, this is the first automatically-generated database of thermoelectric materials and their properties from existing literature. The database was evaluated to have a precision of 82.25% and has been made publicly available to facilitate the application of data science in the thermoelectric-materials domain, for analysis, design, and prediction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "First-Principles Calculations of Thermoelectric Transport Properties of Quaternary and Ternary Bulk Chalcogenide Crystals",
+      "authors": [
+        "Sahib Hasan",
+        "Saro San",
+        "Khagendra Baral",
+        "Neng Li",
+        "Paul Rulis",
+        "W. Y. Ching"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Sahib Hasan",
+          "orcid": "0000-0003-1930-9270",
+          "affiliations": [
+            "Al-Muthanna University",
+            "University of Missouri–Kansas City"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saro San",
+          "orcid": "0000-0003-0087-3031",
+          "affiliations": [
+            "University of Missouri–Kansas City"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khagendra Baral",
+          "orcid": "0000-0001-6949-1045",
+          "affiliations": [
+            "University of Missouri–Kansas City"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Neng Li",
+          "orcid": "0000-0001-9633-6702",
+          "affiliations": [
+            "Wuhan University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paul Rulis",
+          "orcid": "0000-0001-5783-0206",
+          "affiliations": [
+            "University of Missouri–Kansas City"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "W. Y. Ching",
+          "orcid": "0000-0001-7738-8822",
+          "affiliations": [
+            "University of Missouri–Kansas City"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma15082843",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma15082843",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/15/8/2843/pdf?version=1649835214",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Chalcogenide crystals have a wide range of applications, especially as thermoelectric materials for energy conversion. Thermoelectric materials can be used to generate an electric current from a temperature gradient based on the Seebeck effect and based on the Peltier effect, and they can be used in cooling applications. Using first-principles calculations and semiclassical Boltzmann theory, we have computed the Seebeck coefficient, electrical conductivity, electronic thermal conductivity, power factor, and figure of merit of 30 chalcogenide crystals. A Quantum Espresso package is used to calculate the electronic properties and locate the Fermi level. The transport properties are then calculated using the BoltzTraP code. The 30 crystals are divided into two groups. The first group has four crystals with quaternary composition (A2BCQ4) (A = Tl; B = Cd, Hg; C = Si, Ge, Sn; Q = S, Se, Te). The second group contains 26 crystals with the ternary composition (A’B’Q2) (A’ = Ag, Cu, Au, Na; B’ = B, Al, Ga, In; Q = S, Se, Te). Among these 30 chalcogenide crystals, the results for 11 crystals: Tl2CdGeSe4, Tl2CdSnSe4, Tl2HgSiSe4, Tl2HgSnS4, AuBSe2, AuBTe2, AuAlTe2, AuGaTe2, AuInTe2, AgAlSe2, and AgAlTe2 are revealed for the first time. In addition, temperature-dependent transport properties of pure and doped AgSbSe2 and AgSbTe2 crystals with dopant compositions of AgSb0.94Cd0.06Te2 and AgSbTe1.85Se0.15 were explored. These results provide an excellent database for bulk chalcogenides crucial for a wide range of potential applications in renewable energy fields.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Sustainable Thermoelectric Materials Predicted by Machine Learning",
+      "authors": [
+        "Dmitry Chernyavsky",
+        "Jeroen van den Brink",
+        "Gyu Hyeon Park",
+        "Kornelius Nielsch",
+        "Andy Thomas"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Dmitry Chernyavsky",
+          "orcid": "0000-0002-7974-4437",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeroen van den Brink",
+          "orcid": "0000-0001-6594-9610",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research",
+            "Complexity, Topology and Dynamics in Quantum Matter",
+            "Technische Universität Dresden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gyu Hyeon Park",
+          "orcid": "0000-0002-2417-2697",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kornelius Nielsch",
+          "orcid": "0000-0003-2271-7726",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research",
+            "Technische Universität Dresden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andy Thomas",
+          "orcid": "0000-0001-8594-9060",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research",
+            "Technische Universität Dresden"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Theory and Simulations",
+      "doi": "10.1002/adts.202200351",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adts.202200351",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adts.202200351",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Using datasets from several sources, a list of more than 450 materials is generated and related them with their thermoelectric properties. This is obtained by generating a set of features using only the molecular formula. Subsequently, a machine learning algorithm classifies the materials in specific, binary classes, for example, possessing high or low Seebeck coefficients or electrical conductivity. After adjusting the threshold values and grouping the materials into clusters, the thermoelectric performance of more than 25k materials is predicted. Finally, the results are filtered to obtain only the sustainable materials, that is, neither toxic nor critical, (ideally) inexpensive, and isotropic with regard to their transport properties to simplify the preparation procedure.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Application of Materials Genome Methods in Thermoelectrics",
+      "authors": [
+        "Yan Cao",
+        "Ye Sheng",
+        "Xin Li",
+        "Lili Xi",
+        "Jiong Yang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Yan Cao",
+          "orcid": "0000-0003-0647-4947",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ye Sheng",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xin Li",
+          "orcid": "0000-0001-9053-0643",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Microsystem and Information Technology",
+            "State Key Laboratory of Functional Materials for Informatics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Materials",
+      "doi": "10.3389/fmats.2022.861817",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmats.2022.861817",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.861817/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials genome methods have played an essential role in accelerating the discovery of high-performance novel materials, and include high-throughput calculation, database construction, and machine learning. Over the past decades, these approaches have been increasingly used in lithium battery materials, solar cells, transparent conductors, and thermoelectrics. Thermoelectrics are functional materials that can directly convert electricity into heat and vice versa, offering new ideas for conventional power generation and refrigeration. The application of high-throughput methods can achieve more efficient screening of new thermoelectric materials and accelerate experimental development. This review summarizes the recent progress in the application of materials genome methods for different thermoelectric materials, such as half-Heuslers, diamond-like structures, oxides, and other materials. Finally, current advances in machine learning for thermoelectrics are discussed. The progress of the theoretical design of thermoelectrics has driven the development of high-performance thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Unsupervised machine learning for discovery of promising half-Heusler thermoelectric materials",
+      "authors": [
+        "Xue Jia",
+        "Yanshuai Deng",
+        "Xin Ren Bao",
+        "Honghao Yao",
+        "Shan Li",
+        "Zhou Li",
+        "Chen Chen",
+        "Xinyu Wang",
+        "Jun Mao",
+        "Feng Cao",
+        "Jiehe Sui",
+        "Junwei Wu",
+        "Cuiping Wang",
+        "Qian Zhang",
+        "Xingjun Liu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Xue Jia",
+          "orcid": "0009-0003-6591-4284",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanshuai Deng",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xin Ren Bao",
+          "orcid": "0000-0003-4401-0625",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Honghao Yao",
+          "orcid": "0000-0003-3344-5447",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shan Li",
+          "orcid": "0000-0002-2905-8455",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhou Li",
+          "orcid": "0000-0002-6988-2158",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chen Chen",
+          "orcid": "0000-0003-0912-2242",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinyu Wang",
+          "orcid": "0000-0002-7078-1303",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Mao",
+          "orcid": "0000-0001-5275-8954",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Feng Cao",
+          "orcid": "0000-0003-3140-4502",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiehe Sui",
+          "orcid": "0000-0003-4906-9183",
+          "affiliations": [
+            "Harbin Institute of Technology",
+            "State Key Laboratory of Advanced Welding and Joining"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junwei Wu",
+          "orcid": "0000-0002-7346-5082",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cuiping Wang",
+          "orcid": "0000-0003-0378-6494",
+          "affiliations": [
+            "Xiamen University",
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Zhang",
+          "orcid": "0000-0001-5975-9781",
+          "affiliations": [
+            "Harbin Institute of Technology",
+            "State Key Laboratory of Advanced Welding and Joining"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingjun Liu",
+          "orcid": "0000-0002-3015-8525",
+          "affiliations": [
+            "Xiamen University",
+            "Harbin Institute of Technology",
+            "State Key Laboratory of Advanced Welding and Joining"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00723-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00723-9",
+      "cited_by_count": 103,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00723-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermoelectric materials can be potentially applied to waste heat recovery and solid-state cooling because they allow a direct energy conversion between heat and electricity and vice versa. The accelerated materials design based on machine learning has enabled the systematic discovery of promising materials. Herein we proposed a successful strategy to discover and design a series of promising half-Heusler thermoelectric materials through the iterative combination of unsupervised machine learning with the labeled known half-Heusler thermoelectric materials. Subsequently, optimized zT values of ~0.5 at 925 K for p-type Sc 0.7 Y 0.3 NiSb 0.97 Sn 0.03 and ~0.3 at 778 K for n-type Sc 0.65 Y 0.3 Ti 0.05 NiSb were experimentally achieved on the same parent ScNiSb.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Investigation of PbSnTeSe High-Entropy Thermoelectric Alloy: A DFT Approach",
+      "authors": [
+        "Ming Xia",
+        "Marie‐Christine Record",
+        "Pascal Boulet"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ming Xia",
+          "orcid": "0000-0001-8308-9183",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Aix-Marseille Université",
+            "Matériaux Divisés, Interfaces, Réactivité, Electrochimie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marie‐Christine Record",
+          "orcid": "0000-0002-6637-6874",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Aix-Marseille Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pascal Boulet",
+          "orcid": "0000-0001-8051-4287",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Aix-Marseille Université",
+            "Matériaux Divisés, Interfaces, Réactivité, Electrochimie"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma16010235",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma16010235",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/16/1/235/pdf?version=1672129049",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric materials have attracted extensive attention because they can directly convert waste heat into electric energy. As a brand-new method of alloying, high-entropy alloys (HEAs) have attracted much attention in the fields of materials science and engineering. Recent researches have found that HEAs could be potentially good thermoelectric (TE) materials. In this study, special quasi-random structures (SQS) of PbSnTeSe high-entropy alloys consisting of 64 atoms have been generated. The thermoelectric transport properties of the highest-entropy PbSnTeSe-optimized structure were investigated by combining calculations from first-principles density-functional theory and on-the-fly machine learning with the semiclassical Boltzmann transport theory and Green–Kubo theory. The results demonstrate that PbSnTeSe HEA has a very low lattice thermal conductivity. The electrical conductivity, thermal electronic conductivity and Seebeck coefficient have been evaluated for both n-type and p-type doping. N-type PbSnTeSe exhibits better power factor (PF = S2σ) than p-type PbSnTeSe because of larger electrical conductivity for n-type doping. Despite high electrical thermal conductivities, the calculated ZT are satisfactory. The maximum ZT (about 1.1) is found at 500 K for n-type doping. These results confirm that PbSnTeSe HEA is a promising thermoelectric material.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Recent Progress in Multiphase Thermoelectric Materials",
+      "authors": [
+        "Raphael Fortulan",
+        "Sima Aminorroaya Yamini"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Raphael Fortulan",
+          "orcid": "0000-0002-1234-5212",
+          "affiliations": [
+            "Sheffield Hallam University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sima Aminorroaya Yamini",
+          "orcid": "0000-0002-2312-8272",
+          "affiliations": [
+            "Sheffield Hallam University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma14206059",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma14206059",
+      "cited_by_count": 52,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/14/20/6059/pdf?version=1634560840",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric materials, which directly convert thermal energy to electricity and vice versa, are considered a viable source of renewable energy. However, the enhancement of conversion efficiency in these materials is very challenging. Recently, multiphase thermoelectric materials have presented themselves as the most promising materials to achieve higher thermoelectric efficiencies than single-phase compounds. These materials provide higher degrees of freedom to design new compounds and adopt new approaches to enhance the electronic transport properties of thermoelectric materials. Here, we have summarised the current developments in multiphase thermoelectric materials, exploiting the beneficial effects of secondary phases, and reviewed the principal mechanisms explaining the enhanced conversion efficiency in these materials. This includes energy filtering, modulation doping, phonon scattering, and magnetic effects. This work assists researchers to design new high-performance thermoelectric materials by providing common concepts.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Machine Learning Regression Guided Thermoelectric Materials Discovery – A Review",
+      "authors": [
+        "Guangshuai Han",
+        "Yixuan Sun",
+        "Yining Feng",
+        "Guang Lin",
+        "Na Lu"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Guangshuai Han",
+          "orcid": "0000-0001-9297-5072",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yixuan Sun",
+          "orcid": "0000-0003-1109-3380",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yining Feng",
+          "orcid": "0000-0001-5683-0079",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guang Lin",
+          "orcid": "0000-0002-0976-1987",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Na Lu",
+          "orcid": "0000-0003-3720-4181",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ES Materials & Manufacturing",
+      "doi": "10.30919/esmm5f451",
+      "type": "article",
+      "url": "https://doi.org/10.30919/esmm5f451",
+      "cited_by_count": 45,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "http://www.espublisher.com/uploads/article_pdf/esmm5f451.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "This is the first comprehensive review to machine learning regression aided TE material discovery, which includes data generation, material descriptor selection, machine learning regression models, and model evaluation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Predicting thermoelectric properties from chemical formula with explicitly identifying dopant effects",
+      "authors": [
+        "Gyoung S. Na",
+        "Seunghun Jang",
+        "Hyunju Chang"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Gyoung S. Na",
+          "orcid": "0000-0001-9803-0782",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00564-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00564-y",
+      "cited_by_count": 76,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00564-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Dopants play an important role in synthesizing materials to improve target materials properties or stabilize the materials. In particular, the dopants are essential to improve thermoelectic performances of the materials. However, existing machine learning methods cannot accurately predict the materials properties of doped materials due to severely nonlinear relations with their materials properties. Here, we propose a unified architecture of neural networks, called DopNet, to accurately predict the materials properties of the doped materials. DopNet identifies the effects of the dopants by explicitly and independently embedding the host materials and the dopants. In our evaluations, DopNet outperformed existing machine learning methods in predicting experimentally measured thermoelectric properties, and the error of DopNet in predicting a figure of merit (ZT) was 0.06 in mean absolute error. In particular, DopNet was significantly effective in an extrapolation problem that predicts ZTs of unknown materials, which is a key task to discover novel thermoelectric materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Synthesis of aliovalently-substituted GeAs2 for thermoelectric applications",
+      "authors": [
+        "Utsav Kumar Dey"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Utsav Kumar Dey",
+          "orcid": "0000-0003-0337-1942",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.31274/td-20240329-714",
+      "type": "dissertation",
+      "url": "https://doi.org/10.31274/td-20240329-714",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://dr.lib.iastate.edu/bitstreams/7e22e24a-a685-47bf-9ae8-aac11c1cca02/download",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric effect enables direct conversion of thermal to electrical energy and provides an alternative route for power generation applications. Recently, layered tetrel pnictides are considered as a promising class of layered materials in thermoelectrics due to their robust structural anisotropy and weak interlayer interactions. GeAs2 is a prominent candidate among tetrel pnictides which has a potential to exhibit a thermoelectric figure of merit (zT) as high as 2.78 based on the computational reports. In fact, high electrical resistivity and synthetic difficulties have been the biggest obstacles so far to unveil their thermoelectric applications. In this thesis, I have initially discussed about the synthetic and chemical aspects of layered metal pnictides along with the characterization methods and techniques. Next, I have implemented aliovalent substitution in GeAs2 as an effective route to enhance its carrier transport as well as the zT of GeAs2.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Charting lattice thermal conductivity for inorganic crystals and discovering rare earth chalcogenides for thermoelectrics",
+      "authors": [
+        "Taishan Zhu",
+        "Ran He",
+        "Sheng Gong",
+        "Tian Xie",
+        "Prashun Gorai",
+        "Kornelius Nielsch",
+        "Jeffrey C. Grossman"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Taishan Zhu",
+          "orcid": "0000-0001-9462-5666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ran He",
+          "orcid": "0000-0002-0295-6837",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sheng Gong",
+          "orcid": "0000-0002-7457-7959",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian Xie",
+          "orcid": "0000-0002-0987-4666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kornelius Nielsch",
+          "orcid": "0000-0003-2271-7726",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey C. Grossman",
+          "orcid": "0000-0003-1281-2359",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/d1ee00442e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d1ee00442e",
+      "cited_by_count": 108,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2021/ee/d1ee00442e",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Charting and understanding lattice thermal conductivity of inorganic materials and discovery of REX materials for thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Materials Informatics Platform with Three-Dimensional Structures - Workflow and Thermoelectric Applications",
+      "authors": [
+        "Mingjia Yao",
+        "Yuxiang Wang",
+        "Xin Li",
+        "Ye Sheng",
+        "Haiyang Huo",
+        "Lili Xi",
+        "Jiong Yang",
+        "Wenqing Zhang"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Mingjia Yao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuxiang Wang",
+          "orcid": "0000-0003-3947-9912",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xin Li",
+          "orcid": "0000-0001-9053-0643",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ye Sheng",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haiyang Huo",
+          "orcid": "0000-0002-0240-1217",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenqing Zhang",
+          "orcid": "0000-0002-2551-6375",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.13655276",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.13655276",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/The_Materials_Informatics_Platform_with_Three-Dimensional_Structures_-_A_Materials_Database_Based_on_First-Principles_Calculations/13655276",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present a large dataset of 3D materials. with more than 30,000 entries in the database, which contain the relaxed crystal structures, density of states, and band structures. Calculation of the equations of state and sound velocities is performed for over 12,000 entries. The electrical transport properties for approximately 4,400 entries are also calculated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Data-driven discovery of 3D and 2D thermoelectric materials",
+      "authors": [
+        "Kamal Kumar Choudhary",
+        "Kevin F. Garrity",
+        "Francesca Tavazza"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kevin F. Garrity",
+          "orcid": "0000-0003-0263-4157",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Tavazza",
+          "orcid": "0000-0002-5602-180X",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Physics Condensed Matter",
+      "doi": "10.1088/1361-648x/aba06b",
+      "type": "article",
+      "url": "https://doi.org/10.1088/1361-648x/aba06b",
+      "cited_by_count": 72,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/1906.06024",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract In this work, we first perform a systematic search for high-efficiency three-dimensional (3D) and two-dimensional (2D) thermoelectric materials by combining semiclassical transport techniques with density functional theory (DFT) calculations and then train machine-learning models on the thermoelectric data. Out of 36 000 three-dimensional and 900 two-dimensional materials currently in the publicly available JARVIS-DFT database, we identify 2932 3D and 148 2D promising thermoelectric materials using a multi-steps screening procedure, where specific thresholds are chosen for key quantities like bandgaps, Seebeck coefficients and power factors. We compute the Seebeck coefficients for all the materials currently in the database and validate our calculations by comparing our results, for a subset of materials, to experimental and existing computational datasets. We also investigate the effect of chemical, structural, crystallographic and dimensionality trends on thermoelectric performance. We predict several classes of efficient 3D and 2D materials such as Ba(MgX) 2 (X = P, As, Bi), X 2 YZ 6 (X = K, Rb, Y=Pd, Pt, Z = Cl, Br), K 2 PtX 2 (X = S, Se), NbCu 3 X 4 (X = S, Se, Te), Sr 2 XYO 6 (X = Ta, Zn, Y=Ga, Mo), TaCu 3 X 4 (X = S, Se, Te), and XYN (X = Ti, Zr, Y=Cl, Br). Finally, as high-throughput DFT is computationally expensive, we train machine learning models using gradient boosting decision trees and classical force-field inspired descriptors for n-and p-type Seebeck coefficients and power factors, to quickly pre-screen materials for guiding the next set of DFT calculations. The dataset and tools are made publicly available at the websites: https://www.ctcms.nist.gov/~knc6/JVASP.html , https://www.ctcms.nist.gov/jarvisml/ and https://jarvis.nist.gov/ .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Data-driven Discovery of 3D and 2D Thermoelectric Materials",
+      "authors": [
+        "Kamal Kumar Choudhary",
+        "Kevin F. Garrity",
+        "Francesca Tavazza"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kevin F. Garrity",
+          "orcid": "0000-0003-0263-4157",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Tavazza",
+          "orcid": "0000-0002-5602-180X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.12095658",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.12095658",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/Data-driven_Discovery_of_3D_and_2D_Thermoelectric_Materials/12095658",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this work, we first perform a systematic search for high-efficiency three-dimensional (3D) and two-dimensional (2D) thermoelectric materials by combining semiclassical transport techniques with density functional theory (DFT) calculations and then train machine-learning models on the thermoelectric data. Out of 36000 three-dimensional and 900 two-dimensional materials currently in the publicly available JARVIS-DFT database, we identify 2932 3D and 148 2D promising thermoelectric materials using a multi-steps screening procedure, where specific thresholds are chosen for key quantities like bandgaps, Seebeck coefficients and power factors. We compute the Seebeck coefficients for all the materials currently in the database and validate our calculations by comparing our results, for a subset of materials, to experimental and existing computational datasets. We also investigate the effect of chemical, structural, crystallographic and dimensionality trends on thermoelectric performance. We predict several classes of efficient 3D and 2D materials such as Ba(MgX)2 (X=P,As,Bi), X2YZ6 (X=K,Rb, Y=Pd,Pt, Z=Cl,Br), K2PtX2(X=S,Se), NbCu3X4 (X=S,Se,Te), Sr2XYO6 (X=Ta, Zn, Y=Ga, Mo), TaCu3X4 (X=S, Se,Te), and XYN (X=Ti, Zr, Y=Cl, Br). Finally, as high-throughput DFT is computationally expensive, we train machine learning models using gradient boosting decision trees (GBDT) and classical force-field inspired descriptors (CFID) for n-and p-type Seebeck coefficients and power factors, to quickly pre-screen materials for guiding the next set of DFT calculations. The dataset and tools are made publicly available at the websites: https://www.ctcms.nist.gov/~knc6/JVASP.html , https://www.ctcms.nist.gov/jarvisml/ and https://jarvis.nist.gov/ .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "New horizons in thermoelectric materials: Correlated electrons, organic transport, machine learning, and more",
+      "authors": [
+        "Jeffrey J. Urban",
+        "Akanksha K. Menon",
+        "Zhiting Tian",
+        "Anubhav Jain",
+        "Kedar Hippalgaonkar"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Jeffrey J. Urban",
+          "orcid": "0000-0003-4909-2869",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Molecular Foundry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akanksha K. Menon",
+          "orcid": "0000-0003-1979-507X",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiting Tian",
+          "orcid": "0000-0002-5098-7507",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kedar Hippalgaonkar",
+          "orcid": "0000-0002-1270-9047",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Applied Physics",
+      "doi": "10.1063/1.5092525",
+      "type": "article",
+      "url": "https://doi.org/10.1063/1.5092525",
+      "cited_by_count": 71,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/1.5092525",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectrics represent a unique opportunity in energy to directly convert thermal energy or secondary waste heat into a primary resource. The development of thermoelectric materials has improved over the decades in leaps, rather than by increments—each leap forward has recapitulated the science of its time: from the crystal growth of semiconductors, to controlled doping, to nanostructuring, and to 2D confinement. Each of those leaps forward was, arguably, more a result of materials science than physics. Thermoelectrics is now ripe for another leap forward, and many probable advances rely on new physics outside of the standard band transport model of thermoelectrics. This perspective will cover a limited selection of how thermoelectrics can benefit from new discoveries in physics: wave effects in phonon transport, correlated electron physics, and unconventional transport in organic materials. We also highlight recent developments in thermoelectrics discovery aided by machine learning that may be needed to realize some of these new concepts practically. Looking ahead, developing new thermoelectric physics will also have a concomitant domino effect on adjacent fields, furthering the understanding of nonequilibrium thermal and electronic transport in novel materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Advanced Thermoelectric Materials",
+      "authors": [
+        "Uday M. Basheer Al-Naib"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Uday M. Basheer Al-Naib",
+          "orcid": "0000-0002-5471-934X",
+          "affiliations": [
+            "University of Technology Malaysia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Wiley eBooks",
+      "doi": "10.1002/9781119407348",
+      "type": "book",
+      "url": "https://doi.org/10.1002/9781119407348",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://intech-files.s3.amazonaws.com/a04Tc0000091cJmIAI/0016409_Authors_Book%20%282025-08-21%2010%3A23%3A47%29.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Advanced Thermoelectric Materials – Theory, Development, and Applications offers a comprehensive exploration of the science and technology behind thermoelectric materials, from fundamental principles to emerging applications. Designed for researchers, engineers, and graduate students, this volume provides a clear and accessible overview of key concepts, such as the Seebeck effect, thermoelectric coefficients, and the figure of merit (ZT), while also delving into advanced topics, including band structure engineering, phonon scattering mechanisms, and microstructural optimization. The book examines a wide range of thermoelectric materials, including bismuth telluride, lead telluride, ceramic compounds, and flexible organic systems, alongside state-of-the-art synthesis methods such as thin film deposition, nanostructuring, and doping strategies. Practical insights are offered into electrical and thermal conductivity measurement techniques, as well as real-world applications in waste heat recovery, automotive energy systems, space exploration, and wearable electronics. By uniting theoretical knowledge with current research trends and practical engineering approaches, this volume serves as a valuable reference for advancing the design and deployment of high-performance thermoelectric systems.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Data-driven analysis of electron relaxation times in PbTe-type thermoelectric materials",
+      "authors": [
+        "Yukari Katsura",
+        "Masaya Kumagai",
+        "Takushi Kodani",
+        "Mitsunori Kaneshige",
+        "Yuki Ando",
+        "Sakiko Gunji",
+        "Yoji Imai",
+        "Hideyasu Ouchi",
+        "Kazuki Tobita",
+        "Kaoru Kimura",
+        "Koji Tsuda"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Yukari Katsura",
+          "orcid": "0000-0002-8905-2995",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masaya Kumagai",
+          "orcid": "0000-0003-4766-8625",
+          "affiliations": [
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Takushi Kodani",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitsunori Kaneshige",
+          "orcid": null,
+          "affiliations": [
+            "X-Ability (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuki Ando",
+          "orcid": "0000-0002-9386-2990",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sakiko Gunji",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoji Imai",
+          "orcid": "0009-0008-3477-2515",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hideyasu Ouchi",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuki Tobita",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaoru Kimura",
+          "orcid": "0000-0001-5050-4256",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Koji Tsuda",
+          "orcid": "0000-0002-4288-1606",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN",
+            "RIKEN Center for Advanced Intelligence Project",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science and Technology of Advanced Materials",
+      "doi": "10.1080/14686996.2019.1603885",
+      "type": "article",
+      "url": "https://doi.org/10.1080/14686996.2019.1603885",
+      "cited_by_count": 111,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/14686996.2019.1603885?needAccess=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Data mining from published papers can generate large experimental datasets that have been overlooked in computational materials informatics. We developed an open web system Starrydata2 to accelerate a comprehensive digitization of data of materials from as-reported plot images in published papers, without sample selection based on performance. By plotting results obtained from our dataset on experimental thermoelectric properties of 434 samples of rock-salt-type (PbTe-type) thermoelectric materials, we revealed differences in electronic structure of parent compounds PbTe, PbSe, PbS, and SnTe from just experimental data. We observed that the calculated Seebeck coefficients were fairly consistent with experimental data for n-type PbTe but not for p-type PbTe, indicating possible modifications in its valence-band electronic structure. We evaluated the electron relaxation time τel from 207 reported samples of n-type PbTe by combining calculations and experimental data. We found that τel is not a constant but varies by at least two orders of magnitude. Achieving long τel was suggested to be critical in increasing the thermoelectric figure of merit ZT.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "A review to refrigeration with thermoelectric energy based on the Peltier effect",
+      "authors": [
+        "Johan Mardini-Bovea",
+        "Gabriel A. Torres",
+        "Emiro De-La-Hoz-Franco",
+        "José Niño-Moreno",
+        "Marian Sabău",
+        "Pedro Jessid Pacheco Torres"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Johan Mardini-Bovea",
+          "orcid": "0000-0001-6609-1687",
+          "affiliations": [
+            "Universidad del Atlántico"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gabriel A. Torres",
+          "orcid": "0000-0002-3002-7664",
+          "affiliations": [
+            "Universidad de la Costa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emiro De-La-Hoz-Franco",
+          "orcid": "0000-0002-4926-7414",
+          "affiliations": [
+            "Universidad de la Costa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José Niño-Moreno",
+          "orcid": null,
+          "affiliations": [
+            "Universidad del Atlántico"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marian Sabău",
+          "orcid": "0000-0002-6595-2323",
+          "affiliations": [
+            "Universidad de la Costa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pedro Jessid Pacheco Torres",
+          "orcid": "0000-0002-7609-4598",
+          "affiliations": [
+            "Corporación Universitaria Reformada"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "DYNA",
+      "doi": "10.15446/dyna.v86n208.72589",
+      "type": "article",
+      "url": "https://doi.org/10.15446/dyna.v86n208.72589",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://doi.org/10.15446/dyna.v86n208.72589",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Currently, energy demand and environmental pollution have boosted the evolution of different environment friendly technologies for the development of clean and renewable energies. That is why scientific research allows us to demonstrate the use of solid state based devices implementing temperature changes by electric induction. Given the above, a combined thermic generation system is taken into consideration, consisting in an environmentally friendly thermoelectric generator and refrigerator, wich is fueled and controlled by an electric fluid. Therefore, this study gives an approch and mathematic demonstrations to the concepts of greater relevance about the thermoelectric device and the effects of greater incidence, responsible for giving advantageous characteristics to the implementation of Peltier cells as a basic device in a cooling system for smaller applications, maintaining an ecological system, clean and without detrimental effects to the ozone layer, since there is no C02 emissions into the atmosphere.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Roles of Carrier Doping, Band Gap, and Electron Relaxation Time in the Boltzmann Transport Calculations of a Semiconductor’s Thermoelectric Properties",
+      "authors": [
+        "Yukari Katsura",
+        "H. Takagi",
+        "Kaoru Kimura"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Yukari Katsura",
+          "orcid": "0000-0002-8905-2995",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "H. Takagi",
+          "orcid": "0000-0001-5700-3761",
+          "affiliations": [
+            "Max Planck Institute for Solid State Research",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaoru Kimura",
+          "orcid": "0000-0001-5050-4256",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "MATERIALS TRANSACTIONS",
+      "doi": "10.2320/matertrans.e-m2018813",
+      "type": "article",
+      "url": "https://doi.org/10.2320/matertrans.e-m2018813",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.jstage.jst.go.jp/article/matertrans/59/7/59_E-M2018813/_pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Although there is a growing demand for first-principles predictions of the thermoelectric properties of materials, the contribution of various errors in Boltzmann transport calculations is not negligible. We conducted a typical first-principles calculation and a Boltzmann transport analysis on a typical semiconductor (Si) at various temperatures T while varying the band gap εg, electron relaxation time τel, and phonon thermal conductivity κph to demonstrate how the calculated thermoelectric properties, which are functions of the carrier doping level, are affected by these parameters. Bipolar conduction drastically decreased zT via a degradation of the Seebeck coefficient S and an increase in the effective Lorenz factor Leff, indicating the importance of a wide enough εg (several multiples of kBT or higher) for high zT. Thus, the underestimation of εg, which frequently happens in first-principles calculations, could induce large errors in calculations for narrow-gap semiconductors. The calculation of the electron thermal conductivity without Peltier thermal conductivity was found to limit the zT of typical semiconductors to below 1. A small value of κph/τel, where κph/τel is the degree to which a material is a phonon-glass electron-crystal, was necessary to achieve a high zT. Fitting the calculations with experimental thermoelectric properties showed that τel can vary by an order of magnitude from 10−15 to 10−14 s, depending on both T and the samples. This indicates that the use of a fixed relaxation time is inappropriate for thermoelectric materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Computationally guided discovery of thermoelectric materials",
+      "authors": [
+        "Prashun Gorai",
+        "Vladan Stevanović",
+        "Eric S. Toberer"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladan Stevanović",
+          "orcid": "0000-0002-4954-5162",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric S. Toberer",
+          "orcid": "0000-0003-0826-2446",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Reviews Materials",
+      "doi": "10.1038/natrevmats.2017.53",
+      "type": "review",
+      "url": "https://doi.org/10.1038/natrevmats.2017.53",
+      "cited_by_count": 278,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1390034",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "An ab initio electronic transport database for inorganic materials",
+      "authors": [
+        "Francesco Ricci",
+        "Wei Chen",
+        "Umut Aydemir",
+        "Gerald Jeffrey Snyder",
+        "Gian‐Marco Rignanese",
+        "Anubhav Jain",
+        "Geoffroy Hautier"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Francesco Ricci",
+          "orcid": "0000-0002-2677-7227",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Illinois Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Umut Aydemir",
+          "orcid": "0000-0003-1164-1973",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gian‐Marco Rignanese",
+          "orcid": "0000-0002-1422-1205",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Geoffroy Hautier",
+          "orcid": "0000-0003-1754-2220",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2017.85",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2017.85",
+      "cited_by_count": 236,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201785.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Electronic transport in materials is governed by a series of tensorial properties such as conductivity, Seebeck coefficient, and effective mass. These quantities are paramount to the understanding of materials in many fields from thermoelectrics to electronics and photovoltaics. Transport properties can be calculated from a material's band structure using the Boltzmann transport theory framework. We present here the largest computational database of electronic transport properties based on a large set of 48,000 materials originating from the Materials Project database. Our results were obtained through the interpolation approach developed in the BoltzTraP software, assuming a constant relaxation time. We present the workflow to generate the data, the data validation procedure, and the database structure. Our aim is to target the large community of scientists developing materials selection strategies and performing studies involving transport properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Thermoelectricity in transition metal compounds: the role of spin disorder",
+      "authors": [
+        "Prashun Gorai",
+        "Eric S. Toberer",
+        "Vladan Stevanović"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric S. Toberer",
+          "orcid": "0000-0003-0826-2446",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladan Stevanović",
+          "orcid": "0000-0002-4954-5162",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Chemistry Chemical Physics",
+      "doi": "10.1039/c6cp06943f",
+      "type": "article",
+      "url": "https://doi.org/10.1039/c6cp06943f",
+      "cited_by_count": 34,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1334588",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "At room temperature and above, most magnetic materials adopt a spin-disordered (paramagnetic) state whose electronic properties can differ significantly from their low-temperature, spin-ordered counterparts. Yet computational searches for new functional materials usually assume some type of magnetic order. In the present work, we demonstrate a methodology to incorporate spin disorder in computational searches and predict the electronic properties of the paramagnetic phase. We implement this method in a high-throughput framework to assess the potential for thermoelectric performance of 1350 transition-metal sulfides and find that all magnetic systems we identify as promising in the spin-ordered ground state cease to be promising in the paramagnetic phase due to disorder-induced deterioration of the charge carrier transport properties. We also identify promising non-magnetic candidates that do not suffer from these spin disorder effects. In addition to identifying promising materials, our results offer insights into the apparent scarcity of magnetic systems among known thermoelectrics and highlight the importance of including spin disorder in computational searches.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Withdrawal and consumption of water by thermoelectric power plants in the United States, 2010",
+      "authors": [
+        "Timothy H. Diehl",
+        "Melissa A. Harris"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Timothy H. Diehl",
+          "orcid": "0000-0001-9691-2212",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Melissa A. Harris",
+          "orcid": "0000-0003-2659-9763",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific investigations report",
+      "doi": "10.3133/sir20145184",
+      "type": "report",
+      "url": "https://doi.org/10.3133/sir20145184",
+      "cited_by_count": 82,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://pubs.usgs.gov/sir/2014/5184/pdf/sir20145184.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Estimates of water use at thermoelectric plants were developed by the U.S. Geological Survey based on linked heat and water budgets, and complement reported thermoelectric water withdrawals and consumption. The heat- and water-budget models produced withdrawal and consumption estimates, including thermodynamically plausible ranges of minimum and maximum withdrawal and consumption, for 1,290 water-using plants in the United States for 2010. Total estimated withdrawal for 2010 was about 129 billion gallons per day (Bgal/d), and total estimated consumption was about 3.5 Bgal/d. In contrast, total withdrawal reported by the U.S. Department of Energy, Energy Information Administration (EIA), was about 24 percent higher than the modeled estimates, and total EIA-reported consumption was about 8 percent lower. Most thermoelectric generation in 2010 was not associated with thermodynamically plausible EIA-reported values of both withdrawal and consumption. An analysis of 2005 and 2010 EIA-reported water use indicated that withdrawal and consumption declined 18 percent and 34 percent, respectively. Alternative water types (types other than freshwater) accounted for approximately 25 percent of all withdrawals in 2010, most of which occurred at plants with once-through cooling systems using saline and brackish tidal waters. Differences among withdrawal and consumption coefficients based on EIA-reported water use for 2005 and 2010 and heat-budget model results for 2010 reveal opportunities for improving consistency and accuracy of reporting of water-use information at the plant scale.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Methods for estimating water consumption for thermoelectric power plants in the United States",
+      "authors": [
+        "Timothy H. Diehl",
+        "Melissa A. Harris",
+        "Jennifer C. Murphy",
+        "Susan S. Hutson",
+        "David E. Ladd"
+      ],
+      "year": 2013,
+      "author_details": [
+        {
+          "name": "Timothy H. Diehl",
+          "orcid": "0000-0001-9691-2212",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Melissa A. Harris",
+          "orcid": "0000-0003-2659-9763",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jennifer C. Murphy",
+          "orcid": "0000-0002-0881-0919",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Susan S. Hutson",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "David E. Ladd",
+          "orcid": "0000-0002-9247-7839",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific investigations report",
+      "doi": "10.3133/sir20135188",
+      "type": "report",
+      "url": "https://doi.org/10.3133/sir20135188",
+      "cited_by_count": 56,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://pubs.usgs.gov/sir/2013/5188/pdf/sir2013-5188.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Water consumption at thermoelectric power plants represents a small but substantial share of total water consumption in the U.S. However, currently available thermoelectric water consumption data are inconsistent and incomplete, and coefficients used to estimate consumption are contradictory. The U.S. Geological Survey (USGS) has resumed the estimation of thermoelectric water consumption, last done in 1995, based on the use of linked heat and water budgets to complement reported water consumption. This report presents the methods used to estimate freshwater consumption at a study set of 1,284 power plants based on 2010 plant characteristics and operations data. Power plants were categorized for estimation of water consumption in two tiers. First, generating units were assigned to categories based on the technology used to generate electricity. These generation-type categories are combustion steam, combined-cycle, nuclear, geothermal, and solar thermal. Second, cooling systems were separately categorized as either wet cooling towers or surface-water cooling systems, and the surface-water cooling systems were subcategorized as cooling ponds, lakes, and rivers. Heat budgets were constructed for the first four generation-type categories; data at solar thermal plants were insufficient for heat budgets. These heat budgets yielded estimates of the amount of heat transferred to the condenser. The ratio of evaporation to the heat discharged through the condenser was estimated using existing heat balance models that are sensitive to environmental data; this feature allows estimation of consumption under different climatic conditions. These two estimates were multiplied to yield an estimate of consumption at each power plant.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

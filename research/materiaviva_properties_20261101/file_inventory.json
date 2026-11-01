@@ -1,0 +1,1784 @@
+[
+  {
+    "type": "file",
+    "oid": "022563e76d800ad8b3ba83ed3a43ae4c4919d020",
+    "size": 29635,
+    "path": "properties/MANIFEST.json"
+  },
+  {
+    "type": "file",
+    "oid": "0b0b0beacfd5e36132d21be8cdf929160ae218cc",
+    "size": 3395,
+    "lfs": {
+      "oid": "427d5fe40ac9474237a59a8a846f7b0af259988308a3d20a5423c1d97bb6bc62",
+      "size": 3395,
+      "pointerSize": 129
+    },
+    "xetHash": "095110394b33695a73d9243508c13822c9b67e62c11ca35d4032f4332d9836dc",
+    "path": "properties/altermagnetic_split_fraction.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "91b14e6b24e93cbc4d7fd143fe887552a29d50b0",
+    "size": 3476,
+    "lfs": {
+      "oid": "8bb4720cff9df16f96eb1fbff2e8281cd90e354372f70961f526830d2d46608a",
+      "size": 3476,
+      "pointerSize": 129
+    },
+    "xetHash": "a0d7819b96bd63e91066a272a970ed9582c01490fa5f44a5e8ff69e488acb6f6",
+    "path": "properties/altermagnetic_splitting_avg.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "64f6bb0ee79a52a34cd4b09518e7d4a6ff75c930",
+    "size": 3468,
+    "lfs": {
+      "oid": "575e5b08a0578041b9d94b0b5c4ae089c40086b671be2b6fe7953151d5ca0bb8",
+      "size": 3468,
+      "pointerSize": 129
+    },
+    "xetHash": "586e683a50ed959fb9cfde1d44b663efa48a885ebc8a196d81121af416635b0a",
+    "path": "properties/altermagnetic_splitting_max.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6c7ccaa3b77da6f4459a7fa529cded0c97b1b254",
+    "size": 30456,
+    "lfs": {
+      "oid": "6e3e617a0fef4eca315302f50da1da91372e6f73c08c21678711bf1d1939c058",
+      "size": 30456,
+      "pointerSize": 130
+    },
+    "xetHash": "6e17633a424397d60d439f6c2b267a72754bf75cc3556dedacba9b86751b99c0",
+    "path": "properties/ar_uptake.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "90aa65fd89fc4a281153e42ac0a25bb3436f4534",
+    "size": 1857213,
+    "lfs": {
+      "oid": "f3e5279c154306c9f46bedb49901089a4f5afb32a27f370c9ba25bbc893e4fed",
+      "size": 1857213,
+      "pointerSize": 132
+    },
+    "xetHash": "1b46bfe0f763aaafff2715c31ddb099a055e51295650b1ee4765002238eabc68",
+    "path": "properties/average_oxidation_states.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "a5ed3dacd396cd5fbcf58a64d24db5757ea5bd3a",
+    "size": 301732,
+    "lfs": {
+      "oid": "a90632f6a171969cdc9bb08cecdf3202ff3b077f22bfd8b54909f2401379153d",
+      "size": 301732,
+      "pointerSize": 131
+    },
+    "xetHash": "000c96905a6f4a76b8b71dbe47e90456474e540f9cff16bdc54ada78f801da77",
+    "path": "properties/average_voltage.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "96445312ea8c02f92850989ed678cc50404d4bf0",
+    "size": 139812015,
+    "lfs": {
+      "oid": "1f6eb691d2f04c4fc80736ecff137a21d9b98e7f0e3f2d748267d6ff053c200a",
+      "size": 139812015,
+      "pointerSize": 134
+    },
+    "xetHash": "6f8bbe853b7a454157084c854c09afe3c493cdac92fa3452fc625c9b4221bc79",
+    "path": "properties/band_gap.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c24481cf1f3351580b0913fefe40244b0fd2566a",
+    "size": 70279459,
+    "lfs": {
+      "oid": "f44afda4a6111db87f60720455a6bbb1d8074a9b02a26a1545f686f46349d3ae",
+      "size": 70279459,
+      "pointerSize": 133
+    },
+    "xetHash": "4aa94fd467578c86a79ec13cf8cefba3fe6d52578f2c861428efeb4b40516f05",
+    "path": "properties/band_gap_direct.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5803a087380712a5386fcb841e0436fa8534ddec",
+    "size": 267794,
+    "lfs": {
+      "oid": "52674aea5fd49adc2d988999bd32c2f0895f958b2b18f160b94c5eae533bc4d5",
+      "size": 267794,
+      "pointerSize": 131
+    },
+    "xetHash": "7d64662b81c81fa280e88a7a85782aef7e3b24947c8a2ad21871a30400503e13",
+    "path": "properties/battery_formula.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ddaa6ceef710a639efb9b08bc22ed98d8e6ee431",
+    "size": 100928,
+    "lfs": {
+      "oid": "1855283405c2b61191f710b981b70de05b86c877f3a40e247672681328ee190a",
+      "size": 100928,
+      "pointerSize": 131
+    },
+    "xetHash": "58c6640df274b16721b8becb58ccca2ce684300e23c39232f602beb302d0f2ef",
+    "path": "properties/birefringence.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "51f756457ad6c490a23fdc147474673fe5d0b0ea",
+    "size": 208388,
+    "lfs": {
+      "oid": "dc77c3f989ea30b27e2268e60e15f6fce3c4bf1300ed80d2de98ae67a8c290c7",
+      "size": 208388,
+      "pointerSize": 131
+    },
+    "xetHash": "73807b980be3555afebaa831fa114bf77dadd0b4d07dfd493784aaad605a7fb7",
+    "path": "properties/born_effective_charge_max.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ceecd38b34b00e9e9de7ea7a5e60846b8a811359",
+    "size": 10502,
+    "lfs": {
+      "oid": "4629b627207fc24f9c8f34418fbbc56e73b0ced31007afdf04ebb9bc7ce24df8",
+      "size": 10502,
+      "pointerSize": 130
+    },
+    "xetHash": "17dbdb123b44212e7fde298079423983628bb728ec7d9e68cf86d35f16b26d00",
+    "path": "properties/bulk_modulus_eos.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "025037b49477df55c16af79a20a865c3ef2ab12b",
+    "size": 10486,
+    "lfs": {
+      "oid": "e049bb99ad2566f1f286aab0741b5b89f78ce43c733945f95140b3647f9b52bc",
+      "size": 10486,
+      "pointerSize": 130
+    },
+    "xetHash": "bbd7caa518ee4133e40b494e6e300e1b264cddb63340d73a5ce6a655248f95d4",
+    "path": "properties/bulk_modulus_pressure_derivative.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "47d847a26e9d2e1d0eeb8de88787dbd6860059a3",
+    "size": 2032093,
+    "lfs": {
+      "oid": "9cdbd5b17af33aba0c596a0e130de74dddec40efdaaf40ce0ab106aa1c5aa039",
+      "size": 2032093,
+      "pointerSize": 132
+    },
+    "xetHash": "52bc4a8e51b67c9ba974d99cdb8a8c2f1cd9c926682ff14c92be03929b438b40",
+    "path": "properties/bulk_modulus_reuss.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "79fff16b4f5c1cc296a2e7d4c1f45810d72c7343",
+    "size": 2027778,
+    "lfs": {
+      "oid": "3a77215716f0f6d5308c4ba15978ed04b179e4faf7baeae09a2623c8eb53de9e",
+      "size": 2027778,
+      "pointerSize": 132
+    },
+    "xetHash": "82b70ec7883d4ecb5f2642360a9e44a7ec31aa39268ae647231a5b4eb26be2d7",
+    "path": "properties/bulk_modulus_voigt.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "225dc8ee703302d834b71cfa2a0825bbb5d952d4",
+    "size": 2650053,
+    "lfs": {
+      "oid": "42363bca6c8a003c44c04a24be8dfa3b5ccd719b91bf90876f19dc78064405a9",
+      "size": 2650053,
+      "pointerSize": 132
+    },
+    "xetHash": "98129650cf1b58e488d2f68722d77fe7c9a4452791f34422fb6cb27e4eacec61",
+    "path": "properties/bulk_modulus_vrh.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "740538bec96848bb3a5e1722ec4a387ae6aa1901",
+    "size": 285192,
+    "lfs": {
+      "oid": "e0cf574a1b7028fe27bdf0197f1f8ec98d46333190797bb0fd19a1ae189c31c9",
+      "size": 285192,
+      "pointerSize": 131
+    },
+    "xetHash": "642820bdcec75c71b4c20a9018b581d95b17c543b39215e7207535044cbac6d0",
+    "path": "properties/capacity_gravimetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "075a713856f72cfdd320399a2f6a40b37fdd9eb4",
+    "size": 300357,
+    "lfs": {
+      "oid": "55ba59984a95df1c58603002276ebdcba66d5bde3947ec1dbdd3cb590b5b0dc4",
+      "size": 300357,
+      "pointerSize": 131
+    },
+    "xetHash": "eb36169b43a3bc57b6849407373619f85aabec7d0589f0f60444c8b9403f4051",
+    "path": "properties/capacity_volumetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5a25dc2d57ba781bc2dce3a48cf30afb8203d8b5",
+    "size": 1445227,
+    "lfs": {
+      "oid": "9896a28a4c11054fcf8fc2bf002e8abe2e99031f5207385e3baf29fe5d1877a6",
+      "size": 1445227,
+      "pointerSize": 132
+    },
+    "xetHash": "d94ddbefd12f7eb9f49ab567bfe9e0c27e141250a4cba63686799ad2fc069cd9",
+    "path": "properties/cbm.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2f9db7e72f9144463d9ba685cd2b6677888b3c86",
+    "size": 2379930,
+    "lfs": {
+      "oid": "f2f7f2b6ca949767b39b51f27349fb87c67fd86776dca30601866adef64fdd69",
+      "size": 2379930,
+      "pointerSize": 132
+    },
+    "xetHash": "4414f9257a0a595ca767e85680227f826691ef2609cf11ed282d6abe62b3ecd3",
+    "path": "properties/chemical_name.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "63145fbdf962fe35a19866546aad47cc429c78b9",
+    "size": 10073999,
+    "lfs": {
+      "oid": "c00e5f4bd8428d97dbf69fac6ac8c88ff9642cf09572757b2b7f12cd6e1b38c7",
+      "size": 10073999,
+      "pointerSize": 133
+    },
+    "xetHash": "93f5a9db76d56d01d5ee076209528badcc166df4c547ba3e6e2d3637198509f4",
+    "path": "properties/co2_heat_of_adsorption.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e2278b13ce46197e6eacf3dcfb05feb5412ba99c",
+    "size": 3532701,
+    "lfs": {
+      "oid": "e2f050c6fb1ae8265bf5981c57cd151fdd40da0140d6490051bb7c986078c91c",
+      "size": 3532701,
+      "pointerSize": 132
+    },
+    "xetHash": "857befedb2ba7802d3c3f0e3057a2766b20102c50a479bb548d2d6299f0c3e74",
+    "path": "properties/co2_n2_selectivity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "19718a82bdac7a411d6f608b3eeaa183b13bacfa",
+    "size": 9636494,
+    "lfs": {
+      "oid": "50023860fa2f3a487ae8f91ad08658a0415b687f86797c9c550dfcb80172ab7c",
+      "size": 9636494,
+      "pointerSize": 132
+    },
+    "xetHash": "cf9cf9c2fb48491000006219496c0cf4ce58691afb46a22049e5f4cf9113c9e1",
+    "path": "properties/co2_uptake.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b2fd778e9450d9a8908c97d7f7d41357345e427d",
+    "size": 69615,
+    "lfs": {
+      "oid": "c5162567c9097df3e206254a3eff68afa85187670dc55d636e58a851d09ad8b3",
+      "size": 69615,
+      "pointerSize": 130
+    },
+    "xetHash": "90c66df4b5948bbd2abf8decf1007ccfda86e7de4aced5a21a09db3e35d0b9e4",
+    "path": "properties/continuous_symmetry_measure.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "88f06632a773b53afaf0a444cf4c077b53f40b2b",
+    "size": 51376,
+    "lfs": {
+      "oid": "47937f4f1d17028c64619adc6f890457259d395db28185a2e849ed91abc6626c",
+      "size": 51376,
+      "pointerSize": 130
+    },
+    "xetHash": "8d729dfc7663848dab15798786d134b44308f4f2c5928807ff90d9b3627c9d19",
+    "path": "properties/coordination_environments.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f7d8e63c415363b575a9215a58cd4634f8e2d0a4",
+    "size": 2808,
+    "lfs": {
+      "oid": "fb47806f7f2e4e706df081a6e41f5df9996438d7149543aa035cffde23628826",
+      "size": 2808,
+      "pointerSize": 129
+    },
+    "xetHash": "dc4f6411dbbaace55be890c0f9e4b3260a0926439450688c16c603efc060f269",
+    "path": "properties/curie_temperature.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0d814a27713e1caee6daa13c321d08ed64192786",
+    "size": 385026,
+    "lfs": {
+      "oid": "a33e5f1de98afa3ca6fa3b921594b295a899524a4c27d2a3bfba5a2028155009",
+      "size": 385026,
+      "pointerSize": 131
+    },
+    "xetHash": "6db065522ce62fdb29d3adacebbdf3ad9a3348812261c65217a600d64bf75a63",
+    "path": "properties/debye_temperature.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "736e0c14c120ef78bdb88aaf72f06e25b1e3660d",
+    "size": 2126119,
+    "lfs": {
+      "oid": "c2a76b5b2ca3a72da1a51df6ca11270fff09936cfe97eda730ab7910aed678e0",
+      "size": 2126119,
+      "pointerSize": 132
+    },
+    "xetHash": "bbea9589cbd0c05b69980b70bc9be5a1ea83a605666324eb6f7d7181c8e95d6d",
+    "path": "properties/decomposes_to.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ac15ba521e49da5eff0c0cfd834b6add78b08c2b",
+    "size": 1271494,
+    "lfs": {
+      "oid": "fbeb64271ec51e928cacc0e8d6aac9bcb57c7e1f68772dd454e6bb56a0cd68f7",
+      "size": 1271494,
+      "pointerSize": 132
+    },
+    "xetHash": "39c8eb2825c4ce829356945c4eb7687d4a445754f0561db5a345c508e0e2e4e3",
+    "path": "properties/decomposition_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "7bf4f151f27ad605fde322a02af101e533bb932d",
+    "size": 44618354,
+    "lfs": {
+      "oid": "7e5b0364a96a06d1850fbe628c6c5db1ca48c6ab8c0a2387c50b85e15d41c373",
+      "size": 44618354,
+      "pointerSize": 133
+    },
+    "xetHash": "a7ee9e70d5fb708ca263025e67edf0909a9a4d55da516046a4cb1cdab3040284",
+    "path": "properties/density.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6cafeae6272a01084d3a337fc8ea247f92e6658a",
+    "size": 3379514,
+    "lfs": {
+      "oid": "44090c7f2c936918ad864c623bbe8935096fb046d38fe2664c11f0ede72f3894",
+      "size": 3379514,
+      "pointerSize": 132
+    },
+    "xetHash": "989376bc2db6f4a317046b44bc72b5917322da2fe794473ef644a0dbad00e4d5",
+    "path": "properties/dielectric_constant_electronic.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b2bb86b7d85369ebcd28a93372dbdd3ab88068f5",
+    "size": 289997,
+    "lfs": {
+      "oid": "d8f3c8f8ebc7751177db7e6fa429cd062f97200d32a277c33dc0509a872225eb",
+      "size": 289997,
+      "pointerSize": 131
+    },
+    "xetHash": "21406130424b3038d9eb0ed5a9f958f96ae92fc7c127a82cfc243504bdf3abee",
+    "path": "properties/dielectric_constant_ionic.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4da75ff2d760c86504999fb503951e7723c406c3",
+    "size": 2179146,
+    "lfs": {
+      "oid": "2514554c9e1869be05e3b36a93df133ac800fa3749a24f2f412b6b00e1267fd9",
+      "size": 2179146,
+      "pointerSize": 132
+    },
+    "xetHash": "06c9002269bfdae5e49e0b3d33e641312227505c96ddc33ecf7b494148dde2b9",
+    "path": "properties/dielectric_constant_total.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "3ed9d8e160d1fc2e5b7aa0b3e652c96af8ca958c",
+    "size": 3438470,
+    "lfs": {
+      "oid": "020d4ca90599b2ed99da88d79eb23f3ccaf2d3614d6ee48e1364cd0c348afc30",
+      "size": 3438470,
+      "pointerSize": 132
+    },
+    "xetHash": "40286fd410d660c7847d91a19949f95a8ceebe66e899285ceea60c68ae72c594",
+    "path": "properties/dimensionality.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "32200fddb7d89fd1c25ac8e1ad5da68f79c4c6fd",
+    "size": 99423149,
+    "lfs": {
+      "oid": "7f63d3ef676d31f28219e0b3bdca883d7c12efc5f1a6b8bd785d8bd6e69375ba",
+      "size": 99423149,
+      "pointerSize": 133
+    },
+    "xetHash": "06e213e8e8530ef850274a395e8f51a05093e849f23bec8269022315f46c8767",
+    "path": "properties/dos_at_fermi.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "71407d7ff1c045c630b70fe4899f38efc19fe686",
+    "size": 20641,
+    "lfs": {
+      "oid": "b65a3a1c7360d0f7cc6b8d43559e7b72724076e485a78037ef7d2644bb3e8bd1",
+      "size": 20641,
+      "pointerSize": 130
+    },
+    "xetHash": "f821cc30c864a85bff793aa9a6851a43283b778274e834fd1bdb89d4d4a3efd4",
+    "path": "properties/dynamically_stable.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b948a6b99da1bf0dd6564e248d092375f4a23005",
+    "size": 13989,
+    "lfs": {
+      "oid": "9fbe4c941dfff866b9d9de81d8bc8e3fb3a9477296eace2396000cf8b018c171",
+      "size": 13989,
+      "pointerSize": 130
+    },
+    "xetHash": "b3c8293bbe4168ae8bd2df237a0db5d3b66072ec4e4c530346b3de28a0a703f1",
+    "path": "properties/easy_axis.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "dbbd9b88ae6a936980681c9490258a3a073af20c",
+    "size": 71245,
+    "lfs": {
+      "oid": "b85c944d0ebf82a7be34966cac161108206a0087030f44edf23fcd5292fff55b",
+      "size": 71245,
+      "pointerSize": 130
+    },
+    "xetHash": "b5cc488f60a5ee4dc8a85f9f4352e2104ca557af84139197721d0dbfe5d1f284",
+    "path": "properties/effective_mass_electron.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c41710ecdf0e67ab19d5e191edaae8b52688ca74",
+    "size": 71858,
+    "lfs": {
+      "oid": "eea1d73c9d6873c420760f09b02c49a75ed8f207f8655613825408e226dc6541",
+      "size": 71858,
+      "pointerSize": 130
+    },
+    "xetHash": "e00de64e9156a116c1ceef9d72c55e32980c79e9a2eced010e18b9cd15b37f6d",
+    "path": "properties/effective_mass_hole.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "91bfb4c73f242e4d240c2667b5a2caf341936693",
+    "size": 219803,
+    "lfs": {
+      "oid": "e2ab7f62a16daa84aa13f74a378796e703e276cf3093a6d8a0fd939d31095cb2",
+      "size": 219803,
+      "pointerSize": 131
+    },
+    "xetHash": "a822e5acbdf880d77cd977ccb8c2bac19bd2807d289ebad1f640fd341ffc974a",
+    "path": "properties/elastic_anisotropy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f28fb0130dee743185f6a27a8f4762f74c7bb34f",
+    "size": 269733,
+    "lfs": {
+      "oid": "c86b8a3d18da7dccceff398aec4bc8da98dd7c6c3f4ff5a14a0183db93509963",
+      "size": 269733,
+      "pointerSize": 131
+    },
+    "xetHash": "351948c586416aea0c6eec77731c1d257fbbcc3c508ff54724510e1732ce4c2a",
+    "path": "properties/electrode_stability_charged.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6ee3ffeb4c190ee0361226265bbae1a984894918",
+    "size": 293975,
+    "lfs": {
+      "oid": "de26ed47db2a6691e4d8bc7513f8d203903ada1edc881a382c3e9b97f829d122",
+      "size": 293975,
+      "pointerSize": 131
+    },
+    "xetHash": "7b6f21bbafedf99a6873efa508c8e407b2d2ad519de54a219bf020c1c113e9f6",
+    "path": "properties/electrode_stability_discharged.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "d2b39ce22e07c1a720509ccd2bf4a3791bbcfde9",
+    "size": 300773,
+    "lfs": {
+      "oid": "693cb961a44d6b40770ddc2c0822e9ac557bdeb8c1267172f51c30ad8ed29f21",
+      "size": 300773,
+      "pointerSize": 131
+    },
+    "xetHash": "805247a58f82e646ac430b3454aea96df4a6b59437ca79d3717ca970ed4c31df",
+    "path": "properties/electrode_volume_change.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0a1bfb7a6d5cd2e3218a2dda03cfb01ef7db8d98",
+    "size": 24109,
+    "lfs": {
+      "oid": "10573516c0a40418ed24a4aa41c438b8f7f9065202c5a1754f3e775f2154e10e",
+      "size": 24109,
+      "pointerSize": 130
+    },
+    "xetHash": "88fc73edc0cb880d7313050443147460170f4f92c43238e51bf58148f9a4b766",
+    "path": "properties/electron_phonon_coupling.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c31d6df106fa8b3d1b6460f0cfddb4322b7df39b",
+    "size": 5349,
+    "lfs": {
+      "oid": "2812d9f17bf86a89826d49d65be8ea56a2e7b99ba0760ba80ac4a85c1156e0d3",
+      "size": 5349,
+      "pointerSize": 129
+    },
+    "xetHash": "3d1002c1a5e349831eb000c27e4294f2baba7f4de1f08e103800c498d946800c",
+    "path": "properties/elf_max.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "328773d215b68a7e9fa79eb9867ec6d43b47b026",
+    "size": 135176295,
+    "lfs": {
+      "oid": "e5a00ff1b9a6e43b3cea3a10c8f64212caf1bdc6d4b458c0ef71102fb24914fb",
+      "size": 135176295,
+      "pointerSize": 134
+    },
+    "xetHash": "4645e9bf56102312f98a57c5f1179ad4c76044ec11216b24bb2f7996cea4cd00",
+    "path": "properties/energy_above_hull.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "3e7306fa890c3b9f62baa4071a529943d0b346aa",
+    "size": 301043,
+    "lfs": {
+      "oid": "66e5f6f03179f3edc64257e19ab302f32d485e09a9471567cff28688627b6f13",
+      "size": 301043,
+      "pointerSize": 131
+    },
+    "xetHash": "fc97dee0743cdeca6633dac14a79be3a41c692505f5cabf020615d085d6fa24d",
+    "path": "properties/energy_density_gravimetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "16423be3f3b0c05462bc8abcedb5e4efe0048133",
+    "size": 301038,
+    "lfs": {
+      "oid": "bde910094cc5a921cf98415ceb07d53dd67fbff70aa8506a620891b4e6a7b59d",
+      "size": 301038,
+      "pointerSize": 131
+    },
+    "xetHash": "41a552c6780a8ab678ac64192df3436bf27477bc2c984e84f064943ca7abd074",
+    "path": "properties/energy_density_volumetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b51837c896899b76f42c7fd976c2f3b4048f0f58",
+    "size": 1924770,
+    "lfs": {
+      "oid": "9c2ee0b09cc131ebae40a6fd76ec01195ed99d50a5a6f8a30d9fb7a64d85defb",
+      "size": 1924770,
+      "pointerSize": 132
+    },
+    "xetHash": "32c4332cbc52d6bc2d66ad80b44720884590c3d4cf6118f7fc16a56b2a24de5d",
+    "path": "properties/energy_per_t_atom.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4ce4c7c0cf68d0708010a7a3541861e5902c33d1",
+    "size": 153956,
+    "lfs": {
+      "oid": "296324f73fc0d23ea6f8ce8a3d4dc9cd0e8a430a44d819295adf6541b9b3d690",
+      "size": 153956,
+      "pointerSize": 131
+    },
+    "xetHash": "507562795a98b6bf38618bcf297d877a083ad237f3937076a109f82a3ef76957",
+    "path": "properties/eos_bulk_modulus.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "19f32ba5ec4d68b8e1a5a28f369e18a96b1d62b2",
+    "size": 107279,
+    "lfs": {
+      "oid": "248f896cdacdcd947a906170f4ced6a1f0f1e65723d7b07e40ecf2e2a9caa691",
+      "size": 107279,
+      "pointerSize": 131
+    },
+    "xetHash": "4e805b1f1d23336bb0d6d1508a0c9395bfe857672c47ff644ac5c34ce1bf1786",
+    "path": "properties/exfoliation_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c95951c81883854d8d942868380afe58a626dfe7",
+    "size": 1778387,
+    "lfs": {
+      "oid": "96ba6d252bd059a980e6d061a596355bf25541811d7a034cb6ca5c98e26ca009",
+      "size": 1778387,
+      "pointerSize": 132
+    },
+    "xetHash": "7e3e27dec092ab755e860980b829e8f55f232c5fee427e9ee42192b81c5d228e",
+    "path": "properties/experimentally_observed.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1b9b750bf57a50967d8cf2e0889ef70429cfd878",
+    "size": 3197122,
+    "lfs": {
+      "oid": "1d0ece0bd685e757346b231d5eb5574396cc9c2a3d90c510e244ec03fbe77c95",
+      "size": 3197122,
+      "pointerSize": 132
+    },
+    "xetHash": "39fd3d9db9dbe800e78d643f74584426eb861900eb6c06cd158f1b8147ee18e9",
+    "path": "properties/fermi_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "a97b6b5df6f546564c6b9f53cb9f93ebd54dbfb0",
+    "size": 191767767,
+    "lfs": {
+      "oid": "707ec11d86b13c8422861e141114c8a8ee35e632873ec5f2d3e1ce8d22ad4470",
+      "size": 191767767,
+      "pointerSize": 134
+    },
+    "xetHash": "a075b530d3209fa15e94a553ae5858f8091a1148267d8d362d6388a9abd41973",
+    "path": "properties/formation_energy_per_atom.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ec6eca280db13d2a6728e79443def5fc76aaeade",
+    "size": 380632,
+    "lfs": {
+      "oid": "d30bd6ea8e970ec9dddac67a92ea3180ac00f2b2f0bd7b2e2a00879326d25036",
+      "size": 380632,
+      "pointerSize": 131
+    },
+    "xetHash": "1b45817e7d47e8991655aea0fdbfb379af1728f5502938ac11ffed751c1d8e1f",
+    "path": "properties/framework_bond_dissociation_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "fc3c849518d5910f4582066c93cec7ed6fe525bc",
+    "size": 2067328,
+    "lfs": {
+      "oid": "74bc5d12a5034734644a0652ab043cbc8be85809f8eeedc2e921e4031f29c1e2",
+      "size": 2067328,
+      "pointerSize": 132
+    },
+    "xetHash": "dfa6e79a4352981c15af49ef1d86ec7336c958e75b0020dd747bd6e496c67561",
+    "path": "properties/framework_density.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4321a26414dd5e9d6fe7b5538700e69072e6b53c",
+    "size": 98829,
+    "lfs": {
+      "oid": "c8b8f6807f5f521065e4504df8ad22b96b2fbc8bec6453e69cbb7ce9e2da58eb",
+      "size": 98829,
+      "pointerSize": 130
+    },
+    "xetHash": "d611f51f86f7c06082dc61c116cefa3ccefa07a5bd5ae92340ba13c4337a000a",
+    "path": "properties/gllbsc_derivative_discontinuity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e421616f4f2c2d1843ad16af904b8814a7edbed6",
+    "size": 7075,
+    "lfs": {
+      "oid": "4457798d2896b9ff8616988a6a1f3942102323de9b6bb1113c4a021acea3329a",
+      "size": 7075,
+      "pointerSize": 129
+    },
+    "xetHash": "e5eff2bb1016657958836ed91e207a5bee979cac028566ba82f32fe28d68ff6e",
+    "path": "properties/grain_boundary_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "03e69dc77625b1b7ef11cfd996164c586bf9261c",
+    "size": 5899,
+    "lfs": {
+      "oid": "fd42b5e2bff52268216be659a36cad7ce80939494e970355677950056f2bef43",
+      "size": 5899,
+      "pointerSize": 129
+    },
+    "xetHash": "4ea4d955c0a8666ecc4d57b1d49d7b2b35732c8c19abb73a3d9b35c10d22aad2",
+    "path": "properties/grain_boundary_types.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "057b54cce46596a71b3f121a1f81ab9691791b8b",
+    "size": 8567,
+    "lfs": {
+      "oid": "6f67c631493fe8e68e3f6280a1a168539adb0ec4cb2ed7c32254ef8d3c97c87c",
+      "size": 8567,
+      "pointerSize": 129
+    },
+    "xetHash": "42026068eb9d8f9ca1d040ee16abe3a30dbfda941ad16e31765df3736f28048f",
+    "path": "properties/h2_uptake.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6cc63bf104317d30a70094ec24288d61e36bb901",
+    "size": 2979,
+    "lfs": {
+      "oid": "f1b70c58845c06e4d3720336ca29b6c5c56404420162fddecfc9a2c136ceea3f",
+      "size": 2979,
+      "pointerSize": 129
+    },
+    "xetHash": "a0e5b72ff90bc581276ac754cda023b6fcba811bbd9b7a5410b10cbca2fec5de",
+    "path": "properties/hardness_vickers.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2a286ccad28fc969a2aa418ff088e04e3613b441",
+    "size": 783080,
+    "lfs": {
+      "oid": "e0558fa1b3e9b3ce6719b38aa06cb8219fa070c2abfcbab6ac8d1a0822290ab7",
+      "size": 783080,
+      "pointerSize": 131
+    },
+    "xetHash": "5903ffa60360e4fed6d169fc3cc18570243ebb3ba5a3395f01e7ec81bfbee3f3",
+    "path": "properties/has_imaginary_phonon.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1739455b2eb0390f839bfd00f147e8116c99544b",
+    "size": 6627,
+    "lfs": {
+      "oid": "1c4c0880e2627048ff1f79d748844970d376b782ae10fafbb62e9e1ef6e6b85d",
+      "size": 6627,
+      "pointerSize": 129
+    },
+    "xetHash": "723ab044f3d3b2beb78dee5998f7c8f7c33dd44c012a92ac1b27dffa0a1b7754",
+    "path": "properties/has_reconstructed_surface.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "150f6e3521e8b3116648f7858bfee5b8289b8952",
+    "size": 568682,
+    "lfs": {
+      "oid": "e6c16aeacb45290bfff50bb0a074098ec35d8949e84174f69cded869b195b484",
+      "size": 568682,
+      "pointerSize": 131
+    },
+    "xetHash": "8be42d0b6f86eae75437c71a8dc88f923467ecc228de679099daf197fde0c256",
+    "path": "properties/heat_capacity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c134f41426659ccf93301f7f0fde398361ace6cf",
+    "size": 243034,
+    "lfs": {
+      "oid": "77233eb8da2b7ecf4590a2b87ec32d44d9feda6c9b524a4311d8d12060292287",
+      "size": 243034,
+      "pointerSize": 131
+    },
+    "xetHash": "4c7bb7c1e21173c3d184a5dc3a05139538c289bc03a794853f17aa6ec7ca5ac8",
+    "path": "properties/heat_of_formation.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "02c0f97ed3f95ce4fefc8eed7a86ea38406bc7e7",
+    "size": 142750,
+    "lfs": {
+      "oid": "7715c934e8fca589ac395a4071d9ff5afbe0b69e4a0810dcab3b9e2cef6923b1",
+      "size": 142750,
+      "pointerSize": 131
+    },
+    "xetHash": "d56a32ec68fba50d6c7d7551eae423d4f76deafd691d0bc6a61785c9aada5659",
+    "path": "properties/interlayer_binding_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2d0cdcc90950edfdc7bcde4c2cb52f1ceed9612d",
+    "size": 2826,
+    "lfs": {
+      "oid": "0f35ebd9ef735fe9002048c9219e1934c61b8ccb09be3893910194275141f321",
+      "size": 2826,
+      "pointerSize": 129
+    },
+    "xetHash": "4f400c6f0231b35769c4bd8251f2884c71ed9369505ff32cd531b1299efa1340",
+    "path": "properties/ionic_conductivity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "38bd883448ef21ce12ea2e10b004f48af0100904",
+    "size": 2098275,
+    "lfs": {
+      "oid": "a5db848f791b1736e78bb7544335fa7e05b9f64180a586493c0bc93fc7332c39",
+      "size": 2098275,
+      "pointerSize": 132
+    },
+    "xetHash": "53a3bfe532d289bf6f5e91e3c069993042f72eca6bfe82799feb15bfaedabbde",
+    "path": "properties/is_gap_direct.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1b8451d69e8e4d6ac8b8e5f5bc57fd718fb230d4",
+    "size": 1582249,
+    "lfs": {
+      "oid": "3073c7aa6204dc6914b2c1f60cebb659c7094244ab015d3704d88873f9b19bef",
+      "size": 1582249,
+      "pointerSize": 132
+    },
+    "xetHash": "3677b41df18fcb0ca5b92b53656086742d829ae427d47a0c489e623697221306",
+    "path": "properties/is_metal.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2b16c0bc9c737801f5fe69e2d61df1bf45b68e57",
+    "size": 1575399,
+    "lfs": {
+      "oid": "ef2bed0d24c1d1c5ced75d63b1177b33c5d0b55399e46bfed9ab087e5f9170b0",
+      "size": 1575399,
+      "pointerSize": 132
+    },
+    "xetHash": "d6df4ab203555081c3fff362650807bfbe3042c236ff80f673f9558e2bdaf371",
+    "path": "properties/is_stable.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f45e9a1c9f31944a953dd29de8bc779568ea947b",
+    "size": 4222756,
+    "lfs": {
+      "oid": "371d4553edb56ca1212d214a708095e6d80548591aa0237729431194607acb28",
+      "size": 4222756,
+      "pointerSize": 132
+    },
+    "xetHash": "6bd73461d203cc91b33adf62a66f6a3697c4e494e60eae9a085aee577068edf8",
+    "path": "properties/largest_cavity_diameter.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6bfbebb78008fbb3a2ef82f7b84e43b8889b0d81",
+    "size": 671886,
+    "lfs": {
+      "oid": "65f7f277cf03c61d6087d2325cb49e4be9d29d965af3015232e853b59d1035dc",
+      "size": 671886,
+      "pointerSize": 131
+    },
+    "xetHash": "4ee75fe7e0eaf806d477b34613ee6c8895a9490a91ce853b445d33d57d193b21",
+    "path": "properties/largest_free_path_diameter.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "efc71c4bfa9014c7c9a1faaa45e12b92e636e82f",
+    "size": 534869,
+    "lfs": {
+      "oid": "b1ba4b328b592cafe8f8dfa9a5ac50f73690fa6aa4dc8aa20cdb90492e862671",
+      "size": 534869,
+      "pointerSize": 131
+    },
+    "xetHash": "f11beb43fe9cc9f108aa1114a0a7846cc5376477f2c2c7473a9b489c90da10cc",
+    "path": "properties/lattice_thermal_conductivity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1c6d92add6cc537bd29cb22c5e95af9b7ec098e3",
+    "size": 148621,
+    "lfs": {
+      "oid": "6a301de9766e18cbb44a4ad84b45b9ca25de248a64223746f49ac2c3eccdf21f",
+      "size": 148621,
+      "pointerSize": 131
+    },
+    "xetHash": "e5b4fd02ccbbad7b22201805b1989406859e48621a9d3b8cf705ae9210bf845b",
+    "path": "properties/lattice_thermal_conductivity_coherence.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "cce557635c261b9b2a553300e5e3ab3488719ac4",
+    "size": 157801,
+    "lfs": {
+      "oid": "4397768e71f3938a549a01dfa68250309389587a8a7ab6d23c68b2d1c8bf17a5",
+      "size": 157801,
+      "pointerSize": 131
+    },
+    "xetHash": "b2ff311e6bd33f5c17511b9763535a595cdefa46639a4d784a830f2dc77d153e",
+    "path": "properties/lattice_thermal_conductivity_particle.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "aeb6076d516ded6ae932e66ee03f559d61ed0700",
+    "size": 21304,
+    "lfs": {
+      "oid": "def9edcb1bff03e6d884b7ca635b26dc98fdf5495dbd10507f742d1cb2548495",
+      "size": 21304,
+      "pointerSize": 130
+    },
+    "xetHash": "5180191986a29e140565fb66c12fa7518782792cb13c41b9ae91189965f1b79e",
+    "path": "properties/layer_group_number.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f88dd6b482df621dd5a76573f810a2c9b5110765",
+    "size": 18611,
+    "lfs": {
+      "oid": "a5d3a17a0cb7550777538b7f358f3c0a208385ef3dd4b0993b79519fe4c2e337",
+      "size": 18611,
+      "pointerSize": 130
+    },
+    "xetHash": "78102985d44a49afa67aa7f6258f61c0fad88122c9609967c8d81ca0f58e4b81",
+    "path": "properties/magnetic_anisotropy_constant.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "44c0cfcdb9aaccf6990f332df53648325d8c6fb4",
+    "size": 1520436,
+    "lfs": {
+      "oid": "b4b0ef69eddb82634e839eca8a15008c1fb6e316e57b00dda9fea6496f1ae318",
+      "size": 1520436,
+      "pointerSize": 132
+    },
+    "xetHash": "798a0c3e1c67afb8228bd0b6661e9b64c166da254c5081b292167c4fba687616",
+    "path": "properties/magnetic_ordering.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "720d3bb0455521948ad10fbbb9bc174a527572f1",
+    "size": 46607,
+    "lfs": {
+      "oid": "8e076967a5d8c15166af01ce85905d7542c4a6eb80fd295fc2b303c837fc8eb8",
+      "size": 46607,
+      "pointerSize": 130
+    },
+    "xetHash": "98e3cdccc8b4aebb938d450ed7e95ba9991353c22e77358b441d63e4df676015",
+    "path": "properties/magnetic_polarization.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9ab880eafbb66d98ef930eac02317ed81e66639d",
+    "size": 786291,
+    "lfs": {
+      "oid": "610959eb410a1b73d7c88d1b4efb165468cab261cb9dfa3b8898a5ddb85f8026",
+      "size": 786291,
+      "pointerSize": 131
+    },
+    "xetHash": "e764fd6762dc3c29a4f707991385c0b4161fbecddde6cb9b7a69a415584722ce",
+    "path": "properties/magnetic_species.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "83629944eead259b270de3e265e70cce6646abc4",
+    "size": 12065465,
+    "lfs": {
+      "oid": "bd092e952a0f027f8b4be2fa9fd876da740bc35474cf2ca157901735d8d8fbc0",
+      "size": 12065465,
+      "pointerSize": 133
+    },
+    "xetHash": "0040c83ef71a844b4d07df95cb2ef6dd557828103a3b3e63a225c5a425238e19",
+    "path": "properties/magnetization_per_atom.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c4355c596ca51b5dd348efce50737616a9e78808",
+    "size": 2903860,
+    "lfs": {
+      "oid": "c7f048647c5b3fe255c4dddc2ba77d376f7f466f485272f8ffebd9e90620ada8",
+      "size": 2903860,
+      "pointerSize": 132
+    },
+    "xetHash": "886c707ab65bbf16a875622692e1f5029a099f8f6c9a9b8d7ca9c48b6387c9ab",
+    "path": "properties/magnetization_per_volume.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b1aaa3ee04b68ab5465d4079c5aad5aae9152209",
+    "size": 104152922,
+    "lfs": {
+      "oid": "6fba6de11f70fe3cc2459247bd7ed48398a56dd2166bd26a9002bc49816e8219",
+      "size": 104152922,
+      "pointerSize": 134
+    },
+    "xetHash": "5c525b807d4ce808bdc2955a5312c970cea9d2c9420bc2396df50c65f6e63488",
+    "path": "properties/max_residual_force.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2bf39cb3a1d5263b143351dde7ade7deb6bc195c",
+    "size": 617477,
+    "lfs": {
+      "oid": "1810babef097baaec8defd5ee01289a0455e86e9809476ff3d154d97ede4a8de",
+      "size": 617477,
+      "pointerSize": 131
+    },
+    "xetHash": "b28a0e56ca384fa83335b03c4dbcb67b8fc8081f29f9886929ebfe394364aa7f",
+    "path": "properties/max_residual_stress.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0f4d4d65e2d075cec17d707623ae123601e299a4",
+    "size": 207888,
+    "lfs": {
+      "oid": "c98da0ea2c833a4b4de6418f6e7c3094d7250a531c44ff603ae3d08cf16aa374",
+      "size": 207888,
+      "pointerSize": 131
+    },
+    "xetHash": "a6e4edfad7dafe1eb3c16d5a8ef4ce963bd7df1e03176b261342bd12eb5c718a",
+    "path": "properties/max_voltage_step.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "47e6e94d2b4f122433d5ea7b0aa6703f17b96d96",
+    "size": 6818,
+    "lfs": {
+      "oid": "23ea0bc2a2e8a60b11ebcf7f4de7354e5e3c7674b74320ccfe6d6f1d7c1cbb09",
+      "size": 6818,
+      "pointerSize": 129
+    },
+    "xetHash": "6339cb43b360e779aa9d6092a60dddc4f2fcec5639cf535998dfbd905a0f112b",
+    "path": "properties/measured_chemistry.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "197df9e18020cc988ed34c656dc07b83a9ee0265",
+    "size": 33794,
+    "lfs": {
+      "oid": "9ecdb3143b24d34539e4c75a9510a3bf673ef407f36d44adb712fc9758cbf272",
+      "size": 33794,
+      "pointerSize": 130
+    },
+    "xetHash": "5da1a7e8b33fb30b6d29f573f3094f3604f8e13fb5c140f684300cb190b0be4a",
+    "path": "properties/measurement_pressure.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f16ae2c1b9106dfc38860d7c53e0188888ff5ed2",
+    "size": 1240155,
+    "lfs": {
+      "oid": "75427c32097c5a5033e2f4546c42dcf7ddfeada2b952d222c3f58132725af867",
+      "size": 1240155,
+      "pointerSize": 132
+    },
+    "xetHash": "b37a4fb37b591559909d37eb03cf5686b3849974292099440622e942a4630cf7",
+    "path": "properties/measurement_temperature.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e53171b064a77f019f32a293b4a378c158243ebd",
+    "size": 12709,
+    "lfs": {
+      "oid": "d7f6070212fe7496f238f1f0d936166d620956246b5c45bc1a4ddc54ef4b153c",
+      "size": 12709,
+      "pointerSize": 130
+    },
+    "xetHash": "453982aef2dbd5319cf66c9c639b3fff36cc769d89c8ec64353b54592429048f",
+    "path": "properties/migration_barrier.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b714b2a8a973b3afdf6dbd8c0919b3c9ab3e1fb0",
+    "size": 193347,
+    "lfs": {
+      "oid": "7174ad36808d41bcecc4ac28a60e3707660bd61d31c234df2742f9c2add642d9",
+      "size": 193347,
+      "pointerSize": 131
+    },
+    "xetHash": "c133cf80501a4b6c54157fd03ace4e646cc1283ed14b1e0019e31d4a42cab700",
+    "path": "properties/mineral_name.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8503e34783fca1f6de214b239626f7278ea2f43f",
+    "size": 6155,
+    "lfs": {
+      "oid": "24b88e42ada01063c45050a77b9ab0e2eefd8e225ac4b9474dd5ed087a08a212",
+      "size": 6155,
+      "pointerSize": 129
+    },
+    "xetHash": "097fa394275c98219d161faa718d81aec2caf7f522a4ad2e78512fa4e0acef2c",
+    "path": "properties/mohs_hardness.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "a2fc5a70b129925d117d0d82c560c29e33d9d029",
+    "size": 3494548,
+    "lfs": {
+      "oid": "b4411689dac56146ec54baee43b02eec9ec5f83e61619a769050302c2773f66d",
+      "size": 3494548,
+      "pointerSize": 132
+    },
+    "xetHash": "6dde4b09fb0d0045268fa71a477be4d2b451849e7a65ca78a191f2517a284b4e",
+    "path": "properties/n2_heat_of_adsorption.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c243341aeddea79a104c7004bc20619c2b0b8e3e",
+    "size": 2335992,
+    "lfs": {
+      "oid": "04eb5996de765e4868e24a76995db5b15bd2661de04e89f7ef2b775bcdbba767",
+      "size": 2335992,
+      "pointerSize": 132
+    },
+    "xetHash": "b98e32ff33e86c470a76120124920bf94582ba1581cd3047a0d1f6599347192d",
+    "path": "properties/n2_uptake.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b9bc0d43612627cd639c623e65d26ec9e4ddb2c9",
+    "size": 268945,
+    "lfs": {
+      "oid": "2abaacb1c672cc8d83d4bd754a4a4612fa88c6d7fda80ff918be109e006bdb35",
+      "size": 268945,
+      "pointerSize": 131
+    },
+    "xetHash": "557762a59d3001475287cd91064238b727e066248d03617fca93cd2dfde3336e",
+    "path": "properties/nmr_efg_max.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "42936bf8c11cd6c9b5f533963b6c13ca00854088",
+    "size": 195121,
+    "lfs": {
+      "oid": "b8c14840059e89ebe7e026b2f3f8b8b182d60e0a8c6956e5ad842911a8459fe9",
+      "size": 195121,
+      "pointerSize": 131
+    },
+    "xetHash": "60c73948a0916b7e55ef0fec21bd1faec338f51c128dfb72ec5e0aa7aa80fc74",
+    "path": "properties/num_voltage_steps.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b8b94df92335f9f675e7b17650bf7f670bf01b57",
+    "size": 1841619,
+    "lfs": {
+      "oid": "3ab604d07653b0d63fd2717f1a5466ae00460d17b0e508f1c0d80203844035f9",
+      "size": 1841619,
+      "pointerSize": 132
+    },
+    "xetHash": "64d45b6153d05c954b68c3803c44f22a54fb84ca5b4eb6b952239a5ae6856f8d",
+    "path": "properties/oxidation_states.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "40574205bd059c379236e156e6a4bd3db642746d",
+    "size": 17361,
+    "lfs": {
+      "oid": "25fd2ad068de47b095914223a0a20c75ce0b41f2925da0e67a760b7064e289d4",
+      "size": 17361,
+      "pointerSize": 130
+    },
+    "xetHash": "f787711b60cf6724908ce9a137a64364f89836e2c7867c5db5808b1df26c63bd",
+    "path": "properties/pearson_symbol.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8ce85e9e54ab7d91755f7c8fe7505e3efc7da0a6",
+    "size": 111243626,
+    "lfs": {
+      "oid": "6004728748538e63a1d3e3461a429f820a281a4249afebd719e5750a21d3a008",
+      "size": 111243626,
+      "pointerSize": 134
+    },
+    "xetHash": "e0df5e743988b61b8087d2d184135a85cba865440b2443150135e88652792da2",
+    "path": "properties/phase_separation_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ca2fe8158d9299178b476f9451f55ddd32c9c498",
+    "size": 25257,
+    "lfs": {
+      "oid": "f40e956ff75de6817757cf93ccaf9779c5b8c482f31a46ace15608f0135ebccf",
+      "size": 25257,
+      "pointerSize": 130
+    },
+    "xetHash": "0d84dfb2f0d9377690f2dee56bbf78c6a006fc9202dae2a926d34bbf896987d8",
+    "path": "properties/phonon_log_average_frequency.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9a1eea10e350078a3a7c2d07921a76600669f0e1",
+    "size": 1251023,
+    "lfs": {
+      "oid": "0bcbf937e019e59ca7f61f33bd03a6dbd4ab271048f29a9629e8e5d0e159d656",
+      "size": 1251023,
+      "pointerSize": 132
+    },
+    "xetHash": "1394d73fd816fa17acc359cdf530f4102339fe579938e1a674b58338ea36050c",
+    "path": "properties/phonon_max_frequency.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "48d4e69ab976c537629afa71144492337f1d7bae",
+    "size": 1077599,
+    "lfs": {
+      "oid": "a388d1ba3ad3420ce6e8c297aa12c2de4d311bba207decd4d083bfd00418e7b3",
+      "size": 1077599,
+      "pointerSize": 132
+    },
+    "xetHash": "db2fcfdc3eab6e8584356a4741ca684f096629c6511614b59c72c5b56e3e8d64",
+    "path": "properties/phonon_min_frequency.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b0923aa9cfbd50a0a51637c6b15b630596d2603b",
+    "size": 45695,
+    "lfs": {
+      "oid": "c24e45a63683abf852fdb984f549c697d6d39b0222d69e4bf7d9172da413983d",
+      "size": 45695,
+      "pointerSize": 130
+    },
+    "xetHash": "1ba42ea31731c183c360f94908bd8327a6a9fb86311f93166556a04c4475c53f",
+    "path": "properties/piezoelectric_max_direction.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "44dfd1eca636602f87f560413d30e95eca988874",
+    "size": 161491,
+    "lfs": {
+      "oid": "8e558e11c7ab226ebff963857a4f7f760accf4f24dbc9c9e0f61dc98f035c0a9",
+      "size": 161491,
+      "pointerSize": 131
+    },
+    "xetHash": "dd008d661432e453e8e92f4e541141d8545d93b3d8d87b5ce35c6f6c893be660",
+    "path": "properties/piezoelectric_modulus.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "26bd1a124acbc7e5039bbcab1de426dfd734a35c",
+    "size": 4494881,
+    "lfs": {
+      "oid": "aa7eb2dbde5961055f87b17bf14ffaed0426d7ee4ec3c343a5272ac059b67410",
+      "size": 4494881,
+      "pointerSize": 132
+    },
+    "xetHash": "413608ebbb465b2a2754674f200d6670f4e22c7e50603125cbda6334465c5ce3",
+    "path": "properties/poisson_ratio.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "af6e3c91d000a554f8da91a2f24be03916b92b32",
+    "size": 293576,
+    "lfs": {
+      "oid": "1c1da1c3b40eb8f11ba3e29f92748f05fc0bb0b78a7913f0dfaed767b9f05868",
+      "size": 293576,
+      "pointerSize": 131
+    },
+    "xetHash": "24d59c99269f1c0dd58d0b9f268b25fb0244f9b8a7aee9651fd0e5ba820a2e32",
+    "path": "properties/pore_channel_count.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "861a59dbffcd98bd16115daa8f5b72ef4a6db5f8",
+    "size": 4203981,
+    "lfs": {
+      "oid": "88debdbfae5dacc464104711a3bd9111f0d6679250168117d7cb5c4eacf7a5a4",
+      "size": 4203981,
+      "pointerSize": 132
+    },
+    "xetHash": "ca29e4804e983d4140c685a2e67934633056efb07b3604d66f29d928d08c2a81",
+    "path": "properties/pore_limiting_diameter.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0a08754bac39159d378bf50391e1564c678bae53",
+    "size": 1677331,
+    "lfs": {
+      "oid": "f3feb048f3fe5f6709f6dbd556fe3ff819e9e88d040d96a5246b5026ffccc5b7",
+      "size": 1677331,
+      "pointerSize": 132
+    },
+    "xetHash": "653f3797fe0d6ac49e9f4b80fb4942402e94a01e74e78258381677374692790c",
+    "path": "properties/pore_volume.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b4e87f48bdb1357a977e773e64264d3c9547722a",
+    "size": 706665,
+    "lfs": {
+      "oid": "c1a89ee2b6c9ffc9a9b586f3274ac8f1307d360437947e6eae38136ef8527d11",
+      "size": 706665,
+      "pointerSize": 131
+    },
+    "xetHash": "cf82c35b9226cd9cc933fd5bf0d8e7ecc08dbcb9f4b0edad1f8f85891ba8179a",
+    "path": "properties/power_factor.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c8c30b364bcde14a99443821faeb31440b447399",
+    "size": 997369,
+    "lfs": {
+      "oid": "fb890e8f472f4a31ed2fa23d8c3afd1b23f18a20ebc748ca165b05766b9d476f",
+      "size": 997369,
+      "pointerSize": 131
+    },
+    "xetHash": "c6eecf73f369b10b98b7ba914a059ea5e10cbc72952d3d2f37101962a4125c39",
+    "path": "properties/predicted_synthesizable.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b15d284e97e4a2716e05ce2ed62db3b45f71a4d7",
+    "size": 5652,
+    "lfs": {
+      "oid": "3f06b6e33364d22ebf542f82dcc5ae427795920c34f097a4cbad6bd933f3e4e0",
+      "size": 5652,
+      "pointerSize": 129
+    },
+    "xetHash": "45abb1b7f483fdd6f1c8787ccd8302ef18ad8f0ac61e6ef1303e2f6907abd317",
+    "path": "properties/r_factor.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0264455c2d879d7d1a30372f4e298fdba3691e4f",
+    "size": 263615,
+    "lfs": {
+      "oid": "2d80eb91beb7272053a7a01dc45c8ed491245933ffc1a132104607f2070c2a17",
+      "size": 263615,
+      "pointerSize": 131
+    },
+    "xetHash": "e6aaafa5c02a7df84a08956694682584ac54cb96677c8e4100d6da2d24c012d0",
+    "path": "properties/refractive_index.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "df3f8f5ee5937564f121e31cce00941a33b6b4d7",
+    "size": 3033,
+    "lfs": {
+      "oid": "c4d47177f1f19453ea10d959dd43012d32689a41dd0c5d712969fc23b59d7159",
+      "size": 3033,
+      "pointerSize": 129
+    },
+    "xetHash": "b4079b037ee255bd1b241f81a7c8bb1839d9138dca15cbf545c5ae2112e4fcb9",
+    "path": "properties/relative_energy_to_diamond.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "3d361909b245e7cff19f5efc4360e3847cb0baa5",
+    "size": 676359,
+    "lfs": {
+      "oid": "f4fa14b2446e7af95bc6764658471c12e93b477dc716a54d2a551dc6f40dc9e4",
+      "size": 676359,
+      "pointerSize": 131
+    },
+    "xetHash": "d7de6dc41e8a4e5b69bfb8db613efa2fbb6dd23c4e84227630944dc6fa7324a5",
+    "path": "properties/seebeck_coefficient.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "387809a7d8a225e843207780b6dbcff5faa4c431",
+    "size": 1989869,
+    "lfs": {
+      "oid": "57013e085f32dee5efb41e0c516b1192619148188eadc62c4c381a6f080978bd",
+      "size": 1989869,
+      "pointerSize": 132
+    },
+    "xetHash": "31b0b5497bceb5722cb9b4c4ee4302e984bc96cbd72957918ff6f040459ab8da",
+    "path": "properties/shear_modulus_reuss.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b7eeed3b669d4cfa07ada5520fcb20314744a1df",
+    "size": 2007202,
+    "lfs": {
+      "oid": "589c6cab83d91e660c9dd93533edd667a1249936301b8bdc75bfe5e19fb2332a",
+      "size": 2007202,
+      "pointerSize": 132
+    },
+    "xetHash": "3dd0eca2d232441c12ebbfe3b2d56b84020137c23aebc651aaabf70d24543080",
+    "path": "properties/shear_modulus_voigt.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "05da2651319df768941b8e4be7f17155ccb3dbb3",
+    "size": 2615585,
+    "lfs": {
+      "oid": "24ab2fd7eb8f6c8c7dba804454cb7f0ebe56cbe06190e1269baa989d754849a3",
+      "size": 2615585,
+      "pointerSize": 132
+    },
+    "xetHash": "cf91035a70c9655f4b2e79bd7f1dc0a788768bc3dab015b74b5c4a687d526118",
+    "path": "properties/shear_modulus_vrh.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "7d812ab6a08c58b4693a45aa7c79027589e95507",
+    "size": 53838,
+    "lfs": {
+      "oid": "d71de698c35faaa020d16afa1b885a42b3c02386fcef9f59df349b7556e9a0dd",
+      "size": 53838,
+      "pointerSize": 130
+    },
+    "xetHash": "b69d35cb01edee1aa1a9e461beaf1022404ac207907000ce1217b07ea4b6e6bb",
+    "path": "properties/shg_coefficient.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e10b1b5a12f671e592e8cbe93a5e84eecd8d811a",
+    "size": 152593,
+    "lfs": {
+      "oid": "c1b3f38678a0f89265409a26bdc5ad10b7b86285bc366124600b91a1b1cc222e",
+      "size": 152593,
+      "pointerSize": 131
+    },
+    "xetHash": "4699115a9c391138b10e17057d97e32797b0358879a2c70d93caf2a261f95228",
+    "path": "properties/slme.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "d65af7a0bc4cf4d27adaccb6fd9070a9b9407cd0",
+    "size": 1921804,
+    "lfs": {
+      "oid": "ce65258c6c15562824ceb058f6028aef20c5965c71dc7d536b6136a3c1cd6972",
+      "size": 1921804,
+      "pointerSize": 132
+    },
+    "xetHash": "eb01e147d6e598462f38ddc6f50596abe15a897240bced25663402a96bcad8cc",
+    "path": "properties/sound_velocity_longitudinal.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5c00552fb046d8ee07ddcd55b7d48dff2ccf8381",
+    "size": 1834631,
+    "lfs": {
+      "oid": "6bc80b44ab40d84d55dc97fcd80208193b19f738e771edeaf1902f92ceb020b9",
+      "size": 1834631,
+      "pointerSize": 132
+    },
+    "xetHash": "abf6c2a5d934bf29bb34e68711ba9e62396126f25ed25e3bc015a93b632c25f1",
+    "path": "properties/sound_velocity_transverse.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "a0852334fc16dedb7484d728204e687abc779843",
+    "size": 100864182,
+    "lfs": {
+      "oid": "a3a08d042f492cb5e471cca0c944ca666414a978dcde49454c91ec3c8ca4b019",
+      "size": 100864182,
+      "pointerSize": 134
+    },
+    "xetHash": "4ec6604750fa5d1aaa4468db87d64f568fe9f4354d4ea7c3038a048e857c146a",
+    "path": "properties/spacegroup_number.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "a1b5491c44d3949c7c7d686f91737a96e9303c3e",
+    "size": 191154,
+    "lfs": {
+      "oid": "e043b6b2667b53c85296f733c4555023079b2e3ed6988c58b10c60343a95157b",
+      "size": 191154,
+      "pointerSize": 131
+    },
+    "xetHash": "71eecea3699bfb8c118eb800aad3d666f59bdaa4d16540afaa0dbb3047dcfe36",
+    "path": "properties/spillage.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "11199123d8317bcadf0a1bdbe6ba469de0a0149e",
+    "size": 147741,
+    "lfs": {
+      "oid": "e97763800adbe435a62456e76b34e109212ba64b1fa0170753687a6e4a7271e1",
+      "size": 147741,
+      "pointerSize": 131
+    },
+    "xetHash": "108887bd69d9b0f704a4aea67369823ae8e50166d6d598bc12f664130e5685d8",
+    "path": "properties/structure_prediction_r_factor.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f78daeae4e781a9b383707e9ad2cb25e70772a8c",
+    "size": 38048642,
+    "lfs": {
+      "oid": "af11e03e5ca0ba531e1e698e7de990b005bc005837a6430996117f82a12fddd6",
+      "size": 38048642,
+      "pointerSize": 133
+    },
+    "xetHash": "a6358308871d52bffb911cdbe081fe3668c9467c9533765569355ef74f2daf83",
+    "path": "properties/structure_prototype.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "532a438ce081d87061e6688272e3c34c3d031590",
+    "size": 8599,
+    "lfs": {
+      "oid": "d1e165ea724eabc0f279cebdb0cd8d51527a3d34d8be90d7c590b7f9cb669601",
+      "size": 8599,
+      "pointerSize": 129
+    },
+    "xetHash": "0e46326639c899220eb7631b744a2e91f7f17cd9bf70033d2ea0309c1dfa4f81",
+    "path": "properties/strukturbericht.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "821815bcde12d604fafa25caf1b700b085ea4326",
+    "size": 86758,
+    "lfs": {
+      "oid": "f668dce297ef33c397f37bcf40d8ad6ce2dbc21956efb75de69b785466ac76c1",
+      "size": 86758,
+      "pointerSize": 130
+    },
+    "xetHash": "4033da9a836967241b9e3c2f2dfa45b6c2fc7bd21b6e93739ddbed6dcdcb31e0",
+    "path": "properties/superconductor_class.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "06cb50c245d3a73392de18a78d4346e340bccde5",
+    "size": 7772,
+    "lfs": {
+      "oid": "70147dd5196bfff69c161ae3e1d1d7cfd8653b15963a422fbe2159010c513ba5",
+      "size": 7772,
+      "pointerSize": 129
+    },
+    "xetHash": "5be35a0879228c954c2b143cf5999d4dd72c5219bff9011b81cbbfad9458a217",
+    "path": "properties/surface_anisotropy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "03e316340f5e08605eb326ba55fbbe5c171117db",
+    "size": 3700504,
+    "lfs": {
+      "oid": "31f9c5348ff60bb9cf11e6ccd00904f9dcb2bbacc41f9b2d75cd53e6adea394f",
+      "size": 3700504,
+      "pointerSize": 132
+    },
+    "xetHash": "b7f564872cda8f5909750f01d6deceb3f2cfd2a5ec04d83a5d814154d6c2bcfc",
+    "path": "properties/surface_area_gravimetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "3de3a5eca940ab065d503cc9153c3f959664e659",
+    "size": 1762446,
+    "lfs": {
+      "oid": "79bd7b7cde07edaa0046240220b8e6c02d0937087c6cb7f8801299242415d5ca",
+      "size": 1762446,
+      "pointerSize": 132
+    },
+    "xetHash": "c3b4d4717e6df701c1e7ada3192913549feecf1b3b9c8df8ebfc9c1d0fb316ac",
+    "path": "properties/surface_area_volumetric.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1918dd89d4383c366591d86c603763116a58b01b",
+    "size": 12404,
+    "lfs": {
+      "oid": "3bbaaf42bf41e6c8a4c54a166a3aac5ae0f4ae8b3ce9a0f939064bffc735addd",
+      "size": 12404,
+      "pointerSize": 130
+    },
+    "xetHash": "7484432ddcdb6986a1385c3da5f160d058ce6fc6049554b3bad879bb5d9c1b08",
+    "path": "properties/surface_energy.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "564c8c92f33f3daa92c7b31b12944e1327964efb",
+    "size": 254417,
+    "lfs": {
+      "oid": "14705a9551bedf8d1c91aea53bed1287e1acccc7333ad8fd6025d18490edb506",
+      "size": 254417,
+      "pointerSize": 131
+    },
+    "xetHash": "f6668cf0d568a792a03f963d6bf70f7776a711b71d908b883cc191872ab07406",
+    "path": "properties/symmetry_indicators.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "cb490be7c43aa98bc8895d7fcc74cc89f15ced7b",
+    "size": 302924,
+    "lfs": {
+      "oid": "71aec12fcf5396bc63988ab9d9049d0102f1e457a55e957ce43af816c4a798f1",
+      "size": 302924,
+      "pointerSize": 131
+    },
+    "xetHash": "9fdf6a0b06ea3f2e05ccce22a2e062fd78f687b723ef97d8d6dd0f56f6ab9dfa",
+    "path": "properties/tc_superconducting.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "84d9fe841ffcb6454f55e88e6a1a801bf9a9d4f5",
+    "size": 149018,
+    "lfs": {
+      "oid": "1a3973ea31390c15bd3905f6cf6b31fc85a7bb35eb8972472732488597197039",
+      "size": 149018,
+      "pointerSize": 131
+    },
+    "xetHash": "f690c0f8c64e43d705a1ff4584c9192148974835154c5a65486a289752fb472b",
+    "path": "properties/thermal_conductivity.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "fdecd1babc39f2064f27f799e019e55c257c8b30",
+    "size": 158573,
+    "lfs": {
+      "oid": "3400f0152a7201f034480e3658486becc0769967d3697dfa8131239acced871e",
+      "size": 158573,
+      "pointerSize": 131
+    },
+    "xetHash": "704226f922cf221b10e06cad3542e192a8290b4647cd2cf4c1984b8cba6c1a11",
+    "path": "properties/thermal_expansion.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "43a797b60af349ba66db409340bf1e4f56873052",
+    "size": 567272,
+    "lfs": {
+      "oid": "d2e2a50d759d1f85c787314e6a24407c03780c6a2056fde2adc3f451fbe89f2c",
+      "size": 567272,
+      "pointerSize": 131
+    },
+    "xetHash": "3d24937d702ccfdb1ea995e341d6a435efd1aeefa5a1f3454b3fc061f6e87930",
+    "path": "properties/topology_class.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8ce25605e39add884cb551c86d95d41a5dd49990",
+    "size": 494274,
+    "lfs": {
+      "oid": "108bb4c7e2dc61cafc3e712eff59847c4a04550581d4b7b4421b698bf7a1a13c",
+      "size": 494274,
+      "pointerSize": 131
+    },
+    "xetHash": "27dc2bc9cb861310619910978445432d5809a054a2e4c1bf9d16618c1d3a5635",
+    "path": "properties/topology_invariant.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "89d5a216caf5eeb20b2c05b5f10210f747cc76c4",
+    "size": 192131863,
+    "lfs": {
+      "oid": "91812c43d61cdc81ec9eb584a8c3f829193c1b1b4778fd7da2a7d15ebdc0d85e",
+      "size": 192131863,
+      "pointerSize": 134
+    },
+    "xetHash": "fce26a5e434f9e6acdc808d9d7c5ba7fc8fad0a5ad1ed056a7b63e5212b4e352",
+    "path": "properties/total_energy_per_atom.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5f0f1050147f48a3dea76446ebf6d77704aadb36",
+    "size": 93702674,
+    "lfs": {
+      "oid": "0a14e76965161f436bd2e1c2e80214ac3ce4c4b0a3fd41e4eb5ec7323c7448e3",
+      "size": 93702674,
+      "pointerSize": 133
+    },
+    "xetHash": "6a12b314d269a37585fd4a014af01ddade8fb90db0aeb8e9530a4038b25f839e",
+    "path": "properties/total_magnetization.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "10a41340d888c95f5c492fd515b2388cf71b9ef0",
+    "size": 1444743,
+    "lfs": {
+      "oid": "352e54b9fb48f30c97e19e66903ee9c609546c6ad0abacbbcf70f43f6d4301c9",
+      "size": 1444743,
+      "pointerSize": 132
+    },
+    "xetHash": "f7f90ca38d820aa1d3186511137c909a29002a0e18e17d10975dcc11095e0421",
+    "path": "properties/vbm.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1fdb377fa4c0b505303fc171a7e0d9059629a465",
+    "size": 3865521,
+    "lfs": {
+      "oid": "21a111b8eb34d9cbffd2e58c5d98471117f8cd02422336bdba8792558b4a153b",
+      "size": 3865521,
+      "pointerSize": 132
+    },
+    "xetHash": "71e82879ca59c416cf45ddc62604870e725880151d5ad164735cda3c555b688d",
+    "path": "properties/void_fraction.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "205053dfcce21c40d211be3a0d6c66069a2c3050",
+    "size": 138802330,
+    "lfs": {
+      "oid": "ed3b96d9c0906e6bf3f94b201351e4501755a784db5fec84c312234fcc328318",
+      "size": 138802330,
+      "pointerSize": 134
+    },
+    "xetHash": "d9463b9becc4c1eb0f738e0c2e60b69632670cd44ddc40f2ceae7d428c2d65d1",
+    "path": "properties/volume_per_atom.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9f54e945bf3d874b47e89e5b2178564970e238ac",
+    "size": 106474,
+    "lfs": {
+      "oid": "863347fab93a7f6ae1a8810e846f4deaefde4a4f546f5d8d5954f2a6c02bbec0",
+      "size": 106474,
+      "pointerSize": 131
+    },
+    "xetHash": "420503730c1fe814701c3624f1de63b97c9fd2684ad30425db54eec51ecff0f8",
+    "path": "properties/work_function.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "d5a71573818db44cdc67f25603dd4bea8d3cf7ec",
+    "size": 6659,
+    "lfs": {
+      "oid": "11dd11937e2fe7e595ce1f2ccdd9775c4f17d1282b3aa5abe19abf985bab4bcd",
+      "size": 6659,
+      "pointerSize": 129
+    },
+    "xetHash": "b02dc50c2d8e66312f628e51b4d7c1862b9ef3c83f907c60984f2cfe3b8a257f",
+    "path": "properties/work_of_separation.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "85767f61060b8cd3ee6bb9437baf20e0f3a06d32",
+    "size": 2584108,
+    "lfs": {
+      "oid": "3eee01052d717af4cdd2d6ad1beb6fe99cd12d3f5a6684e912dbbced15b0cfaa",
+      "size": 2584108,
+      "pointerSize": 132
+    },
+    "xetHash": "1d442cc138e28f8b2aa465e97b1620fc602f201cda45d9003d6981153fe5eb06",
+    "path": "properties/working_capacity_temperature_swing.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8da98455a5dda01bd12ced005b48acbd5e1c9265",
+    "size": 2575783,
+    "lfs": {
+      "oid": "b0bddf19ed3754b0cb61ac67ca2bab586f717eaf9f910e264d3517c38620c164",
+      "size": 2575783,
+      "pointerSize": 132
+    },
+    "xetHash": "c3afb20d832a752ba937b6fd2e2f498f9bdd11830e271d8467d7cd9fa1c9e795",
+    "path": "properties/working_capacity_vacuum_swing.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "521c9bbc8979a6c95a4af5c8b6d0ed241707a536",
+    "size": 196873,
+    "lfs": {
+      "oid": "740b4db548fbb1ebb7177f642b914a4548e16cb49c25b185a334e226fc233378",
+      "size": 196873,
+      "pointerSize": 131
+    },
+    "xetHash": "47bc3ae0fe1c66f37466edb62b865640666ebfe7f2048b8ab67e251aaf1b512c",
+    "path": "properties/working_ion.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "58a600983c6fcfbb51ff240c3c829e42e704b298",
+    "size": 7759,
+    "lfs": {
+      "oid": "cbd57f60797215807384c07d451a9e20d30a1452be714cefb4b93cb61407c8e7",
+      "size": 7759,
+      "pointerSize": 129
+    },
+    "xetHash": "515876a64acd51ddc2a1dcbbf070b4a1830d3c31888cecd1abaacc693e0972dc",
+    "path": "properties/wulff_shape_factor.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "bcbd3c27573f26f220bd2043b7c1ee8731006871",
+    "size": 3309585,
+    "lfs": {
+      "oid": "729d9b5b80ab0d94a97b882853647deef8344dca0518eebf69da4cf9a69b7a42",
+      "size": 3309585,
+      "pointerSize": 132
+    },
+    "xetHash": "8e95ca716bc9424b9c048c15555323c1f1648334d367e0447189bdf68cdc3dc1",
+    "path": "properties/youngs_modulus.parquet"
+  }
+]

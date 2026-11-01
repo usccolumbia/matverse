@@ -1,0 +1,839 @@
+[
+  {
+    "id": "solid26",
+    "name": "SoLiD26 solid–liquid interface configurations",
+    "category": "mlip_configurations",
+    "description": "Aqueous metal/electrode–electrolyte interfaces and selected liquid/solid references from VASP PBE+D3 calculations.",
+    "version": "Materials Cloud 2026.189 v1; preprint v2 (2026-10-21)",
+    "year": 2026,
+    "count": 15379823,
+    "count_display": "15,379,823",
+    "count_unit": "atomic configuration frames",
+    "count_scope": "Aqueous metal/electrode–electrolyte interfaces and selected liquid/solid references from VASP PBE+D3 calculations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "positions and periodic cell",
+      "total energy",
+      "atomic forces",
+      "ASE constraints"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.28013v2",
+      "data": "https://doi.org/10.24435/materialscloud:yp-vw",
+      "repository": "https://github.com/team-capex/SoLiD26"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2609.28013v2",
+        "title": "SoLiD26 revised preprint",
+        "evidence": "Reports 15,379,823 configurations, up to 576 atoms and 15 elements; revised Data Availability links the public archive.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/azpq0-1qe97",
+        "title": "Materials Cloud SoLiD26 v1",
+        "evidence": "Published 2026-10-13, open under CC BY 4.0; lists 16 compressed ASE-LMDB shards, checksums, README and split indices.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Frames derive mainly from AIMD, not 15.38 million independent equilibrium crystals.",
+      "The first preprint said available by request; the revised paper and October public deposit supersede that access statement.",
+      "ASE fixed-atom constraints can zero returned forces; provider directs users to raw forces or get_forces(apply_constraint=False).",
+      "Full 63.8 GiB compressed release was not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "sevennet-omni-dbs",
+    "name": "SevenNet-Omni domain-bridging set (DBS)",
+    "category": "mlip_configurations",
+    "description": "New single-point DFT labels align geometries sampled across molecular, bulk, surface and MOF parent datasets.",
+    "version": "Primary release/documentation checked 2026-11-01",
+    "year": 2026,
+    "count": 125000,
+    "count_display": "125,000",
+    "count_unit": "cross-domain DFT configuration records",
+    "count_scope": "New single-point DFT labels align geometries sampled across molecular, bulk, surface and MOF parent datasets.",
+    "count_precision": "approximate",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "energy",
+      "forces",
+      "periodic/molecular geometry",
+      "db_label source identifiers"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-026-70195-8",
+      "data": "https://doi.org/10.6084/m9.figshare.30399814.v3"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2510.11241v3",
+        "title": "SevenNet-Omni paper",
+        "evidence": "Methods reports about 125,000 DBS geometries selected from MatPES, OC20, OC22, ODAC23, OMol25 and QCML with new compatible VASP single points.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/30399814",
+        "title": "DBS Figshare v3 metadata",
+        "evidence": "CC BY 4.0; identifies dbs_total.extxyz (779,700,511 bytes), parent-source db_label semantics and separate benchmark/model files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The count is the bridging set, not the much larger 15-dataset aggregate used to train the model.",
+      "Geometries overlap existing parent corpora; new labels do not imply new independent material identities.",
+      "Includes isolated molecules and other non-crystal domains; select the periodic subset for solid-only work.",
+      "Large DBS payload not downloaded; approximate paper count retained."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "sacada",
+    "name": "SACADA three-periodic carbon allotropes",
+    "category": "bulk_computed",
+    "description": "Literature-indexed experimental/hypothetical carbon nets, optimized structures and computed physical-property references.",
+    "version": "Live table snapshot 2026-11-01; HTML update label 2024-02-15",
+    "year": 2016,
+    "count": 1661,
+    "count_display": "1,661",
+    "count_unit": "carbon allotrope table entries",
+    "count_scope": "Literature-indexed experimental/hypothetical carbon nets, optimized structures and computed physical-property references.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "CIF structures",
+      "topology and symmetry",
+      "density",
+      "band gap",
+      "relative energy",
+      "elastic moduli and estimated hardness"
+    ],
+    "access": "open",
+    "license": "Not verified; public browsing/download does not establish redistribution rights",
+    "links": {
+      "homepage": "https://www.sacada.info/",
+      "data": "https://www.sacada.info/sacada_3D.php",
+      "paper": "https://doi.org/10.1002/anie.201600655"
+    },
+    "sources": [
+      {
+        "url": "https://www.sacada.info/",
+        "title": "SACADA provider documentation",
+        "evidence": "Describes unique 3-periodic carbon allotropes, separate ideal-net and optimized CIFs and DFT-derived property fields.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.sacada.info/scd_ajax.php",
+        "title": "SACADA live table response",
+        "evidence": "Public GET contract read from the site HTML; independently counted 1,661 rows with 1,661 unique IDs.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.sacada.info/ca_data.php?id=1",
+        "title": "SACADA diamond example",
+        "evidence": "Public ZIP inspected: dia/dia.cif and dia/dia_IN.cif; cell and atomic-coordinate fields present.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Table entries are allotrope/net records, not experimentally realized phases.",
+      "Some records are topology-only or change topology on optimization; coordinate and property completeness varies.",
+      "Ideal-net and optimized CIFs represent the same entry and are not counted twice.",
+      "Only a sample coordinate ZIP was inspected; table-row count does not certify a complete CIF for every row."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "system-thermoelectric",
+    "name": "sysTEm systematically verified experimental thermoelectrics",
+    "category": "experimental_properties",
+    "description": "Curated experimental thermoelectric transport values with publication and source-dataset provenance.",
+    "version": "GitHub main workbook snapshot 2026-11-01",
+    "year": 2026,
+    "count": 8650,
+    "count_display": "8,650",
+    "count_unit": "composition–temperature observations",
+    "count_scope": "Curated experimental thermoelectric transport values with publication and source-dataset provenance.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental; literature-curated",
+    "properties": [
+      "temperature (K)",
+      "Seebeck coefficient (µV/K)",
+      "electrical conductivity (S/cm)",
+      "power factor",
+      "zT",
+      "total/electronic/lattice thermal conductivity"
+    ],
+    "access": "open",
+    "license": "MIT (repository declaration)",
+    "links": {
+      "homepage": "https://github.com/tankylz/sysTEm_dataset",
+      "data": "https://github.com/tankylz/sysTEm_dataset/blob/main/sysTEm_dataset.xlsx",
+      "paper": "https://doi.org/10.1007/s40192-026-00446-5"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/tankylz/sysTEm_dataset",
+        "title": "sysTEm author repository",
+        "evidence": "Describes MRL/ESTM merger and systematic zT consistency checks with a 10% tolerance; lists columns and units.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/tankylz/sysTEm_dataset/main/sysTEm_dataset.xlsx",
+        "title": "Current final workbook",
+        "evidence": "Independently counted 8,650 nonempty data rows/unique row IDs and 1,437 standardized composition strings; temperature range 10–1275 K.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/tankylz/sysTEm_dataset/main/LICENSE",
+        "title": "sysTEm repository license",
+        "evidence": "Repository declares MIT; parent-source lineage remains explicit.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps existing ESTM and extended MRL data; do not sum parent and merged counts.",
+      "Rows are temperature observations, not 8,650 distinct materials.",
+      "Formula consistency checks do not independently reproduce measurements; not every row has every target.",
+      "No atomic coordinates are supplied by this workbook."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ],
+    "additional_counts": [
+      {
+        "value": 1437,
+        "unit": "standardized composition strings",
+        "scope": "Distinct current Pymatgen Composition strings; not independently deduplicated experimental specimens"
+      }
+    ]
+  },
+  {
+    "id": "complex-oxide-cte-2026",
+    "name": "Literature-curated complex-oxide thermal expansion",
+    "category": "experimental_properties",
+    "description": "Measured thermal-expansion coefficients and measurement ranges used for probabilistic complex-oxide modeling.",
+    "version": "Actual CTE Value 10.xlsx in repository tree checked 2026-11-01",
+    "year": 2026,
+    "count": 204,
+    "count_display": "204",
+    "count_unit": "composition–temperature-range records",
+    "count_scope": "Measured thermal-expansion coefficients and measurement ranges used for probabilistic complex-oxide modeling.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental; literature-curated",
+    "properties": [
+      "composition",
+      "thermal-expansion coefficient",
+      "start/end measurement temperature (°C)",
+      "source-paper reference"
+    ],
+    "access": "open",
+    "license": "MIT (repository declaration)",
+    "links": {
+      "paper": "https://doi.org/10.1063/5.0333166",
+      "homepage": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml",
+      "data": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml/blob/main/CTE%20Value%2010.xlsx"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1063/5.0333166",
+        "title": "Thermal-expansion dataset paper",
+        "evidence": "Matching title/author data-availability statement points to the author repository and processed experimental CTE data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Jordanmarshall-utk/cte-probabilistic-ml/main/CTE%20Value%2010.xlsx",
+        "title": "CTE Value 10 workbook",
+        "evidence": "Independently counted 204 nonempty rows, five columns: Composition, CTE Value, Start Temp (°C), End Temp (°C), paper.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Jordanmarshall-utk/cte-probabilistic-ml/main/LICENSE",
+        "title": "CTE repository license",
+        "evidence": "MIT declaration in the repository.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "CTE values are associated with specific temperature intervals and measurement conventions; retain the source reference.",
+      "The README uses a generic dataset filename; the count uses the actual CTE Value 10.xlsx file listed in the repository.",
+      "The second broader composition workbook and engineered feature rows are not added to the main count.",
+      "No atomic coordinates in the selected table."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "ultera-2025",
+    "name": "ULTERA high-entropy-alloy property database",
+    "category": "experimental_properties",
+    "description": "Literature-curated compositionally complex alloy properties with processing/phase context, including refractory alloys.",
+    "version": "Zenodo May 2025 alpha snapshot",
+    "year": 2025,
+    "count": 12540,
+    "count_display": "12,540",
+    "count_unit": "experimental HEA/MEA property observations",
+    "count_scope": "Literature-curated compositionally complex alloy properties with processing/phase context, including refractory alloys.",
+    "count_precision": "lower_bound",
+    "structure_level": "composition_only",
+    "provenance": "experimental; literature-curated",
+    "properties": [
+      "mechanical properties",
+      "phase/processing metadata",
+      "thermal and magnetic property fields",
+      "source DOI and composition"
+    ],
+    "access": "restricted",
+    "license": "Not verified; access is granted through provider review",
+    "links": {
+      "homepage": "https://phaseslab.com/ultera/",
+      "data": "https://doi.org/10.5281/zenodo.15716432"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/15716432",
+        "title": "ULTERA May 2025 alpha snapshot",
+        "evidence": "Reports 12,540+ experimental HEA/MEA property points, 4,270+ materials and 813 publications; files are restricted and access requests require collaborator review.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/15716432",
+        "title": "ULTERA public deposit metadata",
+        "evidence": "Access_right is restricted, no public file list or data license was returned; public metadata differs from file access.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Provider-gated release; no access request was submitted and no private data were retrieved.",
+      "The larger 15,462 total includes lower-entropy support data; it is not the ranked HEA/MEA denominator.",
+      "May overlap other published alloy datasets; source records must be reconciled before merging."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ],
+    "additional_counts": [
+      {
+        "value": 15462,
+        "unit": "property datapoints including support data",
+        "scope": "Provider count including lower-entropy alloys"
+      },
+      {
+        "value": 4270,
+        "unit": "experimentally observed HEA/MEA materials (lower bound)",
+        "scope": "Provider 4,270+ composition/processing/material identities"
+      },
+      {
+        "value": 813,
+        "unit": "source publications",
+        "scope": "May 2025 snapshot"
+      }
+    ]
+  },
+  {
+    "id": "carbon-gap20",
+    "name": "Carbon GAP-20 DFT reference database",
+    "category": "mlip_configurations",
+    "description": "Carbon crystal, disordered and other atomistic reference configurations generated for fitting GAP-20.",
+    "version": "Primary release/documentation checked 2026-11-01",
+    "year": 2020,
+    "count": 17000,
+    "count_display": "17,000",
+    "count_unit": "DFT atomic configurations",
+    "count_scope": "Carbon crystal, disordered and other atomistic reference configurations generated for fitting GAP-20.",
+    "count_precision": "approximate",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic geometry",
+      "DFT energy",
+      "forces",
+      "potential-fitting configurations"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1063/5.0005084",
+      "data": "https://doi.org/10.17863/CAM.54529"
+    },
+    "sources": [
+      {
+        "url": "https://www.repository.cam.ac.uk/items/ac362ef1-fa35-4bd4-8b56-2fde6d7b1d2c",
+        "title": "Cambridge Carbon GAP 20 deposit",
+        "evidence": "Declares CC BY 4.0; archive description identifies total generated training data (approximately 17,000 configurations) and a smaller selected fitting file.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Approximate count refers to the total generated database, not the selected fit or unique equilibrium carbon allotropes.",
+      "Original GAP-20 and revised GAP-20U are related releases, not disjoint corpora.",
+      "Archive metadata inspected; original full training archive not independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "carbon-gap20u",
+    "name": "Carbon GAP-20U revised training configurations",
+    "category": "mlip_configurations",
+    "description": "Revised optB88-vdW carbon training data with converged labels and energy/force/stress fields.",
+    "version": "Primary release/documentation checked 2026-11-01",
+    "year": 2022,
+    "count": 6088,
+    "count_display": "6,088",
+    "count_unit": "DFT reference configurations",
+    "count_scope": "Revised optB88-vdW carbon training data with converged labels and energy/force/stress fields.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic geometry",
+      "energy",
+      "forces",
+      "virial/stress",
+      "configuration type"
+    ],
+    "access": "open",
+    "license": "GPL-3.0",
+    "links": {
+      "data": "https://doi.org/10.17863/CAM.84096",
+      "paper": "https://doi.org/10.1063/5.0005084",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/C-GAP-20U.html"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.17863/CAM.84096",
+        "title": "Cambridge revised carbon training deposit",
+        "evidence": "Lists train_GAP20_optB88vdW.xyz.gz under GPL v3.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/C-GAP-20U.html",
+        "title": "C-GAP-20U normalized metadata",
+        "evidence": "6,088 structures /400,275 atoms with revised DFT labels; GPLv3. Independently confirmed both counts from complete gzipped extXYZ.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Includes fragments and noncrystalline configurations as well as periodic solids.",
+      "Related to original GAP-20; do not add the two release populations as independent materials."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "si-gap18",
+    "name": "Si-GAP-18 silicon training cohort",
+    "category": "mlip_configurations",
+    "description": "Silicon reference structures selected with CUR, labeled with CASTEP/PW91.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2018,
+    "count": 2475,
+    "count_display": "2,475",
+    "count_unit": "normalized training configurations",
+    "count_scope": "Silicon reference structures selected with CUR, labeled with CASTEP/PW91.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY-NC-SA 4.0 (load-atoms distribution; original Zenodo metadata uses other-open)",
+    "links": {
+      "paper": "https://doi.org/10.1103/PhysRevX.8.041048",
+      "data": "https://zenodo.org/records/1250555",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/Si-GAP-18.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/Si-GAP-18.html",
+        "title": "Si-GAP-18 loader metadata",
+        "evidence": "Explicitly reports 2,475 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/1250555",
+        "title": "Si-GAP-18 silicon training cohort original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Crystalline, liquid, amorphous, surface and defect configurations are not independent bulk material identities.",
+      "License is scoped to the normalized distribution; the original deposit has a less-specific other-open label.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "sio2-gap22",
+    "name": "SiO2-GAP-22 silica training cohort",
+    "category": "mlip_configurations",
+    "description": "Iteratively generated silica reference structures with energy and force labels.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2022,
+    "count": 3074,
+    "count_display": "3,074",
+    "count_unit": "normalized training configurations",
+    "count_scope": "Iteratively generated silica reference structures with energy and force labels.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41524-022-00768-w",
+      "data": "https://zenodo.org/records/6353684",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/SiO2-GAP-22.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/SiO2-GAP-22.html",
+        "title": "SiO2-GAP-22 loader metadata",
+        "evidence": "Explicitly reports 3,074 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/6353684",
+        "title": "SiO2-GAP-22 silica training cohort original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The normalized training cohort is selected from an archive that also contains fitted potential and generated amorphous models.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "gst-gap22-pbe",
+    "name": "GST-GAP-22 PBE reference cohort",
+    "category": "mlip_configurations",
+    "description": "Ge–Sb–Te phase-change reference configurations along the GeTe–Sb2Te3 pseudobinary line.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2023,
+    "count": 2692,
+    "count_display": "2,692",
+    "count_unit": "normalized training configurations",
+    "count_scope": "Ge–Sb–Te phase-change reference configurations along the GeTe–Sb2Te3 pseudobinary line.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41928-023-01030-x",
+      "data": "https://zenodo.org/records/8208202",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/GST-GAP-22.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/GST-GAP-22.html",
+        "title": "GST-GAP-22 loader metadata",
+        "evidence": "Explicitly reports 2,692 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/8208202",
+        "title": "GST-GAP-22 PBE reference cohort original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 2,692-record cohort uses PBE; the archive also contains PBEsol databases, models and much larger production simulations. Do not label all archive files as the same cohort.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "p-gap20",
+    "name": "P-GAP-20 phosphorus reference configurations",
+    "category": "mlip_configurations",
+    "description": "Phosphorus crystals, liquids, nanostructures and fragments generated partly through GAP random-structure searching.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2020,
+    "count": 4798,
+    "count_display": "4,798",
+    "count_unit": "normalized training configurations",
+    "count_scope": "Phosphorus crystals, liquids, nanostructures and fragments generated partly through GAP random-structure searching.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-020-19168-z",
+      "data": "https://zenodo.org/records/4003703",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/P-GAP-20.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/P-GAP-20.html",
+        "title": "P-GAP-20 loader metadata",
+        "evidence": "Explicitly reports 4,798 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/4003703",
+        "title": "P-GAP-20 phosphorus reference configurations original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Mixed molecular/nanostructured/periodic domain; retain configuration types and labels.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "go-mace23",
+    "name": "GO-MACE-23 graphene-oxide reference cohort",
+    "category": "mlip_configurations",
+    "description": "CASTEP/PBE graphene-oxide configurations spanning compositions and functional groups.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2024,
+    "count": 3816,
+    "count_display": "3,816",
+    "count_unit": "normalized training configurations",
+    "count_scope": "CASTEP/PBE graphene-oxide configurations spanning compositions and functional groups.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1002/anie.202410088",
+      "data": "https://zenodo.org/records/14066557",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/GO-MACE-23.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/GO-MACE-23.html",
+        "title": "GO-MACE-23 loader metadata",
+        "evidence": "Explicitly reports 3,816 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/14066557",
+        "title": "GO-MACE-23 graphene-oxide reference cohort original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Count selects the iter-12-filtered training/testing cohort, not every model or generated production frame in the archive.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "siox-ace24",
+    "name": "SiOx-ACE-24 silicon–oxygen reference configurations",
+    "category": "mlip_configurations",
+    "description": "Active-learning silicon–oxygen configurations spanning stoichiometries and structural order.",
+    "version": "Named load-atoms cohort; original deposit checked 2026-11-01",
+    "year": 2024,
+    "count": 11428,
+    "count_display": "11,428",
+    "count_unit": "normalized training configurations",
+    "count_scope": "Active-learning silicon–oxygen configurations spanning stoichiometries and structural order.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "atomic coordinates and cell",
+      "DFT energy",
+      "DFT forces",
+      "available stress/virial fields"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-024-45840-9",
+      "data": "https://zenodo.org/records/10419194",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/SiOx-ACE-24.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/SiOx-ACE-24.html",
+        "title": "SiOx-ACE-24 loader metadata",
+        "evidence": "Explicitly reports 11,428 structures, labels and source citation; normalization/importer route inspected without executing downloaded code.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/10419194",
+        "title": "SiOx-ACE-24 silicon–oxygen reference configurations original deposit metadata",
+        "evidence": "Named original release, public payload inventory and data rights inspected independently; selected normalized cohort differs from unrelated archive files.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Includes structures from Si-GAP-18 and SiO2-GAP-22 plus new active-learning configurations; parent and combined counts overlap.",
+      "Counts are reported by the normalized-data documentation; complete original large payloads were not downloaded or independently recounted."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "asi-paracrystalline-models",
+    "name": "Paracrystalline/amorphous silicon structural models",
+    "category": "mlip_configurations",
+    "description": "Synthetic silicon models spanning continuous-random-network, paracrystalline and polycrystalline order.",
+    "version": "Primary release/documentation checked 2026-11-01",
+    "year": 2025,
+    "count": 3069,
+    "count_display": "3,069",
+    "count_unit": "final melt–quench configuration frames",
+    "count_scope": "Synthetic silicon models spanning continuous-random-network, paracrystalline and polycrystalline order.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "model-generated; MTP-labeled",
+    "properties": [
+      "periodic atomic coordinates",
+      "MTP-labeled energy/forces",
+      "structural order descriptors",
+      "quench/density metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-025-57406-4",
+      "data": "https://doi.org/10.5281/zenodo.14203730",
+      "repository": "https://github.com/lamrosset/aSi-data"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/lamrosset/aSi-data",
+        "title": "a-Si author repository",
+        "evidence": "3,069 structures and approximately 1.3 million atoms; each model is the final snapshot from a melt–quench MD trajectory.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/14203730",
+        "title": "a-Si v1.0.0 deposit",
+        "evidence": "2025 research-data release with XYZ/dataframe/code archive; CC BY 4.0 metadata.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The energy/force targets are machine-potential outputs, not independently evaluated DFT labels for every structure.",
+      "The separate 100,000-atom demonstration models are not added to the 3,069-model cohort.",
+      "An amorphous-to-crystalline structural library, not a collection of 3,069 new equilibrium crystal phases."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  },
+  {
+    "id": "ac2d-amorphous-graphene",
+    "name": "AC-2D-22 amorphous graphene benchmark subset",
+    "category": "two_dimensional",
+    "description": "Monte Carlo bond-switched graphene models selected from the paper Figure 3 structural comparisons.",
+    "version": "Primary release/documentation checked 2026-11-01",
+    "year": 2022,
+    "count": 150,
+    "count_display": "150",
+    "count_unit": "selected 200-atom configurations",
+    "count_scope": "Monte Carlo bond-switched graphene models selected from the paper Figure 3 structural comparisons.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "model-generated; C-GAP-17-labeled",
+    "properties": [
+      "atomic coordinates",
+      "C-GAP-17 forces",
+      "local atomic energies",
+      "MC criterion and beta"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 original deposit; CC BY-NC-SA 4.0 normalized load-atoms distribution",
+    "links": {
+      "paper": "https://doi.org/10.1039/D2SC04326B",
+      "data": "https://zenodo.org/records/7221166",
+      "loader": "https://jla-gardner.github.io/load-atoms/datasets/AC-2D-22.html"
+    },
+    "sources": [
+      {
+        "url": "https://jla-gardner.github.io/load-atoms/datasets/AC-2D-22.html",
+        "title": "AC-2D-22 subset definition",
+        "evidence": "Explicit 150 structures /30,000 atoms; importer selects Figure 3 final-structure folders with C-GAP-17 labels.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/7221166",
+        "title": "Original amorphous-graphene deposit",
+        "evidence": "Original data.tar.gz is open and metadata declares CC BY 4.0; normalized loader declares CC BY-NC-SA 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A selected Figure 3 subset, not all configurations in the original archive.",
+      "Local energies and forces are potential-generated targets rather than fresh DFT for every model.",
+      "Original and normalized routes declare different licenses; preserve the terms of the chosen distribution."
+    ],
+    "tags": [
+      "additional-materials-20261101"
+    ]
+  }
+]

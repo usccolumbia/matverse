@@ -1,0 +1,1671 @@
+{
+  "checked_date": "2026-11-01",
+  "page_url": "https://matbench-discovery.materialsproject.org/data/sets",
+  "revision": "8869a883a5067015b815886d878bd7aaa3862d2d",
+  "metadata_path": "data/datasets.yml",
+  "page_rows": 46,
+  "metadata_rows": 46,
+  "all_keys_agree": true,
+  "initial_status_counts": {
+    "existing_dataset": 23,
+    "new_dataset": 13,
+    "existing_resource": 2,
+    "new_resource": 8
+  },
+  "initial_catalog_records": 510,
+  "new_dataset_ids": [
+    "mp-frozen-2022",
+    "mp-graphs-2019",
+    "salex-omat24-validation",
+    "cosmos-sevennet-omni",
+    "matpes-pbe-2025-1",
+    "matpes-r2scan-2025-1",
+    "mdr-phonon-pbe-recalculation",
+    "pft-mdr-pbe-training",
+    "oc20-mads",
+    "oc20-slabs",
+    "oc20-dense",
+    "oc20-neb",
+    "mad-original-2025"
+  ],
+  "existing_record_ids": [
+    "aflow",
+    "alexandria",
+    "elementa-public",
+    "elementa-spin",
+    "gnome",
+    "jarvis-dft-3d",
+    "mad15",
+    "mad16",
+    "mp-aloe",
+    "mpf2021",
+    "mptrj",
+    "oc20",
+    "oc22",
+    "oc25",
+    "ocx24-experimental",
+    "odac23",
+    "odac25",
+    "omat24",
+    "omc25",
+    "openlam-training",
+    "oqmd",
+    "qmof",
+    "salex-omat24",
+    "wbm-matbench-discovery"
+  ],
+  "important_scope_notes": {
+    "GNoME": "The page counts an unavailable 89M-frame training corpus; the catalog contains the ~381k publicly released near-stable structures. These are related coverage, not the same release or denominator.",
+    "Alex": "The page describes an older ~30.5M-frame relaxation corpus; the existing Alexandria card describes a newer ~5.8M equilibrium-structure release. Related family, not identical count scope.",
+    "sAlex": "Existing card counts train+validation together (11,000,983), while the page sAlex row counts only 10,447,765 training frames. Validation is now separately cataloged as an overlapping subset.",
+    "OpenLAM": "Existing training-set card is unranked. The benchmark reports 162,507,178 configurations across 31 parents; retain as a benchmark-reported size rather than silently replacing unverified release counts.",
+    "ELEMENTA": "The page reports the full 210,656,285-frame corpus, including unavailable frames; catalog cards cover the ~39M public core and separate ~4.7M Spin releases. Not identical release scope.",
+    "OCx24": "The page materials count is 19,406 deduplicated computational candidates; the existing experimental card counts 5,412 rows of measurements. Both concern one project, but neither denominator is a number of independent crystal structures.",
+    "AFLOW": "Repository counts evolve; the page snapshot does not overwrite the newer or differently scoped catalog count.",
+    "OQMD": "The page uses OQMD v1.6 (November 2023); preserve current catalog version/count separately.",
+    "OMat24": "The page reports 100,824,585 training configurations. Validation is a separate download with corrected December2024 files; do not infer a full release count from the training-only row.",
+    "QMOF": "The page snapshot counts20,372 qmof_id records, whereas the existing catalog release may use a different archive/snapshot. Preserve version distinctions.",
+    "MAD-1.6": "The page exact362,646 total is a benchmark recount of specified r2SCAN split files; existing card remains separately versioned and unranked until those payloads are independently checked here.",
+    "MatterSim": "Training data remain unreleased; public code/checkpoints do not establish data access.",
+    "NOMAD": "Represented as a repository/discovery resource rather than a fixed additional crystal corpus.",
+    "MatPES licensing": "Primary current Hugging Face data card declares BSD-3-Clause whereas Matbench metadata lists MIT. New frozen2025.1 cards retain this mismatch; data-license verification remains unresolved."
+  },
+  "entries": [
+    {
+      "key": "WBM",
+      "name": "WBM Benchmark Test Set",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "wbm-matbench-discovery"
+      ],
+      "resource_url": null,
+      "listed_structures": 256963,
+      "listed_materials": 215488,
+      "listed_access": "public",
+      "listed_role": "test",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/wbm",
+      "display_values": {
+        "Name": "WBM",
+        "Structures": "256963",
+        "Materials": "215488",
+        "Created": "2021-01-01",
+        "Access": "public",
+        "Role": "test",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/janosh/matbench-discovery/blob/main/data/wbm/readme.md",
+        "https://doi.org/10.1038/s41524-020-00481-6"
+      ]
+    },
+    {
+      "key": "MP 2022",
+      "name": "MP v2022.10.28",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "mp-frozen-2022"
+      ],
+      "resource_url": null,
+      "listed_structures": 154718,
+      "listed_materials": 154718,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mp-2022",
+      "display_values": {
+        "Name": "MP 2022",
+        "Structures": "154718",
+        "Materials": "154718",
+        "Created": "2022-10-28",
+        "Access": "public",
+        "Role": "training",
+        "Models": "8",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://docs.materialsproject.org/changes/database-versions#v2022.10.28",
+        "https://figshare.com/files/40344436",
+        "https://doi.org/10.1063/1.4812323"
+      ]
+    },
+    {
+      "key": "MPtrj",
+      "name": "MPtrj",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "mptrj"
+      ],
+      "resource_url": null,
+      "listed_structures": 1580395,
+      "listed_materials": 145923,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "MIT",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mptrj",
+      "display_values": {
+        "Name": "MPtrj",
+        "Structures": "1580395",
+        "Materials": "145923",
+        "Created": "2023-07-19",
+        "Access": "public",
+        "Role": "training",
+        "Models": "44",
+        "Release": "Fixed release",
+        "License": "MIT",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/dataset/23713842",
+        "https://figshare.com/files/41619375",
+        "https://doi.org/10.1038/s42256-023-00716-3"
+      ]
+    },
+    {
+      "key": "MPF",
+      "name": "MPF.2021.2.8",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "mpf2021"
+      ],
+      "resource_url": null,
+      "listed_structures": 188349,
+      "listed_materials": 62783,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mpf",
+      "display_values": {
+        "Name": "MPF",
+        "Structures": "188349",
+        "Materials": "62783",
+        "Created": "2022-03-05",
+        "Access": "public",
+        "Role": "training",
+        "Models": "1",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/dataset/19470599",
+        "https://figshare.com/ndownloader/articles/19470599/versions/3",
+        "https://doi.org/10.1038/s43588-022-00349-3"
+      ]
+    },
+    {
+      "key": "MP Graphs",
+      "name": "Graphs of MP 2019",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "mp-graphs-2019"
+      ],
+      "resource_url": null,
+      "listed_structures": 133420,
+      "listed_materials": 133420,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "MIT",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mp-graphs",
+      "display_values": {
+        "Name": "MP Graphs",
+        "Structures": "133420",
+        "Materials": "133420",
+        "Created": "2019-06-06",
+        "Access": "public",
+        "Role": "training",
+        "Models": "2",
+        "Release": "Fixed release",
+        "License": "MIT",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/dataset/8097992",
+        "https://figshare.com/ndownloader/articles/8097992/versions/2",
+        "https://doi.org/10.1021/acs.chemmater.9b01294"
+      ]
+    },
+    {
+      "key": "GNoME",
+      "name": "GNoME",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "gnome"
+      ],
+      "resource_url": null,
+      "listed_structures": 89000000,
+      "listed_materials": 6000000,
+      "listed_access": "partial",
+      "listed_role": "training",
+      "listed_license": "CC-BY-NC-4.0",
+      "note": "The page counts an unavailable 89M-frame training corpus; the catalog contains the ~381k publicly released near-stable structures. These are related coverage, not the same release or denominator.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/gnome",
+      "display_values": {
+        "Name": "GNoME",
+        "Structures": "89000000",
+        "Materials": "6000000",
+        "Created": "2023-11-29",
+        "Access": "partial",
+        "Role": "training",
+        "Models": "1",
+        "Release": "Fixed release",
+        "License": "CC-BY-NC-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://optimade-gnome.odbx.science",
+        "https://github.com/google-deepmind/materials_discovery",
+        "https://doi.org/10.1038/s41586-023-06735-9"
+      ]
+    },
+    {
+      "key": "MatterSim",
+      "name": "MatterSim",
+      "status": "existing_resource",
+      "catalog_ids": [],
+      "resource_url": "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md",
+      "listed_structures": 17000000,
+      "listed_materials": null,
+      "listed_access": "unreleased",
+      "listed_role": "training",
+      "listed_license": "unreleased",
+      "note": "Training data remain unreleased; public code/checkpoints do not establish data access.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mattersim",
+      "display_values": {
+        "Name": "MatterSim",
+        "Structures": "17000000",
+        "Materials": null,
+        "Created": "2024-05-08",
+        "Access": "unreleased",
+        "Role": "training",
+        "Models": "1",
+        "Release": "Fixed release",
+        "License": "unreleased",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/microsoft/mattersim",
+        "https://doi.org/10.48550/arXiv.2405.04967"
+      ]
+    },
+    {
+      "key": "Alex",
+      "name": "Alexandria",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "alexandria"
+      ],
+      "resource_url": null,
+      "listed_structures": 30497628,
+      "listed_materials": 3100000,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page describes an older ~30.5M-frame relaxation corpus; the existing Alexandria card describes a newer ~5.8M equilibrium-structure release. Related family, not identical count scope.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/alex",
+      "display_values": {
+        "Name": "Alex",
+        "Structures": "30497628",
+        "Materials": "3100000",
+        "Created": "2023-04-22",
+        "Access": "public",
+        "Role": "training",
+        "Models": "2",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://alexandria.icams.rub.de",
+        "https://alexandria.icams.rub.de/data/pbe",
+        "https://doi.org/10.1002/adma.202210788"
+      ]
+    },
+    {
+      "key": "OMat24",
+      "name": "OMat24",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "omat24"
+      ],
+      "resource_url": null,
+      "listed_structures": 100824585,
+      "listed_materials": 3227606,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page reports 100,824,585 training configurations. Validation is a separate download with corrected December2024 files; do not infer a full release count from the training-only row.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/omat24",
+      "display_values": {
+        "Name": "OMat24",
+        "Structures": "100824585",
+        "Materials": "3227606",
+        "Created": "2024-10-16",
+        "Access": "public",
+        "Role": "training",
+        "Models": "24",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://huggingface.co/datasets/fairchem/OMAT24#omat24-dataset",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ]
+    },
+    {
+      "key": "sAlex",
+      "name": "Subsampled Alexandria",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "salex-omat24"
+      ],
+      "resource_url": null,
+      "listed_structures": 10447765,
+      "listed_materials": 3227606,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing card counts train+validation together (11,000,983), while the page sAlex row counts only 10,447,765 training frames. Validation is now separately cataloged as an overlapping subset.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/salex",
+      "display_values": {
+        "Name": "sAlex",
+        "Structures": "10447765",
+        "Materials": "3227606",
+        "Created": "2024-10-16",
+        "Access": "public",
+        "Role": "training",
+        "Models": "23",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/train.tar.gz",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ]
+    },
+    {
+      "key": "sAlex Validation",
+      "name": "Subsampled Alexandria Validation Set",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "salex-omat24-validation"
+      ],
+      "resource_url": null,
+      "listed_structures": 553218,
+      "listed_materials": 170905,
+      "listed_access": "public",
+      "listed_role": "validation",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/salex-validation",
+      "display_values": {
+        "Name": "sAlex Validation",
+        "Structures": "553218",
+        "Materials": "170905",
+        "Created": "2024-10-16",
+        "Access": "public",
+        "Role": "validation",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/val.tar.gz",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ]
+    },
+    {
+      "key": "OpenLAM",
+      "name": "OpenLAM dataset v1",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "openlam-training"
+      ],
+      "resource_url": null,
+      "listed_structures": 162507178,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing training-set card is unranked. The benchmark reports 162,507,178 configurations across 31 parents; retain as a benchmark-reported size rather than silently replacing unverified release counts.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/openlam",
+      "display_values": {
+        "Name": "OpenLAM",
+        "Structures": "162507178",
+        "Materials": null,
+        "Created": "2025-02-17",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · Various",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+        "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+        "https://doi.org/10.48550/arXiv.2501.16358"
+      ]
+    },
+    {
+      "key": "COSMOSDataset",
+      "name": "COSMOSDataset",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "cosmos-sevennet-omni"
+      ],
+      "resource_url": null,
+      "listed_structures": 242788218,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/cosmosdataset",
+      "display_values": {
+        "Name": "COSMOSDataset",
+        "Structures": "242788218",
+        "Materials": null,
+        "Created": "2025-10-21",
+        "Access": "public",
+        "Role": "training",
+        "Models": "1",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · Various",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+        "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+        "https://doi.org/10.48550/arXiv.2510.11241"
+      ]
+    },
+    {
+      "key": "OC20",
+      "name": "Open Catalyst 2020",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "oc20"
+      ],
+      "resource_url": null,
+      "listed_structures": 133934018,
+      "listed_materials": 11500,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc20",
+      "display_values": {
+        "Name": "OC20",
+        "Structures": "133934018",
+        "Materials": "11500",
+        "Created": "2020-10-01",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · RPBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md",
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md#download-and-preprocess-the-dataset",
+        "https://doi.org/10.1021/acscatal.0c04525"
+      ]
+    },
+    {
+      "key": "NOMAD",
+      "name": "NOMAD Repository",
+      "status": "existing_resource",
+      "catalog_ids": [],
+      "resource_url": "https://nomad-lab.eu/",
+      "listed_structures": 19111098,
+      "listed_materials": 4335728,
+      "listed_access": "public",
+      "listed_role": "repository",
+      "listed_license": "CC-BY-4.0",
+      "note": "Represented as a repository/discovery resource rather than a fixed additional crystal corpus.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/nomad",
+      "display_values": {
+        "Name": "NOMAD",
+        "Structures": "19111098",
+        "Materials": "4335728",
+        "Created": "2019-06-01",
+        "Access": "public",
+        "Role": "repository",
+        "Models": "0",
+        "Release": "Updated",
+        "License": "CC-BY-4.0",
+        "Method": "DFT, ML, GW, DMFT, MD · Various",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://nomad-lab.eu/prod/v1/gui/analyze/apis",
+        "https://optimade.org/providers-dashboard/providers/nmd",
+        "https://nomad-lab.eu/prod/v1/gui/search/calculations",
+        "https://joss.theoj.org/papers/10.21105/joss.05388"
+      ]
+    },
+    {
+      "key": "AFLOW",
+      "name": "AFLOW Database",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "aflow"
+      ],
+      "resource_url": null,
+      "listed_structures": 3530330,
+      "listed_materials": 3530330,
+      "listed_access": "public",
+      "listed_role": "repository",
+      "listed_license": "CC-BY-4.0",
+      "note": "Repository counts evolve; the page snapshot does not overwrite the newer or differently scoped catalog count.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/aflow",
+      "display_values": {
+        "Name": "AFLOW",
+        "Structures": "3530330",
+        "Materials": "3530330",
+        "Created": "2012-06-01",
+        "Access": "public",
+        "Role": "repository",
+        "Models": "0",
+        "Release": "Updated",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · Various",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://aflow.org/documentation",
+        "https://optimade.org/providers-dashboard/providers/aflow",
+        "https://aflow.org",
+        "https://doi.org/10.1016/j.commatsci.2012.02.005"
+      ]
+    },
+    {
+      "key": "OQMD",
+      "name": "Open Quantum Materials Database",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "oqmd"
+      ],
+      "resource_url": null,
+      "listed_structures": 1226781,
+      "listed_materials": 1226781,
+      "listed_access": "public",
+      "listed_role": "repository",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page uses OQMD v1.6 (November 2023); preserve current catalog version/count separately.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oqmd",
+      "display_values": {
+        "Name": "OQMD",
+        "Structures": "1226781",
+        "Materials": "1226781",
+        "Created": "2014-04-03",
+        "Access": "public",
+        "Role": "repository",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://static.oqmd.org/static/docs/restful.html",
+        "https://optimade.org/providers-dashboard/providers/oqmd",
+        "https://oqmd.org",
+        "https://static.oqmd.org/static/downloads/qmdb__v1_6__112023.sql.gz",
+        "https://doi.org/10.1007/s11837-013-0755-4"
+      ]
+    },
+    {
+      "key": "MatPES PBE",
+      "name": "MatPES v1.0 PBE",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "matpes-pbe-2025-1"
+      ],
+      "resource_url": null,
+      "listed_structures": 434712,
+      "listed_materials": 110317,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "MIT",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units. Primary current Hugging Face data cardBSD-3-Clause conflicts with benchmarkMIT; preserve this licensing mismatch.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/matpes-pbe",
+      "display_values": {
+        "Name": "MatPES PBE",
+        "Structures": "434712",
+        "Materials": "110317",
+        "Created": "2025-03-06",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "MIT",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://matpes.ai",
+        "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-PBE-2025.1.json.gz",
+        "https://doi.org/10.48550/arXiv.2503.04070"
+      ]
+    },
+    {
+      "key": "MatPES r2SCAN",
+      "name": "MatPES v1.0 r2SCAN",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "matpes-r2scan-2025-1"
+      ],
+      "resource_url": null,
+      "listed_structures": 387897,
+      "listed_materials": 89719,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "MIT",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units. Primary current Hugging Face data cardBSD-3-Clause conflicts with benchmarkMIT; preserve this licensing mismatch.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/matpes-r2scan",
+      "display_values": {
+        "Name": "MatPES r2SCAN",
+        "Structures": "387897",
+        "Materials": "89719",
+        "Created": "2025-03-06",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "MIT",
+        "Method": "DFT · r2SCAN",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://matpes.ai",
+        "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-R2SCAN-2025.1.json.gz",
+        "https://doi.org/10.48550/arXiv.2503.04070"
+      ]
+    },
+    {
+      "key": "MDR Phonon PBE",
+      "name": "MDR Phonon PBE",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "mdr-phonon-pbe-recalculation"
+      ],
+      "resource_url": null,
+      "listed_structures": 9958,
+      "listed_materials": 9958,
+      "listed_access": "public",
+      "listed_role": "test",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mdr-phonon-pbe",
+      "display_values": {
+        "Name": "MDR Phonon PBE",
+        "Structures": "9958",
+        "Materials": "9958",
+        "Created": "2024-12-21",
+        "Access": "public",
+        "Role": "test",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe",
+        "https://alexandria.icams.rub.de/data/phonon_benchmark/",
+        "https://doi.org/10.48550/arXiv.2412.16551"
+      ]
+    },
+    {
+      "key": "MDR-MP PBE ω_q",
+      "name": "MDR PBE Phonons in MPtrj",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "pft-mdr-pbe-training"
+      ],
+      "resource_url": null,
+      "listed_structures": 8510,
+      "listed_materials": 8510,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mdr-mp-pbe-ω-q",
+      "display_values": {
+        "Name": "MDR-MP PBE ω_q",
+        "Structures": "8510",
+        "Materials": "8510",
+        "Created": "2026-01-08",
+        "Access": "public",
+        "Role": "training",
+        "Models": "2",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "Unknown",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/dataset/Preprocessed_data_for_Phonon_Fine-tuning_PFT_/31049869",
+        "https://figshare.com/files/60964675",
+        "https://doi.org/10.48550/arXiv.2601.07742"
+      ]
+    },
+    {
+      "key": "ELEMENTA",
+      "name": "ELEMENTA",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "elementa-public",
+        "elementa-spin"
+      ],
+      "resource_url": null,
+      "listed_structures": 210656285,
+      "listed_materials": 9781175,
+      "listed_access": "partial",
+      "listed_role": "training",
+      "listed_license": "CC-BY-NC-4.0",
+      "note": "The page reports the full 210,656,285-frame corpus, including unavailable frames; catalog cards cover the ~39M public core and separate ~4.7M Spin releases. Not identical release scope.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/elementa",
+      "display_values": {
+        "Name": "ELEMENTA",
+        "Structures": "210656285",
+        "Materials": "9781175",
+        "Created": "2026-07-27",
+        "Access": "partial",
+        "Role": "training",
+        "Models": "1",
+        "Release": "Fixed release",
+        "License": "CC-BY-NC-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://www.kairosmaterials.com/papers/ELEMENTA.pdf",
+        "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+        "https://doi.org/10.5281/zenodo.22638068"
+      ]
+    },
+    {
+      "key": "SMAX",
+      "name": "SMAX Maximum Entropy Dataset",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://arxiv.org/abs/2602.23489",
+      "listed_structures": 1693386,
+      "listed_materials": null,
+      "listed_access": "unreleased",
+      "listed_role": "training",
+      "listed_license": "unreleased",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/smax",
+      "display_values": {
+        "Name": "SMAX",
+        "Structures": "1693386",
+        "Materials": null,
+        "Created": "2026-02-26",
+        "Access": "unreleased",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "unreleased",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://arxiv.org/abs/2602.23489",
+        "https://doi.org/10.48550/arXiv.2602.23489"
+      ]
+    },
+    {
+      "key": "OC22",
+      "name": "Open Catalyst 2022",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "oc22"
+      ],
+      "resource_url": null,
+      "listed_structures": 9854504,
+      "listed_materials": 4286,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc22",
+      "display_values": {
+        "Name": "OC22",
+        "Structures": "9854504",
+        "Materials": "4286",
+        "Created": "2022-06-17",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE+U",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc22.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc22/s2ef_total_train_val_test_lmdbs.tar.gz",
+        "https://doi.org/10.1021/acscatal.2c05426"
+      ]
+    },
+    {
+      "key": "OC25",
+      "name": "Open Catalyst 2025",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "oc25"
+      ],
+      "resource_url": null,
+      "listed_structures": 7801261,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc25",
+      "display_values": {
+        "Name": "OC25",
+        "Structures": "7801261",
+        "Materials": null,
+        "Created": "2025-09-22",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · RPBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc25.md",
+        "https://huggingface.co/facebook/OC25",
+        "https://doi.org/10.48550/arXiv.2509.17862"
+      ]
+    },
+    {
+      "key": "ODAC23",
+      "name": "Open Direct Air Capture 2023",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "odac23"
+      ],
+      "resource_url": null,
+      "listed_structures": 38983748,
+      "listed_materials": 8412,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/odac23",
+      "display_values": {
+        "Name": "ODAC23",
+        "Structures": "38983748",
+        "Materials": "8412",
+        "Created": "2023-11-01",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac23.md",
+        "https://dl.fbaipublicfiles.com/large_objects/dac/datasets/odac23_s2ef.tar.gz",
+        "https://doi.org/10.48550/arXiv.2311.00341"
+      ]
+    },
+    {
+      "key": "ODAC25",
+      "name": "Open Direct Air Capture 2025",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "odac25"
+      ],
+      "resource_url": null,
+      "listed_structures": 70000000,
+      "listed_materials": 15000,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/odac25",
+      "display_values": {
+        "Name": "ODAC25",
+        "Structures": "70000000",
+        "Materials": "15000",
+        "Created": "2025-08-05",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac25.md",
+        "https://huggingface.co/facebook/ODAC25",
+        "https://doi.org/10.48550/arXiv.2508.03162"
+      ]
+    },
+    {
+      "key": "OMol25",
+      "name": "Open Molecules 2025",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+      "listed_structures": 101666280,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/omol25",
+      "display_values": {
+        "Name": "OMol25",
+        "Structures": "101666280",
+        "Materials": null,
+        "Created": "2025-05-13",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · wB97M-V",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+        "https://huggingface.co/facebook/OMol25",
+        "https://doi.org/10.48550/arXiv.2505.08762"
+      ]
+    },
+    {
+      "key": "OMol25 Electronic",
+      "name": "Open Molecules 2025 Electronic-Structure Subset",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+      "listed_structures": 4000000,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/omol25-electronic",
+      "display_values": {
+        "Name": "OMol25 Electronic",
+        "Structures": "4000000",
+        "Materials": null,
+        "Created": "2025-05-13",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · wB97M-V",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+        "https://doi.org/10.48550/arXiv.2505.08762"
+      ]
+    },
+    {
+      "key": "OMC25",
+      "name": "Open Molecular Crystals 2025",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "omc25"
+      ],
+      "resource_url": null,
+      "listed_structures": 26257042,
+      "listed_materials": 218841,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/omc25",
+      "display_values": {
+        "Name": "OMC25",
+        "Structures": "26257042",
+        "Materials": "218841",
+        "Created": "2025-08-04",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omc25.md",
+        "https://huggingface.co/datasets/facebook/OMC25",
+        "https://doi.org/10.48550/arXiv.2508.02651"
+      ]
+    },
+    {
+      "key": "OPoly26",
+      "name": "Open Polymers 2026",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://arxiv.org/abs/2512.23117",
+      "listed_structures": 6570542,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/opoly26",
+      "display_values": {
+        "Name": "OPoly26",
+        "Structures": "6570542",
+        "Materials": null,
+        "Created": "2025-12-28",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · wB97M-V",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://arxiv.org/abs/2512.23117",
+        "https://huggingface.co/facebook/OMol25",
+        "https://doi.org/10.48550/arXiv.2512.23117"
+      ]
+    },
+    {
+      "key": "OC20-mAds",
+      "name": "Open Catalyst 2020 Multiple Adsorbates",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "oc20-mads"
+      ],
+      "resource_url": null,
+      "listed_structures": 21804758,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc20-mads",
+      "display_values": {
+        "Name": "OC20-mAds",
+        "Structures": "21804758",
+        "Materials": null,
+        "Created": "2025-06-30",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_mads.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20mAds/oc20_multiads_train.tar.gz",
+        "https://doi.org/10.48550/arXiv.2506.23971"
+      ]
+    },
+    {
+      "key": "OC20-Slabs",
+      "name": "Open Catalyst 2020 Clean Slabs",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "oc20-slabs"
+      ],
+      "resource_url": null,
+      "listed_structures": 18323074,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc20-slabs",
+      "display_values": {
+        "Name": "OC20-Slabs",
+        "Structures": "18323074",
+        "Materials": null,
+        "Created": "2025-06-30",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_slabs.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20/oc20_slabs.tar.gz",
+        "https://doi.org/10.48550/arXiv.2506.23971"
+      ]
+    },
+    {
+      "key": "OC20-Dense",
+      "name": "Open Catalyst 2020 Dense Adsorbate Sampling",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "oc20-dense"
+      ],
+      "resource_url": null,
+      "listed_structures": 85658,
+      "listed_materials": 833,
+      "listed_access": "public",
+      "listed_role": "validation",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc20-dense",
+      "display_values": {
+        "Name": "OC20-Dense",
+        "Structures": "85658",
+        "Materials": "833",
+        "Created": "2022-11-29",
+        "Access": "public",
+        "Role": "validation",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/adsorbml/oc20_dense_data.tar.gz",
+        "https://doi.org/10.48550/arXiv.2211.16486"
+      ]
+    },
+    {
+      "key": "OC20NEB",
+      "name": "Open Catalyst 2020 Nudged Elastic Band Benchmark",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "oc20-neb"
+      ],
+      "resource_url": null,
+      "listed_structures": 1375930,
+      "listed_materials": 821,
+      "listed_access": "public",
+      "listed_role": "validation",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/oc20neb",
+      "display_values": {
+        "Name": "OC20NEB",
+        "Structures": "1375930",
+        "Materials": "821",
+        "Created": "2024-05-03",
+        "Access": "public",
+        "Role": "validation",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · RPBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20neb/oc20neb_dft_trajectories_04_23_24.tar.gz",
+        "https://doi.org/10.48550/arXiv.2405.02078"
+      ]
+    },
+    {
+      "key": "OCx24",
+      "name": "Open Catalyst Experiments 2024",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "ocx24-experimental"
+      ],
+      "resource_url": null,
+      "listed_structures": null,
+      "listed_materials": 19406,
+      "listed_access": "public",
+      "listed_role": "test",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page materials count is 19,406 deduplicated computational candidates; the existing experimental card counts 5,412 rows of measurements. Both concern one project, but neither denominator is a number of independent crystal structures.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/ocx24",
+      "display_values": {
+        "Name": "OCx24",
+        "Structures": null,
+        "Materials": "19406",
+        "Created": "2024-11-18",
+        "Access": "public",
+        "Role": "test",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "experiment, DFT, ML",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/ocx24.md",
+        "https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data/experimental_data",
+        "https://doi.org/10.48550/arXiv.2411.11783"
+      ]
+    },
+    {
+      "key": "MAD",
+      "name": "Massive Atomic Diversity",
+      "status": "new_dataset",
+      "catalog_ids": [
+        "mad-original-2025"
+      ],
+      "resource_url": null,
+      "listed_structures": 95595,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mad",
+      "display_values": {
+        "Name": "MAD",
+        "Structures": "95595",
+        "Materials": null,
+        "Created": "2025-09-25",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBEsol",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://www.nature.com/articles/s41597-025-06109-y",
+        "https://doi.org/10.24435/materialscloud:fe-1p",
+        "https://doi.org/10.24435/materialscloud:fe-1p"
+      ]
+    },
+    {
+      "key": "MAD-1.5",
+      "name": "Massive Atomic Diversity 1.5",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "mad15"
+      ],
+      "resource_url": null,
+      "listed_structures": 216803,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mad-1.5",
+      "display_values": {
+        "Name": "MAD-1.5",
+        "Structures": "216803",
+        "Materials": null,
+        "Created": "2026-03-03",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · r2SCAN",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://archive.materialscloud.org/records/18tke-tt476",
+        "https://archive.materialscloud.org/records/18tke-tt476",
+        "https://doi.org/10.24435/materialscloud:jc-9f"
+      ]
+    },
+    {
+      "key": "MAD-1.6",
+      "name": "Massive Atomic Diversity 1.6",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "mad16"
+      ],
+      "resource_url": null,
+      "listed_structures": 362646,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page exact362,646 total is a benchmark recount of specified r2SCAN split files; existing card remains separately versioned and unranked until those payloads are independently checked here.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mad-1.6",
+      "display_values": {
+        "Name": "MAD-1.6",
+        "Structures": "362646",
+        "Materials": null,
+        "Created": "2026-08-29",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · r2SCAN",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://archive.materialscloud.org/records/wtpqr-2cj66",
+        "https://archive.materialscloud.org/records/wtpqr-2cj66",
+        "https://doi.org/10.24435/materialscloud:vm-51"
+      ]
+    },
+    {
+      "key": "MP-ALOE",
+      "name": "Materials Project Active Learning of Off-Equilibrium Structures",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "mp-aloe"
+      ],
+      "resource_url": null,
+      "listed_structures": 909792,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/mp-aloe",
+      "display_values": {
+        "Name": "MP-ALOE",
+        "Structures": "909792",
+        "Materials": null,
+        "Created": "2025-07-01",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · r2SCAN",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://docs.materialsproject.org/services/ml-and-ai-applications/matpes",
+        "https://doi.org/10.6084/m9.figshare.29452190.v2",
+        "https://doi.org/10.48550/arXiv.2507.05559"
+      ]
+    },
+    {
+      "key": "SPICE 2",
+      "name": "Small-Molecule/Protein Interaction Chemical Energies 2",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://github.com/openmm/spice-dataset",
+      "listed_structures": 2000000,
+      "listed_materials": null,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC0-1.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/spice-2",
+      "display_values": {
+        "Name": "SPICE 2",
+        "Structures": "2000000",
+        "Materials": null,
+        "Created": "2024-04-15",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC0-1.0",
+        "Method": "DFT · wB97M-D3BJ",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/openmm/spice-dataset",
+        "https://zenodo.org/records/10975225",
+        "https://doi.org/10.5281/zenodo.10975225"
+      ]
+    },
+    {
+      "key": "QMOF",
+      "name": "Quantum Metal-Organic Framework Database",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "qmof"
+      ],
+      "resource_url": null,
+      "listed_structures": 20372,
+      "listed_materials": 20372,
+      "listed_access": "public",
+      "listed_role": "repository",
+      "listed_license": "CC-BY-4.0",
+      "note": "The page snapshot counts20,372 qmof_id records, whereas the existing catalog release may use a different archive/snapshot. Preserve version distinctions.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/qmof",
+      "display_values": {
+        "Name": "QMOF",
+        "Structures": "20372",
+        "Materials": "20372",
+        "Created": "2020-10-29",
+        "Access": "public",
+        "Role": "repository",
+        "Models": "0",
+        "Release": "Updated",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · PBE, HSE06",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/Andrew-S-Rosen/QMOF",
+        "https://doi.org/10.6084/m9.figshare.13147324",
+        "https://doi.org/10.1038/s41524-022-00796-6"
+      ]
+    },
+    {
+      "key": "rMD17",
+      "name": "Revised Molecular Dynamics 17",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+      "listed_structures": 999988,
+      "listed_materials": 10,
+      "listed_access": "public",
+      "listed_role": "test",
+      "listed_license": "CC0-1.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/rmd17",
+      "display_values": {
+        "Name": "rMD17",
+        "Structures": "999988",
+        "Materials": "10",
+        "Created": "2020-07-18",
+        "Access": "public",
+        "Role": "test",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC0-1.0",
+        "Method": "DFT · PBE",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+        "https://doi.org/10.6084/m9.figshare.12672038.v4",
+        "https://doi.org/10.48550/arXiv.2007.09593"
+      ]
+    },
+    {
+      "key": "JARVIS-DFT",
+      "name": "JARVIS Density Functional Theory 3D Database",
+      "status": "existing_dataset",
+      "catalog_ids": [
+        "jarvis-dft-3d"
+      ],
+      "resource_url": null,
+      "listed_structures": 75993,
+      "listed_materials": 75993,
+      "listed_access": "public",
+      "listed_role": "repository",
+      "listed_license": "CC-BY-4.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/jarvis-dft",
+      "display_values": {
+        "Name": "JARVIS-DFT",
+        "Structures": "75993",
+        "Materials": "75993",
+        "Created": "2018-07-13",
+        "Access": "public",
+        "Role": "repository",
+        "Models": "0",
+        "Release": "Updated",
+        "License": "CC-BY-4.0",
+        "Method": "DFT · optB88-vdW, TB-mBJ",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://pages.nist.gov/jarvis/databases/",
+        "https://jarvis.nist.gov/optimade/jarvisdft/",
+        "https://pages.nist.gov/jarvis/databases/",
+        "https://ndownloader.figshare.com/files/38521619",
+        "https://doi.org/10.1038/s41524-020-00440-1"
+      ]
+    },
+    {
+      "key": "ANI-1x",
+      "name": "ANI-1x Active-Learning Molecular Dataset",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://github.com/aiqm/ANI1x_datasets",
+      "listed_structures": 5000000,
+      "listed_materials": 64000,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC0-1.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/ani-1x",
+      "display_values": {
+        "Name": "ANI-1x",
+        "Structures": "5000000",
+        "Materials": "64000",
+        "Created": "2020-04-23",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC0-1.0",
+        "Method": "DFT · wB97X",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://github.com/aiqm/ANI1x_datasets",
+        "https://springernature.figshare.com/articles/dataset/ANI-1x_Dataset_Release/10047041",
+        "https://doi.org/10.1038/s41597-020-0473-z"
+      ]
+    },
+    {
+      "key": "QM9",
+      "name": "Quantum Chemistry of 134 Thousand Small Organic Molecules",
+      "status": "new_resource",
+      "catalog_ids": [],
+      "resource_url": "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904",
+      "listed_structures": 133885,
+      "listed_materials": 133885,
+      "listed_access": "public",
+      "listed_role": "training",
+      "listed_license": "CC0-1.0",
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "detail_url": "https://matbench-discovery.materialsproject.org/data/qm9",
+      "display_values": {
+        "Name": "QM9",
+        "Structures": "133885",
+        "Materials": "133885",
+        "Created": "2014-07-31",
+        "Access": "public",
+        "Role": "training",
+        "Models": "0",
+        "Release": "Fixed release",
+        "License": "CC0-1.0",
+        "Method": "DFT · B3LYP",
+        "API": null,
+        "Links": null
+      },
+      "outbound_links": [
+        "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904",
+        "https://springernature.figshare.com/articles/dataset/Data_for_133885_GDB-9_molecules/1057646",
+        "https://doi.org/10.1038/sdata.2014.22"
+      ]
+    }
+  ]
+}

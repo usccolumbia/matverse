@@ -1,0 +1,30 @@
+[
+  {
+    "name": "audit_efg",
+    "url": "https://api.figshare.com/v2/articles/12307700/versions/2",
+    "status": 200,
+    "bytes": 6351,
+    "sha256": "9fbc61e431e099d62e6b41eaa6409aaa959815529279a8d16339a3290eb0d0cd"
+  },
+  {
+    "name": "audit_wannier",
+    "url": "https://api.figshare.com/v2/collections/5192276/versions/2/articles",
+    "status": 404,
+    "bytes": 192,
+    "sha256": "4c5596c458aa3b860a17d1bc4d9f11550727ab49e3257216d6758e82e57afe01"
+  },
+  {
+    "name": "audit_arpes",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.j2641",
+    "status": 200,
+    "bytes": 4284,
+    "sha256": "2253928bedf9b00db1867d4e4f41ae9032ded61a00c3c364616a542c23162c90"
+  },
+  {
+    "name": "audit_adszeo",
+    "url": "https://zenodo.org/api/records/21445386",
+    "status": 200,
+    "bytes": 4874,
+    "sha256": "30c0eaa9bb3ecbc7084d32bfd7335327a8ec863d2f877a10720c4ecf89b0f2be"
+  }
+]

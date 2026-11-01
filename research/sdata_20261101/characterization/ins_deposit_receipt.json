@@ -1,0 +1,50 @@
+{
+  "url": "https://zenodo.org/api/records/7438040",
+  "status": 200,
+  "doi": "10.5281/zenodo.7438040",
+  "title": "A database of synthetic inelastic neutron scattering spectra from molecules and crystals",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "version": "1.0.1",
+  "file_count": 7,
+  "files": [
+    {
+      "name": "crystals.dat",
+      "bytes": 523982,
+      "checksum": "md5:d689a217534a273c4a7e0892454d89fd"
+    },
+    {
+      "name": "molecules.dat",
+      "bytes": 2618019,
+      "checksum": "md5:8e6eb0fbd5f2444945a6cb7779aa2ee7"
+    },
+    {
+      "name": "crystals.tar.gz",
+      "bytes": 8005083392,
+      "checksum": "md5:2a2e36e208eb923d5d29bd5649e714a3"
+    },
+    {
+      "name": "readme.txt",
+      "bytes": 3239,
+      "checksum": "md5:c9348165f56eb0d8cc84c7ffef4cb078"
+    },
+    {
+      "name": "molecules.tar.gz",
+      "bytes": 2349237523,
+      "checksum": "md5:2fa0c340f867ec16127ea9082800dfb9"
+    },
+    {
+      "name": "plot_ins.py",
+      "bytes": 4490,
+      "checksum": "md5:07cc7800f7d64aae1100b6d4045564d3"
+    },
+    {
+      "name": "oclimax_manual.pdf",
+      "bytes": 893703,
+      "checksum": "md5:83aa8969d7e6a2c990353c398d786d28"
+    }
+  ],
+  "raw_file": "research/cache/sdata_characterization/ins_deposit.json",
+  "sha256": "d09ef85bd687ac69cc113f4e98f451849b45651edde8a5badec2467c680f6158"
+}

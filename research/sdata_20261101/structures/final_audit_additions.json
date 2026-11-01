@@ -1,0 +1,202 @@
+[
+  {
+    "id": "jarvis-efg-2020",
+    "name": "JARVIS electric-field-gradient tensor release",
+    "category": "property_benchmarks",
+    "description": "Computed site-resolved electric-field-gradient tensors with periodic atomic geometries for a JARVIS-DFT material subset.",
+    "version": "Figshare 12307700 v2; inspected JARVIS-EFG4.json payload",
+    "year": 2020,
+    "count": 15202,
+    "count_display": "15,202 unique-JID JSON records; publication states 15,187 materials",
+    "count_unit": "material EFG records",
+    "count_scope": "Independently counted v2 JSON payload, with one unique JARVIS identifier per row; publication/repository abstract count is retained as a separate discrepant cohort counter.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "site-resolved EFG tensor",
+      "diagonalized EFG tensor",
+      "periodic atomic structure",
+      "EFG asymmetry via accompanying CSV"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2 data licence)",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-00707-8",
+      "data": "https://doi.org/10.6084/m9.figshare.12307700.v2",
+      "homepage": "https://jarvis.nist.gov/"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-020-00707-8",
+        "title": "Primary EFG data descriptor",
+        "evidence": "Reports EFG calculations for 15,187 JARVIS-DFT materials and a JSON file containing atoms plus raw/diagonalized tensors; uses calculated structures rather than experimental geometries.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/12307700/versions/2",
+        "title": "Figshare v2 release metadata",
+        "evidence": "Lists JARVIS-EFG4.csv, JARVIS-EFG4.json and parser example, with CC BY 4.0 rights. Downloaded JSON is 18,600,334 bytes; MD5 5877c7410a76e412a695925eb5b4cd27 matches provider metadata and contains 15,202 distinct JIDs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Versioned downloadable JSON has 15,202 unique-JID rows, while both article and repository abstract state 15,187; the reason for this difference is unresolved.",
+      "This property subset overlaps JARVIS-DFT; it is not 15,202 additional newly discovered compounds.",
+      "EFGs are computed on DFT-relaxed geometries; experimental NQR frequency comparison additionally depends on nuclear quadrupole moments and measurement conditions.",
+      "Site tensors and materials are different counting units."
+    ],
+    "tags": [
+      "Scientific Data",
+      "Scientific-Data-descriptor",
+      "Scientific-Data-survey-20261101",
+      "JARVIS",
+      "EFG"
+    ],
+    "additional_counts": [
+      {
+        "value": 15187,
+        "unit": "materials",
+        "scope": "Original primary-paper and repository-abstract count; differs from inspected v2 payload"
+      }
+    ]
+  },
+  {
+    "id": "adszeo-equilibrium-configurations",
+    "name": "AdsZeo equilibrium methane adsorption configurations",
+    "category": "porous_frameworks",
+    "description": "Coordinate-resolved GCMC adsorption configurations for methane and mobile sodium ions in aluminium-substituted zeolite frameworks.",
+    "version": "Zenodo 21445386 v1; October 2026 accepted Scientific Data descriptor",
+    "year": 2026,
+    "count": 4775,
+    "count_display": "4,775 framework realizations from 191 topologies; 12,415,000 production frames",
+    "count_unit": "zeolite framework realizations",
+    "count_scope": "25 Al/Na-substituted realizations per parent topology, each sampled at 13 methane pressures between 0.1 and 100 bar at 298 K.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "periodic framework coordinates",
+      "methane pseudo-atom coordinates",
+      "mobile Na coordinates",
+      "frame loading",
+      "energy statistics",
+      "adsorption isotherms",
+      "simulation metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo data metadata)",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-08392-9",
+      "data": "https://doi.org/10.5281/zenodo.21445386",
+      "code": "https://github.com/Rachna-R/AdsZeo"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-026-08392-9",
+        "title": "Accepted Scientific Data descriptor",
+        "evidence": "Reports 4,775 realizations from 191 topologies, 62,075 simulations, 12,415,000 saved production frames and 1,245,376,215 particle-coordinate records; accepted version published 8 October 2026.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/21445386",
+        "title": "AdsZeo public deposit metadata",
+        "evidence": "Confirms framework/particle/scalar data in DuckDB, a 12,443,463,680-byte AdsZeo_data.duckdb payload and analysis notebook, with CC BY 4.0 data licence.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Framework realizations, parent topologies, Monte Carlo runs, saved frames and particle-coordinate rows are distinct counters and must not be summed as materials.",
+      "Methane is stored as pseudo-atoms; this is not a full explicit-hydrogen methane coordinate dataset.",
+      "Configurations are classical GCMC samples, not DFT-labelled energies/forces or experimentally measured adsorption structures.",
+      "The 12.4 GB payload was not downloaded or independently recounted; dataset sizes are primary descriptor/deposit declarations.",
+      "The publisher page is an accepted early version and may later be replaced by the Version of Record."
+    ],
+    "tags": [
+      "Scientific Data",
+      "Scientific-Data-descriptor",
+      "Scientific-Data-survey-20261101",
+      "zeolites",
+      "adsorption",
+      "GCMC"
+    ],
+    "additional_counts": [
+      {
+        "value": 191,
+        "unit": "parent topologies",
+        "scope": "Each generates 25 framework realizations"
+      },
+      {
+        "value": 62075,
+        "unit": "production simulations",
+        "scope": "13 pressures for each of 4,775 realizations"
+      },
+      {
+        "value": 12415000,
+        "unit": "saved production frames",
+        "scope": "200 saved frames per production simulation"
+      },
+      {
+        "value": 1245376215,
+        "unit": "saved particle-coordinate records",
+        "scope": "Particle rows within saved frames, not structures"
+      }
+    ]
+  },
+  {
+    "id": "arpes-graphene-bp-2016",
+    "name": "Graphene/black-phosphorus ARPES simulation and HOPG reference data",
+    "category": "diffraction_spectroscopy",
+    "description": "Finite-cluster ARPES simulations, Gaussian geometries and direct experimental highly oriented pyrolytic graphite photoemission data.",
+    "version": "Dryad publication release, 2016",
+    "year": 2016,
+    "count": null,
+    "count_display": "Simulation and experimental spectral record count not verified",
+    "count_unit": "simulation/spectral records",
+    "count_scope": "Finite PAH/black-phosphorus simulation sets and experimental HOPG ARPES spectra; deposit packages are not treated as material counts.",
+    "count_precision": "unknown",
+    "structure_level": "mixed",
+    "provenance": "mixed",
+    "properties": [
+      "ARPES intensity",
+      "occupied energy levels",
+      "molecular Cartesian coordinates",
+      "photon/analyzer geometry",
+      "experimental HOPG spectra"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Dryad data metadata)",
+    "links": {
+      "paper": "https://doi.org/10.1038/sdata.2016.31",
+      "data": "https://doi.org/10.5061/dryad.j2641"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2016.31",
+        "title": "Primary ARPES data descriptor",
+        "evidence": "Data Record explicitly includes generated Gaussian/IAC simulation data and experimental HOPG ARPES tables; simulated PAHs span 24–864 carbon atoms, with 11 subfiles per molecular simulation set.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.j2641",
+        "title": "Dryad release and rights",
+        "evidence": "Dataset metadata identifies CC0 1.0. File inventory includes Dataset.zip, experimental ARPES data.zip, PES_program.zip and a program README; file count is not used as a material counter.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Simulation structures are finite molecules/clusters representing graphene/BP nanostructures, not periodic 2D crystal coordinates.",
+      "Direct experimental bulk HOPG spectra make this a mixed materials-spectroscopy resource; filter out finite-model data for strictly periodic benchmarks.",
+      "Simulated occupied energies are scaled/shifted against experiment or HOMO/LUMO midpoint; they are not unadjusted periodic DFT band structures.",
+      "Payload size/metadata verified; simulation and measured-spectrum counts were not independently enumerated."
+    ],
+    "tags": [
+      "Scientific Data",
+      "Scientific-Data-descriptor",
+      "Scientific-Data-survey-20261101",
+      "ARPES",
+      "experimental-reference",
+      "finite-cluster-models"
+    ]
+  }
+]

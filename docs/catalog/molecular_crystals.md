@@ -43,7 +43,7 @@ Other denominators (not added to the ranking):
 - Hugging Face access is gated; the card also exposes direct data links.
 - OMol25 and OE62 are isolated-molecule resources and are not counted as periodic datasets here.
 
-**Tags:** molecular-crystal, DFT, MLIP, trajectory, Scientific Data.
+**Tags:** molecular-crystal, DFT, MLIP, trajectory, Scientific Data, Scientific-Data-descriptor.
 
 <a id="osd-organic-superconductors"></a>
 ## Organic Superconductor Database (OSD)
@@ -79,6 +79,38 @@ Quasi-two-dimensional crystalline organic conductors and superconductors with li
 - HTTP public pages were reachable in the direct retrieval; an HTTPS browser-tool request failed, so the observed HTTP route is retained.
 
 **Tags:** superconductivity, organic, molecular crystal, CSD derivative, mixed provenance, superconductor, superconductors.
+
+<a id="pah101-gwbse"></a>
+## PAH101 molecular-crystal GW+BSE dataset
+
+Relaxed molecular crystals with quasiparticle band structures, exciton energies and polarized optical spectra.
+
+**Size:** 101 molecular crystal records (source wording: 101 molecular crystal records).
+
+**Scope:** NOMAD PAH101 archive; contains periodic geometry and extracted single-molecule geometry per record.
+
+**Release:** NOMAD dataset 2024.12.05-1. **Year:** 2025.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** GW band gap; quasiparticle band structure; singlet/triplet exciton energies; dielectric function; optical absorption; DFT features.
+
+**Access:** open. **Dataset license:** Not verified separately for deposited data; article/preprint CC BY is not used as an external data licence.
+
+**Official routes:** [paper](https://doi.org/10.1038/s41597-025-04959-0) · [data](https://doi.org/10.17172/NOMAD/2024.12.05-1)
+
+**Evidence:**
+
+- [Scientific Data primary data descriptor](https://doi.org/10.1038/s41597-025-04959-0) (checked 2026-11-01): Relaxed molecular crystals with quasiparticle band structures, exciton energies and polarized optical spectra. NOMAD PAH101 archive; contains periodic geometry and extracted single-molecule geometry per record.
+- [Primary repository release metadata](https://nomad-lab.eu/prod/v1/api/v1/datasets/?doi=10.17172/NOMAD/2024.12.05-1) (checked 2026-11-01): Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.
+
+**Reuse and interpretation notes:**
+
+- Derived from CSD molecular-crystal identities; coordinates are computationally relaxed.
+- Static GW dielectric constants are missing for some entries.
+- NOMAD dataset identity and public availability verified; payload files were not independently recounted.
+
+**Tags:** Scientific Data, survey:20261101, Scientific-Data-descriptor, Scientific-Data-survey-20261101.
 
 <a id="x23-dmc"></a>
 ## X23 diffusion Monte Carlo benchmark

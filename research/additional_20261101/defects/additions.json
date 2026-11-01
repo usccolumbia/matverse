@@ -1,0 +1,676 @@
+[
+  {
+    "id": "mp-noncrystalline-aimd",
+    "name": "Materials Project non-crystalline AIMD and diffusivity database",
+    "category": "mlip_configurations",
+    "description": "Ab initio molecular-dynamics liquid and quenched inorganic systems, with ionic diffusivities and non-equilibrium structures.",
+    "version": "2024 publication cohort; 5000 K and multi-temperature releases",
+    "year": 2024,
+    "count": 5120,
+    "count_display": "5,120",
+    "count_unit": "5000 K AIMD parent systems",
+    "count_scope": "The paper reports 5,120 systems in the 5000 K cohort, spanning 4,849 distinct compositions. Lower-temperature runs and trajectory frames are additional dependent observations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "MPMorph AIMD workflows seeded from Materials Project compositions; non-crystalline trajectories are new calculations",
+    "properties": [
+      "AIMD structures",
+      "ionic diffusivity",
+      "energies",
+      "forces",
+      "temperature"
+    ],
+    "access": "open",
+    "license": "Not verified for dataset files; MPContribs labels project CCA4, but release-file terms were not independently checked",
+    "links": {
+      "Provider": "https://contribs.materialsproject.org/projects/amorphous_diffusivity",
+      "Code": "https://github.com/Tinaatucsd/DFT_amorphous_structure",
+      "Trajectories": "https://materialsproject-contribs.s3.amazonaws.com/index.html#amorphous_diffusivity/",
+      "Paper": "https://doi.org/10.1038/s41524-024-01469-2"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41524-024-01469-2",
+        "title": "Non-crystalline structure database paper",
+        "evidence": "Data scope distinguishes 5,120 5000 K systems, 4,849 compositions, and 220 compounds studied at lower temperatures; data availability names MPContribs and Figshare.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/Tinaatucsd/DFT_amorphous_structure",
+        "title": "Author data/code repository",
+        "evidence": "README links downloadable structure/diffusivity JSON and the full AIMD trajectory distribution.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://contribs.materialsproject.org/projects/amorphous_diffusivity",
+        "title": "Live MPContribs project",
+        "evidence": "Download controls include structures and tables; temperature and element-specific diffusivities are displayed. Project badge reads CCA4.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The phase cannot universally be assigned as glass versus liquid; do not label every system an amorphous solid.",
+      "System count is not the number of unique compositions or trajectory snapshots.",
+      "No all-payload enumeration or deduplication was performed."
+    ],
+    "tags": [
+      "amorphous",
+      "liquids",
+      "AIMD",
+      "diffusivity",
+      "non-crystalline"
+    ],
+    "additional_counts": [
+      {
+        "value": 4849,
+        "unit": "compositions",
+        "scope": "Distinct compositions in the 5000 K cohort"
+      },
+      {
+        "value": 220,
+        "unit": "selected compounds",
+        "scope": "Lower-temperature cohort; not added to parent system count"
+      }
+    ]
+  },
+  {
+    "id": "iaea-cascadesdb",
+    "name": "IAEA CascadesDB collision-cascade simulations",
+    "category": "mlip_configurations",
+    "description": "Atomistic irradiation-damage simulations for elemental metals, including collision cascades, vacancy clusters and dislocation debris.",
+    "version": "Live provider snapshot checked 2026-11-01",
+    "year": 2026,
+    "count": 17024,
+    "count_display": "17,024",
+    "count_unit": "collision-cascade simulations",
+    "count_scope": "Provider homepage reports 17,024 simulations distributed in 320 archives, approximately 815 GB.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "IAEA-curated contributions from independently published molecular-dynamics radiation-damage studies",
+    "properties": [
+      "atomic coordinates",
+      "PKA energy",
+      "temperature",
+      "interatomic potential",
+      "cascade duration",
+      "defect morphology"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 for data and metadata unless individually stated otherwise",
+    "links": {
+      "Provider": "https://cascadesdb.org/",
+      "Browse": "https://cascadesdb.org/cdbmeta/browse",
+      "Documentation": "https://cascadesdb.org/cdbmeta/doc",
+      "License": "https://cascadesdb.org/licence/"
+    },
+    "sources": [
+      {
+        "url": "https://cascadesdb.org/",
+        "title": "IAEA CascadesDB homepage",
+        "evidence": "Live HTML states 17,024 simulations in 320 archives; deposits use plain-text XYZ files.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cascadesdb.org/cdbmeta/doc",
+        "title": "CascadesDB metadata specification",
+        "evidence": "Documents material lattice, simulation box, recoil conditions, code and archive fields.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cascadesdb.org/licence/",
+        "title": "CascadesDB data licence",
+        "evidence": "Explicitly applies CC BY 4.0 to data and metadata unless stated otherwise.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Simulations, archives and coordinate frames are different denominators.",
+      "Elemental bulk, surfaces and initially damaged cells are mixed; inspect metadata before reuse.",
+      "Underlying contributor releases may overlap other irradiation datasets."
+    ],
+    "tags": [
+      "irradiation",
+      "collision-cascades",
+      "vacancies",
+      "molecular-dynamics"
+    ],
+    "additional_counts": [
+      {
+        "value": 320,
+        "unit": "archives",
+        "scope": "Live distribution archive count; not independent materials"
+      }
+    ]
+  },
+  {
+    "id": "quantumdefects-semiconductor",
+    "name": "Quantum Defects Database — semiconductor point defects",
+    "category": "property_benchmarks",
+    "description": "Calculated point-defect structures and electronic/optical properties for quantum applications in diamond, silicon carbide and silicon.",
+    "version": "2023 paper cohort; living public interface checked 2026-11-01",
+    "year": 2023,
+    "count": 50000,
+    "count_display": ">50,000",
+    "count_unit": "point-defect calculations",
+    "count_scope": "Paper reports over 50,000 point-defect calculations. Charge states and excited states are not independent host materials.",
+    "count_precision": "lower_bound",
+    "structure_level": "periodic_atomic",
+    "provenance": "High-throughput first-principles semiconductor defect calculations by Ivanov and collaborators",
+    "properties": [
+      "relaxed defect structures",
+      "formation energies",
+      "spin states",
+      "zero-phonon lines",
+      "transition dipole moments"
+    ],
+    "access": "open",
+    "license": "Not verified; public access does not establish a reuse licence",
+    "links": {
+      "Provider": "https://quantumdefects.com/",
+      "Example": "https://quantumdefects.com/c103",
+      "Paper": "https://arxiv.org/abs/2303.16283"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2303.16283",
+        "title": "Database of semiconductor point-defect properties for applications in quantum technologies",
+        "evidence": "Author abstract reports over 50,000 calculated defects and publicly available relaxed structures.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://quantumdefects.com/c103",
+        "title": "Live example: Ta substitution and Si interstitial",
+        "evidence": "Public example supplies charge-state controls, energies, spin information and a POSCAR-format structure download. A Si search returned 400 indexed results.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Paper-cohort lower bound is retained; live total was not verified.",
+      "Distinct from QPOD, which focuses on intrinsic defects in two-dimensional materials.",
+      "Properties are computed predictions and require application-specific validation."
+    ],
+    "tags": [
+      "point-defects",
+      "dopants",
+      "vacancies",
+      "quantum-defects",
+      "semiconductors"
+    ]
+  },
+  {
+    "id": "homer-aluminum-gb-7304",
+    "name": "Homer aluminum grain-boundary structures across 5D space",
+    "category": "surfaces_catalysis",
+    "description": "Minimum-energy aluminum grain boundaries spanning macroscopic crystallographic character, with atomic coordinates and computed boundary properties.",
+    "version": "Mendeley Data v1, DOI 10.17632/4ykjz4ngwt.1",
+    "year": 2022,
+    "count": 7304,
+    "count_display": "7,304",
+    "count_unit": "minimum-energy grain-boundary structures",
+    "count_scope": "Released ZIP contains 7,304 minimized LAMMPS structures, one for each unique macroscopic grain boundary.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "EAM-conjugate-gradient optimization of aluminum bicrystals over many microscopic initial configurations",
+    "properties": [
+      "boundary energy",
+      "crystallographic character",
+      "excess volume",
+      "atomic coordinates"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "Release": "https://data.mendeley.com/datasets/4ykjz4ngwt/1",
+      "Paper": "https://doi.org/10.1016/j.actamat.2022.118006"
+    },
+    "sources": [
+      {
+        "url": "https://data.mendeley.com/datasets/4ykjz4ngwt/1",
+        "title": "Computed Aluminum Grain Boundary Structures and Energies Covering the 5D Space",
+        "evidence": "Provider states 7,304 minimum-energy LAMMPS structure files plus property CSV and CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Only atoms within ±15 angstrom of the boundary plane are retained; files are truncated boundary regions.",
+      "The 43,009,236 configurations minimized during search are not the count of structures in this release.",
+      "Distinct from the existing FCC Cu dislocation–grain-boundary interaction corpus."
+    ],
+    "tags": [
+      "grain-boundaries",
+      "aluminum",
+      "EAM",
+      "interfaces"
+    ]
+  },
+  {
+    "id": "gbdb-elemental-metals",
+    "name": "GBDB elemental-metal grain-boundary DFT database",
+    "category": "surfaces_catalysis",
+    "description": "DFT grain-boundary structures and properties across elemental FCC, BCC and HCP metals.",
+    "version": "2020 paper cohort; current Crystalium route checked 2026-11-01",
+    "year": 2020,
+    "count": 327,
+    "count_display": "327",
+    "count_unit": "grain-boundary structures",
+    "count_scope": "Publication cohort contains 327 grain boundaries across 58 elements.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "High-throughput scaled-template DFT calculations by Zheng and collaborators; distributed through Materials Project and Crystalium",
+    "properties": [
+      "grain-boundary energy",
+      "work of separation",
+      "initial and relaxed structures"
+    ],
+    "access": "open",
+    "license": "Not verified for released data",
+    "links": {
+      "Provider": "https://crystalium.materialyze.ai/",
+      "Paper": "https://doi.org/10.1016/j.actamat.2019.12.030",
+      "Author manuscript": "https://perssongroup.lbl.gov/papers/zheng-2020-grain-boundary.pdf"
+    },
+    "sources": [
+      {
+        "url": "https://perssongroup.lbl.gov/papers/zheng-2020-grain-boundary.pdf",
+        "title": "Grain boundary properties of elemental metals",
+        "evidence": "Paper states 327 structures across 58 elements, and distribution on Materials Project and Crystalium.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://crystalium.materialyze.ai/data/Fe",
+        "title": "Live Crystalium Fe data endpoint",
+        "evidence": "Returned 10 Fe grain-boundary records including lattice/site coordinates, boundary energies, and work of separation alongside separate surface records.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Count is the documented paper cohort rather than an independently enumerated live total.",
+      "Crystalium also supplies surfaces; those are excluded from this grain-boundary cohort.",
+      "DFT values differ in provenance from empirical-potential GB datasets."
+    ],
+    "tags": [
+      "grain-boundaries",
+      "DFT",
+      "metals",
+      "interfaces"
+    ],
+    "additional_counts": [
+      {
+        "value": 58,
+        "unit": "elements",
+        "scope": "Element coverage of the paper cohort"
+      }
+    ]
+  },
+  {
+    "id": "gb-solute-interaction-spectra",
+    "name": "Bond-focused grain-boundary solute interaction spectra",
+    "category": "property_benchmarks",
+    "description": "Spectral grain-boundary thermodynamic parameters for binary alloy segregation and solute interactions.",
+    "version": "Mendeley Data v1, DOI 10.17632/hrv39bz4k6.1",
+    "year": 2024,
+    "count": 200,
+    "count_display": "~200",
+    "count_unit": "binary alloy systems",
+    "count_scope": "Provider describes approximately 200 binary systems with EAM potentials available from NIST.",
+    "count_precision": "approximate",
+    "structure_level": "composition_only",
+    "provenance": "EAM calculations of grain-boundary segregation and interaction spectra; not DFT or experimental measurements",
+    "properties": [
+      "solvent excess boundary enthalpy",
+      "dilute segregation energy",
+      "solute interaction energy",
+      "bulk interaction parameter"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "Release": "https://data.mendeley.com/datasets/hrv39bz4k6/1"
+    },
+    "sources": [
+      {
+        "url": "https://data.mendeley.com/datasets/hrv39bz4k6/1",
+        "title": "Bond-Focused Local Atomic Environment Representation supplemental data",
+        "evidence": "Provider describes approximately 200 binary systems, a downloadable spectral database and CC BY 4.0 licensing.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Binary-system count is not atom count or the number of segregation-site energy labels.",
+      "Atomic-coordinate payload availability was not verified; this record represents released property spectra."
+    ],
+    "tags": [
+      "grain-boundaries",
+      "segregation",
+      "alloys",
+      "EAM",
+      "solute-interactions"
+    ]
+  },
+  {
+    "id": "kumagai-oxygen-vacancies",
+    "name": "Kumagai oxygen-vacancy database",
+    "category": "property_benchmarks",
+    "description": "Charged oxygen-vacancy calculations in nonmagnetic insulating oxides, with defect geometry, formation energies and electronic information.",
+    "version": "2021 paper cohort; repository master e310353ecbf698499c85a5ec5416b76e82dcecfd",
+    "year": 2021,
+    "count": 937,
+    "count_display": "937",
+    "count_unit": "oxide hosts",
+    "count_scope": "Paper analyzes 937 oxide hosts, with inequivalent oxygen sites and three charge states. Host count is used instead of the approximate total defect calculations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "New PBEsol(+U) and non-self-consistent dielectric-dependent hybrid calculations; hosts selected from Materials Project",
+    "properties": [
+      "defect formation energies",
+      "charge transition levels",
+      "vacancy structures",
+      "band structures",
+      "dielectric constants"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 explicitly for all data in the author repository",
+    "links": {
+      "Release": "https://github.com/kumagai-group/oxygen_vacancies_db",
+      "Paper": "https://doi.org/10.1103/PhysRevMaterials.5.123803"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/kumagai-group/oxygen_vacancies_db",
+        "title": "Oxygen vacancy database author release",
+        "evidence": "README explicitly licenses all data CC BY 4.0; archive contains CIF supercells and defect results including relaxed CONTCAR geometry.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.5.123803",
+        "title": "Insights into oxygen vacancies from high-throughput first-principles calculations",
+        "evidence": "Primary paper reports 937 oxides and approximately 6,000 vacancy calculations across three charge states.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Released machine-learning CSVs have 1,745 neutral, 1,689 singly charged and 1,613 doubly charged rows; these filtered subsets are not the full calculation population.",
+      "Distinct from Foundry Wolverton ABO3 vacancy data and JARVIS vacancy release.",
+      "Later ML_charged_defects reuse of this oxygen corpus should not be added independently without new-data verification."
+    ],
+    "tags": [
+      "oxygen-vacancies",
+      "charged-defects",
+      "oxides",
+      "redox"
+    ],
+    "additional_counts": [
+      {
+        "value": 5047,
+        "unit": "filtered ML rows",
+        "scope": "Sum of charge0.csv (1745), charge1.csv (1689), charge2.csv (1613); overlapping hosts and sites"
+      }
+    ]
+  },
+  {
+    "id": "oqmd-oxygen-vacancy-sites-2023",
+    "name": "OQMD-derived oxygen-vacancy formation energies",
+    "category": "property_benchmarks",
+    "description": "Site-resolved computed oxygen-vacancy energies and descriptors for oxide materials, indexed to OQMD pristine and defect entries.",
+    "version": "Zenodo v1, DOI 10.5281/zenodo.10028980",
+    "year": 2023,
+    "count": 2677,
+    "count_display": "2,677",
+    "count_unit": "oxygen-site property rows",
+    "count_scope": "Exact parsed Data.csv row count, excluding its header. Removing _v site suffixes gives 1,157 distinct pristine OQMD IDs.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "Baldassarri–He–Wolverton high-throughput vacancy calculations on OQMD oxide hosts",
+    "properties": [
+      "oxygen vacancy formation energy",
+      "OQMD pristine and defect identifiers",
+      "band gap",
+      "stability",
+      "site and composition descriptors"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo record metadata)",
+    "links": {
+      "Release": "https://zenodo.org/records/10028980",
+      "Paper": "https://doi.org/10.1021/acs.chemmater.3c02251"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/api/records/10028980",
+        "title": "Zenodo oxygen-vacancy release metadata",
+        "evidence": "Open dataset with explicit cc-by-4.0 licence; Data.csv, Readme and example model code are distributed.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/records/10028980/files/Data.csv?download=1",
+        "title": "Released Data.csv",
+        "evidence": "Parsed 2,677 data rows and 1,157 distinct parent IDs after removing _v site suffixes. Columns include OQMD_ID_defect and evf.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "CSV provides structure identifiers and descriptors rather than self-contained coordinates.",
+      "Do not interpret 2,677 as the number of distinct pristine materials.",
+      "OQMD parent lineage is shared, but the released site-resolved vacancy labels are a distinct calculation corpus."
+    ],
+    "tags": [
+      "oxygen-vacancies",
+      "oxides",
+      "OQMD",
+      "redox"
+    ],
+    "additional_counts": [
+      {
+        "value": 1157,
+        "unit": "pristine OQMD parent IDs",
+        "scope": "Distinct OQMD_ID_pristine values after stripping _v site suffix"
+      }
+    ]
+  },
+  {
+    "id": "chalcogenide-vacancy-reconstructions",
+    "name": "Chalcogenide vacancy structure-reconstruction dataset",
+    "category": "mlip_configurations",
+    "description": "DFT relaxation landscapes for neutral cation vacancies in chalcogenides, used to train defect reconstruction surrogate potentials.",
+    "version": "Zenodo v1, DOI 10.5281/zenodo.10579527",
+    "year": 2024,
+    "count": 130,
+    "count_display": "~130",
+    "count_unit": "neutral cation-vacancy defects",
+    "count_scope": "Provider describes approximately 130 defect types across approximately 50 chalcogenide hosts, each with 14 or 15 initial distortions and relaxation trajectories.",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "ShakeNBreak structure searches and VASP DFT relaxations; processed M3GNet training/validation configurations derived from the same trajectories",
+    "properties": [
+      "relaxed structures",
+      "relaxation trajectories",
+      "energies",
+      "forces",
+      "stresses",
+      "distortion energies"
+    ],
+    "access": "open",
+    "license": "Not verified; Zenodo metadata did not expose an explicit dataset licence",
+    "links": {
+      "Release": "https://zenodo.org/records/10579527",
+      "Paper": "https://doi.org/10.1038/s41524-024-01303-9",
+      "Workflow": "https://github.com/ireaml/defects_workflow"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/10579527",
+        "title": "Machine-learning structural reconstructions dataset",
+        "evidence": "Release describes about 130 neutral cation vacancies, about 50 hosts, POSCAR/CONTCAR/vasprun.xml data and processed structure-energy-force-stress dictionaries.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Defect count excludes distortions, ionic frames, and pristine-host relaxations.",
+      "Some ionic steps are electronically unconverged and the supplied parser removes them.",
+      "Full 20.7 GB archives were not downloaded."
+    ],
+    "tags": [
+      "vacancies",
+      "chalcogenides",
+      "defect-reconstructions",
+      "MLIP",
+      "DFT"
+    ]
+  },
+  {
+    "id": "nist-mras-amorphous",
+    "name": "NIST MRAS amorphous structural models",
+    "category": "bulk_computed",
+    "description": "Amorphous silicon, silica, hafnia, zirconium–copper and alumina structures generated by relaxation of random molecular arrangements.",
+    "version": "NIST mds2-3831 v1.0.1",
+    "year": 2025,
+    "count": 50,
+    "count_display": "50",
+    "count_unit": "final amorphous structure files",
+    "count_scope": "Ten CONTCAR structures in each of Si_Final, SiO2_Final, HfO2_Final, ZrCu_Final and Al2O3_Final; exploratory Si_Base structures are excluded.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "Worden–Cockayne–Garrity random-arrangement relaxation workflows at NIST",
+    "properties": [
+      "atomic structures",
+      "cell density",
+      "mean density",
+      "generation workflow"
+    ],
+    "access": "open",
+    "license": "NIST Open License; see linked dataset-specific metadata and NIST terms",
+    "links": {
+      "Release": "https://data.nist.gov/od/id/mds2-3831",
+      "Archive": "https://data.nist.gov/od/ds/mds2-3831/Amorphous_Molecule_Construction.zip",
+      "Readme": "https://data.nist.gov/od/ds/mds2-3831/README.txt",
+      "License": "https://www.nist.gov/open/license"
+    },
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/mds2-3831",
+        "title": "NIST MRAS release metadata",
+        "evidence": "Names five material systems and an open-licence URL; downloadable ZIP has publisher SHA-256 153d2889f34a86db89fbf08b96e64f8ac2312ea71dd74a57128b1ee5b264435c.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-3831/README.txt",
+        "title": "NIST MRAS README",
+        "evidence": "Final directories contain ten CONTCAR systems apiece with density headers and workflows. Downloaded archive inventory confirms 50 final structures.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The archive also contains 240 exploratory silicon CONTCAR files; these are excluded from the final model count.",
+      "Computed amorphous models are not experimental determinations of atomic structure."
+    ],
+    "tags": [
+      "amorphous",
+      "silica",
+      "hafnia",
+      "alumina",
+      "metallic-glasses"
+    ]
+  },
+  {
+    "id": "amorphous-alumina-deep-potential",
+    "name": "Amorphous alumina bulk/surface DFT training release",
+    "category": "mlip_configurations",
+    "description": "Extended-XYZ reference configurations for crystalline and amorphous alumina, plus large bulk/slab structures and trained Deep Potential models.",
+    "version": "Author GitHub main snapshot checked 2026-11-01",
+    "year": 2026,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "DFT reference configurations",
+    "count_scope": "Repository contains many trajectory XYZ files; frame count was not independently enumerated, so file count and atom counts are not substituted.",
+    "count_precision": "unknown",
+    "structure_level": "periodic_atomic",
+    "provenance": "Active learning for amorphous Al2O3 bulk and surfaces with crystalline seed configurations",
+    "properties": [
+      "energies",
+      "forces",
+      "stress",
+      "lattice vectors",
+      "representative LAMMPS structures"
+    ],
+    "access": "open",
+    "license": "GPL-3.0 as explicitly applied to the repository containing data; inspect downstream distribution obligations",
+    "links": {
+      "Release": "https://github.com/CSIprinceton/amorphous_alumina",
+      "Paper": "https://doi.org/10.1016/j.actamat.2026.122611"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/CSIprinceton/amorphous_alumina",
+        "title": "Author alumina dataset repository",
+        "evidence": "README identifies extended XYZ DFT energies/forces/stresses/lattice vectors and bulk/surface LAMMPS structures. Repository licence explicitly states GNU GPL v3.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.github.com/repos/CSIprinceton/amorphous_alumina/git/trees/main?recursive=1",
+        "title": "Repository release tree",
+        "evidence": "Tree confirms data/amorphous and data/crystalline XYZ payloads, separate model files and representative structures.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Model committee members and atoms per cell are not independent configuration counts.",
+      "Unranked until XYZ frames are enumerated; no numerical size inferred from the paper or file sizes."
+    ],
+    "tags": [
+      "amorphous",
+      "alumina",
+      "surfaces",
+      "Deep-Potential",
+      "active-learning"
+    ]
+  },
+  {
+    "id": "fenicr-irradiated-relaxed-md",
+    "name": "Fe–Ni–Cr irradiated and relaxed atomistic configurations",
+    "category": "mlip_configurations",
+    "description": "Two LAMMPS atomistic states for comparing radiation-damaged austenitic alloy structure with a relaxed reference.",
+    "version": "RepOD V1, DOI 10.18150/HOMYLH",
+    "year": 2026,
+    "count": 2,
+    "count_display": "2",
+    "count_unit": "released atomistic sample configurations",
+    "count_scope": "One post-irradiation state and one relaxed reference; atom counts and the preceding approximately 180 cascades are not additional released samples.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "Molecular-dynamics configurations supporting the atomistic radiation-induced ductile-to-brittle transition study",
+    "properties": [
+      "atomic positions",
+      "velocities",
+      "species types",
+      "simulation box",
+      "irradiation state"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (explicit file-level licences)",
+    "links": {
+      "Release": "https://repod.icm.edu.pl/dataset.xhtml?persistentId=doi%3A10.18150%2FHOMYLH",
+      "Metadata": "https://repod.icm.edu.pl/api/datasets/:persistentId/?persistentId=doi:10.18150/HOMYLH",
+      "Paper": "https://doi.org/10.1016/j.ijmecsci.2025.110567"
+    },
+    "sources": [
+      {
+        "url": "https://repod.icm.edu.pl/api/datasets/:persistentId/?persistentId=doi:10.18150/HOMYLH",
+        "title": "RepOD released dataset metadata",
+        "evidence": "V1 has two unrestricted files with CC BY 4.0; descriptions specify 262,080 atoms after irradiation and 1,048,320 atoms in the relaxed reference.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The two samples have different cell sizes; direct paired per-atom subtraction is inappropriate.",
+      "Not a release of 180 separate cascade trajectories.",
+      "Only archive metadata was inspected; atomistic payloads were not downloaded."
+    ],
+    "tags": [
+      "irradiation",
+      "Fe-Ni-Cr",
+      "alloys",
+      "molecular-dynamics",
+      "radiation-damage"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "synchrotron",
+  "url": "https://zenodo.org/api/records/13329639",
+  "status": 200,
+  "raw_file": "research/cache/sdata_characterization/synchrotron_deposit.json",
+  "sha256": "ae070ca52a99edbd54e3bd5ffcbe434250994263d4ae24328a40b01a89512fcf",
+  "title": "Zinc Doped Zeolite 13X DIAD X-Ray Diffraction Computed Tomography - 25 and 50 micron spot-size",
+  "doi": "10.5281/zenodo.13329639",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "version": "1.0",
+  "publication_date": "2024-08-16",
+  "access_right": "open",
+  "file_count": 73,
+  "total_file_bytes": 3775199975,
+  "file_examples": [
+    {
+      "name": "k11-43393-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+      "bytes": 102344819,
+      "checksum": "md5:debf88bef164f3cbdbd7ab9e1851edf0",
+      "url": "https://zenodo.org/api/records/13329639/files/k11-43393-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+    },
+    {
+      "name": "k11-43339-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+      "bytes": 102412403,
+      "checksum": "md5:d7ec50f0cfc80dc181f25d8dc14cfa66",
+      "url": "https://zenodo.org/api/records/13329639/files/k11-43339-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+    },
+    {
+      "name": "k11-43395-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+      "bytes": 102381683,
+      "checksum": "md5:7d637129fe9f1a105a5a52d084736e12",
+      "url": "https://zenodo.org/api/records/13329639/files/k11-43395-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+    }
+  ]
+}

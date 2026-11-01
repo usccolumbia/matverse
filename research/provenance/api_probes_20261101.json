@@ -1,0 +1,237 @@
+{
+  "checked_date": "2026-11-01",
+  "note": "Small unauthenticated read-only requests. A JSON response is not full API compliance, complete payload or uptime validation. No credentials were used.",
+  "receipts": [
+    {
+      "id": "aflow",
+      "url": "https://aflow.org/API/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 1388,
+      "sha256": "6ebd5c15035669a1ea2e5084f45308dafbee7117c4490d370271d74e26e1d20e",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "data",
+        "meta",
+        "links"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "alexandria",
+      "url": "https://alexandria.icams.rub.de/pbe/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 1102,
+      "sha256": "beae2aab905935431a40b4588d3a040857c8ba8e7df1699f29a3f68a06ad97bd",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "data",
+        "meta",
+        "included",
+        "links"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "cod",
+      "url": "https://www.crystallography.net/cod/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "result": "request_failed",
+      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+    },
+    {
+      "id": "cmr",
+      "url": "https://cmr-optimade.fysik.dtu.dk/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 404,
+      "result": "http_error"
+    },
+    {
+      "id": "mcloud",
+      "url": "https://optimade.materialscloud.org/main/mc3d-pbe-v1/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 1256,
+      "sha256": "550f69c5d97046c0b41629c5499b8f97a3a23629b84effd299b7409f75431592",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "data",
+        "meta",
+        "included",
+        "links"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "mp",
+      "url": "https://optimade.materialsproject.org/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 1052,
+      "sha256": "61a1cba0ef599a0995aa137eb5acb4c728fd0946f406e69dcf2fad2dbd4f6994",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "data",
+        "meta",
+        "included",
+        "links"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "oqmd",
+      "url": "https://oqmd.org/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 1211,
+      "sha256": "be12af6f9752fb518710926ab8e5ae8250518a26943451d7c0dae432d8ebac98",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "links",
+        "data",
+        "meta"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "jarvis",
+      "url": "https://jarvis.nist.gov/optimade/jarvisdft/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 426,
+      "sha256": "0fa3b9b4721a73c7b8272f3d9952ee93b085e1d599801df3578220b839490819",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "meta",
+        "links",
+        "data"
+      ],
+      "returned_records": 0
+    },
+    {
+      "id": "mp_native",
+      "url": "https://api.materialsproject.org/materials/summary/?_limit=1&_fields=material_id",
+      "checked_date": "2026-11-01",
+      "http_status": 401,
+      "result": "http_error"
+    },
+    {
+      "id": "oqmd_native",
+      "url": "https://oqmd.org/oqmdapi/formationenergy?limit=1",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 999,
+      "sha256": "c07df91bd01b1d086aafeb90c6a6dcfc919b5af9949439378a302bc695d5b384",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "links",
+        "resource",
+        "data",
+        "meta",
+        "response_message"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "nomad_native",
+      "url": "https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 25817,
+      "sha256": "683d6c9df67e87cd70ddd761155a5acfabc59fe51c71ddda4cd40522535656a9",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "owner",
+        "query",
+        "pagination",
+        "required",
+        "data"
+      ],
+      "returned_records": 1
+    },
+    {
+      "id": "hf",
+      "url": "https://huggingface.co/api/datasets/AI4QC/MateriaViva-Open",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 25606,
+      "sha256": "52e822e2c3cc435ca9c5e3d8f9d05fdf96c3534fbf2414657596b5bee1034127",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "_id",
+        "id",
+        "author",
+        "sha",
+        "lastModified",
+        "private",
+        "gated",
+        "disabled",
+        "tags",
+        "description",
+        "downloads",
+        "likes"
+      ],
+      "returned_records": null
+    },
+    {
+      "id": "figshare",
+      "url": "https://api.figshare.com/v2/articles/25832614",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 5190,
+      "sha256": "17631ccab830d8561a564af5c5b71625881ad00e9eeff82cc70d717214b441f9",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "files",
+        "folder_structure",
+        "authors",
+        "custom_fields",
+        "figshare_url",
+        "download_disabled",
+        "description",
+        "funding",
+        "funding_list",
+        "version",
+        "status",
+        "size"
+      ],
+      "returned_records": null
+    },
+    {
+      "id": "zenodo",
+      "url": "https://zenodo.org/api/records/10703249",
+      "checked_date": "2026-11-01",
+      "http_status": 200,
+      "bytes_read": 8814,
+      "sha256": "26e93602432982f75afc18710e512898408737d3d0b9da23dd3476dcb3288761",
+      "truncated": false,
+      "result": "json_response",
+      "top_level_keys": [
+        "created",
+        "modified",
+        "id",
+        "conceptrecid",
+        "doi",
+        "conceptdoi",
+        "doi_url",
+        "metadata",
+        "title",
+        "links",
+        "updated",
+        "recid"
+      ],
+      "returned_records": null
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "id": "jarvis_databases",
+  "name": "JARVIS databases and Figshare download registry",
+  "url": "https://jarvis.nist.gov/#Databases",
+  "revision": "3b0c9d0f0c15759135de857dbc93e010db01eb29",
+  "checked_date": "2026-11-01",
+  "homepage_database_rows": 13,
+  "documented_dataset_rows": 65,
+  "downloader_registry_keys": 66,
+  "coverage_notes": [
+    "All 13 rows of the homepage Databases table; source numbering skips 8 and ends at 14. WebApps, Tools, Tutorials and Outreach tables are outside this requested extraction boundary.",
+    "All 65 named entries of the linked Figshare documentation table, plus 4 additional names present only in the pinned 66-key get_db_info() downloader registry.",
+    "The stm, wtbh_electron and wtbh_phonon documentation entries require dedicated helpers; they are not current data(name) keys. Original spellings, including halide_peroskites, are preserved.",
+    "Documentation counts refer to named snapshots; upstream databases, derivative mirrors, parameterizations and portal totals overlap. Imported discovery entries are searchable, but entries without individual primary evidence are not all promoted to ranked crystal datasets."
+  ],
+  "sources": [
+    {
+      "url": "https://jarvis.nist.gov/",
+      "title": "JARVIS homepage",
+      "evidence": "The Databases table has 13 rows, numbered 1–7 and 9–14.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://pages.nist.gov/jarvis/databases/",
+      "title": "JARVIS named dataset table",
+      "evidence": "The linked table has 65 named rows and distinguishes special helper routes.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py",
+      "title": "Pinned JARVIS downloader",
+      "evidence": "AST extraction of get_db_info() gives 66 named download routes. No downloaded source code was executed.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "response_receipts": [
+    {
+      "name": "jarvis_home",
+      "url": "https://jarvis.nist.gov/",
+      "final_url": "https://jarvis.nist.gov/",
+      "status": 200,
+      "bytes": 39125,
+      "sha256": "5c553b1b3e518253d8fbedf926c586a4cf79d606d0692abfac2ee414605decb7"
+    },
+    {
+      "name": "jarvis_databases",
+      "url": "https://pages.nist.gov/jarvis/databases/",
+      "final_url": "https://pages.nist.gov/jarvis/databases/",
+      "status": 200,
+      "bytes": 30703,
+      "sha256": "3d211f5315adb2a2b67d3d3730c43c04fbd47c45d912bc3a10261bd5157bcb76"
+    },
+    {
+      "name": "jarvis_figshare_py",
+      "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+      "status": 200,
+      "bytes": 30306,
+      "sha256": "44aaf6829164e6b4575ddc78d9b2eb50c491de5e7ab8a6232683d4659b46c50b"
+    },
+    {
+      "name": "jarvis_restapi_py",
+      "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/restapi.py",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/restapi.py",
+      "status": 200,
+      "bytes": 17359,
+      "sha256": "00b2eb81275023d3a72472114ff02d4fd5992142d00f66e02dc38d81e6a988c1"
+    },
+    {
+      "name": "optimade_providers",
+      "url": "https://providers.optimade.org/v1/links",
+      "final_url": "https://providers.optimade.org/v1/links",
+      "status": 200,
+      "bytes": 13680,
+      "sha256": "60afab5ecfde397c17e61856f934b74e62d17b5de24b658ee10d8ecc43d0244e"
+    },
+    {
+      "name": "jarvis_revision",
+      "url": "https://api.github.com/repos/usnistgov/jarvis/commits/master",
+      "final_url": "https://api.github.com/repos/usnistgov/jarvis/commits/master",
+      "status": 200,
+      "bytes": 5195,
+      "sha256": "fe8163bf1edee9ead13ab250964de7c9ac44602782afe9a7161d420f183f5ced"
+    }
+  ],
+  "links": [
+    {
+      "label": "1. JARVIS-DFT",
+      "url": "https://jarvis.nist.gov/jarvisdft",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-dft-3d",
+        "jarvis-2d"
+      ],
+      "resource_urls": [],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "2. JARVIS-FF",
+      "url": "https://jarvis.nist.gov/jarvisff",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-ff"
+      ],
+      "resource_urls": [],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "3. JARVIS-QETB",
+      "url": "https://jarvis.nist.gov/jarvisqetb",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-qetb"
+      ],
+      "resource_urls": [],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "4. JARVIS-ChemNLP",
+      "url": "https://jarvis.nist.gov/jarvischemnlp",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://jarvis.nist.gov/jarvischemnlp"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "5. JARVIS-Leaderboard",
+      "url": "https://pages.nist.gov/jarvis_leaderboard/",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://pages.nist.gov/jarvis_leaderboard/"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "6. JARVIS-Tools-Notebooks",
+      "url": "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "7. JARVIS-OPTIMADE",
+      "url": "https://jarvis.nist.gov/optimade/jarvisdft/",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://jarvis.nist.gov/optimade/jarvisdft/"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "9. JARVIS-SuperConDB",
+      "url": "https://jarvis.nist.gov/supercon",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-supercon-3d",
+        "jarvis-supercon-2d",
+        "jarvis-supercon-chem"
+      ],
+      "resource_urls": [],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "10. JARVIS-InterfacDB",
+      "url": "https://jarvis.nist.gov/interfacedb",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-interfacedb"
+      ],
+      "resource_urls": [],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "11. JARVIS-Universal Search",
+      "url": "https://jarvis.nist.gov/jarvisus",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://jarvis.nist.gov/jarvisus"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "12. JARVIS-DMFT",
+      "url": "https://jarvis.nist.gov/jarvisbdft",
+      "section": "JARVIS homepage / Databases",
+      "scope": "crystal_related",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://jarvis.nist.gov/jarvisbdft"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "13. FigShare curated datasets",
+      "url": "https://pages.nist.gov/jarvis/databases/",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://pages.nist.gov/jarvis/databases/"
+      ],
+      "note": "Represented as a catalog release or explicitly identified navigation resource."
+    },
+    {
+      "label": "14. JARVIS-DFT2",
+      "url": "https://jarvis.nist.gov/jarvisdft2",
+      "section": "JARVIS homepage / Databases",
+      "scope": "navigation",
+      "catalog_ids": [
+        "jarvis-dft-3d"
+      ],
+      "resource_urls": [
+        "https://jarvis.nist.gov/jarvisdft2"
+      ],
+      "note": "Alias of the DFT family; not counted again."
+    },
+    {
+      "label": "AGRA_CHO",
+      "url": "https://figshare.com/ndownloader/files/41923275",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "214",
+      "catalog_ids": [],
+      "registry_key": "AGRA_CHO",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "AGRA_COOH",
+      "url": "https://figshare.com/ndownloader/files/41923281",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "280",
+      "catalog_ids": [],
+      "registry_key": "AGRA_COOH",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "AGRA_CO",
+      "url": "https://figshare.com/ndownloader/files/41923278",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "193",
+      "catalog_ids": [],
+      "registry_key": "AGRA_CO",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "AGRA_OH",
+      "url": "https://figshare.com/ndownloader/files/41923287",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "875",
+      "catalog_ids": [],
+      "registry_key": "AGRA_OH",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "AGRA_O",
+      "url": "https://figshare.com/ndownloader/files/41923284",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1000",
+      "catalog_ids": [],
+      "registry_key": "AGRA_O",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "aflow2",
+      "url": "https://ndownloader.figshare.com/files/25453265",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "400k",
+      "catalog_ids": [],
+      "registry_key": "aflow2",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_pbe_1d_all",
+      "url": "https://figshare.com/ndownloader/files/49622991",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "100k",
+      "catalog_ids": [],
+      "registry_key": "alex_pbe_1d_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_pbe_2d_all",
+      "url": "https://figshare.com/ndownloader/files/49622988",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "200k",
+      "catalog_ids": [],
+      "registry_key": "alex_pbe_2d_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_pbe_3d_all",
+      "url": "https://figshare.com/ndownloader/files/49622946",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "5 million",
+      "catalog_ids": [],
+      "registry_key": "alex_pbe_3d_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_pbe_hull",
+      "url": "https://figshare.com/ndownloader/files/49622718",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "116k",
+      "catalog_ids": [],
+      "registry_key": "alex_pbe_hull",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_pbesol_3d_all",
+      "url": "https://figshare.com/ndownloader/files/49623096",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "500k",
+      "catalog_ids": [],
+      "registry_key": "alex_pbesol_3d_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alex_scan_3d_all",
+      "url": "https://figshare.com/ndownloader/files/49623090",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "500k",
+      "catalog_ids": [],
+      "registry_key": "alex_scan_3d_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "alignn_ff_db",
+      "url": "https://ndownloader.figshare.com/files/38522315",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "307113",
+      "catalog_ids": [
+        "alignn-ff"
+      ],
+      "registry_key": "alignn_ff_db",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "arXiv",
+      "url": "https://ndownloader.figshare.com/files/26804795",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "1796911",
+      "catalog_ids": [],
+      "registry_key": "arXiv",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "arxiv_summary",
+      "url": "https://figshare.com/ndownloader/files/40566137",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "137927",
+      "catalog_ids": [],
+      "registry_key": "arxiv_summary",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "c2db",
+      "url": "https://ndownloader.figshare.com/files/28682010",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "3514",
+      "catalog_ids": [
+        "c2db"
+      ],
+      "registry_key": "c2db",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "cccbdb",
+      "url": "https://figshare.com/ndownloader/files/47283808",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "1333",
+      "catalog_ids": [],
+      "registry_key": "cccbdb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "cfid_3d",
+      "url": "https://ndownloader.figshare.com/files/29205201",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "55723",
+      "catalog_ids": [],
+      "registry_key": "cfid_3d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "cod",
+      "url": "https://ndownloader.figshare.com/files/28715301",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "431778",
+      "catalog_ids": [
+        "cod"
+      ],
+      "registry_key": "cod",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "dft_2d_2021",
+      "url": "https://ndownloader.figshare.com/files/26808917",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1079",
+      "catalog_ids": [],
+      "registry_key": "dft_2d_2021",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "dft_2d",
+      "url": "https://ndownloader.figshare.com/files/38521268",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1109",
+      "catalog_ids": [
+        "jarvis-2d"
+      ],
+      "registry_key": "dft_2d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "dft_3d_2021",
+      "url": "https://ndownloader.figshare.com/files/29204826",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "55723",
+      "catalog_ids": [],
+      "registry_key": "dft_3d_2021",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "dft_3d",
+      "url": "https://ndownloader.figshare.com/files/38521619",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "75993",
+      "catalog_ids": [
+        "jarvis-dft-3d"
+      ],
+      "registry_key": "dft_3d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "edos_pdos",
+      "url": "https://ndownloader.figshare.com/files/29216859",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "48469",
+      "catalog_ids": [],
+      "registry_key": "edos_pdos",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "halide_peroskites",
+      "url": "https://figshare.com/ndownloader/files/44619562",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "229",
+      "catalog_ids": [],
+      "registry_key": "halide_peroskites",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "hmof",
+      "url": "https://figshare.com/ndownloader/files/30972655",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "137651",
+      "catalog_ids": [
+        "hmof-wilmer"
+      ],
+      "registry_key": "hmof",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "hopv",
+      "url": "https://ndownloader.figshare.com/files/28814184",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "4855",
+      "catalog_ids": [],
+      "registry_key": "hopv",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "interfacedb",
+      "url": "https://figshare.com/ndownloader/files/46355692",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "593",
+      "catalog_ids": [
+        "jarvis-interfacedb"
+      ],
+      "registry_key": "interfacedb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "jff",
+      "url": "https://ndownloader.figshare.com/files/28937793",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "2538",
+      "catalog_ids": [
+        "jarvis-ff"
+      ],
+      "registry_key": "jff",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "m3gnet_mpf_1.5mil",
+      "url": "https://figshare.com/ndownloader/files/47281519",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1.5 million",
+      "catalog_ids": [],
+      "registry_key": "m3gnet_mpf_1.5mil",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "m3gnet_mpf",
+      "url": "https://figshare.com/ndownloader/files/41009036",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "168k",
+      "catalog_ids": [],
+      "registry_key": "m3gnet_mpf",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "megnet2",
+      "url": "https://ndownloader.figshare.com/files/28332741",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "133k",
+      "catalog_ids": [],
+      "registry_key": "megnet2",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "megnet",
+      "url": "https://ndownloader.figshare.com/files/26724977",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "69239",
+      "catalog_ids": [],
+      "registry_key": "megnet",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "mlearn",
+      "url": "https://figshare.com/ndownloader/files/40357663",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1730",
+      "catalog_ids": [],
+      "registry_key": "mlearn",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "mp_3d_2020",
+      "url": "https://ndownloader.figshare.com/files/26791259",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "127k",
+      "catalog_ids": [],
+      "registry_key": "mp_3d_2020",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "mp_3d",
+      "url": "https://ndownloader.figshare.com/files/24979850",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "84k",
+      "catalog_ids": [],
+      "registry_key": "mp_3d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "mxene275",
+      "url": "https://figshare.com/ndownloader/files/41266233",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "275",
+      "catalog_ids": [],
+      "registry_key": "mxene275",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "ocp100k",
+      "url": "https://figshare.com/ndownloader/files/40902845",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "149886",
+      "catalog_ids": [],
+      "registry_key": "ocp100k",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "ocp10k",
+      "url": "https://figshare.com/ndownloader/files/40566122",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "59886",
+      "catalog_ids": [],
+      "registry_key": "ocp10k",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "ocp_all",
+      "url": "https://figshare.com/ndownloader/files/40974599",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "510214",
+      "catalog_ids": [],
+      "registry_key": "ocp_all",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "omdb",
+      "url": "https://ndownloader.figshare.com/files/28501761",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "12500",
+      "catalog_ids": [
+        "omdb-gap1"
+      ],
+      "registry_key": "omdb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "oqmd_3d_no_cfid",
+      "url": "https://ndownloader.figshare.com/files/26790182",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "817636",
+      "catalog_ids": [],
+      "registry_key": "oqmd_3d_no_cfid",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "oqmd_3d",
+      "url": "https://ndownloader.figshare.com/files/24981170",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "460k",
+      "catalog_ids": [],
+      "registry_key": "oqmd_3d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "pdbbind_core",
+      "url": "https://ndownloader.figshare.com/files/28874802",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "195",
+      "catalog_ids": [],
+      "registry_key": "pdbbind_core",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "pdbbind",
+      "url": "https://ndownloader.figshare.com/files/28816368",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "11189",
+      "catalog_ids": [],
+      "registry_key": "pdbbind",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "polymer_genome",
+      "url": "https://ndownloader.figshare.com/files/26809907",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1073",
+      "catalog_ids": [],
+      "registry_key": "polymer_genome",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "qe_tb",
+      "url": "https://ndownloader.figshare.com/files/29070555",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "829574",
+      "catalog_ids": [
+        "jarvis-qetb"
+      ],
+      "registry_key": "qe_tb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "qm9_dgl",
+      "url": "https://ndownloader.figshare.com/files/28541196",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "130829",
+      "catalog_ids": [],
+      "registry_key": "qm9_dgl",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "qm9_std_jctc",
+      "url": "https://ndownloader.figshare.com/files/28715319",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "adjacent",
+      "documented_count": "130829",
+      "catalog_ids": [],
+      "registry_key": "qm9_std_jctc",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "qmof",
+      "url": "https://figshare.com/ndownloader/files/30972640",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "20425",
+      "catalog_ids": [
+        "qmof"
+      ],
+      "registry_key": "qmof",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "raw_files",
+      "url": "https://ndownloader.figshare.com/files/25295732",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "144895",
+      "catalog_ids": [],
+      "registry_key": "raw_files",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "snumat",
+      "url": "https://ndownloader.figshare.com/files/38521736",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "10481",
+      "catalog_ids": [
+        "snumat-hybrid-gap"
+      ],
+      "registry_key": "snumat",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "ssub",
+      "url": "https://figshare.com/ndownloader/files/40084921",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1726",
+      "catalog_ids": [],
+      "registry_key": "ssub",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "stm",
+      "url": "https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1132",
+      "catalog_ids": [
+        "jarvis-stm"
+      ],
+      "registry_key": null,
+      "note": "Dedicated helper required; not a current data(name) key. Documentation count 1,132 is retained; Scientific Data catalog card selects the 716-material 2021 paper cohort, not an independently reconciled current archive total."
+    },
+    {
+      "label": "supercon_2d",
+      "url": "https://figshare.com/ndownloader/files/38950433",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "161",
+      "catalog_ids": [
+        "jarvis-supercon-2d"
+      ],
+      "registry_key": "supercon_2d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "supercon_3d",
+      "url": "https://figshare.com/ndownloader/files/38307921",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1058",
+      "catalog_ids": [
+        "jarvis-supercon-3d"
+      ],
+      "registry_key": "supercon_3d",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "supercon_chem",
+      "url": "https://figshare.com/ndownloader/files/40719260",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "16414",
+      "catalog_ids": [
+        "jarvis-supercon-chem"
+      ],
+      "registry_key": "supercon_chem",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "surfacedb",
+      "url": "https://figshare.com/ndownloader/files/46355689",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "607",
+      "catalog_ids": [
+        "jarvis-surfacedb"
+      ],
+      "registry_key": "surfacedb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "tinnet_N",
+      "url": "https://figshare.com/ndownloader/files/40934285",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "329",
+      "catalog_ids": [],
+      "registry_key": "tinnet_N",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "tinnet_OH",
+      "url": "https://figshare.com/ndownloader/files/40978949",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "748",
+      "catalog_ids": [],
+      "registry_key": "tinnet_OH",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "tinnet_O",
+      "url": "https://figshare.com/ndownloader/files/40978943",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "747",
+      "catalog_ids": [],
+      "registry_key": "tinnet_O",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "twod_matpd",
+      "url": "https://ndownloader.figshare.com/files/26789006",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "6351",
+      "catalog_ids": [
+        "2dmatpedia"
+      ],
+      "registry_key": "twod_matpd",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "vacancydb",
+      "url": "https://figshare.com/ndownloader/files/40750811",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "464",
+      "catalog_ids": [
+        "jarvis-vacancydb"
+      ],
+      "registry_key": "vacancydb",
+      "note": "Historical mirror or named release; not an independent count to add to upstream data."
+    },
+    {
+      "label": "wtbh_electron",
+      "url": "https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "1440",
+      "catalog_ids": [
+        "jarvis-wtbh-electron"
+      ],
+      "registry_key": null,
+      "note": "Dedicated helper required; not a current data(name) key."
+    },
+    {
+      "label": "wtbh_phonon",
+      "url": "https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py",
+      "section": "JARVIS-Tools / Figshare based databases",
+      "scope": "crystal_related",
+      "documented_count": "15502",
+      "catalog_ids": [
+        "jarvis-wtbh-phonon"
+      ],
+      "registry_key": null,
+      "note": "Dedicated helper required; not a current data(name) key."
+    },
+    {
+      "label": "qm9",
+      "url": "https://ndownloader.figshare.com/files/27627596",
+      "section": "Pinned downloader registry / entries absent from documentation table",
+      "scope": "adjacent",
+      "registry_key": "qm9",
+      "note": "Present in pinned get_db_info(); no count imported from a downloader progress message."
+    },
+    {
+      "label": "cord19",
+      "url": "https://ndownloader.figshare.com/files/26804798",
+      "section": "Pinned downloader registry / entries absent from documentation table",
+      "scope": "adjacent",
+      "registry_key": "cord19",
+      "note": "Present in pinned get_db_info(); no count imported from a downloader progress message."
+    },
+    {
+      "label": "foundry_ml_exp_bandgaps",
+      "url": "https://figshare.com/ndownloader/files/40557743",
+      "section": "Pinned downloader registry / entries absent from documentation table",
+      "scope": "crystal_related",
+      "registry_key": "foundry_ml_exp_bandgaps",
+      "note": "Present in pinned get_db_info(); no count imported from a downloader progress message."
+    },
+    {
+      "label": "mag2d_chem",
+      "url": "https://figshare.com/ndownloader/files/40720004",
+      "section": "Pinned downloader registry / entries absent from documentation table",
+      "scope": "crystal_related",
+      "registry_key": "mag2d_chem",
+      "note": "Present in pinned get_db_info(); no count imported from a downloader progress message."
+    }
+  ]
+}

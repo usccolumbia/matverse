@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "crafted-mof-isotherms",
+    "name": "CRAFTED MOF adsorption isotherms",
+    "category": "porous_frameworks",
+    "description": "Charge-, force-field- and temperature-dependent simulated CO2/N2 isotherms and adsorption enthalpies with charged CIF variants.",
+    "year": 2023,
+    "count": 690,
+    "count_display": "690 parent MOF structures",
+    "count_unit": "parent MOF structures",
+    "count_scope": "CoRE MOF 2014 subset; 49,680 isotherms and 4,140 charge-assigned CIF files are repeated calculations/representations of these 690 parents.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "gas adsorption isotherms",
+      "adsorption enthalpy",
+      "partial charges",
+      "geometric descriptors"
+    ],
+    "access": "open",
+    "license": "CDLA-Sharing-1.0 for generated data; CC BY 4.0 for all CIF folders; MIT for CO2/N2 force-field definitions",
+    "version": "CRAFTED 1.1.1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02116-z",
+      "data": "https://doi.org/10.5281/zenodo.7689919"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02116-z",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Charge-, force-field- and temperature-dependent simulated CO2/N2 isotherms and adsorption enthalpies with charged CIF variants. CoRE MOF 2014 subset; 49,680 isotherms and 4,140 charge-assigned CIF files are repeated calculations/representations of these 690 parents.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/7689919",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps CoRE MOF parents; do not sum it with parent structure totals.",
+      "Two force fields, six charge schemes, two gases and three temperatures define distinct simulation conditions.",
+      "Provider MD5 verified; tar listing independently confirmed 4,140 CIFs, 49,680 isotherm CSVs and 49,680 enthalpy CSVs."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ],
+    "additional_counts": [
+      {
+        "value": 49680,
+        "unit": "isotherms",
+        "scope": "Multiple gas/temperature/force-field/charge conditions for 690 parents"
+      },
+      {
+        "value": 4140,
+        "unit": "CIF files",
+        "scope": "Six charge assignments per parent; not additional MOFs"
+      }
+    ]
+  },
+  {
+    "id": "mofsimplify-stability",
+    "name": "MOFSimplify stability-labelled MOFs",
+    "category": "porous_frameworks",
+    "description": "Literature-derived MOF thermal-decomposition and solvent-removal stability labels linked to CoRE structures and geometry/graph descriptors.",
+    "year": 2022,
+    "count": 3132,
+    "count_display": "3,132 thermal-stability-labelled MOFs",
+    "count_unit": "thermal-stability-labelled MOFs",
+    "count_scope": "Thermal-label subset; solvent-removal subset has 2,179 labels. Their union was not independently determined.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "literature",
+    "properties": [
+      "thermal decomposition temperature",
+      "solvent-removal stability",
+      "structure-derived descriptors"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Zenodo 1.2.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01181-0",
+      "data": "https://doi.org/10.5281/zenodo.5737968"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01181-0",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Literature-derived MOF thermal-decomposition and solvent-removal stability labels linked to CoRE structures and geometry/graph descriptors. Thermal-label subset; solvent-removal subset has 2,179 labels. Their union was not independently determined.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/5737968",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Derived from CoRE MOF 2019 and source papers; not new independently synthesized MOFs.",
+      "The downloaded SciData.zip contains no CIF files; do not claim full periodic-coordinate coverage from this package.",
+      "Thermal and solvent-removal subsets overlap and must not be added as unique structures."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ],
+    "additional_counts": [
+      {
+        "value": 2179,
+        "unit": "solvent-removal-labelled MOFs",
+        "scope": "Separate overlapping label subset"
+      }
+    ]
+  },
+  {
+    "id": "alpo-open-framework",
+    "name": "Open-framework aluminophosphate structure database",
+    "category": "porous_frameworks",
+    "description": "Experimental aluminophosphate CIF collection with crystallographic, topology and simulated powder-diffraction information.",
+    "year": 2020,
+    "count": 312,
+    "count_display": "312 crystal structures",
+    "count_unit": "crystal structures",
+    "count_scope": "Publication/v6 archive; includes 0D, 1D, 2D and 3D framework connectivity within periodic crystals.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "literature",
+    "properties": [
+      "crystal structure",
+      "framework topology",
+      "unit cell",
+      "space group",
+      "simulated XRD"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Figshare v6",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-0452-4",
+      "data": "https://doi.org/10.6084/m9.figshare.7822574.v6"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-020-0452-4",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Experimental aluminophosphate CIF collection with crystallographic, topology and simulated powder-diffraction information. Publication/v6 archive; includes 0D, 1D, 2D and 3D framework connectivity within periodic crystals.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/7822574/versions/6",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Contains heteroatom-substituted and extra-framework species, not only pure AlPO zeolites.",
+      "Literature-source overlap with larger crystallography databases has not been quantified.",
+      "Downloaded ZIP independently contains 312 real CIF files; provider checksum matches."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "hex-high-pressure-elements",
+    "name": "HEX high-pressure elemental crystals",
+    "category": "bulk_computed",
+    "description": "Ground-state elemental crystal references and evolutionary-search comparison structures for H through La at four pressures.",
+    "year": 2024,
+    "count": 228,
+    "count_display": "228 element-pressure ground-state cases",
+    "count_unit": "element-pressure ground-state cases",
+    "count_scope": "57 elements at 0, 100, 200 and 300 GPa in DB_GS; repeated phases across pressure remain separate cases.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "ground-state crystal structure",
+      "relative enthalpy",
+      "volume",
+      "Wyckoff positions",
+      "pressure"
+    ],
+    "access": "open",
+    "license": "CC0 1.0",
+    "version": "Figshare collection v1 / article 25403968 v1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-03447-1",
+      "data": "https://doi.org/10.6084/m9.figshare.c.7119778.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-024-03447-1",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Ground-state elemental crystal references and evolutionary-search comparison structures for H through La at four pressures. 57 elements at 0, 100, 200 and 300 GPa in DB_GS; repeated phases across pressure remain separate cases.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25403968",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Only 57 elemental compositions, not 228 distinct chemical compositions.",
+      "ZIP has 457 real CIFs: 228 GS, 228 EA and one MISS; auxiliary and duplicate structures must not be counted as new materials.",
+      "A naive count gives 914 .cif names because macOS resource forks duplicate real files; those were explicitly excluded.",
+      "Search cells have eight atoms; ZPE and some relativistic/correlation effects are outside the baseline workflow."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "nb-ta-v-bcc-dft",
+    "name": "Nb–Ta–V BCC solid-solution DFT configurations",
+    "category": "mlip_configurations",
+    "description": "Four VASP configuration/relaxation corpora for 128-site binary NbTa, NbV, TaV and ternary NbTaV alloys.",
+    "year": 2024,
+    "count": 19800,
+    "count_display": "19,800 sampled starting alloy configurations",
+    "count_unit": "sampled starting alloy configurations",
+    "count_scope": "3,100 configurations for each of three binaries plus 10,500 ternary configurations; trajectory steps and shared pure-element endpoints are additional/overlapping records.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "periodic structure",
+      "total energy",
+      "forces",
+      "stress",
+      "relaxation outputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (inspected Figshare mirrors)",
+    "version": "2024 four-system release",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-03720-3",
+      "data": "https://doi.org/10.13139/OLCF/2217644"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-024-03720-3",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Four VASP configuration/relaxation corpora for 128-site binary NbTa, NbV, TaV and ternary NbTaV alloys. 3,100 configurations for each of three binaries plus 10,500 ternary configurations; trajectory steps and shared pure-element endpoints are additional/overlapping records.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25824178",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Configurations at fixed composition are alternative atomic arrangements, not unique compounds.",
+      "Three binary datasets cover 31 compositions each; ternary covers 105.",
+      "Raw output archives are many GB and were not downloaded; calculation-file inventory was verified in metadata.",
+      "Ternary corpus is split into two Figshare parts; these are file parts, not independent datasets."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "layered-intercalation-bandstructures",
+    "name": "Layered intercalation crystal band structures",
+    "category": "bulk_computed",
+    "description": "Intercalant/host crystal configurations with comparable electronic band paths and VASP inputs and outputs.",
+    "year": 2024,
+    "count": 9024,
+    "count_display": "9,024 intercalated crystal records",
+    "count_unit": "intercalated crystal records",
+    "count_scope": "9,024 listed intercalation compounds; 9,004 have band-derived properties. Host-related records form separate associated subsets.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "band structure",
+      "band gap",
+      "formation energy",
+      "Fermi energy",
+      "spin splitting",
+      "periodic structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Figshare v1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-04008-2",
+      "data": "https://doi.org/10.6084/m9.figshare.26885734"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-024-04008-2",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Intercalant/host crystal configurations with comparable electronic band paths and VASP inputs and outputs. 9,024 listed intercalation compounds; 9,004 have band-derived properties. Host-related records form separate associated subsets.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/26885734",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 9,004 band-structure count differs from the 9,024 composition/energy table.",
+      "142 bulk hosts, 188 vacancy-containing hosts and 142 single layers are separate related configurations; do not describe their sum as unique new compounds.",
+      "Parent structures overlap MP/literature; band gaps use a semilocal vdW-corrected workflow rather than GW/HSE references."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "all-electron-hybrid-7024",
+    "name": "All-electron hybrid-functional materials database",
+    "category": "bulk_computed",
+    "description": "FHI-aims PBEsol/HSE06 electronic-structure and stability calculations with ASE databases and processed properties.",
+    "year": 2025,
+    "count": 7024,
+    "count_display": "7,024 inorganic material records",
+    "count_unit": "inorganic material records",
+    "count_scope": "Publication/archived materials cohort; processed property coverage varies by quantity.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "HSE06 band gap",
+      "PBEsol electronic structure",
+      "formation energy",
+      "phase stability",
+      "Pourbaix stability",
+      "atomic structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Figshare v1; NOMAD 2025.05.01-1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-05867-z",
+      "data": "https://doi.org/10.6084/m9.figshare.28375538.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05867-z",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "FHI-aims PBEsol/HSE06 electronic-structure and stability calculations with ASE databases and processed properties. Publication/archived materials cohort; processed property coverage varies by quantity.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/28375538",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "ASE databases include calculations not successfully parsed by NOMAD; source-specific counts can differ.",
+      "Not all rows have formation/stability properties; elements serve as reference states.",
+      "Contains re-calculated existing structures, not 7,024 independently new compounds."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "ti-ti64-multiphase",
+    "name": "Multiphase Ti and Ti-6Al-4V MLIP configurations",
+    "category": "mlip_configurations",
+    "description": "PBE-labelled periodic configurations spanning alpha, beta, omega and liquid titanium and Ti-6Al-4V.",
+    "year": 2025,
+    "count": 15563,
+    "count_display": "15,563 selected training configurations",
+    "count_unit": "selected training configurations",
+    "count_scope": "Independently parsed final files: 6,640 frames in combined_data_oct24_2023.extxyz and 8,923 in ti64_combined_data_May30.extxyz; not a sum of all archive variants.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "energy",
+      "atomic forces",
+      "virial stress",
+      "periodic structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0; British Crown Owned Copyright attribution retained in metadata",
+    "version": "Zenodo 15114121, 31 March 2025",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-05302-3",
+      "data": "https://doi.org/10.5281/zenodo.15114121"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05302-3",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "PBE-labelled periodic configurations spanning alpha, beta, omega and liquid titanium and Ti-6Al-4V. Independently parsed final files: 6,640 frames in combined_data_oct24_2023.extxyz and 8,923 in ti64_combined_data_May30.extxyz; not a sum of all archive variants.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/15114121",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The archive also includes earlier Ti64 April08 data, model files and overlapping training variants; these were not added to the selected count.",
+      "Includes liquid configurations as well as crystalline phases.",
+      "Frames are correlated/sampled configurations, not 15,563 compounds.",
+      "Both selected payload MD5 values match provider metadata."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "camd-crystal-discoveries-2022",
+    "name": "CAMD autonomous crystal discovery corpus",
+    "category": "bulk_computed",
+    "description": "DFT-relaxed inorganic crystal structures and formation/hull energies from autonomous active-learning campaigns.",
+    "year": 2022,
+    "count": 96640,
+    "count_display": "96,640 crystal structure records",
+    "count_unit": "crystal structure records",
+    "count_scope": "CAMD2022 release with 26,435 distinct formulas and 1,457 chemical systems as reported by provider.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "formation energy",
+      "energy above hull",
+      "matminer features"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "CAMD2022 Figshare v1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01438-8",
+      "data": "https://doi.org/10.6084/m9.figshare.19601956.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01438-8",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "DFT-relaxed inorganic crystal structures and formation/hull energies from autonomous active-learning campaigns. CAMD2022 release with 26,435 distinct formulas and 1,457 chemical systems as reported by provider.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/19601956",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Only 894 structures are within 1 meV/atom of the source hull; most records are higher-energy candidates.",
+      "Computed hull proximity does not establish synthesis, dynamical stability or experimental discovery.",
+      "Two JSON files with/without features describe the same structures and must not be added."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "pah101-gwbse",
+    "name": "PAH101 molecular-crystal GW+BSE dataset",
+    "category": "molecular_crystals",
+    "description": "Relaxed molecular crystals with quasiparticle band structures, exciton energies and polarized optical spectra.",
+    "year": 2025,
+    "count": 101,
+    "count_display": "101 molecular crystal records",
+    "count_unit": "molecular crystal records",
+    "count_scope": "NOMAD PAH101 archive; contains periodic geometry and extracted single-molecule geometry per record.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "GW band gap",
+      "quasiparticle band structure",
+      "singlet/triplet exciton energies",
+      "dielectric function",
+      "optical absorption",
+      "DFT features"
+    ],
+    "access": "open",
+    "license": "Not separately verified for deposited data; article/preprint CC BY is not used as an external data licence",
+    "version": "NOMAD dataset 2024.12.05-1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-04959-0",
+      "data": "https://doi.org/10.17172/NOMAD/2024.12.05-1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-04959-0",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Relaxed molecular crystals with quasiparticle band structures, exciton energies and polarized optical spectra. NOMAD PAH101 archive; contains periodic geometry and extracted single-molecule geometry per record.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://nomad-lab.eu/prod/v1/api/v1/datasets/?doi=10.17172/NOMAD/2024.12.05-1",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Derived from CSD molecular-crystal identities; coordinates are computationally relaxed.",
+      "Static GW dielectric constants are missing for some entries.",
+      "NOMAD dataset identity and public availability verified; payload files were not independently recounted."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "tbhubbard-mofs",
+    "name": "TBHubbard MOF Hamiltonians",
+    "category": "porous_frameworks",
+    "description": "Tight-binding and extended-Hubbard electronic representations augmenting QMOF crystal structures.",
+    "year": 2025,
+    "count": 10000,
+    "count_display": "10,000 MOF tight-binding cases",
+    "count_unit": "MOF tight-binding cases",
+    "count_scope": "Publication TB subset; 240 transition-metal MOFs have extended-Hubbard representations, with 10,863 ground-state calculations reported overall.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "tight-binding Hamiltonian",
+      "self-consistent Hubbard U/V",
+      "QE input/output",
+      "SOAP descriptors",
+      "Bader charges"
+    ],
+    "access": "open",
+    "license": "Custom dataset terms, contents not verified; DataCite links a v4.1 custom licence (not CC0)",
+    "version": "Harvard Dataverse record; publication cohort",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-06054-w",
+      "data": "https://doi.org/10.7910/DVN/ZKLRLF"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-06054-w",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Tight-binding and extended-Hubbard electronic representations augmenting QMOF crystal structures. Publication TB subset; 240 transition-metal MOFs have extended-Hubbard representations, with 10,863 ground-state calculations reported overall.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.7910/DVN/ZKLRLF",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Augments QMOF; the 10,000 MOFs are not an independent structural census.",
+      "240-model Hubbard subset and 10,863 SCF calculations overlap the TB corpus.",
+      "Harvard search API confirms DOI; dataset/custom-licence detail endpoints returned 403, so custom terms remain unresolved."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ],
+    "additional_counts": [
+      {
+        "value": 240,
+        "unit": "MOF extended-Hubbard cases",
+        "scope": "Subset of parent MOF cohort"
+      },
+      {
+        "value": 10863,
+        "unit": "ground-state calculations",
+        "scope": "Includes repeated calculations/model variants, not distinct MOFs"
+      }
+    ]
+  },
+  {
+    "id": "electroface-trajectories",
+    "name": "ElectroFace electrochemical interface trajectories",
+    "category": "mlip_configurations",
+    "description": "AIMD and ML-accelerated aqueous interface trajectories, periodic structures, inputs and available forces/velocities.",
+    "year": 2025,
+    "count": 71,
+    "count_display": "71 trajectory archive packages",
+    "count_unit": "trajectory archive packages",
+    "count_scope": "Provider dataset v4.1 independently lists 71 .traj.zip and 71 structure packages; the publication described 69 trajectories.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "atomic trajectories",
+      "periodic cell",
+      "interface structure",
+      "available forces/velocities",
+      "MLIP training subsets"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "AI4EC Dataverse v4.1, 23 June 2025",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-05338-5",
+      "data": "https://doi.org/10.12463/AI4EC/8NPZZC"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05338-5",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "AIMD and ML-accelerated aqueous interface trajectories, periodic structures, inputs and available forces/velocities. Provider dataset v4.1 independently lists 71 .traj.zip and 71 structure packages; the publication described 69 trajectories.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://dataverse.ai4ec.ac.cn/api/datasets/:persistentId/?persistentId=doi:10.12463/AI4EC/8NPZZC",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "71 packages reflect the inspected release, compared with 69 in the publication; pin the version.",
+      "AIMD and MLMD are distinct provenance layers; trajectories do not all carry force labels.",
+      "Charge-neutral solid-water interfaces; no general fixed-potential/electric-double-layer claim.",
+      "Trajectory coordinates are compressed with reduced precision; the paper recommends force recomputation for MLIP training."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "dtm-max-phases-8712",
+    "name": "Double-transition-metal MAX-phase precursors",
+    "category": "bulk_computed",
+    "description": "VASP structure and energetics corpus for layered double-transition-metal MXene precursor phases.",
+    "year": 2023,
+    "count": 8712,
+    "count_display": "8,712 MAX-phase configuration records",
+    "count_unit": "MAX-phase configuration records",
+    "count_scope": "Publication/Zenodo 1.0 double-transition-metal precursor dataset.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "atomic structure",
+      "DFT total energy",
+      "formation/stability quantities"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Zenodo 1.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02755-2",
+      "data": "https://doi.org/10.5281/zenodo.8400682"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02755-2",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "VASP structure and energetics corpus for layered double-transition-metal MXene precursor phases. Publication/Zenodo 1.0 double-transition-metal precursor dataset.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/8400682",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "These are bulk MAX precursor phases, not 8,712 free-standing MXene monolayers.",
+      "Alternative ordering/configurations can share chemical composition.",
+      "Provider offers DTM.json; its payload was not independently recounted."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "ecd-cubic",
+    "name": "ECD-cubic electronic charge-density database",
+    "category": "property_benchmarks",
+    "description": "Real-space DFT electronic charge densities for cubic inorganic periodic materials selected from Materials Project.",
+    "year": 2022,
+    "count": 17418,
+    "count_display": "17,418 cubic material charge-density records",
+    "count_unit": "cubic material charge-density records",
+    "count_scope": "Publication dataset split across three Figshare payload parts; contains spin-polarized and unpolarized data.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "electronic charge density",
+      "atomic structure",
+      "energy"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (inspected Figshare payload metadata)",
+    "version": "Publication-linked Figshare collection",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01158-z",
+      "data": "https://doi.org/10.6084/m9.figshare.c.5368343"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01158-z",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Real-space DFT electronic charge densities for cubic inorganic periodic materials selected from Materials Project. Publication dataset split across three Figshare payload parts; contains spin-polarized and unpolarized data.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/14396414",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Restricted to cubic materials; not a general all-symmetry charge-density dataset.",
+      "Underlying crystals overlap Materials Project; property grids are not new crystal materials.",
+      "Large multi-part payloads were not downloaded; count comes from primary article."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "mp-charge-density-pyrho",
+    "name": "Materials Project representation-independent charge densities",
+    "category": "property_benchmarks",
+    "description": "Periodic electronic charge densities and tools for Fourier-based changes of cell/grid representation.",
+    "year": 2022,
+    "count": null,
+    "count_display": "Not verified charge-density records",
+    "count_unit": "charge-density records",
+    "count_scope": "The publication describes a growing API collection without a verified fixed record count in this audit.",
+    "count_precision": "unknown",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "electronic charge density",
+      "periodic structure",
+      "grid transformations",
+      "calculation metadata"
+    ],
+    "access": "registration",
+    "license": "Not separately verified for the charge-density endpoint; consult Materials Project data terms",
+    "version": "2022 publication / API-based collection",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01746-z",
+      "data": "https://doi.org/10.17188/1833409"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01746-z",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Periodic electronic charge densities and tools for Fourier-based changes of cell/grid representation. The publication describes a growing API collection without a verified fixed record count in this audit.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.17188/1833409",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Derivative property layer for Materials Project structures, not an independent material count.",
+      "Figshare 19908193 is a re-gridding validation example, not the entire density corpus.",
+      "Current record count and authenticated API availability were not tested."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "bmds-bilayers-760",
+    "name": "BMDS bilayer electronic and transport dataset",
+    "category": "two_dimensional",
+    "description": "Ground-state stacking and electronic/transport properties for nonmagnetic-parent homobilayers selected from C2DB.",
+    "year": 2023,
+    "count": 760,
+    "count_display": "760 bilayer materials",
+    "count_unit": "bilayer materials",
+    "count_scope": "Published relaxed bilayer cohort, excluding failed interlayer separations.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "stacking",
+      "binding energy",
+      "interlayer charge transfer",
+      "SOC band gap",
+      "effective mass",
+      "Seebeck coefficient",
+      "conductivity over relaxation time"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Figshare v2",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02146-7",
+      "data": "https://doi.org/10.6084/m9.figshare.21799475.v2"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02146-7",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Ground-state stacking and electronic/transport properties for nonmagnetic-parent homobilayers selected from C2DB. Published relaxed bilayer cohort, excluding failed interlayer separations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/21799475",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Derived from C2DB monolayers; different from the existing 2024 BiDB release.",
+      "Release inventory includes tables, plots and stacking-generation prototype code; full ready-made coordinates for all 760 were not verified.",
+      "Transport values with unknown relaxation time remain sigma/tau, not measured conductivity."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "multinary-perovskite-66516",
+    "name": "Theoretical multinary perovskite oxides",
+    "category": "bulk_computed",
+    "description": "DFT-optimized multinary oxide structures initialized by SPuDS, with MP-compatible formation and decomposition enthalpies.",
+    "year": 2023,
+    "count": 66516,
+    "count_display": "66,516 optimized oxide entries",
+    "count_unit": "optimized oxide entries",
+    "count_scope": "Published cohort; 59,708 classified as perovskites after relaxation.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "formation enthalpy",
+      "decomposition enthalpy",
+      "oxidation-state assignment",
+      "tolerance factors",
+      "perovskite classification"
+    ],
+    "access": "open",
+    "license": "Provider displays CCA4 (Creative Commons Attribution 4.0); exact linked licence text not exposed in parsed page",
+    "version": "2023 MPContribs publication dataset",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02127-w",
+      "data": "https://contribs.materialsproject.org/projects/Multinary_Oxides"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02127-w",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "DFT-optimized multinary oxide structures initialized by SPuDS, with MP-compatible formation and decomposition enthalpies. Published cohort; 59,708 classified as perovskites after relaxation.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://contribs.materialsproject.org/projects/Multinary_Oxides",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 69,407 SPuDS starting compositions exceed the final 66,516 optimized records; do not substitute the input-pool count.",
+      "Not every relaxed record remains a perovskite.",
+      "Entries also have MP IDs and overlap Materials Project; these are not independent materials to add to MP totals."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "mip3d-release",
+    "name": "MIP-3d materials informatics release",
+    "category": "bulk_computed",
+    "description": "Three-dimensional crystal calculations with tabulated energies, band gaps, bulk moduli, band degeneracy and thermoelectric subsets.",
+    "year": 2021,
+    "count": 33078,
+    "count_display": "33,078 metadata/property records",
+    "count_unit": "metadata/property records",
+    "count_scope": "Independently counted RECORDS array in the v7 MIP-3d.json export; separate raw-calculation archives have not been equated to this count.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "energy",
+      "band gap",
+      "bulk modulus",
+      "magnetic moment",
+      "band-edge degeneracy",
+      "DOS and band-structure output subsets"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Figshare v7",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-021-01022-6",
+      "data": "https://doi.org/10.6084/m9.figshare.13655276.v7"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-021-01022-6",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Three-dimensional crystal calculations with tabulated energies, band gaps, bulk moduli, band degeneracy and thermoelectric subsets. Independently counted RECORDS array in the v7 MIP-3d.json export; separate raw-calculation archives have not been equated to this count.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/13655276/versions/7",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/13655276/versions/7",
+        "title": "MIP-3d companion input archive",
+        "evidence": "mip3d.tar.gz checksum matches provider metadata; its archive includes periodic POSCAR inputs for Relax, SCF and Band stages. Coordinate coverage was sampled, not joined one-to-one against all 33,078 JSON rows.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The >80,000 structural source pool is not the downloadable 33,078-row calculation export.",
+      "JSON export contains metadata/properties without coordinates; companion mip3d.tar.gz was downloaded and verified to contain VASP POSCAR files across calculation stages.",
+      "Approximately 4,400 electrical-transport entries and >12,000 equations of state are subsets, not the full record count.",
+      "Many source identities originate in ICSD; do not infer open rights to all original ICSD structures."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "elemental-surface-energy-2016",
+    "name": "Elemental crystal surface energies and Wulff shapes",
+    "category": "surfaces_catalysis",
+    "description": "DFT surface energies, periodic slab CIFs and Wulff-shape quantities for elemental crystal polymorphs.",
+    "year": 2016,
+    "count": 100,
+    "count_display": ">100 elemental crystal polymorphs",
+    "count_unit": "elemental crystal polymorphs",
+    "count_scope": "Lower bound in primary article; about 70 elements with multiple facets and terminations per polymorph.",
+    "count_precision": "lower_bound",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "surface energy",
+      "Miller index",
+      "slab structure",
+      "Wulff area fraction",
+      "surface anisotropy",
+      "shape factor"
+    ],
+    "access": "open",
+    "license": "CC0 1.0",
+    "version": "Dryad v1 / 2016 publication",
+    "links": {
+      "paper": "https://doi.org/10.1038/sdata.2016.80",
+      "data": "https://doi.org/10.5061/dryad.f2n6f"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2016.80",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "DFT surface energies, periodic slab CIFs and Wulff-shape quantities for elemental crystal polymorphs. Lower bound in primary article; about 70 elements with multiple facets and terminations per polymorph.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.f2n6f",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Polymorphs, surface terminations and slab calculations are different counting units.",
+      "Surfaces.json and VASP-details JSON are companion views of the same corpus.",
+      "Different provenance/workflow from JARVIS surface and work-function records; parent MP identities can overlap.",
+      "Dryad metadata/file inventory is public; payload download returned 401 in this audit."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "bimetallic-catalysis-2019",
+    "name": "SUNCAT bimetallic adsorption calculations",
+    "category": "surfaces_catalysis",
+    "description": "Quantum ESPRESSO adsorption/hydrogenation calculations on bimetallic alloy and pure-metal slabs.",
+    "year": 2019,
+    "count": 90000,
+    "count_display": ">90,000 DFT calculations",
+    "count_unit": "DFT calculations",
+    "count_scope": "More than 90,000 systematic calculations on 1,998 alloy and 37 pure-metal surfaces in the primary study.",
+    "count_precision": "lower_bound",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "adsorption energy",
+      "reaction energy",
+      "atomic slab geometry",
+      "adsorption site"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Materials Cloud 2019.0015/v1",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-019-0080-z",
+      "data": "https://doi.org/10.24435/materialscloud:2019.0015/v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-019-0080-z",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Quantum ESPRESSO adsorption/hydrogenation calculations on bimetallic alloy and pure-metal slabs. More than 90,000 systematic calculations on 1,998 alloy and 37 pure-metal surfaces in the primary study.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/xxdhq-f1v83",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Calculations include many adsorbates/sites per slab and are not 90,000 distinct materials.",
+      "Catalysis-Hub is an access platform that aggregates this and other corpora; do not add platform totals to this release.",
+      "Raw QE output archives expose periodic coordinates; bulk archives were not downloaded."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "pbesol-scan-175k-2022",
+    "name": "PBEsol/SCAN 175k crystalline-material reference cohort",
+    "category": "bulk_computed",
+    "description": "Matched PBEsol-relaxed and SCAN single-point calculations with pymatgen ComputedStructureEntry records.",
+    "year": 2022,
+    "count": 175000,
+    "count_display": "~175,000 crystalline material records",
+    "count_unit": "crystalline material records",
+    "count_scope": "Approximate cohort size in primary descriptor; PBEsol and SCAN records describe the same materials.",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "PBEsol geometry",
+      "PBEsol energy",
+      "SCAN single-point energy",
+      "band gap"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "version": "Materials Cloud 2021.164 legacy release",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01177-w",
+      "data": "https://doi.org/10.24435/materialscloud:ka-br"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01177-w",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Matched PBEsol-relaxed and SCAN single-point calculations with pymatgen ComputedStructureEntry records. Approximate cohort size in primary descriptor; PBEsol and SCAN records describe the same materials.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/cnyp0-05c11",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Historical functional-specific release overlaps Alexandria-family data and upstream MP/AFLOW/group calculations; not independent structure totals.",
+      "SCAN calculations use PBEsol geometries rather than separately SCAN-relaxed structures.",
+      "The cited 2021.164 record has a newer version; pin this legacy record for reproducibility."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "hoip-2017",
+    "name": "Hybrid organic–inorganic perovskite DFT dataset",
+    "category": "bulk_computed",
+    "description": "Hybrid-perovskite periodic CIFs with PBE/HSE06 band gaps, dielectric responses and stability-related quantities.",
+    "year": 2017,
+    "count": 1346,
+    "count_display": "1,346 optimized hybrid-perovskite compounds",
+    "count_unit": "optimized hybrid-perovskite compounds",
+    "count_scope": "Final cohort in the 2017 descriptor; six DFT runs per compound produce 8,076 calculations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "PBE band gap",
+      "HSE06 band gap",
+      "ionic/electronic dielectric constant",
+      "refractive index",
+      "optimized CIF",
+      "relative energy"
+    ],
+    "access": "open",
+    "license": "CC0 1.0",
+    "version": "Dryad publication release / NOMAD 2017.03.15-1",
+    "links": {
+      "paper": "https://doi.org/10.1038/sdata.2017.57",
+      "data": "https://doi.org/10.5061/dryad.gq3rg"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2017.57",
+        "title": "Scientific Data primary data descriptor",
+        "evidence": "Hybrid-perovskite periodic CIFs with PBE/HSE06 band gaps, dielectric responses and stability-related quantities. Final cohort in the 2017 descriptor; six DFT runs per compound produce 8,076 calculations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.gq3rg",
+        "title": "Primary repository release metadata",
+        "evidence": "Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Properties and structure are computed for prototype-generated candidates, not 1,346 experimentally confirmed compounds.",
+      "The 8,076 calculation runs are repeated workflows for the same 1,346 final compounds.",
+      "CIF comment lines carry property labels and must be preserved when converting formats."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101"
+    ]
+  },
+  {
+    "id": "cu-dislocation-grain-boundary",
+    "name": "FCC Cu dislocation–grain-boundary interactions",
+    "category": "property_benchmarks",
+    "description": "Atomistic dislocation–grain-boundary interaction outcomes with periodic grain-boundary models and LAMMPS reproduction inputs.",
+    "version": "Materials Cloud 2025.65, v3, 28 April 2025",
+    "year": 2025,
+    "count": 5234,
+    "count_display": "5,234 interactions across 587 grain-boundary structures",
+    "count_unit": "dislocation–grain-boundary interaction outcomes",
+    "count_scope": "Final publication and v3 archive; edge, screw and 60-degree mixed dislocations with varied shear stress.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "interaction outcome",
+      "applied shear stress",
+      "grain-boundary energy",
+      "misorientation",
+      "atomic structure",
+      "LAMMPS inputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (provider declaration; metadata addendum also requests CC BY)",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-05256-6",
+      "data": "https://doi.org/10.24435/materialscloud:sy-35",
+      "homepage": "https://archive.materialscloud.org/record/2025.65"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05256-6",
+        "title": "Scientific Data final descriptor",
+        "evidence": "Reports 5,234 interaction outcomes for 587 symmetric tilt grain-boundary structures, including 73 minimum-energy and 514 metastable structures; provides LAMMPS templates and GB geometry.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/59y2w-rap91",
+        "title": "Materials Cloud v3 metadata",
+        "evidence": "Confirms final 5,234/587 counts, a public 6.6 GiB archive and CC BY 4.0 rights.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Older Materials Cloud 2024.191/v2 describes 5,593 outcomes and 449 GB structures; use final 2025.65/v3 for these counts.",
+      "Interactions are repeated dislocation/stress cases on Cu grain boundaries, not 5,234 unique compositions or bulk compounds.",
+      "Raw MD trajectories are omitted due to size; geometry/templates and outcome tables support reproduction.",
+      "Large ZIP was not downloaded; structural content is established from primary descriptor and release inventory."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101",
+      "grain boundaries",
+      "dislocations"
+    ],
+    "additional_counts": [
+      {
+        "value": 587,
+        "unit": "grain-boundary structures",
+        "scope": "73 minimum-energy plus 514 metastable; reused across 5,234 interaction cases"
+      }
+    ]
+  },
+  {
+    "id": "si-organic-chain-slab-2026",
+    "name": "Organic chains chemisorbed on silicon surfaces",
+    "category": "surfaces_catalysis",
+    "description": "Quantum ESPRESSO optimized alkyl, alkenyl and alkynyl adsorption configurations on hydrogen-passivated Si(110) and Si(111) slabs.",
+    "version": "Materials Cloud 2026.111, v6, 9 June 2026",
+    "year": 2026,
+    "count": 700,
+    "count_display": "more than 700 optimized adsorption configurations",
+    "count_unit": "optimized adsorbate–slab configurations",
+    "count_scope": "Publication-described bulk release with organic C2–C18 chains, sampled orientations and two silicon facets; exact archive-member/configuration count not independently audited.",
+    "count_precision": "lower_bound",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "optimized periodic slab structure",
+      "Si–C bond dissociation energy",
+      "adsorption geometry",
+      "bond distances/angles",
+      "QE inputs/outputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-07766-3",
+      "data": "https://doi.org/10.24435/materialscloud:rm-r4",
+      "homepage": "https://archive.materialscloud.org/record/2026.111"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-026-07766-3",
+        "title": "Scientific Data descriptor",
+        "evidence": "Reports more than 700 DFT-optimized chain/silicon configurations; Data Records specifies per-facet/type/chain/orientation QE input/output files and DataSummary.xls.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/kp5c5-40408",
+        "title": "Materials Cloud v6 release metadata",
+        "evidence": "Confirms public DatasetNW_v6.zip of about 1.1 GiB with CC BY 4.0 rights; provider explains that silicon nanowire facets are represented with periodic slabs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "These are repeated organic-chain orientations and surface configurations, not 700 unique bulk materials.",
+      "Nanowire surfaces are approximated by slabs; they are not explicit full nanowire geometries.",
+      "The release includes data discussed in related Langmuir papers; preserve shared lineage rather than summing those papers as independent datasets.",
+      "The large ZIP was not downloaded; >700 is a primary-paper lower bound, not an independent payload recount."
+    ],
+    "tags": [
+      "Scientific Data",
+      "survey:20261101",
+      "silicon",
+      "surface functionalization"
+    ]
+  }
+]

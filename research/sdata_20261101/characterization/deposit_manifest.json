@@ -1,0 +1,537 @@
+[
+  {
+    "name": "aachen",
+    "url": "https://api.figshare.com/v2/collections/5185004/articles",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/aachen_deposit.json",
+    "sha256": "364c63bf12abb9505d422e6b6e0819e092f9741d216315781eb231d608a0074d",
+    "collection_items": [
+      {
+        "id": 13604171,
+        "title": "Excluded steel microscopy images (TIFF)",
+        "doi": "10.6084/m9.figshare.13604171.v1",
+        "url": "https://api.figshare.com/v2/articles/13604171"
+      },
+      {
+        "id": 13604222,
+        "title": "Excluded steel microscopy images (PNG)",
+        "doi": "10.6084/m9.figshare.13604222.v1",
+        "url": "https://api.figshare.com/v2/articles/13604222"
+      },
+      {
+        "id": 13135622,
+        "title": "Metadata of the steel samples",
+        "doi": "10.6084/m9.figshare.13135622.v1",
+        "url": "https://api.figshare.com/v2/articles/13135622"
+      },
+      {
+        "id": 13135625,
+        "title": "Steel microscopy images (PNG)",
+        "doi": "10.6084/m9.figshare.13135625.v1",
+        "url": "https://api.figshare.com/v2/articles/13135625"
+      },
+      {
+        "id": 13135619,
+        "title": "Evaluation of contour detection model",
+        "doi": "10.6084/m9.figshare.13135619.v1",
+        "url": "https://api.figshare.com/v2/articles/13135619"
+      },
+      {
+        "id": 13135661,
+        "title": "Steel microscopy images (TIFF)",
+        "doi": "10.6084/m9.figshare.13135661.v1",
+        "url": "https://api.figshare.com/v2/articles/13135661"
+      },
+      {
+        "id": 13135613,
+        "title": "Expert annotated polygons (pickle)",
+        "doi": "10.6084/m9.figshare.13135613.v1",
+        "url": "https://api.figshare.com/v2/articles/13135613"
+      },
+      {
+        "id": 13135607,
+        "title": "Point-of-Interest annotations",
+        "doi": "10.6084/m9.figshare.13135607.v1",
+        "url": "https://api.figshare.com/v2/articles/13135607"
+      },
+      {
+        "id": 13135616,
+        "title": "Morphological characteristics of martensite-austenite structures",
+        "doi": "10.6084/m9.figshare.13135616.v1",
+        "url": "https://api.figshare.com/v2/articles/13135616"
+      },
+      {
+        "id": 13135610,
+        "title": "Expert annotated polygons",
+        "doi": "10.6084/m9.figshare.13135610.v1",
+        "url": "https://api.figshare.com/v2/articles/13135610"
+      }
+    ]
+  },
+  {
+    "name": "pd_ordered",
+    "url": "https://api.figshare.com/v2/articles/11783661",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/pd_ordered_deposit.json",
+    "sha256": "8cc8cb00c025a05521503d8089127671342ae5970f28d313cda41c8059e9d342",
+    "title": "Electron microscopy dataset for the recognition of nanoscale ordering effects and location of nanoparticles — Dataset 1 (ordered)",
+    "doi": "10.6084/m9.figshare.11783661.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 1,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 754,
+    "total_file_bytes": 983547517,
+    "file_examples": [
+      {
+        "name": "ordered_description_w_units.csv",
+        "bytes": 49574,
+        "checksum": "6b4ac0880b8f7576568eba30e4feb18e",
+        "url": "https://ndownloader.figshare.com/files/21945831"
+      },
+      {
+        "name": "ordered_description.csv",
+        "bytes": 49547,
+        "checksum": "afe87449977bcff8362d9de51884b16d",
+        "url": "https://ndownloader.figshare.com/files/21945834"
+      },
+      {
+        "name": "labels_ordered.csv",
+        "bytes": 2904,
+        "checksum": "b939405098627b7d053ddf8a3e16f836",
+        "url": "https://ndownloader.figshare.com/files/21944325"
+      }
+    ]
+  },
+  {
+    "name": "pd_disordered",
+    "url": "https://api.figshare.com/v2/articles/11783667",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/pd_disordered_deposit.json",
+    "sha256": "61e482f32a74f488c0553cee7ab3cba1eac97424078a7e93547ed38c3bcabba9",
+    "title": "Electron microscopy dataset for the recognition of nanoscale ordering effects and location of nanoparticles — Dataset 2 (disordered)",
+    "doi": "10.6084/m9.figshare.11783667.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 1,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 253,
+    "total_file_bytes": 328057371,
+    "file_examples": [
+      {
+        "name": "disordered_description_w_units.csv",
+        "bytes": 16453,
+        "checksum": "a65bab366fbb827363dd167265341600",
+        "url": "https://ndownloader.figshare.com/files/21945825"
+      },
+      {
+        "name": "disordered_description.csv",
+        "bytes": 16426,
+        "checksum": "130291df905fbc390fda26a61bb76c36",
+        "url": "https://ndownloader.figshare.com/files/21946032"
+      },
+      {
+        "name": "processing.ipynb",
+        "bytes": 313992,
+        "checksum": "6ed95e2ae51b34f72f39a70051ef4fc6",
+        "url": "https://ndownloader.figshare.com/files/21946011"
+      }
+    ]
+  },
+  {
+    "name": "raman2019",
+    "url": "https://api.figshare.com/v2/articles/7427393",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/raman2019_deposit.json",
+    "sha256": "593f221817eb213bf3c256e34babfd7532c5525c0b8e07ba3f010d89ec246712",
+    "title": "High-throughput Computation and Evaluation of Raman Spectra",
+    "doi": "10.6084/m9.figshare.7427393.v2",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 2,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 4,
+    "total_file_bytes": 17131337,
+    "file_examples": [
+      {
+        "name": "Experimental Data.json",
+        "bytes": 24595,
+        "checksum": "5397f81312a454f6255b65a1d6d9529e",
+        "url": "https://ndownloader.figshare.com/files/13752833"
+      },
+      {
+        "name": "Computational Data.json",
+        "bytes": 16891924,
+        "checksum": "8481a6bf1a3437c8d13e80333c6f36af",
+        "url": "https://ndownloader.figshare.com/files/13752839"
+      },
+      {
+        "name": "RRUFF CIF.zip",
+        "bytes": 141876,
+        "checksum": "13621b14a835ba7a6a651aaf04f28e9b",
+        "url": "https://ndownloader.figshare.com/files/13752854"
+      }
+    ]
+  },
+  {
+    "name": "microlib",
+    "url": "https://zenodo.org/api/records/7118559",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/microlib_deposit.json",
+    "sha256": "105759ceb4b211720251189d2cd50be374562623d476704354693babcc9dd5b2",
+    "title": "MicrolibDataset",
+    "doi": "10.5281/zenodo.7118559",
+    "license": null,
+    "version": null,
+    "publication_date": "2022-09-28",
+    "access_right": "open",
+    "file_count": 1,
+    "total_file_bytes": 6372998145,
+    "file_examples": [
+      {
+        "name": "microlibDataset.zip",
+        "bytes": 6372998145,
+        "checksum": "md5:4453a54696a5d97d8a94fe808047df85",
+        "url": "https://zenodo.org/api/records/7118559/files/microlibDataset.zip/content"
+      }
+    ]
+  },
+  {
+    "name": "raman_hybrid",
+    "url": "https://zenodo.org/api/records/8349322",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/raman_hybrid_deposit.json",
+    "sha256": "3b302eea0107fa0989a5b98c0583adc249c60787c62d26fbe6ee3878ca116e22",
+    "title": "caneparesearch/project_Raman: A Database of Computed Raman Spectra of Inorganic Compounds with Accurate Hybrid Functionals",
+    "doi": "10.5281/zenodo.10360193",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": "1.1",
+    "publication_date": "2023-12-12",
+    "access_right": "open",
+    "file_count": 1,
+    "total_file_bytes": 21955715,
+    "file_examples": [
+      {
+        "name": "caneparesearch/project_Raman-1.1.zip",
+        "bytes": 21955715,
+        "checksum": "md5:aa8e051e1287fc1909a9756b4498c575",
+        "url": "https://zenodo.org/api/records/10360193/files/caneparesearch/project_Raman-1.1.zip/content"
+      }
+    ]
+  },
+  {
+    "name": "feptp",
+    "url": "https://api.figshare.com/v2/articles/30759095",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/feptp_deposit.json",
+    "sha256": "fda91c10d936b64f1b490c0a5828b0a9c6f342194d5931b9fe3ad1ee9588ad0b",
+    "title": "FePTP: A text-mined dataset of transformation pathways among iron-containing phases",
+    "doi": "10.6084/m9.figshare.30759095.v2",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 2,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 2,
+    "total_file_bytes": 20291574,
+    "file_examples": [
+      {
+        "name": "extended_mineral_glossary.json",
+        "bytes": 574213,
+        "checksum": "4268e4ec78cfcbf063b020e146e2b717",
+        "url": "https://ndownloader.figshare.com/files/61829383"
+      },
+      {
+        "name": "pathways.jsonl",
+        "bytes": 19717361,
+        "checksum": "5018985a223fe8e5704cf77d5b9a6e62",
+        "url": "https://ndownloader.figshare.com/files/61829386"
+      }
+    ]
+  },
+  {
+    "name": "fatigue_am",
+    "url": "https://api.figshare.com/v2/articles/22337629",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/fatigue_am_deposit.json",
+    "sha256": "32c53c7d22b0a0e98c2e89ea50a92dc6d30f13b0c93965ce417994ab6f95d9a8",
+    "title": "Fatigue Database of Additively Manufactured Alloys",
+    "doi": "10.6084/m9.figshare.22337629.v2",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 2,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 3,
+    "total_file_bytes": 82423954,
+    "file_examples": [
+      {
+        "name": "FatigueData-AM2022.mat",
+        "bytes": 5820607,
+        "checksum": "1f66b2a5e48146c2d5a27739ad24ff30",
+        "url": "https://ndownloader.figshare.com/files/41023478"
+      },
+      {
+        "name": "FatigueData-AM2022.json",
+        "bytes": 69558939,
+        "checksum": "f0d565902c000b277480bb6fa2e5f711",
+        "url": "https://ndownloader.figshare.com/files/41023481"
+      },
+      {
+        "name": "FatigueData-AM2022.xlsx",
+        "bytes": 7044408,
+        "checksum": "0a7db5fe40892cc420b9ac3713e596ad",
+        "url": "https://ndownloader.figshare.com/files/41023484"
+      }
+    ]
+  },
+  {
+    "name": "qps",
+    "url": "https://api.figshare.com/v2/articles/31281778",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/qps_deposit.json",
+    "sha256": "8321b41ec4954940b65525d9c846eac1a39115f5002f19ab1815961e4762366e",
+    "title": "Image dataset for molecular/morphology benchmarking, fractal pattern and hierarchical morphology recognition",
+    "doi": "10.6084/m9.figshare.31281778.v2",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 2,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 1,
+    "total_file_bytes": 5017336804,
+    "file_examples": [
+      {
+        "name": "QPS.zip",
+        "bytes": 5017336804,
+        "checksum": "2a69d24e18cad71f72ed36297b572fea",
+        "url": "https://ndownloader.figshare.com/files/61694668"
+      }
+    ]
+  },
+  {
+    "name": "synthox",
+    "url": "https://api.figshare.com/v2/articles/5221351",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/synthox_deposit.json",
+    "sha256": "0f31585f2173f2ed0f4980dbd6806d494fc47fa4fb210de4aa32d3e6da476e60",
+    "title": "Aggregated Synthesis Parameters for Oxide Materials",
+    "doi": "10.6084/m9.figshare.5221351.v1",
+    "license": {
+      "value": 3,
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": 1,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 1,
+    "total_file_bytes": 6648892,
+    "file_examples": [
+      {
+        "name": "material_synthesis_data.json",
+        "bytes": 6648892,
+        "checksum": "c476f95d62eaac12559847c0d27a7ff2",
+        "url": "https://ndownloader.figshare.com/files/8918359"
+      }
+    ]
+  },
+  {
+    "name": "jcap",
+    "url": "https://api.figshare.com/v2/articles/7502207",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/jcap_deposit.json",
+    "sha256": "3633872356f1aff048dfd4d26c36628e4bdd299c7a2b841f4a184db9965f538a",
+    "title": "Synthesis, optical imaging, and absorption spectroscopy data for 179072 metal oxides",
+    "doi": "10.6084/m9.figshare.7502207.v1",
+    "license": {
+      "value": 2,
+      "name": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "version": 1,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 1,
+    "total_file_bytes": 1717287350,
+    "file_examples": [
+      {
+        "name": "synthesis_imaging_spectroscopy_metal_oxides.h5",
+        "bytes": 1717287350,
+        "checksum": "71b78fce131fab5ce1df499e80c88a42",
+        "url": "https://ndownloader.figshare.com/files/13898150"
+      }
+    ]
+  },
+  {
+    "name": "xas_l",
+    "url": "https://api.figshare.com/v2/articles/12824513",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/xas_l_deposit.json",
+    "sha256": "20b6857803944c7276079d7d1df7589bde0c26a60fe69d7e0d14ec4c3d41b02d",
+    "title": "L-XAS.json.tgz",
+    "doi": "10.6084/m9.figshare.12824513.v1",
+    "license": {
+      "value": 3,
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": 1,
+    "publication_date": null,
+    "access_right": null,
+    "file_count": 1,
+    "total_file_bytes": 218348880,
+    "file_examples": [
+      {
+        "name": "L-XAS.json.tgz",
+        "bytes": 218348880,
+        "checksum": "0dc8d5e3daaeb584167b49a57f15bc5e",
+        "url": "https://ndownloader.figshare.com/files/24332060"
+      }
+    ]
+  },
+  {
+    "name": "xas_k",
+    "url": "https://api.figshare.com/v2/collections/3946561/articles",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/xas_k_deposit.json",
+    "sha256": "566659c805ca9551a1a56b522af840acb3407aa0e03f04256237caaa0ce409f2",
+    "collection_items": [
+      {
+        "id": 5678998,
+        "title": "K-edge XANES spectra data",
+        "doi": "10.6084/m9.figshare.5678998.v1",
+        "url": "https://api.figshare.com/v2/articles/5678998"
+      }
+    ]
+  },
+  {
+    "name": "tom2016",
+    "url": "https://api.figshare.com/v2/collections/2185342/articles",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/tom2016_deposit.json",
+    "sha256": "58c619f2e4430ff05dce05f668efa06ae5b41b76359cc28bda35b9aac7a06f04",
+    "collection_items": [
+      {
+        "id": 2075179,
+        "title": "3D reconstruction of hyperbranched Co2P nanoparticle using electron tomography",
+        "doi": "10.6084/m9.figshare.c.2185342_D2.v2",
+        "url": "https://api.figshare.com/v2/articles/2075179"
+      },
+      {
+        "id": 2075188,
+        "title": "3D reconstruction of platinum nanoparticles on carbon nanofibre using electron tomography",
+        "doi": "10.6084/m9.figshare.c.2185342_D3.v3",
+        "url": "https://api.figshare.com/v2/articles/2075188"
+      },
+      {
+        "id": 2075236,
+        "title": "3D reconstruction of platinum nanoparticles on carbon nanofibre using electron tomography",
+        "doi": "10.6084/m9.figshare.c.2185342_D6.v2",
+        "url": "https://api.figshare.com/v2/articles/2075236"
+      },
+      {
+        "id": 2075242,
+        "title": "3D reconstruction of tungsten at atomic resolution using electron tomography",
+        "doi": "10.6084/m9.figshare.c.2185342_D8.v2",
+        "url": "https://api.figshare.com/v2/articles/2075242"
+      },
+      {
+        "id": 2075305,
+        "title": "3D reconstruction of Pt-Cu nanocatalysts using electron tomography",
+        "doi": "10.6084/m9.figshare.c.2185342_D14.v2",
+        "url": "https://api.figshare.com/v2/articles/2075305"
+      },
+      {
+        "id": 2075176,
+        "title": "Electron tomography of hyperbranched Co2P nanoparticle",
+        "doi": "10.6084/m9.figshare.c.2185342_D1.v2",
+        "url": "https://api.figshare.com/v2/articles/2075176"
+      },
+      {
+        "id": 2075185,
+        "title": "Variable dose electron tomography series of platinum nanoparticles on carbon nanofibre",
+        "doi": "10.6084/m9.figshare.c.2185342_D3.v2",
+        "url": "https://api.figshare.com/v2/articles/2075185"
+      },
+      {
+        "id": 2075182,
+        "title": "Electron tomography series of platinum nanoparticles on carbon nanofibre",
+        "doi": "10.6084/m9.figshare.c.2185342_D3.v2",
+        "url": "https://api.figshare.com/v2/articles/2075182"
+      },
+      {
+        "id": 2075239,
+        "title": "Electron tomography series of platinum nanoparticle at atomic resolution",
+        "doi": "10.6084/m9.figshare.c.2185342_D7.v2",
+        "url": "https://api.figshare.com/v2/articles/2075239"
+      },
+      {
+        "id": 2075245,
+        "title": "Electron tomography series of tungsten at atomic resolution",
+        "doi": "10.6084/m9.figshare.c.2185342_D9.v2",
+        "url": "https://api.figshare.com/v2/articles/2075245"
+      }
+    ]
+  },
+  {
+    "name": "synchrotron",
+    "url": "https://zenodo.org/api/records/13329639",
+    "status": 200,
+    "raw_file": "research/cache/sdata_characterization/synchrotron_deposit.json",
+    "sha256": "ae070ca52a99edbd54e3bd5ffcbe434250994263d4ae24328a40b01a89512fcf",
+    "title": "Zinc Doped Zeolite 13X DIAD X-Ray Diffraction Computed Tomography - 25 and 50 micron spot-size",
+    "doi": "10.5281/zenodo.13329639",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": "1.0",
+    "publication_date": "2024-08-16",
+    "access_right": "open",
+    "file_count": 73,
+    "total_file_bytes": 3775199975,
+    "file_examples": [
+      {
+        "name": "k11-43393-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+        "bytes": 102344819,
+        "checksum": "md5:debf88bef164f3cbdbd7ab9e1851edf0",
+        "url": "https://zenodo.org/api/records/13329639/files/k11-43393-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+      },
+      {
+        "name": "k11-43339-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+        "bytes": 102412403,
+        "checksum": "md5:d7ec50f0cfc80dc181f25d8dc14cfa66",
+        "url": "https://zenodo.org/api/records/13329639/files/k11-43339-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+      },
+      {
+        "name": "k11-43395-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs",
+        "bytes": 102381683,
+        "checksum": "md5:7d637129fe9f1a105a5a52d084736e12",
+        "url": "https://zenodo.org/api/records/13329639/files/k11-43395-diffraction-DiffInt_Mask_Azz_Txt_50um.nxs/content"
+      }
+    ]
+  }
+]

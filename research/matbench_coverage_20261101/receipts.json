@@ -1,0 +1,230 @@
+[
+  {
+    "key": "page",
+    "url": "https://matbench-discovery.materialsproject.org/data/sets",
+    "status": 200,
+    "bytes": 347649,
+    "sha256": "eebe77609cf2d21cad28857b62f0cdcd214bab1d5673f08bc1b313d0a2c946e9"
+  },
+  {
+    "key": "github_info",
+    "url": "https://api.github.com/repos/janosh/matbench-discovery",
+    "status": 200,
+    "bytes": 5701,
+    "sha256": "daa761e32d5e539ad14d0905565ea783975cafa064fd9b484319c79f4e1a21d4"
+  },
+  {
+    "key": "files",
+    "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data-files.yml",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "commit",
+    "url": "https://api.github.com/repos/janosh/matbench-discovery/commits/main",
+    "status": 200,
+    "bytes": 237017,
+    "sha256": "23859ebc65fd9890e73f128c91ba0ff270b570c2eceff3866c4dd6456ae18d3e"
+  },
+  {
+    "key": "datasets",
+    "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/main/data/datasets.yml",
+    "status": 200,
+    "bytes": 57416,
+    "sha256": "c8154dcdfa9e6186fca0ade00c31fd36d05f7ed039730a8477f4a4c0b9bfc4da"
+  },
+  {
+    "key": "pinned_datasets",
+    "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+    "status": 200,
+    "bytes": 57416,
+    "sha256": "c8154dcdfa9e6186fca0ade00c31fd36d05f7ed039730a8477f4a4c0b9bfc4da"
+  },
+  {
+    "key": "omat_readme",
+    "url": "https://huggingface.co/datasets/fairchem/OMAT24/raw/main/README.md",
+    "status": 200,
+    "bytes": 10424,
+    "sha256": "ffd84f23150be2e3b2d432ad34f9a9e57bab1f63154a6860842d2c39215cfa00"
+  },
+  {
+    "key": "matpes_readme",
+    "url": "https://raw.githubusercontent.com/materialyzeai/matpes/main/README.md",
+    "status": 200,
+    "bytes": 7178,
+    "sha256": "3764bc1b04d4abaf38660f559d84f77143e56a6bea601c86a56654d9b641e229"
+  },
+  {
+    "key": "mp2022_bounded_payload_probe",
+    "url": "https://api.figshare.com/v2/file/download/40344436",
+    "status": 200,
+    "bytes": 2000000,
+    "sha256": "597b9538f4569792f1a4de24d6d85cbf292a412ea316af82acfacdba2c74eada",
+    "truncated": true,
+    "max_read_bytes": 2000000,
+    "note": "Requested API download route returned payload, stopped after bounded read; not a metadata response, not used to recount dataset."
+  },
+  {
+    "key": "mp_graphs_meta",
+    "url": "https://api.figshare.com/v2/articles/8097992",
+    "status": 200,
+    "bytes": 4058,
+    "sha256": "1c31a61cdd7d48cd25e7c4475608f0b80823de85b58185e23ec5330d02d2acd2"
+  },
+  {
+    "key": "pft_meta",
+    "url": "https://api.figshare.com/v2/articles/31049869",
+    "status": 200,
+    "bytes": 3668,
+    "sha256": "6bbf00646f56b9342cbe24dedf97757e0fa90b63674911251df6b2a443c782e8"
+  },
+  {
+    "key": "cosmos_meta",
+    "url": "https://api.figshare.com/v2/articles/30399814",
+    "status": 200,
+    "bytes": 16214,
+    "sha256": "a5b7d12619c50911b3cbb195cab4b2021ad19e41f619b364889b9bb8d72cde22"
+  },
+  {
+    "key": "mad_meta",
+    "url": "https://archive.materialscloud.org/api/records/fe-1p",
+    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+    "key": "oc20_mads",
+    "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/docs/catalysts/datasets/oc20_mads.md",
+    "status": 200,
+    "bytes": 1814,
+    "sha256": "91d4a8a8e3c93e5f516b2dea9331d512316b1fa7bacc39799c2a27df7f8d7382"
+  },
+  {
+    "key": "oc20_slabs",
+    "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/docs/catalysts/datasets/oc20_slabs.md",
+    "status": 200,
+    "bytes": 1133,
+    "sha256": "7061e8a56707f6541167eb30218b991dba7cd4f7e6f78051576df55395734515"
+  },
+  {
+    "key": "oc20dense",
+    "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/docs/catalysts/datasets/oc20dense.md",
+    "status": 200,
+    "bytes": 4103,
+    "sha256": "30b60175a94f61ff2a20dc96cf8d88200950d1b3c2905307a07b82bdf7795658"
+  },
+  {
+    "key": "oc20neb",
+    "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/docs/catalysts/datasets/oc20neb.md",
+    "status": 200,
+    "bytes": 5119,
+    "sha256": "c19e53e0c80c7ee9ed3602d1a37d1b1c7a0b2c04a06a3da66490adf41b2edacf"
+  },
+  {
+    "key": "wbm_meta",
+    "url": "https://api.figshare.com/v2/articles/22715158",
+    "status": 200,
+    "bytes": 14086,
+    "sha256": "271b10e9f080a26ac8d3ab1b30765dd482535baceb249a762823dbcfe65eba33",
+    "final_url": "https://api.figshare.com/v2/articles/22715158"
+  },
+  {
+    "key": "mad_doi",
+    "url": "https://doi.org/10.24435/materialscloud:fe-1p",
+    "status": 200,
+    "bytes": 111053,
+    "sha256": "4dc91924e2a3ccbae56de0145a5d4a2f14ae0db35cc2ad4c66f58c96285b48eb",
+    "final_url": "https://archive.materialscloud.org/records/h41qv-1n493"
+  },
+  {
+    "key": "mad_paper",
+    "url": "https://www.nature.com/articles/s41597-025-06109-y",
+    "status": 200,
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "final_url": "https://www.nature.com/articles/s41597-025-06109-y"
+  },
+  {
+    "key": "pft_paper",
+    "url": "https://arxiv.org/html/2511.01502v1",
+    "status": 200,
+    "bytes": 494595,
+    "sha256": "31aef43fc5a3c660cb471c390fdab12a61cce2e438d82c67edcbb4eddf29bef0",
+    "final_url": "https://arxiv.org/html/2511.01502v1",
+    "note": "Unrelated guessed paper route, not used as dataset evidence. Correct PFT arXiv DOI established by primary Figshare metadata: 2601.07742."
+  },
+  {
+    "key": "mad_api",
+    "url": "https://archive.materialscloud.org/api/records/h41qv-1n493",
+    "status": 200,
+    "bytes": 14116,
+    "sha256": "757a19bc72364988d4577580193cfc46985131228260e7732c115cd2b9b298c5"
+  },
+  {
+    "key": "pft_correct_paper",
+    "url": "https://arxiv.org/html/2601.07742v1",
+    "status": 200,
+    "bytes": 225458,
+    "sha256": "9739103ebe46b25a908846d61e02ac028505d2a06800cebde57cb17ee6758d2f"
+  },
+  {
+    "key": "mdr_pbe_directory",
+    "url": "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe/",
+    "status": 200,
+    "bytes": 1217716,
+    "sha256": "f56ea558c29e6c562ede5ad0acc0bda36aea471396498149de95999943c55efa"
+  },
+  {
+    "key": "cosmos_paper",
+    "url": "https://www.nature.com/articles/s41467-026-70195-8",
+    "status": 200,
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "key": "ocx24",
+    "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/main/docs/catalysts/datasets/ocx24.md",
+    "status": 200,
+    "bytes": 2517,
+    "sha256": "97133c03d7c0c39d163ca90253c70d9dde52d4303f44bf059adaa865f2e03ef3"
+  },
+  {
+    "key": "alex_data_pbe",
+    "url": "https://alexandria.icams.rub.de/data/pbe/",
+    "status": 200,
+    "bytes": 986,
+    "sha256": "2550af296858d573bc210986fdee0836afe29f7aa9eaabd879eb7ff36478e517"
+  },
+  {
+    "key": "alex_about",
+    "url": "https://alexandria.icams.rub.de/about.html",
+    "status": 200,
+    "bytes": 7824,
+    "sha256": "face62e4ec68f54c1b2ef344f40264bae94d435a4f891bc0079f7c3b6b8e7e3e"
+  },
+  {
+    "key": "alex_2023_dir",
+    "url": "https://alexandria.icams.rub.de/data/pbe/2023.12.29/",
+    "status": 200,
+    "bytes": 6064,
+    "sha256": "fe7816f1cc61cf22196c3ec60a33af97f3a64a24e3bbe0f1bd2b4f4ee1e2a7a0"
+  },
+  {
+    "key": "alex_2024_dir",
+    "url": "https://alexandria.icams.rub.de/data/pbe/2024.12.15/",
+    "status": 200,
+    "bytes": 6828,
+    "sha256": "814eb83be0169fd6f052adf18a4ecc24cd1ba1851a6a1ccabb14bfce90874599"
+  },
+  {
+    "key": "alex_datasets",
+    "url": "https://alexandria.icams.rub.de/datasets.html",
+    "status": 200,
+    "bytes": 14027,
+    "sha256": "18a2c03045a67127594487e2a548407ef4f43c33edca7cbc99d478f63c0b00ae"
+  },
+  {
+    "key": "matpes_hf_readme",
+    "url": "https://huggingface.co/datasets/materialyze/matpes/raw/main/README.md",
+    "status": 200,
+    "bytes": 6365,
+    "sha256": "eabe87aee8fcd0eb4fe97771a4c05050ab0a14556cac3c83c81e4c71a0978c18"
+  }
+]

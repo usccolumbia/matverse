@@ -1,0 +1,210 @@
+[
+  {
+    "id": "nist-srd81-insulation",
+    "name": "NIST Heat Transmission Properties of Insulating and Building Materials (SRD 81)",
+    "category": "experimental_properties",
+    "description": "Historical guarded-hot-plate measurements of building and insulating materials with specimen, apparatus and conditioning metadata; public JSON API.",
+    "version": "Web version 2.0 (December 2015); data content last updated 1983",
+    "year": 2015,
+    "count": 2175,
+    "count_display": "2,175",
+    "count_unit": "measurement records",
+    "count_scope": "Complete response from documented TableAllData endpoint retrieved 2026-11-01; one distinct database id per object",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental literature compilation",
+    "properties": [
+      "thermal conductivity",
+      "thermal conductance",
+      "thermal resistance",
+      "thermal resistivity",
+      "density",
+      "test conditions"
+    ],
+    "access": "open",
+    "license": "Database states copyright U.S. Department of Commerce, all rights reserved; no open data redistribution license verified",
+    "links": {
+      "homepage": "https://srdata.nist.gov/insulation/",
+      "download": "https://srdata.nist.gov/insulation/api/TableAllData",
+      "documentation": "https://srdata.nist.gov/insulation/Home/DataFieldDef",
+      "doi": "https://doi.org/10.18434/T4RC7M"
+    },
+    "sources": [
+      {
+        "url": "https://srdata.nist.gov/insulation/api/TableAllData",
+        "title": "SRD 81 live public JSON API",
+        "evidence": "Downloaded 2,175 objects with 2,175 distinct id values. Fields include material/manufacturer, specimen, density, thickness, mean temperature, temperature difference, conductivity, uncertainty, apparatus, method and conditioning; 1,667 rows have null unc.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/Intro",
+        "title": "SRD 81 scope and measurement method",
+        "evidence": "Describes historical 200-mm guarded-hot-plate measurements, over 2,000 observations, most near 24 °C, with broad specimen-density coverage.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/DataFieldDef",
+        "title": "SRD 81 definitions and uncertainty",
+        "evidence": "Defines SI/IP property units, specimen and pre-test conditions, apparatus and test mode; describes relative expanded uncertainty conventions. API numeric fields do not embed units.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/VersionHistory",
+        "title": "SRD 81 release history",
+        "evidence": "Web version 2.0 released December 2015, superseding version 1.0 released January 2000.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/",
+        "title": "SRD 81 landing page and rights",
+        "evidence": "Current public page identifies data content last updated 1983 and copyright U.S. Department of Commerce with all rights reserved.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "2,175 counts measurement rows, not distinct materials or specimens; API snapshot was checked 2026-11-01.",
+      "API fields do not encode units. Values appear to use inch-pound conventions; confirm each unit/conversion against the UI before quantitative reuse, and do not label API values SI by default.",
+      "1,667 of 2,175 API rows have null uncertainty. Provider default uncertainty guidance does not supply measured row-specific uncertainty.",
+      "Apparent thermal transmission properties can combine conduction, radiation and convection; they are not intrinsic lattice thermal conductivity.",
+      "Historical data content ends in 1983; current site accessibility and the 2015 software release are separate from measurement freshness.",
+      "Public access does not establish an open redistribution license."
+    ],
+    "tags": [
+      "Data.gov attachment ranks 27, 28",
+      "guarded hot plate",
+      "measurement conditions",
+      "public JSON API"
+    ]
+  },
+  {
+    "id": "nist-cryogenic-materials",
+    "name": "NIST Cryogenic Materials Property Database",
+    "category": "experimental_properties",
+    "description": "Temperature-dependent engineering-material property correlations, explicit fit coefficients and usable ranges, with a regenerator heat-capacity table.",
+    "version": "Current TRC-hosted collection, checked 2026-11-01; individual revisions vary",
+    "year": null,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "material/property records",
+    "count_scope": "Public collection; total record count not verified",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "experimental literature compilation",
+    "properties": [
+      "thermal conductivity",
+      "specific heat",
+      "Young modulus",
+      "thermal expansion",
+      "volumetric heat capacity"
+    ],
+    "access": "open",
+    "license": "No collection-specific open data redistribution license verified",
+    "links": {
+      "homepage": "https://trc.nist.gov/cryogenics/materials/materialproperties.htm",
+      "documentation": "https://trc.nist.gov/cryogenics/materials/references.htm"
+    },
+    "sources": [
+      {
+        "url": "https://www.nist.gov/mml/acmd/nist-cryogenic-materials-property-database-index",
+        "title": "NIST authoritative relocation notice",
+        "evidence": "Official NIST page explicitly moves the collection to the TRC materials-property index, preserving identity of the attached legacy database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://trc.nist.gov/cryogenics/materials/6061%20Aluminum/6061_T6Aluminum_rev.htm",
+        "title": "6061-T6 aluminum correlation tables",
+        "evidence": "Retrievable HTML tables provide coefficients, equations, property units, kelvin temperature ranges and fit errors for four properties; conductivity and specific heat have stated data ranges 4–300 K.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://trc.nist.gov/cryogenics/materials/references.htm",
+        "title": "Cryogenic property source bibliography",
+        "evidence": "Material-specific references supply literature provenance, including an Al6061 section.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://trc.nist.gov/cryogenics/materials/RegeneratorMaterials/Regenerator%20Materials%20rev%2009-22-06.htm",
+        "title": "Regenerator material numerical table",
+        "evidence": "Retrievable spreadsheet-style HTML contains temperature-dependent volumetric heat capacities, with K and J/cm3-K labels.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Correlations fitted to compiled data are not independent raw measurements; fit error relative to data is not measurement uncertainty.",
+      "No verified complete bulk export or homogeneous release version; retrievable numerical tables are HTML, and individual material/property coverage varies.",
+      "The regenerator link returns spreadsheet-style HTML, not a verified standalone XLS/CSV file.",
+      "Index links and sampled data tables were verified; an exhaustive material, coefficient or measurement count was not established.",
+      "Respect each material, temper, orientation and equation-validity range; do not extrapolate fits beyond their stated ranges.",
+      "Public access does not establish an open redistribution license."
+    ],
+    "tags": [
+      "Data.gov attachment ranks 40, 41, 44",
+      "cryogenic",
+      "property correlations",
+      "fit ranges"
+    ]
+  },
+  {
+    "id": "nist-structural-ceramics-srd30",
+    "name": "NIST Structural Ceramics Database (SRD 30)",
+    "category": "experimental_properties",
+    "description": "Literature-derived ceramic property tables linked to processing, composition, measurement methods, evaluation status and bibliography.",
+    "version": "Live Ceramics Data Portal; data content last updated 2002",
+    "year": 2002,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "material/property records",
+    "count_scope": "Public collection; total record count not verified",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "experimental literature compilation",
+    "properties": [
+      "thermal properties",
+      "mechanical properties",
+      "density",
+      "grain size",
+      "processing",
+      "measurement uncertainty"
+    ],
+    "access": "open",
+    "license": "Database states copyright U.S. Department of Commerce, all rights reserved; no open data redistribution license verified",
+    "links": {
+      "homepage": "https://srdata.nist.gov/CeramicDataPortal/scd",
+      "doi": "https://doi.org/10.18434/T4F30D",
+      "example": "https://srdata.nist.gov/CeramicDataPortal/Scd/Y00001"
+    },
+    "sources": [
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/scd",
+        "title": "WebSCD database and evaluation criteria",
+        "evidence": "Public search page identifies last data update 2002, ceramic families and evaluation criteria; it documents processing/composition and bibliography support.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/Scd/Y00001",
+        "title": "SCD citation Y00001 numerical record",
+        "evidence": "Live HTML record contains corundum heat-capacity values with K and J kg−1 K−1 units, value uncertainties, calorimetry methods, processing notes, source citation and property-specific evaluation labels.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/Scd/DoSearch",
+        "title": "Current structural-ceramics search results",
+        "evidence": "Unfiltered search returns a linked citation index. Repeated citations can represent different materials; row or citation totals are not a unique-material count.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "No verified complete structured bulk export or dataset cardinality; numerical per-citation HTML tables are publicly retrievable.",
+      "Evaluation labels are property-specific: the sampled record marks heat capacity evaluated and grain size unevaluated. Do not label all values validated.",
+      "Legacy data content last updated 2002; catalog/site timestamps do not indicate new measurements.",
+      "Contains literature data and may overlap NIST Property Data Summaries and other compilations.",
+      "Public access does not establish an open redistribution license."
+    ],
+    "tags": [
+      "Data.gov attachment ranks 195, 197",
+      "ceramics",
+      "evaluated literature",
+      "processing conditions"
+    ]
+  }
+]

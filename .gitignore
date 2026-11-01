@@ -6,3 +6,8 @@ __pycache__/
 .DS_Store
 .venv/
 dist/
+# Local primary-source bodies, dataset payloads and search caches; receipts stay tracked.
+research/openalex_property_20261101/*/cache/
+research/openalex_property_20261101/*/raw/
+research/openalex_property_20261101/*/primary/
+research/openalex_property_20261101/*/evidence/

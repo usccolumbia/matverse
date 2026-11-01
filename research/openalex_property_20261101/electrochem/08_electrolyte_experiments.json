@@ -1,0 +1,4421 @@
+{
+  "mode": "search",
+  "query": "conductivity electrolyte formulations experiments",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "High‐Conductivity Electrolytes Screened Using Fragment‐ and Composition‐Aware Deep Learning",
+      "authors": [
+        "Xiangwen Wang",
+        "Muyang Chen",
+        "Gengyi Bao",
+        "Yan Lai",
+        "Jinghe Cao",
+        "Xinhua Liu",
+        "Rui Tan"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xiangwen Wang",
+          "orcid": "0000-0003-2201-5695",
+          "affiliations": [
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muyang Chen",
+          "orcid": "0000-0003-2320-2644",
+          "affiliations": [
+            "Swansea University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gengyi Bao",
+          "orcid": null,
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Lai",
+          "orcid": null,
+          "affiliations": [
+            "Tiangong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinghe Cao",
+          "orcid": null,
+          "affiliations": [
+            "Tiangong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinhua Liu",
+          "orcid": "0000-0002-4111-7235",
+          "affiliations": [
+            "Beihang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rui Tan",
+          "orcid": "0009-0001-9278-7327",
+          "affiliations": [
+            "Swansea University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Science",
+      "doi": "10.1002/advs.202521575",
+      "type": "article",
+      "url": "https://doi.org/10.1002/advs.202521575",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202521575",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Rising energy generation from renewables (e.g., wind, solar power) will drive global demand for >1.0 TWh of long-duration energy storage by 2030 to stabilise grids and balance supply. Rechargeable batteries are central to this transition, with their performance critically governed by the properties of active materials and supporting electrolytes. However, designing electrolyte formulations remains a major challenge, as their performance arises from complex, non-additive interactions among lithium salts and organic solvents, requiring elegant molecular design and selection. Conventional trial-and-error strategies still dominate electrolyte design, but they are slow and resource-intensive. Recent machine learning approaches have improved electrolyte screening, yet many rely on coarse molecular representations that neglect fragment-level chemistry and explicit ratios, limiting interpretability and their utility for guiding experiments. Here we introduce a deep learning framework that integrates intermolecular attributions across solvents with intramolecular attributions from functional units. The framework builds a hierarchical representation, decomposing formulations into molecules and their functional units, while integrating ratios, physicochemical descriptors, and salt identity to generate mixture-invariant embeddings for accurate and interpretable conductivity prediction. Applied to benchmark datasets of lithium battery electrolytes, the framework achieves high accuracy in predicting ionic conductivity and enables large-scale virtual screening. Crucially, it provides chemically interpretable insights: fragment-level attentions align with functional units; composition-aware attention reveals the impact of mixing ratios; and counterfactual perturbations confirm causal roles of key motifs. This framework paves the way for data-driven, interpretable electrolyte design and can be generalized to broader formulation challenges in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Generative Electrolyte Solvent and Formulation Discovery",
+      "authors": [
+        "Jaemin Kim",
+        "Ke-Hsin Wang",
+        "Dr. Ritesh Kumar",
+        "Peiyuan Ma",
+        "Chibueze V. Amanchukwu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jaemin Kim",
+          "orcid": "0000-0003-4756-1270",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ke-Hsin Wang",
+          "orcid": "0009-0003-0263-2546",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dr. Ritesh Kumar",
+          "orcid": "0000-0001-6345-6791",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peiyuan Ma",
+          "orcid": "0000-0003-0373-3712",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chibueze V. Amanchukwu",
+          "orcid": "0000-0002-6573-1213",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "JACS Au",
+      "doi": "10.1021/jacsau.5c01628",
+      "type": "article",
+      "url": "https://doi.org/10.1021/jacsau.5c01628",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.acs.org/jaaucr/article-pdf/6/4/2288/64912401/au5c01628.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Molecular mixtures and/or formulations are of great importance in fields ranging from materials science to pharmaceuticals to chemistry. In batteries, electrolytes are complex molecular mixtures consisting of multiple salts and solvents and additives at different concentrations that dictate battery capacity, safety, and cycle life, among others. Unfortunately, due to the complex composition and infinite design space as well as the conflicting property requirements, electrolyte design is the rate-determining step in the design of next generation battery chemistries. In this work, we develop a transformer-based generative AI model - ElectrolyteGPT - capable of generating solvents and electrolyte formulations to satisfy a wide range of desired property requirements. First, we curate an electrolyte-relevant database and develop a new line notation for formulations. Then, we show that ElectrolyteGPT can generate solvents and formulations conditioned on a wide range of important electrolyte properties such as ionic conductivity, oxidative stability, Coulombic efficiency, viscosity, and more. Finally, we experimentally synthesize the generated solvents and fabricate the electrolyte formulations and show that they can meet the desired property requirements and enable long-term cycling in energy-dense anode-free lithium metal batteries. Our work showcases the ability of generative models to address challenges in molecular mixture design for next generation batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "MULTI-OBJECTIVE OPTIMIZATION AND ROBUST SCREENING MODELING OF AQUEOUS ELECTROLYTE FORMULATIONS",
+      "authors": [
+        "Pengyuan Zhang",
+        "EnCi Zhang",
+        "Haoshan Sun",
+        "Fengshuo Liu",
+        "Danzhi Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Pengyuan Zhang",
+          "orcid": "0000-0001-6838-5160",
+          "affiliations": [
+            "Beijing University of Posts and Telecommunications"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "EnCi Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Beijing University of Posts and Telecommunications"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoshan Sun",
+          "orcid": null,
+          "affiliations": [
+            "Beijing University of Posts and Telecommunications"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengshuo Liu",
+          "orcid": "0000-0003-4651-7710",
+          "affiliations": [
+            "Beijing University of Posts and Telecommunications"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Danzhi Wang",
+          "orcid": null,
+          "affiliations": [
+            "Beijing University of Posts and Telecommunications"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "World Journal of Engineering Research",
+      "doi": "10.61784/wjer3120",
+      "type": "article",
+      "url": "https://doi.org/10.61784/wjer3120",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://upubjournals.com/wjer/article/download/2637/31",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Aqueous electrolyte formulation optimization involves coupled conductivity, acid-base compatibility, electrochemical stability, and preparation robustness under limited experimental budgets. Based on 251 experimental records, this study constructs an integrated modeling framework for performance evaluation, predictive modeling, mechanism interpretation, reliability assessment, and candidate formulation screening. The original stock-solution volumes, molalities, densities, component existence indicators, ionic load, mass load, Li/Na ratio, anion-family proportions, water volume fraction, and component entropy are organized into a unified feature space. Conductivity, pH, and the electrochemical stability window measured at the 1 mA/cm2 threshold are then combined with robustness indicators to support multi-objective formulation ranking. Ridge regression, random forest, and Gaussian process regression are compared under random and structural validation. The Gaussian process model performs best for conductivity prediction, while random forest provides the strongest pH and stability-window predictions. Feature importance and response analysis show that total ion load dominates conductivity, Li/Na-related descriptors influence pH, and NaBr-related descriptors strongly affect the electrochemical window. Candidate formulations are further screened through Bayesian optimization and local perturbation analysis, identifying NaClO4-NaNO3 systems as high-potential and robust candidates for subsequent experiments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Conductivity study of gel electrolyte based on chitosan/gelatin gels with acetic acid addition",
+      "authors": [
+        "Karoline C. Pacheco",
+        "Aline J.R.W.A. dos Santos",
+        "Isadora Atrib Garcia",
+        "Bruno Guzzo da Silva",
+        "Luana U. Krüger",
+        "Agnieszka Pawlicka",
+        "César O. Avellaneda"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Karoline C. Pacheco",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aline J.R.W.A. dos Santos",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isadora Atrib Garcia",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bruno Guzzo da Silva",
+          "orcid": "0000-0002-0002-709X",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luana U. Krüger",
+          "orcid": "0000-0003-0264-5577",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Agnieszka Pawlicka",
+          "orcid": "0000-0002-8754-0493",
+          "affiliations": [
+            "Universidade de São Paulo",
+            "Instituto de Química de São Carlos"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "César O. Avellaneda",
+          "orcid": "0000-0002-8527-8030",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Ionics",
+      "doi": "10.1007/s11581-025-06930-w",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11581-025-06930-w",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Real-time electrolyte conductivity and coating response during sequential micro-arc oxidation of TC4 titanium alloy",
+      "authors": [
+        "Xiaoming Wang",
+        "Zhenbo Wu",
+        "Chenglin Yao",
+        "Xiaoyu Wu",
+        "Jialu Sun"
+      ],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.34699927",
+      "type": "article",
+      "url": "https://doi.org/10.6084/m9.figshare.34699927",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.6084/m9.figshare.34699927",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Conductivity measurements before and after micro-arc oxidation (MAO) cannot readily distinguish changes in electrolyte formulation from transient process fluctuations. We assembled a real-time monitoring system for MAO and used it during treatment of TC4 titanium alloy. Four independently prepared electrolytes, A15, A13, A11 and A9, had initial electrical conductivity (EC) values of approximately 15, 13, 11 and 9 mS cm−1. Each formulation batch was used for two or three sequential treatments. In two reuse experiments, a single electrolyte batch was used sequentially to treat six or nine fresh specimens, while EC, pH and temperature were recorded. Across the formulation series, Si in selected areas decreased from approximately 13 to 6 at.%, Ti/(Si+P) increased, and TiO2 diffraction weakened relative to the Ti substrate. During reuse, EC fluctuated or decreased and then increased to different extents, but coating phase assemblage and selected-area composition did not follow the sequence of EC responses. Differences were confined mainly to selected fields, including local pore morphology, surface structure and elemental distribution. Real-time EC can identify process responses that depart from preceding treatments and guide specimen selection. It cannot alone determine phase assemblage, selected-area composition or local morphology, or establish electrolyte ageing.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Real-time electrolyte conductivity and coating response during sequential micro-arc oxidation of TC4 titanium alloy",
+      "authors": [
+        "Xiaoming Wang",
+        "Zhenbo Wu",
+        "Chenglin Yao",
+        "Xiaoyu Wu",
+        "Jialu Sun"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xiaoming Wang",
+          "orcid": "0000-0002-1527-3496",
+          "affiliations": [
+            "Shaoyang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenbo Wu",
+          "orcid": "0009-0000-0347-8622",
+          "affiliations": [
+            "Shaoyang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chenglin Yao",
+          "orcid": null,
+          "affiliations": [
+            "Shaoyang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoyu Wu",
+          "orcid": null,
+          "affiliations": [
+            "Shaoyang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jialu Sun",
+          "orcid": null,
+          "affiliations": [
+            "Shaoyang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Transactions of the IMF",
+      "doi": "10.1080/00202967.2026.2740479",
+      "type": "article",
+      "url": "https://doi.org/10.1080/00202967.2026.2740479",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Conductivity measurements before and after micro-arc oxidation (MAO) cannot readily distinguish changes in electrolyte formulation from transient process fluctuations. We assembled a real-time monitoring system for MAO and used it during treatment of TC4 titanium alloy. Four independently prepared electrolytes, A15, A13, A11 and A9, had initial electrical conductivity (EC) values of approximately 15, 13, 11 and 9 mS cm−1. Each formulation batch was used for two or three sequential treatments. In two reuse experiments, a single electrolyte batch was used sequentially to treat six or nine fresh specimens, while EC, pH and temperature were recorded. Across the formulation series, Si in selected areas decreased from approximately 13 to 6 at.%, Ti/(Si+P) increased, and TiO2 diffraction weakened relative to the Ti substrate. During reuse, EC fluctuated or decreased and then increased to different extents, but coating phase assemblage and selected-area composition did not follow the sequence of EC responses. Differences were confined mainly to selected fields, including local pore morphology, surface structure and elemental distribution. Real-time EC can identify process responses that depart from preceding treatments and guide specimen selection. It cannot alone determine phase assemblage, selected-area composition or local morphology, or establish electrolyte ageing.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Solvent-free extrusion of polymer-based solid-state electrolytes: Formulation, processing and modeling",
+      "authors": [
+        "Hanxin Mei",
+        "Pei Sun",
+        "Florian Leveille",
+        "Sylvie Grugeon",
+        "Alejandro A. Franco",
+        "Matthieu Robert Becuwe"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Hanxin Mei",
+          "orcid": "0000-0002-0577-2320",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pei Sun",
+          "orcid": "0009-0008-9426-351X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Laboratoire Amiénois de Mathématique Fondamentale et Appliquée",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Florian Leveille",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sylvie Grugeon",
+          "orcid": "0000-0002-3119-6806",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro A. Franco",
+          "orcid": "0000-0001-7362-7849",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Universitaire de France",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Alistore",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthieu Robert Becuwe",
+          "orcid": "0000-0002-1949-3955",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Laboratoire de Réactivité et Chimie des Solides",
+            "Université de Picardie Jules Verne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemical Engineering Journal",
+      "doi": "10.1016/j.cej.2026.176955",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.cej.2026.176955",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.cej.2026.176955",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state batteries (SSBs), especially those paired lithium metal anodes with solid-state electrolytes (SSEs) and enabling high-voltage bipolar stacking architectures, promise higher safety and energy density than conventional Li-ion systems. Among candidate electrolytes, polymer-based solid-state electrolytes (PSEs) are attractive for their processability, interfacial compliance, low density, wide form-factor freedom (thin, flexible films), and better air handling than many sulfide/halide systems. Solvent-free extrusion of PSEs has emerged as a promising route for scalable solid-state battery manufacturing. First, we reviewed early foundational research before 2020, including pioneering melt-compounding and hot-pressing studies that established core processing principles and performance baselines, then we surveyed the rapid advances since 2020 in extruding both neat PSEs and composite PSEs. New polymer matrices, inert/ceramic fillers, and refined formulations have expanded the processing window and improved ionic conductivity and interfacial stability. We also detail the extrusion parameters, such as single and twin-screw setups, screw element design, barrel and die temperature profiles, screw speed, residence time distribution, and shear and cooling rates. These parameters determine polymer crystallinity, phase morphology, and ultimately performance. In parallel, we also focus on modeling and simulation approaches (e.g., CFD, SPH, DEM) that predict flow, mixing, and thermal behavior in extruders. Because most current extrusion simulations remain polymer-centric and do not yet encode lithium-salt identity, ion association, and transport closures with sufficient fidelity, the simulation discussion in this review is intended to quantify flow–mixing–thermal histories to guide screw/die and process-window design. So direct prediction of ionic conductivity and Li + transference number now still has to rely on experiments or on separate MD/DFT-type simulations of intrinsic ion transport that do not explicitly resolve the mixing process. Due to fidelity limitations, these tools serve as complementary guides rather than replacements for experiments completely. Key processing–structure–performance relationships are synthesized via comparative radar plots and other graphical summaries, highlighting critical trade-offs to inform design optimization. Finally, we outline future directions, including broadening the range of polymers and fillers, and establishing standardized extrusion protocols. By integrating materials innovation, process engineering, and modeling insights, solvent-free extrusion of PSEs is expected to accelerate the transition from lab-scale feasibility to robust, continuous, scalable production.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "OPTIMIZING IONIC CONDUCTIVITY OF POLYMER ELECTROLYTES THROUGH SALT COMPOSITION AND THERMAL CONDITIONS",
+      "authors": [
+        "Priyanka Chaudhari",
+        "Prafulla Chaudhari"
+      ],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "EPH - International Journal of Science And Engineering",
+      "doi": "10.67772/bjp7m205",
+      "type": "article",
+      "url": "https://doi.org/10.67772/bjp7m205",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.67772/bjp7m205",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "For electrochemical application, polymer electrolytes need to be optimized in both composition and operating temperature, so as to obtain high ionic conductivity. The impact of lithium-salt chemistry, salt concentration, and thermal condition on the ionic conductivity of poly(ε-caprolactone)-based polymer electrolytes has been assessed based on 711 experimental observations, which correspond to 17 salt chemistries and 51 salt–molality formulations. Median conductivity was used to summarize replicate measurements and log₁₀ conductivity was used for distributional comparisons at the four key thermal conditions (30, 50, 70 and 90 °C). The median conductivity increased from 3.03 × 10⁻⁷ S cm⁻¹ at 30 °C to 4.39 × 10⁻⁵ S cm⁻¹ at 90 °C, with a significant and highly consistent thermal effect across complete formulations. The conductivity and salt concentration had a non-linear relationship, with intermediate salt loadings often proving superior. LiFSI at 1.0 mol kg⁻¹ showed the best overall performance throughout the entire thermal range, while LiBOB at 0.6 mol kg⁻¹ and LiDFOB at 2.2 mol kg⁻¹ showed the highest performance at about 70 and 90 °C, respectively. Arrhenius-type analysis further demonstrated formulation-specific temperature sensitivity. In general, optimization of ionic conductivity was best achieved by considering the salt, its concentration and thermal condition together. The results provide a set of optimum conductivities for the compositions and as a function of temperature, and they support the selection of polymer-electrolyte formulations for transport performance under multiple conditions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Rational Electrolyte Formulation for Sodium Metal Batteries Operating in Extremely Cold Environments",
+      "authors": [
+        "Pei Wang",
+        "Chuanlong Wang",
+        "Weiyang Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Pei Wang",
+          "orcid": "0000-0002-0221-7858",
+          "affiliations": [
+            "Dartmouth College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chuanlong Wang",
+          "orcid": null,
+          "affiliations": [
+            "Dartmouth College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weiyang Li",
+          "orcid": "0000-0001-5827-415X",
+          "affiliations": [
+            "Dartmouth College"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials and Interfaces",
+      "doi": "10.53941/mi.2026.100007",
+      "type": "article",
+      "url": "https://doi.org/10.53941/mi.2026.100007",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://media.sciltp.com/articles/2603003515/2603003515.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Sodium metal batteries have shown considerable potential when operated at ambient temperatures. However, their performance in cold environments is constrained by increased electrolyte resistance with decreasing temperature and dendritic sodium plating associated with unstable solid electrolyte interphase (SEI), which are primarily influenced by the electrolyte composition. In this study, we present an electrolyte formulation that remains thermally stable down to −150 °C, which not only facilitates low internal resistance but also contributes to the formation of a protective SEI under cryogenic conditions. When cycled at −40 °C at 1 mA cm−2, the sodium metal electrode exhibits a low overpotential of only 16 mV over 750 h; even at an ultra-low temperature of −80 °C, the electrode demonstrates remarkable long-term stability with a low overpotential of 54 mV sustained over 1500 h at 0.5 mA cm−2. Furthermore, full cell evaluations when paring with Na3V2(PO4)3 cathode reveal a high average Coulombic efficiency exceeding 99.1% and a capacity retention over 83% after 100 cycles at both −40 °C and −80 °C.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Chemical foundation model-guided design of high ionic conductivity electrolyte formulations",
+      "authors": [
+        "Murtaza Zohair",
+        "Vidushi Sharma",
+        "Eduardo Almeida Soares",
+        "Khanh Nguyen",
+        "Maxwell J. Giammona",
+        "Linda K. Sundberg",
+        "Andy Tek",
+        "Emilio Vital Brazil",
+        "Young‐Hye La"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Murtaza Zohair",
+          "orcid": "0000-0001-7064-6817",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vidushi Sharma",
+          "orcid": "0000-0002-4576-4990",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eduardo Almeida Soares",
+          "orcid": "0000-0002-2634-8270",
+          "affiliations": [
+            "IBM Research - Brazil"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khanh Nguyen",
+          "orcid": "0009-0002-0539-235X",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxwell J. Giammona",
+          "orcid": "0000-0003-3667-9652",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linda K. Sundberg",
+          "orcid": null,
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andy Tek",
+          "orcid": "0000-0002-0699-8479",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emilio Vital Brazil",
+          "orcid": null,
+          "affiliations": [
+            "IBM Research - Brazil"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Young‐Hye La",
+          "orcid": "0000-0002-0192-1632",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01774-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01774-4",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01774-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Designing optimal formulations is a major challenge in developing electrolytes for the next generation of rechargeable batteries due to the vast combinatorial design space and complex interplay between multiple constituents. Machine learning (ML) offers a powerful tool to uncover underlying chemical design rules and accelerate the process of formulation discovery. In this work, we present an approach to design new formulations that can achieve target performance, using a generalizable chemical foundation model. The chemical foundation model is fine-tuned on an experimental dataset of 13,666 ionic conductivity values curated from the lithium-ion battery literature. The fine-tuned model is used to discover 7 novel high conductivity electrolyte formulations through generative screening, improving the conductivity of LiFSI- and LiDFOB-based electrolytes by 82% and 172%, respectively. These findings highlight a generalizable workflow that is highly adaptable to the discovery of chemical mixtures with tailored properties to address challenges in energy storage and beyond.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Disorder-Mediated Ionic Conductivity in Irreducible Solid Electrolytes",
+      "authors": [
+        "Victor Landgraf",
+        "Mengfu Tu",
+        "Wen-Xuan Zhao",
+        "Anastasia K. Lavrinenko",
+        "Zhu Cheng",
+        "Jef Canals",
+        "Joris de Leeuw",
+        "Swapna Ganapathy",
+        "Alexandros Vasileiadis",
+        "Marnix Wagemaker",
+        "Theodosios Famprikis"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Victor Landgraf",
+          "orcid": "0000-0003-2169-6855",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mengfu Tu",
+          "orcid": null,
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wen-Xuan Zhao",
+          "orcid": "0000-0002-0206-7212",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anastasia K. Lavrinenko",
+          "orcid": "0000-0001-9863-8325",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhu Cheng",
+          "orcid": "0000-0002-9997-0781",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jef Canals",
+          "orcid": null,
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joris de Leeuw",
+          "orcid": null,
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Swapna Ganapathy",
+          "orcid": "0000-0001-5265-1663",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexandros Vasileiadis",
+          "orcid": "0000-0001-9761-7936",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marnix Wagemaker",
+          "orcid": "0000-0003-3851-1044",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Theodosios Famprikis",
+          "orcid": "0000-0002-7946-1445",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.5c02784",
+      "type": "article",
+      "url": "https://doi.org/10.1021/jacs.5c02784",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/jacs.5c02784?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Solid-state batteries currently receive extensive attention due to their potential to outperform lithium-ion batteries in terms of energy density when featuring next-generation anodes such as lithium metal or silicon. However, most highly conducting solid electrolytes decompose at the low operating voltages of next-generation anodes leading to irreversible lithium loss and increased cell resistance. Such performance losses may be prevented by designing electrolytes which are thermodynamically stable at low operating voltages (anolytes). Here, we report on the discovery of a new family of irreducible (i.e., fully reduced ) electrolytes by mechanochemically dissolving lithium nitride into the Li 2 S antifluorite structure, yielding highly conducting crystalline Li 2+ x S 1– x N x phases reaching >0.2 mS cm –1 at ambient temperature. Combining impedance spectroscopy experiments and ab initio density functional theory calculations we clarify the mechanism by which the disordering of the sulfide and nitride ions in the anion sublattice boosts ionic conductivity in Li 2+ x S 1– x N x phases by a factor 10 5 compared to the Li 2 S host structure. This advance is achieved through a novel theoretical framework, leveraging percolation analysis with local-environment-specific activation energies and is widely applicable to disordered ion conductors. The same methodology allows us to rationalize how increasing nitrogen content in Li 2+ x S 1– x N x antifluorite-like samples leads to both increased ionic conductivity and lower conductivity-activation energy. These findings pave the way to understanding disordered solid electrolytes and eliminating decomposition-induced performance losses on the anode side in solid-state batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Accurate Ionic Conductivity Calculations of Battery Electrolytes at High Salt Concentration Using Molecular Dynamics Simulations",
+      "authors": [
+        "Manav Bhati",
+        "Garvit Agarwal",
+        "Suvo Banik",
+        "Andrea Robben Browning",
+        "Mathew David Halls"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Manav Bhati",
+          "orcid": "0000-0003-3745-9790",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Garvit Agarwal",
+          "orcid": "0000-0002-7814-6072",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Suvo Banik",
+          "orcid": "0000-0001-7239-8853",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrea Robben Browning",
+          "orcid": "0000-0002-2926-6174",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mathew David Halls",
+          "orcid": "0000-0001-8989-8934",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ECS Meeting Abstracts",
+      "doi": "10.1149/ma2024-012247mtgabs",
+      "type": "conference-abstract",
+      "url": "https://doi.org/10.1149/ma2024-012247mtgabs",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The ionic conductivity of an electrolyte formulation is a crucial property influencing battery performance. The dependence of ionic conductivity on multiple parameters, such as salt and solvent type, concentration, and temperature complicates the design of next-generation electrolytes. Efficient design of superior electrolytes requires methods capable of accurately and rapidly predicting ionic conductivity. Such methods would enable high-throughput screening of electrolyte chemistries to establish structure-property relationships. The simple Nernst-Einstein approximation is widely used in the literature to estimate ionic conductivity of electrolytes using the measured self-diffusivity. However, the failure of this approximation for concentrated solutions due to stronger intermolecular interactions requires incorporating a rigorous concentrated solution theory, such as Maxwell-Stefan (MS) diffusivity. Here, we present a molecular dynamics (MD) simulation workflow for calculating the ionic conductivity of liquid electrolytes utilizing the ion-correlated MS diffusion approach. We explore the sensitivity of calculated ionic conductivity to various simulation parameters and various methods in the literature to guide a standardized simulation protocol. Through rigorous benchmarking across a diverse range of electrolyte systems, we validate the model's accuracy by directly comparing the calculated ionic conductivities against experiments and existing literature. This work is a significant step toward a more unified and comprehensive evaluation procedure for ionic conductivity, accelerating the development of advanced electrolytes for improved battery performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Autonomous Battery Optimization by Deploying Distributed Experiments and Simulations",
+      "authors": [
+        "Monika Vogler",
+        "Simon Krarup Steensen",
+        "Francisco Ramirez",
+        "Leon Merker",
+        "Jonas Busk",
+        "Johan Martin Carlsson",
+        "Laura Rieger",
+        "Bojing Zhang",
+        "François Liot",
+        "Giovanni Pizzi",
+        "Felix Hanke",
+        "Eibar Flores",
+        "Hamidreza Hajiyani",
+        "Stefan Fuchs",
+        "Alexey O. Sanin",
+        "Miran Gaberšček",
+        "Ivano E. Castelli",
+        "Simon Clark",
+        "Tejs Vegge",
+        "Arghya Bhowmik",
+        "Helge Sören Stein"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Monika Vogler",
+          "orcid": "0000-0001-8514-5601",
+          "affiliations": [
+            "Helmholtz-Institute Ulm",
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon Krarup Steensen",
+          "orcid": "0009-0008-8649-3542",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francisco Ramirez",
+          "orcid": "0000-0002-5490-6014",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Leon Merker",
+          "orcid": "0000-0001-8959-3161",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonas Busk",
+          "orcid": "0000-0003-2502-1679",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johan Martin Carlsson",
+          "orcid": "0000-0002-1596-0923",
+          "affiliations": [
+            "Dassault Systèmes (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Laura Rieger",
+          "orcid": "0000-0002-2986-2937",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bojing Zhang",
+          "orcid": "0000-0001-8709-3040",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "François Liot",
+          "orcid": "0009-0009-2222-3487",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giovanni Pizzi",
+          "orcid": "0000-0002-3583-4377",
+          "affiliations": [
+            "Paul Scherrer Institute",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Felix Hanke",
+          "orcid": "0000-0002-4155-5980",
+          "affiliations": [
+            "Dassault Systèmes (United Kingdom)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eibar Flores",
+          "orcid": "0000-0003-2954-1233",
+          "affiliations": [
+            "SINTEF Industry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hamidreza Hajiyani",
+          "orcid": "0000-0002-1150-0567",
+          "affiliations": [
+            "Dassault Systèmes (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefan Fuchs",
+          "orcid": "0000-0001-8121-426X",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexey O. Sanin",
+          "orcid": "0000-0003-1796-9224",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Miran Gaberšček",
+          "orcid": "0000-0002-8104-1693",
+          "affiliations": [
+            "National Institute of Chemistry",
+            "SINTEF Industry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivano E. Castelli",
+          "orcid": "0000-0001-5880-5045",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon Clark",
+          "orcid": "0000-0002-8758-6109",
+          "affiliations": [
+            "National Institute of Chemistry",
+            "SINTEF Industry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tejs Vegge",
+          "orcid": "0000-0002-1484-0284",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arghya Bhowmik",
+          "orcid": "0000-0003-3198-5116",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helge Sören Stein",
+          "orcid": "0000-0002-3461-0232",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.202403263",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.202403263",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202403263",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Non‐trivial relationships link individual materials properties to device‐level performance. Device optimization therefore calls for new automation approaches beyond the laboratory bench with tight integration of different research methods. This study demonstrates a Materials Acceleration Platform (MAP) in the field of battery research based on the problem‐agnostic Fast INtention‐Agnostic LEarning Server (FINALES) framework, which integrates simulations and physical experiments while leaving the active control of the hardware and software resources executing experiments or simulations with the partners running the respective units. This decentralization of control is a distinctive feature of MAPs using the FINALES framework. The connected capabilities entail the formulation and characterization of electrolytes, cell assembly and testing, early lifetime prediction, and ontology‐mapped data storage provided by institutions distributed across Europe. The infrastructure is used to optimize the ionic conductivity of electrolytes and the End Of Life (EOL) of lithium‐ion coin cells by varying the electrolyte formulation. Trends in ionic conductivity are rediscovered and the effect of the electrolyte formulation on the EOL is investigated. Further, the capability of this MAP to bridge diverse research modalities, scales, and institutions enabling system‐level investigations under asynchronous conditions while handling concurrent workflows on the material‐ and system‐level is shown, demonstrating true intention‐agnosticism.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Unifying electrolyte formulation and electrode nanoconfinement design to enable new ion–solvent cointercalation chemistries",
+      "authors": [
+        "Haocheng Guo",
+        "Mennatalla Elmanzalawy",
+        "Prashanth Sivakumar",
+        "Simon Fleischmann"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Haocheng Guo",
+          "orcid": "0000-0001-9705-7254",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mennatalla Elmanzalawy",
+          "orcid": "0000-0002-5339-7115",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashanth Sivakumar",
+          "orcid": "0000-0003-0219-6628",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon Fleischmann",
+          "orcid": "0000-0001-9475-3692",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/d3ee04350a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3ee04350a",
+      "cited_by_count": 41,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/ee/d3ee04350a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Cointercalation reactions, of particular interest for emerging battery cell chemistries, are more effectively controlled when matching electrolyte formulation with nanoconfinement properties within the interlayer space of host materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "TO THE STUDY OF THERMAL CONDUCTIVITY IN SOLUTIONS OF INDIVIDUAL AND MIXED ELECTROLYTES",
+      "authors": [
+        "Boris B. Tanganov",
+        "И.А. Бубеева"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Boris B. Tanganov",
+          "orcid": null,
+          "affiliations": [
+            "East Siberia State University of Technology and Management"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "И.А. Бубеева",
+          "orcid": null,
+          "affiliations": [
+            "East Siberia State University of Technology and Management"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Research of the SCO Countries: Synergy and Integration",
+      "doi": "10.34660/inf.2020.26.58279",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.34660/inf.2020.26.58279",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.34660/inf.2020.26.58279",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "A theoretical model for estimating the thermal conductivity is presented as part of the plasma-hydrodynamic concept of aqueous electrolyte solutions. The presented model allows you to get the values of the thermal conductivity coefficient of individual electrolytes and their mixtures in a wide range of concentrations and temperatures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Correlation between Ionic Conductivity and Mechanical Properties of Solid-like PEO-based Polymer Electrolyte",
+      "authors": [
+        "Agathe Naboulsi",
+        "Ronan Chometon",
+        "Francois O. Ribot",
+        "Giao T. M. Nguyen",
+        "Odile Fichet",
+        "Christel Laberty‐Robert"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Agathe Naboulsi",
+          "orcid": "0000-0002-9068-4519",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Chimie de la Matière Condensée de Paris",
+            "CY Cergy Paris Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ronan Chometon",
+          "orcid": "0000-0001-9026-4082",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Collège de France",
+            "Sorbonne Université",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Chimie de la Matière Condensée de Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francois O. Ribot",
+          "orcid": "0000-0001-5576-7725",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Chimie de la Matière Condensée de Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giao T. M. Nguyen",
+          "orcid": "0000-0003-2097-7321",
+          "affiliations": [
+            "CY Cergy Paris Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Odile Fichet",
+          "orcid": "0000-0003-1519-1666",
+          "affiliations": [
+            "CY Cergy Paris Université"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christel Laberty‐Robert",
+          "orcid": "0000-0003-3230-3164",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Sorbonne Université",
+            "Réseau sur le Stockage Electrochimique de l'énergie",
+            "Chimie de la Matière Condensée de Paris"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Applied Materials & Interfaces",
+      "doi": "10.1021/acsami.3c19249",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsami.3c19249",
+      "cited_by_count": 49,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hal.science/hal-04699622v1/document",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Poly(ethylene glycol) methyl ether methacrylate polymer networks (PEO-based networks), with or without anionic bis(trifluoromethanesulfonyl)imide (TFSI)-grafted groups, are promising electrolytes for Li–metal all solid-state batteries. Nevertheless, there is a need to enhance our current understanding of the physicochemical characteristics of these polymer networks to meet the mechanical and ionic conductivity property requirements for Li battery electrolyte materials. To address this challenge, our goal is to investigate the impact of the cross-linking density of the PEO-based network and the ethylene oxide/lithium ratio on mechanical properties (such as glass transition temperature and storage modulus) and ionic conductivity. We have synthesized a series of cross-linked PEO-based polymers (si-SPE for single ion solid polymer electrolyte) via solvent-free radical copolymerization. These polymers are synthesized by using commercially available lithium 3-[(trifluoromethane)sulfonamidosulfonyl]propyl methacrylate (LiMTFSI), poly(ethylene glycol)methyl ether methacrylate (PEGM), and [poly(ethylene glycol) dimethacrylate] (PEGDM). In addition, we have synthesized a series of cross-linked PEO-based polymers (SPE for solid polymer electrolyte) using LiTFSI as the ionic species. Most of the resulting polymer films are amorphous, self-standing, flexible, homogeneous, and thermally stable. Interestingly, our research has revealed a correlation between ionic conductivity and mechanical properties in both the SPE and si-SPE series. Ionic conductivity increases as glass transition temperature, α relaxation temperature, and storage modulus decrease, suggesting that Li + transport is influenced by polymer chain flexibility and Li + /EO interaction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Frequency-dependent conductivity of concentrated electrolytes: A stochastic density functional theory",
+      "authors": [
+        "Haggai Bonneau",
+        "Yael Avni",
+        "David Andelman",
+        "Henri Orland"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Haggai Bonneau",
+          "orcid": "0000-0003-3049-5801",
+          "affiliations": [
+            "Tel Aviv University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yael Avni",
+          "orcid": "0000-0003-2418-6762",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Andelman",
+          "orcid": "0000-0003-3185-8475",
+          "affiliations": [
+            "Tel Aviv University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Henri Orland",
+          "orcid": "0000-0002-6983-2951",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "Université Paris-Saclay",
+            "CEA Paris-Saclay - Etablissement de Saclay",
+            "Institut de Physique Théorique"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0236073",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0236073",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0236073/20314900/244501_1_5.0236073.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The response of ionic solutions to time-varying electric fields, quantified by a frequency-dependent conductivity, is essential in many electrochemical applications. Yet, it constitutes a challenging problem due to the combined effect of Coulombic interactions, hydrodynamics, and thermal fluctuations. Here, we study the frequency-dependent conductivity of ionic solutions using a stochastic density functional theory. In the limit of small concentrations, we recover the classical Debye and Falkenhagen (DF) result, predicting an increase in conductivity with field frequency. At higher concentrations, we use a modified Coulomb interaction potential that accounts for the hard-core repulsion between the ions, which was recently employed in the zero-frequency case. Consequently, we extend the DF result to concentrated electrolytes. We discuss experimental and numerical studies and the complexity of observing the DF effect in such setups.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Conductivity experiments for electrolyte formulations and their automated analysis",
+      "authors": [
+        "Fuzhan Rahmanian",
+        "Monika Vogler",
+        "Christian Wölke",
+        "Peng Yan",
+        "Stefan Fuchs",
+        "Martin Winter",
+        "Isidora Cekić-Lasković",
+        "Helge Sören Stein"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Fuzhan Rahmanian",
+          "orcid": "0000-0003-3996-4213",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Monika Vogler",
+          "orcid": "0000-0001-8514-5601",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Wölke",
+          "orcid": "0000-0002-9401-1362",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peng Yan",
+          "orcid": "0000-0002-8932-9536",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefan Fuchs",
+          "orcid": "0000-0001-8121-426X",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Winter",
+          "orcid": "0000-0003-4176-5811",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "University of Münster",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isidora Cekić-Lasković",
+          "orcid": "0000-0003-1116-1574",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helge Sören Stein",
+          "orcid": "0000-0002-3461-0232",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-01936-3",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-01936-3",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-01936-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Electrolytes are considered crucial for the performance of batteries, and therefore indispensable for future energy storage research. This paper presents data that describes the effect of the electrolyte composition on the ionic conductivity. In particular, the data focuses on electrolytes composed of ethylene carbonate (EC), propylene carbonate (PC), ethyl methyl carbonate (EMC), and lithium hexafluorophosphate (LiPF6). The mass ratio of EC to PC was varied, while keeping the mass ratio of (EC + PC) and EMC at fixed values of 3:7 and 1:1. The conducting salt concentration was also varied during the study. Conductivity data was obtained from electrochemical impedance spectroscopy (EIS) measurements at various temperatures. Based on the thus obtained temperature series, the activation energy for ionic conduction was determined during the analysis. The data is presented here in a machine-readable format and includes a Python package for analyzing temperature series of electrolyte conductivity according to the Arrhenius equation and EIS data. The data may be useful e.g. for the training of machine learning models or for reference prior to experiments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Formulation Graphs for Mapping Structure-Composition of Battery Electrolytes to Device Performance",
+      "authors": [
+        "Vidushi Sharma",
+        "Maxwell J. Giammona",
+        "Dmitry Yu. Zubarev",
+        "Andy Tek",
+        "Khanh Nugyuen",
+        "Linda K. Sundberg",
+        "Daniele Congiu",
+        "Young‐Hye La"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Vidushi Sharma",
+          "orcid": "0000-0002-4576-4990",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxwell J. Giammona",
+          "orcid": "0000-0003-3667-9652",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dmitry Yu. Zubarev",
+          "orcid": "0000-0001-7961-3149",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andy Tek",
+          "orcid": "0000-0002-0699-8479",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khanh Nugyuen",
+          "orcid": null,
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linda K. Sundberg",
+          "orcid": null,
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniele Congiu",
+          "orcid": "0009-0006-4522-1677",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Young‐Hye La",
+          "orcid": "0000-0002-0192-1632",
+          "affiliations": [
+            "IBM Research - Almaden"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.3c01030",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jcim.3c01030",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.3c01030",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Advanced computational methods are being actively sought to address the challenges associated with the discovery and development of new combinatorial materials, such as formulations. A widely adopted approach involves domain-informed high-throughput screening of individual components that can be combined together to form a formulation. This manages to accelerate the discovery of new compounds for a target application but still leaves the process of identifying the right \"formulation\" from the shortlisted chemical space largely a laboratory experiment-driven process. We report a deep learning model, the Formulation Graph Convolution Network (F-GCN), that can map the structure-composition relationship of the formulation constituents to the property of liquid formulation as a whole. Multiple GCNs are assembled in parallel that featurize formulation constituents domain-intuitively on the fly. The resulting molecular descriptors are scaled based on the respective constituent's molar percentage in the formulation, followed by integration into a combined formulation descriptor that represents the complete formulation to an external learning architecture. The use case of the proposed formulation learning model is demonstrated for battery electrolytes by training and testing it on two exemplary data sets representing electrolyte formulations vs battery performance: one data set is sourced from the literature about Li/Cu half-cells, while the other is obtained by lab experiments related to lithium-iodide full-cell chemistry. The model is shown to predict performance metrics such as Coulombic efficiency (CE) and specific capacity of new electrolyte formulations with the lowest reported errors. The best-performing F-GCN model uses molecular descriptors derived from molecular graphs (GCNs) that are informed with HOMO-LUMO and electric moment properties of the molecules using a knowledge transfer technique.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Ionic conductivity of solid polymer electrolytes depending on elongation",
+      "authors": [
+        "Roselyne Jeanne-Brou",
+        "Nicolas Charvin",
+        "Gilles De Moor",
+        "Lionel Flandin",
+        "Sébastien Issa",
+        "Trang N. T. Phan",
+        "Renaud Bouchet",
+        "Didier Devaux"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Roselyne Jeanne-Brou",
+          "orcid": "0000-0001-9905-2174",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicolas Charvin",
+          "orcid": "0000-0003-2696-0993",
+          "affiliations": [
+            "Institut polytechnique de Grenoble",
+            "Centre National de la Recherche Scientifique",
+            "Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces",
+            "Université Savoie Mont Blanc"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gilles De Moor",
+          "orcid": "0000-0003-2713-5194",
+          "affiliations": [
+            "Institut polytechnique de Grenoble",
+            "Centre National de la Recherche Scientifique",
+            "Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces",
+            "Université Savoie Mont Blanc"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel Flandin",
+          "orcid": "0000-0003-3582-7705",
+          "affiliations": [
+            "Institut polytechnique de Grenoble",
+            "Centre National de la Recherche Scientifique",
+            "Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces",
+            "Université Savoie Mont Blanc"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sébastien Issa",
+          "orcid": null,
+          "affiliations": [
+            "Institut de Chimie Radicalaire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Trang N. T. Phan",
+          "orcid": "0000-0003-3214-2903",
+          "affiliations": [
+            "Institut de Chimie Radicalaire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Renaud Bouchet",
+          "orcid": "0000-0002-4040-2253",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Didier Devaux",
+          "orcid": "0000-0002-1964-0556",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Electrochimica Acta",
+      "doi": "10.1016/j.electacta.2023.143253",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.electacta.2023.143253",
+      "cited_by_count": 18,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.electacta.2023.143253",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Limiting Factors Affecting the Ionic Conductivities of LATP/Polymer Hybrid Electrolytes",
+      "authors": [
+        "Adrien Méry",
+        "Steeve Rousselot",
+        "David Lepage",
+        "David Aymé‐Perrot",
+        "Mickaël Dollé"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Adrien Méry",
+          "orcid": "0000-0001-7015-3684",
+          "affiliations": [
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Steeve Rousselot",
+          "orcid": null,
+          "affiliations": [
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Lepage",
+          "orcid": "0000-0002-5755-2514",
+          "affiliations": [
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Aymé‐Perrot",
+          "orcid": "0009-0007-5722-0310",
+          "affiliations": [
+            "Total (France)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mickaël Dollé",
+          "orcid": "0000-0002-8887-6730",
+          "affiliations": [
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Batteries",
+      "doi": "10.3390/batteries9020087",
+      "type": "article",
+      "url": "https://doi.org/10.3390/batteries9020087",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2313-0105/9/2/87/pdf?version=1674888728",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "All-Solid-State Lithium Batteries (ASSLB) are promising candidates for next generation lithium battery systems due to their increased safety, stability, and energy density. Ceramic and solid composite electrolytes (SCE), which consist of dispersed ceramic particles within a polymeric host, are among the preferred technologies for use as electrolytes in ASSLB systems. Synergetic effects between ceramic and polymer electrolyte components are usually reported in SCE. Herein, we report a case study on the lithium conductivity of ceramic and SCE comprised of Li1.4Al0.4Ti1.6(PO4)3 (LATP), a NASICON-type ceramic. An evaluation of the impact of the processing and sintering of the ceramic on the conductive properties of the electrolyte is addressed. The study is then extended to Poly(Ethylene) Oxide (PEO)-LATP SCE. The presence of the ceramic particles conferred limited benefits to the SCE. These findings somewhat contradict commonly held assumptions on the role of ceramic additives in SCE.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "A Structurally Flexible Halide Solid Electrolyte with High Ionic Conductivity and Air Processability",
+      "authors": [
+        "Guruprakash Karkera",
+        "Mervyn Soans",
+        "Ayça Akbaş",
+        "Raiker Witter",
+        "Holger Euchner",
+        "Thomas Diemant",
+        "Musa Ali Cambaz",
+        "Zhen Meng",
+        "Dasari Bosubabu",
+        "Shivaraju Guddehalli Chandrappa",
+        "Prashanth Wilfred Menezes",
+        "Maximilian Fichtner"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Guruprakash Karkera",
+          "orcid": "0000-0002-3826-7005",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mervyn Soans",
+          "orcid": "0000-0003-4212-950X",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ayça Akbaş",
+          "orcid": null,
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raiker Witter",
+          "orcid": "0000-0002-7085-2490",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Tallinn University of Technology",
+            "Universität Ulm",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Holger Euchner",
+          "orcid": "0000-0003-2287-6970",
+          "affiliations": [
+            "University of Tübingen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Diemant",
+          "orcid": "0000-0001-9701-9995",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Musa Ali Cambaz",
+          "orcid": "0000-0002-4249-3486",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhen Meng",
+          "orcid": "0000-0001-5756-9159",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dasari Bosubabu",
+          "orcid": "0000-0001-8816-2984",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shivaraju Guddehalli Chandrappa",
+          "orcid": "0000-0002-9001-5550",
+          "affiliations": [
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashanth Wilfred Menezes",
+          "orcid": "0000-0002-0665-7690",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "Technische Universität Berlin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maximilian Fichtner",
+          "orcid": "0000-0002-7127-1823",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.202300982",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.202300982",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202300982",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract In this work, a structurally revivable, chloride‐ion conducting solid electrolyte (SE), CsSn 0.9 In 0.067 Cl 3 , with a high ionic conductivity of 3.45 × 10 −4 S cm −1 at 25 °C is investigated. The impedance spectroscopy, density functional theory, solid‐state 35 Cl NMR, and electron paramagnetic resonance studies collectively reveal that the high Cl − ionic mobility originates in the flexibility of the structural building blocks, Sn/InCl 6 octahedra. The vacancy‐dominated Cl − ion diffusion encompasses co‐ordinated Sn/In(Cl) site displacements that depend on the exact stoichiometry, and are accompanied by changes in the local magnetic moments. Owing to these promising properties, the suitability of the CsSn 0.9 In 0.067 Cl 3 , as an electrolyte is demonstrated by designing all‐solid‐state batteries, with different anodes and cathodes. The comparative investigation of interphases with Li, Li–In, Mg, and Ca anodes reveals different levels of reactivity and interphase formation. The CsSn 0.9 In 0.067 Cl 3 demonstrates an excellent humidity tolerance (up to 50% relative humidity) in ambient air, maintaining high structural integrity without compromises in ionic conductivity, which stands in contrast to commercial halide‐based lithium conductors. The discovery of a halide perovskite conductor, with air processability and structure revival ability paves the way for the development of advanced air processable SEs, for next‐generation batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Dataset of 5035 Conductivity Experiments for Lithium-Ion Battery Electrolyte Formulations at Various Temperatures",
+      "authors": [
+        "Fuzhan Rahmanian",
+        "Monika Vogler",
+        "Christian Wölke",
+        "Peng Yan",
+        "Stefan Fuchs",
+        "Martin Winter",
+        "Isidora Cekić-Lasković",
+        "Helge Sören Stein"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Fuzhan Rahmanian",
+          "orcid": "0000-0003-3996-4213",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Monika Vogler",
+          "orcid": "0000-0001-8514-5601",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Wölke",
+          "orcid": "0000-0002-9401-1362",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peng Yan",
+          "orcid": "0000-0002-8932-9536",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefan Fuchs",
+          "orcid": "0000-0001-8121-426X",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Winter",
+          "orcid": "0000-0003-4176-5811",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isidora Cekić-Lasković",
+          "orcid": "0000-0003-1116-1574",
+          "affiliations": [
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helge Sören Stein",
+          "orcid": "0000-0002-3461-0232",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.7244938",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.7244938",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://zenodo.org/record/7244939",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Dataset containing 5035 Conductivity Experiments for Lithium-Ion Battery Electrolyte Formulations at Various Temperatures which is accopaning the data descriptor publication titled \"5035 Conductivity Experiments for Lithium-Ion Battery Electrolyte Formulations at Various Temperatures and their Automated Analysis\" by the same authors.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Data‐Driven Analysis of High‐Throughput Experiments on Liquid Battery Electrolyte Formulations: Unraveling the Impact of Composition on Conductivity**",
+      "authors": [
+        "Anand Narayanan Krishnamoorthy",
+        "Christian Wölke",
+        "Diddo Diddens",
+        "Moumita Maiti",
+        "Youssef Mabrouk",
+        "Peng Yan",
+        "Mariano Grünebaum",
+        "Martin Winter",
+        "Andreas Heuer",
+        "Isidora Cekić-Lasković"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Anand Narayanan Krishnamoorthy",
+          "orcid": "0000-0002-1584-7146",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Wölke",
+          "orcid": "0000-0002-9401-1362",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Diddo Diddens",
+          "orcid": "0000-0002-2137-1332",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Moumita Maiti",
+          "orcid": null,
+          "affiliations": [
+            "University of Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Youssef Mabrouk",
+          "orcid": "0000-0001-9407-2782",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peng Yan",
+          "orcid": "0000-0002-8932-9536",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mariano Grünebaum",
+          "orcid": "0000-0002-0884-7690",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Winter",
+          "orcid": "0000-0003-4176-5811",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "University of Münster",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreas Heuer",
+          "orcid": "0000-0003-2592-0287",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "University of Münster",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isidora Cekić-Lasković",
+          "orcid": "0000-0003-1116-1574",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry - Methods",
+      "doi": "10.1002/cmtd.202200008",
+      "type": "article",
+      "url": "https://doi.org/10.1002/cmtd.202200008",
+      "cited_by_count": 30,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1002/cmtd.202200008",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract A specially designed high‐throughput experimentation facility, used for the highly effective exploration of electrolyte formulations in composition space for diverse battery chemistries and targeted applications, is presented. It follows a high‐throughput formulation‐characterization‐optimization chain based on a set of previously established electrolyte‐related requirements. Here, the facility is used to acquire large dataset of ionic conductivities of non‐aqueous battery electrolytes in the conducting salt‐solvent/co‐solvent‐additive composition space. The measured temperature dependence is mapped on three generalized Arrhenius parameters, including deviations from simple activated dynamics. This reduced dataset is thereafter analyzed by a scalable data‐driven workflow, based on linear and Gaussian process regression, providing detailed information about the compositional dependence of the conductivity. Complete insensitivity to the addition of electrolyte additives for otherwise constant molar composition is observed. Quantitative dependencies, for example, on the temperature‐dependent conducting salt content for optimum conductivity are provided and discussed in light of physical properties such as viscosity and ion association effects.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Electrolyte formulation strategies for potassium‐based batteries",
+      "authors": [
+        "Ling Ni",
+        "Gaojie J. Xu",
+        "Chuanchuan Li",
+        "Guanglei Cui"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ling Ni",
+          "orcid": "0000-0003-1569-882X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gaojie J. Xu",
+          "orcid": "0000-0001-8810-7061",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chuanchuan Li",
+          "orcid": "0000-0001-5891-6335",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guanglei Cui",
+          "orcid": "0000-0001-5987-7569",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Exploration",
+      "doi": "10.1002/exp.20210239",
+      "type": "review",
+      "url": "https://doi.org/10.1002/exp.20210239",
+      "cited_by_count": 65,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/EXP.20210239",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Potassium (K)‐based batteries are viewed as the most promising alternatives to lithium‐based batteries, owing to their abundant potassium resource, lower redox potentials (−2.97 V vs. SHE), and low cost. Recently, significant achievements on electrode materials have boosted the development of potassium‐based batteries. However, the poor interfacial compatibility between electrode and electrolyte hinders their practical. Hence, rational design of electrolyte/electrode interface by electrolytes is the key to develop K‐based batteries. In this review, the principles for formulating organic electrolytes are comprehensively summarized. Then, recent progress of various liquid organic and solid‐state K+ electrolytes for potassium‐ion batteries and beyond are discussed. Finally, we offer the current challenges that need to be addressed for advanced K‐based batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "3D Printing Nanostructured Solid Polymer Electrolytes with High Modulus and Conductivity",
+      "authors": [
+        "Kenny Lee",
+        "Yuan Shang",
+        "Valentin A. Bobrin",
+        "Rhiannon P. Kuchel",
+        "Dipan Kumar Kundu",
+        "Nathaniel Alan Corrigan",
+        "Cyrille Andre Boyer"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Kenny Lee",
+          "orcid": null,
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuan Shang",
+          "orcid": "0000-0002-5825-6709",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Valentin A. Bobrin",
+          "orcid": "0000-0002-6619-5328",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rhiannon P. Kuchel",
+          "orcid": "0000-0001-7968-3796",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dipan Kumar Kundu",
+          "orcid": "0000-0001-5244-9836",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nathaniel Alan Corrigan",
+          "orcid": "0000-0001-7876-1908",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cyrille Andre Boyer",
+          "orcid": "0000-0002-4564-4702",
+          "affiliations": [
+            "UNSW Sydney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.202204816",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.202204816",
+      "cited_by_count": 119,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202204816",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of advanced solid‐state energy‐storage devices is contingent upon finding new ways to produce and manufacture scalable, high‐modulus solid‐state electrolytes that can simultaneously provide high ionic conductivity and robust mechanical integrity. In this work, an efficient one‐step process to manufacture solid polymer electrolytes composed of nanoscale ion‐conducting channels embedded in a rigid crosslinked polymer matrix via Digital Light Processing 3D printing is reported. A visible‐light‐mediated polymerization‐induced microphase‐separation approach is utilized, which produces materials with two chemically independent nanoscale domains with highly tunable nanoarchitectures. By producing materials containing a poly(ethylene oxide) domain swelled with an ionic liquid, robust solid polymer electrolytes with outstanding room‐temperature (22 °C) shear modulus ( G ’ > 10 8 Pa) and ionic conductivities up to σ = 3 × 10 −4 S cm −1 are achieved. The nanostructured 3D‐printed electrolytes are fabricated into a custom geometry and employed in a symmetric carbon supercapacitor, demonstrating the scalability of the fabrication and the functionality of the electrolyte. Critically, these high‐performance materials are manufactured on demand using inexpensive and commercially available 3D printers, which allows the facile modular design of solid polymer electrolytes with custom geometries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "One‐Shot Active Learning for Globally Optimal Battery Electrolyte Conductivity**",
+      "authors": [
+        "Fuzhan Rahmanian",
+        "Monika Vogler",
+        "Christian Wölke",
+        "Peng Yan",
+        "Martin Winter",
+        "Isidora Cekić-Lasković",
+        "Helge Sören Stein"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Fuzhan Rahmanian",
+          "orcid": "0000-0003-3996-4213",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Monika Vogler",
+          "orcid": "0000-0001-8514-5601",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Wölke",
+          "orcid": "0000-0002-9401-1362",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peng Yan",
+          "orcid": "0000-0002-8932-9536",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Winter",
+          "orcid": "0000-0003-4176-5811",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "University of Münster",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isidora Cekić-Lasković",
+          "orcid": "0000-0003-1116-1574",
+          "affiliations": [
+            "Forschungszentrum Jülich",
+            "Helmholtz-Institute Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Helge Sören Stein",
+          "orcid": "0000-0002-3461-0232",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Batteries & Supercaps",
+      "doi": "10.1002/batt.202200228",
+      "type": "article",
+      "url": "https://doi.org/10.1002/batt.202200228",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/batt.202200228",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Non‐aqueous aprotic battery electrolytes need to perform well over a wide range of temperatures in practical applications. Herein we present a one‐shot active learning study to find all conductivity optima, confidence bounds, and relating formulation trends in the temperature range from −30 °C to 60 °C. This optimization is enabled by a high‐throughput formulation and characterization setup guided by one‐shot active learning utilizing robust and heavily regularized polynomial regression. Whilst there is an initially good agreement for intermediate and low temperatures, there is a need for the active learning step to improve the model for high temperatures. Optimized electrolyte formulations likely correspond to the highest physically possible conductivities within this formulation system when compared to literature data. A thorough error propagation analysis yields a fidelity assessment of conductivity measurements and electrolyte formulation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "High Conductivity in a Fluorine-Free K-Ion Polymer Electrolyte",
+      "authors": [
+        "Mennatalla Elmanzalawy",
+        "Elena Sánchez‐Ahijón",
+        "Özden Kısacık",
+        "Javier Carretero‐González",
+        "Elizabeth Castillo‐Martínez"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Mennatalla Elmanzalawy",
+          "orcid": "0000-0002-5339-7115",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Instituto de Ciencia y Tecnología de Polímeros"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elena Sánchez‐Ahijón",
+          "orcid": "0000-0003-1093-1610",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Özden Kısacık",
+          "orcid": null,
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Instituto de Ciencia y Tecnología de Polímeros"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Javier Carretero‐González",
+          "orcid": "0000-0002-8008-5715",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Instituto de Ciencia y Tecnología de Polímeros"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elizabeth Castillo‐Martínez",
+          "orcid": "0000-0002-8577-9572",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Applied Energy Materials",
+      "doi": "10.1021/acsaem.2c01485",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsaem.2c01485",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsaem.2c01485",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Solid polymer electrolytes (SPEs) could play a major role in the transition to safer and high-energy-density potassium-based batteries. However, most polymeric K-ion electrolytes are based on fluorine-containing anions and flammable organic solvents, whose safety is nowadays in question. Herein, we report a facile solvent-free synthesis of a series of several poly(ethylene oxide) (PEO)-based SPE solid solutions with KBPh 4 salt as potassium-ion source, including the formation of two crystalline (PEO) n /KBPh 4 complexes. The ionic conductivity of these novel K-ion SPEs above and below the melting point of PEO is rationalized in light of their glass-transition temperature and chemical composition. We highlight that below the melting point of PEO, the crystalline complexes may not be intrinsically ionically conducting, but they act as ion sinks preventing the polymer cross-linking and the formation of contact ion pairs and lower the glass-transition temperature leading to a conductivity of 1.1 × 10 –4 S cm –1 at 55 °C. A high ionic conductivity of 1.8 × 10 –3 S cm –1 is achieved at 80 °C for the optimum (PEO) 30 /KBPh 4 composition (3.2 mol % KBPh 4 ). Besides, the SPE compositions were found to be stable up to 4 V vs K 0 metal electrode at 60 °C. The (PEO) 30 /KBPh 4 composite electrolyte employed in an all-solid-state symmetric cell with Prussian Blue electrodes showed reversible K + -ion (de)intercalation, where a reversible capacity of 20 mAh g –1 and low voltage hysteresis were achieved for 20 cycles. Considering the material availability, ease of synthesis, and promising electrochemical properties, this work may encourage future research on fluorine-free polymer electrolytes for K-ion batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Strain Sensitivity of Li -ion Conductivity inβ- Li3PS4 Solid Electrolyte",
+      "authors": [
+        "Pjotrs Žguns",
+        "Bilge Yildiz"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Pjotrs Žguns",
+          "orcid": "0000-0002-3387-2919",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bilge Yildiz",
+          "orcid": "0000-0002-2688-5666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "PRX Energy",
+      "doi": "10.1103/prxenergy.1.023003",
+      "type": "article",
+      "url": "https://doi.org/10.1103/prxenergy.1.023003",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "http://link.aps.org/pdf/10.1103/PRXEnergy.1.023003",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A computational study explores the impact of elastic strain on the ionic conductivity of a solid electrolyte, finding that strain engineering may hold promise for the optimization of solid-state batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Dielectric Characteristics, Electrical Conductivity and Solvation of Ions in Electrolyte Solutions",
+      "authors": [
+        "Vladimir V. Shcherbakov",
+        "Yuliya M. Artemkina",
+        "Irina A. Akimova",
+        "Артемкина Ирина Михайловна"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Vladimir V. Shcherbakov",
+          "orcid": "0000-0002-6690-1966",
+          "affiliations": [
+            "D. Mendeleyev University of Chemical Technology of Russia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuliya M. Artemkina",
+          "orcid": null,
+          "affiliations": [
+            "D. Mendeleyev University of Chemical Technology of Russia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Irina A. Akimova",
+          "orcid": null,
+          "affiliations": [
+            "D. Mendeleyev University of Chemical Technology of Russia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Артемкина Ирина Михайловна",
+          "orcid": null,
+          "affiliations": [
+            "D. Mendeleyev University of Chemical Technology of Russia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma14195617",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma14195617",
+      "cited_by_count": 72,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/14/19/5617/pdf?version=1633005731",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solvation and association of ions in solutions largely depend on the dielectric properties of the solvent, the distance between ions in solutions, and temperature. This paper considers the effect of temperature on static dielectric constant (DC), dipole dielectric relaxation (DR) time, and limiting (ultimate) high frequency (HF) electrical conductivity (EC) of water and some polar solvents. In the investigated temperature range (0-370 °C), the static DC and DR time of water decrease, and limiting HF EC passes through a maximum at 250-300 °C with temperature growth. The dielectric characteristics of methanol, ethanol, and propanol behave in a similar way. It is shown that the existence of an HF EC temperature maximum is due to the different nature of the temperature dependences of DC and DR time. It is suggested that the same dependences are responsible for the presence of a maximum in the temperature dependences of the dissociation degree and the ionic product of water. The influence of non-electrolytes concentration as well as metal salts on the dielectric properties of their aqueous solutions is considered. The limiting HF EC of water determines the specific EC value of aqueous electrolyte solutions. Analysis of the absorption of microwave energy by polar solvents, as well as aqueous solutions of non-electrolytes and electrolytes, at a frequency of 2455 MHz is carried out. The optimal conditions for high-frequency heating of solutions have been established. The distance between ions in aqueous solutions of inorganic salts and in non-aqueous solutions of ionic liquids is calculated. It is shown that the maximum on the concentration dependence of the specific EC can be related to ions association.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Single-ion polymer/LLZO hybrid electrolytes with high lithium conductivity",
+      "authors": [
+        "Marine Lechartier",
+        "Luca Porcarelli",
+        "Haijin Zhu",
+        "Maria Forsyth",
+        "Aurelie Gueguen",
+        "Laurent Castro",
+        "David Mecerreyes"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Marine Lechartier",
+          "orcid": "0000-0002-0265-8354",
+          "affiliations": [
+            "University of the Basque Country",
+            "Polymat",
+            "Toyota Motor Corporation (Belgium)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luca Porcarelli",
+          "orcid": "0000-0002-1624-382X",
+          "affiliations": [
+            "Deakin University",
+            "University of the Basque Country",
+            "Polymat",
+            "ARC Centre of Excellence for Electromaterials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haijin Zhu",
+          "orcid": "0000-0001-6352-7633",
+          "affiliations": [
+            "Deakin University",
+            "ARC Centre of Excellence for Electromaterials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria Forsyth",
+          "orcid": "0000-0002-4273-8105",
+          "affiliations": [
+            "Ikerbasque",
+            "Deakin University",
+            "University of the Basque Country",
+            "Polymat",
+            "ARC Centre of Excellence for Electromaterials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aurelie Gueguen",
+          "orcid": "0000-0002-9166-2514",
+          "affiliations": [
+            "Toyota Motor Corporation (Belgium)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Laurent Castro",
+          "orcid": "0000-0001-9530-432X",
+          "affiliations": [
+            "Toyota Motor Corporation (Belgium)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Mecerreyes",
+          "orcid": "0000-0002-0788-7156",
+          "affiliations": [
+            "Ikerbasque",
+            "Deakin University",
+            "ARC Centre of Excellence for Electromaterials Science"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Advances",
+      "doi": "10.1039/d1ma00857a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d1ma00857a",
+      "cited_by_count": 35,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2022/ma/d1ma00857a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A hybrid solid electrolyte prepared by fast UV-photopolymerization of a single-ion polymer network and ceramic garnet LLZO nanoparticles with very high lithium conductivity is reported.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Microstructural impacts on ionic conductivity of oxide solid electrolytes from a combined atomistic-mesoscale approach",
+      "authors": [
+        "Tae Wook Heo",
+        "Andrew Grieder",
+        "Bo Wang",
+        "Marissa Wood",
+        "Tim Hsu",
+        "Sneha A. Akhade",
+        "Liwen F. Wan",
+        "Long‐Qing Chen",
+        "Nicole Adelstein",
+        "Brandon C. Wood"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Tae Wook Heo",
+          "orcid": "0000-0002-0765-3480",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Grieder",
+          "orcid": "0000-0003-4952-7279",
+          "affiliations": [
+            "San Francisco State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bo Wang",
+          "orcid": "0000-0003-3146-5559",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marissa Wood",
+          "orcid": "0000-0002-8805-7559",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tim Hsu",
+          "orcid": "0000-0003-0274-4444",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sneha A. Akhade",
+          "orcid": "0000-0003-0024-2299",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liwen F. Wan",
+          "orcid": "0000-0002-5391-0804",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Long‐Qing Chen",
+          "orcid": "0000-0003-3359-3781",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicole Adelstein",
+          "orcid": "0000-0002-7491-9592",
+          "affiliations": [
+            "San Francisco State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brandon C. Wood",
+          "orcid": "0000-0002-1450-9719",
+          "affiliations": [
+            "Lawrence Livermore National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00681-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00681-8",
+      "cited_by_count": 64,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00681-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Although multiple oxide-based solid electrolyte materials with intrinsically high ionic conductivities have emerged, practical processing and synthesis routes introduce grain boundaries and other interfaces that can perturb primary conduction channels. To directly probe these effects, we demonstrate an efficient and general mesoscopic computational method capable of predicting effective ionic conductivity through a complex polycrystalline oxide-based solid electrolyte microstructure without relying on simplified equivalent circuit description. We parameterize the framework for Li7-xLa3Zr2O12 (LLZO) garnet solid electrolyte by combining synthetic microstructures from phase-field simulations with diffusivities from molecular dynamics simulations of ordered and disordered systems. Systematically designed simulations reveal an interdependence between atomistic and mesoscopic microstructural impacts on the effective ionic conductivity of polycrystalline LLZO, quantified by newly defined metrics that characterize the complex ionic transport mechanism. Our results provide fundamental understanding of the physical origins of the reported variability in ionic conductivities based on an extensive analysis of literature data, while simultaneously outlining practical design guidance for achieving desired ionic transport properties based on conditions for which sensitivity to microstructural features is highest. Additional implications of our results are discussed, including a possible connection between ion conduction behavior and dendrite formation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Silica gel solid nanocomposite electrolytes with interfacial conductivity promotion exceeding the bulk Li-ion conductivity of the ionic liquid electrolyte filler",
+      "authors": [
+        "Xubin Chen",
+        "Brecht Put",
+        "A. Sagara",
+        "Knut Bjarne Gandrud",
+        "Mitsuhiro Murata",
+        "Julian A. Steele",
+        "Hiroki Yabe",
+        "Thomas Hantschel",
+        "Maarten B. J. Roeffaers",
+        "Morio Tomiyama",
+        "Hidekazu Arase",
+        "Yukihiro Kaneko",
+        "Mikinari Shimada",
+        "Maarten J. Mees",
+        "Philippe M. Vereecken"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Xubin Chen",
+          "orcid": "0000-0001-6223-8856",
+          "affiliations": [
+            "IMEC",
+            "KU Leuven"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brecht Put",
+          "orcid": "0000-0002-1031-0083",
+          "affiliations": [
+            "IMEC"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Sagara",
+          "orcid": "0000-0003-2517-5205",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Knut Bjarne Gandrud",
+          "orcid": null,
+          "affiliations": [
+            "IMEC"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitsuhiro Murata",
+          "orcid": "0000-0001-7838-601X",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julian A. Steele",
+          "orcid": "0000-0001-7982-4413",
+          "affiliations": [
+            "KU Leuven"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroki Yabe",
+          "orcid": "0000-0003-0992-9070",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Hantschel",
+          "orcid": "0000-0001-9476-4084",
+          "affiliations": [
+            "IMEC"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maarten B. J. Roeffaers",
+          "orcid": "0000-0001-6582-6514",
+          "affiliations": [
+            "KU Leuven"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Morio Tomiyama",
+          "orcid": "0000-0002-2067-2205",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hidekazu Arase",
+          "orcid": "0000-0001-9700-0717",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yukihiro Kaneko",
+          "orcid": "0000-0003-0000-5840",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikinari Shimada",
+          "orcid": "0000-0002-5503-9012",
+          "affiliations": [
+            "Panasonic (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maarten J. Mees",
+          "orcid": "0000-0001-7217-5510",
+          "affiliations": [
+            "IMEC"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Philippe M. Vereecken",
+          "orcid": "0000-0003-4115-0075",
+          "affiliations": [
+            "IMEC",
+            "KU Leuven"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.aav3400",
+      "type": "article",
+      "url": "https://doi.org/10.1126/sciadv.aav3400",
+      "cited_by_count": 84,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://advances.sciencemag.org/content/advances/6/2/eaav3400.full.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "ions for enhanced conduction. The demonstrated principle of ion conduction enhancement can be applied to different ion systems.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Autonomous Discovery of Battery Electrolytes with Robotic Experimentation and Machine Learning",
+      "authors": [
+        "Adarsh Dave",
+        "Jared Mitchell",
+        "Kirthevasan Kandasamy",
+        "Han Wang",
+        "Sven Anders Burke",
+        "Biswajit Paria",
+        "Barnabás Póczos",
+        "Jay F. Whitacre",
+        "Venkatasubramanian Viswanathan"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Adarsh Dave",
+          "orcid": "0000-0002-8716-0941",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jared Mitchell",
+          "orcid": null,
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kirthevasan Kandasamy",
+          "orcid": "0000-0002-4721-5012",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Han Wang",
+          "orcid": "0000-0002-2421-5917",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sven Anders Burke",
+          "orcid": "0000-0003-3124-5361",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Biswajit Paria",
+          "orcid": null,
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Barnabás Póczos",
+          "orcid": "0000-0002-2898-4705",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jay F. Whitacre",
+          "orcid": "0000-0002-3439-4111",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Venkatasubramanian Viswanathan",
+          "orcid": "0000-0003-1060-5495",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Cell Reports Physical Science",
+      "doi": "10.1016/j.xcrp.2020.100264",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.xcrp.2020.100264",
+      "cited_by_count": 190,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666386420302861/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Innovations in batteries take years to formulate, requiring extensive experimentation during the design and optimization phases. We approach the design of a battery electrolyte as a black-box optimization problem. We report here the discovery of a novel battery electrolyte by a robotic electrolyte experiment guided by machine-learning software. Motivated by the recent trend toward super-concentrated aqueous electrolytes for high-performance batteries, we utilize Dragonfly - a Bayesian machine-learning software package - to search mixtures of commonly used lithium and sodium salts for super-concentrated aqueous electrolytes with wide electrochemical stability windows. Dragonfly autonomously managed the robotic test-stand, recommending electrolyte designs to test and receiving experimental feed- back in real time. Within 40 hours of continuous experimentation, Dragonfly discovered a novel, high-performing aqueous sodium electrolyte that a human-guided design process may have missed. This result demonstrates the possibility of integrating robotics with machine-learning to rapidly and autonomously discover novel battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Effects of solvent formulations in electrolytes on fast charging of Li-ion cells",
+      "authors": [
+        "Xianyang Wu",
+        "Tianyi Liu",
+        "Yaocai Bai",
+        "Xu Feng",
+        "Muhammad Mominur Rahman",
+        "Cheng‐Jun Sun",
+        "Feng Lin",
+        "Kejie Zhao",
+        "Zhijia Du"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Xianyang Wu",
+          "orcid": null,
+          "affiliations": [
+            "Oak Ridge National Laboratory",
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tianyi Liu",
+          "orcid": "0000-0002-1647-8813",
+          "affiliations": [
+            "Oak Ridge National Laboratory",
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yaocai Bai",
+          "orcid": "0000-0003-3700-2520",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xu Feng",
+          "orcid": "0000-0003-1945-1605",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muhammad Mominur Rahman",
+          "orcid": "0000-0001-6814-456X",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheng‐Jun Sun",
+          "orcid": "0000-0001-9158-8337",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Feng Lin",
+          "orcid": "0000-0002-3729-3148",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kejie Zhao",
+          "orcid": "0000-0001-5030-7412",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhijia Du",
+          "orcid": "0000-0002-5178-0487",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Electrochimica Acta",
+      "doi": "10.1016/j.electacta.2020.136453",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.electacta.2020.136453",
+      "cited_by_count": 42,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.electacta.2020.136453",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Electrical Conductivity of Molten Salts and Ionic Conduction in Electrolyte Solutions",
+      "authors": [
+        "Shigeru Tamaki",
+        "Shigeki Matsunaga",
+        "Masanobu Kusakabe"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Shigeru Tamaki",
+          "orcid": null,
+          "affiliations": [
+            "Niigata University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shigeki Matsunaga",
+          "orcid": "0000-0001-9849-1589",
+          "affiliations": [
+            "Nagaoka National College of Technology",
+            "National Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masanobu Kusakabe",
+          "orcid": null,
+          "affiliations": [
+            "Niigata Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "IntechOpen eBooks",
+      "doi": "10.5772/intechopen.91369",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.5772/intechopen.91369",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.intechopen.com/citation-pdf-url/71299",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A microscopic description for the partial DC conductivities in molten salts has been discussed by using a Langevin equation for the constituent ions. The memory function γ(t) can be written as in the form of a decaying function with time. In order to solve the mutual relation between the combined-velocity correlation functions Zσ±(t) and the memory function γ(t) in a short time region, a new recursion method is proposed. Practical application is carried out for molten NaCl by using MD simulation. The fitted function is described by three kinds of Gaussian functions and their physical backgrounds are discussed. Also the electrical conductivity in aqueous solution of electrolyte has been obtained, based on a generalized Langevin equation for cation and anion in it. This treatment can connect and compare with the work of computer simulation. The obtained results for concentration dependence of electrical conductivity are given by a function of the square root of concentration. The electrophoretic effect and the relaxation one are also discussed.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Ionic conductivity enhancement in solid polymer electrolytes by electrochemical in situ formation of an interpenetrating network",
+      "authors": [
+        "Kristian Leš",
+        "Carmen‐Simona Jordan"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Kristian Leš",
+          "orcid": "0000-0003-2713-2989",
+          "affiliations": [
+            "Hochschule Osnabrück"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carmen‐Simona Jordan",
+          "orcid": "0000-0002-4354-4484",
+          "affiliations": [
+            "Hochschule Osnabrück"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "RSC Advances",
+      "doi": "10.1039/d0ra07966a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d0ra07966a",
+      "cited_by_count": 34,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2020/ra/d0ra07966a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "procedure. The aim was to extend and improve fundamental properties of pure SPE materials. The polymer matrix is based on the cross-linking of glycerol propoxylate (1PO/OH) triacrylate (GPTA) with poly(ethylene glycol) diacrylate (PEGDA) and lithium bis(trifluoromethanesulfonyl)imide (LiTFSI) as a conducting salt. A self-standing and flexible polymer electrolyte film is formed during the UV-induced photopolymerization of the acrylate precursors, followed by an electrochemical polymerization of the conducting polymers to form a 3D-IPN. The electrical conductivity of the conducting polymer is destroyed by electrochemical overoxidation in order to convert the conducting polymer into an ion-exchange membrane by introduction of electron-rich groups onto polymer units. The resulting polymer films were characterized by scanning electron microscopy, cyclic voltammetry, electrochemical impedance spectroscopy, differential scanning calorimetry, thermal analysis and infrared spectroscopy. The results of this study show that the combination of a polyacrylate-matrix with ion selective properties of overoxidized CPs leads to new 3D materials with higher ionic conductivity than SPEs and separator or selective ion-exchange membrane properties with good stability by facile fabrication.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Synthesis, characterization, and ionic conductivity of electrospun organic–inorganic hybrid gel electrolytes",
+      "authors": [
+        "Emre Aytan",
+        "Mustafa Hulusi Uğur",
+        "Nilhan Kayaman Apohan"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Emre Aytan",
+          "orcid": null,
+          "affiliations": [
+            "Marmara University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mustafa Hulusi Uğur",
+          "orcid": "0000-0002-1947-6821",
+          "affiliations": [
+            "Marmara University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nilhan Kayaman Apohan",
+          "orcid": "0000-0002-7750-3058",
+          "affiliations": [
+            "Marmara University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Polymer Engineering and Science",
+      "doi": "10.1002/pen.25320",
+      "type": "article",
+      "url": "https://doi.org/10.1002/pen.25320",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "In this work, we described the synthesis of organic–inorganic hybrid gel electrolytes combining electrospinning, sol–gel, and ultraviolet (UV) curing techniques in order to investigate their ionic conductivity properties. First, 3‐glycidyloxypropyl trimethoxysilane modified polyamic acid and alkoxysilane functional poly(dimethyl siloxane) were electrospun together. Then, the following thermal imidization, the obtained fiber was cured in the UV curable gel formulation. To improve the interaction between fiber and gel matrix, 3‐(trimethoxysilyl)propyl methacrylate was partly hydrolyzed and then used as a bifunctional crosslinker. Finally, the membrane was soaked into 0.5 M LiFP6 salt solution to obtain organic–inorganic hybrid gel electrolytes. The chemical structure, ionic conductivity, and range of electrochemical stability window of the photocured nanocomposite electrolytes were investigated by using FTIR, thermogravimetric analysis, differential scanning calorimetry, electrochemical impedance spectroscopy, linear sweep voltammetry, and SEM analysis. The acquired results from experiments indicate that a convenient nanocomposite electrolyte for lithium‐ion batteries with high electrolyte (Li salt) uptake, adequate conductivity (1.02 × 10−3 S cm−1) at ambient temperature and electrochemically stable between 1 and 6 V had been prepared. POLYM. ENG. SCI., 60:619–629, 2020. © 2019 Society of Plastics Engineers",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "A theoretical study on resistance of electrolytic solution: Measurement of electrolytic conductivity",
+      "authors": [
+        "Liyue Su",
+        "Xiaodong Liao",
+        "Zheng Huang"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Liyue Su",
+          "orcid": null,
+          "affiliations": [
+            "Fujian Normal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaodong Liao",
+          "orcid": null,
+          "affiliations": [
+            "Fujian Normal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zheng Huang",
+          "orcid": null,
+          "affiliations": [
+            "Fujian Normal University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Results in Physics",
+      "doi": "10.1016/j.rinp.2019.102274",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.rinp.2019.102274",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2211379718324057/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "We propose a theoretical approach to determine the conductivity of electrolytic solution using sine waveform voltage as a triggering signal. The approach is based on the acquisition of the complex impedance in two-electrode conductance cell by analyzing the equivalent circuit. We deduce the formula of resistance in electrolytic solution by doing a series of calculations in transformation, simplification, and replacement for the complex impedance and solving the quadratic equation with unknown solution resistance. Even though there exists electrode polarization or the distributed capacitance which may affect the measurement, we can still obtain the electrolytic conductivity. In this paper, we focus on deducing the expression for the value of resistance in electrolytic solution. To our knowledge, this is the first report on directly deducing the resistance’s value. In particular, the extent of the electrode polarization is also analyzed and mathematically formulated. The experimental results show that the method proposed in this paper can achieve high precision.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Benchmarking Conductivity Predictions of the Advanced Electrolyte Model (AEM) for Aqueous Systems",
+      "authors": [
+        "Adarsh Dave",
+        "Kevin L. Gering",
+        "Jared Mitchell",
+        "Jay F. Whitacre",
+        "Venkatasubramanian Viswanathan"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Adarsh Dave",
+          "orcid": "0000-0002-8716-0941",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kevin L. Gering",
+          "orcid": "0000-0002-2821-4057",
+          "affiliations": [
+            "Idaho National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jared Mitchell",
+          "orcid": null,
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jay F. Whitacre",
+          "orcid": "0000-0002-3439-4111",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Venkatasubramanian Viswanathan",
+          "orcid": "0000-0003-1060-5495",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Electrochemical Society",
+      "doi": "10.1149/2.0142001jes",
+      "type": "article",
+      "url": "https://doi.org/10.1149/2.0142001jes",
+      "cited_by_count": 23,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1149/2.0142001JES/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-concentration aqueous electrolytes have shown promise as candidates for a safer battery system. Ionic conductivity is a key property required in high performing electrolytes; the Advanced Electrolyte Model (AEM) has previously shown great accuracy in predicting ionic conductivity in highly-concentrated non-aqueous electrolytes. This work provides extensive experimental data for mixed and highly concentrated aqueous electrolyte systems, rapidly generated via a robotic electrolyte testing apparatus. These data demonstrate exceptional accuracy from AEM in predicting conductivity in aqueous systems, with the accuracy being maintained even in highly-concentrated and mixed-salt regimes. Sensitivity of the model to choice of a key solvation parameter, reference ligand-ion length, is explored. Walden analysis using transport properties predicted by the model for aqueous salts and mixed salt systems is also included, as well as predictions of cation transference number for salts and mixed salts. These predictions are explained in terms of AEM's underlying chemical physics modeling.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Approaches to Complex Electrolyte Formulation Optimization",
+      "authors": [
+        "Gang Cheng",
+        "Ye Chao Zhu",
+        "Dee Strand"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Gang Cheng",
+          "orcid": "0000-0003-3658-2076",
+          "affiliations": [
+            "Wildcat Discovery Technologies (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ye Chao Zhu",
+          "orcid": "0000-0003-3918-3628",
+          "affiliations": [
+            "Wildcat Discovery Technologies (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dee Strand",
+          "orcid": null,
+          "affiliations": [
+            "Wildcat Discovery Technologies (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ECS Meeting Abstracts",
+      "doi": "10.1149/ma2018-01/3/571",
+      "type": "conference-abstract",
+      "url": "https://doi.org/10.1149/ma2018-01/3/571",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium ion battery electrolytes are complex formulations of solvents, salts, and additives. Each component can contribute to the battery performance in a unique way. For example, high dielectric constant solvents are necessary to dissolve the lithium salt, but are high viscosity. Therefore, low viscosity solvents are required to reduce the bulk electrolyte viscosity. Salt type and concentration can affect properties such as conductivity and thermal stability. Finally, many additives may be considered for use in formulations – with functions such as anode solid electrolyte interphase (SEI) formers, cathode SEI formers, acid scavengers, thermal stabilizers, and more. Development of optimized electrolyte formulations can require many experiments to find the best components and ratios/concentrations of components. Using Wildcat’s high throughput battery workflow, we can apply combinatorial chemistry approaches to screen hundreds of new electrolyte components and study their interactions for electrolyte formulation development. Combining statistical models for formulation optimization, and component substitution, the function of a single component in a complex electrolyte and its interaction with other components can be elucidated. In this presentation, we will demonstrate the power of these tools to rapidly improve and optimize complex electrolyte formulations.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Fluctuation-enhanced electric conductivity in electrolyte solutions",
+      "authors": [
+        "Jean-Philippe M. Péraud",
+        "Andrew Nonaka",
+        "John B. Bell",
+        "Aleksandar Donev",
+        "Alejandro L. Garcia"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Jean-Philippe M. Péraud",
+          "orcid": null,
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Nonaka",
+          "orcid": "0000-0003-1791-0265",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John B. Bell",
+          "orcid": "0000-0002-5749-334X",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aleksandar Donev",
+          "orcid": "0009-0007-6057-9543",
+          "affiliations": [
+            "Courant Institute of Mathematical Sciences",
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro L. Garcia",
+          "orcid": "0000-0003-3477-5982",
+          "affiliations": [
+            "San Jose State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1714464114",
+      "type": "article",
+      "url": "https://doi.org/10.1073/pnas.1714464114",
+      "cited_by_count": 42,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.pnas.org/content/pnas/114/41/10829.full.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We analyze the effects of an externally applied electric field on thermal fluctuations for a binary electrolyte fluid. We show that the fluctuating Poisson-Nernst-Planck (PNP) equations for charged multispecies diffusion coupled with the fluctuating fluid momentum equation result in enhanced charge transport via a mechanism distinct from the well-known enhancement of mass transport that accompanies giant fluctuations. Although the mass and charge transport occurs by advection by thermal velocity fluctuations, it can macroscopically be represented as electrodiffusion with renormalized electric conductivity and a nonzero cation-anion diffusion coefficient. Specifically, we predict a nonzero cation-anion Maxwell-Stefan coefficient proportional to the square root of the salt concentration, a prediction that agrees quantitatively with experimental measurements. The renormalized or effective macroscopic equations are different from the starting PNP equations, which contain no cross-diffusion terms, even for rather dilute binary electrolytes. At the same time, for infinitely dilute solutions the renormalized electric conductivity and renormalized diffusion coefficients are consistent and the classical PNP equations with renormalized coefficients are recovered, demonstrating the self-consistency of the fluctuating hydrodynamics equations. Our calculations show that the fluctuating hydrodynamics approach recovers the electrophoretic and relaxation corrections obtained by Debye-Huckel-Onsager theory, while elucidating the physical origins of these corrections and generalizing straightforwardly to more complex multispecies electrolytes. Finally, we show that strong applied electric fields result in anisotropically enhanced \"giant\" velocity fluctuations and reduced fluctuations of salt concentration.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Experimental and Computational Investigation on the Crystal Structure, Stability, and Li Ion Conductivity of Undoped and Doped Garnet-Type Solid Electrolytes",
+      "authors": [
+        "Randy Jalem",
+        "Yasuyuki Morishita",
+        "Takashi Okajima",
+        "Yuki Kondo",
+        "Hayami Takeda",
+        "Masanobu Nakayama"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Randy Jalem",
+          "orcid": "0000-0001-9505-771X",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "Japan Science and Technology Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yasuyuki Morishita",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Takashi Okajima",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuki Kondo",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hayami Takeda",
+          "orcid": "0000-0001-9499-9684",
+          "affiliations": [
+            "Kyoto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masanobu Nakayama",
+          "orcid": "0000-0002-5113-053X",
+          "affiliations": [
+            "Nagoya Institute of Technology",
+            "Kyoto University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ECS Meeting Abstracts",
+      "doi": "10.1149/ma2017-01/5/432",
+      "type": "conference-abstract",
+      "url": "https://doi.org/10.1149/ma2017-01/5/432",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Garnet solid electrolytes are regarded as amongst the most promising class of materials for the realization of all-solid-state Li ion batteries, demonstrating good stability vs Li metal (anode) and exhibiting conductivity values that come close to conventional liquid- and/or organic-based electrolytes (on order order of 10-3 S/cm)1,2. These properties are strongly governed by structure stability (thermodynamic and electrochemical), doping effects, and the dominating Li ion conduction mechanism in the garnet framework. In this respect, a clear and fundamental understanding of the garnet material itself is crucial for the formulation of effective strategies for property optimization. Unfortunately, elucidation by experiment alone are met with difficulties. Even conductivity values for the same garnet composition can vary significantly as can be seen in the literature. In the case of electrochemical stability, the decomposition product(s) in the oxidative voltage regime, for example, could be difficult to detect. Meanwhile, ascertaining the actual site preference and distribution of dopants is also not straightforward and could depend on the preparation condition of the garnet powder. When determining bulk and grain boundary conductivity, separating the bulk and grain boundary contributions of resistance in impedance measurements can also become problematic. By experiment and computational modelling, we attempted to clarify some of the above issues as well as tried to resolve some of the discrepancies existing in the literature. Specifically, we studied the electrochemical stability,3,4 dopant distribution and local structure,5 and Li ion transport properties5,6,7. As an example, for experiment, results will be shown related to the charge process behavior of an air-isolated Li ion battery with a garnet solid electrolyte, and then use modelling to aid in clarifying the origin of capacity fading. Another example, for computation, we employed various techniques such as first-principles density functional theory (DFT), augmented plane-wave method, computational NMR, force-field approach, and molecular dynamics in order to analyze the effects of gallium doping in garnet Li7La3Zr2O12. Our results could provide insights and fresh view, for both experimentalists and computationalists, on the state and the future direction that could be taken for solid electrolyte research. REFERENCES 1Li et al., J. Mater. Chem. 2012, 22, 15357-15361. 2 Bernuy-Lopez et al., Chem. Mater. 2014, 26, 3610-3617. 3 Nakayama et al., Phys. Chem. Chem. Phys. 2012, 14, 10008-10014. 4 Jalem et al., J. Mater. Chem. A 2016, 4, 14371-14379. 5Jalem et al., Chem. Mater. 2015, 27, 2821-2831. 6 Jalem et al., J. Phys. Chem. C 2015, 119, 20783-20791. 7 Jalem et al., Chem. Mater., 2013, 25, pp 425-430.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Structure and Ionic Conductivity of Li2S–P2S5 Glass Electrolytes Simulated with First-Principles Molecular Dynamics",
+      "authors": [
+        "Takeshi Baba",
+        "Yoshiumi Kawamura"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Takeshi Baba",
+          "orcid": null,
+          "affiliations": [
+            "Toyota Motor Corporation (Japan)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshiumi Kawamura",
+          "orcid": null,
+          "affiliations": [
+            "Toyota Motor Corporation (Japan)",
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Energy Research",
+      "doi": "10.3389/fenrg.2016.00022",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fenrg.2016.00022",
+      "cited_by_count": 50,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fenrg.2016.00022/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium thiophosphate-based materials are attractive as solid electrolytes in all-solid-state lithium batteries because glass or glass-ceramic structures of these materials are associated with very high conductivity. In this work, we modeled lithium thiophosphates with amorphous structures and investigated Li+ mobilities by using molecular dynamics calculations based on density functional theory (DFT-MD). The structures of xLi2S-(100 - x)P2S5 (x = 67, 70, 75, and 80) were created by randomly identifying appropriate compositions of Li+, PS43-, P2S74-, and S2- and then annealing them with DFT-MD calculations. Calculated relative stabilities of the amorphous structures with x = 67, 70, and 75 relative to crystals with the same compositions were 0.04, 0.12, and 0.16 kJ/g, respectively. The implication is that these amorphous structures are metastable. There was good agreement between calculated and experimental structure factors determined from X-ray scattering. The differences between the structure factors of amorphous structures were small, except for the first sharp diffraction peak, which was affected by the environment between Li and S atoms. Li+ diffusion coefficients obtained from DFT-MD calculations at various temperatures for picosecond simulation times were on the order of 10-3 - 10-5 Angstrom2/ps. Ionic conductivities evaluated by the Nernst-Einstein relationship at 298.15 K were on the order of 10-5 S/cm. The ionic conductivity of the amorphous structure with x = 75 was the highest among the amorphous structures because there was a balance between the number density and diffusibility of Li+. The simulations also suggested that isolated S atoms suppress Li+ migration.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Influence of the NiO nanoparticles on the ionic conductivity of the agar-based electrolyte",
+      "authors": [
+        "Dalal Jaber Suliman Abdullah Audeh",
+        "José Carlos Bernedo Alcázar",
+        "Carlos Veiga Barbosa",
+        "Neftalı́ Lenin Villarreal Carreño",
+        "César O. Avellaneda",
+        "Agnieszka Pawlicka",
+        "Ellen Raphael"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Dalal Jaber Suliman Abdullah Audeh",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José Carlos Bernedo Alcázar",
+          "orcid": "0000-0002-9500-5327",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carlos Veiga Barbosa",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Neftalı́ Lenin Villarreal Carreño",
+          "orcid": "0000-0002-5780-817X",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "César O. Avellaneda",
+          "orcid": "0000-0002-8527-8030",
+          "affiliations": [
+            "Universidade Federal de Pelotas"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Agnieszka Pawlicka",
+          "orcid": "0000-0002-8754-0493",
+          "affiliations": [
+            "Universidade de São Paulo",
+            "Instituto de Química de São Carlos"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ellen Raphael",
+          "orcid": "0000-0002-5617-8428",
+          "affiliations": [
+            "Federal University of São João del-Rei"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Polímeros",
+      "doi": "10.4322/polimeros.2014.055",
+      "type": "article",
+      "url": "https://doi.org/10.4322/polimeros.2014.055",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://revistapolimeros.org.br/article/10.4322/polimeros.2014.055/pdf/polimeros-24-Especial-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "NiO nanoparticles with an average size of 15 nm were prepared by a simple, reproducible and low-cost controlled method, using nickel nitrate hexahydrate (Ni(NO 3 ) 2 ⋅6H 2 O).These nanoparticles were added to an agarbased polymer electrolyte formula, resulting, after reflux and solution casting, in a proton conducting membrane.The highest ionic conductivity values of 5.19×10 -5 S cm -1 at room temperature and 3.32x10 -4 S cm -1 at 80 °C, were obtained for the sample with 50 wt.% of acetic acid and 0.25 g of NiO.Moreover, the samples showed 75 % of transparency in the visible region, a homogeneous surface and mainly amorphous structure.All the obtained results suggest that agarbased polymer electrolyte with NiO nanoparticles are promising candidates for electrochemical devices application.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Formulation and characterization of electrolyte for decorative gold plating based on mercaptotriazole",
+      "authors": [
+        "Silvana Dimitrijević",
+        "Mirjana M. Rajčić-Vujasinović",
+        "Sladjana Alagić",
+        "Vesna J. Grekulović",
+        "Vlastimir K. Trujić"
+      ],
+      "year": 2013,
+      "author_details": [
+        {
+          "name": "Silvana Dimitrijević",
+          "orcid": "0000-0003-1670-4275",
+          "affiliations": [
+            "Mining and Metallurgy Institute Bor"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mirjana M. Rajčić-Vujasinović",
+          "orcid": null,
+          "affiliations": [
+            "University of Belgrade"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sladjana Alagić",
+          "orcid": "0000-0002-2893-9285",
+          "affiliations": [
+            "University of Belgrade"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vesna J. Grekulović",
+          "orcid": "0000-0001-6871-4016",
+          "affiliations": [
+            "University of Belgrade"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vlastimir K. Trujić",
+          "orcid": null,
+          "affiliations": [
+            "Mining and Metallurgy Institute Bor"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Electrochimica Acta",
+      "doi": "10.1016/j.electacta.2013.04.123",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.electacta.2013.04.123",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0013468613008281/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "A procedure for the formulation and characterization of a gilding electrolyte based on mercaptotriazole is described. It was found that the electrolyte can be synthesized in a wide pH range, so solutions with different pH values (2, 4, 7, 9 and 12) have been prepared and analyzed. Inductively coupled plasma atomic emission spectroscopy and ultraviolet–visible spectroscopy were used for the chemical characterization of the prepared solutions. Electrochemical characterization is performed by open circuit potential measurement, cyclic voltammetry and polarization measurements.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Formulation of electrolytes based on ionic liquids for supercapacitor applications",
+      "authors": [
+        "Rongying Lin"
+      ],
+      "year": 2012,
+      "author_details": [
+        {
+          "name": "Rongying Lin",
+          "orcid": "0000-0003-4344-3947",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Thèses en ligne de l'Université Toulouse III (Université Toulouse III)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://thesesups.ups-tlse.fr/1895/1/2012TOU30274.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Le stockage de l'énergie est indispensable pour répondre aux besoins énergétiques quotidiens. Sans le recours à des systèmes de stockages, l'énergie surproduite sera gaspillée et l'énergie sous produite entraînera des interruptions des activités quotidiennes. Par conséquent, les systèmes de stockage d'énergie, parmi lesquels on trouve les supercondensateurs jouent un rôle primordial. Ceux-ci présentent un grand intérêt dans les applications de puissance puisqu'ils peuvent stocker et fournir de l'électricité rapidement (quelques secondes) grâce à un fonctionnement basé sur le stockage électrostatique des charges électriques : les ions d'un électrolyte sont adsorbés/désorbés à la surface de la matière active des électrodes. Les objectifs de cette thèse sont (1) d'étudier la charge de la double couche électrochimique, constituée par les ions de l'électrolyte et les charges induites par l'application d'un potentiel externe au niveau des électrodes, en vue d'augmenter la capacité et (2) de formuler des électrolytes à base de liquides ioniques dans le but d'augmenter la fenêtre de potentiel d'électrochimique, et donc l'énergie. Ces travaux de recherches ont été réalisés en partenariat avec la société industrielle Solvionic, spécialisée dans le développement et la production de liquides ioniques, et le laboratoire du CIRIMAT de l'université Paul Sabatier. Les résultats obtenus à l'issue de cette étude ont conduit à trois publications, dans lesquelles nous avons tout d'abord montré que la taille des pores de la matière active et la taille des ions de l'électrolyte doivent être adaptée pour augmenter la capacité, la capacité est maximale lorsque la taille des pores est proche de la taille des ions. En utilisant un liquide ionique solvaté (EMI-TFSI + acétonitrile), nous avons également montré que les ions de l'électrolyte sont partiellement désolvatés lors de leur adsorption dans les micropores inférieurs à 1 nm. En fin, des mélanges de liquides ioniques ont été préparés en sélectionnant des cations spécifiques, et des électrolytes eutectiques liquides jusqu'à -80°C. L'association de ce type de liquide ionique et de nanotubes de carbone possédant une structure ouverte permet d'utiliser une large gamme de température de -50°C jusqu'à 100°C pour le fonctionnement des supercondensateurs. Ces recherches ont donc permis d'une part d'approfondir la compréhension de la relation taille des ions/taille de pore dans le but d'augmenter les performances de supercondensateurs ; D'autre part, la découverte de nouvelles propriétés des mélanges de liquides ioniques ont permis d'étendre la gamme de températures pour les applications des supercondensateurs.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Polymer electrolyte conductivity and the Vogel equation",
+      "authors": [
+        "Frederick W. McKenna"
+      ],
+      "year": 2004,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "SHAREOK (University of Oklahoma; Oklahoma State University; Central Oklahoma University)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/11244/806",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The frequency-dependent conductivity of an amorphous polymer electrolyte is examined. It is shown that the frequency-dependent conductivity of polymer electrolytes exhibit many of the same properties as ion conducting glasses. This suggests similarities in the mechanism of ion conduction between polymer electrolytes and ionic glasses.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Structure-conductivity studies in polymer electrolytes containing mutivalent cations.",
+      "authors": [
+        "Madzlan Aziz"
+      ],
+      "year": 1996,
+      "author_details": [
+        {
+          "name": "Madzlan Aziz",
+          "orcid": "0000-0001-6786-1508",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "DMU Open Research Archive (De Montfort University)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/2086/13262",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Understanding the structure -conductivity relationship is of paramount importance for the development of polymer electrolytes.The present studies present the techniques found useful in the elucidation of structure -conductivity relationship in PEOn:ZnBr2 (n = 8, 1000,2000, 3000, 4000 and 5000) and PEOn:FeBr x (n = 8, 20 and 50; x = 2 and 3).Local structural studies have been undertaken using X-ray absorption fine structures (XAFS) which includes extended X-ray absorption fine structure (EXAFS) and X-ray absorption near edge structure (XANES).EXAFS provides interatomic distance and coordination numbers of the nearest neighbours and results from the EXAFS studies showed that high conductivity is associated with stretched M -0 interatomic distance.In the studies on ultra dilute Zn samples it was found that the cation is highly solvated by the heteroatom forming a tightly bound environment which inhibits local segmental motion thus impeding ion migration.XANES studies on the PEO and modified PEO complexes ofNiBr2 revealed the sensitivity of XANES to the structural differences.XANES on Zn and Fe samples also revealed the sensitivity to changes in interatomic distances reflected in shifts of the white line.The complementary nature of EXAFS and XANES was reflected in the studies conducted.Morphological studies were undertaken employing differential scanning calorimetry (DSC), variable temperature polarising microscopy (VTPM) and atomic force microscopy (AFM).DSC evidences helped to explain the texture of the iron samples during the drying process, and showed transitions between low melting, PEO and high melting spherulites, and VTPM is able to visualise the spherulites present in the samples.AFM has successfully imaged the as cast PEOg:FeBr2 sample and the surface effect causing extra resistance in the impedance spectra could be seen.Conductivity studies were carried out using a.c.impedance spectra.Fe(II) samples exhibit the typical semicircle-spike plot but the F e(III) samples displayed an extra semicircle before the spike reflecting a surface effect.This is also manifested in the Arrhenius plots of the same samples where a dip was shown at 100°C.From the conductivity studies on the iron systems it was found that for the dry samples the optimum conductivity was observed in PE0 8 :FeBr x irrespective of the valence state of the cation.For the air-cast samples the optimum conductivity composition depends on the valence state and were shown to be at more dilute compositions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "RF electrolytic conductivity transducers",
+      "authors": [
+        "Keith Sylvan"
+      ],
+      "year": 1987,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "ERA",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/1842/11450",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The properties of electrolytes and sane electrolytic density measurement methods are discussed, with special emphasis on seawater and the electrical determination of salinity permitted by the ionic conduction of dissolved salts.An externally sensing eddy-current conductivity transducer is constructed and analysed, and although drift is reduced significantly by switching a reference into the stabilised parallel resonant oscillator circuit, this remains the principal performance constraint.Capacitive effects and RF switches are described; silver paint screens and PIN diode switches are recommended.Shunt-excited separation-insensitive doubly-resonant inductive power/data links are developed and their advantages over series-excited circuits are described.Some alternative transducers are demonstrated and others postulated, but no inexpensive means for extended stable insitu salinanetry has been identified.vi 1 1 .1 Marine instrumentation This thesis describes collaborative research between the Department of Electrical Engineering, University of Eth.nburgh, and the Scottish Marine Biological Association, CDan, Argyll, concerning the development of an in-situ seawater salirkxtter capable of long periods of unattended operation.This work is part of the Department's research into the application of electronic systems in hazardous environments (1,2).A knowledge of the salinity of the oceans is of interest in several fields, a selection of which are discussed briefly below.Sonar reconnaisance, for example, is subject to refraction anomalies due to vertical density layering, and sound is ducted at the surface and near 1 km depth where natural density minima occur (3,4,5).The density profile must be obtained to locate 'shadow zones' where sonar cannot penetrate, and an expendable CID (Conductivity-Temperature-Depth) probe is often dropped into the sea for this purpose (6).The direct measurement of ocean currents is very difficult and circulations are usually inferred instead from density distributions by the classic 'geostrophic' method (7).As a final example, fish farms may suffer losses if fresh water run-off or tides change the cage salinity.We have seen that salinity is of some relevance, but its determination is unfortunately non-trivial and the environment in which instruments must operate is adverse.Water and salt must be excluded by a robust casing capable of withstanding hydrostatic pressure, and canponent reliability should be such as to obviate inconvenient field replacement.Tubular and spherical housings provide good protection for most of the instrument, but the transducers themselves, by their nature of operation, must inevitably suffer greater exposure to hydrostatic pressure, fouling (8), and corrosion.Seawater density is a function of temperature, pressure, and the concentration of dissolved salts.These exist in solution as mobile ions and permit electrical determination of salinity.CID units measure conductivity, temperature, and depth together for subsequent compensation, especially the large positive temperature coefficient of electrical conductivity.Before the advent of digital techniques, elegant bridge and transformer circuits provided immediate correction (9).Induction salinaneters have cane to prominence in recent years (10,11).Deep-ocean salinaneters are invariably of the high-quality transformer type, because these can discriminate the very small density gradients found there, while simpler conduction cells suffice to discern the more pronounced profiles in estuaries.Having briefly introduced salinometry, it may be instructive to discuss sane other important marine instruments with which the salinaneter is often deployed.Platinum wire thermometers and bead thermistors are both widely used, the wire probes giving repeatable linear response and the thermistors a large non-linear sensitivity suitable for inexpensive expendable units of reduced specification.CID thermometers must have low thermal inertia because failure to follow rapid temperature fluctuations elicits characteristic impulsive salinity errors.Strain gauges are the most common pressure sensor in marine work, but vibrating wire transducers, Bourdon gauges, and capacitive displacement units have also been used (12,13,14,15).Pressure sensors are susceptible to hysteresis and their depth range is often limited.The electromagnetic current meter ( 16) is an interesting instrument in which a magnetic field is used to induce a voltage proportional to the speed of the f1c, between two immersed 2 electrodes, but there is no application to salinanetry because the induced voltage is independent of the fluid conductivity.Velocimeters are acoustic instruments that measure sound speed directly (17,18).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 37,
+      "known": 50,
+      "pct": 74,
+      "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

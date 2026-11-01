@@ -1,0 +1,101 @@
+[
+  {
+    "name": "hex",
+    "url": "https://api.figshare.com/v2/articles/25403968",
+    "resolved_url": "https://api.figshare.com/v2/articles/25403968",
+    "status": 200,
+    "bytes": 3565,
+    "sha256": "90986e1b634c254a6823abe7f38144081a8119206f67b868889cbf500b264bf7",
+    "cache_path": "research/cache/sdata_structures/hex_meta.txt"
+  },
+  {
+    "name": "mip3d",
+    "url": "https://api.figshare.com/v2/articles/13655276/versions/7",
+    "resolved_url": "https://api.figshare.com/v2/articles/13655276/versions/7",
+    "status": 200,
+    "bytes": 5083,
+    "sha256": "646d31af666744cb7872ae2636765998adc7854c06976321c3d50f9f9cc47537",
+    "cache_path": "research/cache/sdata_structures/mip3d_meta.txt"
+  },
+  {
+    "name": "mip3d_collection",
+    "url": "https://api.figshare.com/v2/collections/5396844/articles",
+    "resolved_url": "https://api.figshare.com/v2/collections/5396844/articles",
+    "status": 200,
+    "bytes": 8080,
+    "sha256": "be0ae054f697014835facf7cf51d7107575fcc2b5135ac1a106266629e4e8d30",
+    "cache_path": "research/cache/sdata_structures/mip3d_collection_meta.txt"
+  },
+  {
+    "name": "bilayers",
+    "url": "https://api.figshare.com/v2/articles/21799475",
+    "resolved_url": "https://api.figshare.com/v2/articles/21799475",
+    "status": 200,
+    "bytes": 5294,
+    "sha256": "4840e09f0b43d5ed3f81f5794790ab3c82be69ad0c12128a23ee8334233304e1",
+    "cache_path": "research/cache/sdata_structures/bilayers_meta.txt"
+  },
+  {
+    "name": "perovskite66",
+    "url": "https://contribs.materialsproject.org/projects/Multinary_Oxides",
+    "resolved_url": "https://contribs.materialsproject.org/projects/Multinary_Oxides",
+    "status": 200,
+    "bytes": 23374,
+    "sha256": "1a1f14b226af0ce902ee010c077bc85dac56e379b0816f64ea0e56f2cacd7475",
+    "cache_path": "research/cache/sdata_structures/perovskite66_meta.txt"
+  },
+  {
+    "name": "tbhubbard_meta",
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/ZKLRLF",
+    "resolved_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/ZKLRLF",
+    "status": 403,
+    "bytes": 199,
+    "sha256": "5b13fb5957b84ef7bb9d0b6cd509c947ff6a37d67efdac2b896ddd3b908aad10",
+    "cache_path": "research/cache/sdata_structures/tbhubbard_meta_meta.txt"
+  },
+  {
+    "name": "cu_disgb_meta",
+    "url": "https://archive.materialscloud.org/api/records/59y2w-rap91",
+    "resolved_url": "https://archive.materialscloud.org/api/records/59y2w-rap91",
+    "status": 200,
+    "bytes": 12673,
+    "sha256": "67d0565d95a91c0285ae09e806e513dc9d6deeabbc0e74525bd031847fd56700",
+    "cache_path": "research/cache/sdata_structures/cu_disgb_meta_meta.txt"
+  },
+  {
+    "name": "si_chains_meta",
+    "url": "https://archive.materialscloud.org/api/records/kp5c5-40408",
+    "resolved_url": "https://archive.materialscloud.org/api/records/kp5c5-40408",
+    "status": 200,
+    "bytes": 14806,
+    "sha256": "dc4aff7d1b62260c2d5f38e5fe736810b9b466b8ed9777562a5e5bebee46423a",
+    "cache_path": "research/cache/sdata_structures/si_chains_meta_meta.txt"
+  },
+  {
+    "name": "scan175k_meta",
+    "url": "https://archive.materialscloud.org/api/records/cnyp0-05c11",
+    "resolved_url": "https://archive.materialscloud.org/api/records/cnyp0-05c11",
+    "status": 200,
+    "bytes": 11240,
+    "sha256": "82ed9508604389a41ae314a5bf2119a81105fee8797bdda3a5b97b18c96fdb93",
+    "cache_path": "research/cache/sdata_structures/scan175k_meta_meta.txt"
+  },
+  {
+    "name": "surface_energy",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.f2n6f",
+    "resolved_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.f2n6f",
+    "status": 200,
+    "bytes": 5347,
+    "sha256": "e8efb42c3cc8bb20f659d998462d70ab02697359afec8a1c11653495bbee6b72",
+    "cache_path": "research/cache/sdata_structures/surface_energy_meta.txt"
+  },
+  {
+    "name": "bimetallic",
+    "url": "https://archive.materialscloud.org/doi/10.24435/materialscloud:2019.0015/v1",
+    "resolved_url": "https://archive.materialscloud.org/records/xxdhq-f1v83",
+    "status": 200,
+    "bytes": 96845,
+    "sha256": "c55a0bd374f6b7f0e55e92c3b82b0ff1653d05b5536d378aaf16be48f26ae3c6",
+    "cache_path": "research/cache/sdata_structures/bimetallic_meta.txt"
+  }
+]

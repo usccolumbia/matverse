@@ -1,0 +1,1297 @@
+{
+  "checked_date": "2026-11-01",
+  "journal": "Scientific Data",
+  "issn": "2052-4463",
+  "search_metadata_records": 9304,
+  "title_candidates": 1514,
+  "catalog_records": 131,
+  "new_catalog_records": 90,
+  "existing_catalog_records": 41,
+  "distinct_descriptors": 128,
+  "completeness_note": "Indexed metadata retrieval completed; title candidates and primary-source verification are not exhaustive journal coverage.",
+  "descriptors": [
+    {
+      "doi": "10.1038/s41597-019-0019-4",
+      "title": "Synthesis, optical imaging, and absorption spectroscopy data for 179072 metal oxides",
+      "publication_date": "2019-03-27",
+      "catalog_ids": [
+        "jcap-metal-oxide-optical-179k"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-019-0019-4"
+    },
+    {
+      "doi": "10.1038/s41597-019-0080-z",
+      "title": "High-throughput calculations of catalytic properties of bimetallic alloy surfaces",
+      "publication_date": "2019-05-28",
+      "catalog_ids": [
+        "bimetallic-catalysis-2019"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-019-0080-z"
+    },
+    {
+      "doi": "10.1038/s41597-019-0097-3",
+      "title": "2DMatPedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches",
+      "publication_date": "2019-06-12",
+      "catalog_ids": [
+        "2dmatpedia"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-019-0097-3"
+    },
+    {
+      "doi": "10.1038/s41597-019-0138-y",
+      "title": "High-throughput computation and evaluation of raman spectra",
+      "publication_date": "2019-07-26",
+      "catalog_ids": [
+        "mp-raman-2019"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-019-0138-y"
+    },
+    {
+      "doi": "10.1038/s41597-019-0224-1",
+      "title": "Text-mined dataset of inorganic materials synthesis recipes",
+      "publication_date": "2019-10-15",
+      "catalog_ids": [
+        "text-mined-solid-state-synthesis"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-019-0224-1"
+    },
+    {
+      "doi": "10.1038/s41597-020-00602-2",
+      "title": "A database of battery materials auto-generated using ChemDataExtractor",
+      "publication_date": "2020-08-06",
+      "catalog_ids": [
+        "cde-battery-2020"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-00602-2"
+    },
+    {
+      "doi": "10.1038/s41597-020-00707-8",
+      "title": "Density functional theory-based electric field gradient database",
+      "publication_date": "2020-10-21",
+      "catalog_ids": [
+        "jarvis-efg-2020"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-00707-8"
+    },
+    {
+      "doi": "10.1038/s41597-020-00723-8",
+      "title": "A band-gap database for semiconducting inorganic materials calculated with hybrid functional",
+      "publication_date": "2020-11-11",
+      "catalog_ids": [
+        "snumat-hybrid-gap"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-00723-8"
+    },
+    {
+      "doi": "10.1038/s41597-020-00768-9",
+      "title": "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys",
+      "publication_date": "2020-12-08",
+      "catalog_ids": [
+        "mpea-borg-expanded"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-00768-9"
+    },
+    {
+      "doi": "10.1038/s41597-020-0373-2",
+      "title": "Physical and chemical descriptors for predicting interfacial thermal resistance",
+      "publication_date": "2020-02-03",
+      "catalog_ids": [
+        "itr-interface-descriptors"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0373-2"
+    },
+    {
+      "doi": "10.1038/s41597-020-0407-9",
+      "title": "An automatically curated first-principles database of ferroelectrics",
+      "publication_date": "2020-03-03",
+      "catalog_ids": [
+        "smidt-ferroelectric-2020"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0407-9"
+    },
+    {
+      "doi": "10.1038/s41597-020-0418-6",
+      "title": "High dielectric ternary oxides from crystal structure prediction and high-throughput screening",
+      "publication_date": "2020-03-06",
+      "catalog_ids": [
+        "predicted-high-dielectric-oxides"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0418-6"
+    },
+    {
+      "doi": "10.1038/s41597-020-0439-1",
+      "title": "Electron microscopy dataset for the recognition of nanoscale ordering effects and location of nanoparticles",
+      "publication_date": "2020-03-25",
+      "catalog_ids": [
+        "pd-carbon-sem-ordering"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0439-1"
+    },
+    {
+      "doi": "10.1038/s41597-020-0452-4",
+      "title": "Database of open-framework aluminophosphate structures",
+      "publication_date": "2020-03-31",
+      "catalog_ids": [
+        "alpo-open-framework"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0452-4"
+    },
+    {
+      "doi": "10.1038/s41597-020-0474-y",
+      "title": "High-throughput screening platform for solid electrolytes combining hierarchical ion-transport prediction algorithms",
+      "publication_date": "2020-05-21",
+      "catalog_ids": [
+        "spse-ion-transport-2020"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-020-0474-y"
+    },
+    {
+      "doi": "10.1038/s41597-021-00824-y",
+      "title": "Computational scanning tunneling microscope image database",
+      "publication_date": "2021-02-11",
+      "catalog_ids": [
+        "jarvis-stm"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-00824-y"
+    },
+    {
+      "doi": "10.1038/s41597-021-00840-y",
+      "title": "Electrochemical metrics for corrosion resistant alloys",
+      "publication_date": "2021-02-11",
+      "catalog_ids": [
+        "corrosion-resistant-alloy-metrics"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-00840-y"
+    },
+    {
+      "doi": "10.1038/s41597-021-00885-z",
+      "title": "Database of Wannier tight-binding Hamiltonians using high-throughput density functional theory",
+      "publication_date": "2021-04-13",
+      "catalog_ids": [
+        "jarvis-wtbh-electron"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-00885-z"
+    },
+    {
+      "doi": "10.1038/s41597-021-00926-7",
+      "title": "Aachen-Heerlen annotated steel microstructure dataset",
+      "publication_date": "2021-05-26",
+      "catalog_ids": [
+        "aachen-heerlen-steel-sem"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-00926-7"
+    },
+    {
+      "doi": "10.1038/s41597-021-00936-5",
+      "title": "Database of ab initio L-edge X-ray absorption near edge structure",
+      "publication_date": "2021-06-11",
+      "catalog_ids": [
+        "mp-ledge-xanes-2021"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-00936-5"
+    },
+    {
+      "doi": "10.1038/s41597-021-01022-6",
+      "title": "Materials informatics platform with three dimensional structures, workflow and thermoelectric applications",
+      "publication_date": "2021-09-07",
+      "catalog_ids": [
+        "mip3d-release"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-021-01022-6"
+    },
+    {
+      "doi": "10.1038/s41597-022-01158-z",
+      "title": "Large scale dataset of real space electronic charge density of cubic inorganic materials from density functional theory (DFT) calculations",
+      "publication_date": "2022-02-21",
+      "catalog_ids": [
+        "ecd-cubic"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01158-z"
+    },
+    {
+      "doi": "10.1038/s41597-022-01160-5",
+      "title": "Zeo-1, a computational data set of zeolite structures",
+      "publication_date": "2022-02-22",
+      "catalog_ids": [
+        "zeo-1"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01160-5"
+    },
+    {
+      "doi": "10.1038/s41597-022-01177-w",
+      "title": "A dataset of 175k stable and metastable materials calculated with the PBEsol and SCAN functionals",
+      "publication_date": "2022-03-02",
+      "catalog_ids": [
+        "pbesol-scan-175k-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01177-w"
+    },
+    {
+      "doi": "10.1038/s41597-022-01181-0",
+      "title": "MOFSimplify, machine learning models with extracted stability data of three thousand metal–organic frameworks",
+      "publication_date": "2022-03-11",
+      "catalog_ids": [
+        "mofsimplify-stability"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01181-0"
+    },
+    {
+      "doi": "10.1038/s41597-022-01215-7",
+      "title": "Aluminum alloy compositions and properties extracted from a corpus of scientific manuscripts and US patents",
+      "publication_date": "2022-03-30",
+      "catalog_ids": [
+        "aluminum-alloy-literature-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01215-7"
+    },
+    {
+      "doi": "10.1038/s41597-022-01283-9",
+      "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+      "publication_date": "2022-04-26",
+      "catalog_ids": [
+        "dax-ti-experimental"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01283-9"
+    },
+    {
+      "doi": "10.1038/s41597-022-01294-6",
+      "title": "Auto-generated database of semiconductor band gaps using ChemDataExtractor",
+      "publication_date": "2022-05-03",
+      "catalog_ids": [
+        "cde-bandgaps-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01294-6"
+    },
+    {
+      "doi": "10.1038/s41597-022-01295-5",
+      "title": "A database of refractive indices and dielectric constants auto-generated using ChemDataExtractor",
+      "publication_date": "2022-05-03",
+      "catalog_ids": [
+        "cde-refractive-dielectric-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01295-5"
+    },
+    {
+      "doi": "10.1038/s41597-022-01301-w",
+      "title": "Auto-generating databases of Yield Strength and Grain Size using ChemDataExtractor",
+      "publication_date": "2022-06-09",
+      "catalog_ids": [
+        "cde-yield-grainsize"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01301-w"
+    },
+    {
+      "doi": "10.1038/s41597-022-01317-2",
+      "title": "Dataset of solution-based inorganic materials synthesis procedures extracted from the scientific literature",
+      "publication_date": "2022-05-25",
+      "catalog_ids": [
+        "text-mined-solution-synthesis"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01317-2"
+    },
+    {
+      "doi": "10.1038/s41597-022-01321-6",
+      "title": "Text-mined dataset of gold nanoparticle synthesis procedures, morphologies, and size entities",
+      "publication_date": "2022-05-26",
+      "catalog_ids": [
+        "aunp-textmined-synthesis"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01321-6"
+    },
+    {
+      "doi": "10.1038/s41597-022-01355-w",
+      "title": "Perovskite- and Dye-Sensitized Solar-Cell Device Databases Auto-generated Using ChemDataExtractor",
+      "publication_date": "2022-06-17",
+      "catalog_ids": [
+        "cde-dye-sensitized-solar-devices",
+        "cde-perovskite-solar-devices"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01355-w"
+    },
+    {
+      "doi": "10.1038/s41597-022-01438-8",
+      "title": "Novel inorganic crystal structures predicted using autonomous simulation agents",
+      "publication_date": "2022-06-14",
+      "catalog_ids": [
+        "camd-crystal-discoveries-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01438-8"
+    },
+    {
+      "doi": "10.1038/s41597-022-01525-w",
+      "title": "Multi-modal Dataset of a Polycrystalline Metallic Material: 3D Microstructure and Deformation Fields",
+      "publication_date": "2022-08-01",
+      "catalog_ids": [
+        "in718-correlative-3d-ebsd-dic"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01525-w"
+    },
+    {
+      "doi": "10.1038/s41597-022-01699-3",
+      "title": "Optical emissivity dataset of multi-material heterogeneous designs generated with automated figure extraction",
+      "publication_date": "2022-09-29",
+      "catalog_ids": [
+        "optical-emissivity-designs-2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01699-3"
+    },
+    {
+      "doi": "10.1038/s41597-022-01712-9",
+      "title": "FAIR principles for AI models with a practical application for accelerated high energy diffraction microscopy",
+      "publication_date": "2022-11-10",
+      "catalog_ids": [
+        "braggnn-hedm-datasets"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01712-9"
+    },
+    {
+      "doi": "10.1038/s41597-022-01744-1",
+      "title": "MicroLib: A library of 3D microstructures generated from 2D micrographs using SliceGAN",
+      "publication_date": "2022-10-22",
+      "catalog_ids": [
+        "microlib-slicegan"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01744-1"
+    },
+    {
+      "doi": "10.1038/s41597-022-01746-z",
+      "title": "A representation-independent electronic charge density database for crystalline materials",
+      "publication_date": "2022-10-28",
+      "catalog_ids": [
+        "mp-charge-density-pyrho"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01746-z"
+    },
+    {
+      "doi": "10.1038/s41597-022-01752-1",
+      "title": "A thermoelectric materials database auto-generated from the scientific literature using ChemDataExtractor",
+      "publication_date": "2022-10-22",
+      "catalog_ids": [
+        "cde-thermoelectric"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01752-1"
+    },
+    {
+      "doi": "10.1038/s41597-022-01911-4",
+      "title": "Dataset for Fracture and Impact Toughness of High-Entropy Alloys",
+      "publication_date": "2023-01-19",
+      "catalog_ids": [
+        "hea-fracture-impact-2023"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01911-4"
+    },
+    {
+      "doi": "10.1038/s41597-022-01926-x",
+      "title": "A database of synthetic inelastic neutron scattering spectra from molecules and crystals",
+      "publication_date": "2023-01-24",
+      "catalog_ids": [
+        "ins-crystals-10023"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-022-01926-x"
+    },
+    {
+      "doi": "10.1038/s41597-023-01954-1",
+      "title": "Assessing ternary materials for fluoride-ion batteries",
+      "publication_date": "2023-02-11",
+      "catalog_ids": [
+        "ternary-fluoride-electrode-pairs"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-01954-1"
+    },
+    {
+      "doi": "10.1038/s41597-023-01988-5",
+      "title": "High-throughput computation of Raman spectra from first principles",
+      "publication_date": "2023-02-08",
+      "catalog_ids": [
+        "raman-oulu-5099"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-01988-5"
+    },
+    {
+      "doi": "10.1038/s41597-023-02004-6",
+      "title": "Deep learning based atomic defect detection framework for two-dimensional materials",
+      "publication_date": "2023-02-14",
+      "catalog_ids": [
+        "dl-add-tmd-stm-defects"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02004-6"
+    },
+    {
+      "doi": "10.1038/s41597-023-02116-z",
+      "title": "CRAFTED: An exploratory database of simulated adsorption isotherms of metal-organic frameworks",
+      "publication_date": "2023-04-20",
+      "catalog_ids": [
+        "crafted-mof-isotherms"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02116-z"
+    },
+    {
+      "doi": "10.1038/s41597-023-02127-w",
+      "title": "Dataset of theoretical multinary perovskite oxides",
+      "publication_date": "2023-04-28",
+      "catalog_ids": [
+        "multinary-perovskite-66516"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02127-w"
+    },
+    {
+      "doi": "10.1038/s41597-023-02146-7",
+      "title": "High throughput calculations for a dataset of bilayer materials",
+      "publication_date": "2023-04-21",
+      "catalog_ids": [
+        "bmds-bilayers-760"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02146-7"
+    },
+    {
+      "doi": "10.1038/s41597-023-02150-x",
+      "title": "Fatigue database of additively manufactured alloys",
+      "publication_date": "2023-05-02",
+      "catalog_ids": [
+        "fatiguedata-am2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02150-x"
+    },
+    {
+      "doi": "10.1038/s41597-023-02262-4",
+      "title": "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes",
+      "publication_date": "2023-06-02",
+      "catalog_ids": [
+        "lps-sulfur-kedge-xas"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02262-4"
+    },
+    {
+      "doi": "10.1038/s41597-023-02354-1",
+      "title": "Fatigue database of complex metallic alloys",
+      "publication_date": "2023-07-12",
+      "catalog_ids": [
+        "fatiguedata-cma2022"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02354-1"
+    },
+    {
+      "doi": "10.1038/s41597-023-02387-6",
+      "title": "Elastic modulus data for additively and conventionally manufactured variants of Ti-6Al-4V, IN718 and AISI 316 L",
+      "publication_date": "2023-07-20",
+      "catalog_ids": [
+        "bam-temperature-elastic-alloys"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02387-6"
+    },
+    {
+      "doi": "10.1038/s41597-023-02411-9",
+      "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+      "publication_date": "2023-07-29",
+      "catalog_ids": [
+        "cu-alloys-mechanical-2023"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02411-9"
+    },
+    {
+      "doi": "10.1038/s41597-023-02477-5",
+      "title": "A Quantum-Chemical Bonding Database for Solid-State Materials",
+      "publication_date": "2023-09-11",
+      "catalog_ids": [
+        "lobster-bonding-2023"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02477-5"
+    },
+    {
+      "doi": "10.1038/s41597-023-02511-6",
+      "title": "Automated Construction of a Photocatalysis Dataset for Water-Splitting Applications",
+      "publication_date": "2023-09-22",
+      "catalog_ids": [
+        "cde-photocatalysis-water-splitting"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02511-6"
+    },
+    {
+      "doi": "10.1038/s41597-023-02721-y",
+      "title": "3DSC - a dataset of superconductors including crystal structures",
+      "publication_date": "2023-11-21",
+      "catalog_ids": [
+        "3dsc-icsd",
+        "3dsc-mp"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02721-y"
+    },
+    {
+      "doi": "10.1038/s41597-023-02755-2",
+      "title": "High-throughput density functional theory screening of double transition metal MXene precursors",
+      "publication_date": "2023-11-25",
+      "catalog_ids": [
+        "dtm-max-phases-8712"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02755-2"
+    },
+    {
+      "doi": "10.1038/s41597-023-02898-2",
+      "title": "Refractiveindex.info database of optical constants",
+      "publication_date": "2024-01-18",
+      "catalog_ids": [
+        "refractiveindex-info"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-023-02898-2"
+    },
+    {
+      "doi": "10.1038/s41597-024-02924-x",
+      "title": "A database of computed Raman spectra of inorganic compounds with accurate hybrid functionals",
+      "publication_date": "2024-01-22",
+      "catalog_ids": [
+        "hybrid-raman-crystal-2024"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-02924-x"
+    },
+    {
+      "doi": "10.1038/s41597-024-02983-0",
+      "title": "Automatically Generated Datasets: Present and Potential Self-Cleaning Coating Materials",
+      "publication_date": "2024-01-31",
+      "catalog_ids": [
+        "self-cleaning-coating-literature"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-02983-0"
+    },
+    {
+      "doi": "10.1038/s41597-024-03180-9",
+      "title": "Large language model enhanced corpus of CO2 reduction electrocatalysts and synthesis procedures",
+      "publication_date": "2024-04-06",
+      "catalog_ids": [
+        "co2-electrocatalyst-llm-corpus"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03180-9"
+    },
+    {
+      "doi": "10.1038/s41597-024-03196-1",
+      "title": "A document-level information extraction pipeline for layered cathode materials for sodium-ion batteries",
+      "publication_date": "2024-04-11",
+      "catalog_ids": [
+        "layered-na-cathode-textmine"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03196-1"
+    },
+    {
+      "doi": "10.1038/s41597-024-03447-1",
+      "title": "A database of high-pressure crystal structures from hydrogen to lanthanum",
+      "publication_date": "2024-07-12",
+      "catalog_ids": [
+        "hex-high-pressure-elements"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03447-1"
+    },
+    {
+      "doi": "10.1038/s41597-024-03590-9",
+      "title": "Second-harmonic generation tensors from high-throughput density-functional perturbation theory",
+      "publication_date": "2024-07-11",
+      "catalog_ids": [
+        "trinquet-shg-2024"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03590-9"
+    },
+    {
+      "doi": "10.1038/s41597-024-03720-3",
+      "title": "First-principles data for solid solution niobium-tantalum-vanadium alloys with body-centered-cubic structures",
+      "publication_date": "2024-08-22",
+      "catalog_ids": [
+        "nb-ta-v-bcc-dft"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03720-3"
+    },
+    {
+      "doi": "10.1038/s41597-024-03949-y",
+      "title": "Digital image correlation and infrared thermography data for seven unique geometries of 304L stainless steel",
+      "publication_date": "2024-10-09",
+      "catalog_ids": [
+        "steel304l-dic-ir-fullfield"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03949-y"
+    },
+    {
+      "doi": "10.1038/s41597-024-03979-6",
+      "title": "A Database of Stress-Strain Properties Auto-generated from the Scientific Literature using ChemDataExtractor",
+      "publication_date": "2024-11-23",
+      "catalog_ids": [
+        "cde-stress-strain-2024"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-03979-6"
+    },
+    {
+      "doi": "10.1038/s41597-024-04008-2",
+      "title": "Band structure database of layered intercalation compounds with various intercalant atoms and layered hosts",
+      "publication_date": "2024-11-18",
+      "catalog_ids": [
+        "layered-intercalation-bandstructures"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-04008-2"
+    },
+    {
+      "doi": "10.1038/s41597-024-04043-z",
+      "title": "Comprehensive experimental datasets of quasicrystals and their approximants",
+      "publication_date": "2024-11-13",
+      "catalog_ids": [
+        "hypod-x"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-04043-z"
+    },
+    {
+      "doi": "10.1038/s41597-024-04236-6",
+      "title": "An infrared, Raman, and X-ray database of battery interphase components",
+      "publication_date": "2025-01-08",
+      "catalog_ids": [
+        "battery-interphase-ir-raman-xrd"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-04236-6"
+    },
+    {
+      "doi": "10.1038/s41597-024-04286-w",
+      "title": "The first experimentally obtained dataset on processing parameters and properties of soft magnetic composites",
+      "publication_date": "2025-01-03",
+      "catalog_ids": [
+        "softmag-fe-mgo"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-04286-w"
+    },
+    {
+      "doi": "10.1038/s41597-024-04329-2",
+      "title": "Dataset of tensile properties for sub-sized specimens of nuclear structural materials",
+      "publication_date": "2025-01-11",
+      "catalog_ids": [
+        "nuclear-subsize-tensile"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-024-04329-2"
+    },
+    {
+      "doi": "10.1038/s41597-025-04566-z",
+      "title": "Auto-generating a database on the fabrication details of perovskite solar devices",
+      "publication_date": "2025-02-14",
+      "catalog_ids": [
+        "psc-fabrication-textmine-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04566-z"
+    },
+    {
+      "doi": "10.1038/s41597-025-04576-x",
+      "title": "Laser powder bed fusion dataset for relative density prediction of commercial metallic alloys",
+      "publication_date": "2025-03-04",
+      "catalog_ids": [
+        "lpbf-relative-density"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04576-x"
+    },
+    {
+      "doi": "10.1038/s41597-025-04593-w",
+      "title": "High-Throughput Computation of ab initio Raman Spectra for Two-Dimensional Materials",
+      "publication_date": "2025-03-04",
+      "catalog_ids": [
+        "raman-2d-3504"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04593-w"
+    },
+    {
+      "doi": "10.1038/s41597-025-04605-9",
+      "title": "Three-dimensional, multimodal synchrotron data for machine learning applications",
+      "publication_date": "2025-02-24",
+      "catalog_ids": [
+        "zeolite13x-multimodal-tomography"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04605-9"
+    },
+    {
+      "doi": "10.1038/s41597-025-04823-1",
+      "title": "Comprehensive Toughness Dataset of Nuclear Reactor Structural Materials using Charpy V-Notch Impact Testing",
+      "publication_date": "2025-04-01",
+      "catalog_ids": [
+        "nuclear-charpy-impact"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04823-1"
+    },
+    {
+      "doi": "10.1038/s41597-025-04959-0",
+      "title": "PAH101: A GW+BSE Dataset of 101 Polycyclic Aromatic Hydrocarbon (PAH) Molecular Crystals",
+      "publication_date": "2025-04-23",
+      "catalog_ids": [
+        "pah101-gwbse"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-04959-0"
+    },
+    {
+      "doi": "10.1038/s41597-025-05015-7",
+      "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors",
+      "publication_date": "2025-05-06",
+      "catalog_ids": [
+        "superband"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05015-7"
+    },
+    {
+      "doi": "10.1038/s41597-025-05256-6",
+      "title": "Dislocation-Grain Boundary Interaction Dataset for FCC Cu",
+      "publication_date": "2025-06-07",
+      "catalog_ids": [
+        "cu-dislocation-grain-boundary"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05256-6"
+    },
+    {
+      "doi": "10.1038/s41597-025-05302-3",
+      "title": "Multi-phase dataset for bulk Ti and the Ti-6Al-4V alloy",
+      "publication_date": "2025-12-05",
+      "catalog_ids": [
+        "ti-ti64-multiphase"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05302-3"
+    },
+    {
+      "doi": "10.1038/s41597-025-05338-5",
+      "title": "An artificial intelligence accelerated ab initio molecular dynamics dataset for electrochemical interfaces",
+      "publication_date": "2025-06-13",
+      "catalog_ids": [
+        "electroface-trajectories"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05338-5"
+    },
+    {
+      "doi": "10.1038/s41597-025-05396-9",
+      "title": "Dataset of tensorial optical and transport properties of materials from the Wannier function method",
+      "publication_date": "2025-07-01",
+      "catalog_ids": [
+        "fang-wannier-optical-transport-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05396-9"
+    },
+    {
+      "doi": "10.1038/s41597-025-05512-9",
+      "title": "Mechanical performance dataset for alloy with applications at low temperatures",
+      "publication_date": "2025-07-15",
+      "catalog_ids": [
+        "alloydata-lowtemp"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05512-9"
+    },
+    {
+      "doi": "10.1038/s41597-025-05534-3",
+      "title": "A new benchmark for machine learning applied to powder X-ray diffraction",
+      "publication_date": "2025-07-10",
+      "catalog_ids": [
+        "simpod-powder-xrd"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05534-3"
+    },
+    {
+      "doi": "10.1038/s41597-025-05799-8",
+      "title": "Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials",
+      "publication_date": "2025-08-16",
+      "catalog_ids": [
+        "polyanion-sodium-cathode-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05799-8"
+    },
+    {
+      "doi": "10.1038/s41597-025-05867-z",
+      "title": "Materials Database from All-electron Hybrid Functional DFT Calculations",
+      "publication_date": "2025-08-29",
+      "catalog_ids": [
+        "all-electron-hybrid-7024"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-05867-z"
+    },
+    {
+      "doi": "10.1038/s41597-025-06054-w",
+      "title": "TBHubbard: tight-binding and extended Hubbard model dataset for metal-organic frameworks",
+      "publication_date": "2025-11-12",
+      "catalog_ids": [
+        "tbhubbard-mofs"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06054-w"
+    },
+    {
+      "doi": "10.1038/s41597-025-06067-5",
+      "title": "A Dataset of Fatigue Properties for Welded Joints",
+      "publication_date": "2025-11-18",
+      "catalog_ids": [
+        "weld-fatigue-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06067-5"
+    },
+    {
+      "doi": "10.1038/s41597-025-06099-x",
+      "title": "Experimental Exchange Interaction Dataset for Magnetic Materials: Spin Waves to MC Simulations",
+      "publication_date": "2025-11-19",
+      "catalog_ids": [
+        "ins-exchange-magnetic-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06099-x"
+    },
+    {
+      "doi": "10.1038/s41597-025-06109-y",
+      "title": "Massive Atomic Diversity: a compact universal dataset for atomistic machine learning",
+      "publication_date": "2025-11-21",
+      "catalog_ids": [
+        "mad-original-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06109-y"
+    },
+    {
+      "doi": "10.1038/s41597-025-06141-y",
+      "title": "Internal defect database of mechanically deformed ferritic steel via X-ray computed tomography",
+      "publication_date": "2025-11-28",
+      "catalog_ids": [
+        "ferritic-steel-xct-defects"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06141-y"
+    },
+    {
+      "doi": "10.1038/s41597-025-06196-x",
+      "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+      "publication_date": "2025-12-05",
+      "catalog_ids": [
+        "migration-barriers-literature-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06196-x"
+    },
+    {
+      "doi": "10.1038/s41597-025-06222-y",
+      "title": "Text-mined dataset of solid-state syntheses with impurity phases using Large Language Model",
+      "publication_date": "2025-12-16",
+      "catalog_ids": [
+        "solid-state-synthesis-impurities"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06222-y"
+    },
+    {
+      "doi": "10.1038/s41597-025-06244-6",
+      "title": "A dataset of Curie and Néel temperatures auto-generated with ChemDataExtractor and the Snowball algorithm",
+      "publication_date": "2025-12-12",
+      "catalog_ids": [
+        "cde-curie-neel-2025"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06244-6"
+    },
+    {
+      "doi": "10.1038/s41597-025-06295-9",
+      "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+      "publication_date": "2025-12-11",
+      "catalog_ids": [
+        "cu-cr-x-figure-extraction"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06295-9"
+    },
+    {
+      "doi": "10.1038/s41597-025-06428-0",
+      "title": "Materials dataset from microgravity levitation experiments on the China Space Station",
+      "publication_date": "2026-01-16",
+      "catalog_ids": [
+        "css-levitation-thermophysical"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-025-06428-0"
+    },
+    {
+      "doi": "10.1038/s41597-026-06628-2",
+      "title": "Open Molecular Crystals 2025 (OMC25) dataset and models",
+      "publication_date": "2026-02-04",
+      "catalog_ids": [
+        "omc25"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-06628-2"
+    },
+    {
+      "doi": "10.1038/s41597-026-06862-8",
+      "title": "An integrated database of combustion properties of metallic materials",
+      "publication_date": "2026-02-16",
+      "catalog_ids": [
+        "metal-combustion-properties"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-06862-8"
+    },
+    {
+      "doi": "10.1038/s41597-026-06930-z",
+      "title": "High Entropy Alloys Database generated with Large Language Model",
+      "publication_date": "2026-03-05",
+      "catalog_ids": [
+        "hea-llm-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-06930-z"
+    },
+    {
+      "doi": "10.1038/s41597-026-06941-w",
+      "title": "Image-to-molecule benchmarking dataset with fractal pattern and hierarchical morphology recognition",
+      "publication_date": "2026-03-02",
+      "catalog_ids": [
+        "qps-morphology-images"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-06941-w"
+    },
+    {
+      "doi": "10.1038/s41597-026-07067-9",
+      "title": "FePTP: A text-mined dataset of transformation pathways among iron-containing phases",
+      "publication_date": "2026-03-26",
+      "catalog_ids": [
+        "feptp-iron-phase-pathways"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07067-9"
+    },
+    {
+      "doi": "10.1038/s41597-026-07083-9",
+      "title": "EKHI: an open database of optical and thermal radiative properties of solid materials",
+      "publication_date": "2026-03-24",
+      "catalog_ids": [
+        "ekhi-radiative-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07083-9"
+    },
+    {
+      "doi": "10.1038/s41597-026-07100-x",
+      "title": "Charting the Landscape of Oxygen Ion Conductors: A 60-Year Dataset with Interpretable Regression Models",
+      "publication_date": "2026-04-01",
+      "catalog_ids": [
+        "oxygen-ion-conductor-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07100-x"
+    },
+    {
+      "doi": "10.1038/s41597-026-07563-y",
+      "title": "Compilation of Creep Property Data for Nuclear Structural Materials",
+      "publication_date": "2026-06-02",
+      "catalog_ids": [
+        "nuclear-creep-properties"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07563-y"
+    },
+    {
+      "doi": "10.1038/s41597-026-07766-3",
+      "title": "Dataset of Optimized Structures of Aliphatic Chains Chemisorbed on Si(110) and Si(111) Surfaces via First-Principles Methods",
+      "publication_date": "2026-06-30",
+      "catalog_ids": [
+        "si-organic-chain-slab-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07766-3"
+    },
+    {
+      "doi": "10.1038/s41597-026-07856-2",
+      "title": "Curated dataset of multinary alloy HER catalysts for composition-only modelling with Magpie descriptors and GP baselines",
+      "publication_date": "2026-07-21",
+      "catalog_ids": [
+        "her-multinary-alloys-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07856-2"
+    },
+    {
+      "doi": "10.1038/s41597-026-07961-2",
+      "title": "A Correlative Microscopy Dataset for Multimodal Data Fusion and Image Matching in Materials Science",
+      "publication_date": "2026-08-14",
+      "catalog_ids": [
+        "amalgamatch-microscopy"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-07961-2"
+    },
+    {
+      "doi": "10.1038/s41597-026-08057-7",
+      "title": "Rolling contact fatigue dataset for AISI 52100 bearing steel balls under calcium grease lubrication",
+      "publication_date": "2026-08-05",
+      "catalog_ids": [
+        "aisi52100-rolling-contact-fatigue"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-08057-7"
+    },
+    {
+      "doi": "10.1038/s41597-026-08392-9",
+      "title": "A Dataset of Equilibrium State Configurations of Adsorption in Zeolites",
+      "publication_date": "2026-10-08",
+      "catalog_ids": [
+        "adszeo-equilibrium-configurations"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-08392-9"
+    },
+    {
+      "doi": "10.1038/s41597-026-08492-6",
+      "title": "Text-mined dataset of sol-gel synthesis protocols with phase purity outcomes using large language models",
+      "publication_date": "2026-10-15",
+      "catalog_ids": [
+        "solgel-phase-purity-2026"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-08492-6"
+    },
+    {
+      "doi": "10.1038/s41597-026-08585-2",
+      "title": "Trace-IN625 a source aware literature derived dataset of tensile properties and microstructure for additively manufactured IN625",
+      "publication_date": "2026-10-19",
+      "catalog_ids": [
+        "trace-in625-tensile"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/s41597-026-08585-2"
+    },
+    {
+      "doi": "10.1038/sdata.2015.53",
+      "title": "A database to enable discovery and design of piezoelectric materials",
+      "publication_date": "2015-09-29",
+      "catalog_ids": [
+        "mp-piezo-2015"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2015.53"
+    },
+    {
+      "doi": "10.1038/sdata.2015.9",
+      "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+      "publication_date": "2015-03-17",
+      "catalog_ids": [
+        "mp-elastic-2015"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2015.9"
+    },
+    {
+      "doi": "10.1038/sdata.2016.134",
+      "title": "High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials",
+      "publication_date": "2017-01-31",
+      "catalog_ids": [
+        "mp-dielectric-2017"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2016.134"
+    },
+    {
+      "doi": "10.1038/sdata.2016.31",
+      "title": "Modeling angle-resolved photoemission of graphene and black phosphorus nano structures",
+      "publication_date": "2016-05-10",
+      "catalog_ids": [
+        "arpes-graphene-bp-2016"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2016.31"
+    },
+    {
+      "doi": "10.1038/sdata.2016.41",
+      "title": "Nanomaterial datasets to advance tomography in scanning transmission electron microscopy",
+      "publication_date": "2016-06-07",
+      "catalog_ids": [
+        "stem-nanomaterial-tomography-2016"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2016.41"
+    },
+    {
+      "doi": "10.1038/sdata.2016.54",
+      "title": "High-throughput ab-initio dilute solute diffusion database",
+      "publication_date": "2016-07-19",
+      "catalog_ids": [
+        "mastml-dilute-diffusion-education",
+        "uw-cmg-dilute-solute-diffusion"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2016.54"
+    },
+    {
+      "doi": "10.1038/sdata.2016.80",
+      "title": "Surface energies of elemental crystals",
+      "publication_date": "2016-09-13",
+      "catalog_ids": [
+        "elemental-surface-energy-2016"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2016.80"
+    },
+    {
+      "doi": "10.1038/sdata.2017.127",
+      "title": "Machine-learned and codified synthesis parameters of oxide materials",
+      "publication_date": "2017-09-12",
+      "catalog_ids": [
+        "oxide-synthesis-aggregates-2017"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2017.127"
+    },
+    {
+      "doi": "10.1038/sdata.2017.162",
+      "title": "Experimental formation enthalpies for intermetallic phases and other inorganic compounds",
+      "publication_date": "2017-10-24",
+      "catalog_ids": [
+        "experimental-formation-enthalpy-2017"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2017.162"
+    },
+    {
+      "doi": "10.1038/sdata.2017.57",
+      "title": "A hybrid organic-inorganic perovskite dataset",
+      "publication_date": "2017-05-09",
+      "catalog_ids": [
+        "hoip-2017"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2017.57"
+    },
+    {
+      "doi": "10.1038/sdata.2017.85",
+      "title": "An ab initio electronic transport database for inorganic materials",
+      "publication_date": "2017-07-04",
+      "catalog_ids": [
+        "mp-boltztrap-transport"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2017.85"
+    },
+    {
+      "doi": "10.1038/sdata.2018.111",
+      "title": "Auto-generated materials database of Curie and Néel temperatures via semi-supervised relationship extraction",
+      "publication_date": "2018-06-19",
+      "catalog_ids": [
+        "cde-curie-neel-2018"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2018.111"
+    },
+    {
+      "doi": "10.1038/sdata.2018.151",
+      "title": "High-throughput computational X-ray absorption spectroscopy",
+      "publication_date": "2018-07-31",
+      "catalog_ids": [
+        "mp-kedge-xanes-2018"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2018.151"
+    },
+    {
+      "doi": "10.1038/sdata.2018.162",
+      "title": "A chemical, crystallographic and magnetic characterisation of individual iron-oxide grains in Hawaiian lavas",
+      "publication_date": "2018-08-14",
+      "catalog_ids": [
+        "hawaii-ironoxide-correlative-grains"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2018.162"
+    },
+    {
+      "doi": "10.1038/sdata.2018.53",
+      "title": "An open experimental database for exploring inorganic materials",
+      "publication_date": "2018-04-03",
+      "catalog_ids": [
+        "htem"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2018.53"
+    },
+    {
+      "doi": "10.1038/sdata.2018.65",
+      "title": "High-throughput density-functional perturbation theory phonons for inorganic materials",
+      "publication_date": "2018-05-01",
+      "catalog_ids": [
+        "mp-dfpt-phonons-2018"
+      ],
+      "journal_metadata_match": true,
+      "url": "https://doi.org/10.1038/sdata.2018.65"
+    }
+  ]
+}

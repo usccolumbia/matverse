@@ -1,0 +1,128 @@
+[
+  {
+    "candidate": "uMOF",
+    "disposition": "deferred",
+    "url": "https://arxiv.org/html/2608.28100v1",
+    "reason": "Article claims 85,524 r2SCAN-D4 configurations and 3,986 property records, but totals conflict: 19,950 parent frameworks in abstract versus 21,519 in split section; no independent dataset release payload/rights verified. ml-peg benchmark is described as forthcoming."
+  },
+  {
+    "candidate": "Genomic COF database",
+    "disposition": "deferred",
+    "url": "https://doi.org/10.1038/s41467-018-07720-x",
+    "reason": "Primary paper describes approximately 470k hypothetical COFs and links a GSU building-block library, but data availability says corresponding authors upon request. A live release of all coordinates and data rights was not independently established; secondary review exact 471,990 not promoted."
+  },
+  {
+    "candidate": "Genomic MOF database",
+    "disposition": "deferred",
+    "url": "https://github.com/Andrew-S-Rosen/QMOF/blob/main/data_sources.md",
+    "reason": "QMOF source provenance references historical Figshare shared link and gmof identifiers; parent release metadata/count/rights not independently verified; QMOF changelog warns of missing H atoms in many original parents."
+  },
+  {
+    "candidate": "ACS MOF thermal stability 2022 supporting workbook",
+    "disposition": "excluded-correlation-matrix",
+    "url": "https://api.figshare.com/v2/articles/19633101",
+    "reason": "Actual CC BY-NC 4.0 workbook payload has only correlation_raw with descriptor names/correlations; 1,593 matrix rows are not MOF measurements. Do not rank as a 1,593-material corpus."
+  },
+  {
+    "candidate": "MOFTransformer CoRE/QMOF embeddings",
+    "disposition": "duplicate-parent-representations",
+    "url": "https://hspark1212.github.io/MOFTransformer/dataset.html",
+    "reason": "Embeddings and energy grids are derivative representations of existing CoRE and QMOF parents. Separate 1,118,074-structure hypothetical pretraining release promoted."
+  },
+  {
+    "candidate": "MOF experimental CAU-10/MIL-96 hydrothermal stability",
+    "disposition": "deferred-narrow-study",
+    "url": "https://doi.org/10.57903/UJ/CRAGGM",
+    "reason": "Provider describes eight CC BY 4.0 experimental isotherm/PXRD/QE-TPDA workbooks for two framework families; useful small stability benchmark but sample/measurement counting and overlap not audited."
+  },
+  {
+    "candidate": "Crystallite-size water intrusion/extrusion data",
+    "disposition": "deferred-narrow-study",
+    "url": "https://doi.org/10.18150/36MC3M",
+    "reason": "Experimental MOF TEM/XRD/high-pressure water porosimetry archive found. Record scope and unique samples not yet inspected."
+  },
+  {
+    "candidate": "COF-999 direct-air-capture data",
+    "disposition": "deferred-narrow-study",
+    "url": "https://doi.org/10.1038/s41586-024-08080-x",
+    "reason": "Primary paper provides experimental source data and computational Zenodo13382234; coordinates/count units and release rights not independently audited."
+  },
+  {
+    "candidate": "COF space gas adsorption benchmark",
+    "disposition": "deferred-derived-properties",
+    "url": "https://doi.org/10.1021/acsmaterialslett.4c02594",
+    "reason": "Primary article names GitHub gokhanonderaksu/COFSpace input/target tables from existing CoRE/HypoCOF parents. Distinct property layer may merit promotion after release/label inspection."
+  },
+  {
+    "candidate": "ReDD-COFFEE carbon capture HTS 2024",
+    "disposition": "deferred-derived-properties",
+    "url": "https://github.com/jsdvos/SupportingInformation_CO2captureHTS_2024",
+    "reason": "Repository describes GCMC results and broader ML predictions for ReDD-COFFEE parents. Existing parent already cataloged; new label counts/rights not audited."
+  },
+  {
+    "candidate": "MOFinder",
+    "disposition": "deferred-provider-only",
+    "url": "https://mofinder.chemistry.wustl.edu/",
+    "reason": "Provider claims 10,000+ experiments and 2,340 structures, but downloadable corpus, provenance and rights not independently verified."
+  },
+  {
+    "candidate": "MACE-MP-MOF0 phonon data",
+    "disposition": "promoted-with-release-discrepancy",
+    "url": "https://github.com/ddmms/data/tree/main/mace-mof-0",
+    "reason": "Exact 4,311 downloadable v2 frames promoted; paper reports4,764. Parent molecules127 are a separate unit."
+  },
+  {
+    "candidate": "ZeoDiff",
+    "disposition": "promoted-scoped-payload",
+    "url": "https://zenodo.org/records/18858951",
+    "reason": "4,194 unique named spreadsheet cases promoted; approximately100k screened framework claim not adopted as release count."
+  },
+  {
+    "candidate": "SymGNN",
+    "disposition": "promoted-scoped-payload",
+    "url": "https://zenodo.org/records/15085784",
+    "reason": "57,084 substitution/heat-of-adsorption cases promoted; full isotherm availability not claimed from inspected payload."
+  },
+  {
+    "candidate": "CoRE MOF/COF, QMOF, CURATED COF, ARC-MOF, CRAFTED, MOSAEC, ODAC23/25, AdsZeo, ReDD-COFFEE",
+    "disposition": "duplicate-existing",
+    "url": "https://github.com/Andrew-S-Rosen/QMOF",
+    "reason": "Existing304 catalog inspected. No duplicate parent records staged."
+  },
+  {
+    "candidate": "High-throughput zeolite transition states",
+    "disposition": "deferred-catalysis",
+    "url": "https://doi.org/10.1038/s43588-026-00964-4",
+    "reason": "Primary paper links Zenodo15200092 source data; configurations, release membership and rights not audited."
+  },
+  {
+    "candidate": "Zeolite Na-Y guest-host ML potential",
+    "disposition": "deferred-small-atomistic-release",
+    "url": "https://doi.org/10.1039/D5TA04948B",
+    "reason": "Primary article links Zenodo15594037 input/output/scripts; complete frame counts and license remain unaudited."
+  },
+  {
+    "candidate": "MOFSimBench",
+    "disposition": "deferred-benchmark-property-layer",
+    "url": "https://doi.org/10.6084/m9.figshare.30234010",
+    "reason": "Primary paper discovered; MLIP output benchmark exact membership and upstream DFT/experiment lineage not audited."
+  },
+  {
+    "candidate": "SpbNet benchmark/PMTransformer benchmark data",
+    "disposition": "deferred-derived-mix",
+    "url": "https://figshare.com/articles/dataset/Benchmark_Dataset/28943996",
+    "reason": "Mixes existing hMOF, CoRE, ToBaCCo, heat capacity and other parents; inspect target-wise labels before deciding distinctness."
+  },
+  {
+    "candidate": "Zeolite water treatment column experiments",
+    "disposition": "out-of-scope-process-dataset",
+    "url": "https://zenodo.org/records/15147800",
+    "reason": "Column breakthrough/process recovery data, not a general crystal structure or intrinsic material property corpus in this pass."
+  },
+  {
+    "candidate": "pyCOFBuilder/PORMAKE/ToBaCCo generators",
+    "disposition": "excluded-code-alone",
+    "url": "https://github.com/lipelopesoliveira/pyCOFBuilder",
+    "reason": "Generation software alone is not an enumerated dataset. Promote identified named structure release rather than implicit unlimited generator output."
+  }
+]

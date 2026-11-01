@@ -1,0 +1,73 @@
+[
+  {
+    "id": "gdr-low-temperature-thermoelectric-2016",
+    "name": "GDR low-temperature geothermal thermoelectric material measurements",
+    "category": "experimental_properties",
+    "description": "Small experimental development release of p-type BiSbTe and n-type BiSeTe compacts, with separately tabulated module measurements.",
+    "version": "2016 release; last updated 2017-10-24; payloads checked 2026-11-01",
+    "year": 2016,
+    "count": 19,
+    "count_display": "19 material specimen rows",
+    "count_unit": "material specimen rows",
+    "count_scope": "6 p-type and 13 n-type table rows, including one earlier-work n-type reference; separate module rows excluded",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "density (g/cc)",
+      "resistivity (mΩ cm)",
+      "Seebeck coefficient (µV/K)",
+      "compact diameter and thickness (mm)",
+      "percent theoretical density"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://gdr.openei.org/submissions/692",
+      "data": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.xlsx",
+      "methods": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.docx",
+      "doi": "https://doi.org/10.15121/1237351"
+    },
+    "sources": [
+      {
+        "url": "https://gdr.openei.org/submissions/692",
+        "title": "GDR692 primary release",
+        "evidence": "Three public files with Southern Research Institute/Novus provenance, DOE project EE0006746 and CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.xlsx",
+        "title": "Released material workbook",
+        "evidence": "Independently counted 19 specimen IDs across two tables: 6 p-type BiSbTe and 13 n-type BiSeTe rows; units are embedded in headers.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.docx",
+        "title": "Released methods document",
+        "evidence": "Describes mechanical alloying/hot pressing, rectangular cut bars and ULVAC ZEM-3 resistivity/Seebeck testing; discusses precursor oxygen contamination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Specimen rows are not distinct compositions or refined crystal structures; exact stoichiometries and atomic coordinates are absent.",
+      "Per-row measurement temperatures and uncertainty estimates are absent from the spreadsheet; this is a qualified small development study, not a thermoelectric reference compilation.",
+      "Several n-type entries exceed 100% theoretical density; retain reported values and investigate the density basis before modeling.",
+      "The separately released module workbook has 10 module rows and a resistance header labeled mW; do not silently reinterpret that unit or combine module and material counts.",
+      "No thermal conductivity or complete zT measurements are supplied in the inspected material table."
+    ],
+    "tags": [
+      "Data.gov-attached-selection",
+      "thermoelectrics",
+      "measured",
+      "XLSX",
+      "small-study"
+    ],
+    "additional_counts": [
+      {
+        "value": 10,
+        "unit": "module rows",
+        "scope": "Separate module workbook; includes one previous-work module; excluded from material specimen count"
+      }
+    ]
+  }
+]

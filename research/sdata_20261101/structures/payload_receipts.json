@@ -1,0 +1,89 @@
+[
+  {
+    "name": "ti64",
+    "file": "combined_data_oct24_2023.extxyz",
+    "url": "https://zenodo.org/api/records/15114121/files/combined_data_oct24_2023.extxyz/content",
+    "status": 200,
+    "bytes": 11080086,
+    "sha256": "068d16f6954b2180cfc16e6b182d6a75542408d59afd1aed07e393965fed5fd4",
+    "md5": "9fd601dedb17078f13f7c0b3087741ee",
+    "provider_checksum": "md5:9fd601dedb17078f13f7c0b3087741ee",
+    "count_frames": 6640
+  },
+  {
+    "name": "ti64",
+    "file": "ti64_combined_data_May30.extxyz",
+    "url": "https://zenodo.org/api/records/15114121/files/ti64_combined_data_May30.extxyz/content",
+    "status": 200,
+    "bytes": 19353392,
+    "sha256": "40bef576082dd5900929a21d648f8fd12d37a4b38c47685f4c38d7527a363a11",
+    "md5": "8eaccd6bc5af381af095470a09106764",
+    "provider_checksum": "md5:8eaccd6bc5af381af095470a09106764",
+    "count_frames": 8923
+  },
+  {
+    "name": "crafted",
+    "file": "CRAFTED-1.1.1.tar.xz",
+    "url": "https://zenodo.org/api/records/7689919/files/CRAFTED-1.1.1.tar.xz/content",
+    "status": 200,
+    "bytes": 23249516,
+    "sha256": "8c95796ee4fc620cdaf300d9789f31c170d12dcb1824963cb282e9ff81e5f571",
+    "md5": "96eb9e43bb5ad9c490198d33f42c2d9d",
+    "provider_checksum": "md5:96eb9e43bb5ad9c490198d33f42c2d9d",
+    "cif_count": 4140,
+    "isotherm_count": 49680,
+    "enthalpy_count": 49680
+  },
+  {
+    "name": "alpo",
+    "file": "alpo-cif.zip",
+    "url": "https://ndownloader.figshare.com/files/21758073",
+    "status": 200,
+    "bytes": 393515,
+    "sha256": "6c505b13c8c9ca07eaffbcc86fb88d5249e486dc0b4b57241f8d439d42d74d61",
+    "md5": "9d99f45f758b32ce9423a96325a20667",
+    "provider_checksum": "9d99f45f758b32ce9423a96325a20667",
+    "file_count": 313,
+    "cif_count": 312,
+    "names_sample": [
+      "alpo-cif/",
+      "alpo-cif/0.1.4.82.001.cif",
+      "alpo-cif/1.1.1.2.001.cif",
+      "alpo-cif/1.1.2.1.001.cif",
+      "alpo-cif/1.1.2.1.002.cif",
+      "alpo-cif/1.1.2.122.001.cif",
+      "alpo-cif/1.1.2.14.001.cif",
+      "alpo-cif/1.1.2.14.002.cif",
+      "alpo-cif/1.1.2.14.003.cif",
+      "alpo-cif/1.1.2.2.001.cif",
+      "alpo-cif/1.1.2.2.002.cif",
+      "alpo-cif/1.1.2.2.003.cif"
+    ]
+  },
+  {
+    "name": "mofsimplify",
+    "file": "SciData.zip",
+    "url": "https://zenodo.org/api/records/5737968/files/SciData.zip/content",
+    "status": 200,
+    "bytes": 35712033,
+    "sha256": "799e7b5076d07f259e579664e81f44e80f6bcecd7a6470e53d82976321d17372",
+    "md5": "d281d34506e5319d040a20d1fa4303f0",
+    "provider_checksum": "md5:d281d34506e5319d040a20d1fa4303f0",
+    "file_count": 24479,
+    "cif_count": 0,
+    "names_sample": [
+      "SciData/",
+      "SciData/blinded_test_set/",
+      "SciData/blinded_test_set/blinded_40_elsevier_MOFs.csv",
+      "SciData/blinded_test_set/blinded_TGA/",
+      "SciData/blinded_test_set/blinded_TGA/AVAQIX.csv",
+      "SciData/blinded_test_set/blinded_TGA/AVIHIY.csv",
+      "SciData/blinded_test_set/blinded_TGA/AVIHOE.csv",
+      "SciData/blinded_test_set/blinded_TGA/BIBBUL.csv",
+      "SciData/blinded_test_set/blinded_TGA/CODNAM.csv",
+      "SciData/blinded_test_set/blinded_TGA/DIVSUY.csv",
+      "SciData/blinded_test_set/blinded_TGA/ELAZEX.csv",
+      "SciData/blinded_test_set/blinded_TGA/FESTUT.csv"
+    ]
+  }
+]

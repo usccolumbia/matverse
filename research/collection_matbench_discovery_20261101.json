@@ -1,0 +1,1714 @@
+{
+  "name": "Matbench Discovery dataset directory — all 46 rows",
+  "url": "https://matbench-discovery.materialsproject.org/data/sets",
+  "revision": "8869a883a5067015b815886d878bd7aaa3862d2d",
+  "coverage_notes": [
+    "All46dataset rows in the rendered data/sets table match all46keys in pinneddata/datasets.yml. Each original row has one searchable source entry.",
+    "Existing families, exact new releases, unreleased corpora and adjacent molecular datasets remain distinguishable. The directory reports both structures/configurations and source-defined materials.",
+    "Historical snapshots and unreleased full-corpus sizes do not overwrite current public catalog counts. Allwork remains local until explicit push authorization."
+  ],
+  "sources": [
+    {
+      "url": "https://aflow.org",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://aflow.org/documentation",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://alexandria.icams.rub.de",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://alexandria.icams.rub.de/data/pbe",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://alexandria.icams.rub.de/data/phonon_benchmark/",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/18tke-tt476",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://archive.materialscloud.org/records/wtpqr-2cj66",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.23117",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23489",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/large_objects/dac/datasets/odac23_s2ef.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/adsorbml/oc20_dense_data.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20/oc20_slabs.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20mAds/oc20_multiads_train.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20neb/oc20neb_dft_trajectories_04_23_24.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc22/s2ef_total_train_val_test_lmdbs.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/train.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/val.tar.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://docs.materialsproject.org/changes/database-versions#v2022.10.28",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://docs.materialsproject.org/services/ml-and-ai-applications/matpes",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1002/adma.202210788",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1007/s11837-013-0755-4",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.commatsci.2012.02.005",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1021/acs.chemmater.9b01294",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1021/acscatal.0c04525",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1021/acscatal.2c05426",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41524-020-00440-1",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41524-020-00481-6",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41524-022-00796-6",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-023-06735-9",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41597-020-0473-z",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s42256-023-00716-3",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/s43588-022-00349-3",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1038/sdata.2014.22",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.1063/1.4812323",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:fe-1p",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:jc-9f",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.24435/materialscloud:vm-51",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2007.09593",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2211.16486",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2311.00341",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2405.02078",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2405.04967",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2410.12771",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2411.11783",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2412.16551",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2501.16358",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2503.04070",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2505.08762",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2506.23971",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2507.05559",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2508.02651",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2508.03162",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2509.17862",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2510.11241",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2512.23117",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2601.07742",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2602.23489",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.10975225",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.22638068",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.12672038.v4",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.13147324",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.29452190.v2",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/19470599",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/23713842",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/8097992",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/Preprocessed_data_for_Phonon_Fine-tuning_PFT_/31049869",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/files/40344436",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/files/41619375",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/files/60964675",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/ndownloader/articles/19470599/versions/3",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://figshare.com/ndownloader/articles/8097992/versions/2",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/Andrew-S-Rosen/QMOF",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/aiqm/ANI1x_datasets",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md#download-and-preprocess-the-dataset",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_mads.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_slabs.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc22.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc25.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/ocx24.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac23.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac25.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omc25.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data/experimental_data",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/google-deepmind/materials_discovery",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/janosh/matbench-discovery/blob/main/data/wbm/readme.md",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/microsoft/mattersim",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/openmm/spice-dataset",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/datasets/facebook/OMC25",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/datasets/fairchem/OMAT24#omat24-dataset",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/facebook/OC25",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/facebook/ODAC25",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/facebook/OMol25",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://jarvis.nist.gov/optimade/jarvisdft/",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://joss.theoj.org/papers/10.21105/joss.05388",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://matbench-discovery.materialsproject.org/data/sets",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://matpes.ai",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/38521619",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://nomad-lab.eu/prod/v1/gui/analyze/apis",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://nomad-lab.eu/prod/v1/gui/search/calculations",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://optimade-gnome.odbx.science",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://optimade.org/providers-dashboard/providers/aflow",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://optimade.org/providers-dashboard/providers/alexandria",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://optimade.org/providers-dashboard/providers/nmd",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://optimade.org/providers-dashboard/providers/oqmd",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://oqmd.org",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://pages.nist.gov/jarvis/databases/",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-PBE-2025.1.json.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-R2SCAN-2025.1.json.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://springernature.figshare.com/articles/dataset/ANI-1x_Dataset_Release/10047041",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://springernature.figshare.com/articles/dataset/Data_for_133885_GDB-9_molecules/1057646",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://static.oqmd.org/static/docs/restful.html",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://static.oqmd.org/static/downloads/qmdb__v1_6__112023.sql.gz",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://www.kairosmaterials.com/papers/ELEMENTA.pdf",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41597-025-06109-y",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://zenodo.org/records/10975225",
+      "title": "Matbench Discovery linked primary route",
+      "evidence": "Original external route retained from inspected dataset-directory row; source inclusion does not imply independent payload verification.",
+      "verified_date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/datasets/materialyze/matpes/blob/main/README.md",
+      "title": "MatPES data-card license mismatch",
+      "evidence": "Current data card declaresBSD-3-Clause whereas Matbench listsMIT; keep release-specific rights unresolved.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "links": [
+    {
+      "label": "WBM — WBM Benchmark Test Set",
+      "url": "https://matbench-discovery.materialsproject.org/data/wbm",
+      "section": "Matbench Discovery dataset directory / Test data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "wbm-matbench-discovery"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 256963,
+      "reported_materials": 215488,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/janosh/matbench-discovery/blob/main/data/wbm/readme.md",
+        "https://doi.org/10.1038/s41524-020-00481-6"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MP 2022 — MP v2022.10.28",
+      "url": "https://matbench-discovery.materialsproject.org/data/mp-2022",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-frozen-2022"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 154718,
+      "reported_materials": 154718,
+      "reported_access": "public",
+      "original_urls": [
+        "https://docs.materialsproject.org/changes/database-versions#v2022.10.28",
+        "https://figshare.com/files/40344436",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "MPtrj",
+      "url": "https://matbench-discovery.materialsproject.org/data/mptrj",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mptrj"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 1580395,
+      "reported_materials": 145923,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/dataset/23713842",
+        "https://figshare.com/files/41619375",
+        "https://doi.org/10.1038/s42256-023-00716-3"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MPF — MPF.2021.2.8",
+      "url": "https://matbench-discovery.materialsproject.org/data/mpf",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mpf2021"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 188349,
+      "reported_materials": 62783,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/dataset/19470599",
+        "https://figshare.com/ndownloader/articles/19470599/versions/3",
+        "https://doi.org/10.1038/s43588-022-00349-3"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MP Graphs — Graphs of MP 2019",
+      "url": "https://matbench-discovery.materialsproject.org/data/mp-graphs",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-graphs-2019"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 133420,
+      "reported_materials": 133420,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/dataset/8097992",
+        "https://figshare.com/ndownloader/articles/8097992/versions/2",
+        "https://doi.org/10.1021/acs.chemmater.9b01294"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "GNoME",
+      "url": "https://matbench-discovery.materialsproject.org/data/gnome",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gnome"
+      ],
+      "resource_urls": [],
+      "note": "The page counts an unavailable 89M-frame training corpus; the catalog contains the ~381k publicly released near-stable structures. These are related coverage, not the same release or denominator.",
+      "reported_structures": 89000000,
+      "reported_materials": 6000000,
+      "reported_access": "partial",
+      "original_urls": [
+        "https://optimade-gnome.odbx.science",
+        "https://github.com/google-deepmind/materials_discovery",
+        "https://doi.org/10.1038/s41586-023-06735-9"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MatterSim",
+      "url": "https://matbench-discovery.materialsproject.org/data/mattersim",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/microsoft/mattersim/blob/main/MODEL_CARD.md"
+      ],
+      "note": "Training data remain unreleased; public code/checkpoints do not establish data access.",
+      "reported_structures": 17000000,
+      "reported_materials": null,
+      "reported_access": "unreleased",
+      "original_urls": [
+        "https://github.com/microsoft/mattersim",
+        "https://doi.org/10.48550/arXiv.2405.04967"
+      ],
+      "audit_status": "existing_resource"
+    },
+    {
+      "label": "Alex — Alexandria",
+      "url": "https://matbench-discovery.materialsproject.org/data/alex",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "alexandria"
+      ],
+      "resource_urls": [],
+      "note": "The page describes an older ~30.5M-frame relaxation corpus; the existing Alexandria card describes a newer ~5.8M equilibrium-structure release. Related family, not identical count scope.",
+      "reported_structures": 30497628,
+      "reported_materials": 3100000,
+      "reported_access": "public",
+      "original_urls": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://alexandria.icams.rub.de",
+        "https://alexandria.icams.rub.de/data/pbe",
+        "https://doi.org/10.1002/adma.202210788"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "OMat24",
+      "url": "https://matbench-discovery.materialsproject.org/data/omat24",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "omat24"
+      ],
+      "resource_urls": [],
+      "note": "The page reports 100,824,585 training configurations. Validation is a separate download with corrected December2024 files; do not infer a full release count from the training-only row.",
+      "reported_structures": 100824585,
+      "reported_materials": 3227606,
+      "reported_access": "public",
+      "original_urls": [
+        "https://huggingface.co/datasets/fairchem/OMAT24#omat24-dataset",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "sAlex — Subsampled Alexandria",
+      "url": "https://matbench-discovery.materialsproject.org/data/salex",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "salex-omat24"
+      ],
+      "resource_urls": [],
+      "note": "Existing card counts train+validation together (11,000,983), while the page sAlex row counts only 10,447,765 training frames. Validation is now separately cataloged as an overlapping subset.",
+      "reported_structures": 10447765,
+      "reported_materials": 3227606,
+      "reported_access": "public",
+      "original_urls": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/train.tar.gz",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "sAlex Validation — Subsampled Alexandria Validation Set",
+      "url": "https://matbench-discovery.materialsproject.org/data/salex-validation",
+      "section": "Matbench Discovery dataset directory / Validation data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "salex-omat24-validation"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 553218,
+      "reported_materials": 170905,
+      "reported_access": "public",
+      "original_urls": [
+        "https://optimade.org/providers-dashboard/providers/alexandria",
+        "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/val.tar.gz",
+        "https://doi.org/10.48550/arXiv.2410.12771"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OpenLAM — OpenLAM dataset v1",
+      "url": "https://matbench-discovery.materialsproject.org/data/openlam",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "openlam-training"
+      ],
+      "resource_urls": [],
+      "note": "Existing training-set card is unranked. The benchmark reports 162,507,178 configurations across 31 parents; retain as a benchmark-reported size rather than silently replacing unverified release counts.",
+      "reported_structures": 162507178,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+        "https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308",
+        "https://doi.org/10.48550/arXiv.2501.16358"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "COSMOSDataset",
+      "url": "https://matbench-discovery.materialsproject.org/data/cosmosdataset",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cosmos-sevennet-omni"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 242788218,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+        "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+        "https://doi.org/10.48550/arXiv.2510.11241"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OC20 — Open Catalyst 2020",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc20",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc20"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 133934018,
+      "reported_materials": 11500,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md",
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20.md#download-and-preprocess-the-dataset",
+        "https://doi.org/10.1021/acscatal.0c04525"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "NOMAD — NOMAD Repository",
+      "url": "https://matbench-discovery.materialsproject.org/data/nomad",
+      "section": "Matbench Discovery dataset directory / Repository / Related resource",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://nomad-lab.eu/"
+      ],
+      "note": "Represented as a repository/discovery resource rather than a fixed additional crystal corpus.",
+      "reported_structures": 19111098,
+      "reported_materials": 4335728,
+      "reported_access": "public",
+      "original_urls": [
+        "https://nomad-lab.eu/prod/v1/gui/analyze/apis",
+        "https://optimade.org/providers-dashboard/providers/nmd",
+        "https://nomad-lab.eu/prod/v1/gui/search/calculations",
+        "https://joss.theoj.org/papers/10.21105/joss.05388"
+      ],
+      "audit_status": "existing_resource"
+    },
+    {
+      "label": "AFLOW — AFLOW Database",
+      "url": "https://matbench-discovery.materialsproject.org/data/aflow",
+      "section": "Matbench Discovery dataset directory / Repository / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "aflow"
+      ],
+      "resource_urls": [],
+      "note": "Repository counts evolve; the page snapshot does not overwrite the newer or differently scoped catalog count.",
+      "reported_structures": 3530330,
+      "reported_materials": 3530330,
+      "reported_access": "public",
+      "original_urls": [
+        "https://aflow.org/documentation",
+        "https://optimade.org/providers-dashboard/providers/aflow",
+        "https://aflow.org",
+        "https://doi.org/10.1016/j.commatsci.2012.02.005"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "OQMD — Open Quantum Materials Database",
+      "url": "https://matbench-discovery.materialsproject.org/data/oqmd",
+      "section": "Matbench Discovery dataset directory / Repository / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oqmd"
+      ],
+      "resource_urls": [],
+      "note": "The page uses OQMD v1.6 (November 2023); preserve current catalog version/count separately.",
+      "reported_structures": 1226781,
+      "reported_materials": 1226781,
+      "reported_access": "public",
+      "original_urls": [
+        "https://static.oqmd.org/static/docs/restful.html",
+        "https://optimade.org/providers-dashboard/providers/oqmd",
+        "https://oqmd.org",
+        "https://static.oqmd.org/static/downloads/qmdb__v1_6__112023.sql.gz",
+        "https://doi.org/10.1007/s11837-013-0755-4"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MatPES PBE — MatPES v1.0 PBE",
+      "url": "https://matbench-discovery.materialsproject.org/data/matpes-pbe",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "matpes-pbe-2025-1"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 434712,
+      "reported_materials": 110317,
+      "reported_access": "public",
+      "original_urls": [
+        "https://matpes.ai",
+        "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-PBE-2025.1.json.gz",
+        "https://doi.org/10.48550/arXiv.2503.04070"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "MatPES r2SCAN — MatPES v1.0 r2SCAN",
+      "url": "https://matbench-discovery.materialsproject.org/data/matpes-r2scan",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "matpes-r2scan-2025-1"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 387897,
+      "reported_materials": 89719,
+      "reported_access": "public",
+      "original_urls": [
+        "https://matpes.ai",
+        "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-R2SCAN-2025.1.json.gz",
+        "https://doi.org/10.48550/arXiv.2503.04070"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "MDR Phonon PBE",
+      "url": "https://matbench-discovery.materialsproject.org/data/mdr-phonon-pbe",
+      "section": "Matbench Discovery dataset directory / Test data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mdr-phonon-pbe-recalculation"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 9958,
+      "reported_materials": 9958,
+      "reported_access": "public",
+      "original_urls": [
+        "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe",
+        "https://alexandria.icams.rub.de/data/phonon_benchmark/",
+        "https://doi.org/10.48550/arXiv.2412.16551"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "MDR-MP PBE ω_q — MDR PBE Phonons in MPtrj",
+      "url": "https://matbench-discovery.materialsproject.org/data/mdr-mp-pbe-ω-q",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "pft-mdr-pbe-training"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 8510,
+      "reported_materials": 8510,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/dataset/Preprocessed_data_for_Phonon_Fine-tuning_PFT_/31049869",
+        "https://figshare.com/files/60964675",
+        "https://doi.org/10.48550/arXiv.2601.07742"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "ELEMENTA",
+      "url": "https://matbench-discovery.materialsproject.org/data/elementa",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "elementa-public",
+        "elementa-spin"
+      ],
+      "resource_urls": [],
+      "note": "The page reports the full 210,656,285-frame corpus, including unavailable frames; catalog cards cover the ~39M public core and separate ~4.7M Spin releases. Not identical release scope.",
+      "reported_structures": 210656285,
+      "reported_materials": 9781175,
+      "reported_access": "partial",
+      "original_urls": [
+        "https://www.kairosmaterials.com/papers/ELEMENTA.pdf",
+        "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+        "https://doi.org/10.5281/zenodo.22638068"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "SMAX — SMAX Maximum Entropy Dataset",
+      "url": "https://matbench-discovery.materialsproject.org/data/smax",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "navigation",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://arxiv.org/abs/2602.23489"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 1693386,
+      "reported_materials": null,
+      "reported_access": "unreleased",
+      "original_urls": [
+        "https://arxiv.org/abs/2602.23489",
+        "https://doi.org/10.48550/arXiv.2602.23489"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "OC22 — Open Catalyst 2022",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc22",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc22"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 9854504,
+      "reported_materials": 4286,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc22.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc22/s2ef_total_train_val_test_lmdbs.tar.gz",
+        "https://doi.org/10.1021/acscatal.2c05426"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "OC25 — Open Catalyst 2025",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc25",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc25"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 7801261,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc25.md",
+        "https://huggingface.co/facebook/OC25",
+        "https://doi.org/10.48550/arXiv.2509.17862"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "ODAC23 — Open Direct Air Capture 2023",
+      "url": "https://matbench-discovery.materialsproject.org/data/odac23",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "odac23"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 38983748,
+      "reported_materials": 8412,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac23.md",
+        "https://dl.fbaipublicfiles.com/large_objects/dac/datasets/odac23_s2ef.tar.gz",
+        "https://doi.org/10.48550/arXiv.2311.00341"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "ODAC25 — Open Direct Air Capture 2025",
+      "url": "https://matbench-discovery.materialsproject.org/data/odac25",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "odac25"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 70000000,
+      "reported_materials": 15000,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/dac/datasets/odac25.md",
+        "https://huggingface.co/facebook/ODAC25",
+        "https://doi.org/10.48550/arXiv.2508.03162"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "OMol25 — Open Molecules 2025",
+      "url": "https://matbench-discovery.materialsproject.org/data/omol25",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 101666280,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+        "https://huggingface.co/facebook/OMol25",
+        "https://doi.org/10.48550/arXiv.2505.08762"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "OMol25 Electronic — Open Molecules 2025 Electronic-Structure Subset",
+      "url": "https://matbench-discovery.materialsproject.org/data/omol25-electronic",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 4000000,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+        "https://doi.org/10.48550/arXiv.2505.08762"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "OMC25 — Open Molecular Crystals 2025",
+      "url": "https://matbench-discovery.materialsproject.org/data/omc25",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "omc25"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 26257042,
+      "reported_materials": 218841,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omc25.md",
+        "https://huggingface.co/datasets/facebook/OMC25",
+        "https://doi.org/10.48550/arXiv.2508.02651"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "OPoly26 — Open Polymers 2026",
+      "url": "https://matbench-discovery.materialsproject.org/data/opoly26",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://arxiv.org/abs/2512.23117"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 6570542,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://arxiv.org/abs/2512.23117",
+        "https://huggingface.co/facebook/OMol25",
+        "https://doi.org/10.48550/arXiv.2512.23117"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "OC20-mAds — Open Catalyst 2020 Multiple Adsorbates",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc20-mads",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc20-mads"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 21804758,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_mads.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20mAds/oc20_multiads_train.tar.gz",
+        "https://doi.org/10.48550/arXiv.2506.23971"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OC20-Slabs — Open Catalyst 2020 Clean Slabs",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc20-slabs",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc20-slabs"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 18323074,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_slabs.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20/oc20_slabs.tar.gz",
+        "https://doi.org/10.48550/arXiv.2506.23971"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OC20-Dense — Open Catalyst 2020 Dense Adsorbate Sampling",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc20-dense",
+      "section": "Matbench Discovery dataset directory / Validation data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc20-dense"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 85658,
+      "reported_materials": 833,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/adsorbml/oc20_dense_data.tar.gz",
+        "https://doi.org/10.48550/arXiv.2211.16486"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OC20NEB — Open Catalyst 2020 Nudged Elastic Band Benchmark",
+      "url": "https://matbench-discovery.materialsproject.org/data/oc20neb",
+      "section": "Matbench Discovery dataset directory / Validation data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oc20-neb"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 1375930,
+      "reported_materials": 821,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md",
+        "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20neb/oc20neb_dft_trajectories_04_23_24.tar.gz",
+        "https://doi.org/10.48550/arXiv.2405.02078"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "OCx24 — Open Catalyst Experiments 2024",
+      "url": "https://matbench-discovery.materialsproject.org/data/ocx24",
+      "section": "Matbench Discovery dataset directory / Test data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ocx24-experimental"
+      ],
+      "resource_urls": [],
+      "note": "The page materials count is 19,406 deduplicated computational candidates; the existing experimental card counts 5,412 rows of measurements. Both concern one project, but neither denominator is a number of independent crystal structures.",
+      "reported_structures": null,
+      "reported_materials": 19406,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/ocx24.md",
+        "https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data/experimental_data",
+        "https://doi.org/10.48550/arXiv.2411.11783"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MAD — Massive Atomic Diversity",
+      "url": "https://matbench-discovery.materialsproject.org/data/mad",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mad-original-2025"
+      ],
+      "resource_urls": [],
+      "note": "Named release now separately cataloged; source-reported counts retained with explicit units.",
+      "reported_structures": 95595,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://www.nature.com/articles/s41597-025-06109-y",
+        "https://doi.org/10.24435/materialscloud:fe-1p",
+        "https://doi.org/10.24435/materialscloud:fe-1p"
+      ],
+      "audit_status": "new_dataset"
+    },
+    {
+      "label": "MAD-1.5 — Massive Atomic Diversity 1.5",
+      "url": "https://matbench-discovery.materialsproject.org/data/mad-1.5",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mad15"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 216803,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://archive.materialscloud.org/records/18tke-tt476",
+        "https://archive.materialscloud.org/records/18tke-tt476",
+        "https://doi.org/10.24435/materialscloud:jc-9f"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MAD-1.6 — Massive Atomic Diversity 1.6",
+      "url": "https://matbench-discovery.materialsproject.org/data/mad-1.6",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mad16"
+      ],
+      "resource_urls": [],
+      "note": "The page exact362,646 total is a benchmark recount of specified r2SCAN split files; existing card remains separately versioned and unranked until those payloads are independently checked here.",
+      "reported_structures": 362646,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://archive.materialscloud.org/records/wtpqr-2cj66",
+        "https://archive.materialscloud.org/records/wtpqr-2cj66",
+        "https://doi.org/10.24435/materialscloud:vm-51"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "MP-ALOE — Materials Project Active Learning of Off-Equilibrium Structures",
+      "url": "https://matbench-discovery.materialsproject.org/data/mp-aloe",
+      "section": "Matbench Discovery dataset directory / Training data / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-aloe"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 909792,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://docs.materialsproject.org/services/ml-and-ai-applications/matpes",
+        "https://doi.org/10.6084/m9.figshare.29452190.v2",
+        "https://doi.org/10.48550/arXiv.2507.05559"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "SPICE 2 — Small-Molecule/Protein Interaction Chemical Energies 2",
+      "url": "https://matbench-discovery.materialsproject.org/data/spice-2",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/openmm/spice-dataset"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 2000000,
+      "reported_materials": null,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/openmm/spice-dataset",
+        "https://zenodo.org/records/10975225",
+        "https://doi.org/10.5281/zenodo.10975225"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "QMOF — Quantum Metal-Organic Framework Database",
+      "url": "https://matbench-discovery.materialsproject.org/data/qmof",
+      "section": "Matbench Discovery dataset directory / Repository / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "qmof"
+      ],
+      "resource_urls": [],
+      "note": "The page snapshot counts20,372 qmof_id records, whereas the existing catalog release may use a different archive/snapshot. Preserve version distinctions.",
+      "reported_structures": 20372,
+      "reported_materials": 20372,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/Andrew-S-Rosen/QMOF",
+        "https://doi.org/10.6084/m9.figshare.13147324",
+        "https://doi.org/10.1038/s41524-022-00796-6"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "rMD17 — Revised Molecular Dynamics 17",
+      "url": "https://matbench-discovery.materialsproject.org/data/rmd17",
+      "section": "Matbench Discovery dataset directory / Test data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 999988,
+      "reported_materials": 10,
+      "reported_access": "public",
+      "original_urls": [
+        "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+        "https://doi.org/10.6084/m9.figshare.12672038.v4",
+        "https://doi.org/10.48550/arXiv.2007.09593"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "JARVIS-DFT — JARVIS Density Functional Theory 3D Database",
+      "url": "https://matbench-discovery.materialsproject.org/data/jarvis-dft",
+      "section": "Matbench Discovery dataset directory / Repository / Catalog dataset",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "jarvis-dft-3d"
+      ],
+      "resource_urls": [],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 75993,
+      "reported_materials": 75993,
+      "reported_access": "public",
+      "original_urls": [
+        "https://pages.nist.gov/jarvis/databases/",
+        "https://jarvis.nist.gov/optimade/jarvisdft/",
+        "https://pages.nist.gov/jarvis/databases/",
+        "https://ndownloader.figshare.com/files/38521619",
+        "https://doi.org/10.1038/s41524-020-00440-1"
+      ],
+      "audit_status": "existing_dataset"
+    },
+    {
+      "label": "ANI-1x — ANI-1x Active-Learning Molecular Dataset",
+      "url": "https://matbench-discovery.materialsproject.org/data/ani-1x",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://github.com/aiqm/ANI1x_datasets"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 5000000,
+      "reported_materials": 64000,
+      "reported_access": "public",
+      "original_urls": [
+        "https://github.com/aiqm/ANI1x_datasets",
+        "https://springernature.figshare.com/articles/dataset/ANI-1x_Dataset_Release/10047041",
+        "https://doi.org/10.1038/s41597-020-0473-z"
+      ],
+      "audit_status": "new_resource"
+    },
+    {
+      "label": "QM9 — Quantum Chemistry of 134 Thousand Small Organic Molecules",
+      "url": "https://matbench-discovery.materialsproject.org/data/qm9",
+      "section": "Matbench Discovery dataset directory / Training data / Related resource",
+      "scope": "adjacent",
+      "catalog_ids": [],
+      "resource_urls": [
+        "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904"
+      ],
+      "note": "Existing catalog record covers this named dataset family; source-page version and denominator remain explicit.",
+      "reported_structures": 133885,
+      "reported_materials": 133885,
+      "reported_access": "public",
+      "original_urls": [
+        "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904",
+        "https://springernature.figshare.com/articles/dataset/Data_for_133885_GDB-9_molecules/1057646",
+        "https://doi.org/10.1038/sdata.2014.22"
+      ],
+      "audit_status": "new_resource"
+    }
+  ]
+}

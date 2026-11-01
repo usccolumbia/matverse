@@ -1,0 +1,306 @@
+{
+  "checked": "2026-11-01",
+  "cache_ignored": true,
+  "receipts": [
+    {
+      "file": "te_materials.xlsx",
+      "url": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.xlsx",
+      "status": 200,
+      "bytes": 11870,
+      "sha256": "71019ba0dd5f150731ed4bb01f5c6cc84f39c7d642976124a787069e5156f486"
+    },
+    {
+      "file": "te_module.xlsx",
+      "url": "https://gdr.openei.org/files/692/SR-Novus%20TE%20Module%20Summary.xlsx",
+      "status": 200,
+      "bytes": 9473,
+      "sha256": "76280045843d741a3e245b4566a24dbb2e03ca3bd721d969f1a5f559f315bad4"
+    },
+    {
+      "file": "te_methods.docx",
+      "url": "https://gdr.openei.org/files/692/SR%20Thermoelectric%20Materials.docx",
+      "status": 200,
+      "bytes": 147960,
+      "sha256": "468423cfc559c6b5590c070c519012b177e6b9fd78856ec364f9cb2345653f80"
+    },
+    {
+      "file": "foam_dma_framework.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/data_framework_DMA.txt",
+      "status": 200,
+      "bytes": 2502,
+      "sha256": "9ca9bb8c3dab6dbb6525f303029dc05e967694e13600f3762f9044eee296ecbe"
+    },
+    {
+      "file": "foam_dma_notes.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/EVA1/EVA1_notes_DMA_data.txt",
+      "status": 404,
+      "bytes": 179,
+      "sha256": "c0497d6146ce26139cb9fb30a2720c565eb88b08b7a3922c93fa795ed3387ebf"
+    },
+    {
+      "file": "absorber_README.txt",
+      "url": "https://data.nist.gov/od/ds/mds2-2911/README.txt",
+      "status": 200,
+      "bytes": 7829,
+      "sha256": "19467fd7cb303ecf1f5cb702be162705c391418305fba18286b27ff8fac1a319"
+    },
+    {
+      "file": "absorber_fig7a.csv",
+      "url": "https://data.nist.gov/od/ds/mds2-2911/Figure%207a.csv",
+      "status": 200,
+      "bytes": 63441,
+      "sha256": "b1a98f1fcb2ddb0b91798dfc303c3cb3812d6c28a64ca02254e0ba8c5c56aa8d"
+    },
+    {
+      "file": "pbia_README.txt",
+      "url": "https://data.nist.gov/od/ds/mds2-2123/copolymer_PPTA_readme.txt",
+      "status": 200,
+      "bytes": 5730,
+      "sha256": "b7721d49b1dc8114f93b3ef4b8d7b21836af063b3dcf8d8d8190884fd6a751fb"
+    },
+    {
+      "file": "dp_readme.txt",
+      "url": "https://data.nist.gov/od/ds/mds2-3877/DPAL_README.txt",
+      "status": 200,
+      "bytes": 4517,
+      "sha256": "50564e4f602483517f3de1f15f93c8dd6ccdc57cac017b84810776b8ddf11c44"
+    },
+    {
+      "file": "eaf.zip",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1531971/OneDrive_1_1-31-2025%20%281%29.zip",
+      "status": 200,
+      "bytes": 9662778,
+      "sha256": "254798a7fc1870b55fb0f715e7ff2966038c8627c2fb60a9838c340e0da0de86"
+    },
+    {
+      "file": "nist_license.html",
+      "url": "https://www.nist.gov/open/license",
+      "status": 200,
+      "bytes": 93730,
+      "sha256": "3f161b9a110df81779da7f01736612dd09e7886a5ad741a8bff3d1cc5adef4ca"
+    },
+    {
+      "file": "bls_switchable_readme.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4059/4059_ReadMe_20260421.txt",
+      "status": 200,
+      "bytes": 33227,
+      "sha256": "ecaf3ce1dbd13477be6c38765b2dce876386d9b972011fcd118422970e0dfc0c"
+    },
+    {
+      "file": "bls_dual_readme.txt",
+      "url": "https://data.nist.gov/od/ds/mds2-3725/ReadMe_20260427.txt",
+      "status": 200,
+      "bytes": 16132,
+      "sha256": "0790efe1cd8f52bd29492693a6e9ec52094c8757bafbc6b11703a4199bed36b6"
+    },
+    {
+      "file": "ud_readme.txt",
+      "url": "https://data.nist.gov/od/ds/8B3BFE0480BD4943E053245706812C692078/UD_tensile_strip_readme.txt",
+      "status": 200,
+      "bytes": 5226,
+      "sha256": "d2af3a6c6685bc7449e02670386760ea8cf09ba2762bb24651fa3d4e9b83ad92"
+    },
+    {
+      "file": "nir_dictionary.csv",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/DataDictionary.csv",
+      "status": 200,
+      "bytes": 13146,
+      "sha256": "7cc3a26d030ed27e734a67ba4992657c2fe6b1b98a7a9c4416e4d9c0bdac63bb"
+    },
+    {
+      "file": "nir_framework.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/DataFramework.txt",
+      "status": 200,
+      "bytes": 7626,
+      "sha256": "a4ff8f297eaf99deb14d816b35536f397be0ab1913c225c931529e5deccf8774"
+    },
+    {
+      "file": "nir_license.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/license.txt",
+      "status": 200,
+      "bytes": 4809,
+      "sha256": "c180dbc78441932db7ddd36aa2637ba852f8af6339cc635c376e1b5405e63240"
+    },
+    {
+      "file": "foam_VN01_notes.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/VN01/VN01_notes_DMA_data.txt",
+      "status": 200,
+      "bytes": 1245,
+      "sha256": "f032d12acc423abddd3a037a0b83cde38539bb9200b51fa3d188bd90dbec263d"
+    },
+    {
+      "file": "epalic.html",
+      "url": "https://pasteur.epa.gov/license/sciencehub-license.html",
+      "status": 200,
+      "bytes": 2662,
+      "sha256": "5a92f2b7af009d5dea272a6701ad2a63f22e5f772d0f89f50255e994433fdd11"
+    },
+    {
+      "file": "bls_modulus.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4059/Fig4/Fig4d_Youngs_modulus.txt",
+      "status": 200,
+      "bytes": 5576,
+      "sha256": "5f2ab1b4e71d1ba1f1379067c40352144f00fb939c65e6fbd44dcdbbeb18475f"
+    },
+    {
+      "file": "bls_spectrum.txt",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3725/Fig2/Fig2_data.txt",
+      "status": 200,
+      "bytes": 160912,
+      "sha256": "7bfcf6bac0bf92783d025706424f712a7e36216fa933b312ecfe31c3fee593f2"
+    },
+    {
+      "file": "nir_samples.csv",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-3325/SampleInformation.csv",
+      "status": 200,
+      "bytes": 7395,
+      "sha256": "dd5dbc1592e8c14eddb25827407901f4693d2bb25d40f00ae18e3c153713c156"
+    },
+    {
+      "file": "foam_VN01_notes.sha256",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-2606/DMA_data/VN01/VN01_notes_DMA_data.txt.sha256",
+      "status": 200,
+      "bytes": 64,
+      "sha256": "914e077d57e6116790ee72fb913d8eb874e916ca323601430294bf2b6cfeaf3d"
+    },
+    {
+      "file": "bls_switchable_readme.sha256",
+      "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4059/4059_ReadMe_20260421.txt.sha256",
+      "status": 200,
+      "bytes": 64,
+      "sha256": "44775263569b90a2b03a7b0f50ac6ff1e47ece334ba9dce9ab71c12799e5bbbe"
+    },
+    {
+      "file": "lcm_dynamic.xlsx",
+      "url": "https://gdr.openei.org/files/1449/HT%20Dyn%20LCM%20Water_1000m_120F.xlsx",
+      "status": 200,
+      "bytes": 21147,
+      "sha256": "96deec85eab328d4881e0fe29942225f0b5c6d0e694eec1790352f333b56a35f"
+    },
+    {
+      "file": "lcm_degradation.xlsx",
+      "url": "https://gdr.openei.org/files/1660/DegradationTest_Information.xlsx",
+      "status": 200,
+      "bytes": 118186,
+      "sha256": "87f48390d346e2396fa7084d7f1f438e03b92706700588e1d32d401be3514d67"
+    },
+    {
+      "rank": 43,
+      "url": "https://catalog.data.gov/dataset/a-materials-properties-dataset-for-elastomeric-foam-impact-mitigating-materials",
+      "status": 200,
+      "sha256": "9d003ba839aead4bcd0fe9e3db12e8831128fd60253804d8856318caf3efabc6"
+    },
+    {
+      "rank": 92,
+      "url": "https://catalog.data.gov/dataset/broadband-electromagnetic-properties-of-engineered-flexible-absorber-materials",
+      "status": 200,
+      "sha256": "693db87018406108d5835c2f98d5686dc82c96c40f874161be3876ecc8db6ba7"
+    },
+    {
+      "rank": 99,
+      "url": "https://catalog.data.gov/dataset/thermoelectric-materials-development-for-low-temperature-geothermal-power-generation",
+      "status": 200,
+      "sha256": "e25bbc7983f45f87fb22482f18d3b2d9744444ee741838f904f2b176c1c6245c"
+    },
+    {
+      "rank": 172,
+      "url": "https://catalog.data.gov/dataset/data-for-a-switchable-longitudinal-shear-bls-microscope-for-comprehensive-modulus-imaging-of-semiconductor-packaging-materials",
+      "status": 404,
+      "sha256": "bed997b1e0991b2aa340a630213e23b9ca51b90c4c8e8f434e132e5928162b2b"
+    },
+    {
+      "rank": 196,
+      "url": "https://catalog.data.gov/dataset/data-for-a-dual-mode-brillouin-low-frequency-raman-spectroscopy-microscope-for-local-mechanical-property-imaging-for-semiconductor-packaging-materials",
+      "status": 404,
+      "sha256": "476746381d5386cb76736fadd3af3ba6789372a54fc4e1d1232b9ee6d954d575"
+    },
+    {
+      "rank": 247,
+      "url": "https://catalog.data.gov/dataset/aged-and-unaged-pbia-based-copolymer-testing-for-soft-body-armor-applications",
+      "status": 200,
+      "sha256": "21470ecd1ce60262d83e95562adfc187d6cdb6aad055fa70faa7eee685174eaf"
+    },
+    {
+      "rank": 298,
+      "url": "https://catalog.data.gov/dataset/data-of-high-temperature-dynamic-lcm-testing-setup",
+      "status": 200,
+      "sha256": "382908572a74c692a3752c1afdcebe82df3f10caceb33c35501160f404d44c26"
+    },
+    {
+      "rank": 311,
+      "url": "https://catalog.data.gov/dataset/aged-and-unaged-flexible-unidirectional-composite-laminate-tensile-testing-for-soft-body-armor-applications",
+      "status": 404,
+      "sha256": "66ca57d991ac31069247b86a75eb01f92d6a8503c37bb898e885568373da7cf1"
+    },
+    {
+      "rank": 70,
+      "url": "https://catalog.data.gov/dataset/lost-circulation-materials-in-geothermal-drilling-thermal-degradation-viscosity-compression-and-flow-loop-tests",
+      "status": 404,
+      "sha256": "2687eb7292d45130b34f63198ac11ae9d9078117c2c88b1e0c29e0dfa7421469"
+    },
+    {
+      "rank": 167,
+      "url": "https://catalog.data.gov/dataset/dynamic-polymer-annotated-library",
+      "status": 200,
+      "sha256": "8c1a246b7972210e0c910f0416bd8b6e5d7a5ba05a921e630baf31e0400b4d95"
+    },
+    {
+      "rank": 168,
+      "url": "https://catalog.data.gov/dataset/data-for-advanced-metrology-suite-for-linking-residual-stress-to-fundamental-properties-of-thermoset-packaging-materials",
+      "status": 404,
+      "sha256": "a8eb9c57965bed487683a623af6d8aa01c281f10a77edcd3f6fa2dc26c6ad583"
+    },
+    {
+      "rank": 234,
+      "url": "https://catalog.data.gov/dataset/near-infrared-spectra-of-origin-defined-and-real-world-textiles-nir-sort-a-spectroscopic-and-materials-characterization-dataset-for-known-provenance-and-post-consumer-fabrics",
+      "status": 404,
+      "sha256": "5789853ab1de7483a44039974ed0455fb23f27d9d8d6cb47e9b703c7403d0ebd"
+    },
+    {
+      "rank": 267,
+      "url": "https://catalog.data.gov/dataset/eaf-slag-characterization",
+      "status": 200,
+      "sha256": "9ede242e9052a0f9fdcca6d2a09ae8806f82c88d267d382ec97b6b8da02cb5b7"
+    },
+    {
+      "rank": 172,
+      "url": "https://catalog.data.gov/dataset/data-for-a-switchable-longitudinal-shear-bls-microscope-for-comprehensive-modulus-imaging--c473d",
+      "status": 200,
+      "sha256": "4b3dd23ed3bf72957d2a87e4914076662ecb1d07fbe4a8abee10553d7a4a8abc"
+    },
+    {
+      "rank": 196,
+      "url": "https://catalog.data.gov/dataset/data-for-a-dual-mode-brillouin-low-frequency-raman-spectroscopy-microscope-for-local-mecha-99ad6",
+      "status": 200,
+      "sha256": "0c28620055ceb5b6e3ed8e8662bd22086b9c90ed6f13def9a224ac0cea5da81c"
+    },
+    {
+      "rank": 311,
+      "url": "https://catalog.data.gov/dataset/aged-and-unaged-flexible-unidirectional-composite-laminate-tensile-testing-for-soft-body-a",
+      "status": 200,
+      "sha256": "c013b2335aa44634fead71e8ed17f7599c91650c74132f51474d51957b75704d"
+    },
+    {
+      "rank": 70,
+      "url": "https://catalog.data.gov/dataset/lost-circulation-materials-in-geothermal-drilling-thermal-degradation-viscosity-compressio",
+      "status": 200,
+      "sha256": "89e664cf58bef638e84d8e748d998e68f16a9428b32988ef0e20a950892aece0"
+    },
+    {
+      "rank": 168,
+      "url": "https://catalog.data.gov/dataset/data-for-advanced-metrology-suite-for-linking-residual-stress-to-fundamentalproperties-of--43ee8",
+      "status": 200,
+      "sha256": "8fc6669fcff68859f9e6f45103498c4c5da6fae5e6f6eef9e3dbb505446f5040"
+    },
+    {
+      "rank": 234,
+      "url": "https://catalog.data.gov/dataset/near-infrared-spectra-of-origin-defined-and-real-world-textiles-nir-sort-a-spectroscopic-a",
+      "status": 200,
+      "sha256": "c2e363646fefd0c7aa429d8327494232455f84ea9e27f87e9dee788305b54327"
+    }
+  ],
+  "provider_hash_matches": [
+    "foam_VN01_notes.txt",
+    "bls_switchable_readme.txt"
+  ]
+}

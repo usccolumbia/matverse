@@ -1,0 +1,51 @@
+[
+  {
+    "name": "hex",
+    "file": "HEX.zip",
+    "url": "https://ndownloader.figshare.com/files/45020533",
+    "status": 200,
+    "bytes": 624878,
+    "sha256": "cfb0bcdc63dcb862395c9bfb77492937ae8fd1023690dba927274c91a7e548fc",
+    "md5": "3dbe27c52fc2ace0ef5c2f65a2535b61",
+    "provider_md5": "3dbe27c52fc2ace0ef5c2f65a2535b61",
+    "names_sample": [
+      "HEX/",
+      "HEX/.DS_Store",
+      "__MACOSX/HEX/._.DS_Store",
+      "HEX/HEX/",
+      "__MACOSX/HEX/._HEX",
+      "HEX/Evolutionary/",
+      "HEX/HEX/.DS_Store",
+      "__MACOSX/HEX/HEX/._.DS_Store",
+      "HEX/HEX/DB_MISS/",
+      "HEX/HEX/DB_EA/",
+      "__MACOSX/HEX/HEX/._DB_EA",
+      "HEX/HEX/DB_GS/",
+      "HEX/Evolutionary/INCAR_1",
+      "__MACOSX/HEX/Evolutionary/._INCAR_1",
+      "HEX/Evolutionary/INCAR_4"
+    ],
+    "naive_cif_member_count": 914,
+    "real_cif_count_excluding_resource_forks": 457,
+    "real_counts_by_subset": {
+      "DB_GS": 228,
+      "DB_EA": 228,
+      "DB_MISS": 1
+    }
+  },
+  {
+    "name": "mip3d",
+    "file": "MIP-3d.json",
+    "url": "https://ndownloader.figshare.com/files/26404763",
+    "status": 200,
+    "bytes": 19578745,
+    "sha256": "b286424ccc54517da654bdd265dd8e05af3264060db2dee6cbc9250fa278bb79",
+    "md5": "98800c04eb73f75079cc9bef1382a425",
+    "provider_md5": "98800c04eb73f75079cc9bef1382a425",
+    "container_type": "<class 'dict'>",
+    "len": 1,
+    "keys_sample": [
+      "RECORDS"
+    ]
+  }
+]

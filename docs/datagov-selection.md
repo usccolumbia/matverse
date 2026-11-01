@@ -1,0 +1,47 @@
+# Selected materials datasets from Data.gov
+
+[Back to MatVerse](../README.md) · [Search the shortlist](https://usccolumbia.github.io/matverse/?q=Data.gov-selection-20261101) · [All attached search hits](https://usccolumbia.github.io/matverse/?view=sources&collection=datagov_20261101)
+
+Checked November 1, 2026. The supplied attachment contains **320 result occurrences / 263 distinct titles**; all 320 were matched to actual Data.gov catalog links. The search reports 2,469 total hits. This audit covers the attachment and primary-source checks of the shortlist, rather than a full audit of all 2,469 results.
+
+## Selection and reuse
+
+The selection asked which entries provide reusable materials-property data, whether their units and counting objects are explicit, and whether provenance, access and rights support the intended reuse. Reference-data, experimental-metrology and applied-property passes followed catalog records to provider documentation and selected payloads. Large volumes alone did not establish quality.
+
+**Eight new dataset entries** are added, alongside the already cataloged NIST adsorption database. **Eighteen adjacent or conditional resources** remain outside the crystal-dataset ranking. Data.gov metadata dates are separate from measurement and release dates.
+
+For a structured reference benchmark, the USGS RockJock library supplies calibrated XRD patterns and reference intensity ratios; the IUPAC solid–liquid collection supplies source identifiers, units and acceptance flags. For thermal-property work, the cryogenic database supplies validity ranges and fit errors, whereas SRD 81 supplies historical measurement rows with incomplete uncertainties and unit conventions requiring confirmation. These data answer different questions and should not be pooled as interchangeable lattice-conductivity targets.
+
+The hafnia release provides controlled wafer/instrument context and raw metrology, with preliminary optical fits rather than certified reference values. The Ruddlesden–Popper dielectric release combines measured property tables and supporting computed structures. MgO atom-probe data provide ten measurement-condition spectra of one material. SRD 30 provides evaluated structural-ceramics data, with evaluation status and vintage varying across properties.
+
+## Shortlist
+
+| Dataset | Counted volume | Main reuse qualification |
+|---|---:|---|
+| [NIST Heat Transmission Properties of Insulating and Building Materials (SRD 81)](catalog/experimental_properties.md#nist-srd81-insulation) | 2,175 measurement records | Historical data last updated 1983; confirm API SI/IP units; many missing uncertainties. |
+| [NIST Cryogenic Materials Property Database](catalog/experimental_properties.md#nist-cryogenic-materials) | Unranked material/property records | Temperature-dependent correlations and fit errors; no verified global record count. |
+| [NIST Structural Ceramics Database (SRD 30)](catalog/experimental_properties.md#nist-structural-ceramics-srd30) | Unranked material/property records | Evaluated and unevaluated properties differ; data vintage and reuse terms matter. |
+| [USGS updated geologic-materials XRD reference library](catalog/diffraction_spectroscopy.md#usgs-rockjock-xrd-2021) | 156 pure-material reference diffractograms | Reference patterns with RIR/source metadata; 156 pattern columns, not 156 generic populations. |
+| [NIST hafnia-on-silicon planar film metrology set](catalog/experimental_properties.md#nist-hafnia-planar-reference-2025) | 12 200mm hafnia-coated silicon wafers | Twelve wafers across four runs; preliminary fits are not certified uncertainty. |
+| [NIST MgO ultraviolet atom-probe mass spectra](catalog/diffraction_spectroscopy.md#nist-mgo-apt-spectra) | 10 mass-spectrum condition files | Ten spectra/conditions for one MgO material. |
+| [NIST targeted-chemical-pressure Ruddlesden–Popper dielectric data](catalog/experimental_properties.md#nist-rp-chemical-pressure-dielectrics) | Unranked material samples | Separate measured tables from supporting DFT/CIF models. |
+| [IUPAC solid–liquid equilibrium reference observations](catalog/experimental_properties.md#iupac-solid-liquid-reference-2023) | 3,446 released SLE observations | 3,425 accepted and 21 rejected observations; filter status before training. |
+| [NIST/ARPA-E adsorption isotherm database (NIST-ISODB)](catalog/experimental_properties.md#nist-isodb) | 37,703 adsorption isotherms | Existing catalog entry; adsorption observations overlap source publications. |
+
+## Resources and deferred data
+
+Polymer foam mechanics, electromagnetic absorbers, textile spectroscopy, polymer aging, composite testing, slag leaching and lost-circulation experiments remain searchable resources because their scientific usefulness extends beyond the present crystal scope. Sandia hydrogen compatibility and NIST ceramic phase diagrams are valuable references with different formats and access terms.
+
+CAMEO’s four demonstration arrays were byte-identical to the existing REMI Fe–Ga–Pd data, so no new dataset count was added. The Zn–Sn–Ti–O interlaboratory release has useful uncertainty comparisons, but its analysis archive depends on an external HTE registry and the legacy raw archive was unavailable. It remains a conditional resource.
+
+The small geothermal thermoelectric development tables contain 19 specimen rows and ten module rows. Missing per-row temperature/stoichiometry/uncertainty, density inconsistencies and a module resistance-unit issue prevent treating them as a broadly reusable priority training set. Their source remains discoverable as a conditional resource.
+
+Public access, government hosting and open-access papers do not by themselves settle third-party data redistribution rights. Dataset cards preserve verified rights and unresolved terms separately.
+
+## Evidence and limits
+
+[Integration receipt](../research/datagov_20261101/integration_receipt.json) · [All 320 screening dispositions](../research/datagov_20261101/candidate_screening.json) · [Literal-title crosswalk](../research/datagov_20261101/attachment_catalog_crosswalk.json)
+
+[Reference-data checks](../research/datagov_20261101/reference/notes.md) · [Metrology payload checks](../research/datagov_20261101/metrology/notes.md) · [Applied-data checks](../research/datagov_20261101/applied/notes.md) · [IUPAC recount](../research/datagov_20261101/coordinator/iupac_count_receipt.json)
+
+Unselected attachment hits received title/summary screening unless a primary-source audit is explicitly recorded. Their presence in the source inventory is not an endorsement, a verified count, or a confirmation of ongoing payload access.

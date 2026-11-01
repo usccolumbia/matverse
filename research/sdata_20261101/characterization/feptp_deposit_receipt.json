@@ -1,0 +1,33 @@
+{
+  "name": "feptp",
+  "url": "https://api.figshare.com/v2/articles/30759095",
+  "status": 200,
+  "raw_file": "research/cache/sdata_characterization/feptp_deposit.json",
+  "sha256": "fda91c10d936b64f1b490c0a5828b0a9c6f342194d5931b9fe3ad1ee9588ad0b",
+  "title": "FePTP: A text-mined dataset of transformation pathways among iron-containing phases",
+  "doi": "10.6084/m9.figshare.30759095.v2",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "version": 2,
+  "publication_date": null,
+  "access_right": null,
+  "file_count": 2,
+  "total_file_bytes": 20291574,
+  "file_examples": [
+    {
+      "name": "extended_mineral_glossary.json",
+      "bytes": 574213,
+      "checksum": "4268e4ec78cfcbf063b020e146e2b717",
+      "url": "https://ndownloader.figshare.com/files/61829383"
+    },
+    {
+      "name": "pathways.jsonl",
+      "bytes": 19717361,
+      "checksum": "5018985a223fe8e5704cf77d5b9a6e62",
+      "url": "https://ndownloader.figshare.com/files/61829386"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-01",
+  "endpoint": "https://search.api.globus.org/v1/index/1a57bbe5-5272-477f-9d31-343b8258b7a5/search",
+  "method": "POST (read-only search)",
+  "origin": "Public search request shape and index ID inspected in the supplied MDF search page client code; no credentials used.",
+  "queries": [
+    {
+      "query": {
+        "q": "elastic AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 16,
+      "returned": 16,
+      "sha256": "f0cb585a93e73ec89b0b01c995ca6007a393c567dece7da2c1390968bd7e13d8",
+      "bytes": 55586,
+      "term": "elastic"
+    },
+    {
+      "query": {
+        "q": "thermal AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 37,
+      "returned": 37,
+      "sha256": "ef4d5141bf4e3edbd4ad8698a1565e6b6d90dedb8e63810d0df8c4125eced1cd",
+      "bytes": 150121,
+      "term": "thermal"
+    },
+    {
+      "query": {
+        "q": "band AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 30,
+      "returned": 30,
+      "sha256": "5dd486ad380ac6509914f42b9812961fd6f34c70e7c9706271cca7e792dda1de",
+      "bytes": 112573,
+      "term": "band"
+    },
+    {
+      "query": {
+        "q": "dielectric AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 17,
+      "returned": 17,
+      "sha256": "a738f5eb1b64afaf549657749a7eb0504f4e9b808b368d9f9ccc2e05562eedff",
+      "bytes": 59693,
+      "term": "dielectric"
+    },
+    {
+      "query": {
+        "q": "mechanical AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 56,
+      "returned": 56,
+      "sha256": "cc1d45cf06306539bba0114d2b43f65665a545a4f0174c50745ce31056bd090d",
+      "bytes": 202279,
+      "term": "mechanical"
+    },
+    {
+      "query": {
+        "q": "diffusion AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 88,
+      "returned": 88,
+      "sha256": "f98d0c313ea001ec3e16c2a35ecfa39c2df3fa584b486c5ea5e882a4275cd0e5",
+      "bytes": 305791,
+      "term": "diffusion"
+    },
+    {
+      "query": {
+        "q": "thermoelectric AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 5,
+      "returned": 5,
+      "sha256": "00cad3d58daa48e51014bca082ef0e6d828320f0a617215efce0f2cfcde16731",
+      "bytes": 35452,
+      "term": "thermoelectric"
+    },
+    {
+      "query": {
+        "q": "magnetic AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 31,
+      "returned": 31,
+      "sha256": "250ec26b3f260c5fde30c74bf538609ccdfea43cc227b49b482b8fbe82d97b86",
+      "bytes": 140316,
+      "term": "magnetic"
+    },
+    {
+      "query": {
+        "q": "piezoelectric AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 3,
+      "returned": 3,
+      "sha256": "756eb1263ed5fe006d4714dfd5a77b4b73fe301917b4fe73b26d084538fe8bb2",
+      "bytes": 9913,
+      "term": "piezoelectric"
+    },
+    {
+      "query": {
+        "q": "photovoltaic AND (mdf.resource_type:dataset)",
+        "limit": 100,
+        "offset": 0,
+        "advanced": true
+      },
+      "status": 200,
+      "total": 2,
+      "returned": 2,
+      "sha256": "8ff99f15e04e5af59e5b8f626cde2d50295be09b25ec4fcb8ca1a735cbf3a7d8",
+      "bytes": 7772,
+      "term": "photovoltaic"
+    }
+  ],
+  "distinct_subjects": 244,
+  "new_dataset_ids": [
+    "mdf-experimental-band-gaps",
+    "mdf-assorted-computed-band-gaps",
+    "mdf-double-perovskite-bandgaps",
+    "mdf-perovskite-opband",
+    "mdf-heusler-magnetization",
+    "mdf-semiconductor-defectlevels",
+    "mdf-wolverton-oxides",
+    "mdf-steel-strength"
+  ],
+  "metadata_only": true
+}

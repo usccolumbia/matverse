@@ -1,0 +1,4260 @@
+{
+  "mode": "search",
+  "query": "lattice thermal conductivity high throughput database",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Symmetry-Based Parameter Efficient Low-Rank Fine-Tuning for High-Throughput Calculation of Lattice Thermal Conductivity",
+      "authors": [
+        "Rustam Arabov",
+        "Konstantin Sozykin",
+        "Alexander Shapeev",
+        "Nikita Rybin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Rustam Arabov",
+          "orcid": null,
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Konstantin Sozykin",
+          "orcid": "0000-0003-3321-7399",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Shapeev",
+          "orcid": null,
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nikita Rybin",
+          "orcid": null,
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.29634",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2610.29634",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2610.29634",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Accurate and efficient prediction of lattice thermal conductivity (LTC) is essential for developing materials for thermoelectric, microelectronic, and photovoltaic applications. Here, we present a methodology for high-throughput calculation of LTC across large datasets of compounds sharing a common crystal symmetry. Our approach combines fine-tuning of the MatterSim 1M universal machine-learned interatomic potential with LTC calculations based on the solution of the Boltzmann transport equation. We introduce a symmetry-based few-shot fine-tuning strategy (SBFS-FT) based on low-rank adaptation. In this approach, MatterSim 1M is fine-tuned on a small, carefully selected set of compounds that share a common crystal symmetry. The resulting potential is then applicable for accurate LTC calculations for compounds with this crystal symmetry, even if they were not included in the fine-tuning set. We tested our methodology on datasets of half-Heusler compounds (space group 216), materials with space group 225, and spinels (space group 227). We demonstrated that LTC calculations with MatterSim 1M fine-tuned using SBFS-FT exhibited a mean absolute relative difference from the reference results (obtained using moment tensor potentials and polyMLPs) 2-3 times smaller than that achieved with the non-fine-tuned MatterSim 1M potential. Moreover, the accuracy of LTC calculations with MatterSim 1M after SBFS-FT was comparable to that achieved using the MatterSim 1M potentials individually fine-tuned for each compound. Importantly, SBFS-FT enabled generation of the potential suitable for accurate LTC calculations across large compound datasets substantially faster than fine-tuning of MatterSim 1M for each compound individually, reducing the computational time by approximately a factor of 5-7 for a dataset of 100 compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Machine Learning Discovery of Record‐Low Lattice Thermal Conductivity in Double Perovskites",
+      "authors": [
+        "Md Zaibul Anam",
+        "Alejandro David Rodriguez",
+        "Riccardo Rurali",
+        "Ming Hu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Md Zaibul Anam",
+          "orcid": "0009-0004-1318-5080",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alejandro David Rodriguez",
+          "orcid": "0000-0001-6219-382X",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Riccardo Rurali",
+          "orcid": "0000-0002-4086-4191",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Hu",
+          "orcid": "0000-0002-8209-0139",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Science",
+      "doi": "10.1002/advs.202515766",
+      "type": "article",
+      "url": "https://doi.org/10.1002/advs.202515766",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202515766",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Double perovskites (ABC 2 D 6 ) are versatile materials with applications in photovoltaics, optoelectronics, and thermoelectrics, where phonon‐mediated thermal transport is critical. However, high‐throughput phonon calculations by density functional theory (DFT) are computationally prohibitive due to the large supercells required. We develop a deep learning interatomic potential, Elemental‐SDNNFF, trained directly on DFT‐calculated forces within an active learning framework, enabling efficient prediction of phonon properties across thousands of double perovskites. Using this model, we screened 9709 cubic double perovskite structures, identifying 1597 dynamically stable candidates. Their lattice thermal conductivities (LTCs) were predicted by coupling Elemental‐SDNNFF with the Boltzmann Transport Equation, including off‐diagonal contributions. For the most promising compounds, DFT validation and four‐phonon scattering calculations revealed ultralow LTCs (<0.1 Wm −1 K −1 ). Remarkably, Cs 2 HgPtCl 6 was found to possess a bandgap of 0.35 eV and an LTC of 0.071 Wm −1 K −1 at room temperature—the lowest ever reported for isotropic bulk materials, comparable to air. The result was independently confirmed by molecular dynamics simulations with a DeePMD potential and phonon lifetime extraction using DynaPhoPy. This work establishes an efficient machine learning‐assisted framework for fast screening of dynamic stability and accurate prediction of phonon transport in complex materials, highlighting double perovskites as Double Perovskites, High‐Throughput DFT, Machine Learning, Phonon Boltzmann Transport, Record‐Low Lattice Thermal Conductivity promising candidates for thermoelectric and thermal insulation applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Two-stage transfer learning for deep learning-based prediction of lattice thermal conductivity",
+      "authors": [
+        "L. Klochko",
+        "Mathieu d’Aquin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "L. Klochko",
+          "orcid": "0000-0003-2468-8738",
+          "affiliations": [
+            "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mathieu d’Aquin",
+          "orcid": "0000-0001-7276-4702",
+          "affiliations": [
+            "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Chemistry Chemical Physics",
+      "doi": "10.1039/d5cp04401d",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5cp04401d",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2026/cp/d5cp04401d",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": ") and show that significant improvements in predicting high-quality approximations of LTC are obtained through applying transfer learning twice: once on the basis of a pre-training of the model on a large number of materials for a different task (predicting formation energy), and a second time using a medium size dataset (a few thousand materials) of low-quality approximations of LTC (based on the AGL workflow). In other words, greater precision and robustness is obtained after a final training (fine-tuning) of the twice pre-trained model with our high-quality, smaller-scale dataset. We also analyze results obtained from using this higher-precision deep-learning model to scan large numbers of materials from the Material Project Database, in search of low-thermal-conductivity compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Fast and accurate prediction of lattice thermal conductivity via machine learning surrogates",
+      "authors": [
+        "Zeyu Wang",
+        "Shuya Yamazaki",
+        "Martin Hoffmann Petersen",
+        "Masato Ohnishi",
+        "Tomiya Yamamoto",
+        "Wei Nong",
+        "Jianghai Wang",
+        "Ruiming Zhu",
+        "Masatoshi Hanai",
+        "Michimasa Morita",
+        "Toyotaro Suzumura",
+        "Zekun Ren",
+        "Junichiro Shiomi",
+        "Kedar Hippalgaonkar"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Zeyu Wang",
+          "orcid": "0009-0009-5993-8187",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuya Yamazaki",
+          "orcid": "0009-0004-5649-4756",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Hoffmann Petersen",
+          "orcid": "0000-0001-5840-1796",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masato Ohnishi",
+          "orcid": "0000-0002-4889-4061",
+          "affiliations": [
+            "The Institute of Statistical Mathematics",
+            "Research Organization of Information and Systems",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomiya Yamamoto",
+          "orcid": "0009-0005-6099-5040",
+          "affiliations": [
+            "Nara Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Nong",
+          "orcid": "0000-0002-6838-7155",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianghai Wang",
+          "orcid": "0009-0008-6244-7330",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruiming Zhu",
+          "orcid": "0009-0000-2270-2669",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masatoshi Hanai",
+          "orcid": "0000-0002-0054-787X",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michimasa Morita",
+          "orcid": "0009-0007-0345-7267",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Toyotaro Suzumura",
+          "orcid": "0000-0001-6412-8386",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zekun Ren",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junichiro Shiomi",
+          "orcid": "0000-0002-3552-4555",
+          "affiliations": [
+            "RIKEN Center for Advanced Intelligence Project",
+            "The Institute of Statistical Mathematics",
+            "Research Organization of Information and Systems",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kedar Hippalgaonkar",
+          "orcid": "0000-0002-1270-9047",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d6dd00278a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d6dd00278a",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/dd/article-pdf/doi/10.1039/D6DD00278A/14872259/d6dd00278a.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The appearance of generative models has opened vast chemical spaces in the design of functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Tuning magnitude and direction of lattice thermal conductivity in transition metal dichalcogenide heterobilayers",
+      "authors": [
+        "Elliot Perviz",
+        "Antonio Cammarata"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Elliot Perviz",
+          "orcid": "0000-0002-0348-8369",
+          "affiliations": [
+            "Czech Technical University in Prague"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antonio Cammarata",
+          "orcid": "0000-0002-5691-0682",
+          "affiliations": [
+            "Czech Technical University in Prague"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "2D Materials",
+      "doi": "10.1088/2053-1583/aeaa68",
+      "type": "article",
+      "url": "https://doi.org/10.1088/2053-1583/aeaa68",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1088/2053-1583/aeaa68/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract We investigate the nanoscale mechanisms determining in-plane lattice thermal conductivity (LTC) of pristine and W-doped MX 2 –M ′ X 2 ′ transition metal dichalcogenide heterobilayers from first principles, using the exact solution of the linearised Boltzmann transport equation in both phonon and relaxon bases. For the W-doped systems, we evaluate the anharmonic force constants using machine-learning potentials trained on first-principles data. Pristine heterobilayers exhibit isotropic LTC with preserved ordering across temperature. Under nearest-neighbour chalcogen substitution the LTC follows the ordering Te < Se < S; relaxon analysis further links the LTC and viscosity to harmonic phonon descriptors including phonon mode layer localisation and cophonicity. A sufficiently large mass contrast is required to induce layer localisation of the transport-relevant phonon modes, leading to enhanced LTC. The viscosity, which correlates positively with LTC, is associated with the low-cost cophonicity descriptor. Doped heterobilayers exhibit reduced and anisotropic LTC across all temperatures, while the aforementioned descriptors no longer correlate with the LTC. We find that the direction of maximum LTC can in principle be modulated by composition and temperature, although further work is required to establish robustness of the LTC magnitude and anisotropy trends. Thanks to its general formulation the analysis protocol can be readily extended to other van der Waals heterostructures, and the descriptors may be implemented in high-throughput engines to identify promising layered materials with tailored thermal transport characteristics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "KappaFormer: Physics-aware Transformer for lattice thermal conductivity via cross-domain transfer learning",
+      "authors": [
+        "Mengfan Wu",
+        "Junfu Tan",
+        "Yu Zhu",
+        "Jie Ren"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Mengfan Wu",
+          "orcid": "0009-0005-8173-881X",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junfu Tan",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu Zhu",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Ren",
+          "orcid": "0000-0003-2806-7226",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2604.03547",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2604.03547",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2604.03547",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Machine learning has been widely used for predicting material properties. However, efficient prediction of lattice thermal conductivity ($κ_\\mathrm{L}$) remains a long-standing challenge, primarily due to the scarcity of high-quality training data. Here we introduce KappaFormer, a physics-aware Transformer architecture that embeds the harmonic-anharmonic decomposition of $κ_\\mathrm{L}$ within the network. KappaFormer comprises a harmonic branch pre-trained on large-scale elastic property data and an anharmonic branch fine-tuned on limited experimental $κ_\\mathrm{L}$ data, enabling effective knowledge transfer and enhanced generalization. High-throughput screening with KappaFormer identifies multiple candidates with ultralow $κ_\\mathrm{L}$, which are further confirmed by first-principles calculations. Physics interpretability further elucidates the vibrational mechanisms governing thermal transport suppression, linking structural motifs to strong anharmonicity. This study provides a generalizable framework for physics-guided machine learning to accelerate the discovery of new materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Accelerated discovery of extreme lattice thermal conductivity by crystal graph attention networks and chemical bonding",
+      "authors": [
+        "Mohammed Al‐Fahdi",
+        "Riccardo Rurali",
+        "Jianjun Hu",
+        "Christopher Wolverton",
+        "Ming Hu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Mohammed Al‐Fahdi",
+          "orcid": "0000-0001-5296-8433",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Riccardo Rurali",
+          "orcid": "0000-0002-4086-4191",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianjun Hu",
+          "orcid": "0000-0002-8725-6660",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Hu",
+          "orcid": "0000-0002-8209-0139",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01871-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01871-4",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01871-4_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Designing materials with targeted lattice thermal conductivity (LTC) demands electronic-level insight into chemical bonding. We introduce two bonding descriptors, namely normalized negative integrated COHP (-ICOHP) and normalized integrated COBI, that correlate strongly with LTC and rattling (mean-squared displacement), surpassing empirical rules and the unnormalized −ICOHP across >4500 inorganic crystals by first-principles. We train a crystal attention graph neural network (CATGNN) to predict these descriptors and screen ~200,000 database structures for extreme LTCs. From 367 (533) candidates with low (high) normalized -ICOHP and normalized ICOBI, first-principles validation identifies 106 dynamically stable compounds with LTC < 5 W m − 1 K − 1 (68% <2 W m − 1 K − 1 ) and 13 stable compounds with LTC > 100 W m −1 K − 1 . The descriptors’ low cost and clear physical meaning provide a rapid, reliable route to high-throughput discovery and inverse design of crystalline materials with ultralow or ultrahigh LTC for applications in thermal insulation, thermoelectrics, and electronics cooling.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Accelerated prediction of temperature-dependent lattice thermal conductivity via ensembled machine learning models",
+      "authors": [
+        "Piyush Paliwal",
+        "Aftab Alam"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Piyush Paliwal",
+          "orcid": "0000-0001-6299-2488",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aftab Alam",
+          "orcid": "0000-0001-8458-1006",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review Materials",
+      "doi": "10.1103/l92g-tkds",
+      "type": "article",
+      "url": "https://doi.org/10.1103/l92g-tkds",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2511.13202",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Lattice thermal conductivity ($κ_L$) is a key physical property governing heat transport in solids, with direct relevance to thermoelectrics, thermal barrier coatings, and heat management applications. However, while experimental determination of $κ_L$ is challenging, its theoretical calculation via ab initio methods particularly using density functional theory (DFT) is computationally intensive, often more demanding than electronic transport calculations by an order of magnitude. In this work, we present a machine learning (ML) approach to predict $κ_L$ with DFT-level accuracy over a wide temperature range (100-1000 K). Among various models trained on DFT-calculated data obtained from literature, the Extra Trees Regressor (ETR) yielded the best performance on log-scaled $κ_L$, achieving an average $R^2$ of 0.9994 and a root mean square error (RMSE) of 0.0466 $W\\,m^{-1}\\,K^{-1}$. The ETR model also generalized well to twelve previously unseen (randomly chosen) low and high $κ_L$ compounds with diverse space group symmetries, reaching an $R^2$ of 0.961 against DFT benchmarks. Notably, the model excels in predicting $κ_L$ for both low- and high-symmetry compounds, enabling efficient high-throughput screening. We also demonstrate this capability by screening ultralow and ultrahigh $κ_L$ candidates among 960 half-Heusler compounds and 60,000 ICSD compounds from the AFLOW database. This result shows reliability of model developed for screening of potential thermoelectric materials. At the end, we have tested model's prediction ability on systems that have experimental $κ_L$ available that shows model's ability to search material that has desirable experimental $κ_L$ for thermoelectric applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Hierarchy-boosted funnel learning for identifying semiconductors with ultralow lattice thermal conductivity",
+      "authors": [
+        "Mengfan Wu",
+        "Shenshen Yan",
+        "Jie Ren"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Mengfan Wu",
+          "orcid": "0009-0005-8173-881X",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shenshen Yan",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Ren",
+          "orcid": "0000-0003-2806-7226",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01583-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01583-9",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01583-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Data-driven machine learning (ML) has demonstrated tremendous potential in material property predictions. However, the scarcity of materials data with costly property labels in the vast chemical space presents a significant challenge for ML in efficiently predicting properties and uncovering structure-property relationships. Here, we propose a novel hierarchy-boosted funnel learning (HiBoFL) framework, which is successfully applied to identify semiconductors with ultralow lattice thermal conductivity ( κ L ). By training on only a few hundred materials targeted by unsupervised learning from a pool of hundreds of thousands, we achieve efficient and interpretable supervised predictions of ultralow κ L , thereby circumventing large-scale brute-force ab initio calculations without clear objectives. As a result, we provide a list of candidates with ultralow κ L for potential thermoelectric applications and discover a new factor that significantly influences structural anharmonicity. This HiBoFL framework offers a novel practical pathway for accelerating the discovery of functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Predicting Lattice Thermal Conductivity in 2D Materials: Integrating Experiments, Theory, and Machine Learning",
+      "authors": [
+        "Jie Zhu",
+        "Yajing Sun"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Jie Zhu",
+          "orcid": "0000-0003-4081-2073",
+          "affiliations": [
+            "Tianjin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yajing Sun",
+          "orcid": "0000-0003-2807-9382",
+          "affiliations": [
+            "Tianjin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "FlexTech",
+      "doi": "10.1002/fle2.70006",
+      "type": "article",
+      "url": "https://doi.org/10.1002/fle2.70006",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/fle2.70006",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Lattice thermal conductivity is a critical parameter for assessing the thermal transport properties of materials. When confined to the monolayer limit, two‐dimensional materials display unique thermal characteristics distinct from their three‐dimensional counterparts. This article first provides a concise summary of three widely applied experimental methodologies—Raman thermometry, suspended microbridge techniques, and time‐domain thermoreflectance—and their utility in validating theoretical predictions. It subsequently delves into recent advancements in theoretical modeling, encompassing both equilibrium and nonequilibrium molecular dynamics studies; first‐principles calculations grounded in the phonon Boltzmann transport equation that account for higher‐order scattering phenomena such as four‐phonon processes and phonon–electron interactions; emerging methods based on normal mode analysis for detailed phonon contribution decomposition; and novel approaches employing the Wigner transport equation to unify the description of phonon coherence and wave‐like heat transport phenomena beyond conventional theoretical frameworks. In addition, the advent of machine learning has expanded the scope of direct thermal conductivity prediction and the development of high‐precision interatomic potentials, paving the way for high‐throughput screening and extensive simulations. This review contrasts the advantages and drawbacks of these methodologies, identifies key challenges facing the field, and sketches future directions for 2D thermal transport research, emphasizing the integration of multiscale modeling, data‐driven innovation, and the synergy between experiments and theoretical insights.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "An interpretable formula for lattice thermal conductivity of crystals",
+      "authors": [
+        "Xiaoying Wang",
+        "Guoyu Shu",
+        "Guimei Zhu",
+        "Jian‐Sheng Wang",
+        "Jun Sun",
+        "Xiangdong Ding",
+        "Bao‐Wen Li",
+        "Zhibin Gao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Xiaoying Wang",
+          "orcid": "0009-0009-1612-4503",
+          "affiliations": [
+            "National University of Singapore",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guoyu Shu",
+          "orcid": null,
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guimei Zhu",
+          "orcid": null,
+          "affiliations": [
+            "Southern University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jian‐Sheng Wang",
+          "orcid": "0000-0002-5119-8382",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Sun",
+          "orcid": "0000-0002-3545-1392",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangdong Ding",
+          "orcid": "0000-0002-1220-3097",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bao‐Wen Li",
+          "orcid": "0000-0003-0846-6916",
+          "affiliations": [
+            "Southern University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhibin Gao",
+          "orcid": "0000-0002-6843-381X",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Today Physics",
+      "doi": "10.1016/j.mtphys.2024.101549",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.mtphys.2024.101549",
+      "cited_by_count": 23,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://dx.doi.org/10.2139/ssrn.4880367",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Transfer Learning for Deep Learning-based Prediction of Lattice Thermal Conductivity",
+      "authors": [
+        "L. Klochko",
+        "Mathieu d’Aquin",
+        "Atsushi Togo",
+        "Laurent Chaput"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "L. Klochko",
+          "orcid": "0000-0003-2468-8738",
+          "affiliations": [
+            "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mathieu d’Aquin",
+          "orcid": "0000-0001-7276-4702",
+          "affiliations": [
+            "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atsushi Togo",
+          "orcid": "0000-0001-8393-9766",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Laurent Chaput",
+          "orcid": null,
+          "affiliations": [
+            "Institut Universitaire de France",
+            "Laboratoire Énergies & Mécanique Théorique et Appliquée",
+            "Université de Lorraine"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2411.18259",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2411.18259",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2411.18259",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Machine learning promises to accelerate the material discovery by enabling high-throughput prediction of desirable macro-properties from atomic-level descriptors or structures. However, the limited data available about precise values of these properties have been a barrier, leading to predictive models with limited precision or the ability to generalize. This is particularly true of lattice thermal conductivity (LTC): existing datasets of precise (ab initio, DFT-based) computed values are limited to a few dozen materials with little variability. Based on such datasets, we study the impact of transfer learning on both the precision and generalizability of a deep learning model (ParAIsite). We start from an existing model (MEGNet~\\cite{Chen2019}) and show that improvements are obtained by fine-tuning a pre-trained version on different tasks. Interestingly, we also show that a much greater improvement is obtained when first fine-tuning it on a large datasets of low-quality approximations of LTC (based on the AGL model) and then applying a second phase of fine-tuning with our high-quality, smaller-scale datasets. The promising results obtained pave the way not only towards a greater ability to explore large databases in search of low thermal conductivity materials but also to methods enabling increasingly precise predictions in areas where quality data are rare.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "High-throughput screening of potentially ductile and low thermal conductivity ABX3 (X = S, Se, Te) thermoelectric perovskites",
+      "authors": [
+        "Yan Cao",
+        "Shengnan Dai",
+        "Xiangdong Wang",
+        "Tian‐Ran Wei",
+        "Jiong Yang",
+        "Lili Xi",
+        "Zhenqian Pang",
+        "Gang Tan"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yan Cao",
+          "orcid": "0000-0003-0647-4947",
+          "affiliations": [
+            "Shanghai University",
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shengnan Dai",
+          "orcid": "0000-0002-1077-3934",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangdong Wang",
+          "orcid": "0000-0002-1065-5241",
+          "affiliations": [
+            "East China Normal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian‐Ran Wei",
+          "orcid": "0000-0002-5011-0932",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University",
+            "Zhejiang Lab"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [
+            "Shanghai University",
+            "Zhejiang Lab"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenqian Pang",
+          "orcid": "0000-0003-4689-2465",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gang Tan",
+          "orcid": "0000-0001-5349-4110",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Physics Letters",
+      "doi": "10.1063/5.0188454",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0188454",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Chalcogenide perovskites, renowned for their low lattice thermal conductivity, have emerged as promising candidates for thermoelectric applications. Hence, we leveraged first-principles high-throughput calculations to investigate the electrical and thermal transport properties, as well as the ductility, of the chalcogenide perovskites ABX3 (X = S, Se, Te). Candidates with 30 combinations were initially screened by bandgap screening (Eg > 0.1 eV), stability assessment (Born–Huang criterion), and ductility evaluation (Pugh's ratio: G/K < 0.571, the ratio of shear modulus G to bulk modulus K) from the MatHub-3d database (176 ABX3 crystal structures, 32 kinds of space groups, and number of atoms Natom < 40). Intriguingly, weaker chemical bonding between the A and X site atom pairs gives rise to a higher ductility in the screened quasi-ductile perovskites. Furthermore, it should be noted that the low phonon group velocities confirmed the low lattice thermal conductivity of the materials. In consequence, the identification of quasi-ductile thermoelectrics, characterized by six n-type and six p-type candidates with ZT > 0.3 at 300 K, stands as the most promising candidates for application in thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "A high-throughput framework for lattice dynamics",
+      "authors": [
+        "Zhuoying Zhu",
+        "Junsoo Park",
+        "Hrushikesh P. Sahasrabuddhe",
+        "Alex M. Ganose",
+        "Rees Chang",
+        "John W. Lawson",
+        "Anubhav Jain"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Zhuoying Zhu",
+          "orcid": "0000-0003-1775-7651",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junsoo Park",
+          "orcid": "0000-0002-7824-8159",
+          "affiliations": [
+            "Ames Research Center",
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hrushikesh P. Sahasrabuddhe",
+          "orcid": "0000-0001-7346-4568",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alex M. Ganose",
+          "orcid": "0000-0002-4486-3321",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rees Chang",
+          "orcid": "0000-0001-5773-7183",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of Illinois Urbana-Champaign"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John W. Lawson",
+          "orcid": "0000-0002-1504-4829",
+          "affiliations": [
+            "Ames Research Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-024-01437-w",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-024-01437-w",
+      "cited_by_count": 22,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-024-01437-w.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract We develop an automated high-throughput workflow for calculating lattice dynamical properties from first principles including those dictated by anharmonicity. The pipeline automatically computes interatomic force constants (IFCs) up to 4th order from perturbed training supercells, and uses the IFCs to calculate lattice thermal conductivity, coefficient of thermal expansion, and vibrational free energy and entropy. It performs phonon renormalization for dynamically unstable compounds to obtain real effective phonon spectra at finite temperatures and calculates the associated free energy corrections. The methods and parameters are chosen to balance computational efficiency and result accuracy, assessed through convergence testing and comparisons with experimental measurements. Deployment of this workflow at a large scale would facilitate materials discovery efforts toward functionalities including thermoelectrics, contact materials, ferroelectrics, aerospace components, as well as general phase diagram construction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "On-the-fly training of polynomial machine learning potentials in computing lattice thermal conductivity",
+      "authors": [
+        "Atsushi Togo",
+        "Atsuto Seko"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Atsushi Togo",
+          "orcid": "0000-0001-8393-9766",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atsuto Seko",
+          "orcid": "0000-0002-2473-3837",
+          "affiliations": [
+            "Kyoto University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0211296",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0211296",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2401.17531",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The application of first-principles calculations for predicting lattice thermal conductivity (LTC) in crystalline materials, in conjunction with the linearized phonon Boltzmann equation, has gained increasing popularity. In this calculation, the determination of force constants through first-principles calculations is critical for accurate LTC predictions. For material exploration, performing first-principles LTC calculations in a high-throughput manner is now expected, although it requires significant computational resources. To reduce computational demands, we integrated polynomial machine learning potentials on-the-fly during the first-principles LTC calculations. This paper presents a systematic approach to first-principles LTC calculations. We designed and optimized an efficient workflow that integrates multiple modular software packages. We applied this approach to calculate LTCs for 103 compounds of wurtzite, zinc blende, and rocksalt types to evaluate the performance of the polynomial machine learning potentials in LTC calculations. We demonstrate a significant reduction in the computational resources required for the LTC predictions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Machine learning for accelerated prediction of lattice thermal conductivity at arbitrary temperature",
+      "authors": [
+        "Zihe Li",
+        "Mengke Li",
+        "Yufeng Luo",
+        "Haibin Cao",
+        "Huijun Liu",
+        "Ying Fang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Zihe Li",
+          "orcid": "0000-0001-9451-9812",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mengke Li",
+          "orcid": "0000-0002-9433-9683",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yufeng Luo",
+          "orcid": "0000-0002-5121-8718",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haibin Cao",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijun Liu",
+          "orcid": "0000-0001-5801-7217",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ying Fang",
+          "orcid": "0009-0004-3125-5804",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d4dd00286e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4dd00286e",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d4dd00286e",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "We propose a neural network model that allows ready and accurate prediction of the lattice thermal conductivities of crystalline materials at arbitrary temperature.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Challenges Reconciling Theory and Experiments in the Prediction of Lattice Thermal Conductivity: The Case of Cu-Based Sulvanites",
+      "authors": [
+        "Irene Caro-Campos",
+        "Marta María González-Barrios",
+        "Oscar Juan Dura",
+        "Erik Fransson",
+        "José J. Plata",
+        "David Ávila‐Brande",
+        "Javier Fdez. Sanz",
+        "Jesús Prado‐Gonjal",
+        "Antonio M. Márquez"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Irene Caro-Campos",
+          "orcid": "0009-0009-3054-2912",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marta María González-Barrios",
+          "orcid": "0000-0002-0297-9107",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oscar Juan Dura",
+          "orcid": "0000-0002-4014-7555",
+          "affiliations": [
+            "University of Castilla-La Mancha"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Erik Fransson",
+          "orcid": "0000-0001-5262-3339",
+          "affiliations": [
+            "Chalmers University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José J. Plata",
+          "orcid": "0000-0002-0859-0450",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Ávila‐Brande",
+          "orcid": "0000-0003-0452-2482",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Javier Fdez. Sanz",
+          "orcid": "0000-0003-2064-7007",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jesús Prado‐Gonjal",
+          "orcid": "0000-0003-4880-8503",
+          "affiliations": [
+            "Universidad Complutense de Madrid"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antonio M. Márquez",
+          "orcid": "0000-0001-6699-064X",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.4c01343",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.4c01343",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.4c01343?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide The exploration of large chemical spaces in search of new thermoelectric materials requires the integration of experiments, theory, simulations, and data science. The development of high-throughput strategies that combine DFT calculations with machine learning has emerged as a powerful approach to discovering new materials. However, experimental validation is crucial to confirm the accuracy of these workflows. This validation becomes especially important in understanding the transport properties that govern the thermoelectric performance of materials since they are highly influenced by synthetic, processing, and operating conditions. In this work, we explore the thermal conductivity of Cu-based sulvanites by using a combination of theoretical and experimental methods. Previous discrepancies and significant variations in reported data for Cu 3 VS 4 and Cu 3 VSe 4 are explained using the Boltzmann Transport Equation for phonons and by synthesizing well-characterized defect-free samples. The use of machine learning approaches for extracting high-order force constants opens doors to charting the lattice thermal conductivity across the entire Cu-based sulvanite family─finding not only materials with κ l values below 2 W m –1 K –1 at moderate temperatures but also rationalizing their thermal transport properties based on chemical composition.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Pushing the Limits of Heat Conduction in Covalent Organic Frameworks Through High‐Throughput Screening of Their Thermal Conductivity",
+      "authors": [
+        "Sandip Thakur",
+        "Ashutosh Giri"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Sandip Thakur",
+          "orcid": "0000-0002-3763-3659",
+          "affiliations": [
+            "University of Rhode Island"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ashutosh Giri",
+          "orcid": "0000-0002-8899-4964",
+          "affiliations": [
+            "University of Rhode Island"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Small",
+      "doi": "10.1002/smll.202401702",
+      "type": "article",
+      "url": "https://doi.org/10.1002/smll.202401702",
+      "cited_by_count": 18,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smll.202401702",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Tailor‐made materials featuring large tunability in their thermal transport properties are highly sought‐after for diverse applications. However, achieving `user‐defined’ thermal transport in a single class of material system with tunability across a wide range of thermal conductivity values requires a thorough understanding of the structure‐property relationships, which has proven to be challenging. Herein, large‐scale computational screening of covalent organic frameworks (COFs) for thermal conductivity is performed, providing a comprehensive understanding of their structure‐property relationships by leveraging systematic atomistic simulations of 10,750 COFs with 651 distinct organic linkers. Through the data‐driven approach, it is shown that by strategic modulation of their chemical and structural features, the thermal conductivity can be tuned from ultralow (≈0.02 W m−1 K−1) to exceptionally high (≈50 W m−1 K−1) values. It is revealed that achieving high thermal conductivity in COFs requires their assembly through carbon–carbon linkages with densities greater than 500 kg m−3, nominal void fractions (in the range of ≈0.6–0.9) and highly aligned polymeric chains along the heat flow direction. Following these criteria, it is shown that these flexible polymeric materials can possess exceptionally high thermal conductivities, on par with several fully dense inorganic materials. As such, the work reveals that COFs mark a new regime of materials design that combines high thermal conductivities with low densities.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Predicting lattice thermal conductivity via machine learning: a mini review",
+      "authors": [
+        "Yufeng Luo",
+        "Mengke Li",
+        "Hongmei Yuan",
+        "Huijun Liu",
+        "Ying Fang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yufeng Luo",
+          "orcid": "0000-0002-5121-8718",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mengke Li",
+          "orcid": "0000-0002-9433-9683",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongmei Yuan",
+          "orcid": "0000-0003-1744-0961",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijun Liu",
+          "orcid": "0000-0001-5801-7217",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ying Fang",
+          "orcid": "0009-0004-3125-5804",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-023-00964-2",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-023-00964-2",
+      "cited_by_count": 107,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-023-00964-2.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Over the past few decades, molecular dynamics simulations and first-principles calculations have become two major approaches to predict the lattice thermal conductivity (κL), which are however limited by insufficient accuracy and high computational cost, respectively. To overcome such inherent disadvantages, machine learning (ML) has been successfully used to accurately predictκLin a high-throughput style. In this review, we give some introductions of recent ML works on the direct and indirect prediction ofκL, where the derivations and applications of data-driven models are discussed in details. A brief summary of current works and future perspectives are given in the end.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "High-throughput screening of hypothetical metal-organic frameworks for thermal conductivity",
+      "authors": [
+        "Meiirbek Islamov",
+        "Hasan Babaei",
+        "Ryther Anderson",
+        "Kutay Berk Sezginel",
+        "Jeffrey R. Long",
+        "Alan J. H. McGaughey",
+        "Diego A. Gómez‐Gualdrón",
+        "Christopher E. Wilmer"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Meiirbek Islamov",
+          "orcid": null,
+          "affiliations": [
+            "University of Pittsburgh"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hasan Babaei",
+          "orcid": "0000-0002-3291-0290",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryther Anderson",
+          "orcid": "0000-0001-8985-0471",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kutay Berk Sezginel",
+          "orcid": "0000-0003-3060-2945",
+          "affiliations": [
+            "University of Pittsburgh"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey R. Long",
+          "orcid": "0000-0002-5324-1321",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alan J. H. McGaughey",
+          "orcid": "0000-0002-0118-6893",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Diego A. Gómez‐Gualdrón",
+          "orcid": "0000-0003-3237-0199",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher E. Wilmer",
+          "orcid": "0000-0002-7440-5727",
+          "affiliations": [
+            "University of Pittsburgh"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00961-x",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00961-x",
+      "cited_by_count": 109,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00961-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermal energy management in metal-organic frameworks (MOFs) is an important, yet often neglected, challenge for many adsorption-based applications such as gas storage and separations. Despite its importance, there is insufficient understanding of the structure-property relationships governing thermal transport in MOFs. To provide a data-driven perspective into these relationships, here we perform large-scale computational screening of thermal conductivity k in MOFs, leveraging classical molecular dynamics simulations and 10,194 hypothetical MOFs created using the ToBaCCo 3.0 code. We found that high thermal conductivity in MOFs is favored by high densities (> 1.0 g cm −3 ), small pores (< 10 Å), and four-connected metal nodes. We also found that 36 MOFs exhibit ultra-low thermal conductivity (< 0.02 W m −1 K −1 ), which is primarily due to having extremely large pores (~65 Å). Furthermore, we discovered six hypothetical MOFs with very high thermal conductivity (> 10 W m −1 K −1 ), the structures of which we describe in additional detail.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Lattice Dynamics and Thermal Transport in Semiconductors with Anti-Bonding Valence Bands",
+      "authors": [
+        "Jiaoyue Yuan",
+        "Yubi Chen",
+        "Bolin Liao"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Jiaoyue Yuan",
+          "orcid": "0009-0005-7945-8974",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yubi Chen",
+          "orcid": null,
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bolin Liao",
+          "orcid": "0000-0002-0898-0803",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.3c05091",
+      "type": "article",
+      "url": "https://doi.org/10.1021/jacs.3c05091",
+      "cited_by_count": 63,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2305.09794",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Achieving high thermoelectric performance requires efficient manipulation of thermal conductivity and a fundamental understanding of the microscopic mechanisms of phonon transport in crystalline solids. One of the major challenges in thermal transport is achieving ultralow lattice thermal conductivity. In this study, we use the anti-bonding character of the highest-occupied valence band as an efficient descriptor for discovering new materials with an ultralow thermal conductivity. We first examined the relationship between anti-bonding valence bands (ABVBs) and low lattice thermal conductivity in model systems PbTe and CsPbBr 3 . Then, we conducted a high-throughput search in the Materials Project database and identified over 600 experimentally stable binary semiconductors with an anti-bonding character in their valence bands. From our candidate list, we conducted a comprehensive analysis of the chemical bonds and the thermal transport in the XS family, where X = K, Rb, and Cs are alkaline metals. These materials all exhibit ultralow thermal conductivities less than 1 W/(m K) at room temperature despite simple structures. We attributed the ultralow thermal conductivity to the weakened bonds and increased phonon anharmonicity due to their ABVBs. Our results provide chemical intuitions to understand lattice dynamics in crystals and open up a convenient venue toward searching for materials with an intrinsically low lattice thermal conductivity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Theoretical Investigation of the Lattice Thermal Conductivities of II–IV–V2 Pnictide Semiconductors",
+      "authors": [
+        "Víctor Posligua",
+        "José J. Plata",
+        "Antonio M. Márquez",
+        "Javier Fdez. Sanz",
+        "Ricardo Grau‐Crespo"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Víctor Posligua",
+          "orcid": "0000-0003-3375-3706",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José J. Plata",
+          "orcid": "0000-0002-0859-0450",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antonio M. Márquez",
+          "orcid": "0000-0001-6699-064X",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Javier Fdez. Sanz",
+          "orcid": "0000-0003-2064-7007",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ricardo Grau‐Crespo",
+          "orcid": "0000-0001-8845-1719",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Applied Electronic Materials",
+      "doi": "10.1021/acsaelm.3c01242",
+      "type": "review",
+      "url": "https://doi.org/10.1021/acsaelm.3c01242",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsaelm.3c01242",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Ternary pnictide semiconductors with II–IV–V 2 stoichiometry hold potential as cost-effective thermoelectric materials with suitable electronic transport properties, but their lattice thermal conductivities (κ) are typically too high. Insights into their vibrational properties are therefore crucial to finding strategies to reduce κ and achieve improved thermoelectric performance. We present a theoretical exploration of the lattice thermal conductivities for a set of pnictide semiconductors with ABX 2 composition (A = Zn, Cd; B = Si, Ge, Sn; and X = P, As) using machine-learning-based regression algorithms to extract force constants from a reduced number of density functional theory simulations and then solving the Boltzmann transport equation for phonons. Our results align well with available experimental data, decreasing the mean absolute error by ∼3 W m –1 K –1 with respect to the best previous set of theoretical predictions. Zn-based ternary pnictides have, on average, more than double the thermal conductivity of the Cd-based compounds. Anisotropic behavior increases with the mass difference between A and B cations, but while the nature of the anion does not affect the structural anisotropy, the thermal conductivity anisotropy is typically higher for arsenides than for phosphides. We identify compounds such as CdGeAs 2, for which nanostructuring to an affordable range of particle sizes could lead to κ values low enough for thermoelectric applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Ph3pyWF: An automated workflow software package for ceramic lattice thermal conductivity calculation",
+      "authors": [
+        "Kerui Lai",
+        "Yuxuan Wang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Kerui Lai",
+          "orcid": null,
+          "affiliations": [
+            "McGill University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuxuan Wang",
+          "orcid": "0009-0000-2098-8421",
+          "affiliations": [
+            "McGill University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2302.11641",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2302.11641",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2302.11641",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "This paper presents a Python software package, Ph3pyWF, providing a more convenient platform to realize high-throughput analysis of lattice thermal conductivity for ceramic materials. The interface of Ph3pyWF is friendly for users with different needs and from different level. For novices of interests, the inputs can be quite simple, just with initial unit cell structure. Other parameters would be automatically filled. And for expert-level researchers with varied requirements, plenty of procedure parameters can be customized. The core concept of Ph3pyWF is to build a data exchange and task management system with high efficiency. The design details of the Ph3pyWF will be clarified in this paper and following with a few typical oxide ceramics examples to demonstrate the applicability of this software package.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Lattice Thermal Conductivity from First Principles and Active Learning with Gaussian Process Regression",
+      "authors": [
+        "Rasmus Tranås",
+        "Ole Martin Løvvik",
+        "Kristian Berland"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Rasmus Tranås",
+          "orcid": "0000-0003-4051-2652",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ole Martin Løvvik",
+          "orcid": "0000-0002-4169-1544",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristian Berland",
+          "orcid": "0000-0002-4655-1233",
+          "affiliations": [
+            "Norwegian University of Life Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2309.06786",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2309.06786",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2309.06786",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The lattice thermal conductivity ($κ_{\\ell}$) is a key materials property in power electronics, thermal barriers, and thermoelectric devices. Identifying a wide pool of compounds with low $κ_{\\ell}$ is particularly important in the development of materials with high thermoelectric efficiency. The present study contributed to this with a reliable machine learning (ML) model based on a training set consisting of 268 cubic compounds. For those, $κ_{\\ell}$ was calculated from first principles using the temperature-dependent effective potential (TDEP) method based on forces and phonons calculated by density functional theory (DFT). 238 of these were preselected and used to train an initial ML model employing Gaussian process regression (GPR). The model was then improved with active learning (AL) by selecting the 30 compounds with the highest GPR uncertainty as new members of an expanded training set. This was used to predict $κ_{\\ell}$ of the 1574 cubic compounds in the \\textsc{Materials Project} (MP) database with a validation R2-score of 0.81 and Spearman correlation of 0.93. Out of these, 27 compounds were predicted to have very low values of $κ_{\\ell}$ ($\\leq 1.3$ at 300~K), which was verified by DFT calculations. Some of these have not previously been reported in the literature, suggesting further investigations of their electronic thermoelectric properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Lattice Thermal Conductivity of Mg3(Bi,Sb)2 Nanocomposites: A First-Principles Study",
+      "authors": [
+        "Qing Peng",
+        "Xiaoze Yuan",
+        "Shuai Zhao",
+        "Xiao‐Jia Chen"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Qing Peng",
+          "orcid": "0000-0002-8281-8636",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Harbin Institute of Technology",
+            "Institute of Mechanics",
+            "State Key Laboratory of Nonlinear Mechanics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoze Yuan",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Mechanics",
+            "State Key Laboratory of Nonlinear Mechanics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuai Zhao",
+          "orcid": "0000-0003-3255-0480",
+          "affiliations": [
+            "University of Science and Technology of China",
+            "Chinese Academy of Sciences",
+            "Institute of Mechanics",
+            "State Key Laboratory of Nonlinear Mechanics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiao‐Jia Chen",
+          "orcid": "0000-0002-3979-8369",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nanomaterials",
+      "doi": "10.3390/nano13222938",
+      "type": "article",
+      "url": "https://doi.org/10.3390/nano13222938",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2079-4991/13/22/2938/pdf?version=1699871233",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Mg3(BixSb1−x)2 (0 ≤ x ≤ 1) nanocomposites are a highly appealing class of thermoelectric materials that hold great potential for solid-state cooling applications. Tuning of the lattice thermal conductivity is crucial for improving the thermoelectric properties of these materials. Hereby, we investigated the lattice thermal conductivity of Mg3(BixSb1−x)2 nanocomposites with varying Bi content (x = 0.0, 0.25, 0.5, 0.75, and 1.0) using first-principles calculations. This study reveals that the lattice thermal conductivity follows a classical inverse temperature-dependent relationship. There is a significant decrease in the lattice thermal conductivity when the Bi content increases from 0 to 0.25 or decreases from 1.0 to 0.75 at 300 K. In contrast, when the Bi content increases from 0.25 to 0.75, the lattice thermal conductivity experiences a gradual decrease and reaches a plateau. For the nanohybrids (x = 0.25, 0.5, and 0.75), the distribution patterns of the phonon group velocity and phonon lifetime are similar, with consistent distribution intervals. Consequently, the change in lattice thermal conductivity is not pronounced. However, the phonon group speed and phonon lifetime are generally lower compared to those of the pristine components with x = 0 and x = 1.0. Our results suggest that the lattice thermal conductivity is sensitive to impurities but not to concentrations. This research provides valuable theoretical insights for adjusting the lattice thermal conductivity of Mg3(BixSb1−x)2 nanocomposites.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "High-Throughput Screening of Rattling-Induced Ultralow Lattice Thermal Conductivity in Semiconductors",
+      "authors": [
+        "Jielan Li",
+        "Wei Hu",
+        "Jinlong Yang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jielan Li",
+          "orcid": "0000-0003-4428-2452",
+          "affiliations": [
+            "University of Science and Technology of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Hu",
+          "orcid": "0000-0001-9629-2121",
+          "affiliations": [
+            "University of Science and Technology of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinlong Yang",
+          "orcid": "0000-0002-5651-5340",
+          "affiliations": [
+            "University of Science and Technology of China"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.1c11887",
+      "type": "article",
+      "url": "https://doi.org/10.1021/jacs.1c11887",
+      "cited_by_count": 84,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermoelectric (TE) materials with rattling model show ultralow lattice thermal conductivity for high-efficient energy conversion between heat and electricity. In this work, by analysis of the key spirit of the rattling model, we propose an efficient empirical descriptor to realize the high-throughput screening of ultralow thermal conductivity in a series of semiconductors. This descriptor extracts the structural information of rattling atoms whose bond lengths with all the nearest neighboring atoms are larger than the sum of corresponding covalent radiuses. We obtain 1171 candidates from the Materials Project (MP) Database that contains more than 100 000 materials. Combining the empirical equation of high-throughput computation with a machine learning algorithm, we compute the approximate lattice thermal conductivities (κ L ) and find the κ L values of 532 materials are less than 2.0 W m –1 K –1 at 300 K, which can be regarded as the criteria of ultralow κ L in general. In particular, we demonstrate that halide double perovskites structures show ultralow κ L, which provides valuable references for promising low κ L materials in future experiments. In order to further verify our computational results, we calculate accurate κ L for Rb 2 SnBr 6 and CsCu 3 O 2 as candidates with the low lattice thermal conductivity by solving the phonon Boltzmann transport equation. In particular, we demonstrate that Rb 2 SnBr 6 has the lowest κ L value of 0.1 W m –1 K –1 at 300 K of all known thermal conductivity materials with the rattling model so far.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Accurate prediction on the lattice thermal conductivities of monolayer systems by a high-throughput descriptor",
+      "authors": [
+        "Yufeng Luo",
+        "Mengke Li",
+        "Hongmei Yuan",
+        "Haibin Cao",
+        "Huijun Liu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Yufeng Luo",
+          "orcid": "0000-0002-5121-8718",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mengke Li",
+          "orcid": "0000-0002-9433-9683",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongmei Yuan",
+          "orcid": "0000-0003-1744-0961",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haibin Cao",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijun Liu",
+          "orcid": "0000-0001-5801-7217",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aca9db",
+      "type": "article",
+      "url": "https://doi.org/10.1088/1361-6463/aca9db",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://iopscience.iop.org/article/10.1088/1361-6463/aca9db/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Due to the vital importance of heat management in micro- and nano-electronic devices, it is quite necessary to evaluate the lattice thermal conductivity ( κ L ) of two-dimensional (2D) materials. However, the accurate prediction on the κ L has been demonstrated to be a rough task, especially for systems with large unit cell and low symmetry. Here, by using the sure independence screening and sparsifying operator (SISSO) approach, we propose a physically interpretable descriptor to quickly determine the κ L of many potential monolayer systems, which are one of the fast-growing class among numerous 2D materials. It should be noted that the Pearson correlation coefficient between the real and predicted κ L is as high as 0.98, suggesting good reliability of the derived descriptor. Beyond the initial training data, the strong predictive power of our descriptor is further confirmed by good agreement between the predicted κ L and those calculated theoretically or measured experimentally. As such a data-driven descriptor contains only elementary properties of the monolayers, it is very beneficial for high-throughput screening of systems with desired κ L .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "A metadata schema for lattice thermal conductivity from first-principles calculations",
+      "authors": [
+        "Yongchao Rao",
+        "Yongchao Lu",
+        "Lanting T. Zhang",
+        "Shenghong Ju",
+        "Ning Yu",
+        "Aimin Zhang",
+        "Li Chen",
+        "Hong Wang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Yongchao Rao",
+          "orcid": "0000-0002-3781-6615",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongchao Lu",
+          "orcid": "0000-0001-7142-4941",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lanting T. Zhang",
+          "orcid": "0000-0003-2547-1952",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shenghong Ju",
+          "orcid": "0000-0001-7863-6947",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ning Yu",
+          "orcid": "0000-0002-3046-4338",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aimin Zhang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Li Chen",
+          "orcid": "0000-0001-7922-0599",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Wang",
+          "orcid": "0000-0003-1986-512X",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Informatics",
+      "doi": "10.20517/jmi.2022.20",
+      "type": "article",
+      "url": "https://doi.org/10.20517/jmi.2022.20",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://jmijournal.com/article/download/5249",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials genome engineering databases represent fundamental infrastructures for data-driven materials design, in which the data resources should satisfy the FAIR (Findable, Accessible, Interoperable and Reusable) principles. However, a variety of challenges, such as data standardization, veracity and longevity, still impede the progress of data-driven materials science, including both high-throughput experiments and simulations. In this work, we propose a metadata schema for lattice thermal conductivity from first-principles calculations. The calculation workflow for lattice thermal conductivity includes structural optimization and the calculation of interatomic force constants and lattice thermal conductivity. The data generated during the calculation process corresponds to the virtual sample information, virtual source data and processed data, respectively, as specified in the General rule for materials genome engineering data of the Chinese Society for Testing and Materials. Following this general rule, the metadata structure and schema for each action are systematically defined and all metadata elements can be collected completely. Although this metadata schema is specific to lattice thermal conductivity calculations, it provides general rules and insights for other computational materials data in materials genome engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Predicting the lattice thermal conductivity of alloyed compounds from the perspective of configurational entropy",
+      "authors": [
+        "Mengke Li",
+        "Guohua Cao",
+        "Yufeng Luo",
+        "Caiyu Sheng",
+        "Huijun Liu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Mengke Li",
+          "orcid": "0000-0002-9433-9683",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guohua Cao",
+          "orcid": "0000-0002-0309-436X",
+          "affiliations": [
+            "University of Science and Technology of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yufeng Luo",
+          "orcid": "0000-0002-5121-8718",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Caiyu Sheng",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijun Liu",
+          "orcid": "0000-0001-5801-7217",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00771-1",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00771-1",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00771-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Accurate evaluation of lattice thermal conductivity is usually a tough task from the theoretical side, especially for alloyed systems with fractional stoichiometry. Using the tetradymite family as a prototypical class of examples, we propose a reliable approach for rapid prediction on the lattice thermal conductivity at arbitrary composition by utilizing the concept of configurational entropy. Instead of performing time-consuming first-principles calculations, the lattice thermal conductivities of any alloyed tetradymites can be readily obtained from a few samples with integer stoichiometry. The strong predictive power is demonstrated by good agreement between our results and those reported experimentally. In principle, such an effective method can be applicable to any other material families, which is very beneficial for high-throughput design of systems with desired thermal conductivity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "High-Throughput Computational Screening of Two-Dimensional Semiconductors",
+      "authors": [
+        "Vei Wang",
+        "Gang Tang",
+        "Ya-Chao Liu",
+        "Rentao Wang",
+        "Hiroshi Mizuseki",
+        "Yoshiyuki Kawazoe",
+        "Jun Nara",
+        "W. T. Geng"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Vei Wang",
+          "orcid": "0000-0002-9499-1823",
+          "affiliations": [
+            "Xi'an University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gang Tang",
+          "orcid": "0000-0003-4665-8599",
+          "affiliations": [
+            "Beijing Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ya-Chao Liu",
+          "orcid": "0000-0003-2279-4641",
+          "affiliations": [
+            "Xi'an University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rentao Wang",
+          "orcid": null,
+          "affiliations": [
+            "Xi'an University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroshi Mizuseki",
+          "orcid": "0000-0003-0973-7693",
+          "affiliations": [
+            "Korea Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshiyuki Kawazoe",
+          "orcid": "0000-0002-2369-7045",
+          "affiliations": [
+            "SRM Institute of Science and Technology",
+            "Tohoku University",
+            "New Industry Creation Hatchery Center, Tohoku University",
+            "Suranaree University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Nara",
+          "orcid": "0000-0002-0486-2981",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "W. T. Geng",
+          "orcid": "0000-0002-9838-5644",
+          "affiliations": [
+            "Hainan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Physical Chemistry Letters",
+      "doi": "10.1021/acs.jpclett.2c02972",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jpclett.2c02972",
+      "cited_by_count": 311,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/1806.04285",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Two-dimensional (2D) materials have attracted great attention mainly due to their unique physical properties and ability to fulfill the demands of future nanoscale devices. By performing high-throughput first-principles calculations combined with a semiempirical van der Waals dispersion correction, we have screened 73 direct- and 183 indirect-gap 2D nonmagnetic semiconductors from nearly 1000 monolayers according to the criteria for thermodynamic, mechanical, dynamic, and thermal stabilities and conductivity type. We present the calculated lattice constants, formation energy, Young's modulus, Poisson's ratio, shear modulus, anisotropic effective mass, band structure, band gap, ionization energy, electron affinity, and simulated scanning tunnel microscopy for each candidate meeting our criteria. The resulting 2D semiconductor database (2DSdb) can be accessed via the Web site https://materialsdb.cn/2dsdb/index.html. The 2DSdb provides an ideal platform for computational modeling and design of new 2D semiconductors and heterostructures in photocatalysis, nanoscale devices, and other applications. Further, a linear fitting model was proposed to evaluate band gap, ionization energy, and electron affinity of 2D semiconductors from the density functional theory (DFT) calculated data as initial input. This model can be as precise as hybrid DFT but with much lower computational cost.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Scale-invariant machine-learning model accelerates the discovery of quaternary chalcogenides with ultralow lattice thermal conductivity",
+      "authors": [
+        "Koushik Pal",
+        "Cheol Woo Park",
+        "Yi Xia",
+        "Jiahong Shen",
+        "Chris M. Wolverton"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Koushik Pal",
+          "orcid": "0000-0002-5426-9748",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheol Woo Park",
+          "orcid": "0000-0002-3650-1558",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Xia",
+          "orcid": "0000-0001-5386-3975",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiahong Shen",
+          "orcid": "0000-0002-1951-2183",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris M. Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00732-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00732-8",
+      "cited_by_count": 39,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00732-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract We design an advanced machine-learning (ML) model based on crystal graph convolutional neural network that is insensitive to volumes (i.e., scale) of the input crystal structures to discover novel quaternary chalcogenides, AMM′Q 3 (A/M/M ' = alkali, alkaline earth, post-transition metals, lanthanides, and Q = chalcogens). These compounds are shown to possess ultralow lattice thermal conductivity ( κ l ), a desired requirement for thermal-barrier coatings and thermoelectrics. Upon screening the thermodynamic stability of ~1 million compounds using the ML model iteratively and performing density-functional theory (DFT) calculations for a small fraction of compounds, we discover 99 compounds that are validated to be stable in DFT. Taking several DFT-stable compounds, we calculate their κ l using Peierls–Boltzmann transport equation, which reveals ultralow κ l (<2 Wm −1 K −1 at room temperature) due to their soft elasticity and strong phonon anharmonicity. Our work demonstrates the high efficiency of scale-invariant ML model in predicting novel compounds and presents experimental-research opportunities with these new compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Structure and lattice thermal conductivity of grain boundaries in silicon by using machine learning potential and molecular dynamics",
+      "authors": [
+        "Susumu Fujii",
+        "Atsuto Seko"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Susumu Fujii",
+          "orcid": "0000-0003-4650-5752",
+          "affiliations": [
+            "Japan Fine Ceramics Center",
+            "The University of Osaka"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atsuto Seko",
+          "orcid": "0000-0002-2473-3837",
+          "affiliations": [
+            "Kyoto University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2021.111137",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.111137",
+      "cited_by_count": 42,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0927025621007990/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "In silicon, lattice thermal conductivity plays an important role in a wide range of applications such as thermoelectric and microelectronic devices. Grain boundaries (GBs) in polycrystalline silicon can significantly reduce lattice thermal conductivity, but the impact of GB atomic structures on it remains to be elucidated. This study demonstrates accurate predictions of the GB structures, GB energies, and GB phonon properties in silicon using machine learning potentials (MLPs). The results indicate that the MLPs enable robust GB structure searches owing to the fact that the MLPs were developed from a training dataset covering a wide variety of structures. We also investigate lattice thermal conduction at four GB atomic structures using large-scale perturbed molecular dynamics and phonon wave-packet simulations. The comparison of these results indicates that the GB structure dependence of thermal conductivity stems from anharmonic vibrations at GBs rather than from the phonon transmission behavior at GBs. The advantages of the MLPs compared with a typical empirical potential of silicon are also thoroughly investigated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "High-throughput computational discovery of 40 ultralow thermal conductivity and 20 highly anisotropic crystalline materials",
+      "authors": [
+        "Ankit Jain",
+        "Harish P. Veeravenkata",
+        "Shravan Godse",
+        "Yagyank Srivastava"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ankit Jain",
+          "orcid": "0000-0002-8963-7774",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Harish P. Veeravenkata",
+          "orcid": "0000-0003-2747-9800",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shravan Godse",
+          "orcid": "0000-0001-7541-8995",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yagyank Srivastava",
+          "orcid": "0000-0001-7379-6634",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2204.03628",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2204.03628",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2204.03628",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We performed ab-initio driven density functional theory-based high throughput computations to search for materials with low thermal conductivity and high thermal transport anisotropy. We shortlisted a pool of 429 stable ternary semiconductors from the Materials Project and obtained phonon thermal conductivity by solving the Boltzmann transport equation on 225 materials. We found the lowest thermal conductivity of 0.16 W/m-K in SbRbK 2 and 40 materials with a thermal conductivity lower than 1 W/m-K at 300 K. For anisotropic thermal transport, we have identified six materials with anisotropy larger than 5 and 20 with thermal transport anisotropy higher than the largest reported literature value.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Accelerated Discovery and Design of Ultralow Lattice Thermal Conductivity Materials Using Chemical Bonding Principles",
+      "authors": [
+        "Jiangang He",
+        "Yi Xia",
+        "Wenwen Lin",
+        "Koushik Pal",
+        "Yizhou Zhu",
+        "Mercouri G. Kanatzidis",
+        "Chris M. Wolverton"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Jiangang He",
+          "orcid": "0000-0001-9643-3617",
+          "affiliations": [
+            "Northwestern University",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Xia",
+          "orcid": "0000-0001-5386-3975",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenwen Lin",
+          "orcid": "0000-0002-1627-9558",
+          "affiliations": [
+            "Northwestern University",
+            "Chinese Academy of Sciences",
+            "Ningbo Institute of Industrial Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Koushik Pal",
+          "orcid": "0000-0002-5426-9748",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yizhou Zhu",
+          "orcid": "0000-0002-5819-7657",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mercouri G. Kanatzidis",
+          "orcid": "0000-0003-2037-4168",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris M. Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.202108532",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adfm.202108532",
+      "cited_by_count": 143,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1976180",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Semiconductors with very low lattice thermal conductivities are highly desired for applications relevant to thermal energy conversion and management, such as thermoelectrics and thermal barrier coatings. Although the crystal structure and chemical bonding are known to play vital roles in shaping heat transfer behavior, material design approaches of lowering lattice thermal conductivity using chemical bonding principles are uncommon. In this work, an effective strategy of weakening interatomic interactions and therefore suppressing lattice thermal conductivity based on chemical bonding principles is presented and a high‐efficiency approach of discovering low κ L materials by screening the local coordination environments of crystalline compounds is developed. The resulting first‐principles calculations uncover 30 hitherto unexplored compounds with (ultra)low lattice thermal conductivities from 13 prototype crystal structures contained in the Inorganic Crystal Structure Database. Furthermore, an approach of rationally designing high‐performance thermoelectrics is demonstrated by additionally incorporating cations with stereochemically active lone‐pair electrons. These results not only provide atomic‐level insights into the physical origin of the low lattice thermal conductivity in a large family of copper/silver‐based compounds but also offer an efficient approach to discover and design materials with targeted thermal transport properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Accelerated discovery of a large family of quaternary chalcogenides with very low lattice thermal conductivity",
+      "authors": [
+        "Koushik Pal",
+        "Yi Xia",
+        "Jiahong Shen",
+        "Jiangang He",
+        "Yubo Luo",
+        "Mercouri G. Kanatzidis",
+        "Chris M. Wolverton"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Koushik Pal",
+          "orcid": "0000-0002-5426-9748",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Xia",
+          "orcid": "0000-0001-5386-3975",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiahong Shen",
+          "orcid": "0000-0002-1951-2183",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiangang He",
+          "orcid": "0000-0001-9643-3617",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yubo Luo",
+          "orcid": "0000-0003-0785-313X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mercouri G. Kanatzidis",
+          "orcid": "0000-0003-2037-4168",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris M. Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00549-x",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00549-x",
+      "cited_by_count": 75,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00549-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of efficient thermal energy management devices such as thermoelectrics and barrier coatings often relies on compounds having low lattice thermal conductivity (κl). Here, we present the computational discovery of a large family of 628 thermodynamically stable quaternary chalcogenides, AMM′Q3 (A = alkali/alkaline earth/post-transition metals; M/M′ = transition metals, lanthanides; Q = chalcogens) using high-throughput density functional theory (DFT) calculations. We validate the presence of low κl in these materials by calculating κl of several predicted stable compounds using the Peierls–Boltzmann transport equation. Our analysis reveals that the low κl originates from the presence of either a strong lattice anharmonicity that enhances the phonon-scatterings or rattler cations that lead to multiple scattering channels in their crystal structures. Our thermoelectric calculations indicate that some of the predicted semiconductors may possess high energy conversion efficiency with their figure-of-merits exceeding 1 near 600 K. Our predictions suggest experimental research opportunities in the synthesis and characterization of these stable, low κl compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Charting lattice thermal conductivity for inorganic crystals and discovering rare earth chalcogenides for thermoelectrics",
+      "authors": [
+        "Taishan Zhu",
+        "Ran He",
+        "Sheng Gong",
+        "Tian Xie",
+        "Prashun Gorai",
+        "Kornelius Nielsch",
+        "Jeffrey C. Grossman"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Taishan Zhu",
+          "orcid": "0000-0001-9462-5666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ran He",
+          "orcid": "0000-0002-0295-6837",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sheng Gong",
+          "orcid": "0000-0002-7457-7959",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian Xie",
+          "orcid": "0000-0002-0987-4666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kornelius Nielsch",
+          "orcid": "0000-0003-2271-7726",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey C. Grossman",
+          "orcid": "0000-0003-1281-2359",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/d1ee00442e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d1ee00442e",
+      "cited_by_count": 108,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2021/ee/d1ee00442e",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Charting and understanding lattice thermal conductivity of inorganic materials and discovery of REX materials for thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Discovery of ABO4 scheelites with the extra low thermal conductivity through high-throughput calculations",
+      "authors": [
+        "Yuchen Liu",
+        "Dechang Jia",
+        "Yu Zhou",
+        "Yanchun Zhou",
+        "Juanli Zhao",
+        "Qian Li",
+        "Bin Liu"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Yuchen Liu",
+          "orcid": "0009-0006-0631-6059",
+          "affiliations": [
+            "Shanghai University",
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dechang Jia",
+          "orcid": "0000-0001-7714-4684",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu Zhou",
+          "orcid": "0000-0001-7729-4893",
+          "affiliations": [
+            "Harbin Institute of Technology",
+            "Aerospace Research Institute of Materials and Processing Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanchun Zhou",
+          "orcid": "0000-0003-4153-3981",
+          "affiliations": [
+            "Harbin Institute of Technology",
+            "Aerospace Research Institute of Materials and Processing Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juanli Zhao",
+          "orcid": "0009-0002-6400-1494",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Li",
+          "orcid": "0000-0003-1322-5594",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bin Liu",
+          "orcid": "0000-0003-2764-5135",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materiomics",
+      "doi": "10.1016/j.jmat.2020.05.009",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmat.2020.05.009",
+      "cited_by_count": 38,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352847820300885/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Searching for new materials with extra low thermal conductivities is significant in numerous fields like thermal barrier coatings and thermoelectric devices. Traditional multiple-component design has successfully reduced the thermal conductivity, but it also dramatically increases the complexity of manufactural technologies and the risk of material failures. In this work, a specific category known as ABO4 scheelites that with both simple crystal structure and the structural signature of the low lattice thermal conductivity is explored. High-throughput calculations are employed to screen for the materials with the targeted performance by multi-dimensional mechanical/thermal property criteria and a database of 46 stable scheelites is constructed. Seven scheelites with both ultra-low thermal conductivities (<1.2 W/(m∙K)) and quasi-ductility are predicted to be novel thermal insulation materials. Low thermal conductivities prefer the scheelites with large valence disparity between “A” and “B” cations and/or small ionic radius ratio. The adopted strategy starting from the structural fingerprint and the data-driven material selection is expected to be a reference of future structural and functional ceramics design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "A high-throughput descriptor for prediction of lattice thermal conductivity of half-Heusler compounds",
+      "authors": [
+        "Jianghui Liu",
+        "Shihao Han",
+        "Guohua Cao",
+        "Zizhen Zhou",
+        "Caiyu Sheng",
+        "Huijun Liu"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Jianghui Liu",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shihao Han",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guohua Cao",
+          "orcid": "0000-0002-0309-436X",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zizhen Zhou",
+          "orcid": "0000-0001-9543-5856",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Caiyu Sheng",
+          "orcid": null,
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijun Liu",
+          "orcid": "0000-0001-5801-7217",
+          "affiliations": [
+            "Wuhan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/ab898e",
+      "type": "article",
+      "url": "https://doi.org/10.1088/1361-6463/ab898e",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://iopscience.iop.org/article/10.1088/1361-6463/ab898e/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Lattice thermal conductivity is a key property of materials for applications ranging from thermal barrier coatings to thermoelectric conversion. In principle, the thermal conductivity can be accurately predicted by solving the phonon Boltzmann transport equation, which is however very time-consuming, especially for complex systems with large unit cell. Here, using half-Heusler compounds as prototypical examples, we apply a compressed-sensing approach to rapidly evaluate the lattice thermal conductivity with very good accuracy, as realized by a physically interpretable descriptor. Beyond the initial 86 training data, the descriptor is employed to predict the thermal conductivities of 75 half- and 15 full-Heusler compounds, which shows good agreement with explicit first-principles results. Moreover, the descriptor is further optimized by including only the fundamental properties of the constituent atoms, which could accelerate materials discovery with desirable thermal conductivity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "High-Throughput Study of Lattice Thermal Conductivity in Binary Rocksalt and Zinc Blende Compounds Including Higher-Order Anharmonicity",
+      "authors": [
+        "Yi Xia",
+        "Vinay I. Hegde",
+        "Koushik Pal",
+        "Xia Hua",
+        "Dale Gaines",
+        "Shane Patel",
+        "Jiangang He",
+        "Muratahan Aykol",
+        "Chris M. Wolverton"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Yi Xia",
+          "orcid": "0000-0001-5386-3975",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vinay I. Hegde",
+          "orcid": "0000-0003-4786-823X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Koushik Pal",
+          "orcid": "0000-0002-5426-9748",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xia Hua",
+          "orcid": "0000-0001-7139-4076",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dale Gaines",
+          "orcid": "0000-0001-9280-1240",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shane Patel",
+          "orcid": "0000-0002-8418-5852",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiangang He",
+          "orcid": "0000-0001-9643-3617",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muratahan Aykol",
+          "orcid": "0000-0001-6433-7217",
+          "affiliations": [
+            "Toyota Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris M. Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review X",
+      "doi": "10.1103/physrevx.10.041029",
+      "type": "article",
+      "url": "https://doi.org/10.1103/physrevx.10.041029",
+      "cited_by_count": 159,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.10.041029",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermal transport phenomena are ubiquitous and play a critical role in the performance of various microelectronic and energy-conversion devices.Binary rocksalt and zinc blende compounds, despite their rather simple crystal structures, exhibit an extraordinary range of lattice thermal conductivity (κ L ) spanning over 3 orders of magnitude.A comprehensive understanding of the underlying heat transfer mechanism through the development of microscopic theories is therefore of fundamental importance, yet it remains elusive because of the challenges arising from explicitly treating higher-order anharmonicity.Recent theoretical and experimental advances have revealed the essential role of quartic anharmonicity in suppressing heat transfer in zinc blende boron arsenide (BAs) with ultrahigh κ L .However, critical questions concerning the general effects of higher-order anharmonicity in the broad classes and chemistries of binary solids are still unanswered.Using our recently developed high-throughput phonon framework based on first-principles density functional theory calculations, we systematically investigate the lattice dynamics and thermal transport properties of 37 binary compounds with rocksalt and zinc blende structures at room temperature, with a particular focus on unraveling the impacts of quartic anharmonicity on κ L .Our advanced theoretical model for computing κ L embraces current state-of-the-art methods, featuring a complete treatment of quartic anharmonicity for both phonon frequencies and lifetimes at finite temperatures, as well as contributions from off-diagonal terms in the heat-flux operator.We find the impacts of quartic anharmonicity on κ L to be strikingly different in rocksalt and zinc blende compounds, owing to the countervailing effects on finitetemperature-induced shifts in phonon frequencies and scattering rates.By correlating κ L with the phonon scattering phase space, we outline a qualitative but efficient route to assess the importance of four-phonon scattering from harmonic phonon calculations.Among notable examples, in zinc blende HgTe, we identify an unprecedented sixfold reduction in κ L due to four-phonon scattering, which dominates over the three-phonon scattering in the acoustic region at room temperature.We also demonstrate a possible breakdown of the phonon gas model in rocksalt AgCl, wherein the phonon states are significantly broadened due to strong intrinsic anharmonicity, inducing off-diagonal contributions to κ L comparable to the diagonal ones.The deep physical insights gained in this work can be used to guide the rational design of thermal management materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Charting Lattice Thermal Conductivity of Inorganic Crystals",
+      "authors": [
+        "Taishan Zhu",
+        "Sheng Gong",
+        "Tian Xie",
+        "Prashun Gorai",
+        "Jeffrey C. Grossman"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Taishan Zhu",
+          "orcid": "0000-0001-9462-5666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sheng Gong",
+          "orcid": "0000-0002-7457-7959",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian Xie",
+          "orcid": "0000-0002-0987-4666",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeffrey C. Grossman",
+          "orcid": "0000-0003-1281-2359",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2006.11712",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2006.11712",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2006.11712",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Thermal conductivity is a fundamental material property but challenging to predict, with less than 5% out of about $10^5$ synthesized inorganic materials being documented. In this work, we extract the structural chemistry that governs lattice thermal conductivity, by combining graph neural networks and random forest approaches. We show that both mean and variation of unit-cell configurational properties, such as atomic volume and bond length, are the most important features, followed by mass and elemental electronegativity. We chart the structural chemistry of lattice thermal conductivity into extended van-Arkel triangles, and predict the thermal conductivity of all known inorganic materials in the Inorganic Crystal Structure Database. For the latter, we develop a transfer learning framework extendable for other applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Automating Anharmonic Lattice Thermal Conductivity Calculations using Compressed Sensing Lattice Dynamics [Poster]",
+      "authors": [
+        "Rees Chang"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Rees Chang",
+          "orcid": "0000-0001-5773-7183",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/biblio/1605247",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Engineering heat transfer is critical for applications in heat exchangers, semiconductor devices, thermoelectrics and more. This demand motivates a high-throughput computational methodology for systematically designing materials with improved thermal properties. One emerging method which can rapidly and explicitly consider phonon-phonon interactions even for highly anharmonic materials is Compressive Sensing Lattice Dynamics (CSLD). In fact, CSLD accurately predicts 2nd (harmonic) and 3rd+ order (anharmonic) interatomic force constants (IFCs) with orders of magnitude fewer Density Functional Theory (DFT) calculations than conventional methods. However, doing CSLD can be an exhaustive, many-step process requiring an intimate knowledge of its sensitivity to parameters. Consequently, this work implements an automatic CSLD workflow capable of obtaining the thermal conductivity of potentially thousands of materials, benchmarks the stability of the workflow against materials with a range of anharmonicity, and begins constructing a dataset of thermal conductivity values and phonon dispersion curves to be stored in the Materials Project for public use.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Number mismatch between cations and anions as an indicator for low lattice thermal conductivity in chalcogenides",
+      "authors": [
+        "Tingting Deng",
+        "Tian‐Ran Wei",
+        "Hui Huang",
+        "Qingfeng Song",
+        "Kunpeng Zhao",
+        "Pengfei Qiu",
+        "Jiong Yang",
+        "Lidong Chen",
+        "Xun Shi"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Tingting Deng",
+          "orcid": "0000-0002-4937-624X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "ShanghaiTech University",
+            "Shanghai Institute of Ceramics",
+            "University of Chinese Academy of Sciences",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tian‐Ran Wei",
+          "orcid": "0000-0002-5011-0932",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hui Huang",
+          "orcid": "0000-0002-5208-6745",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Ceramics",
+            "University of Chinese Academy of Sciences",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qingfeng Song",
+          "orcid": "0000-0002-3494-8436",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Ceramics",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kunpeng Zhao",
+          "orcid": "0000-0002-9977-3139",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pengfei Qiu",
+          "orcid": "0000-0001-6011-1210",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Ceramics",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lidong Chen",
+          "orcid": "0000-0002-9683-037X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "ShanghaiTech University",
+            "Shanghai Institute of Ceramics",
+            "University of Chinese Academy of Sciences",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xun Shi",
+          "orcid": "0000-0002-8086-6407",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Ceramics",
+            "State Key Laboratory of Metal Matrix Composites",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-020-00355-x",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-020-00355-x",
+      "cited_by_count": 25,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-020-00355-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermal conductivity is one of the most fundamental properties of materials with the value being determined by nearly all-scale structural features and multiple physical processes. Rapidly judging material’s thermal conductivity is extremely important but challenging for the applications. The material genome paradigm offers a revolutionary way to efficiently screen and discover materials with designed properties by using accessible indicators. But such a performance indicator for thermal conductivity is quite difficult to propose due to the existence of multiple mechanisms and processes, especially for the materials with complex structures such as chalcogenides. In this study, the number mismatch between cations and anions is proposed as a practical performance indicator for lattice thermal conductivity in complex copper and silver chalcogenides, which can be used to explain the observed experimental data and find new low thermal conductivity materials. Such a number mismatch brings about rich phenomena to affect thermal conductivity including the complication of the unit cell and the creation of chemical hierarchy, point defects, rattling modes and lone-pair electrons. It is expected that this rich-connotation performance indicator can be also extended to other complex materials to discover designed thermal conductivities.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Designing chemical analogs to PbTe with intrinsic high band degeneracy and low lattice thermal conductivity",
+      "authors": [
+        "Jiangang He",
+        "Yi Xia",
+        "S. Shahab Naghavi",
+        "Vidvuds Ozoliņš",
+        "Chris Wolverton"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Jiangang He",
+          "orcid": null,
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Xia",
+          "orcid": "0000-0001-5386-3975",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Shahab Naghavi",
+          "orcid": "0000-0002-8511-2591",
+          "affiliations": [
+            "Shahid Beheshti University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vidvuds Ozoliņš",
+          "orcid": "0000-0002-3810-1451",
+          "affiliations": [
+            "Yale University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris Wolverton",
+          "orcid": null,
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-019-08542-1",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-019-08542-1",
+      "cited_by_count": 83,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-019-08542-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract High-efficiency thermoelectric materials require simultaneously high power factors and low thermal conductivities. Aligning band extrema to achieve high band degeneracy, as realized in PbTe, is one of the most efficient approaches to enhance power factor. However, this approach usually relies on band structure engineering, e.g., via chemical doping or strain. By employing first-principles methods with explicit computation of phonon and carrier lifetimes, here we show two full-Heusler compounds Li 2 TlBi and Li 2 InBi have exceptionally high power factors and low lattice thermal conductivities at room temperature. The expanded rock-salt sublattice of these compounds shifts the valence band maximum to the middle of the Σ line, increasing the band degeneracy by a factor of three. Meanwhile, resonant bonding in the PbTe-like sublattice and soft Tl–Bi (In–Bi) bonding interaction is responsible for intrinsic low lattice thermal conductivities. Our results present an alternative strategy of designing high performance thermoelectric materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Lattice dynamical properties of antiferromagnetic MnO, CoO, and NiO, and the lattice thermal conductivity of NiO",
+      "authors": [
+        "Jarno Linnera",
+        "Antti J. Karttunen"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Jarno Linnera",
+          "orcid": null,
+          "affiliations": [
+            "Aalto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antti J. Karttunen",
+          "orcid": "0000-0003-4187-5447",
+          "affiliations": [
+            "Aalto University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/physrevb.100.144307",
+      "type": "article",
+      "url": "https://doi.org/10.1103/physrevb.100.144307",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevB.100.144307",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Lattice dynamical properties of antiferromagnetic rocksalt oxides are often interpreted using the cubic space group $Fm\\overline{3}m$, although below N\\'eel temperature their magnetic substructure possesses a lower symmetry. For example, in the case of NiO, a rhombohedral structural distortion lowers the symmetry to trigonal space group $R\\overline{3}m$ below 525 K. We performed hybrid density functional theory calculations on the phonon dispersion relations of MnO, CoO, and NiO, and the lattice thermal conductivity of NiO using both $Fm\\overline{3}m$ and $R\\overline{3}m$ space groups. The calculated acoustic phonon frequencies of all oxides agree well with the available experimental data, while the optical modes of MnO and CoO show somewhat larger discrepancies. Our calculations show the phonon density of states to be very similar with both studied space groups. The experimental thermal conductivity of antiferromagnetic NiO is reproduced well below the N\\'eel temperature by solving the linearized phonon Boltzmann transport equation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Automating Anharmonic Lattice Thermal Conductivity Calculations using Compressed Sensing Lattice Dynamics",
+      "authors": [
+        "Rees Chang"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Rees Chang",
+          "orcid": "0000-0001-5773-7183",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "eScholarship (California Digital Library)",
+      "doi": null,
+      "type": "other",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://escholarship.org/uc/item/08h0c9zs",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Engineering heat transfer is critical for applications\\nin heat exchangers, semiconductor devices,\\nthermoelectrics and more. This demand motivates a\\nhigh-throughput computational methodology for\\nsystematically designing materials with improved\\nthermal properties. One emerging method which can\\nrapidly and explicitly consider phonon-phonon\\ninteractions even for highly anharmonic materials is\\nCompressive Sensing Lattice Dynamics (CSLD). In\\nfact, CSLD accurately predicts 2nd (harmonic) and\\n3rd+ order (anharmonic) interatomic force\\nconstants (IFCs) with orders of magnitude fewer\\nDensity Functional Theory (DFT) calculations than\\nconventional methods. However, doing CSLD can be\\nan exhaustive, many-step process requiring an\\nintimate knowledge of its sensitivity to parameters.\\nConsequently, this work implements an automatic\\nCSLD workflow capable of obtaining the thermal\\nconductivity of potentially thousands of materials,\\nbenchmarks the stability of the workflow against\\nmaterials with a range of anharmonicity, and begins\\nconstructing a dataset of thermal conductivity values\\nand phonon dispersion curves to be stored in the Materials Project for public use.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "High-Throughput Screening of Solid-State Li-Ion Conductors Using Lattice-Dynamics Descriptors",
+      "authors": [
+        "Sokseiha Muy",
+        "Johannes Voss",
+        "Roman Schlem",
+        "Raimund Koerver",
+        "Stefan J. Sedlmaier",
+        "Filippo Maglia",
+        "Peter Lamp",
+        "Wolfgang G. Zeier",
+        "Yang Shao‐Horn"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Sokseiha Muy",
+          "orcid": "0000-0001-6457-9187",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johannes Voss",
+          "orcid": "0000-0001-7740-8811",
+          "affiliations": [
+            "SLAC National Accelerator Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Roman Schlem",
+          "orcid": null,
+          "affiliations": [
+            "Justus-Liebig-Universität Gießen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raimund Koerver",
+          "orcid": null,
+          "affiliations": [
+            "BMW (Germany)",
+            "BMW Group (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefan J. Sedlmaier",
+          "orcid": "0000-0002-5337-3076",
+          "affiliations": [
+            "BMW (Germany)",
+            "BMW Group (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Filippo Maglia",
+          "orcid": "0000-0001-9913-5260",
+          "affiliations": [
+            "BMW (Germany)",
+            "BMW Group (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Lamp",
+          "orcid": null,
+          "affiliations": [
+            "BMW (Germany)",
+            "BMW Group (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wolfgang G. Zeier",
+          "orcid": "0000-0001-7749-5089",
+          "affiliations": [
+            "Justus-Liebig-Universität Gießen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Shao‐Horn",
+          "orcid": "0000-0001-8714-2121",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "iScience",
+      "doi": "10.1016/j.isci.2019.05.036",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.isci.2019.05.036",
+      "cited_by_count": 262,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://www.cell.com/article/S2589004219301737/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Low lithium-ion migration barriers have recently been associated with low average vibrational frequencies or phonon band centers, further helping identify descriptors for superionic conduction. To further explore this correlation, here we present the computational screening of ∼14,000 Li-containing compounds in the Materials Project database using a descriptor based on lattice dynamics reported recently to identify new promising Li-ion conductors. An efficient computational approach was optimized to compute the average vibrational frequency or phonon band center of ∼1,200 compounds obtained after pre-screening based on structural stability, band gap, and their composition. Combining a low computed Li phonon band center with large computed electrochemical stability window and structural stability, 18 compounds were predicted to be promising Li-ion conductors, one of which, Li 3 ErCl 6 , has been synthesized and exhibits a reasonably high room-temperature conductivity of 0.05–0.3 mS/cm, which shows the promise of Li-ion conductor discovery based on lattice dynamics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Exploring Diamond-Like Lattice Thermal Conductivity Crystals via Feature-Based Transfer Learning",
+      "authors": [
+        "Shenghong Ju",
+        "Ryo Yoshida",
+        "Chang Liu",
+        "Kenta Hongo",
+        "Terumasa Tadano",
+        "Junichiro Shiomi"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Shenghong Ju",
+          "orcid": "0000-0001-7863-6947",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryo Yoshida",
+          "orcid": "0000-0002-0558-2922",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The Institute of Statistical Mathematics",
+            "Research Organization of Information and Systems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chang Liu",
+          "orcid": "0000-0002-5931-5475",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "The Institute of Statistical Mathematics",
+            "Research Organization of Information and Systems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kenta Hongo",
+          "orcid": "0000-0002-2580-0907",
+          "affiliations": [
+            "Japan Advanced Institute of Science and Technology",
+            "National Institute for Materials Science",
+            "Japan Science and Technology Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Terumasa Tadano",
+          "orcid": "0000-0002-8132-2161",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junichiro Shiomi",
+          "orcid": "0000-0002-3552-4555",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "Japan Science and Technology Agency",
+            "RIKEN Center for Advanced Intelligence Project",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.9850301",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv.9850301",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74481842e65fa89db2485/original/exploring-diamond-like-lattice-thermal-conductivity-crystals-via-feature-based-transfer-learning.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Ultrahigh lattice thermal conductivity materials hold great importance since they play a critical role in the thermal management of electronic and optical devices. Models using machine learning can search for materials with outstanding higher-order properties like thermal conductivity. However, the lack of sufficient data to train a model is a serious hurdle. Herein we show that big data can complement small data for accurate predictions when lower-order feature properties available in big data are selected properly and applied to transfer learning. The connection between the crystal information and thermal conductivity is directly built with a neural network by transferring descriptors acquired through a pre-trained model for the feature property. Successful transfer learning shows the ability of extrapolative prediction and reveals descriptors for lattice anharmonicity. Transfer learning is employed to screen over 60000 compounds to identify novel crystals that can serve as alternatives to diamond. Even though most materials in the top list are superhard materials, we reveal that superhard property do not necessarily lead to high lattice thermal conductivity. Large hardness means high elastic constants and group velocity of phonons in the linear dispersion regime, but the lattice thermal conductivity is determined also by other important factor such as the phonon relaxation time. What’s more, the average or maximum dipole polarizability and the van der Waals radius are revealed to be the leading descriptors among those that can also be qualitatively related to anharmonicity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "The Computational 2D Materials Database: high-throughput modeling and discovery of atomically thin crystals",
+      "authors": [
+        "Sten Haastrup",
+        "Mikkel Strange",
+        "Mohnish Pandey",
+        "Thorsten Deilmann",
+        "Per S. Schmidt",
+        "Nicki F. Hinsche",
+        "Morten Niklas Gjerding",
+        "Daniele Torelli",
+        "Peter Mahler Larsen",
+        "Anders Christian Riis-Jensen",
+        "Jakob Gath",
+        "Karsten W. Jacobsen",
+        "Jens Jørgen Mortensen",
+        "Thomas Olsen",
+        "Kristian Sommer Thygesen"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Sten Haastrup",
+          "orcid": "0000-0003-3696-0356",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikkel Strange",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohnish Pandey",
+          "orcid": "0000-0002-1715-0617",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thorsten Deilmann",
+          "orcid": "0000-0003-4165-2446",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Per S. Schmidt",
+          "orcid": "0000-0003-1591-9717",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicki F. Hinsche",
+          "orcid": "0000-0002-0176-6038",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Morten Niklas Gjerding",
+          "orcid": "0000-0002-5256-660X",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniele Torelli",
+          "orcid": "0000-0002-4861-0268",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Mahler Larsen",
+          "orcid": "0000-0002-7280-5903",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anders Christian Riis-Jensen",
+          "orcid": "0000-0002-4914-5820",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jakob Gath",
+          "orcid": "0000-0002-8944-7532",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Karsten W. Jacobsen",
+          "orcid": "0000-0002-1121-2979",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jens Jørgen Mortensen",
+          "orcid": "0000-0001-5090-6706",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Olsen",
+          "orcid": "0000-0001-6256-9284",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristian Sommer Thygesen",
+          "orcid": "0000-0001-5197-214X",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "2D Materials",
+      "doi": "10.1088/2053-1583/aacfc1",
+      "type": "article",
+      "url": "https://doi.org/10.1088/2053-1583/aacfc1",
+      "cited_by_count": 1235,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://iopscience.iop.org/article/10.1088/2053-1583/aacfc1/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We introduce the Computational 2D Materials Database (C2DB), which organises a variety of structural, thermodynamic, elastic, electronic, magnetic, and optical properties of around 1500 two-dimensional materials distributed over more than 30 different crystal structures. Material properties are systematically calculated by state-of-the-art density functional theory and many-body perturbation theory ( and the Bethe–Salpeter equation for ∼250 materials) following a semi-automated workflow for maximal consistency and transparency. The C2DB is fully open and can be browsed online ( http://c2db.fysik.dtu.dk ) or downloaded in its entirety. In this paper, we describe the workflow behind the database, present an overview of the properties and materials currently available, and explore trends and correlations in the data. Moreover, we identify a large number of new potentially synthesisable 2D materials with interesting properties targeting applications within spintronics, (opto-)electronics, and plasmonics. The C2DB offers a comprehensive and easily accessible overview of the rapidly expanding family of 2D materials and forms an ideal platform for computational modeling and design of new 2D materials and van der Waals heterostructures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Capturing Anharmonicity in a Lattice Thermal Conductivity Model for High-Throughput Predictions",
+      "authors": [
+        "Samuel A. Miller",
+        "Prashun Gorai",
+        "Brenden R. Ortiz",
+        "Anuj Goyal",
+        "Duanfeng Gao",
+        "Scott Alexander Barnett",
+        "Thomas O. Mason",
+        "Gerald Jeffrey Snyder",
+        "Qin Lv",
+        "Vladan Stevanović",
+        "Eric S. Toberer"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Samuel A. Miller",
+          "orcid": "0000-0002-3181-1426",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prashun Gorai",
+          "orcid": "0000-0001-7866-0672",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brenden R. Ortiz",
+          "orcid": "0000-0002-1333-7003",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anuj Goyal",
+          "orcid": "0000-0001-5991-9562",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Duanfeng Gao",
+          "orcid": null,
+          "affiliations": [
+            "University of Colorado Boulder"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Scott Alexander Barnett",
+          "orcid": "0000-0001-9813-7360",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas O. Mason",
+          "orcid": "0000-0002-4813-8776",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qin Lv",
+          "orcid": "0000-0002-9437-1376",
+          "affiliations": [
+            "University of Colorado Boulder"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladan Stevanović",
+          "orcid": "0000-0002-4954-5162",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric S. Toberer",
+          "orcid": "0000-0003-0826-2446",
+          "affiliations": [
+            "National Laboratory of the Rockies",
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.6b04179",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.6b04179",
+      "cited_by_count": 107,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1352998",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-throughput, low-cost, and accurate predictions of thermal properties of new materials would be beneficial in fields ranging from thermal barrier coatings and thermoelectrics to integrated circuits. To date, computational efforts for predicting lattice thermal conductivity (κ L ) have been hampered by the complexity associated with computing multiple phonon interactions. In this work, we develop and validate a semiempirical model for κ L by fitting density functional theory calculations to experimental data. Experimental values for κ L come from new measurements on SrIn 2 O 4, Ba 2 SnO 4, Cu 2 ZnSiTe 4, MoTe 2, Ba 3 In 2 O 6, Cu 3 TaTe 4, SnO, and InI as well as 55 compounds from across the published literature. To capture the anharmonicity in phonon interactions, we incorporate a structural parameter that allows the model to predict κ L within a factor of 1.5 of the experimental value across 4 orders of magnitude in κ L values and over a diverse chemical and structural phase space, with accuracy similar to or better than that of computationally more expensive models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Finding Unprecedentedly Low-Thermal-Conductivity Half-Heusler Semiconductors via High-Throughput Materials Modeling",
+      "authors": [
+        "Jesús Carrete",
+        "Wu Li",
+        "Natalio Mingo",
+        "Shidong Wang",
+        "Stefano Curtarolo A"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Jesús Carrete",
+          "orcid": null,
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "CEA Grenoble"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wu Li",
+          "orcid": null,
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "CEA Grenoble"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Natalio Mingo",
+          "orcid": null,
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "CEA Grenoble"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shidong Wang",
+          "orcid": null,
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "CEA Grenoble"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefano Curtarolo A",
+          "orcid": "0000-0003-0570-8238",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "CEA Grenoble"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review X",
+      "doi": "10.1103/physrevx.4.011019",
+      "type": "article",
+      "url": "https://doi.org/10.1103/physrevx.4.011019",
+      "cited_by_count": 265,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.4.011019",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Experimentally determining the lattice thermal conductivity of materials with very high or low values is expensive and time consuming. An efficient computational approach using machine-learning techniques finds a much larger range of conductivity than expected for an impressive number of half-Heusler compounds and also offers a way to rapidly evaluate other classes of materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 40,
+      "known": 50,
+      "pct": 80,
+      "text": "文献类型：journal-article = 40/50（80%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

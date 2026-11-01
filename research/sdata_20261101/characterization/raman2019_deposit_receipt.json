@@ -1,0 +1,39 @@
+{
+  "name": "raman2019",
+  "url": "https://api.figshare.com/v2/articles/7427393",
+  "status": 200,
+  "raw_file": "research/cache/sdata_characterization/raman2019_deposit.json",
+  "sha256": "593f221817eb213bf3c256e34babfd7532c5525c0b8e07ba3f010d89ec246712",
+  "title": "High-throughput Computation and Evaluation of Raman Spectra",
+  "doi": "10.6084/m9.figshare.7427393.v2",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "version": 2,
+  "publication_date": null,
+  "access_right": null,
+  "file_count": 4,
+  "total_file_bytes": 17131337,
+  "file_examples": [
+    {
+      "name": "Experimental Data.json",
+      "bytes": 24595,
+      "checksum": "5397f81312a454f6255b65a1d6d9529e",
+      "url": "https://ndownloader.figshare.com/files/13752833"
+    },
+    {
+      "name": "Computational Data.json",
+      "bytes": 16891924,
+      "checksum": "8481a6bf1a3437c8d13e80333c6f36af",
+      "url": "https://ndownloader.figshare.com/files/13752839"
+    },
+    {
+      "name": "RRUFF CIF.zip",
+      "bytes": 141876,
+      "checksum": "13621b14a835ba7a6a651aaf04f28e9b",
+      "url": "https://ndownloader.figshare.com/files/13752854"
+    }
+  ]
+}

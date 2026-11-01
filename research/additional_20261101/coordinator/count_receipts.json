@@ -1,0 +1,115 @@
+{
+  "C-GAP-20U": {
+    "structures": 6088,
+    "atoms": 400275,
+    "paper_dois": [
+      "10.1063/5.0005084",
+      "10.17863/CAM.84096"
+    ]
+  },
+  "Si-GAP-18": {
+    "structures": 2475,
+    "atoms": 171815,
+    "paper_dois": [
+      "10.1103/PhysRevX.8.041048"
+    ]
+  },
+  "SiO2-GAP-22": {
+    "structures": 3074,
+    "atoms": 268118,
+    "paper_dois": [
+      "10.1038/s41524-022-00768-w"
+    ]
+  },
+  "GST-GAP-22": {
+    "structures": 2692,
+    "atoms": 341132,
+    "paper_dois": [
+      "10.1038/s41928-023-01030-x"
+    ]
+  },
+  "P-GAP-20": {
+    "structures": 4798,
+    "atoms": 140910,
+    "paper_dois": [
+      "10.1038/s41467-020-19168-z"
+    ]
+  },
+  "GO-MACE-23": {
+    "structures": 3816,
+    "atoms": 768256,
+    "paper_dois": [
+      "10.1002/anie.202410088"
+    ]
+  },
+  "SiOx-ACE-24": {
+    "structures": 11428,
+    "atoms": 1258198,
+    "paper_dois": [
+      "10.1038/s41467-024-45840-9"
+    ]
+  },
+  "a-Si-24": {
+    "structures": 3069,
+    "atoms": 1317240,
+    "paper_dois": [
+      "10.48550/arXiv.2407.16681"
+    ]
+  },
+  "AC-2D-22": {
+    "structures": 150,
+    "atoms": 30000,
+    "paper_dois": [
+      "10.1039/D2SC04326B"
+    ]
+  },
+  "sysTEm": {
+    "sheet": "Sheet1",
+    "headers": [
+      "#",
+      "Initial Dataset",
+      "Source Paper",
+      "Pymatgen Composition",
+      "reduced_compositions",
+      "Pretty Formula",
+      "Type of Formula",
+      "Year",
+      "Temperature (K)",
+      "Electrical Conductivity (S/cm)",
+      "Seebeck Coefficient (\u00b5V/K)",
+      "Power Factor (\u00b5W/cmK\u00b2)",
+      "zT",
+      "Total Thermal Conductivity (W/mK)",
+      "Lattice Thermal Conductivity (W/mK)",
+      "Electronic Thermal Conductivity (W/mK)"
+    ],
+    "nonempty_data_rows": 8650,
+    "unique_first_column": 8650,
+    "unique_standardized_composition_strings": 1437,
+    "temperature_range_K": [
+      10,
+      1275
+    ]
+  },
+  "CTE": {
+    "sheet": "Sheet1",
+    "headers": [
+      "Composition",
+      "CTE Value",
+      "Start Temp (\u00b0C)",
+      "End Temp (\u00b0C)",
+      "paper"
+    ],
+    "nonempty_data_rows": 204,
+    "unique_first_column": 188
+  },
+  "SACADA": {
+    "table_rows": 1661,
+    "unique_ids": 1661,
+    "source_last_updated_label": "15.02.2024 (HTML label; live table checked 2026-11-01)"
+  },
+  "GAP20U_recount": {
+    "frames": 6088,
+    "atoms": 400275
+  }
+}

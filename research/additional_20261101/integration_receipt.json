@@ -1,0 +1,241 @@
+{
+  "checked_date": "2026-11-01",
+  "initial_catalog_records": 304,
+  "initial_catalog_sha256": "fec0e7e1db1398b11ad0dde35ea082d4cd1ee9c499312dad44d382cf2b14167f",
+  "new_records": 50,
+  "final_catalog_records": 354,
+  "new_dataset_ids": [
+    "solid26",
+    "sevennet-omni-dbs",
+    "sacada",
+    "system-thermoelectric",
+    "complex-oxide-cte-2026",
+    "ultera-2025",
+    "carbon-gap20",
+    "carbon-gap20u",
+    "si-gap18",
+    "sio2-gap22",
+    "gst-gap22-pbe",
+    "p-gap20",
+    "go-mace23",
+    "siox-ace24",
+    "asi-paracrystalline-models",
+    "ac2d-amorphous-graphene",
+    "mp-noncrystalline-aimd",
+    "iaea-cascadesdb",
+    "quantumdefects-semiconductor",
+    "homer-aluminum-gb-7304",
+    "gbdb-elemental-metals",
+    "gb-solute-interaction-spectra",
+    "kumagai-oxygen-vacancies",
+    "oqmd-oxygen-vacancy-sites-2023",
+    "chalcogenide-vacancy-reconstructions",
+    "nist-mras-amorphous",
+    "amorphous-alumina-deep-potential",
+    "fenicr-irradiated-relaxed-md",
+    "pormake-moftransformer-1m",
+    "mofx-db",
+    "tobacco-mofs",
+    "nist-isodb",
+    "phononmofdb",
+    "mace-mp-mof0-training",
+    "porous-heat-capacity-2022",
+    "symgnn-zeolite-adsorption",
+    "zeodiff-diffusion",
+    "dxmag-heusler-ternary",
+    "dxmag-heusler-quaternary",
+    "dxmag-heusler-alld",
+    "c1db",
+    "cmr-abse3",
+    "cmr-a2bcx4",
+    "cmr-abx2",
+    "cmr-perovskite-absorption",
+    "cmr-c2dm-2015",
+    "zhou-2d-spin-hall-426",
+    "ferrogen-mattergen-12800",
+    "mint-atlas",
+    "altermagnet-spin-splitting-2026"
+  ],
+  "new_categories": {
+    "mlip_configurations": 17,
+    "bulk_computed": 5,
+    "experimental_properties": 4,
+    "two_dimensional": 3,
+    "property_benchmarks": 14,
+    "surfaces_catalysis": 2,
+    "porous_frameworks": 4,
+    "generation_benchmarks": 1
+  },
+  "input_sha256": {
+    "research/additional_20261101/coordinator/additions.json": "60f6304c163c9a10344f8298ceaa8795c5365c84db67f8d0e40cfd29ad523027",
+    "research/additional_20261101/defects/additions.json": "2bedf133134fafcd53c1747f7bf2b0f6ad28c530af12af4ea35f3905dc4cd35c",
+    "research/additional_20261101/porous/additions.json": "ac5caa60411aa27cb5add890a34da3afad1e90a9cfb35fa238096253766ede97",
+    "research/additional_20261101/functional/additions.json": "071f65f79100aeb67544e66fa352dea69d67f6dc1516b5b480b94b7961de25c4"
+  },
+  "year_corrections": [
+    {
+      "id": "mpea-borg-expanded",
+      "before": 2002,
+      "after": 2020,
+      "source": "https://doi.org/10.1038/s41597-020-00768-9",
+      "publication_date": "2020-12-08"
+    },
+    {
+      "id": "aluminum-alloy-literature-2022",
+      "before": 2002,
+      "after": 2022,
+      "source": "https://doi.org/10.1038/s41597-022-01215-7",
+      "publication_date": "2022-03-30"
+    },
+    {
+      "id": "alloydata-lowtemp",
+      "before": 2002,
+      "after": 2025,
+      "source": "https://doi.org/10.1038/s41597-025-05512-9",
+      "publication_date": "2025-07-15"
+    },
+    {
+      "id": "cde-yield-grainsize",
+      "before": 2002,
+      "after": 2022,
+      "source": "https://doi.org/10.1038/s41597-022-01301-w",
+      "publication_date": "2022-06-09"
+    },
+    {
+      "id": "oxygen-ion-conductor-2026",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-07100-x",
+      "publication_date": "2026-04-01"
+    },
+    {
+      "id": "itr-interface-descriptors",
+      "before": 2002,
+      "after": 2020,
+      "source": "https://doi.org/10.1038/s41597-020-0373-2",
+      "publication_date": "2020-02-03"
+    },
+    {
+      "id": "cde-stress-strain-2024",
+      "before": 2002,
+      "after": 2024,
+      "source": "https://doi.org/10.1038/s41597-024-03979-6",
+      "publication_date": "2024-11-23"
+    },
+    {
+      "id": "hea-llm-2026",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-06930-z",
+      "publication_date": "2026-03-05"
+    },
+    {
+      "id": "weld-fatigue-2025",
+      "before": 2002,
+      "after": 2025,
+      "source": "https://doi.org/10.1038/s41597-025-06067-5",
+      "publication_date": "2025-11-18"
+    },
+    {
+      "id": "predicted-high-dielectric-oxides",
+      "before": 2002,
+      "after": 2020,
+      "source": "https://doi.org/10.1038/s41597-020-0418-6",
+      "publication_date": "2020-03-06"
+    },
+    {
+      "id": "spse-ion-transport-2020",
+      "before": 2002,
+      "after": 2020,
+      "source": "https://doi.org/10.1038/s41597-020-0474-y",
+      "publication_date": "2020-05-21"
+    },
+    {
+      "id": "bam-temperature-elastic-alloys",
+      "before": 2002,
+      "after": 2023,
+      "source": "https://doi.org/10.1038/s41597-023-02387-6",
+      "publication_date": "2023-07-20"
+    },
+    {
+      "id": "ins-exchange-magnetic-2025",
+      "before": 2002,
+      "after": 2025,
+      "source": "https://doi.org/10.1038/s41597-025-06099-x",
+      "publication_date": "2025-11-19"
+    },
+    {
+      "id": "solgel-phase-purity-2026",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-08492-6",
+      "publication_date": "2026-10-15"
+    },
+    {
+      "id": "trace-in625-tensile",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-08585-2",
+      "publication_date": "2026-10-19"
+    },
+    {
+      "id": "her-multinary-alloys-2026",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-07856-2",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "id": "nuclear-charpy-impact",
+      "before": 2002,
+      "after": 2025,
+      "source": "https://doi.org/10.1038/s41597-025-04823-1",
+      "publication_date": "2025-04-01"
+    },
+    {
+      "id": "nuclear-creep-properties",
+      "before": 2002,
+      "after": 2026,
+      "source": "https://doi.org/10.1038/s41597-026-07563-y",
+      "publication_date": "2026-06-02"
+    },
+    {
+      "id": "lpbf-relative-density",
+      "before": 2002,
+      "after": 2025,
+      "source": "https://doi.org/10.1038/s41597-025-04576-x",
+      "publication_date": "2025-03-04"
+    },
+    {
+      "id": "layered-na-cathode-textmine",
+      "before": 2002,
+      "after": 2024,
+      "source": "https://doi.org/10.1038/s41597-024-03196-1",
+      "publication_date": "2024-04-11"
+    },
+    {
+      "id": "aunp-textmined-synthesis",
+      "before": 2002,
+      "after": 2022,
+      "source": "https://doi.org/10.1038/s41597-022-01321-6",
+      "publication_date": "2022-05-26"
+    },
+    {
+      "id": "cde-photocatalysis-water-splitting",
+      "before": 2002,
+      "after": 2023,
+      "source": "https://doi.org/10.1038/s41597-023-02511-6",
+      "publication_date": "2023-09-22"
+    },
+    {
+      "id": "co2-electrocatalyst-llm-corpus",
+      "before": 2002,
+      "after": 2024,
+      "source": "https://doi.org/10.1038/s41597-024-03180-9",
+      "publication_date": "2024-04-06"
+    }
+  ],
+  "source_entry_count": 243,
+  "scope": "Targeted verified additions; not exhaustive materials-data discovery.",
+  "publication_status": "Local only; no commit or push authorized."
+}

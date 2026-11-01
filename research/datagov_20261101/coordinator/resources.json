@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NIST Interatomic Potentials Repository",
+    "url": "https://www.ctcms.nist.gov/potentials/",
+    "kind": "interatomic model and validation resource",
+    "description": "Developer-submitted/vetted interatomic potentials with source references, parameter files and reproducible property-evaluation tools (iprPy). Useful for selecting and testing atomistic models; model-specific domains and licenses apply. Potential counts and calculated test results are not a new independent crystal-structure corpus.",
+    "sources": [
+      {
+        "url": "https://catalog.data.gov/dataset/nist-interatomic-potentials-repository",
+        "title": "Attached Data.gov NIST IPR entry",
+        "evidence": "Ranks 204/206 identify a force-field/model and evaluation repository, not a new equilibrium crystal collection.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.ctcms.nist.gov/potentials/",
+        "title": "NIST IPR primary provider",
+        "evidence": "Provides model files, references and property-evaluation tools; warns that applicability varies by composition/domain and includes intentionally fictional potentials.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]

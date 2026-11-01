@@ -1,0 +1,4378 @@
+{
+  "mode": "search",
+  "query": "elastic hardness database materials dataset",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "superallos elastic database",
+      "authors": [
+        "hafid aourag"
+      ],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.22696692",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.22696692",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.22696692",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Superalloys Elastic Database Suggested name: Superalloys_Elastic_Database_V3.1.xlsx This database is the primary scientific dataset of the project. It compiles traceable structural and elastic properties of selected Ni-based and Co-based superalloys, together with model alloys and selected γ/γ′ systems. The database is designed to provide a centralized and structured collection of experimentally reported and computationally derived data. Main data categories include: Alloy or material system Alloy family and composition Crystal structure and phase Lattice parameter Temperature Elastic constants: C11 C12 C44 Bulk modulus, B Shear modulus, G Young's modulus, E Poisson's ratio, ν Zener elastic anisotropy factor, AZ Pugh ratio, G/B Hardness, where available Data source Article title DOI Additional traceability information The database includes particular attention to systems such as CMSX-4, TMS-series alloys, and other Ni-based and Co-based superalloys. A major objective is to maintain property-by-property traceability, allowing each numerical value to be connected to its scientific source whenever available. Purpose:The primary database provides the raw and curated information required for comparative studies of elastic behavior, temperature dependence, anisotropy, alloying effects, and mechanical-property screening in advanced superalloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Load-dependent hardness prediction for materials using machine learning",
+      "authors": [
+        "Madhubanti Mukherjee",
+        "Rampi Ramprasad",
+        "Harikrishna Sahu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Madhubanti Mukherjee",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rampi Ramprasad",
+          "orcid": "0000-0003-4630-1565",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Harikrishna Sahu",
+          "orcid": "0000-0001-5458-9488",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Physics A",
+      "doi": "10.1007/s00339-026-09913-4",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00339-026-09913-4",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00339-026-09913-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Superhard materials are critical for wear-resistant and high-stress applications. Conventional approaches correlating hardness with elastic moduli derived from DFT calculations enable rapid screening but overlook the strong load dependence of hardness. In this work, machine learning (ML) models were developed using a large, curated dataset of load-dependent experimental Vickers hardness (H $$_v$$ ) measurements. Moderate correlation was observed between experimental and DFT-based H $$_v$$ values, whereas a single-task ML model trained solely on experimental data outperformed multi-task models that combined experimental and computed data. The superior performance of the single-task model highlights that explicit inclusion of indentation load, along with compositional, electronic, and structural descriptors, is essential and sufficient for accurate hardness prediction, beyond what can be achieved using DFT-accessible bulk and shear moduli alone (or in tandem with experimental data). Specifically, the single-task Gaussian Process Regression (GPR) yields a train-test root mean squared error (RMSE) in a range of 2.73-2.90/3.16-3.91 GPa and $$R^2$$ in a range of 0.96-0.95/0.94-0.91 across five random splits of train and test sets. These results emphasize the importance of high-quality experimental data and explicit inclusion of measurement conditions, particularly load, in the development of reliable hardness prediction models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Portable Low-Impact Surface Hardness Testing of Mineral Materials: An Integrative Review of Applications, Interpretation, and Methodological Considerations",
+      "authors": [
+        "Katrin Wilhelm",
+        "Davide Gulotta",
+        "Beril Biçer‐Şimşir",
+        "A. G. Corkum",
+        "Julie Désarnaud",
+        "HEATHER A. VILES"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Katrin Wilhelm",
+          "orcid": "0000-0002-3039-5643",
+          "affiliations": [
+            "University of Oxford"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Davide Gulotta",
+          "orcid": "0000-0002-8295-4021",
+          "affiliations": [
+            "Getty Conservation Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Beril Biçer‐Şimşir",
+          "orcid": "0000-0002-0753-0632",
+          "affiliations": [
+            "Getty Conservation Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. G. Corkum",
+          "orcid": "0000-0003-0945-0297",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julie Désarnaud",
+          "orcid": "0000-0002-7481-5769",
+          "affiliations": [
+            "Royal Institute for Cultural Heritage"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "HEATHER A. VILES",
+          "orcid": "0000-0002-2444-1295",
+          "affiliations": [
+            "University of Oxford"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Rock Mechanics and Rock Engineering",
+      "doi": "10.1007/s00603-026-05889-y",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00603-026-05889-y",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00603-026-05889-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract This integrative review critically examines portable dynamic low-impact surface hardness (LISH) testing, also known as Leeb hardness. Since its adaptation for mineral materials in 1993, LISH has been increasingly adopted across geoscience, engineering, and heritage conservation as a portable, minimally invasive alternative or complementary method to traditional methods, such as the Schmidt Hammer. Despite this increased use, methodological knowledge remains fragmented across disciplines, with operational limitations and data interpretation challenges frequently under-reported. To address this, the review combined a semi-systematic literature review ( n = 181 publications) with a cross-and interdisciplinary user survey ( n = 50) to identify key strengths, including utility, versatility, and suitability for weathering and conservation assessments, while critically addressing challenges related to surface heterogeneity and porosity, as well as calibration and standardisation , thereby providing a novel integrative framework that captures both published evidence and practitioner-derived insights . Furthermore, this review identifies opportunities to extend the use of LISH to heterogeneous and layered materials, surface–biological interactions, and more systematic integration within existing monitoring frameworks. The review encourages transparent reporting of protocols, integration within multi-analytical frameworks, and the development of standardised procedures to enhance cross-study comparability and support informed adoption across research and practice.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Source-Traceable Comparative Dataset: Decoupling Atomic Compactness from Mechanical Stiffness in Silicon and Germanium Polymorphs",
+      "authors": [
+        "H. Aourag"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "H. Aourag",
+          "orcid": "0000-0003-2810-2853",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.22729981",
+      "type": "article",
+      "url": "https://doi.org/10.5281/zenodo.22729981",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.22729981",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This dataset consolidates published experimental and first-principles evidence on the structural, equation-of-state (EOS), elastic, directional-elastic, electronic, and kinetic properties of group-IV tetrahedral polymorphs — principally the metastable BC8, R8, ST12, and Ibam phases of silicon and germanium, alongside their diamond-cubic parent phases. It is designed as a property-level, source-traceable resource rather than a conventional review: every populated numerical or categorical value is linked to a specific literature source via a numbered reference identifier (1–12), and is classified by evidence type (DIRECT: explicitly reported by the cited source; DERIVED: transparently calculated from compatible locked parent quantities under the same reference; DIGITIZED: extracted from a published figure; NOT AVAILABLE: an intentionally open field). The central scientific question addressed is whether atomic compactness (volume per atom), EOS bulk stiffness (B₀), and full mechanical rigidity (complete elastic tensor, hardness, ductility) can be treated as interchangeable descriptors of a polymorph — a simplification common in the literature. The consolidated evidence does not support this simplification: for example, BC8-Si and R8-Si possess closely similar EOS bulk moduli (92 and 89 GPa, Pfrommer et al. 1997) despite documented differences in structural accommodation mechanisms, and an independent PBE-DFT cross-check (Mujica, Pickard & Needs 2015) yields systematically lower bulk moduli for the same phases (83.6 and 78.8 GPa) — both values are retained separately rather than averaged. Directional elasticity data show that BC8-Si can be nearly isotropic in its intrinsic elastic response while still displaying crystallographic texture inherited from anisotropic parent phases through the transformation pathway. A pressure-dependent elastic-constant analysis of diamond-cubic silicon further shows that its extrapolated mechanical (tetragonal shear) instability threshold lies far above the pressure at which the diamond-to-β-Sn transition is experimentally observed, consistent with the transition's documented intrinsically martensitic character and its dependence on kinetic contributions. Contents The deposit consists of two companion files, intended to be read together: Si_Ge_Polymorphs_Source_Traceable_V6.xlsx — the normalized database, comprising 10 sheets: README — file guide and usage notes Master_Property_Records — the single source-of-truth table (68 property-level records); one row per unique material–phase–property–source combination Structural_EOS — consolidated structural descriptors and EOS bulk moduli (B₀) by phase, with LDA and PBE results kept in separate, clearly labeled columns Elastic_Constants — numerical elastic-tensor evidence where locked, and explicit \"OPEN\" status where the literature reports qualitative isotropy without a printed tensor Electronic_Phonon_Stability — band gap, conductivity, phonon reality checks, and thermodynamic-stability status by phase Directional_Elasticity — orientation-dependent Young's modulus data (direct and derived) for phases where full angular elastic response is available Source_Register — the numbered bibliography (12 sources) with author, title, journal, year, and DOI Claim_Evidence — a claim-by-claim audit table (12 claims) recording the final support status (SUPPORTED / NOT SUPPORTED / CONTRADICTED / SUPPORTED LOCALLY) for each interpretive statement made in the companion manuscript, with its evidentiary basis Missing_Data_Audit — a prioritized list of known data gaps and unresolved cross-source discrepancies, with recommended reconciliation actions Data_Quality_Audit — the version-control log documenting corrections applied during the consolidation process (bibliographic fixes, claim-ID deduplication, structural-parameter restoration, duplicate-entry merges) Si_Ge_Polymorphs_Final_Article_Source_Traceable_V5.docx — the companion manuscript, \"Decoupling Atomic Compactness from Mechanical Stiffness in Silicon and Germanium Polymorphs,\" which presents the same evidence as a structured comparative analysis (10 sections, 5 tables, 3 figures), states the evidence protocol explicitly (Section 2), and concludes with six principal, individually evidenced conclusions. In-text citations use plain numeric identifiers [1]–[12] matching the Source_Register sheet one-to-one. Scope and material coverage Silicon: diamond-cubic (Fd-3m), BC8 (Ia-3), R8 (R-3), Ibam (orthorhombic). Germanium: diamond-cubic, BC8, R8, ST12 (P4₃2₁2). Property classes: lattice/internal structural parameters, EOS bulk modulus (B₀) with method (LDA/PBE) explicitly tagged, elastic constants (Cij) where locked, orientation-dependent Young's modulus, band gap and electrical conductivity, phonon-reality (dynamical stability) status, thermodynamic-stability status, and annealing/kinetic-persistence behavior. Data quality protocol No cross-method averaging is performed. Where independent sources report different values for the same phase and property (e.g., the BC8-Si/R8-Si bulk-modulus comparison above), both values are retained with their own reference identifier and method label, and the discrepancy itself is recorded as an audit item rather than resolved by interpolation. Fields for which no compatible, locked source value could be identified are left explicitly open (NOT AVAILABLE) rather than estimated. Known limitations Complete, mutually compatible numerical elastic tensors (full Cij sets) remain unavailable in the audited literature for BC8-Si, R8-Si, Ibam-Si, and several germanium polymorphs; several elasticity-related claims are therefore scoped as locally or partially supported rather than fully established. These gaps are itemized in the Missing_Data_Audit sheet and are intentionally preserved rather than filled by extrapolation, to keep the dataset a reliable foundation for future targeted calculations or measurements.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "DFT-verified database and machine learning framework for designing high entropy carbide with superior mechanical properties",
+      "authors": [
+        "Hyokyeong Kim",
+        "Jiho Kim",
+        "Kwonyeol Lee",
+        "Hayoung Son",
+        "Jiwoo Choi",
+        "Inseong Bae",
+        "H. Lee",
+        "Sooah Kyung",
+        "Jiwoong Kim"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Hyokyeong Kim",
+          "orcid": "0000-0002-1372-1160",
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiho Kim",
+          "orcid": "0000-0002-6683-7482",
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kwonyeol Lee",
+          "orcid": null,
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hayoung Son",
+          "orcid": null,
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiwoo Choi",
+          "orcid": "0000-0001-8961-9536",
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Inseong Bae",
+          "orcid": "0009-0008-2493-2239",
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "H. Lee",
+          "orcid": null,
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sooah Kyung",
+          "orcid": null,
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiwoong Kim",
+          "orcid": "0000-0001-9919-4973",
+          "affiliations": [
+            "Soongsil University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials Today Communications",
+      "doi": "10.1016/j.mtcomm.2026.114990",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.mtcomm.2026.114990",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.mtcomm.2026.114990",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-entropy carbides (HECs) represent a new class of materials that combine multiple principal elements into a single-phase structure, exhibiting exceptional mechanical performance such as high hardness, thermal stability, and wear resistance. However, the extensive compositional space of HECs poses a significant challenge for conventional experimental and computational discovery. In this study, we develop an enhanced crystal graph convolutional neural network (CGCNN) model capable of predicting key elastic properties, specifically bulk and Young’s moduli, directly from crystal structures. By incorporating computational data for solid solutions into the training dataset, the model achieves superior accuracy and generalizability across diverse HEC compositions. Our DFT-verified dataset ensured high reliability and significantly improved prediction performance (R 2 = 0.98 vs. 0.92). This highlights the importance of data quality in achieving robust and accurate ML models for materials design. The proposed model successfully identifies five high-performance HEC compositions. These findings demonstrate the capability of machine learning–driven approaches to accelerate HEC discovery and design, offering a cost-effective and efficient pathway to optimize mechanical properties for advanced applications. • A DFT-verified database was constructed for reliable prediction of HEC properties. • An enhanced GATGNN framework accurately predicts the bulk and Young’s moduli of HECs. • Incorporation of solid-solution data improved model generalizability and accuracy (R 2 = 0.98). • Five promising HEC compositions were identified, including (HfTiWTaCo)C, (HfTiNbTaV)C, and (HfTiNbMoV)C. • The proposed framework accelerates HEC design, requiring only ~20 minutes per composition.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Effect of Phenocrystic Orthoclase Content on Leeb Hardness Values of Granitic Rocks",
+      "authors": [
+        "Emre Karakaya",
+        "Mehmet Can Balcı",
+        "İsmail İnce"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Emre Karakaya",
+          "orcid": "0000-0002-3790-8325",
+          "affiliations": [
+            "Konya Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mehmet Can Balcı",
+          "orcid": "0000-0003-3737-2556",
+          "affiliations": [
+            "Batman University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "İsmail İnce",
+          "orcid": "0000-0002-6692-7584",
+          "affiliations": [
+            "Konya Technical University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Periodica Polytechnica Civil Engineering",
+      "doi": "10.3311/ppci.44806",
+      "type": "article",
+      "url": "https://doi.org/10.3311/ppci.44806",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pp.bme.hu/ci/article/download/44806/24625",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The Leeb hardness (HL) method, which is one of the surface hardness measurement techniques used for materials, has recently gained widespread application in rock mechanics and engineering geology studies. However, limited research has been conducted on the factors influencing HL values. This study aims to investigate the effect of phenocryst-sized minerals on HL values in granitic rocks originating from Türkiye. Within this scope, HL values were determined on 72 surfaces belonging to two different rock types (Kaman Rose and Dusty Rose). Subsequently, high-resolution images obtained from each sample surface were evaluated using image analysis techniques, and the orthoclase mineral percentage (OMP) on the surfaces was quantitatively determined. The relationships between HL and OMP values obtained from the cube sample surfaces of both rock groups were investigated through simple regression analysis, and strong positive linear correlations were identified. The OMP value on the sample surface was determined to be a decisive parameter directly influencing the HL values of the rocks. Textural heterogeneities caused by phenocrysts influenced the HL test results, thereby limiting the applicability of the method to such rock types.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Material Database Agent: A Multimodal Agentic Framework for Scientific Literature Mining",
+      "authors": [
+        "Achuth Chandrasekhar",
+        "Omid Barati Farimani",
+        "Radheesh Sharma Meda",
+        "Amir Barati Farimani"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Achuth Chandrasekhar",
+          "orcid": "0009-0006-7054-8153",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Omid Barati Farimani",
+          "orcid": "0009-0007-8893-5474",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Radheesh Sharma Meda",
+          "orcid": "0000-0001-7361-743X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Amir Barati Farimani",
+          "orcid": "0000-0002-2952-8576",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2605.04278",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2605.04278",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2605.04278",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials science workflows rely on structured and unstructured data from the vast body of available scientific literature. However, most of the experimental details remain buried in text, tables, graphs and figures. Thus, constructing databases that incorporate this data is a manual, time-consuming, and hard-to-scale process. Multimodal large language models have made it feasible to extract information from text and scientific figures with high speed and accuracy. This opens the possibility of an AI system that can create production-scale material databases. Material Database Agent (MDA) is a modular, multi-agent system architecture for converting research literature into structured databases. MDA accepts article PDFs as input, which are subsequently processed in parallel into markdown files and figures. Multiple sub-agents read these markdown files and figures in parallel to assemble sub-databases for each paper. These sub-databases are then compiled into a single tabular database by an agent. As opposed to using either a rule-based approach or a single-pass pipeline for extracting information, MDA is a specialized architecture for transforming the literature into a database in the field of materials science. More generally, this study provides a basis for positioning multimodal agentic information extraction as a viable means for constructing next-generation scientific databases from the primary literature.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Influence of alloying elements on the thermodynamic and elastic properties of palladium based alloys and database construction",
+      "authors": [
+        "ZHU Hanyu",
+        "Chong Xiaoyu",
+        "Xingyu GAO",
+        "Haijun Wu",
+        "Zulai Li",
+        "Jing Feng",
+        "SONG Haifeng"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "ZHU Hanyu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chong Xiaoyu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingyu GAO",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haijun Wu",
+          "orcid": "0000-0003-4660-0258",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zulai Li",
+          "orcid": "0000-0001-6790-3309",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jing Feng",
+          "orcid": "0000-0001-6594-3913",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "SONG Haifeng",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Physica Sinica",
+      "doi": "10.7498/aps.74.20251058",
+      "type": "article",
+      "url": "https://doi.org/10.7498/aps.74.20251058",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://wulixb.iphy.ac.cn/pdf-content/10.7498/aps.74.20251058.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The lower friction coefficient and superior mechanical properties of palladium (Pd) alloys make them potentially advantageous for use in high-precision instruments and devices that require long-term stable performance. However, the high cost of raw materials and experimental expenses result in a lack of fundamental data, which hinders the design of high-performance Pd alloys. Therefore, in this study, first-principles calculations are used to determine the lattice constant and elastic modulus of Pd. A model of dilute solid solutions formed by Pd with 33 alloying elements including Al, Si, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, and others, is established. The mixing enthalpy, elastic constant, and elastic modulus are calculated. The results show that, all other alloying elements except for Mn, Fe, Co, Ni, Ru, Rh, Os, and Ir can form solid solutions with Pd. Alloying elements from both sides of the periodic table enhance the ductility of Pd solid solutions, with La, Ag, and Zn having the most significant effects, while Cu and Hf reduce the ductility of Pd. Differential charge density analysis indicates that the electron cloud formed after doping with Ag is spherically distributed, thereby improving ductility. After doping with Hf, the degree of delocalization around the atoms is maximized, indicating a strong ionic bond between Hf and Pd, which results in a higher hardness of Pd31Hf. The datasets presented in this paper are openly available at https://www.doi.org/10.57760/sciencedb.j00213.00186 .",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Machine‐Learning‐Based, Feature‐Rich Prediction of Alumina Microstructure from Hardness",
+      "authors": [
+        "Xiao Geng",
+        "Jianan Tang",
+        "Ningxuan Wen",
+        "Jason Shaw",
+        "Siddhartha Sarkar",
+        "Lionel R. Vargas‐Gonzalez",
+        "Nicholas Ku",
+        "Jianhua Tong",
+        "Rajendra  Kumar Bordia",
+        "Dongsheng Li",
+        "Fei Peng"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Xiao Geng",
+          "orcid": "0000-0001-6162-6179",
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianan Tang",
+          "orcid": "0000-0003-4359-6169",
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ningxuan Wen",
+          "orcid": null,
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jason Shaw",
+          "orcid": null,
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siddhartha Sarkar",
+          "orcid": null,
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel R. Vargas‐Gonzalez",
+          "orcid": "0000-0001-6500-1686",
+          "affiliations": [
+            "DEVCOM Army Research Laboratory",
+            "United States Army Combat Capabilities Development Command"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholas Ku",
+          "orcid": "0000-0002-1276-4927",
+          "affiliations": [
+            "DEVCOM Army Research Laboratory",
+            "United States Army Combat Capabilities Development Command"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianhua Tong",
+          "orcid": "0000-0002-0684-1658",
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajendra  Kumar Bordia",
+          "orcid": "0000-0001-9256-0301",
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dongsheng Li",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fei Peng",
+          "orcid": "0000-0002-3924-9028",
+          "affiliations": [
+            "Clemson University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Intelligent Discovery",
+      "doi": "10.1002/aidi.202400022",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aidi.202400022",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aidi.202400022",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Predicting materials’ microstructure from the desired properties is critical for exploring new materials. Herein, a novel regression‐based prediction of scanning electron microscopy (SEM) images for the target hardness using generative adversarial networks (GANs) is demonstrated. This article aims at generating realistic SEM micrographs, which contain rich features (e.g., grain and neck shapes, tortuosity, spatial configurations of grain/pores). Together, these features affect material properties but are difficult to predict. A high‐performance GAN, named ‘Microstructure‐GAN’ (or M‐GAN), with residual blocks to significantly improve the details of synthesized micrographs is established . This algorithm was trained with experimentally obtained SEM micrographs of laser‐sintered alumina. After training, the high‐fidelity, feature‐rich micrographs can be predicted for an arbitrary target hardness. Microstructure details such as small pores and grain boundaries can be observed even at the nanometer scale (∼50 nm) in the predicted 1000× micrographs. A pretrained convolutional neural network (CNN) was used to evaluate the accuracy of the predicted micrographs with rich features for specific hardness. The relative bias of the CNN‐evaluated value of the generated micrographs was within 2.1%–2.7% from the values for experimental micrographs. This approach can potentially be applied to other microscopy data, such as atomic force, optical, and transmission electron microscopy.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Attention-Enhanced Graph Neural Networks for Accurate Prediction of Elastic Properties in Crystalline Materials",
+      "authors": [
+        "P. Lakshmi Rajan",
+        "Sujatha Nair",
+        "M. S. Arun"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "P. Lakshmi Rajan",
+          "orcid": null,
+          "affiliations": [
+            "Government Engineering College Thrissur"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sujatha Nair",
+          "orcid": null,
+          "affiliations": [
+            "Government Engineering College Thrissur"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. S. Arun",
+          "orcid": null,
+          "affiliations": [
+            "Government Engineering College Thrissur"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Atlantis Highlights in Materials Science and Technology/Atlantis highlights in materials science and technology",
+      "doi": "10.2991/978-94-6463-922-3_7",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.2991/978-94-6463-922-3_7",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.atlantis-press.com/article/126019596.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Accurately predicting the elastic characteristics of crystalline materials from compositional and structural data is a significant issue in materials informatics.Conventional machine learning methods, such as Linear Regression, Random Forest, and XGBoost, often fail to capture the complex and non-linear interactions seen in crystalline systems, leading in low predicted accuracy.To address these constraints, we offer a new Graph Neural Network with Additive Attention (GNN With Attention) that builds a homogenous graph using k-nearest neighbour (k-NN) feature similarity and uses an attention strategy to prioritise relevant nodes during pooling.This strategy allows the model to learn more detailed, structure-aware representations of materials.We compare the model to five baselines-Linear Regression (LR), Random Forest (RF), XGBoost (XGB), Fully Connected Neural Network (FFNN), and a vanilla GNN-for five target elastic properties: bulk modulus (K_VRH), shear modulus (G_VRH), energy per atom, Poisson's ratio, and elastic anisotropy.The suggested model outperforms baseline models like Linear Regression (R² = 0.7916), Random Forest (R² = 0.1493), and XGBoost (R² = 0.7500), achieving better results with RMSE = 22.8789, MAE = 10.4728, and R² = 0.8778.The SHAP study verifies the model's capacity to capture complicated feature relationships.To summarise, the GNN With Attention framework provides a robust and interpretable solution for predicting elastic characteristics in crystalline materials, opening the path for rapid material discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "A BRIEF REVIEW ON HARDNESS PREDICTION OF MULTICOMPONENT ALLOYS",
+      "authors": [
+        "Raphael Basílio Pires Nonato",
+        "Thomaz Augusto Guisard Restivo",
+        "José Carlos Machado"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Raphael Basílio Pires Nonato",
+          "orcid": "0000-0002-4740-9888",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomaz Augusto Guisard Restivo",
+          "orcid": "0000-0002-4670-2601",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "José Carlos Machado",
+          "orcid": "0009-0001-5813-9684",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Editora Conhecimento Livre eBooks",
+      "doi": "10.37423/250309815",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.37423/250309815",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.37423/250309815",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Predicting the hardness of diamond-like carbon coatings using machine learning and generative adversarial networks",
+      "authors": [
+        "Tahir A. Mahmood",
+        "Abdul Wasy Zia"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Tahir A. Mahmood",
+          "orcid": "0000-0002-8748-5949",
+          "affiliations": [
+            "University of the West of Scotland"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdul Wasy Zia",
+          "orcid": "0000-0002-3748-4446",
+          "affiliations": [
+            "Heriot-Watt University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Manufacturing Processes",
+      "doi": "10.1016/j.jmapro.2025.05.060",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmapro.2025.05.060",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.jmapro.2025.05.060",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Producing diamond-like carbon (DLC) coatings with increased hardness remains an inspiration for achieving diamond-like properties. A multivariable parametric analysis may necessitate 50+ experiments to establish optimum plasma dynamics with a combination of electric, magnetic, kinetic, and thermal energies that build a DLC coating of a specific hardness. Overall, this places a strain on resources and the climate. This research aims to predict the hardness of DLC coatings as a function of bias voltage (0 to 140 V) and annealing temperature as a direct and two-stage heat treatment. In addition, this work investigates the critical features for estimating the hardness of DLC coatings. The conditional tabular generative adversarial networks (CTGANs) model is used to expand the small experimental data of DLC coatings, and a large dataset is obtained from the optimal CTGANs model. A range of 15 machine learning models are used to predict the hardness of DLC, and their efficacy is measured using the six well-known error-based performance measures. The data-driven modelling reflects that top-performing models, including SVR, XGBoost, LightGBM, CatBoost, ANNs, and FNNs, achieved exceptional predictive accuracy (∼99.9 %). Furthermore, the significance of each explanatory variable is indicated using the Shapley additive explanations (SHAP) model, which identified bias voltages of 40 V and 120 V and second-stage heat treatment as critical factors influencing hardness. Therefore, it is concluded that the implementation of the second stage potentially increasing the hardness and the bias levels of 40 and 120 V may decrease the hardness of the DLC coating. The approach demonstrates a novel and efficient data-driven strategy for optimizing DLC coating processes, offering significant potential to accelerate material design in applications where experimental trials are resource-intensive.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "High-throughput evaluation of hardness dependence on composition and temperature in Ni–Co binary alloy systems",
+      "authors": [
+        "Mayu Asano",
+        "Toshio Osada",
+        "Ayako Ikeda",
+        "Taichi Abe",
+        "Thomas Hoefler",
+        "Eri Nakagawa",
+        "Takahito Ohmura"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Mayu Asano",
+          "orcid": "0000-0001-6852-3877",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Toshio Osada",
+          "orcid": "0000-0003-1539-9264",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ayako Ikeda",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taichi Abe",
+          "orcid": "0000-0002-5065-0939",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Hoefler",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eri Nakagawa",
+          "orcid": "0000-0002-8784-0138",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Takahito Ohmura",
+          "orcid": "0000-0001-7528-566X",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Alloys and Compounds",
+      "doi": "10.1016/j.jallcom.2025.183868",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.183868",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1016/j.jallcom.2025.183868",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "To accelerate the design of multicomponent alloys, it is of key importance predicting required properties and identifying specific compositions from numerous element combinations. Prediction techniques, including theoretical strengthening models, numerical simulations, and machine learning approaches, offer promising avenues for accelerating alloy development. However, achieving high-precision predictions requires large experimental composition–process–structure–property (CPSP) datasets, which demand significant time and effort to acquire. This study introduces a high-throughput evaluation approach for generating composition–process–structure–high-temperature property datasets by combining diffusion couples with high-temperature nanoindentation. Applied to a Ni–Co binary alloy system containing face-centered cubic (fcc) and hexagonal close-packed (hcp) phases, this approach efficiently obtains 1144 data points, capturing the hardness across temperatures from 300 to 773 K and Co concentrations from 2 to 98 at.%. These datasets facilitate data-driven analyses of solid-solution strengthening models. Based on a high-temperature yielding model that separates the thermal (Peierls stress) and athermal components, a prediction equation is established for the high-temperature hardness and thermal/athermal components of solid-solution strengthening in the fcc phase of Ni–Co alloys. The temperature dependence of the hardness is divided into thermal and athermal components, which is expressed as a function of the solute concentration, revealing that the thermal component is highly dependent on the Co concentration, whereas the athermal component remains nearly independent. These findings indicate that solid-solution strengthening in Ni–Co alloys is primarily governed by thermal activation within a short-range stress field across all composition ranges.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Material hardness descriptor derived by symbolic regression",
+      "authors": [
+        "Christian Tantardini",
+        "Hayk Zakaryan",
+        "Zhongkang Han",
+        "Tariq Altalhi",
+        "Sergey V. Levchenko",
+        "Alexander G. Kvashnin",
+        "Boris I. Yakobson"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Christian Tantardini",
+          "orcid": "0000-0002-2412-9859",
+          "affiliations": [
+            "Institute of Solid State Chemistry and Mechanochemistry",
+            "Rice University",
+            "UiT The Arctic University of Norway"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hayk Zakaryan",
+          "orcid": "0000-0002-6105-3013",
+          "affiliations": [
+            "Yerevan State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhongkang Han",
+          "orcid": "0000-0003-1489-6824",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tariq Altalhi",
+          "orcid": "0000-0002-5470-8579",
+          "affiliations": [
+            "Taif University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sergey V. Levchenko",
+          "orcid": "0000-0001-5813-8473",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander G. Kvashnin",
+          "orcid": "0000-0002-0718-6691",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Boris I. Yakobson",
+          "orcid": "0000-0001-8369-3567",
+          "affiliations": [
+            "Taif University",
+            "Rice University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Computational Science",
+      "doi": "10.1016/j.jocs.2024.102402",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jocs.2024.102402",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1877750324001959-ga1_lrg.jpg",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Hardness is a materials’ property with implications in several industrial fields, including oil and gas, manufacturing, and others. However, the relationship between this macroscale property and atomic (i.e., microscale) properties is unknown and in the last decade several models have unsuccessfully tried to correlate them in a wide range of chemical space. The understanding of such relationship is of fundamental importance for discovery of harder materials with specific characteristics to be employed in a wide range of fields. In this work, we have found a physical descriptor for Vickers hardness using a symbolic-regression artificial-intelligence approach based on compressed sensing. SISSO (Sure Independence Screening plus Sparsifying Operator) is an artificial-intelligence algorithm used for discovering simple and interpretable predictive models. It performs feature selection from up to billions of candidates obtained from several primary features by applying a set of mathematical operators. In our work the primary features are obtained from atomistic simulations for 61 materials. The resulting sparse SISSO model accurately describes the target property (i.e., experimental values of hardness) with minimal complexity. We have considered the experimental values of hardness for binary, ternary, and quaternary transition-metal borides, carbides, nitrides, carbonitrides, carboborides, and boronitrides. The found descriptor is a non-linear function of the microscopic properties, with the most significant contribution being from a combination of Voigt-averaged bulk modulus, Poisson’s ratio, and Reuss-averaged shear modulus. Results of high-throughput screening of 635 candidate materials using the found descriptor suggest the enhancement of material’s hardness through mixing with harder yet metastable structures (e.g., metastable VN, TaN, ReN2, Cr3N4, and ZrB6 all exhibit high hardness).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Exceptional hardness in multiprincipal element alloys via hierarchical oxygen heterogeneities",
+      "authors": [
+        "David Beaudry",
+        "Michael J. Waters",
+        "Gianna M. Valentino",
+        "Daniel L. Foley",
+        "Elaf A. Anber",
+        "Yevgeny Rakita",
+        "Charlie Brandenburg",
+        "Jean‐Philippe Couzinié",
+        "Loïc Perrière",
+        "Toshihiro Aoki",
+        "Keith E. Knipling",
+        "Patrick G. Callahan",
+        "Benjamin W. Y. Redemann",
+        "Tyrel M. McQueen",
+        "Elizabeth J. Opila",
+        "James M. Rondinelli",
+        "Mitra L. Taheri"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "David Beaudry",
+          "orcid": "0000-0002-9929-4445",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael J. Waters",
+          "orcid": "0000-0001-6425-4331",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gianna M. Valentino",
+          "orcid": "0000-0002-7350-8441",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel L. Foley",
+          "orcid": "0009-0000-9185-3479",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elaf A. Anber",
+          "orcid": "0000-0001-7808-7036",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yevgeny Rakita",
+          "orcid": "0000-0003-0448-3735",
+          "affiliations": [
+            "Johns Hopkins University",
+            "Columbia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charlie Brandenburg",
+          "orcid": null,
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jean‐Philippe Couzinié",
+          "orcid": "0000-0001-7786-397X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université Paris-Est Créteil",
+            "Institut de Chimie et des Matériaux Paris-Est"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Loïc Perrière",
+          "orcid": "0000-0002-8635-5069",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université Paris-Est Créteil",
+            "Institut de Chimie et des Matériaux Paris-Est"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Toshihiro Aoki",
+          "orcid": "0000-0001-6620-9390",
+          "affiliations": [
+            "University of California, Irvine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith E. Knipling",
+          "orcid": "0000-0002-8388-7254",
+          "affiliations": [
+            "United States Naval Research Laboratory",
+            "Naval Research Laboratory Materials Science and Technology Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Patrick G. Callahan",
+          "orcid": "0000-0002-6904-8171",
+          "affiliations": [
+            "United States Naval Research Laboratory",
+            "Naval Research Laboratory Materials Science and Technology Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin W. Y. Redemann",
+          "orcid": "0000-0001-8863-4363",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tyrel M. McQueen",
+          "orcid": "0000-0002-8493-4630",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elizabeth J. Opila",
+          "orcid": "0000-0001-5540-7084",
+          "affiliations": [
+            "University of Virginia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James M. Rondinelli",
+          "orcid": "0000-0003-0508-2175",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mitra L. Taheri",
+          "orcid": "0000-0001-5349-1411",
+          "affiliations": [
+            "Johns Hopkins University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.ado9697",
+      "type": "article",
+      "url": "https://doi.org/10.1126/sciadv.ado9697",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.science.org/doi/pdf/10.1126/sciadv.ado9697?download=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Refractory multiprincipal element alloys (RMPEAs) are potential successors to incumbent high-temperature structural alloys, although efforts to improve oxidation resistance with large additions of passivating elements have led to embrittlement. RMPEAs containing group IV and V elements have a balance of properties including moderate ductility, low density, and the necessary formability. We find that oxidation of group IV-V RMPEAs induces hierarchical heterogeneities, ranging from nanoscale interstitial complexes to tertiary phases. This microstructural hierarchy considerably enhances hardness without indentation cracking, with values ranging between 12.1 and 22.6 GPa from the oxide-adjacent metal to the surface oxides, a 3.7 to 6.8× increase over the interstitial-free alloy. Our fundamental understanding of the oxygen influence on phase formation informs future alloy design to enhance oxidation resistance and obtain exceptional hardness while preserving plasticity.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Designing of high entropy alloys with high hardness: a metaheuristic approach",
+      "authors": [
+        "Ansh Poonia",
+        "Kishor Modalavalasa",
+        "Kameswari Prasada Rao Ayyagari"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Ansh Poonia",
+          "orcid": "0000-0003-2909-3688",
+          "affiliations": [
+            "BML Munjal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kishor Modalavalasa",
+          "orcid": "0009-0000-6489-2245",
+          "affiliations": [
+            "BML Munjal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kameswari Prasada Rao Ayyagari",
+          "orcid": null,
+          "affiliations": [
+            "BML Munjal University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-57094-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-024-57094-y",
+      "cited_by_count": 39,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-024-57094-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The near-infinite compositional space of high-entropy-alloys (HEAs) is a huge resource-intensive task for developing exceptional materials. In the present study, an algorithmic framework has been developed to optimize the composition of an alloy with chosen set of elements, aiming to maximize the hardness of the former. The influence of phase on hardness prediction of HEAs was thoroughly examined. This study aims to establish generalized prediction models that aren't confined by any specific set of elements. We trained the HEA identification model to classify HEAs from non-HEAs, the multi-labeled phase classification model to predict phases of HEAs also considering the processing route involved in the synthesis of the alloy, and the hardness prediction model for predicting hardness and optimizing the composition of the given alloy. The purposed algorithmic framework uses twenty-nine alloy descriptors to compute the composition that demonstrates maximum hardness for the given set of elements along with its phase(s) and a label stating whether it is classified as HEA or not.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Exploring the structural, elastic, electronic and thermal properties of Ti-Al-Me (Me = Cu, Fe and Ni) alloys by first-principles studies",
+      "authors": [
+        "Yulai Song",
+        "Yiming Li",
+        "Zheng Zhang",
+        "Xiaolin Zhao",
+        "Jiaxin Tang",
+        "Junjie Ni"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yulai Song",
+          "orcid": "0000-0001-8545-4842",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yiming Li",
+          "orcid": "0000-0003-4602-3905",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zheng Zhang",
+          "orcid": "0009-0006-9558-6535",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaolin Zhao",
+          "orcid": "0000-0002-0017-2780",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiaxin Tang",
+          "orcid": "0000-0002-6585-5056",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junjie Ni",
+          "orcid": "0000-0002-2982-1668",
+          "affiliations": [
+            "Liaocheng University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-82879-6",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-024-82879-6",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-024-82879-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The structural, elastic, electronic, and thermal properties of Ti-Al-Me (Me=Cu, Fe and Ni) alloys (TAMs) with the face-centered cubic phase were investigated using plane-wave pseudo potential method which is implemented in CASTEP code in the framework of density functional theory. The stability of the structure was confirmed from energetic, mechanical and phonon dynamic perspectives. Based on the calculated elastic constants combined with empirical and semi-empirical formulas, physical properties including ductility/brittleness, hardness and anisotropy of each phase was calculated. Moreover, thermodynamic information such as entropy, enthalpy, free energy, heat capacity and heat transfer coefficient were calculated. The results showed that TiAlFe2 had the highest thermal conductivity coefficient, and the heat capacities of all phases gradually approached the Dulong-Petit limit at high temperatures, while they conformed to the Debye T3 temperature law at low temperatures. Furthermore, the electronic structure calculation results indicate that all compounds are metallic and the d orbital of each atom plays an important role in the hybridization process. These calculation results are of great practical importance for understanding the basic physical and chemical properties of TAMs, clarifying their application and making sensible material selection.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Datasets on the elastic and mechanical properties of hydroxyapatite: A first principle investigation, experiments, and pedagogical perspective",
+      "authors": [
+        "Obinna Anayo Osuchukwu",
+        "Abdu Salihi",
+        "Ibrahim Abdullahi",
+        "David Olubiyi Obada",
+        "Simeon A. Abolade",
+        "Akinlolu Akande",
+        "Štefan Csáki",
+        "David Dodoo‐Arhin"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Obinna Anayo Osuchukwu",
+          "orcid": "0000-0001-5760-7960",
+          "affiliations": [
+            "Ahmadu Bello University",
+            "Bayero University Kano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdu Salihi",
+          "orcid": null,
+          "affiliations": [
+            "Bayero University Kano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ibrahim Abdullahi",
+          "orcid": "0000-0002-9555-3630",
+          "affiliations": [
+            "Bayero University Kano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Olubiyi Obada",
+          "orcid": "0000-0003-0886-0315",
+          "affiliations": [
+            "Ahmadu Bello University",
+            "Atlantic Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simeon A. Abolade",
+          "orcid": "0000-0002-2240-3172",
+          "affiliations": [
+            "Ahmadu Bello University",
+            "Atlantic Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akinlolu Akande",
+          "orcid": "0000-0002-5981-0257",
+          "affiliations": [
+            "Ahmadu Bello University",
+            "Atlantic Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Štefan Csáki",
+          "orcid": "0000-0003-2118-9917",
+          "affiliations": [
+            "Constantine the Philosopher University in Nitra",
+            "Mendel University in Brno"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Dodoo‐Arhin",
+          "orcid": "0000-0002-9657-2489",
+          "affiliations": [
+            "University of Ghana"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2023.109075",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2023.109075",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.dib.2023.109075",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The purpose of this data article is to report the quantum mechanical analysis by generalized gradient approximation (GGA) exchange-correlation functional using density functional theory (DFT). The predictions were based on the elastic constants and mechanical properties of stoichiometric hydroxyapatite (HAp) crystal. The elastic stiffness constants in hexagonal symmetry were obtained by fitting the Hookes' law for the energy-strain and stress-stain relations. Some of the theoretical datasets were compared to measured mechanical properties of produced HAp pellets obtained through micro and nanoindentation experiments. The datasets show considerable anisotropy in the stress-strain behaviour and are discussed in the context of the mechanical properties of HAp which are useful for tissue engineering. We also provide a pedagogical snapshot on the use of the datasets herein to teach and interpret DFT based atomistic simulations in a typical blended online teaching set-up for engineering students using a new pedagogy, CACPLA (Communicate, Active, Collaborate, Practice, Learning and Assessment).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Hardness and fracture toughness models by symbolic regression",
+      "authors": [
+        "Jinbin Zhao",
+        "Peitao Liu",
+        "Jian-Tao Wang",
+        "Jiangxu Li",
+        "Haiyang Niu",
+        "Yan Ping Sun",
+        "Junlin Li",
+        "Xing‐Qiu Chen"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Jinbin Zhao",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science",
+            "Taiyuan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peitao Liu",
+          "orcid": "0000-0002-6950-1386",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jian-Tao Wang",
+          "orcid": "0000-0002-0786-1212",
+          "affiliations": [
+            "University of Science and Technology of China",
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiangxu Li",
+          "orcid": "0000-0002-4534-4208",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science",
+            "Taiyuan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haiyang Niu",
+          "orcid": "0000-0003-3049-5916",
+          "affiliations": [
+            "Northwestern Polytechnical University",
+            "State Key Laboratory of Solidification Processing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Ping Sun",
+          "orcid": "0000-0001-5256-9571",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junlin Li",
+          "orcid": "0000-0002-7320-1271",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science",
+            "Taiyuan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing‐Qiu Chen",
+          "orcid": "0000-0002-5904-6578",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Metal Research",
+            "Shenyang National Laboratory for Materials Science"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The European Physical Journal Plus",
+      "doi": "10.1140/epjp/s13360-023-04273-x",
+      "type": "article",
+      "url": "https://doi.org/10.1140/epjp/s13360-023-04273-x",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2305.19991",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "A materials data framework and dataset for elastomeric foam impact mitigating materials",
+      "authors": [
+        "Alexander K. Landauer",
+        "Orion L. Kafka",
+        "Newell H. Moser",
+        "Ian T Foster",
+        "Ben J. Blaiszik",
+        "Aaron M. Forster"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Alexander K. Landauer",
+          "orcid": "0000-0003-2863-039X",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Orion L. Kafka",
+          "orcid": "0000-0003-2333-8154",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Newell H. Moser",
+          "orcid": "0000-0002-3346-6427",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ian T Foster",
+          "orcid": "0000-0003-2129-5269",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ben J. Blaiszik",
+          "orcid": "0000-0002-5326-4902",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aaron M. Forster",
+          "orcid": "0000-0002-5323-2468",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02092-4",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02092-4",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02092-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The availability of materials data for impact-mitigating materials has lagged behind applications-based data. For example, data describing on-field helmeted impacts are available, whereas material behaviors for the constituent impact-mitigating materials used in helmet designs lack open datasets. Here, we describe a new FAIR (findable, accessible, interoperable, reusable) data framework with structural and mechanical response data for one example elastic impact protection foam. The continuum-scale behavior of foams emerges from the interplay of polymer properties, internal gas, and geometric structure. This behavior is rate and temperature sensitive, therefore, describing structure-property characteristics requires data collected across several types of instruments. Data included are from structure imaging via micro-computed tomography, finite deformation mechanical measurements from universal test systems with full-field displacement and strain, and visco-thermo-elastic properties from dynamic mechanical analysis. These data facilitate modeling and design efforts in foam mechanics, e.g., homogenization, direct numerical simulation, or phenomenological fitting. The data framework is implemented using data services and software from the Materials Data Facility of the Center for Hierarchical Materials Design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "High throughput calculations for a dataset of bilayer materials",
+      "authors": [
+        "Ranjan Kumar Barik",
+        "Lilia M. Woods"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Ranjan Kumar Barik",
+          "orcid": "0000-0002-0639-4130",
+          "affiliations": [
+            "University of South Florida"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lilia M. Woods",
+          "orcid": "0000-0002-9872-1847",
+          "affiliations": [
+            "University of South Florida"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02146-7",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02146-7",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02146-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Bilayer materials made of 2D monolayers are emerging as new systems creating diverse opportunities for basic research and applications in optoelectronics, thermoelectrics, and topological science among others. Herein, we present a computational bilayer materials dataset containing 760 structures with their structural, electronic, and transport properties. Different stacking patterns of each bilayer have been framed by analyzing their monolayer symmetries. Density functional theory calculations including van der Waals interactions are carried out for each stacking pattern to evaluate the corresponding ground states, which are correctly identified for experimentally synthesized transition metal dichalcogenides, graphene, boron nitride, and silicene. Binding energies and interlayer charge transfer are evaluated to analyze the interlayer coupling strength. Our dataset can be used for materials screening and data-assisted modeling for desired thermoelectric or optoelectronic applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+      "authors": [
+        "Stéphane Gorsse",
+        "Mohamed Gouné",
+        "Wei-Chih Lin",
+        "Lionel Girard"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Stéphane Gorsse",
+          "orcid": "0000-0003-1966-8476",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohamed Gouné",
+          "orcid": "0000-0003-1321-7308",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei-Chih Lin",
+          "orcid": "0000-0002-0143-1174",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "National Tsing Hua University",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel Girard",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02411-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02411-9",
+      "cited_by_count": 67,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02411-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This article presents a collection of data on approximately 150 copper-based alloys. The data compilation is based on articles published since 1993 and consists of about 1830 records. Each record contains a unique set of descriptors, such as composition and processing route, and targets, including properties such as hardness, yield strength, ultimate tensile strength, and electrical conductivity. The dataset includes information on the composition in mass percent of 20 alloying elements, and hundreds of temperature-time thermal treatments and thermomechanical conditions. The database is continually updated and hosted on an open data repository. Some of the data are presented graphically in the article to aid interpretation. This study intends to promote the identification of more sustainable alternatives to Cu-Be alloys, which is particularly relevant in developing non-toxic and environmentally-friendly alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Correlation of residual stress, hardness and surface roughness with crack initiation and fatigue strength of surface treated additive manufactured AlSi10Mg: Experimental and machine learning approaches",
+      "authors": [
+        "Erfan Maleki",
+        "Sara Bagherifard",
+        "Mario Guagliano"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Erfan Maleki",
+          "orcid": "0000-0002-5995-1869",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sara Bagherifard",
+          "orcid": "0000-0002-5757-2785",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mario Guagliano",
+          "orcid": "0000-0003-1958-3974",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Research and Technology",
+      "doi": "10.1016/j.jmrt.2023.03.193",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmrt.2023.03.193",
+      "cited_by_count": 93,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.jmrt.2023.03.193",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Post-processing methods are widely used to address the issues caused by surface imperfections and bulk defects in additive manufactured materials. In our previous studies, we analysed the effects of different peening-based treatments of shot peening (SP), severe vibratory peening (SVP) and laser shock peening (LSP) on fatigue performance of V-notched laser powder bed fusion AlSi1Mg samples. Herein, the fracture surfaces of failed samples were further analyzed and obtained experimental data were further elaborated by machine learning (ML)-based approach to identify the correlation between residual stress, hardness and surface roughness (all affected by the applied post-treatments) with the depth of crack initiation site and fatigue life of the post-treated samples. ML-based model was developed via a six layer deep neural network (DNN) as well as using stacked auto-encoder (SAE) for pre-training of the used data set. Taking the advantages of SAE, the accuracies of more than 0.96 were obtained for the predicted results. Correlations were obtained by performing parametric analyses and the importance of each input factor was assessed through sensitivity analyses. The obtained results revealed that by enhancing surface hardening and inducing higher compressive residual stresses as well as more efficient surface roughness reduction, deeper crack initiation site and superior fatigue life can be obtained. In addition, it was found that the depth of sub-surface crack initiation had direct relation with fatigue life improvement in the samples.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Machine Learning for Elastic Properties of Materials: A predictive benchmarking study in a domain-segmented feature Space",
+      "authors": [
+        "Suvo Banik",
+        "Karthik Balasubramanian",
+        "Sukriti Manna",
+        "Sybil Derrible",
+        "Subramanian Sankaranarayananan"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Suvo Banik",
+          "orcid": "0000-0001-7239-8853",
+          "affiliations": [
+            "University of Illinois Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Karthik Balasubramanian",
+          "orcid": "0000-0002-2037-4144",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "University of Illinois Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sukriti Manna",
+          "orcid": "0000-0002-3193-7803",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "University of Illinois Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sybil Derrible",
+          "orcid": "0000-0002-2939-6016",
+          "affiliations": [
+            "University of Illinois Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Subramanian Sankaranarayananan",
+          "orcid": null,
+          "affiliations": [
+            "Argonne National Laboratory",
+            "University of Illinois Chicago"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2023-07vcr",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2023-07vcr",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/642451e962fecd2a83a2b4f8/original/machine-learning-for-elastic-properties-of-materials-a-predictive-benchmarking-study-in-a-domain-segmented-feature-space.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Insights into the unique characteristics across different classes of materials are crucial for Machine Learning (ML) tools and reveal the physics behind the studied process. Traditional predictive modeling of elastic properties of materials is limited to only a few classes of materials and a small set of ML tools despite the broad applications of these materials. While in recent years, Graph neural networks (GNNs) have outshined traditional ML models in terms of predictability, their intensive data requirement and lack of interpretability may limit practical applicability. In this work, we developed a domain-segmented feature space using a diverse set of material attributes and performed a predictive analysis of elastic properties of materials using state-of-the-art ML tools. By deducing the model-independent overall ranking of the features based on feature importance learned by each model, the knowledge is then transferred to GNNs. The findings indicate a saturation limit in the predictability of traditional ML models, but the transfer of task-specific feature importance knowledge to the GNNs can enhance their performance by reducing their data requirement while retaining considerable accuracy.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Glass hardness: Predicting composition and load effects via symbolic reasoning-informed machine learning",
+      "authors": [
+        "Sajid Mannan",
+        "Mohd Faiz Mohammad Zaki",
+        "Suresh Bishnoi",
+        "Daniel R. Cassar",
+        "Jeanini Jiusti",
+        "Julio Cesar Ferreira Faria",
+        "Johan F. S. Christensen",
+        "Nitya Nand Gosvami",
+        "Morten M. Smedskjær",
+        "Edgar Dutra Zanotto",
+        "N. M. Anoop Krishnan"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Sajid Mannan",
+          "orcid": "0000-0002-7887-2250",
+          "affiliations": [
+            "Indian Institute of Technology Delhi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohd Faiz Mohammad Zaki",
+          "orcid": "0000-0002-4551-3470",
+          "affiliations": [
+            "Indian Institute of Technology Delhi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Suresh Bishnoi",
+          "orcid": "0000-0002-6736-1754",
+          "affiliations": [
+            "Indian Institute of Technology Delhi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel R. Cassar",
+          "orcid": "0000-0001-6472-2780",
+          "affiliations": [
+            "Brazilian Center for Research in Energy and Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeanini Jiusti",
+          "orcid": "0000-0001-9923-2503",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julio Cesar Ferreira Faria",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de São Carlos"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johan F. S. Christensen",
+          "orcid": "0000-0002-8842-2843",
+          "affiliations": [
+            "Aalborg University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nitya Nand Gosvami",
+          "orcid": "0000-0003-4082-9887",
+          "affiliations": [
+            "Indian Institute of Technology Delhi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Morten M. Smedskjær",
+          "orcid": "0000-0003-0476-2021",
+          "affiliations": [
+            "Aalborg University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edgar Dutra Zanotto",
+          "orcid": "0000-0003-4931-4505",
+          "affiliations": [
+            "Universidade Federal de São Carlos"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. M. Anoop Krishnan",
+          "orcid": "0000-0003-1500-4947",
+          "affiliations": [
+            "Indian Institute of Technology Delhi"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2023.119046",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2023.119046",
+      "cited_by_count": 36,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://vbn.aau.dk/da/publications/023c7bb8-4a98-441c-8a4c-04a245fdb443",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Temperature-Dependent Material Property Databases for Marine Steels—Part 4: HSLA-100",
+      "authors": [
+        "Jennifer K. Semple",
+        "Daniel H. Bechetti",
+        "Wei Zhang",
+        "Charles R. Fisher"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Jennifer K. Semple",
+          "orcid": null,
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel H. Bechetti",
+          "orcid": null,
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Zhang",
+          "orcid": "0000-0003-4543-2563",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charles R. Fisher",
+          "orcid": "0000-0001-7547-3011",
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Integrating materials and manufacturing innovation",
+      "doi": "10.1007/s40192-023-00299-2",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40192-023-00299-2",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Using a neural network model to evaluate the mechanical and tribological properties of vermicular cast iron based on hardness",
+      "authors": [
+        "Gamal M. A. Mahran",
+        "Abdel-Nasser Mohamed OMRAN"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Gamal M. A. Mahran",
+          "orcid": "0000-0003-1518-7907",
+          "affiliations": [
+            "King Abdulaziz University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdel-Nasser Mohamed OMRAN",
+          "orcid": "0000-0001-8735-8563",
+          "affiliations": [
+            "Al-Azhar University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Heliyon",
+      "doi": "10.1016/j.heliyon.2023.e21119",
+      "type": "review",
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e21119",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.heliyon.2023.e21119",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Measuring the tensile strength, wear resistance, and impact strength of metals, particularly cast iron, is complex and more expensive than performing hardness tests. In the present study, owing to the ease of specimen preparation and low cost, the Hardness (HB) test was used to approximately predict Wear Rate (WR), Impact Energy (IE), and tensile strength (TS). The relation between Mg% and HB, tensile strength, WR, and IE was examined by using three experimental groups of compacted graphite cast iron (CGI) treated with a nodulizer (Fe–Si–Mg) alloy at different carbon equivalents (CEs) of 3.5, 4.0, and 4.5 %. The produced CGI exhibited HB, TS, WR, and IE of 191–226 HB, 402–455 MPa, 30.1–23.8 mg/cm 2 , and 22–15 J, respectively. The good results were taken at a CE of 4.5 % and Mg content of 0.0118–0.0155 %. the regression analysis and artificial neural network model (ANNs) were used in the hardness test, and the results indicated the possibility of predicting IE, WR, tensile strength, and high accuracy Mg% of the produced CGI. It could be observed that, the neural network algorithm model has a high prediction precision for determining the Mg% content and the properties of the prepared CGI based on hardness. In the case of CE = 4, the MSE calculated for the predicted and measured data taken from the used ANNs model is 3.7 E−8, 20.33, 0.3084, and 0.099 for Mg%, TS, WR, and IE, respectively.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "MatFormer: Nested Transformer for Elastic Inference",
+      "authors": [
+        "Devvrit",
+        "Sneha Kudugunta",
+        "Aditya Kusupati",
+        "Tim Dettmers",
+        "Kaifeng Chen",
+        "Inderjit S. Dhillon",
+        "Yulia Tsvetkov",
+        "Hannaneh Hajishirzi",
+        "Sham M. Kakade",
+        "Ali Farhadi",
+        "Prateek Jain"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Devvrit",
+          "orcid": null,
+          "affiliations": [
+            "Harvard University",
+            "The University of Texas at Austin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sneha Kudugunta",
+          "orcid": "0000-0002-0186-2433",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aditya Kusupati",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tim Dettmers",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaifeng Chen",
+          "orcid": "0000-0002-0453-5411",
+          "affiliations": [
+            "Harvard University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Inderjit S. Dhillon",
+          "orcid": "0000-0002-2759-1416",
+          "affiliations": [
+            "Harvard University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yulia Tsvetkov",
+          "orcid": "0000-0002-4634-7128",
+          "affiliations": [
+            "The University of Texas at Austin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hannaneh Hajishirzi",
+          "orcid": "0000-0002-1055-6657",
+          "affiliations": [
+            "The University of Texas at Austin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sham M. Kakade",
+          "orcid": null,
+          "affiliations": [
+            "University of Washington"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ali Farhadi",
+          "orcid": "0000-0001-7249-2380",
+          "affiliations": [
+            "The University of Texas at Austin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prateek Jain",
+          "orcid": "0000-0002-9233-5160",
+          "affiliations": [
+            "Harvard University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2310.07707",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2310.07707",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2310.07707",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Foundation models are applied in a broad spectrum of settings with different inference constraints, from massive multi-accelerator clusters to resource-constrained standalone mobile devices. However, the substantial costs associated with training these models often limit the number of unique model sizes that can be offered. Consequently, practitioners are compelled to select a model that may not be optimally aligned with their specific latency and cost requirements. We present MatFormer, a novel Transformer architecture designed to provide elastic inference across diverse deployment constraints. MatFormer achieves this by incorporating a nested Feed Forward Network (FFN) block structure within a standard Transformer model. During training, we optimize the parameters of multiple nested FFN blocks with varying sizes, enabling the extraction of hundreds of accurate smaller models without incurring additional computational costs. We empirically validate the efficacy of MatFormer across different model classes (decoders and encoders) and modalities (language and vision), demonstrating its potential for real-world deployment. We show that a 850M decoder-only MatFormer language model (MatLM) allows us to extract multiple smaller models spanning from 582M to 850M parameters, each exhibiting better validation loss and one-shot downstream evaluations than independently trained counterparts. Furthermore, we observe that smaller encoders extracted from a universal MatFormer-based ViT (MatViT) encoder preserve the metric-space structure for adaptive large-scale retrieval. Finally, we showcase that speculative decoding with the accurate and consistent submodels extracted from MatFormer can lead to significant reduction in inference latency. Project website: https://devvrit.github.io/matformer/",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "3D Scan of Hardness Imprints for the Non-destructive In-Situ Structural Assessment of Operated Metal Components",
+      "authors": [
+        "Gabriella Bolzon",
+        "Marco Talassi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Gabriella Bolzon",
+          "orcid": "0000-0002-7783-9774",
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marco Talassi",
+          "orcid": null,
+          "affiliations": [
+            "Politecnico di Milano"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Nondestructive Evaluation",
+      "doi": "10.1007/s10921-023-00987-1",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10921-023-00987-1",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10921-023-00987-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The structural integrity of operated components can be assessed by non-destructive mechanical tests performed in-situ with portable instruments. Particularly promising in this context are small scale hardness tests supplemented by the mapping of the residual imprints left on metal surfaces. The data thus collected represent the input of inverse analysis procedures, which determine the material characteristics and their evolution over time. The reliability of these estimates depends on the accuracy of the geometry scans and on the robustness of the data filtering and interpretation methodologies. The objective of the present work is to evaluate the accuracy of the 3D reconstruction of the residual deformation produced on metals by hardness tests performed at a few hundred N load. The geometry data are acquired by portable optical microscopes with variable focal distance. The imperfections introduced by the imaging system, which may not be optimized for all ambient conditions when used in automatic mode, are analysed. Representative examples of the output produced by the scanning tool are examined, focusing attention on the experimental disturbances typical of onsite applications. Proper orthogonal decomposition and data reduction techniques are applied to the information returned by the instrumentation. The essential features of the collected datasets are extracted and the main noise is removed. The results of this investigation show that the accuracy achievable with the considered equipment and regularization procedures can support the development of reliable diagnostic analyses of metal components in existing structures and infrastructures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "The effect of worked material hardness on stone tool wear",
+      "authors": [
+        "Alice Rodriguez",
+        "Kaushik Yanamandra",
+        "Lukasz Witek",
+        "Zhong Wang",
+        "Rakesh Kumar Behera",
+        "Раду Йовита"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Alice Rodriguez",
+          "orcid": "0000-0001-7657-3241",
+          "affiliations": [
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaushik Yanamandra",
+          "orcid": "0000-0003-0981-9023",
+          "affiliations": [
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lukasz Witek",
+          "orcid": "0000-0003-1458-6527",
+          "affiliations": [
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhong Wang",
+          "orcid": "0000-0002-2254-7723",
+          "affiliations": [
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rakesh Kumar Behera",
+          "orcid": "0000-0003-4147-3640",
+          "affiliations": [
+            "New York University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Раду Йовита",
+          "orcid": "0000-0001-9531-1159",
+          "affiliations": [
+            "New York University",
+            "University of Tübingen"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0276166",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0276166",
+      "cited_by_count": 25,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0276166&type=printable",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "public-domain"
+      },
+      "oa_source": "openalex",
+      "abstract": "The identification of ancient worked materials is one of the fundamental goals of lithic use wear analysis and one of the most important parts of understanding how stone tools were used in the past. Given the documented overlaps in wear patterns generated by different materials, it is imperative to understand how individual materials' mechanical properties might influence wear formation. Because isolating physical parameters and measuring their change is necessary for such an endeavor, controlled (rather than replicative) experiments combined with objective measurements of surface topography are necessary to better grasp how surface modifications formed on stone tools. Therefore, we used a tribometer to wear natural flint surfaces against five materials (bone, antler, beech wood, spruce wood, and ivory) under the same force, and speed, over one, three, and five hours. The study aimed to test if there is a correlation between surface modifications and the hardness of the worked material. We measured each raw material's hardness using a nano-indentation test, and we compared the surface texture of the flint bits using a 3D optical profilometer. The interfacial detritus powder was analyzed with a scanning electron microscope to look for abraded flint particles. We demonstrate that, contrary to expectation, softer materials, such as wood, create a smoother surface than hard ones, such as ivory.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Efficient prediction of temperature-dependent elastic and mechanical properties of 2D materials",
+      "authors": [
+        "Srihari M. Kastuar",
+        "Chinedu E. Ekuma",
+        "Z. -L. Liu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Srihari M. Kastuar",
+          "orcid": "0000-0002-7900-1561",
+          "affiliations": [
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chinedu E. Ekuma",
+          "orcid": "0000-0002-5852-7556",
+          "affiliations": [
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Z. -L. Liu",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology",
+            "Luoyang Normal University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-022-07819-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-022-07819-8",
+      "cited_by_count": 43,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-022-07819-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "An efficient automated toolkit for predicting the mechanical properties of materials can accelerate new materials design and discovery; this process often involves screening large configurational space in high-throughput calculations. Herein, we present the ElasTool toolkit for these applications. In particular, we use the ElasTool to study diversity of 2D materials and heterostructures including their temperature-dependent mechanical properties, and developed a machine learning algorithm for exploring predicted properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+      "authors": [
+        "Camilo Augusto Fernandes Salvador",
+        "Eloá Lopes Maia",
+        "Fernando Henrique da Costa",
+        "Julián Escobar",
+        "J.P. Oliveira"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Camilo Augusto Fernandes Salvador",
+          "orcid": "0000-0002-9128-2044",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eloá Lopes Maia",
+          "orcid": "0000-0002-8662-4855",
+          "affiliations": [
+            "Vrije Universiteit Brussel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fernando Henrique da Costa",
+          "orcid": "0000-0001-6602-5751",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julián Escobar",
+          "orcid": "0000-0001-9057-8671",
+          "affiliations": [
+            "Universidade de São Paulo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.P. Oliveira",
+          "orcid": "0000-0001-6906-1870",
+          "affiliations": [
+            "Centro de Investigação em Materiais",
+            "Universidade Nova de Lisboa"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01283-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01283-9",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01283-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The present work depicts a compilation of mechanical properties of 282 distinct multicomponent Ti-based alloys and their respective microstructural features. The dataset includes the chemical composition (in at.%), phase constituents, Young modulus, hardness, yield strength, ultimate strength, and elongation. Each entry is associated with a high-quality experimental work containing a complete description of the processing route and testing setup. Furthermore, we incorporated flags to the dataset indicating (a) the use of high-resolution techniques for microstructural analysis and (b) the observation of non-linear elastic responses during mechanical testing. Oxygen content and average grain size are presented whenever available. The selected features can help material scientists to adjust the data to their needs concerning materials selection and discovery. Most alloys in the dataset were produced via an ingot metallurgy route, followed by solubilization and water quench (≈58%), which is considered a standard condition for β-Ti alloys. The database is hosted and maintained up to date in an open platform. For completeness, a few graphical representations of the dataset are included.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Lossless multi-scale constitutive elastic relations with artificial intelligence",
+      "authors": [
+        "Jaber Rezaei Mianroodi",
+        "Shahed Rezaei",
+        "Nima Hamidi Siboni",
+        "Bai‐Xiang Xu",
+        "Dierk Raabe"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jaber Rezaei Mianroodi",
+          "orcid": "0000-0003-4778-3260",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shahed Rezaei",
+          "orcid": "0000-0002-2842-3692",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nima Hamidi Siboni",
+          "orcid": "0000-0002-0305-5870",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bai‐Xiang Xu",
+          "orcid": "0000-0001-5906-5341",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dierk Raabe",
+          "orcid": "0000-0003-0194-6124",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00753-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00753-3",
+      "cited_by_count": 51,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00753-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract A seamless and lossless transition of the constitutive description of the elastic response of materials between atomic and continuum scales has been so far elusive. Here we show how this problem can be overcome by using artificial intelligence (AI). A convolutional neural network (CNN) model is trained, by taking the structure image of a nanoporous material as input and the corresponding elasticity tensor, calculated from molecular statics (MS), as output. Trained with the atomistic data, the CNN model captures the size- and pore-dependency of the material’s elastic properties which, on the physics side, derive from its intrinsic stiffness as well as from surface relaxation and non-local effects. To demonstrate the accuracy and the efficiency of the trained CNN model, a finite element method (FEM)-based result of an elastically deformed nanoporous beam equipped with the CNN as constitutive law is compared with that obtained by a full atomistic simulation. The trained CNN model predicts the elasticity tensor in the test dataset with a root-mean-square error of 2.4 GPa (3.0% of the bulk modulus) when compared to atomistic calculations. On the other hand, the CNN model is about 230 times faster than the MS calculation and does not require changing simulation methods between different scales. The efficiency of the CNN evaluation together with the preservation of important atomistic effects makes the trained model an effective atomistically informed constitutive model for macroscopic simulations of nanoporous materials, optimization of nanostructures, and the solution of inverse problems.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "MaterialsAtlas.org: a materials informatics web app platform for materials discovery and survey of state-of-the-art",
+      "authors": [
+        "Jianjun Hu",
+        "Stanislav Stefanov",
+        "Yuqi Song",
+        "Sadman Sadeed Omee",
+        "Steph-Yves Louis",
+        "Edirisuriya M. Dilanga Siriwardane",
+        "Yong Zhao",
+        "Lai Wei"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jianjun Hu",
+          "orcid": "0000-0002-8725-6660",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stanislav Stefanov",
+          "orcid": null,
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuqi Song",
+          "orcid": "0009-0000-8148-9212",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sadman Sadeed Omee",
+          "orcid": "0000-0002-1016-8072",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Steph-Yves Louis",
+          "orcid": "0000-0003-1954-5791",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edirisuriya M. Dilanga Siriwardane",
+          "orcid": "0000-0001-8960-5273",
+          "affiliations": [
+            "University of South Carolina",
+            "University of Colombo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong Zhao",
+          "orcid": "0000-0002-6762-266X",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lai Wei",
+          "orcid": "0000-0003-0344-8540",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00750-6",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00750-6",
+      "cited_by_count": 72,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00750-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The availability and easy access of large-scale experimental and computational materials data have enabled the emergence of accelerated development of algorithms and models for materials property prediction, structure prediction, and generative design of materials. However, the lack of user-friendly materials informatics web servers has severely constrained the wide adoption of such tools in the daily practice of materials screening, tinkering, and design space exploration by materials scientists. Herein we first survey current materials informatics web apps and then propose and develop MaterialsAtlas.org, a web-based materials informatics toolbox for materials discovery, which includes a variety of routinely needed tools for exploratory materials discovery, including material’s composition and structure validity check (e.g. charge neutrality, electronegativity balance, dynamic stability, Pauling rules), materials property prediction (e.g. band gap, elastic moduli, hardness, and thermal conductivity), search for hypothetical materials, and utility tools. These user-friendly tools can be freely accessed at http://www.materialsatlas.org . We argue that such materials informatics apps should be widely developed by the community to speed up materials discovery processes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Correlations of Composition, Structure, and Hardness in the High-Entropy Alloy System Nb–Mo–Ta–W",
+      "authors": [
+        "Bin Xiao",
+        "Yury V. Lysogorskiy",
+        "Alan Savan",
+        "Heidi Bögershausen",
+        "Janine Pfetzing‐Micklich",
+        "Dierk Raabe",
+        "Ralf Drautz",
+        "Alfred Ludwig"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Bin Xiao",
+          "orcid": null,
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yury V. Lysogorskiy",
+          "orcid": "0000-0003-4617-3188",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alan Savan",
+          "orcid": "0000-0003-0559-3290",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Heidi Bögershausen",
+          "orcid": null,
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Janine Pfetzing‐Micklich",
+          "orcid": "0000-0003-0539-1146",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dierk Raabe",
+          "orcid": "0000-0003-0194-6124",
+          "affiliations": [
+            "Max-Planck-Institut für Nachhaltige Materialien"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ralf Drautz",
+          "orcid": "0000-0001-7101-8804",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alfred Ludwig",
+          "orcid": "0000-0003-2802-6774",
+          "affiliations": [
+            "Ruhr University Bochum"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "High Entropy Alloys & Materials",
+      "doi": "10.1007/s44210-022-00007-3",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s44210-022-00007-3",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s44210-022-00007-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Refractory high-entropy alloys are of interest due to the potential of compositionally complex alloys to achieve combinations of mechanical properties such as room-temperature ductility and high-temperature strength rarely found in simpler alloys. To study a large compositional range of the system Nb–Mo–Ta–W, thin-film materials libraries were fabricated by combinatorial sputtering. High-throughput characterization methods were used to systematically determine composition-dependent properties: (I) the extent and stability of the complex solid solution range and (II) the mechanical properties (Young’s modulus, hardness). The whole investigated composition range of Nb20–59Mo9–31Ta10–42W12–32 crystallized in a bcc phase, independent of annealing temperatures ranging from 300 to 900 °C. Mechanical strength values of the Nb–Mo–Ta–W compositions were calculated using the Maresca–Curtin analytical model parameterized with experimental data. A strong positive correlation with measured hardness was observed that allows using this analytical model for optimization of the mechanical strength. We predict that compositions with high Mo contents provide the highest hardness values.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Predicting elastic properties of hard-coating alloys using ab-initio and machine learning methods",
+      "authors": [
+        "Henrik Levämäki",
+        "Ferenc Tasnádi",
+        "Davide G. Sangiovanni",
+        "Lars J. S. Johnson",
+        "Rickard Armiento",
+        "Igor A. Abrikosov"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Henrik Levämäki",
+          "orcid": "0000-0001-9227-4081",
+          "affiliations": [
+            "Linköping University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ferenc Tasnádi",
+          "orcid": "0000-0001-6373-5109",
+          "affiliations": [
+            "Linköping University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Davide G. Sangiovanni",
+          "orcid": "0000-0002-1379-6656",
+          "affiliations": [
+            "Linköping University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lars J. S. Johnson",
+          "orcid": "0000-0002-6180-7161",
+          "affiliations": [
+            "Sandvik (Sweden)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rickard Armiento",
+          "orcid": "0000-0002-5571-0814",
+          "affiliations": [
+            "Linköping University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Igor A. Abrikosov",
+          "orcid": "0000-0001-7551-4717",
+          "affiliations": [
+            "Linköping University",
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00698-7",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00698-7",
+      "cited_by_count": 37,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00698-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Accelerated design of hard-coating materials requires state-of-the-art computational tools, which include data-driven techniques, building databases, and training machine learning models. We develop a heavily automated high-throughput workflow to build a database of industrially relevant hard-coating materials, such as binary and ternary nitrides. We use the high-throughput toolkit to automate the density functional theory calculation workflow. We present results, including elastic constants that are a key parameter determining mechanical properties of hard-coatings, for X 1− x Y x N ternary nitrides, where X , Y ∈ {Al, Ti, Zr, Hf} and fraction $$x=0,\\frac{1}{4},\\frac{1}{2},\\frac{3}{4},1$$ x = 0 , 1 4 , 1 2 , 3 4 , 1 . We also explore ways for machine learning to support and complement the designed databases. We find that the crystal graph convolutional neural network trained on ordered lattices has sufficient accuracy for the disordered nitrides, suggesting that existing databases provide important data for predicting mechanical properties of qualitatively different types of materials, in our case disordered hard-coating alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Temperature-Dependent Material Property Databases for Marine Steels—Part 3: HSLA-80",
+      "authors": [
+        "Jennifer K. Semple",
+        "Daniel H. Bechetti",
+        "Wei Zhang",
+        "Charles R. Fisher"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jennifer K. Semple",
+          "orcid": null,
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel H. Bechetti",
+          "orcid": null,
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Zhang",
+          "orcid": "0000-0003-4543-2563",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charles R. Fisher",
+          "orcid": "0000-0001-7547-3011",
+          "affiliations": [
+            "Naval Surface Warfare Center",
+            "NSWC Carderock Division"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Integrating materials and manufacturing innovation",
+      "doi": "10.1007/s40192-022-00288-x",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40192-022-00288-x",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40192-022-00288-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Distilling physical origins of hardness in multi-principal element alloys directly from ensemble neural network models",
+      "authors": [
+        "Dishant Beniwal",
+        "P. Singh",
+        "S. Gupta",
+        "Matthew Joseph Kramer",
+        "Duane D. Johnson",
+        "Pratik K. Ray"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Dishant Beniwal",
+          "orcid": "0000-0001-8307-3392",
+          "affiliations": [
+            "Indian Institute of Technology Ropar"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "P. Singh",
+          "orcid": null,
+          "affiliations": [
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Gupta",
+          "orcid": null,
+          "affiliations": [
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Joseph Kramer",
+          "orcid": "0000-0002-9097-6730",
+          "affiliations": [
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Duane D. Johnson",
+          "orcid": "0000-0003-0794-7283",
+          "affiliations": [
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pratik K. Ray",
+          "orcid": "0000-0002-8365-0126",
+          "affiliations": [
+            "Indian Institute of Technology Ropar"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00842-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00842-3",
+      "cited_by_count": 34,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00842-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Despite a plethora of data being generated on the mechanical behavior of multi-principal element alloys, a systematic assessment remains inaccessible via Edisonian approaches. We approach this challenge by considering the specific case of alloy hardness, and present a machine-learning framework that captures the essential physical features contributing to hardness and allows high-throughput exploration of multi-dimensional compositional space. The model, tested on diverse datasets, was used to explore and successfully predict hardness in AlxTiy(CrFeNi)1-x-y, HfxCoy(CrFeNi)1-x-y and Alx(TiZrHf)1-x systems supported by data from density-functional theory predicted phase stability and ordering behavior. The experimental validation of hardness was done on TiZrHfAlx. The selected systems pose diverse challenges due to the presence of ordering and clustering pairs, as well as vacancy-stabilized novel structures. We also present a detailed model analysis that integrates local partial-dependencies with a compositional-stimulus and model-response study to derive material-specific insights from the decision-making process.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "MechElastic: A Python library for analysis of mechanical and elastic properties of bulk and 2D materials",
+      "authors": [
+        "Sobhit Singh",
+        "Logan Lang",
+        "Viviana Dovale-Farelo",
+        "Uthpala Herath",
+        "Pedram Tavadze",
+        "François‐Xavier Coudert",
+        "Aldo Humberto Romero"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Sobhit Singh",
+          "orcid": "0000-0002-5292-4235",
+          "affiliations": [
+            "Rutgers, The State University of New Jersey",
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Logan Lang",
+          "orcid": "0000-0003-2867-1706",
+          "affiliations": [
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Viviana Dovale-Farelo",
+          "orcid": "0000-0002-4324-0106",
+          "affiliations": [
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Uthpala Herath",
+          "orcid": "0000-0002-4585-3002",
+          "affiliations": [
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pedram Tavadze",
+          "orcid": "0000-0001-5238-3689",
+          "affiliations": [
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "François‐Xavier Coudert",
+          "orcid": "0000-0001-5318-3910",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Chimie ParisTech - PSL",
+            "Université Paris Sciences et Lettres",
+            "Institut de Recherche de Chimie Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aldo Humberto Romero",
+          "orcid": "0000-0001-5968-0571",
+          "affiliations": [
+            "West Virginia University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computer Physics Communications",
+      "doi": "10.1016/j.cpc.2021.108068",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.cpc.2021.108068",
+      "cited_by_count": 162,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.cpc.2021.108068",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Chemical hardness-driven interpretable machine learning approach for rapid search of photocatalysts",
+      "authors": [
+        "Ritesh Kumar",
+        "Abhishek Kumar Singh"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Ritesh Kumar",
+          "orcid": "0000-0001-6345-6791",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abhishek Kumar Singh",
+          "orcid": "0000-0002-7631-6744",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00669-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00669-4",
+      "cited_by_count": 120,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00669-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Strategies combining high-throughput (HT) and machine learning (ML) to accelerate the discovery of promising new materials have garnered immense attention in recent years. The knowledge of new guiding principles is usually scarce in such studies, essentially due to the ‘black-box’ nature of the ML models. Therefore, we devised an intuitive method of interpreting such opaque ML models through SHapley Additive exPlanations (SHAP) values and coupling them with the HT approach for finding efficient 2D water-splitting photocatalysts. We developed a new database of 3099 2D materials consisting of metals connected to six ligands in an octahedral geometry, termed as 2DO (octahedral 2D materials) database. The ML models were constructed using a combination of composition and chemical hardness-based features to gain insights into the thermodynamic and overall stabilities. Most importantly, it distinguished the target properties of the isocompositional 2DO materials differing in bond connectivities by combining the advantages of both elemental and structural features. The interpretable ML regression, classification, and data analysis lead to a new hypothesis that the highly stable 2DO materials follow the HSAB principle. The most stable 2DO materials were further screened based on suitable band gaps within the visible region and band alignments with respect to standard redox potentials using the GW method, resulting in 21 potential candidates. Moreover, HfSe2 and ZrSe2 were found to have high solar-to-hydrogen efficiencies reaching their theoretical limits. The proposed methodology will enable materials scientists and engineers to formulate predictive models, which will be accurate, physically interpretable, transferable, and computationally tractable.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Efficient Prediction of Temperature-dependent Elastic and Mechanical Properties of 2D Materials",
+      "authors": [
+        "Chinedu E. Ekuma",
+        "Z Liu",
+        "Srihari M. Kastuar"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Chinedu E. Ekuma",
+          "orcid": "0000-0002-5852-7556",
+          "affiliations": [
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Z Liu",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Srihari M. Kastuar",
+          "orcid": "0000-0002-7900-1561",
+          "affiliations": [
+            "Lehigh University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Research Square",
+      "doi": "10.21203/rs.3.rs-902313/v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.21203/rs.3.rs-902313/v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.researchsquare.com/article/rs-902313/latest.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract An efficient automated toolkit for predicting the mechanical properties of materials can accelerate new materials design and discovery; this process often involves screening large configurational space in high-throughput calculations. Herein, we present the ElasTool toolkit for these applications. In particular, we use the ElasTool to study diversity of 2D materials and heterostructures, including their temperature-dependent mechanical properties and developed a machine learning algorithm for exploring predicted properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Machine learning elastic constants of multi-component alloys",
+      "authors": [
+        "Vivek Revi",
+        "Saurabh Kasodariya",
+        "Anjana Talapatra",
+        "Ghanshyam Pilania",
+        "Alankar Alankar"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Vivek Revi",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saurabh Kasodariya",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anjana Talapatra",
+          "orcid": "0000-0002-6446-2437",
+          "affiliations": [
+            "Los Alamos National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ghanshyam Pilania",
+          "orcid": "0000-0003-4460-1572",
+          "affiliations": [
+            "Los Alamos National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alankar Alankar",
+          "orcid": "0000-0002-4313-5082",
+          "affiliations": [
+            "Indian Institute of Technology Bombay"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2021.110671",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.110671",
+      "cited_by_count": 68,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.commatsci.2021.110671",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Elastic Moduli of Avian Eggshell",
+      "authors": [
+        "Pei-Lin Chiang",
+        "Yu-Chien Tseng",
+        "Hsiao-Jou Wu",
+        "Shu-Han Tsao",
+        "Shang-Ping Wu",
+        "Weicheng Wang",
+        "Hsin-I Hsieh",
+        "Jia‐Yang Juang"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Pei-Lin Chiang",
+          "orcid": null,
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu-Chien Tseng",
+          "orcid": null,
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hsiao-Jou Wu",
+          "orcid": "0000-0001-9328-656X",
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shu-Han Tsao",
+          "orcid": null,
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shang-Ping Wu",
+          "orcid": null,
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weicheng Wang",
+          "orcid": "0000-0002-8391-5120",
+          "affiliations": [
+            "Taipei Zoo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hsin-I Hsieh",
+          "orcid": null,
+          "affiliations": [
+            "Taipei Zoo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jia‐Yang Juang",
+          "orcid": "0000-0001-6801-3244",
+          "affiliations": [
+            "National Taiwan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Biology",
+      "doi": "10.3390/biology10100989",
+      "type": "article",
+      "url": "https://doi.org/10.3390/biology10100989",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2079-7737/10/10/989/pdf?version=1633939988",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We analyze 700 freshly-laid eggs from 58 species (22 families and 13 orders) across three orders of magnitude in egg mass. We study the elastic moduli using three metrics: (i) effective Young’s modulus, EFEM, by a combined experimental and numerical method; (ii) elastic modulus, Enano, by nanoindentation, and (iii) theoretical Young’s modulus, Etheory. We measure the mineral content by acid-base titration, and crystallographic characteristics by electron backscatter diffraction (EBSD), on representative species. We find that the mineral content ranges between 83.1% (Zebra finch) and 96.5% (ostrich) and is positively correlated with EFEM—23.28 GPa (Zebra finch) and 47.76 GPa (ostrich). The EBSD shows that eggshell is anisotropic and non-homogeneous, and different species have different degrees of crystal orientation and texture. Ostrich eggshell exhibits strong texture in the thickness direction, whereas chicken eggshell has little. Such anisotropy and inhomogeneity are consistent with the nanoindentation tests. However, the crystal characteristics do not appear to correlate with EFEM, as EFEM represents an overall “average” elasticity of the entire shell. The experimental results are consistent with the theoretical prediction of linear elasticity. Our comprehensive investigation into the elastic moduli of avian eggshell over broad taxonomic scales provides a useful dataset for those who work on avian reproduction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Machine learning for material characterization with an application for predicting mechanical properties",
+      "authors": [
+        "Anke Stoll",
+        "Peter Benner"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Anke Stoll",
+          "orcid": null,
+          "affiliations": [
+            "Fraunhofer Institute for Machine Tools and Forming Technology",
+            "Fraunhofer-Gesellschaft"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Benner",
+          "orcid": "0000-0003-3362-4103",
+          "affiliations": [
+            "Max Planck Institute for Dynamics of Complex Technical Systems"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "GAMM-Mitteilungen",
+      "doi": "10.1002/gamm.202100003",
+      "type": "article",
+      "url": "https://doi.org/10.1002/gamm.202100003",
+      "cited_by_count": 142,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/gamm.202100003",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Currently, the growth of material data from experiments and simulations is expanding beyond processable amounts. This makes the development of new data‐driven methods for the discovery of patterns among multiple lengthscales and time‐scales and structure‐property relationships essential. These data‐driven approaches show enormous promise within materials science. The following review covers machine learning (ML) applications for metallic material characterization. Many parameters associated with the processing and the structure of materials affect the properties and the performance of manufactured components. Thus, this study is an attempt to investigate the usefulness of ML methods for material property prediction. Material characteristics such as strength, toughness, hardness, brittleness, or ductility are relevant to categorize a material or component according to their quality. In industry, material tests like tensile tests, compression tests, or creep tests are often time consuming and expensive to perform. Therefore, the application of ML approaches is considered helpful for an easier generation of material property information. This study also gives an application of ML methods on small punch test (SPT) data for the determination of the property ultimate tensile strength for various materials. A strong correlation between SPT data and tensile test data was found which ultimately allows to replace more costly tests by simple and fast tests in combination with ML.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Predicting densities and elastic moduli of SiO2-based glasses by machine learning",
+      "authors": [
+        "Yong‐Jie Hu",
+        "Ge Zhao",
+        "Mingfei Zhang",
+        "Bin Bin",
+        "Tyler J. Del Rose",
+        "Qian Zhao",
+        "Qun Zu",
+        "Yang Chen",
+        "Xuekun Sun",
+        "Maarten de Jong",
+        "Liang Qi"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Yong‐Jie Hu",
+          "orcid": "0000-0003-1500-4015",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ge Zhao",
+          "orcid": "0000-0002-4789-6946",
+          "affiliations": [
+            "Portland State University",
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingfei Zhang",
+          "orcid": "0000-0002-4865-6274",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bin Bin",
+          "orcid": null,
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tyler J. Del Rose",
+          "orcid": "0000-0001-6931-8437",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Zhao",
+          "orcid": "0009-0006-6664-7191",
+          "affiliations": [
+            "Sinoma Science & Technology Co., Ltd. (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qun Zu",
+          "orcid": null,
+          "affiliations": [
+            "Sinoma Science & Technology Co., Ltd. (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Chen",
+          "orcid": null,
+          "affiliations": [
+            "Sinoma Science & Technology Co., Ltd. (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuekun Sun",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maarten de Jong",
+          "orcid": "0009-0006-7842-4892",
+          "affiliations": [
+            "SpaceX (United States)",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liang Qi",
+          "orcid": "0000-0002-6038-2907",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-020-0291-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-020-0291-z",
+      "cited_by_count": 117,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-020-0291-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Chemical design of SiO 2 -based glasses with high elastic moduli and low weight is of great interest. However, it is difficult to find a universal expression to predict the elastic moduli according to the glass composition before synthesis since the elastic moduli are a complex function of interatomic bonds and their ordering at different length scales. Here we show that the densities and elastic moduli of SiO 2 -based glasses can be efficiently predicted by machine learning (ML) techniques across a complex compositional space with multiple (>10) types of additive oxides besides SiO 2 . Our machine learning approach relies on a training set generated by high-throughput molecular dynamic (MD) simulations, a set of elaborately constructed descriptors that bridges the empirical statistical modeling with the fundamental physics of interatomic bonding, and a statistical learning/predicting model developed by implementing least absolute shrinkage and selection operator with a gradient boost machine (GBM-LASSO). The predictions of the ML model are comprehensively compared and validated with a large amount of both simulation and experimental data. By just training with a dataset only composed of binary and ternary glass samples, our model shows very promising capabilities to predict the density and elastic moduli for k-nary SiO 2 -based glasses beyond the training set. As an example of its potential applications, our GBM-LASSO model was used to perform a rapid and low-cost screening of many (~10 5 ) compositions of a multicomponent glass system to construct a compositional-property database that allows for a fruitful overview on the glass density and elastic properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Deep elastic strain engineering of bandgap through machine learning",
+      "authors": [
+        "Zhe Shi",
+        "Evgenii Tsymbalov",
+        "Ming Dao",
+        "S. Suresh",
+        "Alexander V. Shapeev",
+        "Ju Li"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Zhe Shi",
+          "orcid": "0000-0001-9282-8881",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Evgenii Tsymbalov",
+          "orcid": "0000-0002-9072-1172",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Dao",
+          "orcid": "0000-0001-5372-385X",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Suresh",
+          "orcid": "0000-0002-6223-6831",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander V. Shapeev",
+          "orcid": "0000-0002-7497-5594",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ju Li",
+          "orcid": "0000-0002-7841-8058",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1818555116",
+      "type": "article",
+      "url": "https://doi.org/10.1073/pnas.1818555116",
+      "cited_by_count": 128,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.pnas.org/content/pnas/116/10/4117.full.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Nanoscale specimens of semiconductor materials as diverse as silicon and diamond are now known to be deformable to large elastic strains without inelastic relaxation. These discoveries harbinger a new age of deep elastic strain engineering of the band structure and device performance of electronic materials. Many possibilities remain to be investigated as to what pure silicon can do as the most versatile electronic material and what an ultrawide bandgap material such as diamond, with many appealing functional figures of merit, can offer after overcoming its present commercial immaturity. Deep elastic strain engineering explores full six-dimensional space of admissible nonlinear elastic strain and its effects on physical properties. Here we present a general method that combines machine learning and ab initio calculations to guide strain engineering whereby material properties and performance could be designed. This method invokes recent advances in the field of artificial intelligence by utilizing a limited amount of ab initio data for the training of a surrogate model, predicting electronic bandgap within an accuracy of 8 meV. Our model is capable of discovering the indirect-to-direct bandgap transition and semiconductor-to-metal transition in silicon by scanning the entire strain space. It is also able to identify the most energy-efficient strain pathways that would transform diamond from an ultrawide-bandgap material to a smaller-bandgap semiconductor. A broad framework is presented to tailor any target figure of merit by recourse to deep elastic strain engineering and machine learning for a variety of applications in microelectronics, optoelectronics, photonics, and energy technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "A Statistical Learning Framework for Materials Science: Application to Elastic Moduli of k-nary Inorganic Polycrystalline Compounds",
+      "authors": [
+        "Maarten de Jong",
+        "Wei Chen",
+        "Randy J. Notestine",
+        "Kristin Aslaug Persson",
+        "Gerbrand Ceder",
+        "Anubhav Jain",
+        "Mark Asta",
+        "Anthony C. Gamst"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Maarten de Jong",
+          "orcid": "0009-0006-7842-4892",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Randy J. Notestine",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "orcid": "0000-0001-9275-3605",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Asta",
+          "orcid": "0000-0002-8968-321X",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anthony C. Gamst",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/srep34256",
+      "type": "article",
+      "url": "https://doi.org/10.1038/srep34256",
+      "cited_by_count": 243,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/srep34256.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials scientists increasingly employ machine or statistical learning (SL) techniques to accelerate materials discovery and design. Such pursuits benefit from pooling training data across, and thus being able to generalize predictions over, k-nary compounds of diverse chemistries and structures. This work presents a SL framework that addresses challenges in materials science applications, where datasets are diverse but of modest size, and extreme values are often of interest. Our advances include the application of power or Hölder means to construct descriptors that generalize over chemistry and crystal structure, and the incorporation of multivariate local regression within a gradient boosting framework. The approach is demonstrated by developing SL models to predict bulk and shear moduli (K and G, respectively) for polycrystalline inorganic compounds, using 1,940 compounds from a growing database of calculated elastic moduli for metals, semiconductors and insulators. The usefulness of the models is illustrated by screening for superhard materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "The microstructure and hardness of Ni-Co-Al-Ti-Cr quinary alloys",
+      "authors": [
+        "Katerina A. Christofidou",
+        "Nicholas G. Jones",
+        "Edward John Pickering",
+        "Roxana Flacau",
+        "M.C. Hardy",
+        "Howard James Stone"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Katerina A. Christofidou",
+          "orcid": "0000-0002-8064-5874",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholas G. Jones",
+          "orcid": "0000-0002-1851-2261",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edward John Pickering",
+          "orcid": "0000-0002-7516-868X",
+          "affiliations": [
+            "University of Cambridge",
+            "University of Manchester"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Roxana Flacau",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "M.C. Hardy",
+          "orcid": null,
+          "affiliations": [
+            "Rolls-Royce (United Kingdom)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Howard James Stone",
+          "orcid": "0000-0002-9753-4441",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Alloys and Compounds",
+      "doi": "10.1016/j.jallcom.2016.07.159",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jallcom.2016.07.159",
+      "cited_by_count": 37,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://research.manchester.ac.uk/en/publications/6f06b28d-f792-40d1-bf7b-c0a3c64b2480",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "On capturing the grain-scale elastic and plastic anisotropy of alpha-Ti with spherical nanoindentation and electron back-scattered diffraction",
+      "authors": [
+        "Jordan S. Weaver",
+        "Matthew W. Priddy",
+        "David L. McDowell",
+        "Surya R. Kalidindi"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Jordan S. Weaver",
+          "orcid": "0000-0003-4857-5164",
+          "affiliations": [
+            "Georgia Institute of Technology",
+            "Los Alamos National Laboratory",
+            "Center for Integrated Nanotechnologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew W. Priddy",
+          "orcid": "0000-0002-1644-2060",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David L. McDowell",
+          "orcid": "0000-0003-2178-066X",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Surya R. Kalidindi",
+          "orcid": "0000-0001-6909-7507",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2016.06.053",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2016.06.053",
+      "cited_by_count": 85,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.actamat.2016.06.053",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+      "authors": [
+        "Maarten de Jong",
+        "Wei Chen",
+        "Thomas Angsten",
+        "Anubhav Jain",
+        "Randy J. Notestine",
+        "Anthony C. Gamst",
+        "Marcel H. F. Sluiter",
+        "Chaitanya Krishna Ande",
+        "Sybrand van der Zwaag",
+        "José J. Plata",
+        "Cormac Toher",
+        "Stefano Curtarolo A",
+        "Gerbrand Ceder",
+        "Kristin Aslaug Persson",
+        "Mark Asta"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Maarten de Jong",
+          "orcid": "0009-0006-7842-4892",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Angsten",
+          "orcid": "0000-0001-8763-5321",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Randy J. Notestine",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anthony C. Gamst",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marcel H. F. Sluiter",
+          "orcid": "0000-0002-6514-4318",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaitanya Krishna Ande",
+          "orcid": "0000-0001-7016-296X",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sybrand van der Zwaag",
+          "orcid": "0000-0001-5085-0255",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José J. Plata",
+          "orcid": "0000-0002-0859-0450",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cormac Toher",
+          "orcid": "0000-0001-7073-8690",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefano Curtarolo A",
+          "orcid": "0000-0003-0570-8238",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "orcid": "0000-0001-9275-3605",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Asta",
+          "orcid": "0000-0002-8968-321X",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2015.9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2015.9",
+      "cited_by_count": 1009,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata20159.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The elastic constant tensor of an inorganic compound provides a complete description of the response of the material to external stresses in the elastic limit. It thus provides fundamental insight into the nature of the bonding in the material, and it is known to correlate with many mechanical properties. Despite the importance of the elastic constant tensor, it has been measured for a very small fraction of all known inorganic compounds, a situation that limits the ability of materials scientists to develop new materials with targeted mechanical responses. To address this deficiency, we present here the largest database of calculated elastic properties for inorganic compounds to date. The database currently contains full elastic information for 1,181 inorganic compounds, and this number is growing steadily. The methods used to develop the database are described, as are results of tests that establish the accuracy of the data. In addition, we document the database format and describe the different ways it can be accessed and analyzed in efforts related to materials discovery and design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 36,
+      "known": 50,
+      "pct": 72,
+      "text": "文献类型：journal-article = 36/50（72%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "metal-combustion-properties",
+    "name": "Metallic-material combustion property database",
+    "category": "experimental_properties",
+    "description": "Literature-curated combustion and ignition data for pure metals and alloys with composition, specimen and atmosphere metadata.",
+    "version": "Figshare v3 / 2026 descriptor",
+    "year": 2026,
+    "count": 725,
+    "count_display": "725",
+    "count_unit": "combustion measurement records",
+    "count_scope": "Literature descriptor reports 725 composition/property/experimental-condition/reference records across six worksheets; not 725 distinct alloys",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "combustion enthalpy",
+      "ignition temperature",
+      "ignition delay",
+      "combustion rate",
+      "threshold pressure",
+      "oxygen pressure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (versioned data deposit)",
+    "links": {
+      "homepage": "https://github.com/wpl2000/CombustionData",
+      "data": "https://doi.org/10.6084/m9.figshare.29966602.v3",
+      "paper": "https://doi.org/10.1038/s41597-026-06862-8"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-06862-8",
+        "title": "Metal combustion Scientific Data descriptor",
+        "evidence": "Reports 725 curated data points from 45 publications and defines a record by composition, property, test condition and reference.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/29966602",
+        "title": "Combustion data deposit metadata",
+        "evidence": "Version 3 contains Combustion_Data.xlsx and explicitly reports CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "No atomic crystal coordinates are asserted; the materials are composition-level metal/alloy samples.",
+      "Metric units and conditions differ; specimen geometry, test method and oxygen pressure must remain associated with each measurement.",
+      "725 is descriptor-reported; workbook rows were not independently recounted."
+    ],
+    "tags": [
+      "property-focused",
+      "OpenAlex-survey-20261101"
+    ]
+  },
+  {
+    "id": "ml-hydpark",
+    "name": "ML-HydPARK metal-hydride storage properties",
+    "category": "experimental_properties",
+    "description": "Curated HydPARK-derived metal-hydride compositions, hydrogen capacities and thermodynamic descriptors.",
+    "version": "Zenodo version 0.0.5 (2024-02-19)",
+    "year": 2024,
+    "count": 772,
+    "count_display": "772",
+    "count_unit": "composition/property records",
+    "count_scope": "ML-HYDPARK_v0.0.5.csv contains 772 data rows; not independently deduplicated crystal structures",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "hydrogen storage capacity",
+      "hydride formation enthalpy",
+      "entropy",
+      "temperature",
+      "equilibrium pressure",
+      "hydrogen-to-metal ratio"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (versioned data deposit)",
+    "links": {
+      "homepage": "https://zenodo.org/records/10680097",
+      "data": "https://doi.org/10.5281/zenodo.10680097",
+      "paper": "https://doi.org/10.1021/acs.jpclett.9b02971"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/api/records/10680097",
+        "title": "ML-HydPARK version 0.0.5 deposit",
+        "evidence": "Deposit identifies a curated HydPARK-derived CSV, version 0.0.5 (2024-02-19), and CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/10680097/files/ML-HYDPARK_v0.0.5.csv/content",
+        "title": "Independent CSV row count",
+        "evidence": "Parsed the complete 100,494-byte CSV: 772 data rows after the header. The receipt records its SHA-256 and column names.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A composition table; crystal coordinates are not included.",
+      "Experimental source measurements and derived equilibrium-pressure descriptors coexist; label coverage is incomplete.",
+      "HydPARK parent data and newer hydrogen databases may overlap. The concept-record URL 7293044 resolved to this version; counts are pinned to v0.0.5."
+    ],
+    "tags": [
+      "property-focused",
+      "OpenAlex-survey-20261101"
+    ]
+  }
+]

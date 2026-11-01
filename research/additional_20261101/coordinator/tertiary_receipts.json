@@ -1,0 +1,55 @@
+[
+  {
+    "name": "sacada_data",
+    "url": "https://www.sacada.info/scd_ajax.php",
+    "status": 200,
+    "final_url": "https://www.sacada.info/scd_ajax.php",
+    "bytes": 531442,
+    "sha256": "8c678d173ded15e119a421573d69e217b1e14f369aff99d0bd75863c5b5ee9d8"
+  },
+  {
+    "name": "sacada_example",
+    "url": "https://www.sacada.info/ca_data.php?id=1",
+    "status": 200,
+    "final_url": "https://www.sacada.info/ca_data.php?id=1",
+    "bytes": 29968,
+    "sha256": "c5867413c96c20f524684f1065e5bcd47e8e1bdb0d9946046d22c3c6f2683c81"
+  },
+  {
+    "name": "solid26_v2",
+    "url": "https://arxiv.org/html/2609.28013v2",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2609.28013v2",
+    "bytes": 77394,
+    "sha256": "8d40860f166eda3badf814207d79d04213612e76c33d1403799bc442cb436a83"
+  },
+  {
+    "name": "solid_releases",
+    "url": "https://api.github.com/repos/team-capex/SoLiD26/releases",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/team-capex/SoLiD26/releases",
+    "bytes": 4856,
+    "sha256": "18d8a9293fbfa3aae8502f6fa8cb8e0d98a598925deddbf05b4958952e20bcee"
+  },
+  {
+    "name": "ultera_home",
+    "url": "https://phaseslab.com/ultera/",
+    "status": 200,
+    "final_url": "https://phaseslab.com/ultera/",
+    "bytes": 108403,
+    "sha256": "5b1ca3fbddd9ed9d4ac4e933c4f02ea83c03d6e10bb4db6e495817acd13bed16"
+  },
+  {
+    "name": "sigap_license",
+    "url": "https://raw.githubusercontent.com/libAtoms/silicon-testing-framework/master/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "sigap_readme",
+    "url": "https://raw.githubusercontent.com/libAtoms/silicon-testing-framework/master/README.md",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/libAtoms/silicon-testing-framework/master/README.md",
+    "bytes": 935,
+    "sha256": "7a4239de81a64aed8919e5d940684913fc332fe91d8b0bc87c0241fa1d8c6b37"
+  }
+]

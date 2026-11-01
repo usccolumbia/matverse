@@ -1,0 +1,74 @@
+[
+  {
+    "key": "c1db-cif",
+    "url": "https://cmrdb.fysik.dtu.dk/c1db/material/ZrSe4Hf5Br10-6b6280765d7f/download/cif",
+    "status": 200,
+    "bytes": 2399,
+    "sha256": "f31cbdd064474ac3790e47f193a314c2511cbec41da332cbb1ed0e4e665ea527",
+    "cache_path": "research/cache/additional_20261101/functional/c1db-cif.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "c1db-entry",
+    "url": "https://cmrdb.fysik.dtu.dk/c1db/material/ZrSe4Hf5Br10-6b6280765d7f",
+    "status": 200,
+    "bytes": 423689,
+    "sha256": "5b36e376177ba4a2f646e81390eaff351e74311cb53a8c46c1f951ee786689cb",
+    "cache_path": "research/cache/additional_20261101/functional/c1db-entry.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "altermagnet-ranked",
+    "url": "https://zenodo.org/api/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx/content",
+    "status": 200,
+    "bytes": 32506,
+    "sha256": "c3b22c8ffb8048d64fa20aed9a7e6a7fb6bf71e79c2f62cb9910a475170b9170",
+    "cache_path": "research/cache/additional_20261101/functional/altermagnet-ranked.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "altermagnet-candidate-pool",
+    "url": "https://zenodo.org/api/records/19109715/files/Altermagnet_HTS_Full_Candidate_Pool.xlsx/content",
+    "status": 200,
+    "bytes": 28453,
+    "sha256": "75572369f55537fb98d1988c1de14e1ee31d59dfabac73f2a4a539d4dc0ffa9e",
+    "cache_path": "research/cache/additional_20261101/functional/altermagnet-candidate-pool.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "altermagnet-readme",
+    "url": "https://raw.githubusercontent.com/Anyterial/altermagnets/main/README.md",
+    "status": 200,
+    "bytes": 9255,
+    "sha256": "977a763d72c9f473aede5405783ca0c588acef5b2f05a1e4d046a667e6e4e959",
+    "cache_path": "research/cache/additional_20261101/functional/altermagnet-readme.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "mint-material",
+    "url": "https://mintatlas.org/optimade/v1/extensions/mintatlas/materials/mi-0",
+    "status": 200,
+    "bytes": 7120,
+    "sha256": "81307a4a4ab46c1a2deec7ea123c4aeedd8b6f2a6a263af1dcc55f21c376027e",
+    "cache_path": "research/cache/additional_20261101/functional/mint-material.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "chiral-js",
+    "url": "https://materialsfingerprint.com/_next/static/chunks/app/page-d1347d3bcb3a7869.js",
+    "status": 200,
+    "bytes": 30032,
+    "sha256": "f5fc8d342721f77985c5a9fa24cc2452f635dd91a7afafd6b1652779fac7ce52",
+    "cache_path": "research/cache/additional_20261101/functional/chiral-js.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "nju-hsp",
+    "url": "http://phonon.nju.edu.cn/phonon-hsp?20251124",
+    "status": 200,
+    "bytes": 18193,
+    "sha256": "16c63feb1a41751291f4775c99b1cbf034eff24b98916854520b3bfc5fb3f23f",
+    "cache_path": "research/cache/additional_20261101/functional/nju-hsp.raw",
+    "verified_date": "2026-11-01"
+  }
+]

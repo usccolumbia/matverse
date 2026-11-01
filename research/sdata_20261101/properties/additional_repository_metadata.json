@@ -1,0 +1,678 @@
+[
+  {
+    "key": "charpy",
+    "url": "https://doi.org/10.24435/materialscloud:p6-5y",
+    "resolved_url": "https://archive.materialscloud.org/records/q4x6v-dyt25",
+    "status": 200,
+    "bytes": 103046,
+    "sha256": "e1e30df5ebc99c09418af6dfd6359bab4bb47013fd3c0855a707f473218d40df",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "creep",
+    "url": "https://doi.org/10.24435/materialscloud:99-xr",
+    "resolved_url": "https://archive.materialscloud.org/records/s60kq-qg914",
+    "status": 200,
+    "bytes": 97384,
+    "sha256": "12ced42a4e92efcf8ddf52bb2456df0fbd886e02149ed7d26a5b5b95a63c5183",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "aunp",
+    "url": "https://api.figshare.com/v2/articles/16614262/versions/3",
+    "resolved_url": "https://api.figshare.com/v2/articles/16614262/versions/3",
+    "status": 200,
+    "bytes": 4436,
+    "sha256": "9072eeb645836ae364a6bb92997d4d9cc08020c98e0112b90181cd8d78bf61b8",
+    "verified_date": "2026-11-01",
+    "data": {
+      "url_public_html": "https://figshare.com/articles/dataset/aunp-synthesis_dataset_2021-9-14_json/16614262/3",
+      "files": [
+        {
+          "id": 30747859,
+          "name": "aunp-synthesis_dataset_2021-9-14.json",
+          "size": 51009284,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/30747859",
+          "supplied_md5": "49ee9a562a5108b475e32b647d633b8a",
+          "computed_md5": "49ee9a562a5108b475e32b647d633b8a",
+          "mimetype": "text/plain"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 11058015,
+          "full_name": "Kevin Cruse",
+          "first_name": "Kevin",
+          "last_name": "Cruse",
+          "is_active": true,
+          "url_name": "Kevin_Cruse",
+          "orcid_id": ""
+        },
+        {
+          "id": 11530868,
+          "full_name": "Amalie Trewartha",
+          "first_name": "Amalie",
+          "last_name": "Trewartha",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 11530872,
+          "full_name": "Sanghoon Lee",
+          "first_name": "Sanghoon",
+          "last_name": "Lee",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 11402723,
+          "full_name": "Zheren Wang",
+          "first_name": "Zheren",
+          "last_name": "Wang",
+          "is_active": true,
+          "url_name": "Zheren_Wang",
+          "orcid_id": ""
+        },
+        {
+          "id": 11413817,
+          "full_name": "Haoyan Huo",
+          "first_name": "Haoyan",
+          "last_name": "Huo",
+          "is_active": true,
+          "url_name": "Haoyan_Huo",
+          "orcid_id": ""
+        },
+        {
+          "id": 11402732,
+          "full_name": "Tanjin He",
+          "first_name": "Tanjin",
+          "last_name": "He",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 7301144,
+          "full_name": "Olga Kononova",
+          "first_name": "Olga",
+          "last_name": "Kononova",
+          "is_active": true,
+          "url_name": "Olga_Kononova",
+          "orcid_id": ""
+        },
+        {
+          "id": 5749439,
+          "full_name": "Anubhav Jain",
+          "first_name": "Anubhav",
+          "last_name": "Jain",
+          "is_active": true,
+          "url_name": "Anubhav_Jain",
+          "orcid_id": ""
+        },
+        {
+          "id": 5590328,
+          "full_name": "Gerbrand Ceder",
+          "first_name": "Gerbrand",
+          "last_name": "Ceder",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/aunp-synthesis_dataset_2021-9-14_json/16614262",
+      "download_disabled": false,
+      "description": "This dataset contains protocols for gold nanoparticle synthesis, mined from the literature. The set includes 5,154 data records, each representing a single gold nanoparticle synthesis article. Each record contains codified synthesis protocols and extracted morphological information from a total of 7,608 experimental and 12,519 characterization paragraphs.",
+      "funding": null,
+      "funding_list": [],
+      "version": 3,
+      "status": "public",
+      "size": 51009284,
+      "created_date": "2021-10-06T23:45:51Z",
+      "modified_date": "2021-10-06T23:45:54Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "tags": [
+        "Gold Nanoparticle",
+        "Recipes",
+        "nanoparticle morphology",
+        "Nanoparticle Size Control",
+        "Nanomaterials",
+        "Synthesis of Materials"
+      ],
+      "keywords": [
+        "Gold Nanoparticle",
+        "Recipes",
+        "nanoparticle morphology",
+        "Nanoparticle Size Control",
+        "Nanomaterials",
+        "Synthesis of Materials"
+      ],
+      "categories": [
+        {
+          "id": 26803,
+          "title": "Nanomaterials",
+          "parent_id": 26782,
+          "path": "/26212/26782/26803",
+          "source_id": "401807",
+          "taxonomy_id": 100
+        },
+        {
+          "id": 25171,
+          "title": "Macromolecular and materials chemistry not elsewhere classified",
+          "parent_id": 25141,
+          "path": "/25066/25141/25171",
+          "source_id": "340399",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Cruse, Kevin; Trewartha, Amalie; Lee, Sanghoon; Wang, Zheren; Huo, Haoyan; He, Tanjin; et al. (2021). Text-mined AuNP Synthesis Recipes Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.16614262.v3",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": "file",
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 16614262,
+      "title": "Text-mined AuNP Synthesis Recipes Dataset",
+      "doi": "10.6084/m9.figshare.16614262.v3",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/16614262",
+      "published_date": "2021-10-06T23:45:51Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/16614262",
+      "url_public_api": "https://api.figshare.com/v2/articles/16614262",
+      "url_private_html": "https://figshare.com/account/articles/16614262",
+      "timeline": {
+        "posted": "2021-10-06T23:45:51",
+        "firstOnline": "2021-09-14"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    }
+  },
+  {
+    "key": "cathode-collection",
+    "url": "https://api.figshare.com/v2/collections/6828414/articles",
+    "resolved_url": "https://api.figshare.com/v2/collections/6828414/articles",
+    "status": 200,
+    "bytes": 4976,
+    "sha256": "da99728c9fb2f6bb8118181e1384f689eb9afb93a8e67f1094b2eb2c945fdcb1",
+    "verified_date": "2026-11-01",
+    "data": [
+      {
+        "id": 24116607,
+        "title": "Rate performance dataset",
+        "doi": "10.6084/m9.figshare.24116607.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116607",
+        "published_date": "2024-04-08T14:02:05Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116607",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116607",
+        "url_private_html": "https://figshare.com/account/articles/24116607",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Rate_performance_dataset/24116607",
+        "timeline": {
+          "posted": "2024-04-08T14:02:05",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:05Z",
+        "modified_date": "2024-04-08T14:02:07Z"
+      },
+      {
+        "id": 24116601,
+        "title": "Cycling performance dataset",
+        "doi": "10.6084/m9.figshare.24116601.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116601",
+        "published_date": "2024-04-08T14:02:05Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116601",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116601",
+        "url_private_html": "https://figshare.com/account/articles/24116601",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Cycling_performance_dataset/24116601",
+        "timeline": {
+          "posted": "2024-04-08T14:02:05",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:05Z",
+        "modified_date": "2024-04-08T14:02:05Z"
+      },
+      {
+        "id": 24116604,
+        "title": "Rate performance dataset",
+        "doi": "10.6084/m9.figshare.24116604.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116604",
+        "published_date": "2024-04-08T14:02:05Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116604",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116604",
+        "url_private_html": "https://figshare.com/account/articles/24116604",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Rate_performance_dataset/24116604",
+        "timeline": {
+          "posted": "2024-04-08T14:02:05",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:05Z",
+        "modified_date": "2024-04-08T14:02:06Z"
+      },
+      {
+        "id": 24116598,
+        "title": "Cycling performance dataset",
+        "doi": "10.6084/m9.figshare.24116598.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116598",
+        "published_date": "2024-04-08T14:02:05Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116598",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116598",
+        "url_private_html": "https://figshare.com/account/articles/24116598",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Cycling_performance_dataset/24116598",
+        "timeline": {
+          "posted": "2024-04-08T14:02:05",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:05Z",
+        "modified_date": "2024-04-08T14:02:05Z"
+      },
+      {
+        "id": 24116592,
+        "title": "All cycling and rate performance datasets",
+        "doi": "10.6084/m9.figshare.24116592.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116592",
+        "published_date": "2024-04-08T14:02:04Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116592",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116592",
+        "url_private_html": "https://figshare.com/account/articles/24116592",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116592",
+        "timeline": {
+          "posted": "2024-04-08T14:02:04",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:04Z",
+        "modified_date": "2024-04-08T14:02:04Z"
+      },
+      {
+        "id": 24116595,
+        "title": "All cycling and rate performance datasets",
+        "doi": "10.6084/m9.figshare.24116595.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/24116595",
+        "published_date": "2024-04-08T14:02:04Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/24116595",
+        "url_public_api": "https://api.figshare.com/v2/articles/24116595",
+        "url_private_html": "https://figshare.com/account/articles/24116595",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116595",
+        "timeline": {
+          "posted": "2024-04-08T14:02:04",
+          "firstOnline": "2024-04-08"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2024-04-08T14:02:04Z",
+        "modified_date": "2024-04-08T14:02:05Z"
+      }
+    ]
+  },
+  {
+    "key": "photo",
+    "url": "https://api.figshare.com/v2/articles/21932211",
+    "resolved_url": "https://api.figshare.com/v2/articles/21932211",
+    "status": 200,
+    "bytes": 4207,
+    "sha256": "4dcb670d2a87172b5899f6c19dfec3f3ff0dae19a00091fc8056e9dca3f751be",
+    "verified_date": "2026-11-01",
+    "data": {
+      "files": [
+        {
+          "id": 38906565,
+          "name": "databasefiles.zip",
+          "size": 242921853,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/38906565",
+          "supplied_md5": "63129e1e8268ad6ff6d190deeae814b5",
+          "computed_md5": "63129e1e8268ad6ff6d190deeae814b5",
+          "mimetype": "application/zip"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 14485035,
+          "full_name": "Taketomo Isazawa",
+          "first_name": "Taketomo",
+          "last_name": "Isazawa",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 6256391,
+          "full_name": "Jacqueline Cole",
+          "first_name": "Jacqueline",
+          "last_name": "Cole",
+          "is_active": true,
+          "url_name": "Jacqueline_Cole",
+          "orcid_id": "0000-0002-1552-8743"
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/An_Auto-generated_Photocatalysis_Database_for_Water-Splitting_Applications_by_Exploiting_Inter-_and_Intra-Sentence_Relations/21932211",
+      "download_disabled": false,
+      "description": "<p>(1) Photocatalysis databases.</p><p>(2) Photocatalysis extraction models.</p><p>(3) Photocatalysis extraction scripts.</p><p>(4) Code for ChemDataExtractor v2.2 that was developed to auto-generate this database (static version).</p><p>(5) A supporting CDEDatabase software package that was written to read/write ChemDataExtractor extracted files (static version).</p>",
+      "funding": "BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials (for JMC, grant reference RCSRF1819\\7\\10)",
+      "funding_list": [
+        {
+          "id": 22870545,
+          "title": "BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials (for JMC, grant reference RCSRF1819\\7\\10)",
+          "grant_code": "",
+          "funder_name": null,
+          "is_user_defined": 1
+        },
+        {
+          "id": 22870548,
+          "title": "ISIS Neutron and Muon Source (supporting JMC on Fellowship)",
+          "grant_code": "",
+          "funder_name": null,
+          "is_user_defined": 1
+        },
+        {
+          "id": 22870551,
+          "title": "BASF (supporting JMC on Fellowship, which is supported by a PhD studentship for TI)",
+          "grant_code": "",
+          "funder_name": null,
+          "is_user_defined": 1
+        }
+      ],
+      "version": 1,
+      "status": "public",
+      "size": 242921853,
+      "created_date": "2023-08-20T07:45:45Z",
+      "modified_date": "2023-08-20T07:45:45Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "tags": [
+        "Catalysis",
+        "Water Splitting Electrocatalysts Derived",
+        "photocatalysis",
+        "photocatalysis performance"
+      ],
+      "keywords": [
+        "Catalysis",
+        "Water Splitting Electrocatalysts Derived",
+        "photocatalysis",
+        "photocatalysis performance"
+      ],
+      "categories": [
+        {
+          "id": 25225,
+          "title": "Catalysis and mechanisms of reactions",
+          "parent_id": 25222,
+          "path": "/25066/25222/25225",
+          "source_id": "340601",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Isazawa, Taketomo; Cole, Jacqueline (2023). An Auto-generated Photocatalysis Database for Water-Splitting Applications by Exploiting Inter- and Intra-Sentence Relations. figshare. Dataset. https://doi.org/10.6084/m9.figshare.21932211.v1",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": "file",
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 21932211,
+      "title": "An Auto-generated Photocatalysis Database for Water-Splitting Applications by Exploiting Inter- and Intra-Sentence Relations",
+      "doi": "10.6084/m9.figshare.21932211.v1",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/21932211",
+      "published_date": "2023-08-20T07:45:45Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/21932211",
+      "url_public_api": "https://api.figshare.com/v2/articles/21932211",
+      "url_private_html": "https://figshare.com/account/articles/21932211",
+      "url_public_html": "https://figshare.com/articles/dataset/An_Auto-generated_Photocatalysis_Database_for_Water-Splitting_Applications_by_Exploiting_Inter-_and_Intra-Sentence_Relations/21932211",
+      "timeline": {
+        "posted": "2023-08-20T07:45:45",
+        "firstOnline": "2023-08-20"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    }
+  },
+  {
+    "key": "micrograv",
+    "url": "https://zenodo.org/api/records/17156569",
+    "resolved_url": "https://zenodo.org/api/records/17156569",
+    "status": 200,
+    "bytes": 3939,
+    "sha256": "f802368a597144ae9731137588391f3fd034dfb26bb70a112dc62d3fa33ad94e",
+    "verified_date": "2026-11-01",
+    "data": {
+      "created": "2025-09-19T01:35:55.494333+00:00",
+      "modified": "2025-09-27T04:33:36.944306+00:00",
+      "id": 17156569,
+      "conceptrecid": "17151678",
+      "doi": "10.5281/zenodo.17156569",
+      "conceptdoi": "10.5281/zenodo.17151678",
+      "doi_url": "https://doi.org/10.5281/zenodo.17156569",
+      "metadata": {
+        "title": "Materials dataset from microgravity levitation experiments on the China Space Station",
+        "doi": "10.5281/zenodo.17156569",
+        "publication_date": "2025",
+        "description": "<p><strong>Materials dataset from microgravity levitation experiments on the&nbsp;China Space Station&nbsp;. Scientific Data, 2025</strong></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Liu, Yanan",
+            "affiliation": null
+          },
+          {
+            "name": "Shengyang, Li",
+            "affiliation": null
+          },
+          {
+            "name": "Bo, Yang",
+            "affiliation": null
+          },
+          {
+            "name": "Yunfei, Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Yunziwei, Deng",
+            "affiliation": null
+          },
+          {
+            "name": "Jianding, Yu",
+            "affiliation": null
+          },
+          {
+            "name": "Xuzhi, Li",
+            "affiliation": null
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17151678"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Materials dataset from microgravity levitation experiments on the China Space Station",
+      "links": {
+        "self": "https://zenodo.org/api/records/17156569",
+        "self_html": "https://zenodo.org/records/17156569",
+        "preview_html": "https://zenodo.org/records/17156569?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17156569",
+        "self_doi": "https://doi.org/10.5281/zenodo.17156569",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17156569",
+        "reserve_doi": "https://zenodo.org/api/records/17156569/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17151678",
+        "parent_html": "https://zenodo.org/records/17151678",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17151678",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17151678",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17156569/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17156569/sequence/default",
+        "files": "https://zenodo.org/api/records/17156569/files",
+        "media_files": "https://zenodo.org/api/records/17156569/media-files",
+        "latest": "https://zenodo.org/api/records/17156569/versions/latest",
+        "latest_html": "https://zenodo.org/records/17156569/latest",
+        "versions": "https://zenodo.org/api/records/17156569/versions",
+        "draft": "https://zenodo.org/api/records/17156569/draft",
+        "access_links": "https://zenodo.org/api/records/17156569/access/links",
+        "access_grants": "https://zenodo.org/api/records/17156569/access/grants",
+        "access_users": "https://zenodo.org/api/records/17156569/access/users",
+        "access_request": "https://zenodo.org/api/records/17156569/access/request",
+        "access": "https://zenodo.org/api/records/17156569/access",
+        "communities": "https://zenodo.org/api/records/17156569/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17156569/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17156569/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17156569/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17156569/quota-increase",
+        "requests": "https://zenodo.org/api/records/17156569/requests"
+      },
+      "updated": "2025-09-27T04:33:36.944306+00:00",
+      "recid": "17156569",
+      "revision": 6,
+      "files": [
+        {
+          "id": "775859fd-b086-4698-925d-20b141ac16f3",
+          "key": "CMPR_Levitation_Dataset.xlsx",
+          "size": 92431,
+          "checksum": "md5:7b8682c2458e9c3f9f0565797f5a0a08",
+          "links": {
+            "self": "https://zenodo.org/api/records/17156569/files/CMPR_Levitation_Dataset.xlsx/content"
+          }
+        }
+      ],
+      "swh": {},
+      "owners": [
+        {
+          "id": "1413544"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 72,
+        "unique_downloads": 59,
+        "views": 180,
+        "unique_views": 158,
+        "version_downloads": 68,
+        "version_unique_downloads": 55,
+        "version_unique_views": 134,
+        "version_views": 153
+      },
+      "state": "done",
+      "submitted": true
+    }
+  },
+  {
+    "key": "mendeley-hea",
+    "url": "https://data.mendeley.com/datasets/j75v9bbbjz/1",
+    "resolved_url": "https://data.mendeley.com/datasets/j75v9bbbjz/1",
+    "status": 200,
+    "bytes": 136720,
+    "sha256": "dc680ad1b76b2341213b8164f83db4c446546fe56794c9734c85ef57cad99f10",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "lpbf-license",
+    "url": "https://api.github.com/repos/GermanOmar/data_LPBF/license",
+    "resolved_url": "https://api.github.com/repos/GermanOmar/data_LPBF/license",
+    "status": 404,
+    "bytes": 140,
+    "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+    "verified_date": "2026-11-01",
+    "data": {
+      "message": "Not Found",
+      "documentation_url": "https://docs.github.com/rest/licenses/licenses#get-the-license-for-a-repository",
+      "status": "404"
+    }
+  },
+  {
+    "key": "co2-readme",
+    "url": "https://raw.githubusercontent.com/cxqwindy/CO2_reduction_electrocatalysts_db/main/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/cxqwindy/CO2_reduction_electrocatalysts_db/main/README.md",
+    "status": 404,
+    "bytes": 14,
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "verified_date": "2026-11-01"
+  }
+]

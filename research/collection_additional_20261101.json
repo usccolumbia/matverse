@@ -1,0 +1,2353 @@
+{
+  "name": "Additional materials dataset discoveries",
+  "url": "https://github.com/usccolumbia/matverse",
+  "revision": "Local targeted survey 2026-11-01",
+  "coverage_notes": [
+    "50 new source-backed records were selected beyond the 304-record baseline. Searches cover defects/disorder, porous/adsorption, specialized functional/low-dimensional materials, and atomistic/experimental property collections.",
+    "Every official route from the new records and every public URL from the four topical lead ledgers is preserved. This is a bounded search inventory, not a census of the internet.",
+    "Parent datasets, variants, measured observations, calculated frames, generated structures and predicted properties remain distinguishable. Unverified counts/licenses and restricted access remain explicit.",
+    "All work stays local until the user authorizes publishing."
+  ],
+  "links": [
+    {
+      "label": "SoLiD26 solid–liquid interface configurations — paper",
+      "url": "https://arxiv.org/abs/2609.28013v2",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "solid26"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SoLiD26 solid–liquid interface configurations — data",
+      "url": "https://doi.org/10.24435/materialscloud:yp-vw",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "solid26"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SoLiD26 solid–liquid interface configurations — repository",
+      "url": "https://github.com/team-capex/SoLiD26",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "solid26"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SevenNet-Omni domain-bridging set (DBS) — paper",
+      "url": "https://doi.org/10.1038/s41467-026-70195-8",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sevennet-omni-dbs"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SevenNet-Omni domain-bridging set (DBS) — data",
+      "url": "https://doi.org/10.6084/m9.figshare.30399814.v3",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sevennet-omni-dbs"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SACADA three-periodic carbon allotropes — homepage",
+      "url": "https://www.sacada.info/",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sacada"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SACADA three-periodic carbon allotropes — data",
+      "url": "https://www.sacada.info/sacada_3D.php",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sacada"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SACADA three-periodic carbon allotropes — paper",
+      "url": "https://doi.org/10.1002/anie.201600655",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sacada"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "sysTEm systematically verified experimental thermoelectrics — homepage",
+      "url": "https://github.com/tankylz/sysTEm_dataset",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "system-thermoelectric"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "sysTEm systematically verified experimental thermoelectrics — data",
+      "url": "https://github.com/tankylz/sysTEm_dataset/blob/main/sysTEm_dataset.xlsx",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "system-thermoelectric"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "sysTEm systematically verified experimental thermoelectrics — paper",
+      "url": "https://doi.org/10.1007/s40192-026-00446-5",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "system-thermoelectric"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Literature-curated complex-oxide thermal expansion — paper",
+      "url": "https://doi.org/10.1063/5.0333166",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "complex-oxide-cte-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Literature-curated complex-oxide thermal expansion — homepage",
+      "url": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "complex-oxide-cte-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Literature-curated complex-oxide thermal expansion — data",
+      "url": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml/blob/main/CTE%20Value%2010.xlsx",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "complex-oxide-cte-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ULTERA high-entropy-alloy property database — homepage",
+      "url": "https://phaseslab.com/ultera/",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ultera-2025"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ULTERA high-entropy-alloy property database — data",
+      "url": "https://doi.org/10.5281/zenodo.15716432",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ultera-2025"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Carbon GAP-20 DFT reference database — paper",
+      "url": "https://doi.org/10.1063/5.0005084",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Carbon GAP-20 DFT reference database — data",
+      "url": "https://doi.org/10.17863/CAM.54529",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Carbon GAP-20U revised training configurations — data",
+      "url": "https://doi.org/10.17863/CAM.84096",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20u"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Carbon GAP-20U revised training configurations — paper",
+      "url": "https://doi.org/10.1063/5.0005084",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20u"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Carbon GAP-20U revised training configurations — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/C-GAP-20U.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20u"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Si-GAP-18 silicon training cohort — paper",
+      "url": "https://doi.org/10.1103/PhysRevX.8.041048",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "si-gap18"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Si-GAP-18 silicon training cohort — data",
+      "url": "https://zenodo.org/records/1250555",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "si-gap18"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Si-GAP-18 silicon training cohort — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/Si-GAP-18.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "si-gap18"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiO2-GAP-22 silica training cohort — paper",
+      "url": "https://doi.org/10.1038/s41524-022-00768-w",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sio2-gap22"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiO2-GAP-22 silica training cohort — data",
+      "url": "https://zenodo.org/records/6353684",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sio2-gap22"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiO2-GAP-22 silica training cohort — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/SiO2-GAP-22.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sio2-gap22"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GST-GAP-22 PBE reference cohort — paper",
+      "url": "https://doi.org/10.1038/s41928-023-01030-x",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gst-gap22-pbe"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GST-GAP-22 PBE reference cohort — data",
+      "url": "https://zenodo.org/records/8208202",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gst-gap22-pbe"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GST-GAP-22 PBE reference cohort — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/GST-GAP-22.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gst-gap22-pbe"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "P-GAP-20 phosphorus reference configurations — paper",
+      "url": "https://doi.org/10.1038/s41467-020-19168-z",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "p-gap20"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "P-GAP-20 phosphorus reference configurations — data",
+      "url": "https://zenodo.org/records/4003703",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "p-gap20"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "P-GAP-20 phosphorus reference configurations — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/P-GAP-20.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "p-gap20"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GO-MACE-23 graphene-oxide reference cohort — paper",
+      "url": "https://doi.org/10.1002/anie.202410088",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "go-mace23"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GO-MACE-23 graphene-oxide reference cohort — data",
+      "url": "https://zenodo.org/records/14066557",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "go-mace23"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GO-MACE-23 graphene-oxide reference cohort — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/GO-MACE-23.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "go-mace23"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiOx-ACE-24 silicon–oxygen reference configurations — paper",
+      "url": "https://doi.org/10.1038/s41467-024-45840-9",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "siox-ace24"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiOx-ACE-24 silicon–oxygen reference configurations — data",
+      "url": "https://zenodo.org/records/10419194",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "siox-ace24"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SiOx-ACE-24 silicon–oxygen reference configurations — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/SiOx-ACE-24.html",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "siox-ace24"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Paracrystalline/amorphous silicon structural models — paper",
+      "url": "https://doi.org/10.1038/s41467-025-57406-4",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "asi-paracrystalline-models"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Paracrystalline/amorphous silicon structural models — data",
+      "url": "https://doi.org/10.5281/zenodo.14203730",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "asi-paracrystalline-models"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Paracrystalline/amorphous silicon structural models — repository",
+      "url": "https://github.com/lamrosset/aSi-data",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "asi-paracrystalline-models"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "AC-2D-22 amorphous graphene benchmark subset — paper",
+      "url": "https://doi.org/10.1039/D2SC04326B",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ac2d-amorphous-graphene"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "AC-2D-22 amorphous graphene benchmark subset — data",
+      "url": "https://zenodo.org/records/7221166",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ac2d-amorphous-graphene"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "AC-2D-22 amorphous graphene benchmark subset — loader",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/AC-2D-22.html",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ac2d-amorphous-graphene"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Materials Project non-crystalline AIMD and diffusivity database — Provider",
+      "url": "https://contribs.materialsproject.org/projects/amorphous_diffusivity",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-noncrystalline-aimd"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Materials Project non-crystalline AIMD and diffusivity database — Code",
+      "url": "https://github.com/Tinaatucsd/DFT_amorphous_structure",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-noncrystalline-aimd"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Materials Project non-crystalline AIMD and diffusivity database — Trajectories",
+      "url": "https://materialsproject-contribs.s3.amazonaws.com/index.html#amorphous_diffusivity/",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-noncrystalline-aimd"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Materials Project non-crystalline AIMD and diffusivity database — Paper",
+      "url": "https://doi.org/10.1038/s41524-024-01469-2",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-noncrystalline-aimd"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "IAEA CascadesDB collision-cascade simulations — Provider",
+      "url": "https://cascadesdb.org/",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "iaea-cascadesdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "IAEA CascadesDB collision-cascade simulations — Browse",
+      "url": "https://cascadesdb.org/cdbmeta/browse",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "iaea-cascadesdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "IAEA CascadesDB collision-cascade simulations — Documentation",
+      "url": "https://cascadesdb.org/cdbmeta/doc",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "iaea-cascadesdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "IAEA CascadesDB collision-cascade simulations — License",
+      "url": "https://cascadesdb.org/licence/",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "iaea-cascadesdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Quantum Defects Database — semiconductor point defects — Provider",
+      "url": "https://quantumdefects.com/",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "quantumdefects-semiconductor"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Quantum Defects Database — semiconductor point defects — Example",
+      "url": "https://quantumdefects.com/c103",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "quantumdefects-semiconductor"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Quantum Defects Database — semiconductor point defects — Paper",
+      "url": "https://arxiv.org/abs/2303.16283",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "quantumdefects-semiconductor"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Homer aluminum grain-boundary structures across 5D space — Release",
+      "url": "https://data.mendeley.com/datasets/4ykjz4ngwt/1",
+      "section": "Verified catalog additions / surfaces_catalysis",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "homer-aluminum-gb-7304"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Homer aluminum grain-boundary structures across 5D space — Paper",
+      "url": "https://doi.org/10.1016/j.actamat.2022.118006",
+      "section": "Verified catalog additions / surfaces_catalysis",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "homer-aluminum-gb-7304"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GBDB elemental-metal grain-boundary DFT database — Provider",
+      "url": "https://crystalium.materialyze.ai/",
+      "section": "Verified catalog additions / surfaces_catalysis",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gbdb-elemental-metals"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GBDB elemental-metal grain-boundary DFT database — Paper",
+      "url": "https://doi.org/10.1016/j.actamat.2019.12.030",
+      "section": "Verified catalog additions / surfaces_catalysis",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gbdb-elemental-metals"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "GBDB elemental-metal grain-boundary DFT database — Author manuscript",
+      "url": "https://perssongroup.lbl.gov/papers/zheng-2020-grain-boundary.pdf",
+      "section": "Verified catalog additions / surfaces_catalysis",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gbdb-elemental-metals"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Bond-focused grain-boundary solute interaction spectra — Release",
+      "url": "https://data.mendeley.com/datasets/hrv39bz4k6/1",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gb-solute-interaction-spectra"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Kumagai oxygen-vacancy database — Release",
+      "url": "https://github.com/kumagai-group/oxygen_vacancies_db",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "kumagai-oxygen-vacancies"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Kumagai oxygen-vacancy database — Paper",
+      "url": "https://doi.org/10.1103/PhysRevMaterials.5.123803",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "kumagai-oxygen-vacancies"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "OQMD-derived oxygen-vacancy formation energies — Release",
+      "url": "https://zenodo.org/records/10028980",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oqmd-oxygen-vacancy-sites-2023"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "OQMD-derived oxygen-vacancy formation energies — Paper",
+      "url": "https://doi.org/10.1021/acs.chemmater.3c02251",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oqmd-oxygen-vacancy-sites-2023"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Chalcogenide vacancy structure-reconstruction dataset — Release",
+      "url": "https://zenodo.org/records/10579527",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "chalcogenide-vacancy-reconstructions"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Chalcogenide vacancy structure-reconstruction dataset — Paper",
+      "url": "https://doi.org/10.1038/s41524-024-01303-9",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "chalcogenide-vacancy-reconstructions"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Chalcogenide vacancy structure-reconstruction dataset — Workflow",
+      "url": "https://github.com/ireaml/defects_workflow",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "chalcogenide-vacancy-reconstructions"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST MRAS amorphous structural models — Release",
+      "url": "https://data.nist.gov/od/id/mds2-3831",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-mras-amorphous"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST MRAS amorphous structural models — Archive",
+      "url": "https://data.nist.gov/od/ds/mds2-3831/Amorphous_Molecule_Construction.zip",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-mras-amorphous"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST MRAS amorphous structural models — Readme",
+      "url": "https://data.nist.gov/od/ds/mds2-3831/README.txt",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-mras-amorphous"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST MRAS amorphous structural models — License",
+      "url": "https://www.nist.gov/open/license",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-mras-amorphous"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Amorphous alumina bulk/surface DFT training release — Release",
+      "url": "https://github.com/CSIprinceton/amorphous_alumina",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "amorphous-alumina-deep-potential"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Amorphous alumina bulk/surface DFT training release — Paper",
+      "url": "https://doi.org/10.1016/j.actamat.2026.122611",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "amorphous-alumina-deep-potential"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Fe–Ni–Cr irradiated and relaxed atomistic configurations — Release",
+      "url": "https://repod.icm.edu.pl/dataset.xhtml?persistentId=doi%3A10.18150%2FHOMYLH",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fenicr-irradiated-relaxed-md"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Fe–Ni–Cr irradiated and relaxed atomistic configurations — Metadata",
+      "url": "https://repod.icm.edu.pl/api/datasets/:persistentId/?persistentId=doi:10.18150/HOMYLH",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fenicr-irradiated-relaxed-md"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Fe–Ni–Cr irradiated and relaxed atomistic configurations — Paper",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2025.110567",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fenicr-irradiated-relaxed-md"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "PORMAKE hypothetical MOFs for MOFTransformer — dataset",
+      "url": "https://figshare.com/articles/dataset/1_million_hypothetical_MOFs/21810147/2",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "pormake-moftransformer-1m"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "PORMAKE hypothetical MOFs for MOFTransformer — metadata",
+      "url": "https://api.figshare.com/v2/articles/21810147/versions/2",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "pormake-moftransformer-1m"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MOFX-DB computational adsorption database — homepage",
+      "url": "https://mof.tech.northwestern.edu/",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mofx-db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MOFX-DB computational adsorption database — downloads",
+      "url": "https://mof.tech.northwestern.edu/databases",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mofx-db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MOFX-DB computational adsorption database — api",
+      "url": "https://mof.tech.northwestern.edu/api",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mofx-db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MOFX-DB computational adsorption database — paper",
+      "url": "https://doi.org/10.1021/acs.jced.2c00583",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mofx-db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ToBaCCo hypothetical MOF structure database — dataset",
+      "url": "https://mof.tech.northwestern.edu/databases",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "tobacco-mofs"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ToBaCCo hypothetical MOF structure database — api",
+      "url": "https://mof.tech.northwestern.edu/mofs.json?database=Tobacco",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "tobacco-mofs"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ToBaCCo hypothetical MOF structure database — paper",
+      "url": "https://doi.org/10.1021/acs.cgd.7b00848",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "tobacco-mofs"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST/ARPA-E adsorption isotherm database (NIST-ISODB) — homepage",
+      "url": "https://adsorption.nist.gov/isodb/index.php",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-isodb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST/ARPA-E adsorption isotherm database (NIST-ISODB) — api",
+      "url": "https://adsorption.nist.gov/isodb/index.php#apis",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-isodb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST/ARPA-E adsorption isotherm database (NIST-ISODB) — metadata",
+      "url": "https://data.nist.gov/od/id/FF429BC1787D8B3EE0431A570681E858236",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-isodb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "NIST/ARPA-E adsorption isotherm database (NIST-ISODB) — doi",
+      "url": "https://doi.org/10.18434/T43882",
+      "section": "Verified catalog additions / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nist-isodb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "PhononMOFdb — dataset",
+      "url": "https://figshare.com/articles/dataset/PhononMOFdb_Data-driven_Design_of_Metal-Organic_Frameworks/32050410",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "phononmofdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "PhononMOFdb — metadata",
+      "url": "https://api.figshare.com/v2/articles/32050410",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "phononmofdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "PhononMOFdb — paper",
+      "url": "https://arxiv.org/abs/2607.18594",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "phononmofdb"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MACE-MP-MOF0 DFT training configurations — dataset",
+      "url": "https://github.com/ddmms/data/tree/main/mace-mof-0",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mace-mp-mof0-training"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MACE-MP-MOF0 DFT training configurations — download",
+      "url": "https://raw.githubusercontent.com/ddmms/data/main/mace-mof-0/v2/data_training.tar.xz",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mace-mp-mof0-training"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MACE-MP-MOF0 DFT training configurations — paper",
+      "url": "https://doi.org/10.1038/s41524-025-01611-8",
+      "section": "Verified catalog additions / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mace-mp-mof0-training"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Nanoporous-material heat-capacity DFT and prediction dataset — dataset",
+      "url": "https://archive.materialscloud.org/records/7p3z3-t3q91",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "porous-heat-capacity-2022"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Nanoporous-material heat-capacity DFT and prediction dataset — metadata",
+      "url": "https://archive.materialscloud.org/api/records/7p3z3-t3q91",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "porous-heat-capacity-2022"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Nanoporous-material heat-capacity DFT and prediction dataset — paper",
+      "url": "https://doi.org/10.1038/s41563-022-01374-3",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "porous-heat-capacity-2022"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Nanoporous-material heat-capacity DFT and prediction dataset — experimental_companion",
+      "url": "https://zenodo.org/records/7215247",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "porous-heat-capacity-2022"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SymGNN aluminum-substituted zeolite adsorption dataset — dataset",
+      "url": "https://zenodo.org/records/15085784",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "symgnn-zeolite-adsorption"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SymGNN aluminum-substituted zeolite adsorption dataset — code",
+      "url": "https://github.com/marko-petkovic/SymGNN/tree/v0.0.1",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "symgnn-zeolite-adsorption"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SymGNN aluminum-substituted zeolite adsorption dataset — paper",
+      "url": "https://doi.org/10.1039/D5TA02482J",
+      "section": "Verified catalog additions / porous_frameworks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "symgnn-zeolite-adsorption"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ZeoDiff zeolite diffusion structure-property dataset — dataset",
+      "url": "https://zenodo.org/records/18858951",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zeodiff-diffusion"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ZeoDiff zeolite diffusion structure-property dataset — code",
+      "url": "https://github.com/WangXiaobao-j/ZeoDiff_HTP/tree/v1.0",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zeodiff-diffusion"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "ZeoDiff zeolite diffusion structure-property dataset — paper",
+      "url": "https://doi.org/10.1038/s41467-026-71698-0",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zeodiff-diffusion"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT — homepage",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT — download",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT — paper",
+      "url": "https://doi.org/10.1016/j.actamat.2025.121312",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML — homepage",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML — download",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML — paper",
+      "url": "https://www.nature.com/articles/s41524-026-02013-0",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML — homepage",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML — download",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML — paper",
+      "url": "https://www.nature.com/articles/s41524-026-02013-0",
+      "section": "Verified catalog additions / bulk_computed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB) — homepage",
+      "url": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB) — browse",
+      "url": "https://cmrdb.fysik.dtu.dk/c1db/",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB) — paper",
+      "url": "https://doi.org/10.1103/PhysRevMaterials.6.064202",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR ABSe3 ternary selenides — homepage",
+      "url": "https://cmr.fysik.dtu.dk/abse3/abse3.html",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abse3"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR ABSe3 ternary selenides — download",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/abse3.db",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abse3"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR A2BCX4 quaternary chalcogenides — homepage",
+      "url": "https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-a2bcx4"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR A2BCX4 quaternary chalcogenides — download",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/a2bcx4.db",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-a2bcx4"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR ABX2 photovoltaic polytypes — homepage",
+      "url": "https://cmr.fysik.dtu.dk/abx2/abx2.html",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abx2"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR ABX2 photovoltaic polytypes — download",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/abx2.db",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abx2"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR perovskite optical-absorption spectra — homepage",
+      "url": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-perovskite-absorption"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR perovskite optical-absorption spectra — download",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/absorption_perovskites.db",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-perovskite-absorption"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR C2DM transition-metal monolayer electronic structures (2015) — homepage",
+      "url": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-c2dm-2015"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "CMR C2DM transition-metal monolayer electronic structures (2015) — download",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/c2dm.db",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-c2dm-2015"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset — homepage",
+      "url": "https://archive.materialscloud.org/records/rfcdy-wcy32",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset — doi",
+      "url": "https://doi.org/10.24435/materialscloud:yv-h7",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset — paper",
+      "url": "https://www.nature.com/articles/s41699-025-00562-4",
+      "section": "Verified catalog additions / two_dimensional",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort — homepage",
+      "url": "https://zenodo.org/records/17223175",
+      "section": "Verified catalog additions / generation_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort — download",
+      "url": "https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz",
+      "section": "Verified catalog additions / generation_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort — paper",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202522108",
+      "section": "Verified catalog additions / generation_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions — homepage",
+      "url": "https://mintatlas.org/",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions — api",
+      "url": "https://mintatlas.org/optimade/info",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions — client",
+      "url": "https://github.com/mintatlas-org/mintatlas",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release — homepage",
+      "url": "https://zenodo.org/records/19109715",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release — paper",
+      "url": "https://doi.org/10.1103/mmdm-hrj4",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release — download",
+      "url": "https://zenodo.org/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx",
+      "section": "Verified catalog additions / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified release; scope, rights and count limits in the canonical card."
+    },
+    {
+      "label": "SoLiD26 solid–liquid interface configurations",
+      "url": "https://doi.org/10.24435/materialscloud:yp-vw",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "solid26"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "SevenNet-Omni domain-bridging set (DBS)",
+      "url": "https://doi.org/10.6084/m9.figshare.30399814.v3",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sevennet-omni-dbs"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "SACADA three-periodic carbon allotropes",
+      "url": "https://www.sacada.info/sacada_3D.php",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sacada"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "sysTEm systematically verified experimental thermoelectrics",
+      "url": "https://github.com/tankylz/sysTEm_dataset/blob/main/sysTEm_dataset.xlsx",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "system-thermoelectric"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "Literature-curated complex-oxide thermal expansion",
+      "url": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml/blob/main/CTE%20Value%2010.xlsx",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "complex-oxide-cte-2026"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "ULTERA high-entropy-alloy property database",
+      "url": "https://doi.org/10.5281/zenodo.15716432",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ultera-2025"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "Carbon GAP-20 DFT reference database",
+      "url": "https://doi.org/10.17863/CAM.54529",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "Carbon GAP-20U revised training configurations",
+      "url": "https://doi.org/10.17863/CAM.84096",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-gap20u"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "Si-GAP-18 silicon training cohort",
+      "url": "https://zenodo.org/records/1250555",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "si-gap18"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "SiO2-GAP-22 silica training cohort",
+      "url": "https://zenodo.org/records/6353684",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "sio2-gap22"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "GST-GAP-22 PBE reference cohort",
+      "url": "https://zenodo.org/records/8208202",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "gst-gap22-pbe"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "P-GAP-20 phosphorus reference configurations",
+      "url": "https://zenodo.org/records/4003703",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "p-gap20"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "GO-MACE-23 graphene-oxide reference cohort",
+      "url": "https://zenodo.org/records/14066557",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "go-mace23"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "SiOx-ACE-24 silicon–oxygen reference configurations",
+      "url": "https://zenodo.org/records/10419194",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "siox-ace24"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "Paracrystalline/amorphous silicon structural models",
+      "url": "https://doi.org/10.5281/zenodo.14203730",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "asi-paracrystalline-models"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "AC-2D-22 amorphous graphene benchmark subset",
+      "url": "https://zenodo.org/records/7221166",
+      "section": "Topical lead dispositions / coordinator / added",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ac2d-amorphous-graphene"
+      ],
+      "treatment": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+    },
+    {
+      "label": "C-SYNTH-23M / carbon-data synthetic trajectories",
+      "url": "https://jla-gardner.github.io/load-atoms/datasets/C-SYNTH-23M.html",
+      "section": "Topical lead dispositions / coordinator / existing",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "carbon-data-gap17"
+      ],
+      "treatment": "Same source lineage; normalized and current-repository snapshots are not promoted as disjoint corpora."
+    },
+    {
+      "label": "MatPES v2025.2",
+      "url": "https://colabfit.org/id/DS_q1zgft23gdbl_1",
+      "section": "Topical lead dispositions / coordinator / existing_version_lead",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "matpes"
+      ],
+      "treatment": "Existing parent family; version differences retained as lead, no duplicate corpus."
+    },
+    {
+      "label": "AFLOW thermal expansion Foundry mirror",
+      "url": "https://huggingface.co/datasets/foundry-ml/dataset_thermalexp_aflow",
+      "section": "Topical lead dispositions / coordinator / existing_parent_lead",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "aflow-ael-agl-2017"
+      ],
+      "treatment": "Derived AFLOW property cohort, not independent material identities."
+    },
+    {
+      "label": "Metal oxide MLP references",
+      "url": "https://github.com/saidigroup/Metal-Oxide-Dataset",
+      "section": "Topical lead dispositions / coordinator / deferred",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary files identified; not all archive populations/rights normalized in this pass."
+    },
+    {
+      "label": "QPOD",
+      "url": "https://qpoddatabase.org/",
+      "section": "Topical lead dispositions / defects / duplicate",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Existing qpod record; two-dimensional intrinsic point defects."
+    },
+    {
+      "label": "JARVIS vacancy data",
+      "url": "https://jarvis.nist.gov/",
+      "section": "Topical lead dispositions / defects / duplicate",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Existing jarvis-vacancydb record."
+    },
+    {
+      "label": "Wolverton ABO3 vacancy data",
+      "url": "https://doi.org/10.6084/m9.figshare.5334142",
+      "section": "Topical lead dispositions / defects / duplicate",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Existing mdf-wolverton-oxides record; not the newer OQMD site-label cohort."
+    },
+    {
+      "label": "Carbon GAP17",
+      "url": "https://doi.org/10.17863/CAM.7453",
+      "section": "Topical lead dispositions / defects / duplicate",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Existing carbon-data-gap17; parent owns GAP20/GAP20U and other normalized MLIP releases."
+    },
+    {
+      "label": "ML_charged_defects",
+      "url": "https://github.com/kumagai-group/ML_charged_defects",
+      "section": "Topical lead dispositions / defects / deferred-overlap",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Repository states transformations/alignment of oxygen-vacancy results; independent new calculation volume not established."
+    },
+    {
+      "label": "Nickel irradiation electronic stopping data",
+      "url": "https://doi.org/10.23729/47acaa36-60b7-489b-9c1b-042556af1b1e",
+      "section": "Topical lead dispositions / defects / deferred-overlap",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Aalto/Fairdata release verifies atomistic Ni structures and CC BY 4.0; unresolved overlap with IAEA CascadesDB prevents independent promotion."
+    },
+    {
+      "label": "PRAM rigid amorphous porous database",
+      "url": "https://doi.org/10.1038/s41524-024-01469-2",
+      "section": "Topical lead dispositions / defects / routed",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mp-noncrystalline-aimd"
+      ],
+      "treatment": "Lead routed to porous-materials perspective; strong potentially distinct amorphous carbons/kerogens/polymers."
+    },
+    {
+      "label": "Olmsted 388 FCC GBs",
+      "url": "https://github.com/ichesser/GB_octonion_code",
+      "section": "Topical lead dispositions / defects / deferred-lineage",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Historic primary corpus with publicly reused crystallography/properties; independent original coordinate release and rights need more verification."
+    },
+    {
+      "label": "Imeall iron grain boundaries",
+      "url": "https://github.com/Montmorency/imeall",
+      "section": "Topical lead dispositions / defects / deferred",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Author repository and 2017 paper identified; publication snapshot count and rights for data versus code not verified in this pass."
+    },
+    {
+      "label": "Grain boundary embrittlement genome",
+      "url": "https://doi.org/10.1063/5.0264543",
+      "section": "Topical lead dispositions / defects / deferred-release",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper verified but independent dataset release route not established; 2025 preprint differs from publication in base-metal coverage."
+    },
+    {
+      "label": "Fe–Ni–Cr public MD samples",
+      "url": "https://doi.org/10.18150/HOMYLH",
+      "section": "Topical lead dispositions / defects / promoted",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Two released sample configurations; atoms and cascade history not counted as structures."
+    },
+    {
+      "label": "GRAINSMITH",
+      "url": "https://arxiv.org/abs/2609.22666",
+      "section": "Topical lead dispositions / defects / excluded-software",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Generator software does not establish a specific independent dataset release."
+    },
+    {
+      "label": "irradiapy",
+      "url": "https://github.com/acgc99/irradiapy",
+      "section": "Topical lead dispositions / defects / excluded-software",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "README says MD cascade databases are not distributed with the software."
+    },
+    {
+      "label": "Device/wafer SEM production defects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252516/",
+      "section": "Topical lead dispositions / defects / excluded-scope",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Wafer-level manufacturing inspection records do not match atomistic materials defect scope."
+    },
+    {
+      "label": "uMOF",
+      "url": "https://arxiv.org/html/2608.28100v1",
+      "section": "Topical lead dispositions / porous / deferred",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Article claims 85,524 r2SCAN-D4 configurations and 3,986 property records, but totals conflict: 19,950 parent frameworks in abstract versus 21,519 in split section; no independent dataset release payload/rights verified. ml-peg benchmark is described as forthcoming."
+    },
+    {
+      "label": "Genomic COF database",
+      "url": "https://doi.org/10.1038/s41467-018-07720-x",
+      "section": "Topical lead dispositions / porous / deferred",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper describes approximately 470k hypothetical COFs and links a GSU building-block library, but data availability says corresponding authors upon request. A live release of all coordinates and data rights was not independently established; secondary review exact 471,990 not promoted."
+    },
+    {
+      "label": "Genomic MOF database",
+      "url": "https://github.com/Andrew-S-Rosen/QMOF/blob/main/data_sources.md",
+      "section": "Topical lead dispositions / porous / deferred",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "QMOF source provenance references historical Figshare shared link and gmof identifiers; parent release metadata/count/rights not independently verified; QMOF changelog warns of missing H atoms in many original parents."
+    },
+    {
+      "label": "ACS MOF thermal stability 2022 supporting workbook",
+      "url": "https://api.figshare.com/v2/articles/19633101",
+      "section": "Topical lead dispositions / porous / excluded-correlation-matrix",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Actual CC BY-NC 4.0 workbook payload has only correlation_raw with descriptor names/correlations; 1,593 matrix rows are not MOF measurements. Do not rank as a 1,593-material corpus."
+    },
+    {
+      "label": "MOFTransformer CoRE/QMOF embeddings",
+      "url": "https://hspark1212.github.io/MOFTransformer/dataset.html",
+      "section": "Topical lead dispositions / porous / duplicate-parent-representations",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Embeddings and energy grids are derivative representations of existing CoRE and QMOF parents. Separate 1,118,074-structure hypothetical pretraining release promoted."
+    },
+    {
+      "label": "MOF experimental CAU-10/MIL-96 hydrothermal stability",
+      "url": "https://doi.org/10.57903/UJ/CRAGGM",
+      "section": "Topical lead dispositions / porous / deferred-narrow-study",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Provider describes eight CC BY 4.0 experimental isotherm/PXRD/QE-TPDA workbooks for two framework families; useful small stability benchmark but sample/measurement counting and overlap not audited."
+    },
+    {
+      "label": "Crystallite-size water intrusion/extrusion data",
+      "url": "https://doi.org/10.18150/36MC3M",
+      "section": "Topical lead dispositions / porous / deferred-narrow-study",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Experimental MOF TEM/XRD/high-pressure water porosimetry archive found. Record scope and unique samples not yet inspected."
+    },
+    {
+      "label": "COF-999 direct-air-capture data",
+      "url": "https://doi.org/10.1038/s41586-024-08080-x",
+      "section": "Topical lead dispositions / porous / deferred-narrow-study",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper provides experimental source data and computational Zenodo13382234; coordinates/count units and release rights not independently audited."
+    },
+    {
+      "label": "COF space gas adsorption benchmark",
+      "url": "https://doi.org/10.1021/acsmaterialslett.4c02594",
+      "section": "Topical lead dispositions / porous / deferred-derived-properties",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary article names GitHub gokhanonderaksu/COFSpace input/target tables from existing CoRE/HypoCOF parents. Distinct property layer may merit promotion after release/label inspection."
+    },
+    {
+      "label": "ReDD-COFFEE carbon capture HTS 2024",
+      "url": "https://github.com/jsdvos/SupportingInformation_CO2captureHTS_2024",
+      "section": "Topical lead dispositions / porous / deferred-derived-properties",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Repository describes GCMC results and broader ML predictions for ReDD-COFFEE parents. Existing parent already cataloged; new label counts/rights not audited."
+    },
+    {
+      "label": "MOFinder",
+      "url": "https://mofinder.chemistry.wustl.edu/",
+      "section": "Topical lead dispositions / porous / deferred-provider-only",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Provider claims 10,000+ experiments and 2,340 structures, but downloadable corpus, provenance and rights not independently verified."
+    },
+    {
+      "label": "MACE-MP-MOF0 phonon data",
+      "url": "https://github.com/ddmms/data/tree/main/mace-mof-0",
+      "section": "Topical lead dispositions / porous / promoted-with-release-discrepancy",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mace-mp-mof0-training"
+      ],
+      "treatment": "Exact 4,311 downloadable v2 frames promoted; paper reports4,764. Parent molecules127 are a separate unit."
+    },
+    {
+      "label": "ZeoDiff",
+      "url": "https://zenodo.org/records/18858951",
+      "section": "Topical lead dispositions / porous / promoted-scoped-payload",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zeodiff-diffusion"
+      ],
+      "treatment": "4,194 unique named spreadsheet cases promoted; approximately100k screened framework claim not adopted as release count."
+    },
+    {
+      "label": "SymGNN",
+      "url": "https://zenodo.org/records/15085784",
+      "section": "Topical lead dispositions / porous / promoted-scoped-payload",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "symgnn-zeolite-adsorption"
+      ],
+      "treatment": "57,084 substitution/heat-of-adsorption cases promoted; full isotherm availability not claimed from inspected payload."
+    },
+    {
+      "label": "CoRE MOF/COF, QMOF, CURATED COF, ARC-MOF, CRAFTED, MOSAEC, ODAC23/25, AdsZeo, ReDD-COFFEE",
+      "url": "https://github.com/Andrew-S-Rosen/QMOF",
+      "section": "Topical lead dispositions / porous / duplicate-existing",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Existing304 catalog inspected. No duplicate parent records staged."
+    },
+    {
+      "label": "High-throughput zeolite transition states",
+      "url": "https://doi.org/10.1038/s43588-026-00964-4",
+      "section": "Topical lead dispositions / porous / deferred-catalysis",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper links Zenodo15200092 source data; configurations, release membership and rights not audited."
+    },
+    {
+      "label": "Zeolite Na-Y guest-host ML potential",
+      "url": "https://doi.org/10.1039/D5TA04948B",
+      "section": "Topical lead dispositions / porous / deferred-small-atomistic-release",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary article links Zenodo15594037 input/output/scripts; complete frame counts and license remain unaudited."
+    },
+    {
+      "label": "MOFSimBench",
+      "url": "https://doi.org/10.6084/m9.figshare.30234010",
+      "section": "Topical lead dispositions / porous / deferred-benchmark-property-layer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper discovered; MLIP output benchmark exact membership and upstream DFT/experiment lineage not audited."
+    },
+    {
+      "label": "SpbNet benchmark/PMTransformer benchmark data",
+      "url": "https://figshare.com/articles/dataset/Benchmark_Dataset/28943996",
+      "section": "Topical lead dispositions / porous / deferred-derived-mix",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Mixes existing hMOF, CoRE, ToBaCCo, heat capacity and other parents; inspect target-wise labels before deciding distinctness."
+    },
+    {
+      "label": "Zeolite water treatment column experiments",
+      "url": "https://zenodo.org/records/15147800",
+      "section": "Topical lead dispositions / porous / out-of-scope-process-dataset",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Column breakthrough/process recovery data, not a general crystal structure or intrinsic material property corpus in this pass."
+    },
+    {
+      "label": "pyCOFBuilder/PORMAKE/ToBaCCo generators",
+      "url": "https://github.com/lipelopesoliveira/pyCOFBuilder",
+      "section": "Topical lead dispositions / porous / excluded-code-alone",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Generation software alone is not an enumerated dataset. Promote identified named structure release rather than implicit unlimited generator output."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — ternary DFT",
+      "url": "https://doi.org/10.1016/j.actamat.2025.121312",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-ternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — quaternary ML",
+      "url": "https://www.nature.com/articles/s41524-026-02013-0",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-quaternary"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML",
+      "url": "https://www.nims.go.jp/group/spintheory/database/",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML",
+      "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "DXMag Computational HeuslerDB — all-d ML",
+      "url": "https://www.nature.com/articles/s41524-026-02013-0",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dxmag-heusler-alld"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB)",
+      "url": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB)",
+      "url": "https://cmrdb.fysik.dtu.dk/c1db/",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Computational 1D Materials Database (C1DB)",
+      "url": "https://doi.org/10.1103/PhysRevMaterials.6.064202",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "c1db"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR ABSe3 ternary selenides",
+      "url": "https://cmr.fysik.dtu.dk/abse3/abse3.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abse3"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR ABSe3 ternary selenides",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/abse3.db",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abse3"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR A2BCX4 quaternary chalcogenides",
+      "url": "https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-a2bcx4"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR A2BCX4 quaternary chalcogenides",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/a2bcx4.db",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-a2bcx4"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR ABX2 photovoltaic polytypes",
+      "url": "https://cmr.fysik.dtu.dk/abx2/abx2.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abx2"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR ABX2 photovoltaic polytypes",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/abx2.db",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-abx2"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR perovskite optical-absorption spectra",
+      "url": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-perovskite-absorption"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR perovskite optical-absorption spectra",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/absorption_perovskites.db",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-perovskite-absorption"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR C2DM transition-metal monolayer electronic structures (2015)",
+      "url": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-c2dm-2015"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "CMR C2DM transition-metal monolayer electronic structures (2015)",
+      "url": "https://wiki.fysik.dtu.dk/cmr-files/c2dm.db",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cmr-c2dm-2015"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset",
+      "url": "https://archive.materialscloud.org/records/rfcdy-wcy32",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset",
+      "url": "https://doi.org/10.24435/materialscloud:yv-h7",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset",
+      "url": "https://www.nature.com/articles/s41699-025-00562-4",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "zhou-2d-spin-hall-426"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort",
+      "url": "https://zenodo.org/records/17223175",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort",
+      "url": "https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "FerroGen MatterGen generated crystal cohort",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202522108",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ferrogen-mattergen-12800"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions",
+      "url": "https://mintatlas.org/",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions",
+      "url": "https://mintatlas.org/optimade/info",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "MINT-ATLAS atomistic magnetic interactions",
+      "url": "https://github.com/mintatlas-org/mintatlas",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mint-atlas"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release",
+      "url": "https://zenodo.org/records/19109715",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release",
+      "url": "https://doi.org/10.1103/mmdm-hrj4",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Sufyan altermagnetic spin-splitting screening release",
+      "url": "https://zenodo.org/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx",
+      "section": "Topical lead dispositions / functional / promote",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "altermagnet-spin-splitting-2026"
+      ],
+      "treatment": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record."
+    },
+    {
+      "label": "Novamag Database",
+      "url": "https://zenodo.org/records/3241267",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary Zenodo record is software plus consortium input files, not an independently inventoried full property database. Its API confirms CC BY 4.0 but 159.9 MB ZIP contents and material counting unit remain unaudited. Do not import a paper-only full-database count."
+    },
+    {
+      "label": "Novamag Database",
+      "url": "https://zenodo.org/api/records/3241267",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary Zenodo record is software plus consortium input files, not an independently inventoried full property database. Its API confirms CC BY 4.0 but 159.9 MB ZIP contents and material counting unit remain unaudited. Do not import a paper-only full-database count."
+    },
+    {
+      "label": "Chiral Phonon Materials Database (CPMDB)",
+      "url": "https://www.nature.com/articles/s41567-026-03260-0",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper and public search portal verified; paper reports screening 11,614 crystals / 2,738 chiral / 170 shortlisted, but provider release denominator, coordinate exports and data rights not independently established. Frontend search API exists; no unaudited count promoted."
+    },
+    {
+      "label": "Chiral Phonon Materials Database (CPMDB)",
+      "url": "https://materialsfingerprint.com/",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Primary paper and public search portal verified; paper reports screening 11,614 crystals / 2,738 chiral / 170 shortlisted, but provider release denominator, coordinate exports and data rights not independently established. Frontend search API exists; no unaudited count promoted."
+    },
+    {
+      "label": "Phonon emergent particles and chiral phonons (NJU)",
+      "url": "https://arxiv.org/abs/2601.17353",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Public HTTP portal and HSP search page verified. Preprint claims 111,872 crystals and >25 million emergent particles, which are different units. Release-level structure/force-constant availability and data license need verification."
+    },
+    {
+      "label": "Phonon emergent particles and chiral phonons (NJU)",
+      "url": "http://phonon.nju.edu.cn",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Public HTTP portal and HSP search page verified. Preprint claims 111,872 crystals and >25 million emergent particles, which are different units. Release-level structure/force-constant availability and data license need verification."
+    },
+    {
+      "label": "Phonon emergent particles and chiral phonons (NJU)",
+      "url": "http://phonon.nju.edu.cn/phonon-hsp?20251124",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Public HTTP portal and HSP search page verified. Preprint claims 111,872 crystals and >25 million emergent particles, which are different units. Release-level structure/force-constant availability and data license need verification."
+    },
+    {
+      "label": "Spin Hall screening of 4,486 nonmagnetic 2DMatPedia entries",
+      "url": "https://arxiv.org/abs/2509.13204",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Paper identified, but dedicated public data package not independently verified. Parent 2DMatPedia already cataloged."
+    },
+    {
+      "label": "Spin-orbitronic bulk spin-Hall catalog",
+      "url": "https://arxiv.org/abs/1909.09605",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Found primary paper claiming >20,000crystals; no independently checked provider payload/rights. May substantially overlap established topological/Wannier portals."
+    },
+    {
+      "label": "Quasiparticle and excitonic properties of exfoliable1D semiconductors",
+      "url": "https://marvel-nccr.ch/publications/dataset-index",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Adjacent 2026 ACS Nano campaign surfaced through MARVEL dataset index. Article/release pair not yet verified; useful follow-up beyond current C1DB."
+    },
+    {
+      "label": "XTANT-3 electron-ion coupling and electronic heat capacities",
+      "url": "https://github.com/N-Medvedev/XTANT-3_coupling_data/releases",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Provider repository/release identified. Temperature-curve and material/structure denominators plus data-rights scope need separate inspection; no source-reported corpus size assumed."
+    },
+    {
+      "label": "JARVIS DFPT infrared/piezoelectric/dielectric campaign",
+      "url": "https://www.nature.com/articles/s41524-020-0337-2",
+      "section": "Topical lead dispositions / functional / existing-parent",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "New properties on existing JARVIS-DFT parent; no separate nonoverlapping release established in this pass. Existing catalog already contains JARVIS 3D/2D and related tensor releases."
+    },
+    {
+      "label": "Other CMR optical/semiconductor, low-symmetry perovskite and RPA campaigns",
+      "url": "https://cmr.fysik.dtu.dk/",
+      "section": "Topical lead dispositions / functional / defer",
+      "scope": "uncertain",
+      "catalog_ids": [],
+      "treatment": "Provider index gives distinct named releases; detailed payload and license auditing remains useful follow-up. OQMD reference slices and isolated molecules are not independent new crystal cohorts."
+    }
+  ]
+}

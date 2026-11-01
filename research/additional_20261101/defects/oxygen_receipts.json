@@ -1,0 +1,62 @@
+[
+  {
+    "key": "oxygen-readme",
+    "url": "https://raw.githubusercontent.com/kumagai-group/oxygen_vacancies_db/master/README.md",
+    "final_url": "https://raw.githubusercontent.com/kumagai-group/oxygen_vacancies_db/master/README.md",
+    "status": 200,
+    "bytes": 7100,
+    "sha256": "a61a3c2fdd2996ea3a3de3b18097047f7acee7f5fa737cc504dc9a2ee7469cbc",
+    "path": "research/cache/additional_20261101/defects/oxygen-readme.body",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "oxygen-tree",
+    "url": "https://api.github.com/repos/kumagai-group/oxygen_vacancies_db/git/trees/master?recursive=1",
+    "final_url": "https://api.github.com/repos/kumagai-group/oxygen_vacancies_db/git/trees/master?recursive=1",
+    "status": 200,
+    "bytes": 257626,
+    "sha256": "62e1e7b695ff86c723bcf5a933fec4deb641ed0fefb67b25594f4f5674974518",
+    "path": "research/cache/additional_20261101/defects/oxygen-tree.body",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "oqmd-vacancies",
+    "url": "https://zenodo.org/api/records/10028980",
+    "final_url": "https://zenodo.org/api/records/10028980",
+    "status": 200,
+    "bytes": 6435,
+    "sha256": "0998e328abece6fd553eaa465d37d10a6ddd94be187b30f4a2a12ba0b2e5a819",
+    "path": "research/cache/additional_20261101/defects/oqmd-vacancies.body",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "oqmd-vacancies-csv",
+    "url": "https://zenodo.org/records/10028980/files/Data.csv?download=1",
+    "final_url": "https://zenodo.org/records/10028980/files/Data.csv?download=1",
+    "status": 200,
+    "bytes": 3415697,
+    "sha256": "e7dc2b06de60df54edcf7ff4dca1d36a301e0ac03f06b130282c9a4a732e1e08",
+    "path": "research/cache/additional_20261101/defects/oqmd-vacancies-csv.body",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "oxygen-paper",
+    "url": "https://arxiv.org/abs/2110.03274",
+    "final_url": "https://arxiv.org/abs/2110.03274",
+    "status": 200,
+    "bytes": 41522,
+    "sha256": "41c6e75fb98371cabc70929c616106d1af3289e3124eaf6727540cbcdcd0c545",
+    "path": "research/cache/additional_20261101/defects/oxygen-paper.body",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "nist-mras-paper",
+    "url": "https://doi.org/10.1063/5.0240301",
+    "final_url": "https://pubs.aip.org/aip/acp/article-lookup/doi/10.1063/5.0240301",
+    "status": 403,
+    "bytes": 5588,
+    "sha256": "3b4eafd579746324743a579eb571511cdc3fa768b2a0157d5995dfaeb217f06d",
+    "path": "research/cache/additional_20261101/defects/nist-mras-paper.body",
+    "date": "2026-11-01"
+  }
+]

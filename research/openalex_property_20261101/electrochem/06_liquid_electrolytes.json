@@ -1,0 +1,1009 @@
+{
+  "mode": "search",
+  "query": "battery electrolyte conductivity dataset CALiSol",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 10,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Machine Learning in Liquid Electrolyte Design for Rechargeable Batteries: Addressing Fundamental Challenges",
+      "authors": [
+        "Qianqian Liu",
+        "Chaojie Wang",
+        "Zeyi Zhang",
+        "Ming Xiao",
+        "Xiaokai Hao",
+        "Kunzhe Wang",
+        "Liguang Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Qianqian Liu",
+          "orcid": "0000-0003-3851-4608",
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaojie Wang",
+          "orcid": null,
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zeyi Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ming Xiao",
+          "orcid": null,
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaokai Hao",
+          "orcid": null,
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kunzhe Wang",
+          "orcid": "0009-0007-3256-4985",
+          "affiliations": [
+            "Hebei University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liguang Wang",
+          "orcid": "0000-0003-3000-3256",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.71714",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.71714",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71714",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Designing high‐performance liquid electrolytes for rechargeable batteries requires simultaneously achieving fast ionic transport, a wide electrochemical window, and interphase stability, yet these objectives are intrinsically coupled and often involve competing trade‐offs. Electrolyte optimization remains a formidable challenge for conventional trial‐and‐error approaches. Recent advances in machine learning (ML) are transforming electrolyte research into a data‐driven and increasingly autonomous paradigm for accelerated materials discovery. This review provides a comprehensive perspective on how ML methodologies are tailored to address the fundamental challenges of liquid electrolyte design. We first introduce the physicochemical foundations of liquid electrolytes alongside key ML workflows, emphasizing dataset construction and feature representation tailored to electrolyte chemistry. We then examine ML strategies for predicting and optimizing ionic transport, electrochemical window, interphase regulation, and multi‐objective optimization, highlighting representative advances and practical design principles for rational electrolyte development. Finally, we discuss current challenges, including data quality, model generalizability, and interpretability, as well as future opportunities for developing mechanism‐informed and transferable ML frameworks. By bridging machine learning with electrolyte science, this review aims to facilitate the rational design of next‐generation liquid electrolytes and accelerate the development of high‐performance rechargeable batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Machine Learning for Rational Electrolyte Design in Lithium Batteries: Bridging Macroscopic Performance and Physically Interpretable Descriptors",
+      "authors": [
+        "Haohao Chen",
+        "Hong Xu",
+        "Qian Zhou",
+        "Yangting Liu",
+        "Shanyou Song",
+        "Chaojie Chen",
+        "Linyan Yao",
+        "Xu Zhang",
+        "Xiaoyu Zhang",
+        "Dong Shen",
+        "Shuyu Yao",
+        "Guanglei Cui"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Haohao Chen",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology",
+            "Shandong University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Xu",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Zhou",
+          "orcid": "0000-0002-9334-7649",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yangting Liu",
+          "orcid": "0000-0003-3858-5780",
+          "affiliations": [
+            "First Institute of Oceanography"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shanyou Song",
+          "orcid": "0009-0005-5516-682X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaojie Chen",
+          "orcid": "0009-0002-7948-1857",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linyan Yao",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xu Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoyu Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dong Shen",
+          "orcid": "0000-0003-1063-1351",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuyu Yao",
+          "orcid": null,
+          "affiliations": [
+            "Shandong University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guanglei Cui",
+          "orcid": "0000-0001-5987-7569",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Qingdao Institute of Bioenergy and Bioprocess Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Energy Materials",
+      "doi": "10.1002/aenm.71542",
+      "type": "article",
+      "url": "https://doi.org/10.1002/aenm.71542",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71542",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Rational design of high‐performance electrolytes is central to the development of next‐generation lithium batteries, but it remains hindered by vast molecular design space, intricate multiscale structure–property relationships, and multiple performance requirements. Although machine learning (ML) accelerates electrolyte discovery through data‐driven performance prediction, most existing studies rely on sparse performance data and provide limited physical interpretability, thereby falling short of true rational design. This review traces the evolution of ML‐enabled electrolyte research from macroscopic performance prediction to mesoscale mechanistic understanding, with particular emphasis on the limited coverage of electrolyte chemical space in existing performance datasets and the insufficient evaluation of model extrapolation. We then review the physically interpretable descriptors and examine their intercorrelations and domains of applicability using a common set of 26 representative solvents. The current maturity and remaining limitations of ML‐based descriptor prediction are further assessed to support the high‐throughput virtual screening of electrolyte candidates. Finally, we review recent advances in performance‐guided autonomous experimentation and discuss the key challenges associated with establishing descriptor‐guided closed‐loop discovery platforms. Although descriptor‐driven rational electrolyte design has yet to be fully realized, this review outlines an actionable roadmap for integrating physically interpretable descriptors, generalizable ML models, and autonomous experimentation toward interpretable, data‐driven electrolyte discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "AI‐Accelerated Design and Modeling of Organic Electrochemical Energy Materials: From Redox‐Active Molecules to Polymer Electrolytes",
+      "authors": [
+        "Zhan-Yun Zhang",
+        "Giannis Savvas",
+        "Jichen Li",
+        "Yi Zhou",
+        "T.T. Le",
+        "Daniel Brandell",
+        "Rocío Mercado",
+        "Chao Zhang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Zhan-Yun Zhang",
+          "orcid": "0009-0002-3385-4056",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giannis Savvas",
+          "orcid": "0009-0003-6054-0666",
+          "affiliations": [
+            "Chalmers University of Technology",
+            "University of Gothenburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jichen Li",
+          "orcid": "0000-0003-3931-6291",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Zhou",
+          "orcid": "0000-0002-0273-007X",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "T.T. Le",
+          "orcid": "0009-0006-1531-3714",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel Brandell",
+          "orcid": "0000-0002-8019-2801",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rocío Mercado",
+          "orcid": "0000-0002-6170-6088",
+          "affiliations": [
+            "Chalmers University of Technology",
+            "University of Gothenburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Zhang",
+          "orcid": "0000-0002-7167-0840",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Macromolecular Materials and Engineering",
+      "doi": "10.1002/mame.70340",
+      "type": "article",
+      "url": "https://doi.org/10.1002/mame.70340",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1002/mame.70340",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Organic electrochemical energy materials (OEEMs) offer a vast design space for rechargeable batteries, redox‐flow batteries, supercapacitors, and mixed ionic–electronic devices, yet their performance depends on tightly coupled thermal, redox, transport, mechanical, morphological, and interfacial properties that can rarely be optimized independently. This review examines how artificial intelligence (AI) is reshaping the computational design and modeling of these materials, tracing the field's shift from small redox‐active molecules toward polymeric electrolytes and electrodes. We cover digital representations and data sources, data‐driven property prediction, machine‐learning interatomic potentials, generative molecular and polymer design, and large‐language model‐assisted (agentic) workflows. It is written for researchers entering the area from either direction, whether computational chemists curious about AI, or machine learning (ML) researchers new to electrochemical materials. Rather than an exhaustive survey, we give a selective snapshot of fast‐moving literature, using representative examples to draw out practical, transferable lessons, and we provide a concise checklist of best practices to help newcomers evaluate and report their own work before publication. We close with our perspective on where the field is heading, together with the persistent challenges of experimental data quality, validation, polymer representation, reproducibility, and modeling integration. The accompany online dataset catalog is maintained as a living community resource that evovles with the rapidly expanding OEEM data landscape.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Extrapolation-aware machine learning with applicability-domain gating for low-temperature lithium-ion electrolyte discovery",
+      "authors": [
+        "Mingyang Zhu",
+        "Xiaoyu Hou",
+        "Yiting Lin",
+        "Honglai Liu",
+        "Kai Chen",
+        "Cheng Lian"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Mingyang Zhu",
+          "orcid": null,
+          "affiliations": [
+            "East China University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoyu Hou",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yiting Lin",
+          "orcid": null,
+          "affiliations": [
+            "East China University of Science and Technology",
+            "State Key Laboratory of Chemical Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Honglai Liu",
+          "orcid": null,
+          "affiliations": [
+            "East China University of Science and Technology",
+            "State Key Laboratory of Chemical Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kai Chen",
+          "orcid": "0000-0001-7122-2370",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheng Lian",
+          "orcid": "0000-0002-9016-832X",
+          "affiliations": [
+            "East China University of Science and Technology",
+            "State Key Laboratory of Chemical Engineering"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d6dd00518g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d6dd00518g",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/dd/article-pdf/doi/10.1039/D6DD00518G/14827147/d6dd00518g.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "An extrapolation-aware machine-learning framework combines physics-informed descriptors with applicability-domain gating to identify trusted low-temperature electrolyte candidates while flagging unsupported predictions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Lignin-derived hierarchical porous carbons enabling high-voltage electrochemical capacitors with low self-discharge",
+      "authors": [
+        "Shichao Zhang",
+        "Shenglin Liu",
+        "Suyang Si",
+        "Keqi Zeng",
+        "Chenxin Cai",
+        "Xiangzhou Yuan",
+        "Yawen Tang",
+        "Feng Gong",
+        "Hualin Ye"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Shichao Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shenglin Liu",
+          "orcid": null,
+          "affiliations": [
+            "Southeast University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Suyang Si",
+          "orcid": null,
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keqi Zeng",
+          "orcid": null,
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chenxin Cai",
+          "orcid": "0000-0002-3578-2415",
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangzhou Yuan",
+          "orcid": "0000-0002-6480-3983",
+          "affiliations": [
+            "Southeast University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yawen Tang",
+          "orcid": "0000-0003-4468-0821",
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Feng Gong",
+          "orcid": "0000-0002-5204-1395",
+          "affiliations": [
+            "Southeast University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hualin Ye",
+          "orcid": "0000-0002-6536-7319",
+          "affiliations": [
+            "Nanjing Normal University",
+            "Jiangsu Collaborative Innovation Center of Biomedical Functional Materials"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Carbon Research",
+      "doi": "10.1007/s44246-025-00255-z",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s44246-025-00255-z",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s44246-025-00255-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The widespread deployment of electrochemical capacitors in energy-intensive technologies is fundamentally limited by their low energy density and severe self-discharge. The search of high-voltage supercapacitors has the appeal of an effective solution to increase the energy density, but suffers from risk of electrolyte decomposition and self-discharge. We herein address this challenge through a synergistic electrode/electrolyte co-design that integrates a lignin-derived porous carbon electrode with a tailored Li + -based weakly solvating electrolyte containing a functional fluorinated diluent. The porous carbon features sub-nanometer pores that are geometrically matched to the weakly solvated Li + ions, enabling stable operation at an unprecedented 4.0 V with a high energy density of 77.4 Wh kg⁻ 1 and over 90% capacitance retention after 10,000 cycles. Mechanistic analysis reveals that the sub-nanometer pores precisely accommodate solvated ions to facilitate high capacitance, while the fluorinated diluent suppresses electrolyte degradation and mitigates parasitic reactions under elevated potentials. Graphical Abstract",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "The data in data science for chemistry: how the sausage is made",
+      "authors": [
+        "Rubén Laplaza",
+        "Stefan Heinen",
+        "Carlos Vivar Rios"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Rubén Laplaza",
+          "orcid": "0000-0001-6315-4398",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Instituto de Investigaciones Químicas",
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefan Heinen",
+          "orcid": "0000-0001-9382-2342",
+          "affiliations": [
+            "Empa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carlos Vivar Rios",
+          "orcid": "0000-0002-8076-2034",
+          "affiliations": [
+            "Swiss Data Science Center",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d6dd00648e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d6dd00648e",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/dd/article-pdf/doi/10.1039/D6DD00648E/14790117/d6dd00648e.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Machine-learning failures in experimental chemistry are often blamed on “messy data”, but messiness is not a single problem. We trace data failures to specific pipeline stages and outline diagnostics, remedies, and the path forward.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Chemical foundation model-guided design of high ionic conductivity electrolyte formulations",
+      "authors": [
+        "Murtaza Zohair",
+        "Vidushi Sharma",
+        "Eduardo Almeida Soares",
+        "Khanh Nguyen",
+        "Maxwell J. Giammona",
+        "Linda K. Sundberg",
+        "Andy Tek",
+        "Emilio Vital Brazil",
+        "Young‐Hye La"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Murtaza Zohair",
+          "orcid": "0000-0001-7064-6817",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vidushi Sharma",
+          "orcid": "0000-0002-4576-4990",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eduardo Almeida Soares",
+          "orcid": "0000-0002-2634-8270",
+          "affiliations": [
+            "IBM Research - Brazil"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khanh Nguyen",
+          "orcid": "0009-0002-0539-235X",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxwell J. Giammona",
+          "orcid": "0000-0003-3667-9652",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linda K. Sundberg",
+          "orcid": null,
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andy Tek",
+          "orcid": "0000-0002-0699-8479",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emilio Vital Brazil",
+          "orcid": null,
+          "affiliations": [
+            "IBM Research - Brazil"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Young‐Hye La",
+          "orcid": "0000-0002-0192-1632",
+          "affiliations": [
+            "IBM (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01774-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01774-4",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01774-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Designing optimal formulations is a major challenge in developing electrolytes for the next generation of rechargeable batteries due to the vast combinatorial design space and complex interplay between multiple constituents. Machine learning (ML) offers a powerful tool to uncover underlying chemical design rules and accelerate the process of formulation discovery. In this work, we present an approach to design new formulations that can achieve target performance, using a generalizable chemical foundation model. The chemical foundation model is fine-tuned on an experimental dataset of 13,666 ionic conductivity values curated from the lithium-ion battery literature. The fine-tuned model is used to discover 7 novel high conductivity electrolyte formulations through generative screening, improving the conductivity of LiFSI- and LiDFOB-based electrolytes by 82% and 172%, respectively. These findings highlight a generalizable workflow that is highly adaptable to the discovery of chemical mixtures with tailored properties to address challenges in energy storage and beyond.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials",
+      "authors": [
+        "Martin Hoffmann Petersen",
+        "Jin Hyun Chang",
+        "Arghya Bhowmik",
+        "Juan Maria García Lastra"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Martin Hoffmann Petersen",
+          "orcid": "0000-0001-5840-1796",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jin Hyun Chang",
+          "orcid": "0000-0003-0668-4530",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arghya Bhowmik",
+          "orcid": "0000-0003-3198-5116",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juan Maria García Lastra",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-025-05799-8",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-025-05799-8",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-025-05799-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Polyanionic sodium cathode materials exhibit promising electrochemical properties and high stability, making this chemical space worth exploring to enhance the performance of sodium-ion batteries. Given the vast chemical space, fast and efficient computational methods are needed, highlighting the need for machine learning (ML)-guided approaches. To support the ML-driven discovery, we have developed a comprehensive theoretical dataset comprising 113532 DFT-calculated structures with atomic charges and 184612 structures without atomic charges for four polyanion sodium-ion cathode materials: NaTMPO4 (olivine), NaTMPO4 (maricite), Na2TMSiO4, and $${Na}_{2.56}{TM}_{1.72}{({SO}_{4})}_{3}$$ , with transition metals TM ∈ {Fe, Mn, Co, Ni}. This dataset includes optimizations of structures, ab initio molecular dynamics simulation trajectories sampled at 1000 K, and structures generated from ML-driven molecular dynamics simulation at 1000 K using an active learning algorithm. The dataset contains both single and multiple-TM compositions, providing a diverse representation of cathode materials. Using cathode specific subsets of this dataset to train ML models, we demonstrate that we can create ML interatomic potentials that reproduces the DFT results of the polyanion sodium cathode materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Kernel Ridge Regression for conformer ensembles made easy with Structured Orthogonal Random Features",
+      "authors": [
+        "Konstantin Karandashev"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Konstantin Karandashev",
+          "orcid": "0000-0002-0943-3051",
+          "affiliations": [
+            "University of Vienna"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2505.21247",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2505.21247",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2505.21247",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A computationally efficient protocol for machine learning in chemical space using Boltzmann ensembles of conformers as input is proposed; the method is based on rewriting Kernel Ridge Regression expressions in terms of Structured Orthogonal Random Features, yielding physics-motivated trigonometric neural networks. To evaluate the method's utility for materials discovery, we test it on experimental datasets of two quantities related to battery electrolyte design, namely oxidation potentials in acetonitrile and hydration energies, using several popular molecular representations to demonstrate the method's flexibility. Despite only using computationally cheap forcefield calculations for conformer generation, we observe systematic decrease of machine learning error with increased training set size in all cases, with experimental accuracy reached after training on hundreds of molecules and prediction errors being comparable to state-of-the-art machine learning approaches. We also present novel versions of Huber and LogCosh loss functions that made hyperparameter optimization of the new approach more convenient.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "CALiSol-23: Experimental electrolyte conductivity data for various Li-salts and solvent combinations",
+      "authors": [
+        "Paolo Vincenzo Freiesleben de Blasio",
+        "Jonas Elsborg",
+        "Tejs Vegge",
+        "Eibar Flores",
+        "Arghya Bhowmik"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Paolo Vincenzo Freiesleben de Blasio",
+          "orcid": "0009-0000-0438-5540",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonas Elsborg",
+          "orcid": "0000-0002-1283-6492",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tejs Vegge",
+          "orcid": "0000-0002-1484-0284",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eibar Flores",
+          "orcid": "0000-0003-2954-1233",
+          "affiliations": [
+            "SINTEF Industry",
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arghya Bhowmik",
+          "orcid": "0000-0003-3198-5116",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-024-03575-8",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-024-03575-8",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-024-03575-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Ion transport in non-aqueous electrolytes is crucial for high performance lithium-ion battery (LIB) development. The design of superior electrolytes requires extensive experimentation across the compositional space. To support data driven accelerated electrolyte discovery efforts, we curated and analyzed a large dataset covering a wide range of experimentally recorded ionic conductivities for various combinations of lithium salts, solvents, concentrations, and temperatures. The dataset is named as 'Conductivity Atlas for Lithium salts and Solvents' (CALiSol-23). Comprehensive datasets are lacking but are critical to building chemistry agnostic machine learning models for conductivity as well as data driven electrolyte optimization tasks. CALiSol-23 was derived from an exhaustive review of literature concerning experimental non-aqueous electrolyte conductivity measurement. The final dataset consists of 13,825 individual data points from 27 different experimental articles, in total covering 38 solvents, a broad temperature range, and 14 lithium salts. CALiSol-23 can help expedite machine learning model development that can help in understanding the complexities of ion transport and streamlining the optimization of non-aqueous electrolyte mixtures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "发表年份（5 年一档）",
+      "value": "2025–2029",
+      "count": 9,
+      "known": 10,
+      "pct": 90,
+      "text": "发表年份（5 年一档）：2025–2029 = 9/10（90%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 7,
+      "known": 10,
+      "pct": 70,
+      "text": "文献类型：journal-article = 7/10（70%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 10,
+      "known": 10,
+      "pct": 100,
+      "text": "主命中源：openalex = 10/10（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 10,
+    "after_dedup": 10,
+    "shown": 10,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

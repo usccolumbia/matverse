@@ -1,0 +1,255 @@
+[
+  {
+    "id": "usgs-rockjock-xrd-2021",
+    "name": "USGS updated geologic-materials XRD reference library",
+    "category": "diffraction_spectroscopy",
+    "description": "Measured powder diffractograms with reference intensity ratios, mineral-source metadata and paired corundum-spiked measurements.",
+    "version": "2021 USGS release DOI10.5066/P9ID8IX1; metadata updated2021-12-09",
+    "year": 2021,
+    "count": 156,
+    "count_display": "156",
+    "count_unit": "pure-material reference diffractograms",
+    "count_scope": "Counted156 named intensity columns in RJ_ComparisonMaterials_purePatterns.csv and156 rows in values table; companion spike patterns are not additional phase identities.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "powder XRD intensity versus2theta",
+      "reference intensity ratio relative to corundum",
+      "integrated intensity",
+      "mineral specimen source",
+      "preparation comparison"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 Universal (USGS release rights)",
+    "links": {
+      "homepage": "https://www.usgs.gov/data/updated-x-ray-diffractogram-library-geologic-materials",
+      "data": "https://doi.org/10.5066/P9ID8IX1"
+    },
+    "sources": [
+      {
+        "url": "https://www.sciencebase.gov/catalog/item/5fbc5aa6d34eb413d5e26d42?format=json",
+        "title": "ScienceBase primary release metadata",
+        "evidence": "Lists downloadable pure/spiked CSV patterns, RIR/source values, preparation-comparison data and FGDC XML; actual pure-pattern CSV has156 phase columns and3001 angle rows.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.sciencebase.gov/catalog/item/5fbc5aa6d34eb413d5e26d42",
+        "title": "USGS FGDC methods and attribute metadata",
+        "evidence": "Cu Kalpha patterns span5–65 degrees2theta at0.02degree spacing and at least5s/step. Instrument aligned with NIST-traceable quartz; corundum spikes define RIRs; trace impurity subtraction is documented.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.usgs.gov/data/updated-x-ray-diffractogram-library-geologic-materials",
+        "title": "USGS release rights",
+        "evidence": "Provider explicitly marks the data release CC0 1.0 Universal.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A single specimen/preparation represents each phase label; solid solution and crystallinity change peak positions/intensities.",
+      "Measured reference patterns include documented trace-impurity subtraction and are not untouched detector output.",
+      "Original RockJock2003 had169 patterns; the inspected2021 pure-pattern file contains156. Do not use169 as this release count.",
+      "Mineral/source identities do not include solved atomic coordinates; repeated forms and natural/synthetic variants are separate references."
+    ],
+    "tags": [
+      "Data.gov-selection-20261101",
+      "verified-2026-11-01",
+      "specialist-experimental-data"
+    ],
+    "additional_counts": [
+      {
+        "value": 3001,
+        "unit": "two-theta points per pure pattern",
+        "scope": "Actual CSV rows from5.00 to65.00 degrees"
+      }
+    ]
+  },
+  {
+    "id": "nist-hafnia-planar-reference-2025",
+    "name": "NIST hafnia-on-silicon planar film metrology set",
+    "category": "experimental_properties",
+    "description": "Spatially resolved X-ray reflectometry and spectroscopic ellipsometry for ALD hafnia films, with wafer/deposition provenance and preliminary thickness-model fits.",
+    "version": "NIST mds2-3930 v1.0.1; README v1.0.0; CHIPS-6-02-25-00-set",
+    "year": 2025,
+    "count": 12,
+    "count_display": "12",
+    "count_unit": "200mm hafnia-coated silicon wafers",
+    "count_scope": "Twelve sister wafers across four deposition runs; full SE maps target four selected wafers and XRR coverage varies across wafers.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "X-ray reflectometry",
+      "ellipsometric Psi/Delta spectra",
+      "preliminary film thickness(nm)",
+      "refractive-index model parameters",
+      "fit errors",
+      "wafer position(cm)",
+      "deposition batch and chamber position"
+    ],
+    "access": "open",
+    "license": "NIST data-use terms explicitly linked by release metadata; not a Creative Commons license",
+    "links": {
+      "homepage": "https://data.nist.gov/od/id/mds2-3930",
+      "data": "https://doi.org/10.18434/mds2-3930"
+    },
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/mds2-3930",
+        "title": "NIST current primary release metadata",
+        "evidence": "Current version1.0.1 identifies12 wafers, downloadable raw RAS/RASX and SE formats, text model exports and instrument-alignment files; release history says v1.0.1 added the CHIPS collection.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/mds2-3930/CHIPS-6-02-25-00-set%2FREADME.txt",
+        "title": "Hafnia release README and inspected text exports",
+        "evidence": "Documents65 ALD cycles on200mm Si, four runs/chamber positions, instrument models/serials and wafer mapping. Downloaded fit table labels X/Y(cm), thickness(nm), Cauchy parameters and individual Error columns. Fits assume one Cauchy layer over300–1000nm.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Small process-correlated wafer cohort;12 wafers are not12 chemistries or independent deposition batches.",
+      "Reported thickness parameters are preliminary single-layer Cauchy fits; fit errors are not a complete certified uncertainty budget.",
+      "XRR is intended to reduce SE uncertainty, while fuller maps and diced reference-material distribution are described as future work.",
+      "Some full instrument formats are proprietary; text exports and raw ASCII RAS provide reusable subsets.",
+      "README has a likely wafer typo24-04 while the deposition list says25-04; preserve original identifiers when reconciling."
+    ],
+    "tags": [
+      "Data.gov-selection-20261101",
+      "verified-2026-11-01",
+      "specialist-experimental-data"
+    ]
+  },
+  {
+    "id": "nist-mgo-apt-spectra",
+    "name": "NIST MgO ultraviolet atom-probe mass spectra",
+    "category": "diffraction_spectroscopy",
+    "description": "Binned MgO atom-probe spectra comparing extreme- and near-ultraviolet pulsing, with uncorrected, corrected and estimated-background counts.",
+    "version": "NIST mds2-4005 v1.0.0; README2025, repository issued2026-01-16",
+    "year": 2025,
+    "count": 10,
+    "count_display": "10",
+    "count_unit": "mass-spectrum condition files",
+    "count_scope": "Ten distinct CSV files linked by current release metadata; each has40000 mass-bin rows and four columns. Not a count of unique materials or independent specimens.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "mass-to-charge-state ratio(Da)",
+      "uncorrected counts",
+      "corrected counts",
+      "background estimate(counts)",
+      "pulse-source and acquisition-condition filename labels"
+    ],
+    "access": "open",
+    "license": "NIST data-use terms explicitly linked by release metadata; not a Creative Commons license",
+    "links": {
+      "homepage": "https://data.nist.gov/od/id/mds2-4005",
+      "data": "https://doi.org/10.18434/mds2-4005"
+    },
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/mds2-4005",
+        "title": "NIST primary release and checksums",
+        "evidence": "Provides ten downloadable spectra and checksums. Downloaded CSVs each have40000 rows, four headers and a0–399.99Da grid with0.01Da spacing; README documents count columns and binning.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/ark:/88434/mds2-4005/4005_README.txt",
+        "title": "MgO spectra README",
+        "evidence": "Names EUV/NUV CSVs and units; openly links NIST data-use terms. Filenames preserve energy/source/detection-rate/repetition-rate condition labels.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "One material(MgO); useful for mass-spectrometry processing and source-condition comparisons, not broad composition–property learning.",
+      "Negative corrected counts are present; preserve them and distinguish count correction/background modeling from raw counts.",
+      "README lists EUV_5T_1DR twice; current release actually has10 distinct spectra.",
+      "README says0.01–399.99Da, but each inspected payload includes a0Da row.",
+      "Detailed specimen histories, per-bin statistical uncertainties and calibration/ranging procedures are not supplied in the short README; filename codes need paper-level context for full interpretation."
+    ],
+    "tags": [
+      "Data.gov-selection-20261101",
+      "verified-2026-11-01",
+      "specialist-experimental-data"
+    ],
+    "additional_counts": [
+      {
+        "value": 40000,
+        "unit": "mass bins per spectrum",
+        "scope": "Inspected CSV, including0Da row"
+      }
+    ]
+  },
+  {
+    "id": "nist-rp-chemical-pressure-dielectrics",
+    "name": "NIST targeted-chemical-pressure Ruddlesden–Popper dielectric data",
+    "category": "experimental_properties",
+    "description": "Experimental XRD and frequency-, temperature- and field-dependent dielectric curves for Ba-containing titanate superlattices, accompanied by computed crystal models.",
+    "version": "NIST M31968 / mds10xz9qd v1.0.2;2019 study",
+    "year": 2019,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "material samples",
+    "count_scope": "Distinct sample count was not established; verified release contains nine CSV tables and nine CIF models. Do not convert curve rows into independent materials.",
+    "count_precision": "unknown",
+    "structure_level": "mixed",
+    "provenance": "mixed",
+    "properties": [
+      "XRD intensity versus2theta",
+      "dielectric constant versus temperature",
+      "complex permittivity versus frequency",
+      "dielectric tunability versus DC field",
+      "loss tangent",
+      "figure of merit",
+      "DFT energy versus ionic distortion",
+      "DFT CIF models"
+    ],
+    "access": "open",
+    "license": "NIST dataset-use permission explicitly stated in README; article-content reuse separately refers to publisher terms",
+    "links": {
+      "homepage": "https://data.nist.gov/od/id/7619E70B50E70FE5E05324570681A1921968",
+      "data": "https://doi.org/10.18434/M31968",
+      "paper": "https://doi.org/10.1038/s41563-019-0564-4"
+    },
+    "sources": [
+      {
+        "url": "https://data.nist.gov/od/id/7619E70B50E70FE5E05324570681A1921968",
+        "title": "NIST primary release metadata",
+        "evidence": "Current version1.0.2 links nine CSV tables and CIF TGZ plus README; inspected archive contains9 CIFs(PE/FE variants for n2–6; n2_FE absent).",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.nist.gov/od/ds/7619E70B50E70FE5E05324570681A1921968/README.txt",
+        "title": "Dataset README, schema and rights",
+        "evidence": "Provides variable-by-variable units/conditions: XRD degrees/counts; temperature K; frequency Hz; field kV/cm; film thickness and n. Dataset permission includes modification/distribution with acknowledgement and change notice; calibration details are delegated to the article methods.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Narrow engineered thin-film series; preserve layer number, film thickness, substrate/strain, temperature, frequency and applied field when comparing values.",
+      "CIFs and DFT distortion-energy curves are computed models; measured dielectric curves are a separate provenance layer.",
+      "Nine files or nine computed structures do not establish nine independently measured materials.",
+      "README delegates calibration to article methods; a complete measurement uncertainty budget was not independently reconstructed.",
+      "CSV tables include multi-curve columns and blanks; preserve column-specific units and avoid treating every cell as an independent sample."
+    ],
+    "tags": [
+      "Data.gov-selection-20261101",
+      "verified-2026-11-01",
+      "specialist-experimental-data"
+    ],
+    "additional_counts": [
+      {
+        "value": 9,
+        "unit": "computed CIF models",
+        "scope": "Downloaded TGZ inventory; not experimental sample count"
+      },
+      {
+        "value": 9,
+        "unit": "CSV figure-data tables",
+        "scope": "Release payload inventory"
+      }
+    ]
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "mp-frozen-2022",
+    "name": "MP v2022.10.28",
+    "category": "bulk_computed",
+    "description": "Entire Materials Project dataset from October 2022.",
+    "version": "MP 2022 release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2022,
+    "count": 154718,
+    "count_display": "154,718",
+    "count_unit": "relaxed material entries",
+    "count_scope": "Frozen October28,2022 MP computed-entry archive, one distinct material ID per entry; historical snapshot, separate from current Materials Project271,325 structures.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "crystal structures",
+      "formation energies",
+      "computed entries"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://docs.materialsproject.org/changes/database-versions#v2022.10.28",
+      "data": "https://figshare.com/files/40344436",
+      "paper": "https://doi.org/10.1063/1.4812323"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MP 2022: 154,718 configurations/structures; role training, created 2022-10-28, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MP 2022 entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/22715158",
+        "title": "Matbench Discovery release metadata",
+        "evidence": "Archive metadata supplies the frozen MP computed-entry file; the maintained benchmark registry reports154,718 entries. Full file not recounted here.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The frozen computed-entry archive (https://figshare.com/files/40344436) contains 154,718 entries with distinct material IDs, matching the energy table (https://figshare.com/files/49083124). Each entry represents one relaxed material.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Historical subset of Materials Project; the current live database is not this frozen training release."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MP 2022",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 154718,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "mp-graphs-2019",
+    "name": "Graphs of MP 2019",
+    "category": "property_benchmarks",
+    "description": "Contains 133,420 graph-target pairs for Materials Project structures which were used to train the MEGNet formation energy model.",
+    "version": "MP Graphs release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2019,
+    "count": 133420,
+    "count_display": "133,420",
+    "count_unit": "graph–target records",
+    "count_scope": "MP Graphs: training release listed by Matbench Discovery; numerical count is source-reported, not a MatVerse payload recount.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "crystal CIF strings",
+      "graph features",
+      "formation energy (eV/atom)"
+    ],
+    "access": "open",
+    "license": "MIT (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/8097992",
+      "data": "https://figshare.com/ndownloader/articles/8097992/versions/2",
+      "paper": "https://doi.org/10.1021/acs.chemmater.9b01294"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MP Graphs: 133,420 configurations/structures; role training, created 2019-06-06, declared data license MIT. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MP Graphs entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/8097992",
+        "title": "Graphs of Materials Project20190401 deposit",
+        "evidence": "Provider describes133,420 graph–target dictionaries, material_id, graph, formation_energy_per_atom(eV/atom) and CIF structure. Separate12,179-record elastic graphs are excluded. MIT declared in deposit metadata.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counted 133,420 graph records with distinct material_id values in mp.2019.04.01.json.zip (https://figshare.com/files/15108200), one per material. The separately distributed elastic-property graphs are not added to this count.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Graph encodings depend on the5Å cutoff and preprocessing; these are derived MP structures rather than newly independent experiments."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MP Graphs",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 133420,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "salex-omat24-validation",
+    "name": "Subsampled Alexandria Validation Set",
+    "category": "mlip_configurations",
+    "description": "Validation subset of the subsampled Alexandria dataset, containing ~500k structures for evaluating model performance during training. Filtered to remove structure prototype overlap with WBM.",
+    "version": "sAlex Validation release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2024,
+    "count": 553218,
+    "count_display": "553,218",
+    "count_unit": "configurations",
+    "count_scope": "sAlex Validation: validation release listed by Matbench Discovery; numerical count is source-reported, not a MatVerse payload recount.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "atomic coordinates",
+      "energies (eV)",
+      "forces (eV/Å)",
+      "stress (eV/Å³)"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/fairchem/OMAT24#salex-dataset",
+      "data": "https://dl.fbaipublicfiles.com/opencatalystproject/data/omat/241018/sAlex/val.tar.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2410.12771"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed sAlex Validation: 553,218 configurations/structures; role validation, created 2024-10-16, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable sAlex Validation entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/fairchem/OMAT24",
+        "title": "OMat24 and sAlex provider card",
+        "evidence": "Provider table separates10,447,765 training frames from553,218 validation frames. This entry counts only the validation subset.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Contained in existing sAlex train+validation catalog aggregate; not additive to that entry."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "sAlex Validation",
+      "Matbench Discovery",
+      "validation",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 170905,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "cosmos-sevennet-omni",
+    "name": "COSMOSDataset",
+    "category": "mlip_configurations",
+    "description": "COSMOS Dataset (Combined Organic, Surface and Materials Open Source Dataset) aggregates 15 publicly available ab initio databases spanning molecules, inorganic crystals, metal and oxide surfaces, and metal-organic frameworks, covering levels of theory from generalized gradient approximation to hybrid functionals. It also includes a domain-bridging set, sampled from OC20, OC22, MatPES, ODAC23, OMol25, and QCML dataset and recomputed with MPtrj-consistent computational settings, which facilitates cross-domain knowledge transfer in a multi-task training framework. For detailed information about the dataset composition, see Table 1 from [the paper](https://arxiv.org/abs/2510.11241).",
+    "version": "COSMOSDataset release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 242788218,
+    "count_display": "242,788,218",
+    "count_unit": "aggregate configurations",
+    "count_scope": "Benchmark-reported242,788,218 configurations in the COSMOS training assembly; not a single deposited payload or deduplicated crystal population.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "Fifteen pre-existing ab-initio datasets plus a new domain-bridging DFT layer; heterogeneous computational settings",
+    "properties": [
+      "cross-domain structures",
+      "energies",
+      "forces",
+      "multiple levels of theory"
+    ],
+    "access": "mixed",
+    "license": "CC-BY-4.0 declared for assembly/deposit; individual parent terms retained",
+    "links": {
+      "homepage": "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+      "data": "https://figshare.com/articles/software/SevenNet-Omni_checkpoint/30399814",
+      "paper": "https://doi.org/10.1038/s41467-026-70195-8"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed COSMOSDataset: 242,788,218 configurations/structures; role training, created 2025-10-21, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable COSMOSDataset entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/30399814",
+        "title": "SevenNet-Omni domain-bridging deposit",
+        "evidence": "Provider confirms15 open-source parent datasets plus a DBS recomputation layer, links parent domains and describes db_label source provenance. Deposit distributes DBS and benchmark/DFT results, not a monolithic242.8M-frame parent archive.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Mixed molecular, bulk, surface and MOF domains. Access and rights of original parents must be checked individually; listed CC BY4.0 metadata does not replace each parent license.",
+      "SevenNet-Omni DBS already has its own catalog entry; this umbrella is overlapping assembly metadata."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "COSMOSDataset",
+      "Matbench Discovery",
+      "training",
+      "aggregate-overlap"
+    ]
+  },
+  {
+    "id": "matpes-pbe-2025-1",
+    "name": "MatPES2025.1 — PBE",
+    "category": "mlip_configurations",
+    "description": "A dataset containing 434,712 structures from ~300K molecular dynamics simulations, providing potential energy surfaces that are valuable for training ML interatomic potentials.",
+    "version": "MatPES PBE release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 434712,
+    "count_display": "434,712",
+    "count_unit": "configurations",
+    "count_scope": "Frozen2025.1 PBE labels: 434,712 matpes_id configurations from 110,317 parent MP IDs according to benchmark recount; not the corrected2025.2 release.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "atomic coordinates",
+      "energy",
+      "forces",
+      "stress"
+    ],
+    "access": "open",
+    "license": "Not verified for frozen2025.1 payload: current Hugging Face dataset card declares BSD-3-Clause; Matbench registry lists MIT. Verify release-specific data terms.",
+    "links": {
+      "homepage": "https://matpes.ai",
+      "data": "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-PBE-2025.1.json.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2503.04070"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MatPES PBE: 434,712 configurations/structures; role training, created 2025-03-06, declared data license MIT. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MatPES PBE entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/materialyzeai/matpes",
+        "title": "MatPES provider version and format documentation",
+        "evidence": "Provider identifies2025.1 initial release and newer2025.2 release with duplicate removal and Bader/DDEC6 charges; supports version-specific PBE and r2SCAN downloads. Numeric2025.1 counts retained from benchmark metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/materialyze/matpes/blob/main/README.md",
+        "title": "MatPES current dataset card licensing",
+        "evidence": "Front matter explicitly declares license:bsd-3-clause. This conflicts with the Matbench registryMIT label; the2025.1 frozen-file terms were not independently resolved.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counted 434,712 distinct matpes_id records and 110,317 distinct provenance.original_mp_id values in MatPES-PBE-2025.1.json.gz (https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-PBE-2025.1.json.gz). Materials counts the parent MP materials across the sampled MD frames.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "PBE and r2SCAN geometries overlap but computed labels differ. A default SDK request now returns2025.2, so specify2025.1 to reproduce this card.",
+      "License-source mismatch: the current Hugging Face dataset card declares BSD-3-Clause, while the benchmark registry lists MIT. A code-repository badge is not sufficient to establish the frozen2025.1 data license."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MatPES PBE",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 110317,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "matpes-r2scan-2025-1",
+    "name": "MatPES2025.1 — r2SCAN",
+    "category": "mlip_configurations",
+    "description": "A dataset containing 387,897 structures from ~300K molecular dynamics simulations, providing potential energy surfaces that are valuable for training ML interatomic potentials.",
+    "version": "MatPES r2SCAN release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 387897,
+    "count_display": "387,897",
+    "count_unit": "configurations",
+    "count_scope": "Frozen2025.1 r2SCAN labels: 387,897 matpes_id configurations from 89,719 parent MP IDs according to benchmark recount; not the corrected2025.2 release.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "atomic coordinates",
+      "energy",
+      "forces",
+      "stress"
+    ],
+    "access": "open",
+    "license": "Not verified for frozen2025.1 payload: current Hugging Face dataset card declares BSD-3-Clause; Matbench registry lists MIT. Verify release-specific data terms.",
+    "links": {
+      "homepage": "https://matpes.ai",
+      "data": "https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-R2SCAN-2025.1.json.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2503.04070"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MatPES r2SCAN: 387,897 configurations/structures; role training, created 2025-03-06, declared data license MIT. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MatPES r2SCAN entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/materialyzeai/matpes",
+        "title": "MatPES provider version and format documentation",
+        "evidence": "Provider identifies2025.1 initial release and newer2025.2 release with duplicate removal and Bader/DDEC6 charges; supports version-specific PBE and r2SCAN downloads. Numeric2025.1 counts retained from benchmark metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/materialyze/matpes/blob/main/README.md",
+        "title": "MatPES current dataset card licensing",
+        "evidence": "Front matter explicitly declares license:bsd-3-clause. This conflicts with the Matbench registryMIT label; the2025.1 frozen-file terms were not independently resolved.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counted 387,897 distinct matpes_id records and 89,719 distinct provenance.original_mp_id values in MatPES-R2SCAN-2025.1.json.gz (https://s3.us-east-1.amazonaws.com/materialsproject-contribs/MatPES_2025_1/MatPES-R2SCAN-2025.1.json.gz). Materials counts the parent MP materials across the sampled MD frames.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "PBE and r2SCAN geometries overlap but computed labels differ. A default SDK request now returns2025.2, so specify2025.1 to reproduce this card.",
+      "License-source mismatch: the current Hugging Face dataset card declares BSD-3-Clause, while the benchmark registry lists MIT. A code-repository badge is not sufficient to establish the frozen2025.1 data license."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MatPES r2SCAN",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 89719,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "mdr-phonon-pbe-recalculation",
+    "name": "MDR Phonon PBE",
+    "category": "property_benchmarks",
+    "description": "PBE recalculations of the MDR Phonon dataset (https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019), introduced in the paper \"Universal Machine Learning Interatomic Potentials are Ready for Phonons\".",
+    "version": "MDR Phonon PBE release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2024,
+    "count": 9958,
+    "count_display": "9,958",
+    "count_unit": "reference material phonon files",
+    "count_scope": "9,958 unique mp-ID YAML.bz2 files counted in public PBE directory on2026-11-01; excludes displaced supercells and parent-directory link.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "PBE phonon force constants",
+      "phonon dispersions",
+      "reference crystal structures"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe",
+      "data": "https://alexandria.icams.rub.de/data/phonon_benchmark/",
+      "paper": "https://doi.org/10.48550/arXiv.2412.16551"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MDR Phonon PBE: 9,958 configurations/structures; role test, created 2024-12-21, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MDR Phonon PBE entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://alexandria.icams.rub.de/data/phonon_benchmark/pbe/",
+        "title": "PBE recalculation directory of MDR phonons",
+        "evidence": "Directory HTML contains9,958 unique mp-[ID].yaml.bz2 filenames; PFT paper reports9,959. This is a directory metadata recount, not full phonon payload validation.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counted 9,958 distinct mp-ID files in the PBE release directory (https://alexandria.icams.rub.de/data/phonon_benchmark/pbe/) on 2026-09-13, one reference material per phonon calculation; the PFT paper reports 9,959. Displaced supercells are not added to this count.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "This is a PBE recalculation of the original MDR cohort, not the original PhononDB release or every displaced force calculation."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MDR Phonon PBE",
+      "Matbench Discovery",
+      "test",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 9958,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "pft-mdr-pbe-training",
+    "name": "PFT MDR-PBE phonon training subset",
+    "category": "property_benchmarks",
+    "description": "Subset of the MDR Phonon PBE dataset to be used for phonon fine-tuning, as introduced in \"PFT: Phonon Fine-tuning for Machine Learning Interatomic Potentials\". This dataset was constructed by randomly sampling 8,510 structures with overlapping mp-id's with MPtrj and preprocessing into .aselmbd files with the Hessian stored in atoms.info[\"hessian\"].",
+    "version": "MDR-MP PBE ω_q release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2026,
+    "count": 8510,
+    "count_display": "8,510",
+    "count_unit": "training materials with Hessians",
+    "count_scope": "8,510 training materials in the benchmark metadata; validation and1,000-material test set separate. Source dataset is the MDR-PBE recalculation.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "reference unit cells",
+      "Hessians",
+      "phonon frequencies"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/Preprocessed_data_for_Phonon_Fine-tuning_PFT_/31049869",
+      "data": "https://figshare.com/files/60964675",
+      "paper": "https://arxiv.org/abs/2601.07742"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MDR-MP PBE ω_q: 8,510 configurations/structures; role training, created 2026-01-08, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MDR-MP PBE ω_q entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/31049869",
+        "title": "Preprocessed data for Phonon Fine-tuning deposit",
+        "evidence": "Provider distributes train/validation ASE-LMDB archives with hessian in atoms.info and separate1,000-material test archive; split by mp-ID. Registry reports8,510 training materials.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counts 8,510 training materials, each represented by one reference cell and Hessian. The release (https://figshare.com/articles/dataset/Preprocessed_data_for_Phonon_Fine-tuning_PFT_/31049869) splits by mp-ID; validation and the 1,000-material test set are separate.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Subset overlaps the MDR-PBE parent and MPtrj IDs; no additional independent-material total."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MDR-MP PBE ω_q",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 8510,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "oc20-mads",
+    "name": "Open Catalyst 2020 Multiple Adsorbates",
+    "category": "surfaces_catalysis",
+    "description": "OC20 extension for coadsorption and coverage effects, with up to five adsorbates on a surface. The project lists 21,804,758 training frames and introduced the dataset with the UMA models.",
+    "version": "OC20-mAds release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 21804758,
+    "count_display": "21,804,758",
+    "count_unit": "configurations",
+    "count_scope": "21,804,758 provider-reported training frames, up to5adsorbates per surface.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "surface/adsorbate atomic coordinates",
+      "DFT energies",
+      "forces"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_mads.md",
+      "data": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20mAds/oc20_multiads_train.tar.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2506.23971"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed OC20-mAds: 21,804,758 configurations/structures; role training, created 2025-06-30, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable OC20-mAds entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_mads.md",
+        "title": "FAIRChem provider dataset guide",
+        "evidence": "Provider guide establishes OC20-mAds release, CC BY4.0, download/checksum and counting definition. Counts were not recounted from large archives here.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OC20-mAds",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ]
+  },
+  {
+    "id": "oc20-slabs",
+    "name": "Open Catalyst 2020 Clean Slabs",
+    "category": "surfaces_catalysis",
+    "description": "Clean catalyst-surface structures used for UMA training. The released training and validation corpus contains 18,323,074 frames; surfaces appearing in any OC20 test split are excluded.",
+    "version": "OC20-Slabs release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 18323074,
+    "count_display": "18,323,074",
+    "count_unit": "configurations",
+    "count_scope": "18,323,074 provider-reported train+validation clean-surface frames; all OC20 test surfaces excluded.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "surface/adsorbate atomic coordinates",
+      "DFT energies",
+      "forces"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_slabs.md",
+      "data": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20/oc20_slabs.tar.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2506.23971"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed OC20-Slabs: 18,323,074 configurations/structures; role training, created 2025-06-30, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable OC20-Slabs entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20_slabs.md",
+        "title": "FAIRChem provider dataset guide",
+        "evidence": "Provider guide establishes OC20-Slabs release, CC BY4.0, download/checksum and counting definition. Counts were not recounted from large archives here.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OC20-Slabs",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ]
+  },
+  {
+    "id": "oc20-dense",
+    "name": "Open Catalyst 2020 Dense Adsorbate Sampling",
+    "category": "surfaces_catalysis",
+    "description": "AdsorbML validation dataset for finding low-energy adsorption configurations, using dense initial placement sampling for roughly 1,000 adsorbate-surface systems.",
+    "version": "OC20-Dense release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2022,
+    "count": 85658,
+    "count_display": "85,658",
+    "count_unit": "initial adsorption configurations",
+    "count_scope": "85,658 distinct initial configurations for dense adsorption-placement evaluation, not every relaxed trajectory frame or independent parent bulk.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "surface/adsorbate atomic coordinates",
+      "DFT energies",
+      "forces"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md",
+      "data": "https://dl.fbaipublicfiles.com/opencatalystproject/data/adsorbml/oc20_dense_data.tar.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2211.16486"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed OC20-Dense: 85,658 configurations/structures; role validation, created 2022-11-29, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable OC20-Dense entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md",
+        "title": "FAIRChem provider dataset guide",
+        "evidence": "Provider guide establishes OC20-Dense release, CC BY4.0, download/checksum and counting definition. Counts were not recounted from large archives here.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counts 85,658 initial atomic configurations, not all relaxation frames. Materials counts 833 distinct parent mp-IDs in oc20dense_mapping.pkl from the released mappings (https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20dense.md). Multiple adsorbate-surface combinations share a parent material.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OC20-Dense",
+      "Matbench Discovery",
+      "validation",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 833,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      }
+    ]
+  },
+  {
+    "id": "oc20-neb",
+    "name": "Open Catalyst 2020 Nudged Elastic Band Benchmark",
+    "category": "surfaces_catalysis",
+    "description": "CatTSunami validation set of 932 nudged elastic band reaction paths covering desorption, dissociation, and transfer reactions on catalyst surfaces. Tests transition-state predictions from potentials trained on adsorption relaxations.",
+    "version": "OC20NEB release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2024,
+    "count": 1375930,
+    "count_display": "1,375,930",
+    "count_unit": "configurations",
+    "count_scope": "Benchmark-reported1,375,930 saved ASE frames across932 NEB trajectories, including repeated fixed endpoints; provider guide verifies932 paths and10frames periteration.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "surface/adsorbate atomic coordinates",
+      "DFT energies",
+      "forces",
+      "reaction pathways",
+      "transition-state energetics"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md",
+      "data": "https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20neb/oc20neb_dft_trajectories_04_23_24.tar.gz",
+      "paper": "https://doi.org/10.48550/arXiv.2405.02078"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed OC20NEB: 1,375,930 configurations/structures; role validation, created 2024-05-03, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable OC20NEB entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md",
+        "title": "FAIRChem provider dataset guide",
+        "evidence": "Provider guide establishes OC20NEB release, CC BY4.0, download/checksum and counting definition. Counts were not recounted from large archives here.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Counted 1,375,930 stored ASE frames across all 932 trajectories in the checksum-verified release (https://github.com/facebookresearch/fairchem/blob/main/docs/catalysts/datasets/oc20neb.md). This includes the two fixed endpoints saved at each NEB iteration. Materials counts 821 distinct parent bulk IDs encoded in the trajectory filenames.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Fixed endpoints repeat at each NEB iteration. These frames are correlated and not independent transition states."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "OC20NEB",
+      "Matbench Discovery",
+      "validation",
+      "release-subset"
+    ],
+    "additional_counts": [
+      {
+        "value": 821,
+        "unit": "source-defined parent materials",
+        "scope": "Benchmark metadata denominator; see release notes for identity definition. Not added to configurations."
+      },
+      {
+        "value": 932,
+        "unit": "NEB trajectories",
+        "scope": "Primary provider guide; includes desorption, dissociation and transfer reactions."
+      }
+    ]
+  },
+  {
+    "id": "mad-original-2025",
+    "name": "Massive Atomic Diversity",
+    "category": "mlip_configurations",
+    "description": "Compact training corpus spanning 85 elements, including bulk and two-dimensional crystals, surfaces, clusters, molecular crystals, and molecular fragments. Uses consistent all-electron DFT calculations for PET-MAD potentials.",
+    "version": "MAD release as listed in Matbench Discovery at 8869a883a506",
+    "year": 2025,
+    "count": 95595,
+    "count_display": "95,595",
+    "count_unit": "configurations",
+    "count_scope": "95,595 configurations reported for the filtered original MAD/PET-MAD benchmark cohort; not MAD-1.5 or MAD-1.6 and not an independently recounted archive.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "DFT calculations; source-reported release metadata",
+    "properties": [
+      "atomic coordinates",
+      "PBEsol energies",
+      "forces",
+      "AiiDA provenance"
+    ],
+    "access": "open",
+    "license": "CC-BY-4.0 (provider/benchmark release declaration)",
+    "links": {
+      "homepage": "https://www.nature.com/articles/s41597-025-06109-y",
+      "data": "https://archive.materialscloud.org/records/h41qv-1n493",
+      "paper": "https://doi.org/10.1038/s41597-025-06109-y"
+    },
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/data/sets",
+        "title": "Matbench Discovery datasets table",
+        "evidence": "Listed MAD: 95,595 configurations/structures; role training, created 2025-09-25, declared data license CC-BY-4.0. Counts and access refer to this listed release.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml",
+        "title": "Pinned Matbench Discovery dataset metadata",
+        "evidence": "Machine-readable MAD entry at revision 8869a883a5067015b815886d878bd7aaa3862d2d; retains structure/material counting distinction and release caveats.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/h41qv-1n493",
+        "title": "Original PET-MAD Materials Cloud release",
+        "evidence": "2025-09-25 versioned deposit contains data.tar.gz, scripts, README and AiiDA archive; declares CC BY4.0.95,595filtered count is retained from benchmark metadata.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The PET-MAD paper (https://www.nature.com/articles/s41467-025-65662-7) reports 95,595 configurations after filtering. The Materials Cloud release includes training, validation, and test splits and AiiDA provenance.",
+      "Overlaps parent datasets and other named splits/releases; do not add these counts to independent-material totals.",
+      "Mixed stable/modified solids, molecules, clusters and surfaces; this count is not a number of bulk equilibrium crystals."
+    ],
+    "tags": [
+      "Matbench-sets-20261101",
+      "MAD",
+      "Matbench Discovery",
+      "training",
+      "release-subset"
+    ]
+  }
+]

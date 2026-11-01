@@ -10,6 +10,8 @@ Add corrections or datasets through an issue or pull request. Prefer an official
 
 Update dates and evidence when sizes change. Retain the old release context in a caveat or changelog if the new denominator differs. The catalog's verification date is set in `scripts/build_catalog.py` and its introductory prose; update both for a new curated release. Sources in individual records retain their own dates.
 
+Maintain API, SDK and structured-download routes in `data/api_sources.json`. Record interface type, authentication, formats, related catalog IDs, documentation and a dated verification outcome. A successful metadata response or an empty record list is not a working data-payload check. Keep small public probe receipts under `research/provenance/`; do not run credentialed probes in CI. The regular catalog/site builders validate and regenerate the API guide, JARVIS audit and searchable view.
+
 Do not commit API keys, personal data, downloaded dataset archives or complete third-party articles. Local research caches are ignored. Record public URLs, response hashes and concise evidence instead. Linking a restricted dataset is acceptable; mirroring its content requires the applicable rights.
 
 The catalog metadata/prose use CC BY 4.0, and the Python scripts use MIT. Contributions follow those respective terms; upstream datasets retain their original licenses. Please cite original creators in downstream research.

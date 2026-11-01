@@ -1,0 +1,232 @@
+[
+  {
+    "id": "dxmag-heusler-ternary",
+    "name": "DXMag Computational HeuslerDB — ternary DFT",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://www.nims.go.jp/group/spintheory/database/",
+      "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+      "https://doi.org/10.1016/j.actamat.2025.121312"
+    ]
+  },
+  {
+    "id": "dxmag-heusler-quaternary",
+    "name": "DXMag Computational HeuslerDB — quaternary ML",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://www.nims.go.jp/group/spintheory/database/",
+      "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+      "https://www.nature.com/articles/s41524-026-02013-0"
+    ]
+  },
+  {
+    "id": "dxmag-heusler-alld",
+    "name": "DXMag Computational HeuslerDB — all-d ML",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://www.nims.go.jp/group/spintheory/database/",
+      "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+      "https://www.nature.com/articles/s41524-026-02013-0"
+    ]
+  },
+  {
+    "id": "c1db",
+    "name": "Computational 1D Materials Database (C1DB)",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+      "https://cmrdb.fysik.dtu.dk/c1db/",
+      "https://doi.org/10.1103/PhysRevMaterials.6.064202"
+    ]
+  },
+  {
+    "id": "cmr-abse3",
+    "name": "CMR ABSe3 ternary selenides",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/abse3/abse3.html",
+      "https://wiki.fysik.dtu.dk/cmr-files/abse3.db"
+    ]
+  },
+  {
+    "id": "cmr-a2bcx4",
+    "name": "CMR A2BCX4 quaternary chalcogenides",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html",
+      "https://wiki.fysik.dtu.dk/cmr-files/a2bcx4.db"
+    ]
+  },
+  {
+    "id": "cmr-abx2",
+    "name": "CMR ABX2 photovoltaic polytypes",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/abx2/abx2.html",
+      "https://wiki.fysik.dtu.dk/cmr-files/abx2.db"
+    ]
+  },
+  {
+    "id": "cmr-perovskite-absorption",
+    "name": "CMR perovskite optical-absorption spectra",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+      "https://wiki.fysik.dtu.dk/cmr-files/absorption_perovskites.db"
+    ]
+  },
+  {
+    "id": "cmr-c2dm-2015",
+    "name": "CMR C2DM transition-metal monolayer electronic structures (2015)",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+      "https://wiki.fysik.dtu.dk/cmr-files/c2dm.db"
+    ]
+  },
+  {
+    "id": "zhou-2d-spin-hall-426",
+    "name": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://archive.materialscloud.org/records/rfcdy-wcy32",
+      "https://doi.org/10.24435/materialscloud:yv-h7",
+      "https://www.nature.com/articles/s41699-025-00562-4"
+    ]
+  },
+  {
+    "id": "ferrogen-mattergen-12800",
+    "name": "FerroGen MatterGen generated crystal cohort",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://zenodo.org/records/17223175",
+      "https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz",
+      "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202522108"
+    ]
+  },
+  {
+    "id": "mint-atlas",
+    "name": "MINT-ATLAS atomistic magnetic interactions",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://mintatlas.org/",
+      "https://mintatlas.org/optimade/info",
+      "https://github.com/mintatlas-org/mintatlas"
+    ]
+  },
+  {
+    "id": "altermagnet-spin-splitting-2026",
+    "name": "Sufyan altermagnetic spin-splitting screening release",
+    "disposition": "promote",
+    "reason": "Verified distinct property/release scope and public access route; count and rights caveats preserved in staged canonical record.",
+    "sources": [
+      "https://zenodo.org/records/19109715",
+      "https://doi.org/10.1103/mmdm-hrj4",
+      "https://zenodo.org/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx"
+    ]
+  },
+  {
+    "id": "novamag",
+    "name": "Novamag Database",
+    "disposition": "defer",
+    "reason": "Primary Zenodo record is software plus consortium input files, not an independently inventoried full property database. Its API confirms CC BY 4.0 but 159.9 MB ZIP contents and material counting unit remain unaudited. Do not import a paper-only full-database count.",
+    "sources": [
+      "https://zenodo.org/records/3241267",
+      "https://zenodo.org/api/records/3241267"
+    ]
+  },
+  {
+    "id": "chiral-phonon-materials",
+    "name": "Chiral Phonon Materials Database (CPMDB)",
+    "disposition": "defer",
+    "reason": "Primary paper and public search portal verified; paper reports screening 11,614 crystals / 2,738 chiral / 170 shortlisted, but provider release denominator, coordinate exports and data rights not independently established. Frontend search API exists; no unaudited count promoted.",
+    "sources": [
+      "https://www.nature.com/articles/s41567-026-03260-0",
+      "https://materialsfingerprint.com/"
+    ]
+  },
+  {
+    "id": "nju-phonon-emergent-particles",
+    "name": "Phonon emergent particles and chiral phonons (NJU)",
+    "disposition": "defer",
+    "reason": "Public HTTP portal and HSP search page verified. Preprint claims 111,872 crystals and >25 million emergent particles, which are different units. Release-level structure/force-constant availability and data license need verification.",
+    "sources": [
+      "https://arxiv.org/abs/2601.17353",
+      "http://phonon.nju.edu.cn",
+      "http://phonon.nju.edu.cn/phonon-hsp?20251124"
+    ]
+  },
+  {
+    "id": "spin-hall-4486-2d",
+    "name": "Spin Hall screening of 4,486 nonmagnetic 2DMatPedia entries",
+    "disposition": "defer",
+    "reason": "Paper identified, but dedicated public data package not independently verified. Parent 2DMatPedia already cataloged.",
+    "sources": [
+      "https://arxiv.org/abs/2509.13204"
+    ]
+  },
+  {
+    "id": "spin-hall-20000-bulk",
+    "name": "Spin-orbitronic bulk spin-Hall catalog",
+    "disposition": "defer",
+    "reason": "Found primary paper claiming >20,000crystals; no independently checked provider payload/rights. May substantially overlap established topological/Wannier portals.",
+    "sources": [
+      "https://arxiv.org/abs/1909.09605"
+    ]
+  },
+  {
+    "id": "1d-exciton-2026",
+    "name": "Quasiparticle and excitonic properties of exfoliable1D semiconductors",
+    "disposition": "defer",
+    "reason": "Adjacent 2026 ACS Nano campaign surfaced through MARVEL dataset index. Article/release pair not yet verified; useful follow-up beyond current C1DB.",
+    "sources": [
+      "https://marvel-nccr.ch/publications/dataset-index"
+    ]
+  },
+  {
+    "id": "xtant3-coupling",
+    "name": "XTANT-3 electron-ion coupling and electronic heat capacities",
+    "disposition": "defer",
+    "reason": "Provider repository/release identified. Temperature-curve and material/structure denominators plus data-rights scope need separate inspection; no source-reported corpus size assumed.",
+    "sources": [
+      "https://github.com/N-Medvedev/XTANT-3_coupling_data/releases"
+    ]
+  },
+  {
+    "id": "jarvis-dfpt-5015",
+    "name": "JARVIS DFPT infrared/piezoelectric/dielectric campaign",
+    "disposition": "existing-parent",
+    "reason": "New properties on existing JARVIS-DFT parent; no separate nonoverlapping release established in this pass. Existing catalog already contains JARVIS 3D/2D and related tensor releases.",
+    "sources": [
+      "https://www.nature.com/articles/s41524-020-0337-2"
+    ]
+  },
+  {
+    "id": "smidt-ricci-c2db-nemad",
+    "name": "C2DB, MAGNDATA, NEMAD, Smidt/Ricci ferroelectric and optical parent catalogs",
+    "disposition": "existing",
+    "reason": "Already present in 304-record baseline. Additional records require a distinct release or property campaign, not another landing page.",
+    "sources": []
+  },
+  {
+    "id": "cmr-other-projects",
+    "name": "Other CMR optical/semiconductor, low-symmetry perovskite and RPA campaigns",
+    "disposition": "defer",
+    "reason": "Provider index gives distinct named releases; detailed payload and license auditing remains useful follow-up. OQMD reference slices and isolated molecules are not independent new crystal cohorts.",
+    "sources": [
+      "https://cmr.fysik.dtu.dk/"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "zenodo_asi",
+    "url": "https://zenodo.org/api/records/14203730",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/14203730",
+    "bytes": 4558,
+    "sha256": "ce795b56ecb09175b8b04cb358483bb43e99f1a52e19194b8904e27c8e766e03"
+  },
+  {
+    "name": "zenodo_ac2d",
+    "url": "https://zenodo.org/api/records/7221166",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/7221166",
+    "bytes": 5899,
+    "sha256": "a310c4813c0fb04a2e175f235742e7e25006b7bf1591ab2e9f632a9619b74942"
+  },
+  {
+    "name": "sacada_zip",
+    "url": "https://www.sacada.info/download/1.zip",
+    "status": 200,
+    "final_url": "https://www.sacada.info/download/1.zip",
+    "bytes": 3648,
+    "sha256": "919d71a5326ad498d8c1a0598dfb7bc68351f2ed45fd0655e46e72be90f94716"
+  },
+  {
+    "name": "solid_readme_deposit",
+    "url": "https://archive.materialscloud.org/records/azpq0-1qe97/files/README.md?download=1",
+    "status": 200,
+    "final_url": "https://rgw.cscs.ch/mc-archive/fe/0a/bb40-f2d2-44b3-aa91-0f796f66cd2a/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B+filename%3DREADME.md&AWSAccessKeyId=3QPYIC2DSRF281L1K33M&Expires=1793554831#signed-redirect-credentials-removed",
+    "bytes": 4925,
+    "sha256": "67afaf8a3de059e5f315e001e47bfcd74dad2479c239fb433ff78bc42172300c",
+    "signed_redirect_sanitized": true
+  },
+  {
+    "name": "asi_repo",
+    "url": "https://api.github.com/repos/lamrosset/aSi-data",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/lamrosset/aSi-data",
+    "bytes": 5064,
+    "sha256": "1b1447b6c7e3be93ede5b5955fb472721cbaa5f790ad520102002c16eab16104"
+  },
+  {
+    "name": "asi_readme",
+    "url": "https://raw.githubusercontent.com/lamrosset/aSi-data/main/README.md",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lamrosset/aSi-data/main/README.md",
+    "bytes": 2285,
+    "sha256": "e1b284bbda2101969f7dc1d1bcbcf1a996f2eca02ac258671feeadc813c20c3e"
+  }
+]

@@ -1,0 +1,1834 @@
+{
+  "mode": "search",
+  "query": "A dynamic database of solid-state electrolyte DDSE picturing all-solid-state batteries",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 17,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Automatic Generation of Inorganic Solid‐State Electrolytes via Unified Multi‐Modal Network",
+      "authors": [
+        "Yihong Liu",
+        "Jinjiang Liang",
+        "Zheng Wang",
+        "Mohamed Ait Tamerd",
+        "Jielun Huang",
+        "Renyuan Zhang",
+        "Wei Liu",
+        "Menghao Yang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yihong Liu",
+          "orcid": "0009-0003-3630-5359",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinjiang Liang",
+          "orcid": null,
+          "affiliations": [
+            "ShanghaiTech University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zheng Wang",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohamed Ait Tamerd",
+          "orcid": "0000-0002-0403-4246",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jielun Huang",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Renyuan Zhang",
+          "orcid": "0000-0001-5979-5512",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Liu",
+          "orcid": "0000-0002-6206-8321",
+          "affiliations": [
+            "ShanghaiTech University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Menghao Yang",
+          "orcid": "0000-0001-7926-5113",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Small",
+      "doi": "10.1002/smll.75978",
+      "type": "article",
+      "url": "https://doi.org/10.1002/smll.75978",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smll.75978",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Accurate prediction of ion transport properties remains a key bottleneck in computational discovery of solid‐state electrolytes, particularly because experimentally measured ionic conductivities are sparse and strongly dependent on crystal structure. Here we introduce USMNet, a unified structure‐aware multimodal neural network that combines crystal‐structure representations, compositional features, and physically motivated descriptors to predict lithium‐ion conductivity. We benchmark the model against composition‐only and structure‐based baselines, showing that explicit structural information improves prediction accuracy and enables data‐efficient and reliable exploration of candidate materials. We then apply USMNet to 168 675 candidate materials spanning 19 lithium solid‐state electrolyte frameworks, identifying 21 high‐potential inorganic electrolytes. Selected candidates are synthesized and experimentally validated, with Li 16 ZnSiP 2 S 16 enabling all‐solid‐state batteries that retain 80% capacity after 600 cycles under 0.5 C at room temperature. These results establish a generalizable structure‐aware learning strategy for electrochemical property prediction and demonstrate its utility in accelerating closed‐loop materials discovery under limited data regimes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Covalent Organic Framework Electrolytes for Solid‐State Lithium Batteries: Designing Ion Highways for Next‐Generation Energy Storage",
+      "authors": [
+        "Rajesh Dhanushkotti",
+        "Ningaraju Gejjiganahalli Ningappa",
+        "Chimatahalli Shanthakumar Karthik",
+        "Karthik Vishweswariah",
+        "M.R. Anil Kumar",
+        "Jitendrasingh Rajpurohit",
+        "Jeremy I. G. Dawkins",
+        "Karim Zaghib"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Rajesh Dhanushkotti",
+          "orcid": "0000-0003-0087-8924",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ningaraju Gejjiganahalli Ningappa",
+          "orcid": "0009-0002-1239-8813",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chimatahalli Shanthakumar Karthik",
+          "orcid": "0000-0003-4333-3545",
+          "affiliations": [
+            "JSS Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Karthik Vishweswariah",
+          "orcid": "0009-0003-6085-9474",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M.R. Anil Kumar",
+          "orcid": "0000-0001-8228-0314",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jitendrasingh Rajpurohit",
+          "orcid": "0000-0002-3709-7139",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jeremy I. G. Dawkins",
+          "orcid": "0000-0001-9541-2283",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Karim Zaghib",
+          "orcid": "0000-0002-4201-7746",
+          "affiliations": [
+            "Concordia University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Small",
+      "doi": "10.1002/smll.75286",
+      "type": "review",
+      "url": "https://doi.org/10.1002/smll.75286",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smll.75286",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Covalent organic frameworks (COFs) are emerging as a programmable platform for solid electrolytes in solid‐state lithium batteries, since their crystalline, periodically ordered nanochannels can be engineered to enable directional ion transport. These low‐resistance pathways promote directional lithium‐ion (Li + ) migration through a narrower, more spatially ordered distribution of coordination environments, achieved via site‐to‐site hopping and/or guest‐assisted vehicular motion within the channels. This review presents a design‐oriented framework linking COF structural descriptors to ion‐transport metrics through a cause‐effect‐performance relationship. We first summarize the Li + transport mechanism in confined COF channels, covering site‐to‐site hopping along pore walls and guest‐assisted vehicular motion in filled channels. We then correlate (i) topology and channel architecture, (ii) pore‐wall chemical functionality and framework charge, (iii) crystallinity, stacking registry, and channel alignment, and (iv) hybrid COF architectures with performance indicators including ionic conductivity (σ), activation energy (Ea), lithium‐ion transference number (tLi + ), transport anisotropy, and effective conductivity in working membranes (σeff). Through representative case studies, we highlight cases where high intrinsic channel transport does and does not translate into device‐relevant σeff. Finally, we propose standardized reporting practices and device‐level benchmarks to accelerate the shift from empirical materials discovery toward predictive ion‐highway engineering for next‐generation solid‐state lithium batteries.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Breaking Bottlenecks in Solid Electrolyte Discovery With Large Artificial Intelligence Models",
+      "authors": [
+        "Eric Jianfeng Cheng",
+        "Min Hong",
+        "Zhiquan Zeng",
+        "Chuanyu Liu",
+        "Qian Wang",
+        "Melissa Jane Meadowcroft",
+        "Vlad Badilita",
+        "Carlos Miguel Costa",
+        "Senentxu Lanceros-Méndez",
+        "Ying Li",
+        "Chenyao Ma",
+        "Weibo Gong",
+        "Surendra Martha",
+        "Aloysius Soon",
+        "Piao Ma",
+        "Di Zhang",
+        "Teguh Ariyanto",
+        "Sudaryanto",
+        "Hiroshi Kakinuma",
+        "Jie Zhao",
+        "Jie Peng",
+        "Pengfei Ou",
+        "J Lu",
+        "Shin-ichi ORIMO",
+        "Hao Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Eric Jianfeng Cheng",
+          "orcid": "0000-0003-0904-802X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Min Hong",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiquan Zeng",
+          "orcid": null,
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chuanyu Liu",
+          "orcid": null,
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Wang",
+          "orcid": "0000-0002-2447-111X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Melissa Jane Meadowcroft",
+          "orcid": null,
+          "affiliations": [
+            "London School of Economics and Political Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vlad Badilita",
+          "orcid": "0000-0002-7956-345X",
+          "affiliations": [
+            "Karlsruhe Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carlos Miguel Costa",
+          "orcid": "0000-0001-8453-4031",
+          "affiliations": [
+            "Centro de Física das Universidades do Minho e do Porto",
+            "University of Minho"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Senentxu Lanceros-Méndez",
+          "orcid": "0000-0001-6791-7620",
+          "affiliations": [
+            "University of the Basque Country",
+            "Basque Center for Materials, Applications and Nanostructures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ying Li",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chenyao Ma",
+          "orcid": "0009-0002-5142-3815",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weibo Gong",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Surendra Martha",
+          "orcid": "0000-0002-7762-7237",
+          "affiliations": [
+            "Indian Institute of Technology Hyderabad"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aloysius Soon",
+          "orcid": "0000-0002-6273-9324",
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Piao Ma",
+          "orcid": "0000-0002-4357-187X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Di Zhang",
+          "orcid": "0000-0001-6347-9344",
+          "affiliations": [
+            "Tohoku University",
+            "Frontier Research Institute for Interdisciplinary Sciences, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Teguh Ariyanto",
+          "orcid": "0000-0002-9454-9541",
+          "affiliations": [
+            "Universitas Gadjah Mada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sudaryanto",
+          "orcid": null,
+          "affiliations": [
+            "National Research and Innovation Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroshi Kakinuma",
+          "orcid": "0000-0001-6944-0803",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Zhao",
+          "orcid": "0000-0003-4543-3494",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Peng",
+          "orcid": "0000-0002-9811-6831",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pengfei Ou",
+          "orcid": "0000-0002-3630-0385",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J Lu",
+          "orcid": "0000-0002-5875-8899",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shin-ichi ORIMO",
+          "orcid": "0000-0002-4216-0446",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.75354",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.75354",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75354",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid electrolytes (SEs) are central to next-generation metal batteries, yet their discovery remains constrained by fragmented data, limited transferability of simulations, and slow experimental iteration. Unlike catalysis, where surface reactivity dominates, SEs require simultaneous optimization of bulk ion transport, defect chemistry, mechanical integrity, and interfacial stability. Here, we outline a framework for autonomous SE discovery enabled by large artificial intelligence (AI) models, including machine learning interatomic potentials (MLIPs) and large language models (LLMs). We discuss the evolution from static materials databases to dynamic, self-updating knowledge systems, the role of MLIPs in bridging density functional theory (DFT) and long-timescale ion migration, and the emergence of LLMs as engines for literature mining, hypothesis generation, and scientific reasoning. We further describe a closed-loop architecture integrating AI-driven candidate design, multiscale simulation, uncertainty-aware selection, and experimental validation. Such systems shift SE research from intuition-guided exploration to data-informed, self-improving cycles. We conclude by highlighting challenges in data standardization, interfacial complexity, and reproducibility, and we propose design principles for building autonomous laboratories for solid-state battery materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Digital materials ecosystem: from databases to AI agents for autonomous discovery",
+      "authors": [
+        "Di Zhang",
+        "Xue Jia",
+        "Yuhang Wang",
+        "Heng Liu",
+        "Qian Wang",
+        "Seong‐Hoon Jang",
+        "Daksh Shah",
+        "Songbo Ye",
+        "Hung Ba Tran",
+        "Hao Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Di Zhang",
+          "orcid": "0000-0001-6347-9344",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xue Jia",
+          "orcid": "0009-0003-6591-4284",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuhang Wang",
+          "orcid": "0009-0003-8376-0055",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Heng Liu",
+          "orcid": "0000-0002-7272-3908",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Wang",
+          "orcid": "0000-0002-4935-7508",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seong‐Hoon Jang",
+          "orcid": "0000-0001-6026-636X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daksh Shah",
+          "orcid": "0000-0002-9354-1425",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Songbo Ye",
+          "orcid": "0009-0003-4565-0402",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hung Ba Tran",
+          "orcid": "0000-0001-5508-3956",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemical Science",
+      "doi": "10.1039/d5sc09229a",
+      "type": "review",
+      "url": "https://doi.org/10.1039/d5sc09229a",
+      "cited_by_count": 31,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2026/sc/d5sc09229a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "The concept of a digital materials ecosystem represents a new paradigm in materials research, where data, theory, and automation are integrated into a unified and iterative framework. By combining reliable databases, physical frameworks, and intelligent data analysis, materials discovery is evolving from empirical exploration toward a systematic and predictive science. The rapid growth of data and artificial intelligence (AI) has enabled the identification of complex structure-property relationships, while advances in automated synthesis and high-throughput characterization are closing the loop between prediction and validation. Looking forward, the field must focus on building trustworthy and benchmarked datasets, developing interpretable and high-precision models, and designing AI tools that embody human scientific reasoning. Equally important is ensuring standardization and consistency between digital inputs and experimental responses. Together, these efforts will transform materials discovery from data accumulation into genuine knowledge generation, paving the way for an autonomous and self-improving research ecosystem that accelerates both fundamental understanding and technological innovation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Physics‐Grounded Materials Artificial Intelligence for Reliable Materials Discovery",
+      "authors": [
+        "Yuhang Wang",
+        "Qian Wang",
+        "Seong‐Hoon Jang",
+        "Hao Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yuhang Wang",
+          "orcid": "0009-0003-8376-0055",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Wang",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seong‐Hoon Jang",
+          "orcid": "0000-0001-6026-636X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.78119",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adfm.78119",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78119",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Artificial intelligence (AI) is transforming materials discovery, yet conventional data‐driven approaches often suffer from limited interpretability, poor extrapolation, and inconsistency with physical laws. Since materials behavior is fundamentally governed by thermodynamics, kinetics, electronic structure, transport processes, and operating environments, the next generation of materials intelligence must move beyond correlation‐based prediction toward physics‐grounded reasoning. In this Perspective, we systematically discuss Physics‐Grounded Materials AI (PhysMat AI) as a unifying perspective for integrating physical knowledge into materials intelligence through five complementary roles: physics as prior knowledge, descriptors, constraints, verifiers, and infrastructure. Using representative examples from catalysis, solid‐state electrolytes in solid‐state battery, and hydrogen‐storage materials, we illustrate how physical principles guide data representation, model reasoning, validation workflows, and knowledge management. We further present how AI agents can leverage these physics‐aware components to perform mechanism‐guided discovery within physically feasible search spaces. Finally, we outline a developmental roadmap from physics‐aware AI to physics‐reasoning AI and ultimately physics‐autonomous AI. Looking forward, materials intelligence should evolve from predictive models toward autonomous scientific systems capable of integrating physical reasoning, multiscale simulations, experimental validation, and continuous knowledge updating for reliable materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "When Literature Data Mislead Artificial Intelligence in Materials Discovery",
+      "authors": [
+        "Qian Wang",
+        "Ying Li",
+        "Ryuhei Sato",
+        "Hidemi Kato",
+        "Shin-ichi Orimo",
+        "Hao Li",
+        "Eric Jianfeng Cheng"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Qian Wang",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ying Li",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryuhei Sato",
+          "orcid": "0000-0002-5503-0982",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hidemi Kato",
+          "orcid": "0000-0002-9934-7922",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shin-ichi Orimo",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric Jianfeng Cheng",
+          "orcid": "0000-0003-0904-802X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.01621",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2609.01621",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2609.01621",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Artificial intelligence (AI) increasingly treats scientific literature as a data source for building databases, training predictive models, and guiding discovery. Yet literature-derived datasets often assume that reported experimental values are internally consistent and directly reusable. Here, we analyze this assumption using solid electrolyte (SE) conductivity data as a representative materials-science case. By tracing values from source articles to curated datasets, we identify recurrent text-figure mismatches, ambiguous axis annotations, unit inconsistencies, and missing measurement context. These discrepancies are often numerically plausible and therefore difficult to detect through routine preprocessing, but they can propagate as structured label noise during database construction and machine-learning reuse. A cross-database example shows how ambiguous reporting can create a 100-fold conductivity error. Our analysis reframes data accuracy as an infrastructure requirement for artificial-intelligence-driven discovery and motivates traceable reporting, curation, and validation practices for reusable scientific data. Keywords: AI for science; Data reliability; Scientific databases; Structured label noise; Literature-derived data; Materials informatics; Solid electrolytes",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "The rise of the digital materials ecosystem",
+      "authors": [
+        "Adesh Rohan Mishra",
+        "Jenedith Pascasio",
+        "Jonathan Yang",
+        "Wan-Lu Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Adesh Rohan Mishra",
+          "orcid": null,
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jenedith Pascasio",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan Yang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wan-Lu Li",
+          "orcid": null,
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AI Agent",
+      "doi": "10.20517/aiagent.2026.08",
+      "type": "article",
+      "url": "https://doi.org/10.20517/aiagent.2026.08",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://f.oaes.cc/xmlpdf/published/article/afb94032ded4a0fa6cbfdef6422762e3/aiagent2008.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Artificial intelligence for energy materials research: From classical machine learning to large models",
+      "authors": [
+        "Mingxi Jiang",
+        "Jie Zhou",
+        "Yanggang An",
+        "Zhengran Lin",
+        "Menghao Yang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Mingxi Jiang",
+          "orcid": "0000-0002-9719-3093",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanggang An",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhengran Lin",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Menghao Yang",
+          "orcid": "0000-0001-7926-5113",
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ENGINEERING Energy",
+      "doi": "10.1007/s11708-026-1053-5",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11708-026-1053-5",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11708-026-1053-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract With the global energy system transitioning to renewable energy, high-efficiency energy storage and conversion technologies have become crucial. However, traditional research paradigms for the research and development (R&D) of energy materials such as batteries and electrocatalysts present the limitations in efficiency. This review systematically summarizes the progress of artificial intelligent (AI) in this field, ranging from classical machine learning (ML) to advanced representation methods such as graph neural networks (GNNs) and transformers that enable precise property prediction and structure generation. It also covers generative models for inverse design and large language models (LLMs) for knowledge extraction, along with key domain databases. Current challenges include limited interpretability and the underutilization of emerging AI technologies. Finally, this review discusses future directions such as the applications of multimodal language models, aiming to provide insights for accelerating high-performance energy materials innovation and advancing the global renewable energy transition.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Bound Water-Mediated Fast Ion Transport in Viscoelastic Solid-State Electrolyte Boosting Performance of Solid-State Zinc-Ion Batteries",
+      "authors": [
+        "Yachen Cao",
+        "Weijia Lin",
+        "Lirui Xing",
+        "Minghui Ye",
+        "Yufei Zhang",
+        "Yongchao Tang",
+        "Xiaoqing Liu",
+        "Zhipeng Wen",
+        "Qingyu Yan",
+        "Wencheng Du",
+        "Cheng Chao Li"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yachen Cao",
+          "orcid": null,
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weijia Lin",
+          "orcid": null,
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lirui Xing",
+          "orcid": null,
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minghui Ye",
+          "orcid": "0000-0003-2779-2557",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yufei Zhang",
+          "orcid": "0000-0001-8786-4845",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongchao Tang",
+          "orcid": "0000-0003-2710-3686",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoqing Liu",
+          "orcid": "0000-0002-6734-1868",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhipeng Wen",
+          "orcid": "0000-0002-8123-0291",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qingyu Yan",
+          "orcid": "0000-0003-0317-3225",
+          "affiliations": [
+            "Nanyang Technological University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wencheng Du",
+          "orcid": "0009-0000-9925-5000",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheng Chao Li",
+          "orcid": "0000-0003-2434-760X",
+          "affiliations": [
+            "Guangdong University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "eChem",
+      "doi": "10.53941/echem.2025.100004",
+      "type": "article",
+      "url": "https://doi.org/10.53941/echem.2025.100004",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://media.sciltp.com/articles/2510001751/2510001751.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Efficient ion transport represents a key challenge in the development of solid-state zinc-ion electrolytes. While the introduction of bound water is known to enhance ionic conductivity, the regulation of its content and its precise role in the ion transport mechanism remain inadequately understood. Herein, we systematically investigate the role of water content (0–19.87 wt%) in a poly(ethylene glycol) (PEG)-based viscoelastic solid-state electrolyte (V-SSE) in modulating Zn2⁺ transport and enhancing the performance of Zn||I2 batteries. Through positron annihilation lifetime spectroscopy, Fourier transform infrared spectroscopy, and molecular dynamics simulations, we observe that the free volume expands from 152 Å3 to 163 Å3 with increasing water content up to 9.16%, facilitating ion mobility. Beyond this level, free volume slightly decreases, yet ionic conductivity continues to rise, suggesting alternative promoting mechanisms. At a critical H2O-to-ether oxygen (EO) molar ratio of 1:1, a threefold increase in the ion diffusion coefficient occurs compared to that at H2O:EO = 1:3, stemming from shortened transport distance and enhanced diffusion kinetics. Consequently, the bound water-mediated V-SSE enables a high specific capacity of 170–208 mAh g−1 in Zn||I2 full cells, approximately twice that of the anhydrous system (94 mAh g−1), and maintains stable cycling over 3000 cycles. This study elucidates the multirole mechanism of bound water in enhancing ion conduction without compromising electrochemical stability, providing valuable insights for the design of high-performance solid-state electrolytes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "A complex hydride-based electrolyte additive for rechargeable Li−S batteries",
+      "authors": [
+        "S.-K. Kim",
+        "Junyoung Heo",
+        "Hawon Gu",
+        "Huijeong Oh",
+        "Taegyoung Lee",
+        "Youngju Lee",
+        "Kazuaki Kisu",
+        "Shin‐ichi Orimo",
+        "Jun‐Woo Park",
+        "Sangryun Kim"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "S.-K. Kim",
+          "orcid": "0009-0005-2289-1419",
+          "affiliations": [
+            "Gwangju Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junyoung Heo",
+          "orcid": "0009-0005-4355-338X",
+          "affiliations": [
+            "Korea Electrotechnology Research Institute",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hawon Gu",
+          "orcid": null,
+          "affiliations": [
+            "Korea Electrotechnology Research Institute",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huijeong Oh",
+          "orcid": null,
+          "affiliations": [
+            "Gwangju Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taegyoung Lee",
+          "orcid": "0009-0007-4704-2645",
+          "affiliations": [
+            "Gwangju Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Youngju Lee",
+          "orcid": "0000-0003-2470-972X",
+          "affiliations": [
+            "Korea Basic Science Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuaki Kisu",
+          "orcid": "0000-0002-1693-4225",
+          "affiliations": [
+            "Shibaura Institute of Technology",
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shin‐ichi Orimo",
+          "orcid": "0000-0002-4216-0446",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun‐Woo Park",
+          "orcid": "0000-0002-1446-8822",
+          "affiliations": [
+            "Korea Electrotechnology Research Institute",
+            "Korea University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sangryun Kim",
+          "orcid": "0000-0001-8617-3022",
+          "affiliations": [
+            "Gwangju Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Communications Materials",
+      "doi": "10.1038/s43246-025-00932-x",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s43246-025-00932-x",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s43246-025-00932-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lithium−sulfur (Li−S) batteries are considered promising next-generation energy storage systems due to their high energy density, low-cost S cathodes, and potential for sustainable large-scale applications. However, they face significant challenges, including the lithium polysulfides (LiPS) shuttle effect associated with the S cathodes and interfacial reactions at the Li metal anodes, which occur concurrently and hinder their stable operation. To address these simultaneous issues at both the cathode and anode, we propose the use of complex hydrides as an electrolyte additive. Closo-type complex hydride Li(CB11H12) dissociates in the electrolyte to form mobile lithium cations and rigid polyanionic complex anions [CB11H12]−, which form Li+−solvent coordination by its weak coordinating ability. The weakened solvation free energy and the reducing ability of this modified electrolyte suppress LiPS dissolution at the S cathode as well as facilitates stable lithium anode reaction, enhancing the cycling stability and coulombic efficiency of Li−S batteries. The findings of this study underscore the importance of designing electrolyte structures using various complex hydrides and highlight their potential to address the limitations of Li−S batteries, paving the way for future advancements in this field. Li–S batteries promise high energy density but suffer from polysulfide shuttling and lithium anode instability. Here, a closo-type complex hydride additive is introduced to modify Li⁺ solvation, suppress polysulfide dissolution, and stabilize the anode for improved cycling.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Application-oriented design of machine learning paradigms for battery science",
+      "authors": [
+        "Ying Wang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Ying Wang",
+          "orcid": "0000-0002-7459-1152",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01575-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01575-9",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01575-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract In the development of battery science, machine learning (ML) has been widely employed to predict material properties, monitor morphological variations, learn the underlying physical rules and simplify the material-discovery processes. However, the widespread adoption of ML in battery research has encountered limitations, such as the incomplete and unfocused databases, the low model accuracy and the difficulty in realizing experimental validation. It is significant to construct the dataset containing specific-domain knowledge with suitable ML models for battery research from the application-oriented perspective. We outline five key challenges in the field and highlight potential research directions that can unlock the full potential of ML in advancing battery technologies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "From Data to Discovery: How AI-Driven Materials Databases Are Reshaping Research",
+      "authors": [
+        "Yaping Qi",
+        "Weijie Yang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yaping Qi",
+          "orcid": "0000-0002-0367-3695",
+          "affiliations": [
+            "North China Electric Power University",
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weijie Yang",
+          "orcid": "0009-0001-7582-6873",
+          "affiliations": [
+            "North China Electric Power University",
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computers, materials & continua/Computers, materials & continua (Print)",
+      "doi": "10.32604/cmc.2025.064061",
+      "type": "article",
+      "url": "https://doi.org/10.32604/cmc.2025.064061",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://cdn.techscience.press/files/cmc/2025/TSP_CMC-83-2/TSP_CMC_64061/TSP_CMC_64061.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "AI-driven materials databases are transforming research by integrating experimental and computational data to enhance discovery and optimization. Platforms such as Digital Catalysis Platform (DigCat) and Dynamic Database of S... | Find, read and cite all the research you need on Tech Science Press",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Visualizing Concerted Ion Migration of Superionic Conductors via Directed Graphs",
+      "authors": [
+        "Ryuhei Sato",
+        "Yasunobu Ando",
+        "Kartik Sau",
+        "Yasushi Shibuta"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Ryuhei Sato",
+          "orcid": "0000-0002-5503-0982",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yasunobu Ando",
+          "orcid": "0000-0003-3702-034X",
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kartik Sau",
+          "orcid": "0000-0003-2432-2015",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yasushi Shibuta",
+          "orcid": "0000-0002-9219-4521",
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.5c02374",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.5c02374",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.5c02374?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A directed-graph model is proposed to describe the concerted ion migration in superionic conductors. Here, each ion hopping during the molecular dynamics simulation is represented as a displacement vector. Multiple hoppings are then timely and spatially connected to reconstruct the concerted ion migration. This enables the quantitative visualization of concerted migration within short time intervals. The parameters of this model are derived from physically meaningful quantities like jump distances, diffusion coefficients, and pair distribution functions, reducing the reliance on arbitrary hyperparameters. We applied the model to Li10GeP2S12, Na2Ni2TeO6, and AgI, demonstrating its general applicability and robustness. The model accurately reproduces the ion conductivity obtained via the Green–Kubo formalism, which incorporates ion–ion correlations and corresponds to values measured by electrochemical methods such as impedance spectroscopy. This consistency validates the concerted migration picture from our directed-graph model. Our analysis further reveals that enhanced conductivity is linked to a local “correlation distance” between hopping ions. This suggests that controlling local interactions such as ion-lattice coupling offer a pathway to optimize the concerted ion migration in superionic conductors.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "AI as a catalyst for transforming scientific research: a perspective",
+      "authors": [
+        "Limin Li",
+        "Kan Xu",
+        "Rui Su",
+        "Huan Gu",
+        "Piao Ma"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Limin Li",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kan Xu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rui Su",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huan Gu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Piao Ma",
+          "orcid": "0000-0002-4357-187X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AI Agent",
+      "doi": "10.20517/aiagent.2025.08",
+      "type": "article",
+      "url": "https://doi.org/10.20517/aiagent.2025.08",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://f.oaes.cc/xmlpdf/published/article/c7db83ac86092156f14eb92234cf21ae/aiagent1008.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Artificial intelligence (AI) is revolutionizing how we conduct, scale, and reimagine scientific research. Unlike prior technologies that amplified human capability within existing paradigms, AI is redefining the very steps of scientific inquiry - from scientific hypothesis generation to experimental validation - and breaking down barriers that have long stymied progress across disciplines. AI has emerged as a transformative tool in scientific research, widely recognized for its contributions to groundbreaking achievements in highly complex domain-specific tasks. Nevertheless, beneath these remarkable successes, systemic vulnerabilities exist that threaten the authenticity of AI-enabled scientific research. Several interconnected challenges are particularly prominent: Large Language Models, now extensively employed for mining data from millions of research papers, face difficulties in extracting reliable information; AI models that learn patterns from training data may generate “hallucinations” that appear valid but are actually false or physically impossible; and both issues are amplified by a persistent lack of high-quality experimental data. Addressing these challenges is not merely a technical necessity, but also a safeguard for the integrity of scientific research.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "User Instructions for the Dynamic Database of Solid-State Electrolyte 2.0 (DDSE 2.0)",
+      "authors": [
+        "Fangling Yang",
+        "Qian Wang",
+        "Eric Jianfeng Cheng",
+        "Di Zhang",
+        "Hao Li"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Fangling Yang",
+          "orcid": "0009-0000-2938-9337",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Wang",
+          "orcid": "0000-0002-6052-9665",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric Jianfeng Cheng",
+          "orcid": "0000-0003-0904-802X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Di Zhang",
+          "orcid": "0000-0001-7194-0591",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computers, materials & continua/Computers, materials & continua (Print)",
+      "doi": "10.32604/cmc.2024.060288",
+      "type": "article",
+      "url": "https://doi.org/10.32604/cmc.2024.060288",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://cdn.techscience.press/files/cmc/2024/TSP_CMC-81-3/TSP_CMC_60288/TSP_CMC_60288.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Dynamic Database of Solid-State Electrolyte (DDSE) is an advanced online platform offering a comprehensive suite of tools for solid-state battery research and development. Its key features include statistical analysis of ... | Find, read and cite all the research you need on Tech Science Press",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Unlocking the secrets of ideal fast ion conductors for all-solid-state batteries",
+      "authors": [
+        "Kartik Sau",
+        "Shigeyuki Takagi",
+        "Tamio Ikeshoji",
+        "Kazuaki Kisu",
+        "Ryuhei Sato",
+        "Egon Campos dos Santos",
+        "Hao Li",
+        "Rana Mohtadi",
+        "Shin‐ichi Orimo"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Kartik Sau",
+          "orcid": "0000-0003-2432-2015",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University",
+            "National Institute of Advanced Industrial Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shigeyuki Takagi",
+          "orcid": "0000-0002-8434-7946",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tamio Ikeshoji",
+          "orcid": "0000-0001-7263-9899",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University",
+            "National Institute of Advanced Industrial Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuaki Kisu",
+          "orcid": "0000-0002-1693-4225",
+          "affiliations": [
+            "Shibaura Institute of Technology",
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryuhei Sato",
+          "orcid": "0000-0002-5503-0982",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Egon Campos dos Santos",
+          "orcid": "0000-0002-8871-3368",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rana Mohtadi",
+          "orcid": "0000-0002-1203-3809",
+          "affiliations": [
+            "Toyota Motor North America Research & Development (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shin‐ichi Orimo",
+          "orcid": "0000-0002-4216-0446",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Communications Materials",
+      "doi": "10.1038/s43246-024-00550-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s43246-024-00550-z",
+      "cited_by_count": 77,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s43246-024-00550-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract All-solid-state batteries (ASSBs) are promising alternatives to conventional lithium-ion batteries. ASSBs consist of solid-fast-ion-conducting electrolytes and electrodes that offer improved energy density, battery safety, specific power, and fast-charging capability. Despite decades of intensive research, only a few have high ionic conductivity at ambient temperature. Developing fast ion-conducting materials requires both synthesis of high-conducting materials and a fundamental understanding of ion transport mechanisms. However, this is challenging due to wide variations of the ionic conductivity, even within the same class of materials, indicating the strong influence of structural modifications on ion transport. This Review discusses three selected material classes, namely layered oxides, polyhedral connections, and cluster anion types, as promising fast ion conductors. Emphasis is placed on the inherent challenges and the role of the framework structure on mobile ion conduction. We elucidate strategies to address these challenges by leveraging theoretical frameworks and insights from materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "A dynamic database of solid-state electrolyte (DDSE) picturing all-solid-state batteries",
+      "authors": [
+        "Fangling Yang",
+        "Egon Campos dos Santos",
+        "Xue Jia",
+        "Ryuhei Sato",
+        "Kazuaki Kisu",
+        "Yusuke Hashimoto",
+        "Shin‐ichi Orimo",
+        "Hao Li"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Fangling Yang",
+          "orcid": "0009-0000-2938-9337",
+          "affiliations": [
+            "Tohoku University",
+            "Sichuan University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Egon Campos dos Santos",
+          "orcid": "0000-0002-8871-3368",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xue Jia",
+          "orcid": "0009-0003-6591-4284",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryuhei Sato",
+          "orcid": "0000-0002-5503-0982",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuaki Kisu",
+          "orcid": "0000-0002-1693-4225",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yusuke Hashimoto",
+          "orcid": null,
+          "affiliations": [
+            "Tohoku University",
+            "Tohoku Forum for Creativity, Organization for Research Promotion, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shin‐ichi Orimo",
+          "orcid": "0000-0002-4216-0446",
+          "affiliations": [
+            "Tohoku University",
+            "Institute for Materials Research, Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nano Materials Science",
+      "doi": "10.1016/j.nanoms.2023.08.002",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.nanoms.2023.08.002",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://doi.org/10.1016/j.nanoms.2023.08.002",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "All-solid-state batteries (ASSBs) are a class of safer and higher-energy-density materials compared to conventional devices, from which solid-state electrolytes (SSEs) are their essential components. To date, investigations to search for high ion-conducting solid-state electrolytes have attracted broad concern. However, obtaining SSEs with high ionic conductivity is challenging due to the complex structural information and the less-explored structure-performance relationship. To provide a solution to these challenges, developing a database containing typical SSEs from available experimental reports would be a new avenue to understand the structure-performance relationships and find out new design guidelines for reasonable SSEs. Herein, a dynamic experimental database containing >600 materials was developed in a wide range of temperatures (132.40–1261.60 ​K), including mono- and divalent cations (e.g., Li+, Na+, K+, Ag+, Ca2+, Mg2+, and Zn2+) and various types of anions (e.g., halide, hydride, sulfide, and oxide). Data-mining was conducted to explore the relationships among different variates (e.g., transport ion, composition, activation energy, and conductivity). Overall, we expect that this database can provide essential guidelines for the design and development of high-performance SSEs in ASSB applications. This database is dynamically updated, which can be accessed via our open-source online system.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "发表年份（5 年一档）",
+      "value": "2025–2029",
+      "count": 14,
+      "known": 17,
+      "pct": 82,
+      "text": "发表年份（5 年一档）：2025–2029 = 14/17（82%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 14,
+      "known": 17,
+      "pct": 82,
+      "text": "文献类型：journal-article = 14/17（82%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 17,
+      "known": 17,
+      "pct": 100,
+      "text": "主命中源：openalex = 17/17（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 17,
+    "after_dedup": 17,
+    "shown": 17,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "verified_date": "2026-11-01",
+  "metadata_basis": "../journal_works.json and ../journal_candidates.json; centrally harvested Crossref Scientific Data journal census, 9,304 works through cutoff",
+  "method": "Title screening supplemented by primary Nature/Scientific Data web discovery, primary full-text reads, deposit metadata and selected payload checks. No OpenAlex bulk calls.",
+  "web_query_families": [
+    "Scientific Data crystal structures / periodic datasets",
+    "Scientific Data interatomic potentials / DFT / molecular dynamics",
+    "Scientific Data MOF / COF / zeolite / frameworks",
+    "Scientific Data monolayer / two-dimensional / bilayer / MXene",
+    "Scientific Data first-principles alloys / perovskite / surface energies",
+    "Scientific Data older sdata.* releases",
+    "Targeted TBHubbard / PAH101 / ElectroFace licence and count checks"
+  ],
+  "added": 24,
+  "lead_rows": 69,
+  "dispositions": {
+    "added": 24,
+    "existing": 29,
+    "deferred": 16
+  }
+}

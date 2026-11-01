@@ -2,7 +2,7 @@
 
 [Search superconductors](https://usccolumbia.github.io/matverse/?q=superconductor) · [Back to MatVerse](../README.md) · [All source links](../sources.md)
 
-Checked 2026-11-01. This supplement covers **24 dataset/release records**, together with specialist reference resources. Experimental transition temperatures, structure matches, electron–phonon calculations and learned-model training inputs describe different evidence. Their reported sizes help locate data, but cannot be added into a count of superconducting materials.
+Checked 2026-11-01. This supplement covers **27 dataset/release records**, together with specialist reference resources. Experimental transition temperatures, structure matches, electron–phonon calculations and learned-model training inputs describe different evidence. Their reported sizes help locate data, but cannot be added into a count of superconducting materials.
 
 The supplement asks which public releases cover these tasks, what Hennig-group papers actually distribute, and how structure access, pressure, overlap and label provenance affect reuse. Three independent primary-source audits examined the [Hennig releases](../research/superconductivity_hennig_notes.md), [public experimental/reference resources](../research/superconductivity_public_notes.md), and [specialized computational releases](../research/superconductivity_specialized_notes.md). Dataset cards retain individual download routes, licenses, versions, evidence and caveats. This is a targeted coverage supplement, not an exhaustive census.
 
@@ -13,6 +13,7 @@ Reported volumes descend below; the counted unit remains explicit. A CIF invento
 | Dataset / release | Reported size | Counted unit | Structure availability | Label provenance | Access |
 |---|---:|---|---|---|---|
 | [3DSC_ICSD — superconductors linked to ICSD structures](catalog/experimental_properties.md#3dsc-icsd) | 86,490 | matched crystal structures | structure_linked | mixed | mixed |
+| [MateriaViva — Superconducting critical temperature](catalog/materials_properties.md#materiaviva-property-tc-superconducting) | 26,613 | property values | structure_linked | source- and method-labeled aggregate; original measurement, computation or descriptor provenance retained per row | open |
 | [UCI Superconductivity Data (Hamidieh 2018)](catalog/property_benchmarks.md#uci-superconductivity-2018) | 21,263 | tabular material records | composition_only | experimental | open |
 | [SuperCon² text-extracted superconductivity records](catalog/experimental_properties.md#supercon2-text) | 18,943 | text-extracted material-property records | composition_only | literature | open |
 | [Stanev SuperCon subset / JARVIS supercon_chem composition–Tc benchmark](catalog/experimental_properties.md#jarvis-supercon-chem) | 16,414 | composition/Tc records | composition_only | literature measurements and zero-coded missing targets | open |
@@ -22,6 +23,8 @@ Reported volumes descend below; the counted unit remains explicit. A CIF invento
 | [MC3D conventional-superconductivity screening and Eliashberg dataset](catalog/property_benchmarks.md#mc3d-superconductivity) | 4,533 | screened metal structures | periodic_atomic | computed | open |
 | [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark](catalog/property_benchmarks.md#hennig-xie-eliashberg-benchmark) | 3,046 | descriptor/Tc table rows | mixed | mixed | open |
 | [SuperBand electronic-band / superconductivity dataset](catalog/property_benchmarks.md#superband) | 2,474 | materials | periodic_atomic | mixed | open |
+| [MateriaViva — Electron–phonon coupling](catalog/materials_properties.md#materiaviva-property-electron-phonon-coupling) | 1,526 | property values | structure_linked | source- and method-labeled aggregate; original measurement, computation or descriptor provenance retained per row | open |
+| [MateriaViva — Logarithmic average phonon frequency](catalog/materials_properties.md#materiaviva-property-phonon-log-average-frequency) | 1,526 | property values | structure_linked | source- and method-labeled aggregate; original measurement, computation or descriptor provenance retained per row | open |
 | [SuperMat public superconductivity linked-record CSV](catalog/experimental_properties.md#supermat-linked-records) | 1,305 | linked literature records | composition_only | literature | mixed |
 | [JARVIS superconductivity 3D DFT cohort](catalog/property_benchmarks.md#jarvis-supercon-3d) | 1,058 | materials | periodic_atomic | computed | open |
 | [SC-CoMIcs superconductivity information-extraction corpus](catalog/experimental_properties.md#sc-comics) | 1,000 | annotated abstracts | composition_only | literature | open |

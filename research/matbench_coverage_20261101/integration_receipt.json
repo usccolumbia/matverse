@@ -1,0 +1,33 @@
+{
+  "checked_date": "2026-11-01",
+  "page_rows": 46,
+  "revision": "8869a883a5067015b815886d878bd7aaa3862d2d",
+  "new_dataset_ids": [
+    "mp-frozen-2022",
+    "mp-graphs-2019",
+    "salex-omat24-validation",
+    "cosmos-sevennet-omni",
+    "matpes-pbe-2025-1",
+    "matpes-r2scan-2025-1",
+    "mdr-phonon-pbe-recalculation",
+    "pft-mdr-pbe-training",
+    "oc20-mads",
+    "oc20-slabs",
+    "oc20-dense",
+    "oc20-neb",
+    "mad-original-2025"
+  ],
+  "new_resource_urls": [
+    "https://arxiv.org/abs/2602.23489",
+    "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25.md",
+    "https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md",
+    "https://arxiv.org/abs/2512.23117",
+    "https://github.com/openmm/spice-dataset",
+    "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+    "https://github.com/aiqm/ANI1x_datasets",
+    "https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904"
+  ],
+  "catalog_records": 523,
+  "resources": 88,
+  "coverage_note": "All46 source-page rows preserved in source inventory. Existing family mappings do not assert identical release counts; unavailable full corpora and adjacent molecular sets remain explicitly labeled."
+}

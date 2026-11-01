@@ -1,0 +1,211 @@
+{
+  "dsc": {
+    "counts": {
+      "dsc_json/dsc_elsevier.json": 26930,
+      "dsc_json/dsc_rsc.json": 14930
+    },
+    "total": 41860,
+    "unique_internal_ids": 41860
+  },
+  "psc": {
+    "counts": {
+      "psc_json/psc_elsevier.json": 8259,
+      "psc_json/psc_rsc.json": 7559
+    },
+    "total": 15818,
+    "unique_internal_ids": 15818
+  },
+  "fabrication": {
+    "record_count": 3164,
+    "unique_dois": 3164,
+    "first_keys": [
+      "Ref_lead_author",
+      "Ref_publication_date",
+      "Ref_title",
+      "Ref_html_link",
+      "Ref_DOI_number",
+      "Substrate",
+      "HTL",
+      "Perovskite_composition",
+      "Perovskite_composition_short_form",
+      "Perovskite_composition_a_ions",
+      "Perovskite_composition_a_ions_coefficients",
+      "Perovskite_composition_b_ions",
+      "Perovskite_composition_b_ions_coefficients",
+      "Perovskite_composition_c_ions",
+      "Perovskite_composition_c_ions_coefficients",
+      "ETL",
+      "Top_contact",
+      "Cell_flexible",
+      "Cell_architecture",
+      "HTL_deposition",
+      "HTL_spin_coating_parameters",
+      "HTL_annealing_parameters",
+      "Perovskite_deposition",
+      "Perovskite_spin_coating_parameters",
+      "Perovskite_annealing_parameters",
+      "ETL_deposition",
+      "ETL_spin_coating_parameters",
+      "ETL_annealing_parameters",
+      "Top_contact_deposition",
+      "Top_contact_thickness"
+    ]
+  },
+  "selfcleaning": {
+    "json_files": 38,
+    "counts": {
+      "self_cleaning_datasets/material_dictionary/Hydrophilic_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 389
+      },
+      "self_cleaning_datasets/material_dictionary/Hydrophobic_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 397
+      },
+      "self_cleaning_datasets/material_dictionary/Oleophobic_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 205
+      },
+      "self_cleaning_datasets/material_dictionary/Omniphobic_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 119
+      },
+      "self_cleaning_datasets/material_dictionary/Photocatalytic_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 263
+      },
+      "self_cleaning_datasets/material_dictionary/SelfCleaning_material_dictionary.json": {
+        "type": "dict",
+        "top_level_len": 341
+      },
+      "self_cleaning_datasets/material_statistics/Hydrophilic_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 2348
+      },
+      "self_cleaning_datasets/material_statistics/Hydrophobic_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 2026
+      },
+      "self_cleaning_datasets/material_statistics/Oleophobic_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 1385
+      },
+      "self_cleaning_datasets/material_statistics/Omniphobic_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 891
+      },
+      "self_cleaning_datasets/material_statistics/Photocatalytic_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 1920
+      },
+      "self_cleaning_datasets/material_statistics/SelfCleaning_material_statistics.json": {
+        "type": "list",
+        "top_level_len": 3585
+      },
+      "self_cleaning_datasets/measurement_value/contact_angle/Hydrophilic_contact_angle.json": {
+        "type": "list",
+        "top_level_len": 1004
+      },
+      "self_cleaning_datasets/measurement_value/contact_angle/Hydrophobic_contact_angle.json": {
+        "type": "list",
+        "top_level_len": 1358
+      },
+      "self_cleaning_datasets/measurement_value/contact_angle/Oleophobic_contact_angle.json": {
+        "type": "list",
+        "top_level_len": 235
+      },
+      "self_cleaning_datasets/measurement_value/contact_angle/Omniphobic_contact_angle.json": {
+        "type": "list",
+        "top_level_len": 113
+      },
+      "self_cleaning_datasets/measurement_value/contact_angle/SelfCleaning_contact_angle.json": {
+        "type": "list",
+        "top_level_len": 477
+      },
+      "self_cleaning_datasets/measurement_value/refractive_index/Hydrophilic_refractive_index.json": {
+        "type": "list",
+        "top_level_len": 105
+      },
+      "self_cleaning_datasets/measurement_value/refractive_index/Hydrophobic_refractive_index.json": {
+        "type": "list",
+        "top_level_len": 129
+      },
+      "self_cleaning_datasets/measurement_value/refractive_index/Oleophobic_refractive_index.json": {
+        "type": "list",
+        "top_level_len": 5
+      },
+      "self_cleaning_datasets/measurement_value/refractive_index/Photocatalytic_refractive_index.json": {
+        "type": "list",
+        "top_level_len": 151
+      },
+      "self_cleaning_datasets/measurement_value/refractive_index/SelfCleaning_refractive_index.json": {
+        "type": "list",
+        "top_level_len": 75
+      },
+      "self_cleaning_datasets/measurement_value/sliding_angle/Hydrophobic_sliding_angle.json": {
+        "type": "list",
+        "top_level_len": 67
+      },
+      "self_cleaning_datasets/measurement_value/sliding_angle/Oleophobic_sliding_angle.json": {
+        "type": "list",
+        "top_level_len": 14
+      },
+      "self_cleaning_datasets/measurement_value/sliding_angle/Omniphobic_sliding_angle.json": {
+        "type": "list",
+        "top_level_len": 8
+      },
+      "self_cleaning_datasets/measurement_value/sliding_angle/SelfCleaning_sliding_angle.json": {
+        "type": "list",
+        "top_level_len": 43
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/Hydrophilic_transmittance.json": {
+        "type": "list",
+        "top_level_len": 26
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/Hydrophobic_transmittance.json": {
+        "type": "list",
+        "top_level_len": 52
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/Oleophobic_transmittance.json": {
+        "type": "list",
+        "top_level_len": 4
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/Omniphobic_transmittance.json": {
+        "type": "list",
+        "top_level_len": 2
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/Photocatalytic_transmittance.json": {
+        "type": "list",
+        "top_level_len": 26
+      },
+      "self_cleaning_datasets/measurement_value/transmittance/SelfCleaning_transmittance.json": {
+        "type": "list",
+        "top_level_len": 50
+      },
+      "self_cleaning_datasets/sentiment_statistics/Hydrophilic_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 620
+      },
+      "self_cleaning_datasets/sentiment_statistics/Hydrophobic_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 747
+      },
+      "self_cleaning_datasets/sentiment_statistics/Oleophobic_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 127
+      },
+      "self_cleaning_datasets/sentiment_statistics/Omniphobic_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 31
+      },
+      "self_cleaning_datasets/sentiment_statistics/Photocatalytic_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 643
+      },
+      "self_cleaning_datasets/sentiment_statistics/SelfCleaning_sentiment_statistics.json": {
+        "type": "dict",
+        "top_level_len": 294
+      }
+    }
+  }
+}

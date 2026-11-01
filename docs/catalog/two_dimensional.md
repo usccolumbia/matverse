@@ -96,7 +96,7 @@ Top-down exfoliation of Materials Project layered parents and bottom-up chemical
 - Generated substitutions are not experimental materials discoveries.
 - Overlap with Materials Project and other monolayer collections requires structure-level checks.
 
-**Tags:** Scientific Data, monolayers, chemical-substitution, DFT.
+**Tags:** Scientific Data, monolayers, chemical-substitution, DFT, Scientific-Data-descriptor.
 
 <a id="mc2d"></a>
 ## Materials Cloud Two-Dimensional Structure Database (MC2D)
@@ -191,6 +191,110 @@ NIST monolayer materials subset with optB88-vdW and related calculated propertie
 
 **Tags:** NIST, DFT, snapshot, family-subset.
 
+<a id="bmds-bilayers-760"></a>
+## BMDS bilayer electronic and transport dataset
+
+Ground-state stacking and electronic/transport properties for nonmagnetic-parent homobilayers selected from C2DB.
+
+**Size:** 760 bilayer materials (source wording: 760 bilayer materials).
+
+**Scope:** Published relaxed bilayer cohort, excluding failed interlayer separations.
+
+**Release:** Figshare v2. **Year:** 2023.
+
+**Provenance:** computed. **Structure availability:** `structure_linked`.
+
+**Labels/content:** stacking; binding energy; interlayer charge transfer; SOC band gap; effective mass; Seebeck coefficient; conductivity over relaxation time.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [paper](https://doi.org/10.1038/s41597-023-02146-7) · [data](https://doi.org/10.6084/m9.figshare.21799475.v2)
+
+**Evidence:**
+
+- [Scientific Data primary data descriptor](https://doi.org/10.1038/s41597-023-02146-7) (checked 2026-11-01): Ground-state stacking and electronic/transport properties for nonmagnetic-parent homobilayers selected from C2DB. Published relaxed bilayer cohort, excluding failed interlayer separations.
+- [Primary repository release metadata](https://api.figshare.com/v2/articles/21799475) (checked 2026-11-01): Confirms public release files and stated dataset terms; response hashes are saved in provider receipts.
+
+**Reuse and interpretation notes:**
+
+- Derived from C2DB monolayers; different from the existing 2024 BiDB release.
+- Release inventory includes tables, plots and stacking-generation prototype code; full ready-made coordinates for all 760 were not verified.
+- Transport values with unknown relaxation time remain sigma/tau, not measured conductivity.
+
+**Tags:** Scientific Data, survey:20261101, Scientific-Data-descriptor, Scientific-Data-survey-20261101.
+
+<a id="cmr-c2dm-2015"></a>
+## CMR C2DM transition-metal monolayer electronic structures (2015)
+
+Original monolayer dichalcogenide/oxide electronic-structure and GW campaign, released separately from the later C2DB.
+
+**Size:** 494 ASE calculation/structure rows (source wording: 494).
+
+**Scope:** The released c2dm.db systems table counted without adding spectra, property columns or functional results as independent materials.
+
+**Release:** Provider ASE database snapshot 2026-11-01. **Year:** 2015.
+
+**Provenance:** DFT / first-principles calculations. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** atomic structures; PBE/LDA/GLLB-SC band edges and gaps; G0W0 quasiparticle results for a subset.
+
+**Access:** open. **Dataset license:** Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification.
+
+**Official routes:** [homepage](https://cmr.fysik.dtu.dk/c2dm/c2dm.html) · [download](https://wiki.fysik.dtu.dk/cmr-files/c2dm.db)
+
+Other denominators (not added to the ranking):
+
+- 216 distinct name/phase keys: Derived from released key_value_pairs; not a structural deduplication.
+
+**Evidence:**
+
+- [CMR C2DM transition-metal monolayer electronic structures (2015) provider project page](https://cmr.fysik.dtu.dk/c2dm/c2dm.html) (checked 2026-11-01): Describes the property campaign and links its named ASE database.
+- [CMR C2DM transition-metal monolayer electronic structures (2015) downloadable ASE database](https://wiki.fysik.dtu.dk/cmr-files/c2dm.db) (checked 2026-11-01): Independently inspected SQLite systems table: 494 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.
+- [CMR repository terms](https://cmr.fysik.dtu.dk/) (checked 2026-11-01): Repository-wide CC BY-SA 4.0 declaration; browser terms differ.
+
+**Reuse and interpretation notes:**
+
+- 494 calculation rows represent 216 distinct name/phase keys; functional repeats and subset GW coverage are not additional unique materials.
+- Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated.
+- Strong overlap with later C2DB is expected; this is a separately downloadable 2015 GW/functional release, not 494 new monolayers.
+
+**Tags:** cmr, electronic-structure, semiconductors, additional-materials-20261101.
+
+<a id="zhou-2d-spin-hall-426"></a>
+## Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset
+
+Relativistic Wannier Hamiltonians and spin-Hall calculations for nonmagnetic monolayers, with detailed transport inputs for selected candidates.
+
+**Size:** 426 nonmagnetic monolayers (source wording: 426).
+
+**Scope:** 210 metals and 216 insulators in the Wannier-Hamiltonian cohort; selected-material transport folders are not added.
+
+**Release:** Materials Cloud v2, 2026-06-18; DOI 10.24435/materialscloud:yv-h7. **Year:** 2026.
+
+**Provenance:** First-principles DFT and Wannier interpolation; monolayers drawn from existing 2D collections. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** fully relativistic DFT bands; Wannier Hamiltonians; spin Hall conductivity; selected phonon/EPW charge transport inputs.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (record metadata).
+
+**Official routes:** [homepage](https://archive.materialscloud.org/records/rfcdy-wcy32) · [doi](https://doi.org/10.24435/materialscloud:yv-h7) · [paper](https://www.nature.com/articles/s41699-025-00562-4)
+
+**Count derivation:** Sum of disjoint metal/insulator cohorts listed in release README; 210 + 216 = 426.
+
+**Evidence:**
+
+- [Materials Cloud spin-Hall dataset v2](https://archive.materialscloud.org/records/rfcdy-wcy32) (checked 2026-11-01): Provider gives 426 nonmagnetic monolayers and provides Data.7z with a separate README.
+- [Materials Cloud v2 metadata](https://archive.materialscloud.org/api/records/rfcdy-wcy32) (checked 2026-11-01): Declares CC BY 4.0, open public files and versioned archive checksums.
+- [Spin-Hall archive README](https://archive.materialscloud.org/api/records/rfcdy-wcy32/files/README.txt/content) (checked 2026-11-01): Separately confirms 210 metallic and 216 insulating material directories, each with QE aiida.in/aiida.out, Wannier inputs, bands and Hamiltonian; selected transport folders have separate scope.
+
+**Reuse and interpretation notes:**
+
+- The structures overlap parent 2D databases; new content is the relativistic Wannier/spin-transport campaign.
+- Uniform transport and electron-phonon data are not promised for all 426 materials.
+- The 390 MiB archive was not downloaded; metadata and its independently downloaded README establish the released layout.
+
+**Tags:** spintronics, spin-hall, wannier, two-dimensional, additional-materials-20261101.
+
 <a id="2d-alloys"></a>
 ## 2D-Alloy Database
 
@@ -250,3 +354,35 @@ Relaxed heterobilayers selected for commensurability, small strain and tractable
 - Count is bilayer combinations, not independent monolayer chemistries.
 
 **Tags:** heterostructures, DFT, interfaces.
+
+<a id="ac2d-amorphous-graphene"></a>
+## AC-2D-22 amorphous graphene benchmark subset
+
+Monte Carlo bond-switched graphene models selected from the paper Figure 3 structural comparisons.
+
+**Size:** 150 selected 200-atom configurations (source wording: 150).
+
+**Scope:** Monte Carlo bond-switched graphene models selected from the paper Figure 3 structural comparisons.
+
+**Release:** Primary release/documentation checked 2026-11-01. **Year:** 2022.
+
+**Provenance:** model-generated; C-GAP-17-labeled. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** atomic coordinates; C-GAP-17 forces; local atomic energies; MC criterion and beta.
+
+**Access:** open. **Dataset license:** CC BY 4.0 original deposit; CC BY-NC-SA 4.0 normalized load-atoms distribution.
+
+**Official routes:** [paper](https://doi.org/10.1039/D2SC04326B) · [data](https://zenodo.org/records/7221166) · [loader](https://jla-gardner.github.io/load-atoms/datasets/AC-2D-22.html)
+
+**Evidence:**
+
+- [AC-2D-22 subset definition](https://jla-gardner.github.io/load-atoms/datasets/AC-2D-22.html) (checked 2026-11-01): Explicit 150 structures /30,000 atoms; importer selects Figure 3 final-structure folders with C-GAP-17 labels.
+- [Original amorphous-graphene deposit](https://zenodo.org/api/records/7221166) (checked 2026-11-01): Original data.tar.gz is open and metadata declares CC BY 4.0; normalized loader declares CC BY-NC-SA 4.0.
+
+**Reuse and interpretation notes:**
+
+- A selected Figure 3 subset, not all configurations in the original archive.
+- Local energies and forces are potential-generated targets rather than fresh DFT for every model.
+- Original and normalized routes declare different licenses; preserve the terms of the chosen distribution.
+
+**Tags:** additional-materials-20261101.

@@ -1,0 +1,1746 @@
+{
+  "date": "2026-11-01",
+  "query_count": 42,
+  "keyword_queries": 41,
+  "snowball_queries": 1,
+  "returned_occurrences": 1946,
+  "distinct_works": 1761,
+  "new_dataset_ids": [
+    "metal-combustion-properties",
+    "ml-hydpark",
+    "obelix",
+    "liverpool-ionics",
+    "caltech-li-conductivity-571",
+    "shon-ionic-conductivity-2023",
+    "uw-cmg-dilute-solute-diffusion",
+    "ternary-fluoride-electrode-pairs",
+    "migration-barriers-literature-2025",
+    "polyanion-sodium-cathode-2025",
+    "oxygen-migration-perovskites-2016",
+    "materialscloud-fast-li-ion-conductors",
+    "smidt-ferroelectric-2020",
+    "ricci-polar-ferroelectrics-2024",
+    "trinquet-shg-2024",
+    "fang-wannier-optical-transport-2025",
+    "cde-bandgaps-2022",
+    "cde-refractive-dielectric-2022",
+    "refractiveindex-info",
+    "topohse-db",
+    "wurtzite-piezoml-dryad",
+    "ipop-v3",
+    "ekhi-radiative-2026",
+    "nemad-magnetic",
+    "nemad-thermoelectric",
+    "tematdb272",
+    "estm-simd",
+    "wenzhou-te",
+    "hh130-mathub",
+    "dax-ti-experimental",
+    "cu-alloys-mechanical-2023",
+    "cu-cr-x-figure-extraction",
+    "polyverse-load-hardness",
+    "mce-llm-2024",
+    "fatiguedata-cma2022"
+  ],
+  "updated_dataset_ids": [
+    "digbat"
+  ],
+  "queries": [
+    {
+      "file": "research/openalex_property_20261101/core/catalytic_activity.json",
+      "mode": "search",
+      "query": "experimental catalytic activity materials dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "044ae376fb911cc82343be2f458bcf8d6924a12374f2d247b25aab93ed31eb53",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/core/corrosion.json",
+      "mode": "search",
+      "query": "alloy corrosion dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "0b754d1de77b070fa3bb6799801e6300aef5bd7316c7deff1f72c3b79a323e89",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/core/ddse_search.json",
+      "mode": "search",
+      "query": "A dynamic database of solid-state electrolyte DDSE picturing all-solid-state batteries",
+      "returned": 17,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 17,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "66786ae8de949250371aba60fc1257573eae23347b5d1135ced56ab5f05ac994",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/core/ddse_snowball.json",
+      "mode": "snowball",
+      "query": "10.1016/j.nanoms.2023.08.002",
+      "returned": 124,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索（滚雪球）",
+          "hit_count": 64,
+          "outcome": "ok",
+          "error": null,
+          "direction": "后向（本文引了谁）"
+        },
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索（滚雪球）",
+          "hit_count": 60,
+          "outcome": "ok",
+          "error": null,
+          "direction": "前向（谁引了本文）"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "未覆盖（无 API，滚雪球不适用）",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "direction": "—"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "未覆盖（无 API，滚雪球不适用）",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "direction": "—"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c3ad4a9976c25c847961a1612c9e7418ca98bf0c7e4ca0d90c50a9e3f1b2db14",
+      "per_source_cap": 100,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/core/hydrogen_storage.json",
+      "mode": "search",
+      "query": "hydrogen storage materials database dataset",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "9a77419bd12e6fed8d3b116f4f4616a619bf0b0381c7a3ee11339244add48fa9",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/core/property_databases.json",
+      "mode": "search",
+      "query": "materials experimental property dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "a610f49a5457adaf5d3347aadfc501879a336f1d15649e117670027e6cb2f29b",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/01_solid_electrolyte.json",
+      "mode": "search",
+      "query": "solid electrolyte ionic conductivity database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "ddc2319678ebd58a4b4ea84244c19738d9ab33e7887989a34ac275b3eda4f7ca",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/02_battery_electrode.json",
+      "mode": "search",
+      "query": "battery electrode materials property dataset",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "81e9621739b9cdb6ffc5595519263346b23ecc17787ef881f4163f034ec8385d",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/03_experimental_conductivity.json",
+      "mode": "search",
+      "query": "experimental ionic conductivity database lithium",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "4cefa1aed783960362a17fb5aed119be8e5f06dad4dad6caed71394d5ea9124e",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/04_diffusion.json",
+      "mode": "search",
+      "query": "diffusion coefficient materials dataset",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c656b6205af963fc59b434eb0dbe9c270fe5bfcbd1f348e68e1730ce8c0c84ff",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/05_solute_diffusion.json",
+      "mode": "search",
+      "query": "diffusion database dilute solute materials",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "1375ec8aeb6f9c668221742a5731ecceb1747c1b8795bc00343b168dfdfe2290",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/06_liquid_electrolytes.json",
+      "mode": "search",
+      "query": "battery electrolyte conductivity dataset CALiSol",
+      "returned": 10,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 10,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "bbdbff6767c46bbd715c9a62d7b081d1d4f6ad86f3948917ea54a22df2c4f20d",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/07_migration_barriers.json",
+      "mode": "search",
+      "query": "ionic migration barriers dataset",
+      "returned": 49,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "88d1fe46505c56c7ff6a374bf0e247b42a870b3ba9d63f7f1420fc0ad99fe520",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/08_electrolyte_experiments.json",
+      "mode": "search",
+      "query": "conductivity electrolyte formulations experiments",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "ba58beaf89abcf311dfe4433ef08d3bd132256908ff7fb73e9890cdc82a6af59",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/electrochem/09_laskowski.json",
+      "mode": "search",
+      "query": "solid electrolyte conductivity dataset Laskowski",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "e21d8238d677e24b40b305a0df7f54e162a6cb32a0908a41dd6798cf6e3035fa",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/bandgap.json",
+      "mode": "search",
+      "query": "experimental band gap database inorganic semiconductors",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c92b9416eb34517850b625f39ad259e9759b912cd3b380e1b2c89ec29a84f024",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/cde-gap-target.json",
+      "mode": "search",
+      "query": "Auto generated database semiconductor band gaps ChemDataExtractor",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "fa5ae2b32ad69cdf2ede0c903cd3af98dcd78235ec4b53d058cdf915c7d70c9d",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/cde-optical-target.json",
+      "mode": "search",
+      "query": "database refractive indices dielectric constants ChemDataExtractor",
+      "returned": 45,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 45,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "ca6382c2bb3ac4638ace86f09d39239de95fc710cdfb1f4bff434fd740cd427f",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/dielectric.json",
+      "mode": "search",
+      "query": "dielectric refractive index data driven dataset crystals",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "f3356d6d527c2d1af3e05bb7bf82a97d2113e467568a2915c449bf6228722806",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/ferroelectric-target.json",
+      "mode": "search",
+      "query": "automatically curated first principles database ferroelectrics",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "9408eb6e1d9c86db0dc4f2ac938768a84e77522c859b588c46c17d2f2fcbb1f9",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/ferroelectric.json",
+      "mode": "search",
+      "query": "ferroelectric database data descriptor",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "e009cb003e579735dbf7cef09c1fdaad6f937d2c344e2fb1f158b7ba06375734",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/ferroic.json",
+      "mode": "search",
+      "query": "ferroelectric piezoelectric dielectric materials dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "f9f8a84d57a4dbeb584b8a2908902fe095c2f865c2e3a683d5d45057bf0d245c",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/nlo.json",
+      "mode": "search",
+      "query": "nonlinear optical materials dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "eb8fa34ef1c474000d35a3acd4b452a21ecf6df92ddb51fc915641b0e1a6ee3f",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/optical-spectra.json",
+      "mode": "search",
+      "query": "database optical absorption spectra crystalline materials",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c4c3df429c28553479cce2b650d5cfcb69e536cb6f4d8fdcd8b0515f1890708b",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/optical.json",
+      "mode": "search",
+      "query": "optical electronic crystal materials dataset refractive index",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "bf3ec4c75ef451785800ddbc651ee4a466ee122590035f5ab0440d19fa517044",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/piezo-wurtzite.json",
+      "mode": "search",
+      "query": "Discovery wurtzite solid solutions enhanced piezoelectric response machine learning",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "1ce6cc51f12e29d522041a1192ba07b728a5ddd79b2d9d20b3eb89f5d63f8c69",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/shg-target.json",
+      "mode": "search",
+      "query": "Second harmonic generation tensors high throughput density functional perturbation",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c5702f4c31e78c3d27f54cd0ccca895540980f80b0f0bdf809d036e11a7e5355",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/tensor-target.json",
+      "mode": "search",
+      "query": "Dataset tensorial optical transport properties Wannier function method",
+      "returned": 29,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 29,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "9edae1c038af2c1bd453a562b39efda4bcb0bb8c27f017f000b9c961ae6df83d",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/topohse.json",
+      "mode": "search",
+      "query": "TopoHSE database",
+      "returned": 12,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 12,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "ab0c4c138b8b571464c7e50d8cc90ed87868134118b0c6fe1b78d14b511ecc92",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/ferroic/raw/topological.json",
+      "mode": "search",
+      "query": "topological materials database dataset",
+      "returned": 49,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "bbdd0befea57163e21b7ee584bc7a182ea19e588ac4a209be254dd6d6ed955e4",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_cucr.json",
+      "mode": "search",
+      "query": "mechanical electrical properties dataset Cu Cr alloys",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "f47e5461b18617f073cbb0e260d251e053e82993758f549e480110f661582cac",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_curation.json",
+      "mode": "search",
+      "query": "thermoelectric material database self consistent",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "b7b6ec599735f14ba563be7d0c831c4c1db9c001c5dc59032154c674f6565bbe",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_fatigue.json",
+      "mode": "search",
+      "query": "fatigue database complex metallic alloys",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "d159b53aa90d4e3155ab2fdc62f7371e2359cbb071e07a75ccddf3bf79ba5054",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_hardness.json",
+      "mode": "search",
+      "query": "load dependent hardness dataset",
+      "returned": 49,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "d9d9d1d2f2d069fbcbb54bbc0112103f0589ef7a1756fdf56273c1aaf9638751",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_magnetic.json",
+      "mode": "search",
+      "query": "magnetic materials database dataset magnetocaloric",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "79d043d617703ef4831fd67eab19bcbc989cc4f05267c8613f5ce39f5e59faf5",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_magnetocaloric.json",
+      "mode": "search",
+      "query": "magnetocaloric autogenerated database language models",
+      "returned": 13,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 13,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "4e54e8164711444731aa8f214aee3faf4a2ec507ba755aeb6506a0136cc7924a",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_mechanical.json",
+      "mode": "search",
+      "query": "elastic hardness database materials dataset",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "5c08e533cb94c20f58eaf1c1711a5ca2647607cce52842c8b6ff71404f4e082d",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_phonon.json",
+      "mode": "search",
+      "query": "lattice thermal conductivity high throughput database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "c82944e7c1d34655c0187754603826bf46daac641c40e9b8fabec0e9fb962dfd",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_refined.json",
+      "mode": "search",
+      "query": "NEMAD teMatDb ESTM Wenzhou thermoelectric",
+      "returned": 0,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 0,
+          "outcome": "empty",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "16624190c86b78de7073c7a7c4bafc47e29fb6cad523601c9911bebc40b27bac",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_thermal.json",
+      "mode": "search",
+      "query": "thermal conductivity database materials",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "ba8452e0523364771cff4aa6589c088c84fe63e18feb5993778bc7a5662d5421",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_thermoelectric.json",
+      "mode": "search",
+      "query": "thermoelectric transport dataset database",
+      "returned": 50,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "4d15fa375299fa922d7a0541d96003810f717e1df3de7c5b721f17fa57c817aa",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    },
+    {
+      "file": "research/openalex_property_20261101/transport/query_ti.json",
+      "mode": "search",
+      "query": "compilation experimental mechanical microstructural titanium alloys",
+      "returned": 49,
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ],
+      "warnings": [],
+      "sha256": "9a57d5296d0bc88700b6162dda55d5bedd932e03d9d880edb363c2d0a68dca22",
+      "per_source_cap": 50,
+      "final_result_limit": 0
+    }
+  ],
+  "coverage_notes": [
+    "OpenAlex queried automatically with no date restriction; keyword queries capped at 50 per source and DDSE citation/reference traversal at 100 per direction; no final result truncation.",
+    "Primary publisher/provider/deposit/repository pages verify promoted releases. Search results are leads, not independently verified datasets.",
+    "Direct supplementary DOI metadata requests included HTTP429 failures. Retained query results, independent perspective receipts and primary releases provide evidence; no missing IDs or counts were fabricated.",
+    "CNKI/Wanfang not covered. 英文库没检索到 ≠ 没人研究过. No systematic Crossref/Semantic Scholar corpus search was performed."
+  ],
+  "work_ledger_records_including_verification_lookups": 1764
+}

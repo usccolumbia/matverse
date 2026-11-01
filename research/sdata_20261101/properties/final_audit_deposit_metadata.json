@@ -1,0 +1,617 @@
+[
+  {
+    "key": "cde-dsc",
+    "url": "https://api.figshare.com/v2/articles/13516220",
+    "status": 200,
+    "bytes": 5045,
+    "sha256": "5b97a12388371b141cdadc2ea7268577bed864c64ca05648e5dd588bdfe6ccf9",
+    "data": {
+      "files": [
+        {
+          "id": 25942163,
+          "name": "dsc_json.zip",
+          "size": 6315992,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/25942163",
+          "supplied_md5": "a6f33cecda6a20d45af9c6087beaaf3c",
+          "computed_md5": "a6f33cecda6a20d45af9c6087beaaf3c",
+          "mimetype": "application/zip"
+        },
+        {
+          "id": 25942172,
+          "name": "dsc_mongodb.zip",
+          "size": 8316419,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/25942172",
+          "supplied_md5": "b09a74dd8fd225d53b3885a8df3c75c6",
+          "computed_md5": "b09a74dd8fd225d53b3885a8df3c75c6",
+          "mimetype": "application/zip"
+        },
+        {
+          "id": 27853779,
+          "name": "dsc_db-master.zip",
+          "size": 54573,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/27853779",
+          "supplied_md5": "94a05c5b0bbe3d7473c6b29f8d578c7a",
+          "computed_md5": "94a05c5b0bbe3d7473c6b29f8d578c7a",
+          "mimetype": "application/zip"
+        },
+        {
+          "id": 27853782,
+          "name": "chemdataextractor-pv-master.zip",
+          "size": 1076545,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/27853782",
+          "supplied_md5": "6d747688a27981e40351315023f87709",
+          "computed_md5": "6d747688a27981e40351315023f87709",
+          "mimetype": "application/zip"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 6256402,
+          "full_name": "edward beard",
+          "first_name": "edward",
+          "last_name": "beard",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 6256391,
+          "full_name": "Jacqueline Cole",
+          "first_name": "Jacqueline",
+          "last_name": "Cole",
+          "is_active": true,
+          "url_name": "Jacqueline_Cole",
+          "orcid_id": "0000-0002-1552-8743"
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/Dye-sensitized_Solar_Cell_Database/13516220",
+      "download_disabled": false,
+      "description": "<div>A Dye-sensitized Solar-Cell Device Database Auto-generated Using ChemDataExtractor</div>",
+      "funding": "Argonne Leadership Computing Facility, DOE Office of Science, Office of Basic Energy Sciences, DE-AC02-06CH11357; BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials; ISIS Neutron and Muon Facility, STFC Rutherford Appleton Laboratory (RAL), UK; Tessella; 1851 Royal Commission of the Great Exhibition for the 2014 Fellowship in Design.",
+      "funding_list": [
+        {
+          "id": 19561652,
+          "title": "Argonne Leadership Computing Facility, DOE Office of Science, Office of Basic Energy Sciences, DE-AC02-06CH11357; BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials; ISIS Neutron and Muon Facility, STFC Rutherford Appleton Laboratory (RAL), UK; Tessella; 1851 Royal Commission of the Great Exhibition for the 2014 Fellowship in Design.",
+          "grant_code": "",
+          "funder_name": null,
+          "is_user_defined": 1
+        }
+      ],
+      "version": 1,
+      "status": "public",
+      "size": 15763529,
+      "created_date": "2022-04-13T14:28:06Z",
+      "modified_date": "2022-04-13T14:28:07Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 3,
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      },
+      "tags": [
+        "Dye Sensitized Solar Cells",
+        "device data",
+        "Condensed Matter Physics",
+        "Optical Properties of Materials",
+        "Energy Generation, Conversion and Storage Engineering"
+      ],
+      "keywords": [
+        "Dye Sensitized Solar Cells",
+        "device data",
+        "Condensed Matter Physics",
+        "Optical Properties of Materials",
+        "Energy Generation, Conversion and Storage Engineering"
+      ],
+      "categories": [
+        {
+          "id": 30181,
+          "title": "Condensed matter physics not elsewhere classified",
+          "parent_id": 30157,
+          "path": "/30082/30157/30181",
+          "source_id": "510499",
+          "taxonomy_id": 100
+        },
+        {
+          "id": 25153,
+          "title": "Optical properties of materials",
+          "parent_id": 25141,
+          "path": "/25066/25141/25153",
+          "source_id": "340304",
+          "taxonomy_id": 100
+        },
+        {
+          "id": 26761,
+          "title": "Energy generation, conversion and storage (excl. chemical and electrical)",
+          "parent_id": 26752,
+          "path": "/26212/26752/26761",
+          "source_id": "401703",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "beard, edward; Cole, Jacqueline (2022). Dye-sensitized Solar Cell Database. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13516220.v1",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": "file",
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 13516220,
+      "title": "Dye-sensitized Solar Cell Database",
+      "doi": "10.6084/m9.figshare.13516220.v1",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/13516220",
+      "published_date": "2022-04-13T14:28:06Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/13516220",
+      "url_public_api": "https://api.figshare.com/v2/articles/13516220",
+      "url_private_html": "https://figshare.com/account/articles/13516220",
+      "url_public_html": "https://figshare.com/articles/dataset/Dye-sensitized_Solar_Cell_Database/13516220",
+      "timeline": {
+        "posted": "2022-04-13T14:28:06",
+        "firstOnline": "2022-04-13"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    },
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "cde-psc",
+    "url": "https://api.figshare.com/v2/articles/13516238",
+    "status": 200,
+    "bytes": 4727,
+    "sha256": "fd248e88c6017d9adf2134356f526b39a5bed8107864933e7499cf56aabeed01",
+    "data": {
+      "files": [
+        {
+          "id": 25942310,
+          "name": "psc_json.zip",
+          "size": 2208544,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/25942310",
+          "supplied_md5": "44d62c9a8150250c91650ffe87e96412",
+          "computed_md5": "44d62c9a8150250c91650ffe87e96412",
+          "mimetype": "application/zip"
+        },
+        {
+          "id": 25942313,
+          "name": "psc_mongodb.zip",
+          "size": 2867923,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/25942313",
+          "supplied_md5": "4d0c92fcb04d69f08275a34c7a8934c7",
+          "computed_md5": "4d0c92fcb04d69f08275a34c7a8934c7",
+          "mimetype": "application/zip"
+        },
+        {
+          "id": 27853785,
+          "name": "pv_database-master.zip",
+          "size": 11589,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/27853785",
+          "supplied_md5": "b3a4a73c82e777057c744f543e5896a4",
+          "computed_md5": "b3a4a73c82e777057c744f543e5896a4",
+          "mimetype": "application/zip"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 6256402,
+          "full_name": "edward beard",
+          "first_name": "edward",
+          "last_name": "beard",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 6256391,
+          "full_name": "Jacqueline Cole",
+          "first_name": "Jacqueline",
+          "last_name": "Cole",
+          "is_active": true,
+          "url_name": "Jacqueline_Cole",
+          "orcid_id": "0000-0002-1552-8743"
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/Perovskite_Solar_Cell_Database/13516238",
+      "download_disabled": false,
+      "description": "Perovskite Solar Cell Device Database Auto-generated Using ChemDataExtractor",
+      "funding": "Argonne Leadership Computing Facility, DOE Office of Science, Office of Basic Energy Sciences, DE-AC02-06CH11357; BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials; ISIS Neutron and Muon Facility, STFC Rutherford Appleton Laboratory (RAL), UK; Tessella; 1851 Royal Commission of the Great Exhibition for the 2014 Fellowship in Design.",
+      "funding_list": [
+        {
+          "id": 19561655,
+          "title": "Argonne Leadership Computing Facility, DOE Office of Science, Office of Basic Energy Sciences, DE-AC02-06CH11357; BASF / Royal Academy of Engineering Research Chair in Data-Driven Molecular Engineering of Functional Materials; ISIS Neutron and Muon Facility, STFC Rutherford Appleton Laboratory (RAL), UK; Tessella; 1851 Royal Commission of the Great Exhibition for the 2014 Fellowship in Design.",
+          "grant_code": "",
+          "funder_name": null,
+          "is_user_defined": 1
+        }
+      ],
+      "version": 1,
+      "status": "public",
+      "size": 5088056,
+      "created_date": "2022-04-13T14:27:47Z",
+      "modified_date": "2022-04-13T14:27:48Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 3,
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      },
+      "tags": [
+        "Perovskite Solar Cells Perovskite",
+        "Device data",
+        "Condensed Matter Physics",
+        "Energy Generation, Conversion and Storage Engineering",
+        "Optical Properties of Materials"
+      ],
+      "keywords": [
+        "Perovskite Solar Cells Perovskite",
+        "Device data",
+        "Condensed Matter Physics",
+        "Energy Generation, Conversion and Storage Engineering",
+        "Optical Properties of Materials"
+      ],
+      "categories": [
+        {
+          "id": 30181,
+          "title": "Condensed matter physics not elsewhere classified",
+          "parent_id": 30157,
+          "path": "/30082/30157/30181",
+          "source_id": "510499",
+          "taxonomy_id": 100
+        },
+        {
+          "id": 26761,
+          "title": "Energy generation, conversion and storage (excl. chemical and electrical)",
+          "parent_id": 26752,
+          "path": "/26212/26752/26761",
+          "source_id": "401703",
+          "taxonomy_id": 100
+        },
+        {
+          "id": 25153,
+          "title": "Optical properties of materials",
+          "parent_id": 25141,
+          "path": "/25066/25141/25153",
+          "source_id": "340304",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "beard, edward; Cole, Jacqueline (2022). Perovskite Solar Cell Database. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13516238.v1",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": "file",
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 13516238,
+      "title": "Perovskite Solar Cell Database",
+      "doi": "10.6084/m9.figshare.13516238.v1",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/13516238",
+      "published_date": "2022-04-13T14:27:47Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/13516238",
+      "url_public_api": "https://api.figshare.com/v2/articles/13516238",
+      "url_private_html": "https://figshare.com/account/articles/13516238",
+      "url_public_html": "https://figshare.com/articles/dataset/Perovskite_Solar_Cell_Database/13516238",
+      "timeline": {
+        "posted": "2022-04-13T14:27:47",
+        "firstOnline": "2022-04-13"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    },
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "psc-fab",
+    "url": "https://api.figshare.com/v2/articles/25868737",
+    "status": 200,
+    "bytes": 2478,
+    "sha256": "55e2144b7323e651e1280c2fa05956abc8c0c4274907f73b5bff2d2b9a97b7a1",
+    "data": {
+      "files": [
+        {
+          "id": 46458169,
+          "name": "device_attributes_combined.json",
+          "size": 4665284,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/46458169",
+          "supplied_md5": "5a55853502d45bb501d3640ed76f8d37",
+          "computed_md5": "5a55853502d45bb501d3640ed76f8d37",
+          "mimetype": "text/plain"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 18578938,
+          "full_name": "Agnes Valencia",
+          "first_name": "Agnes",
+          "last_name": "Valencia",
+          "is_active": true,
+          "url_name": "Agnes_Valencia",
+          "orcid_id": "0000-0001-8279-2766"
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/device_attributes_combined_json/25868737",
+      "download_disabled": false,
+      "description": "<p dir=\"ltr\">Contains attributes of perovskites solar devices</p>",
+      "funding": null,
+      "funding_list": [],
+      "version": 2,
+      "status": "public",
+      "size": 4665284,
+      "created_date": "2025-01-24T12:18:15Z",
+      "modified_date": "2025-01-24T12:18:15Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "tags": [
+        "Perovskite Solar Devices"
+      ],
+      "keywords": [
+        "Perovskite Solar Devices"
+      ],
+      "categories": [
+        {
+          "id": 26515,
+          "title": "Photovoltaic devices (solar cells)",
+          "parent_id": 26485,
+          "path": "/26212/26485/26515",
+          "source_id": "400910",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Valencia, Agnes (2024). device_attributes_combined.json. figshare. Dataset. https://doi.org/10.6084/m9.figshare.25868737.v2",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": null,
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 25868737,
+      "title": "device_attributes_combined.json",
+      "doi": "10.6084/m9.figshare.25868737.v2",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/25868737",
+      "published_date": "2025-01-24T12:18:15Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/25868737",
+      "url_public_api": "https://api.figshare.com/v2/articles/25868737",
+      "url_private_html": "https://figshare.com/account/articles/25868737",
+      "url_public_html": "https://figshare.com/articles/dataset/device_attributes_combined_json/25868737",
+      "timeline": {
+        "posted": "2025-01-24T12:18:15",
+        "firstOnline": "2024-05-21"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    },
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "selfclean",
+    "url": "https://api.figshare.com/v2/articles/23896434/versions/2",
+    "status": 200,
+    "bytes": 4477,
+    "sha256": "a6fe43a9ab354b02b5b35802ccb38a5329b9a1365c35c121cd088dcc4f68e915",
+    "data": {
+      "url_public_html": "https://figshare.com/articles/dataset/Automatically_Generated_FAIR_Datasets_A_Survey_of_Present_and_Potential_Outdoor_Self-Cleaning_Coating_Materials_by_an_Advanced_Literature_Screening_Strategy/23896434/2",
+      "files": [
+        {
+          "id": 42009096,
+          "name": "self_cleaning_datasets.rar",
+          "size": 3347735,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/42009096",
+          "supplied_md5": "0229dee37cd6b70b9bb6af04dc1b0da0",
+          "computed_md5": "0229dee37cd6b70b9bb6af04dc1b0da0",
+          "mimetype": "application/x-rar"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 10297732,
+          "full_name": "Shaozhou Wang",
+          "first_name": "Shaozhou",
+          "last_name": "Wang",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 12403360,
+          "full_name": "Yuwei Wan",
+          "first_name": "Yuwei",
+          "last_name": "Wan",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 533762,
+          "full_name": "Ning Song",
+          "first_name": "Ning",
+          "last_name": "Song",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 581078,
+          "full_name": "Yixuan Liu",
+          "first_name": "Yixuan",
+          "last_name": "Liu",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 3592568,
+          "full_name": "Tong Xie",
+          "first_name": "Tong",
+          "last_name": "Xie",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        },
+        {
+          "id": 5899997,
+          "full_name": "Bram Hoex",
+          "first_name": "Bram",
+          "last_name": "Hoex",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        }
+      ],
+      "custom_fields": [],
+      "figshare_url": "https://figshare.com/articles/dataset/Automatically_Generated_FAIR_Datasets_A_Survey_of_Present_and_Potential_Outdoor_Self-Cleaning_Coating_Materials_by_an_Advanced_Literature_Screening_Strategy/23896434",
+      "download_disabled": false,
+      "description": "<p>In this work, we use Natural Language Processing (NLP) strategies to generate open- and traceable-sourced FAIR (findable, accessible, interoperable and reusable) datasets about self-cleaning coating materials from 39,011 multi-disciplinary papers. The data are from function-based and property-based corpora for self-cleaning purposes. These datasets are presented in four different formats for diverse uses or combined uses: material frequency statistics, material dictionary, measurement value datasets for self-cleaning-related properties and optical properties, and sentiment statistics of material stability and durability. This provides a literature-based, comprehensive and highly-refined data resource for the development of self-cleaning coatings and also offers potential pathways for material discovery and prediction by machine learning.</p>",
+      "funding": null,
+      "funding_list": [],
+      "version": 2,
+      "status": "public",
+      "size": 3347735,
+      "created_date": "2023-08-15T13:22:29Z",
+      "modified_date": "2023-08-15T13:22:29Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "tags": [
+        "self-cleaning materials"
+      ],
+      "keywords": [
+        "self-cleaning materials"
+      ],
+      "categories": [
+        {
+          "id": 26728,
+          "title": "Functional materials",
+          "parent_id": 26713,
+          "path": "/26212/26713/26728",
+          "source_id": "401605",
+          "taxonomy_id": 100
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Wang, Shaozhou; Wan, Yuwei; Song, Ning; Liu, Yixuan; Xie, Tong; Hoex, Bram (2023). Automatically Generated FAIR Datasets: A Survey of Present and Potential Outdoor Self-Cleaning Coating Materials by an Advanced Literature Screening Strategy. figshare. Dataset. https://doi.org/10.6084/m9.figshare.23896434.v2",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": null,
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 23896434,
+      "title": "Automatically Generated FAIR Datasets: A Survey of Present and Potential Outdoor Self-Cleaning Coating Materials by an Advanced Literature Screening Strategy",
+      "doi": "10.6084/m9.figshare.23896434.v2",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/23896434",
+      "published_date": "2023-08-15T13:22:29Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": null,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/23896434",
+      "url_public_api": "https://api.figshare.com/v2/articles/23896434",
+      "url_private_html": "https://figshare.com/account/articles/23896434",
+      "timeline": {
+        "posted": "2023-08-15T13:22:29",
+        "firstOnline": "2023-08-06"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    },
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "emissivity-collection",
+    "url": "https://api.figshare.com/v2/collections/6037004/articles",
+    "status": 200,
+    "bytes": 986,
+    "sha256": "23cb3ff8bf2d014d2ed852785f0121829fba10c52a9759b92d3e2c8f913e7779",
+    "data": [
+      {
+        "id": 20773552,
+        "title": "Optical emissivity dataset of multi-material heterogeneous designs generated with automated figure extraction",
+        "doi": "10.6084/m9.figshare.20773552.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/20773552",
+        "published_date": "2022-09-27T15:43:31Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/20773552",
+        "url_public_api": "https://api.figshare.com/v2/articles/20773552",
+        "url_private_html": "https://figshare.com/account/articles/20773552",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Optical_emissivity_dataset_of_multi-material_heterogeneous_designs_generated_with_automated_figure_extraction/20773552",
+        "timeline": {
+          "posted": "2022-09-27T15:43:31",
+          "firstOnline": "2022-09-27"
+        },
+        "resource_title": null,
+        "resource_doi": null,
+        "created_date": "2022-09-27T15:43:31Z",
+        "modified_date": "2022-09-27T15:43:32Z"
+      }
+    ],
+    "verified_date": "2026-11-01"
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "property_key": "ionic_conductivity",
+    "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties/ionic_conductivity.parquet",
+    "bytes": 2826,
+    "sha256": "0f35ebd9ef735fe9002048c9219e1934c61b8ccb09be3893910194275141f321",
+    "rows": 5,
+    "schema": "material_id: string\nvalue: double\nmethod: string\nsource: string\nsource_native_id: string\nlicence: string\nlicence_class: string",
+    "populated_columns": {
+      "material_id": 5,
+      "value": 5,
+      "method": 5,
+      "source": 5,
+      "source_native_id": 5,
+      "licence": 5,
+      "licence_class": 5
+    },
+    "counts": {
+      "source": {
+        "obelix": 5
+      },
+      "licence_class": {
+        "open": 5
+      }
+    },
+    "distinct_material_ids": 5
+  },
+  {
+    "property_key": "curie_temperature",
+    "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties/curie_temperature.parquet",
+    "bytes": 2808,
+    "sha256": "fb47806f7f2e4e706df081a6e41f5df9996438d7149543aa035cffde23628826",
+    "rows": 6,
+    "schema": "material_id: string\nvalue: double\nmethod: string\nsource: string\nsource_native_id: string\nlicence: string\nlicence_class: string",
+    "populated_columns": {
+      "material_id": 6,
+      "value": 6,
+      "method": 6,
+      "source": 6,
+      "source_native_id": 6,
+      "licence": 6,
+      "licence_class": 6
+    },
+    "counts": {
+      "source": {
+        "novomag": 6
+      },
+      "licence_class": {
+        "open": 6
+      }
+    },
+    "distinct_material_ids": 6
+  },
+  {
+    "property_key": "easy_axis",
+    "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties/easy_axis.parquet",
+    "bytes": 13989,
+    "sha256": "9fbe4c941dfff866b9d9de81d8bc8e3fb3a9477296eace2396000cf8b018c171",
+    "rows": 1521,
+    "schema": "material_id: string\nvalue: string\nmethod: string\nsource: string\nsource_native_id: string\nlicence: string\nlicence_class: string",
+    "populated_columns": {
+      "material_id": 1521,
+      "value": 1521,
+      "method": 1521,
+      "source": 1521,
+      "source_native_id": 1521,
+      "licence": 1521,
+      "licence_class": 1521
+    },
+    "counts": {
+      "source": {
+        "novomag": 1521
+      },
+      "licence_class": {
+        "open": 1521
+      }
+    },
+    "distinct_material_ids": 1489
+  },
+  {
+    "property_key": "tc_superconducting",
+    "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open/resolve/6010a086ade47c2c99d1b2dca3a944c3996959a4/properties/tc_superconducting.parquet",
+    "bytes": 302924,
+    "sha256": "71aec12fcf5396bc63988ab9d9049d0102f1e457a55e957ce43af816c4a798f1",
+    "rows": 26613,
+    "schema": "material_id: string\nvalue: double\nmethod: string\nsource: string\nsource_native_id: string\nlicence: string\nlicence_class: string",
+    "populated_columns": {
+      "material_id": 26613,
+      "value": 26613,
+      "method": 26613,
+      "source": 26613,
+      "source_native_id": 26613,
+      "licence": 26613,
+      "licence_class": 26613
+    },
+    "counts": {
+      "source": {
+        "superband": 5815,
+        "jarvis-dft": 1474,
+        "jarvis-specialized-structures": 1527,
+        "3dsc": 17797
+      },
+      "licence_class": {
+        "open": 26613
+      }
+    },
+    "distinct_material_ids": 4092
+  }
+]

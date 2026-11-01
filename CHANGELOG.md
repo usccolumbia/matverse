@@ -1,6 +1,29 @@
 # Changelog
 
+## November 1, 2026 — catalog and search update
+
+- Added all 148 MateriaViva property tables under Materials properties, with pinned direct downloads, complete original-provider lists, separate value/structure counts, units, kinds and per-row licensing guidance.
+- Selected eight additional Data.gov datasets; retained eighteen adjacent/conditional resources and a documented public insulation-measurement API.
+- Audited all 46 Matbench Discovery directory entries and added thirteen named releases/subsets and eight resources. Exact-release, unavailable-corpus and parent-overlap limits remain explicit.
+- Added MLEG branding, linked the lab mark, compacted the banner and statistics cards, and credited the lab as “Developed by.”
+- Publication authorized by the user on November 1, 2026.
+
+
 ## Unreleased
+
+Added 50 further dataset/release records across defects/disorder, porous adsorption/thermal data, specialized functional and one-dimensional materials, atomistic reference sets and experimental properties; the local catalog now contains 354 records. Preserved four topical research packages, release counts, data rights, lineage and 243 source-inventory entries. Corrected 23 years misparsed as 2002 in the previous journal import using DOI publication metadata. Compacted the search-page banner by reducing typography/padding, removing the forced headline break and shortening its description; retained the lab credit and provenance badges. Changes remain local with publication unauthorized.
+
+Added 90 verified Scientific Data dataset/release records, bringing the local catalog to 304. A complete Crossref journal metadata harvest retrieved 9,304 indexed works through November 1, 2026; broad title screening yielded 1,514 candidates. The source inventory preserves those leads plus six verified title-screen blind spots, with unresolved entries distinguished from catalog mappings. The journal index now covers 130 catalog records and 127 distinct descriptors. Fixed compact legacy Nature article-ID matching; merged one duplicated oxide-synthesis aggregate. Added structure/DFT, property/synthesis, spectra/diffraction, microscopy and microstructure releases with version, denominator, lineage and rights caveats. Changes remain local; no push authorized.
+
+Added a Materials dataset search tools section to README and sources.md, including the MDF homepage/search, Foundry and other discovery tools. Queried the public MDF index across ten properties, preserving 244 distinct deposit subjects. Added eight structured property cohorts with declared counts, schemas, units and CC BY 4.0 rights; existing MP and diffusion mirrors remain separate. Public metadata was verified; complete bulk transfer and row-level scientific validation were not performed. The catalog now contains 214 dataset/release records. Changes remain local pending explicit publication approval.
+
+Added 35 specialized-property releases from an OpenAlex research pass: 41 keyword searches plus DDSE citation/reference traversal returned 1,946 occurrences / 1,761 distinct query-retrieved works. Added a generated survey, frozen search/work ledgers, primary evidence and a selected-source inventory. The catalog now contains 206 dataset/release records. Original DDSE and DDSE 2.0 references and historical denominators now extend the existing DigBat family, without duplicating it as new corpora. Material, measurement, pathway and trajectory counts stay distinct; mixed provenance and unknown sizes/licenses remain explicit. Publication remains pending user authorization.
+
+Added the Materials Cloud OPTIMADE Client and official client directory to the API section, resource search and source index. Added a 17-provider screenshot crosswalk corroborated against the official provider registry; provider indexes remain distinct from tested child API endpoints.
+
+Added an API-accessible / Agent-ready section with 19 searchable API, SDK and bulk-file routes, interface/authentication filters and exports. Added an OPTIMADE guide covering the standard, provider discovery, versions, structure fields and pagination. Bounded unauthenticated probes distinguish returned records, metadata-only checks, empty responses, authentication requirements and failures.
+
+Audited all 13 JARVIS homepage database rows (numbering skips 8), all 65 entries in the linked Figshare documentation table and all 66 downloader names at a pinned revision. Added 82 source-inventory entries and seven ranked releases: QETB, FF, interfaces, surfaces, vacancies and electron/phonon Hamiltonians. JARVIS-DFT2 remains an alternate portal. The selected dft_3d December 2022 mirror is now recorded as 75,993 entries, with newer portal/deposit totals kept distinct.
 
 Corrected Materials Project to 271,325 crystal structure records using the user-reported Materials Explorer counter (2026-11-01), replacing the older 200,487-entry homepage snapshot. Preserved the historical evidence and recorded that automated access to the current Explorer was blocked. Regenerated the category rankings, README, exports, source index and searchable site.
 

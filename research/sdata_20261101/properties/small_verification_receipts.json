@@ -1,0 +1,322 @@
+[
+  {
+    "key": "cathode-all",
+    "url": "https://api.figshare.com/v2/articles/24116592",
+    "status": 200,
+    "bytes": 3561,
+    "sha256": "8d6ed4af00408409999b80b5008909e9140cc776abd965104b3440cc3dfb2399",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "files": [
+        {
+          "id": 42308307,
+          "name": "cathode_mats230911.csv",
+          "size": 901156,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/42308307",
+          "supplied_md5": "2946d692dd176b204075fdbaa57dd992",
+          "computed_md5": "2946d692dd176b204075fdbaa57dd992",
+          "mimetype": "text/plain"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 16961406,
+          "full_name": "Yidan Shu",
+          "first_name": "Yidan",
+          "last_name": "Shu",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        }
+      ],
+      "custom_fields": [
+        {
+          "name": "Research Data Support",
+          "value": "",
+          "settings": {
+            "validations": {
+              "min_length": 1,
+              "max_length": 250
+            },
+            "placeholder": "Complete where RDS data are part of RDS submission"
+          },
+          "field_type": "text",
+          "order": null,
+          "is_mandatory": false
+        }
+      ],
+      "figshare_url": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116592",
+      "download_disabled": false,
+      "description": "Data in CSV format contains the following properties: Doi,Year,Name,Abbreviation,Sintering temperature,Sintering time,Category,Cycle,Capacity,Retention,Current: mAg-1,Current: C,Voltage lower limit,Voltage upper limit,Elements.",
+      "funding": null,
+      "funding_list": [],
+      "version": 1,
+      "status": "public",
+      "size": 901156,
+      "created_date": "2024-04-08T14:02:04Z",
+      "modified_date": "2024-04-08T14:02:04Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "tags": [
+        "Materials Informatics",
+        "Layered cathode material for sodium-ion battery",
+        "Electrochemical performance",
+        "Cycling and rate performance",
+        "Synthetic parameters",
+        "Solid-state synthesis",
+        "information extraction locality",
+        "Natural language processsing",
+        "Text mining"
+      ],
+      "keywords": [
+        "Materials Informatics",
+        "Layered cathode material for sodium-ion battery",
+        "Electrochemical performance",
+        "Cycling and rate performance",
+        "Synthetic parameters",
+        "Solid-state synthesis",
+        "information extraction locality",
+        "Natural language processsing",
+        "Text mining"
+      ],
+      "categories": [
+        {
+          "id": 948,
+          "title": "Natural Language Processing",
+          "parent_id": 52,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        },
+        {
+          "id": 69,
+          "title": "Inorganic Chemistry",
+          "parent_id": 38,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        },
+        {
+          "id": 832,
+          "title": "Solid State Chemistry",
+          "parent_id": 38,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Shu, Yidan (2024). All cycling and rate performance datasets. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24116592.v1",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": null,
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 24116592,
+      "title": "All cycling and rate performance datasets",
+      "doi": "10.6084/m9.figshare.24116592.v1",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/24116592",
+      "published_date": "2024-04-08T14:02:04Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": 2826,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/24116592",
+      "url_public_api": "https://api.figshare.com/v2/articles/24116592",
+      "url_private_html": "https://figshare.com/account/articles/24116592",
+      "url_public_html": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116592",
+      "timeline": {
+        "posted": "2024-04-08T14:02:04",
+        "firstOnline": "2024-04-08"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    }
+  },
+  {
+    "key": "cathode-all2",
+    "url": "https://api.figshare.com/v2/articles/24116595",
+    "status": 200,
+    "bytes": 3565,
+    "sha256": "257bb00741380182432b7542383246be7632ac99bd0d1203a86cd9b05336a4a5",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "files": [
+        {
+          "id": 42308310,
+          "name": "cathode_mats230911.json",
+          "size": 2095668,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/42308310",
+          "supplied_md5": "eecf25d6e1718f744460befaca228edc",
+          "computed_md5": "eecf25d6e1718f744460befaca228edc",
+          "mimetype": "text/plain"
+        }
+      ],
+      "folder_structure": {},
+      "authors": [
+        {
+          "id": 16961406,
+          "full_name": "Yidan Shu",
+          "first_name": "Yidan",
+          "last_name": "Shu",
+          "is_active": false,
+          "url_name": "_",
+          "orcid_id": ""
+        }
+      ],
+      "custom_fields": [
+        {
+          "name": "Research Data Support",
+          "value": "",
+          "settings": {
+            "validations": {
+              "min_length": 1,
+              "max_length": 250
+            },
+            "placeholder": "Complete where RDS data are part of RDS submission"
+          },
+          "field_type": "text",
+          "order": null,
+          "is_mandatory": false
+        }
+      ],
+      "figshare_url": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116595",
+      "download_disabled": false,
+      "description": "Data in JSON format contains the following properties: Doi,Year,Name,Abbreviation,Sintering temperature,Sintering time,Category,Cycle,Capacity,Retention,Current: mAg-1,Current: C,Voltage lower limit,Voltage upper limit,Elements.",
+      "funding": null,
+      "funding_list": [],
+      "version": 1,
+      "status": "public",
+      "size": 2095668,
+      "created_date": "2024-04-08T14:02:04Z",
+      "modified_date": "2024-04-08T14:02:05Z",
+      "is_public": true,
+      "is_confidential": false,
+      "is_metadata_record": false,
+      "confidential_reason": "",
+      "metadata_reason": "",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "tags": [
+        "Materials Informatics",
+        "Layered cathode material for sodium-ion battery",
+        "Electrochemical performance",
+        "Cycling and rate performance",
+        "Synthetic parameters",
+        "Solid-state synthesis",
+        "information extraction locality",
+        "Natural language processsing",
+        "Text mining"
+      ],
+      "keywords": [
+        "Materials Informatics",
+        "Layered cathode material for sodium-ion battery",
+        "Electrochemical performance",
+        "Cycling and rate performance",
+        "Synthetic parameters",
+        "Solid-state synthesis",
+        "information extraction locality",
+        "Natural language processsing",
+        "Text mining"
+      ],
+      "categories": [
+        {
+          "id": 948,
+          "title": "Natural Language Processing",
+          "parent_id": 52,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        },
+        {
+          "id": 69,
+          "title": "Inorganic Chemistry",
+          "parent_id": 38,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        },
+        {
+          "id": 832,
+          "title": "Solid State Chemistry",
+          "parent_id": 38,
+          "path": "",
+          "source_id": "",
+          "taxonomy_id": 10
+        }
+      ],
+      "references": [],
+      "has_linked_file": false,
+      "citation": "Shu, Yidan (2024). All cycling and rate performance datasets. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24116595.v1",
+      "related_materials": [],
+      "is_embargoed": false,
+      "embargo_date": null,
+      "embargo_type": null,
+      "embargo_title": "",
+      "embargo_reason": "",
+      "embargo_options": [],
+      "id": 24116595,
+      "title": "All cycling and rate performance datasets",
+      "doi": "10.6084/m9.figshare.24116595.v1",
+      "handle": "",
+      "url": "https://api.figshare.com/v2/articles/24116595",
+      "published_date": "2024-04-08T14:02:04Z",
+      "thumb": "",
+      "defined_type": 3,
+      "defined_type_name": "dataset",
+      "group_id": 2826,
+      "url_private_api": "https://api.figshare.com/v2/account/articles/24116595",
+      "url_public_api": "https://api.figshare.com/v2/articles/24116595",
+      "url_private_html": "https://figshare.com/account/articles/24116595",
+      "url_public_html": "https://springernature.figshare.com/articles/dataset/All_cycling_and_rate_performance_datasets/24116595",
+      "timeline": {
+        "posted": "2024-04-08T14:02:04",
+        "firstOnline": "2024-04-08"
+      },
+      "resource_title": null,
+      "resource_doi": null
+    }
+  },
+  {
+    "key": "oxygen-csv",
+    "url": "https://zenodo.org/api/records/18947543/files/oxygen_ion_conductor_dataset.csv/content",
+    "status": 200,
+    "bytes": 122657,
+    "sha256": "8ec66b131bae79f8520f7cf40e91e2be2541995939bc43b744eaac627f4fad34",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "enthalpy-payload",
+    "url": "https://ndownloader.figshare.com/files/9218491",
+    "status": 200,
+    "bytes": 2548040,
+    "sha256": "daea68f0188aa2b165778d85770c538c2da0ee09e3992a7e5c6ed788f79d130e",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "corrosion-table",
+    "url": "https://www.nature.com/articles/s41597-021-00840-y/tables/2",
+    "status": 200,
+    "bytes": 167784,
+    "sha256": "147489c1e4aae9098ceb7e02baeb64c0b7ba8dc81ea04768c20be302026f6fef",
+    "verified_date": "2026-11-01"
+  }
+]

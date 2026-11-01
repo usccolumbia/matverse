@@ -1,0 +1,872 @@
+[
+  {
+    "doi": "10.1038/sdata.2015.9",
+    "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+    "url": "https://doi.org/10.1038/sdata.2015.9",
+    "publication_date": "2015-03-17",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mp-elastic-2015"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2015.53",
+    "title": "A database to enable discovery and design of piezoelectric materials",
+    "url": "https://doi.org/10.1038/sdata.2015.53",
+    "publication_date": "2015-09-29",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mp-piezo-2015"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2016.54",
+    "title": "High-throughput ab-initio dilute solute diffusion database",
+    "url": "https://doi.org/10.1038/sdata.2016.54",
+    "publication_date": "2016-07-19",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mastml-dilute-diffusion-education",
+      "uw-cmg-dilute-solute-diffusion"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2016.80",
+    "title": "Surface energies of elemental crystals",
+    "url": "https://doi.org/10.1038/sdata.2016.80",
+    "publication_date": "2016-09-13",
+    "disposition": "added",
+    "dataset_id": "elemental-surface-energy-2016",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5061/dryad.f2n6f"
+    ]
+  },
+  {
+    "doi": "10.1038/sdata.2016.125",
+    "title": "Evaluation and comparison of classical interatomic potentials through a user-friendly interactive web-interface",
+    "url": "https://doi.org/10.1038/sdata.2016.125",
+    "publication_date": "2017-01-31",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "jarvis-ff"
+    ],
+    "evidence": "Historical JARVIS-FF descriptor; existing jarvis-ff family, not a separate new corpus.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2016.134",
+    "title": "High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials",
+    "url": "https://doi.org/10.1038/sdata.2016.134",
+    "publication_date": "2017-01-31",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mp-dielectric-2017"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2017.57",
+    "title": "A hybrid organic-inorganic perovskite dataset",
+    "url": "https://doi.org/10.1038/sdata.2017.57",
+    "publication_date": "2017-05-09",
+    "disposition": "added",
+    "dataset_id": "hoip-2017",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5061/dryad.gq3rg"
+    ]
+  },
+  {
+    "doi": "10.1038/sdata.2017.85",
+    "title": "An ab initio electronic transport database for inorganic materials",
+    "url": "https://doi.org/10.1038/sdata.2017.85",
+    "publication_date": "2017-07-04",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mp-boltztrap-transport"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2017.153",
+    "title": "High-throughput DFT calculations of formation energy, stability and oxygen vacancy formation energy of ABO3 perovskites",
+    "url": "https://doi.org/10.1038/sdata.2017.153",
+    "publication_date": "2017-10-17",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mdf-wolverton-oxides"
+    ],
+    "evidence": "5,329 ABO3 property cohort overlaps existing mdf-wolverton-oxides/MAST-ML records. Keep original descriptor linkage rather than duplicate.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/sdata.2018.65",
+    "title": "High-throughput density-functional perturbation theory phonons for inorganic materials",
+    "url": "https://doi.org/10.1038/sdata.2018.65",
+    "publication_date": "2018-05-01",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mp-dfpt-phonons-2018"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-019-0080-z",
+    "title": "High-throughput calculations of catalytic properties of bimetallic alloy surfaces",
+    "url": "https://doi.org/10.1038/s41597-019-0080-z",
+    "publication_date": "2019-05-28",
+    "disposition": "added",
+    "dataset_id": "bimetallic-catalysis-2019",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.24435/materialscloud:2019.0015/v1"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-019-0081-y",
+    "title": "Catalysis-Hub.org, an open electronic structure database for surface reactions",
+    "url": "https://doi.org/10.1038/s41597-019-0081-y",
+    "publication_date": "2019-05-28",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Catalysis-Hub platform aggregates multiple corpora; the Mamun2019 dataset is separately added and should not be double-counted with platform totals.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-019-0097-3",
+    "title": "2DMatPedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches",
+    "url": "https://doi.org/10.1038/s41597-019-0097-3",
+    "publication_date": "2019-06-12",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "2dmatpedia",
+      "2dmatpedia"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-020-0385-y",
+    "title": "Atomic structures and orbital energies of 61,489 crystal-forming organic molecules",
+    "url": "https://doi.org/10.1038/s41597-020-0385-y",
+    "publication_date": "2020-02-18",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "OE62 comprises crystal-forming isolated molecules; original crystal context does not make gas-phase molecule coordinates periodic crystals. Adjacent/deferred.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-020-0407-9",
+    "title": "An automatically curated first-principles database of ferroelectrics",
+    "url": "https://doi.org/10.1038/s41597-020-0407-9",
+    "publication_date": "2020-03-03",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "smidt-ferroelectric-2020"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-020-0418-6",
+    "title": "High dielectric ternary oxides from crystal structure prediction and high-throughput screening",
+    "url": "https://doi.org/10.1038/s41597-020-0418-6",
+    "publication_date": "2020-03-06",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "High-dielectric ternary oxide candidate handled by properties perspective.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-020-0452-4",
+    "title": "Database of open-framework aluminophosphate structures",
+    "url": "https://doi.org/10.1038/s41597-020-0452-4",
+    "publication_date": "2020-03-31",
+    "disposition": "added",
+    "dataset_id": "alpo-open-framework",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.7822574.v6"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-020-00637-5",
+    "title": "Materials Cloud, a platform for open computational science",
+    "url": "https://doi.org/10.1038/s41597-020-00637-5",
+    "publication_date": "2020-09-08",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Materials Cloud is an archival platform, not one additive dataset. Included releases are catalogued individually.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-020-00723-8",
+    "title": "A band-gap database for semiconducting inorganic materials calculated with hybrid functional",
+    "url": "https://doi.org/10.1038/s41597-020-00723-8",
+    "publication_date": "2020-11-11",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "snumat-hybrid-gap"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-021-00974-z",
+    "title": "OPTIMADE, an API for exchanging materials data",
+    "url": "https://doi.org/10.1038/s41597-021-00974-z",
+    "publication_date": "2021-08-12",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "OPTIMADE is a data-access interoperability API, not an independent additive crystal dataset.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-021-01022-6",
+    "title": "Materials informatics platform with three dimensional structures, workflow and thermoelectric applications",
+    "url": "https://doi.org/10.1038/s41597-021-01022-6",
+    "publication_date": "2021-09-07",
+    "disposition": "added",
+    "dataset_id": "mip3d-release",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.13655276.v7"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-022-01142-7",
+    "title": "Organic materials repurposing, a data set for theoretical predictions of new applications for existing compounds",
+    "url": "https://doi.org/10.1038/s41597-022-01142-7",
+    "publication_date": "2022-02-14",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Organic-material repurposing using molecular data; periodic crystal payload not verified. Adjacent/deferred.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01158-z",
+    "title": "Large scale dataset of real space electronic charge density of cubic inorganic materials from density functional theory (DFT) calculations",
+    "url": "https://doi.org/10.1038/s41597-022-01158-z",
+    "publication_date": "2022-02-21",
+    "disposition": "added",
+    "dataset_id": "ecd-cubic",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.c.5368343"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-022-01160-5",
+    "title": "Zeo-1, a computational data set of zeolite structures",
+    "url": "https://doi.org/10.1038/s41597-022-01160-5",
+    "publication_date": "2022-02-22",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "zeo-1"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01177-w",
+    "title": "A dataset of 175k stable and metastable materials calculated with the PBEsol and SCAN functionals",
+    "url": "https://doi.org/10.1038/s41597-022-01177-w",
+    "publication_date": "2022-03-02",
+    "disposition": "added",
+    "dataset_id": "pbesol-scan-175k-2022",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.24435/materialscloud:ka-br"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-022-01181-0",
+    "title": "MOFSimplify, machine learning models with extracted stability data of three thousand metal–organic frameworks",
+    "url": "https://doi.org/10.1038/s41597-022-01181-0",
+    "publication_date": "2022-03-11",
+    "disposition": "added",
+    "dataset_id": "mofsimplify-stability",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5281/zenodo.5737968"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-022-01283-9",
+    "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+    "url": "https://doi.org/10.1038/s41597-022-01283-9",
+    "publication_date": "2022-04-26",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "dax-ti-experimental"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01292-8",
+    "title": "High-throughput inverse design and Bayesian optimization of functionalities: spin splitting in two-dimensional compounds",
+    "url": "https://doi.org/10.1038/s41597-022-01292-8",
+    "publication_date": "2022-04-29",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Spin-splitting 2D release: paper identifies 358 materials, archived DataCite description reports 315. Deferred pending release-level reconciliation; 436 screened candidates also differ from spin-splitting-positive count.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01295-5",
+    "title": "A database of refractive indices and dielectric constants auto-generated using ChemDataExtractor",
+    "url": "https://doi.org/10.1038/s41597-022-01295-5",
+    "publication_date": "2022-05-03",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "cde-refractive-dielectric-2022"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01294-6",
+    "title": "Auto-generated database of semiconductor band gaps using ChemDataExtractor",
+    "url": "https://doi.org/10.1038/s41597-022-01294-6",
+    "publication_date": "2022-05-03",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "cde-bandgaps-2022"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01438-8",
+    "title": "Novel inorganic crystal structures predicted using autonomous simulation agents",
+    "url": "https://doi.org/10.1038/s41597-022-01438-8",
+    "publication_date": "2022-06-14",
+    "disposition": "added",
+    "dataset_id": "camd-crystal-discoveries-2022",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.19601956.v1"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-022-01641-7",
+    "title": "Author Correction: High-throughput inverse design and Bayesian optimization of functionalities: spin splitting in two-dimensional compounds",
+    "url": "https://doi.org/10.1038/s41597-022-01641-7",
+    "publication_date": "2022-08-19",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Correction to spin-splitting descriptor; retain with original and resolve version counts before adding.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01754-z",
+    "title": "Density-of-states similarity descriptor for unsupervised learning from materials data",
+    "url": "https://doi.org/10.1038/s41597-022-01754-z",
+    "publication_date": "2022-10-22",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "C2DB-derived DOS fingerprints; primarily a descriptor/method companion rather than an independent crystal/material collection.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-022-01746-z",
+    "title": "A representation-independent electronic charge density database for crystalline materials",
+    "url": "https://doi.org/10.1038/s41597-022-01746-z",
+    "publication_date": "2022-10-28",
+    "disposition": "added",
+    "dataset_id": "mp-charge-density-pyrho",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.17188/1833409"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-023-01954-1",
+    "title": "Assessing ternary materials for fluoride-ion batteries",
+    "url": "https://doi.org/10.1038/s41597-023-01954-1",
+    "publication_date": "2023-02-11",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "ternary-fluoride-electrode-pairs"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02107-0",
+    "title": "The Materials Provenance Store",
+    "url": "https://doi.org/10.1038/s41597-023-02107-0",
+    "publication_date": "2023-04-06",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Materials Provenance Store is a data/provenance platform; independent stable release and unique count not verified.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02116-z",
+    "title": "CRAFTED: An exploratory database of simulated adsorption isotherms of metal-organic frameworks",
+    "url": "https://doi.org/10.1038/s41597-023-02116-z",
+    "publication_date": "2023-04-20",
+    "disposition": "added",
+    "dataset_id": "crafted-mof-isotherms",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5281/zenodo.7689919"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-023-02146-7",
+    "title": "High throughput calculations for a dataset of bilayer materials",
+    "url": "https://doi.org/10.1038/s41597-023-02146-7",
+    "publication_date": "2023-04-21",
+    "disposition": "added",
+    "dataset_id": "bmds-bilayers-760",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.21799475.v2"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-023-02127-w",
+    "title": "Dataset of theoretical multinary perovskite oxides",
+    "url": "https://doi.org/10.1038/s41597-023-02127-w",
+    "publication_date": "2023-04-28",
+    "disposition": "added",
+    "dataset_id": "multinary-perovskite-66516",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://contribs.materialsproject.org/projects/Multinary_Oxides"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-023-02200-4",
+    "title": "A database of low-energy atomically precise nanoclusters",
+    "url": "https://doi.org/10.1038/s41597-023-02200-4",
+    "publication_date": "2023-05-20",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Atomically precise nanoclusters; molecular/finite-system corpus adjacent to periodic crystal scope. Deferred.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02354-1",
+    "title": "Fatigue database of complex metallic alloys",
+    "url": "https://doi.org/10.1038/s41597-023-02354-1",
+    "publication_date": "2023-07-12",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "fatiguedata-cma2022"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02411-9",
+    "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+    "url": "https://doi.org/10.1038/s41597-023-02411-9",
+    "publication_date": "2023-07-29",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "cu-alloys-mechanical-2023"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02501-8",
+    "title": "Shared metadata for data-centric materials science",
+    "url": "https://doi.org/10.1038/s41597-023-02501-8",
+    "publication_date": "2023-09-14",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Materials metadata standards paper; no independent additive crystal corpus established.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02721-y",
+    "title": "3DSC - a dataset of superconductors including crystal structures",
+    "url": "https://doi.org/10.1038/s41597-023-02721-y",
+    "publication_date": "2023-11-21",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "3DSC is being handled by the properties perspective; not independently duplicated here.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-023-02755-2",
+    "title": "High-throughput density functional theory screening of double transition metal MXene precursors",
+    "url": "https://doi.org/10.1038/s41597-023-02755-2",
+    "publication_date": "2023-11-25",
+    "disposition": "added",
+    "dataset_id": "dtm-max-phases-8712",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5281/zenodo.8400682"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-023-02898-2",
+    "title": "Refractiveindex.info database of optical constants",
+    "url": "https://doi.org/10.1038/s41597-023-02898-2",
+    "publication_date": "2024-01-18",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "refractiveindex-info"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-024-03590-9",
+    "title": "Second-harmonic generation tensors from high-throughput density-functional perturbation theory",
+    "url": "https://doi.org/10.1038/s41597-024-03590-9",
+    "publication_date": "2024-07-11",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "trinquet-shg-2024"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-024-03447-1",
+    "title": "A database of high-pressure crystal structures from hydrogen to lanthanum",
+    "url": "https://doi.org/10.1038/s41597-024-03447-1",
+    "publication_date": "2024-07-12",
+    "disposition": "added",
+    "dataset_id": "hex-high-pressure-elements",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.c.7119778.v1"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-024-03720-3",
+    "title": "First-principles data for solid solution niobium-tantalum-vanadium alloys with body-centered-cubic structures",
+    "url": "https://doi.org/10.1038/s41597-024-03720-3",
+    "publication_date": "2024-08-22",
+    "disposition": "added",
+    "dataset_id": "nb-ta-v-bcc-dft",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.13139/OLCF/2217644"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-024-04008-2",
+    "title": "Band structure database of layered intercalation compounds with various intercalant atoms and layered hosts",
+    "url": "https://doi.org/10.1038/s41597-024-04008-2",
+    "publication_date": "2024-11-18",
+    "disposition": "added",
+    "dataset_id": "layered-intercalation-bandstructures",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.26885734"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-04885-1",
+    "title": "Machine learning and DFT database for C-H dissociation on single-atom alloy surfaces in methane decomposition",
+    "url": "https://doi.org/10.1038/s41597-025-04885-1",
+    "publication_date": "2025-04-17",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Single-atom-alloy C-H dissociation paper; primary reusable release not read in this perspective. Deferred for catalysis-specific follow-up.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-04959-0",
+    "title": "PAH101: A GW+BSE Dataset of 101 Polycyclic Aromatic Hydrocarbon (PAH) Molecular Crystals",
+    "url": "https://doi.org/10.1038/s41597-025-04959-0",
+    "publication_date": "2025-04-23",
+    "disposition": "added",
+    "dataset_id": "pah101-gwbse",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.17172/NOMAD/2024.12.05-1"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-05015-7",
+    "title": "SuperBand: an Electronic-band and Fermi surface structure database of superconductors",
+    "url": "https://doi.org/10.1038/s41597-025-05015-7",
+    "publication_date": "2025-05-06",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "superband",
+      "superband"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-05126-1",
+    "title": "Metadata practices for simulation workflows",
+    "url": "https://doi.org/10.1038/s41597-025-05126-1",
+    "publication_date": "2025-06-05",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Simulation workflow metadata practices; methods/infrastructure rather than additive crystal corpus.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-05256-6",
+    "title": "Dislocation-Grain Boundary Interaction Dataset for FCC Cu",
+    "url": "https://doi.org/10.1038/s41597-025-05256-6",
+    "publication_date": "2025-06-07",
+    "disposition": "added",
+    "dataset_id": "cu-dislocation-grain-boundary",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.24435/materialscloud:sy-35"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-05338-5",
+    "title": "An artificial intelligence accelerated ab initio molecular dynamics dataset for electrochemical interfaces",
+    "url": "https://doi.org/10.1038/s41597-025-05338-5",
+    "publication_date": "2025-06-13",
+    "disposition": "added",
+    "dataset_id": "electroface-trajectories",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.12463/AI4EC/8NPZZC"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-05396-9",
+    "title": "Dataset of tensorial optical and transport properties of materials from the Wannier function method",
+    "url": "https://doi.org/10.1038/s41597-025-05396-9",
+    "publication_date": "2025-07-01",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "fang-wannier-optical-transport-2025"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-05799-8",
+    "title": "Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials",
+    "url": "https://doi.org/10.1038/s41597-025-05799-8",
+    "publication_date": "2025-08-16",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "polyanion-sodium-cathode-2025"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-05867-z",
+    "title": "Materials Database from All-electron Hybrid Functional DFT Calculations",
+    "url": "https://doi.org/10.1038/s41597-025-05867-z",
+    "publication_date": "2025-08-29",
+    "disposition": "added",
+    "dataset_id": "all-electron-hybrid-7024",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.6084/m9.figshare.28375538.v1"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-06054-w",
+    "title": "TBHubbard: tight-binding and extended Hubbard model dataset for metal-organic frameworks",
+    "url": "https://doi.org/10.1038/s41597-025-06054-w",
+    "publication_date": "2025-11-12",
+    "disposition": "added",
+    "dataset_id": "tbhubbard-mofs",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.7910/DVN/ZKLRLF"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-06109-y",
+    "title": "Massive Atomic Diversity: a compact universal dataset for atomistic machine learning",
+    "url": "https://doi.org/10.1038/s41597-025-06109-y",
+    "publication_date": "2025-11-21",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "mad15",
+      "mad16"
+    ],
+    "evidence": "Massive Atomic Diversity family already present as mad15/mad16; version-specific paper evidence should update lineage, not create another summed dataset.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-06196-x",
+    "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+    "url": "https://doi.org/10.1038/s41597-025-06196-x",
+    "publication_date": "2025-12-05",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "migration-barriers-literature-2025"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-05302-3",
+    "title": "Multi-phase dataset for bulk Ti and the Ti-6Al-4V alloy",
+    "url": "https://doi.org/10.1038/s41597-025-05302-3",
+    "publication_date": "2025-12-05",
+    "disposition": "added",
+    "dataset_id": "ti-ti64-multiphase",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.5281/zenodo.15114121"
+    ]
+  },
+  {
+    "doi": "10.1038/s41597-025-06295-9",
+    "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+    "url": "https://doi.org/10.1038/s41597-025-06295-9",
+    "publication_date": "2025-12-11",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "cu-cr-x-figure-extraction"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-025-06412-8",
+    "title": "Material Fracturing and Failure Simulation Datasets",
+    "url": "https://doi.org/10.1038/s41597-025-06412-8",
+    "publication_date": "2025-12-13",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "existing_dataset_ids": [],
+    "evidence": "Material fracturing/failure simulations are mesoscale/continuum adjacent; periodic atomic payload not established here.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-026-06628-2",
+    "title": "Open Molecular Crystals 2025 (OMC25) dataset and models",
+    "url": "https://doi.org/10.1038/s41597-026-06628-2",
+    "publication_date": "2026-02-04",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "omc25",
+      "omc25"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-026-06862-8",
+    "title": "An integrated database of combustion properties of metallic materials",
+    "url": "https://doi.org/10.1038/s41597-026-06862-8",
+    "publication_date": "2026-02-16",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "metal-combustion-properties"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-026-07083-9",
+    "title": "EKHI: an open database of optical and thermal radiative properties of solid materials",
+    "url": "https://doi.org/10.1038/s41597-026-07083-9",
+    "publication_date": "2026-03-24",
+    "disposition": "existing",
+    "dataset_id": null,
+    "existing_dataset_ids": [
+      "ekhi-radiative-2026"
+    ],
+    "evidence": "Canonical catalog already includes this dataset release/family.",
+    "deposit_urls": []
+  },
+  {
+    "doi": "10.1038/s41597-026-07766-3",
+    "title": "Dataset of Optimized Structures of Aliphatic Chains Chemisorbed on Si(110) and Si(111) Surfaces via First-Principles Methods",
+    "url": "https://doi.org/10.1038/s41597-026-07766-3",
+    "publication_date": "2026-06-30",
+    "disposition": "added",
+    "dataset_id": "si-organic-chain-slab-2026",
+    "existing_dataset_ids": [],
+    "evidence": "Primary descriptor and release verified; see additions.json and receipts.",
+    "deposit_urls": [
+      "https://doi.org/10.24435/materialscloud:rm-r4"
+    ]
+  }
+]

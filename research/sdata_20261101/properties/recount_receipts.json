@@ -1,0 +1,44 @@
+[
+  {
+    "file": "corrosion.xlsx",
+    "method": "Rows whose first cell is numeric, excluding References worksheet",
+    "counts": {
+      "Pitting Potential": 810,
+      "Repassivation Potential": 189,
+      "Crevice Corrosion Potential": 31,
+      "Pitting Temp": 117,
+      "Crevice Corrosion Temp": 70,
+      "HEAs_Ecorr, icorr, ipass, Rate": 51
+    },
+    "total": 1268
+  },
+  {
+    "file": "lowtemp.json",
+    "method": "sum(len(article.scidata.datasets))",
+    "articles": 239,
+    "count": 1913
+  },
+  {
+    "file": "spse.zip",
+    "method": "nonempty JSONL line counts by file",
+    "counts": {
+      "SPSE_database_data/bvse.json": 11989,
+      "SPSE_database_data/cavd.json": 7678,
+      "SPSE_database_data/cifs.json": 91763,
+      "SPSE_database_data/conduction_descriptors.json": 34,
+      "SPSE_database_data/hierarchical_calculation_data.json": 49,
+      "SPSE_database_data/literature_properties.json": 121
+    }
+  },
+  {
+    "file": "dielectrics.json",
+    "method": "len(JSON top-level list)",
+    "count": 441,
+    "structure_entries": 441
+  },
+  {
+    "file": "oxide-synthesis.json",
+    "method": "len(JSON top-level list of embedded JSON records)",
+    "count": 30
+  }
+]

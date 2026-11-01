@@ -1,0 +1,40 @@
+{
+  "name": "simpod_datacite",
+  "url": "https://www.scidb.cn/detail?dataSetId=91574142078b45c79d532d97b294ed44",
+  "resolved_url": "https://api.datacite.org/dois/10.57760%2Fsciencedb.09755",
+  "status": 200,
+  "sha256": "05c3e61144e29cd79f43f1f61483052d889b0fa7dfad7fee93743d32c269381b",
+  "doi": "10.57760/sciencedb.09755",
+  "title": null,
+  "titles": [
+    {
+      "title": "SIMPOD: Simulated Powder X-ray diffraction Open Database"
+    },
+    {
+      "lang": "zh",
+      "title": "SIMPOD: Simulated Powder X-ray diffraction Open Database"
+    }
+  ],
+  "license": null,
+  "rightsList": [
+    {
+      "rights": "Creative Commons Zero v1.0 Universal",
+      "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "schemeUri": "https://spdx.org/licenses/",
+      "rightsIdentifier": "cc0-1.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "version": "V4",
+  "descriptions": [
+    {
+      "description": "This repository contains a set of 467,861 crystal structures from the Crystallography Open Database (https://www.crystallography.net/cod/) up to mid-2023 and its corresponding simulated powder X-ray diffraction patterns. The information of the structures (id, atomic numbers, atomic coordinates, occupation, unit cell parameters, space group and powder XRD pattern) is stored in JSON files. Moreover, this repository also contains 467,861 radial images (PNG format) generated from the simulated powder X-ray diffraction patterns.The data is organized as follows, there is a main ‘Data’ folder that contains two folders named as ‘Structures’ and ‘Powder_images’. While the ‘Structures’ folder contains all the .json files, the ‘Powder_images’ folder contains all the .png images. There is also a 'CSVs' folder which contains important data to replicate some of the results of the main paper. A GitHub repository that describes how to load and create the data, and how to train some AI models with the dataset can be found here: https://github.com/BCV-Uniandes/SIMPOD.git. We strongly recommend to follow the tutorial in the repository.To handle the data and generate the patterns PyAstronomy (https://github.com/sczesla/PyAstronomy), Dans-Diffraction (https://github.com/DanPorter/Dans_Diffraction), Gemmi (https://github.com/project-gemmi/gemmi) and scikit-image (https://github.com/scikit-image/scikit-image) python packages were used. The detailed process to obtain the patterns and the images is described in the main article (https://www.nature.com/articles/s41597-025-05534-3)",
+      "descriptionType": "Abstract"
+    },
+    {
+      "lang": "zh",
+      "description": "This repository contains a set of 467,861 crystal structures from the Crystallography Open Database (https://www.crystallography.net/cod/) up to mid-2023 and its corresponding simulated powder X-ray diffraction patterns. The information of the structures (id, atomic numbers, atomic coordinates, occupation, unit cell parameters, space group and powder XRD pattern) is stored in JSON files. Moreover, this repository also contains 467,861 radial images (PNG format) generated from the simulated powder X-ray diffraction patterns.The data is organized as follows, there is a main ‘Data’ folder that contains two folders named as ‘Structures’ and ‘Powder_images’. While the ‘Structures’ folder contains all the .json files, the ‘Powder_images’ folder contains all the .png images. There is also a 'CSVs' folder which contains important data to replicate some of the results of the main paper. A GitHub repository that describes how to load and create the data, and how to train some AI models with the dataset can be found here: https://github.com/BCV-Uniandes/SIMPOD.git. We strongly recommend to follow the tutorial in the repository.To handle the data and generate the patterns PyAstronomy (https://github.com/sczesla/PyAstronomy), Dans-Diffraction (https://github.com/DanPorter/Dans_Diffraction), Gemmi (https://github.com/project-gemmi/gemmi) and scikit-image (https://github.com/scikit-image/scikit-image) python packages were used. The detailed process to obtain the patterns and the images is described in the main article (https://www.nature.com/articles/s41597-025-05534-3)",
+      "descriptionType": "Abstract"
+    }
+  ]
+}

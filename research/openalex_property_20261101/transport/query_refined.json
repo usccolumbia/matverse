@@ -1,0 +1,45 @@
+{
+  "mode": "search",
+  "query": "NEMAD teMatDb ESTM Wenzhou thermoelectric",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 0,
+      "outcome": "empty",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [],
+  "warnings": [],
+  "advisories": [],
+  "stats": {
+    "raw_hits": 0,
+    "after_dedup": 0,
+    "shown": 0,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

@@ -1,0 +1,1454 @@
+{
+  "altermagnetic_split_fraction": {
+    "name": "Altermagnetic splitting fraction",
+    "aliases": [
+      "altermagnetism",
+      "spin splitting fraction"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported altermagnetic splitting fraction values in %, retained separately for each source and method. The manifest reports a percentage splitting metric; its precise population and threshold must be checked at the original source."
+  },
+  "altermagnetic_splitting_avg": {
+    "name": "Average altermagnetic splitting",
+    "aliases": [
+      "altermagnetism",
+      "average spin splitting"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported average altermagnetic splitting values in eV, retained separately for each source and method."
+  },
+  "altermagnetic_splitting_max": {
+    "name": "Maximum altermagnetic splitting",
+    "aliases": [
+      "altermagnetism",
+      "maximum spin splitting"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported maximum altermagnetic splitting values in eV, retained separately for each source and method."
+  },
+  "ar_uptake": {
+    "name": "Argon uptake",
+    "aliases": [
+      "Ar adsorption",
+      "gas storage",
+      "argon adsorption"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported argon uptake values in mol/kg, retained separately for each source and method."
+  },
+  "average_oxidation_states": {
+    "name": "Average oxidation states",
+    "aliases": [
+      "valence",
+      "oxidation state",
+      "average valence"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for average oxidation states, retained with its original source and method labels."
+  },
+  "average_voltage": {
+    "name": "Average battery voltage",
+    "aliases": [
+      "electrode voltage",
+      "electrochemical potential",
+      "battery voltage"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported average battery voltage values in V, retained separately for each source and method."
+  },
+  "band_gap": {
+    "name": "Electronic band gap",
+    "aliases": [
+      "bandgap",
+      "energy gap",
+      "electronic gap",
+      "semiconductor"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported electronic band gap values in eV, retained separately for each source and method. The table combines source and method specific gaps; experimental optical gaps and calculated electronic gaps are not interchangeable."
+  },
+  "band_gap_direct": {
+    "name": "Direct electronic band gap",
+    "aliases": [
+      "direct bandgap",
+      "direct energy gap",
+      "optical semiconductor"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported direct electronic band gap values in eV, retained separately for each source and method. This is a direct-gap energy table, distinct from the Boolean is_gap_direct classification."
+  },
+  "battery_formula": {
+    "name": "Battery formula",
+    "aliases": [
+      "electrode formula",
+      "battery composition"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Text descriptor for battery formula, retained with its original source and method labels."
+  },
+  "birefringence": {
+    "name": "Birefringence",
+    "aliases": [
+      "optical anisotropy",
+      "refractive index difference"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported birefringence values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "born_effective_charge_max": {
+    "name": "Maximum Born effective charge",
+    "aliases": [
+      "dynamical charge",
+      "Born charge",
+      "Z star"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Source-reported maximum born effective charge values in e, retained separately for each source and method. This is a scalar maximum summary, not the complete Born effective-charge tensor."
+  },
+  "bulk_modulus_eos": {
+    "name": "Bulk modulus from equation of state",
+    "aliases": [
+      "EOS bulk modulus",
+      "compressibility"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported bulk modulus from equation of state values in GPa, retained separately for each source and method. Retained under its own normalized key; do not assume equivalence with the separate eos_bulk_modulus table or identical fitting conventions."
+  },
+  "bulk_modulus_pressure_derivative": {
+    "name": "Pressure derivative of bulk modulus",
+    "aliases": [
+      "B prime",
+      "K prime",
+      "equation of state"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported pressure derivative of bulk modulus values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "bulk_modulus_reuss": {
+    "name": "Bulk modulus — Reuss",
+    "aliases": [
+      "Reuss bulk modulus",
+      "elastic compressibility"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported bulk modulus — reuss values in GPa, retained separately for each source and method."
+  },
+  "bulk_modulus_voigt": {
+    "name": "Bulk modulus — Voigt",
+    "aliases": [
+      "Voigt bulk modulus",
+      "elastic compressibility"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported bulk modulus — voigt values in GPa, retained separately for each source and method."
+  },
+  "bulk_modulus_vrh": {
+    "name": "Bulk modulus — Voigt–Reuss–Hill",
+    "aliases": [
+      "VRH bulk modulus",
+      "Hill average bulk modulus"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported bulk modulus — voigt–reuss–hill values in GPa, retained separately for each source and method."
+  },
+  "capacity_gravimetric": {
+    "name": "Gravimetric battery capacity",
+    "aliases": [
+      "specific capacity",
+      "electrode capacity",
+      "charge storage"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported gravimetric battery capacity values in mAh/g, retained separately for each source and method."
+  },
+  "capacity_volumetric": {
+    "name": "Volumetric battery capacity",
+    "aliases": [
+      "volumetric capacity",
+      "electrode capacity",
+      "charge storage"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported volumetric battery capacity values in mAh/cm³, retained separately for each source and method."
+  },
+  "cbm": {
+    "name": "Conduction band minimum",
+    "aliases": [
+      "CBM",
+      "conduction band edge",
+      "band alignment"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported conduction band minimum values in eV, retained separately for each source and method."
+  },
+  "chemical_name": {
+    "name": "Chemical name",
+    "aliases": [
+      "compound name",
+      "chemical nomenclature"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for chemical name, retained with its original source and method labels."
+  },
+  "co2_heat_of_adsorption": {
+    "name": "Carbon dioxide heat of adsorption",
+    "aliases": [
+      "CO2 adsorption enthalpy",
+      "carbon capture",
+      "heat of adsorption"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported carbon dioxide heat of adsorption values in kJ/mol, retained separately for each source and method."
+  },
+  "co2_n2_selectivity": {
+    "name": "Carbon dioxide / nitrogen selectivity",
+    "aliases": [
+      "CO2 N2 selectivity",
+      "carbon capture",
+      "gas separation"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported carbon dioxide / nitrogen selectivity values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "co2_uptake": {
+    "name": "Carbon dioxide uptake",
+    "aliases": [
+      "CO2 adsorption",
+      "carbon capture",
+      "gas storage"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported carbon dioxide uptake values in mol/kg, retained separately for each source and method."
+  },
+  "continuous_symmetry_measure": {
+    "name": "Continuous symmetry measure",
+    "aliases": [
+      "CSM",
+      "local symmetry",
+      "coordination distortion"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported continuous symmetry measure values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "coordination_environments": {
+    "name": "Coordination environments",
+    "aliases": [
+      "local coordination",
+      "coordination geometry"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for coordination environments, retained with its original source and method labels."
+  },
+  "curie_temperature": {
+    "name": "Curie temperature",
+    "aliases": [
+      "magnetic transition temperature",
+      "ferromagnetism",
+      "Curie point"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported curie temperature values in K, retained separately for each source and method."
+  },
+  "debye_temperature": {
+    "name": "Debye temperature",
+    "aliases": [
+      "phonon temperature",
+      "Debye model"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported debye temperature values in K, retained separately for each source and method."
+  },
+  "decomposes_to": {
+    "name": "Decomposition products",
+    "aliases": [
+      "decomposes to",
+      "phase decomposition",
+      "competing phases"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Text descriptor for decomposition products, retained with its original source and method labels."
+  },
+  "decomposition_energy": {
+    "name": "Decomposition energy",
+    "aliases": [
+      "phase decomposition energy",
+      "thermodynamic stability"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported decomposition energy values in eV/atom, retained separately for each source and method. The sign and reference decomposition depend on the source; do not automatically equate this field with energy_above_hull."
+  },
+  "density": {
+    "name": "Mass density",
+    "aliases": [
+      "material density",
+      "crystal density"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported mass density values in g/cm³, retained separately for each source and method."
+  },
+  "dielectric_constant_electronic": {
+    "name": "Electronic dielectric constant",
+    "aliases": [
+      "high frequency permittivity",
+      "epsilon infinity",
+      "electronic permittivity"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Source-reported electronic dielectric constant values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "dielectric_constant_ionic": {
+    "name": "Ionic dielectric constant",
+    "aliases": [
+      "ionic permittivity",
+      "lattice dielectric contribution"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Source-reported ionic dielectric constant values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "dielectric_constant_total": {
+    "name": "Total dielectric constant",
+    "aliases": [
+      "static permittivity",
+      "total permittivity",
+      "epsilon"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Source-reported total dielectric constant values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "dimensionality": {
+    "name": "Structural dimensionality",
+    "aliases": [
+      "2D",
+      "3D",
+      "layered materials",
+      "dimensionality"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for structural dimensionality, retained with its original source and method labels."
+  },
+  "dos_at_fermi": {
+    "name": "Density of states at Fermi level",
+    "aliases": [
+      "DOS at Ef",
+      "electronic density of states",
+      "Fermi level"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported density of states at fermi level values in states/eV, retained separately for each source and method. The manifest unit is states/eV; normalization by cell, formula unit, spin, or atom must be checked upstream."
+  },
+  "dynamically_stable": {
+    "name": "Dynamical stability flag",
+    "aliases": [
+      "phonon stability",
+      "dynamically stable"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported 0/1 flag for dynamical stability; criteria depend on the upstream dataset."
+  },
+  "easy_axis": {
+    "name": "Magnetic easy axis",
+    "aliases": [
+      "easy magnetization direction",
+      "magnetic anisotropy direction"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Text descriptor for magnetic easy axis, retained with its original source and method labels. The manifest flags 1,521 values in an unexpected column for this property; inspect the actual Parquet schema and value placement before use."
+  },
+  "effective_mass_electron": {
+    "name": "Electron effective mass",
+    "aliases": [
+      "electron mobility",
+      "conduction effective mass",
+      "m star"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported electron effective mass values in m_e, retained separately for each source and method. The table is a normalized effective-mass summary; directional, tensor, and extremum conventions depend on the source."
+  },
+  "effective_mass_hole": {
+    "name": "Hole effective mass",
+    "aliases": [
+      "hole mobility",
+      "valence effective mass",
+      "m star"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported hole effective mass values in m_e, retained separately for each source and method. The table is a normalized effective-mass summary; directional, tensor, and extremum conventions depend on the source."
+  },
+  "elastic_anisotropy": {
+    "name": "Elastic anisotropy",
+    "aliases": [
+      "elastic anisotropy index",
+      "mechanical anisotropy"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported elastic anisotropy values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "electrode_stability_charged": {
+    "name": "Charged electrode stability",
+    "aliases": [
+      "charged state stability",
+      "electrode energy above hull"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported charged electrode stability values in eV/atom, retained separately for each source and method."
+  },
+  "electrode_stability_discharged": {
+    "name": "Discharged electrode stability",
+    "aliases": [
+      "discharged state stability",
+      "electrode energy above hull"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported discharged electrode stability values in eV/atom, retained separately for each source and method."
+  },
+  "electrode_volume_change": {
+    "name": "Electrode volume change",
+    "aliases": [
+      "battery volume expansion",
+      "intercalation volume change"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported electrode volume change values in fraction, retained separately for each source and method."
+  },
+  "electron_phonon_coupling": {
+    "name": "Electron–phonon coupling",
+    "aliases": [
+      "EPC",
+      "lambda",
+      "electron phonon interaction",
+      "superconductivity"
+    ],
+    "family": "Superconductivity properties",
+    "description": "Source-reported electron–phonon coupling values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "elf_max": {
+    "name": "Maximum electron localization function",
+    "aliases": [
+      "ELF",
+      "electron localization",
+      "chemical bonding"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported maximum electron localization function values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "energy_above_hull": {
+    "name": "Energy above convex hull",
+    "aliases": [
+      "e hull",
+      "Ehull",
+      "convex hull distance",
+      "phase stability"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported energy above convex hull values in eV/atom, retained separately for each source and method. Computed hull references and competing phase sets differ among sources and methods; this is not a guarantee of physical stability."
+  },
+  "energy_density_gravimetric": {
+    "name": "Gravimetric battery energy density",
+    "aliases": [
+      "specific energy",
+      "Wh per kg",
+      "battery energy"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported gravimetric battery energy density values in Wh/kg, retained separately for each source and method."
+  },
+  "energy_density_volumetric": {
+    "name": "Volumetric battery energy density",
+    "aliases": [
+      "energy per volume",
+      "Wh per L",
+      "battery energy"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported volumetric battery energy density values in Wh/L, retained separately for each source and method."
+  },
+  "energy_per_t_atom": {
+    "name": "Energy per framework T atom",
+    "aliases": [
+      "zeolite energy",
+      "T atom energy",
+      "tetrahedral framework energy"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported energy per framework t atom values in kJ/mol, retained separately for each source and method. The source key denotes a framework T-atom energy and reports kJ/mol; the reference state and molar normalization require the Deem-zeolites source definition."
+  },
+  "eos_bulk_modulus": {
+    "name": "Equation-of-state bulk modulus",
+    "aliases": [
+      "EOS bulk modulus",
+      "compressibility",
+      "PHONIX bulk modulus"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported equation-of-state bulk modulus values in GPa, retained separately for each source and method. Retained separately from bulk_modulus_eos; source fitting conventions and data populations can differ."
+  },
+  "exfoliation_energy": {
+    "name": "Exfoliation energy",
+    "aliases": [
+      "layer exfoliation",
+      "2D materials",
+      "cleavage energy"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported exfoliation energy values in meV/atom, retained separately for each source and method."
+  },
+  "experimentally_observed": {
+    "name": "Experimentally observed flag",
+    "aliases": [
+      "experimental existence",
+      "synthesized material",
+      "experimental evidence"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported 0/1 flag for experimentally observed; criteria depend on the upstream dataset. A source provenance flag indicates an experimental association, not validation of every property value in the aggregate."
+  },
+  "fermi_energy": {
+    "name": "Fermi energy",
+    "aliases": [
+      "Fermi level",
+      "Ef",
+      "electronic chemical potential"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported fermi energy values in eV, retained separately for each source and method."
+  },
+  "formation_energy_per_atom": {
+    "name": "Formation energy per atom",
+    "aliases": [
+      "formation enthalpy",
+      "formation energy",
+      "thermodynamic stability"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported formation energy per atom values in eV/atom, retained separately for each source and method."
+  },
+  "framework_bond_dissociation_energy": {
+    "name": "Framework bond dissociation energy",
+    "aliases": [
+      "MOF bond strength",
+      "bond breaking energy",
+      "framework stability"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported framework bond dissociation energy values in eV/atom, retained separately for each source and method. The manifest uses eV/atom; inspect the FAIR-MOFs definition before interpreting it as an individual bond dissociation energy."
+  },
+  "framework_density": {
+    "name": "Framework T-atom density",
+    "aliases": [
+      "zeolite framework density",
+      "tetrahedral atom density",
+      "T per volume"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported framework t-atom density values in T/1000 Å³, retained separately for each source and method. T denotes framework tetrahedral atoms; this number density differs from the mass-density table."
+  },
+  "gllbsc_derivative_discontinuity": {
+    "name": "GLLB-SC derivative discontinuity",
+    "aliases": [
+      "GLLBSC",
+      "band gap correction",
+      "exchange correlation discontinuity"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported gllb-sc derivative discontinuity values in eV, retained separately for each source and method."
+  },
+  "grain_boundary_energy": {
+    "name": "Grain boundary energy",
+    "aliases": [
+      "GB energy",
+      "interface energy",
+      "grain boundaries"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported grain boundary energy values in J/m², retained separately for each source and method."
+  },
+  "grain_boundary_types": {
+    "name": "Grain boundary types",
+    "aliases": [
+      "GB character",
+      "grain boundary classification"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Text descriptor for grain boundary types, retained with its original source and method labels."
+  },
+  "h2_uptake": {
+    "name": "Hydrogen uptake",
+    "aliases": [
+      "H2 adsorption",
+      "hydrogen storage",
+      "gas storage"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported hydrogen uptake values in g/L, retained separately for each source and method."
+  },
+  "hardness_vickers": {
+    "name": "Vickers hardness",
+    "aliases": [
+      "indentation hardness",
+      "HV",
+      "hard materials"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported vickers hardness values in GPa, retained separately for each source and method."
+  },
+  "has_imaginary_phonon": {
+    "name": "Imaginary phonon flag",
+    "aliases": [
+      "phonon instability",
+      "imaginary frequency",
+      "soft mode"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported 0/1 flag for imaginary phonon; criteria depend on the upstream dataset."
+  },
+  "has_reconstructed_surface": {
+    "name": "Surface reconstruction flag",
+    "aliases": [
+      "reconstructed surface",
+      "surface reconstruction"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported 0/1 flag for surface reconstruction; criteria depend on the upstream dataset."
+  },
+  "heat_capacity": {
+    "name": "Heat capacity",
+    "aliases": [
+      "specific heat",
+      "molar heat capacity",
+      "thermal properties"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported heat capacity values in J/mol·K, retained separately for each source and method. The manifest does not establish constant-pressure versus constant-volume or the temperature; retain source and method conditions."
+  },
+  "heat_of_formation": {
+    "name": "Heat of formation",
+    "aliases": [
+      "formation enthalpy",
+      "formation energy",
+      "CMR formation heat"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported heat of formation values in eV/atom, retained separately for each source and method. Kept separate from formation_energy_per_atom; source reference states and thermodynamic conventions must be retained."
+  },
+  "interlayer_binding_energy": {
+    "name": "Interlayer binding energy",
+    "aliases": [
+      "layer adhesion",
+      "layered materials",
+      "van der Waals binding"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported interlayer binding energy values in meV/Å², retained separately for each source and method."
+  },
+  "ionic_conductivity": {
+    "name": "Ionic conductivity",
+    "aliases": [
+      "ion conductivity",
+      "solid electrolyte",
+      "solid state electrolyte",
+      "ion transport"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported ionic conductivity values in S/cm, retained separately for each source and method. Conductivity depends on temperature and measurement or calculation conditions; the normalized table alone does not establish a room-temperature benchmark."
+  },
+  "is_gap_direct": {
+    "name": "Direct band gap flag",
+    "aliases": [
+      "direct bandgap",
+      "direct semiconductor",
+      "optical transition"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported 0/1 flag for direct band gap; criteria depend on the upstream dataset."
+  },
+  "is_metal": {
+    "name": "Metallicity flag",
+    "aliases": [
+      "metallic material",
+      "metal classification",
+      "electrical conductor"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported 0/1 flag for metallicity; criteria depend on the upstream dataset."
+  },
+  "is_stable": {
+    "name": "Stability flag",
+    "aliases": [
+      "stable phase",
+      "thermodynamic stability",
+      "stable material"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported 0/1 flag for stability; criteria depend on the upstream dataset. Retain the original source stability criterion; a Boolean classification does not establish dynamical, chemical, and experimental stability together."
+  },
+  "largest_cavity_diameter": {
+    "name": "Largest cavity diameter",
+    "aliases": [
+      "LCD",
+      "pore cavity size",
+      "largest included sphere"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported largest cavity diameter values in Å, retained separately for each source and method."
+  },
+  "largest_free_path_diameter": {
+    "name": "Largest free path diameter",
+    "aliases": [
+      "free sphere diameter",
+      "porous free path"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported largest free path diameter values in Å, retained separately for each source and method. Keep the upstream geometric definition; do not merge automatically with pore_limiting_diameter despite related pore metrics."
+  },
+  "lattice_thermal_conductivity": {
+    "name": "Lattice thermal conductivity",
+    "aliases": [
+      "LTC",
+      "kappa L",
+      "phonon thermal transport",
+      "thermal conductivity"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported lattice thermal conductivity values in W/m·K, retained separately for each source and method. Temperature, tensor averaging, isotope treatment, and calculation conventions are source dependent."
+  },
+  "lattice_thermal_conductivity_coherence": {
+    "name": "Lattice thermal conductivity — coherence contribution",
+    "aliases": [
+      "coherent thermal transport",
+      "kappa coherence",
+      "Wigner thermal conductivity"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported lattice thermal conductivity — coherence contribution values in W/m·K, retained separately for each source and method. A source-defined coherence contribution; it is not necessarily interchangeable with a separately reported total lattice conductivity."
+  },
+  "lattice_thermal_conductivity_particle": {
+    "name": "Lattice thermal conductivity — particle contribution",
+    "aliases": [
+      "particle thermal transport",
+      "kappa particle",
+      "phonon gas contribution"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported lattice thermal conductivity — particle contribution values in W/m·K, retained separately for each source and method. A source-defined particle contribution; it is not necessarily interchangeable with a separately reported total lattice conductivity."
+  },
+  "layer_group_number": {
+    "name": "Layer group number",
+    "aliases": [
+      "2D symmetry",
+      "layer group",
+      "crystallography"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported layer group number values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "magnetic_anisotropy_constant": {
+    "name": "Magnetic anisotropy constant",
+    "aliases": [
+      "magnetocrystalline anisotropy",
+      "MAE",
+      "anisotropy energy density"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported magnetic anisotropy constant values in MJ/m³, retained separately for each source and method."
+  },
+  "magnetic_ordering": {
+    "name": "Magnetic ordering",
+    "aliases": [
+      "ferromagnetic",
+      "antiferromagnetic",
+      "ferrimagnetic",
+      "magnetic order"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Text descriptor for magnetic ordering, retained with its original source and method labels."
+  },
+  "magnetic_polarization": {
+    "name": "Magnetic polarization",
+    "aliases": [
+      "magnetic induction",
+      "polarization T",
+      "permanent magnet"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported magnetic polarization values in T, retained separately for each source and method."
+  },
+  "magnetic_species": {
+    "name": "Magnetic species",
+    "aliases": [
+      "magnetic elements",
+      "magnetic ions",
+      "spin bearing species"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Text descriptor for magnetic species, retained with its original source and method labels."
+  },
+  "magnetization_per_atom": {
+    "name": "Magnetization per atom",
+    "aliases": [
+      "atomic magnetic moment",
+      "spin moment per atom",
+      "magnetism"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported magnetization per atom values in μB/atom, retained separately for each source and method."
+  },
+  "magnetization_per_volume": {
+    "name": "Magnetization per volume",
+    "aliases": [
+      "magnetization density",
+      "magnetic moment density",
+      "magnetism"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported magnetization per volume values in μB/Å³, retained separately for each source and method."
+  },
+  "max_residual_force": {
+    "name": "Maximum residual force",
+    "aliases": [
+      "force convergence",
+      "relaxation force",
+      "residual atomic force"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported maximum residual force values in eV/Å, retained separately for each source and method. This is a calculation-convergence diagnostic, not a force-field training dataset or a material-intrinsic property; maximum/component conventions require source inspection."
+  },
+  "max_residual_stress": {
+    "name": "Maximum residual stress",
+    "aliases": [
+      "stress convergence",
+      "relaxation stress",
+      "residual stress"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported maximum residual stress values in eV/Å³, retained separately for each source and method. This is a calculation-convergence diagnostic; the manifest uses eV/Å³, and the residual norm/component convention requires source inspection."
+  },
+  "max_voltage_step": {
+    "name": "Maximum battery voltage step",
+    "aliases": [
+      "voltage profile",
+      "largest voltage step",
+      "electrode voltage"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported maximum battery voltage step values in V, retained separately for each source and method."
+  },
+  "measured_chemistry": {
+    "name": "Measured chemistry",
+    "aliases": [
+      "measured composition",
+      "chemical analysis",
+      "mineral chemistry"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for measured chemistry, retained with its original source and method labels."
+  },
+  "measurement_pressure": {
+    "name": "Measurement pressure",
+    "aliases": [
+      "experimental pressure",
+      "pressure conditions",
+      "high pressure"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported measurement pressure values in GPa, retained separately for each source and method."
+  },
+  "measurement_temperature": {
+    "name": "Measurement temperature",
+    "aliases": [
+      "experimental temperature",
+      "temperature conditions"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported measurement temperature values in K, retained separately for each source and method."
+  },
+  "migration_barrier": {
+    "name": "Ion migration barrier",
+    "aliases": [
+      "diffusion barrier",
+      "activation energy",
+      "ionic transport",
+      "migration energy"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported ion migration barrier values in eV, retained separately for each source and method. Keep the original migrating species, pathway, and calculation or measurement conditions; the scalar energy alone does not specify ionic conductivity."
+  },
+  "mineral_name": {
+    "name": "Mineral name",
+    "aliases": [
+      "mineral identity",
+      "mineralogy"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for mineral name, retained with its original source and method labels."
+  },
+  "mohs_hardness": {
+    "name": "Mohs hardness",
+    "aliases": [
+      "scratch hardness",
+      "mineral hardness",
+      "Mohs scale"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported mohs hardness values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "n2_heat_of_adsorption": {
+    "name": "Nitrogen heat of adsorption",
+    "aliases": [
+      "N2 adsorption enthalpy",
+      "gas adsorption heat"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported nitrogen heat of adsorption values in kJ/mol, retained separately for each source and method."
+  },
+  "n2_uptake": {
+    "name": "Nitrogen uptake",
+    "aliases": [
+      "N2 adsorption",
+      "nitrogen storage",
+      "gas storage"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported nitrogen uptake values in mol/kg, retained separately for each source and method."
+  },
+  "nmr_efg_max": {
+    "name": "Maximum electric field gradient",
+    "aliases": [
+      "NMR EFG",
+      "nuclear magnetic resonance",
+      "electric field gradient",
+      "quadrupolar interaction"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported maximum electric field gradient values in V/m², retained separately for each source and method. This is a maximum electric-field-gradient summary in V/m², not a complete EFG tensor, NMR spectrum, or chemical shift."
+  },
+  "num_voltage_steps": {
+    "name": "Number of battery voltage steps",
+    "aliases": [
+      "voltage profile steps",
+      "electrode voltage plateaus"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Source-reported number of battery voltage steps values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "oxidation_states": {
+    "name": "Oxidation states",
+    "aliases": [
+      "valence states",
+      "oxidation numbers",
+      "ionic valence"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for oxidation states, retained with its original source and method labels."
+  },
+  "pearson_symbol": {
+    "name": "Pearson symbol",
+    "aliases": [
+      "Pearson notation",
+      "crystal lattice symbol",
+      "crystallography"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for pearson symbol, retained with its original source and method labels."
+  },
+  "phase_separation_energy": {
+    "name": "Phase separation energy",
+    "aliases": [
+      "phase segregation energy",
+      "phase stability"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported phase separation energy values in eV/atom, retained separately for each source and method."
+  },
+  "phonon_log_average_frequency": {
+    "name": "Logarithmic average phonon frequency",
+    "aliases": [
+      "omega log",
+      "log phonon frequency",
+      "EPC",
+      "superconductivity"
+    ],
+    "family": "Superconductivity properties",
+    "description": "Source-reported logarithmic average phonon frequency values in K, retained separately for each source and method. Reported in kelvin as a frequency-equivalent temperature; do not interpret the values directly as THz."
+  },
+  "phonon_max_frequency": {
+    "name": "Maximum phonon frequency",
+    "aliases": [
+      "phonon band maximum",
+      "vibrational frequency",
+      "phonon spectrum"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported maximum phonon frequency values in THz, retained separately for each source and method."
+  },
+  "phonon_min_frequency": {
+    "name": "Minimum phonon frequency",
+    "aliases": [
+      "phonon band minimum",
+      "soft mode",
+      "vibrational frequency"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported minimum phonon frequency values in THz, retained separately for each source and method."
+  },
+  "piezoelectric_max_direction": {
+    "name": "Direction of maximum piezoelectric response",
+    "aliases": [
+      "piezoelectric orientation",
+      "maximum piezoelectric direction"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Text descriptor for direction of maximum piezoelectric response, retained with its original source and method labels."
+  },
+  "piezoelectric_modulus": {
+    "name": "Piezoelectric modulus",
+    "aliases": [
+      "piezoelectric coefficient",
+      "piezoelectric tensor",
+      "polar materials"
+    ],
+    "family": "Dielectric and electromechanical properties",
+    "description": "Source-reported piezoelectric modulus values in C/m², retained separately for each source and method. The manifest uses C/m², consistent with a piezoelectric stress coefficient; do not relabel it as a pC/N strain coefficient or assume a complete tensor."
+  },
+  "poisson_ratio": {
+    "name": "Poisson ratio",
+    "aliases": [
+      "Poisson's ratio",
+      "elastic transverse contraction"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported poisson ratio values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "pore_channel_count": {
+    "name": "Pore channel count",
+    "aliases": [
+      "porous channel number",
+      "pore connectivity",
+      "MOF channels"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported pore channel count values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "pore_limiting_diameter": {
+    "name": "Pore limiting diameter",
+    "aliases": [
+      "PLD",
+      "pore aperture",
+      "gas accessible pore size"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported pore limiting diameter values in Å, retained separately for each source and method."
+  },
+  "pore_volume": {
+    "name": "Pore volume",
+    "aliases": [
+      "porosity volume",
+      "specific pore volume"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported pore volume values in cm³/g, retained separately for each source and method."
+  },
+  "power_factor": {
+    "name": "Thermoelectric power factor",
+    "aliases": [
+      "Seebeck squared conductivity",
+      "S squared sigma",
+      "thermoelectric transport"
+    ],
+    "family": "Thermoelectric properties",
+    "description": "Source-reported thermoelectric power factor values in μW/cm·K², retained separately for each source and method. Retain carrier concentration, doping sign, temperature, and transport assumptions; this is not the dimensionless thermoelectric figure of merit ZT."
+  },
+  "predicted_synthesizable": {
+    "name": "Predicted synthesizability flag",
+    "aliases": [
+      "synthesis prediction",
+      "synthesizability",
+      "synthetic accessibility"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported 0/1 flag for predicted synthesizability; criteria depend on the upstream dataset. This property-table entry is itself a prediction flag; its inclusion in properties/ does not make it an experimental synthesis outcome."
+  },
+  "r_factor": {
+    "name": "Crystallographic R factor",
+    "aliases": [
+      "refinement residual",
+      "R factor",
+      "crystallographic agreement"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported crystallographic r factor values; the manifest supplies no unit, so retain the upstream definition and normalization. This is a source-defined refinement agreement metric, distinct from structure_prediction_r_factor; verify scaling and refinement conventions upstream."
+  },
+  "refractive_index": {
+    "name": "Refractive index",
+    "aliases": [
+      "optical index",
+      "refraction",
+      "optical materials"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported refractive index values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "relative_energy_to_diamond": {
+    "name": "Energy relative to diamond",
+    "aliases": [
+      "carbon allotrope energy",
+      "diamond reference",
+      "relative energy"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported energy relative to diamond values in eV/atom, retained separately for each source and method."
+  },
+  "seebeck_coefficient": {
+    "name": "Seebeck coefficient",
+    "aliases": [
+      "thermopower",
+      "thermoelectric voltage",
+      "S coefficient"
+    ],
+    "family": "Thermoelectric properties",
+    "description": "Source-reported seebeck coefficient values in μV/K, retained separately for each source and method. Retain carrier concentration, carrier type, temperature, and tensor or averaging conventions."
+  },
+  "shear_modulus_reuss": {
+    "name": "Shear modulus — Reuss",
+    "aliases": [
+      "Reuss shear modulus",
+      "elastic shear stiffness"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported shear modulus — reuss values in GPa, retained separately for each source and method."
+  },
+  "shear_modulus_voigt": {
+    "name": "Shear modulus — Voigt",
+    "aliases": [
+      "Voigt shear modulus",
+      "elastic shear stiffness"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported shear modulus — voigt values in GPa, retained separately for each source and method."
+  },
+  "shear_modulus_vrh": {
+    "name": "Shear modulus — Voigt–Reuss–Hill",
+    "aliases": [
+      "VRH shear modulus",
+      "Hill average shear modulus"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported shear modulus — voigt–reuss–hill values in GPa, retained separately for each source and method."
+  },
+  "shg_coefficient": {
+    "name": "Second-harmonic generation coefficient",
+    "aliases": [
+      "SHG",
+      "nonlinear optical coefficient",
+      "second order optical response"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported second-harmonic generation coefficient values in pm/V, retained separately for each source and method. A source-defined scalar second-harmonic generation coefficient in pm/V; tensor component, frequency, and convention require upstream inspection."
+  },
+  "slme": {
+    "name": "Spectroscopic limited maximum efficiency",
+    "aliases": [
+      "SLME",
+      "solar cell efficiency",
+      "photovoltaic efficiency"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported spectroscopic limited maximum efficiency values in %, retained separately for each source and method. A modeled photovoltaic efficiency metric reported in percent; it is not a measured device power-conversion efficiency."
+  },
+  "sound_velocity_longitudinal": {
+    "name": "Longitudinal sound velocity",
+    "aliases": [
+      "longitudinal acoustic velocity",
+      "compressional wave speed"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported longitudinal sound velocity values in m/s, retained separately for each source and method."
+  },
+  "sound_velocity_transverse": {
+    "name": "Transverse sound velocity",
+    "aliases": [
+      "transverse acoustic velocity",
+      "shear wave speed"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported transverse sound velocity values in m/s, retained separately for each source and method."
+  },
+  "spacegroup_number": {
+    "name": "Space group number",
+    "aliases": [
+      "spacegroup",
+      "crystal symmetry",
+      "crystallography"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported space group number values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "spillage": {
+    "name": "Spin–orbit spillage",
+    "aliases": [
+      "SOC spillage",
+      "spin orbit coupling",
+      "topological screening"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported spin–orbit spillage values; the manifest supplies no unit, so retain the upstream definition and normalization. A spin–orbit wavefunction-overlap screening metric, not a direct topological invariant or proof of a topological phase."
+  },
+  "structure_prediction_r_factor": {
+    "name": "Structure-prediction R factor",
+    "aliases": [
+      "predicted structure R factor",
+      "PCOD R factor",
+      "structure prediction"
+    ],
+    "family": "Calculation and refinement metadata",
+    "description": "Source-reported structure-prediction r factor values; the manifest supplies no unit, so retain the upstream definition and normalization. A source-defined structure-prediction metric, distinct from the crystallographic r_factor table; retain its original definition."
+  },
+  "structure_prototype": {
+    "name": "Structure prototype",
+    "aliases": [
+      "crystal prototype",
+      "structural type",
+      "crystal structure type"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for structure prototype, retained with its original source and method labels."
+  },
+  "strukturbericht": {
+    "name": "Strukturbericht designation",
+    "aliases": [
+      "Strukturbericht symbol",
+      "structure type designation"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Text descriptor for strukturbericht designation, retained with its original source and method labels."
+  },
+  "superconductor_class": {
+    "name": "Superconductor class",
+    "aliases": [
+      "superconductivity family",
+      "superconducting material type",
+      "superconductor classification"
+    ],
+    "family": "Superconductivity properties",
+    "description": "Text descriptor for superconductor class, retained with its original source and method labels."
+  },
+  "surface_anisotropy": {
+    "name": "Surface anisotropy",
+    "aliases": [
+      "surface energy anisotropy",
+      "Wulff morphology"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported surface anisotropy values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "surface_area_gravimetric": {
+    "name": "Gravimetric surface area",
+    "aliases": [
+      "specific surface area",
+      "gas adsorption surface",
+      "area per mass"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported gravimetric surface area values in m²/g, retained separately for each source and method."
+  },
+  "surface_area_volumetric": {
+    "name": "Volumetric surface area",
+    "aliases": [
+      "surface area per volume",
+      "porous surface area"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported volumetric surface area values in m²/cm³, retained separately for each source and method."
+  },
+  "surface_energy": {
+    "name": "Surface energy",
+    "aliases": [
+      "surface formation energy",
+      "facet energy",
+      "surface stability"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported surface energy values in J/m², retained separately for each source and method."
+  },
+  "symmetry_indicators": {
+    "name": "Symmetry indicators",
+    "aliases": [
+      "topological symmetry indicators",
+      "topological materials",
+      "band topology"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Text descriptor for symmetry indicators, retained with its original source and method labels."
+  },
+  "tc_superconducting": {
+    "name": "Superconducting critical temperature",
+    "aliases": [
+      "Tc",
+      "critical temperature",
+      "superconductor",
+      "superconductivity",
+      "transition temperature"
+    ],
+    "family": "Superconductivity properties",
+    "description": "Source-reported superconducting critical temperature values in K, retained separately for each source and method. The sources mix experimental associations and computed superconducting critical temperatures; retain source/method labels and do not pool them as equivalent measurements."
+  },
+  "thermal_conductivity": {
+    "name": "Thermal conductivity",
+    "aliases": [
+      "thermal transport",
+      "kappa",
+      "heat conduction",
+      "AFLOW thermal conductivity"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported thermal conductivity values in W/m·K, retained separately for each source and method. The normalized name does not specify electronic versus lattice contributions, tensor averaging, or temperature; keep it separate from lattice_thermal_conductivity unless the AFLOW definition establishes equivalence."
+  },
+  "thermal_expansion": {
+    "name": "Thermal expansion coefficient",
+    "aliases": [
+      "thermal expansivity",
+      "expansion coefficient",
+      "temperature expansion"
+    ],
+    "family": "Thermal and vibrational properties",
+    "description": "Source-reported thermal expansion coefficient values in 1/K, retained separately for each source and method. The scalar 1/K unit alone does not specify linear versus volumetric expansion, temperature, or tensor convention."
+  },
+  "topology_class": {
+    "name": "Topological class",
+    "aliases": [
+      "topological classification",
+      "topological insulator",
+      "band topology"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Text descriptor for topological class, retained with its original source and method labels."
+  },
+  "topology_invariant": {
+    "name": "Topological invariant",
+    "aliases": [
+      "topological index",
+      "topological invariant",
+      "band topology"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Text descriptor for topological invariant, retained with its original source and method labels."
+  },
+  "total_energy_per_atom": {
+    "name": "Total energy per atom",
+    "aliases": [
+      "DFT total energy",
+      "electronic energy",
+      "energy per atom"
+    ],
+    "family": "Thermodynamic properties and stability",
+    "description": "Source-reported total energy per atom values in eV/atom, retained separately for each source and method. Absolute energies from different methods and pseudopotentials do not share a universal zero and should not be pooled without reference alignment."
+  },
+  "total_magnetization": {
+    "name": "Total magnetization",
+    "aliases": [
+      "total magnetic moment",
+      "spin magnetization",
+      "magnetism"
+    ],
+    "family": "Magnetic and spin properties",
+    "description": "Source-reported total magnetization values in μB, retained separately for each source and method."
+  },
+  "vbm": {
+    "name": "Valence band maximum",
+    "aliases": [
+      "VBM",
+      "valence band edge",
+      "band alignment"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported valence band maximum values in eV, retained separately for each source and method."
+  },
+  "void_fraction": {
+    "name": "Void fraction",
+    "aliases": [
+      "porosity",
+      "accessible void fraction",
+      "void volume fraction"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported void fraction values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "volume_per_atom": {
+    "name": "Volume per atom",
+    "aliases": [
+      "atomic volume",
+      "crystal volume per atom"
+    ],
+    "family": "Chemical and structural descriptors",
+    "description": "Source-reported volume per atom values in Å³/atom, retained separately for each source and method."
+  },
+  "work_function": {
+    "name": "Work function",
+    "aliases": [
+      "electron emission energy",
+      "vacuum level",
+      "photoemission"
+    ],
+    "family": "Electronic and optical properties",
+    "description": "Source-reported work function values in eV, retained separately for each source and method."
+  },
+  "work_of_separation": {
+    "name": "Work of separation",
+    "aliases": [
+      "interface separation energy",
+      "interfacial adhesion",
+      "cleavage work"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported work of separation values in J/m², retained separately for each source and method."
+  },
+  "working_capacity_temperature_swing": {
+    "name": "Temperature-swing working capacity",
+    "aliases": [
+      "TSA",
+      "temperature swing adsorption",
+      "gas working capacity"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported temperature-swing working capacity values in mol/kg, retained separately for each source and method."
+  },
+  "working_capacity_vacuum_swing": {
+    "name": "Vacuum-swing working capacity",
+    "aliases": [
+      "VSA",
+      "vacuum swing adsorption",
+      "gas working capacity"
+    ],
+    "family": "Adsorption and porous materials",
+    "description": "Source-reported vacuum-swing working capacity values in mol/kg, retained separately for each source and method."
+  },
+  "working_ion": {
+    "name": "Working battery ion",
+    "aliases": [
+      "mobile battery ion",
+      "intercalating ion",
+      "charge carrier"
+    ],
+    "family": "Battery and ionic transport properties",
+    "description": "Text descriptor for working battery ion, retained with its original source and method labels."
+  },
+  "wulff_shape_factor": {
+    "name": "Wulff shape factor",
+    "aliases": [
+      "equilibrium crystal morphology",
+      "Wulff construction",
+      "shape factor"
+    ],
+    "family": "Surface and interface properties",
+    "description": "Source-reported wulff shape factor values; the manifest supplies no unit, so retain the upstream definition and normalization."
+  },
+  "youngs_modulus": {
+    "name": "Young's modulus",
+    "aliases": [
+      "Young modulus",
+      "tensile modulus",
+      "elastic stiffness"
+    ],
+    "family": "Mechanical and elastic properties",
+    "description": "Source-reported young's modulus values in GPa, retained separately for each source and method."
+  }
+}

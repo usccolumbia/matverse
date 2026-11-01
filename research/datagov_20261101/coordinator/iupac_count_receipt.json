@@ -1,0 +1,170 @@
+{
+  "method": "Read ten *_SLE*.xlsx tables; locate explicit Source/Status/x1/T header and map columns by name. Count subsequent rows with numeric mole fraction 0\u20131, positive absolute temperature, blank or R status; assert every counted row has a source string. Pressure is a separate kPa column in two tables, not misread as composition. These are released observations, not deduplicated independent experiments or materials.",
+  "tables": [
+    {
+      "file": "AnthraceneWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "p",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 145,
+      "accepted_rows": 145,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": true
+    },
+    {
+      "file": "BenzoicAcidWater_SLE .xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 302,
+      "accepted_rows": 302,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "KClWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 1110,
+      "accepted_rows": 1108,
+      "rejected_R_rows": 2,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "NaClWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 1086,
+      "accepted_rows": 1086,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "NaphthaleneBenzene_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 157,
+      "accepted_rows": 157,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "NaphthaleneEthylbenzene_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 16,
+      "accepted_rows": 16,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "NaphthaleneToluene_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 79,
+      "accepted_rows": 77,
+      "rejected_R_rows": 2,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "NaphthaleneWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "p",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 132,
+      "accepted_rows": 125,
+      "rejected_R_rows": 7,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": true
+    },
+    {
+      "file": "SulfolaneWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 106,
+      "accepted_rows": 106,
+      "rejected_R_rows": 0,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    },
+    {
+      "file": "UreaWater_SLE.xlsx",
+      "header": [
+        null,
+        "Source",
+        "Status",
+        "x1",
+        "T"
+      ],
+      "observation_rows": 313,
+      "accepted_rows": 303,
+      "rejected_R_rows": 10,
+      "temperature_unit": "K (ITS-90)",
+      "composition_unit": "mole fraction",
+      "explicit_pressure_column": false
+    }
+  ],
+  "total_sle_observations": 3446,
+  "total_accepted": 3425,
+  "total_rejected": 21
+}

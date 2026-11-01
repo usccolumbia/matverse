@@ -1,0 +1,1593 @@
+[
+  {
+    "id": "mpea-borg-expanded",
+    "name": "Borg expanded MPEA mechanical properties and phases",
+    "category": "experimental_properties",
+    "description": "Static Figshare v9 CSV contains 1,545 records; paper reports 630 alloys from 265 publications.",
+    "version": "Figshare 12642953 v9, static 1,545-row release",
+    "year": 2002,
+    "count": 1545,
+    "count_display": "1,545",
+    "count_unit": "composition–condition–reference records",
+    "count_scope": "Static Figshare v9 CSV contains 1,545 records; paper reports 630 alloys from 265 publications. Rows preserve processing, temperature, test mode and phases.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "yield strength (MPa)",
+      "ultimate tensile/compression strength (MPa)",
+      "elongation (%)",
+      "Vickers hardness",
+      "Young modulus (GPa)",
+      "density (g/cm³)",
+      "phase labels",
+      "grain size (µm)"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-00768-9",
+      "data": "https://doi.org/10.6084/m9.figshare.12642953.v9",
+      "repository": "https://github.com/CitrineInformatics/MPEA_dataset"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-020-00768-9",
+        "title": "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys",
+        "evidence": "Data Records defines records by unique composition, property, temperature and reference combination; composition and processing metadata accompany sparse mechanical measurements.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/12642953",
+        "title": "MPEA deposit metadata",
+        "evidence": "CC BY 4.0; MPEA_dataset.csv independently parsed as 1,545 data rows.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Includes rule-of-mixtures density and modulus estimates alongside experimental fields; distinguish their origin.",
+      "Alloy phases and microstructure descriptors are not atomic coordinates.",
+      "Contains earlier MPEA review data plus updates; later alloy/fatigue compilations can share source experiments."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "aluminum-alloy-literature-2022",
+    "name": "Aluminum alloy composition and mechanical-property literature datasets",
+    "category": "experimental_properties",
+    "description": "14,884 composition records and a separate 1,278-record mechanical-property table.",
+    "version": "Materials Cloud 2021.80 v1; 2022 descriptor",
+    "year": 2002,
+    "count": 14884,
+    "count_display": "14,884",
+    "count_unit": "alloy composition entries",
+    "count_scope": "14,884 composition records and a separate 1,278-record mechanical-property table. Sources are journal full text, tables, registered Aluminum Association designations and patents.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "element weight fractions",
+      "alloy designation",
+      "yield/tensile strength",
+      "elongation",
+      "processing state",
+      "source DOI/patent"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01215-7",
+      "data": "https://doi.org/10.24435/MATERIALSCLOUD:VX-FY"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01215-7",
+        "title": "Aluminum alloy compositions and properties extracted from a corpus of scientific manuscripts and US patents",
+        "evidence": "Paper describes composition.csv with 14,884 rows (4,958 full text, 5,227 table, 550 named, 4,149 patent) and properties.csv with 1,278 observations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/8djnx-brx78",
+        "title": "Materials Cloud aluminum alloy archive",
+        "evidence": "Version v1 record openly supplies composition/property files and declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The two table counts are different data types; 14,884 is not the count of measured property labels.",
+      "Multiple reports/designations can describe the same alloy; compositions are not unique crystals.",
+      "Tables do not supply periodic atomic structures."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "hea-fracture-impact-2023",
+    "name": "HEA fracture and impact toughness dataset",
+    "category": "experimental_properties",
+    "description": "153 fracture-toughness, 14 impact-toughness and 78 impact-energy records, each describing a distinct metallurgical condition..",
+    "version": "2023 article and cited data release, checked 2026-11-01",
+    "year": 2023,
+    "count": 245,
+    "count_display": "245",
+    "count_unit": "metallurgical-condition property records",
+    "count_scope": "153 fracture-toughness, 14 impact-toughness and 78 impact-energy records, each describing a distinct metallurgical condition.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "fracture toughness (MPa√m)",
+      "impact toughness",
+      "impact energy (J)",
+      "tensile properties",
+      "grain size",
+      "processing/test conditions"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01911-4",
+      "data": "https://doi.org/10.24435/materialscloud:d6-pf"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01911-4",
+        "title": "Dataset for Fracture and Impact Toughness of High-Entropy Alloys",
+        "evidence": "Paper distinguishes the 153/14/78 category counts and describes Excel worksheets with chemistry, processing, phase, specimen and test details.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/pvpcb-mpc63",
+        "title": "Materials Cloud HEA fracture archive",
+        "evidence": "Version v3 release declares CC BY 4.0 and contains Excel worksheets for the three property categories.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "A composition can occur under multiple conditions; record count is not unique-alloy count.",
+      "Do not combine fracture toughness, impact toughness and impact energy as one target.",
+      "Companion HEA fatigue and complex metallic alloy releases may overlap alloys and sources; this adds different properties."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ],
+    "count_derivation": {
+      "method": "three property category records",
+      "values": [
+        153,
+        14,
+        78
+      ]
+    }
+  },
+  {
+    "id": "alloydata-lowtemp",
+    "name": "AlloyData-2024LT low-temperature alloy mechanics",
+    "category": "experimental_properties",
+    "description": "Figshare v9 JSON independently contains 239 articles and 1,913 test-condition records.",
+    "version": "Figshare 25912267 v9; independently counted JSON",
+    "year": 2002,
+    "count": 1913,
+    "count_display": "1,913",
+    "count_unit": "experimental test-condition records",
+    "count_scope": "Figshare v9 JSON independently contains 239 articles and 1,913 test-condition records. Tables describe low-temperature alloy properties and detailed processing/testing metadata.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "yield strength (MPa)",
+      "ultimate tensile strength (MPa)",
+      "elongation (%)",
+      "Charpy impact energy",
+      "temperature (K)",
+      "alloy composition and treatment"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-05512-9",
+      "data": "https://doi.org/10.6084/m9.figshare.25912267.v9",
+      "repository": "https://github.com/xuzpgroup/HaoxuanTang/tree/main/LowTData"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-05512-9",
+        "title": "Mechanical performance dataset for alloy with applications at low temperatures",
+        "evidence": "Data Records defines one scientific record per experimental test condition and a hierarchical JSON schema with default unit system and missing values.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25912267",
+        "title": "AlloyData deposit metadata",
+        "evidence": "CC BY 4.0; downloaded AlloyData-2024LT.json has 239 articles and 1,913 entries under article.scidata.datasets.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Low-temperature series can include room-temperature reference measurements; retain individual temperatures.",
+      "Mechanical targets are sparse, and alloy counts differ from test records.",
+      "May share experiments with other literature alloy compilations; no cross-release deduplication."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "nuclear-subsize-tensile",
+    "name": "Sub-sized nuclear structural material tensile tests",
+    "category": "experimental_properties",
+    "description": "1,050 literature tensile-test records with 55 columns covering nuclear structural materials, specimen dimensions and irradiation/testing conditions..",
+    "version": "2025 article and cited data release, checked 2026-11-01",
+    "year": 2025,
+    "count": 1050,
+    "count_display": "1,050",
+    "count_unit": "tensile test records",
+    "count_scope": "1,050 literature tensile-test records with 55 columns covering nuclear structural materials, specimen dimensions and irradiation/testing conditions.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "yield strength",
+      "ultimate tensile strength",
+      "elongation",
+      "specimen geometry",
+      "irradiation dose/temperature",
+      "composition and treatment"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-04329-2",
+      "data": "https://doi.org/10.24435/materialscloud:ws-8j",
+      "code": "https://github.com/avakanski/Subsized-Specimens-Tensile-Properties"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-04329-2",
+        "title": "Dataset of tensile properties for sub-sized specimens of nuclear structural materials",
+        "evidence": "Paper states 1,050 records and defines each spreadsheet row as a single tensile test with 55 columns.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/vywsz-wxn79",
+        "title": "Materials Cloud tensile archive",
+        "evidence": "Version v3 record supplies spreadsheet data and declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Specimen-size effects and irradiation/treatment conditions must accompany tensile values.",
+      "Full atomic structures absent; test specimens and phase descriptions are not atomistic representations.",
+      "Distinct from the Charpy and creep property tables despite shared material families."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "cde-yield-grainsize",
+    "name": "ChemDataExtractor yield-strength and grain-size databases",
+    "category": "experimental_properties",
+    "description": "64,269 yield-strength plus 30,285 grain-size records.",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 94554,
+    "count_display": "94,554",
+    "count_unit": "extracted property records",
+    "count_scope": "64,269 yield-strength plus 30,285 grain-size records. Engineering-ready yield-strength and combined-property tables are derived overlapping subsets.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "yield strength (Pa)",
+      "grain size",
+      "raw/normalized units and ranges",
+      "compound names",
+      "source DOI",
+      "parser/blacklist flags"
+    ],
+    "access": "open",
+    "license": "MIT (Figshare data deposit)",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01301-w",
+      "data": "https://doi.org/10.6084/m9.figshare.14946186.v1",
+      "repository": "https://github.com/gh-PankajKumar/ChemDataExtractorStressEng"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01301-w",
+        "title": "Auto-generating databases of Yield Strength and Grain Size using ChemDataExtractor",
+        "evidence": "Data Records specifies the 64,269 and 30,285 primary extraction counts, plus derived engineering-ready and combined tables.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/14946186",
+        "title": "Yield/grain data deposit",
+        "evidence": "MIT-licensed Databases.zip and separate Code.zip are available.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Covers materials beyond crystalline metals, including soft materials; filter specimen class before crystal-only use.",
+      "Chemical-name records provide no atomistic structure and can contain extraction/assignment errors.",
+      "Later CDE stress-strain release has overlapping yield-strength scope; do not add as unique materials."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ],
+    "count_derivation": {
+      "method": "primary yield-strength + grain-size extraction tables; derived subsets excluded",
+      "values": [
+        64269,
+        30285
+      ]
+    }
+  },
+  {
+    "id": "oxygen-ion-conductor-2026",
+    "name": "Oxygen-ion conductor Arrhenius property dataset",
+    "category": "experimental_properties",
+    "description": "483 oxide entries from 84 experimental reports spanning 60 years, including separate low/high-temperature Arrhenius regimes when present..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 483,
+    "count_display": "483",
+    "count_unit": "oxide measurement-condition entries",
+    "count_scope": "483 oxide entries from 84 experimental reports spanning 60 years, including separate low/high-temperature Arrhenius regimes when present.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "activation energy",
+      "Arrhenius prefactor",
+      "temperature break point",
+      "oxygen non-stoichiometry",
+      "bulk/total conductivity flag",
+      "composition"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-07100-x",
+      "data": "https://doi.org/10.5281/zenodo.18947543",
+      "repository": "https://github.com/JerryGarcia1995/OxygenIonConductor"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-07100-x",
+        "title": "Charting the Landscape of Oxygen Ion Conductors: A 60-Year Dataset with Interpretable Regression Models",
+        "evidence": "Data Records states 483 oxides and defines each entry by one oxide under a given measurement condition, preserving two-regime Arrhenius fits and bulk/total conductivity metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/18947543",
+        "title": "Oxygen-ion data release metadata",
+        "evidence": "CC BY 4.0; releases oxygen_ion_conductor_dataset.csv.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "483 is not established as 483 unique compositions.",
+      "Activation energies are fits to conductivity data, not atomistic migration-barrier calculations.",
+      "Bulk and total conductivities must remain distinguishable; no periodic coordinates."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "softmag-fe-mgo",
+    "name": "Fe/MgO soft magnetic composite processing properties",
+    "category": "experimental_properties",
+    "description": "Corrected Dataset v.2.csv contains 274 rows; original paper and first CSV describe 282 samples.",
+    "version": "Figshare 25975198 v2, corrected 274-row CSV",
+    "year": 2025,
+    "count": 274,
+    "count_display": "274",
+    "count_unit": "corrected processing-condition samples",
+    "count_scope": "Corrected Dataset v.2.csv contains 274 rows; original paper and first CSV describe 282 samples. Duplicate removal and density remeasurements are documented.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "density (g/cm³)",
+      "coercivity (A/m)",
+      "resonant frequency (kHz)",
+      "DC/3 kHz permeability",
+      "MgO particle size",
+      "pressing/annealing conditions"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-04286-w",
+      "data": "https://doi.org/10.6084/m9.figshare.25975198.v2"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-04286-w",
+        "title": "The first experimentally obtained dataset on processing parameters and properties of soft magnetic composites",
+        "evidence": "Paper reports 282 independently prepared processing combinations for Fe/MgO and five measured properties; newer release includes a corrected data table.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25975198",
+        "title": "Soft-magnetic deposit v2",
+        "evidence": "Deposit CC BY 4.0; describes removed duplicate data and remeasured/corrected densities; original CSV 282 rows, corrected CSV 274.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Use corrected file for v2; do not sum original and corrected tables.",
+      "Composite sample count is not unique crystal compositions; no atomic structures.",
+      "Preserve categorical annealing atmosphere coding when using corrected file."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "itr-interface-descriptors",
+    "name": "Experimental interfacial thermal resistance and descriptors",
+    "category": "experimental_properties",
+    "description": "1,318 ITR observations for 457 interface samples involving 54 materials, with a separate 298-material descriptor table..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 1318,
+    "count_display": "1,318",
+    "count_unit": "interface–temperature observations",
+    "count_scope": "1,318 ITR observations for 457 interface samples involving 54 materials, with a separate 298-material descriptor table.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "interfacial thermal resistance",
+      "measurement temperature",
+      "interface chemistry/interlayers",
+      "synthesis and pretreatment",
+      "measurement method",
+      "physical/chemical descriptors"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-0373-2",
+      "data": "https://doi.org/10.5281/zenodo.3564173"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-020-0373-2",
+        "title": "Physical and chemical descriptors for predicting interfacial thermal resistance",
+        "evidence": "Data Records states 1,318 observations, 457 samples and 54 materials; descriptors cover 298 materials, not 80,000 measured interfaces.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/3564173",
+        "title": "ITR descriptor and observation archive",
+        "evidence": "CC BY 4.0; separate descriptor, ITR and training workbooks are listed.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Interfaces can involve amorphous materials, graphite/graphene and crystalline substrates; not a pure bulk-crystal dataset.",
+      "The >80,000 constructible descriptor pairs are predictions/input combinations, not measured ITR labels.",
+      "Do not count reused training-table rows as additional observations."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "oxide-synthesis-aggregates-2017",
+    "name": "Aggregated oxide synthesis parameter distributions",
+    "category": "experimental_properties",
+    "description": "30 oxide systems summarized from approximately 76,000 relevant articles within a 640,000-article training corpus..",
+    "version": "2017 article and cited data release, checked 2026-11-01",
+    "year": 2017,
+    "count": 30,
+    "count_display": "30",
+    "count_unit": "oxide material-system summaries",
+    "count_scope": "30 oxide systems summarized from approximately 76,000 relevant articles within a 640,000-article training corpus.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "calcination/sintering temperature and time distributions",
+      "associated materials",
+      "synthesis topic distributions"
+    ],
+    "access": "open",
+    "license": "MIT",
+    "links": {
+      "paper": "https://doi.org/10.1038/sdata.2017.127",
+      "data": "https://doi.org/10.6084/m9.figshare.5221351.v1"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/sdata2017127",
+        "title": "Machine-learned and codified synthesis parameters of oxide materials",
+        "evidence": "Data Records provides per-material-system JSON and kernel-density estimates for synthesis parameters, not individually reconstructable synthesis recipes.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/5221351",
+        "title": "Aggregated oxide synthesis deposit",
+        "evidence": "MIT-licensed material_synthesis_data.json independently contains 30 embedded JSON system summaries.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Corpus paper counts are not the released data-record count.",
+      "Aggregated distributions should not be presented as individual successful recipes or measured physical properties.",
+      "No atomic structures; distinct aggregation from later Ceder solid-state/solution recipe releases."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "cde-stress-strain-2024",
+    "name": "ChemDataExtractor stress-strain property database",
+    "category": "experimental_properties",
+    "description": "720,308 literature records covering five stress-strain property models, including text- and table-extraction provenance..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 720308,
+    "count_display": "720,308",
+    "count_unit": "extracted property records",
+    "count_scope": "720,308 literature records covering five stress-strain property models, including text- and table-extraction provenance.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "yield strength (Pa)",
+      "ultimate tensile strength (Pa)",
+      "fracture strength (Pa)",
+      "Young modulus (Pa)",
+      "ductility (%)",
+      "source DOI and extraction metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-03979-6",
+      "data": "https://doi.org/10.6084/m9.figshare.25881025.v1",
+      "repository": "https://github.com/gh-PankajKumar/chemdataextractorv2.3-stresseng"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-03979-6",
+        "title": "A Database of Stress-Strain Properties Auto-generated from the Scientific Literature using ChemDataExtractor",
+        "evidence": "Data Records states 720,308 records; raw values/units are preserved beside normalized values, and stress units normalize to Pa.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/25881025",
+        "title": "Stress-strain dataset deposit",
+        "evidence": "CC BY 4.0; AllRecords.csv and AllRecords.json plus separate code archive available.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Records are literature quantities, not unique crystals, specimens or full stress-strain curves.",
+      "May contain noncrystalline/soft materials and multiple reports per material.",
+      "Yield-strength scope overlaps the earlier CDE yield/grain database; extraction errors and alias ambiguity remain."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "hea-llm-2026",
+    "name": "LLM high-entropy alloy phase and processing database",
+    "category": "experimental_properties",
+    "description": "12,427 extracted HEA entries from 4,625 publisher-accessible papers, with experimental/theoretical origin and phase/synthesis context..",
+    "version": "Mendeley Data j75v9bbbjz v1; 2026 descriptor",
+    "year": 2002,
+    "count": 12427,
+    "count_display": "12,427",
+    "count_unit": "literature-derived alloy entries",
+    "count_scope": "12,427 extracted HEA entries from 4,625 publisher-accessible papers, with experimental/theoretical origin and phase/synthesis context.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "mixed",
+    "properties": [
+      "alloy composition",
+      "phase identities and count",
+      "processing conditions",
+      "experimental/theoretical study type"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-06930-z",
+      "data": "https://doi.org/10.17632/j75v9bbbjz.1",
+      "repository": "https://github.com/Vladimirchizh/hea_database"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-06930-z",
+        "title": "High Entropy Alloys Database generated with Large Language Model",
+        "evidence": "Paper reports 12,427 HEAs characterized from 4,625 papers, distinguishing experimental and theoretical studies and phase parsing limitations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://data.mendeley.com/datasets/j75v9bbbjz/1",
+        "title": "HEA_database Mendeley v1",
+        "evidence": "Deposit published 2025-12-25; lists parsed and raw-response CSV datasets and declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Not 12,427 verified unique crystal structures; phase labels do not provide coordinates.",
+      "LLM extraction and CSV parsing have separate error modes; variable composition series can be collapsed incorrectly.",
+      "Publisher-accessible subset covers only about 20% of the corpus described in the paper; overlaps earlier alloy compilations."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "weld-fatigue-2025",
+    "name": "Welded-joint fatigue property database",
+    "category": "experimental_properties",
+    "description": "5,797 parameter records extracted from 1,666 publications with linked stress–life, strain–life and load–life data..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 5797,
+    "count_display": "5,797",
+    "count_unit": "fatigue condition/parameter records",
+    "count_scope": "5,797 parameter records extracted from 1,666 publications with linked stress–life, strain–life and load–life data.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "fatigue life",
+      "S–N and ε–N curves",
+      "welding process",
+      "specimen/loading conditions",
+      "alloy processing and geometry"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-06067-5",
+      "data": "https://doi.org/10.6084/m9.figshare.29254265.v2",
+      "repository": "https://github.com/WeldingTJU/DataScience"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-06067-5",
+        "title": "A Dataset of Fatigue Properties for Welded Joints",
+        "evidence": "Paper discusses all 5,797 parameter records and maps separate fatigue curves to experimental contexts from 1,666 publications.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/29254265",
+        "title": "Weld fatigue v2 deposit",
+        "evidence": "CC BY 4.0; parameter and curve JSONs, Excel database and terminology map listed.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Parameter records, curve points and source publications are distinct units.",
+      "Dataset is about joints and processing states, not unique chemical compositions/crystals.",
+      "Likely overlaps other literature fatigue compilations; no cross-release source deduplication."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "experimental-formation-enthalpy-2017",
+    "name": "Calorimetric inorganic formation enthalpies",
+    "category": "experimental_properties",
+    "description": "1,276 entries from over 50 years of high-temperature calorimetry, with phase/structure metadata and optional first-principles comparison fields..",
+    "version": "2017 article and cited data release, checked 2026-11-01",
+    "year": 2017,
+    "count": 1276,
+    "count_display": "1,276",
+    "count_unit": "experimental formation-enthalpy entries",
+    "count_scope": "1,276 entries from over 50 years of high-temperature calorimetry, with phase/structure metadata and optional first-principles comparison fields.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "experimental",
+    "properties": [
+      "standard formation enthalpy",
+      "chemical composition",
+      "phase/structure identifiers",
+      "calorimetric method",
+      "DFT comparison when available"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/sdata.2017.162",
+      "data": "https://doi.org/10.6084/m9.figshare.c.3822835"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/sdata2017162",
+        "title": "Experimental formation enthalpies for intermetallic phases and other inorganic compounds",
+        "evidence": "Paper reports 1,276 measured formation-enthalpy entries for intermetallics, borides, carbides and silicides, with structural information and calculated comparisons.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/5193229",
+        "title": "Calorimetric formation enthalpy dataset",
+        "evidence": "Figshare data item in collection 3822835 declares CC BY 4.0 and provides enthalpy_formation.json.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Experimental and DFT enthalpy fields have different provenance.",
+      "Repeated measurements/phases can share composition; preserve uncertainty, reference state and method.",
+      "Structural descriptors/identifiers do not establish full atomic-coordinate coverage."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "predicted-high-dielectric-oxides",
+    "name": "Predicted high-dielectric ternary oxide structures",
+    "category": "property_benchmarks",
+    "description": "441 low-energy ternary oxide candidates with dielectric tensors; 33 high-performance candidates are a selected subset..",
+    "version": "Figshare 10482707 v2; 441-entry JSON",
+    "year": 2002,
+    "count": 441,
+    "count_display": "441",
+    "count_unit": "computed ternary-oxide structures",
+    "count_scope": "441 low-energy ternary oxide candidates with dielectric tensors; 33 high-performance candidates are a selected subset.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "electronic/ionic/total dielectric tensors",
+      "polycrystalline dielectric constant",
+      "band gap (eV)",
+      "energy above hull",
+      "periodic atomic structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-0418-6",
+      "data": "https://doi.org/10.6084/m9.figshare.10482707.v2",
+      "archive": "https://doi.org/10.24435/materialscloud:2020.0010/v1"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-020-0418-6",
+        "title": "High dielectric ternary oxides from crystal structure prediction and high-throughput screening",
+        "evidence": "Paper combines crystal structure prediction and DFPT; Data Records lists tensor/property keys and calculation metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/10482707",
+        "title": "Predicted dielectric data deposit",
+        "evidence": "CC BY 4.0; downloaded JSON independently has 441 entries, each with embedded POSCAR data.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Computed screening candidates are not experimentally validated dielectrics or proven stable at operating conditions.",
+      "33 is a subset, not an additional release population.",
+      "May overlap source crystal prototypes/MP records; parent-database novelty not independently audited."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "spse-ion-transport-2020",
+    "name": "SPSE hierarchical solid-electrolyte ion transport",
+    "category": "property_benchmarks",
+    "description": "Released SPSE ZIP contains 11,989 BVSE entries, 7,678 CAVD entries, 49 hierarchical calculation entries, 121 literature entries and 91,763 parent CIF records..",
+    "version": "Figshare 12011412 v1; JSONL archive recount",
+    "year": 2002,
+    "count": 11989,
+    "count_display": "11,989",
+    "count_unit": "BVSE transport entries",
+    "count_scope": "Released SPSE ZIP contains 11,989 BVSE entries, 7,678 CAVD entries, 49 hierarchical calculation entries, 121 literature entries and 91,763 parent CIF records.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "mixed",
+    "properties": [
+      "BVSE migration/activation-energy descriptors",
+      "geometric ion-path descriptors",
+      "hierarchical FP-NEB paths",
+      "experimental literature transport values",
+      "structure identifiers"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 for deposit; underlying ICSD coordinate rights require separate review",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-020-0474-y",
+      "data": "https://doi.org/10.6084/m9.figshare.12011412.v1",
+      "homepage": "https://www.bmaterials.cn/"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-020-0474-y",
+        "title": "High-throughput screening platform for solid electrolytes combining hierarchical ion-transport prediction algorithms",
+        "evidence": "Paper separates source structures, empirical path/BVSE labels, hierarchical FP-NEB calculations and literature properties; exact archive BVSE count is 11,989 versus rounded 12,000 in paper.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/12011412",
+        "title": "SPSE Figshare v1",
+        "evidence": "CC BY 4.0 deposit; ZIP JSONL counts independently verified. Most parent CIFs identify ICSD origin.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Do not present every parent crystal or BVSE score as a full first-principles migration-barrier result.",
+      "Most structures derive from ICSD; deposit license does not independently establish redistribution rights to third-party coordinates.",
+      "FP-NEB output count is 49 calculation documents, not established as 49 unique compounds.",
+      "Web workflow requires SPSE account although cited archive is public."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "bam-temperature-elastic-alloys",
+    "name": "BAM temperature-dependent elastic alloy reference data",
+    "category": "experimental_properties",
+    "description": "Ti-6Al-4V, IN718 and AISI316L each have additive and conventional manufacturing variants, with specimen-level temperature series and uncertainty..",
+    "version": "2023 paper; Zenodo concept DOI routes currently resolve to 2025 versions",
+    "year": 2002,
+    "count": 3,
+    "count_display": "3",
+    "count_unit": "alloy systems with paired manufacturing routes",
+    "count_scope": "Ti-6Al-4V, IN718 and AISI316L each have additive and conventional manufacturing variants, with specimen-level temperature series and uncertainty.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Young modulus",
+      "shear modulus",
+      "resonance frequencies",
+      "thermal expansion",
+      "density",
+      "temperature",
+      "measurement uncertainty"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02387-6",
+      "ti_data": "https://doi.org/10.5281/zenodo.7813732",
+      "in718_data": "https://doi.org/10.5281/zenodo.7813824",
+      "316l_data": "https://doi.org/10.5281/zenodo.7813835"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02387-6",
+        "title": "Elastic modulus data for additively and conventionally manufactured variants of Ti-6Al-4V, IN718 and AISI 316 L",
+        "evidence": "Paper describes dynamic-resonance elastic measurements on three alloys with two manufacturing routes and specimen/temperature/uncertainty metadata.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/14617243",
+        "title": "BAM Ti64 current version",
+        "evidence": "CC BY 4.0; workbook plus coversheet, room temperature–400 °C.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/14617176",
+        "title": "BAM IN718 current version",
+        "evidence": "CC BY 4.0; room temperature–800 °C.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/14616480",
+        "title": "BAM AISI316L current version",
+        "evidence": "CC BY 4.0; room temperature–900 °C.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Three is the alloy-system count, not total specimens or temperature observations.",
+      "Moduli derive from measured resonance and specimen dimensions; preserve uncertainty and processing state.",
+      "No periodic atomic structures; latest referenced concept DOI routes resolve to 2025 BAM versions."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "ins-exchange-magnetic-2025",
+    "name": "INS-derived magnetic exchange and Monte Carlo dataset",
+    "category": "property_benchmarks",
+    "description": "Paper describes nearly 100 magnetic materials, while deposit description says over 70; exact archived compound count has not been reconciled..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "magnetic compounds with exchange models",
+    "count_scope": "Paper describes nearly 100 magnetic materials, while deposit description says over 70; exact archived compound count has not been reconciled.",
+    "count_precision": "unknown",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "Heisenberg exchange parameters (meV)",
+      "spin quantum numbers",
+      "experimental transition temperature",
+      "Monte Carlo transition temperature",
+      "exchange pathways",
+      "VESTA structures"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-06099-x",
+      "data": "https://doi.org/10.5281/zenodo.17160565",
+      "repository": "https://github.com/malaei/Magnetic_data/tree/main/INS_SW_MC"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-06099-x",
+        "title": "Experimental Exchange Interaction Dataset for Magnetic Materials: Spin Waves to MC Simulations",
+        "evidence": "Data Records says per-compound directories contain VESTA structures, exchange tables, experimental and MC transition temperatures, references, and MC inputs/outputs.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17160565",
+        "title": "Magnetic exchange archive",
+        "evidence": "CC BY 4.0; Magnetic_data-main.zip is public and description identifies exchange fits and MC data.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "INS-fitted exchange parameters are model-inferred experimental quantities; MC transition temperatures are computed.",
+      "Heisenberg double-counting, signs, spin normalization and (S+1)/S correction must remain explicit.",
+      "Do not substitute archive description count for a reconciled unique-compound count; bulk 445 MB archive not audited."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "solgel-phase-purity-2026",
+    "name": "Text-mined sol-gel synthesis and phase-purity outcomes",
+    "category": "experimental_properties",
+    "description": "Approximately 148,000 protocols from approximately 53,000 papers, including approximately 28,000 phase-impure records..",
+    "version": "2026 article-in-press; Figshare 33040070 v2",
+    "year": 2002,
+    "count": 148000,
+    "count_display": "~148,000",
+    "count_unit": "synthesis protocol records",
+    "count_scope": "Approximately 148,000 protocols from approximately 53,000 papers, including approximately 28,000 phase-impure records.",
+    "count_precision": "approximate",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "target/precursor/reagent composition",
+      "synthesis operations and conditions",
+      "phase-purity classification",
+      "impurity phases",
+      "characterization methods",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-08492-6",
+      "data": "https://doi.org/10.6084/m9.figshare.33040070.v2",
+      "repository": "https://github.com/hackingmaterials/sol-gel-data"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-08492-6",
+        "title": "Text-mined dataset of sol-gel synthesis protocols with phase purity outcomes using large language models",
+        "evidence": "Article-in-press PDF Data Records gives ~148,000 protocol records and protocol/operations/phase_purity schema; record-level all-field agreement reported as 68%.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/33040070",
+        "title": "Sol-gel v2 deposit",
+        "evidence": "CC BY 4.0; sol_gel_dataset.jsonl available as a 707 MB file.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Approximate paper count, not an independently recounted archive size; no bulk JSONL download.",
+      "Synthesis records are not independent materials or atomic crystal structures.",
+      "Overlap with earlier solution/solid-state mining corpora is possible; phase-purity labels rely on extracted literature context."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "trace-in625-tensile",
+    "name": "Trace-IN625 source-aware tensile properties",
+    "category": "experimental_properties",
+    "description": "149 tensile records from 72 of 305 indexed papers; 120 IN625 and 29 IN625-containing composite/graded/joined records, linked to 482 source-condition records..",
+    "version": "Zenodo 22760894 v3; 2026 article-in-press",
+    "year": 2002,
+    "count": 149,
+    "count_display": "149",
+    "count_unit": "tensile-property records",
+    "count_scope": "149 tensile records from 72 of 305 indexed papers; 120 IN625 and 29 IN625-containing composite/graded/joined records, linked to 482 source-condition records.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "yield strength",
+      "ultimate tensile strength",
+      "elongation definition",
+      "test temperature/orientation",
+      "processing and treatment",
+      "source page/table/figure locators"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 for structured data; image crops retain per-source licenses",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-08585-2",
+      "data": "https://doi.org/10.5281/zenodo.22760894",
+      "repository": "https://github.com/molindaozi/materials-multimodal-db"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-08585-2",
+        "title": "Trace-IN625 a source aware literature derived dataset of tensile properties and microstructure for additively manufactured IN625",
+        "evidence": "Article-in-press PDF distinguishes 149 tensile-property records from 482 conditions, 2,206 microstructure/evidence records and 280 released figure crops.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/22760894",
+        "title": "Trace-IN625 v3 archive",
+        "evidence": "CC BY 4.0 structured metadata; six CSVs include tensile_properties.csv, specimen/source-condition and provenance tables. Images carry source-specific licenses.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 482 source-condition rows are not independent experimental replicates.",
+      "Tensile layer has 391 populated values, not all three properties for every row; missing values are not zero.",
+      "CC BY 4.0 applies to metadata; third-party figure crops have individual terms and are not atomistic structures."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "her-multinary-alloys-2026",
+    "name": "Multinary alloy HER catalyst performance",
+    "category": "experimental_properties",
+    "description": "180 curated catalyst entries with composition descriptors, onset potential and Tafel slope, linked to source-level measurement conditions..",
+    "version": "Zenodo 20406173 v1.0.0; 2026 article-in-press",
+    "year": 2002,
+    "count": 180,
+    "count_display": "180",
+    "count_unit": "experimental catalyst/performance records",
+    "count_scope": "180 curated catalyst entries with composition descriptors, onset potential and Tafel slope, linked to source-level measurement conditions.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "HER onset potential",
+      "Tafel slope (mV/dec)",
+      "normalized atomic-percent composition",
+      "source electrochemical metadata",
+      "Magpie descriptors"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-07856-2",
+      "data": "https://doi.org/10.5281/zenodo.20406173",
+      "repository": "https://github.com/sgorsse/HER-alloy-catalysts-dataset-GPR"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-07856-2",
+        "title": "Curated dataset of multinary alloy HER catalysts for composition-only modelling with Magpie descriptors and GP baselines",
+        "evidence": "PDF Data Records gives 180 experimental rows and distinguishes source-context/harmonized tables from a model-guided 100-composition candidate list.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/20406173",
+        "title": "HER alloy dataset v1.0.0",
+        "evidence": "CC BY 4.0 deposit provides dataset/framework archive.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The 100 proposed candidate alloys are predictions, not measured additions.",
+      "Onset and Tafel values depend on reference electrode, electrolyte, fitting window and iR treatment.",
+      "Composition descriptors do not establish exact crystal phase, atomic structures or intrinsic surface activity."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "nuclear-charpy-impact",
+    "name": "Nuclear structural material Charpy impact tests",
+    "category": "experimental_properties",
+    "description": "4,961 Charpy records from 109 publications with 55-column composition, treatment, irradiation, specimen and test metadata..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 4961,
+    "count_display": "4,961",
+    "count_unit": "Charpy impact test records",
+    "count_scope": "4,961 Charpy records from 109 publications with 55-column composition, treatment, irradiation, specimen and test metadata.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "Charpy impact energy",
+      "specimen dimensions",
+      "test temperature",
+      "irradiation conditions",
+      "composition and processing"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-04823-1",
+      "data": "https://doi.org/10.24435/materialscloud:p6-5y",
+      "repository": "https://github.com/avakanski/Charpy-Impact-Test-Dataset"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-04823-1",
+        "title": "Comprehensive Toughness Dataset of Nuclear Reactor Structural Materials using Charpy V-Notch Impact Testing",
+        "evidence": "Paper states 4,961 records; each spreadsheet row is an individual Charpy test with specimen dimensions and conditions.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/q4x6v-dyt25",
+        "title": "Materials Cloud Charpy archive",
+        "evidence": "Open spreadsheet archive declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Specimen-size effects prevent treating subsize and standard-size energy as one interchangeable target.",
+      "Records are tests, not independent compositions/crystals.",
+      "No atomic coordinate data and possible source overlap with nuclear tensile/creep datasets."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "nuclear-creep-properties",
+    "name": "Nuclear structural material creep tests",
+    "category": "experimental_properties",
+    "description": "1,583 creep specimens/records from 54 peer-reviewed sources plus additional NDMAS data as described by the paper..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 1583,
+    "count_display": "1,583",
+    "count_unit": "creep test/specimen records",
+    "count_scope": "1,583 creep specimens/records from 54 peer-reviewed sources plus additional NDMAS data as described by the paper.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "creep rupture life",
+      "creep strain/rate",
+      "stress and temperature",
+      "specimen geometry",
+      "irradiation conditions",
+      "alloy composition and treatment"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-026-07563-y",
+      "data": "https://doi.org/10.24435/materialscloud:99-xr",
+      "repository": "https://github.com/avakanski/Dataset-of-Creep-Properties-for-Nuclear-Structural-Materials"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-07563-y",
+        "title": "Compilation of Creep Property Data for Nuclear Structural Materials",
+        "evidence": "Data Records defines one creep test per row and 70 columns; paper reports 1,583 specimens and source identifiers.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/records/s60kq-qg914",
+        "title": "Materials Cloud nuclear creep archive",
+        "evidence": "Open Excel and CSV table release declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Tests include different alloys, specimen sizes, stresses and irradiation histories; preserve these conditions.",
+      "Creep test count does not imply a unique compound or phase count.",
+      "No periodic atomic coordinate coverage."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "css-levitation-thermophysical",
+    "name": "China Space Station levitation thermophysical dataset",
+    "category": "experimental_properties",
+    "description": "565 records: 420 on-orbit and 145 ground-matched containerless electrostatic levitation experiments on metallic alloys, ceramics and other materials..",
+    "version": "2026 article and cited data release, checked 2026-11-01",
+    "year": 2026,
+    "count": 565,
+    "count_display": "565",
+    "count_unit": "levitation experimental records",
+    "count_scope": "565 records: 420 on-orbit and 145 ground-matched containerless electrostatic levitation experiments on metallic alloys, ceramics and other materials.",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "liquid-phase density",
+      "thermal response indicators",
+      "temperature history",
+      "composition",
+      "gravity environment",
+      "experimental configuration"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-06428-0",
+      "data": "https://doi.org/10.5281/zenodo.17156569",
+      "repository": "https://github.com/CSU-SPACE/CMPR_Levitation"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-06428-0",
+        "title": "Materials dataset from microgravity levitation experiments on the China Space Station",
+        "evidence": "Corrected primary article reports 565 experiment records and separates 420 on-orbit from 145 matched ground experiments.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17156569",
+        "title": "CSS levitation dataset archive",
+        "evidence": "CC BY 4.0; CMPR_Levitation_Dataset.xlsx released.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "High-temperature/liquid-phase properties are not periodic crystal structures; include here as material thermophysical context.",
+      "Containerless experiments and material identities are different counts.",
+      "Use correction-linked/current article definitions and preserve gravity and thermal conditions."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ],
+    "count_derivation": {
+      "method": "on-orbit + ground-matched experiment records",
+      "values": [
+        420,
+        145
+      ]
+    }
+  },
+  {
+    "id": "lpbf-relative-density",
+    "name": "L-PBF commercial alloy relative-density dataset",
+    "category": "experimental_properties",
+    "description": "1,579 observations with ten input columns and relative-density percentage, covering printing/material, atmosphere, powder and geometry context..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 1579,
+    "count_display": "1,579",
+    "count_unit": "literature processing-condition observations",
+    "count_scope": "1,579 observations with ten input columns and relative-density percentage, covering printing/material, atmosphere, powder and geometry context.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "relative density (%)",
+      "laser power/speed",
+      "hatch/layer parameters",
+      "shielding gas",
+      "powder size",
+      "part geometry"
+    ],
+    "access": "open",
+    "license": "Not verified for dataset; article license is not assigned to repository data",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-025-04576-x",
+      "data": "https://doi.org/10.7910/DVN/VPBQK8",
+      "repository": "https://github.com/GermanOmar/data_LPBF"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-025-04576-x",
+        "title": "Laser powder bed fusion dataset for relative density prediction of commercial metallic alloys",
+        "evidence": "Data Records says rows are observations, first ten columns input variables and eleventh relative density in percent.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41597-025-04576-x",
+        "title": "L-PBF release statement",
+        "evidence": "Data Records gives 1,579 observations and identifies the Harvard Dataverse Excel deposit; repository license endpoint returned no license.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Dataset-specific license not verified; public article/repository does not establish reuse rights.",
+      "Printing samples are not unique alloys or atomic structures.",
+      "Protective atmosphere, powder size, geometry and processing must accompany density comparisons."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "layered-na-cathode-textmine",
+    "name": "Text-mined layered sodium cathode synthesis and performance",
+    "category": "experimental_properties",
+    "description": "5,265 records from 1,747 documents, combining chemical composition, synthesis parameters and electrochemical cycling/rate relations..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 5265,
+    "count_display": "5,265",
+    "count_unit": "extracted experimental records",
+    "count_scope": "5,265 records from 1,747 documents, combining chemical composition, synthesis parameters and electrochemical cycling/rate relations.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "specific capacity",
+      "cycling stability",
+      "rate performance",
+      "test conditions",
+      "composition",
+      "synthesis parameters",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "CC0 (Figshare data-item metadata)",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-03196-1",
+      "data": "https://doi.org/10.6084/m9.figshare.c.6828414.v1",
+      "repository": "https://github.com/GGNoWayBack/cathodedataextractor"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-03196-1",
+        "title": "A document-level information extraction pipeline for layered cathode materials for sodium-ion batteries",
+        "evidence": "Paper abstract and Data Availability identify 5,265 records and public CSV/JSON deposit, preserving experimental and performance relations.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/collections/6828414/articles",
+        "title": "Layered cathode extraction collection",
+        "evidence": "Collection exposes six JSON/CSV data items for cycling, rate and combined data; mirrors/formats and subsets are overlapping.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/24116592",
+        "title": "Combined layered cathode data release",
+        "evidence": "Primary all-cycling/rate data item declares CC0; the paired CSV/JSON all-data items share the same release population.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Text-mined values are not atomistic structures and relation extraction can misassign materials/conditions.",
+      "Cycling and rate subsets, combined files and CSV/JSON formats should not be summed.",
+      "Distinct from the DFT polyanion sodium cathode configuration dataset already cataloged."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "aunp-textmined-synthesis",
+    "name": "Text-mined gold nanoparticle synthesis and morphology",
+    "category": "experimental_properties",
+    "description": "5,154 article records containing 7,608 synthesis and 12,519 characterization paragraphs, with codified recipes and morphological entities..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 5154,
+    "count_display": "5,154",
+    "count_unit": "publication-level synthesis records",
+    "count_scope": "5,154 article records containing 7,608 synthesis and 12,519 characterization paragraphs, with codified recipes and morphological entities.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "precursor/reagent quantities",
+      "operations and conditions",
+      "particle size",
+      "particle morphology",
+      "seed-mediated growth flag",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-022-01321-6",
+      "data": "https://doi.org/10.6084/m9.figshare.16614262.v3",
+      "repository": "https://github.com/CederGroupHub/text-mined-aunp-synthesis_public"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01321-6",
+        "title": "Text-mined dataset of gold nanoparticle synthesis procedures, morphologies, and size entities",
+        "evidence": "Data Records defines each top-level JSON record as one publication with nested paragraphs; some have recipe, morphology, both or neither.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/16614262/versions/3",
+        "title": "AuNP synthesis v3 deposit",
+        "evidence": "CC BY 4.0; article-level JSON release available.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Do not present 5,154 as unique nanoparticles, full recipes or crystalline structures.",
+      "Morphology and diameter depend on method/context; article/paragraph counts are separate units.",
+      "Nanoparticle synthesis is adjacent to bulk crystal data; no atomistic coordinate archive."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "cde-photocatalysis-water-splitting",
+    "name": "ChemDataExtractor water-splitting photocatalysis",
+    "category": "experimental_properties",
+    "description": "15,755 extracted activity records from a 47,357-paper corpus, with catalyst and reaction/illumination context..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 15755,
+    "count_display": "15,755",
+    "count_unit": "extracted photocatalytic activity records",
+    "count_scope": "15,755 extracted activity records from a 47,357-paper corpus, with catalyst and reaction/illumination context.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "water-splitting activity",
+      "photocatalyst/co-catalyst composition",
+      "additives",
+      "illumination wavelength/source",
+      "experiment duration",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-023-02511-6",
+      "data": "https://doi.org/10.6084/m9.figshare.21932211.v1",
+      "repository": "https://github.com/ti250/cdedatabase"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02511-6",
+        "title": "Automated Construction of a Photocatalysis Dataset for Water-Splitting Applications",
+        "evidence": "Paper reports 15,755 records with catalyst, co-catalyst, additive, reaction time and light conditions; evaluated precision 71.2%, recall 36.3%.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/21932211",
+        "title": "Photocatalysis data deposit",
+        "evidence": "CC BY 4.0; databasefiles.zip is public.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Activity records are not unique crystals and may involve composite/noncrystalline catalysts.",
+      "Units and normalization bases differ by source; preserve extracted reaction context.",
+      "Extraction performance limits and source assignment should be retained; no atomic structures."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "co2-electrocatalyst-llm-corpus",
+    "name": "CO2 electrocatalysis and catalyst synthesis corpora",
+    "category": "experimental_properties",
+    "description": "6,985 benchmark records from 1,081 publications; separate NLP and LLM extended corpora contain 77,016 and 30,283 records from 5,941 documents..",
+    "version": "2002 article and cited data release, checked 2026-11-01",
+    "year": 2002,
+    "count": 6985,
+    "count_display": "6,985",
+    "count_unit": "human-annotated benchmark records",
+    "count_scope": "6,985 benchmark records from 1,081 publications; separate NLP and LLM extended corpora contain 77,016 and 30,283 records from 5,941 documents.",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature",
+    "properties": [
+      "catalyst entities",
+      "electrocatalysis conditions/results",
+      "entity labels and source sentences",
+      "catalyst synthesis operations/conditions",
+      "source DOI"
+    ],
+    "access": "open",
+    "license": "Not verified for ScienceDB data deposits",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-024-03180-9",
+      "data": "https://doi.org/10.57760/sciencedb.13290",
+      "extended_1": "https://doi.org/10.57760/sciencedb.13292",
+      "extended_2": "https://doi.org/10.57760/sciencedb.13293",
+      "repository": "https://github.com/cxqwindy/CO2_reduction_electrocatalysts_db"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-024-03180-9",
+        "title": "Large language model enhanced corpus of CO2 reduction electrocatalysts and synthesis procedures",
+        "evidence": "Paper distinguishes manually constructed benchmark records, two machine-extracted corpora, and synthesis procedures; records include entities, labels and source sentences.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41597-024-03180-9",
+        "title": "CO2 corpus data release statement",
+        "evidence": "Data Records identifies ScienceDB benchmark/extended corpora and separate synthesis-procedure JSON; external data license was not independently confirmed.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Benchmark/extended corpora overlap sources and represent information-extraction records, not independent measured crystals.",
+      "External deposit rights not verified; article CC BY is not assigned to these datasets.",
+      "No atomic structures, and label/entity records do not imply complete quantitative catalyst-performance tuples."
+    ],
+    "tags": [
+      "Scientific-Data"
+    ]
+  },
+  {
+    "id": "corrosion-resistant-alloy-metrics",
+    "name": "Corrosion-resistant alloy electrochemical metrics",
+    "category": "experimental_properties",
+    "description": "Literature-curated alloy corrosion metrics with solution, microstructure and testing context.",
+    "version": "Figshare 13038257 v2; 2021 descriptor",
+    "year": 2021,
+    "count": null,
+    "count_display": "Not verified",
+    "count_unit": "corrosion metric/condition records",
+    "count_scope": "Six property sections from 85 publications; exact row count has not been reconciled across worksheets, repeated conditions and metric types.",
+    "count_precision": "unknown",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "pitting/repassivation/crevice potential (mV versus SCE)",
+      "pitting/crevice temperature (°C)",
+      "corrosion/passivation current density (A/cm²)",
+      "corrosion rate (mm/year)",
+      "composition and treatment",
+      "chloride concentration and pH"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41597-021-00840-y",
+      "data": "https://doi.org/10.6084/m9.figshare.13038257.v2"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-021-00840-y",
+        "title": "Electrochemical metrics for corrosion resistant alloys",
+        "evidence": "Describes six corrosion property sections from 85 publications with composition, chloride/pH, treatment, microstructure and test methods.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/13038257",
+        "title": "CRA workbook deposit v2",
+        "evidence": "CC BY 4.0 workbook release; downloaded worksheet headers verify stored potential, temperature, current-density and corrosion-rate units.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Individual corrosion metrics are different targets and not universally complete for each sample.",
+      "Potential reference electrode, solution composition, pH, scan rate, temperature and microstructure affect comparisons.",
+      "No atomic crystal coordinates. Worksheet formatting and repeated/unnumbered rows prevent a verified total from simple row-number counting."
+    ],
+    "tags": [
+      "Scientific-Data",
+      "corrosion",
+      "conditions-required"
+    ]
+  }
+]

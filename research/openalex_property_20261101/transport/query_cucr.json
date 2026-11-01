@@ -1,0 +1,4424 @@
+{
+  "mode": "search",
+  "query": "mechanical electrical properties dataset Cu Cr alloys",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Practical formulas for additive manufacturing alloys: thermophysical and mechanical properties",
+      "authors": [
+        "Vitaliy Gilmutdinov",
+        "Rinetta M. Mosina",
+        "Georgii A. Gordeev",
+        "V. E. Ankudinov",
+        "Igor Kuzmin",
+        "Mikhail D. Krivilyov"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Vitaliy Gilmutdinov",
+          "orcid": null,
+          "affiliations": [
+            "Udmurt Federal Research Center, Ural Branch of the Russian Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rinetta M. Mosina",
+          "orcid": "0000-0002-1027-2857",
+          "affiliations": [
+            "Udmurt State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Georgii A. Gordeev",
+          "orcid": "0000-0001-7857-0191",
+          "affiliations": [
+            "Udmurt State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "V. E. Ankudinov",
+          "orcid": "0000-0001-8563-5862",
+          "affiliations": [
+            "Udmurt State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Igor Kuzmin",
+          "orcid": null,
+          "affiliations": [
+            "Udmurt State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikhail D. Krivilyov",
+          "orcid": "0000-0002-0239-2883",
+          "affiliations": [
+            "Udmurt Federal Research Center, Ural Branch of the Russian Academy of Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Research Square",
+      "doi": "10.21203/rs.3.rs-10433902/v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.21203/rs.3.rs-10433902/v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.researchsquare.com/article/rs-10433902/latest.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Accurate thermophysical and mechanical property data are essential for reliable implementation of laser powder bed fusion and directed energy deposition. However, these data for alloys crucial in additive manufacturing remain scattered across handbooks and original studies. They are often measured under non-AM-specific conditions, lacking unified temperature-dependent formulations. In this work, explicit formulas for the thermophysical and mechanical characteristics of SS316L, Ti-6Al-4V and Inconel 718 alloys as a function of temperature have been derived. The proposed expressions are obtained through critical review and statistical analysis of over 100 experimental datasets and well-established theoretical models, covering temperatures from room temperature to above the melting point. Overall, eleven characteristics are described, including density, enthalpy, heat capacity, thermal conductivity, electrical resistivity, surface tension, viscosity, Young's and shear moduli, Poisson's ratio, and yield strength. An original approach is proposed that accounts for the effect of residual porosity on the material properties of 3D-printed samples. The proposed correlations show fair agreement with reference experimental data, with typical deviations within $\\pm 10 \\%$ for most properties. In contrast to existing property databases, the temperature-dependent polynomials are directly compatible with finite element and computational fluid dynamics simulation frameworks. The property models are relevant for predicting melt pool dynamics, thermal stress evolution, and defect formation, including keyhole porosity and spattering, which are critical for process optimization. The provided tabular data and analytical formulas can be used for simulation and optimization of processing regimes in 3D metal additive manufacturing.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "High-Entropy Alloys Produced by Mechanical Alloying: A Review",
+      "authors": [
+        "Jason Daza",
+        "Asma Wederni",
+        "Rehan Ullah",
+        "Joan Saurina",
+        "Lluïsa Escoda",
+        "J.J. Suñol"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jason Daza",
+          "orcid": "0000-0003-1858-4959",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Asma Wederni",
+          "orcid": "0000-0001-9819-3696",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rehan Ullah",
+          "orcid": "0000-0002-4283-4332",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joan Saurina",
+          "orcid": "0000-0002-1810-0275",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lluïsa Escoda",
+          "orcid": "0000-0002-7418-8128",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.J. Suñol",
+          "orcid": "0000-0002-7653-3415",
+          "affiliations": [
+            "Universitat de Girona"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma19071300",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma19071300",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/19/7/1300/pdf?version=1774448844",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-entropy alloys formed by metals are usually classified as those with magnetic elements, such as Fe, Co, and Ni, and alloys containing a significant percentage of aluminum. In the first case, the functional responses of greatest scientific and technological interest are both mechanical and magnetic. Concerning applications, the main interest focused on health and energy. Among the various techniques used to obtain high-entropy alloys in powder form, one of the most widely applied is mechanical alloying. This paper reviews recent results and prospects, including machine learning.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Aging Kinetics and Activation Energy-Based Modeling of Electrical Conductivity Evolution in a Cu–4Ti Alloy",
+      "authors": [
+        "Guojin Sun",
+        "Hong Liu",
+        "YingTang Zhang",
+        "Wenbin Wu",
+        "Qi Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Guojin Sun",
+          "orcid": null,
+          "affiliations": [
+            "Qinghai Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Liu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "YingTang Zhang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenbin Wu",
+          "orcid": null,
+          "affiliations": [
+            "Qinghai Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qi Wang",
+          "orcid": "0000-0002-9265-7573",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met16010061",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met16010061",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/16/1/61/pdf?version=1767523029",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The aging behavior and electrical performance evolution of Cu–4Ti alloy were systematically investigated through experimental characterization and theoretical modeling. A series of solution and aging treatments were conducted at temperatures ranging from 450 °C to 600 °C for durations of 1–420 min, with and without 50% cold deformation. Based on solid-state diffusion theory, the activation energy of the aging process was determined using the Arrhenius relationship combined with regression analysis. The calculated activation energies were 298.5 kcal·mol−1 for the solution-treated alloy and 136.1 kcal·mol−1 for the cold-deformed alloy, indicating that deformation-induced lattice defects substantially accelerate atomic diffusion and precipitation kinetics. A predictive model was further established to describe electrical conductivity as a function of aging temperature and time, with high correlation coefficients (R2 = 0.90 for the non-deformed and R2 = 0.89 for the deformed condition). The model accurately captures the conductivity evolution under various heat treatment conditions, demonstrating its strong predictive capability. Moreover, kinetic curves were constructed to intuitively represent the relationship between conductivity, temperature, and time, providing a rapid and visual tool for process optimization.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "Revealing the structure–property relationships of copper alloys with FAGC",
+      "authors": [
+        "Yuexing Han",
+        "RuiJie Li",
+        "Guanxin Wan",
+        "Gan Hu",
+        "Yi Liu",
+        "Bing Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yuexing Han",
+          "orcid": "0000-0002-1170-202X",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "RuiJie Li",
+          "orcid": "0009-0005-2545-9015",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guanxin Wan",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gan Hu",
+          "orcid": "0000-0002-8265-3106",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Liu",
+          "orcid": "0000-0002-5821-9086",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bing Wang",
+          "orcid": "0000-0002-7078-4352",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physica B Condensed Matter",
+      "doi": "10.1016/j.physb.2026.419176",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.physb.2026.419176",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2404.09515",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Microstructure evolution and mechanical properties of FeCrNiAlCu high-entropy alloy fabricated by different additive manufacturing techniques",
+      "authors": [
+        "David Maximilian Diebel",
+        "Thomas Wegener",
+        "Zhengfei Hu",
+        "Thomas Niendorf"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "David Maximilian Diebel",
+          "orcid": "0009-0006-8062-7111",
+          "affiliations": [
+            "University of Kassel",
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Wegener",
+          "orcid": "0000-0002-4194-1208",
+          "affiliations": [
+            "University of Kassel",
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhengfei Hu",
+          "orcid": null,
+          "affiliations": [
+            "Tongji University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Niendorf",
+          "orcid": "0000-0003-2622-5817",
+          "affiliations": [
+            "University of Kassel"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Research and Technology",
+      "doi": "10.1016/j.jmrt.2026.08.195",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.08.195",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2238785426022465/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "A Cu-containing FeCrNiAl high-entropy alloy (HEA) was processed using three additive manufacturing routes, i.e., laser and electron beam-based powder bed fusion (PBF-LB/M and PBF-EB/M) and laser-based directed energy deposition (DED-LB/M), followed by systematic heat treatment between 400 °C and 1000 °C. The study aims to elucidate the process-dependent evolution of Cu segregation, phase constitution, and their combined impact on mechanical properties. All processing routes result in stable yet complex multiphase microstructures dominated by Fe-Cr-rich BCC and Cu-rich FCC regions. EDS analyses further reveal chemically distinct FCC domains, indicating a hierarchical multiphase microstructure with additional FCC- and potentially BCC-based variants. However, the morphology and extent of Cu segregation strongly depend on the applied AM process. While PBF-LB/M promotes a comparatively homogeneous elemental distribution with suppressed large-scale segregation, DED-LB/M and PBF-EB/M exhibit pronounced chain-like Cu-rich regions. Heat treatment at intermediate temperatures (700-800 °C) leads to significant softening that cannot be explained by changes in phase fractions or grain size alone. Instead, the observed behaviour is associated with pronounced changes in Cu segregation morphology and redistribution of Cu-rich regions during heat treatment, together with heterogeneous deformation effects and local strain heterogeneity. Due to severe thermally induced cracking of PBF-LB/M tensile specimens, direct tensile-property comparisons are limited to the crack-free DED-LB/M and PBF-EB/M conditions. Despite differences in processing conditions, both routes achieve similar strength levels, whereas PBF-EB/M exhibits enhanced ductility. The results highlight the critical role of process-dependent segregation and hierarchical phase complexity in governing microstructure–property relationships in high-Cu-containing HEAs.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Multi-Objective Optimization of Cu-Cr-Nb Alloy in Electron Beam Melting with Efficiency-Ratio-Calibrated Uncertainty Penalization",
+      "authors": [
+        "Di Qiang",
+        "Jianling Liu",
+        "Zhongliang Shu",
+        "Qin Zhang",
+        "Yifan Chen",
+        "Changshu Xiang",
+        "Yu GUO",
+        "Chao Chen",
+        "Kechao Zhou"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Di Qiang",
+          "orcid": null,
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianling Liu",
+          "orcid": "0000-0001-9709-3407",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhongliang Shu",
+          "orcid": "0000-0002-2338-7442",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qin Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifan Chen",
+          "orcid": null,
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changshu Xiang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu GUO",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Chen",
+          "orcid": "0009-0008-8493-0227",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kechao Zhou",
+          "orcid": "0000-0003-2984-1404",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.20517/scierxiv202606.0412.v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.20517/scierxiv202606.0412.v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://f.scierxiv.oaes.cc/admin/preprints_20260615172935.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The challenge in multi-objective optimization of additive manufacturing processes lies in prediction reliability, particularly under limited experimental data. This work introduces an efficiency-ratio-calibrated uncertainty penalization strategy for electron beam melting of Cu-Cr-Nb alloy. A gaussian process regression surrogate model is trained on 156 experimental samples using physically motivated features, including volumetric energy density and its interaction with preheating temperature. The model provides simultaneous predictions and calibrated uncertainty estimates for relative density (RD) and electrical conductivity (EC). To replace empirical tuning in lower confidence bound optimization, an efficiency ratio (ER) metric is proposed. The optimal ER is determined via five-fold cross-validation, reducing uncertainty by 25% relative to the unpenalized baseline. This calibrated weight is integrated with non-dominated sorting genetic algorithm II (NSGA-II) to generate a Pareto-optimal solution set that suppresses high-risk regions while maintaining competitive performance. Experimental validation confirms prediction errors below 0.2% for RD and below 3% for EC across the selected Pareto solutions. A control group without uncertainty penalization exhibits markedly larger prediction deviations, confirming the necessity of calibrated uncertainty integration. The as-built Cu-Cr-Nb alloy simultaneously achieved a combination of RD above 99%, EC of approximately 80% IACS, and ultimate tensile strength of approximately 500 MPa. This methodology offers a data-efficient, physically interpretable route to uncertainty-aware process optimization in additive manufacturing.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "A Review on Ultra-High-Strength Aluminum Alloys for Aerospace Applications: Forming, Microstructure, and Mechanical Properties",
+      "authors": [
+        "Xuanxi Xu",
+        "Huabiao Chen",
+        "Linzhi Tang",
+        "Li Wang",
+        "Xiaoxiao Fu",
+        "Hongwei Ran",
+        "Daoxiang Wu",
+        "Hua Zhou",
+        "Guoqiang You"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Xuanxi Xu",
+          "orcid": "0009-0005-0808-8902",
+          "affiliations": [
+            "Aluminum Corporation of China (China)",
+            "Chongqing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huabiao Chen",
+          "orcid": null,
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linzhi Tang",
+          "orcid": null,
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Li Wang",
+          "orcid": "0000-0002-2536-3161",
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoxiao Fu",
+          "orcid": null,
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongwei Ran",
+          "orcid": null,
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daoxiang Wu",
+          "orcid": "0000-0002-3902-5702",
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hua Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Aluminum Corporation of China (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guoqiang You",
+          "orcid": "0000-0001-7562-107X",
+          "affiliations": [
+            "Chongqing University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma19091809",
+      "type": "review",
+      "url": "https://doi.org/10.3390/ma19091809",
+      "cited_by_count": 14,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/19/9/1809/pdf?version=1777451411",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The increasing demand for lightweight aerospace structures has driven the continuous development of ultra-high-strength aluminum alloys (UHSAAs). Owing to their low density and high specific strength, UHSAAs remain the primary materials for next-generation aerospace structural components. Over the past decades, their tensile strength has increased from the 500 MPa level to beyond 700 MPa, accompanied by a shift in research focus from strength maximization to the synergistic optimization of strength, ductility, and damage tolerance. This work concentrates on 7xxx series and Al-Li alloys, systematically reviewing recent research advances and key challenges in alloy design and forming. Particular emphasis is placed on new strategies for strength-ductility synergy and the associated microstructural strengthening and toughening mechanisms. Finally, future development directions are discussed to provide guidance for the design and engineering application of high-performance aerospace aluminum alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Interpretable machine learning for prediction and inverse design of electrical resistivity multicomponent aluminium alloys",
+      "authors": [
+        "Deni Haryadi",
+        "Aji Abdillah Kharisma",
+        "Hamzah Ali Nashirudin",
+        "Haris Rudianto"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Deni Haryadi",
+          "orcid": "0000-0002-4804-6994",
+          "affiliations": [
+            "Gunadarma University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aji Abdillah Kharisma",
+          "orcid": null,
+          "affiliations": [
+            "Gunadarma University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hamzah Ali Nashirudin",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haris Rudianto",
+          "orcid": null,
+          "affiliations": [
+            "Gunadarma University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Engineering Continuity",
+      "doi": "10.58291/ijec.v5i1.632",
+      "type": "article",
+      "url": "https://doi.org/10.58291/ijec.v5i1.632",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://ejournal.sultanpublisher.com/ijec/article/download/632/438",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Aluminium is the standard interconnect metal in CMOS technology and can be deposited at low temperature, yet its intrinsically low electrical resistivity makes it inefficient as a Joule heating element, forcing microheater designs toward platinum or polysilicon at the cost of process complexity. This study reframes the problem as one of composition engineering rather than material substitution and develops a machine learning framework to predict and inversely design the electrical resistivity of aluminium alloys. A curated dataset of 220 commercial alloys, described by nine compositional features (Si, Fe, Cu, Mn, Mg, Cr, Zn, Ti, Zr) and spanning 2.80–6.40 µΩ·cm, was assembled from a public materials database. Four regression models were benchmarked: Linear Regression (R² = 0.635), Support Vector Regression (R² = 0.821), Random Forest (R² = 0.837), and Extreme Gradient Boosting, which performed best on an independent hold-out test partition (test R² = 0.861; test MAPE = 3.9%) and remained stable under k-fold cross-validation carried out within the training partition (CV-R² = 0.839; CV-RMSE = 0.396 µΩ·cm). The pronounced gap between the linear baseline and the non-linear learners confirms that resistivity in multicomponent aluminium alloys is governed by interacting solute effects. Feature importance analysis identified magnesium (0.554), copper (0.215), and zinc (0.153) as the dominant contributors, accounting for approximately 92% of the model's explanatory power, consistent with solid-solution and impurity scattering mechanisms. Surrogate-based inverse screening produced heavily alloyed Al–Zn–Mg–Cu candidates with predicted resistivity of 9.26–9.52 µΩ·cm. These values lie outside the multivariate domain of the training data: the candidates carry 24.2–32.3 wt.% total solute, leaving an aluminium balance of only 67.7–75.8 wt.%, and they exceed the training maximum for Cu, Zn and Zr in every case. They are therefore reported as an extrapolative indication of direction in composition space rather than as validated alloy candidates, and require aluminium-balance constraints, thermodynamic screening and experimental validation before any device-level claim can be made.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Mechanics-informed machine learning for predicting mechanical properties of heat-treated multi-metal alloys",
+      "authors": [
+        "Fatah Hadji",
+        "Atmane Hadji",
+        "Djamel Eddine Belfennache",
+        "A. Alami",
+        "S. Alomairy",
+        "M. J. A. Abualreish",
+        "Messaoud Fatmi",
+        "Mohamed Amine Ghebouli",
+        "Aseel Smerat",
+        "Murat Yaylacı"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Fatah Hadji",
+          "orcid": null,
+          "affiliations": [
+            "University of Jijel",
+            "University of Béjaïa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atmane Hadji",
+          "orcid": "0000-0001-6706-6360",
+          "affiliations": [
+            "Centre Universitaire de Mila"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Djamel Eddine Belfennache",
+          "orcid": "0000-0002-4908-6058",
+          "affiliations": [
+            "Research Center in Industrial Technologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Alami",
+          "orcid": null,
+          "affiliations": [
+            "Université Djilali de Sidi Bel Abbès"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Alomairy",
+          "orcid": null,
+          "affiliations": [
+            "Taif University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. J. A. Abualreish",
+          "orcid": "0000-0002-4905-3117",
+          "affiliations": [
+            "Northern Border University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Messaoud Fatmi",
+          "orcid": "0000-0003-2545-8897",
+          "affiliations": [
+            "University Ferhat Abbas of Setif"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohamed Amine Ghebouli",
+          "orcid": "0000-0001-5356-8319",
+          "affiliations": [
+            "University Ferhat Abbas of Setif",
+            "University Mohamed Boudiaf of M'sila"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aseel Smerat",
+          "orcid": "0009-0008-4600-509X",
+          "affiliations": [
+            "Al-Ahliyya Amman University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Murat Yaylacı",
+          "orcid": "0000-0003-0407-1685",
+          "affiliations": [
+            "Recep Tayyip Erdoğan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-50390-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-026-50390-9",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-026-50390-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This study investigates the mechanical behavior and damage evolution of heat-treated multi-metal alloys through an integrated framework combining machine learning and mechanics-based analysis. A comprehensive dataset comprising approximately 1500 alloy samples was analyzed to predict ultimate tensile strength (Su) using various regression models. Among the evaluated algorithms, XG Boost demonstrated superior predictive performance, achieving a coefficient of determination of R2 = 0.98 and a root mean square error (RMSE) of 44.26 MPa. To ensure model interpretability and physical consistency, SHAP (SHapley Additive ex-Planations) analysis was employed, revealing that shear modulus (G), Young’s modulus (E), elongation at fracture (A5), Brinell hardness (BHN), and yield strength (Sy) are the most influential parameters governing tensile strength. The results indicate that higher elastic and shear moduli significantly enhance Su, in agreement with fundamental mechanical principles. In addition, key mechanical responses including fatigue crack propagation, energy absorption capacity (up to 2420 J), fracture toughness (KIC ranging from 50 to 120 MPa m1/2), and surface hardness gradients were analyzed to provide a comprehensive understanding of deformation and failure mechanisms. The proposed approach offers a robust, physically interpretable, and data-driven tool for predicting and optimizing the mechanical performance of heat-treated metallic alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Microstructure and Mechanical Performance of Novel Al 2 O 3 -Cu-Cr Composites Consolidated by Conventional Powder Metallurgy",
+      "authors": [
+        "Paulina Piotrkiewicz",
+        "Justyna Zygmuntowicz",
+        "Marcin Wachowski",
+        "Ireneusz Szachogłuchowicz",
+        "Waldemar Kaszuwara"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Paulina Piotrkiewicz",
+          "orcid": "0000-0001-8846-902X",
+          "affiliations": [
+            "Warsaw University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Justyna Zygmuntowicz",
+          "orcid": "0000-0003-4982-5743",
+          "affiliations": [
+            "Warsaw University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marcin Wachowski",
+          "orcid": "0000-0002-6732-5972",
+          "affiliations": [
+            "Military University of Technology in Warsaw"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ireneusz Szachogłuchowicz",
+          "orcid": "0000-0002-9548-9499",
+          "affiliations": [
+            "Military University of Technology in Warsaw"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Waldemar Kaszuwara",
+          "orcid": "0000-0002-8917-6533",
+          "affiliations": [
+            "Warsaw University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advances in Materials Science",
+      "doi": "10.2478/adms-2026-0009",
+      "type": "article",
+      "url": "https://doi.org/10.2478/adms-2026-0009",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://reference-global.com/download/article/10.2478/adms-2026-0009.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract This study investigates the fabrication, microstructural evolution, and mechanical properties of Al 2 O 3 -Cu-Cr ceramic-metal composites containing 2.5 vol.% metallic phase produced by uniaxial pressing followed by free sintering in a reducing atmosphere. The composites were sintered at temperatures ranging from 1200°C to 1400°C in order to evaluate the influence of thermal processing on densification behaviour, phase stability, and mechanical performance. The results demonstrated a strong dependence of physical properties on sintering temperature. Increasing the temperature from 1200°C to 1400°C improved the relative density from 82.85% to 97.99%, while open porosity decreased from 16.57% to 0.09%. Simultaneously, water absorption was reduced from 4.66% to 0.2%, indicating near-complete densification at 1400°C. XRD analysis confirmed the presence of stable α-Al 2 O 3 , Cu, and Cr phases without formation of undesirable secondary reaction products. SEM/EDS observations revealed a homogeneous distribution of discrete Cu-Cr metallic regions within the alumina matrix and satisfactory ceramic-metal interfacial bonding. The composites sintered at 1400°C exhibited a hardness of 13.8 ± 1.6 GPa and fracture toughness of 4.41 ± 0.78 MPa·m 0.5 . Digital image correlation analysis during compression testing demonstrated localized strain evolution preceding brittle fracture. The results indicate that Cr addition may contribute to improved microstructural stability and densification behaviour of Al 2 O 3 -Cu composites processed by conventional powder metallurgy routes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Semi-solid brazing via CoCrFeNiCux high-entropy alloy fillers: interfacial microstructure, mechanical properties, and joining mechanism of C/C-SiC composites and TZM alloy",
+      "authors": [
+        "Wenlong Zhou",
+        "Wei Fu",
+        "Yanxing Wang",
+        "Zuorui Gao",
+        "Shengpeng Hu",
+        "Xiaoguo Song",
+        "Hyoung Seop Kim",
+        "Jicai Feng"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Wenlong Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Fu",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanxing Wang",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zuorui Gao",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shengpeng Hu",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoguo Song",
+          "orcid": "0000-0002-6857-6714",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyoung Seop Kim",
+          "orcid": "0000-0002-3155-583X",
+          "affiliations": [
+            "Pohang University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jicai Feng",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Composites and Hybrid Materials",
+      "doi": "10.1007/s42114-026-01807-6",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s42114-026-01807-6",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s42114-026-01807-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-entropy alloys have shown great application prospects in the field of high-temperature brazing due to their excellent properties. However, due to their excessively high melting temperature and poor metallurgical compatibility, achieving high-temperature, highly reliable connections between ceramic matrix composites and refractory alloys still faces significant challenges. This study proposes a semi-solid brazing strategy, which uses CoCrFeNiCu x high-entropy alloy filler to connect C/C-SiC composites with TZM (titanium-zirconium-molybdenum alloy). This filler exhibits a dual endothermic melting behavior, forming an adjustable semi-solid window, which not only ensures sufficient fluidity but also suppresses excessive interfacial reactions. During the brazing process, the Cu-rich liquid phase promotes the formation of the initial interface. On the alloy side, the face-centered cubic (FCC) phase replaces the Cu liquid phase, generating a continuous µ-Co 7 Mo 6 layer. On the composite material side, the elements dissolved in the Cu-rich liquid phase react with the composite material to form the M₇C₃ reaction layer, while Cu reacts with the SiC matrix to form the decomposition zone. As the temperature and holding time increase, the reaction intensity increases, and the M 7 C 3 reaction layer and decomposition zone thicken. The optimized joint (1180 °C, 15 min) achieved a high shear strength of 40.2 MPa and maintained its integrity at 800 °C, demonstrating an anomalous strengthening effect due to stress relaxation. The finite element simulation results indicate that joint fracture primarily occurs at the Cu(s, s)/M 7 C 3 boundary and is mainly influenced by the normal stress (S 22 ), consistent with experimental observations. This study provides a mechanistic framework for the relationship between the evolution of semi-solid HEA phases, interface design, and strength retention, and offers new ideas for the development of connection technologies between ceramic matrix composites and refractory alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+      "authors": [
+        "Peiwen Yun",
+        "Huadong Fu",
+        "Hongtao Zhang",
+        "Lei Jiang",
+        "Xingyu Xiao",
+        "Shuaicheng Zhu",
+        "Yujiao Jia",
+        "Changtai Li",
+        "Wenjin Yang",
+        "Jianxin Xie"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Peiwen Yun",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huadong Fu",
+          "orcid": "0000-0001-6239-8075",
+          "affiliations": [
+            "Liaoning Academy of Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongtao Zhang",
+          "orcid": "0000-0002-0756-9705",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lei Jiang",
+          "orcid": "0009-0007-1000-5752",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingyu Xiao",
+          "orcid": "0000-0003-1691-9866",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuaicheng Zhu",
+          "orcid": "0009-0001-3424-5503",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yujiao Jia",
+          "orcid": "0009-0008-0703-826X",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changtai Li",
+          "orcid": "0000-0002-9372-9452",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenjin Yang",
+          "orcid": "0009-0005-6768-4667",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianxin Xie",
+          "orcid": "0000-0001-8429-471X",
+          "affiliations": [
+            "Liaoning Academy of Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-025-06295-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-025-06295-9",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-025-06295-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Extracting data from scientific literature and constructing machine learning-ready (ML-ready) datasets is crucial for data-driven materials discovery. However, material properties under various compositions and processing conditions are often summarized in figures, making manual data extraction time-consuming and labor-intensive. In this study, we propose an automated figure data extraction tool to rapidly generate datasets from figures in materials science literature on Cu-Cr-X alloys used in high-end lead frames, aiming to support the development of next-generation high-strength, high-conductivity copper alloys. We collected 251 figures containing mechanical and electrical performance data from 146 papers and automatically extracted 3,018 high-quality Cu-Cr-X data records. Each record includes article metadata and composition/processing information manually extracted from text, enabling construction of a domain-specific dataset linking alloy composition, processing, and properties. The dataset summarizes 20 microalloying elements and mechanical and electrical performance under different processing conditions. This tool can significantly improve the efficiency of large-scale data accumulation in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "High-Accuracy Prediction of Mechanical Properties of Ni-Cr-Fe Alloys Using Machine Learning",
+      "authors": [
+        "Yusuf Uzunoğlu",
+        "Berkay Emi̇n",
+        "Yusuf Alaca"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yusuf Uzunoğlu",
+          "orcid": "0000-0002-9276-1733",
+          "affiliations": [
+            "Erciyes University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Berkay Emi̇n",
+          "orcid": "0000-0002-9554-3280",
+          "affiliations": [
+            "Hitit Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yusuf Alaca",
+          "orcid": "0000-0002-4490-5384",
+          "affiliations": [
+            "Hitit Üniversitesi"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ADBA computer science.",
+      "doi": "10.69882/adba.cs.2025012",
+      "type": "article",
+      "url": "https://doi.org/10.69882/adba.cs.2025012",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://journals.adbascientific.com/acs/article/download/44/27",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Artificial intelligence-driven prediction models have emerged as powerful tools for estimating material properties with high accuracy, yet the preparation of training datasets often demands labor-intensive and time-consuming experimental procedures. Leveraging the Computational Materials Science (CMS) approach, this study utilizes phase transformation calculations and thermodynamic data to simulate the mechanical properties of Ni-Cr-Fe alloys. Using JMatPro software, mechanical properties (0.2% Proof Stress, Fracture Stress, and Young's Modulus) of 50 Ni-Cr-Fe alloy compositions were simulated across a temperature range of 540–920°C, generating a dataset of 1000 rows. This dataset was used to train an Artificial Neural Network (ANN) model, with 80% allocated for training and 20% for validation and testing. The trained AI model demonstrated robust predictive capabilities, achieving a 96,61% accuracy rate in forecasting material compositions with the desired thermo-physical properties at specific temperatures. To validate the model's reliability, predicted alloy compositions were re-simulated under identical conditions in JMatPro, confirming the high fidelity of the model's predictions. The results underscore the efficacy of Computational Materials Science (CMS)-generated datasets as a scalable and reliable source for training AI models in materials science. This study highlights the potential of integrating Computational Materials Science (CMS) and Machine Learning approaches to accelerate material design and development processes, delivering significant improvements in prediction speed and accuracy.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Explainable AI and Feature Engineering for Machine-Learning-Driven Predictions of the Properties of Cu-Cr-Zr Alloys: A Hyperparameter Tuning and Model Stacking Approach",
+      "authors": [
+        "Mohammed A. Atiea",
+        "Reham Reda",
+        "Sabbah Ataya",
+        "Mervat Mohamed Ibrahim"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Mohammed A. Atiea",
+          "orcid": "0000-0002-8679-7019",
+          "affiliations": [
+            "Suez University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Reham Reda",
+          "orcid": "0000-0003-0526-1210",
+          "affiliations": [
+            "Suez University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sabbah Ataya",
+          "orcid": "0000-0002-9229-1436",
+          "affiliations": [
+            "Imam Mohammad ibn Saud Islamic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mervat Mohamed Ibrahim",
+          "orcid": "0000-0001-5696-9097",
+          "affiliations": [
+            "Central Metallurgical Research and Development Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Processes",
+      "doi": "10.3390/pr13051451",
+      "type": "article",
+      "url": "https://doi.org/10.3390/pr13051451",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2227-9717/13/5/1451/pdf?version=1746795992",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-performance copper alloys are crucial for integrated circuit lead frames due to their high density, multifunctionality, and low cost. High-performance copper alloys typically address the competing issues of high strength and high electrical conductivity through alloying and processing control methods. However, the traditional methods for developing these alloys are time-consuming, expensive, and complex processes. This study utilizes Explainable AI by employing machine learning (ML) and deep learning (DL) techniques to predict the hardness (HRC) and electrical conductivity (mS/m) based on the alloy composition, including Cr, Zr, Ce, and La, and the processing parameters, namely the aging time, of Cu-Cr-Zr alloys. A comprehensive dataset of 47 experimental Cu-Cr-Zr alloy samples, derived from prior experimental studies, was analyzed using feature engineering, correlation analysis, and explainability methods such as SHapley Additive exPlanations (SHAP). Various ML models, including ensemble methods like XGBoost, CatBoost, and AdaBoost, were evaluated for their predictive performance. The feature importance analysis revealed that the aging time and Zr content significantly influence the hardness, followed by Ce content, while Cr and La contents reveal a weak contribution to hardness values. Electrical conductivity is predominantly controlled by aging time, with a weak negative influence of the alloying elements. These findings align well with metallurgical principles, where microstructural refinement and precipitation behavior dictate the hardness and conductivity of Cu-Cr-Zr alloys. Hyperparameter tuning and model stacking further enhanced the predictive accuracy, with the final stacked models achieving R2 scores of 0.8762 for hardness within a training time of 1.739 s and 0.8132 for electrical conductivity within a training time of 1.091 s. These findings demonstrate the effectiveness of ML-driven approaches in material property predictions, providing valuable insights for material design and property processing parameter optimization.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Deep Learning-Driven Insights into Hardness and Electrical Conductivity of Low-Alloyed Copper Alloys",
+      "authors": [
+        "Mihail Kolev",
+        "Juliana Javorova",
+        "Tatiana Simeonova",
+        "Yasen Hadjitodorov",
+        "Boyko Krastev"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Mihail Kolev",
+          "orcid": "0000-0002-5226-4759",
+          "affiliations": [
+            "Bulgarian Academy of Sciences",
+            "Institute of Metal Science, Equipment and Technologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juliana Javorova",
+          "orcid": "0000-0002-2234-0263",
+          "affiliations": [
+            "University of Chemical Technology and Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tatiana Simeonova",
+          "orcid": "0009-0004-2039-1325",
+          "affiliations": [
+            "Bulgarian Academy of Sciences",
+            "Institute of Mechanics",
+            "Institute of Metal Science, Equipment and Technologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yasen Hadjitodorov",
+          "orcid": null,
+          "affiliations": [
+            "Bulgarian Academy of Sciences",
+            "Institute of Metal Science, Equipment and Technologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Boyko Krastev",
+          "orcid": null,
+          "affiliations": [
+            "Bulgarian Academy of Sciences",
+            "Institute of Metal Science, Equipment and Technologies"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Alloys",
+      "doi": "10.3390/alloys4040022",
+      "type": "article",
+      "url": "https://doi.org/10.3390/alloys4040022",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2674-063X/4/4/22/pdf?version=1760089920",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Understanding the intricate relationship between composition, processing conditions, and material properties is essential for optimizing Cu-based alloys. Machine learning offers a powerful tool for decoding these complex interactions, enabling more efficient alloy design. This work introduces a comprehensive machine learning framework aimed at accurately predicting key properties such as hardness and electrical conductivity of low-alloyed Cu-based alloys. By integrating various input parameters, including chemical composition and thermo-mechanical processing parameters, the study develops and validates multiple machine learning models, including Multi-Layer Perceptron with Production-Aware Deep Architecture (MLP-PADA), Deep Feedforward Network with Multi-Regularization Framework (DFF-MRF), Feedforward Network with Self-Adaptive Optimization (FFN-SAO), and Feedforward Network with Materials Mapping (FFN-TMM). On a held-out test set, DFF-MRF achieved the best generalization (R2_test = 0.9066; RMSE_test = 5.3644), followed by MLP-PADA (R2_test = 0.8953; RMSE_test = 5.7080) and FFN-TMM (R2_test = 0.8914; RMSE_test = 5.8126), with FFN-SAO slightly lower (R2_test = 0.8709). Additionally, a computational performance analysis was conducted to evaluate inference time, memory usage, energy consumption, and batch scalability across all models. Feature importance analysis was conducted, revealing that aging temperature, Cr, and aging duration were the most influential factors for hardness. In contrast, aging duration, aging temperature, solution treatment temperature, and Cu played key roles in electrical conductivity. The results demonstrate the effectiveness of these advanced machine learning models in predicting critical material properties, offering insightful advancements for materials science research. This study introduces the first controlled, statistically validated, multi-model benchmark that integrates composition and thermo-mechanical processing with deployment-grade profiling for property prediction of low-alloyed Cu alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Synthesis and properties of Al-Zn-Mg-Cu high entropy alloys. A review",
+      "authors": [
+        "Fainah Madewu",
+        "Nicholus Malatji",
+        "Mxolisi Brendon Shongwe",
+        "Tawanda Marazani",
+        "Lehlogonolo Rudolf Kanyane"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Fainah Madewu",
+          "orcid": "0009-0002-6513-7684",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholus Malatji",
+          "orcid": "0000-0001-9788-5332",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mxolisi Brendon Shongwe",
+          "orcid": "0000-0002-5115-5833",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tawanda Marazani",
+          "orcid": "0000-0003-2268-5867",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lehlogonolo Rudolf Kanyane",
+          "orcid": "0000-0003-3480-4886",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Discover Materials",
+      "doi": "10.1007/s43939-025-00344-1",
+      "type": "review",
+      "url": "https://doi.org/10.1007/s43939-025-00344-1",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://link.springer.com/content/pdf/10.1007/s43939-025-00344-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Al-Zn-Mg-Cu high entropy alloy system (HEA) has attracted a lot of interest lately because of its exceptional strength, resistance to corrosion, and thermal stability. The purpose of this study is to consolidate and evaluate the body of research on the synthesis procedures and properties of Al-Zn-Mg-Cu HEAs. The study explores several synthesis methods, including arc melting, casting, vacuum induction melting (VIM), mechanical alloying (MA), spark plasma sintering (SPS), and additive manufacturing (AM), emphasizing the impact of processing factors on phase formation and microstructural evolution. A thorough analysis of the mechanical, thermal, and corrosion characteristics of these alloys is provided, emphasizing the ways in which various alloying constituents and production parameters affect the performance of an alloy. The paper also offers insights into the design and optimization of Al-Zn-Mg-Cu HEAs by discussing the theoretical models and computational methods used to predict their behavior. Through the integration of results from various studies, this review highlights existing challenges and research gaps, proposing potential directions for further investigation. The objective is to facilitate the development and application of Al-Zn-Mg-Cu HEAs in advanced engineering fields by offering a comprehensive understanding of them.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Synergistic Enhancement of Strength, Plasticity, and Electrical Conductivity in Cu–3Ti Alloy: Process Optimization and Mechanism Analysis",
+      "authors": [
+        "Zhen Wang",
+        "Yanmin Zhang",
+        "Yingchao Xu",
+        "Jiang Feng",
+        "Kexing Song",
+        "Feiyue Liu",
+        "Shikang Zhou",
+        "Xiangyang Xue",
+        "Yanfang Ma"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Zhen Wang",
+          "orcid": "0009-0000-6191-9967",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanmin Zhang",
+          "orcid": "0000-0002-3255-7976",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yingchao Xu",
+          "orcid": "0000-0002-9343-7388",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiang Feng",
+          "orcid": "0000-0002-1237-0901",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kexing Song",
+          "orcid": "0000-0002-0958-2014",
+          "affiliations": [
+            "Henan University of Science and Technology",
+            "Henan Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Feiyue Liu",
+          "orcid": "0000-0002-1957-996X",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shikang Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangyang Xue",
+          "orcid": "0000-0002-4897-9209",
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanfang Ma",
+          "orcid": null,
+          "affiliations": [
+            "Henan University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Engineering Materials",
+      "doi": "10.1002/adem.202500841",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adem.202500841",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adem.202500841",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Cu–Ti alloy has excellent mechanical properties and high‐temperature stability. It is an ultra‐high‐strength, environmentally friendly copper alloy that serves as a substitute for Cu–Be alloys. However, high‐strength copper titanium alloy (strength > 1000 MPa) generally has low conductivity (<20% international annealed copper standard (IACS)) and poor elongation (about 6%). This study utilizes an integrated approach of aging, cold rolling, and subsequent aging to develop a Cu–3Ti alloy with a balanced combination of high strength, superior electrical conductivity, and enhanced plasticity. The alloy achieves high strength, with a tensile strength of 1043 MPa and a yield strength of 1017 MPa, while also exhibiting excellent electrical conductivity (24.13%IACS) and elongation (10%). Transmission electron microscopy analysis demonstrates that the abundant presence of β ′‐Cu 4 Ti precipitation phases, combined with dense dislocation networks in the Cu–3Ti alloy matrix, plays a crucial role in enhancing its mechanical performance. The emergence of β ′‐Cu 4 Ti phases induces Ti depletion in the copper solid solution, thereby suppressing lattice distortion‐induced carrier scattering. The dominant strengthening mechanism is identified as Orowan bypassing mechanism. Through thermodynamic analysis, a modified Johnson–Mehl–Avrami–Kolmogorov model is formulated to describe precipitation kinetics and an activation energy of Q = 60 kJ mol −1 determined via Arrhenius equation fitting.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Study of Microstructure and Mechanical Properties of 800H Alloy During Creep",
+      "authors": [
+        "Menglin Gao",
+        "Shengjun Xia",
+        "Chunfa Huang",
+        "Xing Hao Hu",
+        "Shuaiheng Liang",
+        "Wenlu Zhang",
+        "Qiulin Li"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Menglin Gao",
+          "orcid": "0009-0007-0586-3947",
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shengjun Xia",
+          "orcid": "0009-0002-3519-7213",
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chunfa Huang",
+          "orcid": "0000-0002-8789-9025",
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing Hao Hu",
+          "orcid": null,
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuaiheng Liang",
+          "orcid": null,
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenlu Zhang",
+          "orcid": "0000-0001-9331-1227",
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qiulin Li",
+          "orcid": "0000-0001-6871-514X",
+          "affiliations": [
+            "Tsinghua Shenzhen International Graduate School",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma18040912",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma18040912",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/18/4/912/pdf?version=1739976626",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Creep is one of the primary degradation mechanisms affecting the performance of the 800H alloy under long-term high-temperature stress conditions. Understanding the microstructural evolution during creep and developing a quantitative model to relate these changes to mechanical properties are essential for assessing creep damage and ensuring the safe operation of high-temperature equipment. By conducting a multiscale quantitative characterization of the microstructures in the 800H alloy across different creep stages, we systematically examined the evolution of various microstructural features and their influence on Young's modulus. A quantitative prediction model of Young's modulus based on microstructural characteristics was developed, achieving a prediction accuracy exceeding 95% with a mean absolute percentage error of just 1.59% compared to experimental values. This work not only elucidates the intrinsic relationship between microstructural features and macroscopic mechanical properties but also provides a foundation for the in-service creep damage assessment of high-temperature components.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Aging Kinetics and Activation Energy-Based Modeling of Electrical Conductivity Evolution in a Cu–4Ti Alloy",
+      "authors": [
+        "Guojin Sun",
+        "Hong Liu",
+        "YingTang Zhang",
+        "Wenbin Wu",
+        "Qi Wang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Guojin Sun",
+          "orcid": null,
+          "affiliations": [
+            "Qinghai Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Liu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "YingTang Zhang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenbin Wu",
+          "orcid": null,
+          "affiliations": [
+            "Qinghai Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qi Wang",
+          "orcid": null,
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Apollo (University of Cambridge)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.repository.cam.ac.uk/bitstreams/893859fc-270f-4552-9573-5b1a18859686/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The aging behavior and electrical performance evolution of Cu–4Ti alloy were systematically investigated through experimental characterization and theoretical modeling. A series of solution and aging treatments were conducted at temperatures ranging from 450 °C to 600 °C for durations of 1–420 min, with and without 50% cold deformation. Based on solid-state diffusion theory, the activation energy of the aging process was determined using the Arrhenius relationship combined with regression analysis. The calculated activation energies were 298.5 kcal·mol−1 for the solution-treated alloy and 136.1 kcal·mol−1 for the cold-deformed alloy, indicating that deformation-induced lattice defects substantially accelerate atomic diffusion and precipitation kinetics. A predictive model was further established to describe electrical conductivity as a function of aging temperature and time, with high correlation coefficients (R2 = 0.90 for the non-deformed and R2 = 0.89 for the deformed condition). The model accurately captures the conductivity evolution under various heat treatment conditions, demonstrating its strong predictive capability. Moreover, kinetic curves were constructed to intuitively represent the relationship between conductivity, temperature, and time, providing a rapid and visual tool for process optimization.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Modelling of Hardness and Electrical Conductivity of Cu-4Ti (wt.%) Alloy and Estimation of Aging Parameters Using Metaheuristic Algorithms",
+      "authors": [
+        "J. Konieczny",
+        "K. Labisz",
+        "Satılmış Ürgün",
+        "Halil Yiğit",
+        "Sinan Fi̇dan",
+        "Mustafa Özgür Bora",
+        "Ş. Hakan Atapek",
+        "Janusz Cwiek"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "J. Konieczny",
+          "orcid": "0000-0002-7318-5187",
+          "affiliations": [
+            "Silesian University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "K. Labisz",
+          "orcid": "0000-0002-4613-830X",
+          "affiliations": [
+            "Silesian University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Satılmış Ürgün",
+          "orcid": "0000-0003-3889-6909",
+          "affiliations": [
+            "Kocaeli Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Halil Yiğit",
+          "orcid": "0000-0003-0932-6966",
+          "affiliations": [
+            "Kocaeli Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sinan Fi̇dan",
+          "orcid": "0000-0003-4385-4981",
+          "affiliations": [
+            "Kocaeli Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mustafa Özgür Bora",
+          "orcid": "0000-0003-0921-418X",
+          "affiliations": [
+            "Kocaeli Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ş. Hakan Atapek",
+          "orcid": "0000-0003-0964-2037",
+          "affiliations": [
+            "Kocaeli Üniversitesi"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Janusz Cwiek",
+          "orcid": "0000-0003-1829-2067",
+          "affiliations": [
+            "Silesian University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma18102366",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma18102366",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/18/10/2366/pdf?version=1747661170",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This study focuses on cold deformation and age effects on the microhardness and electric conductivity of the Cu-4Ti (wt.%) alloys. The samples were solution treated at 900 °C, quenched in water, and aged at 450-600 °C for 1-120 min. Fifty percent cold rolling was performed before aging to analyze the impact on their microstructure and properties. Hardness and electric conductivity were examined by the Vickers microhardness and Förster testing. Hardness increased significantly while electric conductivity was maintained. The optimal hardness of 298 HV appeared following 50% cold rolling and aging for 120 min at 450 °C, and an electric conductivity of 9.4 MS/m was achieved after 120 min at 600 °C in cold-rolled materials. The deformed and solution-treated materials reached 244 HV after 120 min at 500 °C, and electric conductivity reached 7.7 MS/m. Polynomial models of regression were used to analyze the impact of aging parameters on properties. Process parameters were properly optimized by applying metaheuristic algorithms. These contributions ensure a better understanding of the relationship between the microstructure and properties in Cu-Ti alloys, as well as their application in aircraft and electronics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Application of machine learning algorithms to predict mechanical properties of aluminum alloys",
+      "authors": [
+        "Oleksii Popov"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Oleksii Popov",
+          "orcid": "0009-0000-2385-5878",
+          "affiliations": [
+            "Zaporizhzhia National University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Periodicals of Engineering and Natural Sciences (PEN)",
+      "doi": "10.21533/pen.v13.i4.1278",
+      "type": "article",
+      "url": "https://doi.org/10.21533/pen.v13.i4.1278",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pen.ius.edu.ba/index.php/pen/article/download/1278/902",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Alloys used in aerospace, automotive industries and structural engineering have good strength to specific weight ratio, corrosion resistance and workability. Mechanical properties like tensile and yield strengths, elongation and hardness are vital to ensure integrity of structures. However, conventional techniques in measuring these properties are time consuming, tedious and destructive. This paper providesa framework in which limited experimental data & Machine Learning algorithms are employed to evaluate the important mechanical properties of aerospace grade aluminum alloys. Data set of alloy compositions as well as processing parameters were obtained through material libraries to train and validate through techniques like Random Forest Regression (RFR), Artificial Neural Networks (ANN) and Support Vector Regression. The tensile strength was predicted with the best results for R – Squared & Root Mean Squared Errors were Coefficient of Determination R2= 0.96, RMSE = 12.4 MPa using ANN and RFR were more efficient in predicting the elongation (R2>0.93). The given approach demonstrated a better performance than the ordinary regression approaches with over 20 percent improvement and less experimental work up to about 60%. This approach provides the boosted & scalable approach to greatly increase the pace of material design and mechanical characterization of applications in the aerospace industry.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Advances in High-Entropy Alloy Research: Unraveling Fabrication Techniques, Microstructural Transformations, and Mechanical Properties",
+      "authors": [
+        "Adeola Oketola",
+        "T. A. Adegbola",
+        "Tamba Jamiru",
+        "Olugbenga Ogunbiyi",
+        "Smith Adamu Salifu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Adeola Oketola",
+          "orcid": "0000-0002-5551-0740",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "T. A. Adegbola",
+          "orcid": "0000-0002-6881-7215",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tamba Jamiru",
+          "orcid": "0000-0002-9492-1921",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Olugbenga Ogunbiyi",
+          "orcid": "0000-0002-6260-450X",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Smith Adamu Salifu",
+          "orcid": "0000-0001-5527-4437",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Bio- and Tribo-Corrosion",
+      "doi": "10.1007/s40735-025-00999-6",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40735-025-00999-6",
+      "cited_by_count": 39,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40735-025-00999-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract High-entropy alloys (HEAs) have emerged as promising materials with exceptional mechanical properties, thus, making them suitable for demanding applications that require high strength and toughness. This review highlights the latest advancements in HEA research, focusing on processing techniques, microstructural evolution, and mechanical properties and behavior techniques. The unique HEA composition comprising four or more principal elements in almost equiatomic ratios produces high configurational entropy, which stabilizes distinct solid solution phases. This stabilization leads to microstructures distinguished by disorder and set of defect types, generating superior mechanical properties. For several years, substantial advancement has been achieved in HEA processing routes, from traditional casting and powder metallurgy to state-of-the-art methods such as additive manufacturing and severe plastic deformation. These processes, combined with a developing understanding of microstructural evolution and phase transformations, are broadening the potential application of HEAs in aerospace, energy, and automotive. As the field progresses, the implications of these findings are shaping future research directions and expanding the potential applications of HEAs in various industries. This review underscores the current challenges in tailoring the microstructure of HEAs and optimizing their mechanical functionality, laying the foundation for future innovations and practical use.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Excellent mechanical properties and corrosion resistance of Al–Ce–Zr alloys",
+      "authors": [
+        "Guoqiang Qin",
+        "Xinran Lv",
+        "Kaili Li",
+        "Zhigang Yang",
+        "Tianqing Sheng",
+        "Shuqin Zhang",
+        "Xuguang Wei",
+        "Gang Yu",
+        "Jianbo Yu",
+        "Ruili Song"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Guoqiang Qin",
+          "orcid": null,
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinran Lv",
+          "orcid": null,
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaili Li",
+          "orcid": "0000-0002-5593-4068",
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhigang Yang",
+          "orcid": "0009-0005-2793-8108",
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tianqing Sheng",
+          "orcid": null,
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuqin Zhang",
+          "orcid": "0000-0001-8223-844X",
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuguang Wei",
+          "orcid": null,
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gang Yu",
+          "orcid": "0000-0003-0221-0514",
+          "affiliations": [
+            "Shijiazhuang Tiedao University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianbo Yu",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University",
+            "State Key Laboratory of Advanced Special Steel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruili Song",
+          "orcid": null,
+          "affiliations": [
+            "Hebei Academy of Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-025-04817-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-025-04817-4",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-025-04817-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "In this study, the effect of Zr elements on Al–10Ce alloys were investigated in terms of the microstructure, mechanical properties at room and high temperatures, and corrosion resistance. Meanwhile, the finite element simulations on tensile fracture was adopted to explain the fracture process of Al–Ce alloys. Results showed that as Zr content increased from 0.05 to 0.15%, the eutectic Al 11 Ce 3 phase were gradually coarsened. However, further increase in Zr content led to the refinement and homogenization. Meanwhile, a significant transformation in the morphology of eutectic Al 11 Ce 3 from layered to rod-like or bar-like structures happened. Correspondingly, mechanical properties at room temperature such as hardness, tensile strength, and yield strength initially decreased but subsequently increased. The tensile strength and yield strength of the alloys could reach the maximum values of 160 MPa and 96 MPa, respectively, and the elongation of the alloy reached the highest of 14.4%. The yield strength and the tensile strength at high temperature of 300 °C exhibited the highest values of 62.5 Mpa and 74 Mpa, respectively, when the Zr content is 0.05%. Moreover, the corrosion current of the alloys was minimized to 1.158 × 10 − 7 µA/cm 2 when the content of Zr was 0.05%, which attributed to the observed optimal microstructural characteristics of the Al 11 Ce 3 phase at this concentration. Therefore, it is believed that Al–10Ce–Zr alloys are excellent candidate engineering materials in extreme environment fields.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Unveiling the mechanism for enhanced mechanical–electrical–tribological property integration in CuCrZr/Cu laminated metallic composites via cryorolling and short-term annealing",
+      "authors": [
+        "Zihui Cheng",
+        "Zhide Li",
+        "Denis O. Pustovoytov",
+        "Alexander Pesin",
+        "Zheng‐Yu Wang",
+        "Tongxin Zhao",
+        "Charlie Kong",
+        "Hailiang Yu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Zihui Cheng",
+          "orcid": null,
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhide Li",
+          "orcid": "0000-0003-1974-5857",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Denis O. Pustovoytov",
+          "orcid": "0000-0003-0496-0976",
+          "affiliations": [
+            "Nosov Magnitogorsk State Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Pesin",
+          "orcid": "0000-0002-5443-423X",
+          "affiliations": [
+            "Nosov Magnitogorsk State Technical University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zheng‐Yu Wang",
+          "orcid": "0000-0002-0386-490X",
+          "affiliations": [
+            "Shimadzu (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tongxin Zhao",
+          "orcid": null,
+          "affiliations": [
+            "Shimadzu (China)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charlie Kong",
+          "orcid": "0000-0002-4446-7193",
+          "affiliations": [
+            "UNSW Sydney",
+            "Mark Wainwright Analytical Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hailiang Yu",
+          "orcid": "0000-0001-7959-0717",
+          "affiliations": [
+            "Central South University",
+            "Nosov Magnitogorsk State Technical University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Composites and Hybrid Materials",
+      "doi": "10.1007/s42114-025-01547-z",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s42114-025-01547-z",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s42114-025-01547-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "CuCrZr/Cu/CuCrZr laminated metallic composites (LMCs) were fabricated by hot rolling (HR) followed by cryorolling (CR) and subsequent short-term annealing. The CuCrZr layers accounted for 20.0 vol% of the composite, while the core layer consisted of low-cost pure Cu. The resulting LMCs exhibited enhanced ultimate tensile strength (UTS) and wear resistance relative to the constituent materials. Furthermore, the electrical conductivity of the LMCs was significantly higher than that of the initial CuCrZr (38.3%IACS). After annealing at 673 K for 30 min, the LMCs reached a UTS of 292 MPa, an electrical conductivity of 96.7%IACS, and a wear rate of 2.38 × 10 –4 mm 3 ∙N –1 ∙m –1 . These improvements were primarily attributed to optimized precipitation strengthening in the CuCrZr layers and the presence of a high density of annealing twins in the Cu layers. Microstructural characterization revealed uniformly distributed Cr-rich precipitates (≈ 4 nm) in the CuCrZr layer of the CR-A673K sample. Meanwhile, the Cu layer exhibited an annealing-twin area fraction of 43.2% and a 10% increase in the length fraction of Σ3 grain boundaries. This study demonstrates the feasibility of synchronizing CuCrZr aging with Cu recrystallization via CR and short-term annealing, thereby offering a practical design strategy for developing high-performance, low-cost alternatives to pure copper.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Estimation of the influence of technological parameters and mixture composition during mechanochemical synthesis of quasicrystals of Al-Cu-Fe and Al-Cu-Cr systems using convolutional neural network, support vector and extreme gradient boosting models",
+      "authors": [
+        "Nikita Yu Nikitin",
+        "Andrey A. Stepashkin",
+        "Yulia Valerevna Odintsova",
+        "Victor V. Tcherdyntsev"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Nikita Yu Nikitin",
+          "orcid": "0000-0002-3193-8320",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrey A. Stepashkin",
+          "orcid": "0000-0002-0034-7587",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yulia Valerevna Odintsova",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Victor V. Tcherdyntsev",
+          "orcid": "0000-0003-4357-4509",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "SSRN Electronic Journal",
+      "doi": "10.2139/ssrn.5687198",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.5687198",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.2139/ssrn.5687198",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Effects of Thermal Cycling and Environmental Exposure on Mechanical Properties of 6061 and 7075 Aluminum Alloys",
+      "authors": [
+        "Valentin Zichil",
+        "Cosmin Constantin Grigoraș",
+        "Ana-Maria Roșu",
+        "Vlad Andrei Ciubotariu",
+        "Aurel Mihail ŢÎŢU"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Valentin Zichil",
+          "orcid": "0000-0003-4600-2696",
+          "affiliations": [
+            "University of Bacău"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cosmin Constantin Grigoraș",
+          "orcid": "0000-0003-0621-1258",
+          "affiliations": [
+            "University of Bacău"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ana-Maria Roșu",
+          "orcid": "0000-0001-5551-4752",
+          "affiliations": [
+            "University of Bacău"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vlad Andrei Ciubotariu",
+          "orcid": "0000-0002-9060-593X",
+          "affiliations": [
+            "University of Bacău"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aurel Mihail ŢÎŢU",
+          "orcid": "0000-0002-0054-6535",
+          "affiliations": [
+            "Lucian Blaga University of Sibiu"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Processes",
+      "doi": "10.3390/pr14010016",
+      "type": "article",
+      "url": "https://doi.org/10.3390/pr14010016",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2227-9717/14/1/16/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This work quantifies the environmental sensitivity of tartaric–sulfuric acid (TSA) anodized and sealed 6061 and 7075 aluminum. Five alloy–temper states (6061-T4, 6061-T62, 7075-T0, 7075-T62, and 7075-T73) were TSA-treated, pore sealed and then exposed for eight weeks (56 days) to ambient air, 11 wt.% NaCl brine, or a microbiological medium, with weekly +20 °C/−20 °C freeze–thaw cycles. Tensile tests assessing yield strength, ultimate strength, and elongation were conducted. Strength losses were modest in ambient conditions (<5%) but increased to ≈5–10% for yield and ≈2–9% for ultimate under saline and microbial conditions, particularly in the annealed 7075-T0 and peak-aged 7075-T62 states. Ductility was more sensitive, declining up to ≈30% for 6061-T4 and 6061-T62 in harsh media. Permutation-based inference within an additive screening model indicated that environmental exposure is strongly associated with the dominant share of the observed variability (R2env ≈ 0.91–0.93 for yield, ultimate strength, and elongation), within the limits of the present dataset. These results suggest that freeze–thaw cycling, chloride exposure, and microbiological activity are consistent with the observed degradation trends. Over-aged 7075-T73 retained properties better than T62, highlighting the roles of temper and pore sealing quality in cold, saline, and microbiologically active service.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Reducing solidification cracks and enhancing mechanical performance in additively manufactured Cu-Ti alloys via chemical fluctuation manipulation",
+      "authors": [
+        "Qi Liu",
+        "Shan Jin",
+        "Chuanxi Ren",
+        "Dongdong Zhang",
+        "Ze Pu",
+        "Hongning Wen",
+        "Yating Ran",
+        "Xingdong Dan",
+        "Xuanlai Chen",
+        "Song Ni",
+        "Jing Lu",
+        "Zibin Chen"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Qi Liu",
+          "orcid": "0000-0001-5701-0646",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shan Jin",
+          "orcid": "0009-0006-3894-7103",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chuanxi Ren",
+          "orcid": "0000-0003-0540-4699",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dongdong Zhang",
+          "orcid": "0000-0001-8627-7016",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ze Pu",
+          "orcid": null,
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongning Wen",
+          "orcid": "0009-0003-4327-6576",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yating Ran",
+          "orcid": "0009-0003-4202-2769",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingdong Dan",
+          "orcid": "0000-0001-6356-5816",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuanlai Chen",
+          "orcid": "0000-0002-1099-5449",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Song Ni",
+          "orcid": "0000-0001-6239-5712",
+          "affiliations": [
+            "Central South University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jing Lu",
+          "orcid": "0009-0007-7144-1398",
+          "affiliations": [
+            "Ji Hua Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zibin Chen",
+          "orcid": "0000-0002-7144-1861",
+          "affiliations": [
+            "Hong Kong Polytechnic University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Virtual and Physical Prototyping",
+      "doi": "10.1080/17452759.2025.2522274",
+      "type": "article",
+      "url": "https://doi.org/10.1080/17452759.2025.2522274",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/17452759.2025.2522274?needAccess=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Additive manufacturing offers substantial design freedom for developing copper (Cu) alloy components with complex shapes. However, the extreme process conditions of this technique increase the risk of solidification cracking. Cu-titanium (Ti) alloy, a high-strength Cu alloy, exhibited solidification cracks due to the Ti segregation at grain boundaries when processed with laser powder bed fusion, reducing the appeal of Cu-Ti alloys in the additively manufactured Cu market. In this study, we incorporated chemical fluctuations via in-situ alloying in laser powder bed fusion to suppress solidification cracks. These fluctuations promote the transformation from coarse columnar grains to fine near-equiaxed grains, thereby mitigating solidification cracks at grain boundaries. Furthermore, we discovered that the degree of chemical inhomogeneity decreased with reducing the elemental powder size of in-situ alloying. Utilising this novel strategy, we successfully in-situ synthesised Cu-Ti alloys devoid of solidification cracks and strengthened by cellular microstructures. Compared to Cu-Ti alloys without chemical fluctuations fabricated using pre-alloyed powders, in-situ synthesised Cu-Ti alloys exhibited significantly boosted tensile strength (from 306.3 MPa to 534.7 MPa) and fracture elongation (from 1.8% to 18.4%). This study presents a practical methodology to address the challenge of solidification cracking in some additively manufactured Cu alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "Prediction of aluminum alloy mechanical properties using synthetic data generated by generative adversarial networks",
+      "authors": [
+        "Lega Putri Utami",
+        "Armijal Armijal",
+        "Desmarita Leni",
+        "Andre Febrian Kasmar"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Lega Putri Utami",
+          "orcid": null,
+          "affiliations": [
+            "Andalas University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Armijal Armijal",
+          "orcid": "0000-0001-6917-9676",
+          "affiliations": [
+            "Andalas University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Desmarita Leni",
+          "orcid": "0000-0003-1364-0050",
+          "affiliations": [
+            "Universitas Muhammadiyah Sumatera Barat"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andre Febrian Kasmar",
+          "orcid": "0009-0009-7601-4509",
+          "affiliations": [
+            "Politeknik Negeri Padang"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Jurnal POLIMESIN",
+      "doi": "10.30811/jpl.v23i2.6084",
+      "type": "article",
+      "url": "https://doi.org/10.30811/jpl.v23i2.6084",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://e-jurnal.pnl.ac.id/polimesin/article/download/6084/4562",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Machine learning models are widely used to predict the mechanical properties of aluminum alloys. However, their accuracy is often hindered by the scarcity of high-quality tensile test data, as experimental data collection is costly and time-consuming. To address this limitation, this study employs Generative Adversarial Networks (GANs) to generate synthetic tensile test data for aluminum alloys, improving the accuracy of predictive models. The dataset consists of 200 real samples containing the compositions of nine chemical elements and two mechanical properties-Yield Strength (YS) and Ultimate Tensile Strength (UTS). A trained GAN model was used to generate 1,000 synthetic samples, whose statistical similarity to the original dataset was validated using the Kolmogorov-Smirnov (KS) test and Pearson correlation analysis. The results confirmed that all synthetic variables retained similar distributions and correlation patterns to the original dataset. To evaluate the impact of synthetic data on predictive accuracy, three machine learning algorithms-Random Forest Regressor (RF), Gradient Boosting Regressor (GBR), and Ada Boost Regressor (ABR)-were tested under two training schemes: (1) synthetic data for training and real data for testing and (2) real data for both training and testing. The RF model showed the highest improvement in UTS prediction, with reductions of 38.3% and 46.3% in Mean Absolute Error (MAE) and Root Mean Square Error (RMSE), respectively. The GBR model exhibited notable enhancements in YS prediction, with MAE and RMSE reductions of22.5% and 28.3%. These results demonstrate that GAN-generated synthetic data is highly effective in improving machine learning predictions of aluminum alloy properties, particularly when experimental data is limited.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Effect of Niobium Addition on Corrosion Behavior, Mechanical Properties, and Microstructures of U6Zr Alloys in an Aerated Environment",
+      "authors": [
+        "Masrukan Masrukan",
+        "Djati Handoko",
+        "Dede Djuhana",
+        "Rohmad Sigit",
+        "M. Husna Al Hasa",
+        "Wisnu Ari Adi",
+        "Siti Mardiah"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Masrukan Masrukan",
+          "orcid": "0000-0003-4266-4756",
+          "affiliations": [
+            "University of Indonesia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Djati Handoko",
+          "orcid": "0000-0002-5731-8293",
+          "affiliations": [
+            "University of Indonesia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dede Djuhana",
+          "orcid": "0000-0002-2025-0782",
+          "affiliations": [
+            "University of Indonesia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rohmad Sigit",
+          "orcid": "0000-0002-7038-0622",
+          "affiliations": [
+            "National Research and Innovation Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. Husna Al Hasa",
+          "orcid": "0009-0007-8533-1675",
+          "affiliations": [
+            "National Research and Innovation Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wisnu Ari Adi",
+          "orcid": "0000-0001-8436-6357",
+          "affiliations": [
+            "National Research and Innovation Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siti Mardiah",
+          "orcid": null,
+          "affiliations": [
+            "IPB University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Makara Journal of Science",
+      "doi": "10.7454/mss.v29i4.3178",
+      "type": "article",
+      "url": "https://doi.org/10.7454/mss.v29i4.3178",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://scholarhub.ui.ac.id/cgi/viewcontent.cgi?article=3178&context=science",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "The effect of Nb addition on the corrosion behavior of U–6Zr alloys within an aerated, demineralized water (DW) environment (pH 5.61) and its correlation of this addition with the mechanical and microstructural properties of the alloys were investigated. The U–6Zr–xNb alloys (x = 1, 4, and 7 wt.%) were synthesized by arc-melting U, Zr, and Nb. Additionally, the samples were mounted and polished, after which they were subjected to electrochemical corrosion analysis using a potentiostat. This evaluation was conducted in a DW medium (pH 5.6), representing an aerated atmosphere, at room temperature (27°C) and a potentiodynamic scan rate of 1 mV/cm2. The results demonstrate that Nb addition to the U–6Zr alloy, which yielded a U–6Zr–xNb (x = 1.4 and 7 wt.%) alloy, influenced the corrosion behavior in media, exhibiting a slightly acidic pH (5.61). Nb additions of up to 4 wt.% caused a continuous increase in the open-circuit potential, corrosion-current density, and corrosion rate (CR); however, these values decreased with the continuous increase in Nb concentrations to 7 wt.%. Furthermore, microstructural analysis via scanning electron microscopy and energy-dispersive X-ray spectroscopy revealed that the corrosion products across almost all U–6Zr–xNb test samples (x = 0, 1, 4, and 7 wt.%) were primarily stable uranium dioxide, which formed a protective layer, followed by oxynitride and zirconium(IV) oxide.Overall, the findings indicated that the varying Nb contents (1, 4, and 7 wt.%) dictated the CR, mechanical properties, and microstructure of the alloys. Ultimately, this study demonstrates the synthesis of U–6Zr–xNb alloys (x = 0, 1, 4, and 7 wt.%) with enhanced performance characteristics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Predictive Modeling and Analysis of Cu–Be Alloys: Insights into Material Properties and Performance",
+      "authors": [
+        "Mihail Kolev"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Mihail Kolev",
+          "orcid": "0000-0002-5226-4759",
+          "affiliations": [
+            "Bulgarian Academy of Sciences",
+            "Institute of Metal Science, Equipment and Technologies"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemEngineering",
+      "doi": "10.3390/chemengineering8040070",
+      "type": "article",
+      "url": "https://doi.org/10.3390/chemengineering8040070",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2305-7084/8/4/70/pdf?version=1721035218",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Cu–Be alloys are renowned for their exceptional mechanical and electrical properties, making them highly sought after for various industrial applications. This study presents a comprehensive approach to predicting the compositions of various types of Cu–Be alloys, integrating a Random Forest Regressor within a machine learning (ML) framework to analyze an extensive dataset of chemical and thermo-mechanical parameters. The research process incorporated data preprocessing, model training and validation, and robust analysis to discern feature significance. Cluster analysis was also conducted to illuminate the data’s intrinsic groupings and to identify underlying metallurgical patterns. The model’s predictive power was confirmed by high R2 values, indicative of its capability to capture and explain the variance in the dataset for both testing (R2 = 0.99375) and training (R2 = 0.99858). Distinct groupings within the alloy data were uncovered, revealing significant correlations between composition, processing conditions, and alloy properties. The findings underscore the potential of ML techniques in advancing the material design and optimization of Cu–Be alloys, providing valuable insights for the field of material science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "In silico design and prediction of metastable quaternary phases in Cu–Ni–Si–Cr alloys",
+      "authors": [
+        "Ángel Díaz Carral",
+        "Simon Gravelle",
+        "Maria Fyta"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Ángel Díaz Carral",
+          "orcid": "0000-0003-0421-2644",
+          "affiliations": [
+            "University of Stuttgart"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon Gravelle",
+          "orcid": "0000-0003-2149-6706",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Laboratoire Interdisciplinaire de Physique",
+            "Université Grenoble Alpes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria Fyta",
+          "orcid": "0000-0002-5425-7907",
+          "affiliations": [
+            "RWTH Aachen University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "APL Machine Learning",
+      "doi": "10.1063/5.0228936",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0228936",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://doi.org/10.1063/5.0228936",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Quaternary phases formed in copper alloys are investigated through a combination of quantum-mechanical and classical computer simulations and active machine learning. Focus is given to nickel, silicon, and chromium impurities in a copper matrix. The analysis of the formation enthalpies of candidate quaternary structures leads to the prediction of two novel quaternary phases and the assessment of their stability. For the predicted two phases, machine learned atomistic potentials are developed using active learning with quantum-mechanical accuracy. The use of these potentials in atomistic simulations further elucidates the structure, temperature-dependent dynamics, and elastic behavior of the predicted quaternary phases in copper alloys. The combined in silico approach is thus proven highly efficient in both designing materials and elucidating their properties and potential combining different spatiotemporal scales. In the case of alloys, this computational scheme significantly reduces the effort in searching the huge chemical space of possible phases, enhancing the efficiency in synthesizing novel alloys with pre-defined properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Mechanical, fatigue and super plasticity properties of Cu–Al–Mn, Cu–Al–Be–Mn shape memory alloy and their metal matrix composites",
+      "authors": [
+        "H. Naresh",
+        "S. Prashantha",
+        "Santhosh Nagaraja",
+        "Majed Alsubih",
+        "Saiful Islam",
+        "Hasan Sh. Majdi",
+        "Sameer Saadoon Algburi",
+        "Abdul Razak"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "H. Naresh",
+          "orcid": null,
+          "affiliations": [
+            "Siddaganga Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Prashantha",
+          "orcid": "0000-0003-3851-3314",
+          "affiliations": [
+            "Siddaganga Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Santhosh Nagaraja",
+          "orcid": "0000-0002-3683-9356",
+          "affiliations": [
+            "MVJ College of Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Majed Alsubih",
+          "orcid": "0000-0001-8226-1682",
+          "affiliations": [
+            "King Khalid University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saiful Islam",
+          "orcid": "0009-0009-4592-6687",
+          "affiliations": [
+            "King Khalid University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hasan Sh. Majdi",
+          "orcid": "0000-0001-6752-4835",
+          "affiliations": [
+            "Al-Mustaqbal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sameer Saadoon Algburi",
+          "orcid": "0000-0002-5483-6271",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdul Razak",
+          "orcid": null,
+          "affiliations": [
+            "Visvesvaraya Technological University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "RSC Advances",
+      "doi": "10.1039/d4ra03304c",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4ra03304c",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/ra/d4ra03304c",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "This study explores the characteristics and potential engineering applications of Cu-Al-Mn and Cu-Al-Be-Mn shape memory alloys (SMAs). The research investigates the chemical composition, transformation temperatures, and mechanical properties of these SMAs when incorporated into Al metal matrix composites (MMCs). It was found that the addition of Mn and Be, has a significant impact on the performance of Cu-Al alloys. Among Cu-Al-Mn SMAs, SMA1, with a composition of Cu-80.94%, Al-10.54%, and Mn-8.52%, exhibited superior strain recovery, super elasticity (SE), and improved mechanical properties compared to other compositions. The study also demonstrates that the inclusion of SMA fibres in Al composites enhances residual strength, energy absorption capacity, and the ability to close fissures, contributing to a more robust and resilient material. In the case of Cu-Al-Be-Mn SMAs, SMA6, with Cu-87.42%, Al-11.8%, Be-0.48%, and Mn-0.3%, showcased improved properties, outperforming other compositions in terms of strain recovery, residual strength, energy absorption capacity, and crack-closing ability. These findings suggest that Cu-Al-Be-Mn SMAs hold promise for various engineering applications. The study provides valuable insights into the potential of these SMAs to enhance the performance of structural materials, offering increased strength, ductility, and resilience. This research contributes to a deeper understanding of the applications and advantages of SMAs in the field of engineering.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "CuCrZr Alloy Manufactured by LPBF Process: Correlation Between Microstructure, Mechanical and Thermal Properties",
+      "authors": [
+        "Carlo Alberto Biffi",
+        "Jacopo Fiocchi",
+        "Stefano Boldrini",
+        "Ausonio Tuissi"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Carlo Alberto Biffi",
+          "orcid": "0000-0001-5876-6007",
+          "affiliations": [
+            "National Research Council"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacopo Fiocchi",
+          "orcid": "0000-0002-7646-4595",
+          "affiliations": [
+            "National Research Council"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefano Boldrini",
+          "orcid": "0000-0002-2241-9748",
+          "affiliations": [
+            "Institute of Condensed Matter Chemistry and Technologies for Energy",
+            "National Research Council"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ausonio Tuissi",
+          "orcid": "0000-0003-2813-4257",
+          "affiliations": [
+            "National Research Council"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Lasers in Manufacturing and Materials Processing",
+      "doi": "10.1007/s40516-023-00240-7",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40516-023-00240-7",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40516-023-00240-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Copper based alloys are promising materials for electrical and thermal devices. In this respect, the use of laser powder bed fusion (LPBF) allows the realization of 3D complex structures, possibly enhancing the functional performances of such devices. LPBF also induces refined microstructures and build-up of residual stresses, due to the rapid solidifications and high cooling rate. In this work a CuCrZr alloy was manufactured by LPBF and a process feasibility window was defined. The effect of a heat treatment, consisting of solution annealing and artificial aging, and of the building direction on the microstructure, tensile, and thermal properties was evaluated. It was found that thermal conductivity is improved by the heat treatment and that thermal conductivity resulted anisotropic, being higher in the growth direction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Estimation of the Influence of Technological Parameters and Mixture Composition During Mechanochemical Synthesis of Quasicrystals of Al-Cu-Fe and Al-Cu-Cr Systems Using Convolutional Neural Network and Support Vector Models",
+      "authors": [
+        "Nikita Yu Nikitin",
+        "Andrey A. Stepashkin",
+        "Svetlana Alexandrova",
+        "Elena Medvedeva",
+        "Victor V. Tcherdyntsev"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Nikita Yu Nikitin",
+          "orcid": "0000-0002-3193-8320",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrey A. Stepashkin",
+          "orcid": "0000-0002-0034-7587",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Svetlana Alexandrova",
+          "orcid": null,
+          "affiliations": [
+            "Moscow Aviation Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elena Medvedeva",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Electrophysics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Victor V. Tcherdyntsev",
+          "orcid": "0000-0003-4357-4509",
+          "affiliations": [
+            "National University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "SSRN Electronic Journal",
+      "doi": "10.2139/ssrn.4951281",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.4951281",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.2139/ssrn.4951281",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+      "authors": [
+        "Stéphane Gorsse",
+        "Mohamed Gouné",
+        "Wei-Chih Lin",
+        "Lionel Girard"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Stéphane Gorsse",
+          "orcid": "0000-0003-1966-8476",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohamed Gouné",
+          "orcid": "0000-0003-1321-7308",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei-Chih Lin",
+          "orcid": "0000-0002-0143-1174",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "National Tsing Hua University",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel Girard",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02411-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02411-9",
+      "cited_by_count": 67,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02411-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This article presents a collection of data on approximately 150 copper-based alloys. The data compilation is based on articles published since 1993 and consists of about 1830 records. Each record contains a unique set of descriptors, such as composition and processing route, and targets, including properties such as hardness, yield strength, ultimate tensile strength, and electrical conductivity. The dataset includes information on the composition in mass percent of 20 alloying elements, and hundreds of temperature-time thermal treatments and thermomechanical conditions. The database is continually updated and hosted on an open data repository. Some of the data are presented graphically in the article to aid interpretation. This study intends to promote the identification of more sustainable alternatives to Cu-Be alloys, which is particularly relevant in developing non-toxic and environmentally-friendly alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Mechanical Behavior and Wear Characteristics of a Conform Extruded C18150 (Cu-Cr-Zr Alloy) Rod",
+      "authors": [
+        "Tariku Desta",
+        "Devendra Kumar Sinha",
+        "Perumalla Janaki Ramulu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Tariku Desta",
+          "orcid": null,
+          "affiliations": [
+            "Adama Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Devendra Kumar Sinha",
+          "orcid": "0000-0002-4727-1698",
+          "affiliations": [
+            "Adama Science and Technology University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Perumalla Janaki Ramulu",
+          "orcid": "0000-0002-7856-8638",
+          "affiliations": [
+            "Adama Science and Technology University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Engineering",
+      "doi": "10.1155/2023/8487824",
+      "type": "article",
+      "url": "https://doi.org/10.1155/2023/8487824",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://downloads.hindawi.com/journals/je/2023/8487824.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The demand level of Cu-Cr base alloys is on the top notch from miniature parts to large parts based on their mechanical, metallurgical, chemical, and electrical properties. Due to these, the processing of Cu-Cr-Zr alloys for the betterment of those properties has been a prospect for researchers. Commonly, Cu-Cr alloys are manufactured through the conventional extrusion process at the industrial level. However, conventional extrusion processes have some limitations, specifically regarding grain size refinement and accompanying strength. To avoid such a problem, the conform extrusion process is inculcated for the Cu and Al alloys extrusion. In the present study, C18150 copper rods were extruded from the feed stock rod of 12.5 mm to 10 and 8 mm in diameter through the conform extrusion process; however, no posttreatment and artificial aging have been made to the extrudates. The extrudates of C18150 rods were tested mechanically and microstructurally. Significant mechanical properties improvement has been observed as the diameter decreased to a certain dimension. Same phenomenon is also observed in the microstructural and hardness case. Wear test results also followed the similarity with that of mechanical properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Research on microstructure and properties of Cu-0.41%Cr-0.20%Zr alloy after solution-aging treatment",
+      "authors": [
+        "Mei Zhao",
+        "Ling Wang",
+        "Meng Li",
+        "Yufei Cao"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Mei Zhao",
+          "orcid": "0000-0002-8564-2330",
+          "affiliations": [
+            "Yingkou Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ling Wang",
+          "orcid": null,
+          "affiliations": [
+            "Yingkou Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Meng Li",
+          "orcid": "0000-0002-8348-6768",
+          "affiliations": [
+            "Yingkou Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yufei Cao",
+          "orcid": "0000-0002-4742-4009",
+          "affiliations": [
+            "Yingkou Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Vibroengineering PROCEDIA",
+      "doi": "10.21595/vp.2023.23196",
+      "type": "article",
+      "url": "https://doi.org/10.21595/vp.2023.23196",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://www.extrica.com/article/23196/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The phase analysis of Cu-0.41%Cr-0.20%Zr alloy treated by vacuum melting + solid solution + aging was carried out by means of SEM, TEM, EDXS and XRD. The results show that there are three phases in the alloy, namely the copper matrix phase, the chrome-rich phase and the zirconium-rich phase. The distribution of phase size is bimodal. The coarse phase size is microns scale, and the main components are elemental chromium and Cu 5 Zr, which are formed during the casting process and are not easy to dissolve in the subsequent aging process. The fine phase size is nanometer scale, and the composition is ordered bcc pure chromium and Cu 5 Zr. There is no chromium and zirconium intermediate phase. Under this condition, the volume fraction of precipitated phase is about 30 %. The heat treatment process can be further optimized by increasing the aging temperature, lengthening the aging time or adopting the second aging method.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Phase prediction, microstructure, and mechanical properties of spark plasma sintered Ni–Al–Ti–Mn–Co–Fe–Cr high entropy alloys",
+      "authors": [
+        "Emmanuel Olorundaisi",
+        "Bukola Joseph Babalola",
+        "Moipone Linda Teffo",
+        "Ufoma Silas Anamu",
+        "Peter Apata Olubambi",
+        "J. Fayomi",
+        "Anthony Olakunle Ogunmefun"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Emmanuel Olorundaisi",
+          "orcid": "0000-0002-6842-6134",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bukola Joseph Babalola",
+          "orcid": "0000-0002-5429-0950",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Moipone Linda Teffo",
+          "orcid": "0000-0003-0347-7034",
+          "affiliations": [
+            "Tshwane University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ufoma Silas Anamu",
+          "orcid": "0000-0001-8795-4904",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Apata Olubambi",
+          "orcid": "0000-0002-2013-1724",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J. Fayomi",
+          "orcid": "0000-0001-5915-5400",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anthony Olakunle Ogunmefun",
+          "orcid": "0000-0001-8999-2365",
+          "affiliations": [
+            "University of Johannesburg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Discover Nano",
+      "doi": "10.1186/s11671-023-03889-3",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s11671-023-03889-3",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://link.springer.com/content/pdf/10.1186/s11671-023-03889-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The effect of mechanical alloying on the development of Ni–Al–Ti–Mn–Co–Fe–Cr high entropy alloys (HEAs) utilizing the spark plasma sintering (SPS) method is the main goal of this study. A bulk sample was fabricated using SPS after the alloys were mixed for 12 h. Thermodynamic simulation, X-ray diffraction, scanning electron microscopy, nanoindentation, and microhardness were used to investigate the microstructure and mechanical properties of the as-mixed powders. The master alloy was made of NiAl and was subsequently alloyed with Ti, Mn, Co, Fe, and Cr at different compositions to develop HEAs at a sintering temperature of 850 °C, a heating rate of 100 °C/min, a pressure of 50 MPa, and a dwelling time of 5 min. A uniform dispersion of the alloying material can be seen in the microstructure of the sintered HEAs with different weight elements. The grain size analysis shows that the Ni25Al25Ti8Mn8Co15Fe14Cr5 alloy exhibited a refined structure with a grain size of 2.36 ± 0.27 µm compared to a coarser grain size of 8.26 ± 0.43 μm attained by the NiAl master alloy. Similarly, the HEAs with the highest alloying content had a greater microstrain value of 0.0449 ± 0.0036, whereas the unalloyed NiAl had 0.00187 ± 0.0005. Maximum microhardness of 139 ± 0.8 HV, nanohardness of 18.8 ± 0.36 GPa, elastic modulus of 207.5 ± 1.65 GPa, elastic recovery (We/Wt) of 0.556 ± 0.035, elastic strain to failure (H/Er) of 0.09.06 ± 0.0027, yield pressure (H3/ $$E_{{\\text{r}}}^{2}$$ E r 2 ) of 0.154 ± 0.0055 GPa, and the least plasticity index (Wp/Wt) of 0.444 ± 0.039 were attained by Ni25Al25Ti8Mn8Co15Fe14Cr5. A steady movement to the left may be seen in the load–displacement curve. Increased resistance to indentation by the developed HEAs was made possible by the increase in alloying metals, which ultimately led to higher nanohardness and elastic modulus.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "The effect of titanium and silicon addition on phase equilibrium and mechanical properties of CoCrFeMnNi-based high entropy alloy",
+      "authors": [
+        "Syuki Yamanaka",
+        "Ken‐ichi Ikeda",
+        "Seiji Miura"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Syuki Yamanaka",
+          "orcid": "0000-0002-1252-9767",
+          "affiliations": [
+            "Hokkaido University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ken‐ichi Ikeda",
+          "orcid": "0000-0003-0845-8457",
+          "affiliations": [
+            "Hokkaido University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seiji Miura",
+          "orcid": "0000-0001-7545-2106",
+          "affiliations": [
+            "Hokkaido University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of materials research/Pratt's guide to venture capital sources",
+      "doi": "10.1557/s43578-021-00251-0",
+      "type": "article",
+      "url": "https://doi.org/10.1557/s43578-021-00251-0",
+      "cited_by_count": 30,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1557/s43578-021-00251-0.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The effects of Ti and Si addition on the phase equilibrium and mechanical properties of the equiatomic CoCrFeMnNi high entropy alloy (Cantor alloy) were investigated. The phase equilibrium at 1000 °C was determined from the result of X-ray diffraction and electron probe micro-analysis. Ti addition stabilizes the $$\\sigma$$ σ phase, A12 phase and C14-Laves phase, while Si addition stabilizes the A13 phase. The phase relationships were represented by projection onto (Co, Fe, Mn, Ni)–Cr–X(Ti or Si) isothermal ternary cross-section at 1000 °C in Co–Cr–Fe–Mn–Ni–X senary system. Tensile tests were conducted on Cantor-based fcc single solid solution alloys with Ti or Si dissolution at room temperature. The 0.2% yield strength and ultimate tensile strength increased with either element addition. The Ti-added alloy showed higher strength than the Si-added alloy. The difference in ductility in the alloys is related to their strain hardening behavior in the higher strain range. Graphic abstract",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Optimizing of micro-hardness of nanostructured Cu–Cr solid solution produced by mechanical alloying using ANN and genetic algorithm",
+      "authors": [
+        "Amine Torabi",
+        "Reza Mirahmadi Babaheydari",
+        "G. H. Akbari",
+        "Seyed Oveis Mirabootalebi"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Amine Torabi",
+          "orcid": null,
+          "affiliations": [
+            "Shahid Bahonar University of Kerman"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Reza Mirahmadi Babaheydari",
+          "orcid": null,
+          "affiliations": [
+            "Shahid Bahonar University of Kerman"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "G. H. Akbari",
+          "orcid": null,
+          "affiliations": [
+            "Shahid Bahonar University of Kerman"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seyed Oveis Mirabootalebi",
+          "orcid": "0000-0001-5793-6238",
+          "affiliations": [
+            "Shahid Bahonar University of Kerman"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "SN Applied Sciences",
+      "doi": "10.1007/s42452-020-03722-x",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s42452-020-03722-x",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://link.springer.com/content/pdf/10.1007/s42452-020-03722-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Prediction of Mechanical Properties by Artificial Neural Networks to Characterize the Plastic Behavior of Aluminum Alloys",
+      "authors": [
+        "David Merayo",
+        "Álvaro Rodríguez-Prieto",
+        "Ana María Camacho"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "David Merayo",
+          "orcid": "0000-0002-2018-3241",
+          "affiliations": [
+            "Universidad Nacional de Educación a Distancia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Álvaro Rodríguez-Prieto",
+          "orcid": "0000-0002-0712-7472",
+          "affiliations": [
+            "Universidad Nacional de Educación a Distancia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ana María Camacho",
+          "orcid": "0000-0002-3898-6480",
+          "affiliations": [
+            "Universidad Nacional de Educación a Distancia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma13225227",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma13225227",
+      "cited_by_count": 70,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/13/22/5227/pdf?version=1605777043",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "In metal forming, the plastic behavior of metallic alloys is directly related to their formability, and it has been traditionally characterized by simplified models of the flow curves, especially in the analysis by finite element simulation and analytical methods. Tools based on artificial neural networks have shown high potential for predicting the behavior and properties of industrial components. Aluminum alloys are among the most broadly used materials in challenging industries such as aerospace, automotive, or food packaging. In this study, a computer-aided tool is developed to predict two of the most useful mechanical properties of metallic materials to characterize the plastic behavior, yield strength and ultimate tensile strength. These prognostics are based on the alloy chemical composition, tempers, and Brinell hardness. In this study, a material database is employed to train an artificial neural network that is able to make predictions with a confidence greater than 95%. It is also shown that this methodology achieves a performance similar to that of empirical equations developed expressly for a specific material, but it provides greater generality since it can approximate the properties of any aluminum alloy. The methodology is based on the usage of artificial neural networks supported by a big data collection about the properties of thousands of commercial materials. Thus, the input data go above 2000 entries. When the relevant information has been collected and organized, an artificial neural network is defined, and after the training, the artificial intelligence is able to make predictions about the material properties with an average confidence greater than 95%.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Multiscale mechanical performance and corrosion behaviour of plasma sprayed AlCoCrFeNi high-entropy alloy coatings",
+      "authors": [
+        "Ashok Meghwal",
+        "Ameey Anupam",
+        "Vladimir Luzin",
+        "Christiane Schulz",
+        "Colin J. Hall",
+        "Budaraju Srinivasa Murty",
+        "Ravi Sankar Kottada",
+        "Christopher C. Berndt",
+        "Andrew Siao Ming Ang"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Ashok Meghwal",
+          "orcid": "0000-0003-1060-6009",
+          "affiliations": [
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ameey Anupam",
+          "orcid": "0000-0003-2998-0949",
+          "affiliations": [
+            "Indian Institute of Technology Madras",
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladimir Luzin",
+          "orcid": "0000-0003-2635-6921",
+          "affiliations": [
+            "Australian Nuclear Science and Technology Organisation",
+            "University of Newcastle Australia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christiane Schulz",
+          "orcid": "0000-0002-3764-9503",
+          "affiliations": [
+            "University of South Australia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Colin J. Hall",
+          "orcid": "0000-0002-8908-3062",
+          "affiliations": [
+            "University of South Australia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Budaraju Srinivasa Murty",
+          "orcid": "0000-0002-4399-8531",
+          "affiliations": [
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Technology Hyderabad"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ravi Sankar Kottada",
+          "orcid": "0000-0002-0878-4861",
+          "affiliations": [
+            "Indian Institute of Technology Madras"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher C. Berndt",
+          "orcid": "0000-0002-7581-1639",
+          "affiliations": [
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Siao Ming Ang",
+          "orcid": "0000-0001-7664-9971",
+          "affiliations": [
+            "Swinburne University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Alloys and Compounds",
+      "doi": "10.1016/j.jallcom.2020.157140",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jallcom.2020.157140",
+      "cited_by_count": 212,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925838820335040/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The combination of technical advantages of high entropy alloys (HEAs) and manufacturing capabilities of thermal spray (TS) offer potential towards new protective coatings to address extreme engineering environments. In this research, equi-atomic AlCoCrFeNi HEA coatings were synthesized via atmospheric plasma spray (APS) using mechanically alloyed feedstock, and a correlation between microstructure and mechanical properties in terms of both hardness and wear were established at multiscale levels. In addition, electrochemical performance in sea water and the overall residual stress distribution in the HEA coatings were also assessed. Superimposition of scanning electron micrographs and statistically analysed heat and contour maps using nanoindentation datasets revealed deviations in localized properties within and across individual phases; which were supported by Weibull plots of individual phases. Scanning wear tests revealed superior nanowear resistance of oxide phases developed by in-flight oxidation during APS process. In comparison, the HEA phases in the coating exhibited significant localized plastic deformation. The outcome of macroscale wear testing postulated that plasma sprayed AlCoCrFeNi HEA coatings exhibited superior wear resistance at high temperature (500 °C) than at room temperature, signifying high thermal stability of the coating. Residual stress generated due to plasma spray was measured using neutron diffraction and was tensile in nature. The corrosion resistance of the coating was slightly lower than that of SS316L, however, the anodic and cathodic polarization behaviour of HEA coating were identical to that of SS316L, indicating that the AlCoCrFeNi-based HEAs have prospects as corrosion resistant materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Machine learning-assisted discovery of strong and conductive Cu alloys: Data mining from discarded experiments and physical features",
+      "authors": [
+        "Qingkun Zhao",
+        "Huiya Yang",
+        "Jiabin Liu",
+        "Haofei Zhou",
+        "Hongtao Wang",
+        "Wei Tian Yang"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Qingkun Zhao",
+          "orcid": "0000-0002-3510-4825",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huiya Yang",
+          "orcid": "0000-0001-6845-1885",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiabin Liu",
+          "orcid": "0000-0002-6974-9680",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haofei Zhou",
+          "orcid": "0000-0001-9226-9530",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongtao Wang",
+          "orcid": "0000-0002-3690-3290",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Tian Yang",
+          "orcid": "0000-0002-1440-2321",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials & Design",
+      "doi": "10.1016/j.matdes.2020.109248",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matdes.2020.109248",
+      "cited_by_count": 86,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0264127520307838/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Copper alloys with high strength and electrical conductivity are ideal candidates for a wide range of civilian and engineering applications. Traditional methods of alloy design, such as “trial and error” experiments, are costly and time-consuming, limiting the discovery of Cu alloys. Machine learning (ML)-based technology facilitates a better understanding on inter-relationships within massive experimental datasets, and shortens the development cycle of new alloy systems. Herein, we propose a method of material design based on ML to discover high-performance Cu alloys. The ML models are trained from “discarded” experimental data that show undesirable hardness and/or electrical conductivity. We constructed effective Gaussian process regression-based models successfully from limited training data by engaging additional features. The predicted Cu alloys were experimentally synthesized and characterized, exhibiting superior hardness or electrical conductivity with respect to original training data. The increase of hardness is due to precipitation of second-phase Co-Ti and Fe-Ti compounds during aging, while the rise of electrical conductivity is caused by a purification effect of the precipitates on Cu matrix. The impact of physical features on ML models was further evaluated by a genetic algorithm. Our findings suggest that ML holds great potential for developing high-performance Cu alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Microstructure, Thermal, and Mechanical Properties Relationships in U and UZr Alloys (Final Report)",
+      "authors": [
+        "Purdue Univ., West Lafayette, IN (United States)",
+        "Maria A. Okuniewski",
+        "USDOE Office of Nuclear Energy (NE)",
+        "North Carolina State Univ., Raleigh, NC (United States)",
+        "Univ. of Wisconsin, Madison, WI (United States)",
+        "Vikas Tomar",
+        "Xian-Ming Bai",
+        "Chaitanya Suresh Deo",
+        "Benjamin W. Beeler",
+        "Yongfeng Zhang"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Purdue Univ., West Lafayette, IN (United States)",
+          "orcid": null,
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria A. Okuniewski",
+          "orcid": "0000-0003-3498-6827",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "USDOE Office of Nuclear Energy (NE)",
+          "orcid": null,
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "North Carolina State Univ., Raleigh, NC (United States)",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Univ. of Wisconsin, Madison, WI (United States)",
+          "orcid": null,
+          "affiliations": [
+            "North Carolina State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vikas Tomar",
+          "orcid": "0000-0002-2925-7681",
+          "affiliations": [
+            "University of Wisconsin–Madison",
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xian-Ming Bai",
+          "orcid": "0000-0002-4609-6576",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaitanya Suresh Deo",
+          "orcid": "0000-0001-6922-5740",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin W. Beeler",
+          "orcid": "0000-0003-1964-1177",
+          "affiliations": [
+            "North Carolina State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongfeng Zhang",
+          "orcid": "0000-0003-2730-3549",
+          "affiliations": [
+            "University of Wisconsin–Madison"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.2172/1632268",
+      "type": "report",
+      "url": "https://doi.org/10.2172/1632268",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.osti.gov/servlets/purl/1632268",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Uranium-zirconium (U-Zr) alloys are candidate fuel systems for transmutation based reactors that can be used to burn long-lived minor actinides and fission products in fast spectrum reactors. Metallic fuels have also been gaining more recent attention for applications as accident tolerant fuels, as well as for use in small modular reactors. This research focused on a “science-based” approach to capture the connections between U and U-Zr alloys’ three-dimensional (3-D) microstructure, thermal properties, and mechanical properties through closely coordinated experiments and modeling efforts from the unirradiated to the irradiated fuels. Advanced characterization and modeling techniques were used to understand irradiation-induced microstructural evolution and its direct impact on the thermal and mechanical properties of U and U-Zr fuel. Closely coordinated experiments and modeling were performed to provide crucial data that does not currently exist. Overall, this research spanned multiple length and time scales within the models and experiments. The scope of the research encompassed the understanding of the irradiation effects in U and various U-Zr alloys with particular attention paid to three task areas: (1) microstructural evolution, (2) in-situ/ex-situ thermal and mechanical properties, and (3) multiscale modeling connections to microstructure, thermal, and mechanical properties. This research resulted in (1) the 3-D characterization of neutron irradiated U-Zr fuel in multiple phase regions to better understand fission gas swelling and constituent redistribution, (2) development of a microstructural model linking thermal and mechanical properties via in situ Raman and nanoindentation, (3) and mesoscale phase field modeling was coupled with the AEH method in the MOOSE framework was used to calculate the effective thermal conductivities of U-Zr fuels consisting of α-U and δ-UZr2 heterogeneous microstructures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Short-range ordering in a commercial Ni-Cr-Al-Fe precision resistance alloy",
+      "authors": [
+        "Yong Wang",
+        "Dingcheng Jiang",
+        "Wenxin Yu",
+        "Shudong Huang",
+        "Wu Da",
+        "Yonghong Xu",
+        "Xianjun Yang"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Yong Wang",
+          "orcid": "0000-0003-4177-5462",
+          "affiliations": [
+            "Chongqing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dingcheng Jiang",
+          "orcid": "0000-0002-7234-9936",
+          "affiliations": [
+            "Chongqing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenxin Yu",
+          "orcid": "0009-0003-5568-3144",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shudong Huang",
+          "orcid": null,
+          "affiliations": [
+            "Chongqing University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wu Da",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yonghong Xu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xianjun Yang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials & Design",
+      "doi": "10.1016/j.matdes.2019.107981",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matdes.2019.107981",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0264127519304198/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Short-range order has been thought to be the primary reason of the abnormal increase of electrical resistivity after aging treatment in the Ni-20Cr based precision resistance alloys. However, there is no report on the microstructures of this alloy, to say nothing of the lattice type of the short-range order. In this work, the microstructure of a commercial Ni-20Cr-3.2Al-2.5Fe precision resistance alloy was investigated using X-ray diffraction, transmission electron microscopy and atom probe tomography techniques. A random solid solution was initially formed after quenching treatment. Short-range order with the L12-type structure, which was formed due to aging treatment, resulted in a decrease in lattice parameter and an increase in electrical resistivity. The short-range order microdomains distributed in a random matrix coherently with the same composition.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Effects of Porosity on Mechanical Properties and Corrosion Resistances of PM-Fabricated Porous Ti-10Mo Alloy",
+      "authors": [
+        "Wei Xu",
+        "Xin Chun Lu",
+        "Bing Zhang",
+        "Chengcheng Liu",
+        "Shaomin Lv",
+        "Shidi Yang",
+        "Xuanhui Qu"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Wei Xu",
+          "orcid": "0000-0002-7048-7972",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xin Chun Lu",
+          "orcid": "0000-0002-5424-0240",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bing Zhang",
+          "orcid": "0000-0002-3953-0290",
+          "affiliations": [
+            "Beijing Institute of Aeronautical Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chengcheng Liu",
+          "orcid": "0000-0001-6995-6439",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shaomin Lv",
+          "orcid": null,
+          "affiliations": [
+            "Beijing Institute of Aeronautical Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shidi Yang",
+          "orcid": "0009-0005-5510-3108",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuanhui Qu",
+          "orcid": "0000-0002-2943-3008",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met8030188",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met8030188",
+      "cited_by_count": 81,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/8/3/188/pdf?version=1525343093",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Porous binary Ti-10Mo alloys were prepared using non-spherical titanium, molybdenum powders by the powder metallurgy (PM) space holder technique. Based on the three-dimensional analysis of porosity characteristics, a detailed assessment of the effects of porosity on mechanical properties and corrosion resistances in phosphate-buffered saline (PBS) was carried out. For comparison, PM-fabricated CP-Ti with 50.5% porosity sintered at 1200 °C for 2 h and dense Ti-10Mo alloy sintered at 1450 °C for 2 h (relative density is 97.2% and porosity is 2.8%) were studied simultaneously. The results show that with the space-holder volume contents rising from 63 to 79%, the open porosity and average pore size (d50) increase remarkably, while the pore size distribution (d10–d90) tends to be stable at about 100 μm. The average pore sizes (d50) of porous Ti-10Mo alloy can be controlled in the range of 70–380 μm. The PM-fabricated porous Ti-10Mo alloy can achieve a wide range of mechanical properties, with yield compression strength of 248.2–76.9 MPa, and elastic modulus of 6.4–1.7 GPa. In addition, the yield compression strength and the elastic modulus meet the linear regression and exponential formula, respectively. With the porosity of Ti-10Mo alloy increasing from 2.8 to 66.9%, the corrosion rate rises exponentially from 1.6 g/m2·day to 17.1 g/m2·day. In comparison to CP Ti with nearly the same porosity, Ti-10Mo alloy shows significantly higher corrosion resistance. As a result, the relationships between porosity and mechanical properties, corrosion resistances of Ti-10Mo alloys were established, which can be used as a design reference in material selection for orthopedic applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "An investigation of the mechanical and microstructural evolution of a TiNbZr alloy with varied ageing time",
+      "authors": [
+        "Arne Biesiekierski",
+        "Jixing Lin",
+        "Khurram S. Munir",
+        "Sertan Ozan",
+        "Yuncang Li",
+        "Cuié Wen"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Arne Biesiekierski",
+          "orcid": "0000-0003-2124-2490",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jixing Lin",
+          "orcid": "0000-0003-0453-132X",
+          "affiliations": [
+            "Zhejiang Industry & Trade Vocational College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Khurram S. Munir",
+          "orcid": "0000-0003-4224-4823",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sertan Ozan",
+          "orcid": "0000-0003-1932-8308",
+          "affiliations": [
+            "Yozgat Bozok Üniversitesi",
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuncang Li",
+          "orcid": "0000-0003-4290-4772",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cuié Wen",
+          "orcid": "0000-0001-8008-3536",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-018-24155-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-018-24155-y",
+      "cited_by_count": 54,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-018-24155-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Alloys comprised of the highly biocompatible elements titanium, niobium and zirconium have been a major focus in recent years in the field of metallic biomaterials. To contribute to the corpus of data in this field, the current paper presents results from a thorough microstructural and mechanical investigation of Ti-32Nb-6Zr subjected to a variety of ageing treatments. The presented alloy was stabilized to the higher temperature, body-centred cubic phase, showing only minimal precipitation on prolonged ageing, despite the presence of nanoscaled spinodal segregation arising from the Nb-Zr interaction. It further showed excellent mechanical properties, with tensile yield stresses as high as 820 MPa and Young's moduli as low as 53 GPa. This leads to the ratio of strength to modulus, also known as the admissible strain, reaching a maximum of 1.3% after 6 hours ageing. These results are further supported by similar measurements from nanoindentation analysis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "A critical review of high entropy alloys and related concepts",
+      "authors": [
+        "Daniel B. Miracle",
+        "Oleg N. Senkov"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Daniel B. Miracle",
+          "orcid": "0000-0002-7473-0351",
+          "affiliations": [
+            "United States Air Force Research Laboratory",
+            "Wright-Patterson Air Force Base",
+            "U.S. Air Force Research Laboratory Materials and Manufacturing Directorate"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oleg N. Senkov",
+          "orcid": "0000-0001-5587-415X",
+          "affiliations": [
+            "United States Air Force Research Laboratory",
+            "Wright-Patterson Air Force Base",
+            "UES (United States)",
+            "U.S. Air Force Research Laboratory Materials and Manufacturing Directorate"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2016.08.081",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2016.08.081",
+      "cited_by_count": 9067,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1359645416306759/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "High entropy alloys (HEAs) are barely 12 years old. The field has stimulated new ideas and has inspired the exploration of the vast composition space offered by multi-principal element alloys (MPEAs). Here we present a critical review of this field, with the intent of summarizing key findings, uncovering major trends and providing guidance for future efforts. Major themes in this assessment include definition of terms; thermodynamic analysis of complex, concentrated alloys (CCAs); taxonomy of current alloy families; microstructures; mechanical properties; potential applications; and future efforts. Based on detailed analyses, the following major results emerge. Although classical thermodynamic concepts are unchanged, trends in MPEAs can be different than in simpler alloys. Common thermodynamic perceptions can be misleading and new trends are described. From a strong focus on 3d transition metal alloys, there are now seven distinct CCA families. A new theme of designing alloy families by selecting elements to achieve a specific, intended purpose is starting to emerge. A comprehensive microstructural assessment is performed using three datasets: experimental data drawn from 408 different alloys and two computational datasets generated using the CALculated PHAse Diagram (CALPHAD) method. Each dataset emphasizes different elements and shows different microstructural trends. Trends in these three datasets are all predicted by a ‘structure in – structure out’ (SISO) analysis developed here that uses the weighted fractions of the constituent element crystal structures in each dataset. A total of 13 distinct multi-principal element single-phase fields are found in this microstructural assessment. Relationships between composition, microstructure and properties are established for 3d transition metal MPEAs, including the roles of Al, Cr and Cu. Critical evaluation shows that commercial austenitic stainless steels and nickel alloys with 3 or more principal elements are MPEAs, as well as some established functional materials. Mechanical properties of 3d transition metal CCAs are equivalent to commercial austenitic stainless steels and nickel alloys, while some refractory metal CCAs show potential to extend the service strength and/or temperature of nickel superalloys. Detailed analyses of microstructures and properties allow two major HEA hypotheses to be resolved. Although the ‘entropy effect’ is not supported by the present data, it has nevertheless made an enduring contribution by inspiring a clearer understanding of the importance of configurational entropy on phase stability. The ‘sluggish diffusion’ hypothesis is also not supported by available data, but it motivates re-evaluation of a classical concept of metallic diffusion. Building on recent published work, the CCA field has expanded to include materials with metallic, ionic or covalent bonding. It also includes microstructures with any number of phases and any type of phases. Finally, the MPEA field is shown to include both structural and functional materials applications. A significant number of future efforts are recommended, with an emphasis on developing high-throughput experiments and computations for structural materials. The review concludes with a brief description of major accomplishments of the field and insights gained from the first 12 years of research. The field has lost none of its potency and continues to pose new questions and offer new possibilities. The vast range of complex compositions and microstructures remains the most compelling motivation for future studies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Overview of aluminum alloy mechanical properties during and after fires",
+      "authors": [
+        "Patrick T. Summers",
+        "Yanyun Chen",
+        "Christian M. Rippe",
+        "Ben Allen",
+        "Adrian P. Mouritz",
+        "Scott W. Case",
+        "Brian Y. Lattimer"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Patrick T. Summers",
+          "orcid": null,
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yanyun Chen",
+          "orcid": null,
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian M. Rippe",
+          "orcid": null,
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ben Allen",
+          "orcid": null,
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adrian P. Mouritz",
+          "orcid": "0000-0003-2880-7909",
+          "affiliations": [
+            "RMIT University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Scott W. Case",
+          "orcid": "0000-0002-4802-1228",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brian Y. Lattimer",
+          "orcid": "0000-0002-4743-6122",
+          "affiliations": [
+            "Virginia Tech"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Fire Science Reviews",
+      "doi": "10.1186/s40038-015-0007-5",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s40038-015-0007-5",
+      "cited_by_count": 196,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://firesciencereviews.springeropen.com/counter/pdf/10.1186/s40038-015-0007-5",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Aluminum alloys are increasingly being used in a broad spectrum of load-bearing applications such as lightweight structures, light rail, bridge decks, marine crafts, and off-shore platforms. A major concern in the design of land-based and marine aluminum structures is fire safety, at least in part due to mechanical property reduction at temperatures significantly lower than that for steel. A substantial concern also exists regarding the integrity and stability of an aluminum structure following a fire; however, little research has been reported on this topic. This paper provides a broad overview of the mechanical behavior of aluminum alloys both during and following fire. The two aluminum alloys discussed in this work, 5083-H116 and 6061-T651, were selected due to their prevalence as lightweight structural alloys and their differing strengthening mechanisms (5083 – strain hardened, 6061 – precipitation hardened). The high temperature quasi-static mechanical and creep behavior are discussed. A creep model is presented to predict the secondary and tertiary creep strains followed by creep rupture. The residual mechanical behavior following fire (with and without applied stress) is elucidated in terms of the governing kinetically-dependent microstructural mechanisms. A review is provided on modeling techniques for residual mechanical behavior following fire including empirical relations, physically-based constitutive models, and finite element implementations. The principal objective is to provide a comprehensive description of select aluminum alloys, 5083-H116 and 6061-T651, to aid design and analysis of aluminum structures during and after fire.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Data Pre-Processing/Model Initialisation in Neurofuzzy Modelling of Structure-Property Relationships in Al-Zn-Mg-Cu Alloys.",
+      "authors": [
+        "O.P. Femminella",
+        "Marco Jan Starink",
+        "Martin Brown",
+        "Ian Sinclair",
+        "Chris J. Harris",
+        "Philippa A. S. Reed"
+      ],
+      "year": 1999,
+      "author_details": [
+        {
+          "name": "O.P. Femminella",
+          "orcid": null,
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marco Jan Starink",
+          "orcid": "0000-0002-0565-8413",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Brown",
+          "orcid": "0009-0009-7118-3661",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ian Sinclair",
+          "orcid": "0000-0003-2052-4234",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris J. Harris",
+          "orcid": "0000-0002-8504-9043",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Philippa A. S. Reed",
+          "orcid": "0000-0002-2258-0347",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ISIJ International",
+      "doi": "10.2355/isijinternational.39.1027",
+      "type": "article",
+      "url": "https://doi.org/10.2355/isijinternational.39.1027",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.jstage.jst.go.jp/article/isijinternational1989/39/10/39_10_1027/_pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The paper deals with the application of multiple linear regression and neurofuzzy modelling approaches to 7xxx series based aluminium alloys. 36 compositional and ageing time variants and subsequent proof strength and electrical conductivity measurements have been studied. The input datasets have been transformed in two ways: to reveal more explicit microstructural information and to reflect some empirical findings in the literature. Neurofuzzy modelling exhibited improved performance in modelling proof strength and electrical conductivity cf. the multiple linear regression approach. Electrical conductivity is best modelled using the explicit microstructural input dataset, whilst proof strength is best modelled by a further modification of this dataset, decided upon after inspection of the subnetwork structures produced by neurofuzzy modelling. Neurofuzzy modelling offers a transparent empirically based data-driven approach that can be combined with pre-processing of the data and initialising of the model structure based upon physical understanding. An iterative modelling approach is defined whereby data-driven empirical modelling approaches are first used to assess underlying data structures and are validated against physically based understanding, these then inform subsequent initialised neurofuzzy models and input data transformations to provide both optimal subset and feature representation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 40,
+      "known": 50,
+      "pct": 80,
+      "text": "文献类型：journal-article = 40/50（80%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

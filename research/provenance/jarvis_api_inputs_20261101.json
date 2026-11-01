@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-01",
+  "receipts": [
+    {
+      "name": "jarvis_home",
+      "url": "https://jarvis.nist.gov/",
+      "final_url": "https://jarvis.nist.gov/",
+      "status": 200,
+      "bytes": 39125,
+      "sha256": "5c553b1b3e518253d8fbedf926c586a4cf79d606d0692abfac2ee414605decb7"
+    },
+    {
+      "name": "jarvis_databases",
+      "url": "https://pages.nist.gov/jarvis/databases/",
+      "final_url": "https://pages.nist.gov/jarvis/databases/",
+      "status": 200,
+      "bytes": 30703,
+      "sha256": "3d211f5315adb2a2b67d3d3730c43c04fbd47c45d912bc3a10261bd5157bcb76"
+    },
+    {
+      "name": "jarvis_figshare_py",
+      "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/figshare.py",
+      "status": 200,
+      "bytes": 30306,
+      "sha256": "44aaf6829164e6b4575ddc78d9b2eb50c491de5e7ab8a6232683d4659b46c50b"
+    },
+    {
+      "name": "jarvis_restapi_py",
+      "url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/restapi.py",
+      "final_url": "https://raw.githubusercontent.com/usnistgov/jarvis/master/jarvis/db/restapi.py",
+      "status": 200,
+      "bytes": 17359,
+      "sha256": "00b2eb81275023d3a72472114ff02d4fd5992142d00f66e02dc38d81e6a988c1"
+    },
+    {
+      "name": "optimade_providers",
+      "url": "https://providers.optimade.org/v1/links",
+      "final_url": "https://providers.optimade.org/v1/links",
+      "status": 200,
+      "bytes": 13680,
+      "sha256": "60afab5ecfde397c17e61856f934b74e62d17b5de24b658ee10d8ecc43d0244e"
+    },
+    {
+      "name": "jarvis_revision",
+      "url": "https://api.github.com/repos/usnistgov/jarvis/commits/master",
+      "final_url": "https://api.github.com/repos/usnistgov/jarvis/commits/master",
+      "status": 200,
+      "bytes": 5195,
+      "sha256": "fe8163bf1edee9ead13ab250964de7c9ac44602782afe9a7161d420f183f5ced"
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+[
+  {
+    "id": "jarvis-optimade",
+    "name": "JARVIS-DFT · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://jarvis.nist.gov/optimade/jarvisdft",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "jarvis-dft-3d",
+      "jarvis-2d"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/jarvis/v1/links",
+        "title": "Provider index: JARVIS-DFT",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "The small unauthenticated request returned JSON with zero entries; successful structure retrieval was not established. Web portal registration is a separate route.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "empty_response",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://jarvis.nist.gov/optimade/jarvisdft/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 0 records"
+    }
+  },
+  {
+    "id": "mp-optimade",
+    "name": "Materials Project · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://optimade.materialsproject.org",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "materials-project"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/mp/v1/links",
+        "title": "Provider index: Materials Project",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "The OPTIMADE sample worked without credentials; the separate native Materials Project API requires an API key.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://optimade.materialsproject.org/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "oqmd-optimade",
+    "name": "OQMD · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://oqmd.org/optimade",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "oqmd"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/oqmd/v1/links",
+        "title": "Provider index: OQMD",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://oqmd.org/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "aflow-optimade",
+    "name": "AFLOW · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://aflow.org/API/optimade",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "aflow"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/aflow/v1/links",
+        "title": "Provider index: AFLOW",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "AFLOW data terms restrict use to scientific, academic and non-commercial purposes.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://aflow.org/API/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "cod-optimade",
+    "name": "Crystallography Open Database · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://www.crystallography.net/cod/optimade",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "cod"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/cod/v1/links",
+        "title": "Provider index: Crystallography Open Database",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "The audit request timed out; retain the documented route with availability unconfirmed.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "unavailable",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://www.crystallography.net/cod/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": null,
+      "note": "request_failed"
+    }
+  },
+  {
+    "id": "alexandria-optimade",
+    "name": "Alexandria PBE · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://alexandria.icams.rub.de/pbe",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "alexandria"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/alexandria/v1/links",
+        "title": "Provider index: Alexandria PBE",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "PBEsol is another child endpoint in the provider index; do not combine its structures with PBE without checking functional lineage.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://alexandria.icams.rub.de/pbe/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "mcloud-optimade",
+    "name": "Materials Cloud MC3D PBE · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://optimade.materialscloud.org/main/mc3d-pbe-v1",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "mc3d"
+    ],
+    "sources": [
+      {
+        "url": "https://www.materialscloud.org/optimade/main/v1/links",
+        "title": "Provider index: Materials Cloud MC3D PBE",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "This is one child dataset; Materials Cloud exposes other child endpoints through its index.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://optimade.materialscloud.org/main/mc3d-pbe-v1/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "cmr-optimade",
+    "name": "DTU Computational Materials Repository · OPTIMADE",
+    "kind": "optimade",
+    "entrypoint": "https://cmr-optimade.fysik.dtu.dk",
+    "auth": "none",
+    "auth_notes": "Public route advertised by the provider registry; current availability is reported separately.",
+    "description": "Standard structure search and retrieval; provider-specific property fields and coverage vary.",
+    "formats": [
+      "JSON:API-style JSON"
+    ],
+    "catalog_ids": [
+      "c2db"
+    ],
+    "sources": [
+      {
+        "url": "https://providers.optimade.org/index-metadbs/cmr/v1/links",
+        "title": "Provider index: DTU Computational Materials Repository",
+        "evidence": "Lists this child database base URL.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.optimade.org/api-specification",
+        "title": "OPTIMADE specification",
+        "evidence": "Defines common endpoints, structure attributes, filtering and pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "The registered endpoint returned HTTP 404 for the versioned structure request. It is a discovery lead, not verified access to the complete current C2DB.",
+      "A listed endpoint is not a guarantee of uptime or full conformance. API counts may cover a different release or subset than the ranked catalog."
+    ],
+    "verification": {
+      "status": "unavailable",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://cmr-optimade.fysik.dtu.dk/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements",
+      "http_status": 404,
+      "note": "http_error"
+    }
+  },
+  {
+    "id": "mp-native",
+    "name": "Materials Project · native API",
+    "kind": "native_api",
+    "entrypoint": "https://api.materialsproject.org",
+    "auth": "api_key",
+    "auth_notes": "Account and API key required; mp-api can read MP_API_KEY from the environment.",
+    "description": "Query material summaries and specialized property collections with the official MPRester client.",
+    "formats": [
+      "JSON",
+      "pymatgen structures"
+    ],
+    "catalog_ids": [
+      "materials-project"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.materialsproject.org/downloading-data/using-the-api/getting-started",
+        "title": "Materials Project API getting started",
+        "evidence": "Documents the API key, MPRester and material/property endpoints.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Unauthenticated sample returned HTTP 401 as expected; authenticated payload retrieval was not tested. Property collections have different coverage and licensing."
+    ],
+    "verification": {
+      "status": "auth_required",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://api.materialsproject.org/materials/summary/?_limit=1&_fields=material_id",
+      "http_status": 401,
+      "note": "http_error"
+    }
+  },
+  {
+    "id": "oqmd-native",
+    "name": "OQMD · native REST API",
+    "kind": "native_api",
+    "entrypoint": "https://oqmd.org/oqmdapi",
+    "auth": "none",
+    "auth_notes": "Public queries do not require credentials.",
+    "description": "Query formation-energy and related calculated-material entries with filters and pagination.",
+    "formats": [
+      "JSON"
+    ],
+    "catalog_ids": [
+      "oqmd"
+    ],
+    "sources": [
+      {
+        "url": "https://static.oqmd.org/static/docs/restful.html",
+        "title": "OQMD REST API documentation",
+        "evidence": "Documents native filters, responses and OPTIMADE access.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Follow the returned pagination metadata. Formation-energy records are not necessarily unique compositions."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://oqmd.org/oqmdapi/formationenergy?limit=1",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "aflow-aflux",
+    "name": "AFLOW · AFLUX search API",
+    "kind": "native_api",
+    "entrypoint": "https://aflow.org/API/aflux/",
+    "auth": "none",
+    "auth_notes": "Public HTTP query interface.",
+    "description": "Search AFLOW by material properties using AFLUX summons and paging directives.",
+    "formats": [
+      "JSON"
+    ],
+    "catalog_ids": [
+      "aflow"
+    ],
+    "sources": [
+      {
+        "url": "https://aflow.org/documentation/",
+        "title": "AFLOW AFLUX documentation",
+        "evidence": "Documents the search interface, JSON responses and data-use restrictions.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Native AFLUX syntax differs from OPTIMADE. Provider data terms restrict reuse; a public API does not imply an unrestricted data license."
+    ],
+    "verification": {
+      "status": "documented",
+      "checked_date": "2026-11-01",
+      "note": "Official documentation inspected; no end-to-end API or SDK query executed for this route."
+    }
+  },
+  {
+    "id": "nomad-native",
+    "name": "NOMAD · entries and archives API",
+    "kind": "native_api",
+    "entrypoint": "https://nomad-lab.eu/prod/v1/api/v1",
+    "auth": "mixed",
+    "auth_notes": "Published public entries can be read anonymously; private or embargoed data require authorization.",
+    "description": "Search calculation/experimental metadata, processed archives and raw files; query endpoints support read-only POST searches.",
+    "formats": [
+      "JSON",
+      "raw files",
+      "ZIP"
+    ],
+    "catalog_ids": [],
+    "sources": [
+      {
+        "url": "https://docs.nomad-lab.eu/2.0/howto/manage/program/api.html",
+        "title": "NOMAD programmatic API guide",
+        "evidence": "Documents entry queries and structured results; base URLs depend on the installation/version.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://docs.nomad-lab.eu/2.0/howto/manage/program/download.html",
+        "title": "NOMAD download guide",
+        "evidence": "Documents raw and processed archive downloads by query.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "The sampled production route responded, but newer documentation also shows /backend/api/v1. Read the target installation API docs rather than substituting versions blindly. Entries and calculations are not a deduplicated material count."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1",
+      "http_status": 200,
+      "note": "json_response; returned 1 records"
+    }
+  },
+  {
+    "id": "mpds-native",
+    "name": "MPDS / PAULING FILE · native API",
+    "kind": "native_api",
+    "entrypoint": "https://api.mpds.io",
+    "auth": "api_key",
+    "auth_notes": "API key and subscription/SLA for the full curated database; some data classes are freely available.",
+    "description": "Retrieve experimental structures, physical properties and phase-diagram entries in machine-readable formats.",
+    "formats": [
+      "JSON",
+      "CIF"
+    ],
+    "catalog_ids": [
+      "mpds-pauling-file"
+    ],
+    "sources": [
+      {
+        "url": "https://developer.mpds.io/",
+        "title": "MPDS API documentation",
+        "evidence": "Documents the API key/subscription, open subsets and S/P/C entry types.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "No authenticated query executed. Experimental structures, physical-property and phase-diagram records have different denominators."
+    ],
+    "verification": {
+      "status": "documented",
+      "checked_date": "2026-11-01",
+      "note": "Official documentation inspected; no end-to-end API or SDK query executed for this route."
+    }
+  },
+  {
+    "id": "jarvis-sdk",
+    "name": "JARVIS · Figshare bulk SDK",
+    "kind": "bulk_sdk",
+    "entrypoint": "https://pages.nist.gov/jarvis/databases/",
+    "auth": "none",
+    "auth_notes": "Public named files do not require a JARVIS web account.",
+    "description": "Use jarvis.db.figshare.data(name) for named bulk releases; dedicated helpers retrieve STM and Wannier payloads.",
+    "formats": [
+      "JSON",
+      "ZIP",
+      "JARVIS Atoms"
+    ],
+    "catalog_ids": [
+      "jarvis-dft-3d",
+      "jarvis-2d",
+      "jarvis-qetb",
+      "jarvis-ff",
+      "jarvis-interfacedb",
+      "jarvis-vacancydb",
+      "jarvis-surfacedb",
+      "jarvis-wtbh-electron",
+      "jarvis-wtbh-phonon"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py",
+        "title": "Pinned JARVIS download registry",
+        "evidence": "Defines 66 named downloads plus special helpers.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://pages.nist.gov/jarvis/databases/",
+        "title": "JARVIS database documentation",
+        "evidence": "Lists 65 named table entries and the public bulk-loader usage.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Bulk SDK, not a remote property-query API: data(name) can download and load the entire archive. Documentation, registry progress messages and newer deposit files can describe different releases."
+    ],
+    "verification": {
+      "status": "documented",
+      "checked_date": "2026-11-01",
+      "note": "Official documentation inspected; no end-to-end API or SDK query executed for this route."
+    }
+  },
+  {
+    "id": "mdf-sdk",
+    "name": "Materials Data Facility / Foundry · discovery SDK",
+    "kind": "bulk_sdk",
+    "entrypoint": "https://www.materialsdatafacility.org/",
+    "auth": "account",
+    "auth_notes": "Globus/Foundry account or authorization may be required depending on discovery, transfer and dataset access.",
+    "description": "Discover deposited datasets and use Foundry to load structured ML datasets by DOI.",
+    "formats": [
+      "metadata JSON",
+      "dataset-dependent arrays/files"
+    ],
+    "catalog_ids": [],
+    "sources": [
+      {
+        "url": "https://www.materialsdatafacility.org/",
+        "title": "MDF provider guide",
+        "evidence": "Describes discovery, Globus transfer and Foundry loading by DOI.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/MLMI2-CSSI/foundry",
+        "title": "Foundry official client",
+        "evidence": "Provides a dataset discovery and access SDK.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Repository/SDK coverage spans many materials domains. A DOI lookup does not ensure all files are anonymously downloadable or expose crystal coordinates."
+    ],
+    "verification": {
+      "status": "documented",
+      "checked_date": "2026-11-01",
+      "note": "Official documentation inspected; no end-to-end API or SDK query executed for this route."
+    }
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face · materials dataset Hub / SDK",
+    "kind": "bulk_sdk",
+    "entrypoint": "https://huggingface.co/api/datasets",
+    "auth": "mixed",
+    "auth_notes": "Public repository metadata can be anonymous; gated/private files require the appropriate account/token and agreement.",
+    "description": "Load or stream dataset files with datasets and huggingface_hub; includes LeMat and MateriaViva releases.",
+    "formats": [
+      "JSON metadata",
+      "Parquet",
+      "JSON",
+      "dataset-dependent files"
+    ],
+    "catalog_ids": [
+      "lemat-bulk",
+      "lemat-traj",
+      "materiaviva-open"
+    ],
+    "sources": [
+      {
+        "url": "https://huggingface.co/docs/datasets/loading",
+        "title": "Hugging Face dataset loading",
+        "evidence": "Documents loading from the Hub and pinning a revision.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva-Open dataset card",
+        "evidence": "Dataset-specific schema and access evidence.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Only the public MateriaViva repository metadata was probed here. Loadable files, streaming support and licenses must be checked per dataset; pin the repository commit."
+    ],
+    "verification": {
+      "status": "metadata_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://huggingface.co/api/datasets/AI4QC/MateriaViva-Open",
+      "http_status": 200,
+      "note": "json_response"
+    }
+  },
+  {
+    "id": "figshare",
+    "name": "Figshare · deposits and file metadata API",
+    "kind": "native_api",
+    "entrypoint": "https://api.figshare.com/v2",
+    "auth": "mixed",
+    "auth_notes": "Public deposit metadata is anonymous; private account endpoints need authentication.",
+    "description": "Resolve deposit versions, license fields, file sizes, checksums and download links for JARVIS and other releases.",
+    "formats": [
+      "JSON metadata",
+      "deposited files"
+    ],
+    "catalog_ids": [],
+    "sources": [
+      {
+        "url": "https://docs.figshare.com/v2/",
+        "title": "Figshare API v2",
+        "evidence": "Documents public deposit and authenticated account APIs.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "A deposit is a container, not a crystal structure database. Files use author-defined schemas; version selection and payload parsing are separate steps."
+    ],
+    "verification": {
+      "status": "metadata_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://api.figshare.com/v2/articles/25832614",
+      "http_status": 200,
+      "note": "json_response"
+    }
+  },
+  {
+    "id": "zenodo",
+    "name": "Zenodo · records and files REST API",
+    "kind": "native_api",
+    "entrypoint": "https://zenodo.org/api",
+    "auth": "mixed",
+    "auth_notes": "Public records and open files can be anonymous; restricted files require permission.",
+    "description": "Retrieve versioned record metadata and download/checksum manifests for published materials datasets.",
+    "formats": [
+      "JSON metadata",
+      "deposited files"
+    ],
+    "catalog_ids": [
+      "work-function-cleavage-surfaces"
+    ],
+    "sources": [
+      {
+        "url": "https://developers.zenodo.org/",
+        "title": "Zenodo developer documentation",
+        "evidence": "Documents records, file metadata, access and API pagination.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Record metadata is not a uniform crystal-property schema. Pin the record version and apply its dataset license."
+    ],
+    "verification": {
+      "status": "metadata_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://zenodo.org/api/records/10703249",
+      "http_status": 200,
+      "note": "json_response"
+    }
+  },
+  {
+    "id": "starrydata-bulk",
+    "name": "Starrydata · published bulk files",
+    "kind": "bulk_files",
+    "entrypoint": "https://starrydata.github.io/starrydata_datasets/",
+    "auth": "none",
+    "auth_notes": "Public release asset downloads.",
+    "description": "Machine-readable paper, sample and curve files; 14 project subsets are separately cataloged.",
+    "formats": [
+      "CSV.gz"
+    ],
+    "catalog_ids": [],
+    "sources": [
+      {
+        "url": "https://starrydata.github.io/starrydata_datasets/",
+        "title": "Starrydata dataset releases",
+        "evidence": "Lists combined and project-specific CSV assets.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "Downloadable files, not a documented remote structure-query API. Samples and digitized curves generally lack complete crystal coordinates."
+    ],
+    "verification": {
+      "status": "documented",
+      "checked_date": "2026-11-01",
+      "note": "Official documentation inspected; no end-to-end API or SDK query executed for this route."
+    }
+  },
+  {
+    "id": "nist-insulation",
+    "name": "NIST SRD 81 insulation measurement API",
+    "kind": "native_api",
+    "entrypoint": "https://srdata.nist.gov/insulation/api/TableAllData",
+    "auth": "none",
+    "auth_notes": "Anonymous public JSON route; no key used for the verified response.",
+    "description": "Historical guarded-hot-plate measurement rows with material, specimen, apparatus and conditioning fields.",
+    "formats": [
+      "JSON"
+    ],
+    "catalog_ids": [
+      "nist-srd81-insulation"
+    ],
+    "sources": [
+      {
+        "url": "https://srdata.nist.gov/insulation/api/TableAllData",
+        "title": "SRD 81 live public JSON API",
+        "evidence": "Downloaded 2,175 objects with 2,175 distinct id values. Fields include material/manufacturer, specimen, density, thickness, mean temperature, temperature difference, conductivity, uncertainty, apparatus, method and conditioning; 1,667 rows have null unc.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/Intro",
+        "title": "SRD 81 scope and measurement method",
+        "evidence": "Describes historical 200-mm guarded-hot-plate measurements, over 2,000 observations, most near 24 °C, with broad specimen-density coverage.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/DataFieldDef",
+        "title": "SRD 81 definitions and uncertainty",
+        "evidence": "Defines SI/IP property units, specimen and pre-test conditions, apparatus and test mode; describes relative expanded uncertainty conventions. API numeric fields do not embed units.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/Home/VersionHistory",
+        "title": "SRD 81 release history",
+        "evidence": "Web version 2.0 released December 2015, superseding version 1.0 released January 2000.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/insulation/",
+        "title": "SRD 81 landing page and rights",
+        "evidence": "Current public page identifies data content last updated 1983 and copyright U.S. Department of Commerce with all rights reserved.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "limitations": [
+      "2,175 counts measurement rows, not distinct materials or specimens; API snapshot was checked 2026-11-01.",
+      "API fields do not encode units. Values appear to use inch-pound conventions; confirm each unit/conversion against the UI before quantitative reuse, and do not label API values SI by default.",
+      "1,667 of 2,175 API rows have null uncertainty. Provider default uncertainty guidance does not supply measured row-specific uncertainty.",
+      "Apparent thermal transmission properties can combine conduction, radiation and convection; they are not intrinsic lattice thermal conductivity.",
+      "Historical data content ends in 1983; current site accessibility and the 2015 software release are separate from measurement freshness.",
+      "Public access does not establish an open redistribution license."
+    ],
+    "verification": {
+      "status": "sample_verified",
+      "checked_date": "2026-11-01",
+      "probe_url": "https://srdata.nist.gov/insulation/api/TableAllData",
+      "http_status": 200,
+      "note": "Retrieved complete response: 2,175 objects with 2,175 unique record IDs. Numeric units require the linked SI/IP field definitions; 1,667 records lack uncertainty."
+    }
+  }
+]

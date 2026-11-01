@@ -1,0 +1,502 @@
+{
+  "date": "2026-11-01",
+  "script": "/Users/jason/.codex/skills/paper-search/scripts/search.py",
+  "queries": [
+    {
+      "file": "query_cucr.json",
+      "query": "mechanical electrical properties dataset Cu Cr alloys",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_curation.json",
+      "query": "thermoelectric material database self consistent",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_fatigue.json",
+      "query": "fatigue database complex metallic alloys",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_hardness.json",
+      "query": "load dependent hardness dataset",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 49,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_magnetic.json",
+      "query": "magnetic materials database dataset magnetocaloric",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_magnetocaloric.json",
+      "query": "magnetocaloric autogenerated database language models",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 13,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 13,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_mechanical.json",
+      "query": "elastic hardness database materials dataset",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_phonon.json",
+      "query": "lattice thermal conductivity high throughput database",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_refined.json",
+      "query": "NEMAD teMatDb ESTM Wenzhou thermoelectric",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 0,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 0,
+          "outcome": "empty",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_thermal.json",
+      "query": "thermal conductivity database materials",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_thermoelectric.json",
+      "query": "thermoelectric transport dataset database",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 50,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    },
+    {
+      "file": "query_ti.json",
+      "query": "compilation experimental mechanical microstructural titanium alloys",
+      "sources": [
+        "openalex"
+      ],
+      "per_source": 50,
+      "final_limit": 0,
+      "returned": 49,
+      "warnings": [],
+      "network_status": "ok",
+      "coverage": [
+        {
+          "source": "openalex",
+          "name_zh": "OpenAlex",
+          "coverage": "自动检索",
+          "hit_count": 50,
+          "outcome": "ok",
+          "error": null,
+          "applied_filters": "none"
+        },
+        {
+          "source": "cnki",
+          "name_zh": "中国知网（CNKI）",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        },
+        {
+          "source": "wanfang",
+          "name_zh": "万方数据",
+          "coverage": "需用户回填",
+          "hit_count": 0,
+          "outcome": "n/a",
+          "error": null,
+          "applied_filters": "n/a"
+        }
+      ]
+    }
+  ],
+  "total_query_hits_before_cross_query_dedup": 511,
+  "unique_dois": 442,
+  "cache_location": "transport/cache",
+  "note": "First default-cache attempt failed outside sandbox. All retained raw query JSONs are successful reruns with PAPER_CACHE_DIR set under this folder. No --limit was supplied."
+}

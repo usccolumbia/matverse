@@ -1,0 +1,1410 @@
+[
+  {
+    "id": "aachen-heerlen-steel-sem",
+    "name": "Aachen-Heerlen annotated steel microstructures",
+    "category": "diffraction_spectroscopy",
+    "description": "Steel SEM images with expert martensite-austenite island annotations and heat-treatment metadata.",
+    "version": "2021 paper cohort; deposit checked 2026-11-01",
+    "year": 2021,
+    "count": 2580,
+    "count_display": "2,580",
+    "count_unit": "SEM images",
+    "count_scope": "Full released image cohort; 1,705 images carry polygon annotations",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "SEM morphology",
+      "MA-island polygons",
+      "area, perimeter, aspect ratio and compactness",
+      "transformation temperature (400 or 500 °C)"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (verified image and polygon deposits)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-021-00926-7",
+      "data": "https://doi.org/10.6084/m9.figshare.c.5185004"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-021-00926-7",
+        "title": "Aachen-Heerlen annotated steel microstructures — Scientific Data descriptor",
+        "evidence": "Data Records identify 2,580 TIFF images and PNG equivalents, of which 1,705 are polygon-annotated. Abstract reports 8,909 expert polygons.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.c.5185004",
+        "title": "Aachen-Heerlen annotated steel microstructures — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "TIFF and PNG are representations of the same images; do not count both.",
+      "Specific chemical compositions are withheld; only composition-type labels are supplied.",
+      "Microstructure images and phase morphology do not provide atomic coordinates.",
+      "Image conditions include4,000× magnification and 15 kV SEM operation."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 1705,
+        "unit": "polygon-annotated images",
+        "scope": "Subset of full image cohort"
+      },
+      {
+        "value": 8909,
+        "unit": "expert polygons",
+        "scope": "MA-island annotations, paper reported"
+      }
+    ]
+  },
+  {
+    "id": "microlib-slicegan",
+    "name": "MicroLib SliceGAN microstructure library",
+    "category": "diffraction_spectroscopy",
+    "description": "Synthetic 3D microstructural volumes, trained models and metadata derived from 2D microscopy.",
+    "version": "2022 paper cohort; deposit checked 2026-11-01",
+    "year": 2022,
+    "count": 87,
+    "count_display": "87",
+    "count_unit": "source microstructure entries",
+    "count_scope": "87 DoITPoMS entries used to generate 3D microstructure volumes",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "generated",
+    "properties": [
+      "generated 3D phase morphology",
+      "phase fractions and geometric validation metrics",
+      "2D training micrographs"
+    ],
+    "access": "open",
+    "license": "Unknown; Zenodo declares open access but no dataset license in retrieved metadata",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-022-01744-1",
+      "data": "https://doi.org/10.5281/zenodo.7118559"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01744-1",
+        "title": "MicroLib SliceGAN microstructure library — Scientific Data descriptor",
+        "evidence": "Paper and deposit describe 87 source entries; example generated volumes contain320³ voxels and release includes trained SliceGAN models.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.7118559",
+        "title": "MicroLib SliceGAN microstructure library — primary deposit",
+        "evidence": "Zenodo API confirms 87 source microstructures, open access and ZIP file; no license field was present.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Generated microstructures are model outputs, not measured 3D volumes.",
+      "Collection includes biological and noncrystalline materials; filter by material descriptors for crystal/alloy use.",
+      "Voxels represent microstructural phases rather than periodic atomic coordinates."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 32768000,
+        "unit": "voxels per illustrated volume",
+        "scope": "320×320×320 example volume size; not material count"
+      }
+    ]
+  },
+  {
+    "id": "pd-carbon-sem-ordering",
+    "name": "Pd-on-carbon SEM ordering benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Palladium nanoparticle spatial organization on carbon supports across several magnifications.",
+    "version": "2020 paper cohort; deposit checked 2026-11-01",
+    "year": 2020,
+    "count": 1000,
+    "count_display": "1,000",
+    "count_unit": "SEM images",
+    "count_scope": "750 predominantly ordered plus250 predominantly disordered images",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "SEM images",
+      "ordered/disordered labels",
+      "sample and area identifiers",
+      "acceleration voltage (V), working distance (µm), emission current (nA)"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (both Figshare datasets)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-020-0439-1",
+      "data": "https://doi.org/10.6084/m9.figshare.11783661"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-020-0439-1",
+        "title": "Pd-on-carbon SEM ordering benchmark — Scientific Data descriptor",
+        "evidence": "Data Records provide750 ordered and 250 disordered1,280×1,024-pixel TIFFs with instrument metadata; companion disordered deposit is11783667.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.11783661",
+        "title": "Pd-on-carbon SEM ordering benchmark — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Multiple magnifications can show the same area; preserve area identifiers to prevent train/test leakage.",
+      "Nanoparticle and support morphology is not a collection of resolved periodic crystal structures."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 750,
+        "unit": "ordered images",
+        "scope": "Dataset1"
+      },
+      {
+        "value": 250,
+        "unit": "disordered images",
+        "scope": "Dataset2;https://doi.org/10.6084/m9.figshare.11783667"
+      }
+    ]
+  },
+  {
+    "id": "hybrid-raman-crystal-2024",
+    "name": "Hybrid-functional inorganic-crystal Raman database",
+    "category": "diffraction_spectroscopy",
+    "description": "Hybrid-functional Raman/IR spectra and vibrational tensors calculated from ICSD-derived structures.",
+    "version": "Paper 161-compound cohort; Zenodo1.1(2023-12-12)",
+    "year": 2024,
+    "count": 161,
+    "count_display": "161",
+    "count_unit": "inorganic compounds",
+    "count_scope": "Paper-release cohort; live database can grow",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "Raman/IR frequencies (cm⁻¹)",
+      "Raman intensities and tensors",
+      "Born charges",
+      "phonon properties"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo and primary code/data release)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-024-02924-x",
+      "data": "https://doi.org/10.5281/zenodo.10360193"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-024-02924-x",
+        "title": "Hybrid-functional inorganic-crystal Raman database — Scientific Data descriptor",
+        "evidence": "Descriptor reports 161 compounds; data/code archive resolves to version 1.1, DOI 10360193. Web app supports CSV mode frequencies/intensities and structure visualization.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.10360193",
+        "title": "Hybrid-functional inorganic-crystal Raman database — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "ICSD source identifiers and coordinate licensing must be retained; adding calculated properties does not create new independent experimental structures.",
+      "Spectra depend on functional and convolution; plotted examples normalize maximum intensity to 1,000 arbitrary units.",
+      "Archive has code/data; full per-file coordinate redistribution rights were not independently audited."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "raman-oulu-5099",
+    "name": "Oulu computational Raman database",
+    "category": "diffraction_spectroscopy",
+    "description": "Raman tensors and vibrational data for a broad crystal cohort using PhononDB and Materials Project inputs.",
+    "version": "2023 paper cohort; deposit checked 2026-11-01",
+    "year": 2023,
+    "count": 5099,
+    "count_display": "5,099",
+    "count_unit": "materials with calculated Raman properties",
+    "count_scope": "Final calculated cohort, distinct from 8,382 flagged inputs",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "Raman tensors",
+      "Raman/IR mode activity",
+      "frequencies and eigenvectors",
+      "Born charges",
+      "dielectric properties"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Materials Cloud deposit)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-01988-5",
+      "data": "https://doi.org/10.24435/materialscloud:ze-58"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-01988-5",
+        "title": "Oulu computational Raman database — Scientific Data descriptor",
+        "evidence": "Paper reports 5,099 completed materials. Deposited JSON includes structures, symmetry, Raman tensors and source-database links.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.24435/materialscloud:ze-58",
+        "title": "Oulu computational Raman database — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Input identities and imported phonon data overlap PhononDB/MP; this is a Raman-property release, not5,099 new crystal identities.",
+      "Nonresonant Raman approximation; spectra shown at 300 K with normalization and mode broadening.",
+      "Flagged-input, vibrational-mode and completed-material counts differ."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "mp-raman-2019",
+    "name": "Materials Project Raman tensor and RRUFF matching benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Computed Raman tensors and spectra, paired with structure-matched RRUFF reference peaks.",
+    "version": "2019 paper cohort; deposit checked 2026-11-01",
+    "year": 2019,
+    "count": 55,
+    "count_display": "55",
+    "count_unit": "computed inorganic compounds",
+    "count_scope": "55-compound DFPT cohort with a separate experimental matching table",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "Raman frequencies (cm⁻¹)",
+      "Raman tensors and normalized intensities",
+      "normal modes",
+      "RRUFF-to-MP matched peak data"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2; source rights still apply)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-019-0138-y",
+      "data": "https://doi.org/10.6084/m9.figshare.7427393.v2"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-019-0138-y",
+        "title": "Materials Project Raman tensor and RRUFF matching benchmark — Scientific Data descriptor",
+        "evidence": "Paper reports 55 compounds and 205 matched peak/mode pairs; deposit contains computational/experimental JSON plus MP and RRUFF CIF archives.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.7427393.v2",
+        "title": "Materials Project Raman tensor and RRUFF matching benchmark — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Computed data and RRUFF-derived measurements are separate evidence layers.",
+      "RRUFF tables duplicate parent measurements; do not add them as new experiments.",
+      "Reported spectra use 300 K and 532 nm excitation; intensities normalized to 100."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 205,
+        "unit": "matched peak/mode pairs",
+        "scope": "Technical-validation benchmark across55 compounds"
+      }
+    ]
+  },
+  {
+    "id": "raman-2d-3504",
+    "name": "Two-dimensional materials ab initio Raman spectra",
+    "category": "diffraction_spectroscopy",
+    "description": "Harmonic Raman spectra and geometries computed from 2DMatPedia monolayer structures.",
+    "version": "2025 paper cohort; deposit checked 2026-11-01",
+    "year": 2025,
+    "count": 3504,
+    "count_display": "3,504",
+    "count_unit": "two-dimensional materials",
+    "count_scope": "Completed 2D Raman calculation cohort",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "Raman mode frequencies",
+      "Raman intensities",
+      "relaxed monolayer geometry"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Materials Cloud deposit)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-025-04593-w",
+      "data": "https://doi.org/10.24435/materialscloud:9g-1r"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-04593-w",
+        "title": "Two-dimensional materials ab initio Raman spectra — Scientific Data descriptor",
+        "evidence": "Publisher and primary deposit report 3,504 materials and provide geometry/frequency/intensity data.zip.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.24435/materialscloud:9g-1r",
+        "title": "Two-dimensional materials ab initio Raman spectra — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Structures originate in 2DMatPedia; do not count as an independent set of novel structures.",
+      "Harmonic, first-order Raman calculations omit substrate, excitonic and anharmonic effects.",
+      "Paper cites deposit incompletely; actual Materials Cloud DOI resolved and title/count matched."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "feptp-iron-phase-pathways",
+    "name": "FePTP iron-containing phase-transformation pathways",
+    "category": "experimental_properties",
+    "description": "Iron-phase precursor/product identities, operation conditions and transformation outcomes extracted from literature.",
+    "version": "2026 paper cohort; deposit checked 2026-11-01",
+    "year": 2026,
+    "count": 11241,
+    "count_display": "11,241",
+    "count_unit": "phase-transformation pathways",
+    "count_scope": "Published text-mined cohort from 4,245 papers",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature_extracted",
+    "properties": [
+      "precursor/product phase",
+      "reaction category and operation sequence",
+      "temperature/time and other reaction conditions",
+      "extent of transformation",
+      "reaction equations"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-026-07067-9",
+      "data": "https://doi.org/10.6084/m9.figshare.30759095.v2"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-026-07067-9",
+        "title": "FePTP iron-containing phase-transformation pathways — Scientific Data descriptor",
+        "evidence": "Data Records describe 11,241 pathways from 4,245 papers, including unchanged outcomes; release supplies pathways.jsonl and mineral glossary.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.30759095.v2",
+        "title": "FePTP iron-containing phase-transformation pathways — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Includes environmental/mineral and biotransformation pathways; select solid-state/materials transformations for MatVerse-specific reuse.",
+      "Phase names/compositions are provided, not resolved atomic structures.",
+      "Changed and unchanged pathways must remain distinct; automated extraction is not proof of phase-pure synthesis."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 4245,
+        "unit": "source papers",
+        "scope": "Literature supporting pathway cohort"
+      }
+    ]
+  },
+  {
+    "id": "mp-kedge-xanes-2018",
+    "name": "Materials Project K-edge XANES release",
+    "category": "diffraction_spectroscopy",
+    "description": "FEFF multiple-scattering XANES spectra for inequivalent absorber sites of MP crystal structures.",
+    "version": "2018 paper cohort; deposit checked 2026-11-01",
+    "year": 2018,
+    "count": 500000,
+    "count_display": "500,000",
+    "count_unit": "site-resolved K-edge XANES spectra",
+    "count_scope": "Paper reports more than500,000 spectra over more than40,000 materials",
+    "count_precision": "lower_bound",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "K-edge XANES energy-dependent absorption",
+      "absorber-site identity",
+      "calculation input parameters",
+      "site-averaged elemental spectra"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Figshare K-edge archive)",
+    "links": {
+      "publication": "https://doi.org/10.1038/sdata.2018.151",
+      "data": "https://doi.org/10.6084/m9.figshare.5678998.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2018.151",
+        "title": "Materials Project K-edge XANES release — Scientific Data descriptor",
+        "evidence": "Descriptor states>500,000 spectra and>40,000 materials; Figshare collection3946561 links this public xas.json.tgz archive.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.5678998.v1",
+        "title": "Materials Project K-edge XANES release — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Count is a lower bound of spectra, not crystal structures.",
+      "Public API/site-averaged spectra differ from individual-site archive records.",
+      "Parent structures overlap Materials Project; preserve MP IDs, edge, absorber site and FEFF settings."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 40000,
+        "unit": "materials (lower bound)",
+        "scope": "Descriptor reports more than40,000 unique materials"
+      }
+    ]
+  },
+  {
+    "id": "mp-ledge-xanes-2021",
+    "name": "Materials Project L-edge XANES release",
+    "category": "diffraction_spectroscopy",
+    "description": "FEFF9 L-edge spectra linked to MP structures and absorber sites.",
+    "version": "2021 paper cohort; deposit checked 2026-11-01",
+    "year": 2021,
+    "count": 140000,
+    "count_display": "140,000",
+    "count_unit": "site-wise L2 or L3 XANES spectra",
+    "count_scope": "Approximately140,000 site-wise spectra; not40,000 unique crystals",
+    "count_precision": "approximate",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "L2/L3 XANES absorption",
+      "site-wise and site-averaged spectra",
+      "absorber and structural metadata"
+    ],
+    "access": "open",
+    "license": "MIT (Figshare L-XAS archive)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-021-00936-5",
+      "data": "https://doi.org/10.6084/m9.figshare.12824513.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-021-00936-5",
+        "title": "Materials Project L-edge XANES release — Scientific Data descriptor",
+        "evidence": "Data Records describe approximately 140,000 site-wise L2/L3 spectra and 40,000 site-averaged elemental/structure counts; abstract says>22,000 structures.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.12824513.v1",
+        "title": "Materials Project L-edge XANES release — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Each site-wise count is one edge at one absorbing site; site-averaged count is a completed structure/element L2,3 pair.",
+      "Do not equate40,000 site-averaged counts with 40,000 unique material identities.",
+      "Distinct property cohort from K-edge; underlying MP structure identities overlap."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 22000,
+        "unit": "structures (lower bound)",
+        "scope": "Abstract reports more than22,000 structures"
+      }
+    ]
+  },
+  {
+    "id": "lps-sulfur-kedge-xas",
+    "name": "Lithium-thiophosphate sulfur K-edge XAS",
+    "category": "diffraction_spectroscopy",
+    "description": "First-principles S-edge spectra with polarization components and atomic models for solid-electrolyte characterization.",
+    "version": "2023 paper cohort; deposit checked 2026-11-01",
+    "year": 2023,
+    "count": 2681,
+    "count_display": "2,681",
+    "count_unit": "site-resolved sulfur K-edge spectra",
+    "count_scope": "Spectra for 66 structure models:18 crystalline and 48 amorphous",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "computed",
+    "properties": [
+      "S K-edge absorption versus energy",
+      "three polarization components",
+      "atomic positions and computational inputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Materials Cloud deposit)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-02262-4",
+      "data": "https://doi.org/10.24435/materialscloud:6z-qm"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02262-4",
+        "title": "Lithium-thiophosphate sulfur K-edge XAS — Scientific Data descriptor",
+        "evidence": "Paper reports 2,681 spectra across 66 models; deposited input/output set includes POSCAR, INCAR, KPOINTS and spectral mu.dat.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.24435/materialscloud:6z-qm",
+        "title": "Lithium-thiophosphate sulfur K-edge XAS — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Mixed crystalline and amorphous models; keep18/48 structure-state distinction.",
+      "POTCAR pseudopotentials omitted due VASP licensing.",
+      "Raw calculated energies/intensities require appropriate alignment/broadening for experimental comparison."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 66,
+        "unit": "structure models",
+        "scope": "18 crystalline and48 amorphous models"
+      }
+    ]
+  },
+  {
+    "id": "battery-interphase-ir-raman-xrd",
+    "name": "Battery-interphase IR/Raman/XRD reference library",
+    "category": "diffraction_spectroscopy",
+    "description": "Experimental reference spectroscopy and diffraction collected with inert-atmosphere sample chambers.",
+    "version": "2024 paper cohort; deposit checked 2026-11-01",
+    "year": 2024,
+    "count": 10,
+    "count_display": "10",
+    "count_unit": "reference compounds",
+    "count_scope": "Ten interphase-relevant compounds, with raw and processed spectral data",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "ATR-FTIR spectra",
+      "Raman spectra",
+      "X-ray diffraction and d-spacings"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Dryad dataset)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-024-04236-6",
+      "data": "https://doi.org/10.5061/dryad.v15dv421w"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-024-04236-6",
+        "title": "Battery-interphase IR/Raman/XRD reference library — Scientific Data descriptor",
+        "evidence": "Descriptor covers10 compounds; Dryad contains technique-specific XLSX workbooks with raw/final data; XRD wavelength 1.54 Å.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5061/dryad.v15dv421w",
+        "title": "Battery-interphase IR/Raman/XRD reference library — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "References represent isolated compounds, not measured heterogeneous working battery interphases.",
+      "Processed Raman data for 6LiF and 7LiF are omitted, and raw/final Raman axes differ after interpolation/filtering.",
+      "Spectral data are not a deposit of resolved periodic coordinates."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "jcap-metal-oxide-optical-179k",
+    "name": "JCAP metal-oxide synthesis, imaging and UV–Vis cohort",
+    "category": "experimental_properties",
+    "description": "Composition and processing history linked to RGB images and UV–Vis absorbance spectra.",
+    "version": "2019 paper cohort; deposit checked 2026-11-01",
+    "year": 2019,
+    "count": 179072,
+    "count_display": "179,072",
+    "count_unit": "synthesized metal-oxide samples",
+    "count_scope": "Material samples only; excludes1,830 substrate references in 180,902 rows",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "RGB sample images",
+      "fractional optical absorbance αL",
+      "intended metal composition and loading",
+      "annealing and synthesis parameters"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Figshare HDF5)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-019-0019-4",
+      "data": "https://doi.org/10.6084/m9.figshare.7502207.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-019-0019-4",
+        "title": "JCAP metal-oxide synthesis, imaging and UV–Vis cohort — Scientific Data descriptor",
+        "evidence": "Paper identifies179,072 material samples and 99,965 compositions;1,830 blank reference rows are separate. HDF5 has aligned image, composition, spectrum and process fields.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.7502207.v1",
+        "title": "JCAP metal-oxide synthesis, imaging and UV–Vis cohort — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Intended metal composition is supplied; oxygen stoichiometry is unknown.",
+      "Repeated compositions under different processing conditions are expected.",
+      "Spectra interpolated to 220 energies over 1.31–3.1eV and images resized to 64×64 pixels.",
+      "Not a resolved crystal-structure cohort and distinct from HTEM despite similar high-throughput experimental scope."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 99965,
+        "unit": "unique intended compositions",
+        "scope": "Paper-reported material composition count"
+      },
+      {
+        "value": 1830,
+        "unit": "substrate reference rows",
+        "scope": "Excluded from main material sample count"
+      }
+    ]
+  },
+  {
+    "id": "oxide-synthesis-parameters-2017",
+    "name": "Aggregated oxide synthesis parameters (Olivetti 2017)",
+    "category": "experimental_properties",
+    "description": "Text-mined precursor co-occurrences and distributions of synthesis conditions for oxide targets.",
+    "version": "2017 paper cohort; deposit checked 2026-11-01",
+    "year": 2017,
+    "count": 30,
+    "count_display": "30",
+    "count_unit": "oxide material systems",
+    "count_scope": "Top-level per-system synthesis-parameter summaries; not individual recipes",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature_extracted",
+    "properties": [
+      "precursor/material co-occurrences",
+      "synthesis-temperature distributions",
+      "topic distributions",
+      "frequent synthesis parameters"
+    ],
+    "access": "open",
+    "license": "MIT (Figshare dataset)",
+    "links": {
+      "publication": "https://doi.org/10.1038/sdata.2017.127",
+      "data": "https://doi.org/10.6084/m9.figshare.5221351.v1"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2017.127",
+        "title": "Aggregated oxide synthesis parameters (Olivetti 2017) — Scientific Data descriptor",
+        "evidence": "Paper describes aggregation from >640,000 articles across 30 oxide systems; each JSON top-level record corresponds to one material system.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.5221351.v1",
+        "title": "Aggregated oxide synthesis parameters (Olivetti 2017) — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "This is an aggregate parameter resource, distinct from later procedure-level solid-state/solution recipe datasets.",
+      "Kernel-density condition summaries are not complete experimentally validated recipes.",
+      "No periodic atomic-coordinate coverage established."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "stem-nanomaterial-tomography-2016",
+    "name": "Nanomaterial STEM tomography reference collection",
+    "category": "diffraction_spectroscopy",
+    "description": "Experimental tomography for Co2P, supported Pt, atomic-resolution Pt/W and through-focal PtCu.",
+    "version": "2016 paper cohort; deposit checked 2026-11-01",
+    "year": 2016,
+    "count": 5,
+    "count_display": "5",
+    "count_unit": "tomographic material systems",
+    "count_scope": "Five raw tilt-series/reconstruction benchmark cases",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "STEM tilt-series intensities",
+      "3D reconstructed volumes",
+      "tilt geometry and acquisition metadata"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 verified for sampled collection items; check per item for reuse",
+    "links": {
+      "publication": "https://doi.org/10.1038/sdata.2016.41",
+      "data": "https://doi.org/10.6084/m9.figshare.c.2185342"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/sdata.2016.41",
+        "title": "Nanomaterial STEM tomography reference collection — Scientific Data descriptor",
+        "evidence": "Descriptor defines five Tom_1–Tom_5 cases and 16-bit TIFF tilt-series/reconstructions; example Pt/W cases reach atomic resolution.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.c.2185342",
+        "title": "Nanomaterial STEM tomography reference collection — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Tomography intensity volumes are not standardized periodic atomic structures.",
+      "Tilt range, missing wedge, dose and alignment differ between cases.",
+      "Several collection files derive from the same specimen; count five cases rather than files."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "in718-correlative-3d-ebsd-dic",
+    "name": "Inconel718 correlative 3D microstructure and deformation fields",
+    "category": "experimental_properties",
+    "description": "Co-registered SEM, HR-DIC and 3D EBSD fields for microstructure–plasticity analysis of Inconel718.",
+    "version": "2022 paper cohort; deposit checked 2026-11-01",
+    "year": 2022,
+    "count": null,
+    "count_display": "Not reported",
+    "count_unit": "registered multimodal specimen datasets",
+    "count_scope": "No unambiguous independent-specimen count established",
+    "count_precision": "unknown",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "3D grain orientations and grain IDs",
+      "HR-DIC strain and slip fields",
+      "2D/3D EBSD patterns",
+      "microstructural meshes"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Dryad)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-022-01525-w",
+      "data": "https://doi.org/10.5061/dryad.83bk3j9sj"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01525-w",
+        "title": "Inconel718 correlative3D microstructure and deformation fields — Scientific Data descriptor",
+        "evidence": "Primary descriptor and Dryad release 3D EBSD, strain/slip fields and meshes. Paper describes 526 serial sections; orientation conventions and coordinate transformations are documented.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5061/dryad.83bk3j9sj",
+        "title": "Inconel718 correlative3D microstructure and deformation fields — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Voxel/mesh coordinates describe microstructure, not periodic atom positions.",
+      "2D and 3D Euler conventions differ; apply supplied coordinate transformations.",
+      "HR-DIC map spacing 100.34 nm and slip-amplitude pixel 33.45 nm; do not interchange.",
+      "Repository API latest version status is submitted; count/version claims here refer to published descriptor cohort, not draft updates."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "zeolite13x-multimodal-tomography",
+    "name": "Zn-doped zeolite13X multimodal synchrotron benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Co-registered XCT, spatial XRD-CT and powder XRD for multimodal data-fusion development.",
+    "version": "2025 paper cohort; deposit checked 2026-11-01",
+    "year": 2025,
+    "count": 1,
+    "count_display": "1",
+    "count_unit": "bespoke two-phase sample",
+    "count_scope": "One partially Zn-doped13X sample studied at multiple resolutions/modalities",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "multiresolution XCT",
+      "Na/Zn phase-resolved XRD-CT",
+      "powder diffraction",
+      "raw/reconstructed volumes"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 verified for XRD-CT deposit; check linked deposits individually",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-025-04605-9",
+      "data": "https://doi.org/10.5281/zenodo.13329639"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-04605-9",
+        "title": "Zn-doped zeolite13X multimodal synchrotron benchmark — Scientific Data descriptor",
+        "evidence": "Paper documents bespoke two-phase sample, four XCT resolutions and XRD-CT 25/50 µm spot sizes; multiple raw/processed Zenodo releases are linked.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.13329639",
+        "title": "Zn-doped zeolite13X multimodal synchrotron benchmark — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Different imaging resolutions and reconstructions are not independent materials.",
+      "XCT voxel sizes0.325–2.6 µm and XRD-CT spatial resolutions differ markedly.",
+      "Full dataset spans several deposits; this row cites the core XRD-CT deposit and paper inventory.",
+      "No periodic-coordinate release established."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "fatiguedata-am2022",
+    "name": "FatigueData-AM2022 additively manufactured alloys",
+    "category": "experimental_properties",
+    "description": "Fatigue curves linked to alloy identity, additive-manufacturing parameters, processing and testing conditions.",
+    "version": "2023 paper cohort; deposit checked 2026-11-01",
+    "year": 2023,
+    "count": 2460,
+    "count_display": "2,460",
+    "count_unit": "fatigue test-condition datasets",
+    "count_scope": "1,610 S–N +236 ε–N +614 crack-growth datasets",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "literature_extracted",
+    "properties": [
+      "stress-life curves (MPa, cycles)",
+      "strain-life curves",
+      "fatigue crack-growth data",
+      "AM and post-processing parameters",
+      "static mechanical properties"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-023-02150-x",
+      "data": "https://doi.org/10.6084/m9.figshare.22337629.v2"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02150-x",
+        "title": "FatigueData-AM2022 additively manufactured alloys — Scientific Data descriptor",
+        "evidence": "Paper reports 116 alloy types and 1,610+236+614 curve datasets. MAT/JSON/XLSX deposit is separate from FatigueData-CMA2022.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.22337629.v2",
+        "title": "FatigueData-AM2022 additively manufactured alloys — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Distinct AM-focused release, but source papers/curves can overlap other fatigue compilations; no cross-release deduplication.",
+      "Curve datasets, data points and alloy identities are different units.",
+      "EXCEL curves are sampled where necessary; raw JSON/MAT can preserve richer point sets.",
+      "Preserve AM process, treatment, surface, temperature, stress ratio and run-out flags."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 116,
+        "unit": "AM alloy types",
+        "scope": "Paper-reported composition/type coverage"
+      }
+    ],
+    "count_derivation": {
+      "method": "Sum of three disjoint fatigue-curve families reported in descriptor",
+      "values": [
+        1610,
+        236,
+        614
+      ]
+    }
+  },
+  {
+    "id": "ferritic-steel-xct-defects",
+    "name": "Mechanically deformed ferritic-steel XCT defect database",
+    "category": "experimental_properties",
+    "description": "Ferritic-steel volumetric defect images and quantified descriptors linked to deformation state.",
+    "version": "2025 paper cohort; deposit checked 2026-11-01",
+    "year": 2025,
+    "count": 276,
+    "count_display": "276",
+    "count_unit": "sample-condition XCT datasets",
+    "count_scope": "134 tensile-tested plus142 fatigue-tested sample datasets",
+    "count_precision": "exact",
+    "structure_level": "composition_only",
+    "provenance": "experimental",
+    "properties": [
+      "XCT volumes",
+      "defect volume, shape, size and topology",
+      "strain/fracture progression",
+      "loading conditions"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Dryad)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-025-06141-y",
+      "data": "https://doi.org/10.5061/dryad.9cnp5hqpf"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-06141-y",
+        "title": "Mechanically deformed ferritic-steel XCT defect database — Scientific Data descriptor",
+        "evidence": "Abstract/methods report 276 datasets, including134 tensile and 142 fatigue samples with 938 and 2,305 defect-feature entries respectively.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.5061/dryad.9cnp5hqpf",
+        "title": "Mechanically deformed ferritic-steel XCT defect database — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "One ferritic alloy;276 image/condition datasets are not276 materials.",
+      "Raw voxel size 3 µm; fatigue quantification uses downscaled 12 µm data, affecting small-defect detection.",
+      "Sub-voxel defects can be overestimated and sizes are reported as ranges.",
+      "Fatigue subgroup counts elsewhere in text do not reconcile directly with 142; preserve descriptor totals rather than silently recomputing.",
+      "Latest public API metadata reports submitted version status; published paper cohort defines this record."
+    ],
+    "tags": [
+      "Scientific Data",
+      "processing",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 938,
+        "unit": "tensile defect-feature entries",
+        "scope": "134 tensile datasets"
+      },
+      {
+        "value": 2305,
+        "unit": "fatigue defect-feature entries",
+        "scope": "142 fatigue datasets"
+      }
+    ]
+  },
+  {
+    "id": "amalgamatch-microscopy",
+    "name": "AmalgaMatch correlative materials microscopy benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Cross-modal microscopy pairs with hand-annotated correspondences and structured image metadata.",
+    "version": "Fordatis1.0.0; Scientific Data accepted publication2026-08-14",
+    "year": 2026,
+    "count": 187,
+    "count_display": "187",
+    "count_unit": "annotated image pairs",
+    "count_scope": "6 groups,19 material subsets and 35 scenes",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "optical/SEM/TEM/EBSD images",
+      "correspondence keypoints",
+      "acquisition and matching-task metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Fordatis repository license link)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-026-07961-2",
+      "data": "https://doi.org/10.24406/fordatis/436"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-026-07961-2",
+        "title": "AmalgaMatch correlative materials microscopy benchmark — Scientific Data descriptor",
+        "evidence": "Accepted descriptor and Fordatis v1.0.0 report 187 image pairs,35 scenes,19 subsets and 6 use-case groups; repository supplies4.13GB ZIP.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.24406/fordatis/436",
+        "title": "AmalgaMatch correlative materials microscopy benchmark — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Image pairs and scenes are not independent material identities.",
+      "Some image subsets derive from earlier shared studies; retain subset lineage.",
+      "Microscopy supports microstructure characterization, not a complete atomic-coordinate catalog."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "additional_counts": [
+      {
+        "value": 35,
+        "unit": "scenes",
+        "scope": "Correlative imaging scenes"
+      },
+      {
+        "value": 19,
+        "unit": "material subsets",
+        "scope": "Grouped by imaged material"
+      }
+    ]
+  },
+  {
+    "id": "simpod-powder-xrd",
+    "name": "SIMPOD simulated powder X-ray diffraction benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Computed powder diffractograms and radial images linked to atomic crystal information.",
+    "version": "Science Data BankV4;2025 paper cohort",
+    "year": 2025,
+    "count": 467861,
+    "count_display": "467,861",
+    "count_unit": "COD structure/diffractogram pairs",
+    "count_scope": "COD-derived snapshot up to mid2023; one JSON and radial PNG per input structure",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "powder XRD intensity versus2θ",
+      "radial diffraction PNG",
+      "atomic positions, occupancies and cell parameters",
+      "space group"
+    ],
+    "access": "open",
+    "license": "CC0 1.0 (Science Data Bank depositor metadata)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-025-05534-3",
+      "data": "https://doi.org/10.57760/sciencedb.09755"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-025-05534-3",
+        "title": "SIMPOD simulated powder X-ray diffraction benchmark — Scientific Data descriptor",
+        "evidence": "Publisher and deposit metadata agree on467,861 structures. Dataset registered asV4; JSON includes atoms, coordinates, occupancies, unit cells, space group and patterns.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.57760/sciencedb.09755",
+        "title": "SIMPOD simulated powder X-ray diffraction benchmark — primary deposit",
+        "evidence": "Science Data Bank landing page and depositor-supplied DOI metadata identify V4, 467,861 structure/pattern pairs, atom/cell fields and CC0 1.0 rights.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Derived from COD;467,861 is not an independently measured or newly discovered crystal count.",
+      "Simulated2θ5–90°,10,824 points,Cu wavelength 1.5406 Å, fixed0.01° width; no experimental background.",
+      "Original author/publication metadata are omitted from simplified records; preserve COD IDs and recover parent provenance when needed.",
+      "Distinct from existing opXRD, which contains experimental diffractograms."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "braggnn-hedm-datasets",
+    "name": "BraggNN high-energy diffraction microscopy training/validation data",
+    "category": "diffraction_spectroscopy",
+    "description": "Experimental diffraction frames and fitted peak locations for BraggNN localization benchmarks.",
+    "version": "2022 paper cohort; deposit checked 2026-11-01",
+    "year": 2022,
+    "count": null,
+    "count_display": "Not reported",
+    "count_unit": "diffraction frame/Bragg-peak records",
+    "count_scope": "Independent record count not established from available primary metadata",
+    "count_precision": "unknown",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "area-detector diffraction frames",
+      "Bragg peak row/column locations (pixels)",
+      "frame identifiers"
+    ],
+    "access": "open",
+    "license": "Unknown; no dataset license in retrieved MDF/DataCite metadata",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-022-01712-9",
+      "data": "https://doi.org/10.18126/iftp-twz1",
+      "validation_data": "https://doi.org/10.18126/hvny-s7ax"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01712-9",
+        "title": "BraggNN high-energy diffraction microscopy training/validation data — Scientific Data descriptor",
+        "evidence": "Scientific Data releases separate training DOIiftp-twz1 and validation DOIhvny-s7ax in HDF5. Depositor metadata documents frames and fitted peak-row/column arrays.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.18126/iftp-twz1",
+        "title": "BraggNN high-energy diffraction microscopy training/validation data — primary deposit",
+        "evidence": "MDF depositor DOI metadata describes HDF5 frame and peak arrays; current bulk download and license remain unverified.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Peak labels were obtained with conventional pseudo-Voigt fitting and are not independent ground-truth lattice coordinates.",
+      "Training and validation releases should remain linked as one benchmark family.",
+      "Public metadata verified; current bulk file access was not exercised.",
+      "Globus group authorization mentioned for GPU model serving is separate from dataset rights."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ]
+  },
+  {
+    "id": "qps-morphology-images",
+    "name": "Quaternary-phosphonium-salt image-to-molecule morphology benchmark",
+    "category": "diffraction_spectroscopy",
+    "description": "Molecular identity, acquisition metadata and multiscale salt-crystallization morphology images.",
+    "version": "2026 paper cohort; deposit checked 2026-11-01",
+    "year": 2026,
+    "count": 4037,
+    "count_display": "4,037",
+    "count_unit": "SEM and optical images",
+    "count_scope": "3,649 SEM +388 optical images; includes foil controls",
+    "count_precision": "exact",
+    "structure_level": "mixed",
+    "provenance": "experimental",
+    "properties": [
+      "SEM/optical morphology",
+      "compound/mixture identities",
+      "magnification, voltage and detector metadata"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare v2)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-026-06941-w",
+      "data": "https://doi.org/10.6084/m9.figshare.31281778.v2"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41597-026-06941-w",
+        "title": "Quaternary-phosphonium-salt image-to-molecule morphology benchmark — Scientific Data descriptor",
+        "evidence": "Paper reports 3,649 SEM and 388 optical images of 19 salts and binary mixtures; SEM collection also includes aluminum-foil controls.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.31281778.v2",
+        "title": "Quaternary-phosphonium-salt image-to-molecule morphology benchmark — primary deposit",
+        "evidence": "Named release route, access and rights verified against repository or depositor metadata; details in local receipts.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Crystalline and amorphous solids are mixed; material-state filter is needed.",
+      "Images are not resolved molecular-crystal atomic structures.",
+      "Multiple magnifications and controls are not independent compounds."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "verified-2026-11-01"
+    ],
+    "count_derivation": {
+      "method": "Sum of SEM and optical image cohorts in Data Records",
+      "values": [
+        3649,
+        388
+      ]
+    }
+  },
+  {
+    "id": "ins-crystals-10023",
+    "name": "Synthetic inelastic-neutron spectra — inorganic crystal subset",
+    "category": "diffraction_spectroscopy",
+    "description": "Simulated neutron S(Q,E), VISION/TOSCA spectra and phonon densities for PhononDB-derived crystal models.",
+    "version": "Zenodo 1.0.1; 2023 descriptor inorganic subset",
+    "year": 2023,
+    "count": 10023,
+    "count_display": "10,023",
+    "count_unit": "inorganic crystal models with simulated INS",
+    "count_scope": "Inorganic subset of joint molecule/crystal deposit; molecular subset excluded",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "powder S(Q,E)",
+      "INS spectra (cm⁻¹)",
+      "phonon DOS and neutron-weighted DOS",
+      "structure CIF and Γ-point mode visualizations"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo 1.0.1)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-022-01926-x",
+      "data": "https://doi.org/10.5281/zenodo.7438040"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01926-x",
+        "title": "Synthetic INS descriptor",
+        "evidence": "Methods report 10,023 inorganic crystals after excluding nine Xe-containing cases from 10,032 PhononDB inputs. Models include CIF and simulated spectra.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/records/7438040",
+        "title": "Synthetic INS Zenodo 1.0.1",
+        "evidence": "Open CC BY 4.0 deposit separates crystals.tar.gz and molecules.tar.gz; crystal/molecule indices are downloadable without full archives.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Structures/phonons derive from PhononDB, while INS spectra are new computed properties; do not add as novel crystals.",
+      "The separate 21,693 gas-phase molecule cohort is outside this record.",
+      "Crystal S(Q,E) uses 0–150 meV and 0–15 Å⁻¹ grids with generic instrument resolution; published files indicate 0 K.",
+      "Γ-point mode visualizations are not the full-Brillouin-zone phonons used to compute spectra."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "computed",
+      "parent-database-derived"
+    ]
+  },
+  {
+    "id": "jarvis-stm",
+    "name": "JARVIS-STM computational scanning-tunneling microscopy",
+    "category": "diffraction_spectroscopy",
+    "description": "DFT/Tersoff–Hamann constant-height STM images with raw electronic-density calculation outputs.",
+    "version": "2021 descriptor cohort; repository checked 2026-11-01",
+    "year": 2021,
+    "count": 716,
+    "count_display": "716",
+    "count_unit": "exfoliable two-dimensional materials",
+    "count_scope": "716-material paper cohort; multiple biases/images per material",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "computed",
+    "properties": [
+      "positive/negative-bias STM images",
+      "constant-height/current visualization",
+      "PARCHG and calculation input/output data",
+      "2D Bravais-lattice labels"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Figshare data items)",
+    "links": {
+      "publication": "https://doi.org/10.1038/s41597-021-00824-y",
+      "data": "https://doi.org/10.6084/m9.figshare.11924070.v4",
+      "homepage": "https://jarvis.nist.gov/jarvisstm",
+      "collection": "https://doi.org/10.6084/m9.figshare.c.3883270"
+    },
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41597-021-00824-y",
+        "title": "Computational STM descriptor",
+        "evidence": "Publisher reports 716 exfoliable 2D materials, positive/negative bias constant-height JPEG images and input/output data; JARVIS-STM app offers height/current variation.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://api.figshare.com/v2/articles/11924070",
+        "title": "JARVIS-STM Figshare v4 metadata",
+        "evidence": "Public STM database archive is version 4 under CC BY 4.0; related raw negative-bias archive item also declares CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Parent structures overlap JARVIS-DFT 2D; image/property release is independently useful but not a new material-identity universe.",
+      "Only defect-free surfaces considered in paper cohort.",
+      "Image appearance depends on bias, height/current and simulation approximation; preserve these conditions.",
+      "Existing local JARVIS source inventory mentioned STM, but canonical catalog had no STM record at audit time."
+    ],
+    "tags": [
+      "Scientific Data",
+      "characterization",
+      "computed",
+      "parent-database-derived"
+    ]
+  }
+]

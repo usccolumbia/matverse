@@ -1,0 +1,645 @@
+[
+  {
+    "key": "cloud-al",
+    "url": "https://doi.org/10.24435/MATERIALSCLOUD:VX-FY",
+    "resolved_url": "https://archive.materialscloud.org/records/8djnx-brx78",
+    "status": 200,
+    "bytes": 97811,
+    "sha256": "5841585393d3928c4d3c8368a3b0888d592c827fa05cf4d97c5aeed07438a29e",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "cloud-fracture",
+    "url": "https://doi.org/10.24435/materialscloud:d6-pf",
+    "resolved_url": "https://archive.materialscloud.org/records/pvpcb-mpc63",
+    "status": 200,
+    "bytes": 264655,
+    "sha256": "e679f2ab37c076e6551c3725690cfb327f667e03de4ee6f2c8091246e6011439",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "cloud-tensile",
+    "url": "https://doi.org/10.24435/materialscloud:ws-8j",
+    "resolved_url": "https://archive.materialscloud.org/records/vywsz-wxn79",
+    "status": 200,
+    "bytes": 102456,
+    "sha256": "7bf2e5e4967e718106eac563e7439a2d54b20a8ca8b6801002a90a0e717cb18e",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "enthalpy-collection",
+    "url": "https://api.figshare.com/v2/collections/3822835/articles",
+    "resolved_url": "https://api.figshare.com/v2/collections/3822835/articles",
+    "status": 200,
+    "bytes": 1118,
+    "sha256": "073843e564822ef74003eef5cd650f61eacd821165268d6df1b5b0be6d3168f6",
+    "verified_date": "2026-11-01",
+    "items": [
+      {
+        "id": 5193229,
+        "title": "Dataset of Experimental Formation Enthalpies for Intermetallic Phases and Other Inorganic Compounds Measured by Calorimetry",
+        "doi": "10.6084/m9.figshare.c.3822835_D1.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/5193229",
+        "published_date": "2017-10-20T09:38:54Z",
+        "thumb": "",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 2826,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/5193229",
+        "url_public_api": "https://api.figshare.com/v2/articles/5193229",
+        "url_private_html": "https://figshare.com/account/articles/5193229",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Dataset_of_Experimental_Formation_Enthalpies_for_Intermetallic_Phases_and_Other_Inorganic_Compounds_Measured_by_Calorimetry/5193229",
+        "timeline": {
+          "posted": "2017-10-20T09:38:54",
+          "firstOnline": "2017-10-20"
+        },
+        "resource_title": "Experimental formation enthalpies for intermetallic phases and other inorganic compounds",
+        "resource_doi": "10.1038/sdata.2017.162",
+        "created_date": "2017-10-20T09:38:54Z",
+        "modified_date": "2023-06-05T03:20:14Z"
+      }
+    ]
+  },
+  {
+    "key": "zen-oxygen",
+    "url": "https://zenodo.org/api/records/18947543",
+    "resolved_url": "https://zenodo.org/api/records/18947543",
+    "status": 200,
+    "bytes": 5076,
+    "sha256": "7ac471283b41a0ba15b19c9ab5c829f47bd11878f7528ec3774b8c1741532739",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "Charting the Landscape of Oxygen Ion Conductors: A 60-Year Dataset",
+      "doi": "10.5281/zenodo.18947543",
+      "publication_date": "2026-03-11",
+      "description": "<p><span lang=\"EN-US\">Oxygen ion conductors </span><span lang=\"EN-US\">are indispensable materials for</span><span lang=\"EN-US\"> such as solid oxide fuel cells, sensors, and membranes. Despite extensive research across diverse structural families, systematic data enabling comparative analysis remains scarce. Here, we present a curated dataset of oxygen ion conductors compiled from 84 experimental reports spanning </span><span lang=\"EN-US\"> </span><span lang=\"EN-US\"><span>&nbsp;</span>years, covering 483 materials. Each record includes activation energy (<em>Ea</em>)</span><span lang=\"EN-US\"> and prefactor (<em>A</em>)</span><span lang=\"EN-US\">&nbsp;derived from Arrhenius </span><span lang=\"EN-US\">plots</span><span lang=\"EN-US\">, alongside detailed metadata on structure, composition, measurement method, and data source. When the original papers derive these using&nbsp;an erroneous</span><span><span lang=\"EN-US\">&nbsp;Arrhenius equation</span></span><span lang=\"EN-US\">, we replotted these using the correct one.&nbsp;</span></p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Jang, Seong-Hoon",
+          "affiliation": "Tohoku University",
+          "orcid": "0000-0001-6026-636X"
+        },
+        {
+          "name": "Kiyohara, Shin",
+          "affiliation": "Tohoku University",
+          "orcid": "0000-0003-2890-5760"
+        },
+        {
+          "name": "Takamura, Hitoshi",
+          "affiliation": "Tohoku University",
+          "orcid": "0000-0002-4841-4582"
+        },
+        {
+          "name": "Kumagai, Yu",
+          "affiliation": "Tohoku University",
+          "orcid": "0000-0003-0489-8148"
+        }
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.48550/arXiv.2601.16852",
+          "relation": "isSupplementTo",
+          "resource_type": "other",
+          "scheme": "doi"
+        }
+      ],
+      "dates": [
+        {
+          "type": "submitted"
+        }
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 0,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "18947542"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "74bfc783-2f9e-4f50-a49a-160b0d84b78a",
+        "key": "oxygen_ion_conductor_dataset.csv",
+        "size": 122657,
+        "checksum": "md5:45f25ce4ef0240271ee5c35ea75400f1",
+        "links": {
+          "self": "https://zenodo.org/api/records/18947543/files/oxygen_ion_conductor_dataset.csv/content"
+        }
+      }
+    ]
+  },
+  {
+    "key": "zen-exchange",
+    "url": "https://zenodo.org/api/records/17160565",
+    "resolved_url": "https://zenodo.org/api/records/17160565",
+    "status": 200,
+    "bytes": 4548,
+    "sha256": "eb8fd186aa06296d13954c0286ccaf298ee52e1150195ada559aafddba7e82bb",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "exchange interactions derived from fitting inelastic neutron scattering",
+      "doi": "10.5281/zenodo.17160565",
+      "publication_date": "2025-09-19",
+      "description": "<p>The data contains details of exchange interactions derived from fitting inelastic neutron scattering (INS) data to spin-wave (SW) theory for over 70 magnetic compounds. Additionally, Monte Carlo simulation data for each compound, generated using <a href=\"https://github.com/nafiserb/ESpinS\">ESpinS</a>, is included.<br><br></p>\n<blockquote>\n<p>The data is also available on GitHub: <a href=\"https://github.com/malaei/Magnetic_data/tree/main/INS_SW_MC\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/malaei/Magnetic_data/tree/main/INS_SW_MC</a></p>\n</blockquote>\n<p dir=\"auto\">If you use this dataset, please cite:</p>\n<blockquote>\n<p dir=\"auto\">Mojtaba Alaei, Zahra Mosleh, Nafise Rezaei, Artem R. Oganov,<br><em>From Spin Waves to Monte Carlo Simulations: Compiling an Experimental Exchange Interaction Dataset for Magnetic Materials</em>,<br><a href=\"https://doi.org/10.48550/arXiv.2504.15764\" rel=\"nofollow\">arXiv:2504.15764</a></p>\n</blockquote>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Alaei, Mojtaba",
+          "affiliation": null,
+          "orcid": "0000-0002-8023-9761"
+        }
+      ],
+      "dates": [
+        {
+          "type": "available"
+        }
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 0,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "17160564"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "80e9673e-d1e8-4ac9-9985-35fb5c9b49af",
+        "key": "Magnetic_data-main.zip",
+        "size": 444817570,
+        "checksum": "md5:4273becfbde3b728ee1a0371d082d78b",
+        "links": {
+          "self": "https://zenodo.org/api/records/17160565/files/Magnetic_data-main.zip/content"
+        }
+      }
+    ]
+  },
+  {
+    "key": "zen-itr",
+    "url": "https://zenodo.org/api/records/3564173",
+    "resolved_url": "https://zenodo.org/api/records/3564173",
+    "status": 200,
+    "bytes": 6713,
+    "sha256": "625dccbebb66cd279483b6e8914b9d2a5f6ae8f55bb6a9b4153c2bb2a97e639f",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "Descriptor dataset for predicting interfacial thermal resistance",
+      "doi": "10.5281/zenodo.3564173",
+      "publication_date": "2019-08-06",
+      "description": "<p>We present details of the two datasets&nbsp;for the ITR model training and prediction, one is the &quot;ITR dataset&quot; and the other one is the &quot;descriptor dataset&quot; of various materials. The former dataset shows the ITR values of various interfaces with the measuring temperature, synthesized method, thermal measurement method, sample pre-treatment and its original references. The latter dataset shows the physical, chemical and process descriptors of 298 different materials, which are single element or binary compounds. These materials can construct over 80,000 pair-material systems (e.g. Bi/Si) for ITR prediction. Additionally, the total energy for the binding energy can also be found in the &quot;atom_energy_vasp&quot; file.&nbsp;&nbsp;Further, the training data for the ITR machine-learning model are furnished under the file name&ldquo;training dataset for ITR prediction&rdquo; and can be directly used as training data for ITR predictions.</p>\n\n<p>&nbsp;</p>\n\n<p>Descriptor dataset for predicting interfacial thermal resistance&nbsp;is licensed under a&nbsp;<a href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Wu, YenJu",
+          "affiliation": "National Institute for Materials Science",
+          "orcid": "0000-0003-2647-3407"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Zhan, Tianzhuo",
+          "affiliation": "Waseda University",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Hou, Zhufeng",
+          "affiliation": "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Fang, Lei",
+          "affiliation": "National Institute for Materials Science",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Xu, Yibin",
+          "affiliation": "National Institute for Materials Science",
+          "type": "ProjectLeader"
+        }
+      ],
+      "keywords": [
+        "interfacial thermal resistance",
+        "machine learning",
+        "thermal management",
+        "thermoelectric materials",
+        "thermal insulating film"
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.1038/s41524-019-0193-0",
+          "relation": "isSupplementedBy",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.1021/acsanm.8b00575",
+          "relation": "isSupplementedBy",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.1038/s41597-020-0373-2",
+          "relation": "documents",
+          "scheme": "doi"
+        }
+      ],
+      "references": [
+        "Yen-Ju Wu, Lei Fang, Yibin Xu, npj Computational Materialsvolume 5, Article number: 56 (2019)",
+        "Wu, Y., Zhan, T., Hou, Z. et al. Physical and chemical descriptors for predicting interfacial thermal resistance. Sci Data 7, 36 (2020)."
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 1,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "3361417"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "636cf6f2-603c-4454-aac7-a2725d5a9aab",
+        "key": "descriptor dataset.xlsx",
+        "size": 52392,
+        "checksum": "md5:d18a610a1cb8deccf6840cb65c7ac6e1",
+        "links": {
+          "self": "https://zenodo.org/api/records/3564173/files/descriptor%20dataset.xlsx/content"
+        }
+      },
+      {
+        "id": "6f342876-c511-42c4-a76a-69877ae16846",
+        "key": "ITR dataset.xlsx",
+        "size": 151515,
+        "checksum": "md5:2f84230eee970c5c12781bd29e9b1402",
+        "links": {
+          "self": "https://zenodo.org/api/records/3564173/files/ITR%20dataset.xlsx/content"
+        }
+      },
+      {
+        "id": "d08b6aad-b6d9-4e6a-9e9a-07b06b97a75f",
+        "key": "training dataset for ITR prediction.xlsx",
+        "size": 148737,
+        "checksum": "md5:a8455eb9718334f6b625c28370606198",
+        "links": {
+          "self": "https://zenodo.org/api/records/3564173/files/training%20dataset%20for%20ITR%20prediction.xlsx/content"
+        }
+      },
+      {
+        "id": "4a9da2ae-4b69-465d-a5ac-7dacc084eec4",
+        "key": "atom_energy_vasp.xlsx",
+        "size": 13295,
+        "checksum": "md5:7471d8b743fa9f36458f9bac62487e46",
+        "links": {
+          "self": "https://zenodo.org/api/records/3564173/files/atom_energy_vasp.xlsx/content"
+        }
+      }
+    ]
+  },
+  {
+    "key": "zen-elastic-ti",
+    "url": "https://zenodo.org/api/records/7813732",
+    "resolved_url": "https://zenodo.org/api/records/14617243",
+    "status": 200,
+    "bytes": 6179,
+    "sha256": "8959002628da609c35784555c07428c08343342db246ffa10a3199a21d3da545",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "BAM reference data: Temperature-dependent Young's and shear modulus data for additively and conventionally manufactured variants of Ti-6Al-4V",
+      "doi": "10.5281/zenodo.14617243",
+      "publication_date": "2025-01-08",
+      "description": "<p>This BAM reference dataset reports the elastic properties (Young's modulus, shear modulus) of titanium alloy Ti-6Al-4V between room temperature and 400 &deg;C in an additively manufactured variant (laser-based directed energy deposition with powder as feedstock, DED-LB/M) and from a conventional process route (hot rolled bar). It was generated in an accredited test laboratory using calibrated measuring equipment. The calibrations meet the requirements of the test procedure and are metrologically traceable. The dataset was audited as BAM reference data.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Rehmer, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0002-9189-1595"
+        },
+        {
+          "name": "Bayram, Faruk",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "\u00c1vila Calder\u00f3n, Luis Alexander",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0012-2414"
+        },
+        {
+          "name": "Mohr, Gunther",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "Skrotzki, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0727-5499"
+        }
+      ],
+      "keywords": [
+        "elastic modulus",
+        "Young's modulus",
+        "shear modulus",
+        "temperature dependence",
+        "additive manufacturing",
+        "titanium alloy",
+        "Ti-6Al-4V"
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.1038/s41597-023-02387-6",
+          "relation": "isCitedBy",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "version": "1.1",
+      "language": "eng",
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "communities": [
+        {
+          "id": "bam"
+        }
+      ],
+      "relations": {
+        "version": [
+          {
+            "index": 1,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "7813732"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "4ab7eb8a-d222-4a3c-9695-2c7b577c0e3c",
+        "key": "2025-01-08_Coversheet_Ti-6Al-4V.pdf",
+        "size": 94057,
+        "checksum": "md5:309dfac0f78157d4e2a813bbb0dd2672",
+        "links": {
+          "self": "https://zenodo.org/api/records/14617243/files/2025-01-08_Coversheet_Ti-6Al-4V.pdf/content"
+        }
+      },
+      {
+        "id": "faa0ae15-f9ad-4bf1-b079-5833ae53af41",
+        "key": "Ti6Al4V_final.xlsx",
+        "size": 50630,
+        "checksum": "md5:a1562ad49abec6f057a7db4559fb574a",
+        "links": {
+          "self": "https://zenodo.org/api/records/14617243/files/Ti6Al4V_final.xlsx/content"
+        }
+      }
+    ]
+  },
+  {
+    "key": "zen-elastic-in",
+    "url": "https://zenodo.org/api/records/7813824",
+    "resolved_url": "https://zenodo.org/api/records/14617176",
+    "status": 200,
+    "bytes": 6147,
+    "sha256": "7ab0896dc30acb88027710d3f612cfc3b56933947e81cfeeb37ce62e6b041fcd",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "BAM reference data: Temperature-dependent Young's and shear modulus data for additively and conventionally manufactured variants of Ni-based alloy Inconel IN718",
+      "doi": "10.5281/zenodo.14617176",
+      "publication_date": "2025-01-08",
+      "description": "<p>This BAM reference dataset reports the elastic properties (Young's modulus, shear modulus) of Ni-based alloy Inconel IN718 between room temperature and 800 &deg;C in an additively manufactured variant (laser powder bed fusion, PBF\u2011LB/M) and from a conventional process route (hot rolled bar). It was generated in an accredited test laboratory using calibrated measuring equipment. The calibrations meet the requirements of the test procedure and are metrologically traceable. The dataset was audited as BAM reference data.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Rehmer, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0002-9189-1595"
+        },
+        {
+          "name": "Bayram, Faruk",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "\u00c1vila Calder\u00f3n, Luis Alexander",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0012-2414"
+        },
+        {
+          "name": "Mohr, Gunther",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "Skrotzki, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0727-5499"
+        }
+      ],
+      "keywords": [
+        "elastic modulus",
+        "Young's modulus",
+        "shear modulus",
+        "temperature dependence",
+        "additive manufacturing",
+        "nickel based alloy",
+        "IN718"
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.1038/s41597-023-02387-6",
+          "relation": "isCitedBy",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "version": "1.1",
+      "language": "eng",
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "communities": [
+        {
+          "id": "bam"
+        }
+      ],
+      "relations": {
+        "version": [
+          {
+            "index": 1,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "7813824"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "dc6e51fe-523f-4c7c-9465-6fb76b3ac8ca",
+        "key": "2025-01-08_Coversheet_IN718.pdf",
+        "size": 127884,
+        "checksum": "md5:906add6d87d4151b5857c48f49305d53",
+        "links": {
+          "self": "https://zenodo.org/api/records/14617176/files/2025-01-08_Coversheet_IN718.pdf/content"
+        }
+      },
+      {
+        "id": "2414d218-fa01-4728-ba31-1a6e5886b469",
+        "key": "IN718_final.xlsx",
+        "size": 50217,
+        "checksum": "md5:413bc87cb7eba605bdff446f2f55670b",
+        "links": {
+          "self": "https://zenodo.org/api/records/14617176/files/IN718_final.xlsx/content"
+        }
+      }
+    ]
+  },
+  {
+    "key": "zen-elastic-ss",
+    "url": "https://zenodo.org/api/records/7813835",
+    "resolved_url": "https://zenodo.org/api/records/14616480",
+    "status": 200,
+    "bytes": 6203,
+    "sha256": "fad7c72d16f724256420d05d9d9065956deaac4ec5ef954b5068e7f5cff51af2",
+    "verified_date": "2026-11-01",
+    "metadata": {
+      "title": "BAM reference data: Temperature-dependent Young's and shear modulus data for additively and conventionally manufactured variants of austenitic stainless steel AISI 316L",
+      "doi": "10.5281/zenodo.14616480",
+      "publication_date": "2025-01-08",
+      "description": "<p><span>This BAM reference dataset reports the elastic properties (Young's modulus, shear modulus) of austenitic stainless steel AISI 316L between room temperature and 900 &deg;C in an additively manufactured variant (laser powder bed fusion, PBF</span><span>\u2011</span><span>LB/M) and from a conventional process route (hot rolled sheet). It was generated in an accredited test laboratory using calibrated measuring equipment. The calibrations meet the requirements of the test procedure and are metrologically traceable. The dataset was audited as BAM reference data.</span></p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Rehmer, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0002-9189-1595"
+        },
+        {
+          "name": "Bayram, Faruk",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "\u00c1vila Calder\u00f3n, Luis Alexander",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0012-2414"
+        },
+        {
+          "name": "Mohr, Gunther",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)"
+        },
+        {
+          "name": "Skrotzki, Birgit",
+          "affiliation": "Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM)",
+          "orcid": "0000-0003-0727-5499"
+        }
+      ],
+      "keywords": [
+        "elastic modulus",
+        "Young's modulus",
+        "shear modulus",
+        "temperature dependence",
+        "additive manufacturing",
+        "stainless steel",
+        "AISI 316L"
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.1038/s41597-023-02387-6",
+          "relation": "isCitedBy",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "version": "1.1",
+      "language": "eng",
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "communities": [
+        {
+          "id": "bam"
+        }
+      ],
+      "relations": {
+        "version": [
+          {
+            "index": 1,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "7813835"
+            }
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "id": "40a153ea-18e1-45fd-839e-fd4da55479e4",
+        "key": "2025-01-08_Coversheet_316L.pdf",
+        "size": 135294,
+        "checksum": "md5:db6c7473734ae24a2bea416f697c4cf7",
+        "links": {
+          "self": "https://zenodo.org/api/records/14616480/files/2025-01-08_Coversheet_316L.pdf/content"
+        }
+      },
+      {
+        "id": "08307d1f-eeeb-4a3f-af39-dd954ec50bed",
+        "key": "316_final.xlsx",
+        "size": 70395,
+        "checksum": "md5:679250471a1f927aa1856e232a08a5de",
+        "links": {
+          "self": "https://zenodo.org/api/records/14616480/files/316_final.xlsx/content"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1763 @@
+[
+  {
+    "title": "Northeast Materials Database (NEMAD) — magnetic materials",
+    "doi": "10.1038/s41467-025-64458-z",
+    "paper_id": "doi:10.1038/s41467-025-64458-z",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "nemad-magnetic",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "The northeast materials database for magnetic materials",
+      "authors": [
+        "Suman Itani",
+        "Yibo Zhang",
+        "Jiadong Zang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Suman Itani",
+          "orcid": "0009-0000-3142-7881",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Zhang",
+          "orcid": "0000-0001-8150-1111",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiadong Zang",
+          "orcid": "0000-0002-5089-9806",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-025-64458-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-025-64458-z",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-025-64458-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": ") of 0.87 (0.83) and a mean absolute error (MAE) of 56K (38K). These models identified 25 (13) FM (AFM) candidates with a predicted Curie (Néel) temperature above 500K (100K) from the Materials Project. This work shows the feasibility of combining LLMs for automated data extraction and machine learning models to accelerate the discovery of magnetic materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4415518022",
+    "verified_doi": "https://doi.org/10.1038/s41467-025-64458-z"
+  },
+  {
+    "title": "NEMAD / GPTArticleExtractor thermoelectric database",
+    "doi": "10.1016/j.commatsci.2025.113855",
+    "paper_id": "doi:10.1016/j.commatsci.2025.113855",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "nemad-thermoelectric",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Large language model-driven database for thermoelectric materials",
+      "authors": [
+        "Suman Itani",
+        "Yibo Zhang",
+        "Jiadong Zang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Suman Itani",
+          "orcid": "0009-0000-3142-7881",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Zhang",
+          "orcid": "0000-0001-8150-1111",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiadong Zang",
+          "orcid": "0000-0002-5089-9806",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2025.113855",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2025.113855",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2501.00564",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4408973355",
+    "verified_doi": "https://doi.org/10.1016/j.commatsci.2025.113855"
+  },
+  {
+    "title": "teMatDb272 thermoelectric material database",
+    "doi": "10.48550/arxiv.2505.19150",
+    "paper_id": "doi:10.48550/arxiv.2505.19150",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "tematdb272",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "A High-Quality Thermoelectric Material Database with Self-Consistent ZT Filtering",
+      "authors": [
+        "Byungki Ryu",
+        "Ji Hui Son",
+        "Park, Sungjin",
+        "Jaywan Chung",
+        "Hye-Jin Lim",
+        "SuJi Park",
+        "Do, Yujeong",
+        "Su-Dong Park"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Byungki Ryu",
+          "orcid": "0000-0002-0867-6457",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ji Hui Son",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Park, Sungjin",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaywan Chung",
+          "orcid": "0000-0001-5281-6771",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hye-Jin Lim",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "SuJi Park",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Do, Yujeong",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Su-Dong Park",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2505.19150",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2505.19150",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2505.19150",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "This study presents a curated thermoelectric material database, teMatDb, constructed by digitizing literature-reported data. It includes temperature-dependent thermoelectric properties (TEPs), Seebeck coefficient, electrical resistivity, thermal conductivity, and figure of merit (ZT), along with metadata on materials and their corresponding publications. A self-consistent ZT (Sc-ZT) filter set was developed to measure ZT errors by comparing reported ZT's from figures with ZT's recalculated from digitized TEPs. Using this Sc-ZT protocol, we generated tMatDb272, comprising 14,717 temperature-property pairs from 272 high-quality TEP sets across 262 publications. The method identifies various types of ZT errors, such as resolution error, publication bias, ZT overestimation, interpolation and extrapolation error, and digitization noise, and excludes inconsistent samples from the dataset. teMatDb272 and the Sc-ZT filtering framework offer a robust dataset for data-driven and machine-learning-based materials design, device modeling, and future thermoelectric research.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4417262147",
+    "verified_doi": "https://doi.org/10.48550/arxiv.2505.19150"
+  },
+  {
+    "title": "ESTM experimentally synthesized thermoelectric materials",
+    "doi": "10.1038/s41524-022-00897-2",
+    "paper_id": "doi:10.1038/s41524-022-00897-2",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "estm-simd",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "A public database of thermoelectric materials and system-identified material representation for data-driven discovery",
+      "authors": [
+        "Gyoung S. Na",
+        "Hyunju Chang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Gyoung S. Na",
+          "orcid": "0000-0001-9803-0782",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00897-2",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00897-2",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00897-2.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermoelectric materials have received much attention as energy harvesting devices and power generators. However, discovering novel high-performance thermoelectric materials is challenging due to the structural diversity and complexity of the thermoelectric materials containing alloys and dopants. For the efficient data-driven discovery of novel thermoelectric materials, we constructed a public dataset that contains experimentally synthesized thermoelectric materials and their experimental thermoelectric properties. For the collected dataset, we were able to construct prediction models that achieved R2-scores greater than 0.9 in the regression problems to predict the experimentally measured thermoelectric properties from the chemical compositions of the materials. Furthermore, we devised a material descriptor for the chemical compositions of the materials to improve the extrapolation capabilities of machine learning methods. Based on transfer learning with the proposed material descriptor, we significantly improved the R2-score from 0.13 to 0.71 in predicting experimental ZTs of the materials from completely unexplored material groups.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4303648596",
+    "verified_doi": "https://doi.org/10.1038/s41524-022-00897-2"
+  },
+  {
+    "title": "WenzhouTE computed thermoelectric database",
+    "doi": "10.3390/ma17102200",
+    "paper_id": "doi:10.3390/ma17102200",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "wenzhou-te",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Wenzhou TE: A First-Principle-Calculated Thermoelectric Materials Database",
+      "authors": [
+        "Ying Fang",
+        "Hezhu Shao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Ying Fang",
+          "orcid": "0009-0004-3125-5804",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hezhu Shao",
+          "orcid": "0000-0002-8945-6973",
+          "affiliations": [
+            "Wenzhou University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma17102200",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma17102200",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/ma17102200",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Since the implementation of the Materials Genome Project by the Obama administration in the United States, the development of various computational materials' databases has fundamentally expanded the choice of industries such as materials and energy. In the field of thermoelectric materials, the thermoelectric figure of merit (ZT) quantifies the performance of the material. From the viewpoint of calculations for vast materials, the ZT values are not easily obtained due to their computational complexity. Here, we show how to build a database of thermoelectric materials based on first-principle calculations for the electronic and heat transport of materials. Firstly, the initial structures are classified according to the values of bandgap and other basic properties using the clustering algorithm K-means in machine learning, and high-throughput first principle calculations are carried out for narrow-bandgap semiconductors which exhibit a potential thermoelectric application. The present framework of calculations mainly includes a deformation potential module, an electrical transport performance module, a mechanical and a thermodynamic properties module. We have also set up a search webpage for the calculated database of thermoelectric materials, providing search facilities and the ability to view the related physical properties of materials. Our work may inspire the construction of more computational databases of first-principle thermoelectric materials and accelerate research progress in the field of thermoelectrics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4396746911",
+    "verified_doi": "https://doi.org/10.3390/ma17102200"
+  },
+  {
+    "title": "HH130 half-Heusler thermal-transport / MLIP release",
+    "doi": "10.1039/D4DD00240G",
+    "paper_id": "doi:10.1039/D4DD00240G",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "hh130-mathub",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "HH130: a standardized database of machine learning interatomic potentials, datasets, and its applications in the thermal transport of half-Heusler thermoelectrics",
+      "authors": [
+        "Yuyan Yang",
+        "Yifei Lin",
+        "Shengnan Dai",
+        "Yifan Zhu",
+        "Jinyang Xi",
+        "Lili Xi",
+        "Xiaokun Gu",
+        "David Joseph Singh",
+        "Wenqing Zhang",
+        "Jiong Yang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yuyan Yang",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifei Lin",
+          "orcid": "0000-0002-3184-9213",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shengnan Dai",
+          "orcid": "0000-0002-1077-3934",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifan Zhu",
+          "orcid": "0000-0002-6351-8582",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Southern University of Science and Technology",
+            "Shanghai Institute of Ceramics",
+            "University of Chinese Academy of Sciences",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyang Xi",
+          "orcid": "0000-0003-4198-2840",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lili Xi",
+          "orcid": "0000-0003-3173-5547",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaokun Gu",
+          "orcid": "0000-0003-3803-3951",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Joseph Singh",
+          "orcid": "0000-0001-7750-1485",
+          "affiliations": [
+            "University of Missouri"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenqing Zhang",
+          "orcid": "0000-0002-2551-6375",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Southern University of Science and Technology",
+            "Shanghai Institute of Ceramics",
+            "State Key Laboratory of High Performance Ceramics and Superfine Microstructure",
+            "Guangdong Provincial Key Laboratory Of Computational Science And Material Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiong Yang",
+          "orcid": "0000-0002-5862-5981",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d4dd00240g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4dd00240g",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/dd/d4dd00240g",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "The HH130, a standardized machine-learning interatomic potential database for 130 half-Heusler compounds. The lattice thermal conductivities considering both three and four phonon interactions for the half-Heuslers have been studied by using HH130.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4403317442",
+    "verified_doi": "https://doi.org/10.1039/d4dd00240g"
+  },
+  {
+    "title": "DAX-Ti experimental Ti-alloy mechanical-property compilation",
+    "doi": "10.1038/s41597-022-01283-9",
+    "paper_id": "doi:10.1038/s41597-022-01283-9",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "dax-ti-experimental",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+      "authors": [
+        "Camilo Augusto Fernandes Salvador",
+        "Eloá Lopes Maia",
+        "Fernando Henrique da Costa",
+        "Julián Escobar",
+        "J.P. Oliveira"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Camilo Augusto Fernandes Salvador",
+          "orcid": "0000-0002-9128-2044",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eloá Lopes Maia",
+          "orcid": "0000-0002-8662-4855",
+          "affiliations": [
+            "Vrije Universiteit Brussel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fernando Henrique da Costa",
+          "orcid": "0000-0001-6602-5751",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julián Escobar",
+          "orcid": "0000-0001-9057-8671",
+          "affiliations": [
+            "Universidade de São Paulo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.P. Oliveira",
+          "orcid": "0000-0001-6906-1870",
+          "affiliations": [
+            "Centro de Investigação em Materiais",
+            "Universidade Nova de Lisboa"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01283-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01283-9",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01283-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The present work depicts a compilation of mechanical properties of 282 distinct multicomponent Ti-based alloys and their respective microstructural features. The dataset includes the chemical composition (in at.%), phase constituents, Young modulus, hardness, yield strength, ultimate strength, and elongation. Each entry is associated with a high-quality experimental work containing a complete description of the processing route and testing setup. Furthermore, we incorporated flags to the dataset indicating (a) the use of high-resolution techniques for microstructural analysis and (b) the observation of non-linear elastic responses during mechanical testing. Oxygen content and average grain size are presented whenever available. The selected features can help material scientists to adjust the data to their needs concerning materials selection and discovery. Most alloys in the dataset were produced via an ingot metallurgy route, followed by solubilization and water quench (≈58%), which is considered a standard condition for β-Ti alloys. The database is hosted and maintained up to date in an open platform. For completeness, a few graphical representations of the dataset are included.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4224708312",
+    "verified_doi": "https://doi.org/10.1038/s41597-022-01283-9"
+  },
+  {
+    "title": "Copper-alloy mechanical properties and electrical conductivity (Gorsse 2023)",
+    "doi": "10.1038/s41597-023-02411-9",
+    "paper_id": "doi:10.1038/s41597-023-02411-9",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "cu-alloys-mechanical-2023",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Dataset of mechanical properties and electrical conductivity of copper-based alloys",
+      "authors": [
+        "Stéphane Gorsse",
+        "Mohamed Gouné",
+        "Wei-Chih Lin",
+        "Lionel Girard"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Stéphane Gorsse",
+          "orcid": "0000-0003-1966-8476",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohamed Gouné",
+          "orcid": "0000-0003-1321-7308",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei-Chih Lin",
+          "orcid": "0000-0002-0143-1174",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université de Bordeaux",
+            "National Tsing Hua University",
+            "Institut de Chimie de la Matière Condensée de Bordeaux",
+            "Institut Polytechnique de Bordeaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel Girard",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02411-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02411-9",
+      "cited_by_count": 67,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02411-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This article presents a collection of data on approximately 150 copper-based alloys. The data compilation is based on articles published since 1993 and consists of about 1830 records. Each record contains a unique set of descriptors, such as composition and processing route, and targets, including properties such as hardness, yield strength, ultimate tensile strength, and electrical conductivity. The dataset includes information on the composition in mass percent of 20 alloying elements, and hundreds of temperature-time thermal treatments and thermomechanical conditions. The database is continually updated and hosted on an open data repository. Some of the data are presented graphically in the article to aid interpretation. This study intends to promote the identification of more sustainable alternatives to Cu-Be alloys, which is particularly relevant in developing non-toxic and environmentally-friendly alloys.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4385382202",
+    "verified_doi": "https://doi.org/10.1038/s41597-023-02411-9"
+  },
+  {
+    "title": "Cu-Cr-X mechanical and electrical property dataset",
+    "doi": "10.1038/s41597-025-06295-9",
+    "paper_id": "doi:10.1038/s41597-025-06295-9",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "cu-cr-x-figure-extraction",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Mechanical and Electrical Properties dataset of Cu-Cr-X alloys generated with automated figure data extraction",
+      "authors": [
+        "Peiwen Yun",
+        "Huadong Fu",
+        "Hongtao Zhang",
+        "Lei Jiang",
+        "Xingyu Xiao",
+        "Shuaicheng Zhu",
+        "Yujiao Jia",
+        "Changtai Li",
+        "Wenjin Yang",
+        "Jianxin Xie"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Peiwen Yun",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huadong Fu",
+          "orcid": "0000-0001-6239-8075",
+          "affiliations": [
+            "Liaoning Academy of Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongtao Zhang",
+          "orcid": "0000-0002-0756-9705",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lei Jiang",
+          "orcid": "0009-0007-1000-5752",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingyu Xiao",
+          "orcid": "0000-0003-1691-9866",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuaicheng Zhu",
+          "orcid": "0009-0001-3424-5503",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yujiao Jia",
+          "orcid": "0009-0008-0703-826X",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changtai Li",
+          "orcid": "0000-0002-9372-9452",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenjin Yang",
+          "orcid": "0009-0005-6768-4667",
+          "affiliations": [
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianxin Xie",
+          "orcid": "0000-0001-8429-471X",
+          "affiliations": [
+            "Liaoning Academy of Materials",
+            "University of Science and Technology Beijing"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-025-06295-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-025-06295-9",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-025-06295-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Extracting data from scientific literature and constructing machine learning-ready (ML-ready) datasets is crucial for data-driven materials discovery. However, material properties under various compositions and processing conditions are often summarized in figures, making manual data extraction time-consuming and labor-intensive. In this study, we propose an automated figure data extraction tool to rapidly generate datasets from figures in materials science literature on Cu-Cr-X alloys used in high-end lead frames, aiming to support the development of next-generation high-strength, high-conductivity copper alloys. We collected 251 figures containing mechanical and electrical performance data from 146 papers and automatically extracted 3,018 high-quality Cu-Cr-X data records. Each record includes article metadata and composition/processing information manually extracted from text, enabling construction of a domain-specific dataset linking alloy composition, processing, and properties. The dataset summarizes 20 microalloying elements and mechanical and electrical performance under different processing conditions. This tool can significantly improve the efficiency of large-scale data accumulation in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4417227975",
+    "verified_doi": "https://doi.org/10.1038/s41597-025-06295-9"
+  },
+  {
+    "title": "polyVERSE load-dependent experimental Vickers hardness",
+    "doi": "10.1007/s00339-026-09913-4",
+    "paper_id": "doi:10.1007/s00339-026-09913-4",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "polyverse-load-hardness",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Load-dependent hardness prediction for materials using machine learning",
+      "authors": [
+        "Madhubanti Mukherjee",
+        "Rampi Ramprasad",
+        "Harikrishna Sahu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Madhubanti Mukherjee",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rampi Ramprasad",
+          "orcid": "0000-0003-4630-1565",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Harikrishna Sahu",
+          "orcid": "0000-0001-5458-9488",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Applied Physics A",
+      "doi": "10.1007/s00339-026-09913-4",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00339-026-09913-4",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00339-026-09913-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Superhard materials are critical for wear-resistant and high-stress applications. Conventional approaches correlating hardness with elastic moduli derived from DFT calculations enable rapid screening but overlook the strong load dependence of hardness. In this work, machine learning (ML) models were developed using a large, curated dataset of load-dependent experimental Vickers hardness (H $$_v$$ ) measurements. Moderate correlation was observed between experimental and DFT-based H $$_v$$ values, whereas a single-task ML model trained solely on experimental data outperformed multi-task models that combined experimental and computed data. The superior performance of the single-task model highlights that explicit inclusion of indentation load, along with compositional, electronic, and structural descriptors, is essential and sufficient for accurate hardness prediction, beyond what can be achieved using DFT-accessible bulk and shear moduli alone (or in tandem with experimental data). Specifically, the single-task Gaussian Process Regression (GPR) yields a train-test root mean squared error (RMSE) in a range of 2.73-2.90/3.16-3.91 GPa and $$R^2$$ in a range of 0.96-0.95/0.94-0.91 across five random splits of train and test sets. These results emphasize the importance of high-quality experimental data and explicit inclusion of measurement conditions, particularly load, in the development of reliable hardness prediction models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W7168336479",
+    "verified_doi": "https://doi.org/10.1007/s00339-026-09913-4"
+  },
+  {
+    "title": "LLM-extracted magnetocaloric materials database (Yuan–Yang–Patra–Liao)",
+    "doi": "10.1063/5.0206855",
+    "paper_id": "doi:10.1063/5.0206855",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "mce-llm-2024",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Enhancing magnetocaloric material discovery: A machine learning approach using an autogenerated database by large language models",
+      "authors": [
+        "Jiaoyue Yuan",
+        "Runqing Yang",
+        "Lokanath Patra",
+        "Bolin Liao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Jiaoyue Yuan",
+          "orcid": "0009-0005-7945-8974",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Runqing Yang",
+          "orcid": "0009-0009-7884-7467",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lokanath Patra",
+          "orcid": "0000-0002-1050-5665",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bolin Liao",
+          "orcid": "0000-0002-0898-0803",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AIP Advances",
+      "doi": "10.1063/5.0206855",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0206855",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1063/5.0206855",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnetic cooling based on the magnetocaloric effect is a promising solid-state refrigeration technology for a wide range of applications in different temperature ranges. Previous studies have mostly focused on near room temperature (300 K) and cryogenic temperature (<10 K) ranges, while important applications such as hydrogen liquefaction call for efficient magnetic refrigerants for the intermediate temperature range of 10–100 K. For efficient use in this range, new magnetocaloric materials with matching Curie temperatures need to be discovered, while conventional experimental approaches are typically time-consuming and expensive. Here, we report a computational material discovery pipeline based on a materials database containing more than 6000 entries auto-generated by extracting reported material properties from the literature using a large language model. We then use this database to train a machine learning model that can efficiently predict the magnetocaloric properties of materials based on their chemical composition. We further verify the magnetocaloric properties of the predicted compounds using ab initio atomistic spin dynamics simulations to complete the computational material discovery. Using this approach, we identify 11 new promising magnetocaloric materials for the target temperature range. Our work demonstrates the potential of combining large language models, machine learning, and ab initio simulations to efficiently discover new functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4402160814",
+    "verified_doi": "https://doi.org/10.1063/5.0206855"
+  },
+  {
+    "title": "FatigueData-CMA2022 complex metallic-alloy fatigue database",
+    "doi": "10.1038/s41597-023-02354-1",
+    "paper_id": "doi:10.1038/s41597-023-02354-1",
+    "disposition": "added",
+    "reason": "Independent release or substantial new property cohort absent from current catalog; uncertainty retained in complete candidate record.",
+    "dataset_id": "fatiguedata-cma2022",
+    "existing_id": null,
+    "openalex_result": {
+      "title": "Fatigue database of complex metallic alloys",
+      "authors": [
+        "Zian Zhang",
+        "Haoxuan Tang",
+        "Zhiping Xu"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Zian Zhang",
+          "orcid": "0009-0003-0037-8417",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoxuan Tang",
+          "orcid": "0009-0006-3034-990X",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiping Xu",
+          "orcid": "0000-0002-2833-1966",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-023-02354-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-023-02354-1",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-023-02354-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The past few decades have witnessed rapid progresses in the research and development of complex metallic alloys such as metallic glasses and multi-principal element alloys, which offer new solutions to tackle engineering problems of materials such as the strength-toughness conflict and deployment in harsh environments and/or for long-term service. A fatigue database (FatigueData-CMA2022) is compiled from the literature by the end of 2022. Data for both metallic glasses and multi-principal element alloys are included and analyzed for their statistics and patterns. Automatic extraction and manual examination are combined in the workflow to improve the efficiency of processing, the quality of published data, and the reusability. The database contains 272 fatigue datasets of S-N (the stress-life relation), ε-N (the strain-life relation), and da/dN-ΔK (the relation between the fatigue crack growth rate and the stress intensity factor range) data, together with the information of materials, processing and testing conditions, and mechanical properties. The database and scripts are released in open repositories, which are designed in formats that can be continuously expanded and updated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    "discovery": "paper-search OpenAlex query",
+    "openalex_id": "https://openalex.org/W4384023820",
+    "verified_doi": "https://doi.org/10.1038/s41597-023-02354-1"
+  },
+  {
+    "title": "An ab initio electronic transport database for inorganic materials",
+    "doi": "10.1038/sdata.2017.85",
+    "paper_id": "doi:10.1038/sdata.2017.85",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "mp-boltztrap-transport",
+    "openalex_result": {
+      "title": "An ab initio electronic transport database for inorganic materials",
+      "authors": [
+        "Francesco Ricci",
+        "Wei Chen",
+        "Umut Aydemir",
+        "Gerald Jeffrey Snyder",
+        "Gian‐Marco Rignanese",
+        "Anubhav Jain",
+        "Geoffroy Hautier"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Francesco Ricci",
+          "orcid": "0000-0002-2677-7227",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Illinois Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Umut Aydemir",
+          "orcid": "0000-0003-1164-1973",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gian‐Marco Rignanese",
+          "orcid": "0000-0002-1422-1205",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Geoffroy Hautier",
+          "orcid": "0000-0003-1754-2220",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2017.85",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2017.85",
+      "cited_by_count": 236,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201785.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Electronic transport in materials is governed by a series of tensorial properties such as conductivity, Seebeck coefficient, and effective mass. These quantities are paramount to the understanding of materials in many fields from thermoelectrics to electronics and photovoltaics. Transport properties can be calculated from a material's band structure using the Boltzmann transport theory framework. We present here the largest computational database of electronic transport properties based on a large set of 48,000 materials originating from the Materials Project database. Our results were obtained through the interpolation approach developed in the BoltzTraP software, assuming a constant relaxation time. We present the workflow to generate the data, the data validation procedure, and the database structure. Our aim is to target the large community of scientists developing materials selection strategies and performing studies involving transport properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    "discovery": "paper-search OpenAlex query"
+  },
+  {
+    "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+    "doi": "10.1038/sdata.2015.9",
+    "paper_id": "doi:10.1038/sdata.2015.9",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "mp-elastic-2015",
+    "openalex_result": {
+      "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+      "authors": [
+        "Maarten de Jong",
+        "Wei Chen",
+        "Thomas Angsten",
+        "Anubhav Jain",
+        "Randy J. Notestine",
+        "Anthony C. Gamst",
+        "Marcel H. F. Sluiter",
+        "Chaitanya Krishna Ande",
+        "Sybrand van der Zwaag",
+        "José J. Plata",
+        "Cormac Toher",
+        "Stefano Curtarolo A",
+        "Gerbrand Ceder",
+        "Kristin Aslaug Persson",
+        "Mark Asta"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Maarten de Jong",
+          "orcid": "0009-0006-7842-4892",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Angsten",
+          "orcid": "0000-0001-8763-5321",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Randy J. Notestine",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anthony C. Gamst",
+          "orcid": null,
+          "affiliations": [
+            "San Diego Supercomputer Center",
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marcel H. F. Sluiter",
+          "orcid": "0000-0002-6514-4318",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chaitanya Krishna Ande",
+          "orcid": "0000-0001-7016-296X",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sybrand van der Zwaag",
+          "orcid": "0000-0001-5085-0255",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "José J. Plata",
+          "orcid": "0000-0002-0859-0450",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cormac Toher",
+          "orcid": "0000-0001-7073-8690",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefano Curtarolo A",
+          "orcid": "0000-0003-0570-8238",
+          "affiliations": [
+            "Duke University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "orcid": "0000-0001-9275-3605",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Asta",
+          "orcid": "0000-0002-8968-321X",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2015.9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2015.9",
+      "cited_by_count": 1009,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata20159.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The elastic constant tensor of an inorganic compound provides a complete description of the response of the material to external stresses in the elastic limit. It thus provides fundamental insight into the nature of the bonding in the material, and it is known to correlate with many mechanical properties. Despite the importance of the elastic constant tensor, it has been measured for a very small fraction of all known inorganic compounds, a situation that limits the ability of materials scientists to develop new materials with targeted mechanical responses. To address this deficiency, we present here the largest database of calculated elastic properties for inorganic compounds to date. The database currently contains full elastic information for 1,181 inorganic compounds, and this number is growing steadily. The methods used to develop the database are described, as are results of tests that establish the accuracy of the data. In addition, we document the database format and describe the different ways it can be accessed and analyzed in efforts related to materials discovery and design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    },
+    "discovery": "paper-search OpenAlex query"
+  },
+  {
+    "title": "Auto-generated materials database of Curie and Néel temperatures via semi-supervised relationship extraction",
+    "doi": "10.1038/sdata2018111",
+    "paper_id": "doi:10.1038/sdata2018111",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "cde-curie-neel-2018",
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "A thermoelectric materials database auto-generated from the scientific literature using ChemDataExtractor",
+    "doi": "10.1038/s41597-022-01752-1",
+    "paper_id": "doi:10.1038/s41597-022-01752-1",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "cde-thermoelectric",
+    "openalex_result": {
+      "title": "A thermoelectric materials database auto-generated from the scientific literature using ChemDataExtractor",
+      "authors": [
+        "Odysseas Sierepeklis",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Odysseas Sierepeklis",
+          "orcid": "0000-0002-5102-1018",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01752-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01752-1",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01752-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "An auto-generated thermoelectric-materials database is presented, containing 22,805 data records, automatically generated from the scientific literature, spanning 10,641 unique extracted chemical names. Each record contains a chemical entity and one of the seminal thermoelectric properties: thermoelectric figure of merit, ZT; thermal conductivity, κ; Seebeck coefficient, S; electrical conductivity, σ; power factor, PF; each linked to their corresponding recorded temperature, T. The database was auto-generated using the automatic sentence-parsing capabilities of the chemistry-aware, natural language processing toolkit, ChemDataExtractor 2.0, adapted for application in the thermoelectric-materials domain, following a rule-based sentence-simplification step. Data were mined from the text of 60,843 scientific papers that were sourced from three scientific publishers: Elsevier, the Royal Society of Chemistry, and Springer. To the best of our knowledge, this is the first automatically-generated database of thermoelectric materials and their properties from existing literature. The database was evaluated to have a precision of 82.25% and has been made publicly available to facilitate the application of data science in the thermoelectric-materials domain, for analysis, design, and prediction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    "discovery": "paper-search OpenAlex query"
+  },
+  {
+    "title": "Database and deep-learning scalability of anharmonic phonon properties by automated brute-force first-principles calculations",
+    "doi": "10.48550/arxiv.2504.21245",
+    "paper_id": "doi:10.48550/arxiv.2504.21245",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "phonix",
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "A high-throughput framework for lattice dynamics",
+    "doi": "10.1038/s41524-024-01437-w",
+    "paper_id": "doi:10.1038/s41524-024-01437-w",
+    "disposition": "existing",
+    "reason": "Already covered by listed catalog record; no separate addition.",
+    "dataset_id": null,
+    "existing_id": "phonondb-mdr-ltc",
+    "openalex_result": {
+      "title": "A high-throughput framework for lattice dynamics",
+      "authors": [
+        "Zhuoying Zhu",
+        "Junsoo Park",
+        "Hrushikesh P. Sahasrabuddhe",
+        "Alex M. Ganose",
+        "Rees Chang",
+        "John W. Lawson",
+        "Anubhav Jain"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Zhuoying Zhu",
+          "orcid": "0000-0003-1775-7651",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junsoo Park",
+          "orcid": "0000-0002-7824-8159",
+          "affiliations": [
+            "Ames Research Center",
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hrushikesh P. Sahasrabuddhe",
+          "orcid": "0000-0001-7346-4568",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alex M. Ganose",
+          "orcid": "0000-0002-4486-3321",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rees Chang",
+          "orcid": "0000-0001-5773-7183",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of Illinois Urbana-Champaign"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John W. Lawson",
+          "orcid": "0000-0002-1504-4829",
+          "affiliations": [
+            "Ames Research Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-024-01437-w",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-024-01437-w",
+      "cited_by_count": 22,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-024-01437-w.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract We develop an automated high-throughput workflow for calculating lattice dynamical properties from first principles including those dictated by anharmonicity. The pipeline automatically computes interatomic force constants (IFCs) up to 4th order from perturbed training supercells, and uses the IFCs to calculate lattice thermal conductivity, coefficient of thermal expansion, and vibrational free energy and entropy. It performs phonon renormalization for dynamically unstable compounds to obtain real effective phonon spectra at finite temperatures and calculates the associated free energy corrections. The methods and parameters are chosen to balance computational efficiency and result accuracy, assessed through convergence testing and comparisons with experimental measurements. Deployment of this workflow at a large scale would facilitate materials discovery efforts toward functionalities including thermoelectrics, contact materials, ferroelectrics, aerospace components, as well as general phase diagram construction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    "discovery": "paper-search OpenAlex query"
+  },
+  {
+    "title": "Data-Driven Review of Thermoelectric Materials: Performance and Resource Considerations",
+    "doi": "10.1021/cm400893e",
+    "paper_id": "doi:10.1021/cm400893e",
+    "disposition": "lead",
+    "reason": "Foundational UCSB experimental dataset; >18,000 data points differs from later 1,093 composition-temperature row accounting. Original live download and dataset license not verified.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "TEXplorer.org: Thermoelectric material properties data platform for experimental and first-principles calculation results",
+    "doi": "10.1063/5.0137642",
+    "paper_id": "doi:10.1063/5.0137642",
+    "disposition": "lead",
+    "reason": "Legitimate 2023 platform; accessible current cohort counts, dataset-specific license, and overlap with ESTM/KRICT/Starrydata need verification.",
+    "dataset_id": null,
+    "existing_id": null,
+    "openalex_result": {
+      "title": "TEXplorer.org: Thermoelectric material properties data platform for experimental and first-principles calculation results",
+      "authors": [
+        "Yea‐Lee Lee",
+        "Hyungseok Lee",
+        "Seunghun Jang",
+        "Jungho Shin",
+        "Taeshik Kim",
+        "Sejin Byun",
+        "In Jae Chung",
+        "Jino Im",
+        "Hyunju Chang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yea‐Lee Lee",
+          "orcid": "0000-0001-8076-5211",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyungseok Lee",
+          "orcid": "0000-0001-6432-5670",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jungho Shin",
+          "orcid": "0009-0000-3472-008X",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taeshik Kim",
+          "orcid": "0000-0003-3382-9459",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sejin Byun",
+          "orcid": "0000-0003-3959-2528",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "In Jae Chung",
+          "orcid": "0000-0001-6274-3369",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jino Im",
+          "orcid": "0000-0001-6594-8773",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "APL Materials",
+      "doi": "10.1063/5.0137642",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0137642",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/5.0137642",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Scientific databases offer remarkable potential for solving complex questions in materials science, such as global optimization of materials and designing unknown materials for novel properties. ThermoElectric materials eXplorer (TEXplorer) is a web-based platform designed to collect and share all types of thermoelectric materials data, including synthesis information, materials characterization, transport measurements, and electronic structures obtained from experiments and computations. TEXplorer also provides valuable tools, such as an easy upload and download system, retrieval, automatic post-processing calculations, visualization of datasets, and toolkits for predicting thermoelectric properties through machine learning models. Using the platform, we collected and managed the thermoelectric dataset of SnSe and Bi2Te3 with various doping/alloying elements in this study in order to investigate the complex relationship between doping/alloying elements and the thermoelectric properties of host materials. The web-based interactive data platform enables efficient management and utilization of experimental and computational datasets, supporting the acceleration of data-driven materials research and autonomous material synthesis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    "discovery": "paper-search OpenAlex query"
+  },
+  {
+    "title": "LLM-based AI agents for automated extraction of material properties and structural features",
+    "doi": "10.1016/j.commatsci.2026.114521",
+    "paper_id": "doi:10.1016/j.commatsci.2026.114521",
+    "disposition": "lead",
+    "reason": "Publisher states18,869 curated records, while highlights say~12,000 entries. Needs actual release route, count unit and dataset license before addition.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "Inverse design of materials that exhibit the magnetocaloric effect by text-mining of the scientific literature and generative deep learning",
+    "doi": null,
+    "paper_id": null,
+    "disposition": "lead",
+    "reason": "Court/Cole magnetocaloric property release is distinct from Curie–Néel corpora; follow-up needed to verify exact DOI/deposit and current license.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "Referenced by verified fatigue/MCE paper; title-only lead"
+  },
+  {
+    "title": "Expanded dataset of mechanical properties and observed phases of multi-principal element alloys",
+    "doi": "10.1038/s41597-020-00768-9",
+    "paper_id": "doi:10.1038/s41597-020-00768-9",
+    "disposition": "lead",
+    "reason": "Primary paper reports630 MPEAs; likely useful missing mechanical dataset. Deposit lineage/versions/count units should be verified before promotion.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "The first experimentally obtained dataset on processing parameters and properties of soft magnetic composites",
+    "doi": "10.1038/s41597-024-04286-w",
+    "paper_id": "doi:10.1038/s41597-024-04286-w",
+    "disposition": "lead",
+    "reason": "Primary descriptor and Figshare25975198 discovered as adjacent scope; composite-particle material and conditions may fall outside crystal-only focus. Not independently audited.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  },
+  {
+    "title": "Dataset for fracture and impact toughness of high-entropy alloys",
+    "doi": null,
+    "paper_id": null,
+    "disposition": "lead",
+    "reason": "Relevant citation discovered through fatigue paper; Paper DOI requires primary lookup.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "Referenced by verified fatigue/MCE paper; title-only lead"
+  },
+  {
+    "title": "EKHI: an open database of optical and thermal radiative properties of solid materials",
+    "doi": "10.1038/s41597-026-07083-9",
+    "paper_id": "doi:10.1038/s41597-026-07083-9",
+    "disposition": "lead",
+    "reason": "Adjacent thermal-radiative/optical scope; article reports171 solid materials,1,251 curves,18,999 values. Needs explicit material-state filtering and deposit audit.",
+    "dataset_id": null,
+    "existing_id": null,
+    "discovery": "primary-source follow-up / citation snowball; paper DOI independently identified"
+  }
+]

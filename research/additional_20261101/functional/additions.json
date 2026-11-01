@@ -1,0 +1,813 @@
+[
+  {
+    "id": "dxmag-heusler-ternary",
+    "name": "DXMag Computational HeuslerDB — ternary DFT",
+    "category": "bulk_computed",
+    "description": "Heusler-family crystal and magnetic-property release; DFT configurations for ternary compounds.",
+    "version": "CSV 2026-09-16; provider page checked 2026-11-01",
+    "year": 2025,
+    "count": 106235,
+    "count_display": "106,235",
+    "count_unit": "DFT calculation rows",
+    "count_scope": "Public 2026-09-16 CSV rows; magnetic and structural variants are separate entries, not unique compounds.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT (PBE), multiple structural and magnetic configurations",
+    "properties": [
+      "relaxed structures",
+      "formation energies and hull distances",
+      "magnetic moments",
+      "phonons for a subset",
+      "KKR Curie/Néel temperature estimates for a subset"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (explicit database declaration)",
+    "links": {
+      "homepage": "https://www.nims.go.jp/group/spintheory/database/",
+      "download": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+      "paper": "https://doi.org/10.1016/j.actamat.2025.121312"
+    },
+    "sources": [
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/",
+        "title": "NIMS DXMag Computational HeuslerDB",
+        "evidence": "Provider lists 27,864 ternary compounds and more than 100,000 structural/magnetic entries, dates the public CSV and explicitly licenses the database CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+        "title": "DXMag ternary DFT CSV",
+        "evidence": "Complete CSV independently contains 106,235 rows with unique UUIDs and populated cell, positions and atomic-number columns; 18,792 distinct literal composition strings. SHA-256 preserved.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "106,235 counts structural/magnetic calculation rows; it is not a unique-compound count.",
+      "Provider reports 27,864 compounds, while the public file has 18,792 literal composition strings; these denominators were not reconciled or chemically deduplicated.",
+      "Phonon, band/DOS and ordering-temperature coverage are subsets; they do not add unique structures.",
+      "Anomalous Hall/Nernst columns are currently omitted from the public CSV; the web dashboard is NIMS-network only."
+    ],
+    "tags": [
+      "heusler",
+      "magnetism",
+      "ternary",
+      "dft"
+    ],
+    "additional_counts": [
+      {
+        "value": 27864,
+        "unit": "provider-reported compounds",
+        "scope": "Provider family-level denominator; not reconciled to the public CSV calculation rows or literal composition strings."
+      },
+      {
+        "value": 18792,
+        "unit": "distinct literal composition strings",
+        "scope": "Derived from the public CSV composition column; no chemical reduction or structural deduplication."
+      }
+    ]
+  },
+  {
+    "id": "dxmag-heusler-quaternary",
+    "name": "DXMag Computational HeuslerDB — quaternary ML",
+    "category": "bulk_computed",
+    "description": "Heusler-family crystal and magnetic-property release; ML-relaxed ground states with magnetic and phonon predictions.",
+    "version": "CSV 2026-03-10; provider page checked 2026-11-01",
+    "year": 2026,
+    "count": 131544,
+    "count_display": "131,544",
+    "count_unit": "provider-reported compounds",
+    "count_scope": "Public quaternary ML release; counts refer to compounds rather than configurations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "MLIP structure optimization and transfer-learned property estimates; trained on ternary Heusler DFT",
+    "properties": [
+      "MLIP structures and energies",
+      "ML predicted hull distances",
+      "ML predicted magnetic moments",
+      "ML predicted minimum phonon frequency",
+      "ML predicted Curie/Néel temperatures",
+      "ML predicted magnetic anisotropy"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (explicit database declaration)",
+    "links": {
+      "homepage": "https://www.nims.go.jp/group/spintheory/database/",
+      "download": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+      "paper": "https://www.nature.com/articles/s41524-026-02013-0"
+    },
+    "sources": [
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/",
+        "title": "NIMS DXMag Computational HeuslerDB",
+        "evidence": "Lists 131,544 compounds for this family, dates the public CSV, distinguishes DFT from MLIP/regression labels, and explicitly licenses the database CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+        "title": "DXMag quaternary ML CSV",
+        "evidence": "HTTP 206 sample confirms cell, positions and atomic-number columns; ML_cell, ML_e, Tc_ML, Phonon_ML, MAE_ML and moment fields.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The count is the provider compound denominator, not the number of magnetic/structural calculations or property values.",
+      "CSV headers and representative coordinate-bearing records were checked using a 64 KiB HTTP range; the full CSV was not independently recounted.",
+      "Property values are model predictions; they are not fresh DFT calculations or experimental verification.",
+      "Separate composition-family release from the ternary DFT training domain; possible structures shared with other catalogs have not been deduplicated."
+    ],
+    "tags": [
+      "heusler",
+      "magnetism",
+      "quaternary",
+      "ml-predictions"
+    ]
+  },
+  {
+    "id": "dxmag-heusler-alld",
+    "name": "DXMag Computational HeuslerDB — all-d ML",
+    "category": "bulk_computed",
+    "description": "Heusler-family crystal and magnetic-property release; ML-relaxed ground states with magnetic and phonon predictions.",
+    "version": "CSV 2026-03-10; provider page checked 2026-11-01",
+    "year": 2026,
+    "count": 105763,
+    "count_display": "105,763",
+    "count_unit": "provider-reported compounds",
+    "count_scope": "Public all-d ML release; counts refer to compounds rather than configurations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "MLIP structure optimization and transfer-learned property estimates; trained on ternary Heusler DFT",
+    "properties": [
+      "MLIP structures and energies",
+      "ML predicted hull distances",
+      "ML predicted magnetic moments",
+      "ML predicted minimum phonon frequency",
+      "ML predicted Curie/Néel temperatures",
+      "ML predicted magnetic anisotropy"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (explicit database declaration)",
+    "links": {
+      "homepage": "https://www.nims.go.jp/group/spintheory/database/",
+      "download": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+      "paper": "https://www.nature.com/articles/s41524-026-02013-0"
+    },
+    "sources": [
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/",
+        "title": "NIMS DXMag Computational HeuslerDB",
+        "evidence": "Lists 105,763 compounds for this family, dates the public CSV, distinguishes DFT from MLIP/regression labels, and explicitly licenses the database CC BY 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+        "title": "DXMag all-d ML CSV",
+        "evidence": "HTTP 206 sample confirms cell, positions and atomic-number columns; ML_cell, ML_e, Tc_ML, Phonon_ML, MAE_ML and moment fields.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The count is the provider compound denominator, not the number of magnetic/structural calculations or property values.",
+      "CSV headers and representative coordinate-bearing records were checked using a 64 KiB HTTP range; the full CSV was not independently recounted.",
+      "Property values are model predictions; they are not fresh DFT calculations or experimental verification.",
+      "Separate composition-family release from the ternary DFT training domain; possible structures shared with other catalogs have not been deduplicated."
+    ],
+    "tags": [
+      "heusler",
+      "magnetism",
+      "alld",
+      "ml-predictions"
+    ]
+  },
+  {
+    "id": "c1db",
+    "name": "Computational 1D Materials Database (C1DB)",
+    "category": "property_benchmarks",
+    "description": "Periodic-chain and parent-bulk structures with stability, electronic, magnetic and optical calculations; the current browser also includes machine-generated chains.",
+    "version": "Live browser snapshot 2026-11-01; original project 2022",
+    "year": 2022,
+    "count": 3157,
+    "count_display": "3,157",
+    "count_unit": "browser database rows",
+    "count_scope": "Total rows displayed by the live browser; includes multiple dimensionality, method and generation variants, not 3,157 unique 1D parent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT, exfoliated experimental-parent crystals and machine-generated chains",
+    "properties": [
+      "atomic structures",
+      "energies and stability",
+      "band structures and gaps",
+      "magnetic and optical properties"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+      "browse": "https://cmrdb.fysik.dtu.dk/c1db/",
+      "paper": "https://doi.org/10.1103/PhysRevMaterials.6.064202"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+        "title": "C1DB project description",
+        "evidence": "Describes bulk and isolated-chain calculations, GPAW workflows, functional and dimensionality keys.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/c1db/",
+        "title": "C1DB live browser",
+        "evidence": "Displays 3,144 found rows out of 3,157 total and exposes dimension/method/source filters; footer says CC BY-NC 4.0.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/c1db/material/ZrSe4Hf5Br10-6b6280765d7f/download/cif",
+        "title": "C1DB representative public CIF",
+        "evidence": "Public response includes unit cell and fractional atomic coordinates for a generated 1D chain.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Index declares all CMR databases CC BY-SA 4.0; this conflicts with the browser footer.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The original paper denominator of 820 1D materials must not be substituted for the expanded live row count.",
+      "The browser found 3,144 rows out of 3,157; the completeness of the remaining rows is not established.",
+      "The project download link c1db.db returned 404, while per-material CIF retrieval worked.",
+      "The catalog has no dedicated 1D category, so this release is placed under computed-property datasets."
+    ],
+    "tags": [
+      "one-dimensional",
+      "low-dimensional",
+      "chains",
+      "electronic-structure",
+      "magnetism"
+    ]
+  },
+  {
+    "id": "cmr-abse3",
+    "name": "CMR ABSe3 ternary selenides",
+    "category": "property_benchmarks",
+    "description": "Systematic ternary-selenide substitutions in six crystal prototypes for structure and energy prediction.",
+    "version": "Provider ASE database snapshot 2026-11-01",
+    "year": 2019,
+    "count": 5976,
+    "count_display": "5,976",
+    "count_unit": "ASE calculation/structure rows",
+    "count_scope": "The released abse3.db systems table counted without adding spectra, property columns or functional results as independent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT / first-principles calculations",
+    "properties": [
+      "PBEsol-relaxed structures",
+      "PBE and PBEsol total energies",
+      "formation energies",
+      "prototype labels"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/abse3/abse3.html",
+      "download": "https://wiki.fysik.dtu.dk/cmr-files/abse3.db"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/abse3/abse3.html",
+        "title": "CMR ABSe3 ternary selenides provider project page",
+        "evidence": "Describes the property campaign and links its named ASE database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://wiki.fysik.dtu.dk/cmr-files/abse3.db",
+        "title": "CMR ABSe3 ternary selenides downloadable ASE database",
+        "evidence": "Independently inspected SQLite systems table: 5,976 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Repository-wide CC BY-SA 4.0 declaration; browser terms differ.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/abse3/",
+        "title": "CMR ABSe3 ternary selenides browser",
+        "evidence": "Public browser provides record-level access; CC BY-NC 4.0 footer differs from the CMR index declaration.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The count includes structural polymorphs; it is not a unique-composition denominator.",
+      "Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated."
+    ],
+    "tags": [
+      "cmr",
+      "electronic-structure",
+      "semiconductors"
+    ]
+  },
+  {
+    "id": "cmr-a2bcx4",
+    "name": "CMR A2BCX4 quaternary chalcogenides",
+    "category": "property_benchmarks",
+    "description": "Six-phase screening of quaternary chalcogenides for larger-band-gap tandem photoelectrochemical absorbers.",
+    "version": "Provider ASE database snapshot 2026-11-01",
+    "year": 2018,
+    "count": 1368,
+    "count_display": "1,368",
+    "count_unit": "ASE calculation/structure rows",
+    "count_scope": "The released a2bcx4.db systems table counted without adding spectra, property columns or functional results as independent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT / first-principles calculations",
+    "properties": [
+      "atomic structures",
+      "GLLB-SC band gaps",
+      "mBEEF energies and uncertainty",
+      "crystal prototypes"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html",
+      "download": "https://wiki.fysik.dtu.dk/cmr-files/a2bcx4.db"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html",
+        "title": "CMR A2BCX4 quaternary chalcogenides provider project page",
+        "evidence": "Describes the property campaign and links its named ASE database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://wiki.fysik.dtu.dk/cmr-files/a2bcx4.db",
+        "title": "CMR A2BCX4 quaternary chalcogenides downloadable ASE database",
+        "evidence": "Independently inspected SQLite systems table: 1,368 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Repository-wide CC BY-SA 4.0 declaration; browser terms differ.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/a2bcx4/",
+        "title": "CMR A2BCX4 quaternary chalcogenides browser",
+        "evidence": "Public browser provides record-level access; CC BY-NC 4.0 footer differs from the CMR index declaration.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Different structural prototypes for the same chemistry are separate rows.",
+      "Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated."
+    ],
+    "tags": [
+      "cmr",
+      "electronic-structure",
+      "semiconductors"
+    ]
+  },
+  {
+    "id": "cmr-abx2",
+    "name": "CMR ABX2 photovoltaic polytypes",
+    "category": "property_benchmarks",
+    "description": "Computed II–IV–V2 and III–III–V2 polymorphs for visible-light absorption and photovoltaic applications.",
+    "version": "Provider ASE database snapshot 2026-11-01",
+    "year": 2017,
+    "count": 123,
+    "count_display": "123",
+    "count_unit": "ASE calculation/structure rows",
+    "count_scope": "The released abx2.db systems table counted without adding spectra, property columns or functional results as independent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT / first-principles calculations",
+    "properties": [
+      "atomic structures",
+      "GLLB-SC and TB09 band gaps",
+      "carrier effective masses",
+      "hull energies and uncertainty"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/abx2/abx2.html",
+      "download": "https://wiki.fysik.dtu.dk/cmr-files/abx2.db"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/abx2/abx2.html",
+        "title": "CMR ABX2 photovoltaic polytypes provider project page",
+        "evidence": "Describes the property campaign and links its named ASE database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://wiki.fysik.dtu.dk/cmr-files/abx2.db",
+        "title": "CMR ABX2 photovoltaic polytypes downloadable ASE database",
+        "evidence": "Independently inspected SQLite systems table: 123 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Repository-wide CC BY-SA 4.0 declaration; browser terms differ.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/abx2/",
+        "title": "CMR ABX2 photovoltaic polytypes browser",
+        "evidence": "Public browser provides record-level access; CC BY-NC 4.0 footer differs from the CMR index declaration.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Polytypes are separate rows; model gaps and effective masses are calculated properties.",
+      "Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated."
+    ],
+    "tags": [
+      "cmr",
+      "electronic-structure",
+      "semiconductors"
+    ]
+  },
+  {
+    "id": "cmr-perovskite-absorption",
+    "name": "CMR perovskite optical-absorption spectra",
+    "category": "property_benchmarks",
+    "description": "Optical spectra for oxide, oxynitride and organometal-halide perovskite phases.",
+    "version": "Provider ASE database snapshot 2026-11-01",
+    "year": 2015,
+    "count": 79,
+    "count_display": "79",
+    "count_unit": "ASE calculation/structure rows",
+    "count_scope": "The released absorption_perovskites.db systems table counted without adding spectra, property columns or functional results as independent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT / first-principles calculations",
+    "properties": [
+      "atomic structures",
+      "frequency-resolved dielectric/absorption spectra",
+      "GLLB-SC gaps",
+      "calculated absorption efficiency"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+      "download": "https://wiki.fysik.dtu.dk/cmr-files/absorption_perovskites.db"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+        "title": "CMR perovskite optical-absorption spectra provider project page",
+        "evidence": "Describes the property campaign and links its named ASE database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://wiki.fysik.dtu.dk/cmr-files/absorption_perovskites.db",
+        "title": "CMR perovskite optical-absorption spectra downloadable ASE database",
+        "evidence": "Independently inspected SQLite systems table: 79 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Repository-wide CC BY-SA 4.0 declaration; browser terms differ.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmrdb.fysik.dtu.dk/absorption_perovskites/",
+        "title": "CMR perovskite optical-absorption spectra browser",
+        "evidence": "Public browser provides record-level access; CC BY-NC 4.0 footer differs from the CMR index declaration.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The paper describes around 80 phases; the released ASE database contains exactly 79 records.",
+      "Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated."
+    ],
+    "tags": [
+      "cmr",
+      "electronic-structure",
+      "optics"
+    ]
+  },
+  {
+    "id": "cmr-c2dm-2015",
+    "name": "CMR C2DM transition-metal monolayer electronic structures (2015)",
+    "category": "two_dimensional",
+    "description": "Original monolayer dichalcogenide/oxide electronic-structure and GW campaign, released separately from the later C2DB.",
+    "version": "Provider ASE database snapshot 2026-11-01",
+    "year": 2015,
+    "count": 494,
+    "count_display": "494",
+    "count_unit": "ASE calculation/structure rows",
+    "count_scope": "The released c2dm.db systems table counted without adding spectra, property columns or functional results as independent materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "DFT / first-principles calculations",
+    "properties": [
+      "atomic structures",
+      "PBE/LDA/GLLB-SC band edges and gaps",
+      "G0W0 quasiparticle results for a subset"
+    ],
+    "access": "open",
+    "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+      "download": "https://wiki.fysik.dtu.dk/cmr-files/c2dm.db"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+        "title": "CMR C2DM transition-metal monolayer electronic structures (2015) provider project page",
+        "evidence": "Describes the property campaign and links its named ASE database.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://wiki.fysik.dtu.dk/cmr-files/c2dm.db",
+        "title": "CMR C2DM transition-metal monolayer electronic structures (2015) downloadable ASE database",
+        "evidence": "Independently inspected SQLite systems table: 494 rows, all with populated positions, cell and atomic-number blobs; payload SHA-256 is preserved in the evidence manifest.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR repository terms",
+        "evidence": "Repository-wide CC BY-SA 4.0 declaration; browser terms differ.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "494 calculation rows represent 216 distinct name/phase keys; functional repeats and subset GW coverage are not additional unique materials.",
+      "Atomic coordinate availability was checked in the released ASE database; cross-catalog structural overlap has not been deduplicated.",
+      "Strong overlap with later C2DB is expected; this is a separately downloadable 2015 GW/functional release, not 494 new monolayers."
+    ],
+    "tags": [
+      "cmr",
+      "electronic-structure",
+      "semiconductors"
+    ],
+    "additional_counts": [
+      {
+        "value": 216,
+        "unit": "distinct name/phase keys",
+        "scope": "Derived from released key_value_pairs; not a structural deduplication."
+      }
+    ]
+  },
+  {
+    "id": "zhou-2d-spin-hall-426",
+    "name": "Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset",
+    "category": "two_dimensional",
+    "description": "Relativistic Wannier Hamiltonians and spin-Hall calculations for nonmagnetic monolayers, with detailed transport inputs for selected candidates.",
+    "version": "Materials Cloud v2, 2026-06-18; DOI 10.24435/materialscloud:yv-h7",
+    "year": 2026,
+    "count": 426,
+    "count_display": "426",
+    "count_unit": "nonmagnetic monolayers",
+    "count_scope": "210 metals and 216 insulators in the Wannier-Hamiltonian cohort; selected-material transport folders are not added.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "First-principles DFT and Wannier interpolation; monolayers drawn from existing 2D collections",
+    "properties": [
+      "fully relativistic DFT bands",
+      "Wannier Hamiltonians",
+      "spin Hall conductivity",
+      "selected phonon/EPW charge transport inputs"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (record metadata)",
+    "links": {
+      "homepage": "https://archive.materialscloud.org/records/rfcdy-wcy32",
+      "doi": "https://doi.org/10.24435/materialscloud:yv-h7",
+      "paper": "https://www.nature.com/articles/s41699-025-00562-4"
+    },
+    "sources": [
+      {
+        "url": "https://archive.materialscloud.org/records/rfcdy-wcy32",
+        "title": "Materials Cloud spin-Hall dataset v2",
+        "evidence": "Provider gives 426 nonmagnetic monolayers and provides Data.7z with a separate README.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/rfcdy-wcy32",
+        "title": "Materials Cloud v2 metadata",
+        "evidence": "Declares CC BY 4.0, open public files and versioned archive checksums.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://archive.materialscloud.org/api/records/rfcdy-wcy32/files/README.txt/content",
+        "title": "Spin-Hall archive README",
+        "evidence": "Separately confirms 210 metallic and 216 insulating material directories, each with QE aiida.in/aiida.out, Wannier inputs, bands and Hamiltonian; selected transport folders have separate scope.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The structures overlap parent 2D databases; new content is the relativistic Wannier/spin-transport campaign.",
+      "Uniform transport and electron-phonon data are not promised for all 426 materials.",
+      "The 390 MiB archive was not downloaded; metadata and its independently downloaded README establish the released layout."
+    ],
+    "tags": [
+      "spintronics",
+      "spin-hall",
+      "wannier",
+      "two-dimensional"
+    ],
+    "count_derivation": {
+      "method": "Sum of disjoint metal/insulator cohorts listed in release README",
+      "values": [
+        210,
+        216
+      ]
+    }
+  },
+  {
+    "id": "ferrogen-mattergen-12800",
+    "name": "FerroGen MatterGen generated crystal cohort",
+    "category": "generation_benchmarks",
+    "description": "Generated crystal structures released for a diffusion-guided ferroelectric/photocurrent search; candidates require separate property validation.",
+    "version": "Zenodo v1, 2025-09-29; DOI 10.5281/zenodo.17223175",
+    "year": 2025,
+    "count": 12800,
+    "count_display": "12,800",
+    "count_unit": "generated CIF files",
+    "count_scope": "All CIF members of generated_materials_cif.tar.gz; neither unique structures nor confirmed ferroelectrics.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "MatterGen diffusion-model generation",
+    "properties": [
+      "generated atomic structures"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo metadata)",
+    "links": {
+      "homepage": "https://zenodo.org/records/17223175",
+      "download": "https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz",
+      "paper": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202522108"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/17223175",
+        "title": "FerroGen generated-materials release",
+        "evidence": "Provider states 12,800 generated structures in CIF format.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17223175",
+        "title": "FerroGen Zenodo metadata",
+        "evidence": "Declares CC BY 4.0 and supplies public archive checksum md5:b5723ce666a11b8c0ccf643a4c8662d8.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz",
+        "title": "FerroGen CIF archive",
+        "evidence": "Downloaded archive independently contains exactly 12,800 regular .cif members; MD5 matches provider metadata.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "Generation is not evidence of stability, novelty, synthesizability, polarization or photocurrent performance.",
+      "The released archive is a generated-structure cohort, not 12,800 computed polarization labels.",
+      "Possible duplicates and overlaps with MatterGen training corpora were not structurally audited."
+    ],
+    "tags": [
+      "ferroelectrics",
+      "mattergen",
+      "generated-structures",
+      "photovoltaics"
+    ]
+  },
+  {
+    "id": "mint-atlas",
+    "name": "MINT-ATLAS atomistic magnetic interactions",
+    "category": "property_benchmarks",
+    "description": "Structure-linked atomistic magnetic interaction data with downloadable interaction tables and precomputed magnetic spectra.",
+    "version": "Public OPTIMADE snapshot 2026-11-01",
+    "year": 2026,
+    "count": 209,
+    "count_display": "209",
+    "count_unit": "OPTIMADE structure records",
+    "count_scope": "Unfiltered live API meta.data_available; different records can share a formula or magnetic system.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "Compiled atomistic magnetic-interaction calculations with per-record method and literature provenance",
+    "properties": [
+      "atomic structures",
+      "scalar exchange interactions",
+      "anisotropy and moments where provided",
+      "stored adiabatic magnon spectra",
+      "Fourier-transformed exchange eigenvalues",
+      "q=0 scalar-exchange mean-field temperatures"
+    ],
+    "access": "open",
+    "license": "Not verified: client MIT license covers software; no dataset-specific license established",
+    "links": {
+      "homepage": "https://mintatlas.org/",
+      "api": "https://mintatlas.org/optimade/info",
+      "client": "https://github.com/mintatlas-org/mintatlas"
+    },
+    "sources": [
+      {
+        "url": "https://mintatlas.org/optimade/v1/structures?page_limit=1",
+        "title": "MINT-ATLAS public OPTIMADE structures",
+        "evidence": "Unfiltered metadata reports 209 records; sample mi-0 has cell vectors, site coordinates, method and reference fields, and availability flags.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://mintatlas.org/optimade/v1/extensions/mintatlas/materials/mi-0",
+        "title": "MINT-ATLAS material/download metadata",
+        "evidence": "Advertises HDF5, exchange CSV and structure exports with byte counts and SHA-256 values.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://github.com/mintatlas-org/mintatlas",
+        "title": "Official MINT-ATLAS client documentation",
+        "evidence": "Documents public token-free read-only access and explicitly identifies MIT as a client-software license; describes spectra and mean-field conventions.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "The API uses 3D periodic simulation cells even for physically lower-dimensional systems.",
+      "Availability differs by record; absent interaction/spectrum fields are not zero.",
+      "Mean-field temperature is a q=0 scalar-exchange estimate, not an experimental ordering temperature or a full-Brillouin-zone ground-state search.",
+      "The first response reports data_returned=209 despite page_limit=1; the count uses meta.data_available, not page-array length.",
+      "Compiled sources can overlap other magnetic databases; the record count is not a distinct-compound deduplication."
+    ],
+    "tags": [
+      "magnetism",
+      "exchange",
+      "magnons",
+      "optimade"
+    ]
+  },
+  {
+    "id": "altermagnet-spin-splitting-2026",
+    "name": "Sufyan altermagnetic spin-splitting screening release",
+    "category": "property_benchmarks",
+    "description": "Calculated spin-splitting summaries linked to MAGNDATA/ICSD structures, with separate symmetry and broader candidate tables.",
+    "version": "Zenodo v1, 2026-03-19; ranked spreadsheet snapshot 2026-11-01",
+    "year": 2026,
+    "count": 171,
+    "count_display": "171",
+    "count_unit": "ranked material records",
+    "count_scope": "171 nonempty rows in one ranked worksheet; a second worksheet repeats the same cohort with extra ICSD identifiers and is not added.",
+    "count_precision": "exact",
+    "structure_level": "structure_linked",
+    "provenance": "DFT screening of MAGNDATA-derived magnetic structures; some candidates use forced-collinear variants",
+    "properties": [
+      "maximum and mean spin splitting",
+      "band gap",
+      "spin-splitting percentage",
+      "magnetic structure identifiers",
+      "symmetry classification"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo metadata)",
+    "links": {
+      "homepage": "https://zenodo.org/records/19109715",
+      "paper": "https://doi.org/10.1103/mmdm-hrj4",
+      "download": "https://zenodo.org/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/19109715",
+        "title": "Altermagnetic band-splitting data release",
+        "evidence": "Deposits ranked/candidate spreadsheets plus collinear and converted-noncollinear MAGNDATA symmetry tables.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/19109715",
+        "title": "Altermagnet Zenodo metadata",
+        "evidence": "Declares CC BY 4.0 and public downloadable files with checksums.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://zenodo.org/api/records/19109715/files/Altermagnet_Screening_MaxSS_Ranked_v1..xlsx/content",
+        "title": "Altermagnet ranked spreadsheet",
+        "evidence": "Independent OOXML inspection finds 171 nonempty data rows in each of two sheets; columns contain MAGNDATA/ICSD identifiers and spin-splitting properties.",
+        "verified_date": "2026-11-01"
+      }
+    ],
+    "caveats": [
+      "This deposited ranked cohort has 171 records; the associated paper/current application describes 180 materials, so the catalog does not assign 180 to this file.",
+      "The broader candidate spreadsheet has 295 nonempty material rows and is a different denominator.",
+      "Structure identifiers establish linkage; this small Zenodo package does not independently establish release of all atomic coordinates or the claimed raw DFT calculation files.",
+      "MAGNDATA parent structures overlap the parent database; computed spin splitting is the additional content.",
+      "Forced-collinear variants do not establish stability relative to noncollinear ground states."
+    ],
+    "tags": [
+      "altermagnetism",
+      "spintronics",
+      "magndata-derived",
+      "band-splitting"
+    ],
+    "additional_counts": [
+      {
+        "value": 295,
+        "unit": "candidate-table rows",
+        "scope": "Nonempty material rows in Altermagnet_HTS_Full_Candidate_Pool.xlsx; includes a broader cohort, not added to ranked count."
+      }
+    ]
+  }
+]

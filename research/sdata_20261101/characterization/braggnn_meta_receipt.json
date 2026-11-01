@@ -1,0 +1,23 @@
+{
+  "name": "braggnn_meta",
+  "url": "https://www.materialsdatafacility.org/detail/ravi_braggnn_training_v1.2",
+  "resolved_url": "https://api.datacite.org/dois/10.18126%2Fiftp-twz1",
+  "status": 200,
+  "sha256": "ccd2ad92af1a538145090104877bad181918c9f37cc717e107e77749e4e627f7",
+  "doi": "10.18126/iftp-twz1",
+  "title": null,
+  "titles": [
+    {
+      "title": "BraggNN: Training Dataset"
+    }
+  ],
+  "license": null,
+  "rightsList": [],
+  "version": null,
+  "descriptions": [
+    {
+      "description": "# BraggNN Training Dataset\n\n## Data\nThere are two HDF5 files in the dataset \n\n* The `frames-exp4train.hdf5` contains diffraction frames, stored as a 3D array (dataset name must be \"frames\"). The first dimension is the frame ID starting with 0, i.e., the series of frames at different scanning angle. The second and third dimensions are the height and width of the area detector.\n\n* The file `peaks-exp4train-psz11.hdf5` contains the peak position information, generated using conventional methods (e.g., using MIDAS: https://github.com/marinerhemant/MIDAS). In our work, we used the peak position that we got using 2D psuedo Voigt fitting. This file stores three 1D array with each record / index represent different information of a peak. The first 1D array, must be named as `peak_fidx` represents the index of the frame (in the frames.h5) that the peak sits on; the second array, `peak_row` is the vertical distance, in pixel and can be floating point number, from the peak center to the top edge of the frame. Similarly, the `peak_col` denotes horizental distance, in pixel and can be floating point number, from peak center to left edge of the frame. \n\n* By default, this implementation will use 80% of the samples for training, the rest 20% for online model validation.\n\n## Code\n** Important ** \nTo run the DLHub versions of these models using GPU resources, users must first request access to the following Globus group: https://app.globus.org/groups/d0b13474-c265-11ec-9444-51db4d10f5bd/about\n\nNotebooks are provided in the `code-examples` folder to showcase how to load the datasets and run the PyTorch, TRT, and SambaNova models.",
+      "descriptionType": "Other"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "SoLiD26 solid–liquid interface configurations",
+    "url": "https://doi.org/10.24435/materialscloud:yp-vw",
+    "disposition": "added",
+    "dataset_id": "solid26",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "SevenNet-Omni domain-bridging set (DBS)",
+    "url": "https://doi.org/10.6084/m9.figshare.30399814.v3",
+    "disposition": "added",
+    "dataset_id": "sevennet-omni-dbs",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "SACADA three-periodic carbon allotropes",
+    "url": "https://www.sacada.info/sacada_3D.php",
+    "disposition": "added",
+    "dataset_id": "sacada",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "sysTEm systematically verified experimental thermoelectrics",
+    "url": "https://github.com/tankylz/sysTEm_dataset/blob/main/sysTEm_dataset.xlsx",
+    "disposition": "added",
+    "dataset_id": "system-thermoelectric",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "Literature-curated complex-oxide thermal expansion",
+    "url": "https://github.com/Jordanmarshall-utk/cte-probabilistic-ml/blob/main/CTE%20Value%2010.xlsx",
+    "disposition": "added",
+    "dataset_id": "complex-oxide-cte-2026",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "ULTERA high-entropy-alloy property database",
+    "url": "https://doi.org/10.5281/zenodo.15716432",
+    "disposition": "added",
+    "dataset_id": "ultera-2025",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "Carbon GAP-20 DFT reference database",
+    "url": "https://doi.org/10.17863/CAM.54529",
+    "disposition": "added",
+    "dataset_id": "carbon-gap20",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "Carbon GAP-20U revised training configurations",
+    "url": "https://doi.org/10.17863/CAM.84096",
+    "disposition": "added",
+    "dataset_id": "carbon-gap20u",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "Si-GAP-18 silicon training cohort",
+    "url": "https://zenodo.org/records/1250555",
+    "disposition": "added",
+    "dataset_id": "si-gap18",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "SiO2-GAP-22 silica training cohort",
+    "url": "https://zenodo.org/records/6353684",
+    "disposition": "added",
+    "dataset_id": "sio2-gap22",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "GST-GAP-22 PBE reference cohort",
+    "url": "https://zenodo.org/records/8208202",
+    "disposition": "added",
+    "dataset_id": "gst-gap22-pbe",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "P-GAP-20 phosphorus reference configurations",
+    "url": "https://zenodo.org/records/4003703",
+    "disposition": "added",
+    "dataset_id": "p-gap20",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "GO-MACE-23 graphene-oxide reference cohort",
+    "url": "https://zenodo.org/records/14066557",
+    "disposition": "added",
+    "dataset_id": "go-mace23",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "SiOx-ACE-24 silicon–oxygen reference configurations",
+    "url": "https://zenodo.org/records/10419194",
+    "disposition": "added",
+    "dataset_id": "siox-ace24",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "Paracrystalline/amorphous silicon structural models",
+    "url": "https://doi.org/10.5281/zenodo.14203730",
+    "disposition": "added",
+    "dataset_id": "asi-paracrystalline-models",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "AC-2D-22 amorphous graphene benchmark subset",
+    "url": "https://zenodo.org/records/7221166",
+    "disposition": "added",
+    "dataset_id": "ac2d-amorphous-graphene",
+    "reason": "Verified named primary release; explicit count/rights/access qualifications retained in staged record."
+  },
+  {
+    "name": "C-SYNTH-23M / carbon-data synthetic trajectories",
+    "url": "https://jla-gardner.github.io/load-atoms/datasets/C-SYNTH-23M.html",
+    "disposition": "existing",
+    "dataset_id": "carbon-data-gap17",
+    "reason": "Same source lineage; normalized and current-repository snapshots are not promoted as disjoint corpora."
+  },
+  {
+    "name": "MatPES v2025.2",
+    "url": "https://colabfit.org/id/DS_q1zgft23gdbl_1",
+    "disposition": "existing_version_lead",
+    "dataset_id": "matpes",
+    "reason": "Existing parent family; version differences retained as lead, no duplicate corpus."
+  },
+  {
+    "name": "AFLOW thermal expansion Foundry mirror",
+    "url": "https://huggingface.co/datasets/foundry-ml/dataset_thermalexp_aflow",
+    "disposition": "existing_parent_lead",
+    "dataset_id": "aflow-ael-agl-2017",
+    "reason": "Derived AFLOW property cohort, not independent material identities."
+  },
+  {
+    "name": "Metal oxide MLP references",
+    "url": "https://github.com/saidigroup/Metal-Oxide-Dataset",
+    "disposition": "deferred",
+    "dataset_id": null,
+    "reason": "Primary files identified; not all archive populations/rights normalized in this pass."
+  }
+]

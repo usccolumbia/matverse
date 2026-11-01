@@ -12,6 +12,14 @@ from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse, parse_qsl
 from collection_inventory import load_inventory
+from catalog_supplements import load_apis, render_supplements
+from property_survey import render_property_survey
+from mdf_survey import render_mdf_survey
+from scientific_data_survey import render_scientific_data
+from additional_survey import render_additional_survey
+from datagov_selection import render_datagov
+from matbench_coverage import render_matbench_coverage
+from materiaviva_properties import render_materiaviva
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-11-01'
@@ -24,6 +32,7 @@ CATEGORIES = {
     'porous_frameworks': 'MOFs, COFs and zeolites',
     'molecular_crystals': 'Molecular crystals and ice',
     'surfaces_catalysis': 'Surfaces, interfaces and catalysis',
+    'materials_properties': 'Materials properties',
     'property_benchmarks': 'Computed properties and prediction benchmarks',
     'generation_benchmarks': 'Crystal generation and discovery benchmarks',
     'experimental_properties': 'Experimental properties and literature extraction',
@@ -43,6 +52,16 @@ def url_ok(s):
     p = urlparse(s)
     sensitive = any(k.lower().startswith('x-amz-') or k.lower() in {'access_token', 'token', 'api_key', 'apikey', 'password', 'authorization', 'signature'} for k, v in parse_qsl(p.query))
     return p.scheme in {'https', 'http'} and bool(p.netloc) and not p.username and not p.password and not sensitive
+
+
+def load_search_tools():
+    tools = json.loads((ROOT / 'data/search_tools.json').read_text())
+    assert len({r['url'] for r in tools}) == len(tools)
+    for r in tools:
+        assert r['name'] and r['scope'] and url_ok(r['url'])
+        if r.get('homepage'):
+            assert url_ok(r['homepage'])
+    return tools
 
 
 def validate(data, resources):
@@ -100,11 +119,20 @@ def table(rows, prefix=''):
 
 
 def render(data, resources):
+    apis = load_apis(ROOT, data, url_ok)
     counts = Counter(d['category'] for d in data)
     unknown = sum(d['count'] is None for d in data)
     source_count = len({s['url'] for d in data for s in d['sources']})
     collection_inventory = load_inventory(ROOT)
     header = (ROOT / 'templates/README_intro.md.txt').read_text().replace('{{DATASETS}}', str(len(data))).replace('{{CATEGORIES}}', str(len(counts))).replace('{{SOURCES}}', str(source_count)).replace('{{UNRANKED}}', str(unknown)).replace('{{SOURCE_ENTRY_COUNT}}', str(collection_inventory['entry_count'])).replace('{{SOURCE_COLLECTION_COUNT}}', str(len(collection_inventory['collections'])))
+    header = header.replace('{{API_ROUTE_COUNT}}', str(len(apis)))
+    search_lines = ['| Search tool | What to search |', '|---|---|']
+    for r in load_search_tools():
+        label = f'[{cell(r["name"])}]({r["url"]})'
+        if r.get('homepage'):
+            label += f' · [Homepage]({r["homepage"]})'
+        search_lines.append(f'| {label} | {cell(r["scope"])} |')
+    header = header.replace('{{SEARCH_TOOLS_TABLE}}', '\n'.join(search_lines))
     lines = [header.rstrip(), '', '## Browse by category', '']
     for cat, title in CATEGORIES.items():
         if counts[cat]:
@@ -124,6 +152,11 @@ def render(data, resources):
         lines = [f'# {title}', '', '[Back to MatVerse](../../README.md)', '', f'Checked {DATE}. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.', '']
         for d in rows:
             lines += [f'<a id="{d["id"]}"></a>', f'## {d["name"]}', '', d['description'], '', f"**Size:** {size(d)} {d['count_unit']} (source wording: {d['count_display']}).", '', f"**Scope:** {d['count_scope']}", '', f"**Release:** {d['version']}. **Year:** {d['year'] if d['year'] else 'Not verified'}.", '', f"**Provenance:** {d['provenance']}. **Structure availability:** `{d['structure_level']}`.", '', '**Labels/content:** ' + '; '.join(d['properties']) + '.', '', f"**Access:** {d['access']}. **Dataset license:** {d['license']}.", '', '**Official routes:** ' + ' · '.join(f'[{k}]({v})' for k, v in d['links'].items()), '']
+            if d.get('property_dataset'):
+                p = d['property_dataset']
+                lines += [f'**Direct access source:** [MateriaViva file]({p["direct_access"]}) · [Parquet download]({p["direct_download"]}).', '', '**Original sources / indirect access:**', '']
+                lines += [f'- [{s["name"]}]({s["url"]}) (`{s["source_id"]}`): {s["values"]:,} values; provider-declared class `{s["license_class"]}`. {s.get("notes", "")}'.rstrip() for s in p['upstream_sources']]
+                lines += ['']
             if d.get('additional_counts'):
                 lines += ['Other denominators (not added to the ranking):', '']
                 lines += [f"- {v['value']:,} {v['unit']}: {v['scope']}" for v in d['additional_counts']]
@@ -138,13 +171,13 @@ def render(data, resources):
                 lines += ['', '**Reuse and interpretation notes:**', ''] + [f'- {c}' for c in d['caveats']]
             lines += ['', '**Tags:** ' + (', '.join(d['tags']) if d['tags'] else 'None assigned') + '.', '']
         outputs[f'docs/catalog/{cat}.md'] = '\n'.join(lines)
-    cols = FIELDS[:]
+    cols = FIELDS[:] + ['property_dataset']
     stream = io.StringIO(newline='')
     writer = csv.DictWriter(stream, fieldnames=cols, lineterminator='\n')
     writer.writeheader()
     for cat in CATEGORIES:
         for d in sorted([d for d in data if d['category'] == cat], key=order):
-            writer.writerow({k: json.dumps(d[k], ensure_ascii=False, separators=(',', ':')) if isinstance(d[k], (dict, list)) else '' if d[k] is None else d[k] for k in cols})
+            writer.writerow({k: json.dumps(d.get(k), ensure_ascii=False, separators=(',', ':')) if isinstance(d.get(k), (dict, list)) else '' if d.get(k) is None else d[k] for k in cols})
     outputs['data/datasets.csv'] = stream.getvalue()
     lines = ['# Dataset repositories, discovery tools and adjacent resources', '', '[Back to MatVerse](../README.md)', '', 'These resources are navigation layers, collections, APIs, format mirrors or adjacent data. They are not additional independent crystal datasets and are not included in size rankings.', '', '| Resource | Role | Description |', '|---|---|---|']
     for r in sorted(resources, key=lambda r: (r['kind'], r['name'].casefold())):
@@ -155,15 +188,7 @@ def render(data, resources):
         lines += [f"- [{s['title']}]({s['url']}) ({s['verified_date']}): {s['evidence']}" for s in r['sources']]
         lines += ['']
     outputs['docs/resources.md'] = '\n'.join(lines)
-    lines = ['# Scientific Data journal index', '', '[Back to MatVerse](../README.md)', '', 'Dataset records with a verified Scientific Data descriptor among their evidence sources. This is an index into the catalog, not a census of everything published by the journal. Counts refer to the release selected in each card; a descriptor can describe an older release.', '', '| Dataset | Category | Reported volume | Descriptor evidence |', '|---|---|---:|---|']
-    for d in sorted(data, key=lambda d: (d['category'], order(d))):
-        sources = [s for s in d['sources'] if re.search(r's41597|sdata\.', s['url']) or 'scientific data' in s['title'].casefold()]
-        if not sources:
-            continue
-        links = ' · '.join(f"[descriptor {i+1}]({s['url']})" for i, s in enumerate(sources))
-        lines.append(f"| [{cell(d['name'])}](catalog/{d['category']}.md#{d['id']}) | {CATEGORIES[d['category']]} | {size(d)} {cell(d['count_unit'])} | {links} |")
-    lines += ['', 'Further journal searching should consider perovskites, high-entropy materials, defects, diffraction, battery and magnetic materials, and phonon/electron-phonon datasets. Inclusion requires a verified primary descriptor and an explicit scope; a journal article license alone does not establish the accompanying data license.', '']
-    outputs['docs/scientific-data.md'] = '\n'.join(lines)
+    outputs.update(render_scientific_data(ROOT, data, CATEGORIES, DATE, cell, size, order))
     superconductivity = [d for d in data if 'superconductivity' in d['tags']]
     topic_lines = ['| Dataset / release | Reported size | Counted unit | Structure availability | Label provenance | Access |', '|---|---:|---|---|---|---|']
     for d in sorted(superconductivity, key=order):
@@ -174,11 +199,20 @@ def render(data, resources):
         resource_lines.append(f"| [{cell(r['name'])}]({r['url']}) | {cell(r['kind'])} | {cell(r['description'])} |")
     topic_template = (ROOT / 'templates/superconductivity.md.txt').read_text()
     outputs['docs/superconductivity.md'] = topic_template.replace('{{TOPIC_COUNT}}', str(len(superconductivity))).replace('{{DATASET_TABLE}}', '\n'.join(topic_lines)).replace('{{RESOURCE_TABLE}}', '\n'.join(resource_lines))
+    outputs.update(render_supplements(ROOT, data, resources, apis, DATE, cell))
+    outputs['docs/specialized-properties.md'] = render_property_survey(ROOT, data, DATE, cell)
+    outputs['docs/mdf-property-datasets.md'] = render_mdf_survey(ROOT, data, DATE, cell)
+    outputs['docs/additional-datasets.md'] = render_additional_survey(ROOT, data, CATEGORIES, cell, size, order)
+    outputs['docs/datagov-selection.md'] = render_datagov(ROOT, data, cell, size)
+    outputs['docs/materiaviva-properties.md'] = render_materiaviva(ROOT, data, cell, size, order)
+    outputs['docs/matbench-coverage.md'] = render_matbench_coverage(ROOT, data, cell)
     summary = dict(checked_date=DATE, dataset_records=len(data), categories=dict(counts), unranked_records=unknown, distinct_dataset_source_urls=source_count, navigation_resources=len(resources), count_total=None, count_total_note='Intentionally omitted: units, overlapping datasets and releases are not additive.')
     outputs['data/summary.json'] = json.dumps(summary, indent=2, ensure_ascii=False) + '\n'
-    input_paths = ['data/datasets.json', 'data/resources.json', 'data/dataset.schema.json',
+    input_paths = ['assets/search-box.svg', 'assets/mleg-logo.png', 'data/datasets.json', 'data/resources.json', 'data/dataset.schema.json', 'data/api_sources.json', 'data/search_tools.json', 'scripts/catalog_supplements.py', 'templates/api-access.md.txt', 'scripts/property_survey.py', 'research/openalex_property_20261101/search_manifest.json', 'scripts/additional_survey.py', 'research/additional_20261101/integration_receipt.json', 'scripts/scientific_data_survey.py', 'research/sdata_20261101/journal_harvest_receipts.json', 'research/sdata_20261101/journal_works.json', 'scripts/mdf_survey.py', 'research/mdf_property_search_20261101.json', 'research/mdf_selected_metadata_20261101.json',
                    'templates/README_intro.md.txt', 'templates/superconductivity.md.txt', 'scripts/build_catalog.py',
                    'docs/SURVEY.md', 'docs/METHODOLOGY.md', 'docs/review-crosswalk.md', 'scripts/collection_inventory.py'] + [c['inventory_file'] for c in collection_inventory['collections']]
+    input_paths += ['scripts/datagov_selection.py', 'research/datagov_20261101/integration_receipt.json', 'scripts/materiaviva_properties.py', 'scripts/import_materiaviva_properties.py', 'research/materiaviva_properties_20261101/integration_receipt.json', 'research/materiaviva_properties_20261101/property_manifest.json', 'research/materiaviva_properties_20261101/upstream_sources.json', 'research/materiaviva_properties_20261101/property_labels.json', 'research/materiaviva_properties_20261101/file_inventory.json']
+    input_paths += ['scripts/matbench_coverage.py', 'research/matbench_coverage_20261101/audit.json', 'research/matbench_coverage_20261101/integration_receipt.json']
     manifest = {
         'checked_date': DATE,
         'algorithm': 'sha256',

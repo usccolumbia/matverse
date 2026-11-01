@@ -1,0 +1,4268 @@
+{
+  "mode": "search",
+  "query": "materials experimental property dataset database",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Unlocking Materials Discovery: A Comprehensive Guide to High-Throughput Experimental Databases",
+      "authors": [
+        "inorganic materials chemistry"
+      ],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.19365723",
+      "type": "report",
+      "url": "https://doi.org/10.5281/zenodo.19365723",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.19365723",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High-Throughput Experimental Materials (HTEM) Databases represent a fundamental shift in materials research, designed to accelerate innovation by systematically aggregating and disseminating large volumes of experimental data. These resources address the critical 'data gap' in materials science, where the scarcity of diverse, high-quality experimental datasets has hindered the application of machine learning (ML). Unlike computational databases that store predicted properties, HTEM databases like the one developed at the National Renewable Energy Laboratory (NREL) contain empirical data from combinatorial experiments on materials such as inorganic thin-films. As of 2018, NREL's HTEM-DB housed over 140,000 sample entries, including synthesis conditions, structural data from X-ray diffraction, chemical composition, and optoelectronic properties. The foundation of these databases is a robust Research Data Infrastructure (RDI), an automated system that manages the entire data lifecycle. The RDI features components like data harvesters that monitor instruments, a central Data Warehouse, a Laboratory Metadata Collector (LMC) to capture experimental context, and Extract, Transform, Load (ETL) scripts to structure the data. This infrastructure overcomes challenges like data heterogeneity and 'dark data' (unpublished results) by creating standardized, ML-ready datasets. Access is provided through web interfaces for exploration and APIs for programmatic analysis. The impact is significant, as demonstrated by an automated system from Japan's National Institute for Materials Science (NIMS) that generated a comprehensive dataset in 13 days, a task that would conventionally take over seven years, marking a 200-fold acceleration in data generation. Source: https://www.inorgmatchem.com/posts/unlocking-materials-discovery-a-comprehensive-guide-to-highthroughput-experimental-databases",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "An integrated database of combustion properties of metallic materials",
+      "authors": [
+        "Penglin Wang",
+        "Huibin Ke",
+        "Yunfei Xue"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Penglin Wang",
+          "orcid": null,
+          "affiliations": [
+            "Beijing Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huibin Ke",
+          "orcid": "0000-0002-3794-2312",
+          "affiliations": [
+            "Beijing Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yunfei Xue",
+          "orcid": "0000-0002-2950-788X",
+          "affiliations": [
+            "Beijing Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-026-06862-8",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-026-06862-8",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-026-06862-8_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Metal combustion, which is fundamentally a rapid exothermic redox reaction with oxygen, governs critical applications from aerospace propulsion to structural fire safety. Understanding key combustion metrics including combustion enthalpy, ignition temperature, ignition delay time, combustion rate, and threshold pressure is essential for designing fire-resistant alloys or high-energy propellants. This work establishes a comprehensive database of 725 curated data points extracted from 45 publications, mainly encompassing pure metals, Al-based, Ti-based, Mg-based, Fe-based alloys and multi-component alloys. Each data entry integrates combustion metrics with alloy composition and critical experimental metadata, such as sample geometry, oxygen partial pressure and test method. By integrating scattered literature data into a unified framework with standardized parameters, this work provides a foundation for data-driven discovery of next-generation materials with tailored combustion performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Digital materials ecosystem: from databases to AI agents for autonomous discovery",
+      "authors": [
+        "Di Zhang",
+        "Xue Jia",
+        "Yuhang Wang",
+        "Heng Liu",
+        "Qian Wang",
+        "Seong‐Hoon Jang",
+        "Daksh Shah",
+        "Songbo Ye",
+        "Hung Ba Tran",
+        "Hao Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Di Zhang",
+          "orcid": "0000-0001-6347-9344",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xue Jia",
+          "orcid": "0009-0003-6591-4284",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuhang Wang",
+          "orcid": "0009-0003-8376-0055",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Heng Liu",
+          "orcid": "0000-0002-7272-3908",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qian Wang",
+          "orcid": "0000-0002-4935-7508",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seong‐Hoon Jang",
+          "orcid": "0000-0001-6026-636X",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daksh Shah",
+          "orcid": "0000-0002-9354-1425",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Songbo Ye",
+          "orcid": "0009-0003-4565-0402",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hung Ba Tran",
+          "orcid": "0000-0001-5508-3956",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Li",
+          "orcid": "0000-0002-7577-1366",
+          "affiliations": [
+            "Tohoku University",
+            "Advanced Institute for Materials Research, Tohoku University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemical Science",
+      "doi": "10.1039/d5sc09229a",
+      "type": "review",
+      "url": "https://doi.org/10.1039/d5sc09229a",
+      "cited_by_count": 31,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2026/sc/d5sc09229a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "The concept of a digital materials ecosystem represents a new paradigm in materials research, where data, theory, and automation are integrated into a unified and iterative framework. By combining reliable databases, physical frameworks, and intelligent data analysis, materials discovery is evolving from empirical exploration toward a systematic and predictive science. The rapid growth of data and artificial intelligence (AI) has enabled the identification of complex structure-property relationships, while advances in automated synthesis and high-throughput characterization are closing the loop between prediction and validation. Looking forward, the field must focus on building trustworthy and benchmarked datasets, developing interpretable and high-precision models, and designing AI tools that embody human scientific reasoning. Equally important is ensuring standardization and consistency between digital inputs and experimental responses. Together, these efforts will transform materials discovery from data accumulation into genuine knowledge generation, paving the way for an autonomous and self-improving research ecosystem that accelerates both fundamental understanding and technological innovation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "An Experimental MIMO Ultrasound Tomography Dataset for Benchmarking Imaging Algorithms",
+      "authors": [
+        "Michele Ambrosanio",
+        "Stefano Franceschini",
+        "Francesca Bifulco",
+        "Roberta Diana",
+        "Giuseppe Cesarelli",
+        "Fabio Baselice"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Michele Ambrosanio",
+          "orcid": "0000-0003-3669-8183",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stefano Franceschini",
+          "orcid": "0000-0002-7608-6686",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Bifulco",
+          "orcid": "0009-0001-7963-9039",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Roberta Diana",
+          "orcid": "0009-0008-4220-362X",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giuseppe Cesarelli",
+          "orcid": "0000-0001-8303-5900",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fabio Baselice",
+          "orcid": "0000-0002-5964-8667",
+          "affiliations": [
+            "Parthenope University of Naples"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "World Congress on Medical Physics and Biomedical Engineering, September 7 - 12, 2009, Munich, Germany",
+      "doi": "10.1007/978-3-032-37736-4_40",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-032-37736-4_40",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "CEMP Research Databases for Clean Energy Materials",
+      "authors": [
+        "Jifeng Wang",
+        "Jiazhe Ju",
+        "Ying Wang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jifeng Wang",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiazhe Ju",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ying Wang",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.21896985",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.21896985",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.21896985",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This dataset is a dated research snapshot accompanying the manuscript CEMP: An Online Cheminformatics Platform for Clean Energy Materials. It preserves the research-facing databases used by the CEMP platform for small molecules, ionic liquids, polymers, crystalline materials, and battery electrochemical experiments. The deposited archive, CEMP_research_databases_2026-08-12.zip, keeps experimental observations, quantum-chemical results, machine-learning predictions, and source-derived crystal records separate so that their evidence modalities remain explicit. Archive contents and database-to-table correspondence The tables below map each scientific database to its corresponding file in the ZIP archive. Directory names are shown above each table to keep the file column compact and readable. Small-molecule databases data/small_molecule/ Database Table in the ZIP archive Scientific scope Metal–salt binding small_molecule_metal_salt_binding_qc.csv Structures and quantum-chemical electronic, thermochemical, frontier-orbital, dipole, and binding-energy descriptors for modeled dimers and their isolated components. Electrolyte binding small_molecule_electrolyte_binding_qc.csv Quantum-chemical descriptors for electrolyte-associated dimers and their components, intended for analysis of molecular interaction strength in electrolyte formulations. Electrolyte redox properties small_molecule_electrolyte_redox_qc.csv Electronic, thermochemical, dipole, frontier-orbital, and computed electrochemical-window descriptors for isolated electrolyte components. Polymer-forming monomers small_molecule_monomer_qc.csv Neutral and charged-state energies, redox quantities, conceptual-DFT descriptors, and solvent-specific solvation free energies for polymer-forming monomers. Ionic-liquid databases data/ionic_liquid/ Database Table in the ZIP archive Scientific scope Complete ion pairs ionic_liquid_qc.csv Structures and quantum-chemical electronic, thermochemical, dipole, frontier-orbital, and electrochemical-window descriptors for complete ionic-liquid ion pairs. Isolated cations ionic_liquid_cation_qc.csv Isolated ionic-liquid cations with family labels and quantum-chemical electronic and thermochemical descriptors. Isolated anions ionic_liquid_anion_qc.csv Isolated ionic-liquid anions with family labels and quantum-chemical electronic and thermochemical descriptors. Experimental and quantum-chemical properties ionic_liquid_experimental_and_qc_properties.csv Ionic-liquid and component structures associated with conductivity, melting temperature, and electrochemical-window properties. The Type and Source fields retain evidence modality and provenance. Machine-learning predictions ionic_liquid_ml_predictions.csv Model-generated estimates of conductivity, melting temperature, and electrochemical window for candidate screening and subsequent validation. Polymer databases data/polymer/ Database Table in the ZIP archive Scientific scope Experimental properties polymer_experimental_properties.csv Structure-centered thermal, mechanical, gas-transport, dielectric, optical, electronic, density, water-interaction, and ion-exchange properties. Quantum-chemical properties polymer_calculated_properties.csv Polymer structures, reactants, reaction classes, electronic and thermochemical descriptors, polarizability, frontier-orbital energies, and calculation provenance. Machine-learning predictions polymer_ml_predictions.csv Model-generated estimates of glass-transition temperature, melting temperature, tensile strength, Young’s modulus, and total dielectric constant for generated polymer candidates. Crystal database data/crystal/ Database Table in the ZIP archive Scientific scope Crystal properties crystal_properties.csv Materials Project–derived composition, structure, density, electronic, thermodynamic-stability, magnetic, and unit-cell descriptors for crystalline materials. Battery experimental database data/bms/ Database Table or directory in the ZIP archive Scientific scope Experimental metadata bms_experiment_metadata.csv Electrode identities, electrolyte formulation, lithium concentration, test conditions, sample descriptors, remarks, and the stable curve_file link to the corresponding instrument export. Cycling and electrochemical-performance curves raw_curves/ Raw instrument exports containing measurements such as capacity, specific capacity, coulombic efficiency, energy, voltage, time, resistance, and temperature. Some files retain multiple instrument-export sections and repeated headers.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "EKHI: an open database of optical and thermal radiative properties of solid materials",
+      "authors": [
+        "Jon Gabirondo-López",
+        "Mireia Sainz-Menchón",
+        "Irati Tolosa-Lecea",
+        "I. González de Arrieta",
+        "Telmo Echániz",
+        "I. Urcelay-Olabarría",
+        "I. López-Ferreño",
+        "Raquel Fuente",
+        "Gabriel A. López",
+        "Iñigo Arredondo",
+        "Josu Mirena Igartua"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jon Gabirondo-López",
+          "orcid": "0000-0002-3510-4606",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mireia Sainz-Menchón",
+          "orcid": "0000-0001-9808-4588",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Irati Tolosa-Lecea",
+          "orcid": null,
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "I. González de Arrieta",
+          "orcid": "0000-0001-6984-5149",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Telmo Echániz",
+          "orcid": "0000-0002-0330-0653",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "I. Urcelay-Olabarría",
+          "orcid": "0000-0001-7228-8531",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "I. López-Ferreño",
+          "orcid": "0000-0003-3336-6028",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raquel Fuente",
+          "orcid": null,
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gabriel A. López",
+          "orcid": null,
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Iñigo Arredondo",
+          "orcid": "0000-0003-4842-8033",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Josu Mirena Igartua",
+          "orcid": "0000-0001-7983-5331",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-026-07083-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-026-07083-9",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-026-07083-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "We present a curated and openly accessible dataset of optical and thermal radiative properties of solid materials, digitized from the TPRC Data Series edited by Y. S. Touloukian et al. The dataset comprises 1251 curves describing emittance, reflectance, transmittance, and absorptance of solid materials, covering broad temperature and spectral ranges. Each data record includes detailed metadata and is fully traceable to the original publication cited by the TPRC volumes. The digitization workflow, data structure, and quality controls were designed to support the FAIR principles, enabling reproducible reuse of radiative property data in thermophysics and materials research. The dataset has been used to feed an open database of optical and thermal radiative properties: EKHI. Its website (thermomat.ehu.eus/ekhi) provides interactive querying and visualization of the dataset. This dataset expands the availability of machine-readable radiative property data for solids and offers a foundational resource for modeling, data-driven analysis, and materials informatics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Property-Networking Deep Learning Model for Experimental Datasets",
+      "authors": [
+        "Sejun Kim"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Sejun Kim",
+          "orcid": "0009-0004-3923-6747",
+          "affiliations": [
+            "California Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ECS Meeting Abstracts",
+      "doi": "10.1149/ma2025-02291591mtgabs",
+      "type": "conference-abstract",
+      "url": "https://doi.org/10.1149/ma2025-02291591mtgabs",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The demand for artificial intelligence (AI) technologies that can accurately predict material properties, particularly in electrochemistry, is growing rapidly. To meet this need, it is crucial to expand material databases beyond the constraints of density functional theory (DFT) and develop deep learning (DL) models that can be effectively trained with limited high-quality data. In this presentation, I introduce a deep learning model that uses a crystal structure representation based on the orbital field matrix (OFM), with added information about elemental properties and valence electron configurations. This model, called PROFiT-Net (PRoperty-networking Orbital Field maTrix-convolutional neural Network), captures the relationships between elemental properties in the crystal structure. PROFiT-Net demonstrates exceptional accuracy in predicting experimental data relevant to electrochemistry, such as band gaps, formation enthalpies, and other electrochemical properties. It outperforms or matches other leading DL models, providing results comparable to DFT or hybrid functional calculations. Additionally, the model identifies physical trends similar to those observed in the Penn model while maintaining scalability. With its strong predictive capabilities, PROFiT-Net has the potential to significantly advance electrochemical research by bridging the gap between theoretical predictions and experimental outcomes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "MOSAEC-DB: a comprehensive database of experimental metal–organic frameworks with verified chemical accuracy suitable for molecular simulations",
+      "authors": [
+        "Marco Gibaldi",
+        "Anna Kapeliukha",
+        "Andrew White",
+        "Jun Shan Luo",
+        "Robert Alex Mayo",
+        "Jake Burner",
+        "Tom K. Woo"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Marco Gibaldi",
+          "orcid": "0000-0002-5734-2250",
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anna Kapeliukha",
+          "orcid": "0009-0000-8860-4295",
+          "affiliations": [
+            "University of Ottawa",
+            "Taras Shevchenko National University of Kyiv"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew White",
+          "orcid": null,
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Shan Luo",
+          "orcid": "0000-0002-8093-5345",
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Robert Alex Mayo",
+          "orcid": null,
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jake Burner",
+          "orcid": "0000-0002-2834-5866",
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tom K. Woo",
+          "orcid": "0000-0003-0073-3901",
+          "affiliations": [
+            "University of Ottawa"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemical Science",
+      "doi": "10.1039/d4sc07438f",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4sc07438f",
+      "cited_by_count": 44,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://doi.org/10.1039/d4sc07438f",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Ongoing developments in computational databases seek to improve the accessibility and breadth of high-throughput screening and materials discovery efforts. Their reliance on experimental crystal structures necessitates significant processing prior to computation in order to resolve any crystallographic disorder or partial occupancies and remove any residual solvent molecules in the case of activated porous materials. Contemporary investigations revealed that deficiencies in the experimental characterization and computational preprocessing methods generated considerable occurrence of structural errors in metal-organic framework (MOF) databases. The MOSAEC MOF database (MOSAEC-DB) tackles these structural reliability concerns through utilization of innovative preprocessing and error analysis protocols applying the concepts of oxidation state and formal charge to exclude erroneous crystal structures. Comprising more than 124k crystal structures, this work maintains the largest and most accurate dataset of experimental MOFs ready for immediate deployment in molecular simulations. The databases' comparative diversity is demonstrated through its enhanced coverage of the periodic table, expansive quantity of structures, and balance of chemical properties relative to existing MOF databases. Chemical and geometric descriptors, as well as DFT electrostatic potential-fitted charges, are included to facilitate subsequent atomistic simulation and machine-learning (ML) studies. Curated subsets-sampled according to their chemical properties and structural uniqueness-are also provided to further enable ML studies in recognition of the strict demand for duplicate structure elimination and dataset diversity in such applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Large language model-driven database for thermoelectric materials",
+      "authors": [
+        "Suman Itani",
+        "Yibo Zhang",
+        "Jiadong Zang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Suman Itani",
+          "orcid": "0009-0000-3142-7881",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Zhang",
+          "orcid": "0000-0001-8150-1111",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiadong Zang",
+          "orcid": "0000-0002-5089-9806",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2025.113855",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2025.113855",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2501.00564",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "OPECM-Dataset",
+      "authors": [
+        "Caichao Ye",
+        "Xiumin Liu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Caichao Ye",
+          "orcid": "0000-0002-9197-8922",
+          "affiliations": [
+            "Southern University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiumin Liu",
+          "orcid": null,
+          "affiliations": [
+            "Nanjing University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.17927835",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.17927835",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.17927835",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Organic Polymer Energy Conversion Materials (OPECM) Dataset A database of Organic Polymer Energy Conversion Materials (OPECM) covering the computational and experimental properties (organic polymer semiconductor, photovoltaic and dielectric materials .etc), and the related Polymer-Units database and RDKit molecular descriptors. The databases are updated regularly.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "CoRE MOF DB: A curated experimental metal-organic framework database with machine-learned properties for integrated material-process screening",
+      "authors": [
+        "Guobin Zhao",
+        "Logan M. Brabson",
+        "Saumil P. Chheda",
+        "Ju Hua Huang",
+        "Haewon Kim",
+        "K. Liu",
+        "Kenji Mochida",
+        "Thang D. Pham",
+        "Prerna",
+        "Gianmarco Terrones",
+        "Sunghyun Yoon",
+        "Lionel Zoubritzky",
+        "François‐Xavier Coudert",
+        "Maciej Harańczyk",
+        "Heather J. Kulik",
+        "Seyed Mohamad Moosavi",
+        "David S. Sholl",
+        "Joern Ilja Siepmann",
+        "Randall Q. Snurr",
+        "Yongchul G. Chung"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Guobin Zhao",
+          "orcid": "0000-0002-7728-4211",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Logan M. Brabson",
+          "orcid": null,
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saumil P. Chheda",
+          "orcid": "0000-0002-0989-5707",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System",
+            "Kavli Energy NanoScience Institute",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ju Hua Huang",
+          "orcid": "0000-0002-7827-7179",
+          "affiliations": [
+            "University of Toronto"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haewon Kim",
+          "orcid": "0009-0001-8595-4852",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "K. Liu",
+          "orcid": "0000-0001-6042-5594",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kenji Mochida",
+          "orcid": null,
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thang D. Pham",
+          "orcid": "0000-0002-5232-4619",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Prerna",
+          "orcid": "0000-0001-8733-1862",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gianmarco Terrones",
+          "orcid": "0000-0001-5360-165X",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sunghyun Yoon",
+          "orcid": "0000-0002-3788-6146",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lionel Zoubritzky",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Chimie ParisTech - PSL",
+            "Université Paris Sciences et Lettres",
+            "Institut de Recherche de Chimie Paris",
+            "Air Liquide (France)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "François‐Xavier Coudert",
+          "orcid": "0000-0001-5318-3910",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Chimie ParisTech - PSL",
+            "Université Paris Sciences et Lettres",
+            "Institut de Recherche de Chimie Paris"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maciej Harańczyk",
+          "orcid": "0000-0001-7146-9568",
+          "affiliations": [
+            "IMDEA Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Heather J. Kulik",
+          "orcid": "0000-0001-9342-0191",
+          "affiliations": [
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seyed Mohamad Moosavi",
+          "orcid": "0000-0002-0357-5729",
+          "affiliations": [
+            "University of Toronto"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David S. Sholl",
+          "orcid": "0000-0002-2771-9168",
+          "affiliations": [
+            "Oak Ridge National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joern Ilja Siepmann",
+          "orcid": "0000-0003-2534-4507",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Randall Q. Snurr",
+          "orcid": "0000-0003-2925-9246",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yongchul G. Chung",
+          "orcid": "0000-0002-7756-0589",
+          "affiliations": [
+            "Pusan National University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Matter",
+      "doi": "10.1016/j.matt.2025.102140",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matt.2025.102140",
+      "cited_by_count": 109,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.matt.2025.102140",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We present an updated version of the Computation-Ready, Experimental (CoRE) Metal-Organic Framework (MOF) database, which includes a curated set of computation-ready MOF crystal structures designed for high-throughput computational materials discovery. Data collection and curation procedures were improved from the previous version to enable more frequent updates in the future. Machine-learning-predicted properties, such as stability metrics and heat capacities, are included in the dataset to streamline screening activities. An updated version of MOFid was developed to provide detailed information on metal nodes, organic linkers, and topologies of an MOF structure. DDEC6 partial atomic charges of MOFs were assigned based on a machine-learning model. Gibbs ensemble Monte Carlo simulations were used to classify the hydrophobicity of MOFs. The finalized dataset was subsequently used to perform integrated material-process screening for various carbon-capture conditions using high-fidelity temperature-swing adsorption (TSA) simulations. Our workflow identified multiple MOF candidates that are predicted to outperform CALF-20 for these applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Machine learning descriptors in materials chemistry used in multiple experimentally validated studies: Oliynyk elemental property dataset",
+      "authors": [
+        "Sangjoon Lee",
+        "Clio Chen",
+        "Griheydi Garcia",
+        "Anton O. Oliynyk"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Sangjoon Lee",
+          "orcid": "0000-0002-2367-3932",
+          "affiliations": [
+            "Columbia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Clio Chen",
+          "orcid": null,
+          "affiliations": [
+            "Manhattan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Griheydi Garcia",
+          "orcid": null,
+          "affiliations": [
+            "Manhattan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anton O. Oliynyk",
+          "orcid": "0000-0003-0732-7340",
+          "affiliations": [
+            "City University of New York",
+            "Hunter College"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2024.110178",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2024.110178",
+      "cited_by_count": 32,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.dib.2024.110178",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials informatics employs data-driven approaches for analysis and discovery of materials. Features also referred to as descriptors are essential in generating reliable and accurate machine-learning models. While general data can be obtained through public and commercial sources, features must be tailored to specific applications. Common featurizers suitable for generic chemical problems may not be effective in features-property mapping in solid-state materials with ML models. Here, we have assembled the Oliynyk property list for compositional feature generation, which performs well on limited datasets (50 to 1000 training data points) in the solid-state materials domain. The dataset contains 98 elemental features for atomic numbers from 1 to 92, including thermodynamic properties, electronic structure data, size, electronegativity, and bulk properties such as melting point, density, and conductivity. The dataset has been utilized peer-reviewed publications in predicting material hardness, classification, discovery of novel Heusler compounds, band gap prediction, and determining the site preference of atoms using machine learning models including support vector machines, random forests for classification, and support vector regression for regression problems. We have compiled the dataset by parsing data from publicly available databases and literature and further supplementing it by interpolating values with Gaussian process regression.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Database for Properties of Nuclear Reactor Materials Based on the Ontology and NoSQL Data Format",
+      "authors": [
+        "S. A. Dyachkov",
+        "Adilbek Omirbekovich Erkimbaev",
+        "S. Yu. Grigoryev",
+        "Pavel Yu. Korotaev",
+        "Andrey V. Kosinov",
+        "Pavel R. Levashov",
+        "Maxim A. Maltsev",
+        "Dmitry V. Minakov",
+        "Igor V. Morozov",
+        "Mikhail A. Paramonov",
+        "Alexey V. Yanilkin",
+        "Vladimir Yu. Zitserman"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "S. A. Dyachkov",
+          "orcid": "0000-0001-9606-2123",
+          "affiliations": [
+            "All Russia Research Institute of Automatics",
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adilbek Omirbekovich Erkimbaev",
+          "orcid": "0000-0002-5239-2208",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Yu. Grigoryev",
+          "orcid": "0000-0003-3492-3949",
+          "affiliations": [
+            "All Russia Research Institute of Automatics",
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pavel Yu. Korotaev",
+          "orcid": "0000-0002-2617-6341",
+          "affiliations": [
+            "All Russia Research Institute of Automatics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrey V. Kosinov",
+          "orcid": "0000-0002-0290-0198",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pavel R. Levashov",
+          "orcid": "0000-0002-8575-2847",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxim A. Maltsev",
+          "orcid": "0000-0001-6052-2319",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dmitry V. Minakov",
+          "orcid": "0000-0002-6816-3768",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Igor V. Morozov",
+          "orcid": "0000-0002-0122-9400",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikhail A. Paramonov",
+          "orcid": "0000-0003-4105-6732",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexey V. Yanilkin",
+          "orcid": "0000-0002-7457-9911",
+          "affiliations": [
+            "All Russia Research Institute of Automatics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladimir Yu. Zitserman",
+          "orcid": "0000-0003-3327-3139",
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Communications in computer and information science",
+      "doi": "10.1007/978-3-031-67826-4_8",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-031-67826-4_8",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "MD-HIT: Machine learning for material property prediction with dataset redundancy control",
+      "authors": [
+        "Qin Li",
+        "Nihang Fu",
+        "Sadman Sadeed Omee",
+        "Jianjun Hu"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Qin Li",
+          "orcid": null,
+          "affiliations": [
+            "Guizhou University of Finance and Economics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nihang Fu",
+          "orcid": "0009-0005-9872-9530",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sadman Sadeed Omee",
+          "orcid": "0000-0002-1016-8072",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianjun Hu",
+          "orcid": "0000-0002-8725-6660",
+          "affiliations": [
+            "University of South Carolina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-024-01426-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-024-01426-z",
+      "cited_by_count": 57,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-024-01426-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Materials datasets usually contain many redundant (highly similar) materials due to the tinkering approach historically used in material design. This redundancy skews the performance evaluation of machine learning (ML) models when using random splitting, leading to overestimated predictive performance and poor performance on out-of-distribution samples. This issue is well-known in bioinformatics for protein function prediction, where tools like CD-HIT are used to reduce redundancy by ensuring sequence similarity among samples greater than a given threshold. In this paper, we survey the overestimated ML performance in materials science for material property prediction and propose MD-HIT, a redundancy reduction algorithm for material datasets. Applying MD-HIT to composition- and structure-based formation energy and band gap prediction problems, we demonstrate that with redundancy control, the prediction performances of the ML models on test sets tend to have relatively lower performance compared to the model with high redundancy, but better reflect models’ true prediction capability.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Autogenerating Material Databases and Language Models for Stress Engineering Materials Science",
+      "authors": [
+        "Pankaj Kumar"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Pankaj Kumar",
+          "orcid": "0000-0002-7819-6897",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Apollo (University of Cambridge)",
+      "doi": "10.17863/cam.128312",
+      "type": "dissertation",
+      "url": "https://doi.org/10.17863/cam.128312",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.repository.cam.ac.uk/bitstreams/fbb2a237-c968-4a92-9e0b-2664eb872979/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "This thesis addresses the significant hurdle in the adoption of data-driven research methods within the stress engineering subdomain of materials science. In other scientific domains such as gravitational lensing and molecular design, data-driven techniques have accelerated discovery. However, these efficient techniques are heavily reliant on large scale, reliable, and purpose-built datasets which are not readily available for stress-strain properties. Instead, the scientific literature contains vast amounts of property data distributed across the unstructured text in hundreds of thousands of articles, but this information requires precise automated extraction to be useful. Although Natural Language Processing (NLP) has successfully been applied for information extraction tasks in scientific domains, including chemistry and biomedicine, no such methods existed for stress-strain properties at the outset of this work. To address this gap, tailored NLP tools were developed to automate stress-strain material property information extraction from the scientific literature. A bespoke version of the NLP toolkit, ChemDataExtractor, called ChemDataExtractorStressEng, was developed to support the extraction of mechanical properties. Initial proof-of-concept work extracted yield strength and grain size information, generating databases of 64,270 and 30,285 records with F-scores of 83.0% and 78.8%, respectively. Statistical validation showed no significant differences from manually curated datasets when reproducing the Hall-Petch relation for alloy AZ31, validating the performance of the information extraction pipeline. Building on this foundation, ChemDataExtractorStressEng was extended to extract five mechanical properties; yield strength, ultimate tensile strength, Young's modulus, fracture strength, and ductility, from a much larger corpus of 382,227 articles. With improved entity recognition and parsing methods, the pipeline yielded a database of 720,308 stress-strain property records, the largest automatically generated database of its kind. The resulting F-score of 86.79% and scale of material-property records enable data-driven applications such as deep neural networks for property prediction or material composition screening. However, the databases revealed limitations with the traditional NLP methods employed in this work. Most importantly, the databases lack important contextual information about the material properties and focus only on individual mechanical properties that are not linked together. Manufacturing conditions, specimen geometry, experimental conditions, etc., are all necessary for a complete understanding of material properties and their relationships. However, this adds extensive complexity to the problem to which there was no annotated data for the stress-strain domain to further build upon the traditional NLP methods employed thus far. This motivated a shift toward language models that can automatically learn the necessary knowledge representations for complete information extraction from unlabelled domain-specific text. A set of BERT-based language models specialised for stress-strain related question answering tasks were developed resulting in the MechBERT models. These were first pre-trained on 1.2 billion tokens of stress-strain literature to automatically learn the language patterns of the domain and embed knowledge of the underlying linguistic relationships between materials, properties, and experimental conditions. When fine-tuned for question answering, the best performing MechBERT variant (PureMechBERT cased) demonstrated superior performance in answering domain-specific, extractive questions compared to general-purpose BERT by up to 25.39% in F1 score. Even more impressive, MechBERT models outperformed models that were three times larger with 340 million parameters. PureMechBERT cased had an F-score that was 8.22% and 7.63% higher than BERT Large and RoBERTa Large, respectively. The smaller MechBERT models have much lower computational cost for inference, demonstrating that smaller, domain-focused models can offer superior performance with substantially lower computational cost and are a worthwhile investment.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Optical materials discovery and design with federated databases and machine learning",
+      "authors": [
+        "Victor Trinquet",
+        "Matthew L. Evans",
+        "Cameron J. Hargreaves",
+        "Pierre-Paul De Breuck",
+        "Gian‐Marco Rignanese"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Victor Trinquet",
+          "orcid": "0009-0001-2188-4824",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew L. Evans",
+          "orcid": "0000-0002-1182-9098",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cameron J. Hargreaves",
+          "orcid": "0000-0001-5509-9501",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pierre-Paul De Breuck",
+          "orcid": "0000-0002-3173-2058",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gian‐Marco Rignanese",
+          "orcid": "0000-0002-1422-1205",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Faraday Discussions",
+      "doi": "10.1039/d4fd00092g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4fd00092g",
+      "cited_by_count": 9,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2405.11393",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Combinatorial and guided screening of materials space with density-functional theory and related approaches has provided a wealth of hypothetical inorganic materials, which are increasingly tabulated in open databases. The OPTIMADE API is a standardised format for representing crystal structures, their measured and computed properties, and the methods for querying and filtering them from remote resources. Currently, the OPTIMADE federation spans over 20 data providers, rendering over 30 million structures accessible in this way, many of which are novel and have only recently been suggested by machine learning-based approaches. In this work, we outline our approach to non-exhaustively screen this dynamic trove of structures for the next-generation of optical materials. By applying MODNet, a neural network-based model for property prediction, within a combined active learning and high-throughput computation framework, we isolate particular structures and chemistries that should be most fruitful for further theoretical calculations and for experimental study as high-refractive-index materials. By making explicit use of automated calculations, federated dataset curation and machine learning, and by releasing these publicly, the workflows presented here can be periodically re-assessed as new databases implement OPTIMADE, and new hypothetical materials are suggested.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Advancing material property prediction: using physics-informed machine learning models for viscosity",
+      "authors": [
+        "Alex K. Chew",
+        "Matthew Sender",
+        "Zachary Kaplan",
+        "Anand R. Chandrasekaran",
+        "Jackson Chief Elk",
+        "Andrea Robben Browning",
+        "H. Shaun Kwak",
+        "Mathew David Halls",
+        "Mohammad Atif Faiz Afzal"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Alex K. Chew",
+          "orcid": "0000-0002-7051-9778",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Sender",
+          "orcid": null,
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zachary Kaplan",
+          "orcid": "0000-0002-6571-1044",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anand R. Chandrasekaran",
+          "orcid": "0000-0002-2794-3717",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jackson Chief Elk",
+          "orcid": null,
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrea Robben Browning",
+          "orcid": "0000-0002-2926-6174",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "H. Shaun Kwak",
+          "orcid": "0000-0003-4669-0986",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mathew David Halls",
+          "orcid": "0000-0001-8989-8934",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mohammad Atif Faiz Afzal",
+          "orcid": "0000-0001-8261-2024",
+          "affiliations": [
+            "Schrodinger (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Cheminformatics",
+      "doi": "10.1186/s13321-024-00820-5",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s13321-024-00820-5",
+      "cited_by_count": 84,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-024-00820-5",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "In materials science, accurately computing properties like viscosity, melting point, and glass transition temperatures solely through physics-based models is challenging. Data-driven machine learning (ML) also poses challenges in constructing ML models, especially in the material science domain where data is limited. To address this, we integrate physics-informed descriptors from molecular dynamics (MD) simulations to enhance the accuracy and interpretability of ML models. Our current study focuses on accurately predicting viscosity in liquid systems using MD descriptors. In this work, we curated a comprehensive dataset of over 4000 small organic molecules' viscosities from scientific literature, publications, and online databases. This dataset enabled us to develop quantitative structure-property relationships (QSPR) consisting of descriptor-based and graph neural network models to predict temperature-dependent viscosities for a wide range of viscosities. The QSPR models reveal that including MD descriptors improves the prediction of experimental viscosities, particularly at the small data set scale of fewer than a thousand data points. Furthermore, feature importance tools reveal that intermolecular interactions captured by MD descriptors are most important for viscosity predictions. Finally, the QSPR models can accurately capture the inverse relationship between viscosity and temperature for six battery-relevant solvents, some of which were not included in the original data set. Our research highlights the effectiveness of incorporating MD descriptors into QSPR models, which leads to improved accuracy for properties that are difficult to predict when using physics-based models alone or when limited data is available.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "TEXplorer.org: Thermoelectric material properties data platform for experimental and first-principles calculation results",
+      "authors": [
+        "Yea‐Lee Lee",
+        "Hyungseok Lee",
+        "Seunghun Jang",
+        "Jungho Shin",
+        "Taeshik Kim",
+        "Sejin Byun",
+        "In Jae Chung",
+        "Jino Im",
+        "Hyunju Chang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yea‐Lee Lee",
+          "orcid": "0000-0001-8076-5211",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyungseok Lee",
+          "orcid": "0000-0001-6432-5670",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jungho Shin",
+          "orcid": "0009-0000-3472-008X",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taeshik Kim",
+          "orcid": "0000-0003-3382-9459",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sejin Byun",
+          "orcid": "0000-0003-3959-2528",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "In Jae Chung",
+          "orcid": "0000-0001-6274-3369",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jino Im",
+          "orcid": "0000-0001-6594-8773",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Seoul National University",
+            "Institute for Basic Science",
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "APL Materials",
+      "doi": "10.1063/5.0137642",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0137642",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/5.0137642",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Scientific databases offer remarkable potential for solving complex questions in materials science, such as global optimization of materials and designing unknown materials for novel properties. ThermoElectric materials eXplorer (TEXplorer) is a web-based platform designed to collect and share all types of thermoelectric materials data, including synthesis information, materials characterization, transport measurements, and electronic structures obtained from experiments and computations. TEXplorer also provides valuable tools, such as an easy upload and download system, retrieval, automatic post-processing calculations, visualization of datasets, and toolkits for predicting thermoelectric properties through machine learning models. Using the platform, we collected and managed the thermoelectric dataset of SnSe and Bi2Te3 with various doping/alloying elements in this study in order to investigate the complex relationship between doping/alloying elements and the thermoelectric properties of host materials. The web-based interactive data platform enables efficient management and utilization of experimental and computational datasets, supporting the acceleration of data-driven materials research and autonomous material synthesis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Transfer learning on large datasets for the accurate prediction of material properties",
+      "authors": [
+        "Noah Hoffmann",
+        "Jonathan Schmidt",
+        "Silvana Botti",
+        "Miguel A. L. Marques"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Noah Hoffmann",
+          "orcid": "0000-0002-8593-5811",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan Schmidt",
+          "orcid": "0000-0001-5685-6404",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg",
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Silvana Botti",
+          "orcid": "0000-0002-4920-2370",
+          "affiliations": [
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Miguel A. L. Marques",
+          "orcid": "0000-0003-0170-8222",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d3dd00030c",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d3dd00030c",
+      "cited_by_count": 36,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2023/dd/d3dd00030c",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Pretraining on large, lower-fidelity datasets enables extremely effective training of graph neural networks on smaller, high-fidelity datasets.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Electrospun Fiber Experimental Attributes Dataset (FEAD)",
+      "authors": [
+        "Shrutidhara Sarma"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Shrutidhara Sarma",
+          "orcid": "0000-0003-4283-3468",
+          "affiliations": [
+            "Indian Institute of Technology Jodhpur"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.10301664",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.10301664",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.10301664",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Understanding the intricate relationships between the structure and properties of electrospun PVDF fibers is crucial for designing effective devices. However, the complexity of these relationships makes them challenging to model through traditional trial-and-error experiments. Machine learning has emerged as a powerful tool for modeling multidimensional relationships, but it requires a diverse and high-quality training dataset to effectively learn these intricate connections. To comprehensively investigate the intricate relationships between the structure and properties of electrospun PVDF fibers, a high-quality training dataset is imperative, encompassing a wide array of experimental conditions. There is no single comprehensive source that provides a holistic understanding of how the various parameters impact the PVDF fiber properties. Existing studies predominantly present results from a limited range of parameter variations, necessitating the creation of a meta dataset for robust insights. In response to this gap, we introduce the \"Electrospun Fiber Experimental Attributes Dataset (FEAD),\" a meticulously curated compilation that collates data from diverse literature sources and complements with our own experimental findings and computations. FEAD comprises a total of 565 data points sourced from 48 distinct references. This dataset encapsulates a broad spectrum of solvents and solvent systems, including DMAC, DMF, DMAC/Acetone, DMSO/Acetone, DMF/Acetone, NMP/Acetone, among others. While certain parameters such as polymer concentration, solvent ratio, feed rate, and applied voltage were directly extracted from the literature, other critical factors like solubility parameters, interaction radii, and RED were computed. Experiments involving the use of surfactants and electrolytes to alter polymer viscosity and electrical conductivity are not included in the dataset. This exclusion ensures a focus on understanding the genuine impact of polymer concentration and solubility factors on the resulting fibers. The development of this novel materials database is an ongoing effort, and we anticipate its continual improvement over time as more datapoints are incorporated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Predicting Synthesizability using Machine Learning on Databases of Existing Inorganic Materials",
+      "authors": [
+        "Ruiming Zhu",
+        "Siyu Isaac Parker Tian",
+        "Zekun Ren",
+        "Jiali Li",
+        "Tonio Buonassisi",
+        "Kedar Hippalgaonkar"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Ruiming Zhu",
+          "orcid": "0009-0000-2270-2669",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siyu Isaac Parker Tian",
+          "orcid": "0000-0002-8709-1798",
+          "affiliations": [
+            "Singapore-MIT Alliance for Research and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zekun Ren",
+          "orcid": "0000-0002-6987-1715",
+          "affiliations": [
+            "Singapore-MIT Alliance for Research and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiali Li",
+          "orcid": "0000-0001-8990-9998",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tonio Buonassisi",
+          "orcid": "0000-0001-8345-4937",
+          "affiliations": [
+            "Singapore-MIT Alliance for Research and Technology",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kedar Hippalgaonkar",
+          "orcid": "0000-0002-1270-9047",
+          "affiliations": [
+            "Agency for Science, Technology and Research",
+            "Nanyang Technological University",
+            "Institute of Materials Research and Engineering"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Omega",
+      "doi": "10.1021/acsomega.2c04856",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsomega.2c04856",
+      "cited_by_count": 35,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.2c04856",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Defining the metric for synthesizability and predicting new compounds that can be experimentally realized in the realm of data-driven research is a pressing problem in contemporary materials science. The increasing computational power and advancements in machine learning (ML) algorithms provide a new avenue to solve the synthesizability challenge. In this work, using the Inorganic Crystal Structure Database (ICSD) and the Materials Project (MP) database, we represent crystal structures in Fourier-transformed crystal properties (FTCP) representation and use a deep learning model to predict synthesizability in the form of a synthesizability score (SC). Such an SC model, as a synthesizability filter for new materials, enables an efficient and accurate classification to identify promising material candidates. The SC prediction model achieved 82.6/80.6% (precision/recall) overall accuracy in predicting ternary crystal materials. We also trained the SC model by only considering compounds uploaded on the MP before 2015 as the training set and testing on multiple sets of materials uploaded after 2015. In the post-2019 test set, we obtain a high 88.60% true positive rate accuracy, coupled with 9.81% precision, indicating that newly added materials remain unexplored and have high synthesis potential. Further, we provide a list of 100 materials predicted to be synthesizable from this post-2019 dataset (highest SC) for future studies, and our SC model, as a validation filter, is beneficial for future material screening and discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Expansion of the Materials Cloud 2D Database",
+      "authors": [
+        "Davide Campi",
+        "Nicolas Mounet",
+        "Marco Gibertini",
+        "Giovanni Pizzi",
+        "Nicola Marzari"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Davide Campi",
+          "orcid": "0000-0002-6278-4352",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne",
+            "University of Milano-Bicocca"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicolas Mounet",
+          "orcid": "0000-0002-1433-1017",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marco Gibertini",
+          "orcid": "0000-0003-3980-5319",
+          "affiliations": [
+            "University of Modena and Reggio Emilia",
+            "Istituto Nanoscienze",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Giovanni Pizzi",
+          "orcid": "0000-0002-3583-4377",
+          "affiliations": [
+            "Paul Scherrer Institute",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicola Marzari",
+          "orcid": "0000-0002-9764-0199",
+          "affiliations": [
+            "Paul Scherrer Institute",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Nano",
+      "doi": "10.1021/acsnano.2c11510",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsnano.2c11510",
+      "cited_by_count": 75,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsnano.2c11510",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Two-dimensional (2D) materials are among the most promising candidates for beyond-silicon electronic, optoelectronic, and quantum computing applications. Recently, their recognized importance sparked a push to discover and characterize novel 2D materials. Within a few years, the number of experimentally exfoliated or synthesized 2D materials went from a few to more than a hundred, with the number of theoretically predicted compounds reaching a few thousand. In 2018 we first contributed to this effort with the identification of 1825 compounds that are either easily (1036) or potentially (789) exfoliable from experimentally known 3D compounds. Here, we report on a major expansion of this 2D portfolio thanks to the extension of the screening protocol to an additional experimental database (MPDS) as well as the updated versions of the two databases (ICSD and COD) used in our previous work. This expansion leads to the discovery of an additional 1252 monolayers, bringing the total to 3077 compounds and, notably, almost doubling the number of easily exfoliable materials to 2004. We optimize the structural properties of all these monolayers and explore their electronic structure with a particular emphasis on those rare large-bandgap 2D materials that could be precious in isolating 2D field-effect-transistor channels. Finally, for each material containing up to 6 atoms per unit cell, we identify the best candidates to form commensurate heterostructures, balancing requirements on supercell size and minimal strain.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Optical Property dataset of Inorganic Phosphor (IPOP dataset ver 3.0)",
+      "authors": [
+        "Seunghun Jang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.24771186",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.24771186",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/_b_Optical_Property_dataset_of_b_b_b_b_Inorganic_Phosphor_b_b_b_b_IPOP_dataset_ver_3_0_b_/24771186",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We constructed a high-quality and reliable dataset that contains experimentally validated inorganic phosphors and their optical properties sourced from the literature on inorganic phosphors. Since the IPOP dataset ver 1.0 announcement on December 22, 2022, IPOP dataset ver 3.0 has been published through a continuous dataset update process. The updated details for the dataset are as follows.1. Data on papers cited less than ten times were deleted in the IPOP dataset.2. Additional data on Eu-doped phosphors have been added.3. The second and third maxima information for PLE data has been added.4. Alkali metals were treated as hosts rather than dopants.5. PLE detection energy was renamed to Monitoring energy.6. Duplicate data has been deleted.7. Inorganic Crystal Structure Database (ICSD) ID information has been added.8. LocalOutlierFactor (LOF) score information has been added. IPOP dataset ver3.0 includes 3,952 combinations of 21 dopant elements in 2,238 host materials from 553 articles. 1 Tag — The numbering of data points2 Inorganic phosphor — Composition of phosphor3 Host — Host composition of phosphor4 1st dopant — 1st dopant atom of phosphor5 1st dopant valency — Valency of 1st dopant atom6 1st dopant concentration — Doping concentration of 1st dopant7 2nd dopant — 2nd dopant atom of phosphor8 2nd dopant valency — Valency of 2nd dopant atom9 2nd dopant concentration — Doping concentration of 2nd dopant10 Temp. (K) — Measurement temperature11 Emission max. (nm) — Maximum photoluminescence emission wavelength, λPL,max12 CIE X coordinate — X coordinate in CIE chromaticity diagram, XCIE13 CIE Y coordinate — Y coordinate in CIE chromaticity diagram, YCIE14 Int. quantum efficiency (%) — Internal quantum efficiency, QEint15 Ext. quantum efficiency (%) — External quantum efficiency, QEext16 Thermal quenching temp. (K) — Float Thermal quenching temperature, T5017 Excitation source (nm) — Wavelength of excitation source, λexc18 1st Excitation max. (nm) — 1st Maximum photoluminescence excitation wavelength, λPLE,max(1st)19 2nd Excitation max. (nm) — 2nd Maximum photoluminescence excitation wavelength, λPLE,max(2nd)20 3rd Excitation max. (nm) — 3rd Maximum photoluminescence excitation wavelength, λPLE,max(3rd)21 Log10 Decay time (log10 [ns]) — Logarithmic value of photoluminescence decay time, τlog,PL22 Decay time (ns) — Photoluminescence decay time, τPL23 Monitoring energy (nm) — Photoluminescence excitation detection wavelength, λPLE,dec24 Reference — Source document DOI25 Publisher — Abbreviation for journal publisher26 MP-ID — String Materials project ID27 ICSD-ID — String Inorganic crystal structure database ID28 LOF-Score — Float Local outlier factor score -phosphor_20230908_Eu_only _[PROPERTY]_AF (9 types) A total of 52 features were created using the atomic ratio, atomic number, atomic weight, atomic radius, Pauling electronegativity, number of valence electrons, first ionization energy, and the combination thereof. To allow anyone to utilize the intermediate results created in this process freely, we provide machine-readable feature vectors for inorganic phosphors for download in addition to the IPOP dataset ver3.0. - phosphor_20230908_Eu_only_EmP_AF.csv : Emission max.- phosphor_20230908_Eu_only_CIEX_AF.csv : CIE X coordinate- phosphor_20230908_Eu_only_AF.csv : CIE Y coordinate- phosphor_20230908_Eu_only_IQE_AF.csv : Int. quantum efficiency (%)- phosphor_20230908_Eu_only_EQE_AF.csv : Ext. quantum efficiency (%)- phosphor_20230908_Eu_only_T50_AF.csv : Thermal quenching temp. (K)- phosphor_20230908_Eu_only_ExP1_AF.csv : 1st Excitation max. (nm)- phosphor_20230908_Eu_only_ExP2_AF.csv : 2nd Excitation max. (nm)- phosphor_20230908_Eu_only_DT_AF.csv : Log10 Decay time (log10 [ns])",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Transfer learning on large datasets for the accurate prediction of material properties",
+      "authors": [
+        "Noah Hoffmann",
+        "Jonathan Schmidt",
+        "Silvana Botti",
+        "Miguel A. L. Marques"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Noah Hoffmann",
+          "orcid": "0000-0002-8593-5811",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan Schmidt",
+          "orcid": "0000-0001-5685-6404",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg",
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Silvana Botti",
+          "orcid": "0000-0002-4920-2370",
+          "affiliations": [
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Miguel A. L. Marques",
+          "orcid": "0000-0003-0170-8222",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2303.03000",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2303.03000",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2303.03000",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Graph neural networks trained on large crystal structure databases are extremely effective in replacing ab initio calculations in the discovery and characterization of materials. However, crystal structure datasets comprising millions of materials exist only for the Perdew-Burke-Ernzerhof (PBE) functional. In this work, we investigate the effectiveness of transfer learning to extend these models to other density functionals. We show that pre-training significantly reduces the size of the dataset required to achieve chemical accuracy and beyond. We also analyze in detail the relationship between the transfer-learning performance and the size of the datasets used for the initial training of the model and transfer learning. We confirm a linear dependence of the error on the size of the datasets on a log-log scale, with a similar slope for both training and the pre-training datasets. This shows that further increasing the size of the pre-training dataset, i.e. performing additional calculations with a low-cost functional, is also effective, through transfer learning, in improving machine-learning predictions with the quality of a more accurate, and possibly computationally more involved functional. Lastly, we compare the efficacy of interproperty and intraproperty transfer learning.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Unveiling the complex structure-property correlation of defects in 2D materials based on high throughput datasets",
+      "authors": [
+        "Pengru Huang",
+        "Ruslan Yu. Lukin",
+        "Maxim Faleev",
+        "N. Kazeev",
+        "Abdalaziz Rashid Al-Maeeni",
+        "Daria V. Andreeva",
+        "A. Ustyuzhanin",
+        "Alexander G. Tormasov",
+        "A. H. Castro Neto",
+        "Kostya S. Novoselov"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Pengru Huang",
+          "orcid": "0000-0001-7863-8045",
+          "affiliations": [
+            "National University of Singapore",
+            "Institute for Functional Intelligent Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruslan Yu. Lukin",
+          "orcid": "0000-0002-6419-1358",
+          "affiliations": [
+            "Innopolis University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxim Faleev",
+          "orcid": null,
+          "affiliations": [
+            "Innopolis University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Kazeev",
+          "orcid": "0000-0002-5699-7634",
+          "affiliations": [
+            "National University of Singapore",
+            "Constructor Institute",
+            "Institute for Functional Intelligent Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abdalaziz Rashid Al-Maeeni",
+          "orcid": "0000-0002-3299-7293",
+          "affiliations": [
+            "National Research University Higher School of Economics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daria V. Andreeva",
+          "orcid": "0000-0003-0273-2064",
+          "affiliations": [
+            "National University of Singapore",
+            "Institute for Functional Intelligent Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Ustyuzhanin",
+          "orcid": "0000-0001-7865-2357",
+          "affiliations": [
+            "National Research University Higher School of Economics",
+            "National University of Science and Technology",
+            "Constructor Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander G. Tormasov",
+          "orcid": "0000-0001-6887-4327",
+          "affiliations": [
+            "Innopolis University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. H. Castro Neto",
+          "orcid": "0000-0003-0613-4010",
+          "affiliations": [
+            "National University of Singapore",
+            "Institute for Functional Intelligent Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kostya S. Novoselov",
+          "orcid": "0000-0003-4972-5371",
+          "affiliations": [
+            "National University of Singapore",
+            "Institute for Functional Intelligent Materials"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj 2D Materials and Applications",
+      "doi": "10.1038/s41699-023-00369-1",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41699-023-00369-1",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41699-023-00369-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Modification of physical properties of materials and design of materials with on-demand characteristics is at the heart of modern technology. Rare application relies on pure materials—most devices and technologies require careful design of materials properties through alloying, creating heterostructures of composites, or controllable introduction of defects. At the same time, such designer materials are notoriously difficult to model. Thus, it is very tempting to apply machine learning methods to such systems. Unfortunately, there is only a handful of machine learning-friendly material databases available these days. We develop a platform for easy implementation of machine learning techniques to materials design and populate it with datasets on pristine and defected materials. Here we introduce the 2D Material Defect (2DMD) datasets that include defect properties of represented 2D materials such as MoS2, WSe2, hBN, GaSe, InSe, and black phosphorous, calculated using DFT. Our study provides a data-driven physical understanding of complex behaviors of defect properties in 2D materials, holding promise for a guide to the development of efficient machine learning models. In addition, with the increasing enrollment of datasets, our database could provide a platform for designing materials with predetermined properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Optical property database of inorganic phosphor (IPOP dataset)",
+      "authors": [
+        "Seunghun Jang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Seunghun Jang",
+          "orcid": "0000-0003-2614-1576",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.21766916",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.21766916",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/Optical_property_database_of_inorganic_phosphor_IPOP_dataset_/21766916",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "-Inorganic_Phosphor_Optical_Properties_DB_20221222 We constructed a high-quality and reliable database that contains experimentally validated inorganic phosphors and their optical properties, sourced from the literature on inorganic phosphors. Our database includes 4,110 combinations of 27 dopant elements in 2,231 host materials from 586 articles. 1 Tag — The numbering of data points 2 Inorganic phosphor — Composition of phosphor 3 Host — Host composition of phosphor 4 1st dopant — 1st dopant atom of phosphor 5 1st dopant valency — Valency of 1st dopant atom 6 1st dopant concentration — Doping concentration of 1st dopant 7 2nd dopant — 2nd dopant atom of phosphor 8 2nd dopant valency — Valency of 2nd dopant atom 9 2nd dopant concentration — Doping concentration of 2nd dopant 10 Temp. (K) — Measurement temperature 11 Emission max. (nm) — Maximum photoluminescence emission wavelength, λPL,max 12 CIE X coordinate — X coordinate in CIE chromaticity diagram, XCIE 13 CIE Y coordinate — Y coordinate in CIE chromaticity diagram, YCIE 14 Int. quantum efficiency (%) — Internal quantum efficiency, QEint 15 Ext. quantum efficiency (%) — External quantum efficiency, QEext 16 Thermal quenching temp. (K) — Float Thermal quenching temperature, T50 17 Excitation source (nm) — Wavelength of excitation source, λexc 18 Excitation max. (nm) — Maximum photoluminescence excitation wavelength, λPLE,max 19 Log10 Decay time (log10 [ns]) — Logarithmic value of photoluminescence decay time, τlog,PL 20 Decay time (ns) — Photoluminescence decay time, τPL 21 PLE detection energy (nm) — Photoluminescence excitation detection wavelength, λPLE,dec 22 Reference — Source document DOI 23 Publisher — Abbreviation for journal publisher 24 MP-ID — String Materials project ID -phosphor_20221211_[PROPERTY]_AF (8 types) A total of 52 features were created using the atomic ratio, atomic number, atomic weight, atomic radius, Pauling electronegativity, number of valence electrons, first ionization energy, and the combination thereof. To allow anyone to freely utilize the intermediate results created in this process, we provide machine-readable feature vectors for inorganic phosphors for download in addition to the IPOP dataset. -phosphor_20221211_EmP_AF.csv : Emission max. -phosphor_20221211_CIEX_AF.csv : CIE X coordinate -phosphor_20221211_CIEY_AF.csv : CIE Y coordinate -phosphor_20221211_IQE_AF.csv : Int. quantum efficiency (%) -phosphor_20221211_EQE_AF.csv : Ext. quantum efficiency (%) -phosphor_20221211_T50_AF.csv : Thermal quenching temp. (K) -phosphor_20221211_ExP_AF.csv : Excitation max. (nm) -phosphor_20221211_DT_AF.csv : Log10 Decay time (log10 [ns])",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "A compilation of experimental data on the mechanical properties and microstructural features of Ti-alloys",
+      "authors": [
+        "Camilo Augusto Fernandes Salvador",
+        "Eloá Lopes Maia",
+        "Fernando Henrique da Costa",
+        "Julián Escobar",
+        "J.P. Oliveira"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Camilo Augusto Fernandes Salvador",
+          "orcid": "0000-0002-9128-2044",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eloá Lopes Maia",
+          "orcid": "0000-0002-8662-4855",
+          "affiliations": [
+            "Vrije Universiteit Brussel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fernando Henrique da Costa",
+          "orcid": "0000-0001-6602-5751",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julián Escobar",
+          "orcid": "0000-0001-9057-8671",
+          "affiliations": [
+            "Universidade de São Paulo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.P. Oliveira",
+          "orcid": "0000-0001-6906-1870",
+          "affiliations": [
+            "Centro de Investigação em Materiais",
+            "Universidade Nova de Lisboa"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01283-9",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01283-9",
+      "cited_by_count": 69,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01283-9.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The present work depicts a compilation of mechanical properties of 282 distinct multicomponent Ti-based alloys and their respective microstructural features. The dataset includes the chemical composition (in at.%), phase constituents, Young modulus, hardness, yield strength, ultimate strength, and elongation. Each entry is associated with a high-quality experimental work containing a complete description of the processing route and testing setup. Furthermore, we incorporated flags to the dataset indicating (a) the use of high-resolution techniques for microstructural analysis and (b) the observation of non-linear elastic responses during mechanical testing. Oxygen content and average grain size are presented whenever available. The selected features can help material scientists to adjust the data to their needs concerning materials selection and discovery. Most alloys in the dataset were produced via an ingot metallurgy route, followed by solubilization and water quench (≈58%), which is considered a standard condition for β-Ti alloys. The database is hosted and maintained up to date in an open platform. For completeness, a few graphical representations of the dataset are included.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "Effects of data bias on machine-learning–based material discovery using experimental property data",
+      "authors": [
+        "Masaya Kumagai",
+        "Yuki Ando",
+        "Atsumi Tanaka",
+        "Koji Tsuda",
+        "Yukari Katsura",
+        "Ken Kurosaki"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Masaya Kumagai",
+          "orcid": "0000-0003-4766-8625",
+          "affiliations": [
+            "Kyoto University",
+            "RIKEN Center for Advanced Intelligence Project",
+            "Institute for Integrated Radiation and Nuclear Science, Kyoto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuki Ando",
+          "orcid": "0000-0002-9386-2990",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Atsumi Tanaka",
+          "orcid": null,
+          "affiliations": [
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Koji Tsuda",
+          "orcid": "0000-0002-4288-1606",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN Center for Advanced Intelligence Project",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yukari Katsura",
+          "orcid": "0000-0002-8905-2995",
+          "affiliations": [
+            "National Institute for Materials Science",
+            "RIKEN Center for Advanced Intelligence Project",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ken Kurosaki",
+          "orcid": "0000-0002-3015-3206",
+          "affiliations": [
+            "University of Fukui",
+            "Kyoto University",
+            "Institute for Integrated Radiation and Nuclear Science, Kyoto University",
+            "Research Institute of Nuclear Engineering, University of Fukui"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science and Technology of Advanced Materials Methods",
+      "doi": "10.1080/27660400.2022.2109447",
+      "type": "article",
+      "url": "https://doi.org/10.1080/27660400.2022.2109447",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1080/27660400.2022.2109447",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials informatics (MI) research, which is the discovery of new materials through machine learning (ML) using large-scale material data, has attracted considerable attention in recent years. However, in general, the large-scale material data used in MI are biased owing to differences in the targeted material domains. Moreover, most studies on MI have not clearly demonstrated the influence of data bias on ML models. In this study, we clarify the influence of data bias on ML models by combining the concept of the applicability domain and clustering for large-scale experimental property data in the Starrydata2 material database previously developed by our group. The results show that data bias influences the error and reliability of the predictions made by the ML model. The predictions of the ML model within the applicability domain are highly reliable compared to those made outside the domain. This indicates that the material space that can be reliably discovered by the constructed ML model is limited. Nonetheless, we apply the ML model to a large dataset comprising various material classes and find that new materials similar to known materials can be proposed within a limited space. Thus, our findings demonstrate the importance of considering data bias when constructing and evaluating ML models in MI.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "A public database of thermoelectric materials and system-identified material representation for data-driven discovery",
+      "authors": [
+        "Gyoung S. Na",
+        "Hyunju Chang"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Gyoung S. Na",
+          "orcid": "0000-0001-9803-0782",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hyunju Chang",
+          "orcid": "0000-0001-7241-5342",
+          "affiliations": [
+            "Korea Research Institute of Chemical Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00897-2",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00897-2",
+      "cited_by_count": 61,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00897-2.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Thermoelectric materials have received much attention as energy harvesting devices and power generators. However, discovering novel high-performance thermoelectric materials is challenging due to the structural diversity and complexity of the thermoelectric materials containing alloys and dopants. For the efficient data-driven discovery of novel thermoelectric materials, we constructed a public dataset that contains experimentally synthesized thermoelectric materials and their experimental thermoelectric properties. For the collected dataset, we were able to construct prediction models that achieved R2-scores greater than 0.9 in the regression problems to predict the experimentally measured thermoelectric properties from the chemical compositions of the materials. Furthermore, we devised a material descriptor for the chemical compositions of the materials to improve the extrapolation capabilities of machine learning methods. Based on transfer learning with the proposed material descriptor, we significantly improved the R2-score from 0.13 to 0.71 in predicting experimental ZTs of the materials from completely unexplored material groups.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Cross-property deep transfer learning framework for enhanced predictive analytics on small materials data",
+      "authors": [
+        "Vishu Gupta",
+        "Kamal Kumar Choudhary",
+        "Francesca Tavazza",
+        "Carelyn E. Campbell",
+        "Wei‐keng Liao",
+        "Alok Choudhary",
+        "Ankit Agrawal"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Vishu Gupta",
+          "orcid": "0000-0002-4931-7194",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Theiss Research",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Tavazza",
+          "orcid": "0000-0002-5602-180X",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carelyn E. Campbell",
+          "orcid": "0000-0003-0336-0944",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei‐keng Liao",
+          "orcid": "0009-0008-9411-2543",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alok Choudhary",
+          "orcid": "0000-0001-8152-6319",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ankit Agrawal",
+          "orcid": "0000-0002-5519-0302",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-021-26921-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-021-26921-5",
+      "cited_by_count": 203,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-021-26921-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Artificial intelligence (AI) and machine learning (ML) have been increasingly used in materials science to build predictive models and accelerate discovery. For selected properties, availability of large databases has also facilitated application of deep learning (DL) and transfer learning (TL). However, unavailability of large datasets for a majority of properties prohibits widespread application of DL/TL. We present a cross-property deep-transfer-learning framework that leverages models trained on large datasets to build models on small datasets of different properties. We test the proposed framework on 39 computational and two experimental datasets and find that the TL models with only elemental fractions as input outperform ML/DL models trained from scratch even when they are allowed to use physical attributes as input, for 27/39 (≈ 69%) computational and both the experimental datasets. We believe that the proposed framework can be widely useful to tackle the small data challenge in applying AI/ML in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Thermal properties of building materials - Review and database",
+      "authors": [
+        "Hicham Johra"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Hicham Johra",
+          "orcid": "0000-0003-4177-9121",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.54337/aau456230861",
+      "type": "report",
+      "url": "https://doi.org/10.54337/aau456230861",
+      "cited_by_count": 29,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://vbn.aau.dk/ws/files/456230861/Thermal_properties_building_materials_2021.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": "cc-by-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "The aim of this technical report is to present and give an overview of a dataset collecting the main thermo-physical properties of various common construction and building materials used in the built environment and composing elements of buildings and infrastructures. In addition, suggestions and recommendations are made for the thermo-physical properties of the materials composing the indoor content and furniture elements present in the built environment.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Leveraging Large-scale Computational Database and Deep Learning for Accurate Prediction of Material Properties",
+      "authors": [
+        "Pin Chen",
+        "Jianwen Chen",
+        "Hui Yu Yan",
+        "Mo, Qing",
+        "Zexin Xu",
+        "Jinyu Liu",
+        "Wenqing Zhang",
+        "Yuedong Yang",
+        "Yutong Lu"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Pin Chen",
+          "orcid": "0000-0001-8746-9917",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianwen Chen",
+          "orcid": "0000-0001-7999-2070",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hui Yu Yan",
+          "orcid": "0000-0001-7902-458X",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mo, Qing",
+          "orcid": null,
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zexin Xu",
+          "orcid": "0000-0002-2095-4413",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyu Liu",
+          "orcid": "0000-0002-3101-2587",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenqing Zhang",
+          "orcid": "0000-0002-2551-6375",
+          "affiliations": [
+            "Southern University of Science and Technology",
+            "Guangdong Provincial Key Laboratory Of Computational Science And Material Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuedong Yang",
+          "orcid": "0000-0002-6782-2813",
+          "affiliations": [
+            "Sun Yat-sen University",
+            "National Supercomputer Center in Guangzhou"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yutong Lu",
+          "orcid": "0000-0001-5315-3375",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2112.14429",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2112.14429",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2112.14429",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Accurately predicting the physical and chemical properties of materials remains one of the most challenging tasks in material design, and one effective strategy is to construct a reliable data set and use it for training a machine learning model. In this study, we constructed a large-scale material genome database (Matgen) containing 76,463 materials collected from experimentally-observed database, and computed their bandgap properties through the Density functional theory (DFT) method with Perdew-Burke-Ernzehof (PBE) functional. We verified the computation method by comparing part of our results with those from the open Material Project (MP) and Open Quantum Materials Database (OQMD), all with PBE computations, and found that Matgen achieved the same computation accuracy based on both measured and computed bandgap properties. Based on the computed properties of our comprehensive dataset, we have developed a new graph-based deep learning model, namely CrystalNet, through our recently developed Communicative Message Passing Neural Network (CMPNN) framework. The model was shown to outperform other state-of-the-art prediction models. A further fine-tuning on 1716 experimental bandgap values (CrystalNet-TL) achieved a superior performance with mean absolute error (MAE) of 0.77 eV on independent test, which has outperformed the pure PBE (1.14~1.45 eV). Moreover, the model was proven applicable to hypothetical materials with MAE of 0.77 eV as referred by computations from HSE, a highly accurate quantum mechanics (QM) method, consist better than PBE (MAE=1.13eV). We also made material structures, computed properties by PBE, and the CrystalNet models publically available at https://matgen.nscc-gz.cn.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Automation of diffusion database development in multicomponent alloys from large number of experimental composition profiles",
+      "authors": [
+        "Jing Zhong",
+        "Li Chen",
+        "Lijun Zhang"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Jing Zhong",
+          "orcid": "0009-0004-7420-9410",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Li Chen",
+          "orcid": "0000-0003-0523-0369",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lijun Zhang",
+          "orcid": "0000-0003-2415-2239",
+          "affiliations": [
+            "Central South University",
+            "State Key Laboratory of Powder Metallurgy"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00500-0",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00500-0",
+      "cited_by_count": 53,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00500-0.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Nowadays, the urgency for the high-quality interdiffusion coefficients and atomic mobilities with quantified uncertainties in multicomponent/multi-principal element alloys, which are indispensable for comprehensive understanding of the diffusion-controlled processes during their preparation and service periods, is merging as a momentous trending in materials community. However, the traditional exploration approach for database development relies heavily on expertize and labor-intensive computation, and is thus intractable for complex systems. In this paper, we augmented the HitDIC (high-throughput determination of interdiffusion coefficients, https://hitdic.com ) software into a computation framework for automatic and efficient extraction of interdiffusion coefficients and development of atomic mobility database directly from large number of experimental composition profiles. Such an efficient framework proceeds in a workflow of automation concerning techniques of data-cleaning, feature engineering, regularization, uncertainty quantification and parallelism, for sake of agilely establishing high-quality kinetic database for target alloy. Demonstration of the developed infrastructures was finally conducted in fcc CoCrFeMnNi high-entropy alloys with a dataset of 170 diffusion couples and 34,000 composition points for verifying their reliability and efficiency. Thorough investigation over the obtained kinetic descriptions indicated that the sluggish diffusion is merely unilateral interpretation over specific composition and temperature ranges affiliated to limited dataset. It is inferred that data-mining over large number of experimental data with the combinatorial infrastructures are superior to reveal extremely complex composition- and temperature-dependent thermal–physical properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Experimental database of optical properties of organic compounds",
+      "authors": [
+        "Joonyoung F. Joung",
+        "Minhi Han",
+        "Minseok Jeong",
+        "Sungnam Park"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Joonyoung F. Joung",
+          "orcid": "0000-0002-5976-2048",
+          "affiliations": [
+            "Korea University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minhi Han",
+          "orcid": "0000-0002-9873-4904",
+          "affiliations": [
+            "Korea University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minseok Jeong",
+          "orcid": "0000-0002-8360-9166",
+          "affiliations": [
+            "Korea University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sungnam Park",
+          "orcid": "0000-0001-6288-4620",
+          "affiliations": [
+            "Korea University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-020-00634-8",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-020-00634-8",
+      "cited_by_count": 113,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-020-00634-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Experimental databases on the optical properties of organic chromophores are important for the implementation of data-driven chemistry using machine learning. Herein, we present a series of experimental data including various optical properties such as the first absorption and emission maximum wavelengths and their bandwidths (full width at half maximum), extinction coefficient, photoluminescence quantum yield, and fluorescence lifetime. A database of 20,236 data points was developed by collecting the optical properties of organic compounds already reported in the literature. A dataset of 7,016 unique organic chromophores in 365 solvents or in solid state is available in CSV format.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Comparative dataset of experimental and computational attributes of UV/vis absorption spectra",
+      "authors": [
+        "Edward J. Beard",
+        "Ganesh Sivaraman",
+        "Álvaro Vázquez‐Mayagoitia",
+        "Venkatram Vishwanath",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Edward J. Beard",
+          "orcid": "0000-0003-2546-3899",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ganesh Sivaraman",
+          "orcid": "0000-0001-9056-9855",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Álvaro Vázquez‐Mayagoitia",
+          "orcid": "0000-0002-1415-6300",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Venkatram Vishwanath",
+          "orcid": "0000-0001-7248-6116",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-019-0306-0",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-019-0306-0",
+      "cited_by_count": 100,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-019-0306-0.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The ability to auto-generate databases of optical properties holds great prospects in data-driven materials discovery for optoelectronic applications. We present a cognate set of experimental and computational data that describes key features of optical absorption spectra. This includes an auto-generated database of 18,309 records of experimentally determined UV/vis absorption maxima, λ max , and associated extinction coefficients, ϵ , where present. This database was produced using the text-mining toolkit, ChemDataExtractor, on 402,034 scientific documents. High-throughput electronic-structure calculations using fast (simplified Tamm-Dancoff approach) and traditional (time-dependent) density functional theory were executed to predict λ max and oscillation strengths, f (related to ϵ) for a subset of validated compounds. Paired quantities of these computational and experimental data show strong correlations in λ max , f and ϵ , laying the path for reliable in silico calculations of additional optical properties. The total dataset of 8,488 unique compounds and a subset of 5,380 compounds with experimental and computational data, are available in MongoDB, CSV and JSON formats. These can be queried using Python, R, Java, and MATLAB, for data-driven optoelectronic materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Simultaneous learning of several materials properties from incomplete databases with multi-task SISSO",
+      "authors": [
+        "Runhai Ouyang",
+        "Emre Ahmetcik",
+        "Christian Carbogno",
+        "Matthias Scheffler",
+        "Luca M. Ghiringhelli"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Runhai Ouyang",
+          "orcid": "0000-0001-9020-0484",
+          "affiliations": [
+            "Fritz Haber Institute of the Max Planck Society"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emre Ahmetcik",
+          "orcid": null,
+          "affiliations": [
+            "Fritz Haber Institute of the Max Planck Society"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Carbogno",
+          "orcid": "0000-0003-0635-8364",
+          "affiliations": [
+            "Fritz Haber Institute of the Max Planck Society"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthias Scheffler",
+          "orcid": "0000-0002-1280-9873",
+          "affiliations": [
+            "Fritz Haber Institute of the Max Planck Society"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luca M. Ghiringhelli",
+          "orcid": "0000-0001-5099-3029",
+          "affiliations": [
+            "Fritz Haber Institute of the Max Planck Society"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Physics Materials",
+      "doi": "10.1088/2515-7639/ab077b",
+      "type": "article",
+      "url": "https://doi.org/10.1088/2515-7639/ab077b",
+      "cited_by_count": 183,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://iopscience.iop.org/article/10.1088/2515-7639/ab077b/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The identification of descriptors of materials properties and functions that capture the underlying physical mechanisms is a critical goal in data-driven materials science. Only such descriptors will enable a trustful and efficient scanning of materials spaces and possibly the discovery of new materials. Recently, the sure-independence screening and sparsifying operator (SISSO) has been introduced and was successfully applied to a number of materials-science problems. SISSO is a compressed sensing based methodology yielding predictive models that are expressed in form of analytical formulas, built from simple physical properties. These formulas are systematically selected from an immense number (billions or more) of candidates. In this work, we describe a powerful extension of the methodology to a 'multi-task learning' approach, which identifies a single descriptor capturing multiple target materials properties at the same time. This approach is specifically suited for a heterogeneous materials database with scarce or partial data, e.g. in which not all properties are reported for all materials in the training set. As showcase examples, we address the construction of materials properties maps for the relative stability of octet-binary compounds, considering several crystal phases simultaneously, and the metal/insulator classification of binary materials distributed over many crystal prototypes.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Enhancing materials property prediction by leveraging computational and experimental data using deep transfer learning",
+      "authors": [
+        "Dipendra Jha",
+        "Kamal Kumar Choudhary",
+        "Francesca Tavazza",
+        "Wei‐keng Liao",
+        "Alok Choudhary",
+        "Carelyn E. Campbell",
+        "Ankit Agrawal"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Dipendra Jha",
+          "orcid": null,
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Tavazza",
+          "orcid": "0000-0002-5602-180X",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei‐keng Liao",
+          "orcid": "0009-0008-9411-2543",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alok Choudhary",
+          "orcid": "0000-0001-8152-6319",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carelyn E. Campbell",
+          "orcid": "0000-0003-0336-0944",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ankit Agrawal",
+          "orcid": "0000-0002-5519-0302",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-019-13297-w",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-019-13297-w",
+      "cited_by_count": 341,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-019-13297-w.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The current predictive modeling techniques applied to Density Functional Theory (DFT) computations have helped accelerate the process of materials discovery by providing significantly faster methods to scan materials candidates, thereby reducing the search space for future DFT computations and experiments. However, in addition to prediction error against DFT-computed properties, such predictive models also inherit the DFT-computation discrepancies against experimentally measured properties. To address this challenge, we demonstrate that using deep transfer learning, existing large DFT-computational data sets (such as the Open Quantum Materials Database (OQMD)) can be leveraged together with other smaller DFT-computed data sets as well as available experimental observations to build robust prediction models. We build a highly accurate model for predicting formation energy of materials from their compositions; using an experimental data set of [Formula: see text] observations, the proposed approach yields a mean absolute error (MAE) of [Formula: see text] eV/atom, which is significantly better than existing machine learning (ML) prediction modeling based on DFT computations and is comparable to the MAE of DFT-computation itself.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Comparative dataset of experimental and computational attributes of UV/vis absorption spectra.",
+      "authors": [
+        "Edward J. Beard",
+        "Ganesh Sivaraman",
+        "Álvaro Vázquez‐Mayagoitia",
+        "Venkatram Vishwanath",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Edward J. Beard",
+          "orcid": "0000-0003-2546-3899",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ganesh Sivaraman",
+          "orcid": "0000-0001-9056-9855",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Álvaro Vázquez‐Mayagoitia",
+          "orcid": "0000-0002-1415-6300",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Venkatram Vishwanath",
+          "orcid": "0000-0001-7248-6116",
+          "affiliations": [
+            "Argonne National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Apollo (University of Cambridge)",
+      "doi": "10.17863/cam.47540",
+      "type": "article",
+      "url": "https://doi.org/10.17863/cam.47540",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.repository.cam.ac.uk/handle/1810/300468",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The ability to auto-generate databases of optical properties holds great prospects in data-driven materials discovery for optoelectronic applications. We present a cognate set of experimental and computational data that describes key features of optical absorption spectra. This includes an auto-generated database of 18,309 records of experimentally determined UV/vis absorption maxima, λmax, and associated extinction coefficients, ϵ, where present. This database was produced using the text-mining toolkit, ChemDataExtractor, on 402,034 scientific documents. High-throughput electronic-structure calculations using fast (simplified Tamm-Dancoff approach) and traditional (time-dependent) density functional theory were executed to predict λmax and oscillation strengths, f (related to ϵ) for a subset of validated compounds. Paired quantities of these computational and experimental data show strong correlations in λmax, f and ϵ, laying the path for reliable in silico calculations of additional optical properties. The total dataset of 8,488 unique compounds and a subset of 5,380 compounds with experimental and computational data, are available in MongoDB, CSV and JSON formats. These can be queried using Python, R, Java, and MATLAB, for data-driven optoelectronic materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Grain boundary properties of elemental metals",
+      "authors": [
+        "Hui Zheng",
+        "Xiangguo Li",
+        "Richard Tran",
+        "Chi Chen",
+        "Matthew K. Horton",
+        "Donny Winston",
+        "Kristin Aslaug Persson",
+        "Shyue Ping Ong"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Hui Zheng",
+          "orcid": "0000-0001-9317-1762",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangguo Li",
+          "orcid": "0000-0002-2062-3809",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Richard Tran",
+          "orcid": "0000-0002-0308-2182",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chi Chen",
+          "orcid": "0000-0001-8008-7043",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew K. Horton",
+          "orcid": "0000-0001-7777-8871",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Donny Winston",
+          "orcid": "0000-0002-8424-0604",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shyue Ping Ong",
+          "orcid": "0000-0001-5726-2587",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2019.12.030",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2019.12.030",
+      "cited_by_count": 278,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.actamat.2019.12.030",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Text-mined dataset of inorganic materials synthesis recipes",
+      "authors": [
+        "Olga Kononova",
+        "Haoyan Huo",
+        "Tanjin He",
+        "Ziqin Rong",
+        "Tiago Botari",
+        "Wenhao Q. Sun",
+        "Vahe Tshitoyan",
+        "Gerbrand Ceder"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Olga Kononova",
+          "orcid": "0000-0001-9267-312X",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haoyan Huo",
+          "orcid": "0000-0003-2227-9121",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tanjin He",
+          "orcid": "0000-0001-8834-8703",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ziqin Rong",
+          "orcid": "0000-0002-8987-8500",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tiago Botari",
+          "orcid": "0000-0002-9322-2942",
+          "affiliations": [
+            "Universidade de São Paulo",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wenhao Q. Sun",
+          "orcid": "0000-0002-8416-455X",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vahe Tshitoyan",
+          "orcid": "0000-0003-4518-2314",
+          "affiliations": [
+            "Google (United States)",
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "orcid": "0000-0001-9275-3605",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-019-0224-1",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-019-0224-1",
+      "cited_by_count": 263,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-019-0224-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials discovery has become significantly facilitated and accelerated by high-throughput ab-initio computations. This ability to rapidly design interesting novel compounds has displaced the materials innovation bottleneck to the development of synthesis routes for the desired material. As there is no a fundamental theory for materials synthesis, one might attempt a data-driven approach for predicting inorganic materials synthesis, but this is impeded by the lack of a comprehensive database containing synthesis processes. To overcome this limitation, we have generated a dataset of \"codified recipes\" for solid-state synthesis automatically extracted from scientific publications. The dataset consists of 19,488 synthesis entries retrieved from 53,538 solid-state synthesis paragraphs by using text mining and natural language processing approaches. Every entry contains information about target material, starting compounds, operations used and their conditions, as well as the balanced chemical equation of the synthesis reaction. The dataset is publicly available and can be used for data mining of various aspects of inorganic materials synthesis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Ontologies and databases on thermophysical properties of nuclear reactor materials",
+      "authors": [
+        "Igor’ Aleksandrovich Chusov",
+        "Pavel Leonidovich Kirillov",
+        "Vladimir Grigorevich Pronyaev",
+        "Adilbek Omirbekovich Erkimbaev",
+        "Vladimir Yu. Zitserman",
+        "Г. А. Кобзев",
+        "L. R. Fokin"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Igor’ Aleksandrovich Chusov",
+          "orcid": null,
+          "affiliations": [
+            "Obninsk Institute for Nuclear Power Engineering",
+            "National Research Nuclear University MEPhI"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pavel Leonidovich Kirillov",
+          "orcid": "0000-0002-5084-4186",
+          "affiliations": [
+            "Institute for Physics and Power Engineering"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladimir Grigorevich Pronyaev",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adilbek Omirbekovich Erkimbaev",
+          "orcid": "0000-0002-5239-2208",
+          "affiliations": [
+            "Russian Academy of Sciences",
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladimir Yu. Zitserman",
+          "orcid": "0000-0003-3327-3139",
+          "affiliations": [
+            "Russian Academy of Sciences",
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Г. А. Кобзев",
+          "orcid": "0000-0001-9987-1823",
+          "affiliations": [
+            "Russian Academy of Sciences",
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "L. R. Fokin",
+          "orcid": null,
+          "affiliations": [
+            "Joint Institute for High Temperatures"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Izvestiya Wysshikh Uchebnykh Zawedeniy Yadernaya Energetika",
+      "doi": "10.26583/npe.2019.1.01",
+      "type": "article",
+      "url": "https://doi.org/10.26583/npe.2019.1.01",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "http://ceur-ws.org/Vol-2022/paper36.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "A new technology for data management of a complex and irregular structure is proposed.Such a data structure is typical for the representation of the thermophysical properties of substances.This technology based on storage of data in JSON files is associated with ontologies for the semantic integration of heterogeneous sources.Advantages of JSON-formatthe ability to store data and metadata within a text document, accessible perceptions of a person and a computer and support for the hierarchical structures needed to represent semi-structured data.Availability of a multitude of heterogeneous data from a variety of sources justifies the use of the Apache Spark toolkit.When searching, it is supposed to combine SPARQL and SQL queries.The first one (addressed to the ontology repository) provides the user with the ability to view and search for adequate and related concepts.The second, accessed by JSON documents, retrieves the required data from the body of the document.The technology allows to overcome a variety of schemes, types and formats of data from different sources and implement a permanent adjustment of the created infrastructure to emerging objects and concepts not provided for at the stage of creation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "An open experimental database for exploring inorganic materials",
+      "authors": [
+        "Andriy Zakutayev",
+        "Nick Wunder",
+        "Marcus Schwarting",
+        "John D. Perkins",
+        "Robert White",
+        "Kristin R. Munch",
+        "William Tumas",
+        "Caleb T. Phillips"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Andriy Zakutayev",
+          "orcid": "0000-0002-3054-5525",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nick Wunder",
+          "orcid": "0009-0001-5451-5320",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marcus Schwarting",
+          "orcid": "0000-0001-6817-7265",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John D. Perkins",
+          "orcid": null,
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Robert White",
+          "orcid": "0000-0002-5208-4061",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin R. Munch",
+          "orcid": "0000-0003-4996-5172",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William Tumas",
+          "orcid": "0000-0002-2861-0332",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Caleb T. Phillips",
+          "orcid": "0000-0002-3665-4239",
+          "affiliations": [
+            "National Laboratory of the Rockies"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2018.53",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2018.53",
+      "cited_by_count": 204,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201853.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The use of advanced machine learning algorithms in experimental materials science is limited by the lack of sufficiently large and diverse datasets amenable to data mining. If publicly open, such data resources would also enable materials research by scientists without access to expensive experimental equipment. Here, we report on our progress towards a publicly open High Throughput Experimental Materials (HTEM) Database (htem.nrel.gov). This database currently contains 140,000 sample entries, characterized by structural (100,000), synthetic (80,000), chemical (70,000), and optoelectronic (50,000) properties of inorganic thin film materials, grouped in >4,000 sample entries across >100 materials systems; more than a half of these data are publicly available. This article shows how the HTEM database may enable scientists to explore materials by browsing web-based user interface and an application programming interface. This paper also describes a HTE approach to generating materials data, and discusses the laboratory information management system (LIMS), that underpin HTEM database. Finally, this manuscript illustrates how advanced machine learning algorithms can be adopted to materials science problems using this open data resource.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Solving Materials’ Small Data Problem with Dynamic Experimental Databases",
+      "authors": [
+        "Michael McBride",
+        "Nils E. Persson",
+        "Elsa Reichmanis",
+        "Martha A. Grover"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Michael McBride",
+          "orcid": "0000-0002-5274-7275",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nils E. Persson",
+          "orcid": "0000-0003-0750-5880",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elsa Reichmanis",
+          "orcid": "0000-0002-8205-8016",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martha A. Grover",
+          "orcid": "0000-0002-7036-776X",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Processes",
+      "doi": "10.3390/pr6070079",
+      "type": "article",
+      "url": "https://doi.org/10.3390/pr6070079",
+      "cited_by_count": 20,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2227-9717/6/7/79/pdf?version=1530081725",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials processing is challenging because the final structure and properties often depend on the process conditions as well as the composition. Past research reported in the archival literature provides a valuable source of information for designing a process to optimize material properties. Typically, the issue is not having too much data (i.e., big data), but rather having a limited amount of data that is sparse, relative to a large number of design variables. The full utilization of this information via a structured database can be challenging, because of inconsistent and incorrect reporting of information. Here, we present a classification approach specifically tailored to the task of identifying a promising design region from a literature database. This design region includes all high performing points, as well as some points having poor performance, for the purpose of focusing future experiments. The classification method is demonstrated on two case studies in polymeric materials, namely: poly(3-hexylthiophene) for flexible electronic devices and polypropylene–talc composite materials for structural applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "A strategy to apply machine learning to small datasets in materials science",
+      "authors": [
+        "Ying Zhang",
+        "Chen Ling"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Ying Zhang",
+          "orcid": "0000-0001-6958-3548",
+          "affiliations": [
+            "Toyota Motor North America Research & Development (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chen Ling",
+          "orcid": "0000-0002-8667-9792",
+          "affiliations": [
+            "Toyota Motor North America Research & Development (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-018-0081-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-018-0081-z",
+      "cited_by_count": 784,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-018-0081-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract There is growing interest in applying machine learning techniques in the research of materials science. However, although it is recognized that materials datasets are typically smaller and sometimes more diverse compared to other fields, the influence of availability of materials data on training machine learning models has not yet been studied, which prevents the possibility to establish accurate predictive rules using small materials datasets. Here we analyzed the fundamental interplay between the availability of materials data and the predictive capability of machine learning models. Instead of affecting the model precision directly, the effect of data size is mediated by the degree of freedom (DoF) of model, resulting in the phenomenon of association between precision and DoF. The appearance of precision–DoF association signals the issue of underfitting and is characterized by large bias of prediction, which consequently restricts the accurate prediction in unknown domains. We proposed to incorporate the crude estimation of property in the feature space to establish ML models using small sized materials data, which increases the accuracy of prediction without the cost of higher DoF. In three case studies of predicting the band gap of binary semiconductors, lattice thermal conductivity, and elastic properties of zeolites, the integration of crude estimation effectively boosted the predictive capability of machine learning models to state-of-art levels, demonstrating the generality of the proposed strategy to construct accurate machine learning models using small materials dataset.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "An ab initio electronic transport database for inorganic materials",
+      "authors": [
+        "Francesco Ricci",
+        "Wei Chen",
+        "Umut Aydemir",
+        "Gerald Jeffrey Snyder",
+        "Gian‐Marco Rignanese",
+        "Anubhav Jain",
+        "Geoffroy Hautier"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Francesco Ricci",
+          "orcid": "0000-0002-2677-7227",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Illinois Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Umut Aydemir",
+          "orcid": "0000-0003-1164-1973",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gerald Jeffrey Snyder",
+          "orcid": "0000-0003-1414-8682",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gian‐Marco Rignanese",
+          "orcid": "0000-0002-1422-1205",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Geoffroy Hautier",
+          "orcid": "0000-0003-1754-2220",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2017.85",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2017.85",
+      "cited_by_count": 236,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201785.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Electronic transport in materials is governed by a series of tensorial properties such as conductivity, Seebeck coefficient, and effective mass. These quantities are paramount to the understanding of materials in many fields from thermoelectrics to electronics and photovoltaics. Transport properties can be calculated from a material's band structure using the Boltzmann transport theory framework. We present here the largest computational database of electronic transport properties based on a large set of 48,000 materials originating from the Materials Project database. Our results were obtained through the interpolation approach developed in the BoltzTraP software, assuming a constant relaxation time. We present the workflow to generate the data, the data validation procedure, and the database structure. Our aim is to target the large community of scientists developing materials selection strategies and performing studies involving transport properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "A polymer dataset for accelerated property prediction and design",
+      "authors": [
+        "Tran Doan Huan",
+        "Arun Mannodi‐Kanakkithodi",
+        "Chiho Kim",
+        "Vinit Sharma",
+        "Ghanshyam Pilania",
+        "Rampi Ramprasad"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Tran Doan Huan",
+          "orcid": "0000-0002-8093-9426",
+          "affiliations": [
+            "University of Connecticut"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Arun Mannodi‐Kanakkithodi",
+          "orcid": "0000-0003-0780-1583",
+          "affiliations": [
+            "University of Connecticut"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chiho Kim",
+          "orcid": "0000-0002-1814-4980",
+          "affiliations": [
+            "University of Connecticut"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vinit Sharma",
+          "orcid": "0000-0002-0577-5716",
+          "affiliations": [
+            "University of Connecticut"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ghanshyam Pilania",
+          "orcid": "0000-0003-4460-1572",
+          "affiliations": [
+            "Los Alamos National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rampi Ramprasad",
+          "orcid": "0000-0003-4630-1565",
+          "affiliations": [
+            "University of Connecticut"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2016.12",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2016.12",
+      "cited_by_count": 223,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201612.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Emerging computation- and data-driven approaches are particularly useful for rationally designing materials with targeted properties. Generally, these approaches rely on identifying structure-property relationships by learning from a dataset of sufficiently large number of relevant materials. The learned information can then be used to predict the properties of materials not already in the dataset, thus accelerating the materials design. Herein, we develop a dataset of 1,073 polymers and related materials and make it available at http://khazana.uconn.edu/. This dataset is uniformly prepared using first-principles calculations with structures obtained either from other sources or by using structure search methods. Because the immediate target of this work is to assist the design of high dielectric constant polymers, it is initially designed to include the optimized structures, atomization energies, band gaps, and dielectric constants. It will be progressively expanded by accumulating new materials and including additional properties calculated for the optimized structures provided.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "A database to enable discovery and design of piezoelectric materials",
+      "authors": [
+        "Maarten de Jong",
+        "Wei Chen",
+        "Henry Geerlings",
+        "Mark Asta",
+        "Kristin Aslaug Persson"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Maarten de Jong",
+          "orcid": "0009-0006-7842-4892",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wei Chen",
+          "orcid": "0000-0002-1135-7721",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Illinois Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Henry Geerlings",
+          "orcid": null,
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark Asta",
+          "orcid": "0000-0002-8968-321X",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/sdata.2015.53",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/sdata.2015.53",
+      "cited_by_count": 312,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/sdata201553.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Piezoelectric materials are used in numerous applications requiring a coupling between electrical fields and mechanical strain. Despite the technological importance of this class of materials, for only a small fraction of all inorganic compounds which display compatible crystallographic symmetry, has piezoelectricity been characterized experimentally or computationally. In this work we employ first-principles calculations based on density functional perturbation theory to compute the piezoelectric tensors for nearly a thousand compounds, thereby increasing the available data for this property by more than an order of magnitude. The results are compared to select experimental data to establish the accuracy of the calculated properties. The details of the calculations are also presented, along with a description of the format of the database developed to make these computational results publicly available. In addition, the ways in which the database can be accessed and applied in materials development efforts are described.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Truth Discovery in Material Science Databases",
+      "authors": [
+        "Ève Bélisle",
+        "Zi Helen Huang",
+        "Aïmen E. Gheribi"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Ève Bélisle",
+          "orcid": null,
+          "affiliations": [
+            "The University of Queensland"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zi Helen Huang",
+          "orcid": "0000-0002-9738-4949",
+          "affiliations": [
+            "The University of Queensland"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aïmen E. Gheribi",
+          "orcid": "0000-0002-5443-2277",
+          "affiliations": [
+            "Polytechnique Montréal"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Lecture notes in computer science",
+      "doi": "10.1007/978-3-319-19548-3_22",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-319-19548-3_22",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "MIDAS (Material Implementation, Database, and Analysis Source): A comprehensive resource of material properties",
+      "authors": [
+        "Mingyuan Tang",
+        "P. Norquist",
+        "N. Barton",
+        "K. Durrenberger",
+        "J.N. Florando",
+        "A. Attia"
+      ],
+      "year": 2010,
+      "author_details": [
+        {
+          "name": "Mingyuan Tang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "P. Norquist",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "N. Barton",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "K. Durrenberger",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "J.N. Florando",
+          "orcid": "0000-0002-1592-5503",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Attia",
+          "orcid": "0000-0002-8055-9861",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1018807",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "MIDAS is aimed to be an easy-to-use and comprehensive common source for material properties including both experimental data and models and their parameters. At LLNL, we will develop MIDAS to be the central repository for material strength related data and models with the long-term goal to encompass other material properties. MIDAS will allow the users to upload experimental data and updated models, to view and read materials data and references, to manipulate models and their parameters, and to serve as the central location for the application codes to access the continuously growing model source codes. MIDAS contains a suite of interoperable tools and utilizes components already existing at LLNL: MSD (material strength database), MatProp (database of materials properties files), and MSlib (library of material model source codes). MIDAS requires significant development of the computer science framework for the interfaces between different components. We present the current status of MIDAS and its future development in this paper.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "DiProDB: a database for dinucleotide properties",
+      "authors": [
+        "Maik Friedel",
+        "Swetlana Nikolajewa",
+        "Jürgen Sühnel",
+        "Thomas E. Wilhelm"
+      ],
+      "year": 2008,
+      "author_details": [
+        {
+          "name": "Maik Friedel",
+          "orcid": null,
+          "affiliations": [
+            "Leibniz Institute on Aging - Fritz Lipmann Institute (FLI)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Swetlana Nikolajewa",
+          "orcid": null,
+          "affiliations": [
+            "Norwich Research Park",
+            "Quadram Institute",
+            "Leibniz Institute on Aging - Fritz Lipmann Institute (FLI)",
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jürgen Sühnel",
+          "orcid": null,
+          "affiliations": [
+            "Norwich Research Park",
+            "Quadram Institute",
+            "Leibniz Institute on Aging - Fritz Lipmann Institute (FLI)",
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas E. Wilhelm",
+          "orcid": "0000-0002-7533-7009",
+          "affiliations": [
+            "Norwich Research Park",
+            "Quadram Institute",
+            "Leibniz Institute on Aging - Fritz Lipmann Institute (FLI)",
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkn597",
+      "type": "article",
+      "url": "https://doi.org/10.1093/nar/gkn597",
+      "cited_by_count": 129,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://academic.oup.com/nar/article-pdf/37/suppl_1/D37/16757028/gkn597.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "DiProDB (http://diprodb.fli-leibniz.de) is a database of conformational and thermodynamic dinucleotide properties. It includes datasets both for DNA and RNA, as well as for single and double strands. The data have been shown to be important for understanding different aspects of nucleic acid structure and function, and they can also be used for encoding nucleic acid sequences. The database is intended to facilitate further applications of dinucleotide properties. A number of property datasets is highly correlated. Therefore, the database comes with a correlation analysis facility. Authors having determined new sets of dinucleotide property values are invited to submit these data to DiProDB.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

@@ -1,0 +1,3564 @@
+{
+  "mode": "search",
+  "query": "diffusion coefficient materials dataset",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Data and analysis code for \"Scaling law for the diffusion coefficient in vibration-induced crater relaxation\"",
+      "authors": [
+        "Hayato Narita",
+        "Hiroaki Katsuragi"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Hayato Narita",
+          "orcid": "0009-0004-5591-101X",
+          "affiliations": [
+            "The University of Osaka"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroaki Katsuragi",
+          "orcid": null,
+          "affiliations": [
+            "The University of Osaka"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.21378374",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.21378374",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.5281/zenodo.21378374",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This dataset contains the experimental data, analysis codes, and supporting materials used in our manuscript, \"Scaling law for the diffusion coefficient in vibration-induced crater relaxation,\" which is currently under review.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Calculations: diffusion coefficient of metronidazole from SAL hydrogel (HPLC) and porosity of the carriers",
+      "authors": [
+        "Maciej Grabowski",
+        "Tomasz Grygier",
+        "Anna Trusek-Hołownia",
+        "Edward Kijak"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Maciej Grabowski",
+          "orcid": "0000-0002-9293-9589",
+          "affiliations": [
+            "Wrocław University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomasz Grygier",
+          "orcid": "0009-0003-8447-232X",
+          "affiliations": [
+            "Wrocław University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anna Trusek-Hołownia",
+          "orcid": "0000-0002-3886-7166",
+          "affiliations": [
+            "Wrocław University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edward Kijak",
+          "orcid": "0000-0003-4110-5987",
+          "affiliations": [
+            "Wrocław University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "RepOD",
+      "doi": "10.18150/oitamp",
+      "type": "dataset",
+      "url": "https://doi.org/10.18150/oitamp",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.18150/oitamp",
+        "url_kind": "landing",
+        "version": null,
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The dataset contains experimental data used to characterize a metronidazole-loaded hydrogel carrier and to determine the diffusion coefficient of metronidazole in the hydrogel. The deposited data include a spreadsheet and an archive containing raw HPLC chromatograms. The “Porosity and D.xlsx” file contains two worksheets: “Porowatość” (Porosity) and “Dyfuzja” (Diffusion). The “Porowatość” worksheet contains measurement results used to characterize the hydrogel material, including the mass and dimensions of the investigated samples. The “Dyfuzja” worksheet contains data on metronidazole concentrations determined by HPLC for samples collected at successive time points, together with the data and calculations used to determine the diffusion coefficient. The raw HPLC chromatographic data are collected in a single RAR archive. The chromatograms originate from quantitative analyses performed to determine the metronidazole content in samples collected during the diffusion experiment. Based on the HPLC results, metronidazole concentrations were determined and subsequently used to calculate its diffusion coefficient. The data and calculations related to this step are provided in the “Dyfuzja” worksheet of the “Porosity and D.xlsx” file. The chromatograms are stored in the Shimadzu LabSolutions Data File (.lcd) format. The .lcd files can be opened, viewed, and analyzed using Shimadzu LabSolutions software. For users without access to Shimadzu LabSolutions, PDF reports of the chromatographic analyses are also provided.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Vacancy-cluster-driven cation self-diffusion in UO 2 and PuO 2 : Diffusion coefficients from atomic-scale calculations",
+      "authors": [
+        "Petra Ospital",
+        "Luca Messina",
+        "Thomas Schüler",
+        "Frédéric Soisson",
+        "Marjorie Bertolus"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Petra Ospital",
+          "orcid": "0009-0006-5707-597X",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luca Messina",
+          "orcid": "0000-0003-0562-9070",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Schüler",
+          "orcid": "0000-0002-1526-6675",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "Université Paris-Saclay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Frédéric Soisson",
+          "orcid": "0000-0001-6435-6119",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+            "Université Paris-Saclay"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marjorie Bertolus",
+          "orcid": "0000-0001-6598-5312",
+          "affiliations": [
+            "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review Materials",
+      "doi": "10.1103/hfk5-5j6n",
+      "type": "article",
+      "url": "https://doi.org/10.1103/hfk5-5j6n",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Cation self-diffusion plays a key role in the microstructure evolution of a wide range of materials, including oxide nuclear fuels. Growing evidence indicates that small defect clusters can make a substantial contribution to cation transport in these oxides. Quantifying this contribution is nevertheless challenging because of complex defect chemistry, strong correlations between cation and anion migration, and the existence of multiple competing migration mechanisms. In this work, we compute bulk cation self-diffusion coefficients in stoichiometric ${\\mathrm{UO}}_{2}$ and ${\\mathrm{PuO}}_{2}$ by explicitly accounting for small vacancy clusters (cation--anion divacancies and Schottky defects) in addition to isolated cation vacancies. Our approach combines a systematic exploration of cluster migration pathways using ART-nouveau with the calculation of cluster transport coefficients through the KineCluE code, which rigorously incorporates the influence of local atomic environments and kinetic correlations on defect migration. These transport coefficients are then coupled with equilibrium cluster concentrations to obtain self-diffusion coefficients directly comparable with experimental data. We find that small vacancy clusters are significantly more mobile than isolated cation vacancies and dominate the overall diffusion process. In ${\\mathrm{UO}}_{2}$, the resulting self-diffusion coefficients are consistent with the most reliable experimental datasets, whereas in ${\\mathrm{PuO}}_{2}$ the predictions are discussed in light of the limited data currently available. Although vacancy clusters exhibit higher mobility in ${\\mathrm{PuO}}_{2}$, the overall self-diffusion coefficient is lower than in ${\\mathrm{UO}}_{2}$ because of the larger cation vacancy formation energy predicted by our defect model. Beyond actinide oxides, this work demonstrates how defect clusters can be systematically integrated into diffusion calculations and provides transferable insights and input data for fuel behavior models.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "A Modified Curve Model for Predicting the Chloride Diffusion Coefficient of Concrete",
+      "authors": [
+        "Jiale Wang",
+        "Hongfei Cao",
+        "Xi Peng",
+        "Zhongda Lyu",
+        "Qiuwei Yang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jiale Wang",
+          "orcid": null,
+          "affiliations": [
+            "Chongqing University",
+            "Ningbo University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongfei Cao",
+          "orcid": null,
+          "affiliations": [
+            "Ningbo University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xi Peng",
+          "orcid": "0000-0002-3104-5434",
+          "affiliations": [
+            "Ningbo University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhongda Lyu",
+          "orcid": null,
+          "affiliations": [
+            "Ningbo University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qiuwei Yang",
+          "orcid": null,
+          "affiliations": [
+            "Ningbo University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Coatings",
+      "doi": "10.3390/coatings16111268",
+      "type": "article",
+      "url": "https://doi.org/10.3390/coatings16111268",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.3390/coatings16111268",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Chloride ion erosion is the dominant factor causing durability degradation of reinforced concrete structures. Accurate prediction of the time-varying chloride diffusion coefficient is essential for long-term structural durability evaluation. Traditional empirical models, including the power function model (PFM) and the inverse-square-root model (ISRM), often exhibit insufficient fitting accuracy and poor extrapolation stability, while back-propagation neural networks (BPNNs) tend to produce severe overfitting and oscillating prediction curves despite high in-sample fitting performance. To overcome these limitations, this study develops a new hypothetical modified curve model (MCM) by combining power and hyperbolic functions to comprehensively describe the time-dependent attenuation of chloride diffusion in concrete. Four groups of experimental datasets with different material compositions and curing ages were adopted for model validation. The results show that the proposed MCM outperforms other comparative models in overall performance for the conditions examined. For Case 1, the MCM reduces the mean fitting error by 24.67% and 35.16% compared with the PFM and ISRM, and achieves a low extrapolation error of 12.9% at 150 d. For Case 2, the MCM maintains a stable prediction error of 16.5%, which is significantly lower than the 48.2% and 66.4% of the PFM and ISRM. For Case 3 and Case 4, the MCM achieves high coefficients of determination of 0.9943 and 0.9815, with ultra-low extrapolation errors of only 7.2% and 0.2%, respectively. In contrast, although the BPNN achieves high fitting accuracy in some cases, its fitted curves fluctuate irregularly, and its extrapolation prediction accuracy is much lower than that of the MCM. Within the valid time range of the model, the MCM exhibits stable generalizability and superior comprehensive performance, which provides a reliable method for predicting the long-term chloride diffusion behavior of concrete.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Hybrid machine learning for enhanced prediction of diffusion coefficients in liquids",
+      "authors": [
+        "Jens Wagner",
+        "Zeno Romero",
+        "Kerstin Münnemann",
+        "Sebastian Schmitt",
+        "Thomas Specht",
+        "Hans Hasse",
+        "Fabian Jirasek"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jens Wagner",
+          "orcid": "0009-0000-8412-880X",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zeno Romero",
+          "orcid": "0009-0004-8319-2278",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kerstin Münnemann",
+          "orcid": "0000-0001-5247-8856",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sebastian Schmitt",
+          "orcid": "0000-0001-7909-2945",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Specht",
+          "orcid": "0000-0002-0462-8968",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hans Hasse",
+          "orcid": "0000-0003-4612-5995",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fabian Jirasek",
+          "orcid": "0000-0002-2502-5701",
+          "affiliations": [
+            "University of Kaiserslautern",
+            "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Chemistry Chemical Physics",
+      "doi": "10.1039/d6cp00793g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d6cp00793g",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1039/d6cp00793g",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A hybrid Enhanced Stokes–Einstein (ESE) model uses a neural-network correction to enable physically consistent, interpretable, and substantially improved predictions for infinite-dilution diffusion coefficients in pure solvents.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Hydrogen diffusion in thick-walled S690 saw joints: part 1—experimental determination of microstructure-dependent diffusion coefficients",
+      "authors": [
+        "Denis Czeskleba",
+        "Michael Rhode",
+        "Karsten Wandtke",
+        "Muhammad Dary Irfan",
+        "Thomas Kannengießer"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Denis Czeskleba",
+          "orcid": "0000-0003-3012-7208",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Rhode",
+          "orcid": "0000-0003-4490-4688",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing",
+            "Otto-von-Guericke-Universität Magdeburg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Karsten Wandtke",
+          "orcid": "0000-0002-2076-7669",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Muhammad Dary Irfan",
+          "orcid": null,
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Kannengießer",
+          "orcid": "0000-0002-8513-2429",
+          "affiliations": [
+            "Federal Institute For Materials Research and Testing",
+            "Otto-von-Guericke-Universität Magdeburg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Welding in the World",
+      "doi": "10.1007/s40194-026-02400-7",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s40194-026-02400-7",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40194-026-02400-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract High-strength low-alloyed steel S690 is widely used in heavy-duty applications, such as structural components, mobile cranes, and industrial plant construction, owing to their high strength and weldability. However, thick-plate submerged arc welding (SAW) can introduce elevated hydrogen levels and residual stresses that promote time-delayed hydrogen-assisted cold cracking (HACC). Accurate, microstructure-specific diffusion data are scarce, limiting predictive HACC assessments. This study presents an experimental determination of hydrogen diffusion coefficients ( D H ) in two S690 variants: thermomechanically rolled (S690MC) and quenched and tempered (S690Q). Multi-layer SAW welds were produced from 30-mm-thick plate material at three heat input levels, and diffusion membranes were extracted from weld metal (WM), heat-affected zone (HAZ), and base material (BM). Hydrogen permeation tests, conducted in accordance with DIN En ISO 17081, yielded flux curves normalized in time from which D H was derived using the inflection-point method. At room temperature, D H values ranged from 6 × 10 −5 mm 2 /s to 9 × 10 −5 mm 2 /s across all regions and heat inputs, with no significant difference between S690MC and S690Q. Weld metal exhibited marginally lower D H , attributed to enhanced hydrogen trapping, while base material measurements showed greater variability. These microstructure-resolved diffusion coefficients add quantitative data for modern S690 SAW welds and provide internally consistent input parameters for the numerical simulations presented in part 2. The results support improved parameterization for subsequent assessments of HACC risk through the optimization of welding parameters.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Scaling law for the diffusion coefficient in vibration-driven crater relaxation",
+      "authors": [
+        "Hayato Narita",
+        "Hiroaki Katsuragi"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Hayato Narita",
+          "orcid": null,
+          "affiliations": [
+            "The University of Osaka"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroaki Katsuragi",
+          "orcid": null,
+          "affiliations": [
+            "The University of Osaka"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.29557",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2609.29557",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2609.29557",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Impact craters relax over long timescales, and this process is commonly described by a diffusion model. The diffusion coefficient determines the relaxation rate, and it has been estimated from observed crater shapes. This coefficient, however, represents the combined effect of several physical mechanisms. Its physical basis has not been revealed yet. In this study, we isolate the contribution of seismic vibration in a controlled experiment. Using a quasi-two-dimensional setup, we first confirm that a linear diffusion equation reproduces the crater relaxation. We then measure the diffusion coefficient and obtain the scaling form through systematic experiments. We find that the diffusion coefficient is proportional to the crater diameter. This dependence is not expected for simple diffusion. We interpret this dependence as arising because the thickness of the vibro-fluidized granular layer scales with the crater depth. This scaling relation is the main result of this study. We then apply it to the Moon with a parameterized model of impact-driven seismic spreading in the regolith layer. Integrating over the impact flux yields a macroscopic coefficient nearly proportional to crater diameter for shallow-layer-like spreading. Its magnitude depends on uncertain model parameters but is consistent with observations for plausible values. These results indicate that vibration is a physically plausible contributor to crater relaxation on the Moon.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Diffusion coefficients of multi-principal element alloys from first principles",
+      "authors": [
+        "Damien K. J. Lee",
+        "Anirudh Raju Natarajan"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Damien K. J. Lee",
+          "orcid": null,
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anirudh Raju Natarajan",
+          "orcid": "0000-0002-0252-9480",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2603.24228",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2603.24228",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2603.24228",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Vacancy-mediated diffusion in multi-principal element alloys (MPEAs) remains poorly understood. Existing computational methods face challenges in connecting electronic structure to macroscopic transport coefficients due to the large number of chemical elements. To address this, we introduce the embedded local cluster expansion (eLCE), which bridges first-principles calculations with kinetic Monte Carlo simulations to compute the matrix of multicomponent diffusion coefficients. Applying this approach to refractory MPEAs in the V-Cr-Nb-Mo-Ta-W system, we evaluate the complete mobility and diffusion tensors of a six-component alloy at finite temperatures. We find that local kinetic barriers, rather than thermodynamics or vacancy correlation factors, primarily control diffusion in these materials. Whether diffusion is sluggish or anti-sluggish depends on the mean vacancy migration barrier relative to the rule-of-mixtures estimate and on the availability of percolating pathways of fast-diffusing species. We use this insight to screen the senary composition space and identify compositions with anti-sluggish diffusion. This study presents a predictive, first-principles approach for computing non-dilute transport coefficients and designing MPEAs with targeted transport properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "The study on material/air equilibrium partition coefficients and internal diffusion coefficients of volatile organic compounds within recycling green building materials",
+      "authors": [
+        "Chi-Chi Lin",
+        "Yu–Hsiang Cheng",
+        "Chun-Chan Hsiao"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Chi-Chi Lin",
+          "orcid": "0000-0003-1026-8281",
+          "affiliations": [
+            "National University of Kaohsiung"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yu–Hsiang Cheng",
+          "orcid": "0000-0003-0822-4458",
+          "affiliations": [
+            "Ming Chi University of Technology",
+            "Chang Gung University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chun-Chan Hsiao",
+          "orcid": null,
+          "affiliations": [
+            "National University of Kaohsiung"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Construction and Building Materials",
+      "doi": "10.1016/j.conbuildmat.2025.142645",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2025.142645",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Fast or slow: An evaluation of Ti-in-quartz diffusion coefficients through comparisons of quartz and plagioclase diffusion times",
+      "authors": [
+        "Sophia Y. Wang",
+        "Guilherme A.R. Gualda",
+        "Jordan E Lubbers",
+        "Adam J.R. Kent"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Sophia Y. Wang",
+          "orcid": "0009-0004-5445-3264",
+          "affiliations": [
+            "Oregon State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guilherme A.R. Gualda",
+          "orcid": "0000-0003-0720-2679",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jordan E Lubbers",
+          "orcid": "0000-0002-3566-5091",
+          "affiliations": [
+            "United States Geological Survey",
+            "Alaska Volcano Observatory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Adam J.R. Kent",
+          "orcid": "0000-0003-3564-6285",
+          "affiliations": [
+            "Oregon State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Volcanica",
+      "doi": "10.30909/vol/rjfq2443",
+      "type": "article",
+      "url": "https://doi.org/10.30909/vol/rjfq2443",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://www.jvolcanica.org/ojs/index.php/volcanica/article/download/305/526",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Diffusion geochronometry using Ti-in-quartz has become a valuable method in understanding the evolution of silicic magmas. However, four different options for Ti diffusivity (DTi) currently exist, spanning three orders of magnitude, resulting in substantially different estimated times and interpretations. We present Ti-in-quartz diffusion times for the Cerro Galán Ignimbrite using the Cherniak et al. [2007] (10.1016/j.chemgeo.2006.09.001), Audétat et al. [2021] (10.1130/g48785.1), Audétat et al. [2023] (10.1038/s41467-023-39912-5), and Jollands et al. [2020] (10.1130/g47238.1) DTi value and (1) compare these against plagioclase diffusion times derived from the same samples, (2) consider evidence for Ti diffusion in quartz under relevant magmatic timescales, and (3) compute derived quartz growth rates for crystals from the Cerro Galán Ignimbrite. On all accounts, we find that the Cherniak et al. [2007] diffusion coefficient yields diffusion times that agree much better with independent evidence than those derived using slower DTi values [Jollands et al. 2020; Audétat et al. 2021; 2023].",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Determination of water uptake and diffusion coefficient of polymer/lignin composites",
+      "authors": [],
+      "year": 2025,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": null,
+      "doi": "10.21175/rad.abstr.book.2025.16.4",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.21175/rad.abstr.book.2025.16.4",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.21175/rad.abstr.book.2025.16.4",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Despite being one of the most abounded natural polymers, with a wide set of properties, majority quantities of lignin are disregarded as a waste. The use of lignin as a filler for synthesis of composites based on polymer matrix is a step towards more sustainable production of polymer- based products. In this research lignin/polymer composites were synthesized via in-situ miniemulsion. Poly(methyl metacrylate-butylacrylate- acryl amide) was used as polymer matrix in which 0.5 wt% and 1 wt% of lignin aqueous dispersion was added by continuous. The successful incorporation of lignin was confirmed using Fourier transform infrared spectroscopy, while the morphology of the composites was investigated using scanning electron microscopy. The UV-Vis spectroscopy results demonstrated an enhanced absorption ability of the polymer/lignin composites in the UV-B, UV-A, and visible light regions. According to the water uptake test, the composite with 1 wt% lignin did not exhibit a significantly higher affinity for water absorption compared to the neat polymer. This finding corresponds with the calculated diffusion coefficient, which showed a reduction of nearly 40% with the incorporation of 1 wt% lignin within the polymer matrix. Keywords: lignin, polymer-composites, water uptake, diffusion",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Heat diffusion coefficient study of polymers based on interpretable machine learning",
+      "authors": [
+        "Congyi Chen"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Congyi Chen",
+          "orcid": null,
+          "affiliations": [
+            "ShanghaiTech University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Theoretical and Natural Science",
+      "doi": "10.54254/2753-8818/42/20240674",
+      "type": "article",
+      "url": "https://doi.org/10.54254/2753-8818/42/20240674",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.54254/2753-8818/42/20240674",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Polymers hold significant application value across various fields of modern society, with different application scenarios requiring specific thermal diffusivity coefficients. Finding polymer materials with targeted thermal diffusivities is crucial. However, due to the vast variety and complex structures of polymers, constructing a unified structured dataset for machine learning modeling is challenging. Although machine learning has shown great potential in materials science, it has rarely been applied to predict the heat diffusion coefficient of polymers. This paper constructs a dataset for predicting the thermal diffusion coefficient of polymers using a publicly available dataset by transforming the SMILES code of polymers into eight features with practical physical and chemical meanings. Using the Random Forest algorithm, training with 400 of these data and randomly selecting 200 of them for cross-validation, the accuracy of the test set reached 0.9. Additionally, through interpretability analysis, we found that the molecular weight of the polymer monomers, the TPSA (the polar surface area of the molecule), and the NRB (the number of rotatable bonds) are the main features affecting the polymer thermal diffusion coefficient. An increase in the TPSA and the NRB positively contributes to the thermal diffusivity, while an increase in molecular weight negatively contributes. Our study provides a new method for the prediction of polymer thermal diffusivity and creates a new paradigm for the study of polymer thermal diffusivity, promoting further development in this field.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Diffusion Coefficients of Coated Plasmonic Nanoparticles in Viscous Environment",
+      "authors": [
+        "Isabelle Largillière",
+        "Dali Sullivan",
+        "Michel Meunier A"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Isabelle Largillière",
+          "orcid": "0000-0001-9896-1341",
+          "affiliations": [
+            "Polytechnique Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dali Sullivan",
+          "orcid": null,
+          "affiliations": [
+            "Polytechnique Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michel Meunier A",
+          "orcid": "0000-0002-2398-5602",
+          "affiliations": [
+            "Polytechnique Montréal"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Small",
+      "doi": "10.1002/smll.202404389",
+      "type": "article",
+      "url": "https://doi.org/10.1002/smll.202404389",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smll.202404389",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The Stokes‐Einstein relationship (SER) is not valid anymore in polymeric solutions for nanoparticles. It is thus important to characterize their diffusion properties to get a finer understanding of their behavior and to better tune their attributes for biomedical applications. The diffusion of gold and silver nanoparticles with citrate, hyaluronic acid, methyl‐polyethylene glycol, and antibody‐polyethylene glycol coatings is studied in hyaluronic‐based viscous solutions. The diffusion coefficient D is estimated from the Brownian motion thanks to a cost‐effective side‐illumination device. It is determined that the nanoparticles (hydrodynamic radius r h : 30–135 nm) diffuse up to 4–5 times faster than expected using the SER with a macroscopic viscosity from 1 to 30 mPa·s. It is shown that the adapted Huggins equation is a good model to describe the diffusion behavior of nanoparticles using an effective viscosity η eff given by where where E is the polymer correlation length, R h the polymer hydrodynamic radius and η s the solvent viscosity. The values of k and a are given and allow to obtain D with an error of 10–20%. The impact of chemical interactions on the model parameter values are also highlighted, especially due to electrostatic interactions between the polymer and the nanoparticles.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "Determination of Diffusion Coefficients of Nickel and Vanadium into Stainless and Duplex Steel and Titanium",
+      "authors": [
+        "Šárka Vávrová",
+        "Martin Švec",
+        "Jaromír Moravec",
+        "Daniel Klápště"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Šárka Vávrová",
+          "orcid": "0000-0002-2588-766X",
+          "affiliations": [
+            "Technical University of Liberec"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Švec",
+          "orcid": "0000-0003-3198-3356",
+          "affiliations": [
+            "Technical University of Liberec"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaromír Moravec",
+          "orcid": "0000-0003-4731-5969",
+          "affiliations": [
+            "Technical University of Liberec"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel Klápště",
+          "orcid": "0009-0006-2822-6820",
+          "affiliations": [
+            "Technical University of Liberec"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Metals",
+      "doi": "10.3390/met15010008",
+      "type": "article",
+      "url": "https://doi.org/10.3390/met15010008",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2075-4701/15/1/8/pdf?version=1735294281",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "When heterogeneous joints are created, problems with the formation of intermetallic phases arise. There are various ways to reduce the formation of intermetallics. One of the ways that is discussed in this article is to use a suitable interlayer of appropriate thickness when forming the joint. A too-thin interlayer does not protect against the formation of brittle intermetallic phases. On the other hand, a too-thick interlayer increases the heterogeneity of the joint and, thus, decreases its useful properties. Within this paper, the formation of diffusion joints between the base material (AISI 304 steel, duplex steel, AISI 316L steel, or titanium grade 2) and the 0.2 mm thick intermediate layer (nickel or vanadium) was studied. Initial diffusion joints were prepared in a Gleeble 3500 machine, and samples for the study of diffusion kinetics were subsequently heat-treated in a vacuum furnace. The result of the research was the determination of specific diffusion parameters of nickel and vanadium into all four tested base materials. The initial diffusion depth (simple heating to the target temperature without holding at this temperature) of nickel was 4.46 µm into duplex steel and 5.48 µm into Ti Gr. 2 at 950 °C. At the same temperature, the initial diffusion depth of vanadium was 14.54 µm into duplex steel and 14.32 µm into Ti Gr. 2. In addition, general equations for the calculation of diffusion coefficients for the mentioned materials in the temperature range of 850 to 1150 °C were established.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Investigating Material Interface Diffusion Phenomena through Graph Neural Networks in Applied Materials",
+      "authors": [
+        "Zirui Zhao",
+        "Haifeng Li"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Zirui Zhao",
+          "orcid": null,
+          "affiliations": [
+            "University of Macau"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haifeng Li",
+          "orcid": "0000-0001-8186-1125",
+          "affiliations": [
+            "University of Macau"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ACS Applied Materials & Interfaces",
+      "doi": "10.1021/acsami.4c10240",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acsami.4c10240",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsami.4c10240?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Understanding and predicting interface diffusion phenomena in materials is crucial for various industrial applications, including semiconductor manufacturing, battery technology, and catalysis. In this study, we propose a novel approach utilizing Graph Neural Networks (GNNs) to investigate and model material interface diffusion. We begin by collecting experimental and simulated data on diffusion coefficients, concentration gradients, and other relevant parameters from diverse material systems. The data are preprocessed, and key features influencing interface diffusion are extracted. Subsequently, we construct a GNN model tailored to the diffusion problem, with a graph representation capturing the atomic structure of materials. The model architecture includes multiple graph convolutional layers for feature aggregation and update, as well as optional graph attention layers to capture complex relationships between atoms. We train and validate the GNN model using the preprocessed data, achieving accurate predictions of diffusion coefficients, diffusion rates, concentration profiles, and potential diffusion pathways. Our approach offers insights into the underlying mechanisms of interface diffusion and provides a valuable tool for optimizing material design and engineering. Additionally, our method offers possible strategies to solve the longstanding problems related to materials interface diffusion.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Accurate Estimation of Diffusion Coefficients and their Uncertainties from Computer Simulation",
+      "authors": [
+        "Andrew R. McCluskey",
+        "Samuel W. Coles",
+        "Benjamin J. Morgan"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Andrew R. McCluskey",
+          "orcid": "0000-0003-3381-5911",
+          "affiliations": [
+            "European Spallation Source",
+            "Diamond Light Source",
+            "University of Bristol"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuel W. Coles",
+          "orcid": "0000-0001-9722-5676",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Bath"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin J. Morgan",
+          "orcid": "0000-0002-3056-8233",
+          "affiliations": [
+            "The Faraday Institution",
+            "University of Bath"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Chemical Theory and Computation",
+      "doi": "10.1021/acs.jctc.4c01249",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jctc.4c01249",
+      "cited_by_count": 53,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1021/acs.jctc.4c01249",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Self-diffusion coefficients, D *, are routinely estimated from molecular dynamics simulations by fitting a linear model to the observed mean squared displacements (MSDs) of mobile species. MSDs derived from simulations exhibit statistical noise that causes uncertainty in the resulting estimate of D *. An optimal scheme for estimating D * minimizes this uncertainty, i.e., it will have high statistical efficiency, and also gives an accurate estimate of the uncertainty itself. We present a scheme for estimating D * from a single simulation trajectory with a high statistical efficiency and accurately estimating the uncertainty in the predicted value. The statistical distribution of MSDs observable from a given simulation is modeled as a multivariate normal distribution using an analytical covariance matrix for an equivalent system of freely diffusing particles, which we parametrize from the available simulation data. We use Bayesian regression to sample the distribution of linear models that are compatible with this multivariate normal distribution to obtain a statistically efficient estimate of D * and an accurate estimate of the associated statistical uncertainty.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Measurement of Diffusion Coefficients in Binary Mixtures and Solutions by the Taylor Dispersion Method",
+      "authors": [
+        "J. P. Martin Trusler"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "J. P. Martin Trusler",
+          "orcid": "0000-0002-6403-2488",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Thermophysics",
+      "doi": "10.1007/s10765-024-03339-x",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10765-024-03339-x",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10765-024-03339-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The theory and application of the Taylor Dispersion technique for measuring diffusion coefficients in binary systems is reviewed. The theory discussed in this paper includes both the ideal Taylor–Aris model and the estimation of corrections required to account for small deviations from this ideal associated with a practical apparatus. Based on the theoretical treatment, recommendations are given for the design of practical instruments together with suggestions for calibration, data acquisition and reduction, and the rigorous estimation of uncertainties. The analysis indicates that relative uncertainties on the order of 1% are achievable in practice.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Prediction of Chloride Diffusion Coefficient in Concrete Modified with Supplementary Cementitious Materials Using Machine Learning Algorithms",
+      "authors": [
+        "Abdulrahman Fahad Al Fuhaid",
+        "Hani Alanazi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Abdulrahman Fahad Al Fuhaid",
+          "orcid": "0000-0001-7203-4814",
+          "affiliations": [
+            "King Faisal University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hani Alanazi",
+          "orcid": "0000-0001-8160-4233",
+          "affiliations": [
+            "Majmaah University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials",
+      "doi": "10.3390/ma16031277",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ma16031277",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1944/16/3/1277/pdf?version=1675333503",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The chloride diffusion coefficient (Dcl) is one of the most important characteristics of concrete durability. This study aimed to develop a prediction model for the Dcl of concrete incorporating supplemental cementitious material. The datasets of concrete containing supplemental cementitious materials (SCMs) such as tricalcium aluminate (C3A), ground granulated blast furnace slag (GGBFS), and fly ash were used in developing the model. Five machine learning (ML) algorithms including adaptive neuro-fuzzy inference system (ANFIS), artificial neural network (ANN), support vector machine (SVM), and extreme learning machine (ELM) were used in the model development. The performance of the developed models was tested using five evaluation metrics, namely, normalized reference index (RI), coefficient of determination (R2), mean absolute error (MAE), and root mean square error (RMSE). The SVM models demonstrated the highest prediction accuracy with R2 values of 0.955 and 0.951 at the training and testing stage, respectively. The prediction accuracy of the machine learning (ML) algorithm was checked using the Taylor diagram and Boxplot, which confirmed that SVM is the best ML algorithm for estimating Dcl, thus, helpful in establishing reliable tools in concrete durability design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Diffusion coefficients of linear trimer particles",
+      "authors": [
+        "Anton Lüders",
+        "Bastian Heß",
+        "P. Nielaba"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Anton Lüders",
+          "orcid": "0000-0001-8228-6097",
+          "affiliations": [
+            "University of Konstanz"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bastian Heß",
+          "orcid": "0009-0004-9999-171X",
+          "affiliations": [
+            "University of Tübingen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "P. Nielaba",
+          "orcid": "0000-0002-2306-4168",
+          "affiliations": [
+            "University of Konstanz"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0158286",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0158286",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0158286/18066873/054901_1_5.0158286.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We study the diffusive behavior of linear trimer particles via numerical calculations. First, we utilize hydrodynamic bead-shell calculations to compute the microscopic diffusion coefficients for different particle aspect ratios. These values are then used to obtain continuous empirical formulas for said coefficients. As an application example for the empirical formulas, we perform Brownian dynamics simulations of monolayers consisting of a linear trimer surrounded by colloidal spheres. Here, we obtain empirical formulas for the corresponding long-time diffusion coefficients of the trimer. By comparing our data for the microscopic and long-time diffusion coefficients with known results for spherocylinders, we find that the diffusive behavior of both particle geometries is approximately identical. Based on this observation, we introduce simplified equations for the microscopic diffusion coefficients that can be used for arbitrary short rods that are spheres at the minimum aspect ratios. The calculated equations for the diffusion coefficients can be applied to various further numerical and experimental studies utilizing linear trimer particles.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Efficient data generation for the determination of effective oxygen diffusion coefficients of cementitious materials",
+      "authors": [
+        "Viktor Kostic",
+        "Alexander Haynack",
+        "Jithender Jaswant Timothy",
+        "Thomas Kränkel"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Viktor Kostic",
+          "orcid": "0009-0007-7592-1831",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Haynack",
+          "orcid": "0000-0003-2262-6111",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jithender Jaswant Timothy",
+          "orcid": "0000-0002-1975-6524",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Kränkel",
+          "orcid": "0000-0002-5650-3825",
+          "affiliations": [
+            "Technical University of Munich"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ce/papers",
+      "doi": "10.1002/cepa.2942",
+      "type": "article",
+      "url": "https://doi.org/10.1002/cepa.2942",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cepa.2942",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract To develop new cementitious materials with the goal of reducing the carbon footprint a rapid assessment of information about their resistance against damaging processes is of utmost importance to ensure long‐term durability. The Oxygen diffusion test is an efficient method to evaluate the ingress of gas in concretes and mortars without changing the porous structure of the specimen during testing. However, currently no standardized test method exists. We determined the effective Oxygen diffusion coefficient, D e,O2 of mortar discs using a single diffusion cell method. Furthermore, we enhanced the procedure by extrapolating the oxygen saturation curves of the diffusion cells with a simple asymptotic function to identify a minimum required test duration where the extrapolated data still delivers reliable results and hence, shorten the overall required measurement time. In our case, we were able to significantly reduce the effort needed to obtain results that are within the range of the respective standard deviation of individual specimens. Our findings further strengthen the feasibility of time and cost efficient gas diffusion testing methods that could deliver complementary information for evaluating existing and designing new cementitious materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Diffusion tensor imaging in patients with diabetic peripheral neuropathy: Fractional anisotropy and apparent diffusion coefficient dataset of posterior tibial nerve",
+      "authors": [
+        "Manu Goyal",
+        "Asir John Samuel",
+        "Amit Mittal"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Manu Goyal",
+          "orcid": "0000-0003-1618-1320",
+          "affiliations": [
+            "Maharishi Markandeshwar University, Mullana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Asir John Samuel",
+          "orcid": "0000-0003-1747-0415",
+          "affiliations": [
+            "Maharishi Markandeshwar University, Mullana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Amit Mittal",
+          "orcid": "0000-0002-9056-0356",
+          "affiliations": [
+            "Maharishi Markandeshwar University, Mullana"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2022.108421",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2022.108421",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352340922006187/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The data in this article described quantitative values of fractional anisotropy (FA) and apparent diffusion coefficient (ADC) for 23 (46 extremities) normal healthy males and females, for 46 patients with bilateral diabetic peripheral neuropathy. 1.5 Tesla (T) MR System Multiva – Philips magnets (Baltimore, Netherland, Holland) imaging with axial T1WSE, sagittal T2WSE and STIR sequences by means of diffusion weighted neurography b values of 0 and 800 s/mm2. The data obtained as FA and ADC values in healthy adults and patient population can be referred by researchers, clinicians for early diagnosis, to determine intervention effectiveness and patient management.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Coefficients of reaction-diffusion processes derived from patterns in rocks",
+      "authors": [
+        "Chong Liu",
+        "Victor M. Calo",
+        "Klaus Regenauer‐Lieb",
+        "Manman Hu"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Chong Liu",
+          "orcid": "0000-0002-0091-0130",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Victor M. Calo",
+          "orcid": "0000-0002-1805-4045",
+          "affiliations": [
+            "Curtin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Klaus Regenauer‐Lieb",
+          "orcid": "0000-0002-2198-5895",
+          "affiliations": [
+            "Curtin University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manman Hu",
+          "orcid": "0000-0001-5091-0289",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.22541/essoar.167108850.00214462/v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.22541/essoar.167108850.00214462/v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Self-organizing diffusion-reaction systems naturally form complex patterns under far from equilibrium conditions.A representative example is the rhythmic concentration pattern of Fe-oxides in Zebra rocks; these patterns include reddish-brown stripes, rounded rods, and elliptical spots. Similar patterns are observed in the banded iron formations which are presumed to have formed in the early earth under global glaciation. We propose that such patterns can be used directly (e.g., by computer-vision-analysis) to infer basic quantities relevant to their formation giving information on generalized chemical gradients. Here we present a phase-field model that quantitatively captures the distinct Zebra rock patterns based on the concept of phase separation that describes the process forming Liesegang stripes. We find that diffusion coefficients (the bulk self-diffusivities of the native species and the mobility of the reaction product) play an essential role in controlling the appearance of regular stripe patterns as well as the transition from stripes to spots. The numerical results are carefully benchmarked with well-established empirical spacing law, width law, timing law and the Matalon-Packter law. Using this model, we invert for the important process parameters that originate from the intrinsic material properties, the self-diffusivity ratio and the mobility of Fe-oxides, with a series of Zebra rock samples. This study allows a quantitative prediction of the generalized chemical gradients in mineralized source rocks without intrusive measurements, providing a better intuition for the mineral exploration space.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Diffusion of water in palm leaf materials",
+      "authors": [
+        "Debapriya Pinaki Mohanty",
+        "Anirudh Udupa",
+        "Koushik Viswanathan",
+        "Christopher J. Gilpin",
+        "Srinivasan Chandrasekar",
+        "Mysore A. Dayananda"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Debapriya Pinaki Mohanty",
+          "orcid": "0000-0002-0971-1242",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anirudh Udupa",
+          "orcid": "0000-0001-7948-2046",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Koushik Viswanathan",
+          "orcid": "0000-0003-0147-9597",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christopher J. Gilpin",
+          "orcid": "0000-0002-5591-3232",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Srinivasan Chandrasekar",
+          "orcid": "0000-0003-2060-6029",
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mysore A. Dayananda",
+          "orcid": null,
+          "affiliations": [
+            "Purdue University West Lafayette"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of The Royal Society Interface",
+      "doi": "10.1098/rsif.2021.0483",
+      "type": "article",
+      "url": "https://doi.org/10.1098/rsif.2021.0483",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2021.0483",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Diffusion of water into plant materials is known to decrease their mechanical strength and stiffness but improve formability. Here, we characterize water diffusion through areca palm leaf-sheath—a model plant material, with hierarchical structure, used in eco-friendly foodware. The diffusion process is studied using mass gain measurements and in situ imaging of water transport. By treating the areca sheath as homogeneous ensemble, and incorporating effects of material swelling due­ to water absorption, a factor typically neglected in prior studies, the diffusion coefficient D w for water is estimated as (6.5 ± 2.2) × 10 −4 mm 2 s −1 . It is shown that neglecting the swelling results in gross underestimation of D w . Microstructural effects (e.g. fibre, matrix) on the diffusion are characterized using in situ imaging of the water transport at high resolution. The observations show that the water diffuses an order of magnitude faster in the matrix (8.63 × 10 −4 mm 2 s −1 ) than in the fibres (7.19 × 10 −5 mm 2 s −1 ). This non-uniformity is also reflected in the swelling-induced strain in the leaf, mapped by image correlation. Lastly, we vary salt concentration by controlled additions of NaCl and note a non-monotonic dependence of the diffusion on concentration. Implications of the results for improving foodware manufacturing processes and product life are discussed.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "The diffusion-simulated connectivity (DiSCo) dataset",
+      "authors": [
+        "Jonathan Rafael‐Patiño",
+        "Gabriel Girard",
+        "Raphaël Truffet",
+        "Marco Pizzolato",
+        "Emmanuel Caruyer",
+        "Jean‐Philippe Thiran"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Jonathan Rafael‐Patiño",
+          "orcid": "0000-0002-8960-5465",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gabriel Girard",
+          "orcid": "0000-0002-5781-3104",
+          "affiliations": [
+            "Centre Hospitalier Universitaire Vaudois",
+            "Centre d'Imagerie BioMedicale",
+            "École Polytechnique Fédérale de Lausanne",
+            "University of Lausanne"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Raphaël Truffet",
+          "orcid": null,
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut national de recherche en sciences et technologies du numérique",
+            "Inserm",
+            "Institut de Recherche en Informatique et Systèmes Aléatoires",
+            "Empenn",
+            "Université de Rennes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marco Pizzolato",
+          "orcid": "0000-0003-2455-4596",
+          "affiliations": [
+            "École Polytechnique Fédérale de Lausanne",
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emmanuel Caruyer",
+          "orcid": "0000-0002-8547-7726",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut national de recherche en sciences et technologies du numérique",
+            "Inserm",
+            "Institut de Recherche en Informatique et Systèmes Aléatoires",
+            "Empenn",
+            "Université de Rennes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jean‐Philippe Thiran",
+          "orcid": "0000-0003-2938-9657",
+          "affiliations": [
+            "Centre Hospitalier Universitaire Vaudois",
+            "Centre d'Imagerie BioMedicale",
+            "École Polytechnique Fédérale de Lausanne",
+            "University of Lausanne"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2021.107429",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2021.107429",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352340921007113/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The methodological development in the mapping of the brain structural connectome from diffusion-weighted magnetic resonance imaging (DW-MRI) has raised many hopes in the neuroscientific community. Indeed, the knowledge of the connections between different brain regions is fundamental to study brain anatomy and function. The reliability of the structural connectome is therefore of paramount importance. In the search for accuracy, researchers have given particular attention to linking white matter tractography methods – used for estimating the connectome – with information about the microstructure of the nervous tissue. The creation and validation of methods in this context were hampered by a lack of practical numerical phantoms. To achieve this, we created a numerical phantom that mimics complex anatomical fibre pathway trajectories while also accounting for microstructural features such as axonal diameter distribution, myelin presence, and variable packing densities. The substrate has a micrometric resolution and an unprecedented size of 1 cubic millimetre to mimic an image acquisition matrix of 40×40×40 voxels. DW-MRI images were obtained from Monte Carlo simulations of spin dynamics to enable the validation of quantitative tractography. The phantom is composed of 12,196 synthetic tubular fibres with diameters ranging from 1.4 µm to 4.2 µm, interconnecting sixteen regions of interest. The simulated images capture the microscopic properties of the tissue (e.g. fibre diameter, water diffusing within and around fibres, free water compartment), while also having desirable macroscopic properties resembling the anatomy, such as the smoothness of the fibre trajectories. While previous phantoms were used to validate either tractography or microstructure, this phantom can enable a better assessment of the connectome estimation’s reliability on the one side, and its adherence to the actual microstructure of the nervous tissue on the other.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Supporting data for \"Rapid determination of solid-state diffusion coefficients by intermittent current interruption\"",
+      "authors": [
+        "Yu‐Chuan Chien",
+        "Haidong Liu",
+        "Ashok Sreekumar Menon",
+        "William Robert Brant",
+        "Daniel Brandell",
+        "Matthew J. Lacey"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Yu‐Chuan Chien",
+          "orcid": "0000-0003-4767-9471",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Haidong Liu",
+          "orcid": "0000-0001-8519-3240",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ashok Sreekumar Menon",
+          "orcid": "0000-0001-8148-8615",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William Robert Brant",
+          "orcid": "0000-0002-8658-8938",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel Brandell",
+          "orcid": "0000-0002-8019-2801",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew J. Lacey",
+          "orcid": "0000-0002-0366-7228",
+          "affiliations": [
+            "Scania (Sweden)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.4964673",
+      "type": "dataset",
+      "url": "https://doi.org/10.5281/zenodo.4964673",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://zenodo.org/record/4964674",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "This is the dataset of electrochemical and operando X-ray diffraction experiments for our publication \"Rapid determination of solid-state diffusion coefficients by intermittent current interruption\". This archive contains the raw data and scripts written in R used in the analysis and presentation of the results in this manuscript. Abstract for the manuscript: The galvanostatic intermittent titration technique (GITT) has been regarded as the go-to method for determining the diffusion coefficients of Li-ions in insertion electrode materials at various states of charge (SoC). However, the method is notoriously time-consuming. In this work, the intermittent current interruption (ICI) method, which has previously been employed to investigate the progression of internal resistances in Li-ion cells, is demonstrated to provide comparably accurate measurements of diffusion coefficients with a drastically reduced experimental time. Theoretically, it is first derived from Fick’s laws that the ICI method renders essentially the same information as GITT. Experimentally, both GITT and ICI are then compared side-by-side in a three-electrode half-cell of LiNi0.8Mn0.1Co0.1O2 (NMC811). It is shown that the results from both methods match where the assumption of semi-infinite diffusion applies. Moreover, the benefit of the comparatively non-disruptive ICI method to operando characterization methods is demonstrated via correlation of changes in the continuously monitored diffusion coefficient of Li+ in NMC811 to structural changes in the material by operando X-ray diffraction (XRD).",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Crystal Diffusion Variational Autoencoder for Periodic Material Generation",
+      "authors": [
+        "Tian Xie",
+        "Xiang Fu",
+        "Octavian-Eugen Ganea",
+        "Regina Barzilay",
+        "Tommi Jaakkola"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Tian Xie",
+          "orcid": "0000-0002-0987-4666",
+          "affiliations": [
+            "MIT Computer Science and Artificial Intelligence Laboratory",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiang Fu",
+          "orcid": "0000-0001-7480-6312",
+          "affiliations": [
+            "MIT Computer Science and Artificial Intelligence Laboratory",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Octavian-Eugen Ganea",
+          "orcid": null,
+          "affiliations": [
+            "MIT Computer Science and Artificial Intelligence Laboratory",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Regina Barzilay",
+          "orcid": "0000-0002-2921-8201",
+          "affiliations": [
+            "MIT Computer Science and Artificial Intelligence Laboratory",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tommi Jaakkola",
+          "orcid": "0000-0002-2199-0379",
+          "affiliations": [
+            "MIT Computer Science and Artificial Intelligence Laboratory",
+            "Massachusetts Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2110.06197",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2110.06197",
+      "cited_by_count": 107,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2110.06197",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Generating the periodic structure of stable materials is a long-standing challenge for the material design community. This task is difficult because stable materials only exist in a low-dimensional subspace of all possible periodic arrangements of atoms: 1) the coordinates must lie in the local energy minimum defined by quantum mechanics, and 2) global stability also requires the structure to follow the complex, yet specific bonding preferences between different atom types. Existing methods fail to incorporate these factors and often lack proper invariances. We propose a Crystal Diffusion Variational Autoencoder (CDVAE) that captures the physical inductive bias of material stability. By learning from the data distribution of stable materials, the decoder generates materials in a diffusion process that moves atomic coordinates towards a lower energy state and updates atom types to satisfy bonding preferences between neighbors. Our model also explicitly encodes interactions across periodic boundaries and respects permutation, translation, rotation, and periodic invariances. We significantly outperform past methods in three tasks: 1) reconstructing the input structure, 2) generating valid, diverse, and realistic materials, and 3) generating materials that optimize a specific property. We also provide several standard datasets and evaluation metrics for the broader machine learning community.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Permeability coefficients and vapour pressure determination for fragrance materials",
+      "authors": [
+        "Rafael Nolibos Almeida",
+        "João G.M. Hartz",
+        "Patrícia Costa",
+        "Alírio Egídio Rodrigues",
+        "Rubem Mário Figueiró Vargas",
+        "Eduardo Cassel"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Rafael Nolibos Almeida",
+          "orcid": "0000-0002-5792-5392",
+          "affiliations": [
+            "Pontifícia Universidade Católica do Rio Grande do Sul"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "João G.M. Hartz",
+          "orcid": null,
+          "affiliations": [
+            "Pontifícia Universidade Católica do Rio Grande do Sul"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Patrícia Costa",
+          "orcid": "0000-0001-9246-5611",
+          "affiliations": [
+            "Universidade Católica Portuguesa",
+            "Centro de Biotecnologia e Química Fina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alírio Egídio Rodrigues",
+          "orcid": "0000-0002-0715-4761",
+          "affiliations": [
+            "Universidade do Porto"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rubem Mário Figueiró Vargas",
+          "orcid": "0000-0003-2696-8581",
+          "affiliations": [
+            "Pontifícia Universidade Católica do Rio Grande do Sul"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eduardo Cassel",
+          "orcid": "0000-0001-8843-0694",
+          "affiliations": [
+            "Pontifícia Universidade Católica do Rio Grande do Sul"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "International Journal of Cosmetic Science",
+      "doi": "10.1111/ics.12686",
+      "type": "article",
+      "url": "https://doi.org/10.1111/ics.12686",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ics.12686",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Objective This study aims to correlate new experimental data relevant to the description of the combined evaporation/permeation process of a perfume applied onto the skin. Methods The vapour pressure data were measured by thermogravimetric analysis (TG‐DTA). The Antoine constants and the Clarke and Glew parameters were determined for the same set of fragrance molecules to describe its low vapour pressures at new temperature ranges. The permeability coefficient of a set of 14 fragrance molecules in ethanolic solution was determined by Franz diffusion cell experiments, using porcine skin. The samples were analysed by gas chromatography with a flame ionization detector (GC/FID) and high‐performance liquid chromatography with UV visible detector (HPLC/UV). A QSAR model was proposed to correlate the experimental data. Results The Antoine constants were determined and presented low standard deviations. The Clarke and Glew physically significant parameters were obtained along with its statistical analysis. The fitting is good since the magnitude order is in accordance with the literature, associated with the low correlation between the estimated parameters and low standard deviations. The presented correlation, based on a mixture using only ethanol as solvent, showed better results than previous QSAR models with a standard relative deviation ( of 0.190, a standard error (SE) of 0.397 and a determination coefficient (R2) of 0.7786. Conclusion The dataset is still small compared to larger and more general QSAR models; however, it is much more specific as to the type of solvent and class of materials studied. This work represents an advance for the modelling of the perfume diffusion process since it specifies important properties that until then had been treated in a more general way.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "Estimation of Battery Separator Area, Cell Thickness and Diffusion Coefficient Based on Non-Ideal Liquid-Phase Diffusion Modeling",
+      "authors": [
+        "Bence Csomós",
+        "Dénes Fodor",
+        "István Vajda"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Bence Csomós",
+          "orcid": "0000-0002-2398-3199",
+          "affiliations": [
+            "University of Pannonia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dénes Fodor",
+          "orcid": "0000-0001-9856-5357",
+          "affiliations": [
+            "University of Pannonia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "István Vajda",
+          "orcid": null,
+          "affiliations": [
+            "Obuda University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energies",
+      "doi": "10.3390/en13236238",
+      "type": "article",
+      "url": "https://doi.org/10.3390/en13236238",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1073/13/23/6238/pdf?version=1606402590",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The aim of this work is to present a fast and in situ diffusion modeling technique to extract essential electrochemical parameters from liquid-phase diffusion which can be used to implement a realistic battery in a pseudo-2D finite element modeling environment. A generalized Warburg element was used within an extended Randles equivalent circuit to obtain an appropriate fit on non-ideal diffusion impedance. Based on the calculation method presented in this paper, the values of diffusion-related parameters such as the cross-sectional area of the separator Asep, cell thickness Lcell as well as liquid-phase and solid-phase diffusion coefficients Dl and Ds were derived, successfully. A characteristic cell which allowed the exchange current density i0 and reaction rate constant k0 to be calculated was also established. The experimental data was measured by electrochemical impedance spectroscopy (EIS), resistivity measurement and the galvanostatic intermittent titration technique (GITT). The results show that our hypothesis to extract essential electrochemical parameters from the tail part of diffusion impedance is correct. The applicability of our concept is confirmed by the prosperous validation results produced by computed tomography (CT) and battery dynamics simulation in finite-element environment. Due to the inherent limitations of the pseudo-2D Doyle-Fuller-Newman (DFN) model, our technique is accordingly valid within the current range of 0–1 C.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "How to measure diffusion coefficients in biofilms: A critical analysis",
+      "authors": [
+        "Lenno van den Berg",
+        "Mark C.M. van Loosdrecht",
+        "Merle de Kreuk"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Lenno van den Berg",
+          "orcid": "0000-0003-4015-3688",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark C.M. van Loosdrecht",
+          "orcid": "0000-0003-0658-4775",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Merle de Kreuk",
+          "orcid": "0000-0002-5111-9461",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Biotechnology and Bioengineering",
+      "doi": "10.1002/bit.27650",
+      "type": "article",
+      "url": "https://doi.org/10.1002/bit.27650",
+      "cited_by_count": 31,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bit.27650",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Biofilm and granular sludge processes depend on diffusion of substrates. Despite their importance for the kinetic description of biofilm reactors, biofilm diffusion coefficients reported in literature vary greatly. The aim of this simulation study was to determine to what extent the methods that are used to measure diffusion coefficients contribute to the reported variability. Granular sludge was used as a case study. Six common methods were selected, based on mass balances and microelectrodes. A Monte Carlo simulation was carried out to determine the theoretical precision of each method, considering the uncertainty of various experimental parameters. A model-based simulation of a diffusion experiment was used to determine the theoretical accuracy as a result of six sources of error: solute sorption, biomass deactivation, mass transfer boundary layer, granule roughness, granule shape, and granule size distribution. Based on the Monte Carlo analysis, the relative standard deviation of the different methods ranged from 5% to 61%. In a theoretical experiment, the six error sources led to an 37% underestimation of the diffusion coefficient. This highlights that diffusion coefficients cannot be determined accurately with existing experimental methods. At the same time, the need for measuring precise diffusion coefficients as input value for biofilm modeling can be questioned, since the output of biofilm models has a limited sensitivity toward the diffusion coefficient.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Prediction of diffusion coefficients in fcc, bcc and hcp phases remained stable or metastable by the machine-learning methods",
+      "authors": [
+        "Zhenbang Wei",
+        "Jinxin Yu",
+        "Yong Lu",
+        "Jiajia Han",
+        "Cuiping Wang",
+        "Xingjun Liu"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Zhenbang Wei",
+          "orcid": "0000-0002-0655-7219",
+          "affiliations": [
+            "Xiamen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinxin Yu",
+          "orcid": "0009-0001-8163-3752",
+          "affiliations": [
+            "Xiamen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong Lu",
+          "orcid": "0000-0002-2056-7827",
+          "affiliations": [
+            "Xiamen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiajia Han",
+          "orcid": "0000-0002-2642-0252",
+          "affiliations": [
+            "Xiamen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cuiping Wang",
+          "orcid": "0000-0003-0378-6494",
+          "affiliations": [
+            "Xiamen University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xingjun Liu",
+          "orcid": "0000-0002-3015-8525",
+          "affiliations": [
+            "Xiamen University",
+            "Harbin Institute of Technology",
+            "State Key Laboratory of Advanced Welding and Joining"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Materials & Design",
+      "doi": "10.1016/j.matdes.2020.109287",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.matdes.2020.109287",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0264127520308236/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Diffusion coefficient play a crucial role in material designing, and physical phenomenon explaining during the material preparation and post-treatment. However, it is unavailable in some metallic systems. In this paper, based on basic physical properties (including atom properties, lattice parameters, melting temperature, elastic stiffness constant and etc.), the diffusion activate energy model were developed by machine-learning methods. First, the melting temperature (Tm) and elastic stiffness constant (Cij) models were built by machine-learning methods to fill the absent values in properties. Second, the diffusion activate energy (Q) model was built, and a hybrid features selection method was used to decrease features from 73 to 11 in the model. The Tm, Cij and Q models showed a good predictive ability and goodness of fit. Finally, features in the models were analyzed and compared with the parameters in various prior models. This work provides further understanding on the mechanism of the melting process, elastic deformation and diffusion process. Moreover, the models could be able to provide an easy and reliable method to obtain the diffusion coefficients in bcc, fcc, and hcp alloys when they are needed but unavailable.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "pydiffusion: A Python Library for Diffusion Simulation and Data Analysis",
+      "authors": [
+        "Zhangqi Chen",
+        "Qiaofu Zhang",
+        "Ji‐Cheng Zhao"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Zhangqi Chen",
+          "orcid": null,
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qiaofu Zhang",
+          "orcid": "0000-0003-0632-5351",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ji‐Cheng Zhao",
+          "orcid": "0000-0002-4426-1080",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Open Research Software",
+      "doi": "10.5334/jors.255",
+      "type": "article",
+      "url": "https://doi.org/10.5334/jors.255",
+      "cited_by_count": 24,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://storage.googleapis.com/jnl-up-j-jors-files/journals/1/articles/255/submission/proof/255-1-3397-1-10-20190423.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "pydiffusion is a free and open-source Python library designed to solve diffusion problems for both single-phase and multi-phase binary systems. The key features of pydiffusion include fast simulation of multi-phase diffusion and extraction of diffusion coefficients from experimental concentration profiles using forward simulation analysis. pydiffusion also provides various mathematical models for diffusion profile smoothing, diffusion coefficient evaluation, and data optimization. In pydiffusion, diffusion profiles and various phases are easy to define or read from the experimental datasets. Visualization tools based on Matplotlib are also provided to help users present or refine their simulations and analysis. Funding statement: The development of pydiffusion is supported by the US National Science Foundation (NSF) under Grant number CMMI-1333999, and it is part of an NSF Designing Materials to Revolutionize and Engineer our Future (DMREF) project.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Diagnostic value of 3 T MR spectroscopy, diffusion-weighted MRI, and apparent diffusion coefficient value for distinguishing benign from malignant myometrial tumours",
+      "authors": [
+        "Pariya Rahimifar",
+        "Hassan Hashemi",
+        "Mahrooz Malek",
+        "S. Ebrahimi",
+        "Elnaz Tabibian",
+        "Azadeh Alidoosti",
+        "A. Mousavi",
+        "Fariba Yarandi"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Pariya Rahimifar",
+          "orcid": null,
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hassan Hashemi",
+          "orcid": "0000-0002-6086-1537",
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mahrooz Malek",
+          "orcid": "0000-0003-4347-6546",
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Ebrahimi",
+          "orcid": null,
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elnaz Tabibian",
+          "orcid": "0000-0003-3041-0783",
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Azadeh Alidoosti",
+          "orcid": null,
+          "affiliations": [
+            "Imam Khomeini Hospital",
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Mousavi",
+          "orcid": "0000-0003-3152-6999",
+          "affiliations": [
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fariba Yarandi",
+          "orcid": "0000-0001-9882-3360",
+          "affiliations": [
+            "Tehran University of Medical Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Clinical Radiology",
+      "doi": "10.1016/j.crad.2019.03.011",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.crad.2019.03.011",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Grain Boundaries and Diffusion Phenomena in Severely Deformed Materials",
+      "authors": [
+        "Gerhard Wilde",
+        "Sergiy V. Divinski"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Gerhard Wilde",
+          "orcid": "0000-0001-8001-5998",
+          "affiliations": [
+            "University of Münster"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sergiy V. Divinski",
+          "orcid": "0000-0003-1935-9542",
+          "affiliations": [
+            "University of Münster"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "MATERIALS TRANSACTIONS",
+      "doi": "10.2320/matertrans.mf201934",
+      "type": "article",
+      "url": "https://doi.org/10.2320/matertrans.mf201934",
+      "cited_by_count": 115,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.jstage.jst.go.jp/article/matertrans/60/7/60_MF201934/_pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The present knowledge on grain boundary-related phenomena specific for severely plastically deformed materials is reviewed and critically analyzed in detail. Severe plastic deformation is shown to introduce specific metastable states of the grain boundaries which are characterized by enhanced diffusion rates, high-density of specific structure elements and large (still localized) elastic strains. An intrinsic heterogeneity of the deformation-induced modifications is revealed and examined on different scales. Relations between the existence of deformation-modified grain boundaries, specific microstructure features and resulting properties are highlighted.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "A strategy to apply machine learning to small datasets in materials science",
+      "authors": [
+        "Ying Zhang",
+        "Chen Ling"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Ying Zhang",
+          "orcid": "0000-0001-6958-3548",
+          "affiliations": [
+            "Toyota Motor North America Research & Development (United States)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chen Ling",
+          "orcid": "0000-0002-8667-9792",
+          "affiliations": [
+            "Toyota Motor North America Research & Development (United States)"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-018-0081-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-018-0081-z",
+      "cited_by_count": 784,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-018-0081-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract There is growing interest in applying machine learning techniques in the research of materials science. However, although it is recognized that materials datasets are typically smaller and sometimes more diverse compared to other fields, the influence of availability of materials data on training machine learning models has not yet been studied, which prevents the possibility to establish accurate predictive rules using small materials datasets. Here we analyzed the fundamental interplay between the availability of materials data and the predictive capability of machine learning models. Instead of affecting the model precision directly, the effect of data size is mediated by the degree of freedom (DoF) of model, resulting in the phenomenon of association between precision and DoF. The appearance of precision–DoF association signals the issue of underfitting and is characterized by large bias of prediction, which consequently restricts the accurate prediction in unknown domains. We proposed to incorporate the crude estimation of property in the feature space to establish ML models using small sized materials data, which increases the accuracy of prediction without the cost of higher DoF. In three case studies of predicting the band gap of binary semiconductors, lattice thermal conductivity, and elastic properties of zeolites, the integration of crude estimation effectively boosted the predictive capability of machine learning models to state-of-art levels, demonstrating the generality of the proposed strategy to construct accurate machine learning models using small materials dataset.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "A quantitative property-property relationship for the internal diffusion coefficients of organic compounds in solid materials",
+      "authors": [
+        "Lei Huang",
+        "Peter Fantke",
+        "Alexi Sara Ernstoff",
+        "Olivier Jolliet"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Lei Huang",
+          "orcid": "0000-0002-7846-9760",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peter Fantke",
+          "orcid": "0000-0001-7148-6982",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexi Sara Ernstoff",
+          "orcid": "0000-0002-1114-6596",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Olivier Jolliet",
+          "orcid": "0000-0001-6955-4210",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Indoor Air",
+      "doi": "10.1111/ina.12395",
+      "type": "article",
+      "url": "https://doi.org/10.1111/ina.12395",
+      "cited_by_count": 23,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ina.12395",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Indoor releases of organic chemicals encapsulated in solid materials are major contributors to human exposures and are directly related to the internal diffusion coefficient in solid materials. Existing correlations to estimate the diffusion coefficient are only valid for a limited number of chemical-material combinations. This paper develops and evaluates a quantitative property-property relationship (QPPR) to predict diffusion coefficients for a wide range of organic chemicals and materials. We first compiled a training dataset of 1103 measured diffusion coefficients for 158 chemicals in 32 consolidated material types. Following a detailed analysis of the temperature influence, we developed a multiple linear regression model to predict diffusion coefficients as a function of chemical molecular weight (MW), temperature, and material type (adjusted R2 of .93). The internal validations showed the model to be robust, stable and not a result of chance correlation. The external validation against two separate prediction datasets demonstrated the model has good predicting ability within its applicability domain (>.8), namely MW between 30 and 1178 g/mol and temperature between 4 and 180°C. By covering a much wider range of organic chemicals and materials, this QPPR facilitates high-throughput estimates of human exposures for chemicals encapsulated in solid materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Diffusion coefficients of organic molecules in sucrose–water solutions and comparison with Stokes–Einstein predictions",
+      "authors": [
+        "Yuri Chenyakin",
+        "Dagny A. Ullmann",
+        "Erin Evoy",
+        "Lindsay Renbaum-Wolff",
+        "Saeid Kamal",
+        "Allan K. Bertram"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Yuri Chenyakin",
+          "orcid": null,
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dagny A. Ullmann",
+          "orcid": null,
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Erin Evoy",
+          "orcid": "0000-0003-1018-9874",
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lindsay Renbaum-Wolff",
+          "orcid": null,
+          "affiliations": [
+            "Boston College",
+            "University of British Columbia",
+            "Aerodyne Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Saeid Kamal",
+          "orcid": "0000-0003-2758-4459",
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Allan K. Bertram",
+          "orcid": "0000-0002-5621-2323",
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Atmospheric chemistry and physics",
+      "doi": "10.5194/acp-17-2423-2017",
+      "type": "article",
+      "url": "https://doi.org/10.5194/acp-17-2423-2017",
+      "cited_by_count": 89,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.atmos-chem-phys.net/17/2423/2017/acp-17-2423-2017.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract. Diffusion coefficients of organic species in secondary organic aerosol (SOA) particles are needed to predict the growth and reactivity of these particles in the atmosphere. Previously, viscosity measurements along with the Stokes–Einstein relation have been used to estimate diffusion rates of organics within SOA particles or proxies of SOA particles. To test the Stokes–Einstein relation, we have measured the diffusion coefficients of three fluorescent organic dyes (fluorescein, Rhodamine 6G and calcein) within sucrose-water solutions with varying water activity. Sucrose-water solutions are used as a proxy for SOA material found in the atmosphere. Diffusion coefficients were measured using fluorescence recovery after photobleaching. For the three dyes studied the diffusion coefficients varies by 5–7 orders of magnitude as the water activity varied from 0.38 to 0.88, illustrating the sensitivity of the diffusion coefficients to the water content in the matrix. At the lowest water activity studied (0.38) the average diffusion coefficients were 1.8 × 10−5, 1.6 × 10−6 and 7.6 × 10−6 µm2 s−1 for fluorescein, Rhodamine 6G and calcein, respectively. The measured diffusion coefficients were compared with predictions made using literature viscosities and the Stokes–Einstein relation. We found that at a water activity ≥ 0.6 (which corresponds to a viscosity ≤ 360 Pa s and Tg/T ≤ 0.81) predicted diffusion rates agreed with measured diffusion rates within the experimental uncertainty. (Tg represents the glass transition temperature and T is the temperature of the measurements). When the water activity was 0.38 (which corresponds to a viscosity of 3.3 × 106 Pa s and a Tg/T of 0.94) the Stokes–Einstein relation under-predicted the diffusion coefficients of fluorescein, Rhodamine 6G and calcein by a factor of 95 (minimum 7 and maximum of 980), a factor of 17 (minimum 1 and maximum 165) and a factor of 56 (minimum 7 and maximum 465), respectively. The observed disagreement is significantly smaller than the disagreement observed when comparing measured and predicted diffusion coefficients of water in sucrose-water mixtures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Measurements of diffusion coefficients of organic dyes in proxies of atmospheric particles",
+      "authors": [
+        "Dagny A. Ullmann"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Dagny A. Ullmann",
+          "orcid": null,
+          "affiliations": [
+            "University of British Columbia"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "cIRcle (University of British Columbia)",
+      "doi": "10.14288/1.0348262",
+      "type": "dissertation",
+      "url": "https://doi.org/10.14288/1.0348262",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/2429/61969",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Atmospheric particles play a significant role in the atmosphere and climate. To be able to better predict their rate of growth and reactivity, information on diffusion coefficients of organic molecules in these particles is needed. Diffusion coefficients of organic tracer molecules were measured in sucrose water solutions, which served as proxies for atmospheric particles. Diffusion coefficients of rhodamine 6G (hydrodynamic radius = 5.89 Å), an organic tracer molecule, ranged from 1.50∙10-¹⁴ to 4.73∙10-⁹ cm²/s as the water activity ranged from 0.38 to 0.8, respectively, in sucrose water solutions. The measured diffusion coefficients were compared to diffusion coefficients calculated using the Stokes-Einstein equation, which has often been used in the past to estimate diffusion coefficients in atmospheric particles. A breakdown of the Stokes-Einstein equation was observed at a water activity of 0.38 or a viscosity of 3.3∙10⁶ Pa s or Tg/T of 0.94 (Tg being the glass transition temperature and T the temperature of the measurement). In addition, diffusion coefficients of intrinsic fluorophores were measured in brown limonene secondary organic material (SOM) which is thought to be important in the atmosphere. The SOM was generated by the oxidation of limonene followed by aging with NH₃ vapour. The diffusion coefficients of the intrinsic fluorophores in brown limonene SOM ranged from 3.82∙10-¹² to 8.32∙10-⁹ cm²/s as the water activity ranged from 0.38 to 0.9. From the diffusion coefficients mixing times of large organics in brown limonene SOM were calculated, which ranged from 0.001 to 2.6 s across water activities of 0.9 and 0.38. Hence, mixing times of large organics are short and atmospheric particles consisting of brown limonene SOM are well mixed in the atmosphere when water activities range from 0.38 to 0.9. Furthermore, the hydrodynamic radius of the intrinsic fluorophores within brown limonene SOM was determined to be 7.34 ± 1.47 Å. This hydrodynamic radius is consistent with suggested structures for the intrinsic fluorophores.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "A comprehensive first-principles study of pure elements: Vacancy formation and migration energies and self-diffusion coefficients",
+      "authors": [
+        "Shun‐Li Shang",
+        "Bi‐Cheng Zhou",
+        "William Yi Wang",
+        "Austin J. Ross",
+        "Xuan L. Liu",
+        "Yong‐Jie Hu",
+        "Hua-Zhi Fang",
+        "Yi Wang",
+        "Zi‐Kui Liu"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "Shun‐Li Shang",
+          "orcid": "0000-0002-6524-8897",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bi‐Cheng Zhou",
+          "orcid": "0000-0003-1560-4950",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William Yi Wang",
+          "orcid": "0000-0002-8814-525X",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Austin J. Ross",
+          "orcid": null,
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuan L. Liu",
+          "orcid": "0000-0002-3928-1992",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yong‐Jie Hu",
+          "orcid": "0000-0003-1500-4015",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hua-Zhi Fang",
+          "orcid": null,
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yi Wang",
+          "orcid": "0000-0001-6154-945X",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zi‐Kui Liu",
+          "orcid": "0000-0003-3346-3696",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Materialia",
+      "doi": "10.1016/j.actamat.2016.02.031",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.actamat.2016.02.031",
+      "cited_by_count": 210,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://doi.org/10.1016/j.actamat.2016.02.031",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Sucrose diffusion in aqueous solution",
+      "authors": [
+        "H. C. Price",
+        "Johan Mattsson",
+        "Benjamin John Murray"
+      ],
+      "year": 2016,
+      "author_details": [
+        {
+          "name": "H. C. Price",
+          "orcid": "0000-0002-1608-1592",
+          "affiliations": [
+            "University of Leeds"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johan Mattsson",
+          "orcid": "0000-0001-7057-2192",
+          "affiliations": [
+            "University of Leeds"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Benjamin John Murray",
+          "orcid": "0000-0002-8198-8131",
+          "affiliations": [
+            "University of Leeds"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Chemistry Chemical Physics",
+      "doi": "10.1039/c6cp03238a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/c6cp03238a",
+      "cited_by_count": 108,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2016/cp/c6cp03238a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The diffusion of sugar in aqueous solution is important both in nature and in technological applications, yet measurements of diffusion coefficients at low water content are scarce. We report directly measured sucrose diffusion coefficients in aqueous solution. Our technique utilises a Raman isotope tracer method to monitor the diffusion of non-deuterated and deuterated sucrose across a boundary between the two aqueous solutions. At a water activity of 0.4 (equivalent to 90 wt% sucrose) at room temperature, the diffusion coefficient of sucrose was determined to be approximately four orders of magnitude smaller than that of water in the same material. Using literature viscosity data, we show that, although inappropriate for the prediction of water diffusion, the Stokes-Einstein equation works well for predicting sucrose diffusion under the conditions studied. As well as providing information of importance to the fundamental understanding of diffusion in binary solutions, these data have technological, pharmaceutical and medical implications, for example in cryopreservation. Moreover, in the atmosphere, slow organic diffusion may have important implications for aerosol growth, chemistry and evaporation, where processes may be limited by the inability of a molecule to diffuse between the bulk and the surface of a particle.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Quantitative mapping of the per‐axon diffusion coefficients in brain white matter",
+      "authors": [
+        "Enrico Kaden",
+        "Frithjof Kruggel",
+        "Daniel C. Alexander"
+      ],
+      "year": 2015,
+      "author_details": [
+        {
+          "name": "Enrico Kaden",
+          "orcid": "0000-0001-6558-3663",
+          "affiliations": [
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Frithjof Kruggel",
+          "orcid": "0000-0003-3507-5662",
+          "affiliations": [
+            "University of California, Irvine"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel C. Alexander",
+          "orcid": "0000-0003-2439-350X",
+          "affiliations": [
+            "University College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Magnetic Resonance in Medicine",
+      "doi": "10.1002/mrm.25734",
+      "type": "article",
+      "url": "https://doi.org/10.1002/mrm.25734",
+      "cited_by_count": 236,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.25734",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "PURPOSE: This article presents a simple method for estimating the effective diffusion coefficients parallel and perpendicular to the axons unconfounded by the intravoxel fiber orientation distribution. We also call these parameters the per-axon or microscopic diffusion coefficients. THEORY AND METHODS: Diffusion MR imaging is used to probe the underlying tissue material. The key observation is that for a fixed b-value the spherical mean of the diffusion signal over the gradient directions does not depend on the axon orientation distribution. By exploiting this invariance property, we propose a simple, fast, and robust estimator of the per-axon diffusion coefficients, which we refer to as the spherical mean technique. RESULTS: We demonstrate quantitative maps of the axon-scale diffusion process, which has factored out the effects due to fiber dispersion and crossing, in human brain white matter. These microscopic diffusion coefficients are estimated in vivo using a widely available off-the-shelf pulse sequence featuring multiple b-shells and high-angular gradient resolution. CONCLUSION: The estimation of the per-axon diffusion coefficients is essential for the accurate recovery of the fiber orientation distribution. In addition, the spherical mean technique enables us to discriminate microscopic tissue features from fiber dispersion, which potentially improves the sensitivity and/or specificity to various neurological conditions. Magnetic Resonance in Medicine published by Wiley Periodicals, Inc.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "A Robust Post-Processing Workflow for Datasets with Motion Artifacts in Diffusion Kurtosis Imaging",
+      "authors": [
+        "Xianjun Li",
+        "Jian Yang",
+        "Jie Gao",
+        "Xue Gang Luo",
+        "Zhenyu Zhou",
+        "Yajie Hu",
+        "Edward X. Wu",
+        "Mingxi Wan"
+      ],
+      "year": 2014,
+      "author_details": [
+        {
+          "name": "Xianjun Li",
+          "orcid": "0000-0001-7690-9155",
+          "affiliations": [
+            "First Affiliated Hospital of Xi'an Jiaotong University",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jian Yang",
+          "orcid": "0000-0003-4250-1391",
+          "affiliations": [
+            "First Affiliated Hospital of Xi'an Jiaotong University",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jie Gao",
+          "orcid": "0000-0002-0218-5438",
+          "affiliations": [
+            "First Affiliated Hospital of Xi'an Jiaotong University",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xue Gang Luo",
+          "orcid": "0000-0003-0479-228X",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenyu Zhou",
+          "orcid": "0000-0002-4636-9175",
+          "affiliations": [
+            "First Affiliated Hospital of Xi'an Jiaotong University",
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yajie Hu",
+          "orcid": null,
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edward X. Wu",
+          "orcid": "0000-0001-5581-1546",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingxi Wan",
+          "orcid": "0000-0002-6704-1216",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0094592",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0094592",
+      "cited_by_count": 19,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0094592&type=printable",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "PURPOSE: The aim of this study was to develop a robust post-processing workflow for motion-corrupted datasets in diffusion kurtosis imaging (DKI). MATERIALS AND METHODS: The proposed workflow consisted of brain extraction, rigid registration, distortion correction, artifacts rejection, spatial smoothing and tensor estimation. Rigid registration was utilized to correct misalignments. Motion artifacts were rejected by using local Pearson correlation coefficient (LPCC). The performance of LPCC in characterizing relative differences between artifacts and artifact-free images was compared with that of the conventional correlation coefficient in 10 randomly selected DKI datasets. The influence of rejected artifacts with information of gradient directions and b values for the parameter estimation was investigated by using mean square error (MSE). The variance of noise was used as the criterion for MSEs. The clinical practicality of the proposed workflow was evaluated by the image quality and measurements in regions of interest on 36 DKI datasets, including 18 artifact-free (18 pediatric subjects) and 18 motion-corrupted datasets (15 pediatric subjects and 3 essential tremor patients). RESULTS: The relative difference between artifacts and artifact-free images calculated by LPCC was larger than that of the conventional correlation coefficient (p<0.05). It indicated that LPCC was more sensitive in detecting motion artifacts. MSEs of all derived parameters from the reserved data after the artifacts rejection were smaller than the variance of the noise. It suggested that influence of rejected artifacts was less than influence of noise on the precision of derived parameters. The proposed workflow improved the image quality and reduced the measurement biases significantly on motion-corrupted datasets (p<0.05). CONCLUSION: The proposed post-processing workflow was reliable to improve the image quality and the measurement precision of the derived parameters on motion-corrupted DKI datasets. The workflow provided an effective post-processing method for clinical applications of DKI in subjects with involuntary movements.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Accuracy and Precision of Apparent Diffusion Coefficient and Volume Measurements of MRI of Prostate",
+      "authors": [
+        "Ina Gillström"
+      ],
+      "year": 2014,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Lund University Publications Student Papers (Lund University)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://lup.lub.lu.se/student-papers/record/7456250",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Purpose: to develop a robust protocol optimized for measurement of ADC and use it to determine the precision of ADC measurements of prostate but also to determine the accuracy and precision of volume measurements of the prostate. Materials and methods: Using measurements from three volunteers an optimal protocol for ADC measurement in the prostate was determined. The study included both phantoms and volunteers. For volume measurements prostate-shaped phantoms, printed using a 3D-printer, and for ADC measurements plastic containers filled with liquid with different diffusion coefficient was used. Seven healthy volunteers (mean age 24 years) participated. Measurements of both ADC and volume were repeated to acquire the precision of the measurements. The volumes were determined using the treatment planning system Eclipse. Result: Two b-values (200 and 800 mm2/s) were found to be optimal for ADC measurements of the prostate. The precision of the ADC was better for phantoms (0.7 %) than for volunteers (12 %). This demonstrates the importance of ROI placement, how and where the ADC is determined. The accuracy of the volume measurements was good with a correlation coefficient of 0.9988. The precision of the volume measurements of phantoms was 3 % and of volunteers 1 %. Conclusion: It is important how and where the ADC is measured when doing a comparison between two acquisitions. If measurements are done carefully ADC and volume comparisons can be done.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "The Green's function for the diffusion coefficient",
+      "authors": [
+        "Clarion Hadleigh Hess"
+      ],
+      "year": 2012,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://hdl.handle.net/1721.1/114353",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Thesis: S.B., Massachusetts Institute of Technology, Department of Earth, Atmospheric, and Planetary Sciences, 2012.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Determination of the activation energies of diffusion of organic molecules in poly(ethylene terephthalate)",
+      "authors": [
+        "Johann Ewender",
+        "Frank M. Welle"
+      ],
+      "year": 2012,
+      "author_details": [
+        {
+          "name": "Johann Ewender",
+          "orcid": null,
+          "affiliations": [
+            "Fraunhofer Institute for Process Engineering and Packaging"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Frank M. Welle",
+          "orcid": "0000-0001-7529-6799",
+          "affiliations": [
+            "Fraunhofer Institute for Process Engineering and Packaging"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Applied Polymer Science",
+      "doi": "10.1002/app.38623",
+      "type": "article",
+      "url": "https://doi.org/10.1002/app.38623",
+      "cited_by_count": 35,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Poly(ethylene terephthalate) (PET) is a highly inert packaging material that exhibits low interaction with foodstuff and consequently a limited diffusion of migrants. Migration modeling can therefore be used as an alternative to experimental migration tests in order to confirm compliance of PET packaging materials with food laws. The most important factor for predicting migration using mathematical models is the diffusion coefficient of the migrant in PET. However, current models that predict this parameter are typically based on worst‐case scenarios and thereby significantly over‐estimate the degree of migration. The key parameter for developing more realistic migration models is the activation energy of diffusion of potential migrants in PET, but experimental data on this are scarcely available in the scientific literature. The aim of the present study was therefore to develop a fast and precise method for determining diffusion coefficients and activation energies of diffusion of organic compounds in PET. Activation energies of diffusion for 13 organic compounds in PET were determined via their diffusion coefficient temperature dependencies. The molecular weight and activation energy of diffusion for the compounds investigated in this study were correlated, offering a basis for a new approach in predicting diffusion coefficients for use in migration modeling. The proposed method is a suitable tool to establish the datasets needed to refine the current migration model. © 2012 Wiley Periodicals, Inc. J. Appl. Polym. Sci., 2013",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "In Vivo Cardiac Diffusion-Weighted Magnetic Resonance Imaging",
+      "authors": [
+        "Bénédicte M. A. Delattre",
+        "Magalie Viallon",
+        "Hongjiang Wei",
+        "Yuemin Zhu",
+        "Thorsten Feiweier",
+        "Vinay M. Pai",
+        "Han Wen",
+        "Pierre Croisille"
+      ],
+      "year": 2012,
+      "author_details": [
+        {
+          "name": "Bénédicte M. A. Delattre",
+          "orcid": "0000-0002-1487-3588",
+          "affiliations": [
+            "Université de Lyon",
+            "Centre de Recherche en Acquisition et Traitement de l'Image pour la Santé"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Magalie Viallon",
+          "orcid": "0000-0001-9118-0438",
+          "affiliations": [
+            "University Hospital of Geneva"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongjiang Wei",
+          "orcid": "0000-0002-9060-4152",
+          "affiliations": [
+            "Centre de Recherche en Acquisition et Traitement de l'Image pour la Santé"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuemin Zhu",
+          "orcid": "0000-0001-6814-1449",
+          "affiliations": [
+            "Centre de Recherche en Acquisition et Traitement de l'Image pour la Santé"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thorsten Feiweier",
+          "orcid": "0009-0005-3537-9844",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vinay M. Pai",
+          "orcid": "0000-0002-0805-2679",
+          "affiliations": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Han Wen",
+          "orcid": "0000-0001-6844-2997",
+          "affiliations": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pierre Croisille",
+          "orcid": "0000-0003-4019-3460",
+          "affiliations": [
+            "Centre de Recherche en Acquisition et Traitement de l'Image pour la Santé",
+            "Centre Hospitalier Universitaire de Saint-Étienne",
+            "Université Jean Monnet",
+            "Université Jean Monnet"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Investigative Radiology",
+      "doi": "10.1097/rli.0b013e31826ef901",
+      "type": "article",
+      "url": "https://doi.org/10.1097/rli.0b013e31826ef901",
+      "cited_by_count": 59,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7453742",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "OBJECTIVES: Diffusion-weighted imaging (DWI) and the introduction of the intravoxel incoherent motion (IVIM) model have provided a unique method for evaluating perfusion and diffusion within a tissue without the need for a contrast agent. Despite its relevance, cardiac DWI has thus far been limited by low b values because of signal loss induced by physiological motion. The goal of this study was to develop a methodology for estimating IVIM parameters of in vivo cardiac magnetic resonance imaging using an efficient DWI acquisition framework. This was achieved by investigating various acquisition strategies (principal component analysis [PCA] filtering and temporal maximum intensity projection [PCATMIP] and single trigger delay [TD]) and fitting methods. MATERIAL AND METHODS: Simulations were performed on a synthetic dataset of diffusion-weighted signal intensity (SI) to determine the fitting method that would yield IVIM parameters with the greatest accuracy. The required number of b values to correctly estimate IVIM parameters was also investigated. Breath-hold DWI scans were performed for 12 volunteers to collect several TD values during diastole. Thirteen b values ranging from 0 to 550 s/mm were used. The IVIM parameters derived using the data from all the acquired TDs (PCATMIP technique) were compared with those derived using a single acquisition performed at an optimized diastolic time point (1TD). RESULTS: The main result of this study was that PCATMIP, when combined with a fitting model that accounted for T1 and T2 relaxation, provided IVIM parameters with less variability. However, an acquisition performed with 1 optimized diastolic TD provided results that were as good as those provided using PCATMIP if the R-R variability during the acquisition was sufficiently low (± 5%). Furthermore, the use of only 9 b values (that could be acquired in 2 breath-holds), instead of 13 b values (requiring 3 breath-holds), was sufficient to determine the IVIM parameters. CONCLUSIONS: This study demonstrates that IVIM is technically feasible in vivo and reports for the first time the perfusion fraction, f, and the diffusion coefficients, D and D*, for the cardiac DWI of healthy volunteers. Motion-induced signal loss, which is the main problem associated with cardiac DWI, could be avoided with the combined use of sliding acquisition during the cardiac cycle and image postprocessing with the PCATMIP algorithm. This study provides new perspectives for perfusion imaging without a contrast agent and demonstrates that IVIM parameters can act as promising tools to further characterize microvascular abnormalities or dysfunction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Measurement of the Soret and diffusion coefficients for benchmark binary mixtures by means of digital interferometry",
+      "authors": [
+        "Aliaksandr MIALDUN",
+        "Valentina M. Shevtsova"
+      ],
+      "year": 2011,
+      "author_details": [
+        {
+          "name": "Aliaksandr MIALDUN",
+          "orcid": "0000-0002-7787-2865",
+          "affiliations": [
+            "Université Libre de Bruxelles"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Valentina M. Shevtsova",
+          "orcid": "0000-0001-6109-5048",
+          "affiliations": [
+            "Université Libre de Bruxelles"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.3546036",
+      "type": "article",
+      "url": "https://doi.org/10.1063/1.3546036",
+      "cited_by_count": 124,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.3546036/13791002/044524_1_online.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We report on the development of the optical digital interferometry (ODI) technique for measuring diffusion and Soret coefficients. The unique feature of this method is that it traces the transient path of the system in the entire two-dimensional cross section of a cell. In this way, it is applicable not only for measurements of Soret coefficients, but also for studying diffusive transport mechanism and convection. Presently, this method is not widely used and, in our view, not because of fundamental limitations but rather due to a lack of properly developed postexperimental procedures of the raw data analysis. Thus, in this paper our attention is focused on the successive analysis of different steps: the fringe analysis, the choice of reference images, the thermal design of the cell, and multiparameter fitting procedure. Using the ODI technique, we have measured the diffusion and the Soret coefficients for three binary mixtures composed of dodecane (C(12)H(26)), isobutylbenzene, and 1,2,3,4-tetrahydronaphtalene at a mean temperature of 25(∘)C and 50 wt. % in each component. These measurements were compared with their benchmark values and show an agreement within less than 3%.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Comparison of apparent diffusion coefficient maps to T2-weighted images for target delineation in cervix cancer brachytherapy",
+      "authors": [
+        "Jacqueline Esthappan",
+        "Daniel J. Ma",
+        "Vamsidhar R. Narra",
+        "Constantine A. Raptis",
+        "Perry W. Grigsby"
+      ],
+      "year": 2011,
+      "author_details": [
+        {
+          "name": "Jacqueline Esthappan",
+          "orcid": null,
+          "affiliations": [
+            "Washington University in St. Louis"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Daniel J. Ma",
+          "orcid": "0000-0002-2957-4687",
+          "affiliations": [
+            "Washington University in St. Louis"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vamsidhar R. Narra",
+          "orcid": null,
+          "affiliations": [
+            "Washington University in St. Louis"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Constantine A. Raptis",
+          "orcid": "0000-0003-0924-2447",
+          "affiliations": [
+            "Washington University in St. Louis"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Perry W. Grigsby",
+          "orcid": "0000-0001-9734-5088",
+          "affiliations": [
+            "Washington University in St. Louis"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Contemporary Brachytherapy",
+      "doi": "10.5114/jcb.2011.26470",
+      "type": "article",
+      "url": "https://doi.org/10.5114/jcb.2011.26470",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.termedia.pl/Journal/-54/pdf-17924-10?filename=Comparison of apparent.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": "PURPOSE: T2-weighted (T2W) magnetic resonance imaging (MRI) has been used for target delineation in cervix cancer brachytherapy. The objective of this study was to examine the feasibility of using diffusion-weighted magnetic resonance imaging (DWI) for target delineation as compared against T2W imaging. MATERIAL AND METHODS: Fifteen cervix cancer patients, implanted with tandem and ovoid applicators, underwent T2W turbo-spin echo imaging and DWI with a maximum diffusion factor of 800 sec/mm(2) on a 1.5-T MR scanner. Apparent diffusion coefficient (ADC) maps were derived from the DWI. The gross tumor volume was manually delineated on the T2W and ADC datasets for each patient. The agreement between T2W- and ADC-delineated volumes was assessed using the Dice similarity coefficient (DSC). An algorithm was developed to compare the edge contrast of the delineated volumes on T2W images and ADC maps by calculating the percentage difference in the intensity values of selected regions of pixels inside versus outside the target contour. RESULTS: ADC-delineated volumes were generally smaller than T2W-delineated volumes, yielding a low DSC of 0.54 ± 0.22. ADC maps were found to display superior definition of the target volume edge relative to T2W images, yielding a statistically significant difference between the mean edge contrast on ADC (12.7 ± 7.7%) versus that on T2W images (4.6 ± 3.2%; p = 0.0010). CONCLUSIONS: These results suggest that incorporating the use of DWI for cervix cancer brachytherapy may yield gross tumor volumes that are different from those based on T2W images alone.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Diffusion of 40Ar in muscovite",
+      "authors": [
+        "T. Mark Harrison",
+        "Julien Célérier",
+        "Amos B. Aikman",
+        "Jörg Hermann",
+        "Matthew T. Heizler"
+      ],
+      "year": 2008,
+      "author_details": [
+        {
+          "name": "T. Mark Harrison",
+          "orcid": "0000-0002-1557-2891",
+          "affiliations": [
+            "Australian National University",
+            "University of California, Los Angeles"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julien Célérier",
+          "orcid": "0000-0003-1415-1574",
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Amos B. Aikman",
+          "orcid": null,
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jörg Hermann",
+          "orcid": "0000-0001-8360-3592",
+          "affiliations": [
+            "Australian National University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew T. Heizler",
+          "orcid": "0000-0002-3911-4932",
+          "affiliations": [
+            "New Mexico Institute of Mining and Technology",
+            "New Mexico Bureau of Geology and Mineral Resources"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Geochimica et Cosmochimica Acta",
+      "doi": "10.1016/j.gca.2008.09.038",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.gca.2008.09.038",
+      "cited_by_count": 674,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Apparent Diffusion Coefficient and Cerebral Blood Volume in Brain Gliomas: Relation to Tumor Cell Density and Tumor Microvessel Density Based on Stereotactic Biopsies",
+      "authors": [
+        "Niloufar Sadeghi",
+        "Nicky D’Haene",
+        "Christine Decaestecker",
+        "Marc Levivier",
+        "Thierry Metens",
+        "Calliope Maris",
+        "David Wikler",
+        "Danielle Balériaux",
+        "Isabelle J. Salmon",
+        "Serge Goldman"
+      ],
+      "year": 2007,
+      "author_details": [
+        {
+          "name": "Niloufar Sadeghi",
+          "orcid": "0000-0001-7512-9595",
+          "affiliations": [
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicky D’Haene",
+          "orcid": "0000-0001-8100-377X",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christine Decaestecker",
+          "orcid": "0000-0002-5495-1931",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Marc Levivier",
+          "orcid": "0000-0002-6273-2595",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thierry Metens",
+          "orcid": "0000-0002-3404-7224",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Calliope Maris",
+          "orcid": null,
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David Wikler",
+          "orcid": null,
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Danielle Balériaux",
+          "orcid": null,
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Isabelle J. Salmon",
+          "orcid": "0000-0002-7732-2863",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Serge Goldman",
+          "orcid": "0000-0002-9917-8735",
+          "affiliations": [
+            "Fund for Scientific Research",
+            "Erasmus Hospital"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "American Journal of Neuroradiology",
+      "doi": "10.3174/ajnr.a0851",
+      "type": "article",
+      "url": "https://doi.org/10.3174/ajnr.a0851",
+      "cited_by_count": 152,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.ajnr.org/content/ajnr/29/3/476.full.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "BACKGROUND AND PURPOSE: MR imaging-based apparent diffusion coefficient (ADC) and regional cerebral blood volume (rCBV) measurements have been related respectively to both cell and microvessel density in brain tumors. However, because of the high degree of heterogeneity in gliomas, a direct correlation between these MR imaging-based measurements and histopathologic features is required. The purpose of this study was to correlate regionally ADC and rCBV values with both cell and microvessel density in gliomas, by using coregistered MR imaging and stereotactic biopsies. MATERIALS AND METHODS: Eighteen patients (9 men, 9 women; age range, 19-78 years) with gliomas underwent diffusion-weighted and dynamic susceptibility contrast-enhanced MR imaging before biopsy. Eighty-one biopsy samples were obtained and categorized as peritumoral, infiltrated tissue, or bulk tumor, with quantification of cell and microvessel density. ADC and rCBV values were measured at biopsy sites and were normalized to contralateral white matter on corresponding maps coregistered with a 3D MR imaging dataset. ADC and rCBV ratios were compared with quantitative histologic features by using the Spearman correlation test. RESULTS: The highest correlations were found within bulk tumor samples between rCBV and cell density (r=0.57, P < .001) and rCBV and microvessel density (r=0.46, P < .01). An inverse correlation was found between ADC and microvessel density within bulk tumor (r=-0.36, P < .05), whereas no significant correlation was found between ADC and cell density. CONCLUSION: rCBV regionally correlates with both cell and microvessel density within gliomas, whereas no regional correlation was found between ADC and cell density.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "EFFECTS OF SHORT-CIRCUITING PATHS ON DIFFUSION COEFFICIENT MEASUREMENTS.",
+      "authors": [
+        "Ted S. Lundy",
+        "Richard E. Pawel"
+      ],
+      "year": 1969,
+      "author_details": [
+        {
+          "name": "Ted S. Lundy",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Richard E. Pawel",
+          "orcid": "0000-0002-0461-5198",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "closed",
+        "url": null,
+        "url_kind": null,
+        "version": null,
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 37,
+      "known": 50,
+      "pct": 74,
+      "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

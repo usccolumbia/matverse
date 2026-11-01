@@ -1,0 +1,104 @@
+[
+  {
+    "key": "cmr",
+    "url": "https://cmr.fysik.dtu.dk/",
+    "final_url": "https://cmr.fysik.dtu.dk/",
+    "status": 200,
+    "bytes": 24444,
+    "sha256": "3e0c5b471c055e2b8c9025e65abab3c512aad7a0ddd746259cad0b6461664722",
+    "cache_path": "research/cache/additional_20261101/functional/cmr.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "c1db-page",
+    "url": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+    "final_url": "https://cmr.fysik.dtu.dk/c1db/c1db.html",
+    "status": 200,
+    "bytes": 13288,
+    "sha256": "25b92d510a98e47f3d338182b6b80381d318f2b89222e798e72e4d8430231488",
+    "cache_path": "research/cache/additional_20261101/functional/c1db-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "c2dm-page",
+    "url": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+    "final_url": "https://cmr.fysik.dtu.dk/c2dm/c2dm.html",
+    "status": 200,
+    "bytes": 19251,
+    "sha256": "8377613db06b78d8d7e0ecc4ec18b14e9857a8865abea073b5e2cace1d2bf7f7",
+    "cache_path": "research/cache/additional_20261101/functional/c2dm-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "optical-perov-page",
+    "url": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+    "final_url": "https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html",
+    "status": 200,
+    "bytes": 30776,
+    "sha256": "8675494e2be30c0ea7be56d9506cd5c6f88d527c3defa93d44dd85c521950caa",
+    "cache_path": "research/cache/additional_20261101/functional/optical-perov-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "heusler-page",
+    "url": "https://www.nims.go.jp/group/spintheory/database/",
+    "final_url": "https://www.nims.go.jp/group/spintheory/database/",
+    "status": 200,
+    "bytes": 24483,
+    "sha256": "47b7188145bcdc0206c48eddc288211c29e4655c2e38ee498e8f7c77daae27ea",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "heusler-ternary-csv",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+    "final_url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_2026-09-16.csv",
+    "status": 200,
+    "bytes": 47133819,
+    "sha256": "ecccf7616fa529ed04b70904d3ba74a35b2db6f8e49078939c54b455872387a5",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-ternary-csv.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "heusler-quaternary-csv",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+    "final_url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_quaternary_2026-03-10.csv",
+    "status": 200,
+    "bytes": 118755313,
+    "sha256": "02c0c7b245cd0fa1d7776a6b0a3a44b4b40ab5c9d1c368025986160b68bed251",
+    "cache_path": "research/cache/additional_20261101/functional/heusler-quaternary-csv.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "heusler-alld-csv",
+    "url": "https://www.nims.go.jp/group/spintheory/database/DXMag_HeuslerDB_alld_2026-03-10.csv",
+    "error": "IncompleteRead(53506375 bytes read, 41077923 more expected)",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "mint-page",
+    "url": "https://mintatlas.org/",
+    "final_url": "https://mintatlas.org/",
+    "status": 200,
+    "bytes": 553,
+    "sha256": "b6e0a60ca99e7714a638bd23ab9e93c956086d328070a34f1e0bead693804456",
+    "cache_path": "research/cache/additional_20261101/functional/mint-page.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "mint-readme",
+    "url": "https://raw.githubusercontent.com/mintatlas-org/mintatlas/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/mintatlas-org/mintatlas/main/README.md",
+    "status": 200,
+    "bytes": 16709,
+    "sha256": "9401e18386c64333ff4d642c347b77c163e7eb40c0254dc2046b38f765a713a4",
+    "cache_path": "research/cache/additional_20261101/functional/mint-readme.raw",
+    "verified_date": "2026-11-01"
+  },
+  {
+    "key": "mc-spin-hall",
+    "url": "https://archive.materialscloud.org/records/vx-2n",
+    "error": "HTTP Error 404: NOT FOUND",
+    "verified_date": "2026-11-01"
+  }
+]

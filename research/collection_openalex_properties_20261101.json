@@ -1,0 +1,1139 @@
+{
+  "name": "OpenAlex specialized materials property survey",
+  "url": "https://openalex.org/",
+  "revision": "Search snapshot 2026-11-01",
+  "coverage_notes": [
+    "42 bounded query/traversal outputs; 1761 deduplicated query-retrieved works retained in a separate discovery ledger. Only selected release evidence and query entrypoints are imported here; unreviewed general search hits are not all promoted into source cards.",
+    "35 new catalog releases plus the updated existing DDSE/DigBat family. All counts are release-specific and units remain distinct.",
+    "Primary-source bodies, downloaded payloads and caches remain ignored; normalized work metadata, query outcomes, hashes, candidate decisions and counts are retained."
+  ],
+  "sources": [
+    {
+      "url": "https://openalex.org/",
+      "title": "OpenAlex scholarly discovery",
+      "evidence": "Automatically retrieved scholarly metadata for the property-focused search; primary releases verify material data.",
+      "verified_date": "2026-11-01"
+    }
+  ],
+  "links": [
+    {
+      "label": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "url": "https://doi.org/10.1016/j.nanoms.2026.07.001",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "digbat"
+      ]
+    },
+    {
+      "label": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "url": "https://www.tohoku.ac.jp/en/press/digbat_an_ai_ready_digital_platform_for_solid_state_battery_research.html",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "digbat"
+      ]
+    },
+    {
+      "label": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2589965126001236",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "digbat"
+      ]
+    },
+    {
+      "label": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "url": "https://doi.org/10.1016/j.nanoms.2023.08.002",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "digbat"
+      ]
+    },
+    {
+      "label": "DigBat / Dynamic Database of Solid-State Electrolytes",
+      "url": "https://www.techscience.com/cmc/v81n3/59074/html",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "digbat"
+      ]
+    },
+    {
+      "label": "Metallic-material combustion property database",
+      "url": "https://doi.org/10.1038/s41597-026-06862-8",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "metal-combustion-properties"
+      ]
+    },
+    {
+      "label": "Metallic-material combustion property database",
+      "url": "https://www.nature.com/articles/s41597-026-06862-8",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "metal-combustion-properties"
+      ]
+    },
+    {
+      "label": "Metallic-material combustion property database",
+      "url": "https://api.figshare.com/v2/articles/29966602",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "metal-combustion-properties"
+      ]
+    },
+    {
+      "label": "ML-HydPARK metal-hydride storage properties",
+      "url": "https://doi.org/10.1021/acs.jpclett.9b02971",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ml-hydpark"
+      ]
+    },
+    {
+      "label": "ML-HydPARK metal-hydride storage properties",
+      "url": "https://zenodo.org/api/records/10680097",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ml-hydpark"
+      ]
+    },
+    {
+      "label": "ML-HydPARK metal-hydride storage properties",
+      "url": "https://zenodo.org/api/records/10680097/files/ML-HYDPARK_v0.0.5.csv/content",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ml-hydpark"
+      ]
+    },
+    {
+      "label": "OBELiX experimental solid electrolyte conductivity",
+      "url": "https://doi.org/10.1039/d5dd00441a",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "obelix"
+      ]
+    },
+    {
+      "label": "OBELiX experimental solid electrolyte conductivity",
+      "url": "https://github.com/NRC-Mila/OBELiX",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "obelix"
+      ]
+    },
+    {
+      "label": "OBELiX experimental solid electrolyte conductivity",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/main/LICENSE.txt",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "obelix"
+      ]
+    },
+    {
+      "label": "OBELiX experimental solid electrolyte conductivity",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2025/dd/d5dd00441a",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "obelix"
+      ]
+    },
+    {
+      "label": "Liverpool Ionics Dataset",
+      "url": "https://doi.org/10.1038/s41524-022-00951-z",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "liverpool-ionics"
+      ]
+    },
+    {
+      "label": "Liverpool Ionics Dataset",
+      "url": "https://www.nature.com/articles/s41524-022-00951-z?error=cookies_not_supported",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "liverpool-ionics"
+      ]
+    },
+    {
+      "label": "Liverpool Ionics Dataset",
+      "url": "https://pcwww.liv.ac.uk/~msd30/lmds/LiIonDatabase.html",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "liverpool-ionics"
+      ]
+    },
+    {
+      "label": "Caltech experimental Li-ion structure–conductivity database",
+      "url": "https://doi.org/10.1039/d5dd00052a",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "caltech-li-conductivity-571"
+      ]
+    },
+    {
+      "label": "Caltech experimental Li-ion structure–conductivity database",
+      "url": "https://data.caltech.edu/records/23mvv-6gk43",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "caltech-li-conductivity-571"
+      ]
+    },
+    {
+      "label": "Caltech experimental Li-ion structure–conductivity database",
+      "url": "https://data.caltech.edu/api/records/23mvv-6gk43",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "caltech-li-conductivity-571"
+      ]
+    },
+    {
+      "label": "Shon–Min text-mined ionic conductivity database",
+      "url": "https://doi.org/10.1021/acsomega.3c01424",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "shon-ionic-conductivity-2023"
+      ]
+    },
+    {
+      "label": "Shon–Min text-mined ionic conductivity database",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10210167/",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "shon-ionic-conductivity-2023"
+      ]
+    },
+    {
+      "label": "Shon–Min text-mined ionic conductivity database",
+      "url": "https://github.com/shonyeajin/Ionical_conductivity_database",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "shon-ionic-conductivity-2023"
+      ]
+    },
+    {
+      "label": "UW CMG dilute-solute diffusion database",
+      "url": "https://doi.org/10.1038/sdata.2016.54",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "uw-cmg-dilute-solute-diffusion"
+      ]
+    },
+    {
+      "label": "UW CMG dilute-solute diffusion database",
+      "url": "https://api.figshare.com/v2/articles/1546772",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "uw-cmg-dilute-solute-diffusion"
+      ]
+    },
+    {
+      "label": "UW CMG dilute-solute diffusion database",
+      "url": "https://matmodapp.engr.wisc.edu/https-only/dsd_calculated/cmg_dilute_solute_diffusion_main.php",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "uw-cmg-dilute-solute-diffusion"
+      ]
+    },
+    {
+      "label": "Ternary fluoride-ion battery electrode reaction pairs",
+      "url": "https://doi.org/10.1038/s41597-023-01954-1",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ternary-fluoride-electrode-pairs"
+      ]
+    },
+    {
+      "label": "Ternary fluoride-ion battery electrode reaction pairs",
+      "url": "https://www.nature.com/articles/s41597-023-01954-1",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ternary-fluoride-electrode-pairs"
+      ]
+    },
+    {
+      "label": "Ternary fluoride-ion battery electrode reaction pairs",
+      "url": "https://api.figshare.com/v2/articles/21273111",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ternary-fluoride-electrode-pairs"
+      ]
+    },
+    {
+      "label": "Literature-derived battery ionic migration barriers",
+      "url": "https://doi.org/10.1038/s41597-025-06196-x",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "migration-barriers-literature-2025"
+      ]
+    },
+    {
+      "label": "Literature-derived battery ionic migration barriers",
+      "url": "https://www.nature.com/articles/s41597-025-06196-x?error=cookies_not_supported",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "migration-barriers-literature-2025"
+      ]
+    },
+    {
+      "label": "Literature-derived battery ionic migration barriers",
+      "url": "https://zenodo.org/api/records/17240095",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "migration-barriers-literature-2025"
+      ]
+    },
+    {
+      "label": "Literature-derived battery ionic migration barriers",
+      "url": "https://github.com/sai-mat-group/migration-barrier-dataset",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "migration-barriers-literature-2025"
+      ]
+    },
+    {
+      "label": "Polyanion sodium cathode atomic structure and dynamics",
+      "url": "https://doi.org/10.1038/s41597-025-05799-8",
+      "section": "Verified specialized-property releases / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyanion-sodium-cathode-2025"
+      ]
+    },
+    {
+      "label": "Polyanion sodium cathode atomic structure and dynamics",
+      "url": "https://api.figshare.com/v2/articles/27202446/versions/5",
+      "section": "Verified specialized-property releases / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyanion-sodium-cathode-2025"
+      ]
+    },
+    {
+      "label": "Polyanion sodium cathode atomic structure and dynamics",
+      "url": "https://www.nature.com/articles/s41597-025-05799-8",
+      "section": "Verified specialized-property releases / mlip_configurations",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyanion-sodium-cathode-2025"
+      ]
+    },
+    {
+      "label": "Oxygen migration barriers in perovskites",
+      "url": "https://doi.org/10.1016/j.ssi.2016.09.007",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oxygen-migration-perovskites-2016"
+      ]
+    },
+    {
+      "label": "Oxygen migration barriers in perovskites",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167273816304088",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oxygen-migration-perovskites-2016"
+      ]
+    },
+    {
+      "label": "Oxygen migration barriers in perovskites",
+      "url": "https://api.figshare.com/v2/articles/7180817",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "oxygen-migration-perovskites-2016"
+      ]
+    },
+    {
+      "label": "Materials Cloud fast Li-ion conductor screening",
+      "url": "https://doi.org/10.1039/d5ee07336g",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "materialscloud-fast-li-ion-conductors"
+      ]
+    },
+    {
+      "label": "Materials Cloud fast Li-ion conductor screening",
+      "url": "https://archive.materialscloud.org/records/5zenj-34e64",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "materialscloud-fast-li-ion-conductors"
+      ]
+    },
+    {
+      "label": "Materials Cloud fast Li-ion conductor screening",
+      "url": "https://archive.materialscloud.org/api/records/5zenj-34e64",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "materialscloud-fast-li-ion-conductors"
+      ]
+    },
+    {
+      "label": "Smidt first-principles ferroelectric candidate database",
+      "url": "https://doi.org/10.1038/s41597-020-0407-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "smidt-ferroelectric-2020"
+      ]
+    },
+    {
+      "label": "Smidt first-principles ferroelectric candidate database",
+      "url": "https://www.nature.com/articles/s41597-020-0407-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "smidt-ferroelectric-2020"
+      ]
+    },
+    {
+      "label": "Smidt first-principles ferroelectric candidate database",
+      "url": "https://api.figshare.com/v2/articles/6025634",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "smidt-ferroelectric-2020"
+      ]
+    },
+    {
+      "label": "Ricci polar-material ferroelectric screening dataset",
+      "url": "https://doi.org/10.1038/s41524-023-01193-3",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ricci-polar-ferroelectrics-2024"
+      ]
+    },
+    {
+      "label": "Ricci polar-material ferroelectric screening dataset",
+      "url": "https://www.nature.com/articles/s41524-023-01193-3",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ricci-polar-ferroelectrics-2024"
+      ]
+    },
+    {
+      "label": "Trinquet nonlinear-optical SHG tensor dataset",
+      "url": "https://doi.org/10.1038/s41597-024-03590-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "trinquet-shg-2024"
+      ]
+    },
+    {
+      "label": "Trinquet nonlinear-optical SHG tensor dataset",
+      "url": "https://archive.materialscloud.org/records/004k3-s0p94",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "trinquet-shg-2024"
+      ]
+    },
+    {
+      "label": "Trinquet nonlinear-optical SHG tensor dataset",
+      "url": "https://www.nature.com/articles/s41597-024-03590-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "trinquet-shg-2024"
+      ]
+    },
+    {
+      "label": "Fang Wannier optical and transport tensors",
+      "url": "https://doi.org/10.1038/s41597-025-05396-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fang-wannier-optical-transport-2025"
+      ]
+    },
+    {
+      "label": "Fang Wannier optical and transport tensors",
+      "url": "https://www.nature.com/articles/s41597-025-05396-9",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fang-wannier-optical-transport-2025"
+      ]
+    },
+    {
+      "label": "Fang Wannier optical and transport tensors",
+      "url": "https://api.figshare.com/v2/articles/28689059",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fang-wannier-optical-transport-2025"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor semiconductor band-gap database",
+      "url": "https://doi.org/10.1038/s41597-022-01294-6",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-bandgaps-2022"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor semiconductor band-gap database",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9065101/",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-bandgaps-2022"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor semiconductor band-gap database",
+      "url": "https://api.figshare.com/v2/articles/14079863",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-bandgaps-2022"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor refractive-index and dielectric database",
+      "url": "https://doi.org/10.1038/s41597-022-01295-5",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-refractive-dielectric-2022"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor refractive-index and dielectric database",
+      "url": "https://www.nature.com/articles/s41597-022-01295-5",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-refractive-dielectric-2022"
+      ]
+    },
+    {
+      "label": "ChemDataExtractor refractive-index and dielectric database",
+      "url": "https://api.figshare.com/v2/articles/12781142",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cde-refractive-dielectric-2022"
+      ]
+    },
+    {
+      "label": "Refractiveindex.info optical constants",
+      "url": "https://doi.org/10.1038/s41597-023-02898-2",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "refractiveindex-info"
+      ]
+    },
+    {
+      "label": "Refractiveindex.info optical constants",
+      "url": "https://www.nature.com/articles/s41597-023-02898-2",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "refractiveindex-info"
+      ]
+    },
+    {
+      "label": "Refractiveindex.info optical constants",
+      "url": "https://github.com/polyanskiy/refractiveindex.info-database",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "refractiveindex-info"
+      ]
+    },
+    {
+      "label": "TopoHSE-DB",
+      "url": "https://doi.org/10.1088/2632-2153/ae97d8",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "topohse-db"
+      ]
+    },
+    {
+      "label": "TopoHSE-DB",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1088/2632-2153/ae97d8",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "topohse-db"
+      ]
+    },
+    {
+      "label": "TopoHSE-DB",
+      "url": "https://rodare.hzdr.de/record/4935",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "topohse-db"
+      ]
+    },
+    {
+      "label": "Wurtzite solid-solution PiezoML data",
+      "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.vmcvdnd6s",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "wurtzite-piezoml-dryad"
+      ]
+    },
+    {
+      "label": "Wurtzite solid-solution PiezoML data",
+      "url": "https://datadryad.org/terms#copyright",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "wurtzite-piezoml-dryad"
+      ]
+    },
+    {
+      "label": "IPOP inorganic phosphor optical-property dataset",
+      "url": "https://doi.org/10.1038/s41598-024-58351-w",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ipop-v3"
+      ]
+    },
+    {
+      "label": "IPOP inorganic phosphor optical-property dataset",
+      "url": "https://www.nature.com/articles/s41598-024-58351-w",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ipop-v3"
+      ]
+    },
+    {
+      "label": "IPOP inorganic phosphor optical-property dataset",
+      "url": "https://api.figshare.com/v2/articles/24771186",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ipop-v3"
+      ]
+    },
+    {
+      "label": "EKHI optical and thermal radiative properties",
+      "url": "https://doi.org/10.1038/s41597-026-07083-9",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ekhi-radiative-2026"
+      ]
+    },
+    {
+      "label": "EKHI optical and thermal radiative properties",
+      "url": "https://www.nature.com/articles/s41597-026-07083-9",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "ekhi-radiative-2026"
+      ]
+    },
+    {
+      "label": "Northeast Materials Database (NEMAD) — magnetic materials",
+      "url": "https://www.nature.com/articles/s41467-025-64458-z",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nemad-magnetic"
+      ]
+    },
+    {
+      "label": "Northeast Materials Database (NEMAD) — magnetic materials",
+      "url": "https://zenodo.org/records/17042814",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nemad-magnetic"
+      ]
+    },
+    {
+      "label": "NEMAD / GPTArticleExtractor thermoelectric database",
+      "url": "https://arxiv.org/html/2501.00564v1",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nemad-thermoelectric"
+      ]
+    },
+    {
+      "label": "NEMAD / GPTArticleExtractor thermoelectric database",
+      "url": "https://doi.org/10.1016/j.commatsci.2025.113855",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "nemad-thermoelectric"
+      ]
+    },
+    {
+      "label": "teMatDb272 thermoelectric material database",
+      "url": "https://zenodo.org/records/15518036",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "tematdb272"
+      ]
+    },
+    {
+      "label": "teMatDb272 thermoelectric material database",
+      "url": "https://arxiv.org/abs/2505.19150",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "tematdb272"
+      ]
+    },
+    {
+      "label": "ESTM experimentally synthesized thermoelectric materials",
+      "url": "https://www.nature.com/articles/s41524-022-00897-2",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "estm-simd"
+      ]
+    },
+    {
+      "label": "ESTM experimentally synthesized thermoelectric materials",
+      "url": "https://github.com/KRICT-DATA/SIMD",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "estm-simd"
+      ]
+    },
+    {
+      "label": "WenzhouTE computed thermoelectric database",
+      "url": "https://hezhu2024.github.io/",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "wenzhou-te"
+      ]
+    },
+    {
+      "label": "WenzhouTE computed thermoelectric database",
+      "url": "https://www.mdpi.com/1996-1944/17/10/2200",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "wenzhou-te"
+      ]
+    },
+    {
+      "label": "HH130 half-Heusler thermal-transport / MLIP release",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00240g",
+      "section": "Verified specialized-property releases / property_benchmarks",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "hh130-mathub"
+      ]
+    },
+    {
+      "label": "DAX-Ti experimental Ti-alloy mechanical-property compilation",
+      "url": "https://www.nature.com/articles/s41597-022-01283-9",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dax-ti-experimental"
+      ]
+    },
+    {
+      "label": "DAX-Ti experimental Ti-alloy mechanical-property compilation",
+      "url": "https://zenodo.org/records/6089749",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "dax-ti-experimental"
+      ]
+    },
+    {
+      "label": "Copper-alloy mechanical properties and electrical conductivity (Gorsse 2023)",
+      "url": "https://www.nature.com/articles/s41597-023-02411-9",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cu-alloys-mechanical-2023"
+      ]
+    },
+    {
+      "label": "Copper-alloy mechanical properties and electrical conductivity (Gorsse 2023)",
+      "url": "https://api.figshare.com/v2/articles/23735373",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cu-alloys-mechanical-2023"
+      ]
+    },
+    {
+      "label": "Cu-Cr-X mechanical and electrical property dataset",
+      "url": "https://www.nature.com/articles/s41597-025-06295-9",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cu-cr-x-figure-extraction"
+      ]
+    },
+    {
+      "label": "Cu-Cr-X mechanical and electrical property dataset",
+      "url": "https://api.figshare.com/v2/articles/29369987",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "cu-cr-x-figure-extraction"
+      ]
+    },
+    {
+      "label": "polyVERSE load-dependent experimental Vickers hardness",
+      "url": "https://link.springer.com/article/10.1007/s00339-026-09913-4",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyverse-load-hardness"
+      ]
+    },
+    {
+      "label": "polyVERSE load-dependent experimental Vickers hardness",
+      "url": "https://raw.githubusercontent.com/Ramprasad-Group/polyVERSE/main/Other/AM_hardness/only_exp_data.csv",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyverse-load-hardness"
+      ]
+    },
+    {
+      "label": "polyVERSE load-dependent experimental Vickers hardness",
+      "url": "https://raw.githubusercontent.com/Ramprasad-Group/polyVERSE/main/LICENSE",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "polyverse-load-hardness"
+      ]
+    },
+    {
+      "label": "LLM-extracted magnetocaloric materials database (Yuan–Yang–Patra–Liao)",
+      "url": "https://arxiv.org/html/2403.02553v1",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mce-llm-2024"
+      ]
+    },
+    {
+      "label": "LLM-extracted magnetocaloric materials database (Yuan–Yang–Patra–Liao)",
+      "url": "https://github.com/RunqingYang1996/MCEdatabase",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "mce-llm-2024"
+      ]
+    },
+    {
+      "label": "FatigueData-CMA2022 complex metallic-alloy fatigue database",
+      "url": "https://www.nature.com/articles/s41597-023-02354-1",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fatiguedata-cma2022"
+      ]
+    },
+    {
+      "label": "FatigueData-CMA2022 complex metallic-alloy fatigue database",
+      "url": "https://api.figshare.com/v2/articles/23007362",
+      "section": "Verified specialized-property releases / experimental_properties",
+      "scope": "crystal_related",
+      "catalog_ids": [
+        "fatiguedata-cma2022"
+      ]
+    },
+    {
+      "label": "OpenAlex query: experimental catalytic activity materials dataset database",
+      "url": "https://api.openalex.org/works?search=experimental+catalytic+activity+materials+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: alloy corrosion dataset database",
+      "url": "https://api.openalex.org/works?search=alloy+corrosion+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: A dynamic database of solid-state electrolyte DDSE picturing all-solid-state batteries",
+      "url": "https://api.openalex.org/works?search=A+dynamic+database+of+solid-state+electrolyte+DDSE+picturing+all-solid-state+batteries&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: hydrogen storage materials database dataset",
+      "url": "https://api.openalex.org/works?search=hydrogen+storage+materials+database+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: materials experimental property dataset database",
+      "url": "https://api.openalex.org/works?search=materials+experimental+property+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: solid electrolyte ionic conductivity database",
+      "url": "https://api.openalex.org/works?search=solid+electrolyte+ionic+conductivity+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: battery electrode materials property dataset",
+      "url": "https://api.openalex.org/works?search=battery+electrode+materials+property+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: experimental ionic conductivity database lithium",
+      "url": "https://api.openalex.org/works?search=experimental+ionic+conductivity+database+lithium&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: diffusion coefficient materials dataset",
+      "url": "https://api.openalex.org/works?search=diffusion+coefficient+materials+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: diffusion database dilute solute materials",
+      "url": "https://api.openalex.org/works?search=diffusion+database+dilute+solute+materials&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: battery electrolyte conductivity dataset CALiSol",
+      "url": "https://api.openalex.org/works?search=battery+electrolyte+conductivity+dataset+CALiSol&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: ionic migration barriers dataset",
+      "url": "https://api.openalex.org/works?search=ionic+migration+barriers+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: conductivity electrolyte formulations experiments",
+      "url": "https://api.openalex.org/works?search=conductivity+electrolyte+formulations+experiments&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: solid electrolyte conductivity dataset Laskowski",
+      "url": "https://api.openalex.org/works?search=solid+electrolyte+conductivity+dataset+Laskowski&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: experimental band gap database inorganic semiconductors",
+      "url": "https://api.openalex.org/works?search=experimental+band+gap+database+inorganic+semiconductors&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: Auto generated database semiconductor band gaps ChemDataExtractor",
+      "url": "https://api.openalex.org/works?search=Auto+generated+database+semiconductor+band+gaps+ChemDataExtractor&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: database refractive indices dielectric constants ChemDataExtractor",
+      "url": "https://api.openalex.org/works?search=database+refractive+indices+dielectric+constants+ChemDataExtractor&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: dielectric refractive index data driven dataset crystals",
+      "url": "https://api.openalex.org/works?search=dielectric+refractive+index+data+driven+dataset+crystals&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: automatically curated first principles database ferroelectrics",
+      "url": "https://api.openalex.org/works?search=automatically+curated+first+principles+database+ferroelectrics&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: ferroelectric database data descriptor",
+      "url": "https://api.openalex.org/works?search=ferroelectric+database+data+descriptor&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: ferroelectric piezoelectric dielectric materials dataset database",
+      "url": "https://api.openalex.org/works?search=ferroelectric+piezoelectric+dielectric+materials+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: nonlinear optical materials dataset database",
+      "url": "https://api.openalex.org/works?search=nonlinear+optical+materials+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: database optical absorption spectra crystalline materials",
+      "url": "https://api.openalex.org/works?search=database+optical+absorption+spectra+crystalline+materials&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: optical electronic crystal materials dataset refractive index",
+      "url": "https://api.openalex.org/works?search=optical+electronic+crystal+materials+dataset+refractive+index&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: Discovery wurtzite solid solutions enhanced piezoelectric response machine learning",
+      "url": "https://api.openalex.org/works?search=Discovery+wurtzite+solid+solutions+enhanced+piezoelectric+response+machine+learning&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: Second harmonic generation tensors high throughput density functional perturbation",
+      "url": "https://api.openalex.org/works?search=Second+harmonic+generation+tensors+high+throughput+density+functional+perturbation&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: Dataset tensorial optical transport properties Wannier function method",
+      "url": "https://api.openalex.org/works?search=Dataset+tensorial+optical+transport+properties+Wannier+function+method&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: TopoHSE database",
+      "url": "https://api.openalex.org/works?search=TopoHSE+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: topological materials database dataset",
+      "url": "https://api.openalex.org/works?search=topological+materials+database+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: mechanical electrical properties dataset Cu Cr alloys",
+      "url": "https://api.openalex.org/works?search=mechanical+electrical+properties+dataset+Cu+Cr+alloys&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: thermoelectric material database self consistent",
+      "url": "https://api.openalex.org/works?search=thermoelectric+material+database+self+consistent&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: fatigue database complex metallic alloys",
+      "url": "https://api.openalex.org/works?search=fatigue+database+complex+metallic+alloys&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: load dependent hardness dataset",
+      "url": "https://api.openalex.org/works?search=load+dependent+hardness+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: magnetic materials database dataset magnetocaloric",
+      "url": "https://api.openalex.org/works?search=magnetic+materials+database+dataset+magnetocaloric&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: magnetocaloric autogenerated database language models",
+      "url": "https://api.openalex.org/works?search=magnetocaloric+autogenerated+database+language+models&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: elastic hardness database materials dataset",
+      "url": "https://api.openalex.org/works?search=elastic+hardness+database+materials+dataset&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: lattice thermal conductivity high throughput database",
+      "url": "https://api.openalex.org/works?search=lattice+thermal+conductivity+high+throughput+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: NEMAD teMatDb ESTM Wenzhou thermoelectric",
+      "url": "https://api.openalex.org/works?search=NEMAD+teMatDb+ESTM+Wenzhou+thermoelectric&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: thermal conductivity database materials",
+      "url": "https://api.openalex.org/works?search=thermal+conductivity+database+materials&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: thermoelectric transport dataset database",
+      "url": "https://api.openalex.org/works?search=thermoelectric+transport+dataset+database&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    },
+    {
+      "label": "OpenAlex query: compilation experimental mechanical microstructural titanium alloys",
+      "url": "https://api.openalex.org/works?search=compilation+experimental+mechanical+microstructural+titanium+alloys&per-page=50",
+      "section": "OpenAlex search strategy and bounded query receipts",
+      "scope": "navigation"
+    }
+  ]
+}

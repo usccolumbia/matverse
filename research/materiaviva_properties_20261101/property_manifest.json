@@ -1,0 +1,1581 @@
+{
+  "rows": 113459302,
+  "rows_scanned": 131824881,
+  "properties": 148,
+  "rows_by_licence_class": {
+    "open": 97837513,
+    "unclear": 15215145,
+    "noncommercial": 313041,
+    "restricted": 93603
+  },
+  "values_in_unexpected_column": {
+    "easy_axis": 1521
+  },
+  "per_property": {
+    "altermagnetic_split_fraction": {
+      "unit": "%",
+      "kind": "num",
+      "rows": 22,
+      "structures": 22,
+      "sources": {
+        "amdb": 22
+      }
+    },
+    "altermagnetic_splitting_avg": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 22,
+      "structures": 22,
+      "sources": {
+        "amdb": 22
+      }
+    },
+    "altermagnetic_splitting_max": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 22,
+      "structures": 22,
+      "sources": {
+        "amdb": 22
+      }
+    },
+    "ar_uptake": {
+      "unit": "mol/kg",
+      "kind": "num",
+      "rows": 1519,
+      "structures": 1252,
+      "sources": {
+        "mofx-db": 1519
+      }
+    },
+    "average_oxidation_states": {
+      "unit": null,
+      "kind": "text",
+      "rows": 124820,
+      "structures": 120998,
+      "sources": {
+        "materials-project": 124820
+      }
+    },
+    "average_voltage": {
+      "unit": "V",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "band_gap": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 13943575,
+      "structures": 7824894,
+      "sources": {
+        "alexandria": 6715273,
+        "nomad": 4140337,
+        "oqmd": 1241903,
+        "jarvis-qetb": 841442,
+        "matbench-discovery": 247741,
+        "materials-project": 170205,
+        "jarvis-dft": 144438,
+        "aflow": 120161,
+        "materiae": 79266,
+        "cmr-static": 74324,
+        "qmof": 69474,
+        "snumat": 51652,
+        "gnome": 13483,
+        "omdb-organic": 10567,
+        "2dmatpedia": 6521,
+        "materials-cloud-archive-static": 4863,
+        "jarvis-specialized-structures": 3749,
+        "c2db": 3530,
+        "mc2d": 2385,
+        "bidb": 2080,
+        "tcod": 159,
+        "amdb": 22
+      }
+    },
+    "band_gap_direct": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 6719595,
+      "structures": 5894763,
+      "sources": {
+        "alexandria": 6715273,
+        "materials-cloud-archive-static": 2242,
+        "bidb": 2080
+      }
+    },
+    "battery_formula": {
+      "unit": null,
+      "kind": "text",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "birefringence": {
+      "unit": null,
+      "kind": "num",
+      "rows": 6050,
+      "structures": 4796,
+      "sources": {
+        "materials-cloud-archive-static": 6050
+      }
+    },
+    "born_effective_charge_max": {
+      "unit": "e",
+      "kind": "num",
+      "rows": 7741,
+      "structures": 7558,
+      "sources": {
+        "phonondb": 7741
+      }
+    },
+    "bulk_modulus_eos": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 428,
+      "structures": 428,
+      "sources": {
+        "materials-project": 428
+      }
+    },
+    "bulk_modulus_pressure_derivative": {
+      "unit": null,
+      "kind": "num",
+      "rows": 428,
+      "structures": 428,
+      "sources": {
+        "materials-project": 428
+      }
+    },
+    "bulk_modulus_reuss": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 151536,
+      "structures": 151409,
+      "sources": {
+        "deem-zeolites": 135895,
+        "materials-project": 15520,
+        "nomad": 121
+      }
+    },
+    "bulk_modulus_voigt": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 151596,
+      "structures": 151469,
+      "sources": {
+        "deem-zeolites": 135955,
+        "materials-project": 15520,
+        "nomad": 121
+      }
+    },
+    "bulk_modulus_vrh": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 202894,
+      "structures": 184040,
+      "sources": {
+        "deem-zeolites": 135948,
+        "jarvis-dft": 40694,
+        "materials-project": 18255,
+        "aflow": 7839,
+        "nomad": 121,
+        "sacada": 20,
+        "hadb": 17
+      }
+    },
+    "capacity_gravimetric": {
+      "unit": "mAh/g",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "capacity_volumetric": {
+      "unit": "mAh/cm³",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "cbm": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 95095,
+      "structures": 92582,
+      "sources": {
+        "materials-project": 95095
+      }
+    },
+    "chemical_name": {
+      "unit": null,
+      "kind": "text",
+      "rows": 141432,
+      "structures": 106371,
+      "sources": {
+        "cod": 97227,
+        "icsd": 44078,
+        "open-framework-aluminophosphate": 127
+      }
+    },
+    "co2_heat_of_adsorption": {
+      "unit": "kJ/mol",
+      "kind": "num",
+      "rows": 1142345,
+      "structures": 286229,
+      "sources": {
+        "mof-carbon-capture": 1142345
+      }
+    },
+    "co2_n2_selectivity": {
+      "unit": null,
+      "kind": "num",
+      "rows": 287610,
+      "structures": 287610,
+      "sources": {
+        "mof-carbon-capture": 287610
+      }
+    },
+    "co2_uptake": {
+      "unit": "mol/kg",
+      "kind": "num",
+      "rows": 1405390,
+      "structures": 415108,
+      "sources": {
+        "mof-carbon-capture": 1150394,
+        "hmof": 254996
+      }
+    },
+    "continuous_symmetry_measure": {
+      "unit": null,
+      "kind": "num",
+      "rows": 3940,
+      "structures": 3740,
+      "sources": {
+        "materials-project": 3940
+      }
+    },
+    "coordination_environments": {
+      "unit": null,
+      "kind": "text",
+      "rows": 3940,
+      "structures": 3740,
+      "sources": {
+        "materials-project": 3940
+      }
+    },
+    "curie_temperature": {
+      "unit": "K",
+      "kind": "num",
+      "rows": 6,
+      "structures": 6,
+      "sources": {
+        "novomag": 6
+      }
+    },
+    "debye_temperature": {
+      "unit": "K",
+      "kind": "num",
+      "rows": 23387,
+      "structures": 18914,
+      "sources": {
+        "materials-project": 15520,
+        "aflow": 7867
+      }
+    },
+    "decomposes_to": {
+      "unit": null,
+      "kind": "text",
+      "rows": 130373,
+      "structures": 126700,
+      "sources": {
+        "materials-project": 130373
+      }
+    },
+    "decomposition_energy": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 153566,
+      "structures": 62430,
+      "sources": {
+        "gnome": 108300,
+        "materials-project": 39832,
+        "novomag": 5434
+      }
+    },
+    "density": {
+      "unit": "g/cm³",
+      "kind": "num",
+      "rows": 2675966,
+      "structures": 1914229,
+      "sources": {
+        "aflow": 2446625,
+        "deem-zeolites": 136008,
+        "icsd": 44115,
+        "qmof": 25544,
+        "amcsd": 13733,
+        "core-mof": 9616,
+        "webmineral": 263,
+        "tcod": 39,
+        "sacada": 23
+      }
+    },
+    "dielectric_constant_electronic": {
+      "unit": null,
+      "kind": "num",
+      "rows": 262400,
+      "structures": 213121,
+      "sources": {
+        "deem-zeolites": 136008,
+        "jarvis-dft": 107215,
+        "materials-project": 9105,
+        "phonondb": 7695,
+        "jarvis-specialized-structures": 2377
+      }
+    },
+    "dielectric_constant_ionic": {
+      "unit": null,
+      "kind": "num",
+      "rows": 17104,
+      "structures": 13361,
+      "sources": {
+        "materials-project": 9105,
+        "jarvis-dft": 6927,
+        "jarvis-specialized-structures": 1072
+      }
+    },
+    "dielectric_constant_total": {
+      "unit": null,
+      "kind": "num",
+      "rows": 152653,
+      "structures": 148795,
+      "sources": {
+        "deem-zeolites": 135518,
+        "materials-project": 9105,
+        "jarvis-dft": 6799,
+        "jarvis-specialized-structures": 1072,
+        "tcod": 159
+      }
+    },
+    "dimensionality": {
+      "unit": null,
+      "kind": "text",
+      "rows": 419324,
+      "structures": 394328,
+      "sources": {
+        "alexandria": 151149,
+        "cmr-static": 119660,
+        "jarvis-dft": 115983,
+        "gnome": 16188,
+        "2dmatpedia": 6521,
+        "c2db": 3530,
+        "mc2d": 3192,
+        "jarvis-specialized-structures": 1537,
+        "bidb": 1049,
+        "openmx-2d-ab2": 327,
+        "open-framework-aluminophosphate": 188
+      }
+    },
+    "dos_at_fermi": {
+      "unit": "states/eV",
+      "kind": "num",
+      "rows": 6794075,
+      "structures": 5909981,
+      "sources": {
+        "alexandria": 6714809,
+        "materiae": 79266
+      }
+    },
+    "dynamically_stable": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 1049,
+      "structures": 1023,
+      "sources": {
+        "bidb": 1049
+      }
+    },
+    "easy_axis": {
+      "unit": null,
+      "kind": "text",
+      "rows": 1521,
+      "structures": 1489,
+      "sources": {
+        "novomag": 1521
+      }
+    },
+    "effective_mass_electron": {
+      "unit": "m_e",
+      "kind": "num",
+      "rows": 5701,
+      "structures": 5209,
+      "sources": {
+        "jarvis-dft": 4769,
+        "cmr-static": 830,
+        "jarvis-specialized-structures": 102
+      }
+    },
+    "effective_mass_hole": {
+      "unit": "m_e",
+      "kind": "num",
+      "rows": 5687,
+      "structures": 5193,
+      "sources": {
+        "jarvis-dft": 4770,
+        "cmr-static": 830,
+        "jarvis-specialized-structures": 87
+      }
+    },
+    "elastic_anisotropy": {
+      "unit": null,
+      "kind": "num",
+      "rows": 18255,
+      "structures": 18182,
+      "sources": {
+        "materials-project": 18255
+      }
+    },
+    "electrode_stability_charged": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "electrode_stability_discharged": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "electrode_volume_change": {
+      "unit": "fraction",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "electron_phonon_coupling": {
+      "unit": null,
+      "kind": "num",
+      "rows": 1526,
+      "structures": 1431,
+      "sources": {
+        "jarvis-specialized-structures": 1526
+      }
+    },
+    "elf_max": {
+      "unit": null,
+      "kind": "num",
+      "rows": 145,
+      "structures": 145,
+      "sources": {
+        "materials-cloud-archive-static": 145
+      }
+    },
+    "energy_above_hull": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 8895858,
+      "structures": 7259115,
+      "sources": {
+        "alexandria": 6715273,
+        "oqmd": 1244891,
+        "matbench-discovery": 495482,
+        "materials-project": 170205,
+        "camd": 137167,
+        "jarvis-dft": 116582,
+        "cmr-static": 5872,
+        "wren": 4705,
+        "novomag": 3232,
+        "jarvis-specialized-structures": 1255,
+        "bidb": 1049,
+        "materials-cloud-archive-static": 145
+      }
+    },
+    "energy_density_gravimetric": {
+      "unit": "Wh/kg",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "energy_density_volumetric": {
+      "unit": "Wh/L",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "energy_per_t_atom": {
+      "unit": "kJ/mol",
+      "kind": "num",
+      "rows": 136008,
+      "structures": 136008,
+      "sources": {
+        "deem-zeolites": 136008
+      }
+    },
+    "eos_bulk_modulus": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 8350,
+      "structures": 8060,
+      "sources": {
+        "phonix": 8350
+      }
+    },
+    "exfoliation_energy": {
+      "unit": "meV/atom",
+      "kind": "num",
+      "rows": 6815,
+      "structures": 5824,
+      "sources": {
+        "2dmatpedia": 4693,
+        "jarvis-dft": 1257,
+        "jarvis-specialized-structures": 865
+      }
+    },
+    "experimentally_observed": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 192278,
+      "structures": 187946,
+      "sources": {
+        "materials-project": 170211,
+        "qmof": 22067
+      }
+    },
+    "fermi_energy": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 173661,
+      "structures": 169258,
+      "sources": {
+        "materials-project": 170131,
+        "c2db": 3530
+      }
+    },
+    "formation_energy_per_atom": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 12377989,
+      "structures": 8777728,
+      "sources": {
+        "alexandria": 6715271,
+        "aflow": 2391772,
+        "oqmd": 1244891,
+        "jarvis-qetb": 841368,
+        "matbench-discovery": 495482,
+        "carolina": 214131,
+        "materials-project": 170205,
+        "camd": 137167,
+        "jarvis-dft": 116582,
+        "gnome": 27075,
+        "cmr-static": 17217,
+        "wren": 4705,
+        "jarvis-specialized-structures": 1715,
+        "odbx": 263,
+        "materials-cloud-archive-static": 145
+      }
+    },
+    "framework_bond_dissociation_energy": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 20243,
+      "structures": 20194,
+      "sources": {
+        "fair-mofs": 20243
+      }
+    },
+    "framework_density": {
+      "unit": "T/1000 Å³",
+      "kind": "num",
+      "rows": 148197,
+      "structures": 148195,
+      "sources": {
+        "deem-zeolites": 136008,
+        "pcod": 12001,
+        "open-framework-aluminophosphate": 188
+      }
+    },
+    "gllbsc_derivative_discontinuity": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 6571,
+      "structures": 6183,
+      "sources": {
+        "cmr-static": 6571
+      }
+    },
+    "grain_boundary_energy": {
+      "unit": "J/m²",
+      "kind": "num",
+      "rows": 164,
+      "structures": 106,
+      "sources": {
+        "materials-project": 164
+      }
+    },
+    "grain_boundary_types": {
+      "unit": null,
+      "kind": "text",
+      "rows": 106,
+      "structures": 106,
+      "sources": {
+        "materials-project": 106
+      }
+    },
+    "h2_uptake": {
+      "unit": "g/L",
+      "kind": "num",
+      "rows": 1160,
+      "structures": 106,
+      "sources": {
+        "mofx-db": 1160
+      }
+    },
+    "hardness_vickers": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 20,
+      "structures": 18,
+      "sources": {
+        "sacada": 20
+      }
+    },
+    "has_imaginary_phonon": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 64437,
+      "structures": 39513,
+      "sources": {
+        "phonix": 30383,
+        "jarvis-dft": 19937,
+        "phonondb": 13896,
+        "jarvis-specialized-structures": 221
+      }
+    },
+    "has_reconstructed_surface": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 237,
+      "structures": 232,
+      "sources": {
+        "materials-project": 237
+      }
+    },
+    "heat_capacity": {
+      "unit": "J/mol·K",
+      "kind": "num",
+      "rows": 21761,
+      "structures": 20280,
+      "sources": {
+        "phonondb": 13896,
+        "aflow": 7865
+      }
+    },
+    "heat_of_formation": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 24944,
+      "structures": 24570,
+      "sources": {
+        "cmr-static": 24944
+      }
+    },
+    "interlayer_binding_energy": {
+      "unit": "meV/Å²",
+      "kind": "num",
+      "rows": 4712,
+      "structures": 3086,
+      "sources": {
+        "mc2d": 4712
+      }
+    },
+    "ionic_conductivity": {
+      "unit": "S/cm",
+      "kind": "num",
+      "rows": 5,
+      "structures": 5,
+      "sources": {
+        "obelix": 5
+      }
+    },
+    "is_gap_direct": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 264982,
+      "structures": 195861,
+      "sources": {
+        "materials-project": 170205,
+        "qmof": 69474,
+        "snumat": 25303
+      }
+    },
+    "is_metal": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 170153,
+      "structures": 165951,
+      "sources": {
+        "materials-project": 170131,
+        "amdb": 22
+      }
+    },
+    "is_stable": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 170211,
+      "structures": 166028,
+      "sources": {
+        "materials-project": 170211
+      }
+    },
+    "largest_cavity_diameter": {
+      "unit": "Å",
+      "kind": "num",
+      "rows": 493874,
+      "structures": 463975,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "hmof": 127498,
+        "fair-mofs": 41942,
+        "qmof": 25544,
+        "core-mof": 9616,
+        "mofx-db": 1664
+      }
+    },
+    "largest_free_path_diameter": {
+      "unit": "Å",
+      "kind": "num",
+      "rows": 51554,
+      "structures": 30179,
+      "sources": {
+        "fair-mofs": 41938,
+        "core-mof": 9616
+      }
+    },
+    "lattice_thermal_conductivity": {
+      "unit": "W/m·K",
+      "kind": "num",
+      "rows": 39461,
+      "structures": 21219,
+      "sources": {
+        "materials-project": 31040,
+        "phonix": 8421
+      }
+    },
+    "lattice_thermal_conductivity_coherence": {
+      "unit": "W/m·K",
+      "kind": "num",
+      "rows": 8434,
+      "structures": 7689,
+      "sources": {
+        "phonix": 8434
+      }
+    },
+    "lattice_thermal_conductivity_particle": {
+      "unit": "W/m·K",
+      "kind": "num",
+      "rows": 8420,
+      "structures": 7678,
+      "sources": {
+        "phonix": 8420
+      }
+    },
+    "layer_group_number": {
+      "unit": null,
+      "kind": "num",
+      "rows": 1049,
+      "structures": 1023,
+      "sources": {
+        "bidb": 1049
+      }
+    },
+    "magnetic_anisotropy_constant": {
+      "unit": "MJ/m³",
+      "kind": "num",
+      "rows": 1521,
+      "structures": 1489,
+      "sources": {
+        "novomag": 1521
+      }
+    },
+    "magnetic_ordering": {
+      "unit": null,
+      "kind": "text",
+      "rows": 155422,
+      "structures": 145010,
+      "sources": {
+        "materials-project": 137053,
+        "snumat": 12913,
+        "novomag": 5434,
+        "amdb": 22
+      }
+    },
+    "magnetic_polarization": {
+      "unit": "T",
+      "kind": "num",
+      "rows": 5434,
+      "structures": 5309,
+      "sources": {
+        "novomag": 5434
+      }
+    },
+    "magnetic_species": {
+      "unit": null,
+      "kind": "text",
+      "rows": 69385,
+      "structures": 67681,
+      "sources": {
+        "materials-project": 69385
+      }
+    },
+    "magnetization_per_atom": {
+      "unit": "μB/atom",
+      "kind": "num",
+      "rows": 960839,
+      "structures": 918672,
+      "sources": {
+        "oqmd": 960839
+      }
+    },
+    "magnetization_per_volume": {
+      "unit": "μB/Å³",
+      "kind": "num",
+      "rows": 170211,
+      "structures": 166028,
+      "sources": {
+        "materials-project": 170211
+      }
+    },
+    "max_residual_force": {
+      "unit": "eV/Å",
+      "kind": "num",
+      "rows": 3235999,
+      "structures": 2989301,
+      "sources": {
+        "nomad": 3205769,
+        "elementa": 30230
+      }
+    },
+    "max_residual_stress": {
+      "unit": "eV/Å³",
+      "kind": "num",
+      "rows": 30230,
+      "structures": 30230,
+      "sources": {
+        "elementa": 30230
+      }
+    },
+    "max_voltage_step": {
+      "unit": "V",
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "measured_chemistry": {
+      "unit": null,
+      "kind": "text",
+      "rows": 201,
+      "structures": 138,
+      "sources": {
+        "rruff": 201
+      }
+    },
+    "measurement_pressure": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 4443,
+      "structures": 1303,
+      "sources": {
+        "cod": 3712,
+        "hex-high-pressure": 731
+      }
+    },
+    "measurement_temperature": {
+      "unit": "K",
+      "kind": "num",
+      "rows": 244260,
+      "structures": 238161,
+      "sources": {
+        "cod": 244260
+      }
+    },
+    "migration_barrier": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 2985,
+      "structures": 214,
+      "sources": {
+        "spse": 2985
+      }
+    },
+    "mineral_name": {
+      "unit": null,
+      "kind": "text",
+      "rows": 24103,
+      "structures": 4682,
+      "sources": {
+        "amcsd": 9680,
+        "cod": 9151,
+        "icsd": 3802,
+        "rruff": 937,
+        "webmineral": 284,
+        "aflow-prototypes": 249
+      }
+    },
+    "mohs_hardness": {
+      "unit": null,
+      "kind": "num",
+      "rows": 267,
+      "structures": 264,
+      "sources": {
+        "webmineral": 267
+      }
+    },
+    "n2_heat_of_adsorption": {
+      "unit": "kJ/mol",
+      "kind": "num",
+      "rows": 285827,
+      "structures": 285827,
+      "sources": {
+        "mof-carbon-capture": 285827
+      }
+    },
+    "n2_uptake": {
+      "unit": "mol/kg",
+      "kind": "num",
+      "rows": 289129,
+      "structures": 288862,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "mofx-db": 1519
+      }
+    },
+    "nmr_efg_max": {
+      "unit": "V/m²",
+      "kind": "num",
+      "rows": 17636,
+      "structures": 16175,
+      "sources": {
+        "jarvis-dft": 17636
+      }
+    },
+    "num_voltage_steps": {
+      "unit": null,
+      "kind": "num",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "oxidation_states": {
+      "unit": null,
+      "kind": "text",
+      "rows": 124820,
+      "structures": 120998,
+      "sources": {
+        "materials-project": 124820
+      }
+    },
+    "pearson_symbol": {
+      "unit": null,
+      "kind": "text",
+      "rows": 957,
+      "structures": 942,
+      "sources": {
+        "aflow-prototypes": 934,
+        "sacada": 23
+      }
+    },
+    "phase_separation_energy": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 6715271,
+      "structures": 5894220,
+      "sources": {
+        "alexandria": 6715271
+      }
+    },
+    "phonon_log_average_frequency": {
+      "unit": "K",
+      "kind": "num",
+      "rows": 1526,
+      "structures": 1431,
+      "sources": {
+        "jarvis-specialized-structures": 1526
+      }
+    },
+    "phonon_max_frequency": {
+      "unit": "THz",
+      "kind": "num",
+      "rows": 64394,
+      "structures": 39491,
+      "sources": {
+        "phonix": 30383,
+        "jarvis-dft": 19894,
+        "phonondb": 13896,
+        "jarvis-specialized-structures": 221
+      }
+    },
+    "phonon_min_frequency": {
+      "unit": "THz",
+      "kind": "num",
+      "rows": 64437,
+      "structures": 39513,
+      "sources": {
+        "phonix": 30383,
+        "jarvis-dft": 19937,
+        "phonondb": 13896,
+        "jarvis-specialized-structures": 221
+      }
+    },
+    "piezoelectric_max_direction": {
+      "unit": null,
+      "kind": "text",
+      "rows": 4053,
+      "structures": 3979,
+      "sources": {
+        "materials-project": 4053
+      }
+    },
+    "piezoelectric_modulus": {
+      "unit": "C/m²",
+      "kind": "num",
+      "rows": 10974,
+      "structures": 8663,
+      "sources": {
+        "jarvis-dft": 6921,
+        "materials-project": 4053
+      }
+    },
+    "poisson_ratio": {
+      "unit": null,
+      "kind": "num",
+      "rows": 882331,
+      "structures": 183873,
+      "sources": {
+        "deem-zeolites": 815782,
+        "jarvis-dft": 40438,
+        "materials-project": 18255,
+        "aflow": 7839,
+        "hadb": 17
+      }
+    },
+    "pore_channel_count": {
+      "unit": null,
+      "kind": "num",
+      "rows": 41942,
+      "structures": 27089,
+      "sources": {
+        "fair-mofs": 41942
+      }
+    },
+    "pore_limiting_diameter": {
+      "unit": "Å",
+      "kind": "num",
+      "rows": 493874,
+      "structures": 463975,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "hmof": 127498,
+        "fair-mofs": 41942,
+        "qmof": 25544,
+        "core-mof": 9616,
+        "mofx-db": 1664
+      }
+    },
+    "pore_volume": {
+      "unit": "cm³/g",
+      "kind": "num",
+      "rows": 297226,
+      "structures": 292971,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "core-mof": 9616
+      }
+    },
+    "power_factor": {
+      "unit": "μW/cm·K²",
+      "kind": "num",
+      "rows": 67172,
+      "structures": 31094,
+      "sources": {
+        "jarvis-dft": 65346,
+        "jarvis-specialized-structures": 1826
+      }
+    },
+    "predicted_synthesizable": {
+      "unit": null,
+      "kind": "bool",
+      "rows": 98303,
+      "structures": 94797,
+      "sources": {
+        "csllm-negatives": 98303
+      }
+    },
+    "r_factor": {
+      "unit": null,
+      "kind": "num",
+      "rows": 185,
+      "structures": 183,
+      "sources": {
+        "open-framework-aluminophosphate": 185
+      }
+    },
+    "refractive_index": {
+      "unit": null,
+      "kind": "num",
+      "rows": 15273,
+      "structures": 13287,
+      "sources": {
+        "materials-project": 9104,
+        "materials-cloud-archive-static": 6050,
+        "webmineral": 119
+      }
+    },
+    "relative_energy_to_diamond": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 23,
+      "structures": 21,
+      "sources": {
+        "sacada": 23
+      }
+    },
+    "seebeck_coefficient": {
+      "unit": "μV/K",
+      "kind": "num",
+      "rows": 67176,
+      "structures": 31097,
+      "sources": {
+        "jarvis-dft": 65346,
+        "jarvis-specialized-structures": 1830
+      }
+    },
+    "shear_modulus_reuss": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 146626,
+      "structures": 146499,
+      "sources": {
+        "deem-zeolites": 130985,
+        "materials-project": 15520,
+        "nomad": 121
+      }
+    },
+    "shear_modulus_voigt": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 149937,
+      "structures": 149810,
+      "sources": {
+        "deem-zeolites": 134296,
+        "materials-project": 15520,
+        "nomad": 121
+      }
+    },
+    "shear_modulus_vrh": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 199927,
+      "structures": 181088,
+      "sources": {
+        "deem-zeolites": 133001,
+        "jarvis-dft": 40694,
+        "materials-project": 18255,
+        "aflow": 7839,
+        "nomad": 121,
+        "hadb": 17
+      }
+    },
+    "shg_coefficient": {
+      "unit": "pm/V",
+      "kind": "num",
+      "rows": 3429,
+      "structures": 2566,
+      "sources": {
+        "materials-cloud-archive-static": 3429
+      }
+    },
+    "slme": {
+      "unit": "%",
+      "kind": "num",
+      "rows": 13715,
+      "structures": 12430,
+      "sources": {
+        "jarvis-dft": 13504,
+        "jarvis-specialized-structures": 211
+      }
+    },
+    "sound_velocity_longitudinal": {
+      "unit": "m/s",
+      "kind": "num",
+      "rows": 151400,
+      "structures": 151357,
+      "sources": {
+        "deem-zeolites": 135880,
+        "materials-project": 15520
+      }
+    },
+    "sound_velocity_transverse": {
+      "unit": "m/s",
+      "kind": "num",
+      "rows": 148518,
+      "structures": 148475,
+      "sources": {
+        "deem-zeolites": 132998,
+        "materials-project": 15520
+      }
+    },
+    "spacegroup_number": {
+      "unit": null,
+      "kind": "num",
+      "rows": 9658652,
+      "structures": 7463710,
+      "sources": {
+        "alexandria": 6715273,
+        "aflow": 2446625,
+        "carolina": 214141,
+        "jarvis-dft": 116582,
+        "mc3d": 46818,
+        "materiae": 42724,
+        "phonix": 30418,
+        "phonondb": 15596,
+        "snumat": 12913,
+        "novomag": 5434,
+        "superband": 3170,
+        "mc2d": 2913,
+        "materials-cloud-archive-static": 2629,
+        "bidb": 1049,
+        "aflow-prototypes": 934,
+        "hex-high-pressure": 725,
+        "openmx-2d-ab2": 323,
+        "open-framework-aluminophosphate": 188,
+        "iza-zeolite": 169,
+        "sacada": 23,
+        "obelix": 5
+      }
+    },
+    "spillage": {
+      "unit": null,
+      "kind": "num",
+      "rows": 16656,
+      "structures": 16003,
+      "sources": {
+        "jarvis-dft": 15952,
+        "jarvis-specialized-structures": 704
+      }
+    },
+    "structure_prediction_r_factor": {
+      "unit": null,
+      "kind": "num",
+      "rows": 12415,
+      "structures": 12415,
+      "sources": {
+        "pcod": 12415
+      }
+    },
+    "structure_prototype": {
+      "unit": null,
+      "kind": "text",
+      "rows": 3007443,
+      "structures": 2255376,
+      "sources": {
+        "aflow": 2446625,
+        "mof-carbon-capture": 287610,
+        "matbench-discovery": 247741,
+        "qmof": 9241,
+        "cmr-static": 8804,
+        "fair-mofs": 5563,
+        "aflow-prototypes": 934,
+        "curated-cof": 684,
+        "iza-zeolite": 169,
+        "open-framework-aluminophosphate": 49,
+        "sacada": 23
+      }
+    },
+    "strukturbericht": {
+      "unit": null,
+      "kind": "text",
+      "rows": 356,
+      "structures": 355,
+      "sources": {
+        "aflow-prototypes": 356
+      }
+    },
+    "superconductor_class": {
+      "unit": null,
+      "kind": "text",
+      "rows": 5540,
+      "structures": 1918,
+      "sources": {
+        "3dsc": 5540
+      }
+    },
+    "surface_anisotropy": {
+      "unit": null,
+      "kind": "num",
+      "rows": 229,
+      "structures": 226,
+      "sources": {
+        "materials-project": 229
+      }
+    },
+    "surface_area_gravimetric": {
+      "unit": "m²/g",
+      "kind": "num",
+      "rows": 426130,
+      "structures": 420616,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "hmof": 127498,
+        "core-mof": 9616,
+        "mofx-db": 1406
+      }
+    },
+    "surface_area_volumetric": {
+      "unit": "m²/cm³",
+      "kind": "num",
+      "rows": 180462,
+      "structures": 157821,
+      "sources": {
+        "hmof": 127498,
+        "fair-mofs": 41942,
+        "core-mof": 9616,
+        "mofx-db": 1406
+      }
+    },
+    "surface_energy": {
+      "unit": "J/m²",
+      "kind": "num",
+      "rows": 695,
+      "structures": 232,
+      "sources": {
+        "materials-project": 695
+      }
+    },
+    "symmetry_indicators": {
+      "unit": null,
+      "kind": "text",
+      "rows": 36516,
+      "structures": 24901,
+      "sources": {
+        "materiae": 36516
+      }
+    },
+    "tc_superconducting": {
+      "unit": "K",
+      "kind": "num",
+      "rows": 26613,
+      "structures": 4092,
+      "sources": {
+        "3dsc": 17797,
+        "superband": 5815,
+        "jarvis-specialized-structures": 1527,
+        "jarvis-dft": 1474
+      }
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "kind": "num",
+      "rows": 7867,
+      "structures": 7710,
+      "sources": {
+        "aflow": 7867
+      }
+    },
+    "thermal_expansion": {
+      "unit": "1/K",
+      "kind": "num",
+      "rows": 7865,
+      "structures": 7708,
+      "sources": {
+        "aflow": 7865
+      }
+    },
+    "topology_class": {
+      "unit": null,
+      "kind": "text",
+      "rows": 126094,
+      "structures": 49811,
+      "sources": {
+        "materiae": 76853,
+        "materials-cloud-archive-static": 49241
+      }
+    },
+    "topology_invariant": {
+      "unit": null,
+      "kind": "text",
+      "rows": 82861,
+      "structures": 44199,
+      "sources": {
+        "materiae": 49445,
+        "materials-cloud-archive-static": 33416
+      }
+    },
+    "total_energy_per_atom": {
+      "unit": "eV/atom",
+      "kind": "num",
+      "rows": 12091066,
+      "structures": 8505529,
+      "sources": {
+        "alexandria": 6715273,
+        "aflow": 2446625,
+        "oqmd": 1244891,
+        "jarvis-qetb": 841440,
+        "materials-project": 340410,
+        "matbench-discovery": 247741,
+        "jarvis-dft": 116582,
+        "qmof": 54879,
+        "elementa": 30230,
+        "gnome": 27075,
+        "cmr-static": 12904,
+        "2dmatpedia": 6327,
+        "novomag": 5434,
+        "jarvis-specialized-structures": 1255
+      }
+    },
+    "total_magnetization": {
+      "unit": "μB",
+      "kind": "num",
+      "rows": 7064021,
+      "structures": 6048431,
+      "sources": {
+        "alexandria": 6715273,
+        "materials-project": 170211,
+        "jarvis-dft": 109553,
+        "elementa": 30230,
+        "qmof": 25544,
+        "2dmatpedia": 6521,
+        "novomag": 5434,
+        "jarvis-specialized-structures": 1255
+      }
+    },
+    "vbm": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 95095,
+      "structures": 92582,
+      "sources": {
+        "materials-project": 95095
+      }
+    },
+    "void_fraction": {
+      "unit": null,
+      "kind": "num",
+      "rows": 468330,
+      "structures": 445463,
+      "sources": {
+        "mof-carbon-capture": 287610,
+        "hmof": 127498,
+        "fair-mofs": 41942,
+        "core-mof": 9616,
+        "mofx-db": 1664
+      }
+    },
+    "volume_per_atom": {
+      "unit": "Å³/atom",
+      "kind": "num",
+      "rows": 5303898,
+      "structures": 2702251,
+      "sources": {
+        "nomad": 2857273,
+        "aflow": 2446625
+      }
+    },
+    "work_function": {
+      "unit": "eV",
+      "kind": "num",
+      "rows": 4225,
+      "structures": 3725,
+      "sources": {
+        "c2db": 3530,
+        "materials-project": 695
+      }
+    },
+    "work_of_separation": {
+      "unit": "J/m²",
+      "kind": "num",
+      "rows": 106,
+      "structures": 106,
+      "sources": {
+        "materials-project": 106
+      }
+    },
+    "working_capacity_temperature_swing": {
+      "unit": "mol/kg",
+      "kind": "num",
+      "rows": 287610,
+      "structures": 287610,
+      "sources": {
+        "mof-carbon-capture": 287610
+      }
+    },
+    "working_capacity_vacuum_swing": {
+      "unit": "mol/kg",
+      "kind": "num",
+      "rows": 287610,
+      "structures": 287610,
+      "sources": {
+        "mof-carbon-capture": 287610
+      }
+    },
+    "working_ion": {
+      "unit": null,
+      "kind": "text",
+      "rows": 20671,
+      "structures": 17376,
+      "sources": {
+        "materials-project": 20671
+      }
+    },
+    "wulff_shape_factor": {
+      "unit": null,
+      "kind": "num",
+      "rows": 229,
+      "structures": 226,
+      "sources": {
+        "materials-project": 229
+      }
+    },
+    "youngs_modulus": {
+      "unit": "GPa",
+      "kind": "num",
+      "rows": 406893,
+      "structures": 136002,
+      "sources": {
+        "deem-zeolites": 406876,
+        "hadb": 17
+      }
+    }
+  },
+  "built_at": "2026-10-23T10:27:37-0500",
+  "seconds": 449
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "combustion_deposit",
+    "url": "https://api.figshare.com/v2/articles/29966602",
+    "status": 200,
+    "sha256": "fb184c2cd0f73fc2b79999b181996f88d4fc5130f7423b8435fb932dae53a3dd",
+    "bytes": 3471,
+    "summary": {
+      "title": "An integrated database of combustion properties of metallic materials",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "doi": "10.6084/m9.figshare.29966602.v3",
+      "files": [
+        {
+          "id": 61623916,
+          "name": "Combustion_Data.xlsx",
+          "size": 497602,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/61623916",
+          "supplied_md5": "d4a77fe10d3b1526ae64da3dd51f5eff",
+          "computed_md5": "d4a77fe10d3b1526ae64da3dd51f5eff",
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hydrogen_deposit",
+    "url": "https://zenodo.org/api/records/7293044",
+    "status": 200,
+    "sha256": "007a0fc7aeed22ec9c66ce245e04f5a82b95691e6472400f3a0f53282f2edb74",
+    "bytes": 7523,
+    "summary": {
+      "title": "Database for machine learning of hydrogen storage materials properties",
+      "doi": "10.5281/zenodo.10680097",
+      "publication_date": "2024-02-19",
+      "description": "<p><strong>Database for machine learning of hydrogen storage materials properties</strong></p>\n\n<p>Matthew Witman<sup>a</sup>, Mark Allendorf<sup>a</sup>, Vitalie Stavila<sup>a</sup></p>\n\n<p><sup>a</sup>Sandia National Laboratories, Livermore, CA</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description</strong></p>\n\n<p>This ML-HydPARK dataset provides a csv file of metal hydride compositions, capacities, and thermodynamic values that can be used as target properties for building, training, and testing machine learning models. It has been parsed and cleaned from the DOE&rsquo;s original publicly available HydPARK database according to the procedure in [1] to make it more suitable for immediate use with data-driven models. Generally, this removed duplicate entries, removed entries missing critical data, and attempted to fix various entries with obvious errors in the data. It is continuously updated under version control as new metal alloy hydrides are published in the open literature. Most entries contain data on the enthalpy and entropy of the hydriding reaction, as well the maximum hydrogen capacity, for which compositional machine learning models can be trained [1,2].</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Acknowledgements</strong></p>\n\n<p>The authors gratefully acknowledge research support from the U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Fuel Cell Technologies Office through the Hydrogen Storage Materials Advanced Research Consortium (HyMARC). This work was supported by the Laboratory Directed Research and Development (LDRD) program at Sandia National Laboratories. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology &amp; Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy&rsquo;s National Nuclear Security Administration under contract DE-NA0003525. This paper describes objective technical results and analysis. Any subjective views or opinions that might be expressed in the paper do not necessarily represent the views of the U.S. Department of Energy<br>\nor the United States Government.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>References</strong></p>\n\n<ol>\n\t<li>Witman, M.; Ling, S.; Grant, D. M.; Walker, G. S.; Agarwal, S.; Stavila, V.; Allendorf, M. D. Extracting an Empirical Intermetallic Hydride Design Principle from Limited Data via Interpretable Machine Learning. <em>J. Phys. Chem. Lett</em>. <strong>2020</strong>, 11, 40&ndash;47.</li>\n\t<li>Witman, M.; Ek, G.; Ling, S.; Chames, J.; Agarwal, S.; Wong, J.; Allendorf, M. D.; Sahlberg, M.; Stavila, V. Data-Driven Discovery and Synthesis of High Entropy Alloy Hydrides with Targeted Thermodynamic Stability. <em>Chem. Mater</em>. <strong>2021</strong>, 33, 4067&ndash;4076.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><strong>Contact</strong></p>\n\n<p>Please email <a href=\"mailto:mwitman@sandia.gov\">mwitman@sandia.gov</a> , <a href=\"mailto:mdallen@sandia.gov\">mdallen@sandia.gov</a>, or <a href=\"mailto:vnstavi@sandia.gov\">vnstavi@sandia.gov</a> for questions or to request addition of recent data from the literature to this dataset.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Witman, Matthew",
+          "affiliation": "Sandia National Laboratories",
+          "orcid": "0000-0001-6263-5114"
+        },
+        {
+          "name": "Allendorf, Mark",
+          "affiliation": "Sandia National Laboratories",
+          "orcid": "0000-0001-5645-8246"
+        },
+        {
+          "name": "Stavila, Vitalie",
+          "affiliation": "Sandia National Laboratories",
+          "orcid": "0000-0003-0981-0432"
+        }
+      ],
+      "version": "0.0.5",
+      "references": [
+        "[1]\tWitman, M.; Ling, S.; Grant, D. M.; Walker, G. S.; Agarwal, S.; Stavila, V.; Allendorf, M. D. Extracting an Empirical Intermetallic Hydride Design Principle from Limited Data via Interpretable Machine Learning. J. Phys. Chem. Lett. 2020, 11, 40\u201347.",
+        "[2]\tWitman, M.; Ek, G.; Ling, S.; Chames, J.; Agarwal, S.; Wong, J.; Allendorf, M. D.; Sahlberg, M.; Stavila, V. Data-Driven Discovery and Synthesis of High Entropy Alloy Hydrides with Targeted Thermodynamic Stability. Chem. Mater. 2021, 33, 4067\u20134076."
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 5,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "7293044"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ddse_deposit",
+    "url": "https://api.datacite.org/dois/10.50974/00137195",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

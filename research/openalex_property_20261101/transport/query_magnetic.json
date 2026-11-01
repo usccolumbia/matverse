@@ -1,0 +1,4571 @@
+{
+  "mode": "search",
+  "query": "magnetic materials database dataset magnetocaloric",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Magnetoelastic coupling descriptor for high-throughput ab initio search of magnetocaloric materials",
+      "authors": [
+        "Debajit Chakraborty",
+        "Kirill Belashchenko",
+        "Aleksander L. Wysocki"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Debajit Chakraborty",
+          "orcid": "0000-0001-5159-314X",
+          "affiliations": [
+            "University of Nebraska at Kearney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kirill Belashchenko",
+          "orcid": null,
+          "affiliations": [
+            "University of Nebraska–Lincoln"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aleksander L. Wysocki",
+          "orcid": "0000-0002-8557-8527",
+          "affiliations": [
+            "University of Nebraska at Kearney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2608.11589",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2608.11589",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2608.11589",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We use Landau theory of phase transitions to design a magnetoelastic coupling descriptor that can identify magnetic materials on the brink of a first-order transition, where a strong magnetocaloric effect (MCE) can arise. The descriptor can be computed from electronic structure calculations and requires structural optimization in the paramagnetic state, which we model using special quasi-random collinear spin configurations. We first evaluate the descriptor for a set of known magnetocaloric materials and identify compounds in which the MCE is driven by magnetoelastic coupling. We then apply the descriptor in a high-throughput \\emph{ab initio} screening of magnetic L1$_2$ compounds. This search identifies the L1$_2$ cubic phases of Mn$_3$Ge and Mn$_3$Sb as materials with strong magnetoelastic coupling and potential for a large magnetocaloric response.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "Giant-magnetocaloric effect and phonon dynamics in (GdCe)CrO3",
+      "authors": [
+        "Ravi Kiran Dokala",
+        "S. Das",
+        "Subhash Thota"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ravi Kiran Dokala",
+          "orcid": "0000-0002-3466-8717",
+          "affiliations": [
+            "Uppsala University",
+            "Indian Institute of Technology Guwahati"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Das",
+          "orcid": "0000-0002-6733-9506",
+          "affiliations": [
+            "Indian Institute of Technology Guwahati",
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Subhash Thota",
+          "orcid": "0000-0003-0740-2195",
+          "affiliations": [
+            "Indian Institute of Technology Guwahati"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-42301-9",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-026-42301-9",
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-026-42301-9_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We investigate the effect of Ce3+ substitution on the magnetic ordering and phonon dynamics of the GdCrO3 orthorhombic perovskite. The Ce doped compound exhibits long-range canted antiferromagnetism with Néel transitions, TN at ~ 173 K, accompanied by spin-flip, TSF at ~ 10 K. Ce3+ incorporation drives a modification of the spin-flip transition from the [Formula: see text]configuration to [Formula: see text] inducing a reorientation of the spin axis between the [Formula: see text]and (001) crystallographic planes. This spin reorientation is governed by Zeeman energy and produces pronounced field-induced irreversibility between FCC and FCW magnetization processes. The substituted compound Gd0.9Ce0.1CrO3 (GCCO) exhibits a remarkably large magnetic entropy change, [Formula: see text] ~ 45 –40 J/kg-K for ∆H = 90 − 70 kOe at 3 K among the highest reported for rare-earth orthochromites. The interplay of spin-only magnetocrystalline anisotropy from Cr3+ and spin–orbit–driven magnetic moments of Gd3+ and Ce3+ results in pronounced spin–phonon coupling, manifested through the A1g(6) vibrational mode. The observed temperature-dependent spectral evolution is consistent with behaviour reported in isostructural magnetic perovskites.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "DFT-based machine-learning for the rational design of magnetocaloric high-entropy alloys",
+      "authors": [
+        "Zhe Cui",
+        "Carlos Romero‐Muñiz",
+        "Jia Yan Law",
+        "Victorino Franco"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Zhe Cui",
+          "orcid": "0009-0007-4699-5014",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Carlos Romero‐Muñiz",
+          "orcid": "0000-0001-6902-1553",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jia Yan Law",
+          "orcid": "0000-0002-1431-6773",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Victorino Franco",
+          "orcid": "0000-0003-3028-6815",
+          "affiliations": [
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-026-77123-w",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-026-77123-w",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-026-77123-w_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The vast compositional space of high-entropy alloys (HEA) holds promise for next-generation functional materials, yet its exploration is stifled by a combinatorial bottleneck: conventional first-principles accuracy is computationally prohibitive for complex disordered lattices, while black-box machine learning (ML) lacks physical interpretability. We overcome this by establishing a minimal-supercell principle, demonstrating that the magnetostructural behaviour is an emergent feature of local atomic environments rather than long-range configurations. This enables a physics-informed ML framework that inverts the conventional screening approach, transitioning from limited local identification to global design-space mapping, reducing computational time by 40 - 60% without compromising accuracy. Applying this framework to MM'X family uncovers a fundamental design dichotomy: mean electronic descriptors govern baseline phase stability, while dispersion descriptors, specifically the magnetic-moment dispersion, drive the critical transformation response. This analysis reveals an intrinsic stability-performance trade-off, where the disorder required to maximise the transformation driving force inevitably penalises thermodynamic stability. By quantifying this Pareto frontier, we propose a hierarchical tuning strategy that decouples phase transition temperature from hysteresis, providing a scalable paradigm to transform HEA exploration from serendipitous discovery into rational design.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "A Community-Developed Domain Ontology for Magnetic Materials",
+      "authors": [
+        "Wilfried Hortschitz",
+        "Santa Pile",
+        "Claas Fillies",
+        "Harald Oezelt",
+        "Alexander Kovacs",
+        "Hans Fangohr",
+        "Samuel Holt",
+        "Martin Lang",
+        "Andrea Petrocchi",
+        "Swapneel Amit Pathak",
+        "Michael P. Adams",
+        "Jonas Winkler",
+        "Thomas  George Woodcock",
+        "William Rigaut",
+        "Pierre le Berre",
+        "Nora M. Dempsey",
+        "Alena Vishina",
+        "M Nur Hasan",
+        "Georgia A Marchant",
+        "Heike C. Herper",
+        "Thomas Schrefl"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Wilfried Hortschitz",
+          "orcid": "0000-0003-2950-642X",
+          "affiliations": [
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Santa Pile",
+          "orcid": "0000-0001-7854-847X",
+          "affiliations": [
+            "Johannes Kepler University of Linz",
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Claas Fillies",
+          "orcid": null,
+          "affiliations": [
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Harald Oezelt",
+          "orcid": "0000-0002-3754-3565",
+          "affiliations": [
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Kovacs",
+          "orcid": null,
+          "affiliations": [
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hans Fangohr",
+          "orcid": "0000-0001-5494-7193",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuel Holt",
+          "orcid": "0000-0003-3323-8958",
+          "affiliations": [
+            "Center for Free-Electron Laser Science",
+            "Max Planck Institute for the Structure and Dynamics of Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Martin Lang",
+          "orcid": "0000-0001-7104-7867",
+          "affiliations": [
+            "Center for Free-Electron Laser Science",
+            "Max Planck Institute for the Structure and Dynamics of Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrea Petrocchi",
+          "orcid": "0009-0005-1867-6732",
+          "affiliations": [
+            "Center for Free-Electron Laser Science",
+            "Max Planck Institute for the Structure and Dynamics of Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Swapneel Amit Pathak",
+          "orcid": "0000-0003-3840-955X",
+          "affiliations": [
+            "Center for Free-Electron Laser Science",
+            "Max Planck Institute for the Structure and Dynamics of Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael P. Adams",
+          "orcid": "0000-0001-9269-8087",
+          "affiliations": [
+            "Center for Free-Electron Laser Science",
+            "Max Planck Institute for the Structure and Dynamics of Matter"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonas Winkler",
+          "orcid": "0009-0000-7815-5916",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas  George Woodcock",
+          "orcid": "0000-0003-2351-973X",
+          "affiliations": [
+            "Leibniz Institute for Solid State and Materials Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "William Rigaut",
+          "orcid": "0009-0000-9775-7955",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Néel",
+            "Université Grenoble Alpes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pierre le Berre",
+          "orcid": "0009-0008-9045-8416",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nora M. Dempsey",
+          "orcid": "0000-0003-0402-0992",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut Néel",
+            "Université Grenoble Alpes"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alena Vishina",
+          "orcid": "0000-0002-4583-2877",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M Nur Hasan",
+          "orcid": null,
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Georgia A Marchant",
+          "orcid": null,
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Heike C. Herper",
+          "orcid": "0000-0001-6159-1244",
+          "affiliations": [
+            "Uppsala University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Schrefl",
+          "orcid": null,
+          "affiliations": [
+            "Universität für Weiterbildung Krems"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.11464",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2609.11464",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2609.11464",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnetic materials play a crucial role in energy-related technologies, mobility, and sensing, but their complex multiscale behaviour and the coexistence of multiple unit systems pose persistent challenges for data exchange and interpretation. This paper presents a domain ontology for magnetic materials, developed within the European Union funded Magnetic Multiscale Modelling Suite (MaMMoS) project and aligned with the Elementary Multiperspective Material Ontology (EMMO). The ontology formalises intrinsic, hysteretic, and microstructural properties across multiple length scales and supports semantic interoperability between simulation tools, databases, and experimental workflows. One key feature of the ontology is its code-based and human-readable structure, enabled through the EMMOntoPy framework, which allows for direct manipulation and versioning without relying on opaque .owl or .ttl files. This facilitates collaborative development and improves transparency. The ontology supports FAIR (Findable, Accessible, Interoperable, Reusable) principles and is openly available for extension by the community. The aim of the MaMMoS project is to foster reproducibility, improve traceability, and promote the adoption of ontology in the magnetism domain. The ontology that has been developed already serves as the foundation for multiple software tools that handle all kinds of magnetic material data.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "A new workflow for materials discovery bridging the gap between experimental databases and Graph Neural Networks",
+      "authors": [
+        "Brandon Schoener",
+        "Yuting Hu",
+        "Pasit Wanlapha",
+        "Akshay Rengarajan",
+        "Ian Moog",
+        "Michael Wang",
+        "Peihong Zhang",
+        "Jinjun Xiong",
+        "Hao Zeng"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Brandon Schoener",
+          "orcid": "0009-0008-5067-8713",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuting Hu",
+          "orcid": "0000-0002-1052-994X",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pasit Wanlapha",
+          "orcid": "0009-0000-9200-6837",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akshay Rengarajan",
+          "orcid": null,
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ian Moog",
+          "orcid": "0009-0005-8106-400X",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Wang",
+          "orcid": "0000-0002-8315-0201",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peihong Zhang",
+          "orcid": null,
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinjun Xiong",
+          "orcid": "0000-0002-2620-4859",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hao Zeng",
+          "orcid": "0000-0002-6692-6725",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "doi": "10.1016/j.jmmm.2026.174131",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jmmm.2026.174131",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.2139/ssrn.6145003",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Why machine learning struggles with magnetism? The role of temperature, disorder, and spin physics",
+      "authors": [
+        "Varun Chaudhary"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Varun Chaudhary",
+          "orcid": "0000-0002-9244-1975",
+          "affiliations": [
+            "Chalmers University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Cell Reports Physical Science",
+      "doi": "10.1016/j.xcrp.2026.103592",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.xcrp.2026.103592",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1016/j.xcrp.2026.103592",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Machine learning (ML) has transformed materials informatics by enabling rapid prediction, screening, and discovery across vast chemical spaces. However, its application to magnetic materials remains fundamentally constrained. Magnetism presents a particularly stringent representation problem because spin degrees of freedom are coupled to temperature, exchange interactions, spin-orbit coupling, electron correlation, disorder, and microstructure across multiple scales. In contrast, most current ML frameworks rely on static structural or compositional representations, often derived from zero-temperature electronic-structure calculations and ordered materials databases. This mismatch limits their ability to capture the physical mechanisms governing magnetic behavior and frequently reduces prediction to interpolation within restricted datasets. Here, we examine these limitations across major magnetic material classes, including soft magnets, permanent magnets, magnetocaloric materials, two-dimensional magnets, altermagnets, and chemically disordered magnetic systems. We further discuss emerging directions toward physics-informed ML frameworks capable of incorporating thermodynamic evolution, spin interactions, disorder, symmetry, and multiscale magnetic phenomena explicitly.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "Gd( iii ) and Dy( iii ) coordination polymers based on silane-centered polycarboxylic acids: structure, single-molecule magnet behavior, magnetocaloric properties, and dimensionality effects",
+      "authors": [
+        "Ana B. Arauzo",
+        "C. Piquer",
+        "Elena Bartolomé",
+        "Mirela‐Fernanda Zaltariov",
+        "Alexandru‐Constantin Stoica",
+        "Sergiu G. Shova",
+        "Maria Cazacu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ana B. Arauzo",
+          "orcid": "0000-0002-5999-341X",
+          "affiliations": [
+            "Universidad de Zaragoza",
+            "Instituto de Nanociencia y Materiales de Aragón"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C. Piquer",
+          "orcid": "0000-0003-4239-2949",
+          "affiliations": [
+            "Universidad de Zaragoza",
+            "Instituto de Nanociencia y Materiales de Aragón"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elena Bartolomé",
+          "orcid": "0000-0001-5108-0977",
+          "affiliations": [
+            "Institut de Ciència de Materials de Barcelona"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mirela‐Fernanda Zaltariov",
+          "orcid": "0000-0001-6692-0481",
+          "affiliations": [
+            "Institutul de Chimie Macromoleculară Petru Poni",
+            "Romanian Academy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexandru‐Constantin Stoica",
+          "orcid": "0000-0003-3812-2428",
+          "affiliations": [
+            "Institutul de Chimie Macromoleculară Petru Poni",
+            "Romanian Academy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sergiu G. Shova",
+          "orcid": "0000-0002-1222-4373",
+          "affiliations": [
+            "Institutul de Chimie Macromoleculară Petru Poni",
+            "Romanian Academy"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria Cazacu",
+          "orcid": "0000-0003-4952-5548",
+          "affiliations": [
+            "Institutul de Chimie Macromoleculară Petru Poni",
+            "Romanian Academy"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry C",
+      "doi": "10.1039/d6tc01733a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d6tc01733a",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1039/d6tc01733a",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Multifunctional Gd- and Dy-based CPs built from silane-bridged dicarboxylate ligand: SMM and magnetocaloric properties for different dimensionalities.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "First-Principle Calculations of Magnetic Properties of Dy6(Fe,Mn)Bi2 Compounds",
+      "authors": [
+        "Ángel J. García-Adeva",
+        "Felipe Ramon",
+        "Estibaliz Apiñaniz",
+        "A. Herrero",
+        "Ivan R. Aseguinolaza",
+        "Alberto Oleaga"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ángel J. García-Adeva",
+          "orcid": "0000-0003-2776-2390",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Felipe Ramon",
+          "orcid": null,
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Estibaliz Apiñaniz",
+          "orcid": "0000-0002-3668-8316",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Herrero",
+          "orcid": "0000-0002-1156-451X",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivan R. Aseguinolaza",
+          "orcid": "0009-0004-6721-6401",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto Oleaga",
+          "orcid": "0000-0002-3618-9103",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Crystals",
+      "doi": "10.3390/cryst16060399",
+      "type": "article",
+      "url": "https://doi.org/10.3390/cryst16060399",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/2073-4352/16/6/399/pdf?version=1781792879",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The magnetic properties of Dy₆MnBi₂ and Dy₆FeBi₂ intermetallic compounds have been investigated within the framework of density functional theory. These materials are attracting considerable attention due to their potential in magnetic refrigeration applications, as they exhibit a pronounced magnetocaloric effect. In the present work, we compute the equation of state, electronic density of states, and magnetic moments, and compare the results with available experimental data. The calculated quantities are found to be in good agreement with experiment, thereby supporting once again the reliability of DFT as a theoretical framework for exploring the magnetic behavior of ternary intermetallic compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Magnetic crystal generation with site-resolved magnetic moments via Gaussian-mixture retargeting and finite-budget yield prediction",
+      "authors": [
+        "Wen-Chuang Shang",
+        "Chenyu Shen",
+        "Mikito Tsujimoto",
+        "Tomonori Tanaka",
+        "Yoshihiro Gohda"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Wen-Chuang Shang",
+          "orcid": "0009-0003-0411-3723",
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chenyu Shen",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mikito Tsujimoto",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tomonori Tanaka",
+          "orcid": "0000-0001-7306-6770",
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshihiro Gohda",
+          "orcid": "0000-0002-6047-027X",
+          "affiliations": [
+            "Institute of Science Tokyo"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.37222",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2610.37222",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2610.37222",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "We introduce GMMag, a workflow for generating crystal structures together with their site-resolved magnetic moments, built on a conditional variational autoencoder with a graph neural network encoder and a transformer decoder. Gaussian-mixture sampling redirects generation towards selected chemical and magnetic targets without retraining. We systematically investigate how encoder and decoder design, the representation of magnetic-moment magnitudes and relative signs, and sampling choices affect reconstruction, generation quality and diversity. Because a higher screening pass rate does not necessarily yield more qualifying candidates with distinct chemical formulas absent from the reference dataset, we model how repeated generation of the same chemical formulas limits their accumulation and test the model in two separate ten-million-draw runs. As an application, the workflow identifies Nd-containing candidates with chemical formulas absent from the reference dataset, negative formation energies and high estimated saturation magnetization.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "Machine learning for the design and prediction of soft-magnetic electromagnetic shielding FeCo-based alloys in laser cladding",
+      "authors": [
+        "Luting Wang",
+        "Suiyuan Chen",
+        "Xiancheng Zhu",
+        "Zhiqing Fang",
+        "Mei Wang",
+        "Yifan Li",
+        "Lei Shen"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Luting Wang",
+          "orcid": "0000-0002-8633-9122",
+          "affiliations": [
+            "National University of Singapore",
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Suiyuan Chen",
+          "orcid": null,
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiancheng Zhu",
+          "orcid": "0009-0006-0353-6021",
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiqing Fang",
+          "orcid": null,
+          "affiliations": [
+            "Northeastern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mei Wang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifan Li",
+          "orcid": null,
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lei Shen",
+          "orcid": null,
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.06417",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2609.06417",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2609.06417",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Electromagnetic shielding materials play a pivotal role in both aerospace applications and daily life. However, their design and manufacturing still face persistent challenges. Machine learning demonstrates significant potential in accelerating material development and compositions optimization. Furthermore, laser additive manufacturing provides powerful technical support for fabricating multi-component, multifunctional electromagnetic shielding materials with tailored properties. In this study, the multiple machine learning strategies have been proposed, based on experimental derivation and soft magnetic material databases, to accelerate the design of multifunctional FeCo-based alloys for electromagnetic interference (EMI) shielding within an almost infinite compositional space. This work presents a novel approach for the rapid and automated discovery of multifunctional alloys with optimized EMI shielding effectiveness, as well as enhanced magnetic and electrical properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "The northeast materials database for magnetic materials",
+      "authors": [
+        "Suman Itani",
+        "Yibo Zhang",
+        "Jiadong Zang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Suman Itani",
+          "orcid": "0009-0000-3142-7881",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yibo Zhang",
+          "orcid": "0000-0001-8150-1111",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiadong Zang",
+          "orcid": "0000-0002-5089-9806",
+          "affiliations": [
+            "University of New Hampshire"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-025-64458-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-025-64458-z",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-025-64458-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": ") of 0.87 (0.83) and a mean absolute error (MAE) of 56K (38K). These models identified 25 (13) FM (AFM) candidates with a predicted Curie (Néel) temperature above 500K (100K) from the Materials Project. This work shows the feasibility of combining LLMs for automated data extraction and machine learning models to accelerate the discovery of magnetic materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Machine Learning Methodologies Applied to Magnetocaloric Perovskites Discovery",
+      "authors": [
+        "Luis E. Castro-Anaya",
+        "Eduardo Marese",
+        "Jaime Andrés Lozano",
+        "Guilherme Fidelis Peixer",
+        "Jader Riso Barbosa Jr.",
+        "Sergio Yesid Gómez González"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Luis E. Castro-Anaya",
+          "orcid": "0000-0003-2959-9494",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eduardo Marese",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaime Andrés Lozano",
+          "orcid": "0000-0003-2682-9952",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guilherme Fidelis Peixer",
+          "orcid": "0000-0002-5238-4910",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jader Riso Barbosa Jr.",
+          "orcid": "0000-0002-8753-6670",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sergio Yesid Gómez González",
+          "orcid": "0000-0003-4019-261X",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.4c01944",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.jcim.4c01944",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.4c01944?ref=article_openPDF",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Traditionally, designing novel materials involves exploring new compositions guided by insights from previous work, relying on a trial-and-error approach, where continuous synthesis and characterization proceed until the properties meet the improvements. This method is inefficient due to the challenges of exploring vast chemical spaces. In this study, a machine-learning-based methodology is developed to assist the design from available data in the literature, allowing us to test in silico more than 1.2 million compositions. Two databases with 1227 inputs were created from published studies. Four machine learning (ML) models were trained over the feature sets using 517 compositional features (generated from 58 atomic properties) to predict magnetocaloric properties of perovskites: Curie temperature ( T C ), magnetic entropy change (ME), and relative cooling power (RCP). The best model-feature combinations were used to explore the chemical space of lanthanum, praseodymium, and neodymium manganites, identifying composition trends for different temperature applications, including room temperature refrigeration, where the most suitable combinations of doping elements were highlighted. The study offers valuable guidelines for future research insights on magnetocaloric materials, and the methodology can be transferred to other perovskite related material areas, such as catalysts and solar cell materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Recent Progress in Magnetoelastic Fe 2 P‐type Materials for Magnetocaloric Cooling",
+      "authors": [
+        "King Yin Ho",
+        "Fengqi Zhang",
+        "Xuefei Miao",
+        "Niels H. van Dijk",
+        "E. Brück",
+        "Yang Ren"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "King Yin Ho",
+          "orcid": null,
+          "affiliations": [
+            "City University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fengqi Zhang",
+          "orcid": "0000-0001-9595-1797",
+          "affiliations": [
+            "City University of Hong Kong",
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuefei Miao",
+          "orcid": "0000-0003-4930-9108",
+          "affiliations": [
+            "Nanjing University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Niels H. van Dijk",
+          "orcid": "0000-0002-2506-2852",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "E. Brück",
+          "orcid": "0000-0002-5063-3338",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yang Ren",
+          "orcid": "0000-0001-9831-6035",
+          "affiliations": [
+            "City University of Hong Kong",
+            "City University of Hong Kong, Shenzhen Research Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "MetalMat",
+      "doi": "10.1002/metm.70012",
+      "type": "article",
+      "url": "https://doi.org/10.1002/metm.70012",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/metm.70012",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Solid‐state magnetocaloric cooling attracts increasing attention as a novel technique for its high efficiency in energy conversion and its sustainability. Several high‐quality magnetocaloric materials (MCMs) have been found, but among these MCMs, (Mn,Fe) 2 (P,Si)‐based materials are one of the most promising candidates for its giant magnetocaloric effect (GMCE), noncritical components, and tuneable Curie temperature ( T C ) around room temperature. To further accelerate its practical market applications, a lot of studies have been made to enhance the GMCE, tune T C, and reduce the thermal hysteresis (Δ T hys ). This review mainly focuses on introducing the latest efforts to optimize the GMCE performance of this material family, including doping with different elements, microstructural improvements, and practical manufacturing techniques. Besides that, we further suggest possible approaches to boost the material engineering and highlight promising efforts of applying machine learning in the search for the optimal composition and structure of (Mn,Fe) 2 (P,Si)‐based MCMs. This bridges the gap between fundamental research and engineering to advance the magnetocaloric energy conversion technology closer to real applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "From the Discovery of the Giant Magnetocaloric Effect to the Development of High‐Power‐Density Systems",
+      "authors": [
+        "Agata Czernuszewicz",
+        "Yaroslav Mudryk",
+        "Jun Cui",
+        "Lucas Daniel Griffith",
+        "Duane D. Johnson",
+        "Julie Slaughter"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Agata Czernuszewicz",
+          "orcid": "0000-0002-3399-2515",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yaroslav Mudryk",
+          "orcid": "0000-0003-2658-0413",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Cui",
+          "orcid": "0000-0001-7911-8172",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lucas Daniel Griffith",
+          "orcid": "0000-0001-9439-2321",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Duane D. Johnson",
+          "orcid": "0000-0003-0794-7283",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Julie Slaughter",
+          "orcid": "0000-0002-6177-6991",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials Technologies",
+      "doi": "10.1002/admt.202500545",
+      "type": "article",
+      "url": "https://doi.org/10.1002/admt.202500545",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202500545",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Caloric cooling and heating promise an efficient and reliable alternative to ubiquitous vapor‐compression technology. In 1976, the very first near‐room‐temperature caloric system is developed, but it took another 20 years for this technology to fully bloom and gain global attention. The discovery of the giant magnetocaloric effect in Gd5Si2Ge2 and the advance of the first long‐operating magnetic refrigerator, both in 1997, due to the Ames National Laboratory and Astronautics Corporation of America cooperation, are two milestones that sparked ongoing interest in caloric research, which continues to thrive to this day. This review presents a brief history of caloric heat pumping, from the discovery of the magnetocaloric effect to the most recent developments in materials and systems. The contributions of Ames National Laboratory of the U.S. Department of Energy are highlighted, celebrating its 30‐year anniversary in caloric research and paying tribute to two outstanding scientists, Vitalij K. Pecharsky and Karl A. Gschneidner, Jr., who inspired the caloric community for decades. The paper concludes with insights into remaining research and development challenges that must be addressed to enable the market transition of caloric technology and its widespread adoption.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "Crystal structure, magnetic and magnetocaloric properties of the new orthorhombic Y 3 Co 2 -type Gd 3 Co 1+ x Ni 1− x solid solution",
+      "authors": [
+        "A. Herrero",
+        "Alessia Provino",
+        "Ivan R. Aseguinolaza",
+        "Serena DE NEGRI",
+        "Davide Peddis",
+        "P. Manfrinetti",
+        "Alberto Oleaga"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "A. Herrero",
+          "orcid": "0000-0002-1156-451X",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alessia Provino",
+          "orcid": "0000-0002-7577-6642",
+          "affiliations": [
+            "Superconducting and other Innovative Materials and Devices Institute",
+            "Alfred University",
+            "University of Genoa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivan R. Aseguinolaza",
+          "orcid": "0009-0004-6721-6401",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Serena DE NEGRI",
+          "orcid": "0000-0002-5345-8694",
+          "affiliations": [
+            "University of Genoa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Davide Peddis",
+          "orcid": "0000-0003-0810-8860",
+          "affiliations": [
+            "Institute of Structure of Matter",
+            "National Research Council",
+            "University of Genoa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "P. Manfrinetti",
+          "orcid": "0000-0002-3346-5619",
+          "affiliations": [
+            "Superconducting and other Innovative Materials and Devices Institute",
+            "University of Genoa"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto Oleaga",
+          "orcid": "0000-0002-3618-9103",
+          "affiliations": [
+            "University of the Basque Country"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry C",
+      "doi": "10.1039/d5tc00423c",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5tc00423c",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/tc/d5tc00423c",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "The discovery of the novel Gd 3 Co 1+ x Ni 1− x compound is reported. It is shown that the magnetocaloric properties are among the best in its working temperature range and Co/Ni substitution tunes the working temperature without compromising performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Improving Thermal Cycling Stability and Magnetocaloric Efficiency through Orbital Competition and Entropy Engineering in RE11Rh4In9, 4d-4f Layered Intermetallics",
+      "authors": [
+        "Yu. Tyvanchuk",
+        "Volodymyr Babizhetskyy",
+        "S. Baran",
+        "Andrzej Szytuła",
+        "Volodymyr Smetana",
+        "Emil I. Jaffal",
+        "Balaranjan Selvaratnam",
+        "Anja‐Verena Mudring",
+        "Anton O. Oliynyk"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yu. Tyvanchuk",
+          "orcid": "0000-0003-3004-3928",
+          "affiliations": [
+            "Lviv University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Volodymyr Babizhetskyy",
+          "orcid": "0000-0002-0267-0206",
+          "affiliations": [
+            "Lviv University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Baran",
+          "orcid": "0000-0003-1819-5603",
+          "affiliations": [
+            "Jagiellonian University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrzej Szytuła",
+          "orcid": "0000-0002-5196-8594",
+          "affiliations": [
+            "Jagiellonian University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Volodymyr Smetana",
+          "orcid": "0000-0003-0763-1457",
+          "affiliations": [
+            "Aarhus University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emil I. Jaffal",
+          "orcid": "0009-0003-1022-4243",
+          "affiliations": [
+            "The Graduate Center, CUNY",
+            "Hunter College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Balaranjan Selvaratnam",
+          "orcid": "0000-0003-3012-746X",
+          "affiliations": [
+            "Hunter College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anja‐Verena Mudring",
+          "orcid": "0000-0002-2800-1684",
+          "affiliations": [
+            "Aarhus University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anton O. Oliynyk",
+          "orcid": "0000-0003-0732-7340",
+          "affiliations": [
+            "The Graduate Center, CUNY",
+            "Hunter College"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv-2025-58fr6",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv-2025-58fr6",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-58fr6",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "A series of RE11Rh4In9 intermetallics (RE = Gd, Tb, Ho and Tm) adopting the Nd11Pd4In9-type structure (space group Cmmm, oS48) was synthesized. The structure of the novel compounds has been visualized and described through CsCl- and AlB₂-type fragment tiling, with the help of in-house developed software, revealing the structure being the first intermediate in the CsCl- to AlB2-type structure transformation with 18% of the AlB2-type fragments and no face-sharing between these fragments. Magnetic properties of RE11Rh4In9 (RE = Gd, Tb) have been examined. The compounds undergo transition from para- to ferromagnetic order 80K with additional magnetic transitions detectable at lower temperatures. Magnetic entropy change reaches 5.32 and 3.66 J·kg−1·K−1 under magnetic flux density change of μ0ΔH = 0-9 T for RE = Gd and Tb, respectively. Relative cooling power and refrigerant capacity are equal respectively to 615.4 and 501.1 J·kg−1 in Gd11Rh4In9 or 393.2 and 311.4 J·kg−1 in Tb11Rh4In9 under μ0ΔH = 0-9 T. RE11Rh4In9 establish a new structural family of Rh-containing rare-earth intermetallics that exhibit competitive magnetocaloric performance in a broad range with the maximum near 80 K. Subtle changes in electronic structure govern exchange interactions and magnetic entropy for tuning magnetocaloric properties through controlled f-d hybridizations.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Advanced thermal and magnetic materials for high-power and high-temperature applications: a comprehensive review",
+      "authors": [
+        "Wubshet Getachew Mengesha",
+        "Kaveer Nagessar"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Wubshet Getachew Mengesha",
+          "orcid": "0000-0001-5752-118X",
+          "affiliations": [
+            "Woldia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaveer Nagessar",
+          "orcid": "0009-0000-9829-1608",
+          "affiliations": [
+            "University of Pretoria"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Discover Materials",
+      "doi": "10.1007/s43939-025-00305-8",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s43939-025-00305-8",
+      "cited_by_count": 21,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://link.springer.com/content/pdf/10.1007/s43939-025-00305-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "This comprehensive review explores the advancements, applications, and challenges of advanced thermal and magnetic materials in high-power and high-temperature environments. These materials, including high-temperature superconductors, ferromagnetic materials, and magnetic alloys, are crucial for industries such as energy, aerospace, automotive, and electronics. They are crucial for managing heat, converting energy, and storing it, which boosts the efficiency and dependability of renewable energy systems, electric vehicles, and aerospace technologies. Nonetheless, they encounter major obstacles, such as material breakdown under harsh conditions, expensive production, and sustainability issues. The study explores essential thermal properties like heat capacity, thermal conductivity, thermal expansion, and thermal stress, highlighting the significance of ceramics, composites, metals, carbon nanotubes, and phase-change materials. It also investigates magnetic properties like permeability, coercivity, and remanence, essential for high-power applications. Emerging technologies such as nanotechnology, additive manufacturing, and machine learning offer promising solutions to overcome existing limitations. The review highlights the need for interdisciplinary research to develop sustainable and cost-effective materials capable of withstanding extreme conditions while maintaining performance. It underscores the importance of continuing research and development to address global energy and environmental challenges, paving the way for next-generation technologies. In summary, cutting-edge thermal and magnetic materials are set to transform industries, paving the way for more efficient and dependable technological advancements.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Influence of Layering and Curie Temperature Uncertainty on the Performance of Multilayer Active Magnetic Regenerators",
+      "authors": [
+        "Urban Tomc",
+        "Guilherme Fidelis Peixer",
+        "C.R.H. Bahl",
+        "Kaspar Kirstein Nielsen",
+        "Jaime Andrés Lozano",
+        "Jader Riso Barbosa Jr.",
+        "Andrej Kitanovski"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Urban Tomc",
+          "orcid": "0000-0001-8635-7286",
+          "affiliations": [
+            "University of Ljubljana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Guilherme Fidelis Peixer",
+          "orcid": "0000-0002-5238-4910",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C.R.H. Bahl",
+          "orcid": "0000-0002-1153-7183",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaspar Kirstein Nielsen",
+          "orcid": "0000-0001-7938-4577",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaime Andrés Lozano",
+          "orcid": "0000-0003-2682-9952",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jader Riso Barbosa Jr.",
+          "orcid": "0000-0002-8753-6670",
+          "affiliations": [
+            "Universidade Federal de Santa Catarina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrej Kitanovski",
+          "orcid": "0000-0001-9385-538X",
+          "affiliations": [
+            "University of Ljubljana"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.202424282",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adfm.202424282",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.202424282",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Magnetic refrigeration is a promising alternative to traditional vapor compression systems, with potential efficiency and environmental sustainability advantages. However, the narrow operational temperature range of magnetocaloric materials (MCMs) and their reliance on rare‐earth elements remain key challenges. Multilayer active magnetic regenerators (AMRs) address the temperature range limitations by combining multiple magnetocaloric layers, each with different Curie temperatures. This study investigates the impact of statistical deviations in Curie temperatures on the performance of multilayer AMRs, specifically using second‐order La‐Fe‐Co‐Si materials. A 1D multilayer AMR numerical model is developed to simulate the effects of Curie temperature variability, with radial basis function neural networks employed to efficiently predict performance. The results indicate that although increasing the number of MCM layers enhances cooling power and coefficient of performance (COP) , Curie temperature uncertainties significantly degrade the AMR performance. The likelihood of achieving cooling targets diminishes as the number of MCM layers increases, particularly for standard deviations exceeding 1 K. These findings emphasize the importance of accounting for Curie temperature uncertainties in AMR design. Moreover, enhancing the manufacturing precision of the Curie temperatures of MCMs is essential for improving the performance and commercialization of magnetocaloric technology.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "A Review of Artificial Intelligence‐Driven Innovations in Soft Magnetic Materials Optimization: Current Trends and Future Horizons",
+      "authors": [
+        "Yichuan Tang",
+        "Shaopeng Liu",
+        "Silong Li",
+        "Ruonan Ma",
+        "Yue Li",
+        "Kun Wang",
+        "Minxia Fang",
+        "Chao Zhou",
+        "Sen Yang",
+        "Yin Zhang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yichuan Tang",
+          "orcid": "0009-0007-3470-9594",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shaopeng Liu",
+          "orcid": "0000-0003-0539-083X",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Silong Li",
+          "orcid": "0009-0001-2808-570X",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruonan Ma",
+          "orcid": "0000-0001-5621-6079",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yue Li",
+          "orcid": "0000-0001-9505-4009",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kun Wang",
+          "orcid": "0000-0002-9533-7452",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minxia Fang",
+          "orcid": "0000-0002-6747-7220",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Zhou",
+          "orcid": "0000-0001-7173-9636",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sen Yang",
+          "orcid": "0000-0001-5784-2952",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yin Zhang",
+          "orcid": "0000-0002-4405-4268",
+          "affiliations": [
+            "Xi'an Jiaotong University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "MetalMat",
+      "doi": "10.1002/metm.70001",
+      "type": "article",
+      "url": "https://doi.org/10.1002/metm.70001",
+      "cited_by_count": 15,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/metm.70001",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT With the continuous accumulation of data, machine learning is playing an increasingly important role in materials science, especially demonstrating significant advantages in predicting material compositions and developing new alloy systems for soft magnetic materials. However, currently, it mainly focuses on composition optimization while often neglecting the impact of structure and fundamental physical parameters. On this matter, we have discussed model selection in machine learning modeling, the issues encountered, and the limitations of the composition‐focused approach. Through insights gained from research in other material fields, it is highlighted that integrating machine learning with other computational methods such as first‐principles calculations and phase diagram computations can significantly enhance the predictive capabilities of machine learning. We analyzed these AI‐enhanced cases and highlighted how they have the potential to lead to further breakthroughs in soft magnetic materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Enhancing magnetocaloric material discovery: A machine learning approach using an autogenerated database by large language models",
+      "authors": [
+        "Jiaoyue Yuan",
+        "Runqing Yang",
+        "Lokanath Patra",
+        "Bolin Liao"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Jiaoyue Yuan",
+          "orcid": "0009-0005-7945-8974",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Runqing Yang",
+          "orcid": "0009-0009-7884-7467",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lokanath Patra",
+          "orcid": "0000-0002-1050-5665",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bolin Liao",
+          "orcid": "0000-0002-0898-0803",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AIP Advances",
+      "doi": "10.1063/5.0206855",
+      "type": "article",
+      "url": "https://doi.org/10.1063/5.0206855",
+      "cited_by_count": 8,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1063/5.0206855",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnetic cooling based on the magnetocaloric effect is a promising solid-state refrigeration technology for a wide range of applications in different temperature ranges. Previous studies have mostly focused on near room temperature (300 K) and cryogenic temperature (<10 K) ranges, while important applications such as hydrogen liquefaction call for efficient magnetic refrigerants for the intermediate temperature range of 10–100 K. For efficient use in this range, new magnetocaloric materials with matching Curie temperatures need to be discovered, while conventional experimental approaches are typically time-consuming and expensive. Here, we report a computational material discovery pipeline based on a materials database containing more than 6000 entries auto-generated by extracting reported material properties from the literature using a large language model. We then use this database to train a machine learning model that can efficiently predict the magnetocaloric properties of materials based on their chemical composition. We further verify the magnetocaloric properties of the predicted compounds using ab initio atomistic spin dynamics simulations to complete the computational material discovery. Using this approach, we identify 11 new promising magnetocaloric materials for the target temperature range. Our work demonstrates the potential of combining large language models, machine learning, and ab initio simulations to efficiently discover new functional materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Material informatics for functional magnetic material discovery",
+      "authors": [
+        "Richard M. Rowan-Robinson",
+        "Zhaoyuan Leong",
+        "S. Carpio",
+        "C. Oh",
+        "Nicola Morley"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Richard M. Rowan-Robinson",
+          "orcid": "0000-0002-3881-4064",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhaoyuan Leong",
+          "orcid": "0000-0002-7581-1276",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Carpio",
+          "orcid": "0009-0003-5481-2653",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C. Oh",
+          "orcid": "0009-0001-7505-4754",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicola Morley",
+          "orcid": "0000-0002-7284-7978",
+          "affiliations": [
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AIP Advances",
+      "doi": "10.1063/9.0000657",
+      "type": "article",
+      "url": "https://doi.org/10.1063/9.0000657",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/9.0000657/18482810/015313_1_9.0000657.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Functional magnetic materials are used in a wide range of “green” applications, from wind turbines to magnetic refrigeration. Often the magnetic materials used contain expensive and/or scarce elements, making them unsuitable for long term solutions. Further, traditional material discovery is a slow and costly process, which can take over 10 years. Material informatics is a growing field, which combines informatics, machine learning (ML) and high-throughput experiments to rapidly discover new materials. To prove this concept, we have devised a material informatics workflow and demonstrated the core components of natural language processing (NLP) to extract data from research papers to create a functional magnetic material database, machine learning with semi-heuristic models to predict compositions of soft magnetic materials, and high-throughput experimental evaluation using combinatorial sputtering and high-throughput magneto-optic Kerr effect (MOKE) magnetometry. This material informatics workflow provides a quicker, cheaper route to functional magnetic materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Performance overview of caloric heat pumps: magnetocaloric, elastocaloric, electrocaloric and barocaloric systems: Update 2024",
+      "authors": [
+        "Hicham Johra"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Hicham Johra",
+          "orcid": "0000-0003-4177-9121",
+          "affiliations": [
+            "SINTEF",
+            "Aalborg University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": null,
+      "doi": "10.54337/aau747557298",
+      "type": "report",
+      "url": "https://doi.org/10.54337/aau747557298",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.54337/aau747557298",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": null,
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The aim of this technical report is to give an overview of the performance of different heating and cooling caloric systems: magnetocaloric, elastocaloric, electrocaloric and barocaloric heat pumps. The performance of these innovative caloric heat pump systems is compared with that of conventional vapour-compression heat pumps. This overview is built upon experimental and numerical data collected from 160 scientific publications and technical reports. The present technical report is an update of previous supplementary materials for the article “Innovative heating and cooling systems based on caloric effects: A review” presented at the CLIMA 2022 conference (REHVA 14th HVAC World Congress. 22-25 May 2022, Rotterdam, The Netherlands). New entries from scientific publications have been added, and a few typos and interpretation mistakes have been corrected compared to the previous version of the supplementary materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "POLYIE: A Dataset of Information Extraction from Polymer Material Scientific Literature",
+      "authors": [
+        "Jerry Junyang Cheung",
+        "Yuchen Zhuang",
+        "Yinghao Li",
+        "Pranav Shetty",
+        "Wantian Zhao",
+        "Sanjeev Grampurohit",
+        "Rampi Ramprasad",
+        "Chao Zhang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Jerry Junyang Cheung",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuchen Zhuang",
+          "orcid": "0000-0003-4641-894X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yinghao Li",
+          "orcid": "0009-0000-7926-8939",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pranav Shetty",
+          "orcid": "0000-0003-2015-9556",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wantian Zhao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sanjeev Grampurohit",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rampi Ramprasad",
+          "orcid": "0000-0003-0643-5606",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Zhang",
+          "orcid": "0000-0002-5583-0066",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+      "doi": "10.18653/v1/2024.naacl-long.131",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2024.naacl-long.131",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://aclanthology.org/2024.naacl-long.131.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Jerry Cheung, Yuchen Zhuang, Yinghao Li, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "High‐Throughput Design of Magnetocaloric Materials for Energy Applications: MM´X alloys",
+      "authors": [
+        "Nuno M. Fortunato",
+        "Andreas Taubel",
+        "Alberto Marmodoro",
+        "Lukas Pfeuffer",
+        "Ingo Ophale",
+        "Hebert Ebert",
+        "Oliver Gutfleisch",
+        "Hongbin Zhang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Nuno M. Fortunato",
+          "orcid": "0000-0002-9166-1626",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreas Taubel",
+          "orcid": "0000-0003-0844-2949",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto Marmodoro",
+          "orcid": "0000-0003-4174-9643",
+          "affiliations": [
+            "Czech Academy of Sciences",
+            "FZU - Institute of Physics of the Czech Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lukas Pfeuffer",
+          "orcid": "0000-0002-4371-982X",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ingo Ophale",
+          "orcid": null,
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hebert Ebert",
+          "orcid": null,
+          "affiliations": [
+            "Ludwig-Maximilians-Universität München"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oliver Gutfleisch",
+          "orcid": "0000-0001-8021-3839",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongbin Zhang",
+          "orcid": "0000-0002-1035-8861",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Science",
+      "doi": "10.1002/advs.202206772",
+      "type": "article",
+      "url": "https://doi.org/10.1002/advs.202206772",
+      "cited_by_count": 27,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202206772",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnetic refrigeration offers an energy efficient and environmental friendly alternative to conventional vapor-cooling. However, its adoption depends on materials with tailored magnetic and structural properties. Here a high-throughput computational workflow for the design of magnetocaloric materials is introduced. Density functional theory calculations are used to screen potential candidates in the family of MM'X (M/M' = metal, X = main group element) compounds. Out of 274 stable compositions, 46 magnetic compounds are found to stabilize in both an austenite and martensite phase. Following the concept of Curie temperature window, nine compounds are identified as potential candidates with structural transitions, by evaluating and comparing the structural phase transition and magnetic ordering temperatures. Additionally, the use of doping to tailor magnetostructural coupling for both known and newly predicted MM'X compounds is predicted and isostructural substitution as a general approach to engineer magnetocaloric materials is suggested.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Giant and highly anisotropic magnetocaloric effects in single crystals of disordered-perovskite RCr0.5Fe0.5O3 (R = Gd, Er)",
+      "authors": [
+        "Hyun Jun Shin",
+        "Jin Seok Kim",
+        "Ki Won Jeong",
+        "Jong Hyuk Kim",
+        "Nara Lee",
+        "Young Jai Choi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Hyun Jun Shin",
+          "orcid": null,
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jin Seok Kim",
+          "orcid": null,
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ki Won Jeong",
+          "orcid": null,
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jong Hyuk Kim",
+          "orcid": "0000-0002-0473-1543",
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nara Lee",
+          "orcid": "0000-0003-2592-3031",
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Young Jai Choi",
+          "orcid": null,
+          "affiliations": [
+            "Yonsei University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-023-34258-w",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-023-34258-w",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-023-34258-w.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Magnetic anisotropy is crucial in examining suitable materials for magnetic functionalities because it affects their magnetic characteristics. In this study, disordered-perovskite RCr0.5Fe0.5O3 (R = Gd, Er) single crystals were synthesized and the influence of magnetic anisotropy and additional ordering of rare-earth moments on cryogenic magnetocaloric properties was investigated. Both GdCr0.5Fe0.5O3 (GCFO) and ErCr0.5Fe0.5O3 (ECFO) crystallize in an orthorhombic Pbnm structure with randomly distributed Cr3+ and Fe3+ ions. In GCFO, the long-range order of Gd3+ moments emerges at a temperature of TGd (the ordering temperature of Gd3+ moments) = 12 K. The relatively isotropic nature of large Gd3+ moment originating from zero orbital angular momentum exhibits giant and virtually isotropic magnetocaloric effect (MCE), with a maximum magnetic entropy change of $$\\Delta {S}_{M}$$ Δ S M ≈ 50.0 J/kg·K. In ECFO, the highly anisotropic magnetizations result in a large rotating MCE characterized by a rotating magnetic entropy change $$\\Delta {S}_{\\theta }$$ Δ S θ = 20.8 J/kg·K. These results indicate that a detailed understanding of magnetically anisotropic characteristics is the key for exploring improved functional properties in disordered perovskite oxides.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "High-throughput design of all-d-metal Heusler alloys for magnetocaloric applications",
+      "authors": [
+        "Nuno M. Fortunato",
+        "Xiaoqing Li",
+        "Stephan Schönecker",
+        "Ruiwen Xie",
+        "Andreas Taubel",
+        "Franziska Scheibel",
+        "Ingo Opahle",
+        "Oliver Gutfleisch",
+        "Hongbin Zhang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Nuno M. Fortunato",
+          "orcid": "0000-0002-9166-1626",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoqing Li",
+          "orcid": "0000-0002-4322-7737",
+          "affiliations": [
+            "KTH Royal Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stephan Schönecker",
+          "orcid": "0000-0001-9317-6205",
+          "affiliations": [
+            "KTH Royal Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruiwen Xie",
+          "orcid": "0000-0002-7421-9203",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andreas Taubel",
+          "orcid": "0000-0003-0844-2949",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Franziska Scheibel",
+          "orcid": "0000-0001-7981-0871",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ingo Opahle",
+          "orcid": null,
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Oliver Gutfleisch",
+          "orcid": "0000-0001-8021-3839",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongbin Zhang",
+          "orcid": "0000-0002-1035-8861",
+          "affiliations": [
+            "Technische Universität Darmstadt"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "TUbilio (Technical University of Darmstadt)",
+      "doi": "10.48550/arxiv.2306.17092",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2306.17092",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2306.17092",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Due to their versatile composition and customizable properties, A$_2$BC Heusler alloys have found applications in magnetic refrigeration, magnetic shape memory effects, permanent magnets, and spintronic devices. The discovery of all-$d$-metal Heusler alloys with improved mechanical properties compared to those containing main group elements, presents an opportunity to engineer Heuslers alloys for energy-related applications. Using high-throughput density functional theory calculations, we screened magnetic all-$d$-metal Heusler compounds and identified 686 (meta)stable compounds. Our detailed analysis revealed that the inverse Heusler structure is preferred when the electronegativity difference between the A and B/C atoms is small, contrary to conventional Heusler alloys. Additionally, our calculations of Pugh ratios and Cauchy pressures demonstrated that ductile and metallic bonding are widespread in all-$d$-metal Heuslers, supporting their enhanced mechanical behaviour. We identified 49 compounds with a double-well energy surface based on Bain path calculations and magnetic ground states, indicating their potential as candidates for magnetocaloric and shape memory applications. Furthermore, by calculating the free energies, we propose that 11 compounds exhibit structural phase transitions, and propose isostructural substitution to enhance the magnetocaloric effect.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Physics-Informed Machine-Learning Prediction of Curie Temperatures and Its Promise for Guiding the Discovery of Functional Magnetic Materials",
+      "authors": [
+        "Prashant Kumar Singh",
+        "Tyler J. Del Rose",
+        "Andriy M. Palasyuk",
+        "Yaroslav Mudryk"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Prashant Kumar Singh",
+          "orcid": "0000-0002-3460-9290",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tyler J. Del Rose",
+          "orcid": "0000-0001-6931-8437",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andriy M. Palasyuk",
+          "orcid": "0000-0003-3793-2066",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yaroslav Mudryk",
+          "orcid": "0000-0003-2658-0413",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.3c00892",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.3c00892",
+      "cited_by_count": 40,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.osti.gov/servlets/purl/1993982",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "High-performance permanent magnets with a high Curie temperature, containing less critical materials, are integral to zero-carbon energy solutions. We built a machine-learning model trained over available experimentally measured Curie temperature values to predict the T C of multicomponent magnetic materials. We chose two compositions from a pseudo-binary (Zr 1– x Ce x )Fe 2 system, namely, (Zr 0.16 Ce 0.84 )Fe 2 and (Zr 0.94 Ce 0.06 )Fe 2, to experimentally validate the ability of our model to predict the Curie temperature of novel compounds. We also provided a detailed discussion on the correlation of the Curie temperature with the de Gennes scaling factor in rare-earth intermetallic compounds and its breakdown below a certain rare-earth content. The electronic structure calculations (density of states and Fermi surface) were performed using the density functional theory on selected compounds (Zr 0.16 Ce 0.84 )Fe 2 and (Zr 0.94 Ce 0.06 )Fe 2 to understand the electronic origin of a strong magnetic exchange. We found that the change in the electronic density of states and electron/hole fillings at the Fermi level directly correlate with the Curie temperature. Notably, our model was able to capture these key electronic structure trends, which show that physics-informed machine learning can play a crucial role in designing new high-performance magnets with improved properties for environmentally sustainable applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature",
+      "authors": [
+        "Jerry Junyang Cheung",
+        "Yuchen Zhuang",
+        "Yinghao Li",
+        "Pranav Shetty",
+        "Wantian Zhao",
+        "Sanjeev Grampurohit",
+        "Rampi Ramprasad",
+        "Chao Zhang"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Jerry Junyang Cheung",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuchen Zhuang",
+          "orcid": "0000-0003-4641-894X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yinghao Li",
+          "orcid": "0009-0000-7926-8939",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pranav Shetty",
+          "orcid": "0000-0003-2015-9556",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wantian Zhao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sanjeev Grampurohit",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rampi Ramprasad",
+          "orcid": "0000-0003-0643-5606",
+          "affiliations": [
+            "Georgia Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Zhang",
+          "orcid": "0000-0003-3009-598X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2311.07715",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2311.07715",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2311.07715",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Scientific information extraction (SciIE), which aims to automatically extract information from scientific literature, is becoming more important than ever. However, there are no existing SciIE datasets for polymer materials, which is an important class of materials used ubiquitously in our daily lives. To bridge this gap, we introduce POLYIE, a new SciIE dataset for polymer materials. POLYIE is curated from 146 full-length polymer scholarly articles, which are annotated with different named entities (i.e., materials, properties, values, conditions) as well as their N-ary relations by domain experts. POLYIE presents several unique challenges due to diverse lexical formats of entities, ambiguity between entities, and variable-length relations. We evaluate state-of-the-art named entity extraction and relation extraction models on POLYIE, analyze their strengths and weaknesses, and highlight some difficult cases for these models. To the best of our knowledge, POLYIE is the first SciIE benchmark for polymer materials, and we hope it will lead to more research efforts from the community on this challenging task. Our code and data are available on: https://github.com/jerry3027/PolyIE.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "Anisotropic magnetic property, magnetostriction, and giant magnetocaloric effect with plateau behavior in TbMn2Ge2 single crystal",
+      "authors": [
+        "Shuai Huang",
+        "Yuming Bai",
+        "Kaiqi Wan",
+        "Changming Zhu",
+        "Dexuan Huo",
+        "Zhaoming Tian"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Shuai Huang",
+          "orcid": "0000-0002-2587-8501",
+          "affiliations": [
+            "Guangxi Normal University",
+            "Hangzhou Dianzi University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuming Bai",
+          "orcid": "0000-0003-2678-634X",
+          "affiliations": [
+            "Huazhong University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kaiqi Wan",
+          "orcid": null,
+          "affiliations": [
+            "Hangzhou Dianzi University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changming Zhu",
+          "orcid": "0000-0001-8747-8928",
+          "affiliations": [
+            "Guangxi Normal University",
+            "Hangzhou Dianzi University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dexuan Huo",
+          "orcid": "0000-0003-1888-1726",
+          "affiliations": [
+            "Hangzhou Dianzi University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhaoming Tian",
+          "orcid": "0000-0001-6538-3311",
+          "affiliations": [
+            "Huazhong University of Science and Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-022-23661-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-022-23661-4",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-022-23661-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The ternary RMn2Ge2 (R = rare earth) intermetallic compounds have attracted great attention due to their interesting magnetic behaviors and magnetotransport responses. Here, we reported our observation of anisotropic magnetic property, magnetostriction, and magnetocaloric effect (MCE) in TbMn2Ge2 single crystal. Below the transition temperature of Tb magnetic sublattices ( $$T_{{\\text{C}}}^{{{\\text{Tb}}}}$$ T C Tb ~ 95 K), strong Ising-like magnetocrystalline anisotropy is observed with an out-of-plane ferromagnetic moments 5.98 μB/f.u. along the easy c axis, which is two orders of magnitude larger than that of field along a axis. Above $$T_{{\\text{C}}}^{{{\\text{Tb}}}}$$ T C Tb , a field-induced metamagnetic transition is observed from the spin-flip of Mn sublattices. During this transition, remarkable magnetostriction effect is observed, indicating of strong spin–lattice coupling. The responses of Tb and Mn sublattices to the magnetic field generate a giant magnetic entropy change ( $$- \\Delta S_{M}$$ - Δ S M ) and large values of relative cooling power (RCP) and temperature-averaged entropy change (TEC). The calculated maximum magnetic entropy change ( $$- \\Delta S_{M}^{\\max }$$ - Δ S M max ), RCP, and TEC(10) with magnetic field change of 7 T along c axis reach 24.02 J kg−1 K−1, 378.4 J kg−1, and 21.39 J kg−1 K−1 near $$T_{{\\text{C}}}^{{{\\text{Tb}}}}$$ T C Tb , which is the largest among RMn2Ge2 families. More importantly, this giant MCE shows plateau behavior with wide window temperatures from 93 to 108 K, making it be an attractive candidate for magnetic refrigeration applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Machine learning predicted magnetic entropy change using chemical descriptors across a large compositional landscape",
+      "authors": [
+        "Huseyin Ucar",
+        "Durga Paudyal",
+        "Kamal Kumar Choudhary"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Huseyin Ucar",
+          "orcid": "0000-0002-1063-0722",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory",
+            "California State Polytechnic University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Durga Paudyal",
+          "orcid": "0000-0002-0060-0220",
+          "affiliations": [
+            "United States Department of Energy",
+            "Iowa State University",
+            "Ames National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Theiss Research",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2022.111414",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2022.111414",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0927025622001835/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Magnetocaloric refrigeration has drawn considerable attention in the last few decades as it can positively disrupt the current cooling technology. Most research efforts focus on developing new magnetic materials in the laboratory by trial and error. Here we report a materials dataset developed using past experimental work comprising several important magnetocaloric material classes such as La(Fe,Si/Al)13, heusler alloys, manganites, Gd5(Si,Ge)4 family, rare-earth and metallic glasses as well as Laves phase compounds with their reported magnetic entropy changes, -ΔSM(T,H). Notable linear and non-linear machine learning models are implemented to predict the -ΔSM(T,H) of materials. Our analyses indicate that the Random Forest model outperforms the others with R2 of 0.82. We then use this model to screen a large magnetic materials database with nearly 40,000 compounds to identify potential new magnetocaloric materials operating near room temperature. MnGa2Sb2, CrGa2Sb2, SbSCl0.1I0.9, Sm3Te4, LaRhSn, SbSI, Tl0.58Rb0.42Fe1.72Se2, Cs0.86Fe1.66Se2, La2.1MnGe2.2 are some of the newly predicted compounds that could yield large magnetocaloric cooling performance.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Near-atomic scale chemical analysis of interfaces in a La(Fe,Mn,Si)13-based magnetocaloric material",
+      "authors": [
+        "Siyang Wang",
+        "James O. Douglas",
+        "Edmund Lovell",
+        "Neil Wilson",
+        "Liya Guo",
+        "Baptiste Gault",
+        "Mary P. Ryan",
+        "Finn Giuliani"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Siyang Wang",
+          "orcid": "0000-0002-2753-1464",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James O. Douglas",
+          "orcid": "0000-0002-5998-4548",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Edmund Lovell",
+          "orcid": null,
+          "affiliations": [
+            "Camfridge (United Kingdom)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Neil Wilson",
+          "orcid": "0000-0003-3250-5647",
+          "affiliations": [
+            "Camfridge (United Kingdom)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liya Guo",
+          "orcid": "0000-0002-3268-9960",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Baptiste Gault",
+          "orcid": "0000-0002-4934-0458",
+          "affiliations": [
+            "Max Planck Society",
+            "Max-Planck-Institut für Nachhaltige Materialien",
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mary P. Ryan",
+          "orcid": "0000-0001-8582-3003",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Finn Giuliani",
+          "orcid": "0000-0002-0259-934X",
+          "affiliations": [
+            "Imperial College London"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scripta Materialia",
+      "doi": "10.1016/j.scriptamat.2022.115143",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.scriptamat.2022.115143",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1359646222006388-ga1_lrg.jpg",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "La(Fe,Mn,Si)13-based magnetocaloric materials are one of the most promising material families for the realisation of near-room temperature magnetic refrigeration. The functional and mechanical properties of these materials crucially depend on their chemistry, which is difficult to control at interfaces between microstructural units. Atom probe tomography was employed to reveal the local elemental distribution at the α-Fe/1:13 phase boundary and the 1:13/1:13 grain boundary. Strong Mn segregation (and Fe depletion) at the α-Fe/1:13 phase boundary suggests the potential effect of phase boundary area on the Curie temperature of the material. A local off-1:13 stoichiometry layer at the 1:13/1:13 grain boundary may adversely affect the magnetocaloric performance. Routes to mitigate the negative effects of interfaces on the functional and mechanical performance of these materials are discussed, in order to achieve durable and efficient operation of magnetic cooling devices.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Recent advances and applications of deep learning methods in materials science",
+      "authors": [
+        "Kamal Kumar Choudhary",
+        "Brian DeCost",
+        "Chi Chen",
+        "Anubhav Jain",
+        "Francesca Tavazza",
+        "Ryan Cohn",
+        "Cheol Woo Park",
+        "Alok Choudhary",
+        "Ankit Agrawal",
+        "Simon J. L. Billinge",
+        "Elizabeth A. Holm",
+        "Shyue Ping Ong",
+        "Chris M. Wolverton"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Theiss Research"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Brian DeCost",
+          "orcid": "0000-0002-3459-5888",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chi Chen",
+          "orcid": "0000-0001-8008-7043",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anubhav Jain",
+          "orcid": "0000-0001-5893-9967",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Francesca Tavazza",
+          "orcid": "0000-0002-5602-180X",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryan Cohn",
+          "orcid": "0000-0002-7898-0059",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheol Woo Park",
+          "orcid": "0000-0002-9262-7710",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alok Choudhary",
+          "orcid": "0000-0001-8152-6319",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ankit Agrawal",
+          "orcid": "0000-0002-5519-0302",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon J. L. Billinge",
+          "orcid": "0000-0002-9734-4998",
+          "affiliations": [
+            "Columbia University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elizabeth A. Holm",
+          "orcid": "0000-0003-3064-5769",
+          "affiliations": [
+            "Carnegie Mellon University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shyue Ping Ong",
+          "orcid": "0000-0001-5726-2587",
+          "affiliations": [
+            "University of California San Diego"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris M. Wolverton",
+          "orcid": "0000-0003-2248-474X",
+          "affiliations": [
+            "Northwestern University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-022-00734-6",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-022-00734-6",
+      "cited_by_count": 1172,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-022-00734-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Deep learning (DL) is one of the fastest-growing topics in materials data science, with rapidly emerging applications spanning atomistic, image-based, spectral, and textual data modalities. DL allows analysis of unstructured data and automated identification of features. The recent development of large materials databases has fueled the application of DL methods in atomistic prediction in particular. In contrast, advances in image and spectral data have largely leveraged synthetic data enabled by high-quality forward models as well as by generative unsupervised DL methods. In this article, we present a high-level overview of deep learning methods followed by a detailed discussion of recent developments of deep learning in atomistic simulation, materials imaging, spectral analysis, and natural language processing. For each modality we discuss applications involving both theoretical and experimental data, typical modeling approaches with their strengths and limitations, and relevant publicly available software and datasets. We conclude the review with a discussion of recent cross-cutting work related to uncertainty quantification in this field and a brief perspective on limitations, challenges, and potential growth areas for DL methods in materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "A database of refractive indices and dielectric constants auto-generated using ChemDataExtractor",
+      "authors": [
+        "Jiuyang Zhao",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Jiuyang Zhao",
+          "orcid": "0000-0002-2561-352X",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-022-01295-5",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-022-01295-5",
+      "cited_by_count": 46,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-022-01295-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The ability to auto-generate databases of optical properties holds great potential for advancing optical research, especially with regards to the data-driven discovery of optical materials. An optical property database of refractive indices and dielectric constants is presented, which comprises a total of 49,076 refractive index and 60,804 dielectric constant data records on 11,054 unique chemicals. The database was auto-generated using the state-of-the-art natural language processing software, ChemDataExtractor, using a corpus of 388,461 scientific papers. The data repository offers a representative overview of the information on linear optical properties that resides in scientific papers from the past 30 years. Public availability of these data will enable a quick search for the optical property of certain materials. The large size of this repository will accelerate data-driven research on the design and prediction of optical materials and their properties. To the best of our knowledge, this is the first auto-generated database of optical properties from a large number of scientific papers. We provide a web interface to aid the use of our database.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "A machine learning approach to predict the structural and magnetic properties of Heusler alloy families",
+      "authors": [
+        "Srimanta Mitra",
+        "Aquil Ahmad",
+        "Sajib Biswas",
+        "A. K. Das"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Srimanta Mitra",
+          "orcid": "0000-0003-2146-4827",
+          "affiliations": [
+            "Indian Space Research Organisation",
+            "Indian Institute of Technology Kharagpur",
+            "Space Applications Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aquil Ahmad",
+          "orcid": "0000-0003-2977-4782",
+          "affiliations": [
+            "National Changhua University of Education"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sajib Biswas",
+          "orcid": "0000-0002-1677-6554",
+          "affiliations": [
+            "Indian Institute of Technology Kharagpur"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. K. Das",
+          "orcid": "0000-0001-8900-0725",
+          "affiliations": [
+            "Indian Institute of Technology Kharagpur"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Computational Materials Science",
+      "doi": "10.1016/j.commatsci.2022.111836",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.commatsci.2022.111836",
+      "cited_by_count": 25,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2208.12705",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Early diagnosis of lung cancer using magnetic nanoparticles-integrated systems",
+      "authors": [
+        "Ayushi Rastogi",
+        "Kanchan Yadav",
+        "Archana Mishra",
+        "Manu Smriti Singh",
+        "Shilpi Chaudhary",
+        "Rajiv Manohar",
+        "Avanish Singh Parmar"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Ayushi Rastogi",
+          "orcid": "0000-0003-3953-8548",
+          "affiliations": [
+            "University of Lucknow"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kanchan Yadav",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Technology BHU"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Archana Mishra",
+          "orcid": "0000-0002-7590-5846",
+          "affiliations": [
+            "Bhabha Atomic Research Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manu Smriti Singh",
+          "orcid": "0000-0003-3068-9884",
+          "affiliations": [
+            "Bennett University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shilpi Chaudhary",
+          "orcid": "0000-0002-7349-1248",
+          "affiliations": [
+            "Punjab Engineering College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rajiv Manohar",
+          "orcid": "0000-0002-7441-8042",
+          "affiliations": [
+            "University of Lucknow"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Avanish Singh Parmar",
+          "orcid": "0000-0003-1378-2438",
+          "affiliations": [
+            "Indian Institute of Technology BHU"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nanotechnology Reviews",
+      "doi": "10.1515/ntrev-2022-0032",
+      "type": "article",
+      "url": "https://doi.org/10.1515/ntrev-2022-0032",
+      "cited_by_count": 45,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.degruyter.com/document/doi/10.1515/ntrev-2022-0032/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Lung cancer (LC) has high morbidity and fatality rate that can be attributed to its poor diagnostic and monitoring facilities. Hence, there is a need to design advanced detection and monitoring systems to facilitate fast, efficient, and early diagnosis. The emerging research on novel nanotechnology-based strategies and conceptual models has made early-stage detection of LC possible by employing magnetic nanoparticles (MNPs) to surmount the barriers of slow diagnostic efficiency. Herein, the emphasis is on the recent advancement of MNP-based detection and monitoring systems for LC diagnosis, and future perspectives in the current scenario are discussed. The integration of MNP-based advanced diagnostic tools (microfluidic chips, artificial intelligence, biosensors, biomarkers detection, machine learning, nanotheranostics, deep learning, and internet of things platform) with conventional ones bronchoscopy, computed tomography scan, positron emission tomography, distant metastases, transthoracic biopsy, and magnetic resonance imaging might help to resolve current challenges related to early diagnosis of LC.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Promises and perils of computational materials databases",
+      "authors": [
+        "Matthew K. Horton",
+        "Shyam Dwaraknath",
+        "Kristin Aslaug Persson"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Matthew K. Horton",
+          "orcid": "0000-0001-7777-8871",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shyam Dwaraknath",
+          "orcid": "0000-0003-0289-2607",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kristin Aslaug Persson",
+          "orcid": "0000-0003-2495-5509",
+          "affiliations": [
+            "Lawrence Berkeley National Laboratory",
+            "Molecular Foundry",
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Computational Science",
+      "doi": "10.1038/s43588-020-00016-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s43588-020-00016-5",
+      "cited_by_count": 45,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.nature.com/articles/s43588-020-00016-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Optimization of Materials for Magnetic Refrigeration and Thermomagnetic Power Generation",
+      "authors": [
+        "Anthony N. Tantillo"
+      ],
+      "year": 2021,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "CUNY Academic Works (City University of New York)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://academicworks.cuny.edu/gc_etds/4350",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The magnetocaloric effect, by which a magnetic material experiences a change in temperature due to an applied magnetic field, can be used for refrigeration. The corollary to the magnetocaloric effect -- known as the pyromagnetic effect -- is the phenomenon by which a magnetic material experiences a thermally-induced change in magnetization that can be used to harvest thermal energy. This dissertation has two main parts: one focusing on novel materials for energy harvesting; and another focusing on methods of materials discovery for refrigeration purposes. Thermomagnetic power generation (TMG) is the process by which magnetic flux, which comes from a temperature-driven change of magnetization, is converted into usable energy. The first part of this dissertation investigates the ways in which magnetically hard materials, which have strong magnetic anisotropy and non-zero magnetic remanence, can be incorporated into TMG cycles in order to expand the area of M-H plane available for energy conversion. Two cases are considered: (i) hard ferrite magnets as the functional material for a two-quadrant TMG cycle; (ii) and a hard magnet applying a bias eld to a soft functional material, thus opening the second quadrant of the M-H plane. Experiments on commercially available hard ferrites reveal that these materials are not yet good TMG candidates, but hard magnets with higher thermal conductivity and a greater change of magnetization with temperature could outperform existing TMG materials. Computational results using Radia indicate that biasing a soft magnet with a hard magnet is essentially equivalent to shifting the M-H loop by an amount proportional to the field of the biasing magnet. In the case of polycrystalline gadolinium, the work output increases from 13.6 J/kg without a bias field to 33.6 J/kg with a bias field for the same temperature range, but experimental verification is needed. High-throughput workflows, guided by machine learning and other statistical methods in material informatics, are essential to streamlining the process of screening new possible materials, making the experimental process as targeted and efficient as possible. The second part of this dissertation describes two approaches to materials screening based on simulated data. The first approach is a modification of the screening method of Bocarsly et al., wherein lattice deformation across the magnetic phase transition (magnetic deformation) was computed based on the difference between unit cell dimension lengths with and without magnetic interactions in models based on density function theory (DFT). The addition of a phenomenological parameter, calculated from the electronic density of states available from the Materials Project, can enhance the prediction of magnetic eld-induced entropy change, Sm, with nearly 60% better mean squared error than using magnetic deformation alone. A method of scraping the Materials Project database for DFT results on magnetically ordered compounds using the pymatgen open-source Python library is presented. By analyzing the electronic density of states, computed unit cell volume and other parameters obtained through the Materials Project database for over 20,000 materials, a data subset is compiled to propose directions for magnetocaloric material research. Finally, a computational approach is established to discern between compositions which undergo a magnetic first-order phase transition (FOPT) and second-order phase transition (SOPT) across two different doping schemes in the La-Fe-Si family of compounds. One potential categorization scheme uses the Frechet distance [7] as a metric for the similarity between the non-magnetic (NM) and ferromagnetic (FM) density of states (DOS). Another possible implementation considers the deviation of the difference between the NM and FM DOS upon resolving for the shift between the NM and FM DOS curves. The Frechet distance method provides a clear delineation between materials in the La-Fe-Si compound family which undergo a FOPT versus a SOPT across both doping schemes considered. When the majority-spin electronic DOS are appropriately scaled, the critical Frechet distance is near 0.77. These results present a promising new avenue of phase transition prediction based on DFT calculations.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Machine learning for perovskite materials design and discovery",
+      "authors": [
+        "Qiuling Tao",
+        "Pengcheng Xu",
+        "Minjie Li",
+        "Wencong Lu"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Qiuling Tao",
+          "orcid": "0000-0002-0652-4791",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pengcheng Xu",
+          "orcid": "0000-0002-5231-877X",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minjie Li",
+          "orcid": "0000-0001-5048-6211",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wencong Lu",
+          "orcid": "0000-0001-5361-6122",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-021-00495-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-021-00495-8",
+      "cited_by_count": 543,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-021-00495-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of materials is one of the driving forces to accelerate modern scientific progress and technological innovation. Machine learning (ML) technology is rapidly developed in many fields and opening blueprints for the discovery and rational design of materials. In this review, we retrospected the latest applications of ML in assisting perovskites discovery. First, the development tendency of ML in perovskite materials publications in recent years was organized and analyzed. Second, the workflow of ML in perovskites discovery was introduced. Then the applications of ML in various properties of inorganic perovskites, hybrid organic–inorganic perovskites and double perovskites were briefly reviewed. In the end, we put forward suggestions on the future development prospects of ML in the field of perovskite materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "Chemically Controllable Magnetic Transition Temperature and Magneto‐Elastic Coupling in MnZnSb Compounds",
+      "authors": [
+        "Philip A. E. Murgatroyd",
+        "Kieran Routledge",
+        "Samantha Durdy",
+        "Michael W. Gaultois",
+        "Todd Wesley Surta",
+        "Matthew Stephen Dyer",
+        "John B. Claridge",
+        "Stanislav N. Savvin",
+        "D. Pelloquin",
+        "S. Hébert",
+        "Jonathan Alaria"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Philip A. E. Murgatroyd",
+          "orcid": "0000-0001-5184-7218",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kieran Routledge",
+          "orcid": "0000-0003-0755-7752",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samantha Durdy",
+          "orcid": "0000-0003-3742-2306",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael W. Gaultois",
+          "orcid": "0000-0003-2172-2507",
+          "affiliations": [
+            "University of Liverpool",
+            "Leverhulme Research Centre for Functional Materials Design"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Todd Wesley Surta",
+          "orcid": "0000-0002-2882-6483",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Stephen Dyer",
+          "orcid": "0000-0002-4923-3003",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "John B. Claridge",
+          "orcid": "0000-0003-4849-6714",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stanislav N. Savvin",
+          "orcid": "0000-0002-2541-909X",
+          "affiliations": [
+            "Institut Laue-Langevin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "D. Pelloquin",
+          "orcid": "0000-0001-8381-9318",
+          "affiliations": [
+            "Laboratoire de Cristallographie et Sciences des Matériaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S. Hébert",
+          "orcid": "0000-0001-7412-2367",
+          "affiliations": [
+            "Laboratoire de Cristallographie et Sciences des Matériaux"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jonathan Alaria",
+          "orcid": "0000-0001-5868-0318",
+          "affiliations": [
+            "University of Liverpool"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.202100108",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adfm.202100108",
+      "cited_by_count": 18,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.202100108",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Magneto‐caloric materials offer the possibility to design environmentally friendlier thermal management devices compared to the widely used gas‐based systems. The challenges to develop this solid‐state based technology lie in the difficulty of finding materials presenting a large magneto‐caloric effect over a broad temperature span together with suitable secondary application parameters such as low heat capacity and high thermal conductivity. A series of compounds derived from the PbFCl structure is investigated using a combination of computational and experimental methods focusing on the change of cell volume in magnetic and non‐magnetic ground states. Scaling analysis of the magnetic properties determines that they are second order phase transition ferromagnets and that the magnetic entropy change is driven by the coupling of magneto‐elastic strain in the square‐net through the magnetic transition determined from neutron and synchrotron X‐ray diffraction. The primary and secondary application related properties are measured experimentally, and the c/a parameter is identified as an accurate proxy to control the magnetic transition. Chemical substitution on the square‐net affords tuning of the Curie temperature over a broad temperature span between 252 and 322 K. A predictive machine learning model for the c/a parameter is developed to guide future exploratory synthesis.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Artificial intelligence for search and discovery of quantum materials",
+      "authors": [
+        "Valentin Stanev",
+        "Kamal Kumar Choudhary",
+        "Aaron Gilad Kusne",
+        "Johnpierre Paglione",
+        "Ichiro Takeuchi"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Valentin Stanev",
+          "orcid": "0000-0001-6129-133X",
+          "affiliations": [
+            "Maryland Quantum Materials Center",
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kamal Kumar Choudhary",
+          "orcid": "0000-0001-9737-8074",
+          "affiliations": [
+            "National Institute of Standards and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aaron Gilad Kusne",
+          "orcid": "0000-0001-8904-2087",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Johnpierre Paglione",
+          "orcid": "0000-0001-7257-014X",
+          "affiliations": [
+            "Canadian Institute for Advanced Research",
+            "Maryland Quantum Materials Center",
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ichiro Takeuchi",
+          "orcid": "0000-0003-2625-0553",
+          "affiliations": [
+            "Maryland Quantum Materials Center",
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Communications Materials",
+      "doi": "10.1038/s43246-021-00209-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s43246-021-00209-z",
+      "cited_by_count": 68,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s43246-021-00209-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Artificial intelligence and machine learning are becoming indispensable tools in many areas of physics, including astrophysics, particle physics, and climate science. In the arena of quantum materials, the rise of new experimental and computational techniques has increased the volume and the speed with which data are collected, and artificial intelligence is poised to impact the exploration of new materials such as superconductors, spin liquids, and topological insulators. This review outlines how the use of data-driven approaches is changing the landscape of quantum materials research. From rapid construction and analysis of computational and experimental databases to implementing physical models as pathfinding guidelines for autonomous experiments, we show that artificial intelligence is already well on its way to becoming the lynchpin in the search and discovery of quantum materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Materials discovery through machine learning formation energy",
+      "authors": [
+        "Gordon G. C. Peterson",
+        "Jakoah Brgoch"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Gordon G. C. Peterson",
+          "orcid": "0000-0003-3638-8652",
+          "affiliations": [
+            "University of Houston"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jakoah Brgoch",
+          "orcid": "0000-0002-1406-1352",
+          "affiliations": [
+            "University of Houston"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Physics Energy",
+      "doi": "10.1088/2515-7655/abe425",
+      "type": "article",
+      "url": "https://doi.org/10.1088/2515-7655/abe425",
+      "cited_by_count": 79,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://iopscience.iop.org/article/10.1088/2515-7655/abe425/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The budding field of materials informatics has coincided with a shift towards artificial intelligence to discover new solid-state compounds. The steady expansion of repositories for crystallographic and computational data has set the stage for developing data-driven models capable of predicting a bevy of physical properties. Machine learning methods, in particular, have already shown the ability to identify materials with near ideal properties for energy-related applications by screening crystal structure databases. However, examples of the data-guided discovery of entirely new, never-before-reported compounds remain limited. The critical step for determining if an unknown compound is synthetically accessible is obtaining the formation energy and constructing the associated convex hull. Fortunately, this information has become widely available through density functional theory (DFT) data repositories to the point that they can be used to develop machine learning models. In this Review, we discuss the specific design choices for developing a machine learning model capable of predicting formation energy, including the thermodynamic quantities governing material stability. We investigate several models presented in the literature that cover various possible architectures and feature sets and find that they have succeeded in uncovering new DFT-stable compounds and directing materials synthesis. To expand access to machine learning models for synthetic solid-state chemists, we additionally present MatLearn . This web-based application is intended to guide the exploration of a composition diagram towards regions likely to contain thermodynamically accessible inorganic compounds. Finally, we discuss the future of machine-learned formation energy and highlight the opportunities for improved predictive power toward the synthetic realization of new energy-related materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Machine-learning-guided discovery of the gigantic magnetocaloric effect in HoB2 near the hydrogen liquefaction temperature",
+      "authors": [
+        "Pedro Baptista de Castro",
+        "Kensei Terashima",
+        "Takafumi D. Yamamoto",
+        "Zhufeng Hou",
+        "Suguru Iwasaki",
+        "Ryo Matsumoto",
+        "Shintaro Adachi",
+        "Yoshito Saito",
+        "Peng Song",
+        "Hiroyuki Takeya",
+        "Yoshihiko Takano"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Pedro Baptista de Castro",
+          "orcid": "0000-0001-8673-2840",
+          "affiliations": [
+            "University of Tsukuba",
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kensei Terashima",
+          "orcid": "0000-0003-0375-3043",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Takafumi D. Yamamoto",
+          "orcid": "0000-0002-7762-9670",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhufeng Hou",
+          "orcid": "0000-0002-0069-5573",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fujian Institute of Research on the Structure of Matter",
+            "State Key Laboratory of Structural Chemistry"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Suguru Iwasaki",
+          "orcid": null,
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryo Matsumoto",
+          "orcid": "0000-0001-6294-5403",
+          "affiliations": [
+            "University of Tsukuba",
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shintaro Adachi",
+          "orcid": "0000-0002-5165-5088",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshito Saito",
+          "orcid": "0000-0001-8973-8033",
+          "affiliations": [
+            "University of Tsukuba",
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Peng Song",
+          "orcid": "0000-0002-9918-2734",
+          "affiliations": [
+            "University of Tsukuba",
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroyuki Takeya",
+          "orcid": "0000-0001-9445-4705",
+          "affiliations": [
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshihiko Takano",
+          "orcid": "0000-0002-1541-6928",
+          "affiliations": [
+            "University of Tsukuba",
+            "National Institute for Materials Science"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "NPG Asia Materials",
+      "doi": "10.1038/s41427-020-0214-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41427-020-0214-y",
+      "cited_by_count": 169,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41427-020-0214-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Magnetic refrigeration exploits the magnetocaloric effect, which is the entropy change upon the application and removal of magnetic fields in materials, providing an alternate path for refrigeration other than conventional gas cycles. While intensive research has uncovered a vast number of magnetic materials that exhibit a large magnetocaloric effect, these properties remain unknown for a substantial number of compounds. To explore new functional materials in this unknown space, machine learning is used as a guide for selecting materials that could exhibit a large magnetocaloric effect. By this approach, HoB 2 is singled out and synthesized, and its magnetocaloric properties are evaluated, leading to the experimental discovery of a gigantic magnetic entropy change of 40.1 J kg −1 K −1 (0.35 J cm −3 K −1 ) for a field change of 5 T in the vicinity of a ferromagnetic second-order phase transition with a Curie temperature of 15 K. This is the highest value reported so far, to the best of our knowledge, near the hydrogen liquefaction temperature; thus, HoB 2 is a highly suitable material for hydrogen liquefaction and low-temperature magnetic cooling applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Structural, Magnetic, Magnetocaloric, and Magnetostrictive Properties of Pb1-xSr x MnBO4 ( x = 0, 0.5, and 1.0)",
+      "authors": [
+        "Jake Head",
+        "Pascal Manuel",
+        "Fabio Orlandi",
+        "Minki Jeong",
+        "M. R. Lees",
+        "Rukang K. Li",
+        "Colin Greaves"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Jake Head",
+          "orcid": "0000-0003-3987-4146",
+          "affiliations": [
+            "University of Birmingham"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pascal Manuel",
+          "orcid": "0000-0002-8845-6576",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fabio Orlandi",
+          "orcid": "0000-0001-6333-521X",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minki Jeong",
+          "orcid": "0000-0003-0669-1386",
+          "affiliations": [
+            "University of Birmingham"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "M. R. Lees",
+          "orcid": "0000-0002-2270-2295",
+          "affiliations": [
+            "University of Warwick"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rukang K. Li",
+          "orcid": "0000-0002-0230-0029",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Technical Institute of Physics and Chemistry",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Colin Greaves",
+          "orcid": "0000-0002-9568-3697",
+          "affiliations": [
+            "University of Birmingham"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chemistry of Materials",
+      "doi": "10.1021/acs.chemmater.0c03701",
+      "type": "article",
+      "url": "https://doi.org/10.1021/acs.chemmater.0c03701",
+      "cited_by_count": 25,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.0c03701",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The solid solution Pb1-xSrxMnBO4 is reported with an orthorhombic, Pnma, structure throughout; here studies on compounds with x = 0, 0.5, and 1 are described. The structure contains chains of MnO6 octahedra that exhibit intra-chain ferromagnetic (FM) order at low temperatures. Neutron powder diffraction (NPD) reveals a dominant FM order in PbMnBO4 (Tc = 30 K), whereas SrMnBO4 is primarily antiferromagnetic (AFM) with TN = 16 K; the difference is related to the link between the chains that involves the BO3 groups. PbMnBO4 has its moment along a but also has a previously unreported AFM contribution along c (magnetic space group Pnm′a′), whereas SrMnBO4 has its moment along a but also a FM canting along c (magnetic space group Pn′m′a). The end members show distinct magnetostriction at Tc/TN which correlates with the different magnetic exchange in these compounds. NPD in variable applied magnetic field shows that SrMnBO4 is converted to fully FM at 8 T. The behavior above the magnetic ordering temperature is consistent with short-range FM correlations within the chains, which is particularly apparent in PbMnBO4. The magnetocaloric effect (MCE) has been measured and compared with those previously reported for the mineral gaudefroyite. PbMnBO4 has excellent MCE behavior, especially near Tc, 30 K. The strong FM exchange within the chains and FM correlations above Tc are vital for the MC properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Magnetic and superconducting phase diagrams and transition temperatures predicted using text mining and machine learning",
+      "authors": [
+        "Callum J. Court",
+        "Jacqueline M. Cole"
+      ],
+      "year": 2020,
+      "author_details": [
+        {
+          "name": "Callum J. Court",
+          "orcid": "0000-0002-3919-5605",
+          "affiliations": [
+            "University of Cambridge"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "orcid": "0000-0002-1552-8743",
+          "affiliations": [
+            "Argonne National Laboratory",
+            "Rutherford Appleton Laboratory",
+            "Science and Technology Facilities Council",
+            "University of Cambridge",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-020-0287-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-020-0287-8",
+      "cited_by_count": 98,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-020-0287-8.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Predicting the properties of materials prior to their synthesis is of great importance in materials science. Magnetic and superconducting materials exhibit a number of unique properties that make them useful in a wide variety of applications, including solid oxide fuel cells, solid-state refrigerants, photon detectors and metrology devices. In all these applications, phase transitions play an important role in determining the feasibility of the materials in question. Here, we present a pipeline for fully integrating data extracted from the scientific literature into machine-learning tools for property prediction and materials discovery. Using advanced natural language processing (NLP) and machine-learning techniques, we successfully reconstruct the phase diagrams of well-known magnetic and superconducting compounds, and demonstrate that it is possible to predict the phase-transition temperatures of compounds not present in the database. We provide the tool as an online open-source platform, forming the basis for further research into magnetic and superconducting materials discovery for potential device applications.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Evaluating Magnetocaloric Effect in Magnetocaloric Materials: A Novel Approach Based on Indirect Measurements Using Artificial Neural Networks",
+      "authors": [
+        "Angelo Maiorino",
+        "Manuel Gesù Del Duca",
+        "Jaka Tušek",
+        "Urban Tomc",
+        "Andrej Kitanovski",
+        "Ciro Aprea"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Angelo Maiorino",
+          "orcid": "0000-0002-7424-7757",
+          "affiliations": [
+            "University of Salerno"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Manuel Gesù Del Duca",
+          "orcid": "0000-0002-1193-3485",
+          "affiliations": [
+            "University of Salerno"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jaka Tušek",
+          "orcid": "0000-0003-3262-9244",
+          "affiliations": [
+            "University of Ljubljana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Urban Tomc",
+          "orcid": "0000-0001-8635-7286",
+          "affiliations": [
+            "University of Ljubljana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrej Kitanovski",
+          "orcid": "0000-0001-9385-538X",
+          "affiliations": [
+            "University of Ljubljana"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ciro Aprea",
+          "orcid": "0000-0001-7698-3515",
+          "affiliations": [
+            "University of Salerno"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Energies",
+      "doi": "10.3390/en12101871",
+      "type": "article",
+      "url": "https://doi.org/10.3390/en12101871",
+      "cited_by_count": 28,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.mdpi.com/1996-1073/12/10/1871/pdf?version=1558012811",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The thermodynamic characterisation of magnetocaloric materials is an essential task when evaluating the performance of a cooling process based on the magnetocaloric effect and its application in a magnetic refrigeration cycle. Several methods for the characterisation of magnetocaloric materials and their thermodynamic properties are available in the literature. These can be generally divided into theoretical and experimental methods. The experimental methods can be further divided into direct and indirect methods. In this paper, a new procedure based on an artificial neural network to predict the thermodynamic properties of magnetocaloric materials is reported. The results show that the procedure provides highly accurate predictions of both the isothermal entropy and the adiabatic temperature change for two different groups of magnetocaloric materials that were used to validate the procedure. In comparison with the commonly used techniques, such as the mean field theory or the interpolation of experimental data, this procedure provides highly accurate, time-effective predictions with the input of a small amount of experimental data. Furthermore, this procedure opens up the possibility to speed up the characterisation of new magnetocaloric materials by reducing the time required for experiments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Hard Magnetic Material Selection by Multiple Attribute Decision Making",
+      "authors": [
+        "Sunny Pinnam"
+      ],
+      "year": 2019,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "Deep Blue (University of Michigan)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://hdl.handle.net/2027.42/150648",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "A novel material selection methodology is introduced in this thesis work, which perceives a material selection problem as a multiple attribute decision making (MADM) phenomena with emphasis on “voice of data” eliminating subjective bias and uncertainty. The methodology was applied to the hard-material selection. To make this methodology more robust, a couple of statistical data analysis techniques, i.e., Hierarchical clustering (HC) and Principal Component Analysis (PCA) have been employed. There are many MADM techniques available to employ for identifying the optimal solution to the given selection problem, but in this methodology, twenty-five techniques, each possessing a unique principle to achieve this purpose were utilized. Each of these MADM tools develops different sets of ranks which will be co-relatable, and a final ranking order is established for further evaluation. Finally, two-dimensional plots, similar to Ashby charts, were developed based on MADM and PCA to provide a visual representation.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Nature—Inspired Flow Patterns for Active Magnetic Regenerators Assessed Using a 1D AMR Model",
+      "authors": [
+        "Kristina Navickaitė",
+        "C.R.H. Bahl",
+        "Kurt L. Engelbrecht"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Kristina Navickaitė",
+          "orcid": "0000-0002-9830-2060",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C.R.H. Bahl",
+          "orcid": "0000-0002-1153-7183",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kurt L. Engelbrecht",
+          "orcid": "0000-0002-3713-9415",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Energy Research",
+      "doi": "10.3389/fenrg.2019.00068",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fenrg.2019.00068",
+      "cited_by_count": 13,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fenrg.2019.00068/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "A novel flow structure of a solid active magnetic regenerator is proposed in this paper. The numerical performances of two nature-inspired flow geometries, based on double corrugated tubes with an elliptical cross-section, are compared to the performance of conventional flow structures for Active Magnetic Regeneration (AMR) applications, namely, packed spheres and a cylindrical micro-channel matrix. The numerical performance of all the geometries is analysed in terms of cooling power and coefficient of performance. Regenerators with various porosities and two different hydraulic diameters of the flow channels are evaluated varying utilisation at fixed temperature spans between the hot and cold reservoirs. The selection of the regenerator geometry is based on two actual AMR machines. The numerical results demonstrate that a suitably optimized AMR geometry with a double corrugated flow pattern provides the same or higher efficiency at higher porosity compared to conventional AMR flow geometries. These findings suggest that the magnetocaloric material used to construct AMR beds can be exploited more efficiently and at a lower investment cost of an AMR device when suitable double corrugated flow pattern is used.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "New frontiers for the materials genome initiative",
+      "authors": [
+        "Juan Pablo",
+        "Nicholas E. Jackson",
+        "Michael A. Webb",
+        "Long‐Qing Chen",
+        "Joel E. Moore",
+        "Dane D. Morgan",
+        "Ryan M. Jacobs",
+        "Tresa M. Pollock",
+        "Darrell G. Schlom",
+        "Eric S. Toberer",
+        "James G. Analytis",
+        "Ismaïla Dabo",
+        "Dean M. DeLongchamp",
+        "Gregory A. Fiete",
+        "Gregory M. Grason",
+        "Geoffroy Hautier",
+        "Yifei Mo",
+        "Krishna Rajan",
+        "Evan J. Reed",
+        "Efrain E. Rodriguez",
+        "Vladan Stevanović",
+        "Jin Suntivich",
+        "Katsuyo S. Thornton",
+        "Ji‐Cheng Zhao"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Juan Pablo",
+          "orcid": "0000-0002-3526-516X",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Nicholas E. Jackson",
+          "orcid": "0000-0002-1470-1903",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael A. Webb",
+          "orcid": "0000-0002-7420-4474",
+          "affiliations": [
+            "University of Chicago"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Long‐Qing Chen",
+          "orcid": "0000-0003-3359-3781",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joel E. Moore",
+          "orcid": "0000-0002-4294-5761",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dane D. Morgan",
+          "orcid": "0000-0002-4911-0046",
+          "affiliations": [
+            "University of Wisconsin–Madison"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ryan M. Jacobs",
+          "orcid": "0000-0003-2229-6730",
+          "affiliations": [
+            "University of Wisconsin–Madison"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tresa M. Pollock",
+          "orcid": "0000-0001-9948-1083",
+          "affiliations": [
+            "University of California, Santa Barbara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Darrell G. Schlom",
+          "orcid": "0000-0003-2493-6113",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eric S. Toberer",
+          "orcid": "0000-0003-0826-2446",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James G. Analytis",
+          "orcid": "0000-0002-7657-7688",
+          "affiliations": [
+            "University of California, Berkeley"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ismaïla Dabo",
+          "orcid": "0000-0003-0742-030X",
+          "affiliations": [
+            "Pennsylvania State University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dean M. DeLongchamp",
+          "orcid": "0000-0003-0840-0757",
+          "affiliations": [
+            "National Institute of Standards and Technology",
+            "Material Measurement Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gregory A. Fiete",
+          "orcid": "0000-0001-9477-0804",
+          "affiliations": [
+            "The University of Texas at Austin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gregory M. Grason",
+          "orcid": "0000-0001-5479-9370",
+          "affiliations": [
+            "University of Massachusetts Amherst"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Geoffroy Hautier",
+          "orcid": "0000-0003-1754-2220",
+          "affiliations": [
+            "UCLouvain"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifei Mo",
+          "orcid": "0000-0002-8162-4629",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Krishna Rajan",
+          "orcid": "0000-0001-8496-3311",
+          "affiliations": [
+            "University at Buffalo, State University of New York"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Evan J. Reed",
+          "orcid": "0000-0001-7910-9401",
+          "affiliations": [
+            "Stanford University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Efrain E. Rodriguez",
+          "orcid": "0000-0001-6044-1543",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Vladan Stevanović",
+          "orcid": "0000-0002-4954-5162",
+          "affiliations": [
+            "Colorado School of Mines"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jin Suntivich",
+          "orcid": "0000-0002-3427-4363",
+          "affiliations": [
+            "Cornell University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Katsuyo S. Thornton",
+          "orcid": "0000-0002-1227-5293",
+          "affiliations": [
+            "University of Michigan"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ji‐Cheng Zhao",
+          "orcid": "0000-0002-4426-1080",
+          "affiliations": [
+            "The Ohio State University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-019-0173-4",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-019-0173-4",
+      "cited_by_count": 567,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-019-0173-4.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The Materials Genome Initiative (MGI) advanced a new paradigm for materials discovery and design, namely that the pace of new materials deployment could be accelerated through complementary efforts in theory, computation, and experiment. Along with numerous successes, new challenges are inviting researchers to refocus the efforts and approaches that were originally inspired by the MGI. In May 2017, the National Science Foundation sponsored the workshop \"Advancing and Accelerating Materials Innovation Through the Synergistic Interaction among Computation, Experiment, and Theory: Opening New Frontiers\" to review accomplishments that emerged from investments in science and infrastructure under the MGI, identify scientific opportunities in this new environment, examine how to effectively utilize new materials innovation infrastructure, and discuss challenges in achieving accelerated materials research through the seamless integration of experiment, computation, and theory. This article summarizes key findings from the workshop and provides perspectives that aim to guide the direction of future materials research and its translation into societal impacts.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Recent advances and applications of machine learning in solid-state materials science",
+      "authors": [
+        "Jonathan Schmidt",
+        "Mário R. G. Marques",
+        "Silvana Botti",
+        "Miguel A. L. Marques"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Jonathan Schmidt",
+          "orcid": "0000-0001-5685-6404",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mário R. G. Marques",
+          "orcid": "0000-0002-7420-5098",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Silvana Botti",
+          "orcid": "0000-0002-4920-2370",
+          "affiliations": [
+            "Friedrich Schiller University Jena"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Miguel A. L. Marques",
+          "orcid": "0000-0003-0170-8222",
+          "affiliations": [
+            "Martin Luther University Halle-Wittenberg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-019-0221-0",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-019-0221-0",
+      "cited_by_count": 2646,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-019-0221-0.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We continue with the description of different machine learning approaches for the discovery of stable materials and the prediction of their crystal structure. Then we discuss research in numerous quantitative structure–property relationships and various approaches for the replacement of first-principle methods by machine learning. We review how active learning and surrogate-based optimization can be applied to improve the rational design process and related examples of applications. Two major questions are always the interpretability of and the physical understanding gained from machine learning models. We consider therefore the different facets of interpretability and their importance in materials science. Finally, we propose solutions and future research paths for various challenges in computational materials science.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    },
+    {
+      "title": "Dataset on enhanced magnetic refrigeration capacity in Ni–Mn–Ga micro-particles",
+      "authors": [
+        "Mingfang Qian",
+        "Xuexi Zhang",
+        "Zhenggang Jia",
+        "Xinhao Wan",
+        "Lin Geng"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Mingfang Qian",
+          "orcid": "0000-0002-2928-1008",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xuexi Zhang",
+          "orcid": "0000-0002-7939-7025",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhenggang Jia",
+          "orcid": "0000-0002-3237-3181",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinhao Wan",
+          "orcid": null,
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lin Geng",
+          "orcid": "0000-0001-8765-8937",
+          "affiliations": [
+            "Harbin Institute of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Data in Brief",
+      "doi": "10.1016/j.dib.2018.05.053",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1016/j.dib.2018.05.053",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352340918305596/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The dataset presented in this paper is supporting the research article “Enhanced magnetic refrigeration capacity in Ni-Mn-Ga micro-particles” (Qian, et al., 2018) [1] . The martensite transformation temperature ( M s ) and the Curie point ( T c ) of the annealed alloys with nominal composition Ni 55-x Mn 20+x Ga 25 ( x = 0, 0.25, 0.5, 1, atomic percent, labeled as A1, A2, A3 and A4, respectively) varied with x, yielding a temperature difference T c - M c of 7.2 K at x = 0.5 (A3). The magnetization difference ( ΔM ) between the austenite and martensite, the field dependence of transformation temperature ( ΔT / ΔH ) and the thermal hysteresis loss of A3 and the according stress relief annealing (SRA) particles were demonstrated. The isothermal magnetization curves of A3 and the SRA particles were measured in order to determine the magnetocaloric effect.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 50
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "文献类型",
+      "value": "journal-article",
+      "count": 37,
+      "known": 50,
+      "pct": 74,
+      "text": "文献类型：journal-article = 37/50（74%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    },
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 50,
+      "known": 50,
+      "pct": 100,
+      "text": "主命中源：openalex = 50/50（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 50,
+    "shown": 50,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

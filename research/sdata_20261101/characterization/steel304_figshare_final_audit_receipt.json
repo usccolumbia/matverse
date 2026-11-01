@@ -1,0 +1,21 @@
+{
+  "name": "steel304_figshare",
+  "request_url": "https://api.figshare.com/v2/articles/25483534",
+  "resolved_url": "https://api.figshare.com/v2/articles/25483534",
+  "status": 200,
+  "sha256": "422156cc6dfa3a433c501c7ffd580eeeac3fc39260a7d167937d0a9506ca292e",
+  "raw_file": "research/cache/sdata_characterization/steel304_figshare.raw",
+  "title": "Data set accompanying \"Full-Field Digital Image Correlation (DIC) and Infrared Thermography (IR) Data for Seven Unique Geometries of 304L Stainless Steel Sheet Metal\"",
+  "doi": "10.25452/figshare.plus.25483534.v1",
+  "license": {
+    "value": 2,
+    "name": "CC0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "version": 1,
+  "rightsList": null,
+  "node_license": null,
+  "registration": null,
+  "description": "<p dir=\"ltr\">Material Testing 2.0 (MT2.0) is a paradigm that advocates for the use of rich, full-field data, such as from digital image correlation (DIC) and infrared (IR) thermography, for material characterization and material model calibration. By employing heterogeneous, multi-axial data in conjunction with sophisticated inverse calibration techniques such as finite element model updating (FEMU) and the virtual fields method (VFM), MT2.0 aims to reduce the number of specimens needed for material identification and to increase confidence in the calibration results. To support continued development, improvement, and validation of such inverse methods---specifically for rate-dependent, temperature-dependent, and anisotropic metal plasticity models---we provide here a thorough experimental data set for 304L stainless steel sheet metal. The data set includes full-field displacement, strain, and temperature data for seven unique specimen geometries tested at different strain rates and in different material orientations, with repeats of each test condition. Moreover, data is provided in both the raw format, as well as a post-processed format where everything has been synchronized temporally and registered spatially. The raw data allows consumers the opportunity to tailor the processing workflow for their specific applications using software of their choice, while the post-processed data allows consumers to directly employ the data without the need to reprocess it. Additionally, ",
+  "file_count": 200
+}

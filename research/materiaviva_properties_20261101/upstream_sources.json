@@ -1,0 +1,588 @@
+{
+  "2dmatpedia": {
+    "name": "2DMatPedia",
+    "url": "https://doi.org/10.6084/m9.figshare.7699910.v3",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.7699910.v3",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "2dmatpedia"
+    ]
+  },
+  "3dsc": {
+    "name": "3DSC superconductors",
+    "url": "https://github.com/aimat-lab/3DSC",
+    "evidence_url": "https://github.com/aimat-lab/3DSC/blob/main/LICENSE.md",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "3dsc-mp"
+    ],
+    "notes": "MateriaViva registry identifies 3DSC_MP licensing only. Do not infer that these property rows distribute or grant access to the ICSD coordinate release."
+  },
+  "aflow": {
+    "name": "AFLOW",
+    "url": "https://aflow.org/",
+    "evidence_url": "https://web.archive.org/web/20140307150650/http://aflowlib.org/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "aflow"
+    ]
+  },
+  "aflow-prototypes": {
+    "name": "AFLOW Encyclopedia of Crystallographic Prototypes",
+    "url": "https://github.com/aflow-org/aflow_prototype_encyclopedia",
+    "evidence_url": "https://github.com/aflow-org/aflow_prototype_encyclopedia",
+    "license": "Apache-2.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "alexandria": {
+    "name": "Alexandria Materials Database",
+    "url": "https://alexandria.icams.rub.de/datasets.html",
+    "evidence_url": "https://alexandria.icams.rub.de/about.html",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "alexandria"
+    ]
+  },
+  "amcsd": {
+    "name": "American Mineralogist Crystal Structure Database",
+    "url": "https://rruff.geo.arizona.edu/AMS/amcsd.php",
+    "evidence_url": "https://rruff.geo.arizona.edu/AMS/amcsd.php",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "amcsd"
+    ],
+    "notes": "Historical AMCSD registry route is retained. Modern RRUFF catalog route is related, but record-level migration or accession correspondence is not independently established here."
+  },
+  "amdb": {
+    "name": "Anyterial Altermagnets Database",
+    "url": "https://altermagnets.anyterial.se/",
+    "evidence_url": "https://altermagnets.anyterial.se/about#legal",
+    "license": "CC-BY-SA-4.0 (single entries only)",
+    "license_class": "restricted",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route.",
+    "notes": "Provider legal page limits CC BY-SA terms to individual entries and non-substantial database extracts; aggregate availability does not establish unrestricted bulk reuse."
+  },
+  "bidb": {
+    "name": "2DHub van der Waals Bilayer Database",
+    "url": "https://2dhub.org/bidb/bidb.html",
+    "evidence_url": "https://2dhub.org/",
+    "license": "CC-BY-SA-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "bidb"
+    ]
+  },
+  "c2db": {
+    "name": "Computational 2D Materials Database",
+    "url": "https://2dhub.org/c2db/c2db.html",
+    "evidence_url": "https://2dhub.org/",
+    "license": "CC-BY-SA-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "c2db"
+    ]
+  },
+  "camd": {
+    "name": "CAMD 2022 coarse-grained discovery set (Ye, Lei, Aykol, Montoya), via ODBX",
+    "url": "https://doi.org/10.6084/m9.figshare.19601956.v1",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.19601956.v1",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "camd-crystal-discoveries-2022"
+    ]
+  },
+  "carolina": {
+    "name": "Carolina Materials Database",
+    "url": "http://www.carolinamatdb.org/",
+    "evidence_url": "http://www.carolinamatdb.org/terms/",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "carolina"
+    ]
+  },
+  "cmr-static": {
+    "name": "DTU Computational Materials Repository",
+    "url": "https://cmr.fysik.dtu.dk/",
+    "evidence_url": "https://cmr.fysik.dtu.dk/",
+    "license": "CC-BY-SA-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "cod": {
+    "name": "Crystallography Open Database",
+    "url": "https://www.crystallography.net/cod/",
+    "evidence_url": "https://www.crystallography.net/cod/",
+    "license": "CC0-1.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "cod"
+    ]
+  },
+  "core-mof": {
+    "name": "CoRE MOF 2019 (public ASR/FSR)",
+    "url": "https://zenodo.org/records/3677685",
+    "evidence_url": "https://zenodo.org/records/3677685",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "csllm-negatives": {
+    "name": "CSLLM non-synthesizable screening set",
+    "url": "https://doi.org/10.6084/m9.figshare.29086931",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.29086931",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "curated-cof": {
+    "name": "CURATED-COFs",
+    "url": "https://github.com/danieleongari/CURATED-COFs",
+    "evidence_url": "https://github.com/danieleongari/CURATED-COFs/blob/master/LICENSE",
+    "license": "MIT",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "curated-cofs"
+    ]
+  },
+  "deem-zeolites": {
+    "name": "Deem PCOD hypothetical zeolites v2.1",
+    "url": "https://zenodo.org/records/8035241",
+    "evidence_url": "https://zenodo.org/records/8035241",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "elementa": {
+    "name": "ELEMENTA and ELEMENTA Spin",
+    "url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+    "evidence_url": "https://huggingface.co/datasets/kairosmaterial/ELEMENTA",
+    "license": "CC-BY-NC-4.0",
+    "license_class": "noncommercial",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "elementa-public",
+      "elementa-spin"
+    ],
+    "notes": "Source alias groups ELEMENTA and ELEMENTA Spin; the manifest does not assign property counts to each subrelease."
+  },
+  "fair-mofs": {
+    "name": "FAIR-MOFs",
+    "url": "https://zenodo.org/records/13254307",
+    "evidence_url": "https://zenodo.org/records/13254307",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "gnome": {
+    "name": "GNoME",
+    "url": "https://github.com/google-deepmind/materials_discovery",
+    "evidence_url": "https://github.com/google-deepmind/materials_discovery#license",
+    "license": "CC-BY-NC-4.0",
+    "license_class": "noncommercial",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "gnome"
+    ]
+  },
+  "hadb": {
+    "name": "Hard-coating Alloys Database",
+    "url": "https://doi.org/10.1016/j.tsf.2022.139627",
+    "evidence_url": "https://doi.org/10.1016/j.tsf.2022.139627",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination.",
+    "notes": "Registry points to the source article and reports data available on request; no independently verified public bulk download is asserted."
+  },
+  "hex-high-pressure": {
+    "name": "HEX high-pressure elemental crystal structures",
+    "url": "https://doi.org/10.6084/m9.figshare.25403968.v1",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.25403968.v1",
+    "license": "CC0-1.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "hex-high-pressure-elements"
+    ]
+  },
+  "hmof": {
+    "name": "Hypothetical MOF database (JARVIS figshare re-upload)",
+    "url": "https://figshare.com/articles/dataset/15127758",
+    "evidence_url": "https://figshare.com/articles/dataset/15127758",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "hmof-wilmer"
+    ],
+    "notes": "Use the exact JARVIS-Atoms repack cited by MateriaViva, not an assumed current snapshot of the original Wilmer portal."
+  },
+  "icsd": {
+    "name": "Inorganic Crystal Structure Database",
+    "url": "https://icsd.fiz-karlsruhe.de/",
+    "evidence_url": "https://www.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_AGB_E_2021.pdf",
+    "license": "proprietary",
+    "license_class": "restricted",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "icsd"
+    ]
+  },
+  "iza-zeolite": {
+    "name": "IZA Database of Zeolite Structures",
+    "url": "https://www.iza-structure.org/databases/",
+    "evidence_url": "https://www.iza-structure.org/databases/DatabaseCredits.php",
+    "license": "proprietary",
+    "license_class": "restricted",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "iza-zeolites"
+    ]
+  },
+  "jarvis-dft": {
+    "name": "NIST JARVIS-DFT 3D",
+    "url": "https://doi.org/10.6084/m9.figshare.6815699",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.6815699",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "jarvis-dft-3d"
+    ]
+  },
+  "jarvis-qetb": {
+    "name": "NIST JARVIS-QETB tight-binding dataset",
+    "url": "https://doi.org/10.6084/m9.figshare.15127788",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.15127788",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "jarvis-qetb"
+    ]
+  },
+  "jarvis-specialized-structures": {
+    "name": "NIST JARVIS specialized structure datasets",
+    "url": "https://jarvis-tools.readthedocs.io/en/master/databases.html",
+    "evidence_url": "https://doi.org/10.6084/m9.figshare.6815705",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route.",
+    "notes": "Grouped source alias spans specialized JARVIS datasets. Registry evidence URL 6815705 is specifically the JARVIS-DFT 2D release, not a manifest of all specialized inputs. Link to the JARVIS dataset index for access; native record IDs/methods are needed to resolve individual subreleases."
+  },
+  "matbench-discovery": {
+    "name": "Matbench Discovery / WBM",
+    "url": "https://figshare.com/articles/dataset/Matbench_Discovery_v1_0_0/22715158",
+    "evidence_url": "https://figshare.com/articles/dataset/Matbench_Discovery_v1_0_0/22715158",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "wbm-matbench-discovery"
+    ]
+  },
+  "materiae": {
+    "name": "Materiae",
+    "url": "https://cmpdc.iphy.ac.cn/materiae/",
+    "evidence_url": "https://cmpdc.iphy.ac.cn/materiae/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "materials-cloud-archive-static": {
+    "name": "Materials Cloud Archive static datasets (zt-z4, 1z-pd, ed-g2, m0-zg)",
+    "url": "https://archive.materialscloud.org/",
+    "evidence_url": "https://api.datacite.org/dois/10.24435/materialscloud:m0-zg",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route.",
+    "notes": "Grouped alias contains four Materials Cloud records. Manifest source counts are not apportioned by these records. All four original record DOI routes are retained below.",
+    "records": [
+      {
+        "name": "Machine learning-accelerated discovery of A₂BC₂ ternary electrides with diverse anionic electron densities",
+        "url": "https://doi.org/10.24435/materialscloud:zt-z4",
+        "provider_url": "https://archive.materialscloud.org/doi/10.24435/materialscloud:zt-z4"
+      },
+      {
+        "name": "Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening",
+        "url": "https://doi.org/10.24435/materialscloud:1z-pd",
+        "provider_url": "https://archive.materialscloud.org/doi/10.24435/materialscloud:1z-pd"
+      },
+      {
+        "name": "Optical materials discovery and design with federated databases and machine learning",
+        "url": "https://doi.org/10.24435/materialscloud:ed-g2",
+        "provider_url": "https://archive.materialscloud.org/doi/10.24435/materialscloud:ed-g2"
+      },
+      {
+        "name": "Machine learning on multiple topological materials datasets",
+        "url": "https://doi.org/10.24435/materialscloud:m0-zg",
+        "provider_url": "https://archive.materialscloud.org/doi/10.24435/materialscloud:m0-zg"
+      }
+    ]
+  },
+  "materials-project": {
+    "name": "Materials Project",
+    "url": "https://materialsproject.org/",
+    "evidence_url": "https://legacy.materialsproject.org/terms",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "materials-project"
+    ]
+  },
+  "mc2d": {
+    "name": "Materials Cloud MC2D",
+    "url": "https://archive.materialscloud.org/records/17gf6-84915",
+    "evidence_url": "https://archive.materialscloud.org/records/17gf6-84915",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "mc2d"
+    ]
+  },
+  "mc3d": {
+    "name": "Materials Cloud MC3D",
+    "url": "https://archive.materialscloud.org/records/szjaf-cfv74",
+    "evidence_url": "https://archive.materialscloud.org/records/szjaf-cfv74",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "mc3d"
+    ]
+  },
+  "mof-carbon-capture": {
+    "name": "Hypothetical MOFs for wet flue-gas carbon capture",
+    "url": "https://archive.materialscloud.org/record/2018.0016/v3",
+    "evidence_url": "https://archive.materialscloud.org/record/2018.0016/v3",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "mofx-db": {
+    "name": "MOFX-DB",
+    "url": "https://mof.tech.northwestern.edu/",
+    "evidence_url": "https://www.osti.gov/biblio/2311791",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "mofx-db"
+    ]
+  },
+  "nomad": {
+    "name": "NOMAD Repository and Archive",
+    "url": "https://nomad-lab.eu/",
+    "evidence_url": "https://nomad-lab.eu/nomad-lab/terms.html",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route."
+  },
+  "novomag": {
+    "name": "NovoMag magnetic materials database",
+    "url": "https://zenodo.org/records/17399362",
+    "evidence_url": "https://zenodo.org/records/17399362",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "obelix": {
+    "name": "OBELiX",
+    "url": "https://github.com/NRC-Mila/OBELiX/tree/main/data",
+    "evidence_url": "https://arxiv.org/abs/2502.14234",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "obelix"
+    ],
+    "notes": "Only five ionic-conductivity rows appear in the property manifest. This is an extracted subset, not the full OBELiX dataset."
+  },
+  "odbx": {
+    "name": "Open Databases Integration for Materials Design",
+    "url": "https://odbx.science/",
+    "evidence_url": "https://odbx.science/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "omdb-organic": {
+    "name": "Organic Materials Database",
+    "url": "https://omdb.mathub.io/",
+    "evidence_url": "https://omdb.mathub.io/page/terms",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "omdb-gap1"
+    ]
+  },
+  "open-framework-aluminophosphate": {
+    "name": "Open-framework aluminophosphate database",
+    "url": "https://figshare.com/articles/dataset/Database_of_Open-Framework_Aluminophosphate_Structures/7822574",
+    "evidence_url": "https://figshare.com/articles/dataset/Database_of_Open-Framework_Aluminophosphate_Structures/7822574",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "openmx-2d-ab2": {
+    "name": "OpenMX AB2 2D structure map",
+    "url": "https://www.openmx-square.org/2d-ab2/",
+    "evidence_url": "https://www.openmx-square.org/2d-ab2/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "oqmd": {
+    "name": "Open Quantum Materials Database",
+    "url": "https://oqmd.org/download/",
+    "evidence_url": "https://oqmd.org/download/",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "oqmd"
+    ]
+  },
+  "pcod": {
+    "name": "Predicted Crystallography Open Database",
+    "url": "https://www.crystallography.net/pcod/",
+    "evidence_url": "https://www.crystallography.net/pcod/",
+    "license": "public-domain",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "phonix": {
+    "name": "Phonix anharmonic phonon database",
+    "url": "https://phonix-db.org/",
+    "evidence_url": "https://phonix-db.org/",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "phonix"
+    ]
+  },
+  "phonondb": {
+    "name": "NIMS MDR phonon database (phonondb)",
+    "url": "https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en",
+    "evidence_url": "https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "phonondb-mdr"
+    ]
+  },
+  "qmof": {
+    "name": "Quantum MOF Database",
+    "url": "https://github.com/Andrew-S-Rosen/QMOF",
+    "evidence_url": "https://github.com/Andrew-S-Rosen/QMOF",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "qmof"
+    ]
+  },
+  "rruff": {
+    "name": "RRUFF",
+    "url": "https://www.rruff.net/",
+    "evidence_url": "https://web.archive.org/web/20240101143519/https://rruff.info/",
+    "license": "proprietary",
+    "license_class": "restricted",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route.",
+    "notes": "Modern RRUFF access route from existing catalog; provider registry retains its archived historical licensing-evidence URL. Native accession-level correspondence was not re-audited."
+  },
+  "sacada": {
+    "name": "Samara Carbon Allotrope Database",
+    "url": "https://www.sacada.info/",
+    "evidence_url": "https://www.sacada.info/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "sacada"
+    ]
+  },
+  "snumat": {
+    "name": "SNUMAT hybrid-functional database",
+    "url": "https://figshare.com/articles/dataset/21713885",
+    "evidence_url": "https://figshare.com/articles/dataset/21713885",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "snumat-hybrid-gap"
+    ],
+    "notes": "Use exact MateriaViva-cited JARVIS SNUMAT repack 21713885, not the separately cataloged original hybrid-gap file 12839240."
+  },
+  "spse": {
+    "name": "Solid-electrolyte screening platform",
+    "url": "https://doi.org/10.6084/m9.figshare.12011412.v1",
+    "evidence_url": "https://www.nature.com/articles/s41597-020-0474-y",
+    "license": "CC-BY-4.0 (label)",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "spse-ion-transport-2020"
+    ],
+    "notes": "Property provenance is the SPSE ion-transport dataset; structure licensing and availability are separate from migration-barrier access. Exact figshare release is already verified in the canonical catalog."
+  },
+  "superband": {
+    "name": "SuperBand",
+    "url": "https://github.com/ljcj007/SuperBand",
+    "evidence_url": "https://github.com/ljcj007/SuperBand/blob/main/LICENSE.md",
+    "license": "CC-BY-4.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination. Access route replaces a license/terms/citation page with the provider or exact source release route. Related canonical catalog record(s) cross-checked by source identity; not a claim of identical dataset versions.",
+    "catalog_ids": [
+      "superband"
+    ]
+  },
+  "tcod": {
+    "name": "Theoretical Crystallography Open Database",
+    "url": "https://www.crystallography.net/tcod/",
+    "evidence_url": "https://www.crystallography.net/tcod/",
+    "license": "CC0-1.0",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  },
+  "webmineral": {
+    "name": "Webmineral",
+    "url": "https://webmineral.com/",
+    "evidence_url": "https://webmineral.com/",
+    "license": "unstated",
+    "license_class": "unclear",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination.",
+    "notes": "Provider web database; the registry class is unclear and public browsing does not imply an open bulk data license."
+  },
+  "wren": {
+    "name": "Wren coordinate-free coarse-graining set (Goodall et al.), via ODBX",
+    "url": "https://doi.org/10.5281/zenodo.6345276",
+    "evidence_url": "https://doi.org/10.5281/zenodo.6345276",
+    "license": "MIT",
+    "license_class": "open",
+    "mapping_basis": "Exact source ID and name in MateriaViva pinned licences.json; provider-reported licensing, not an independent legal determination."
+  }
+}

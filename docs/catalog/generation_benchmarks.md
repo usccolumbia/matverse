@@ -165,6 +165,39 @@ Castelli computational perovskite screening corpus reused by CDVAE for generatio
 
 **Tags:** generation, perovskite, Matbench, hypothetical.
 
+<a id="ferrogen-mattergen-12800"></a>
+## FerroGen MatterGen generated crystal cohort
+
+Generated crystal structures released for a diffusion-guided ferroelectric/photocurrent search; candidates require separate property validation.
+
+**Size:** 12,800 generated CIF files (source wording: 12,800).
+
+**Scope:** All CIF members of generated_materials_cif.tar.gz; neither unique structures nor confirmed ferroelectrics.
+
+**Release:** Zenodo v1, 2025-09-29; DOI 10.5281/zenodo.17223175. **Year:** 2025.
+
+**Provenance:** MatterGen diffusion-model generation. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** generated atomic structures.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (Zenodo metadata).
+
+**Official routes:** [homepage](https://zenodo.org/records/17223175) · [download](https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz) · [paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202522108)
+
+**Evidence:**
+
+- [FerroGen generated-materials release](https://zenodo.org/records/17223175) (checked 2026-11-01): Provider states 12,800 generated structures in CIF format.
+- [FerroGen Zenodo metadata](https://zenodo.org/api/records/17223175) (checked 2026-11-01): Declares CC BY 4.0 and supplies public archive checksum md5:b5723ce666a11b8c0ccf643a4c8662d8.
+- [FerroGen CIF archive](https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz) (checked 2026-11-01): Downloaded archive independently contains exactly 12,800 regular .cif members; MD5 matches provider metadata.
+
+**Reuse and interpretation notes:**
+
+- Generation is not evidence of stability, novelty, synthesizability, polarization or photocurrent performance.
+- The released archive is a generated-structure cohort, not 12,800 computed polarization labels.
+- Possible duplicates and overlaps with MatterGen training corpora were not structurally audited.
+
+**Tags:** ferroelectrics, mattergen, generated-structures, photovoltaics, additional-materials-20261101.
+
 <a id="carbon24-cdvae"></a>
 ## Carbon-24 (CDVAE benchmark)
 

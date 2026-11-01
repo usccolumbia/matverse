@@ -1,0 +1,4111 @@
+{
+  "mode": "search",
+  "query": "ionic migration barriers dataset",
+  "filters": {},
+  "network_status": "ok",
+  "coverage": [
+    {
+      "source": "openalex",
+      "name_zh": "OpenAlex",
+      "coverage": "自动检索",
+      "hit_count": 50,
+      "outcome": "ok",
+      "error": null,
+      "applied_filters": "none"
+    },
+    {
+      "source": "cnki",
+      "name_zh": "中国知网（CNKI）",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    },
+    {
+      "source": "wanfang",
+      "name_zh": "万方数据",
+      "coverage": "需用户回填",
+      "hit_count": 0,
+      "outcome": "n/a",
+      "error": null,
+      "applied_filters": "n/a"
+    }
+  ],
+  "results": [
+    {
+      "title": "Leveraging transfer learning for accurate estimation of ionic migration barriers in solids",
+      "authors": [
+        "Reshma Devi",
+        "Keith T. Butler",
+        "Gopalakrishnan Sai Gautam"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Reshma Devi",
+          "orcid": "0000-0002-1820-308X",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith T. Butler",
+          "orcid": "0000-0001-5432-5597",
+          "affiliations": [
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gopalakrishnan Sai Gautam",
+          "orcid": "0000-0002-1303-0976",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-026-01972-8",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-026-01972-8",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-026-01972-8_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Rate performance of several applications, such as batteries, fuel cells, and electrochemical sensors, is exponentially dependent on the ionic migration barrier ( E m ) within solids, a difficult-to-estimate quantity. Previous approaches to identify materials with low E m have often relied on imprecise descriptors or rules-of-thumb. Here, we present a graph-neural-network-based architecture that leverages principles of transfer learning to efficiently and accurately predict E m across a variety of materials. We use a model (labeled MPT) that has been simultaneously pre-trained on seven bulk properties, introduce architectural modifications to build inductive bias on different migration pathways in a structure, and subsequently fine-tune (FT) on a manually-curated, literature-derived, first-principles computational dataset of 619 E m values. Importantly, our best-performing FT model (labeled MODEL-3, based on test set scores) demonstrates substantially better accuracy compared to classical machine learning methods, graph models trained from scratch, and a universal machine learned interatomic potential, with a R 2 score and a mean absolute error of 0.703 ± 0.109 and 0.261 ± 0.034 eV, respectively, on the test set and is able to classify ‘good’ ionic conductors with an 80% accuracy. Thus, our work demonstrates the effective use of FT strategies and MPT architectural modifications to predict E m , and can be extended to make predictions on other data-scarce material properties.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 1
+    },
+    {
+      "title": "A Simple Descriptor for Solid‐State Ionic Conductors Across Chemistries",
+      "authors": [
+        "S. Srinivasan",
+        "Charles Ely Schwarz",
+        "F. Adams",
+        "Kiyan Amirian",
+        "Yifei Mo"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "S. Srinivasan",
+          "orcid": "0000-0003-3710-8034",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charles Ely Schwarz",
+          "orcid": "0000-0002-0343-2533",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "F. Adams",
+          "orcid": "0000-0001-5802-1072",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kiyan Amirian",
+          "orcid": "0009-0000-5906-4664",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifei Mo",
+          "orcid": "0000-0002-8162-4629",
+          "affiliations": [
+            "University of Maryland, College Park"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.75410",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.75410",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1002/adma.75410",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The discovery of new solid-state ionic conductors remains challenging because ion transport depends sensitively on both mobile-ion chemistry and the host crystal framework. Although atomistic calculations can evaluate migration barriers directly, simple descriptors can greatly facilitate screening large materials spaces and gaining mechanistic insight. However, existing descriptors often show limited transferability across mobile-ion chemistries and material classes. Here, we generate a diverse dataset of ion-migration barriers spanning Li-, Na-, K-, and Mg-ion conductors across oxides, sulfides, and halides, and use it to systematically benchmark descriptors. From this analysis, we devise distance contraction, ∆d, a simple local geometric descriptor that measures the largest contraction of mobile-ion-neighbor distances relative to their equilibrium values along a migration pathway. This quantity captures the dominant short-range repulsion penalty associated with ion migration and consistently distinguishes low- from high-barrier pathways across chemistries. Using ∆d in a high-throughput screening workflow, we recover many known fast-ion conductors and identify previously unexplored candidates, with fast-ion transport validated by nudged elastic band calculations and ab initio molecular dynamics simulations. Beyond screening, ∆d links diverse ion-transport mechanisms to a common physical quantity: The largest distance contraction experienced by the migrating ion.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 2
+    },
+    {
+      "title": "Bond-Strength-Based Understanding of Oxygen Vacancy Migration Barriers in Rutile Oxides",
+      "authors": [
+        "Inseo Kim",
+        "Minseok Choi"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Inseo Kim",
+          "orcid": null,
+          "affiliations": [
+            "Inha University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Minseok Choi",
+          "orcid": null,
+          "affiliations": [
+            "Inha University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2604.06733",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2604.06733",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2604.06733",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We carry out bond-strength based analysis for the migration barrier ($E_{\\rm B}$) of oxygen vacancies in rutile-type 3$d$ transition-metal dioxides by combining density-functional theory (DFT) and the bond-valence model. The covalent and ionic contributions to chemical bonding are explicitly decomposed and quantified by the sum of the integrated crystal orbital Hamilton population ($S_c$) and the Madelung energy ($S_i$), respectively. Both $S_c$ and $S_i$ exhibit strong correlations with the $E_{\\rm B}$ from DFT ($E_{\\rm B}^{\\rm DFT}$), and their average $\\bar{S}$ provides a reasonable estimate of $E_{\\rm B}^{\\rm DFT}$ across the oxide series. Inspired by the bond-valence model, two parameters are extracted by fitting to a large dataset of 3$d$ transition-metal dioxides. Our results show that using these parameters, $E_{\\rm B}$ of oxygen vacancies can be efficiently estimated.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 3
+    },
+    {
+      "title": "UMA-NEB Structures and Energies for Ion Migration in Solid-State Ionic Conductors",
+      "authors": [
+        "S. Srinivasan",
+        "Yifei Mo"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "S. Srinivasan",
+          "orcid": "0000-0003-3710-8034",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yifei Mo",
+          "orcid": "0000-0002-8162-4629",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.32221506",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.32221506",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/UMA-NEB_Structures_and_Energies_for_Ion_Migration_in_Solid-State_Ionic_Conductors/32221506",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "This dataset contains structures and energies from climbing-image nudged elastic band (CI-NEB) calculations performed using the Universal Models for Atoms (UMA) machine learning interatomic potential (MLIP). It covers ion migration pathways for Li⁺, Na⁺, K⁺, and Mg²⁺ conductors spanning oxide, sulfide, and halide chemistries.The dataset comprises 3,195 migration pathways derived from 383 host structures. For each pathway, the NEB images (CONTCAR structures) and their corresponding energies are provided, enabling the computation of migration energy barriers (Eₘ) and kinetically resolved activation (KRA) barriers.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 4
+    },
+    {
+      "title": "Evaluation of foundational machine learned interatomic potentials for migration barrier predictions",
+      "authors": [
+        "Achinthya Krishna Bheemaguli",
+        "Penghao Xiao",
+        "Gopalakrishnan Sai Gautam"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Achinthya Krishna Bheemaguli",
+          "orcid": "0009-0002-4176-9310",
+          "affiliations": [
+            "National Institute of Technology Karnataka",
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Penghao Xiao",
+          "orcid": "0000-0002-5846-6343",
+          "affiliations": [
+            "Dalhousie University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gopalakrishnan Sai Gautam",
+          "orcid": "0000-0002-1303-0976",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d5dd00534e",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5dd00534e",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00534e",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "We benchmark foundational MLIPs against DFT-NEB calculated migration barriers and the corresponding accuracy of intermediate geometries. We also highlight the possible correlation between the accuracy of barrier and geometry predictions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 5
+    },
+    {
+      "title": "Structure divide-and-conquer: dual graph representation for accurate ionic transport barrier prediction of inorganic compounds",
+      "authors": [
+        "Zhengwei Yang",
+        "Linhan Wu",
+        "Bing He",
+        "Maxim Avdeev",
+        "Siqi Shi",
+        "Yue Liu"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Zhengwei Yang",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Linhan Wu",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bing He",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maxim Avdeev",
+          "orcid": "0000-0003-2366-5809",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Siqi Shi",
+          "orcid": "0000-0001-8988-9763",
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yue Liu",
+          "orcid": null,
+          "affiliations": [
+            "Shanghai University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-026-02058-1",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-026-02058-1",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-026-02058-1_reference.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Despite the effectiveness of most graph-based representation methods in capturing the crystal geometry characteristics, they fall short in intuitively describing phenomena such as ionic transport behavior which are often determined by the atom-unoccupied regions in the mobile sublattice (namely interstitial network). Here, we develop a Structure Divide-and-Conquer Graph Representation method based on graph neural network (SDCGNN dk ), for unveiling structure-activity relationships of transport barriers by incorporating Domain Knowledge (e.g., site energy information, thresholds for ion accessibility, etc.), where crystal geometry and interstitial network topology are combined to construct a dual-structure crystal graph. For driving the proposed model, we construct a graph-based dataset for the prediction of activation energy ( \\({E}_{a}\\) ), i.e., the energy barrier hindering ionic transport, covering over 18,000 ionic compounds from the Inorganic Crystal Structure Database (ICSD), including Li + , Na + , K + , Ag + , Cu (2,3)+ , Mg 2+ , Zn 2+ , Ca 2+ , Al 3+ , F − , and O 2− . SDCGNN dk achieves high prediction performance of \\({E}_{{\\rm{a}}}\\) with R 2 of 91.30%, outperforming conventional GNNs by more than 20% on average and offering insights into structure-activity relationships by quantifying the contributions of crystal geometry and interstitial network characteristics to transport barriers. This work provides an accurate graph representation and GNN framework, demonstrating potential for extension to predicting other properties relevant to interstitial network of inorganic compounds.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 6
+    },
+    {
+      "title": "From Data to Design: Physics-Informed Symbolic Regression Reveals Ionic Mobility Descriptors in Batteries",
+      "authors": [
+        "Mohsen Sotoudeh",
+        "Udaykumar Gajera",
+        "Axel Groß"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Mohsen Sotoudeh",
+          "orcid": "0000-0002-0970-5336",
+          "affiliations": [
+            "Karlsruhe Institute of Technology",
+            "Universität Ulm",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Udaykumar Gajera",
+          "orcid": "0000-0002-5568-7626",
+          "affiliations": [
+            "Universität Ulm",
+            "Humboldt-Universität zu Berlin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Axel Groß",
+          "orcid": "0000-0003-4037-7331",
+          "affiliations": [
+            "Universität Ulm",
+            "Helmholtz-Institute Ulm"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.15001711/v1",
+      "type": "preprint",
+      "url": "https://doi.org/10.26434/chemrxiv.15001711/v1",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15001711/v1",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Large, high-quality datasets are essential for accelerating materials discovery. However, challenges related to data accessibility and analysis often prevent these datasets from having full impact. Here, we introduce DISCOVER, an open-source descriptor analysis framework designed to facilitate systematic data exploration and descriptor identification for desired or undesired material functions. Using this framework, descriptors can be identified even for complex materials properties, enabling interpretable and data-driven optimization of targeted materials. Alongside the framework, we present an open-access database containing 765 spinel compounds that are relevant to battery applications. These compounds were derived from periodic density functional theory (DFT) simulations, which provide the structural, electronic, and electrochemical properties necessary for understanding and optimizing spinel materials for use in energy storage technologies. Applying this database together with DISCOVER, we uncover a universal, physics-informed descriptor for ionic mobility across oxide, sulfide, and selenide spinels. Specifically, we demonstrate that the migration barrier is fundamentally governed by a direct competition between the thermodynamic site preference and the geometric anion positional parameter. By providing this open-access resource coupled with analytical tools, we aim to promote reproducibility and accelerate the data-driven design of high-performance energy storage materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 7
+    },
+    {
+      "title": "Database of migration barriers for Li/Na-containing compounds by high-throughput NEB workflow",
+      "authors": [
+        "Jingchen Lian",
+        "Ruijuan 睿娟 Xiao 肖",
+        "Hui Li"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Jingchen Lian",
+          "orcid": "0009-0008-3000-4682",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruijuan 睿娟 Xiao 肖",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hui Li",
+          "orcid": "0000-0001-9198-3951",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Chinese Physics B",
+      "doi": "10.1088/1674-1056/ae88e2",
+      "type": "article",
+      "url": "https://doi.org/10.1088/1674-1056/ae88e2",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://iopscience.iop.org/article/10.1088/1674-1056/ae88e2/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Solid-state electrolytes (SSEs) are vital for advancing high-performance all-solid-state batteries. Since the energy barrier of SSEs is a main property that governs the ionic transport performance, it is important to construct a database of such barriers. While density functional theory (DFT) based nudged elastic band (NEB) method provides fundamental insights into lithium-ion migration barriers, the high computational costs make large-scale calculations challenging. Some existing migration barrier databases based on bond valence method exhibit limited accuracy and lack local descriptions of specific migration paths. To address these limitations, we have developed a high-throughput NEB workflow that integrates a fine-tuned CHGNet potential, enabling the efficient and accurate calculation of barriers across all inequivalent migration paths. This work presents a database containing 6928 materials with totally 20320 inequivalent migration paths and their corresponding energy barriers. Furthermore, by extracting local environment descriptors from these paths in lithium-containing compounds, we constructed machine learning models capable of effectively predicting energy barriers directly from the structural features of the migration pathways.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 8
+    },
+    {
+      "title": "Migration of ionic and nanoparticulate zinc from nanocellulose/ZnO nanoparticle films: morphology-dependent behaviour and modelling",
+      "authors": [
+        "Ana Rita Mendes",
+        "Otmar Geiss",
+        "Ivana Bianchi",
+        "Jessica Ponti",
+        "Ana Matos",
+        "Cristina L. M. Silva",
+        "Fátima Poças"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Ana Rita Mendes",
+          "orcid": "0000-0002-8555-8518",
+          "affiliations": [
+            "Universidade Católica Portuguesa",
+            "Centro de Biotecnologia e Química Fina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Otmar Geiss",
+          "orcid": "0000-0002-5371-3798",
+          "affiliations": [
+            "European Commission",
+            "Joint Research Center",
+            "Joint Research Centre",
+            "Joint Research Centre",
+            "Joint Research Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivana Bianchi",
+          "orcid": "0000-0001-7954-7532",
+          "affiliations": [
+            "European Commission",
+            "Joint Research Center",
+            "Joint Research Centre",
+            "Joint Research Centre",
+            "Joint Research Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jessica Ponti",
+          "orcid": "0000-0002-4961-8405",
+          "affiliations": [
+            "European Commission",
+            "Joint Research Center",
+            "Joint Research Centre",
+            "Joint Research Centre",
+            "Joint Research Centre"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ana Matos",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Politécnica de Viseu"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cristina L. M. Silva",
+          "orcid": null,
+          "affiliations": [
+            "Universidade Católica Portuguesa",
+            "Centro de Biotecnologia e Química Fina"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Fátima Poças",
+          "orcid": "0000-0002-6598-6515",
+          "affiliations": [
+            "Universidade Católica Portuguesa",
+            "Centro de Biotecnologia e Química Fina"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Food Additives & Contaminants Part A",
+      "doi": "10.1080/19440049.2026.2633744",
+      "type": "article",
+      "url": "https://doi.org/10.1080/19440049.2026.2633744",
+      "cited_by_count": 3,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/19440049.2026.2633744?needAccess=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The incorporation of zinc oxide nanoparticles (ZnO NPs) into biopolymers has gained attention for active food packaging due to their antimicrobial properties. However, potential Zn migration associated with safety concerns remains underexplored, particularly in non-regulated bio-based polymers. In this study, Zn migration from nanocellulose (NC) films incorporating spherical-, flower- and sheet-shaped ZnO NPs was evaluated, in ionic and nanoparticulate forms. Migration tests were conducted using water and ethanol 10% as food simulants under different time-temperature conditions. Zinc release was quantified using complementary analytical and microscopic approaches, and Fick’s second law and Weibull models were employed to describe the migration kinetics. Migration behaviour was influenced by nanoparticle morphology, simulant type, and temperature. Zinc migrated predominantly as Zn2+, with minimal nanoparticle contribution, although distinction from cellulose fibres proved challenging. NC films containing flower-shaped nanoparticles exhibited the highest Zn migration, yet migration levels for all films remained below the European specific migration limit. Water promoted higher migration than ethanol, and unexpectedly, Zn migration was lower at 60 °C compared to 23 °C, likely due to matrix effect. Fickian fits yielded diffusion coefficients in the range 10−16–10−15 m2 s−1, while Weibull β < 1, confirmed diffusion-controlled release. These findings confirm the potential of NC/ZnO nanocomposites for food packaging applications and highlight the importance of combining multi analytics with kinetic modelling to support safety assessment.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 9
+    },
+    {
+      "title": "OBELiX: a curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes",
+      "authors": [
+        "Félix Therrien",
+        "Jamal Abou Haibeh",
+        "Divya Sharma",
+        "Rhiannon Hendley",
+        "Leah Wairimu Mungai",
+        "Sun Sun",
+        "Alain Tchagang",
+        "Jiang Su",
+        "Samuel Huberman",
+        "Yoshua Bengio",
+        "Hongyu Guo",
+        "Álex Hernández-García",
+        "Homin Shin"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Félix Therrien",
+          "orcid": "0000-0003-1074-7805",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jamal Abou Haibeh",
+          "orcid": null,
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "McGill University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Divya Sharma",
+          "orcid": "0000-0002-5672-5700",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rhiannon Hendley",
+          "orcid": "0009-0004-9383-0157",
+          "affiliations": [
+            "University of Ottawa",
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Leah Wairimu Mungai",
+          "orcid": null,
+          "affiliations": [
+            "Technical University of Kenya",
+            "Mila - Quebec Artificial Intelligence Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sun Sun",
+          "orcid": null,
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alain Tchagang",
+          "orcid": "0000-0001-8619-9441",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jiang Su",
+          "orcid": null,
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Samuel Huberman",
+          "orcid": "0000-0003-0865-8096",
+          "affiliations": [
+            "McGill University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yoshua Bengio",
+          "orcid": "0000-0002-9322-3515",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hongyu Guo",
+          "orcid": "0000-0002-7663-2421",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Álex Hernández-García",
+          "orcid": "0000-0002-5473-4507",
+          "affiliations": [
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Université de Montréal"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Homin Shin",
+          "orcid": "0000-0001-9300-6898",
+          "affiliations": [
+            "National Research Council Canada"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Digital Discovery",
+      "doi": "10.1039/d5dd00441a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d5dd00441a",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00441a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "OBELiX is a database of 599 synthesized solid electrolyte materials and their experimentally measured room temperature ionic conductivities gathered from literature and curated by domain experts.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 10
+    },
+    {
+      "title": "Optoelectronic Nanofluidic Neural Networks for Ionic Computing",
+      "authors": [
+        "Yaxin Huang",
+        "Zhiyuan Du",
+        "Changjin Wu",
+        "Binglin Zeng",
+        "Yingnan Cao",
+        "Mingliang Li",
+        "Liren Zhang",
+        "Qingxin Guo",
+        "Chao Huang",
+        "C W. LI",
+        "Jinyao Tang"
+      ],
+      "year": 2026,
+      "author_details": [
+        {
+          "name": "Yaxin Huang",
+          "orcid": "0000-0003-2626-9318",
+          "affiliations": [
+            "Beijing Institute of Technology",
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhiyuan Du",
+          "orcid": null,
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changjin Wu",
+          "orcid": "0000-0001-9885-9128",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Binglin Zeng",
+          "orcid": "0000-0002-7172-5557",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yingnan Cao",
+          "orcid": null,
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mingliang Li",
+          "orcid": "0000-0002-6181-5954",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Liren Zhang",
+          "orcid": "0009-0002-1649-0393",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qingxin Guo",
+          "orcid": "0000-0002-3703-2394",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chao Huang",
+          "orcid": "0000-0003-1142-7491",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "C W. LI",
+          "orcid": "0000-0001-5539-6557",
+          "affiliations": [
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinyao Tang",
+          "orcid": "0000-0002-0051-148X",
+          "affiliations": [
+            "State Key Laboratory of Synthetic Chemistry",
+            "University of Hong Kong"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.74080",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.74080",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://doi.org/10.1002/adma.74080",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Emerging neuromorphic computing technologies aim to replicate the brain's cognitive processes and offer promising capabilities for advanced computation and complex tasks. Building artificial neural networks (ANNs) with robust connections and dynamic plasticity is essential for their implementation. Nevertheless, most existing ANNs rely on solid-state semiconductors, where electrons or holes serve as information carriers. Here, we present a novel ion-based nanofluidic memristor operating in aqueous solutions, which can be integrated to create densely connected ionic neural networks (INNs). The nanofluidic memristor exhibits tunable ionic memory and diverse synaptic plasticity that can be modulated by electrical, optical, or combination signals. We demonstrate that the ionic memory originates from non-trivial hysteretic ion-charged surface interactions in confined nanochannels, supported by experiments and numerical calculations. Utilizing the tunable states of the nanofluidic memristor, we implement reservoir computing to classify static patterns and dynamical motions, achieving ultrahigh accuracies of 91% and 97% on the standard MNIST datasets and homemade moving-particle library, respectively. Multiple nanofluidic memristors are integrated to construct a practical INN capable of real-time logic computation and in-sensor computing, verifying the robustness of nanofluidic computation systems. This ion-based nanofluidic platform offers a promising pathway towards fully connected INNs and advances neuromorphic computing beyond solid-state electronics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 11
+    },
+    {
+      "title": "Modelling of radionuclide migration in a generic deep geological repository in granitic host rock considering engineered and natural barrier interaction",
+      "authors": [],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": null,
+      "doi": "10.21175/rad.abstr.book.2026.30.4",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.21175/rad.abstr.book.2026.30.4",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.21175/rad.abstr.book.2026.30.4",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "An important step in the design process of a deep geological repositories (DGRs) includes an extensive safety assessment. These safety assessments have to take into account a number of factors that can affect the capability of the waste disposal facility and its surroundings to retain dangerous materials, this can include the assessment of radionuclide sorption change in various engineered and natural barriers. A common approach is to use sorption coefficients for materials of each barrier, to determine the retardation of radionuclide flux into the environment. The evolution/change of barriers properties, e.g., physio-chemical degradation of concrete barriers can affect its sorption capabilities. The aim of this study is to assess the concentration distribution of three representative radionuclides in a generic DGR for intermediate-level waste (ILW), considering interactions between engineered and natural barriers. The repository consists of cemented waste packages and cementitious backfill placed in a granitic host rock [1]. The radionuclides evaluated are Ni-59 (moderately sorbing), I- 129 (weakly sorbing), and Pu-239 (strongly sorbing). Water percolation leaches cementitious components from the engineered barriers, decreasing pH inside the cell and increasing it in the surrounding rock matrix. Modelling chemical transport is essential to determine the pH front, as pH controls radionuclide sorption (Kd) values in each material. Leaching-induced pH changes in concrete waste packages and engineered barriers are used to define corresponding Kd coefficients in both concrete barriers and granite host rock, which are then applied in reactive transport models to evaluate radionuclide migration. Three cases are modelled: (1) no physical or chemical property changes are considered in granite and engineered barriers; (2) pH and Kd changes in both natural and engineered barriers are considered in two steps based on high-pH front propagation; and (3) pH and sorption changes in natural and engineered barriers are assessed over five steps. Reactive transport modelling is performed using HYDRUS 1D software [2] in all cases. The results of the evaluation demonstrate, that radionuclide concentrations in all cases, for each radionuclide follows a similar distribution pattern in the system. However, differences in concentrations are noticeable. In case 1, radionuclide Ni-59 propagates deeper into the granitic rock layer and the concentration is higher, when compared to case 2 and 3. The differences between cases 2 and 3 are very low, and follow the exact same distribution pattern. In the case of a strongly sorbing radionuclide Pu-239, the differences in modelling approach led to a negligible difference in radionuclide distribution: Pu-239 does not leave the concrete barrier system. Similarly, for the weakly sorbing radionuclide I-129, the differences in modelling approach led to negligible difference in radionuclide distribution: I-129 has very low sorption on both concrete and on granitic rock, and pH change in surrounding material does not impact the Kd of the radionuclide.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 12
+    },
+    {
+      "title": "Engineering Super-Ionic Diffusion in Solid-State Electrolytes via Machine Learning",
+      "authors": [
+        "David Tucci"
+      ],
+      "year": 2026,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": null,
+      "doi": "10.82308/55846",
+      "type": "dissertation",
+      "url": "https://doi.org/10.82308/55846",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://mcgill.scholaris.ca/bitstreams/490f6051-59cd-4068-8530-1ffc63fdd1b2/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": null,
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Leading research teams are actively pursuing solid-state electrolytes (SSEs) for next-generation lithium (Li) batteries. A primary requirement a SSE must have is a high room-temperature ionic conductivity. Since super-ionic SSEs exhibit highly connected pathways that flatten the free-energy landscape, their ionic conductivity must be estimated from finite-temperature molecular dynamics (MD) rather than single-barrier kinetics. However, ab initio molecular dynamics (AIMD) simulations are computationally expensive. This limits accessible simulation times and the number of atoms for conventional first-principles methods. To mitigate these limits, a pretrained state-of-the-art machine learning interatomic potential called MACE-MPA-0 was used. This work tests the pretrained MACE model on vacancy-mediated Li migration barriers in rock salt materials via the nudged elastic band method. The pretrained MACE model underestimated the energy barriers by around 10% when compared to our reference first principles calculations. To improve the model's accuracy, additional first-principles data were incorporated through targeted finetuning. By allowing a Li atom to roll down an energy saddle point, the finetuning process substantially improved the predicted barrier accuracy to within 0.5%. Moreover, the diffusion coefficients in the sulfide SSE Li10Si(PS6)2 were evaluated across a temperatures range of 300 K to 1000 K by conducting MACE MD simulations. Then an exploration of two methodologies were performed to estimate the uncertainty associated with the calculated diffusion coefficients. Furthermore, at most temperatures the pretrained MACE-MPA-0 model overestimates the diffusion coefficients when comparing them to first principles and experimental results. The model’s prediction was especially worse at 300 K. Therefore, two finetuning algorithms were created to further finetune the pretrained MACE-MPA-0 model. One algorithm uses data gathered by AIMD simulations and the other uses data obtained by single point first-principles calculations. These workflows generated data and finetuned the MACE-MPA-0 model to better predict the diffusion coefficients especially at 300 K. Using each of these finetuning workflows, the diffusion coefficient of Li10Si(PS6)2 was calculated at 300 K by running MACE MD simulations and Arrhenius extrapolation methods. The diffusion coefficients obtained from both finetuning workflows are in close agreement and within an order magnitude of the experimental reference value of 5.8 ± 2 x 10-12 m^2/s. However, only the diffusion coefficients obtained directly from MACE MD simulations at 300 K were within experimental uncertainty. Lastly, the author, with the contributions of the research group, introduce an automated fine-tuning strategy based on active learning methods. This approach iteratively queries high-uncertainty configurations for labeling. With this active learning model, both methods of calculating the 300 K diffusion coefficient were within the experimental uncertainty. The closest predicted diffusion coefficient from the active learnt model is 6.41 x 10-12m^2/s at 300 K, obtained by Arrhenius extrapolation. In conclusion, this study provides the basis of concrete workflows to finetune MACE models to accurately predict diffusion coefficients of SSE materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 13
+    },
+    {
+      "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+      "authors": [
+        "Reshma Devi",
+        "Avaneesh Balasubramanian",
+        "Keith T. Butler",
+        "Gopalakrishnan Sai Gautam"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Reshma Devi",
+          "orcid": null,
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Avaneesh Balasubramanian",
+          "orcid": "0009-0008-7142-7227",
+          "affiliations": [
+            "Indian Institute of Science Education and Research Pune",
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith T. Butler",
+          "orcid": "0000-0001-5432-5597",
+          "affiliations": [
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gopalakrishnan Sai Gautam",
+          "orcid": "0000-0002-1303-0976",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Data",
+      "doi": "10.1038/s41597-025-06196-x",
+      "type": "data-paper",
+      "url": "https://doi.org/10.1038/s41597-025-06196-x",
+      "cited_by_count": 10,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41597-025-06196-x.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The rate performance of any electrode or solid electrolyte material used in a battery is critically dependent on the migration barrier ( E m ) governing the motion of the intercalant ion, which is a difficult-to-estimate quantity both experimentally and computationally. The foundation for constructing and validating accurate machine learning (ML) models that are capable of predicting E m , and hence accelerating the discovery of novel electrodes and solid electrolytes, lies in the availability of high-quality dataset(s) containing E m . Addressing this critical requirement, we present a comprehensive dataset comprising 621 distinct literature-reported E m values calculated using density functional theory based nudged elastic band computations, across 443 compositions and 27 structural groups consisting of various compounds that have been explored as electrodes or solid electrolytes in batteries. Our dataset includes compositions corresponding to fully charged and/or discharged states of electrodes, with intermediate compositions incorporated in select instances. Crucially, for each compound, our dataset provides structural information, including the initial and final positions of the migrating ion, along with its corresponding E m in easy-to-use .xlsx and JSON formats. We envision our dataset to be highly useful for the scientific community, facilitating the development of advanced ML models that can predict E m precisely and accelerate materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 14
+    },
+    {
+      "title": "A literature-derived dataset of migration barriers for quantifying ionic transport in battery materials",
+      "authors": [
+        "Reshma Devi",
+        "Avaneesh Balasubramanian",
+        "Keith T. Butler",
+        "Gopalakrishnan Sai Gautam"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Reshma Devi",
+          "orcid": "0000-0002-1820-308X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Avaneesh Balasubramanian",
+          "orcid": "0009-0008-7142-7227",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keith T. Butler",
+          "orcid": "0000-0001-5432-5597",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Gopalakrishnan Sai Gautam",
+          "orcid": "0000-0002-1303-0976",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2508.06459",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2508.06459",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2508.06459",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The rate performance of any electrode or solid electrolyte material used in a battery is critically dependent on the migration barrier ($E_m$) governing the motion of the intercalant ion, which is a difficult-to-estimate quantity both experimentally and computationally. The foundation for constructing and validating accurate machine learning (ML) models that are capable of predicting $E_m$, and hence accelerating the discovery of novel electrodes and solid electrolytes, lies in the availability of high-quality dataset(s) containing $E_m$. Addressing this critical requirement, we present a comprehensive dataset comprising 619 distinct literature-reported $E_m$ values calculated using density functional theory based nudged elastic band computations, across 443 compositions and 27 structural groups consisting of various compounds that have been explored as electrodes or solid electrolytes in batteries. Our dataset includes compositions that correspond to fully charged and/or discharged states of electrode materials, with intermediate compositions incorporated in select instances. Crucially, for each compound, our dataset provides structural information, including the initial and final positions of the migrating ion, along with its corresponding $E_m$ in easy-to-use .xlsx and JSON formats. We envision our dataset to be a highly useful resource for the scientific community, facilitating the development of advanced ML models that can predict $E_m$ precisely and accelerate materials discovery.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 15
+    },
+    {
+      "title": "Benchmarking machine learning models for predicting lithium ion migration",
+      "authors": [
+        "Artem D. Dembitskiy",
+        "Innokentiy S. Humonen",
+        "Roman A. Eremin",
+        "Dmitry A. Aksyonov",
+        "Stanislav S. Fedotov",
+        "Semen Budennyy"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Artem D. Dembitskiy",
+          "orcid": "0000-0002-0158-8083",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology",
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Innokentiy S. Humonen",
+          "orcid": "0000-0003-2621-507X",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Roman A. Eremin",
+          "orcid": "0000-0002-2550-9239",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dmitry A. Aksyonov",
+          "orcid": "0000-0002-3692-4809",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Stanislav S. Fedotov",
+          "orcid": "0000-0003-4348-6517",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Semen Budennyy",
+          "orcid": "0000-0001-6916-2030",
+          "affiliations": [
+            "AIRI - Artificial Intelligence Research Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01571-z",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01571-z",
+      "cited_by_count": 28,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01571-z.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The development of fast ionic conductors to improve the performance of electrochemical devices relies on expensive high-throughput (HT) density functional theory (DFT) calculations of transport properties. Machine learning (ML) can accelerate HT workflows but requires high-quality data to ensure accurate predictions from trained models. In this study, we introduce the LiTraj dataset, which comprises 13,000 percolation and 122,000 migration barriers, and 1700 migration trajectories, calculated for Li-ion in diverse crystal structures using empirical force fields and DFT, respectively. With LiTraj, we demonstrate that classical ML models and graph neural networks (GNNs) for structure-to-property prediction of percolation and migration barriers can distinguish between “fast” and “poor” ionic conductors. Furthermore, we evaluate the capability of GNN-based universal ML interatomic potentials (uMLIPs) to identify optimal Li-ion migration trajectories. Fine-tuned uMLIPs achieve near-DFT accuracy in predicting migration barriers, significantly accelerating HT screenings of new ionic conductors.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 16
+    },
+    {
+      "title": "Data Speaks: LLM-Enabled Evidence Auditing Resets the “Migration Barrier” Playbook for Solid-State Electrolytes",
+      "authors": [
+        "Limin Li",
+        "Kan Xu",
+        "Rui Su",
+        "Huan Gu",
+        "Piao Ma"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Limin Li",
+          "orcid": "0000-0002-6470-757X",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kan Xu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rui Su",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Huan Gu",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Piao Ma",
+          "orcid": "0000-0002-4357-187X",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "AI for Materials",
+      "doi": "10.53941/aimat.2026.100002",
+      "type": "article",
+      "url": "https://doi.org/10.53941/aimat.2026.100002",
+      "cited_by_count": 5,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://media.sciltp.com/articles/2511002201/2511002201.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Reported activation barriers for ion transport in solid-state electrolytes often disagree, not because the physics is capricious, but because our computational workflows privilege convenience over coverage. By joining a domain-curated database with a language model that can normalize entities and assemble comparable cohorts, a recent pioneering study by Wang et al. shows that long-standing assumptions about “standard” activation barrier calculations fail a simple test: accuracy across families. Single-path CI-NEB and high-temperature AIMD extrapolated to device conditions deviate systematically for specific classes of materials, whereas ab initio metadynamics (MetaD) aligns more closely with experiment and repeatedly reveals a two-step migration mechanism in neutral-molecule-coordinated hydrides. The point is not to anoint a universal winner; it is to treat method’s reliability as an object of study, measured against data at scale.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 17
+    },
+    {
+      "title": "Ionic‐Electronic Coupling Modulation Induced by Nanofibrous Phase Separation for Synaptic Organic Electrochemical Transistors",
+      "authors": [
+        "Canghao Xu",
+        "Lin Gao",
+        "Yujie Peng",
+        "Changjian Liu",
+        "Zheng Ding",
+        "Junsheng Yu"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Canghao Xu",
+          "orcid": null,
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lin Gao",
+          "orcid": "0000-0002-6986-5104",
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yujie Peng",
+          "orcid": "0009-0004-1454-2510",
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Changjian Liu",
+          "orcid": "0000-0001-7352-9851",
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zheng Ding",
+          "orcid": "0009-0001-9151-380X",
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junsheng Yu",
+          "orcid": "0000-0002-7484-8114",
+          "affiliations": [
+            "University of Electronic Science and Technology of China",
+            "State Key Laboratory of Electronic Thin Films and Integrated Devices"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Aggregate",
+      "doi": "10.1002/agt2.70129",
+      "type": "article",
+      "url": "https://doi.org/10.1002/agt2.70129",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/agt2.70129",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT Organic electrochemical transistors (OECTs) represent a promising platform for neuromorphic computing, owing to their unique ability to achieve non‐volatile memory under low‐voltage operation. The achievement of biologically relevant synaptic functionalities within OECTs remains challenging due to uncontrolled ionic‐electronic coupling, limited device stability, and fabrication complexity. Herein, we report synaptic OECTs based on polymer blends of the ion‐permeable semiconductor (Pg2T‐T) and the ion‐blocking polymers (PMMA, PS), which are designed to modulate ionic diffusion within the transistor channel. Morphological and electrochemical characterizations demonstrate that the incorporation of these blocking polymers induces nanofibrous phase separation, resulting in continuous Pg2T‐T nanofibers that facilitate electronic transport, interspersed with PMMA‐rich domains serving as physical barriers to ion migration. Based on the systematic evaluation of OECT transistor and synapse performances, we identified an optimal Pg2T‐T to PMMA composition ratio of 1:2, which yields significantly enhanced synaptic behaviors, including excitatory postsynaptic current (EPSC), tunable paired‐pulse facilitation and depression (PPF/PPD), as well as stable long‐term potentiation and depression (LTP/LTD) across multiple writing/erasing cycles. Moreover, by integrating the device into a neuromorphic system based on the Fashion‐MNIST dataset, achieving a classification accuracy of 80.41%, which surpassed the ideal synapse baseline, attributed to the beneficial stochasticity of physical weight updates. These results highlight a scalable material strategy for high‐robust synaptic emulation in OECTs, offering a promising foundation for future bioinspired neuromorphic hardware.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 18
+    },
+    {
+      "title": "Ionic Liquids",
+      "authors": [
+        "Pradip  Kumar Bhowmik"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Pradip  Kumar Bhowmik",
+          "orcid": "0000-0002-7737-9317",
+          "affiliations": [
+            "University of Nevada, Las Vegas"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Directory of Open access Books (OAPEN Foundation)",
+      "doi": null,
+      "type": "article",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.intechopen.com/chapter/pdf-download/1175149",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Ionic liquids (ILs) are composed of various cations and anions. They can be used in many applications in many science and technology disciplines since they exhibit unique properties. They hold promise as engineered materials in many fields, including green solvents/catalysts for chemical reactions, separation sciences, biocatalysts, biopolymers processing, active pharmaceutical ingredients, drug delivery, electrolytes for batteries and supercapacitors, and even for solid-state batteries. Additionally, they can be used as additives in solar cells, including perovskite solar cells, enhancing power conversion efficiency and stability. Recent developments in different aspects of ILs, including physical properties, molecular dynamic simulations, ionic conductivities, active pharmaceutical ingredients, and lubricants, are discussed in this book.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 19
+    },
+    {
+      "title": "Ion coordination and migration mechanisms in alkali metal complex borohydride-based solid electrolytes",
+      "authors": [
+        "Shweta Choudhary",
+        "Swastika Banerjee"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Shweta Choudhary",
+          "orcid": "0000-0002-6449-9459",
+          "affiliations": [
+            "Indian Institute of Technology Roorkee"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Swastika Banerjee",
+          "orcid": "0000-0001-8202-4628",
+          "affiliations": [
+            "Indian Institute of Technology Roorkee"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Communications Chemistry",
+      "doi": "10.1038/s42004-025-01482-6",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s42004-025-01482-6",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s42004-025-01482-6.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid electrolytes (SEs) typically consist of a static framework of anions (FA) and a sublattice of mobile cations (M), with non-covalent dispersion interactions (Edisp) playing a key role in structural stability. However, the impact of these interactions on M-ion migration—whether they assist or hinder it—remains unclear. In this study, we investigate the diffusion barriers of M-ions in SE frameworks, focusing on the M2B12H12 family (M = Li, Na, K), and clarify the role of non-covalent interactions. Our computational analyses reveal that moving from Li to Na to K analogues in M2B12H12 results in significant changes in many-body dispersion (MBD) interactions. The MBD interactions act as springs embedded within the M2B12H12 framework, regulating the effective coordination number (ECN) of M-ions and shaping the potential energy landscape for their migration. A linear correlation is observed between ECN and Edisp, consistent across different alkali ions. This correlation reveals a unified mechanism in which dispersion interactions regulate M-ion migration barrier and identifies a critical bottleneck for beyond-Li diffusion in M2B12H12 SEs. Intriguingly, MBD interactions further influence the prefactor in the diffusivity equation, driving anomalous diffusion behavior in SEs. Non-covalent dispersion interactions between a static framework of anions and a sublattice of mobile cations are paramount to the structural stability of solid electrolytes. Here the authors show that these interactions regulate the migration energy barrier using an advanced hybrid functional coupled with a non-local many-body dispersion term that accounts for long-range exchange-correlation effects in M2B12H12 closo-dodecaborates.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 20
+    },
+    {
+      "title": "Molecular dynamics simulation of diffusion dynamic behavior in [EMIm]+Cl–+AlCl3 ionic liquid based on deep learning potential function",
+      "authors": [
+        "LIU Haoliang",
+        "HE Huaxuan",
+        "Zhong Chao",
+        "Kai WU",
+        "Yonghong CHENG",
+        "Bing Xiao"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "LIU Haoliang",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "HE Huaxuan",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Zhong Chao",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kai WU",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yonghong CHENG",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bing Xiao",
+          "orcid": "0000-0002-6850-1966",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Acta Physica Sinica",
+      "doi": "10.7498/aps.74.20250818",
+      "type": "article",
+      "url": "https://doi.org/10.7498/aps.74.20250818",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "diamond",
+        "url": "https://wulixb.iphy.ac.cn/pdf-content/10.7498/aps.74.20250818.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The [EMIm]+Cl–+AlCl3 ion liquid is a promising prototype electrolyte for aluminum-ion batteries (AIBs). Its ionic transport behavior involves multiple mobile species (Al3+, AlCl3, [AlCl4]– and [Al2Cl7]–), with ion migration mechanisms and conversion reactions among these species unsolved experimentally. This complexity results in heterogeneous ion migration mechanisms and sluggish diffusion kinetics, which cannot be accurately and reliably captured by the traditional first-principles molecular dynamics (FPMD) simulations within the very limited time duration (tens of ps) and relatively small modelling structure (less than 103 atoms). The classic molecular dynamics simulations based on various force fields are also scarce for studying and predicting the atomic structure evolution and ion diffusion dynamics of the complex electrolyte system such as ion liquids. In this work, a deep neural network interatomic potential (DP-potential) is developed through machine learning techniques, combining first-principles accuracy with classical molecular dynamics efficiency, to systematically investigate various chemical and physical properties for [EMIm]+Cl–+AlCl3 ion-liquid at finite temperatures. Training and validating of DP potential for [EMIm]+Cl–+AlCl3 ion liquid are implemented with a two-stage protocol, including the primary training stage and the refining stage. Before initiating the two training stages, a series of first-principles molecular dynamics (FPMD) simulations is performed for [EMIm]+Cl–+AlCl3 ion liquids with different molar ratios (1.0, 1.3, 1.5, 1.7 and 2.0) and equilibrium densities (1.09—1.56 g/cm3) at finite temperatures (300 K and 400 K), resulting in a highly diverse training datasets spanning a board range of chemical compositions and densities during the primary training stage for DP potential. Then, the trained DP-potential is employed to conduct long-timescale classic molecular dynamics simulations by using LAMMPS program for the [EMIm]+Cl–+AlCl3 ion liquids to produce the atomic configurations that either show significant errors in the calculated atomic forces and total energies or exhibit the unusual atomic evolution before crashing. Those highly extrapolated atomic configurations are merged with the initial training datasets to reoptimize the DP potential in the second refining stage. Through this two-stage training approach, a deep learning neural network interatomic potential with high accuracy is successfully constructed, achieving an energy prediction error of 5×10–4 eV/atom and a force prediction error of 5×10–2 eV/Å. The reliability of the finally obtained machine learning potential is further validated through a systematic comparison of radial distribution functions (RDF) for some representative atomic pairs such as C—N, C—H, Al—Cl and Cl—H, obtained from both DP-MD and FPMD, demonstrating excellent consistency for the results from the two methods. The DP-MD simulations are systematically carried out to investigate vibrational spectrum and Al3+ diffusion dynamics as well as possible conversion reactions among molecular or ionic species (Al3+, AlCl3, [AlCl4]– and [Al2Cl7]–) in [EMIm]+Cl–+AlCl3 ion liquids within 104 atoms at finite temperatures. From the calculated vibrational density of states (VDOS), it can be seen that the VDOS of [EMIm]+Cl–+AlCl3 ion liquid can be approximated as a simple superposition of the vibrational spectra of individual species ([EMIm]+, [AlCl4]–, and [Al2Cl7]–), with H related vibrational modes dominating above 90 THz and the Al—Cl modes dominating below 20 THz. At 300 K, DP-MD predicts that regardless of the chemical compositions, the diffusion coefficient of Al3+ remains around 4 × 10–7 cm2/s at 300 K and the estimated diffusion activation energy is about 0.20 eV, which is very close to the experimental measurement value (0.15 eV). In addition, the calculated ionic conductivity of [EMIm]+Cl– + AlCl3 at room temperature is 27.37 mS/cm, with a deviation of only 18.2% from the experimental value (23.15 mS/cm). Notably, two different Al3+ diffusion mechanisms are identified in [EMIm]+Cl–+AlCl3 ion liquid: 1) direct migration processes conducted solely by molecular species including [AlCl4]– and [Al2Cl7]–, and 2) the migration of the neutral AlCl3 molecule mediated with two neighboring [AlCl4]– anions through the conversion reaction between [Al2Cl7]– and AlCl3+[AlCl4]– moieties. Furthermore, first-principles calculations on the probable dissociation pathways of [Al2Cl7]– revealed from DP-MD predict a reaction energy barrier height of 0.49 eV for the AlCl3 transferring between two [AlCl4]– anions with an increased reaction probability from 0.00047 events/(ps·Al3+) at 1∶1.3 molar ratio to 0.00347 events/(ps·Al3+) at 1∶1.75 molar ratio. Overall, a highly efficient and reliable workflow to train and validate the deep neural network interatomic potential for complex electrolyte system is successfully proposed, such as [EMIm]+Cl–+AlCl3 ion liquids, thus providing a more comprehensive investigation of Al3+ transport mechanisms in ionic liquid electrolytes for aluminum-ion batteries. In conclusion, this work can further advance the application of machine learning-based potentials in simulating electrolyte systems characterized by complex molecular architectures and sluggish diffusion dynamics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 21
+    },
+    {
+      "title": "Multiple B-site doping suppresses ion migration in halide perovskites",
+      "authors": [
+        "Yuhang Liang",
+        "Feng Li",
+        "Xiangyuan Cui",
+        "Catherine Stampfl",
+        "Simon Peter Ringer",
+        "Xudong Yang",
+        "Jun Huang",
+        "Rongkun Zheng"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Yuhang Liang",
+          "orcid": "0000-0002-8256-8171",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Feng Li",
+          "orcid": "0000-0003-4448-074X",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangyuan Cui",
+          "orcid": "0000-0002-3946-7324",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Catherine Stampfl",
+          "orcid": "0000-0003-4407-1778",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simon Peter Ringer",
+          "orcid": "0000-0002-1559-330X",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xudong Yang",
+          "orcid": "0000-0002-3877-7830",
+          "affiliations": [
+            "Shanghai Jiao Tong University",
+            "State Key Laboratory of Metal Matrix Composites"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jun Huang",
+          "orcid": "0000-0001-8704-605X",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rongkun Zheng",
+          "orcid": "0000-0002-7860-2023",
+          "affiliations": [
+            "The University of Sydney"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.ads7054",
+      "type": "article",
+      "url": "https://doi.org/10.1126/sciadv.ads7054",
+      "cited_by_count": 98,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.science.org/doi/pdf/10.1126/sciadv.ads7054?download=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc"
+      },
+      "oa_source": "openalex",
+      "abstract": "Lead halide perovskites hold great promise for photovoltaics and optoelectronics, yet ion migration continues to challenge their long-term stability. Here, combining first-principles calculations and machine learning molecular dynamics, we unravel the interplay between perovskite octahedral lattice dynamics and energy barrier associated with ion migration. Our results show that B-site substitution, particularly with alkaline-earth and lanthanide elements, notably strengthens lattice interactions, restrains octahedral oscillation, and increases iodine-migration barriers, outperforming the commonly used A-site and X-site substitutions and interstitial doping. Moreover, the enhanced barrier aligns with the geometric factor of μτ (tolerance-octahedral product), underlining the superior effectiveness of co- and multiple-element B-site doping in lattice stabilization and ion migration suppression. Experimental validation with exemplary hysteresis-free Eu-Ca-doped perovskite single crystals demonstrates remarkable improvements in ambient stability and transport properties. These findings highlight B-site engineering as an effective microstructural strategy for controlling ion migration, with important implications for stable and lead-reduced perovskite devices.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 22
+    },
+    {
+      "title": "Ionic-electronic photodetector for vision assistance with in-sensor image processing",
+      "authors": [
+        "Zhipeng Zhong",
+        "Yezhao Zhuang",
+        "Xing Cheng",
+        "Jingtao Zheng",
+        "Qianyi Yang",
+        "Xiang Li",
+        "Yan Chen",
+        "Hong Shen",
+        "Tie Lin",
+        "Wu Shi",
+        "Xiangjian Meng",
+        "Junhao Chu",
+        "Hai Huang",
+        "Jianlu Wang"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Zhipeng Zhong",
+          "orcid": "0009-0000-3903-7992",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yezhao Zhuang",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing Cheng",
+          "orcid": "0000-0003-2704-1323",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jingtao Zheng",
+          "orcid": null,
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Qianyi Yang",
+          "orcid": "0009-0004-2813-2790",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiang Li",
+          "orcid": "0000-0002-6482-2535",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yan Chen",
+          "orcid": "0009-0000-4076-867X",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Shen",
+          "orcid": "0000-0001-6283-6506",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Technical Physics",
+            "State Key Laboratory of Infrared Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tie Lin",
+          "orcid": "0000-0002-4510-268X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Technical Physics",
+            "State Key Laboratory of Infrared Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Wu Shi",
+          "orcid": "0000-0002-6458-4776",
+          "affiliations": [
+            "Fudan University",
+            "State Key Laboratory of Surface Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiangjian Meng",
+          "orcid": "0000-0003-4178-9362",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Shanghai Institute of Technical Physics",
+            "State Key Laboratory of Infrared Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Junhao Chu",
+          "orcid": "0000-0003-1867-9296",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Fudan University",
+            "Shanghai Institute of Technical Physics",
+            "State Key Laboratory of Infrared Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hai Huang",
+          "orcid": "0000-0002-6037-4544",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianlu Wang",
+          "orcid": "0009-0008-3976-483X",
+          "affiliations": [
+            "Fudan University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-025-62563-7",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-025-62563-7",
+      "cited_by_count": 38,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-025-62563-7.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "The human eye is highly advanced but limited by color blindness and poor adaptation to changing light. Artificial photodetectors attempt to mimic vision but often require complex processing to overcome these limitations. Thus, developing photodetectors that complement human vision is crucial to overcoming these limitations. Here, we report a CuInP2S6-based photodetector array with tunable photoresponse for in-sensor image processing, directly complementing human vision. Through ionic and electronic tuning, the photodetector shows both positive and negative correlations with light intensity and wavelength. It enhances signal-to-background ratio by 880% and suppresses noise by 1,170 times, allowing effective detection of weak signals under strong illumination. Moreover, taking advantage of the distinct photoresponse to red and green light, the photodetector could improve the contrast between red and green patterns up to 43%, offering potential aid for red-green color blindness. This work presents a vision-enhancing photodetector capable of compensating for human visual deficiencies without external computation. Zhong et al. report a CuInP2S6 photodetector array that leverages microscopic ion–electron interactions to achieve tuneable photoresponse with light wavelength and intensity. These capabilities enable in-sensor image processing and offer potential assistance for addressing visual deficiencies, such as color blindness.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 23
+    },
+    {
+      "title": "Elucidating oxide-ion and proton transport in ionic conductors using machine learning potentials",
+      "authors": [
+        "Ying Zhou",
+        "Sacha Fop",
+        "Abbie  Christina Mclaughlin",
+        "James Alexander Dawson"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Ying Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Newcastle University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sacha Fop",
+          "orcid": "0000-0003-4168-6363",
+          "affiliations": [
+            "University of Aberdeen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Abbie  Christina Mclaughlin",
+          "orcid": "0000-0001-9960-723X",
+          "affiliations": [
+            "University of Aberdeen"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "James Alexander Dawson",
+          "orcid": "0000-0002-3946-5337",
+          "affiliations": [
+            "Newcastle University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Computational Materials",
+      "doi": "10.1038/s41524-025-01807-y",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41524-025-01807-y",
+      "cited_by_count": 4,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41524-025-01807-y.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract The design and understanding of oxide-ion and proton transport in solid electrolytes are pivotal to the development of fuel cells that can operate at reduced temperatures of <600 °C. Atomistic modeling and machine learning are playing ever more crucial roles in achieving this objective. In this study, using passive and active learning techniques, we develop moment tensor potentials (MTPs) for two promising ionic conductors, namely, Ba7Nb4MoO20 and Sr3V2O8. Our MTPs accurately reproduce ab initio molecular dynamics data and demonstrate strong agreement with density functional theory calculations for forces, energies and stresses. They successfully predict diffusion coefficients and conductivities for both oxide ions and protons, showing excellent agreement with experimental data and ab initio molecular dynamics results. Additionally, the MTPs accurately estimate migration barriers, thereby underscoring their robustness and transferability. Our findings highlight the potential of MTPs in significantly reducing computational costs while maintaining high accuracy, making them invaluable for simulating complex ion transport mechanisms and supporting the development of next-generation solid oxide fuel cells.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 24
+    },
+    {
+      "title": "Physical principles and mechanisms of cell migration",
+      "authors": [
+        "Roberto Alonso‐Matilla",
+        "Paolo P. Provenzano",
+        "David J. Odde"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "Roberto Alonso‐Matilla",
+          "orcid": "0000-0002-8296-6831",
+          "affiliations": [
+            "University of Minnesota"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paolo P. Provenzano",
+          "orcid": "0000-0002-9313-1370",
+          "affiliations": [
+            "University of Minnesota",
+            "Masonic Cancer Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David J. Odde",
+          "orcid": "0000-0001-7731-2799",
+          "affiliations": [
+            "University of Minnesota",
+            "Masonic Cancer Center"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "npj Biological Physics and Mechanics.",
+      "doi": "10.1038/s44341-024-00008-w",
+      "type": "review",
+      "url": "https://doi.org/10.1038/s44341-024-00008-w",
+      "cited_by_count": 47,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://www.nature.com/articles/s44341-024-00008-w.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by-nc-nd"
+      },
+      "oa_source": "openalex",
+      "abstract": "Cell migration is critical in processes such as developmental biology, wound healing, immune response, and cancer invasion/metastasis. Understanding its regulation is essential for developing targeted therapies in regenerative medicine, cancer treatment and immune modulation. This review examines cell migration mechanisms, highlighting fundamental physical principles, key molecular components, and cellular behaviors, identifying existing gaps in current knowledge, and suggesting potential directions for future research.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 25
+    },
+    {
+      "title": "Predicting ionic conductivity in solids from the machine-learned potential energy landscape",
+      "authors": [
+        "A. Maevskiy",
+        "Alexandra Carvalho",
+        "Emil Sataev",
+        "Volha Turchyna",
+        "Keian Noori",
+        "Aleksandr S. Rodin",
+        "A. H. Castro Neto",
+        "A. Ustyuzhanin"
+      ],
+      "year": 2025,
+      "author_details": [
+        {
+          "name": "A. Maevskiy",
+          "orcid": "0000-0003-1652-8005",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexandra Carvalho",
+          "orcid": "0000-0002-2851-1887",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Emil Sataev",
+          "orcid": "0009-0000-2891-0792",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Volha Turchyna",
+          "orcid": "0009-0005-1081-2947",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Keian Noori",
+          "orcid": "0000-0003-1939-7477",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aleksandr S. Rodin",
+          "orcid": "0000-0001-5321-7690",
+          "affiliations": [
+            "National University of Singapore",
+            "Yale-NUS College"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. H. Castro Neto",
+          "orcid": "0000-0003-0613-4010",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "A. Ustyuzhanin",
+          "orcid": "0000-0001-7865-2357",
+          "affiliations": [
+            "National University of Singapore",
+            "Constructor University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Physical Review Research",
+      "doi": "10.1103/physrevresearch.7.023167",
+      "type": "article",
+      "url": "https://doi.org/10.1103/physrevresearch.7.023167",
+      "cited_by_count": 17,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevResearch.7.023167",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Discovering new superionic materials is essential for advancing solid-state batteries, which offer improved energy density and safety compared to traditional lithium-ion batteries with liquid electrolytes. Conventional computational methods for identifying such materials are resource-intensive and not easily scalable. Recently, universal interatomic potential models have been developed using equivariant graph neural networks. These models are trained on extensive datasets of first-principles force and energy calculations. One can achieve significant computational advantages by leveraging them as the foundation for traditional methods of assessing the ionic conductivity, such as molecular dynamics or nudged elastic band techniques. However, the generalization error from model inference on diverse atomic structures arising in such calculations can compromise the reliability of the results. In this work, we propose an approach for the quick and reliable screening of ionic conductors through the analysis of a universal interatomic potential. Our method incorporates a set of heuristic structure descriptors that effectively employ the rich knowledge of the underlying model while requiring minimal generalization capabilities. Using our descriptors, we rank lithium-containing materials in the Materials Project database according to their expected ionic conductivity. Eight out of the ten highest-ranked materials are confirmed to be superionic at room temperature in first-principles calculations. Notably, our method achieves a speed-up factor of approximately 50 compared to molecular dynamics driven by a machine-learning potential, and it is at least 3000 times faster compared to first-principles molecular dynamics.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 26
+    },
+    {
+      "title": "Mixed oxide ion–proton conductivity and the ionic migration mechanism in isolated tetrahedral LaVO 4 by acceptor doping",
+      "authors": [
+        "Xinyue Geng",
+        "G Hang",
+        "Alberto José Fernández-Carrión",
+        "Xing Ming",
+        "Sihao Deng",
+        "Lunhua He",
+        "Xiaojun Kuang",
+        "Xiaoyan Yang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Xinyue Geng",
+          "orcid": "0000-0002-6077-4038",
+          "affiliations": [
+            "Guilin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "G Hang",
+          "orcid": null,
+          "affiliations": [
+            "Guilin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alberto José Fernández-Carrión",
+          "orcid": "0000-0001-8320-2828",
+          "affiliations": [
+            "Consejo Superior de Investigaciones Científicas",
+            "Instituto de Ciencia de Materiales de Sevilla",
+            "Universidad de Sevilla"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing Ming",
+          "orcid": "0000-0002-6567-6728",
+          "affiliations": [
+            "Guilin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sihao Deng",
+          "orcid": "0000-0002-5142-3519",
+          "affiliations": [
+            "China Spallation Neutron Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lunhua He",
+          "orcid": "0000-0002-0531-2148",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "China Spallation Neutron Source",
+            "Songshan Lake Materials Laboratory",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaojun Kuang",
+          "orcid": "0000-0003-2975-9355",
+          "affiliations": [
+            "Guilin University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiaoyan Yang",
+          "orcid": "0000-0003-2493-7079",
+          "affiliations": [
+            "Guilin University of Technology"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Inorganic Chemistry Frontiers",
+      "doi": "10.1039/d4qi00870g",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4qi00870g",
+      "cited_by_count": 7,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://digital.csic.es/bitstream/10261/392931/3/A-0601-LaVO4%20manuscript-clean%20%281%29.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Mixed oxide ion–proton conduction and the cooperative ionic migration mechanism in isolated tetrahedral LaVO 4 by acceptor doping strategies.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 27
+    },
+    {
+      "title": "A magneto-ionic synapse for reservoir computing",
+      "authors": [
+        "Sreeveni Das",
+        "Rhodri Mansell",
+        "Lukáš Flajšman",
+        "Maria‐Andromachi Syskaki",
+        "Langer, Jürgen",
+        "Sebastiaan van Dijken"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Sreeveni Das",
+          "orcid": "0000-0003-4550-8695",
+          "affiliations": [
+            "Aalto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Rhodri Mansell",
+          "orcid": "0000-0002-6026-0731",
+          "affiliations": [
+            "Aalto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Lukáš Flajšman",
+          "orcid": "0000-0003-4411-0589",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Maria‐Andromachi Syskaki",
+          "orcid": "0000-0003-2261-7653",
+          "affiliations": [
+            "Singulus (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Langer, Jürgen",
+          "orcid": null,
+          "affiliations": [
+            "Singulus (Germany)"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sebastiaan van Dijken",
+          "orcid": "0000-0001-6372-2252",
+          "affiliations": [
+            "Aalto University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Aaltodoc (Aalto University)",
+      "doi": "10.48550/arxiv.2412.11297",
+      "type": "article",
+      "url": "https://doi.org/10.48550/arxiv.2412.11297",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://doi.org/10.1103/PhysRevApplied.23.054043",
+        "url_kind": "landing",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Neuromorphic computing aims to revolutionize large-scale data processing by developing efficient methods and devices inspired by neural networks. Among these, the control of magnetism through ion migration has emerged as a promising approach due to the inherent memory and nonlinearity of ionically conducting and magnetic materials. In this work, we present a lithium-ion-based magneto-ionic device that uses applied voltages to control the magnetic domain state of a perpendicularly magnetized ferromagnetic layer. This behavior emulates the analog and non-volatile properties of biological synapses and enables the creation of a simple reservoir computing system. To illustrate its capabilities, the device is used in a waveform classification task, where the voltage amplitude range and magnetic bias field are tuned to optimize the recognition accuracy.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 28
+    },
+    {
+      "title": "A theoretical perspective on solid-state ionic interfaces",
+      "authors": [
+        "Javier Carrasco"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Javier Carrasco",
+          "orcid": "0000-0003-3117-6933",
+          "affiliations": [
+            "Ikerbasque",
+            "CIC energiGUNE"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "doi": "10.1098/rsta.2023.0313",
+      "type": "article",
+      "url": "https://doi.org/10.1098/rsta.2023.0313",
+      "cited_by_count": 11,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2023.0313/1273400/rsta.2023.0313.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Solid-state ionic conductors find application across various domains in materials science, particularly showcasing their significance in energy storage and conversion technologies. To effectively utilize these materials in high-performance electrochemical devices, a comprehensive understanding and precise control of charge carriers' distribution and ionic mobility at interfaces are paramount. A major challenge lies in unravelling the atomic-level processes governing ion dynamics within intricate solid and interfacial structures, such as grain boundaries and heterophases. From a theoretical viewpoint, in this Perspective article, my focus is to offer an overview of the current comprehension of key aspects related to solid-state ionic interfaces, with a particular emphasis on solid electrolytes for batteries, while providing a personal critical assessment of recent research advancements. I begin by introducing fundamental concepts for understanding solid-state conductors, such as the classical diffusion model and chemical potential. Subsequently, I delve into the modelling of space-charge regions, which are pivotal for understanding the physicochemical origins of charge redistribution at electrified interfaces. Finally, I discuss modern computational methods, such as density functional theory and machine-learned potentials, which offer invaluable tools for gaining insights into the atomic-scale behaviour of solid-state ionic interfaces, including both ionic mobility and interfacial reactivity aspects. This article is part of the theme issue 'Celebrating the 15th anniversary of the Royal Society Newton International Fellowship'.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 29
+    },
+    {
+      "title": "Unlocking new possibilities in ionic thermoelectric materials: a machine learning perspective",
+      "authors": [
+        "Yidan Wu",
+        "Dongxing Song",
+        "Meng An",
+        "Cheng Chi",
+        "Chunyu Zhao",
+        "Bing Yao",
+        "Weigang Ma",
+        "Xing Zhang"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Yidan Wu",
+          "orcid": null,
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dongxing Song",
+          "orcid": "0000-0002-5527-4100",
+          "affiliations": [
+            "Zhengzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Meng An",
+          "orcid": "0000-0002-1560-7329",
+          "affiliations": [
+            "Shaanxi University of Science and Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Cheng Chi",
+          "orcid": "0000-0001-7222-2583",
+          "affiliations": [
+            "North China Electric Power University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chunyu Zhao",
+          "orcid": "0000-0001-6213-0044",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bing Yao",
+          "orcid": "0000-0002-7926-5372",
+          "affiliations": [
+            "Xuzhou University of Technology",
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Weigang Ma",
+          "orcid": "0000-0003-0178-3994",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xing Zhang",
+          "orcid": "0000-0001-7294-9598",
+          "affiliations": [
+            "Tsinghua University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "National Science Review",
+      "doi": "10.1093/nsr/nwae411",
+      "type": "article",
+      "url": "https://doi.org/10.1093/nsr/nwae411",
+      "cited_by_count": 23,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://doi.org/10.1093/nsr/nwae411",
+        "url_kind": "landing",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "ABSTRACT The high thermopower of ionic thermoelectric (i-TE) materials holds promise for miniaturized waste-heat recovery devices and thermal sensors. However, progress is hampered by laborious trial-and-error experimentations, which lack theoretical underpinning. Herein, by introducing the simplified molecular-input line-entry system, we have addressed the challenge posed by the inconsistency of i-TE material types, and present a machine learning model that evaluates the Seebeck coefficient with an R2 of 0.98 on the test dataset. Using this tool, we experimentally identify a waterborne polyurethane/potassium iodide ionogel with a Seebeck coefficient of 41.39 mV/K. Furthermore, interpretable analysis reveals that the number of rotatable bonds and the octanol-water partition coefficient of ions negatively affect Seebeck coefficients, which is corroborated by molecular dynamics simulations. This machine learning-assisted framework represents a pioneering effort in the i-TE field, offering significant promise for accelerating the discovery and development of high-performance i-TE materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 30
+    },
+    {
+      "title": "Mechanistic Insights into Temperature Effects for Ionic Conductivity in Li6PS5Cl",
+      "authors": [
+        "Li, Zicun",
+        "Jianxing Huang",
+        "Xinguo Ren",
+        "Jinbin Li",
+        "Ruijuan Xiao",
+        "Hong Li"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "Li, Zicun",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics",
+            "Nanjing University of Aeronautics and Astronautics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jianxing Huang",
+          "orcid": "0000-0001-6363-5562",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinguo Ren",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinbin Li",
+          "orcid": null,
+          "affiliations": [
+            "Xiamen University",
+            "Nanjing University of Aeronautics and Astronautics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ruijuan Xiao",
+          "orcid": "0000-0003-0930-9576",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hong Li",
+          "orcid": "0000-0002-8659-086X",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "Institute of Physics"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2403.14116",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2403.14116",
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://arxiv.org/pdf/2403.14116",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Ensuring solid-state lithium batteries perform well across a wide temperature range is crucial for their practical use. Molecular dynamics (MD) simulations can provide valuable insights into the temperature dependence of the battery materials, however, the high computational cost of ab initio MD poses challenges for simulating ion migration dynamics at low temperatures. To address this issue, accurate machine-learning interatomic potentials were trained, which enable efficient and reliable simulations of the ionic diffusion processes in Li6PS5Cl over a large temperature range for long-time evolution. Our study revealed the significant impact of subtle lattice parameter variations on Li+ diffusion at low temperatures and identified the increasing influence of surface contributions as the temperature decreases. Our findings elucidate the factors influencing low temperature performance and present strategic guidance towards improving the performance of solid-state lithium batteries under these conditions.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 31
+    },
+    {
+      "title": "Point-defect chemistry for ionic conduction in solid electrolytes with isovalent cation mixing",
+      "authors": [
+        "T. Ogawa",
+        "Kazuyuki Sato",
+        "Kazuhiro John Mori",
+        "Shunsuke Kobayashi",
+        "Hiroki Moriwake",
+        "Yuichi Ikuhara",
+        "Akihide Kuwabara"
+      ],
+      "year": 2024,
+      "author_details": [
+        {
+          "name": "T. Ogawa",
+          "orcid": "0000-0001-7353-5901",
+          "affiliations": [
+            "Japan Fine Ceramics Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuyuki Sato",
+          "orcid": "0000-0001-6572-602X",
+          "affiliations": [
+            "Kyoto University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kazuhiro John Mori",
+          "orcid": "0000-0003-1085-4096",
+          "affiliations": [
+            "High Energy Accelerator Research Organization",
+            "Institute of Materials Structure Science"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shunsuke Kobayashi",
+          "orcid": "0000-0002-4933-8817",
+          "affiliations": [
+            "Japan Fine Ceramics Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hiroki Moriwake",
+          "orcid": "0000-0002-7371-4923",
+          "affiliations": [
+            "Japan Fine Ceramics Center"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yuichi Ikuhara",
+          "orcid": "0000-0003-3886-005X",
+          "affiliations": [
+            "Japan Fine Ceramics Center",
+            "The University of Tokyo"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Akihide Kuwabara",
+          "orcid": "0000-0002-2810-3437",
+          "affiliations": [
+            "Japan Fine Ceramics Center"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Materials Chemistry A",
+      "doi": "10.1039/d4ta05684a",
+      "type": "article",
+      "url": "https://doi.org/10.1039/d4ta05684a",
+      "cited_by_count": 16,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2024/ta/d4ta05684a",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The atomic-scale mechanism of enhanced ionic conductivity in (Ba,Ca)F 2 with isovalent cation mixing is revealed via a first-principles investigation of defect formation and migration.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 32
+    },
+    {
+      "title": "Beyond Rattling: Tetrahedrites as Incipient Ionic Conductors",
+      "authors": [
+        "Shriparna Mukherjee",
+        "David J. Voneshen",
+        "Andrew Ian Duff",
+        "Pooja Goddard",
+        "Anthony V. Powell",
+        "Paz Vaqueiro"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Shriparna Mukherjee",
+          "orcid": "0000-0002-1941-5551",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "David J. Voneshen",
+          "orcid": "0000-0001-5716-7184",
+          "affiliations": [
+            "Rutherford Appleton Laboratory",
+            "Royal Holloway University of London",
+            "ISIS Neutron and Muon Source"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Andrew Ian Duff",
+          "orcid": "0000-0002-5073-4112",
+          "affiliations": [
+            "Daresbury Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Pooja Goddard",
+          "orcid": "0000-0001-6624-2561",
+          "affiliations": [
+            "Loughborough University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Anthony V. Powell",
+          "orcid": "0000-0002-9650-1568",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Paz Vaqueiro",
+          "orcid": "0000-0001-7545-6262",
+          "affiliations": [
+            "University of Reading"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.202306088",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.202306088",
+      "cited_by_count": 12,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202306088",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Materials with ultralow thermal conductivity are crucial to many technological applications, including thermoelectric energy harvesting, thermal barrier coatings, and optoelectronics. Liquid-like mobile ions are effective at disrupting phonon propagation, hence suppressing thermal conduction. However, high ionic mobility leads to the degradation of liquid-like thermoelectric materials under operating conditions due to ion migration and metal deposition at the cathode, hindering their practical application. Here, a new type of behavior, incipient ionic conduction, which leads to ultralow thermal conductivity, while overcoming the issues of degradation inherent in liquid-like materials, is identified. Using neutron spectroscopy and molecular dynamics (MD) simulations, it is demonstrated that in tetrahedrite, an established thermoelectric material with a remarkably low thermal conductivity, copper ions, although mobile above 200 K, are predominantly confined to cages within the crystal structure. Hence the undesirable migration of cations to the cathode can be avoided. These findings unveil a new approach for the design of materials with ultralow thermal conductivity, by exploring systems in which incipient ionic conduction may be present.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 33
+    },
+    {
+      "title": "Ionic Nickel Embedded in Ceria with High Specific CO2 Methanation Activity",
+      "authors": [
+        "Mathias Barreau",
+        "Davide Salusso",
+        "Juan Li",
+        "Jinming Zhang",
+        "Elisa Borfecchia",
+        "Kamil Sobczak",
+        "Luca Braglia",
+        "Jean‐Jacques Gallet",
+        "Piero Torelli",
+        "Hua Guo",
+        "Sen Lin",
+        "Spyridon Zafeiratos"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Mathias Barreau",
+          "orcid": "0000-0002-1917-134X",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie et Procédés pour l'Energie, l'Environnement et la Santé",
+            "Université de Strasbourg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Davide Salusso",
+          "orcid": "0000-0001-7927-4001",
+          "affiliations": [
+            "European Synchrotron Radiation Facility"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Juan Li",
+          "orcid": null,
+          "affiliations": [
+            "Fuzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinming Zhang",
+          "orcid": "0000-0003-3404-4506",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie et Procédés pour l'Energie, l'Environnement et la Santé",
+            "Université de Strasbourg"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Elisa Borfecchia",
+          "orcid": "0000-0001-8374-8329",
+          "affiliations": [
+            "National Interuniversity Consortium of Materials Science and Technology",
+            "University of Turin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kamil Sobczak",
+          "orcid": "0000-0002-9747-8144",
+          "affiliations": [
+            "University of Warsaw"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Luca Braglia",
+          "orcid": "0000-0003-0796-3670",
+          "affiliations": [
+            "AREA Science Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jean‐Jacques Gallet",
+          "orcid": "0000-0003-2076-1432",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Synchrotron SOLEIL",
+            "Sorbonne Université",
+            "Laboratoire de Chimie Physique - Matière et Rayonnement"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Piero Torelli",
+          "orcid": "0000-0001-9300-9685",
+          "affiliations": [
+            "AREA Science Park"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hua Guo",
+          "orcid": null,
+          "affiliations": [
+            "University of New Mexico"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sen Lin",
+          "orcid": "0000-0002-2288-5415",
+          "affiliations": [
+            "Fuzhou University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Spyridon Zafeiratos",
+          "orcid": "0000-0001-8165-2585",
+          "affiliations": [
+            "Shanghai University",
+            "Centre National de la Recherche Scientifique",
+            "Institut de Chimie et Procédés pour l'Energie, l'Environnement et la Santé",
+            "Université de Strasbourg"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.202302087",
+      "type": "article",
+      "url": "https://doi.org/10.1002/anie.202302087",
+      "cited_by_count": 89,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202302087",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract CO2 hydrogenation to methane is gaining increasing interest as one of the most promising ways to store intermittent renewable energy in the form of chemical fuels. Ni particles supported on CeO2 represent a highly efficient, stable and inexpensive catalyst for this reaction. Herein, Ni‐doped CeO2 nanoparticles were tested for CO2 methanation showing an extremely high Ni mass‐specific activity and CH4 selectivity. Operando characterization reveals that this performance is tightly associated with ionic Νi and Ce3+ surface sites, while formation of metallic Ni does not seem to considerably promote the reaction. Theoretical calculations confirmed the stability of interstitial ionic Ni sites on ceria surfaces and highlighted the role of Ce‐O frustrated Lewis pair (FLP), Ni‐O classical Lewis pair (CLP) and Ni‐Ce pair sites to the activation of H2 and CO2 molecules. To a large extent, the theoretical predictions were validated by in situ spectroscopy under H2 and CO2 : H2 gaseous environments.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 34
+    },
+    {
+      "title": "Drawing a materials map with an autoencoder for lithium ionic conductors",
+      "authors": [
+        "Yudai Yamaguchi",
+        "Taruto Atsumi",
+        "Kenta Kanamori",
+        "Naoto Tanibata",
+        "Hayami Takeda",
+        "Masanobu Nakayama",
+        "Masayuki Karasuyama",
+        "Ichiro Takeuchi"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Yudai Yamaguchi",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Taruto Atsumi",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Kenta Kanamori",
+          "orcid": null,
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Naoto Tanibata",
+          "orcid": "0000-0001-8521-9690",
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hayami Takeda",
+          "orcid": "0000-0001-9499-9684",
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masanobu Nakayama",
+          "orcid": "0000-0002-5113-053X",
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Masayuki Karasuyama",
+          "orcid": "0000-0002-6177-3686",
+          "affiliations": [
+            "Nagoya Institute of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ichiro Takeuchi",
+          "orcid": "0000-0002-1366-1946",
+          "affiliations": [
+            "Nagoya Institute of Technology",
+            "RIKEN Center for Advanced Intelligence Project",
+            "Nagoya University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-023-43921-1",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-023-43921-1",
+      "cited_by_count": 6,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-023-43921-1.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Efforts to optimize known materials and enhance their performance are ongoing, driven by the advancements resulting from the discovery of novel functional materials. Traditionally, the search for and optimization of functional materials has relied on the experience and intuition of specialized researchers. However, materials informatics (MI), which integrates materials data and machine learning, has frequently been used to realize systematic and efficient materials exploration without depending on manual tasks. Nonetheless, the discovery of new materials using MI remains challenging. In this study, we propose a method for the discovery of materials outside the scope of existing databases by combining MI with the experience and intuition of researchers. Specifically, we designed a two-dimensional map that plots known materials data based on their composition and structure, facilitating researchers' intuitive search for new materials. The materials map was implemented using an autoencoder-based neural network. We focused on the conductivity of 708 lithium oxide materials and considered the correlation with migration energy (ME), an index of lithium-ion conductivity. The distribution of existing data reflected in the materials map can contribute to the development of new lithium-ion conductive materials by enhancing the experience and intuition of material researchers.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 35
+    },
+    {
+      "title": "Ionic liquids meet lipid bilayers: a state-of-the-art review",
+      "authors": [
+        "Antonio Benedetto"
+      ],
+      "year": 2023,
+      "author_details": [
+        {
+          "name": "Antonio Benedetto",
+          "orcid": "0000-0002-9324-8595",
+          "affiliations": [
+            "University College Dublin",
+            "Roma Tre University",
+            "Paul Scherrer Institute"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Biophysical Reviews",
+      "doi": "10.1007/s12551-023-01173-3",
+      "type": "review",
+      "url": "https://doi.org/10.1007/s12551-023-01173-3",
+      "cited_by_count": 35,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "https://link.springer.com/content/pdf/10.1007/s12551-023-01173-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract In the past 25 years, a vast family of complex organic salts known as room-temperature ionic liquids (ILs) has received increasing attention due to their potential applications. ILs are composed by an organic cation and either an organic or inorganic anion, and possess several intriguing properties such as low vapor pressure and being liquid around room temperature. Several biological studies flagged their moderate-to-high (cyto)-toxicity. Toxicity is, however, also a synonym of affinity, and this boosted a series of biophysical and chemical-physical investigations aimed at exploiting ILs in bio-nanomedicine, drug-delivery, pharmacology, and bio-nanotechnology. Several of these investigations focused on the interaction between ILs and lipid membranes, aimed at determining the microscopic mechanisms behind their interaction. This is the focus of this review work. These studies have been carried out on a variety of different lipid bilayer systems ranging from 1-lipid to 5-lipids systems, and also on cell-extracted membranes. They have been carried out at different chemical-physical conditions and by the use of a number of different approaches, including atomic force microscopy, neutron and X-ray scattering, dynamic light scattering, differential scanning calorimetry, surface quartz microbalance, nuclear magnetic resonance, confocal fluorescence microscopy, and molecular dynamics simulations. The aim of this “2023 Michèle Auger Award” review work is to provide the reader with an up-to-date overview of this fascinating research field where “ILs meet lipid bilayers (aka biomembranes),” with the aim to boost it further and expand its cross-disciplinary edges towards novel high-impact ideas/applications in pharmacology, drug delivery, biomedicine, and bio-nanotechnology.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 36
+    },
+    {
+      "title": "Photoprotection in metal halide perovskites by ionic defect formation",
+      "authors": [
+        "Nga Phung",
+        "Alessandro Mattoni",
+        "Joel A. Smith",
+        "Dieter Skroblin",
+        "Hans Köbler",
+        "Léo Choubrac",
+        "Joachim Breternitz",
+        "Jinzhao Li",
+        "Thomas Unold",
+        "Susan Schorr",
+        "Christian Gollwitzer",
+        "Ivan G. Scheblykin",
+        "Eva Unger",
+        "Michael Saliba",
+        "Simone Meloni",
+        "Antonio Abate",
+        "Aboma Merdasa"
+      ],
+      "year": 2022,
+      "author_details": [
+        {
+          "name": "Nga Phung",
+          "orcid": "0000-0002-0328-6791",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alessandro Mattoni",
+          "orcid": "0000-0002-1381-6557",
+          "affiliations": [
+            "Istituto Officina dei Materiali",
+            "National Research Council"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joel A. Smith",
+          "orcid": "0000-0001-6889-4408",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "University of Sheffield"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dieter Skroblin",
+          "orcid": "0000-0002-8197-2113",
+          "affiliations": [
+            "Physikalisch-Technische Bundesanstalt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Hans Köbler",
+          "orcid": "0000-0003-0230-6938",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Léo Choubrac",
+          "orcid": "0000-0003-3236-6376",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Joachim Breternitz",
+          "orcid": "0000-0002-0192-6919",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jinzhao Li",
+          "orcid": "0000-0001-6866-1321",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Unold",
+          "orcid": "0000-0002-5750-0693",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Susan Schorr",
+          "orcid": "0000-0002-6687-614X",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Christian Gollwitzer",
+          "orcid": "0000-0002-6437-8825",
+          "affiliations": [
+            "Physikalisch-Technische Bundesanstalt"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ivan G. Scheblykin",
+          "orcid": "0000-0001-6059-4777",
+          "affiliations": [
+            "Lund University",
+            "NanoLund"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Eva Unger",
+          "orcid": "0000-0002-3343-867X",
+          "affiliations": [
+            "Lund University",
+            "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "NanoLund"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Michael Saliba",
+          "orcid": "0000-0002-6818-9781",
+          "affiliations": [
+            "University of Stuttgart",
+            "Forschungszentrum Jülich"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Simone Meloni",
+          "orcid": "0000-0002-3925-3799",
+          "affiliations": [
+            "University of Ferrara"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Antonio Abate",
+          "orcid": "0000-0002-3012-3541",
+          "affiliations": [
+            "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "University of Naples Federico II"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Aboma Merdasa",
+          "orcid": "0000-0002-6298-5672",
+          "affiliations": [
+            "Lund University",
+            "Helmholtz-Zentrum Berlin für Materialien und Energie"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Joule",
+      "doi": "10.1016/j.joule.2022.06.029",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.joule.2022.06.029",
+      "cited_by_count": 62,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "hybrid",
+        "url": "http://www.cell.com/article/S2542435122003038/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Photostability is critical for long-term solar cell operation. While light-triggered defects are usually reported as evidence of material degradation, we reveal that the formation of certain defects in metal halide perovskites is crucial for protection against intense or prolonged light exposure. We identify an inherent self-regulating cycle of formation and recovery of ionic defects under light exposure that mitigates the overheating of the lattice due to hot carrier cooling, which allows exposure to several thousand suns without degrading. The excess energy instead dissipates by forming defects, which in turn alters the optoelectronic properties of the absorber, resulting in a temporary reduction of photon absorption. Defects gradually recover to restore the original optoelectronic properties of the absorber. Photoprotection is a key feature for the photostability in plants. Thus, finding a protection mechanism in metal halide perovskites similar to those in nature is encouraging for the development of long-term sustainable solar cells.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 37
+    },
+    {
+      "title": "Reversible oxygen migration and phase transitions in hafnia-based ferroelectric devices",
+      "authors": [
+        "Pavan Nukala",
+        "Majid Ahmadi",
+        "Yingfen Wei",
+        "Sytze de Graaf",
+        "Evgenios Stylianidis",
+        "Tuhin Chakrabortty",
+        "Sylvia Matzen",
+        "Henny W. Zandbergen",
+        "Alexander Björling",
+        "D. Mannix",
+        "Dina Carbone",
+        "Bart Jan Kooi",
+        "Beatriz Noheda"
+      ],
+      "year": 2021,
+      "author_details": [
+        {
+          "name": "Pavan Nukala",
+          "orcid": "0000-0002-3988-4224",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials",
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Majid Ahmadi",
+          "orcid": "0000-0003-2321-3060",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yingfen Wei",
+          "orcid": "0000-0003-2037-4440",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sytze de Graaf",
+          "orcid": "0000-0002-0083-756X",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Evgenios Stylianidis",
+          "orcid": "0000-0003-4549-0229",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials",
+            "University College London"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tuhin Chakrabortty",
+          "orcid": "0000-0002-4572-3312",
+          "affiliations": [
+            "Indian Institute of Science Bangalore"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sylvia Matzen",
+          "orcid": "0000-0002-4244-6516",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Université Paris-Saclay",
+            "Centre de Nanosciences et de Nanotechnologies"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Henny W. Zandbergen",
+          "orcid": null,
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Alexander Björling",
+          "orcid": "0000-0001-5681-2292",
+          "affiliations": [
+            "Lund University",
+            "MAX IV Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "D. Mannix",
+          "orcid": "0009-0004-3572-8488",
+          "affiliations": [
+            "Centre National de la Recherche Scientifique",
+            "Aarhus University",
+            "European Spallation Source",
+            "Institut Néel"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dina Carbone",
+          "orcid": "0000-0003-1017-6213",
+          "affiliations": [
+            "Lund University",
+            "MAX IV Laboratory"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bart Jan Kooi",
+          "orcid": "0000-0002-0311-4105",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Beatriz Noheda",
+          "orcid": "0000-0001-8456-2286",
+          "affiliations": [
+            "University of Groningen",
+            "Zernike Institute for Advanced Materials"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Science",
+      "doi": "10.1126/science.abf3789",
+      "type": "article",
+      "url": "https://doi.org/10.1126/science.abf3789",
+      "cited_by_count": 341,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "http://eprints.iisc.ac.in/68922/2/abf3789_Nukala_SM.pdf",
+        "url_kind": "pdf",
+        "version": "acceptedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "capacitor interfaced with various top electrodes while performing in situ electrical biasing using atomic-resolution microscopy with direct oxygen imaging as well as with synchrotron nanobeam diffraction. When the top electrode is oxygen reactive, we observe reversible oxygen vacancy migration with electrodes as the source and sink of oxygen and the dielectric layer acting as a fast conduit at millisecond time scales. With nonreactive top electrodes and at longer time scales (seconds), the dielectric layer also acts as an oxygen source and sink. Our results show that ferroelectricity in hafnia-based thin films is unmistakably intertwined with oxygen voltammetry.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 38
+    },
+    {
+      "title": "An Ionic Limit to Life in the Deep Subsurface",
+      "authors": [
+        "Samuel J. Payler",
+        "Jennifer F. Biddle",
+        "Barbara Sherwood Lollar",
+        "Mark G. Fox‐Powell",
+        "Thomas Edwards",
+        "Bryne Tendelo Ngwenya",
+        "S.M. Paling",
+        "Charles S. Cockell"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Samuel J. Payler",
+          "orcid": "0000-0003-3296-7649",
+          "affiliations": [
+            "University of Edinburgh"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jennifer F. Biddle",
+          "orcid": "0000-0002-4344-8724",
+          "affiliations": [
+            "University of Delaware"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Barbara Sherwood Lollar",
+          "orcid": "0000-0001-9758-7095",
+          "affiliations": [
+            "University of Toronto"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mark G. Fox‐Powell",
+          "orcid": "0000-0002-4994-5203",
+          "affiliations": [
+            "University of St Andrews"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Thomas Edwards",
+          "orcid": null,
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Bryne Tendelo Ngwenya",
+          "orcid": "0000-0001-7810-764X",
+          "affiliations": [
+            "University of Edinburgh"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "S.M. Paling",
+          "orcid": null,
+          "affiliations": [
+            "Science and Technology Facilities Council"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Charles S. Cockell",
+          "orcid": "0000-0003-3662-0503",
+          "affiliations": [
+            "University of Edinburgh"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2019.00426",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmicb.2019.00426",
+      "cited_by_count": 57,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2019.00426/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "The physical and chemical factors that can limit or prevent microbial growth in the deep subsurface are not well defined. Brines from an evaporite sequence were sampled in the Boulby Mine, United Kingdom between 800 and 1300 m depth. Ionic, hydrogen and oxygen isotopic composition were used to identify two brine sources, an aquifer situated in strata overlying the mine, and another ambiguous source distinct from the regional groundwater. The ability of the brines to support microbial replication was tested with culturing experiments using a diversity of inocula. The examined brines were found to be permissive for growth, except one. Testing this brine's physicochemical properties showed it to have low water activity and to be chaotropic, which we attribute to the high concentration of magnesium and chloride ions. Metagenomic sequencing of the brines that supported growth showed their microbial communities to be similar to each other and comparable to those found in other hypersaline environments. These data show that solutions high in dissolved ions can shape the microbial diversity of the continental deep subsurface biosphere. Furthermore, under certain circumstances, complex brines can establish a hard limit to microbial replication in the deep biosphere, highlighting the potential for subsurface uninhabitable aqueous environments at depths far shallower than a geothermally-defined limit to life.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 39
+    },
+    {
+      "title": "Crystal-confined freestanding ionic liquids for reconfigurable and repairable electronics",
+      "authors": [
+        "Naiwei Gao",
+        "Yonglin He",
+        "Xinglei Tao",
+        "Xiao‐Qi Xu",
+        "Xun Wu",
+        "Yapei Wang"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Naiwei Gao",
+          "orcid": null,
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yonglin He",
+          "orcid": "0000-0002-7535-2700",
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xinglei Tao",
+          "orcid": null,
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xiao‐Qi Xu",
+          "orcid": "0000-0002-8511-487X",
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Xun Wu",
+          "orcid": null,
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Yapei Wang",
+          "orcid": "0000-0001-5420-0364",
+          "affiliations": [
+            "Renmin University of China"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-019-08433-5",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41467-019-08433-5",
+      "cited_by_count": 76,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41467-019-08433-5.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Liquid sensors composed of ionic liquids are rising as alternatives to solid semiconductors for flexible and self-healing electronics. However, the fluidic nature may give rise to leakage problems in cases of accidental damages. Here, we proposed a liquid sensor based on a binary ionic liquid system, in which a flowing ionic liquid [OMIm]PF6 is confined by another azobenzene-containing ionic liquid crystalline [OMIm]AzoO. Those crystal components provide sufficient pinning capillary force to immobilize fluidic components, leading to a freestanding liquid-like product without the possibility of leakage. In addition to owning ultra-high temperature sensitivity, crystal-confined ionic liquids also combine the performances of both liquid and solid so that it can be stretched, bent, self-healed, and remolded. With respect to the reconfigurable property, this particular class of ionic liquids is exploited as dynamic circuits which can be spatially reorganized or automatically repaired.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 40
+    },
+    {
+      "title": "Stimulated Ionic Telegraph Noise in Filamentary Memristive Devices",
+      "authors": [
+        "Stefano Brivio",
+        "Jacopo Frascaroli",
+        "Erika Covi",
+        "Sabina Spiga"
+      ],
+      "year": 2019,
+      "author_details": [
+        {
+          "name": "Stefano Brivio",
+          "orcid": "0000-0003-2386-7953",
+          "affiliations": [
+            "Institute for Microelectronics and Microsystems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jacopo Frascaroli",
+          "orcid": "0000-0002-3204-0811",
+          "affiliations": [
+            "Institute for Microelectronics and Microsystems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Erika Covi",
+          "orcid": "0000-0003-0479-6897",
+          "affiliations": [
+            "Institute for Microelectronics and Microsystems"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Sabina Spiga",
+          "orcid": "0000-0001-7293-7503",
+          "affiliations": [
+            "Institute for Microelectronics and Microsystems"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-019-41497-3",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-019-41497-3",
+      "cited_by_count": 29,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.nature.com/articles/s41598-019-41497-3.pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Random telegraph noise is a widely investigated phenomenon affecting the reliability of the reading operation of the class of memristive devices whose operation relies on formation and dissolution of conductive filaments. The trap and the release of electrons into and from defects surrounding the filament produce current fluctuations at low read voltages. In this work, telegraphic resistance variations are intentionally stimulated through pulse trains in HfO2-based memristive devices. The stimulated noise results from the re-arrangement of ionic defects constituting the filament responsible for the switching. Therefore, the stimulated noise has an ionic origin in contrast to the electronic nature of conventional telegraph noise. The stimulated noise is interpreted as raising from a dynamic equilibrium establishing from the tendencies of ionic drift and diffusion acting on the edges of conductive filament. We present a model that accounts for the observed increase of noise amplitude with the average device resistance. This work provides the demonstration and the physical foundation for the intentional stimulation of ionic telegraph noise which, on one hand, affects the programming operations performed with trains of identical pulses, as for neuromorphic computing, and on the other hand, it can open opportunities for applications relying on stochastic processes in nanoscaled devices.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 41
+    },
+    {
+      "title": "Dataset for Factors controlling oxygen migration barriers in perovskites",
+      "authors": [
+        "Tam Mayeshiba",
+        "Dane D. Morgan"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Tam Mayeshiba",
+          "orcid": "0000-0003-3445-7925",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Dane D. Morgan",
+          "orcid": "0000-0002-4911-0046",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Figshare",
+      "doi": "10.6084/m9.figshare.7180817",
+      "type": "dataset",
+      "url": "https://doi.org/10.6084/m9.figshare.7180817",
+      "cited_by_count": 1,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://figshare.com/articles/dataset/Dataset_for_Factors_controlling_oxygen_migration_barriers_in_perovskites/7180817",
+        "url_kind": "landing",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Data for Factors controlling oxygen migration barriers in perovskites,Solid State Ionics 296 (2016) 71-77 DOI 10.1016/j.ssi.2016.09.007",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 42
+    },
+    {
+      "title": "Interstitial Occupancy by Extrinsic Alkali Cations in Perovskites and Its Impact on Ion Migration",
+      "authors": [
+        "Jie Cao",
+        "Shuxia Tao",
+        "P. A. Bobbert",
+        "Ching‐Ping Wong",
+        "Ni Zhao"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "Jie Cao",
+          "orcid": "0000-0001-6911-7184",
+          "affiliations": [
+            "Chinese University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shuxia Tao",
+          "orcid": "0000-0002-3658-8497",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "P. A. Bobbert",
+          "orcid": "0000-0001-7780-7062",
+          "affiliations": [
+            "Eindhoven University of Technology"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ching‐Ping Wong",
+          "orcid": "0000-0003-3556-8053",
+          "affiliations": [
+            "Chinese University of Hong Kong"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Ni Zhao",
+          "orcid": "0000-0002-1536-8516",
+          "affiliations": [
+            "Chinese University of Hong Kong"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.201707350",
+      "type": "article",
+      "url": "https://doi.org/10.1002/adma.201707350",
+      "cited_by_count": 369,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.201707350",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Abstract Recent success in achieving highly stable Rb‐containing organolead halide perovskites has indicated the possibility of incorporating small monovalent cations, which cannot fit in the lead‐halide cage with an appropriate tolerance factor, into the perovskite lattice while maintaining a pure stable “black” phase. In this study, through a combined experimental and theoretical investigation by density functional theory (DFT) calculations on the incorporation of extrinsic alkali cations (Rb+, K+, Na+, and Li+) in perovskite materials, the size‐dependent interstitial occupancy of these cations in the perovskite lattice is unambiguously revealed. Interestingly, DFT calculations predict the increased ion migration barriers in the lattice after the interstitial occupancy. To verify this prediction, ion migration behavior is characterized through hysteresis analysis of solar cells, electrical poling, temperature‐dependent conductivity, and time‐dependent photoluminescence measurements. The results collectively point to the suppression of ion migration after lattice interstitial occupancy by extrinsic alkali cations. The findings of this study provide new material design principles to manipulate the structural and ionic properties of multication perovskite materials.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 43
+    },
+    {
+      "title": "Blood-brain barrier regulation in psychiatric disorders",
+      "authors": [
+        "John Kealy",
+        "Chris Greene",
+        "Matthew Campbell"
+      ],
+      "year": 2018,
+      "author_details": [
+        {
+          "name": "John Kealy",
+          "orcid": "0000-0002-0503-4379",
+          "affiliations": [
+            "Trinity College Dublin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Chris Greene",
+          "orcid": "0000-0003-4192-9433",
+          "affiliations": [
+            "Trinity College Dublin"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Matthew Campbell",
+          "orcid": "0000-0003-3325-240X",
+          "affiliations": [
+            "Trinity College Dublin"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Neuroscience Letters",
+      "doi": "10.1016/j.neulet.2018.06.033",
+      "type": "review",
+      "url": "https://doi.org/10.1016/j.neulet.2018.06.033",
+      "cited_by_count": 310,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://www.tara.tcd.ie/bitstream/2262/83976/1/1-s2.0-S0304394018304361-main.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "cc-by-nc-sa"
+      },
+      "oa_source": "openalex",
+      "abstract": null,
+      "abstract_source": null,
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 44
+    },
+    {
+      "title": "Fundamentals of Ionic Liquids",
+      "authors": [
+        "Douglas Robert MacFarlane",
+        "Mega Kar",
+        "Jennifer M. Pringle"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Douglas Robert MacFarlane",
+          "orcid": "0000-0001-5963-9659",
+          "affiliations": [],
+          "orcid_verified": null
+        },
+        {
+          "name": "Mega Kar",
+          "orcid": "0000-0003-4927-6254",
+          "affiliations": [
+            "Monash University"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Jennifer M. Pringle",
+          "orcid": "0000-0002-2729-2838",
+          "affiliations": [
+            "Deakin University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Wiley eBooks",
+      "doi": "10.1002/9783527340033",
+      "type": "book",
+      "url": "https://doi.org/10.1002/9783527340033",
+      "cited_by_count": 197,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://researchmgt.monash.edu/ws/files/127423998/92022330_oa.pdf",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "to one mole of base.GRAS = Generally Regarded As Safe.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 45
+    },
+    {
+      "title": "Defenders and Challengers of Endothelial Barrier Function",
+      "authors": [
+        "Nader Rahimi"
+      ],
+      "year": 2017,
+      "author_details": [
+        {
+          "name": "Nader Rahimi",
+          "orcid": "0000-0002-6745-1725",
+          "affiliations": [
+            "Boston University"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2017.01847",
+      "type": "review",
+      "url": "https://doi.org/10.3389/fimmu.2017.01847",
+      "cited_by_count": 131,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "gold",
+        "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2017.01847/pdf",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": "cc-by"
+      },
+      "oa_source": "openalex",
+      "abstract": "Regulated vascular permeability is an essential feature of normal physiology and its dysfunction is associated with major human diseases ranging from cancer to inflammation and ischemic heart diseases. Integrity of endothelial cells also play a prominent role in the outcome of surgical procedures and organ transplant. Endothelial barrier function and integrity are regulated by a plethora of highly specialized transmembrane receptors, including claudin family proteins, occludin, junctional adhesion molecules (JAMs), vascular endothelial (VE)-cadherin and the newly identified immunoglobulin (Ig) and proline rich receptor-1 (IGPR-1) through various distinct mechanisms and signaling. On the other hand, vascular endothelial growth factor (VEGF) and its tyrosine kinase receptor, VEGFR-2, play a prominent role in the destabilization of endothelial barrier function. While claudins and occludin regulate cell-cell junction via recruitment of zonula occludens (ZO), cadherins via catenin proteins, and JAMs via ZO and afadin, IGPR-1 recruits bullous pemphigoid antigen 1 (BPAG1 also called dystonin (DST) and SPIN90/WISH (SH3 protein interacting with Nck). Endothelial barrier function is moderated by the function of transmembrane receptors and signaling events that act to defend or destabilize it. Here, I highlight recent advances that have provided new insights into endothelial barrier function and mechanisms involved. Further investigation of these mechanisms could lead to the discovery of novel therapeutic targets for human diseases associated with endothelial dysfunction.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 46
+    },
+    {
+      "title": "Cues Guiding Leukocyte Transendothelial Migration across the Blood-Brain Barrier in Neuroinflammation: Endothelial Heterogeneity, Chemokines, and Extracellular Vesicles",
+      "authors": [
+        "Debayon Paul"
+      ],
+      "year": 2015,
+      "author_details": null,
+      "author_details_source": null,
+      "date": null,
+      "venue": "OpenCommons - UConn (University of Connecticut)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 0,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://opencommons.uconn.edu/cgi/viewcontent.cgi?article=7097&context=dissertations",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": "other-oa"
+      },
+      "oa_source": "openalex",
+      "abstract": "Leukocyte infiltration into the central nervous system (CNS) underlies the pathology in a wide spectrum of neuroinflammatory and neurodegenerative diseases like multiple sclerosis (MS), stroke, meningitis, and neuroAIDS. While the steps that mediate the initial adhesion of activated leukocytes to the endothelial wall has been well-characterized, not much is known about their subsequent transendothelial migration (TEM) across the blood-brain barrier (BBB), a highly restrictive paracellular barrier established by the specialized CNS endothelial cells, thus severely limiting the treatment options.\\nIn Multiple Sclerosis (MS) ‘focal’ leukocyte infiltration into the CNS parenchyma early in disease is thought to be critical for the inflammatory response, and eventual neurodegeneration. Therefore, to explore the cues that regulate leukocyte TEM across the BBB in a neuroinflmmatory milieu, in this dissertation, we evaluated the role of three factors- endothelial heterogeneity, chemokine CCL2 from CNS sources, and extracellular vesicles (EVs) from endothelial cells containing a major tight-junction (TJ) protein, Claudin-5 (CLN-5), in CNS leukocyte infiltration, in an animal model of MS called Experimental Autoimmune Encephalomyelitis (EAE).\\nUsing a novel high-resolution three-dimensional confocal image analysis approach, existence of a functional heterogeneity in microvascular response was found during neuroinflammation in EAE. Specifically BBB damage and leukocyte extravasation in EAE was restricted to venules only. Furthermore, Chemokine CCL2, which only surges in a neuroinflammatory milieu to detectable levels and released predominantly from endothelium and astrocytes in the CNS, was shown to uniquely guide leukocytes across the 'respective' (endothelial and astrocyte) basement membranes. Interestingly, leukocytes invading the CNS early in EAE were found to be coated with TJ protein CLN-5. Brain microvascular endothelial cells (BMECs) were seen to release extracellular vesicles (EVs) in neuroinflammation that contained CLN-5, and could bind to the adherent leukocytes possibly for conveying the TJ protein cargo. These CLN-5+ leukocytes were found to transmigrate more efficiently across cultured BMECs. The obtained results from these studies have shed significant light on previously uncharacterized cues and mechanisms that guide circulating leukocytes across the BBB in disease, and holds the key for novel therapeutic strategies to treat a myriad of neurologic disorders and vasculopathies that display immune infiltration in the CNS.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 47
+    },
+    {
+      "title": "Alveolar Microfluidic Systems for Study of Barrier Function, Cell Damage, and Migration at the Air-Blood Barrier.",
+      "authors": [
+        "Nicholas J. Douville"
+      ],
+      "year": 2013,
+      "author_details": [
+        {
+          "name": "Nicholas J. Douville",
+          "orcid": "0000-0003-0997-6272",
+          "affiliations": [],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Deep Blue (University of Michigan)",
+      "doi": null,
+      "type": "dissertation",
+      "url": null,
+      "cited_by_count": 2,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "green",
+        "url": "https://deepblue.lib.umich.edu/bitstreams/4cfdc5a9-957a-4aaa-a048-fca1fc25d7f0/download",
+        "url_kind": "pdf",
+        "version": "submittedVersion",
+        "host": "repository",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "The exchange of oxygen and carbon dioxide occurs across the air-blood barrier (or alveolar-capillary barrier). This barrier must be sufficiently thin to allow the passive diffusion, yet sufficiently strong to maintain a dry alveolar environment. When solid and fluid mechanical stresses damage the air-blood barrier’s integrity, edema fills this normally air-filled alveolar environment and pathology results. The specific mechanisms by which these stresses impact the cells of the air-blood barrier remain poorly understood. The role of solid mechanical stress (cyclic stretch) has been explored through traditional, culture techniques, but only recently have microfluidic systems allowed systematic exploration on combined solid and fluid stresses. Although such systems can be tailored to the biological phenomena being studied, key design parameters include: (i) two-layered channel design (to mimic “alveolar” and “endothelial” compartments), (ii) ability to convey combined solid and fluid stresses, (iii) co-culture, and (iv) the integration of biological sensors to detect real-time changes. A microfluidic “Alveoli-on-a-Chip” system was designed and fabricated. By varying the degree of fluid-filling within the “alveolar” channel, differential strain conditions were applied to alveolar epithelial cells. Experiments using this system, demonstrated significant increases in cell death and detachment in alveolar cell populations exposed to fluid and solid mechanical stresses compared to populations exposed solely to solid mechanical stresses. Because nearly all pathological processes of alveoli alter barrier permeability, detection of changes to the integrity of this barrier is an essential feature in alveolar models. A technique for embedding Ag/AgCl recording electrodes within a two-layered PDMS microsystem, allowing impedance to be measured across a porous cell culture membrane was also developed. This fabrication technique eliminated the need for direct deposition of recording electrodes onto the elastomer, avoiding the frequent and deep cracking pattern resulting from the modulus mismatch between conductive metals and PDMS polymer. The impact of mechanical stresses on the alveolar immune response was also studied by patterning alveolar macrophages onto confluent monolayers of alveolar epithelial cells using aqueous two-phase (ATPS) printing. Using this technique, increased migration rates in co-cultures experiencing physiologic stretch levels were demonstrated compared to migration in static cultures.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 48
+    },
+    {
+      "title": "Solubility of Selenium at High Ionic Strength under Anoxic Conditions",
+      "authors": [
+        "Yoshihisa Iida",
+        "Tetsuji Yamaguchi",
+        "Tadao Tanaka",
+        "Shinichi Nakayama"
+      ],
+      "year": 2010,
+      "author_details": [
+        {
+          "name": "Yoshihisa Iida",
+          "orcid": null,
+          "affiliations": [
+            "Japan Atomic Energy Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tetsuji Yamaguchi",
+          "orcid": "0000-0001-6807-5541",
+          "affiliations": [
+            "Japan Atomic Energy Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Tadao Tanaka",
+          "orcid": "0000-0001-9797-9080",
+          "affiliations": [
+            "Japan Atomic Energy Agency"
+          ],
+          "orcid_verified": null
+        },
+        {
+          "name": "Shinichi Nakayama",
+          "orcid": null,
+          "affiliations": [
+            "Japan Atomic Energy Agency"
+          ],
+          "orcid_verified": null
+        }
+      ],
+      "author_details_source": "openalex",
+      "date": null,
+      "venue": "Journal of Nuclear Science and Technology",
+      "doi": "10.1080/18811248.2010.9711633",
+      "type": "article",
+      "url": "https://doi.org/10.1080/18811248.2010.9711633",
+      "cited_by_count": 26,
+      "cited_by_source": "openalex",
+      "oa": {
+        "status": "bronze",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/18811248.2010.9711633?download=true",
+        "url_kind": "pdf",
+        "version": "publishedVersion",
+        "host": "publisher",
+        "license": null
+      },
+      "oa_source": "openalex",
+      "abstract": "Solubility experiments for selenium were performed at high ionic strengths (1.0 and 2.0 mol dm−3 NaCl) under anoxic conditions (pO2 < 10−6 atm) from undersaturation and oversaturation directions. Equilibrium was attained in 40 days. The dominant aqueous selenium species were identified as hydrogen selenide, HSe−, at pH between 5 and 8, and polyselenide, Se4 2-, at pH between 9 and 13 by UV-Vis absorption spectrometry. A solubility-limiting solid was determined to be amorphous selenium at pH between 5 and 8, and crystalline selenium at pH between 9 and 13. The equilibrium constants of Se(am) + H+ + 2e− = HSe− log K0 = −6:57 ± 0:15 (5 < pH < 8) 4Se(cr) + 2e− = Se4 2- log K0 = −16:67 ± 0:03 (9 < pH < 13) and ion interaction coefficients for HSe− and Se4 2- versus Na+, ε(HSe−, Na+) = −0:01 ± 0:10 and ε(Se4 2-, Na+) = −0:03 ± 0:02, were determined with the specific ion interaction theory. The standard molar free energies of formation of amorphous selenium and polyselenide species were determined to be Δf G m 0(Se(am)) = 6:0 ± 2:2 kJ mol−1, Δf G m 0(Se2 2-) = 111:64 ± 1:61 kJ mol−1, Δf G m 0(Se3 2-) = 98:68 ± 1:02 kJ mol−1, and Δf G m 0(Se4 2-) = 95:14 ± 0:17 kJ mol−1.",
+      "abstract_source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "primary_source": "openalex",
+      "from_cache": false,
+      "retraction": null,
+      "rank": 49
+    }
+  ],
+  "warnings": [],
+  "advisories": [
+    {
+      "dimension": "主命中源",
+      "value": "openalex",
+      "count": 49,
+      "known": 49,
+      "pct": 100,
+      "text": "主命中源：openalex = 49/49（100%）。这是分布信号，不是缺陷；是否需要拓宽检索范围由你判断。"
+    }
+  ],
+  "stats": {
+    "raw_hits": 50,
+    "after_dedup": 49,
+    "shown": 49,
+    "cache_hit_rate": 0.0,
+    "sort": "year_desc"
+  }
+}

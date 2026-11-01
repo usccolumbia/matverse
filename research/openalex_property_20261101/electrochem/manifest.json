@@ -1,0 +1,265 @@
+{
+  "verified_date": "2026-11-01",
+  "files": [
+    {
+      "path": "01_solid_electrolyte.json",
+      "bytes": 191262,
+      "sha256": "ddc2319678ebd58a4b4ea84244c19738d9ab33e7887989a34ac275b3eda4f7ca"
+    },
+    {
+      "path": "02_battery_electrode.json",
+      "bytes": 184442,
+      "sha256": "81e9621739b9cdb6ffc5595519263346b23ecc17787ef881f4163f034ec8385d"
+    },
+    {
+      "path": "03_experimental_conductivity.json",
+      "bytes": 200919,
+      "sha256": "4cefa1aed783960362a17fb5aed119be8e5f06dad4dad6caed71394d5ea9124e"
+    },
+    {
+      "path": "04_diffusion.json",
+      "bytes": 164817,
+      "sha256": "c656b6205af963fc59b434eb0dbe9c270fe5bfcbd1f348e68e1730ce8c0c84ff"
+    },
+    {
+      "path": "05_solute_diffusion.json",
+      "bytes": 154211,
+      "sha256": "1375ec8aeb6f9c668221742a5731ecceb1747c1b8795bc00343b168dfdfe2290"
+    },
+    {
+      "path": "06_liquid_electrolytes.json",
+      "bytes": 39771,
+      "sha256": "bbdbff6767c46bbd715c9a62d7b081d1d4f6ad86f3948917ea54a22df2c4f20d"
+    },
+    {
+      "path": "07_migration_barriers.json",
+      "bytes": 181193,
+      "sha256": "88d1fe46505c56c7ff6a374bf0e247b42a870b3ba9d63f7f1420fc0ad99fe520"
+    },
+    {
+      "path": "08_electrolyte_experiments.json",
+      "bytes": 190123,
+      "sha256": "ba58beaf89abcf311dfe4433ef08d3bd132256908ff7fb73e9890cdc82a6af59"
+    },
+    {
+      "path": "09_laskowski.json",
+      "bytes": 174597,
+      "sha256": "e21d8238d677e24b40b305a0df7f54e162a6cb32a0908a41dd6798cf6e3035fa"
+    },
+    {
+      "path": "additions.json",
+      "bytes": 26661,
+      "sha256": "50dc9ee9465b2ce10bc12ebcd7ce0e8f2b11be9168f9689ad9a7d423c3a8a1a3"
+    },
+    {
+      "path": "build_outputs.py",
+      "bytes": 19974,
+      "sha256": "70e11e7609989129464bd12395633e29beb066eeae55079a07584067c77c9c11"
+    },
+    {
+      "path": "candidate_metadata.json",
+      "bytes": 1419136,
+      "sha256": "23d5ae9a4375449829f3f0733b3486876f6dc6042be21b3e3ff704b173916047"
+    },
+    {
+      "path": "deduplicated_discovery.json",
+      "bytes": 1288877,
+      "sha256": "64c3c023491ea8c09eb956a2eab96d453394a532c544aad5b230a98027edfe79"
+    },
+    {
+      "path": "evidence/calisol_paper.txt",
+      "bytes": 47810,
+      "sha256": "29ee8f042006f4626589666f3b93b9db0eabed099c6be157c671d5120789f54b"
+    },
+    {
+      "path": "evidence/caltech_metadata.txt",
+      "bytes": 9359,
+      "sha256": "febc24080fe958973230c7a09f7249cd8a55b3d7e66eb9cdde718254e1064cd0"
+    },
+    {
+      "path": "evidence/diffusion_figshare.txt",
+      "bytes": 8000,
+      "sha256": "8c6e30bd118d71f6d4d8b33037302ddcf1a5c0bb1a12940cbbb952c13098045b"
+    },
+    {
+      "path": "evidence/fastli_README.txt",
+      "bytes": 2313,
+      "sha256": "d8429d582cc3763b50a7e04e5cebcc515a71ef5f7afe5f3c3a8f22f8443e335e"
+    },
+    {
+      "path": "evidence/fastli_datacite.txt",
+      "bytes": 19615,
+      "sha256": "ad25f6364b4b25ca2c9f8df4f957bca2070eaff5eb6716de14ed6d7d56178cdd"
+    },
+    {
+      "path": "evidence/fastli_metadata.json",
+      "bytes": 12623,
+      "sha256": "e8f932be2c45b1271607294e0401f1fcc4e8793bd772ac2a1c15ca3c56b97122"
+    },
+    {
+      "path": "evidence/fastli_provider.html",
+      "bytes": 105744,
+      "sha256": "eef84a314633ba9d49344328333667ee34e625aef4b8fdc956b50491e58c8d00"
+    },
+    {
+      "path": "evidence/fetch_receipts.json",
+      "bytes": 1156,
+      "sha256": "98dca9429d091334b2cc14e1e45d31269da0698d52405fe615eff7117c3f4031"
+    },
+    {
+      "path": "evidence/fetch_receipts2.json",
+      "bytes": 1338,
+      "sha256": "1d5d56c0ccebbcb2463af3514d19ae382d543c1651d691a75da9051246af5b12"
+    },
+    {
+      "path": "evidence/fetch_receipts3.json",
+      "bytes": 960,
+      "sha256": "a269f998858d7771776cb62ac4656f80be1ac605296b1ae7d7a775087d15f3cd"
+    },
+    {
+      "path": "evidence/fetch_receipts4.json",
+      "bytes": 506,
+      "sha256": "2455caef6f8db91460170b46aac01bbc8bb9499168fd1f10903827dcc4daa69e"
+    },
+    {
+      "path": "evidence/fetch_receipts5.json",
+      "bytes": 879,
+      "sha256": "7408667cbd42afae80d73bc32bffd683ed53c3429a66820ec1697956c0a67720"
+    },
+    {
+      "path": "evidence/fluoride_collection.txt",
+      "bytes": 2438,
+      "sha256": "d0c51bcc73709111d7cf844fc8f7881452970a0fb52a4cf28bf8c89285e14cf9"
+    },
+    {
+      "path": "evidence/fluoride_direct_indirect_metadata.txt",
+      "bytes": 5077,
+      "sha256": "31e56417ba2998795d4f7ac0b7f0a5e325df0e60916ebdf5c72cdedbe7ee743a"
+    },
+    {
+      "path": "evidence/fluoride_paper.txt",
+      "bytes": 38548,
+      "sha256": "2dcd105f7195579f4f61b487b183f952c6aa7c908bf0b8f755e4a69eb40c2440"
+    },
+    {
+      "path": "evidence/fluoride_repo.txt",
+      "bytes": 4721,
+      "sha256": "25a9571a883aa469d0cf7617df9600cae45d3001afbb8b2b96e03d9bfd162d31"
+    },
+    {
+      "path": "evidence/kit_5035_metadata.txt",
+      "bytes": 5203,
+      "sha256": "1b31d3ccabd95c6bac2a60cb1e02c0c74e7c5b7db6ea1489b2120fc16879803f"
+    },
+    {
+      "path": "evidence/liverpool_corrected_paper.txt",
+      "bytes": 498955,
+      "sha256": "63780605f3ddd4db4af3c99bda77f09271ffc1b90522d5914533c0d3bc6d32f9"
+    },
+    {
+      "path": "evidence/liverpool_paper.txt",
+      "bytes": 91505,
+      "sha256": "58d1f95001cca8bf91666a58aec0ad1017780cd1e1d6e4eef090658fda18b4e8"
+    },
+    {
+      "path": "evidence/migration_data_count.txt",
+      "bytes": 8874202,
+      "sha256": "fe8347abbbdb6d941805f645b7d5651eb919ecd3649c12f44535b948a737d8cd"
+    },
+    {
+      "path": "evidence/migration_dataset_metadata.txt",
+      "bytes": 8656,
+      "sha256": "a40eb3fd4dbe1d075816eaa92cabe372a87b31bfea10c54e12d6e9a0b764a6db"
+    },
+    {
+      "path": "evidence/migration_dataset_readme.txt",
+      "bytes": 4220,
+      "sha256": "5633e2420da93a510d7ecedbf8b96ff3f2e6e3a9c28360e7f0a696ffd97690b8"
+    },
+    {
+      "path": "evidence/migration_paper.txt",
+      "bytes": 90820,
+      "sha256": "d4270e4824ffe179e1f4cf8b6e04e133905313435a8de789e6a84bb1a2fde357"
+    },
+    {
+      "path": "evidence/migration_readme.txt",
+      "bytes": 1982,
+      "sha256": "1dddbe0e16425a704d7bbc18ec764a8e88fdd20100a46a09333f2beab73a93c6"
+    },
+    {
+      "path": "evidence/migration_zenodo_payload.json",
+      "bytes": 9108391,
+      "sha256": "1fae0e22f837e33cf1384ef5624a920d383565d9100714ca8b42e7bade974e2b"
+    },
+    {
+      "path": "evidence/obelix_license.txt",
+      "bytes": 17063,
+      "sha256": "76f39f2a37c62c4ad0f56fdf5c299985e568a8f0b09b77bd147df5ba20e136b3"
+    },
+    {
+      "path": "evidence/obelix_readme.txt",
+      "bytes": 7252,
+      "sha256": "b9544bc9385542b4d6ccc03680bc972e871de02b28de16e23be1659ad9b4122f"
+    },
+    {
+      "path": "evidence/oxygen_migration_metadata.txt",
+      "bytes": 4355,
+      "sha256": "b1df05a112bd0dfd15fb0986e0d2f3015e387f16a851843a4fe7c5b619470f08"
+    },
+    {
+      "path": "evidence/oxygen_spreadsheet.txt",
+      "bytes": 4355,
+      "sha256": "b1df05a112bd0dfd15fb0986e0d2f3015e387f16a851843a4fe7c5b619470f08"
+    },
+    {
+      "path": "evidence/shon_files.txt",
+      "bytes": 1109,
+      "sha256": "df36287ed0150ec6189c46af23b1fa92ecf73559f860926e4929da645b45747d"
+    },
+    {
+      "path": "evidence/shon_paper.txt",
+      "bytes": 38363,
+      "sha256": "7dd0641d281ef5dfc0b24d609095f6764710eb5afa3b0b610ba5f7a8296cfd42"
+    },
+    {
+      "path": "evidence/shon_readme.txt",
+      "bytes": 2045,
+      "sha256": "1b6125e43e601a6dd2e36396d0103cbd574f0e06687f929cdbe4b242762cb49b"
+    },
+    {
+      "path": "evidence/sodium_paper.txt",
+      "bytes": 50289,
+      "sha256": "56cb9e84af4327045b6692004ddf87c081c36581a260ee90561080f203266676"
+    },
+    {
+      "path": "evidence/sodium_release.txt",
+      "bytes": 21566,
+      "sha256": "f17ed5ca5695b4d05443f33012f374459f8133650fdeb24e797a1c721368ad19"
+    },
+    {
+      "path": "evidence/sodium_v5.txt",
+      "bytes": 21568,
+      "sha256": "ed9ffd3daf3517c22feec57af72abecb988417e777ab8190dbe420449dfebdc7"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 7815,
+      "sha256": "2c61c6186bc5519f2d182dc62808fa1d7a5baa192cff8397df3580beb2af7e32"
+    },
+    {
+      "path": "leads.json",
+      "bytes": 26415,
+      "sha256": "f25cb92ea2753d86420fde0276e498fe0ade910d3eb4f1ce2193948991a51649"
+    },
+    {
+      "path": "notes.md",
+      "bytes": 9695,
+      "sha256": "f17c86b25e146a704b98a742352e390dbce2961be65d4af8508082ff1055de28"
+    },
+    {
+      "path": "query_receipts.json",
+      "bytes": 14639,
+      "sha256": "0c0351543faa2160b88b2fe91d82b27e496b8e1ae4feb99833a1ac3b7f0036e3"
+    }
+  ]
+}

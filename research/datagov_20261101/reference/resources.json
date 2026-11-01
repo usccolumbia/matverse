@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Sandia Technical Reference for Hydrogen Compatibility of Materials",
+    "url": "https://www.sandia.gov/matlstechref/",
+    "kind": "evaluated technical handbook",
+    "description": "Reference chapters compile deformation, fracture and fatigue evidence for hydrogen service; archive SAND2012-7321 (2012) and individually revised chapters. Downloadable PDF verified. Chapters are not independent material records; the complementary structured database currently says under construction, with a new Granta MI link planned for Fall 2026. No collection-specific data reuse license verified.",
+    "sources": [
+      {
+        "url": "https://www.sandia.gov/matlstechref/",
+        "title": "Sandia reference collection",
+        "evidence": "Primary page links archival report and dated alloy/polymer chapters; scientific scope is hydrogen-affected strength, fracture and fatigue.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://www.sandia.gov/matlstechref/hydrogen-materials-technical-database/",
+        "title": "Complementary database current access",
+        "evidence": "States database is under construction and a new Granta MI link will be available Fall 2026; no current structured download verified.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "NIST Property Data Summaries for Advanced Materials (SRD 150)",
+    "url": "https://srdata.nist.gov/CeramicDataPortal/pds",
+    "kind": "evaluated property reference summaries",
+    "description": "Condition-specific literature property summaries, including alumina, silicon carbide and titanium diboride. The alumina table documents units, temperatures, material purity/density and uncertainty notation. Data content last updated 2002; derived summaries overlap SRD30 and topical databases and should not be added to their counts. No open redistribution license verified; portal states copyright/all rights reserved.",
+    "sources": [
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/Pds/Scdaos",
+        "title": "SRD150 sintered-alumina example",
+        "evidence": "Validated summary gives material scope, property values by temperature, combined standard uncertainty notation and SRD30/literature references.",
+        "verified_date": "2026-11-01"
+      },
+      {
+        "url": "https://srdata.nist.gov/CeramicDataPortal/pds",
+        "title": "SRD150 scope and access",
+        "evidence": "Provides public reference summaries and links topical collections; evaluation levels vary across typical, evaluated and validated data.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "name": "ACerS-NIST Phase Equilibria Diagrams Database (SRD 31)",
+    "url": "https://www.nist.gov/srd/nist-standard-reference-database-31",
+    "kind": "commercial evaluated reference database",
+    "description": "Version 6.0 (2025) provides 34,000 phase-equilibrium diagrams with expert literature evaluations for inorganic systems. Current primary page offers paid single/multiple-user products and directs Phase Online orders to ACerS. Diagram totals are not unique materials; joint NIST/ACerS copyright and commercial access preclude describing this as an open data download. Free PED Editor software is separate from database access.",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/srd/nist-standard-reference-database-31",
+        "title": "SRD31 current product and release",
+        "evidence": "Current NIST page documents v6.0 (2025), 34,000 diagrams, expert critical evaluations and paid products.",
+        "verified_date": "2026-11-01"
+      }
+    ]
+  }
+]
