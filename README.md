@@ -1,5 +1,5 @@
 <h1>
-  <a href="http://mleg.cse.sc.edu"><img src="assets/mleg-logo.png" alt="Machine Learning and Evolution Lab (MLEG)" width="154" height="62" align="right"></a>
+  <a href="http://mleg.cse.sc.edu"><img src="assets/mleg-logo-readme.svg" alt="Machine Learning and Evolution Lab (MLEG)" width="154" height="40" align="right"></a>
   <img src="assets/matverse-logo.png" alt="MatVerse logo" width="40" height="40" align="absmiddle">&nbsp;MatVerse
   <a href="https://usccolumbia.github.io/matverse/?q=thermoelectric"><img src="assets/search-box.svg" alt="Search MatVerse datasets" width="230" height="24" align="absmiddle"></a>
 </h1>
