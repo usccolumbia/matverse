@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref } from 'vue'
+import matverseLogo from '../assets/images/matverse.png'
 
 const queryKeys = ['q', 'category', 'access', 'structure', 'license', 'unit', 'sort', 'view', 'collection', 'scope', 'api_kind', 'api_auth']
 const revision = ref(0)
@@ -82,7 +83,7 @@ function openCurrentSearch() {
 <template>
   <article class="matverse-app">
     <header class="matverse-toolbar">
-      <h1>MatVerse <span>Dataset search</span></h1>
+      <h1 class="matverse-brand"><img :src="matverseLogo" alt="" width="52" height="52"><span class="matverse-wordmark">MatVerse<span class="matverse-tagline">DATASET ATLAS</span></span></h1>
       <div class="matverse-actions">
         <button class="outline-button" type="button" @click="openCurrentSearch">Open full page ↗</button>
         <a class="outline-button" href="https://github.com/usccolumbia/matverse" target="_blank" rel="noopener">Source &amp; survey ↗</a>
@@ -103,12 +104,14 @@ function openCurrentSearch() {
 <style scoped>
 .matverse-app{position:relative;min-width:0;width:100%}
 .matverse-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;margin-bottom:8px;min-height:32px}
-.matverse-toolbar h1{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px;margin:0;font-size:20px;line-height:1.2}
-.matverse-toolbar h1 span{font-size:12px;font-weight:400;color:#56706b}
+.matverse-brand{display:flex;align-items:center;gap:10px;margin:0;color:#142e32;line-height:1}
+.matverse-brand img{display:block;width:52px;height:52px;object-fit:contain;flex:none}
+.matverse-wordmark{display:block;font-size:30px;font-weight:800;letter-spacing:-1.1px}
+.matverse-tagline{display:block;margin-top:7px;font-size:9px;font-weight:700;letter-spacing:3px;color:#56706b;line-height:1}
 .matverse-actions{display:flex;gap:6px;flex-wrap:wrap}
 .matverse-actions .outline-button{padding:6px 9px;min-height:30px;font-size:12px}
-.matverse-frame{display:block;width:100%;height:calc(100dvh - 160px);min-height:360px;border:1px solid #dce5e1;border-radius:8px;background:#f2f6f2;opacity:0}
+.matverse-frame{display:block;width:100%;height:calc(100dvh - 180px);min-height:360px;border:1px solid #dce5e1;border-radius:8px;background:#f2f6f2;opacity:0}
 .matverse-frame.ready{opacity:1}
 .matverse-loading{position:absolute;top:65px;left:16px;margin:0;color:#56706b;font-size:14px}
-@media(max-width:700px){.matverse-toolbar h1{font-size:18px}.matverse-toolbar h1 span{display:none}.matverse-actions .outline-button{font-size:11px;padding:6px 8px}.matverse-frame{height:calc(100dvh - 140px)}}
+@media(max-width:700px){.matverse-brand img{width:44px;height:44px}.matverse-wordmark{font-size:25px}.matverse-tagline{font-size:8px;letter-spacing:2.5px}.matverse-actions .outline-button{font-size:11px;padding:6px 8px}.matverse-frame{height:calc(100dvh - 168px)}}
 </style>
