@@ -430,7 +430,9 @@
       "raw files",
       "ZIP"
     ],
-    "catalog_ids": [],
+    "catalog_ids": [
+      "nomad-bulk"
+    ],
     "sources": [
       {
         "url": "https://docs.nomad-lab.eu/2.0/howto/manage/program/api.html",
@@ -446,7 +448,8 @@
       }
     ],
     "limitations": [
-      "The sampled production route responded, but newer documentation also shows /backend/api/v1. Read the target installation API docs rather than substituting versions blindly. Entries and calculations are not a deduplicated material count."
+      "The sampled production route responded, but newer documentation also shows /backend/api/v1. Read the target installation API docs rather than substituting versions blindly. Entries and calculations are not a deduplicated material count.",
+      "The linked catalog record counts the public bulk-crystal subset; the API also searches non-bulk and experimental entries. Its record count is not the size of the entire repository."
     ],
     "verification": {
       "status": "sample_verified",

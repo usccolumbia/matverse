@@ -8,7 +8,7 @@
 
 **[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · **[Open in MaterialsAtlas](https://materialsatlas.org/apps/matverse)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
-523 dataset and release records · 13 categories · 748 distinct dataset evidence URLs · checked **November 1, 2026**
+524 dataset and release records · 13 categories · 753 distinct dataset evidence URLs · checked **November 1, 2026**
 
 MatVerse surveys periodic crystal structures and their associated data: experimental crystallography, computed inorganic solids, machine-learning interatomic potential (MLIP) configurations, 2D materials, porous frameworks, molecular crystals, surfaces, and property and discovery benchmarks. It also includes crystal-related experimental property collections that supply compositions or measurements without complete atomic coordinates.
 
@@ -19,7 +19,7 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 ## Browse by category
 
 - [Aggregated and deduplicated crystal collections](#aggregated-crystals) (3)
-- [Computed bulk inorganic crystals](#bulk-computed) (25)
+- [Computed bulk inorganic crystals](#bulk-computed) (26)
 - [Experimental crystallography and reference collections](#experimental-crystallography) (9)
 - [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (41)
 - [Two-dimensional and layered materials](#two-dimensional) (12)
@@ -121,6 +121,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 
 | Dataset / release | Reported size | Counted unit | Access | Data license |
 |---|---:|---|---|---|
+| [NOMAD Repository & Archive — bulk crystals](docs/catalog/bulk_computed.md#nomad-bulk) | 15,065,560 | public bulk-crystal archive entries | open | CC BY 4.0 for open-access content under NOMAD terms; metadata CC0 unless otherwise specified; cite original contributors and sources. |
 | [Alexandria](docs/catalog/bulk_computed.md#alexandria) | ~5,800,000 | DFT-relaxed structures | open | CC BY 4.0 (provider About page) |
 | [AFLOW](docs/catalog/bulk_computed.md#aflow) | 3,929,948 | database entries | open | Provider terms: free for scientific, academic and non-commercial use; other use prohibited |
 | [OQMD](docs/catalog/bulk_computed.md#oqmd) | 1,407,395 | materials entries | open | CC BY 4.0 (OQMD download terms) |

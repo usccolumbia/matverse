@@ -410,9 +410,12 @@ Search calculation/experimental metadata, processed archives and raw files; quer
 
 Probe: [https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1](<https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1>); HTTP 200.
 
+**Catalog coverage:** [NOMAD Repository & Archive — bulk crystals](catalog/bulk_computed.md#nomad-bulk)
+
 **Limits and interpretation:**
 
 - The sampled production route responded, but newer documentation also shows /backend/api/v1. Read the target installation API docs rather than substituting versions blindly. Entries and calculations are not a deduplicated material count.
+- The linked catalog record counts the public bulk-crystal subset; the API also searches non-bulk and experimental entries. Its record count is not the size of the entire repository.
 
 **Official evidence:**
 

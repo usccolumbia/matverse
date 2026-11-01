@@ -1,6 +1,6 @@
 {
   "checked_date": "2026-11-01",
-  "unique_urls": 4682,
+  "unique_urls": 4691,
   "collection_repositories": [
     null,
     "blaiszik/awesome-matchem-datasets",
@@ -31879,12 +31879,30 @@
       ]
     },
     {
+      "url": "https://github.com/usccolumbia/matverse/blob/main/docs/nomad.md",
+      "labels": [
+        "NOMAD Repository & Archive — bulk crystals — scope_guide"
+      ],
+      "origins": [
+        "Catalog official route"
+      ]
+    },
+    {
       "url": "https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md",
       "labels": [
         "User-supplied materials resources (2026-11-01)"
       ],
       "origins": [
         "Requested collection"
+      ]
+    },
+    {
+      "url": "https://github.com/usccolumbia/matverse/blob/main/research/nomad_20261101/bulk-request.json",
+      "labels": [
+        "NOMAD Repository & Archive — bulk crystals — query_spec"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -38279,6 +38297,35 @@
       ]
     },
     {
+      "url": "https://nomad-lab.eu/nomad-lab/",
+      "labels": [
+        "NOMAD Repository & Archive — bulk crystals — homepage",
+        "NOMAD official repository overview and counters"
+      ],
+      "origins": [
+        "Catalog evidence",
+        "Catalog official route"
+      ]
+    },
+    {
+      "url": "https://nomad-lab.eu/nomad-lab/faqs.html",
+      "labels": [
+        "NOMAD FAQ: counting and imported database overlap"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://nomad-lab.eu/nomad-lab/terms.html",
+      "labels": [
+        "NOMAD open-content and metadata license terms"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://nomad-lab.eu/prod/v1/api/v1",
       "labels": [
         "NOMAD · entries and archives API"
@@ -38297,12 +38344,39 @@
       ]
     },
     {
+      "url": "https://nomad-lab.eu/prod/v1/api/v1/entries/----9KNOtIZc9bDFEWxgjeSRsJrC/archive/query",
+      "labels": [
+        "Sample public NOMAD normalized structure archive"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
+      "url": "https://nomad-lab.eu/prod/v1/api/v1/entries/query",
+      "labels": [
+        "NOMAD public bulk-entry query and method aggregation"
+      ],
+      "origins": [
+        "Catalog evidence"
+      ]
+    },
+    {
       "url": "https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1",
       "labels": [
         "NOMAD · entries and archives API bounded probe"
       ],
       "origins": [
         "API probe"
+      ]
+    },
+    {
+      "url": "https://nomad-lab.eu/prod/v1/api/v1/extensions/redoc",
+      "labels": [
+        "NOMAD Repository & Archive — bulk crystals — api_docs"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {
@@ -38321,6 +38395,15 @@
       ],
       "origins": [
         "Collection evidence"
+      ]
+    },
+    {
+      "url": "https://nomad-lab.eu/prod/v1/gui/search/entries",
+      "labels": [
+        "NOMAD Repository & Archive — bulk crystals — data"
+      ],
+      "origins": [
+        "Catalog official route"
       ]
     },
     {

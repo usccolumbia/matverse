@@ -101,6 +101,16 @@ test('license filter distinguishes documented terms from gaps',()=>{
  assert.ok(filter({license:'documented'}).every(d=>!ui.licenseUnknown(d)));
 });
 test('resource directory is searchable separately',()=>assert.ok(ui.filterResources(resources,{q:'NOMAD'}).some(d=>d.name.includes('NOMAD'))));
+test('NOMAD has a main dataset result linked to its API with an explicit bulk-entry denominator',()=>{
+ for(const q of ['NOMAD','FAIRmat','novel materials discovery']){
+  assert.ok(filter({q}).some(d=>d.id==='nomad-bulk'),q+' misses the NOMAD dataset');
+ }
+ const record=datasets.find(d=>d.id==='nomad-bulk');
+ const receipt=JSON.parse(fs.readFileSync('research/nomad_20261101/bulk-response.json','utf8'));
+ assert.equal(record.count,receipt.pagination.total);
+ assert.equal(record.count_unit,'public bulk-crystal archive entries');
+ assert.ok(apiSources.find(a=>a.id==='nomad-native').catalog_ids.includes(record.id));
+});
 test('CSV preserves null counts, multiline text and quoted source JSON',()=>{
  const csv=ui.csvFor([{id:'test',name:'a,"b"\nc',count:null,sources:[{url:'https://example.org'}]}]);
  assert.ok(csv.startsWith('\uFEFF'));assert.ok(csv.includes('"a,""b""\nc"'));assert.ok(csv.includes('https://example.org'));

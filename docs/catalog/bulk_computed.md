@@ -4,6 +4,50 @@
 
 Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
+<a id="nomad-bulk"></a>
+## NOMAD Repository & Archive — bulk crystals
+
+Public NOMAD archive entries classified as bulk crystals, predominantly DFT calculations, with normalized structures, method metadata and source-linked computational properties.
+
+**Size:** 15,065,560 public bulk-crystal archive entries (source wording: 15,065,560 public bulk-crystal entries).
+
+**Scope:** Pagination total from an anonymous POST to /prod/v1/api/v1/entries/query with owner=public and results.material.structural_type=bulk. This is the bulk-classified subset, not all NOMAD uploads, unique materials, atomic configurations or trajectory frames.
+
+**Release:** Public production API query snapshot, 2026-11-01; owner=public and results.material.structural_type=bulk. **Year:** 2026.
+
+**Provenance:** predominantly computed; multi-code repository aggregation. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** periodic crystal structures; atomic positions and lattice vectors; energies and optimization metadata; electronic properties when available; symmetry and composition; simulation code and method provenance.
+
+**Access:** open. **Dataset license:** CC BY 4.0 for open-access content under NOMAD terms; metadata CC0 unless otherwise specified; cite original contributors and sources..
+
+**Official routes:** [homepage](https://nomad-lab.eu/nomad-lab/) · [data](https://nomad-lab.eu/prod/v1/gui/search/entries) · [api_docs](https://nomad-lab.eu/prod/v1/api/v1/extensions/redoc) · [query_spec](https://github.com/usccolumbia/matverse/blob/main/research/nomad_20261101/bulk-request.json) · [scope_guide](https://github.com/usccolumbia/matverse/blob/main/docs/nomad.md)
+
+Other denominators (not added to the ranking):
+
+- 19,419,851 public entries across all structural types: Unfiltered anonymous owner=public API query in the same audit; includes and is broader than the bulk-crystal subset.
+- 19,425,275 provider-reported uploaded entries: Unfiltered official homepage counter, distinct from the public bulk-query scope.
+- 4,346,100 provider-reported represented materials: Unfiltered official homepage material counter; not a verified count of unique bulk crystals in this subset.
+
+**Evidence:**
+
+- [NOMAD public bulk-entry query and method aggregation](https://nomad-lab.eu/prod/v1/api/v1/entries/query) (checked 2026-11-01): Anonymous public query with structural_type=bulk returned pagination.total=15,065,560; method aggregation includes 14,988,740 DFT-labeled entries. Exact request, response and hashes are retained in research/nomad_20261101. Counts are archive entries, not distinct crystals.
+- [Sample public NOMAD normalized structure archive](https://nomad-lab.eu/prod/v1/api/v1/entries/----9KNOtIZc9bDFEWxgjeSRsJrC/archive/query) (checked 2026-11-01): Read-only archive query returned a CaFe2Re structure with four sites, lattice vectors, Cartesian site positions, species and dimension_types=[1,1,1]. The metadata sample identifies a VASP DFT calculation. Only one structure was sampled; full corpus payloads were not audited.
+- [NOMAD official repository overview and counters](https://nomad-lab.eu/nomad-lab/) (checked 2026-11-01): Provider homepage reports 19,425,275 uploaded entries and 4,346,100 represented materials across its broader heterogeneous repository, and describes normalized data and API access. These homepage counters are not the bulk-query denominator.
+- [NOMAD FAQ: counting and imported database overlap](https://nomad-lab.eu/nomad-lab/faqs.html) (checked 2026-11-01): Explains that entry statistics count essentially code runs and include imports from AFLOW, OQMD and Materials Project; one recognized main output file produces an entry.
+- [NOMAD open-content and metadata license terms](https://nomad-lab.eu/nomad-lab/terms.html) (checked 2026-11-01): Open-access content is supplied under CC BY 4.0 with attribution to contributors and sources; metadata may be freely reused under CC0 unless otherwise specified.
+
+**Reuse and interpretation notes:**
+
+- NOMAD was already included in the repositories/portals and API views; this dataset record exposes its bulk-crystal archive subset in the main ranked dataset search.
+- Bulk-classified entries are predominantly computations but method labels are incomplete. Property availability, code, functional, workflow and convergence quality vary across uploads.
+- Entries are not unique materials: multiple calculations, methods, geometries or workflows can refer to the same material. One entry may contain many calculation steps or trajectory frames.
+- The repository overlaps Materials Project, AFLOW, OQMD, published NOMAD-hosted datasets and aggregates such as MateriaViva. Do not add their volumes into a unique-material total.
+- The public bulk query excludes non-bulk entries and uses owner=public; it is a live query snapshot, not a frozen downloadable release. Broader homepage counters have different scope.
+- One normalized periodic structure was downloaded as a small verification sample. Not every entry, structure or property label was independently validated.
+
+**Tags:** NOMAD, NOMAD Repository, NOMAD Archive, Novel Materials Discovery, FAIRmat, DFT, bulk crystals, REST API, OPTIMADE, repository overlap.
+
 <a id="alexandria"></a>
 ## Alexandria
 

@@ -1,0 +1,32 @@
+{
+  "url": "https://nomad-lab.eu/prod/v1/api/v1/entries/query",
+  "method": "POST",
+  "body": {
+    "owner": "public",
+    "query": {
+      "results.material.structural_type": "bulk"
+    },
+    "pagination": {
+      "page_size": 1
+    },
+    "required": {
+      "include": [
+        "entry_id",
+        "results.material.*",
+        "results.method.*",
+        "results.properties.available_properties"
+      ]
+    },
+    "aggregations": {
+      "methods": {
+        "terms": {
+          "quantity": "results.method.method_name",
+          "size": 20
+        }
+      }
+    }
+  },
+  "http_status": 200,
+  "sha256": "189547b216832f48a5a4288762e67b29349689a3725fc5a41d1d41cba2a5d72a",
+  "checked_date": "2026-11-01"
+}

@@ -3976,6 +3976,21 @@ Release: MP 2022 release as listed in Matbench Discovery at 8869a883a506.
 - Evidence (2026-11-01): [Pinned Matbench Discovery dataset metadata](<https://github.com/janosh/matbench-discovery/blob/8869a883a5067015b815886d878bd7aaa3862d2d/data/datasets.yml>)
 - Evidence (2026-11-01): [Matbench Discovery release metadata](<https://api.figshare.com/v2/articles/22715158>)
 
+#### NOMAD Repository & Archive — bulk crystals
+
+Release: Public production API query snapshot, 2026-11-01; owner=public and results.material.structural_type=bulk.
+
+- Homepage: [NOMAD Repository & Archive — bulk crystals](<https://nomad-lab.eu/nomad-lab/>)
+- Data: [NOMAD Repository & Archive — bulk crystals](<https://nomad-lab.eu/prod/v1/gui/search/entries>)
+- Api_docs: [NOMAD Repository & Archive — bulk crystals](<https://nomad-lab.eu/prod/v1/api/v1/extensions/redoc>)
+- Query_spec: [NOMAD Repository & Archive — bulk crystals](<https://github.com/usccolumbia/matverse/blob/main/research/nomad_20261101/bulk-request.json>)
+- Scope_guide: [NOMAD Repository & Archive — bulk crystals](<https://github.com/usccolumbia/matverse/blob/main/docs/nomad.md>)
+- Evidence (2026-11-01): [NOMAD public bulk-entry query and method aggregation](<https://nomad-lab.eu/prod/v1/api/v1/entries/query>)
+- Evidence (2026-11-01): [Sample public NOMAD normalized structure archive](<https://nomad-lab.eu/prod/v1/api/v1/entries/----9KNOtIZc9bDFEWxgjeSRsJrC/archive/query>)
+- Evidence (2026-11-01): [NOMAD official repository overview and counters](<https://nomad-lab.eu/nomad-lab/>)
+- Evidence (2026-11-01): [NOMAD FAQ: counting and imported database overlap](<https://nomad-lab.eu/nomad-lab/faqs.html>)
+- Evidence (2026-11-01): [NOMAD open-content and metadata license terms](<https://nomad-lab.eu/nomad-lab/terms.html>)
+
 ### Experimental crystallography and reference collections
 
 #### Cambridge Structural Database (CSD)
@@ -10509,7 +10524,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 
 ## All distinct source URLs
 
-**4682 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
+**4691 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
 
 | Source link | Included as |
 |---|---|
@@ -13879,7 +13894,9 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [ab initio REPEAT Charge MOF Database (ARC-MOF) — code](<https://github.com/uowoolab>) | Catalog official route |
 | [MOSAEC MOF Database (MOSAEC-DB) — code](<https://github.com/uowoolab/MOSAEC-DB>) | Catalog official route |
 | [Additional materials dataset discoveries](<https://github.com/usccolumbia/matverse>) | Requested collection |
+| [NOMAD Repository & Archive — bulk crystals — scope_guide](<https://github.com/usccolumbia/matverse/blob/main/docs/nomad.md>) | Catalog official route |
 | [User-supplied materials resources (2026-11-01)](<https://github.com/usccolumbia/matverse/blob/main/docs/requested-resources.md>) | Requested collection |
+| [NOMAD Repository & Archive — bulk crystals — query_spec](<https://github.com/usccolumbia/matverse/blob/main/research/nomad_20261101/bulk-request.json>) | Catalog official route |
 | [NIST — Materials Data Curation System source repository](<https://github.com/usnistgov/MDCS>) | Resource evidence |
 | [MDCS — NIST Software Licensing Statement](<https://github.com/usnistgov/MDCS/blob/develop/LICENSE.md>) | Resource evidence |
 | [https://github.com/usnistgov/aims2024_workshop](<https://github.com/usnistgov/aims2024_workshop>) | JARVIS-Tools Notebooks |
@@ -14523,11 +14540,18 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [NOMAD Repository and Archive](<https://nomad-lab.eu/>) | Catalog evidence; Navigation resource |
 | [notebooks](<https://nomad-lab.eu/aitoolkit>) | sedaoturak/data-resources-for-materials-science |
 | [The Novel Materials Discovery (NOMAD) Laboratory](<https://nomad-lab.eu/index.php?page=repo-arch>) | sedaoturak/data-resources-for-materials-science |
+| [NOMAD official repository overview and counters](<https://nomad-lab.eu/nomad-lab/>) | Catalog evidence; Catalog official route |
+| [NOMAD FAQ: counting and imported database overlap](<https://nomad-lab.eu/nomad-lab/faqs.html>) | Catalog evidence |
+| [NOMAD open-content and metadata license terms](<https://nomad-lab.eu/nomad-lab/terms.html>) | Catalog evidence |
 | [NOMAD · entries and archives API](<https://nomad-lab.eu/prod/v1/api/v1>) | API access route |
 | [Primary repository release metadata](<https://nomad-lab.eu/prod/v1/api/v1/datasets/?doi=10.17172/NOMAD/2024.12.05-1>) | Catalog evidence |
+| [Sample public NOMAD normalized structure archive](<https://nomad-lab.eu/prod/v1/api/v1/entries/----9KNOtIZc9bDFEWxgjeSRsJrC/archive/query>) | Catalog evidence |
+| [NOMAD public bulk-entry query and method aggregation](<https://nomad-lab.eu/prod/v1/api/v1/entries/query>) | Catalog evidence |
 | [NOMAD · entries and archives API bounded probe](<https://nomad-lab.eu/prod/v1/api/v1/entries?page_size=1>) | API probe |
+| [NOMAD Repository & Archive — bulk crystals — api_docs](<https://nomad-lab.eu/prod/v1/api/v1/extensions/redoc>) | Catalog official route |
 | [Matbench Discovery linked primary route](<https://nomad-lab.eu/prod/v1/gui/analyze/apis>) | Collection evidence |
 | [Matbench Discovery linked primary route](<https://nomad-lab.eu/prod/v1/gui/search/calculations>) | Collection evidence |
+| [NOMAD Repository & Archive — bulk crystals — data](<https://nomad-lab.eu/prod/v1/gui/search/entries>) | Catalog official route |
 | [NOMAD](<https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries>) | blaiszik/awesome-matchem-datasets |
 | [Perovskite Database Project](<https://nomad-lab.eu/prod/v1/gui/search/perovskite-solar-cells-database>) | Catalog official route; blaiszik/awesome-matchem-datasets |
 | [Original source: Open Databases Integration for Materials Design](<https://odbx.science/>) | Catalog evidence |
