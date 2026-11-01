@@ -1,7 +1,8 @@
 /* MatVerse UI. MIT; catalog metadata retains CC BY 4.0 and upstream terms. */
 'use strict';
 const REPO = 'https://github.com/usccolumbia/matverse';
-const DEFAULT_STATE = {q:'', category:'', access:'', structure:'', license:'', unit:'', sort:'category', view:'datasets'};
+const DEFAULT_STATE = {q:'', category:'', access:'', structure:'', license:'', unit:'', sort:'category', view:'datasets', collection:'', scope:''};
+const SCOPE_LABELS = {crystal_related:'Crystal-related',adjacent:'Adjacent domains',navigation:'Portals & navigation',uncertain:'Scope uncertain'};
 function normalize(value){return String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim();}
 function queryTokens(query){return (String(query).match(/"[^"]+"|\S+/g)||[]).map(t=>normalize(t.replace(/^"|"$/g,''))).filter(Boolean);}
 function searchable(record,categories={}){return normalize(JSON.stringify(record)+' '+(categories[record.category]||''));}
@@ -35,8 +36,9 @@ function filterDatasets(data,state,categories){
   ),state.sort,categories);
 }
 function filterResources(data,state){return data.filter(d=>matchesQuery(d,state.q)).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));}
+function filterSourceEntries(data,state){return data.filter(e=>(!state.collection||e.collection===state.collection)&&(!state.scope||e.scope===state.scope)&&matchesQuery(e,state.q)).sort((a,b)=>a.collection_name.localeCompare(b.collection_name,'en',{sensitivity:'base'})||a.position-b.position);}
 function csvFor(rows,kind='datasets'){
-  const fields=kind==='resources'?['name','kind','url','description','sources']:['id','name','category','version','year','count','count_display','count_unit','count_scope','count_precision','structure_level','provenance','properties','access','license','links','sources','caveats','tags'];
+  const fields=kind==='sources'?['id','label','url','collection','collection_name','collection_url','position','section','scope']:kind==='resources'?['name','kind','url','description','sources']:['id','name','category','version','year','count','count_display','count_unit','count_scope','count_precision','structure_level','provenance','properties','access','license','links','sources','caveats','tags'];
   const quote=value=>{
     let s=value==null?'':typeof value==='object'?JSON.stringify(value):String(value);
     if(typeof value==='string'&&/^[=+@-]/.test(s))s="'"+s;
@@ -49,12 +51,14 @@ function safeURL(value){try{const u=new URL(value);return ['https:','http:'].inc
 function formatCount(d){return d.count===null?'Unranked':({exact:'',approximate:'~',lower_bound:'≥'}[d.count_precision]||'')+d.count.toLocaleString('en-US');}
 function startApp(){
   const catalog=JSON.parse(document.getElementById('catalog-data').textContent);
-  const {datasets,resources,categories}=catalog;
+  const {datasets,resources,categories,collections,sourceEntries}=catalog;
   const params=new URLSearchParams(location.search);
   let state={...DEFAULT_STATE};
   for(const k of Object.keys(DEFAULT_STATE))if(params.has(k))state[k]=params.get(k);
   if(!Object.keys(categories).includes(state.category))state.category='';
-  if(!['datasets','resources'].includes(state.view))state.view='datasets';
+  if(!['datasets','resources','sources'].includes(state.view))state.view='datasets';
+  if(!collections.some(c=>c.id===state.collection))state.collection='';
+  if(!Object.hasOwn(SCOPE_LABELS,state.scope))state.scope='';
   if(!['category','largest','smallest','name','newest'].includes(state.sort))state.sort='category';
   if(!['','structures','configurations','observations','unknown'].includes(state.unit))state.unit='';
   const expanded=new Set();
@@ -81,6 +85,9 @@ function startApp(){
     const open=expanded.has(d.id);const provider=d.links.homepage||d.links.data||d.links.paper;
     return `<tr class="dataset-row${open?' expanded':''}" id="release-${d.id}" data-id="${d.id}"><td>${external(provider,esc(d.name)+'<span class="external-arrow" aria-hidden="true">↗</span>','dataset-link')}<p class="category-label">${d.year?`<span class="year-pill">${d.year}</span>`:''}${esc(categoryShort[d.category]||categories[d.category])}</p></td><td><span class="dataset-count${d.count===null?' unranked':''}">${formatCount(d)}</span><span class="count-unit">${esc(d.count_unit)}</span></td><td><div class="properties">${d.properties.slice(0,3).map(p=>`<span class="property-tag">${esc(p)}</span>`).join('')}${d.properties.length>3?`<span class="property-tag">+${d.properties.length-3}</span>`:''}</div><p class="dataset-description">${esc(d.description)}</p></td><td><span class="access-badge ${d.access}">${accessLabel[d.access]}</span><p class="license-text">${esc(d.license)}</p></td><td class="details-cell"><button class="details-toggle" type="button" aria-expanded="${open}" aria-controls="detail-${d.id}" aria-label="${open?'Close':'View'} details for ${esc(d.name)}" data-expand="${d.id}">${open?'−':'i'}</button></td></tr><tr class="detail-row" id="detail-${d.id}"${open?'':' hidden'}><td colspan="5">${detailHTML(d)}</td></tr>`;
   }
+  function sourceEntryCard(e){
+    return `<article class="resource-card source-entry"><span class="resource-kind">${esc(SCOPE_LABELS[e.scope])}</span><h3>${external(e.url,esc(e.label)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p class="entry-section">${esc(e.section)}</p><p class="entry-url">${external(e.url,esc(e.url))}</p><div class="entry-origin"><span>FROM SOURCE COLLECTION</span>${external(e.collection_url,esc(e.collection_name))}<small>Original link occurrence ${e.position} · imported discovery lead</small></div></article>`;
+  }
   function renderChips(){
     const chips=[];
     if(state.q)chips.push(['q',`Search: ${state.q}`]);
@@ -88,33 +95,37 @@ function startApp(){
       const label=k==='category'?categoryShort[state[k]]:k==='access'?accessLabel[state[k]]:k==='structure'?structureLabel[state[k]]:k==='license'?(state[k]==='unknown'?'License unverified':'License terms documented'):({structures:'Structure counts',configurations:'Configuration counts',observations:'Property / literature counts',unknown:'Size unverified'}[state[k]]);
       chips.push([k,label||state[k]]);
     }
+    if(state.view==='sources')for(const k of ['collection','scope'])if(state[k])chips.push([k,k==='collection'?collections.find(c=>c.id===state[k])?.name||state[k]:SCOPE_LABELS[state[k]]]);
     $('active-filters').innerHTML=chips.map(([key,label])=>`<button type="button" class="filter-chip" data-clear="${key}" aria-label="Remove ${esc(label)} filter">${esc(label)} <span aria-hidden="true">×</span></button>`).join('');
     $('active-filters').hidden=chips.length===0;
     $('reset').disabled=chips.length===0&&state.sort===DEFAULT_STATE.sort;
   }
   function render(){
-    const resourceMode=state.view==='resources';
-    visible=resourceMode?filterResources(resources,state):filterDatasets(datasets,state,categories);
+    const resourceMode=state.view==='resources',sourceMode=state.view==='sources',datasetMode=state.view==='datasets';
+    visible=sourceMode?filterSourceEntries(sourceEntries,state):resourceMode?filterResources(resources,state):filterDatasets(datasets,state,categories);
     $('search').value=state.q;
-    for(const k of ['category','access','structure','license','sort'])$(k).value=state[k];
+    for(const k of ['category','access','structure','license','sort','collection','scope'])$(k).value=state[k];
     $('clear-search').hidden=!state.q;
-    document.querySelectorAll('.dataset-filter').forEach(el=>el.hidden=resourceMode);
-    $('sort').parentElement.hidden=resourceMode;
+    document.querySelectorAll('.dataset-filter').forEach(el=>el.hidden=!datasetMode);
+    document.querySelectorAll('.source-filter').forEach(el=>el.hidden=!sourceMode);
+    $('source-note').hidden=!sourceMode;
+    $('sort').parentElement.hidden=!datasetMode;
     $('filters').classList.toggle('resource-mode',resourceMode);
-    $('type-tabs').hidden=resourceMode;
-    $('directory-title').textContent=resourceMode?'Repositories & portals':'Dataset directory';
-    $('directory-description').textContent=resourceMode?'Find source collections, discovery tools, APIs and adjacent data resources.':'Search dataset names, properties, methods, tags and source evidence.';
-    $('search').placeholder=resourceMode?'Repository, portal, topic…':'Name, property, method…';
-    $('result-count').textContent=`${visible.length} of ${resourceMode?resources.length:datasets.length} ${resourceMode?'resources':'records'}`;
-    for(const view of ['datasets','resources']){$('view-'+view).classList.toggle('selected',state.view===view);$('view-'+view).setAttribute('aria-pressed',String(state.view===view));}
+    $('filters').classList.toggle('source-mode',sourceMode);
+    $('type-tabs').hidden=!datasetMode;
+    $('directory-title').textContent=sourceMode?'Source collection entries':resourceMode?'Repositories & portals':'Dataset directory';
+    $('directory-description').textContent=sourceMode?'Search every imported link by its original name, URL, section or collection.':resourceMode?'Find source collections, discovery tools, APIs and adjacent data resources.':'Search dataset names, properties, methods, tags and source evidence.';
+    $('search').placeholder=sourceMode?'Source name, URL, section…':resourceMode?'Repository, portal, topic…':'Name, property, method…';
+    $('result-count').textContent=`${visible.length} of ${sourceMode?sourceEntries.length:resourceMode?resources.length:datasets.length} ${sourceMode?'source entries':resourceMode?'resources':'records'}`;
+    for(const view of ['datasets','resources','sources']){$('view-'+view).classList.toggle('selected',state.view===view);$('view-'+view).setAttribute('aria-pressed',String(state.view===view));}
     document.querySelectorAll('[data-unit]').forEach(btn=>{btn.classList.toggle('selected',btn.dataset.unit===state.unit);btn.setAttribute('aria-pressed',String(btn.dataset.unit===state.unit));});
-    $('dataset-table-wrap').hidden=resourceMode||visible.length===0;
-    document.querySelector('.mobile-table-hint').hidden=resourceMode||visible.length===0;
-    $('resource-grid').hidden=!resourceMode||visible.length===0;
+    $('dataset-table-wrap').hidden=!datasetMode||visible.length===0;
+    document.querySelector('.mobile-table-hint').hidden=!datasetMode||visible.length===0;
+    $('resource-grid').hidden=datasetMode||visible.length===0;
     $('empty-state').hidden=visible.length!==0;
-    $('table-footnote').textContent=resourceMode?'Portals, APIs and collections are navigation resources, not additional independent crystal datasets.':'~ Approximate · ≥ Reported lower bound · Unranked = size unverified. “Public access” describes availability; data may still carry restrictions. Expand a release for its source evidence.';
-    if(!resourceMode)$('dataset-rows').innerHTML=visible.map(datasetRow).join('');
-    else $('resource-grid').innerHTML=visible.map(r=>`<article class="resource-card"><span class="resource-kind">${esc(r.kind)}</span><h3>${external(r.url,esc(r.name)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p>${esc(r.description)}</p><details><summary>Source evidence · ${r.sources.length}</summary><ul>${sourceList(r)}</ul></details></article>`).join('');
+    $('table-footnote').textContent=sourceMode?'Occurrences retain repeated links and original sections. Scope labels aid discovery; each destination, count and license requires its own evidence. Source entries are excluded from dataset size rankings.':resourceMode?'Portals, APIs and collections are navigation resources, not additional independent crystal datasets.':'~ Approximate · ≥ Reported lower bound · Unranked = size unverified. “Public access” describes availability; data may still carry restrictions. Expand a release for its source evidence.';
+    if(datasetMode)$('dataset-rows').innerHTML=visible.map(datasetRow).join('');
+    else $('resource-grid').innerHTML=sourceMode?visible.map(sourceEntryCard).join(''):visible.map(r=>`<article class="resource-card"><span class="resource-kind">${esc(r.kind)}</span><h3>${external(r.url,esc(r.name)+' <span class="external-arrow" aria-hidden="true">↗</span>')}</h3><p>${esc(r.description)}</p><details><summary>Source evidence · ${r.sources.length}</summary><ul>${sourceList(r)}</ul></details></article>`).join('');
     $('export-csv').disabled=$('export-json').disabled=visible.length===0;
     renderChips();updateURL();
   }
@@ -133,6 +144,8 @@ function startApp(){
     expand(id,true);$('release-'+id)?.scrollIntoView({block:'start',behavior:'instant'});
   }
   for(const [id,title] of Object.entries(categories))$('category').insertAdjacentHTML('beforeend',`<option value="${id}">${esc(title)}</option>`);
+  for(const c of collections)$('collection').insertAdjacentHTML('beforeend',`<option value="${esc(c.id)}">${esc(c.name)} (${c.entry_count})</option>`);
+  $('source-view-count').textContent=sourceEntries.length;
   $('stat-datasets').textContent=$('dataset-view-count').textContent=datasets.length;
   $('stat-categories').textContent=Object.keys(categories).length;
   $('stat-sources').textContent=new Set(datasets.flatMap(d=>d.sources.map(s=>s.url))).size;
@@ -140,11 +153,11 @@ function startApp(){
   $('checked-date').textContent=new Intl.DateTimeFormat('en-GB',{day:'2-digit',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(catalog.checkedDate+'T12:00:00Z')).toUpperCase();
   $('filters').addEventListener('submit',e=>e.preventDefault());
   $('search').addEventListener('input',e=>{state.q=e.target.value;render();});
-  for(const k of ['category','access','structure','license','sort'])$(k).addEventListener('change',e=>{state[k]=e.target.value;render();});
+  for(const k of ['category','access','structure','license','sort','collection','scope'])$(k).addEventListener('change',e=>{state[k]=e.target.value;render();});
   $('clear-search').addEventListener('click',()=>{state.q='';render();$('search').focus();});
   $('type-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-unit]');if(b){state.unit=b.dataset.unit;render();}});
   $('active-filters').addEventListener('click',e=>{const b=e.target.closest('[data-clear]');if(b){state[b.dataset.clear]='';render();}});
-  for(const v of ['datasets','resources'])$('view-'+v).addEventListener('click',()=>{state.view=v;render();});
+  for(const v of ['datasets','resources','sources'])$('view-'+v).addEventListener('click',()=>{state.view=v;render();});
   $('reset').addEventListener('click',reset);$('empty-reset').addEventListener('click',reset);
   $('dataset-rows').addEventListener('click',e=>{const b=e.target.closest('[data-expand]');if(b)expand(b.dataset.expand);});
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}});
@@ -160,5 +173,5 @@ function startApp(){
   $('export-csv').addEventListener('click',()=>download('csv'));$('export-json').addEventListener('click',()=>download('json'));
   render();openHash();
 }
-if(typeof module!=='undefined'&&module.exports)module.exports={normalize,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
+if(typeof module!=='undefined'&&module.exports)module.exports={normalize,queryTokens,matchesQuery,unitKind,licenseUnknown,sortDatasets,filterDatasets,filterResources,filterSourceEntries,csvFor,escapeHTML,formatCount,DEFAULT_STATE};
 if(typeof document!=='undefined')startApp();

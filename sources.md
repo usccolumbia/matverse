@@ -1,8 +1,10 @@
 # MatVerse source links
 
-Link inventory checked 2026-11-01. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, the two requested source collections, and supporting perspective references.
+Link inventory checked 2026-11-01. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, all six requested source collections, and supporting perspective references.
 
 Collection-listed links are discovery leads. Their presence here does not mean every destination is still accessible, every resource supplies crystal coordinates, or every count/license has been verified. Crystal-related additions enter the ranked catalog only with their own evidence; adjacent molecular, polymer, engineering and handbook resources remain labeled in the collection inventories.
+
+**All 789 imported link occurrences are searchable** in the [Source entries view](https://usccolumbia.github.io/matverse/?view=sources). See the [collection coverage audit](docs/collection-coverage.md) and [complete entry JSON](data/collection_entries.json). Both requested GitHub lists are included in full within the documented extraction boundaries.
 
 ## Source collections supplied by the user
 

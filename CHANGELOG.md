@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-11-01
+
+Added a searchable Source entries view for all 789 imported link occurrences across six collections, with collection/scope filters, original sections and CSV/JSON export. All 274 Blaiszik and 90 Seda Oturak entries are included; the two lists contain 296 distinct URLs together. Added a generated collection coverage audit and complete entry JSON. Both GitHub list revisions were rechecked against live HEAD. Imported discovery links remain separate from the 145 evidence-backed ranked records.
+
 ## 0.2.0 — 2026-11-01
 
 Added a self-contained searchable HTML directory with combined filters, source details, URL state and filtered CSV/JSON exports. Added a generated root sources.md and source-link JSON covering 1,057 distinct URLs from the catalog and six requested collection/tool entrypoints, with inspection boundaries and adjacent resources labeled.

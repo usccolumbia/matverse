@@ -6,6 +6,43 @@ const datasets=JSON.parse(fs.readFileSync('data/datasets.json','utf8'));
 const resources=JSON.parse(fs.readFileSync('data/resources.json','utf8'));
 const categories=JSON.parse(fs.readFileSync('data/summary.json','utf8')).categories;
 const filter=patch=>ui.filterDatasets(datasets,{...ui.DEFAULT_STATE,...patch},categories);
+const inventory=JSON.parse(fs.readFileSync('data/collection_entries.json','utf8'));
+const entryFilter=patch=>ui.filterSourceEntries(inventory.entries,{...ui.DEFAULT_STATE,...patch});
+test('every imported occurrence preserves its original collection, label, URL and section',()=>{
+ assert.equal(new Set(inventory.entries.map(e=>e.id)).size,inventory.entries.length);
+ const sourceIndex=new Set(JSON.parse(fs.readFileSync('data/source_links.json','utf8')).sources.map(s=>s.url));
+ const sourceMarkdown=fs.readFileSync('sources.md','utf8');
+ for(const c of inventory.collections){
+  const original=JSON.parse(fs.readFileSync(c.inventory_file,'utf8')).links;
+  const actual=entryFilter({collection:c.id});assert.equal(actual.length,original.length);
+  original.forEach((e,i)=>{
+   assert.equal(actual[i].url,e.url);assert.equal(actual[i].label,e.label||e.url);
+   assert.equal(actual[i].section,Array.isArray(e.section)?e.section.join(' / '):e.section||'Not recorded');
+   assert.equal(actual[i].scope,e.scope||'uncertain');
+   assert.ok(sourceIndex.has(e.url));assert.ok(sourceMarkdown.includes(e.url));
+  });
+ }
+ assert.equal(entryFilter({}).length,inventory.entry_count);
+});
+test('both requested GitHub lists are complete and independently filterable',()=>{
+ assert.equal(entryFilter({collection:'blaiszik'}).length,274);
+ assert.equal(entryFilter({collection:'sedaoturak'}).length,90);
+ const requested=inventory.entries.filter(e=>['blaiszik','sedaoturak'].includes(e.collection));
+ assert.equal(new Set(requested.map(e=>e.url)).size,296);
+});
+test('source-entry search combines collection and scope and searches original sections',()=>{
+ const rows=entryFilter({collection:'sedaoturak',scope:'crystal_related',q:'materials'});
+ assert.ok(rows.length>0);assert.ok(rows.every(e=>e.collection==='sedaoturak'&&e.scope==='crystal_related'&&ui.matchesQuery(e,'materials')));
+ assert.ok(entryFilter({collection:'blaiszik',q:'BOOM'}).some(e=>e.url==='https://github.com/FLASK-LLNL/BOOM'));
+ const sectionOnly={...inventory.entries[0],label:'Example',url:'https://example.org',collection_name:'Example collection',section:'Special handbook section'};
+ assert.equal(ui.filterSourceEntries([sectionOnly],{...ui.DEFAULT_STATE,q:'"special handbook"'}).length,1);
+ assert.equal(entryFilter({q:'no_such_matverse_source_entry_0294'}).length,0);
+});
+test('source CSV retains original labels, URLs and collection provenance',()=>{
+ const rows=entryFilter({collection:'blaiszik',q:'BOOM'}),csv=ui.csvFor(rows,'sources');
+ assert.ok(csv.includes('"collection_name"'));assert.ok(csv.includes('"section"'));
+ for(const r of rows){assert.ok(csv.includes(r.url));assert.ok(csv.includes(r.collection_name));}
+});
 test('all catalog releases remain discoverable',()=>assert.equal(filter({}).length,datasets.length));
 test('provider and dataset names search regardless of case and punctuation',()=>{
  assert.ok(filter({q:'LEMAT-TRAJ'}).some(d=>d.id==='lemat-traj'));

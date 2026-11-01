@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 from build_catalog import CATEGORIES, DATE, url_ok
+from collection_inventory import load_inventory
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,8 +24,10 @@ def render():
         if not url_ok(url): raise ValueError('Source URL contains credentials or an ephemeral access query; use its stable public entrypoint.')
         entry=all_urls.setdefault(url,{'labels':set(),'origins':set()})
         entry['labels'].add(label);entry['origins'].add(origin)
-    lines=['# MatVerse source links','',f'Link inventory checked {DATE}. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, the two requested source collections, and supporting perspective references.','',
+    collection_inventory=load_inventory(ROOT)
+    lines=['# MatVerse source links','',f'Link inventory checked {DATE}. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, all six requested source collections, and supporting perspective references.','',
            'Collection-listed links are discovery leads. Their presence here does not mean every destination is still accessible, every resource supplies crystal coordinates, or every count/license has been verified. Crystal-related additions enter the ranked catalog only with their own evidence; adjacent molecular, polymer, engineering and handbook resources remain labeled in the collection inventories.','',
+           f'**All {collection_inventory["entry_count"]} imported link occurrences are searchable** in the [Source entries view](https://usccolumbia.github.io/matverse/?view=sources). See the [collection coverage audit](docs/collection-coverage.md) and [complete entry JSON](data/collection_entries.json). Both requested GitHub lists are included in full within the documented extraction boundaries.','',
            '## Source collections supplied by the user','']
     collections=[]
     for path in sorted((ROOT/'research').glob('collection_*.json')):
@@ -88,7 +91,27 @@ def render():
         lines += [f'| {link(label,url)} | {text("; ".join(sorted(e["origins"])))} |']
     lines += ['', '[Back to the catalog](README.md) · [Search the HTML directory](https://usccolumbia.github.io/matverse/)','']
     inventory={'checked_date':DATE,'unique_urls':len(all_urls),'collection_repositories':[c.get('repository') for c in collections],'sources':[{'url':u,'labels':sorted(e['labels']),'origins':sorted(e['origins'])} for u,e in sorted(all_urls.items())]}
-    return {'sources.md':'\n'.join(lines),'data/source_links.json':json.dumps(inventory,indent=2,ensure_ascii=False)+'\n'}
+    coverage=['# Source collection coverage','',f'Checked {DATE}. The source-entry directory preserves every labeled public HTTP(S) link occurrence in the inspected inventories. Entries include datasets, papers, portals, software, handbooks and adjacent domains; they are not counts of independent crystal datasets.','',
+              '| Collection | Imported / inventoried entries | Distinct entry URLs | Missing from sources.md | Search |','|---|---:|---:|---:|---|']
+    for c in collection_inventory['collections']:
+        own=[e for e in collection_inventory['entries'] if e['collection']==c['id']]
+        missing={e['url'] for e in own}-all_urls.keys()
+        if missing:raise ValueError(f'Collection URLs missing from source index: {c["id"]}')
+        c['source_index_missing_url_count']=len(missing)
+        coverage += [f'| {link(c["name"],c["url"])} | {len(own)} / {c["entry_count"]} | {c["unique_url_count"]} | 0 | [Browse entries](https://usccolumbia.github.io/matverse/?view=sources&collection={c["id"]}) |']
+    coverage += ['',f'**{collection_inventory["entry_count"]} occurrences; {collection_inventory["unique_url_count"]} distinct entry URLs across all six collections.** Repeated entries and links shared between lists are retained with their original context. Blaiszik and Seda Oturak together contribute 364 occurrences and 296 distinct URLs at the inspected revisions.','',
+                 '## What complete coverage means','',
+                 'Every entry in each checked inventory is included in sources.md, the downloadable JSON, and the searchable Source entries view. The inventory preserves the source label, URL, original section, scope classification and source collection. Internal page anchors and non-URL placeholders are outside the extraction boundary. Linked external websites are not recursively crawled.','',
+                 'The collection revisions, extraction boundaries and inventory hashes below make this claim reproducible. Live GitHub HEAD matched both requested list revisions when rechecked on 2026-11-01. This is an inventory-completeness check, not independent validation of each destination, dataset size or license. A crystal-related scope label is a triage aid; it does not certify atomic-coordinate availability. The ranked catalog maintains its separate evidence requirements.','',
+                 '## Revisions and extraction boundaries','']
+    for c in collection_inventory['collections']:
+        coverage += [f'### {text(c["name"])}','',f'- Inventory: [{c["inventory_file"]}](../{c["inventory_file"]})',f'- Revision: `{c["revision"]}`',f'- Inventory SHA-256: `{c["inventory_sha256"]}`',f'- Scope counts: {text(json.dumps(c["scope_counts"],sort_keys=True))}','']
+        coverage += ['- '+text(note) for note in c['coverage_notes']]+['']
+    coverage += ['[All source links](../sources.md) · [Complete entry JSON](../data/collection_entries.json) · [Back to catalog](../README.md)','']
+    collection_inventory['checked_date']=DATE
+    collection_inventory['note']='Complete imported link inventory within the documented extraction boundaries; not a list of independently verified crystal datasets.'
+    return {'sources.md':'\n'.join(lines),'data/source_links.json':json.dumps(inventory,indent=2,ensure_ascii=False)+'\n',
+            'data/collection_entries.json':json.dumps(collection_inventory,indent=2,ensure_ascii=False)+'\n','docs/collection-coverage.md':'\n'.join(coverage)}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');args=p.parse_args()

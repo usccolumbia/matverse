@@ -2,13 +2,22 @@
   "catalog_date": "2026-11-01",
   "dataset_records": 145,
   "resources": 32,
+  "source_entries": 789,
+  "source_collections": 6,
   "sha256": {
     "data/datasets.json": "338ba3ceee7ad2a9bbee9cdbf36d22597a783a23ac87de09bc113bd9b83331dc",
     "data/resources.json": "d4109fa631170ee3a0b313051ffd7eb68bd4738df118d0317779993e7f89d4ee",
-    "web/index.template.html": "8e38a91894a947041deef7804d8c7b6d529ce574d7bb589c57bee7f17e09029a",
-    "web/styles.css": "2214049ab4cd20eb12a10bfc6c48e378d347942963531661355d548540440330",
-    "web/app.js": "ed701006dc1f49f6d8b49a9af66706aeb1d1ec6cea4dbefc3689f26e7e0f83fe"
+    "web/index.template.html": "cf35c94c0aab6064ff18650c79af4d8ee4ffc4a38a857e6ade291da457474f83",
+    "web/styles.css": "bd839900b4452aff5d50e700257487306ff2026d7aadf61a90447194a447b420",
+    "web/app.js": "88f34ed8b0f8c0c982b5ea67874d34588a6f982eec7defdb6382a30234cb0858",
+    "scripts/collection_inventory.py": "6a2e4e0161b2bb00f052cfbec3725d00b40f89f972766f7843b59377780314d6",
+    "research/collection_blaiszik.json": "a31eea035404648c58874f5f95c1c16fdecbbb2c5dde9533911ca123d3bc98eb",
+    "research/collection_jarvis_notebooks.json": "fdf8858af8517d8fdb5b05f1d18df8135e83fc1975becd831c5f91b31f4f7d46",
+    "research/collection_mastml.json": "99babb75920f3f47c91ae183296e4cec8a1161a52adfc9c7745ce3e1d6e971a6",
+    "research/collection_nanohub_mllab.json": "239e3802d47dd3d4db1b722bd01ed53038bfe8740da6f4e0d4a7ae90cf407b36",
+    "research/collection_remi.json": "6d778f961f8e3177053361e1e9a3a764fa4f2dad6503b030b2c292fe9571d923",
+    "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5"
   },
-  "index_sha256": "a818f7106633f0ca2bd52b6e30d1252f0e486e65ed4193f3b64de646899bfb45",
+  "index_sha256": "1fe639600b3c3b66b995db50f04ccef1283418f3adcb12a13182d3953e316630",
   "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
 }
