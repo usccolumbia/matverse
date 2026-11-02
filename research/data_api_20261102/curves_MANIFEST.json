@@ -1,0 +1,113 @@
+{
+  "curves": 850417,
+  "rows_by_licence_class": {
+    "open": 731266,
+    "unclear": 115979,
+    "restricted": 3172
+  },
+  "per_type": {
+    "absorption-xy": {
+      "curves": 1292,
+      "payload_bytes": 21998394,
+      "sources": {
+        "materials-project": 1292
+      },
+      "shards": 1
+    },
+    "band_structure-svg": {
+      "curves": 66624,
+      "payload_bytes": 19297908088,
+      "sources": {
+        "materiae": 66624
+      },
+      "shards": 5
+    },
+    "band_structure-xy": {
+      "curves": 88165,
+      "payload_bytes": 3130179349,
+      "sources": {
+        "materials-project": 88165
+      },
+      "shards": 1
+    },
+    "dos-xy": {
+      "curves": 111809,
+      "payload_bytes": 1941389594,
+      "sources": {
+        "materiae": 35858,
+        "superband": 3170,
+        "materials-project": 72781
+      },
+      "shards": 1
+    },
+    "ir-xy": {
+      "curves": 166,
+      "payload_bytes": 4921488,
+      "sources": {
+        "rruff": 166
+      },
+      "shards": 1
+    },
+    "kappa_cumulative-xy": {
+      "curves": 7836,
+      "payload_bytes": 21411483,
+      "sources": {
+        "phonix": 7836
+      },
+      "shards": 1
+    },
+    "kappa_spectral-xy": {
+      "curves": 7836,
+      "payload_bytes": 7549356,
+      "sources": {
+        "phonix": 7836
+      },
+      "shards": 1
+    },
+    "phonon_dos-xy": {
+      "curves": 45292,
+      "payload_bytes": 225122410,
+      "sources": {
+        "phonix": 28214,
+        "phonondb": 13545,
+        "materials-project": 3533
+      },
+      "shards": 1
+    },
+    "raman-xy": {
+      "curves": 2072,
+      "payload_bytes": 40919984,
+      "sources": {
+        "rruff": 2072
+      },
+      "shards": 1
+    },
+    "xas-xy": {
+      "curves": 368886,
+      "payload_bytes": 1659375218,
+      "sources": {
+        "materials-project": 368886
+      },
+      "shards": 1
+    },
+    "xrd-peaks": {
+      "curves": 149505,
+      "payload_bytes": 405466126,
+      "sources": {
+        "amcsd": 13497,
+        "deem-zeolites": 136008
+      },
+      "shards": 1
+    },
+    "xrd-xy": {
+      "curves": 934,
+      "payload_bytes": 17325718,
+      "sources": {
+        "rruff": 934
+      },
+      "shards": 1
+    }
+  },
+  "built_at": "2026-10-23T10:33:36-0500",
+  "seconds": 358
+}

@@ -1,0 +1,7 @@
+[Unit]
+Description=Check MaterialsAtlas Data API health, workers and storage
+After=docker.service
+[Service]
+Type=oneshot
+User=jianjunh
+ExecStart=/usr/bin/python3 /home/jianjunh/materialsatlas-data-api/deploy/monitor.py

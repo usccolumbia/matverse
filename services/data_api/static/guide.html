@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Python and API guide · MaterialsAtlas</title><link rel="stylesheet" href="/data-downloads/styles.css"></head><body><header><a class="brand" href="/data-downloads/">◈ MaterialsAtlas Data</a><nav><a href="/api/data/v1/docs">Interactive API docs</a><a href="/optimade/v1/info">OPTIMADE info</a></nav></header><main style="max-width:1000px"><p class="eyebrow">PYTHON & HTTP</p><h1>Data you can reproduce.</h1><p class="lede">Retrieve a named property table, or prepare a filtered table with matching crystal structures.</p><section class="card"><h2>Install the Python client</h2><pre><code>pip install materialsatlas
+# Optional DataFrames and pymatgen objects:
+pip install 'materialsatlas[data,structures]'</code></pre><p>While the first PyPI publication is pending, install the <a href="/data-downloads/packages/materialsatlas-0.1.0-py3-none-any.whl">tested wheel</a> with <code>pip install https://materialsatlas.org/data-downloads/packages/materialsatlas-0.1.0-py3-none-any.whl</code>.</p><pre><code>from materialsatlas import get_available_datasets, download_dataset, load_dataset
+
+print(get_available_datasets())
+path = download_dataset("band_gap")
+df = load_dataset("curie_temperature")  # requires the data extra</code></pre><p>Large tables may not fit comfortably in a DataFrame. Use Parquet batches or DuckDB for those tables.</p></section><section class="card"><h2>Filter properties and include CIFs</h2><pre><code>from materialsatlas import MaterialsAtlas
+
+with MaterialsAtlas() as atlas:
+    job = atlas.export(
+        property="band_gap",
+        property_source="materials-project",
+        elements=["Li", "O"],
+        include_cifs=True,
+        format="parquet",
+    )
+    print(job.id)
+    files = job.download("./materials-data")
+
+    # CIFs for structures associated with OQMD:
+    files = atlas.download_cifs(
+        structure_source="oqmd", directory="./oqmd-data"
+    )</code></pre><p>Exports run in a persistent queue and normally expire after seven days. Resume one with <code>atlas.job(export_id).download(directory)</code>. Downloads verify SHA-256 hashes and support resumption; archives are not extracted automatically. Large exports may require narrower filters to stay within the service limits.</p></section><section class="card"><h2>Sources mean different things</h2><ul><li><code>property_source</code>: the provider reporting a property value.</li><li><code>structure_source</code>: membership in a database, as reported by MateriaViva.</li><li><code>origin_source</code>: the recorded origin of the representative CIF.</li><li><code>origin_open=True</code>: require coordinates marked as openly sourced by the publisher.</li></ul><p>A structure associated with Materials Project may have its representative CIF supplied by another source. Multiple property values and methods are retained separately. Public property exports include only rows labelled open by the publisher; this label does not replace the record's original terms. Cite MateriaViva and the original providers.</p></section><section class="card"><h2>ML predictions are explicit</h2><pre><code>with MaterialsAtlas() as atlas:
+    print([task["name"] for task in atlas.predictions()])
+    path = atlas.download_prediction("lattice_thermal_conductivity__gga")</code></pre><p>Predictions are estimates, not new experimental measurements or DFT calculations. Each task retains its model metadata. Curves are mirrored for preservation but are not served by this first API release.</p></section><section class="card"><h2>OPTIMADE structure discovery</h2><pre><code>with MaterialsAtlas() as atlas:
+    for entry in atlas.optimade('elements HAS ALL "Li", "O" AND nelements=2'):
+        print(entry["id"], entry["attributes"]["chemical_formula_reduced"])
+
+    record = next(atlas.iter_structures(elements=["Si"], page_size=1))
+    structure = atlas.get_structure(record["material_id"])  # pymatgen extra</code></pre><p>The endpoint is <a href="/optimade/v1/structures">/optimade/v1/structures</a>. It normalizes the stored CIF cell and coordinates. Some source metadata describes a different cell, so normalized site counts can differ. Unsupported CIFs are omitted from OPTIMADE and remain available through raw downloads. Nested-property and correlated-list filters are not supported; unsupported filters return an error.</p><p>OPTIMADE serves the active release. Use <code>MaterialsAtlas(release="full-revision")</code> for reproducible source-property and raw-CIF retrieval. The exact resolved revision and checksums accompany every generated export.</p></section><section class="card"><h2>Direct HTTP access</h2><pre><code>curl https://materialsatlas.org/api/data/v1/properties
+curl -X POST https://materialsatlas.org/api/data/v1/exports \
+  -H 'Content-Type: application/json' \
+  -d '{"property":"band_gap","property_source":"materials-project","include_cifs":true,"limit":100}'</code></pre><p>Poll <code>/api/data/v1/exports/{id}</code> for download links. The <a href="/api/data/v1/docs">interactive API documentation</a> describes all filters and response schemas.</p></section></main></body></html>

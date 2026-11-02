@@ -1,0 +1,667 @@
+{
+  "packaged_at": "2026-10-22T22:05:57-0500",
+  "audit": "audit-20261020.json",
+  "tasks_by_state": {
+    "done": 95,
+    "queued": 26,
+    "training": 19
+  },
+  "rows_total": 521365770,
+  "tasks": {
+    "ar_uptake__GCMC_87K__1bar_TraPPE": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 601931
+    },
+    "average_voltage__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107815
+    },
+    "band_gap__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "band_gap_direct__gga": {
+      "state": "queued",
+      "declared_domain": "gapped"
+    },
+    "birefringence__lda": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2662829
+    },
+    "born_effective_charge_max__pbesol": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9682233
+    },
+    "bulk_modulus_eos__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9660224
+    },
+    "bulk_modulus_pressure_derivative__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9660225
+    },
+    "bulk_modulus_reuss__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872693
+    },
+    "bulk_modulus_voigt__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872696
+    },
+    "bulk_modulus_vrh__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9927448
+    },
+    "bulk_modulus_vrh__gga-vdw": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9609950
+    },
+    "capacity_gravimetric__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107807
+    },
+    "capacity_volumetric__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107807
+    },
+    "cbm__gga": {
+      "state": "training",
+      "declared_domain": "gapped"
+    },
+    "co2_heat_of_adsorption__GCMC_0.10bar_363K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_heat_of_adsorption__GCMC_0.15bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_heat_of_adsorption__GCMC_0.70bar_413K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_heat_of_adsorption__GCMC_binary_CO2_N2_0.15bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_n2_selectivity__gcmc": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC_0.10bar_363K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC_0.15bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC_0.70bar_413K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC__hMOF__0.01_bar": {
+      "state": "training",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC__hMOF__max_over_pressures": {
+      "state": "training",
+      "declared_domain": "porous"
+    },
+    "co2_uptake__GCMC_binary_CO2_N2_0.15bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "continuous_symmetry_measure__other": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10369251
+    },
+    "d_band_center__gga": {
+      "state": "done",
+      "declared_domain": "surface-derived",
+      "rows": 420379
+    },
+    "debye_temperature__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9887490
+    },
+    "decomposition_energy__PBE_GNoME": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__PBE_GNoME_vs_GNoME_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__PBE_GNoME_vs_MP_OQMD_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__PBE_GNoME_vs_MP_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__PBE__NOVOMAG": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10469372
+    },
+    "decomposition_energy__PBE__U__MP2026_equilibrium_reaction_energy": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10491003
+    },
+    "decomposition_energy__r2SCAN_GNoME": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__r2SCAN_GNoME_vs_GNoME_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__r2SCAN_GNoME_vs_MP_OQMD_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "decomposition_energy__r2SCAN_GNoME_vs_MP_hull": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "density__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "dielectric_constant_electronic__gga": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2590051
+    },
+    "dielectric_constant_electronic__gga-vdw": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2449262
+    },
+    "dielectric_constant_electronic__mbj": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2411749
+    },
+    "dielectric_constant_ionic__gga": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2590048
+    },
+    "dielectric_constant_total__gga": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2590049
+    },
+    "dos_at_fermi__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "effective_mass_electron__transport-postproc": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2453338
+    },
+    "effective_mass_hole__transport-postproc": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2453347
+    },
+    "elastic_anisotropy__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9958114
+    },
+    "electrode_stability_charged__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107804
+    },
+    "electrode_stability_discharged__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107805
+    },
+    "electrode_volume_change__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107809
+    },
+    "electron_phonon_coupling__other": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 7397485
+    },
+    "energy_above_hull__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "energy_density_gravimetric__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107817
+    },
+    "energy_density_volumetric__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107814
+    },
+    "eos_bulk_modulus__dfpt-phonon": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10432279
+    },
+    "exfoliation_energy__gga": {
+      "state": "done",
+      "declared_domain": "layered",
+      "rows": 143457
+    },
+    "experimentally_observed__experiment": {
+      "state": "training",
+      "declared_domain": "synthesized-only"
+    },
+    "fermi_energy__gga": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "formation_energy_per_atom__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "framework_bond_dissociation_energy__other": {
+      "state": "done",
+      "declared_domain": "framework",
+      "rows": 583833
+    },
+    "gllbsc_derivative_discontinuity__gllbsc": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2504915
+    },
+    "h2_uptake__GCMC_130K__100bar_Michels-Degraaff-Tenseldam_with_Darkrim-": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "h2_uptake__GCMC_160K__5bar_Michels-Degraaff-Tenseldam_with_Darkrim-": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "h2_uptake__GCMC_200K__100bar_Michels-Degraaff-Tenseldam_with_Darkrim-": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "h2_uptake__GCMC_243K__100bar_Michels-Degraaff-Tenseldam_with_Darkrim-": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "h2_uptake__GCMC_77K__6bar_Michels-Degraaff-Tenseldam_with_Darkrim-": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "has_imaginary_phonon__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10525257
+    },
+    "heat_capacity__pbesol": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10507877
+    },
+    "heat_of_formation__gllbsc": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 4614066
+    },
+    "interlayer_binding_energy__gga-vdw": {
+      "state": "done",
+      "declared_domain": "layered",
+      "rows": 145578
+    },
+    "is_gap_direct__gga": {
+      "state": "training",
+      "declared_domain": "gapped"
+    },
+    "is_metal__gga": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "is_stable__gga": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "kr_uptake__GCMC_298K__1bar_in_Xe_Kr_y_0.8_Talu_et_al.__Colloids_Surf_A_2001_187-1": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    },
+    "lattice_thermal_conductivity__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10228397
+    },
+    "lattice_thermal_conductivity_coherence__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10408135
+    },
+    "lattice_thermal_conductivity_particle__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10408152
+    },
+    "magnetic_anisotropy_constant__gga": {
+      "state": "done",
+      "declared_domain": "magnetic",
+      "rows": 6114631
+    },
+    "magnetic_polarization__gga": {
+      "state": "done",
+      "declared_domain": "magnetic",
+      "rows": 6645000
+    },
+    "magnetization_per_atom__gga": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "magnetization_per_volume__gga": {
+      "state": "training",
+      "declared_domain": "pool-wide"
+    },
+    "max_residual_force__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "max_residual_stress__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "max_voltage_step__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107802
+    },
+    "migration_barrier__BVEL_1D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596378
+    },
+    "migration_barrier__BVEL_1D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470975
+    },
+    "migration_barrier__BVEL_2D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596378
+    },
+    "migration_barrier__BVEL_2D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470975
+    },
+    "migration_barrier__BVEL_3D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596379
+    },
+    "migration_barrier__BVEL_3D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470979
+    },
+    "migration_barrier__BVSE_1D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596378
+    },
+    "migration_barrier__BVSE_1D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470975
+    },
+    "migration_barrier__BVSE_2D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596378
+    },
+    "migration_barrier__BVSE_2D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470975
+    },
+    "migration_barrier__BVSE_3D_Li": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 596379
+    },
+    "migration_barrier__BVSE_3D_Na": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 470977
+    },
+    "mohs_hardness__experiment": {
+      "state": "done",
+      "declared_domain": "synthesized-only",
+      "rows": 10713345
+    },
+    "n2_heat_of_adsorption__GCMC_binary_CO2_N2_0.85bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "n2_uptake__GCMC_77K__0.999bar_TraPPE": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 601463
+    },
+    "n2_uptake__GCMC_77K__1bar_TraPPE": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 602003
+    },
+    "n2_uptake__GCMC_binary_CO2_N2_0.85bar_298K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "nmr_efg_max__gga-vdw": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9404242
+    },
+    "num_voltage_steps__gga": {
+      "state": "done",
+      "declared_domain": "ion-conducting",
+      "rows": 4107799
+    },
+    "phase_separation_energy__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "phonon_log_average_frequency__other": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 7397484
+    },
+    "phonon_max_frequency__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10525278
+    },
+    "phonon_min_frequency__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10525271
+    },
+    "piezoelectric_modulus__dfpt-phonon": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2357388
+    },
+    "poisson_ratio__OptB88vdW_ElaStic": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9609984
+    },
+    "poisson_ratio__PBE_AEL__AFLOW": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9864315
+    },
+    "poisson_ratio__PBE__U__MP2026": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9958143
+    },
+    "pore_channel_count__geometric": {
+      "state": "training",
+      "declared_domain": "framework"
+    },
+    "power_factor__BoltzTraP_n-type": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9857283
+    },
+    "power_factor__BoltzTraP_p-type": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9857277
+    },
+    "refractive_index__gga": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2717870
+    },
+    "seebeck_coefficient__BoltzTraP_n-type": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9857272
+    },
+    "seebeck_coefficient__BoltzTraP_p-type": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9857284
+    },
+    "shear_modulus_reuss__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872704
+    },
+    "shear_modulus_voigt__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872703
+    },
+    "shear_modulus_vrh__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9928239
+    },
+    "shear_modulus_vrh__gga-vdw": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9612110
+    },
+    "shg_coefficient__lda": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2662830
+    },
+    "slme__gga-vdw": {
+      "state": "done",
+      "declared_domain": "gapped",
+      "rows": 2452087
+    },
+    "sound_velocity_longitudinal__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872730
+    },
+    "sound_velocity_transverse__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9872732
+    },
+    "spillage__gga-vdw": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9630733
+    },
+    "structure_prediction_r_factor__geometric": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 10846272
+    },
+    "tc_superconducting__experiment": {
+      "state": "done",
+      "declared_domain": "synthesized-only",
+      "rows": 10143120
+    },
+    "thermal_conductivity__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9864285
+    },
+    "thermal_expansion__gga": {
+      "state": "done",
+      "declared_domain": "pool-wide",
+      "rows": 9864287
+    },
+    "total_energy_per_atom__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "total_magnetization__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "vbm__gga": {
+      "state": "training",
+      "declared_domain": "gapped"
+    },
+    "volume_per_atom__gga": {
+      "state": "queued",
+      "declared_domain": "pool-wide"
+    },
+    "work_function__gga": {
+      "state": "done",
+      "declared_domain": "surface-derived",
+      "rows": 117981
+    },
+    "working_capacity_temperature_swing__GCMC_TSA_0.15bar_298K_-__0.70bar_413K": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "working_capacity_vacuum_swing__GCMC_VSA": {
+      "state": "queued",
+      "declared_domain": "porous"
+    },
+    "xe_uptake__GCMC_298K__1bar_in_Xe_Kr_y_0.2_Talu_et_al.__Colloids_Surf_A_2001_187-1": {
+      "state": "done",
+      "declared_domain": "porous",
+      "rows": 603158
+    }
+  }
+}

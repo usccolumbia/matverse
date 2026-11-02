@@ -1,0 +1,47 @@
+name: materialsatlas-data
+x-common: &common
+  image: materialsatlas-data-api:20261102
+  restart: unless-stopped
+  user: '1000:1000'
+  read_only: true
+  tmpfs:
+    - /tmp:size=128m
+  security_opt:
+    - no-new-privileges:true
+  cap_drop: [ALL]
+  logging:
+    driver: json-file
+    options:
+      max-size: '10m'
+      max-file: '3'
+  environment: &environment
+    DATA_API_ROOT: /data/materialsatlas-data
+    DATA_API_BASE_URL: https://materialsatlas.org
+    DATA_API_TOTAL_BYTES: '100000000000'
+  volumes:
+    - /data/materialsatlas-data:/data/materialsatlas-data
+services:
+  api:
+    <<: *common
+    ports: ['127.0.0.1:8094:8094']
+    cpus: 2
+    mem_limit: 4g
+    pids_limit: 256
+    environment:
+      <<: *environment
+      DATA_API_ACCEL: '1'
+    healthcheck:
+      test: ['CMD', 'python', '-c', 'import urllib.request; urllib.request.urlopen("http://127.0.0.1:8094/api/data/v1/health",timeout=15)']
+      interval: 60s
+      timeout: 20s
+      retries: 3
+  worker:
+    <<: *common
+    command: ['python', '-m', 'data_api.worker']
+    cpus: 2
+    mem_limit: 8g
+    pids_limit: 256
+    stop_grace_period: 45s
+    environment:
+      <<: *environment
+      DATA_API_WORKERS: '2'

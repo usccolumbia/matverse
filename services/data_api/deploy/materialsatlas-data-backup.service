@@ -1,0 +1,8 @@
+[Unit]
+Description=Back up MaterialsAtlas data and provenance to separate disk
+[Service]
+Type=oneshot
+User=jianjunh
+Nice=15
+IOSchedulingClass=idle
+ExecStart=/usr/bin/python3 /home/jianjunh/materialsatlas-data-api/deploy/backup.py

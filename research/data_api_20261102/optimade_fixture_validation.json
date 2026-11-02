@@ -1,0 +1,16 @@
+{
+  "success_count": 36,
+  "failure_count": 0,
+  "internal_failure_count": 0,
+  "optional_success_count": 6,
+  "optional_failure_count": 1,
+  "failure_messages": [],
+  "internal_failure_messages": [],
+  "optional_failure_messages": [
+    [
+      "http://127.0.0.1:8095/optimade/v1/structures?filter=species_at_sites%20HAS%20ALL%20%22site_type_0%22 - _get_endpoint - failed with error",
+      "ResponseError: Request to 'structures?filter=species_at_sites HAS ALL \"site_type_0\"' returned HTTP status code 400.\nAdditional details from implementation:\n  OPTIMADE request error: Unsupported OPTIMADE property: species_at_sites (N/A)"
+    ]
+  ],
+  "verbosity": -1
+}
