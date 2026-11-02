@@ -38,6 +38,18 @@ def test_server_ignores_range_restarts_cleanly(tmp_path):
         assert atlas._download('https://example.org/file',path,hashlib.sha256(content).hexdigest()).read_bytes()==content
 
 
+def test_resume_uses_server_etag_not_checksum(tmp_path):
+    content=b'0123456789';target=tmp_path/'data'
+    (tmp_path/'data.partial').write_bytes(content[:4])
+    (tmp_path/'data.partial.etag').write_text('"nginx-mtime-size"')
+    def handler(request):
+        assert request.headers['If-Range']=='"nginx-mtime-size"'
+        return httpx.Response(206,headers={'ETag':'"nginx-mtime-size"','Content-Range':'bytes 4-9/10'},stream=httpx.ByteStream(content[4:]))
+    with MaterialsAtlas('https://example.org',transport=httpx.MockTransport(handler)) as atlas:
+        assert atlas._download('https://example.org/file',target,hashlib.sha256(content).hexdigest(),10).read_bytes()==content
+    assert not (tmp_path/'data.partial.etag').exists()
+
+
 def test_mismatch_never_publishes_download(tmp_path):
     with MaterialsAtlas('https://example.org',transport=httpx.MockTransport(lambda r:httpx.Response(200,stream=httpx.ByteStream(b'bad')))) as atlas:
         with pytest.raises(MaterialsAtlasError):atlas._download('https://example.org/file',tmp_path/'data','0'*64)

@@ -104,20 +104,23 @@ class MaterialsAtlas:
                 return path
             raise MaterialsAtlasError(f"Refusing to overwrite an existing file with different or unknown content: {path}")
         partial=path.with_name(path.name+".partial")
+        etag_file=partial.with_name(partial.name+".etag")
         for attempt in range(4):
             offset=partial.stat().st_size if partial.exists() else 0
             headers={"Accept-Encoding":"identity"}
             if offset:
                 headers["Range"]=f"bytes={offset}-"
-                if expected_hash:
-                    headers["If-Range"]=f'"{expected_hash}"'
+                if etag_file.exists():
+                    headers["If-Range"]=etag_file.read_text().strip()
             try:
                 with self.http.stream("GET",self._url(url),headers=headers) as response:
                     if response.status_code==416 and partial.exists() and expected_hash and sha256(partial)==expected_hash:
                         os.replace(partial,path)
+                        etag_file.unlink(missing_ok=True)
                         return path
                     if response.status_code==416:
                         partial.unlink(missing_ok=True)
+                        etag_file.unlink(missing_ok=True)
                         continue
                     response.raise_for_status()
                     append=response.status_code==206 and offset>0
@@ -125,6 +128,10 @@ class MaterialsAtlas:
                         content_range=response.headers.get("Content-Range","")
                         if not content_range.startswith(f"bytes {offset}-"):
                             raise MaterialsAtlasError("Invalid resume response; partial download preserved")
+                    if response.headers.get("ETag"):
+                        etag_file.write_text(response.headers["ETag"])
+                    elif not append:
+                        etag_file.unlink(missing_ok=True)
                     with partial.open("ab" if append else "wb") as out:
                         for block in response.iter_raw():
                             out.write(block)
@@ -132,8 +139,10 @@ class MaterialsAtlas:
                     raise MaterialsAtlasError("Downloaded file size does not match the manifest")
                 if expected_hash and sha256(partial)!=expected_hash:
                     partial.unlink(missing_ok=True)
+                    etag_file.unlink(missing_ok=True)
                     raise MaterialsAtlasError("SHA-256 verification failed; invalid partial file removed")
                 os.replace(partial,path)
+                etag_file.unlink(missing_ok=True)
                 return path
             except httpx.TransportError as exc:
                 if attempt==3:
