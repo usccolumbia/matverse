@@ -4,11 +4,11 @@ Download materials property datasets, source-filtered CIF archives, and
 normalized OPTIMADE structures from [MaterialsAtlas](https://materialsatlas.org/data-downloads/).
 
 ```sh
-pip install materialsatlas
+pip install materialsatlas-datasets
 # Optional pandas/Parquet support:
-pip install 'materialsatlas[data]'
+pip install 'materialsatlas-datasets[data]'
 # Optional pymatgen Structure objects:
-pip install 'materialsatlas[structures]'
+pip install 'materialsatlas-datasets[structures]'
 ```
 
 ## Named property datasets

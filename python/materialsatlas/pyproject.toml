@@ -3,7 +3,7 @@ requires = ["hatchling>=1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "materialsatlas"
+name = "materialsatlas-datasets"
 version = "0.1.0"
 description = "Python access to MaterialsAtlas property datasets, CIF exports, and OPTIMADE structures"
 readme = "README.md"

@@ -208,7 +208,7 @@ class MaterialsAtlas:
         try:
             from pymatgen.core import Structure
         except ImportError as exc:
-            raise ImportError("Install materialsatlas[structures] for pymatgen objects") from exc
+            raise ImportError("Install materialsatlas-datasets[structures] for pymatgen objects") from exc
         return Structure.from_str(self.get_cif(material_id),fmt="cif")
 
     def optimade(self,filter="",*,response_fields=None,page_limit=20):
