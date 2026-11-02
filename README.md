@@ -8,7 +8,7 @@
 
 **[Search the interactive directory](https://usccolumbia.github.io/matverse/)** · **[Open in MaterialsAtlas](https://materialsatlas.org/apps/matverse)** · [Download the standalone HTML](https://github.com/usccolumbia/matverse/raw/refs/heads/main/index.html) · [All source links](sources.md)
 
-532 dataset and release records · 13 categories · 764 distinct dataset evidence URLs · checked **November 1, 2026**
+548 dataset and release records · 13 categories · 771 distinct dataset evidence URLs · checked **November 1, 2026**
 
 MatVerse surveys periodic crystal structures and their associated data: experimental crystallography, computed inorganic solids, machine-learning interatomic potential (MLIP) configurations, 2D materials, porous frameworks, molecular crystals, surfaces, and property and discovery benchmarks. It also includes crystal-related experimental property collections that supply compositions or measurements without complete atomic coordinates.
 
@@ -18,17 +18,17 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 
 ## Browse by category
 
-- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (4)
-- [Computed bulk inorganic crystals](#bulk-computed) (30)
-- [Experimental crystallography and reference collections](#experimental-crystallography) (9)
+- [Aggregated and deduplicated crystal collections](#aggregated-crystals) (6)
+- [Computed bulk inorganic crystals](#bulk-computed) (31)
+- [Experimental crystallography and reference collections](#experimental-crystallography) (10)
 - [Bulk and mixed-domain MLIP configurations](#mlip-configurations) (41)
 - [Two-dimensional and layered materials](#two-dimensional) (12)
-- [MOFs, COFs and zeolites](#porous-frameworks) (24)
+- [MOFs, COFs and zeolites](#porous-frameworks) (28)
 - [Molecular crystals and ice](#molecular-crystals) (5)
 - [Surfaces, interfaces and catalysis](#surfaces-catalysis) (18)
 - [Materials properties](#materials-properties) (148)
-- [Computed properties and prediction benchmarks](#property-benchmarks) (88)
-- [Crystal generation and discovery benchmarks](#generation-benchmarks) (7)
+- [Computed properties and prediction benchmarks](#property-benchmarks) (94)
+- [Crystal generation and discovery benchmarks](#generation-benchmarks) (9)
 - [Experimental properties and literature extraction](#experimental-properties) (116)
 - [Diffraction, spectroscopy and characterization](#diffraction-spectroscopy) (30)
 
@@ -40,7 +40,7 @@ The catalog includes **LeMat, MateriaViva Open, Alexandria, OMat24, Matbench Dis
 - **Aggregates and derivatives overlap.** LeMat, MateriaViva, parent databases, benchmark subsets and format mirrors cannot be added into one material total.
 - **Access and licensing are separate.** A free website, model license or open-access paper does not establish a dataset's redistribution rights. Unverified terms remain explicit.
 
-Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 25 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
+Each linked dataset card records the release, unit, count evidence, available structure level, provenance, labels, access, license and caveats. There are 27 records with unverified size; these remain unranked. Counts are mostly provider-reported, with selected metadata sums and small-file recounts identified explicitly. “Checked” means the documentation was inspected; it does not mean every payload was downloaded, every row audited, or each claim independently reproduced.
 
 The [HTML directory](https://usccolumbia.github.io/matverse/) searches names, properties, methods, tags and source evidence. Filter by category, access, structure availability, license status or counted data type; expand a release for its evidence and caveats. Export the current results as CSV or JSON. The standalone `index.html` also works offline.
 
@@ -98,7 +98,7 @@ The **[additional-dataset survey](docs/additional-datasets.md)** extends coverag
 
 ## API-accessible / Agent-ready data sources
 
-**[Search 35 API, SDK and bulk-file routes](https://usccolumbia.github.io/matverse/?view=apis)** · [Access guide and examples](docs/api-access.md) · [Machine-readable API registry](data/api_sources.json)
+**[Search 49 API, SDK and bulk-file routes](https://usccolumbia.github.io/matverse/?view=apis)** · [Access guide and examples](docs/api-access.md) · [Machine-readable API registry](data/api_sources.json)
 
 Find programmatic access to Materials Project, OQMD, AFLOW, COD, Alexandria, JARVIS, NOMAD, Materials Cloud, MPDS and other sources. Each route records its interface type, authentication, formats, scope, documentation and verification status. “Agent-ready” means a documented software access path; it does not certify data quality, complete labels or unrestricted reuse. Query APIs, metadata APIs, bulk SDKs and static downloads remain distinguishable.
 
@@ -121,6 +121,8 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [LeMat-Bulk](docs/catalog/aggregated_crystals.md#lemat-bulk) | 6,725,590 | structure records | open | CC BY 4.0 |
 | [LeMat-BulkUnique](docs/catalog/aggregated_crystals.md#lemat-bulkunique) | 5,438,436 | functional-specific unique records | open | CC BY 4.0 (card license section) |
 | [Material-Property-Descriptor Database (MPDD)](docs/catalog/aggregated_crystals.md#mpdd) | 4,457,640 | atomic structure records | open | Not verified; inspect collection and original-source terms before redistribution |
+| [CMR static collections — MateriaViva source group](docs/catalog/aggregated_crystals.md#cmr-static) | Unranked | source-group structures | open | CC BY-SA 4.0 (CMR provider declaration) |
+| [JARVIS specialized structures — MateriaViva source group](docs/catalog/aggregated_crystals.md#jarvis-specialized-structures) | Unranked | source-group structures | open | CC BY 4.0 (MateriaViva source-group declaration; verify individual deposits) |
 
 <a id="bulk-computed"></a>
 ### Computed bulk inorganic crystals
@@ -132,6 +134,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Alexandria](docs/catalog/bulk_computed.md#alexandria) | ~5,800,000 | DFT-relaxed structures | open | CC BY 4.0 (provider About page) |
 | [AFLOW](docs/catalog/bulk_computed.md#aflow) | 3,929,948 | database entries | open | Provider terms: free for scientific, academic and non-commercial use; other use prohibited |
 | [OQMD](docs/catalog/bulk_computed.md#oqmd) | 1,407,395 | materials entries | open | CC BY 4.0 (OQMD download terms) |
+| [Predicted Crystallography Open Database (PCOD)](docs/catalog/bulk_computed.md#pcod) | 1,062,771 | predicted database entries | open | Public domain (provider declaration) |
 | [JARVIS-QETB / TB3PY DFT database](docs/catalog/bulk_computed.md#jarvis-qetb) | 829,574 | DFT structure records | open | CC BY 4.0 (Figshare deposit) |
 | [GNoME released stable-materials set](docs/catalog/bulk_computed.md#gnome) | ~381,000 | novel structure records | open | CC BY-NC 4.0 (data); Apache 2.0 applies to code |
 | [Theoretical Crystallography Open Database (TCOD)](docs/catalog/bulk_computed.md#tcod) | 362,294 | theoretical crystal structure entries | open | CC0 1.0; acknowledge original structural-data authors |
@@ -170,6 +173,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Pearson's Crystal Data](docs/catalog/experimental_crystallography.md#pearsons-crystal-data) | ~395,000 | structural datasets | commercial | Not verified |
 | [Inorganic Crystal Structure Database (ICSD)](docs/catalog/experimental_crystallography.md#icsd) | 347,985 | crystal structures | commercial | Not verified |
 | [NIMS AtomWork](docs/catalog/experimental_crystallography.md#atomwork) | 82,000 | crystal structures | registration | NIMS proprietary terms: written permission required for reproduction, republication or third-party distribution; bulk acquisition and scraping prohibited. |
+| [AFLOW Encyclopedia of Crystallographic Prototypes](docs/catalog/experimental_crystallography.md#aflow-prototypes) | 2,127 | prototype CIF files | open | Apache-2.0 (repository license) |
 | [MAGNDATA](docs/catalog/experimental_crystallography.md#magndata) | ≥2,000 | magnetic structures | mixed | Not verified |
 | [American Mineralogist Crystal Structure Database (AMCSD)](docs/catalog/experimental_crystallography.md#amcsd) | Unranked | crystal structures | open | Not verified |
 
@@ -247,18 +251,22 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Open Direct Air Capture 2023 (ODAC23)](docs/catalog/porous_frameworks.md#odac23) | 38,983,748 | DFT configuration frames | open | Creative Commons Attribution 4.0 International |
 | [PORMAKE hypothetical MOFs for MOFTransformer](docs/catalog/porous_frameworks.md#pormake-moftransformer-1m) | 1,118,074 | hypothetical MOF structures | open | CC BY 4.0 |
 | [Deem hypothetical zeolites / PCOD SLC-good](docs/catalog/porous_frameworks.md#pcod-zeolites) | ~331,000 | hypothetical zeolite frameworks | open | Not verified |
+| [Deem PCOD v2.1 SLC-good — Zenodo release](docs/catalog/porous_frameworks.md#deem-zeolites-zenodo-8035241) | ~331,000 | hypothetical zeolite frameworks | open | CC BY 4.0 (Zenodo deposit) |
 | [Boyd-Woo hypothetical MOFs for wet flue-gas capture](docs/catalog/porous_frameworks.md#boyd-woo) | 324,426 | generated MOF structures | open | Creative Commons Attribution 4.0 International |
 | [ab initio REPEAT Charge MOF Database (ARC-MOF)](docs/catalog/porous_frameworks.md#arc-mof) | ~280,000 | MOF structures | open | Creative Commons Attribution 4.0 International |
 | [ReDD-COFFEE](docs/catalog/porous_frameworks.md#redd-coffee) | 268,687 | generated COF structures | open | Creative Commons Attribution Non Commercial Share Alike 4.0 International |
 | [MOFX-DB computational adsorption database](docs/catalog/porous_frameworks.md#mofx-db) | 168,534 | parent-database structure records | open | Not verified: open API and bulk downloads; no dataset-wide reuse license confirmed |
 | [Wilmer hypothetical MOF database (hMOF)](docs/catalog/porous_frameworks.md#hmof-wilmer) | 137,953 | generated MOF structures | mixed | Not verified |
+| [hMOF — JARVIS-Atoms Figshare release](docs/catalog/porous_frameworks.md#jarvis-hmof) | 137,651 | MOF records | open | CC BY 4.0 |
 | [MOSAEC MOF Database (MOSAEC-DB)](docs/catalog/porous_frameworks.md#mosaec-db) | ~124,000 | processed MOF structures | mixed | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International; CIF access also requires CSD license |
 | [Mercado hypothetical 2D and 3D COFs](docs/catalog/porous_frameworks.md#hcof-mercado) | 69,840 | generated COF structures | open | Creative Commons Attribution 4.0 International |
 | [SymGNN aluminum-substituted zeolite adsorption dataset](docs/catalog/porous_frameworks.md#symgnn-zeolite-adsorption) | 57,084 | substitution/property cases | open | CC BY 4.0 (Zenodo archived release metadata) |
+| [FAIR-MOFs experimental and optimized structures](docs/catalog/porous_frameworks.md#fair-mofs) | 45,699 | curated experimental MOF structures | open | CC BY 4.0 (deposit declaration) |
 | [CoRE MOF Database](docs/catalog/porous_frameworks.md#core-mof) | 43,439 | MOF structure records | mixed | CC BY 4.0 for Zenodo SI deposit; CSD-derived files have additional CCDC access terms |
 | [Zeo-1](docs/catalog/porous_frameworks.md#zeo-1) | 32,550 | geometry-optimization frames | open | Creative Commons Attribution 4.0 International |
 | [Quantum MOF Database (QMOF)](docs/catalog/porous_frameworks.md#qmof) | ≥20,000 | DFT-optimized structures | open | CC BY 4.0 |
 | [ToBaCCo hypothetical MOF structure database](docs/catalog/porous_frameworks.md#tobacco-mofs) | 13,511 | valid hypothetical MOF structures | open | Not verified: public MOFX-DB structure downloads; reuse license not confirmed |
+| [CoRE MOF 2019 — public ASR and FSR release](docs/catalog/porous_frameworks.md#core-mof-2019) | 12,020 | public ASR structure entries | open | CC BY 4.0 (deposit declaration) |
 | [TBHubbard MOF Hamiltonians](docs/catalog/porous_frameworks.md#tbhubbard-mofs) | 10,000 | MOF tight-binding cases | open | Custom dataset terms, contents not verified; DataCite links a v4.1 custom licence (not CC0) |
 | [AdsZeo equilibrium methane adsorption configurations](docs/catalog/porous_frameworks.md#adszeo-equilibrium-configurations) | 4,775 | zeolite framework realizations | open | CC BY 4.0 (Zenodo data metadata) |
 | [MOFSimplify stability-labelled MOFs](docs/catalog/porous_frameworks.md#mofsimplify-stability) | 3,132 | thermal-stability-labelled MOFs | open | CC BY 4.0 |
@@ -472,6 +480,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [LeMat-Rho](docs/catalog/property_benchmarks.md#lemat-rho) | 69,117 | materials | open | CC BY 4.0 |
 | [Quantum Defects Database — semiconductor point defects](docs/catalog/property_benchmarks.md#quantumdefects-semiconductor) | ≥50,000 | point-defect calculations | open | Not verified; public access does not establish a reuse licence |
 | [Materials Project / Ricci electronic transport database](docs/catalog/property_benchmarks.md#mp-boltztrap-transport) | ~48,000 | materials | open | Creative Commons Zero v1.0 Universal (CC0-1.0) |
+| [Machine learning on topological materials datasets — Materials Cloud](docs/catalog/property_benchmarks.md#mcloud-topological-ml) | 35,608 | materials records | open | CC BY 4.0 |
 | [Materials Project Phonon database v1.1](docs/catalog/property_benchmarks.md#mp-phonon-2026) | 26,413 | materials | open | Creative Commons Attribution 4.0 International |
 | [UCI Superconductivity Data (Hamidieh 2018)](docs/catalog/property_benchmarks.md#uci-superconductivity-2018) | 21,263 | tabular material records | open | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | [Phonix anharmonic phonon database](docs/catalog/property_benchmarks.md#phonix) | 20,912 | unique materials | open | Creative Commons Attribution 4.0 International |
@@ -482,6 +491,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [SPSE hierarchical solid-electrolyte ion transport](docs/catalog/property_benchmarks.md#spse-ion-transport-2020) | 11,989 | BVSE transport entries | open | CC BY 4.0 for deposit; underlying ICSD coordinate rights require separate review |
 | [PhononMOFdb](docs/catalog/property_benchmarks.md#phononmofdb) | 11,900 | MOF thermal-property records | open | CC BY 4.0 |
 | [Matbench log_gvrh / log_kvrh (shared source cohort)](docs/catalog/property_benchmarks.md#matbench-elastic) | 10,987 | task samples | open | Not verified |
+| [SNUMAT hybrid band gaps — JARVIS Figshare release](docs/catalog/property_benchmarks.md#jarvis-snumat) | 10,481 | structure-property records | open | CC BY 4.0 |
 | [SNUMAT hybrid-functional band-gap dataset](docs/catalog/property_benchmarks.md#snumat-hybrid-gap) | 10,481 | materials | open | CC BY 4.0 |
 | [PhononDB / MDR harmonic phonon calculation database](docs/catalog/property_benchmarks.md#phonondb-mdr) | 10,034 | material calculation entries | open | Creative Commons BY Attribution 4.0 International |
 | [MDR Phonon PBE](docs/catalog/property_benchmarks.md#mdr-phonon-pbe-recalculation) | 9,958 | reference material phonon files | open | CC-BY-4.0 (provider/benchmark release declaration) |
@@ -496,6 +506,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [Matbench dielectric](docs/catalog/property_benchmarks.md#matbench-dielectric) | 4,764 | task samples | open | Not verified |
 | [MC3D conventional-superconductivity screening and Eliashberg dataset](docs/catalog/property_benchmarks.md#mc3d-superconductivity) | 4,533 | screened metal structures | open | Creative Commons Attribution 4.0 International |
 | [ZeoDiff zeolite diffusion structure-property dataset](docs/catalog/property_benchmarks.md#zeodiff-diffusion) | 4,194 | zeolite descriptor/diffusion rows | open | CC BY 4.0 (Zenodo archived release metadata) |
+| [NovoMag magnetic materials database](docs/catalog/property_benchmarks.md#novomag) | 3,826 | provider-reported database entries | open | CC BY 4.0 |
 | [WenzhouTE computed thermoelectric database](docs/catalog/property_benchmarks.md#wenzhou-te) | 3,607 | calculated materials | open | Not verified for database; article CC BY 4.0 does not establish data licensing |
 | [AFLOW AEL–AGL thermomechanical cohort (2017)](docs/catalog/property_benchmarks.md#aflow-ael-agl-2017) | ≥3,500 | materials | open | Free for scientific, academic and non-commercial purposes; any other use prohibited (AFLUX documentation) |
 | [Computational 1D Materials Database (C1DB)](docs/catalog/property_benchmarks.md#c1db) | 3,157 | browser database rows | open | Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification |
@@ -505,6 +516,8 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [OQMD-derived oxygen-vacancy formation energies](docs/catalog/property_benchmarks.md#oqmd-oxygen-vacancy-sites-2023) | 2,677 | oxygen-site property rows | open | CC BY 4.0 (Zenodo record metadata) |
 | [JARVIS-FF classical force-field calculations](docs/catalog/property_benchmarks.md#jarvis-ff) | 2,538 | force-field calculation records | open | CC BY 4.0 (Figshare deposit) |
 | [SuperBand electronic-band / superconductivity dataset](docs/catalog/property_benchmarks.md#superband) | 2,474 | materials | open | Creative Commons Attribution 4.0 (database); MIT (software) |
+| [Federated optical materials discovery — Materials Cloud](docs/catalog/property_benchmarks.md#mcloud-optical-discovery) | 2,413 | CIF files | open | CC BY 4.0 |
+| [Active-learning nonlinear optical crystals — Materials Cloud](docs/catalog/property_benchmarks.md#mcloud-nonlinear-optics) | 2,233 | CIF files | open | CC BY 4.0 |
 | [MAST-ML perovskite stability educational slice](docs/catalog/property_benchmarks.md#mastml-perovskite-education) | 1,929 | perovskite composition/feature rows | open | MIT |
 | [Materials Project / Petretto DFPT phonons (2018)](docs/catalog/property_benchmarks.md#mp-dfpt-phonons-2018) | 1,521 | materials | open | Not verified |
 | [Quantum-Chemical Bonding Database for Solid-State Materials (2023)](docs/catalog/property_benchmarks.md#lobster-bonding-2023) | 1,520 | compounds | open | CC BY 4.0 |
@@ -532,6 +545,7 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [MAST-ML dilute-solute diffusion educational slice](docs/catalog/property_benchmarks.md#mastml-dilute-diffusion-education) | 408 | host–solute feature/property rows | open | MIT |
 | [UW CMG dilute-solute diffusion database](docs/catalog/property_benchmarks.md#uw-cmg-dilute-solute-diffusion) | ≥400 | host-solute diffusion systems | open | CC BY 4.0 |
 | [Antiperovskite superconductivity DFPT dataset](docs/catalog/property_benchmarks.md#antiperovskite-superconductivity-dfpt) | 384 | material calculation cases | open | Creative Commons Attribution 4.0 International |
+| [A2BC2 ternary electride discovery — Materials Cloud](docs/catalog/property_benchmarks.md#mcloud-a2bc2-electrides) | 290 | CIF files | open | CC BY 4.0 |
 | [Smidt first-principles ferroelectric candidate database](docs/catalog/property_benchmarks.md#smidt-ferroelectric-2020) | 255 | completed polar–nonpolar structure pairs | open | CC BY 4.0 |
 | [Nanoporous-material heat-capacity DFT and prediction dataset](docs/catalog/property_benchmarks.md#porous-heat-capacity-2022) | 232 | DFT-labelled parent structures | open | CC BY 4.0 (Materials Cloud dataset metadata) |
 | [MINT-ATLAS atomistic magnetic interactions](docs/catalog/property_benchmarks.md#mint-atlas) | 209 | OPTIMADE structure records | open | Not verified: client MIT license covers software; no dataset-specific license established |
@@ -559,10 +573,12 @@ Sizes descend **within each category**. Approximate figures use `~`, source lowe
 | [OpenLAM Crystal Philately challenge collection](docs/catalog/generation_benchmarks.md#openlam-crystal-philately) | ≥19,800,000 | valid structures | registration | Not verified |
 | [Alex-MP reference dataset (MatterGen public release)](docs/catalog/generation_benchmarks.md#alex-mp-mattergen-reference) | 845,997 | structures | open | Not verified |
 | [Alex-MP-20 (MatterGen)](docs/catalog/generation_benchmarks.md#alex-mp20-mattergen) | 607,684 | structures | open | Creative Commons Attribution 4.0 International (upstream MP-20 and Alexandria data-release READMEs) |
+| [CSLLM non-synthesizable screening set](docs/catalog/generation_benchmarks.md#csllm-negatives) | 106,470 | CIF files | open | CC BY 4.0 |
 | [MP-20 (CDVAE benchmark)](docs/catalog/generation_benchmarks.md#mp20-cdvae) | 45,231 | structures | open | Not verified |
 | [Perov-5 / Matbench perovskites](docs/catalog/generation_benchmarks.md#perov5-cdvae-matbench) | 18,928 | structures | open | Not verified |
 | [FerroGen MatterGen generated crystal cohort](docs/catalog/generation_benchmarks.md#ferrogen-mattergen-12800) | 12,800 | generated CIF files | open | CC BY 4.0 (Zenodo metadata) |
 | [Carbon-24 (CDVAE benchmark)](docs/catalog/generation_benchmarks.md#carbon24-cdvae) | 10,153 | structures | open | Not verified |
+| [Wren prospective coordinate-free discovery dataset](docs/catalog/generation_benchmarks.md#wren) | 4,721 | converged DFT structures | open | MIT (deposit declaration) |
 
 <a id="experimental-properties"></a>
 ### Experimental properties and literature extraction

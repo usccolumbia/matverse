@@ -1,6 +1,6 @@
 # JARVIS database coverage audit
 
-Checked 2026-11-01. **All 13 homepage database rows, all 65 linked Figshare table entries and all 66 current downloader names are included.** The homepage numbers its rows 1–7 and 9–14; there is no row 8.
+Checked 2026-11-02. **All 13 homepage database rows, all 65 linked Figshare table entries and all 66 current downloader names are included.** The homepage numbers its rows 1–7 and 9–14; there is no row 8.
 
 Before this audit, MatVerse covered selected JARVIS releases and the notebook collection, but not the complete database directory. The current inventory preserves every requested row and the linked download inventory. Seven additional ranked dataset releases fill major gaps; search tools, APIs, literature portals and alternate front ends remain resources.
 
@@ -55,7 +55,7 @@ The numbers below preserve documentation wording. They mix materials, configurat
 | [dft_3d](https://ndownloader.figshare.com/files/38521619) | 75993 | [JARVIS-DFT 3D](catalog/bulk_computed.md#jarvis-dft-3d) |
 | [edos_pdos](https://ndownloader.figshare.com/files/29216859) | 48469 | Inventory only; mirror / adjacent / release lead |
 | [halide_peroskites](https://figshare.com/ndownloader/files/44619562) | 229 | Inventory only; mirror / adjacent / release lead |
-| [hmof](https://figshare.com/ndownloader/files/30972655) | 137651 | [Wilmer hypothetical MOF database (hMOF)](catalog/porous_frameworks.md#hmof-wilmer) |
+| [hmof](https://figshare.com/ndownloader/files/30972655) | 137651 | [hMOF — JARVIS-Atoms Figshare release](catalog/porous_frameworks.md#jarvis-hmof) |
 | [hopv](https://ndownloader.figshare.com/files/28814184) | 4855 | Inventory only; mirror / adjacent / release lead |
 | [interfacedb](https://figshare.com/ndownloader/files/46355692) | 593 | [JARVIS InterfacDB / InterMat interface release](catalog/surfaces_catalysis.md#jarvis-interfacedb) |
 | [jff](https://ndownloader.figshare.com/files/28937793) | 2538 | [JARVIS-FF classical force-field calculations](catalog/property_benchmarks.md#jarvis-ff) |
@@ -81,7 +81,7 @@ The numbers below preserve documentation wording. They mix materials, configurat
 | [qm9_std_jctc](https://ndownloader.figshare.com/files/28715319) | 130829 | Inventory only; mirror / adjacent / release lead |
 | [qmof](https://figshare.com/ndownloader/files/30972640) | 20425 | [Quantum MOF Database (QMOF)](catalog/porous_frameworks.md#qmof) |
 | [raw_files](https://ndownloader.figshare.com/files/25295732) | 144895 | Inventory only; mirror / adjacent / release lead |
-| [snumat](https://ndownloader.figshare.com/files/38521736) | 10481 | [SNUMAT hybrid-functional band-gap dataset](catalog/property_benchmarks.md#snumat-hybrid-gap) |
+| [snumat](https://ndownloader.figshare.com/files/38521736) | 10481 | [SNUMAT hybrid band gaps — JARVIS Figshare release](catalog/property_benchmarks.md#jarvis-snumat) |
 | [ssub](https://figshare.com/ndownloader/files/40084921) | 1726 | Inventory only; mirror / adjacent / release lead |
 | [stm](https://github.com/usnistgov/jarvis/blob/3b0c9d0f0c15759135de857dbc93e010db01eb29/jarvis/db/figshare.py) | 1132 | [JARVIS-STM computational scanning-tunneling microscopy](catalog/diffraction_spectroscopy.md#jarvis-stm) |
 | [supercon_2d](https://figshare.com/ndownloader/files/38950433) | 161 | [JARVIS superconductivity 2D DFT cohort](catalog/property_benchmarks.md#jarvis-supercon-2d) |

@@ -22,7 +22,7 @@ from matbench_coverage import render_matbench_coverage
 from materiaviva_properties import render_materiaviva
 
 ROOT = Path(__file__).resolve().parents[1]
-DATE = '2026-11-01'
+DATE = '2026-11-02'
 CATEGORIES = {
     'aggregated_crystals': 'Aggregated and deduplicated crystal collections',
     'bulk_computed': 'Computed bulk inorganic crystals',

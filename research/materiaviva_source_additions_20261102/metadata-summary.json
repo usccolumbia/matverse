@@ -1,0 +1,487 @@
+[
+  {
+    "id": "figshare-29086931",
+    "url": "https://api.figshare.com/v2/articles/29086931",
+    "status": 200,
+    "sha256": "fd18a16edb98a1c092ff8d867ac17e665d51a30e7ff57ed421949f4d7b72af5e",
+    "title": "Non-synthesizable structures",
+    "description": "<p dir=\"ltr\">The initial non-synthesizable structures data used for fine-tuning the large language model</p>",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 1,
+    "publication_date": "2025-05-16T13:13:44Z",
+    "files": [
+      {
+        "name": "unsym_structs_screen.zip",
+        "size": 66013103,
+        "url": "https://ndownloader.figshare.com/files/54600665"
+      }
+    ]
+  },
+  {
+    "id": "figshare-15127758",
+    "url": "https://api.figshare.com/v2/articles/15127758",
+    "status": 200,
+    "sha256": "c7327fac2e50b86eef97a75d2524ea67077a5bb62d0c2f9b1ebb93a6858e0f92",
+    "title": "hMOF in JARVIS-Atoms format",
+    "description": "https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b08729",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 2,
+    "publication_date": "2021-10-04T14:08:22Z",
+    "files": [
+      {
+        "name": "hmof_db_7_27_2021.json.zip",
+        "size": 382749012,
+        "url": "https://ndownloader.figshare.com/files/29070516"
+      },
+      {
+        "name": "hmof_db_9_18_2021.json.zip",
+        "size": 387532201,
+        "url": "https://ndownloader.figshare.com/files/30972655"
+      }
+    ]
+  },
+  {
+    "id": "figshare-21713885",
+    "url": "https://api.figshare.com/v2/articles/21713885",
+    "status": 200,
+    "sha256": "742ede9040195ac256f4d38162a30f48540cf2d6d2cf5bb198e1b686a2511ce8",
+    "title": "SNUMAT Hybrid bandgap",
+    "description": "<p>Adapted from: https://figshare.com/ndownloader/files/2449527</p>\n<p>\u00a0</p>\n<pre><code>@article{kim2020band,<br>\n \u00a0title={A band-gap database for semiconducting inorganic materials calculated with hybrid functional},<br>\n \u00a0author={Kim, Sangtae and Lee, Miso and Hong, Changho and Yoon, Youngchae and An, Hyungmin and Lee, Dongheon and Jeong, Wonseok and Yoo, Dongsun and Kang, Youngho and Youn, Yong and others},<br>\n \u00a0journal={Scientific Data},<br>\n \u00a0volume={7},<br>\n \u00a0number={1},<br>\n \u00a0pages={1--6},<br>\n \u00a0year={2020},<br>\n \u00a0publisher={Nature Publishing Group}<br>\n}</code></pre>",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 1,
+    "publication_date": "2022-12-12T19:18:08Z",
+    "files": [
+      {
+        "name": "snumat.json.zip",
+        "size": 7909016,
+        "url": "https://ndownloader.figshare.com/files/38521736"
+      }
+    ]
+  },
+  {
+    "id": "zenodo-13254307",
+    "url": "https://zenodo.org/api/records/13254307",
+    "status": 200,
+    "sha256": "620fbbd52e06c48373dcd3e43fd00ba0ace226bddb6f4331bff904015c2dd46d",
+    "title": "FAIR-MOFs:A Comprehensive Database for Accelerating the Discovery and Synthesis of Metal-Organic Frameworks",
+    "description": "<h1>Dataset Description</h1>\n<p>The following datasets constitute the FAIR-MOFs repository, which is &nbsp;a comprehensive and highly curated collection of metal-organic frameworks (MOFs), associated ligands, metal clusters, porosities, formation energies, synthetic conditions, and other derived features. These files can be directly downloaded and used for machine learning, data mining, cheminformatics, and synthesis prediction tasks.</p>\n<h2><strong>Structural Data</strong></h2>\n<ol>\n<li>\n<p><a title=\"Contains CIF files for 45,699 curated experimental MOF crystal structures.\" href=\"https://zenodo.org/api/records/13254307/draft/files/FAIR-MOFs_exp.zip/content\"><strong>FAIR-MOFs_exp.zip</strong></a><br>Contains CIF files for <strong>45,699 </strong>curated experimental MOF crystal structures.</p>\n</li>\n<li>\n<p><a title=\"Contains CIF files for 33,361 geometry-optimised MOF structures.\" href=\"https://zenodo.org/api/records/13254307/draft/files/FAIR-MOFs_opt.zip/content\"><strong>FAIR-MOFs_opt.zip</strong></a><br>Contains CIF files for <strong>33,361 </strong>geometry-optimised MOF structures.</p>\n</li>\n<li>\n<p><a title=\"organic ligands and metal clusters obtained from deconstruction of the curated MOFs\" href=\"https://zenodo.org/api/records/13254307/draft/files/FAIR-MOFS_ligands_and_metal_cluster.gz/content\"><strong>FAIR-MOFS_ligands_and_metal_cluster.gz</strong></a><br>Contains all <strong>organic ligands</strong> and <strong>metal clusters</strong> obtained from systematic deconstruction of the curated MOFs.</p>\n</li>\n</ol>\n<h3><strong>Porosity, OMS, and General Information</strong></h3>\n<ol>\n<li>\n<p><a title=\"oms_and_general_info_of_optimised_mof.json\" href=\"https://zenodo.org/api/records/13254307/draft/files/oms_and_general_info_of_optimised_mof.json/content\"><strong>oms_and_general_info_of_optimised_mof.json</strong></a><br>Contains <strong>open-metal-site (OMS)</strong> information and general descriptors for geometry-optimised MOFs.</p>\n</li>\n<li>\n<p><a title=\"oms_and_general_info_of_unoptimised_mof\" href=\"https://zenodo.org/api/records/13254307/draft/files/oms_and_general_info_of_unoptimised_mof.csv/content\"><strong>oms_and_general_info_of_unoptimised_mof.json</strong></a><br>Contains <strong>OMS and general information</strong> for unoptimised MOFs.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/porosity_data_of_optimised_mof.json/content\"><strong>porosity_data_of_optimised_mof.json</strong></a><br>Porosity data computed for all geometry-optimised MOFs.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/porosity_of_unoptimised_mof.json/content\"><strong>porosity_of_unoptimised_mof.json</strong></a><br>Porosity information for all unoptimised structures.</p>\n</li>\n</ol>\n<h3><strong>Ligand and SBU Data</strong></h3>\n<ol>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/ligands_data_of_optimised_mof.json/content\"><strong>ligands_data_of_optimised_mof.json</strong></a><br>Structural, chemical, and topological data for organic ligands in optimised MOFs.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/ligands_of_unoptimised_mof.json/content\"><strong>ligands_of_unoptimised_mof.json</strong></a><br>Ligand information extracted from the unoptimised curated structures.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/metal_sbus_and_linkers_of_unoptimised_mof.json/content\"><strong>metal_sbus_and_linkers_of_unoptimised_mof.json</strong></a><br>Metal SBUs (secondary building units) and linker fragments identified in unoptimised MOFs.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/sbus_and_linkers_of_optimised_mof.json/content\"><strong>sbus_and_linkers_of_optimised_mof.json</strong></a><br>Metal SBUs and linker data obtained from geometry-optimised MOFs.</p>\n</li>\n</ol>\n<h2><strong>Synthetic Conditions and Chemical Metadata</strong></h2>\n<ol>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/complete_experimental_synthetic_conditions.json/content\"><strong>complete_experimental_synthetic_conditions.json</strong></a><br>Includes complete detailed <strong>experimental synthesis conditions</strong> extracted for tens of thousands of MOFs.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/experimental_synthetic_conditions_used_for_gnn.json/content\"><strong>experimental_synthetic_conditions_used_for_gnn.json</strong></a><br>Curated synthesis conditions used as supervised learning targets for <strong>graph neural network (GNN)</strong> models.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/abbreviation_of_organic_chemicals.json/content\"><strong>abbreviation_of_organic_chemicals.json</strong></a><br>Mapping of common abbreviated chemical names to the full chemical names.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/solvent_abbreviation.json/content\"><strong>solvent_abbreviation.json</strong> </a>and <a href=\"https://zenodo.org/api/records/13254307/draft/files/solvent_to_inchi_and_smile.json/content\"><strong>solvent_to_inchi_and_smile.json</strong></a><br>Provide solvent abbreviation expansion and solvent structural identifiers (InChI &amp; SMILES).</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/mof_organic_reagents.json/content\"><strong>mof_organic_reagents.json</strong></a><br>List of all organic reagents involved in MOF synthesis.</p>\n</li>\n<li>\n<p><a href=\"https://zenodo.org/api/records/13254307/draft/files/updated_chemical_names_to_inchi_and_smiles.json/content\"><strong>updated_chemical_names_to_inchi_and_smiles.json</strong></a><br>Standardised structural identifiers for chemicals found in the synthesis database.</p>\n</li>\n</ol>\n<h2><strong>Energy, Thermodynamic, and Bond Dissociation Energy</strong></h2>\n<ol>\n<li>\n<p><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/compiled_bond_dissociation_energies_per_formular_unit_kj_mol.json/content\">compiled_bond_dissociation_energies_per_formular_unit_kj_mol.json:</a> </strong>Bond dissociation energies mapped to ligand or SBU formula units.</p>\n</li>\n<li>\n<p><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/mof_organic_reagents.json/content\">mof_formation_energy_sbu.json</a>: </strong>Formation energies computed per metal&ndash;SBU unit.</p>\n</li>\n<li>\n<p><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/mof_formation_energy_ligand.json/content\">mof_formation_energy_ligand.json</a>: </strong>Formation energies computed per organic ligand.</p>\n</li>\n</ol>\n<h2><strong>Additional Metadata and Derived Features</strong></h2>\n<ol>\n<li><a href=\"https://zenodo.org/api/records/13254307/draft/files/doi_refcode.json/content\"><strong>doi_refcode.json</strong></a><br>Mapping between DOIs and crystallographic refcodes.</li>\n<li><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/categories_for_one_hot_encoding.json/content\">categories_for_one_hot_encoding.json</a>: </strong>Canonical categorical sets used for featurisation and supervised ML tasks.</li>\n<li><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/final_combined_data_for_analysis.json/content\">final_combined_data_for_analysis.json</a>: </strong>Cleaned and merged dataset containing structural, chemical, synthesis, porosity, and energy features.</li>\n<li><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/DIO_2021_and_other_properties.csv/content\">DIO_2021_and_other_properties.csv</a>: </strong>Contains a wide range of MOF descriptors used in large-scale property prediction benchmarks.</li>\n<li><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/Topology.csv/content\">Topology.csv</a>: </strong>Structural topology assignments for MOFs.</li>\n<li><strong><a href=\"https://zenodo.org/api/records/13254307/draft/files/Training_data_for_sentiment_analysis.xlsx/content\">Training_data_for_sentiment_analysis.xlsx</a>: </strong>Dataset used to classify synthesis-writing sentiment and text patterns.</li>\n</ol>",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": null,
+    "publication_date": "2025-10-31",
+    "files": [
+      {
+        "name": "abbreviation_of_organic_chemicals.json",
+        "size": 22137,
+        "url": "https://zenodo.org/api/records/13254307/files/abbreviation_of_organic_chemicals.json/content"
+      },
+      {
+        "name": "complete_experimental_synthetic_conditions.json",
+        "size": 7221731,
+        "url": "https://zenodo.org/api/records/13254307/files/complete_experimental_synthetic_conditions.json/content"
+      },
+      {
+        "name": "FAIR-MOFS_ligands_and_metal_cluster.gz",
+        "size": 651581440,
+        "url": "https://zenodo.org/api/records/13254307/files/FAIR-MOFS_ligands_and_metal_cluster.gz/content"
+      },
+      {
+        "name": "porosity_data_of_optimised_mof.json",
+        "size": 5675476,
+        "url": "https://zenodo.org/api/records/13254307/files/porosity_data_of_optimised_mof.json/content"
+      },
+      {
+        "name": "FAIR-MOFs_exp.zip",
+        "size": 148581070,
+        "url": "https://zenodo.org/api/records/13254307/files/FAIR-MOFs_exp.zip/content"
+      },
+      {
+        "name": "ligands_data_of_optimised_mof.json",
+        "size": 16415766,
+        "url": "https://zenodo.org/api/records/13254307/files/ligands_data_of_optimised_mof.json/content"
+      },
+      {
+        "name": "oms_and_general_info_of_optimised_mof.json",
+        "size": 26207886,
+        "url": "https://zenodo.org/api/records/13254307/files/oms_and_general_info_of_optimised_mof.json/content"
+      },
+      {
+        "name": "metal_sbus_and_linkers_of_unoptimised_mof.json",
+        "size": 35675553,
+        "url": "https://zenodo.org/api/records/13254307/files/metal_sbus_and_linkers_of_unoptimised_mof.json/content"
+      },
+      {
+        "name": "FAIR-MOFs_opt.zip",
+        "size": 101105641,
+        "url": "https://zenodo.org/api/records/13254307/files/FAIR-MOFs_opt.zip/content"
+      },
+      {
+        "name": "ligands_of_unoptimised_mof.json",
+        "size": 19305322,
+        "url": "https://zenodo.org/api/records/13254307/files/ligands_of_unoptimised_mof.json/content"
+      },
+      {
+        "name": "oms_and_general_info_of_optimised_mof.csv",
+        "size": 7723392,
+        "url": "https://zenodo.org/api/records/13254307/files/oms_and_general_info_of_optimised_mof.csv/content"
+      },
+      {
+        "name": "oms_and_general_info_of_unoptimised_mof.json",
+        "size": 34668670,
+        "url": "https://zenodo.org/api/records/13254307/files/oms_and_general_info_of_unoptimised_mof.json/content"
+      },
+      {
+        "name": "mof_formation_energy_sbu.json",
+        "size": 8148291,
+        "url": "https://zenodo.org/api/records/13254307/files/mof_formation_energy_sbu.json/content"
+      },
+      {
+        "name": "updated_chemical_names_to_inchi_and_smiles.json",
+        "size": 3218827,
+        "url": "https://zenodo.org/api/records/13254307/files/updated_chemical_names_to_inchi_and_smiles.json/content"
+      },
+      {
+        "name": "mof_formation_energy_ligand.json",
+        "size": 8149001,
+        "url": "https://zenodo.org/api/records/13254307/files/mof_formation_energy_ligand.json/content"
+      },
+      {
+        "name": "solvent_to_inchi_and_smile.json",
+        "size": 51411,
+        "url": "https://zenodo.org/api/records/13254307/files/solvent_to_inchi_and_smile.json/content"
+      },
+      {
+        "name": "solvent_abbreviation.json",
+        "size": 4812,
+        "url": "https://zenodo.org/api/records/13254307/files/solvent_abbreviation.json/content"
+      },
+      {
+        "name": "DIO_2021_and_other_properties.csv",
+        "size": 46704664,
+        "url": "https://zenodo.org/api/records/13254307/files/DIO_2021_and_other_properties.csv/content"
+      },
+      {
+        "name": "Topology.csv",
+        "size": 1499127,
+        "url": "https://zenodo.org/api/records/13254307/files/Topology.csv/content"
+      },
+      {
+        "name": "final_combined_data_for_analysis.json",
+        "size": 3153221,
+        "url": "https://zenodo.org/api/records/13254307/files/final_combined_data_for_analysis.json/content"
+      },
+      {
+        "name": "Training_data_for_sentiment_analysis.xlsx",
+        "size": 5437960,
+        "url": "https://zenodo.org/api/records/13254307/files/Training_data_for_sentiment_analysis.xlsx/content"
+      },
+      {
+        "name": "doi_refcode.json",
+        "size": 3797963,
+        "url": "https://zenodo.org/api/records/13254307/files/doi_refcode.json/content"
+      },
+      {
+        "name": "porosity_of_unoptimised_mof.json",
+        "size": 9537015,
+        "url": "https://zenodo.org/api/records/13254307/files/porosity_of_unoptimised_mof.json/content"
+      },
+      {
+        "name": "sbus_and_linkers_of_optimised_mof.json",
+        "size": 30739546,
+        "url": "https://zenodo.org/api/records/13254307/files/sbus_and_linkers_of_optimised_mof.json/content"
+      },
+      {
+        "name": "categories_for_one_hot_encoding.json",
+        "size": 92912,
+        "url": "https://zenodo.org/api/records/13254307/files/categories_for_one_hot_encoding.json/content"
+      },
+      {
+        "name": "oms_and_general_info_of_unoptimised_mof.csv",
+        "size": 10192444,
+        "url": "https://zenodo.org/api/records/13254307/files/oms_and_general_info_of_unoptimised_mof.csv/content"
+      },
+      {
+        "name": "mof_organic_reagents.json",
+        "size": 12695371,
+        "url": "https://zenodo.org/api/records/13254307/files/mof_organic_reagents.json/content"
+      },
+      {
+        "name": "experimental_synthetic_conditions_used_for_gnn.json",
+        "size": 4071165,
+        "url": "https://zenodo.org/api/records/13254307/files/experimental_synthetic_conditions_used_for_gnn.json/content"
+      },
+      {
+        "name": "compiled_bond_dissociation_energies_per_formular_unit_kj_mol.json",
+        "size": 807943,
+        "url": "https://zenodo.org/api/records/13254307/files/compiled_bond_dissociation_energies_per_formular_unit_kj_mol.json/content"
+      }
+    ]
+  },
+  {
+    "id": "zenodo-17399362",
+    "url": "https://zenodo.org/api/records/17399362",
+    "status": 200,
+    "sha256": "606dcd0a49aaae0ce2a34a94885739ccd817a769ee5b1fc6a5e2ee14810009e9",
+    "title": "Novomag magnetic materials database",
+    "description": "<h4><strong>Database statistics:</strong></h4>\n<h5>A total of 3,826 entries, including 300+ Fe-based&nbsp;<em>rare-earth-free</em> magnets discovered through our adaptive genetic algorithm&nbsp;(AGA) searches, are registered in our database.&nbsp;</h5>\n<div>\n<div><strong>Footnotes:</strong>\n<ol>\n<li><strong>Formation energy:</strong><br>We perform&nbsp;<a href=\"https://magmat.herokuapp.com/about#DFT\">DFT calculations</a>&nbsp;to calculate the total enegies of all the structures. The formation energy is computed with respect to a linear combination of the total energies of reference elemental phases. When the formation energies are plotted as a function of chemical composition, a set of stable compounds forms a&nbsp;<em>convex hull</em>, which represents a boundary (theoretical lower limit) in a compositional phase diagram. Metastable compounds lie above the hull, and the energy relative to the hull (<em>distance</em>&nbsp;to the hull) is a useful quantity to examine the metastability of a new compound. The lower the formation energy above the convex hull, the more likely it is for the material to exist.</li>\n<li><strong>Magnetic anisotropy constants:</strong><br>Magnetic anisotropy constant, K<sup>a-c</sup>, is defined as K<sup>a-c</sup>&nbsp;= E<sub>a</sub>-E<sub>c</sub>, where E<sub>a</sub>&nbsp;and E<sub>c</sub>&nbsp;are the total energies per volume for the magnetization oriented along the crystallographic a and c axes, respectively. Similarly, K<sup>b-c</sup>&nbsp;and K<sup>b-a</sup>&nbsp;are defined as K<sup>b-c</sup>&nbsp;= E<sub>b</sub>-E<sub>c</sub>&nbsp;and K<sup>b-a</sup>&nbsp;= E<sub>b</sub>-E<sub>a</sub>, respectively. For cubic crystal systems, magnetic anisotropy constant is calculated as K<sup>d-a</sup>&nbsp;= E<sub>d</sub>-E<sub>a</sub>, where E<sub>d</sub>&nbsp;is the total energy per volume for the magnetization oriented along the body-diagonal direction of the unit cell.</li>\n</ol>\n</div>\n\n\n<div><strong>Collaborative PIs:</strong>\n<ul>\n<li>James R. Chelikowsky (<a href=\"https://www.utexas.edu/\">University of Texas at Austin</a>)</li>\n<li>Kai-Ming Ho and Cai-Zhuang Wang (<a href=\"https://www.iastate.edu/\">Iowa State University</a>)</li>\n<li>David Sellmyer and XiaoShan Xu (<a href=\"https://www.unl.edu/\">University of Nebraska&ndash;Lincoln</a>)</li>\n</ul>\n</div>\n</div>\n\n\n<div>You can download and use the data of this database for your scientific work, provided that you express proper acknowledgements:<br>\n<ul>\n<li>M. Sakurai, R. Wang, T. Liao, C. Zhang, H. Sun, Y. Sun, H. Wang, X. Zhao, S. Wang, B. Balasubramanian, X. Xu, D. J. Sellmyer, V. Antropov, J. Zhang, C.-Z. Wang, K.-M. Ho, J. R. Chelikowsky,<br>\"Discovering rare-earth-free magnetic materials through the development of a database,\" [selected as&nbsp;<a href=\"https://journals.aps.org/prmaterials/issues/4/11\">Editors' Suggestion</a>]<br><a href=\"https://doi.org/10.1103/PhysRevMaterials.4.114408\">Phys. Rev. Materials&nbsp;<strong>4</strong>, 114408 (2020)</a>.<br>DOI: 10.1103/PhysRevMaterials.4.114408</li>\n<li>B. Balasubramanian, M. Sakurai, C.-Z. Wang, X. Xu, K.-M. Ho, J. R. Chelikowsky, and D. J. Sellmyer,<br>\"Synergistic computational and experimental discovery of novel magnetic materials,\" [Review article]<br><a href=\"https://doi.org/10.1039/D0ME00050G\">Mol. Syst. Des. Eng.,&nbsp;<strong>5</strong>, 1098-1117 (2020)</a>.<br>DOI: 10.1039/D0ME00050G</li>\n<li>Portal page:&nbsp;<a href=\"https://www.novomag.physics.iastate.edu/structure-database\">https://www.novomag.physics.iastate.edu/structure-database</a></li>\n</ul>\n</div>",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": null,
+    "publication_date": "2025-10-21",
+    "files": [
+      {
+        "name": "magdb.json",
+        "size": 25704157,
+        "url": "https://zenodo.org/api/records/17399362/files/magdb.json/content"
+      }
+    ]
+  },
+  {
+    "id": "zenodo-6345276",
+    "url": "https://zenodo.org/api/records/6345276",
+    "status": 200,
+    "sha256": "317760ec9f9e2ae39bd75f4061536c599589705b4c7c30aa4b7747387445c401",
+    "title": "Rapid discovery of stable materials by coordinate-free coarse graining",
+    "description": "<p>Prospective density function theory (DFT) calculations carried out on novel material structures predicted to be stable by the Wren model. In total 5,675 materials were selected for validation. Of these converged results were obtained for 4,721 structures. Calculations were conducting using the VASP DFT code with the settings and pseudopotentials selected such that the data is compatible with the Materials Project.</p>\n\n<p>A README file is included that describes how to load the data and the contents of the DataFrame.</p>",
+    "license": {
+      "id": "mit-license"
+    },
+    "version": null,
+    "publication_date": "2022-03-10",
+    "files": [
+      {
+        "name": "prospective.json.gz",
+        "size": 10870685,
+        "url": "https://zenodo.org/api/records/6345276/files/prospective.json.gz/content"
+      },
+      {
+        "name": "README.md",
+        "size": 1748,
+        "url": "https://zenodo.org/api/records/6345276/files/README.md/content"
+      }
+    ]
+  },
+  {
+    "id": "zenodo-8035241",
+    "url": "https://zenodo.org/api/records/8035241",
+    "status": 200,
+    "sha256": "7584b160f1392e2ae7222030682654460ec8e93e28afeae0b3f58c248153ff45",
+    "title": "Michael Deem's PCOD database of Predicted Zeolitic Structures",
+    "description": "<p>These are the SLC &#39;good&#39; sections of version 2.1 of <a href=\"https://mwdeem.org\">Michael Deem</a>&#39;s database of predicted zeolite structures.&nbsp; Version 1 was published in&nbsp;M. W. Deem, R. Pophale, P. A. Cheeseman, and D. J. Earl, ``Computational Discovery of New Zeolite-Like Materials,&#39;&#39; with cover image, <em>J. Phys. Chem. C</em> <strong>113</strong> (2009) 21353-21360. Version 2 was published in R. Pophale, P. A. Cheeseman, and M. W. Deem,&nbsp; &quot;A Database of New Zeolite-Like Materials,&quot; <em>Phys. Chem. Chem. Phys.</em> <strong>13</strong> (2011) 12407-12412:</p>\n\n<p>&quot;We here describe a database of computationally predicted zeolite-like materials. These crystals were discovered by a Monte Carlo search for zeolite-like materials. Positions of Si atoms as well as unit cell, space group, density, and number of crystallographically unique atoms were explored in the construction of this database. The database contains over 2.6 M unique structures. Roughly 15% of these are within +30 kJ mol<sup>&minus;1</sup>Si of &alpha;-quartz, the band in which most of the known zeolites lie. These structures have topological, geometrical, and diffraction characteristics that are similar to those of known zeolites. The database is the result of refinement by two interatomic potentials that both satisfy the Pauli exclusion principle.&quot;&nbsp; <a href=\"https://doi.org/10.1039/C0CP02255A\">https://doi.org/10.1039/C0CP02255A</a></p>\n\n<p>These files are also available at <a href=\"https://mwdeem.org/PCOD\">https://mwdeem.org/PCOD</a></p>\n\n<p>&nbsp;</p>",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": "2.1",
+    "publication_date": "2023-06-14",
+    "files": [
+      {
+        "name": "database_2.1_slc_good_3_of_3.tgz",
+        "size": 228045377,
+        "url": "https://zenodo.org/api/records/8035241/files/database_2.1_slc_good_3_of_3.tgz/content"
+      },
+      {
+        "name": "database_2.1_slc_good_1_of_3.tgz",
+        "size": 194490365,
+        "url": "https://zenodo.org/api/records/8035241/files/database_2.1_slc_good_1_of_3.tgz/content"
+      },
+      {
+        "name": "database_2.1_slc_good_2_of_3.tgz",
+        "size": 183154071,
+        "url": "https://zenodo.org/api/records/8035241/files/database_2.1_slc_good_2_of_3.tgz/content"
+      }
+    ]
+  },
+  {
+    "id": "zenodo-3677685",
+    "url": "https://zenodo.org/api/records/3677685",
+    "status": 200,
+    "sha256": "94be95b33d17318ab6a1cc5d4c1cd5b878a07f103aa59e7dcac3929c07c69e48",
+    "title": "Computation-Ready Experimental Metal-Organic Framework (CoRE MOF) 2019 Dataset",
+    "description": "<p>High-throughput computational screening of metal-organic frameworks rely on the availability of<strong><em>&nbsp;</em></strong>atomic coordinate files which can be used as input to simulation software packages. CoRE MOF Datasets are derived from Cambridge Structural Database (CSD) and also from the World Wide Web.</p>\n\n<p>This research is supported by the U.S. Department of Energy, Office of Basic Energy Sciences, Division of Chemical Sciences, Geosciences and&nbsp;Biosciences under Award DE-FG02-17ER16362 (Predictive Hierarchical&nbsp;Modeling of Chemical Separations and Transformations in Functional&nbsp;Nanoporous Materials: Synergy of Electronic Structure Theory, Molecular&nbsp;Simulations, Machine Learning, and Experiment).</p>\n\n<p><strong>- Please report any errors that you have found from the dataset by filling out <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSehOpqzvbRbIzF3FuYK1NyiGqy-L-_kC7nIf3kCjNW3LV10uw/viewform\">this</a> form!<br>\n- For bulk submission, send an email to drygchung(at)gmail.com</strong></p>\n\n<p><strong>Nomenclatures:</strong></p>\n\n<p>LCD (Largest Cavity Diameter), PLD (pore limiting diameter), LFPD (Largest Sphere along the Free Path), ASA (Accessible Surface Area), NASA (Non-accessible surface area), AV_VF (Void Fraction, 0 - 1), NAV (Non Accessible Volume)</p>\n\n<p><strong>February, 21 2020</strong></p>\n\n<p>- Unmodified filenames are available in ASR-full_unmodified.csv and FSR-full_unmodified.csv</p>\n\n<p><strong>November, 4 2019</strong></p>\n\n<p>- Added a spreadsheet for the full internal version of ASR datasets (<em>N</em> = 14,142).</p>\n\n<p>- Moved additional&nbsp;disordered structures to disorder folder (thanks to Matthew Witman and Martin Hutereau)</p>\n\n<p><strong>August, 17 2019</strong></p>\n\n<p>-&nbsp;FIJDOS_freeONLY has been corrected.</p>",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": "1.1.3",
+    "publication_date": "2020-02-21",
+    "files": [
+      {
+        "name": "ASR-full_unmodified.csv",
+        "size": 263277,
+        "url": "https://zenodo.org/api/records/3677685/files/ASR-full_unmodified.csv/content"
+      },
+      {
+        "name": "FSR-full_unmodified.csv",
+        "size": 197386,
+        "url": "https://zenodo.org/api/records/3677685/files/FSR-full_unmodified.csv/content"
+      },
+      {
+        "name": "2019-11-01-ASR-public_12020.tar.gz",
+        "size": 44767594,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-ASR-public_12020.tar.gz/content"
+      },
+      {
+        "name": "2019-11-01-ASR-internal_14142.csv",
+        "size": 1912130,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-ASR-internal_14142.csv/content"
+      },
+      {
+        "name": "2019-11-01-FSR-public_7061.csv",
+        "size": 956911,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-FSR-public_7061.csv/content"
+      },
+      {
+        "name": "2019-11-01-FSR-public_7061.tar.gz",
+        "size": 27229069,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-FSR-public_7061.tar.gz/content"
+      },
+      {
+        "name": "2019-11-01-ASR-public_12020.csv",
+        "size": 1630916,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-ASR-public_12020.csv/content"
+      },
+      {
+        "name": "2019-11-01-FSR-internal-overlap-freeONLY_9146.csv",
+        "size": 1228866,
+        "url": "https://zenodo.org/api/records/3677685/files/2019-11-01-FSR-internal-overlap-freeONLY_9146.csv/content"
+      }
+    ]
+  },
+  {
+    "id": "mcloud-zt-z4",
+    "url": "https://api.datacite.org/dois/10.24435/materialscloud:zt-z4",
+    "status": 200,
+    "sha256": "d9ccd2ace96a34efbd7cbd431c37fd187aa77bf3140a0d7384d21afddddec289",
+    "title": [
+      {
+        "lang": "en",
+        "title": "Machine learning-accelerated discovery of A\u2082BC\u2082 ternary electrides with diverse anionic electron densities"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en",
+        "description": "This study combines machine learning (ML) and high-throughput calculations to uncover new ternary electrides in the A\u2082BC\u2082 family of compounds with the P4/mbm space group. Starting from a library of 214 known A\u2082BC\u2082 phases, density-functional theory calculations were used to compute the maximum value of the electron localization function, indicating that 42 are potential electrides. A model was then trained on this dataset and used to predict the electride behaviour of 14,437 hypothetical compounds generated by structural prototyping. Then, the stability and electride features of the 1254 electride candidates predicted by the model were carefully checked by high-throughput calculations.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "license": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      }
+    ],
+    "version": null,
+    "publication_date": null,
+    "files": []
+  },
+  {
+    "id": "mcloud-1z-pd",
+    "url": "https://api.datacite.org/dois/10.24435/materialscloud:1z-pd",
+    "status": 200,
+    "sha256": "35d73590550680590a6664ff951cb91cd067ce2c9e034117fdc3a5d899a59858",
+    "title": [
+      {
+        "lang": "en",
+        "title": "Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en",
+        "description": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "license": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      }
+    ],
+    "version": null,
+    "publication_date": null,
+    "files": []
+  },
+  {
+    "id": "mcloud-ed-g2",
+    "url": "https://api.datacite.org/dois/10.24435/materialscloud:ed-g2",
+    "status": 200,
+    "sha256": "165297d25a588637eb42ada40dfe70d77264229c2e0e9fe1da19b3c6928763ed",
+    "title": [
+      {
+        "lang": "en",
+        "title": "Optical materials discovery and design with federated databases and machine learning"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en",
+        "description": "Combinatorial and guided screening of materials space with density-functional theory and related approaches has provided a wealth of hypothetical inorganic materials, which are increasingly tabulated in open databases. The OPTIMADE API is a standardised format for representing crystal structures, their measured and computed properties, and the methods for querying and filtering them from remote resources. Currently, the OPTIMADE federation spans over 20 data providers, rendering over 30 million structures accessible in this way, many of which are novel and have only recently been suggested by machine learning-based approaches. In this work, we outline our approach to non-exhaustively screen this dynamic trove of structures for the next-generation of optical materials. By applying MODNet, a neural network-based model for property prediction that has been shown to perform especially well for small materials datasets, within a combined active learning and high-throughput computation framework, we isolate particular structures and chemistries that should be most fruitful for further theoretical calculations and for experimental study as high-refractive-index materials. By making explicit use of automated calculations, federated dataset curation and machine learning, and by releasing these publicly, the workflows presented here can be periodically re-assessed as new databases implement OPTIMADE, and new hypothetical materials are suggested.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "license": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      }
+    ],
+    "version": null,
+    "publication_date": null,
+    "files": []
+  },
+  {
+    "id": "mcloud-m0-zg",
+    "url": "https://api.datacite.org/dois/10.24435/materialscloud:m0-zg",
+    "status": 200,
+    "sha256": "21b521e8c7286d23b5a7c81e20c54ac4707d8201d4cb3cc36155197ff66575e7",
+    "title": [
+      {
+        "lang": "en",
+        "title": "Machine learning on multiple topological materials datasets"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en",
+        "description": "A dataset of 35,608 materials with their topological properties is constructed by combining the density functional theory (DFT) results of Materiae and the Topological Materials Database. Thanks to this, machine-learning approaches are developed to categorize materials into five distinct topological types, with the XGBoost model achieving an impressive 85.2% classification accuracy. By conducting generalization tests on different sub-datasets, differences are identified between the original datasets in terms of topological types, chemical elements, unknown magnetic compounds, and feature space coverage. Their impact on model performance is analyzed.\nTurning to the simpler binary classification between trivial insulators and nontrivial topological materials, three different approaches are also tested. Key characteristics influencing material topology are identified, with the maximum packing efficiency and the fraction of p valence electrons being highlighted as critical features.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "license": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      }
+    ],
+    "version": null,
+    "publication_date": null,
+    "files": []
+  }
+]

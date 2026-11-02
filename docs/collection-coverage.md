@@ -1,6 +1,6 @@
 # Source collection coverage
 
-Checked 2026-11-01. The source-entry directory preserves every labeled public HTTP(S) link occurrence in the inspected inventories. Entries include datasets, papers, portals, software, handbooks and adjacent domains; they are not counts of independent crystal datasets.
+Checked 2026-11-02. The source-entry directory preserves every labeled public HTTP(S) link occurrence in the inspected inventories. Entries include datasets, papers, portals, software, handbooks and adjacent domains; they are not counts of independent crystal datasets.
 
 | Collection | Imported / inventoried entries | Distinct entry URLs | Missing from sources.md | Search |
 |---|---:|---:|---:|---|
@@ -82,7 +82,7 @@ The collection revisions, extraction boundaries and inventory hashes below make 
 
 - Inventory: [research/collection_jarvis_databases.json](../research/collection_jarvis_databases.json)
 - Revision: `3b0c9d0f0c15759135de857dbc93e010db01eb29`
-- Inventory SHA-256: `58dd81bdca414d7ff9764dfbe5d9a40791088280dfd7d0016d6c12860b82e152`
+- Inventory SHA-256: `ea7a7618c6497f4190df822ef1b1a770b091059197f3252d839a126ed94bc093`
 - Scope counts: {"adjacent": 10, "crystal_related": 65, "navigation": 7, "uncertain": 0}
 
 - All 13 rows of the homepage Databases table; source numbering skips 8 and ends at 14. WebApps, Tools, Tutorials and Outreach tables are outside this requested extraction boundary.

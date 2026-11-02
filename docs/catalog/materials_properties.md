@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="materiaviva-property-band-gap"></a>
 ## MateriaViva — Electronic band gap

@@ -1,0 +1,1827 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+    
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <meta name="description" content="Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of ∼2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion." />
+    <meta name="citation_title" content="Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening" />
+    <meta name="citation_author" content="Trinquet, Victor" />
+    <meta name="citation_author" content="Evans, Matthew L." />
+    <meta name="citation_author" content="Rignanese, Gian-Marco" />
+    <meta name="citation_doi" content="10.24435/materialscloud:wk-qm" />
+    <meta name="citation_keywords" content="non-linear optics" />
+    <meta name="citation_keywords" content="second-harmonic generation" />
+    <meta name="citation_keywords" content="density-functional theory" />
+    <meta name="citation_keywords" content="density-functional perturbation theory" />
+    <meta name="citation_keywords" content="high-throughput" />
+    <meta name="citation_keywords" content="first principles" />
+    <meta name="citation_abstract_html_url" content="https://archive.materialscloud.org/records/zn7cy-7cs67" />
+    <meta property="og:title" content="Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening" />
+    <meta property="og:description" content="Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of ∼2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion." />
+    <meta property="og:url" content="https://archive.materialscloud.org/records/zn7cy-7cs67" />
+    <meta property="og:site_name" content="Materials Cloud Archive" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening" />
+    <meta name="twitter:description" content="Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of ∼2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion." />
+    
+    <link rel="alternate" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/optimade.yaml">
+    <link rel="item" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/optimade.yaml">
+    
+    <link rel="alternate" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/structures.tar.gz">
+    <link rel="item" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/structures.tar.gz">
+    
+    <link rel="alternate" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/data.tar.gz">
+    <link rel="item" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/data.tar.gz">
+    
+    <link rel="alternate" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz">
+    <link rel="item" type="application/gzip" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz">
+    
+    <link rel="alternate" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/README.md">
+    <link rel="item" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/README.md">
+    
+    <link rel="alternate" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/files_description.md">
+    <link rel="item" type="application/octet-stream" href="https://archive.materialscloud.org/records/zn7cy-7cs67/files/files_description.md">
+
+
+<link rel="canonical" href="https://archive.materialscloud.org/records/zn7cy-7cs67">
+      <title>Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening</title>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon-48x48.png"/>
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-touch-icon-120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/apple-touch-icon-167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png"/>
+    
+      <link rel="stylesheet" href="/static/dist/css/3526.6bc3b4eb3799274ef94c.css" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body data-invenio-config='{"isMathJaxEnabled": ""}' itemscope itemtype="http://schema.org/WebPage" data-spy="scroll" data-target=".scrollspy-target">
+
+      
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+<div>
+<header class="theme header shadowless">
+  <div class="outer-navbar mc_outer_navbar">
+      
+      
+    
+      
+    
+    
+    <nav id="invenio-nav" class="ui top fixed inverted menu borderless stackable p-0 display_block">
+      <!-- Materials Cloud Menu -->
+      <div class="ui container invenio-header-container mc_header">
+        <!-- Logo -->
+        <div class="item logo p-0 m-0 mc_logo_header mobile tablet only">
+          <a class="logo-link" href="https://www.materialscloud.org/home">
+            <img class="ui image rdm-logo mc_logo_image_header"
+            src="/static/images/mcloud-logo.svg"
+            alt="Materials Cloud Archive"/>
+          </a>
+        </div>
+
+        <!-- Burger -->
+        <div id="rdm-burger-toggle" class="pr-20">
+          <button
+          id="rdm-burger-menu-icon"
+          class="ui button transparent"
+          aria-label="Menu"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="invenio-menu"
+          >
+          <span class="navicon"></span>
+          </button>
+        </div>
+
+        <!-- Menu -->
+        <div
+        role="menu"
+        id="invenio-menu"
+        aria-labelledby="rdm-burger-menu-icon"
+        class="ui fluid menu borderless mobile-hidden grid"
+        >
+          <button
+          id="rdm-close-burger-menu-icon"
+          class="ui button transparent"
+          aria-label="Close menu"
+          >
+          <span class="navicon"></span>
+          </button>
+          <!-- Materials Cloud Menu -->
+          <div class="row">
+<!-- Logo -->
+<div class="item logo p-0 m-0 mc_logo_header computer only">
+    
+  
+    <a class="logo-link" href="https://www.materialscloud.org/home">
+      <img class="ui image rdm-logo mc_logo_image_header"
+      src="/static/images/mcloud-logo.svg"
+      alt="Materials Cloud Archive"/>
+    </a>
+</div>
+<!-- Left menu -->
+
+<!-- computer size -->
+
+  <div class="item pr-4-1 h-62 computer only">
+    
+      
+        <a class="mc_item_header" role="menuitem" href="https://www.materialscloud.org/learn">LEARN</a>
+      
+    
+  </div>
+
+  <div class="item pr-4-1 h-62 computer only">
+    
+      
+        <a class="mc_item_header" role="menuitem" href="https://www.materialscloud.org/work">WORK</a>
+      
+    
+  </div>
+
+  <div class="item pr-4-1 h-62 computer only">
+    
+      
+        <a class="mc_item_header" role="menuitem" href="https://www.materialscloud.org/discover">DISCOVER</a>
+      
+    
+  </div>
+
+  <div class="item pr-4-1 h-62 computer only">
+    
+      
+        <a class="mc_item_header" role="menuitem" href="https://www.materialscloud.org/explore">EXPLORE</a>
+      
+    
+  </div>
+
+  <div class="item pr-4-1 h-62 computer only">
+    
+      <a class="mc_item_header mc_item_header_archive active" role="menuitem" href="/">ARCHIVE</a>
+    
+  </div>
+
+<!-- mobile tablet size -->
+
+  <div class="item mobile tablet only">
+    
+      
+        <a class="mc_item_header line_height-15" role="menuitem" href="https://www.materialscloud.org/learn">LEARN</a>
+      
+    
+  </div>
+
+  <div class="item mobile tablet only">
+    
+      
+        <a class="mc_item_header line_height-15" role="menuitem" href="https://www.materialscloud.org/work">WORK</a>
+      
+    
+  </div>
+
+  <div class="item mobile tablet only">
+    
+      
+        <a class="mc_item_header line_height-15" role="menuitem" href="https://www.materialscloud.org/discover">DISCOVER</a>
+      
+    
+  </div>
+
+  <div class="item mobile tablet only">
+    
+      
+        <a class="mc_item_header line_height-15" role="menuitem" href="https://www.materialscloud.org/explore">EXPLORE</a>
+      
+    
+  </div>
+
+  <div class="item mobile tablet only">
+    
+      <a class="mc_item_header line_height-15 active" role="menuitem" href="/">ARCHIVE</a>
+    
+  </div>
+
+
+<!-- Right menu More -->
+
+<div class="right menu item">
+  <div class="ui buttons">
+    <!-- computer size -->
+    <div class="ui dropdown icon top right pointing button floating mc_item_header pt-10 pr-20 mc_header_family computer only">
+      
+        <div class="mc_header_more">More<i class="dropdown icon"></i></div>
+      
+      <div class="menu mc_header_more_menu">
+        
+          
+            <a class="item" href="https://www.materialscloud.org/policies">Policies</a>
+          
+            <a class="item" href="https://www.materialscloud.org/dmp">Data Management Plan</a>
+          
+            <a class="item" href="https://www.materialscloud.org/termssummary">Terms of Use</a>
+          
+            <a class="item" href="https://www.materialscloud.org/infrastructure">Infrastructure</a>
+          
+            <a class="item" href="https://www.materialscloud.org/team">Team &amp; Contact</a>
+          
+            <a class="item" href="https://www.materialscloud.org/home#partners">Partners</a>
+          
+        
+      </div>
+    </div>
+    <!-- mobile tablet size -->
+    <div id="menu_more" class="ui mc_item_header mc_header_family borderless shadowless mobile tablet only">
+      <div>More</div>
+      <div class="menu borderless shadowless">
+      
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/policies">Policies</a>
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/dmp">Data Management Plan</a>
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/termssummary">Terms of Use</a>
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/infrastructure">Infrastructure</a>
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/team">Team &amp; Contact</a>
+        
+          <a class="item borderless fz-14 pb-5 pl-5" href="https://www.materialscloud.org/home#partners">Partners</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <!-- Invenio Menu -->
+          <div class="row">
+            <!-- computer size -->
+            <div id="invenio-menu" class="ui menu fluid borderless shadowless mc_header_invenio_menu computer only">
+<!-- Search bar -->
+<div class="item">
+
+
+
+
+<div class="item p-0 search-bar">
+  <div id="header-search-bar" data-options='[{"key": "records", "text": "Materials Cloud Archive", "value": "/search"}]'>
+    <div class="ui fluid search">
+      <div class="ui icon input">
+        <input
+          autocomplete="off"
+          aria-label="Search records"
+          placeholder="Search records..."
+          type="text"
+          tabindex="0"
+          class="prompt"
+          value=""
+        >
+        <i aria-hidden="true" class="search icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- About -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/about"
+    >
+    About
+    </a>
+  </div>
+</div>
+<!-- Submission instructions -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/information"
+    >
+    Submission instructions
+    </a>
+  </div>
+</div>
+<!-- FAQs -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/help"
+    >
+    FAQs
+    </a>
+  </div>
+</div>
+
+<!-- Right menu with user menu and upload -->
+<div class="right menu item">
+  <div class="item">
+        <form>
+            <a href="/login/?next=/records/zn7cy-7cs67"
+               class="ui button auth-button" aria-busy="false" aria-live="polite" aria-label="Log in">
+                <i class="sign-in icon auth-icon" aria-hidden="true"></i>
+                Log in</a>
+            
+                <a href="/signup/" class="ui button signup">
+                    <i class="edit outline icon"></i>
+                    Sign up
+                </a>
+            
+        </form>
+  </div>
+</div>
+
+            </div>
+            <!-- tablet mobile size -->
+            <div id="invenio-menu" class="ui fluid borderless shadowless h-0 tablet mobile only">
+              <div class="ui divider"></div>
+<!-- Search bar -->
+<div class="item">
+
+
+
+
+<div class="item p-0 search-bar">
+  <div id="header-search-bar" data-options='[{"key": "records", "text": "Materials Cloud Archive", "value": "/search"}]'>
+    <div class="ui fluid search">
+      <div class="ui icon input">
+        <input
+          autocomplete="off"
+          aria-label="Search records"
+          placeholder="Search records..."
+          type="text"
+          tabindex="0"
+          class="prompt"
+          value=""
+        >
+        <i aria-hidden="true" class="search icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- About -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/about"
+    >
+    About
+    </a>
+  </div>
+</div>
+<!-- Submission instructions -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/information"
+    >
+    Submission instructions
+    </a>
+  </div>
+</div>
+<!-- FAQs -->
+<div class="item">
+  <div class="dropdown">
+    <a role="menuitem"
+    class="dropdown-toggle infobar mc_header_family"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    href="/help"
+    >
+    FAQs
+    </a>
+  </div>
+</div>
+
+<!-- Right menu with user menu and upload -->
+<div class="right menu item">
+  <div class="item">
+        <form>
+            <a href="/login/?next=/records/zn7cy-7cs67"
+               class="ui button auth-button" aria-busy="false" aria-live="polite" aria-label="Log in">
+                <i class="sign-in icon auth-icon" aria-hidden="true"></i>
+                Log in</a>
+            
+                <a href="/signup/" class="ui button signup">
+                    <i class="edit outline icon"></i>
+                    Sign up
+                </a>
+            
+        </form>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <!-- Add script Plausible and pass domain name as parameter -->
+    <script type="text/javascript">
+      var header = document.getElementsByTagName("header")[0];
+      var plausible = document.createElement("script");
+      var domain_name = window.location.hostname;
+      var rollup_name = "plausible-rollup.materialscloud.org";
+
+      plausible.async = "";
+      plausible.defer = "";
+      plausible.dataset["domain"] = domain_name  + "," + rollup_name;
+      plausible.src = "https://plausible.io/js/plausible.js";
+      header.appendChild(plausible);
+    </script>
+</header>
+</div>
+
+        <main id="main">
+        <div class="invenio-page-body">
+  <section id="banners" class="banners" aria-label="Information banner">
+
+    <!-- COMMUNITY HEADER: hide it when displaying the submission request -->
+    
+    <!-- /COMMUNITY HEADER -->
+
+    <!-- PREVIEW HEADER -->
+    
+    <!-- /PREVIEW HEADER -->
+
+    
+  </section>
+
+
+  <div class="ui container">
+    <div class="ui relaxed grid mt-5">
+      <div class="two column row top-padded">
+
+        
+        <article
+          class="sixteen wide tablet eleven wide computer column main-record-content">
+          
+
+              
+
+              
+
+              
+                
+                  <div class="mcid_link wrap-overflowing-text">
+                    <a id="mcid_link" href="/record/2025.113">
+                      materialscloud:2025.113
+                    </a>
+                  </div>
+                
+              
+
+              <section id="record-info"
+                       aria-label="Publication date and version number">
+                <div class="ui grid middle aligned">
+                  <div class="two column row">
+                    <div class="left floated left aligned column">
+                      <span class="ui" title="Publication date">
+                        Published July 28, 2025
+                      </span>
+                      <span
+                        class="label text-muted"> | Version v1</span>
+                    </div>
+
+                    <!-- Badges -->
+                    <div class="right floated right aligned column">
+                      <!-- Discover/Explore badges -->
+                      
+                        
+                      
+
+                      <!-- Resource type badge -->
+                      
+                        <span role="note"
+                              class="ui label horizontal small neutral mb-5"
+                              aria-label="Resource type"
+                        >
+                          Dataset
+                        </span>
+                      
+
+                      <!-- Access badge -->
+                      <span role="note"
+                            class="ui label horizontal small access-status open mb-5"
+                            data-tooltip="The record and files are publicly accessible."
+                            data-inverted=""
+                            aria-label="Access status"
+                      >
+                        
+                          <i class="icon unlock"
+                             aria-hidden="true"></i>
+                        
+                        <span
+                          aria-label="The record and files are publicly accessible.">
+                          Open
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="ui divider hidden"></div><section id="record-title-section"
+                       aria-label="Record title and creators">
+                <h1 id="record-title"
+                    class="wrap-overflowing-text">Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening</h1>
+
+                
+                  <section id="creatibutors"
+                           aria-label="Creators and contributors">
+
+<div class="ui grid">
+  
+    <div class="row ui accordion affiliations">
+      <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+          <h2 class="sr-only">Creators</h2>
+          <ul class="creatibutors">
+            
+
+<dd class="creatibutor-wrap separated">
+  <a class="ui creatibutor-link"
+    
+      data-tooltip="Institute of Condensed Matter and Nanoscience (IMCN), Université Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."
+    
+    href="/search?q=metadata.creators.person_or_org.name:%22Trinquet,+Victor%22"
+  >
+
+    <span class="creatibutor-name">Trinquet, Victor</span><sup class="font-tiny">1</sup></a>
+
+
+
+    
+    <a class="no-text-decoration" href="https://orcid.org/0009-0001-2188-4824" aria-label="Trinquet, Victor's ORCID profile" title="Trinquet, Victor's ORCID profile">
+      <img class="ml-5 inline-id-icon" src="/static/images/orcid.svg" alt="ORCID icon"/>
+    </a>
+
+
+
+
+  
+    <div>*</div>
+  
+</dd>
+
+<dd class="creatibutor-wrap separated">
+  <a class="ui creatibutor-link"
+    
+      data-tooltip="Institute of Condensed Matter and Nanoscience (IMCN), Université Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.; Matgenix SRL, 185 Rue Armand Bury, 6534 Gozée, Belgium"
+    
+    href="/search?q=metadata.creators.person_or_org.name:%22Evans,+Matthew+L.%22"
+  >
+
+    <span class="creatibutor-name">Evans, Matthew L.</span><sup class="font-tiny">1, 2</sup></a>
+
+
+
+    
+    <a class="no-text-decoration" href="https://orcid.org/0000-0002-1182-9098" aria-label="Evans, Matthew L.'s ORCID profile" title="Evans, Matthew L.'s ORCID profile">
+      <img class="ml-5 inline-id-icon" src="/static/images/orcid.svg" alt="ORCID icon"/>
+    </a>
+
+
+
+
+  
+    <div>*</div>
+  
+</dd>
+
+<dd class="creatibutor-wrap separated">
+  <a class="ui creatibutor-link"
+    
+      data-tooltip="Institute of Condensed Matter and Nanoscience (IMCN), Université Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.; School of Materials Science and Engineering, Northwestern Polytechnical University, Xi&#39;an, Shaanxi 710072, China"
+    
+    href="/search?q=metadata.creators.person_or_org.name:%22Rignanese,+Gian-Marco%22"
+  >
+
+    <span class="creatibutor-name">Rignanese, Gian-Marco</span><sup class="font-tiny">1, 3</sup></a>
+
+
+
+    
+    <a class="no-text-decoration" href="https://orcid.org/0000-0002-1422-1205" aria-label="Rignanese, Gian-Marco's ORCID profile" title="Rignanese, Gian-Marco's ORCID profile">
+      <img class="ml-5 inline-id-icon" src="/static/images/orcid.svg" alt="ORCID icon"/>
+    </a>
+
+
+
+
+  
+    <div>*</div>
+  
+</dd>
+
+          </ul>
+      </div>
+
+        
+        
+          
+<div class="ui sixteen wide tablet three wide computer column title right aligned bottom aligned">
+<button class="ui affiliations-button trigger button mini mr-0"
+        aria-controls="creators-affiliations"
+        data-open-text="Show affiliations"
+        data-close-text="Hide affiliations"
+        aria-expanded="false"
+>
+  Show affiliations
+</button>
+</div>
+
+<section class="ui sixteen wide column content" id="creators-affiliations" aria-label="Affiliations for creators">
+<ul>
+
+    <li>
+        1.
+
+        
+        Institute of Condensed Matter and Nanoscience (IMCN), Université Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.
+      </li>
+
+    <li>
+        2.
+
+        
+        Matgenix SRL, 185 Rue Armand Bury, 6534 Gozée, Belgium
+      </li>
+
+    <li>
+        3.
+
+        
+        School of Materials Science and Engineering, Northwestern Polytechnical University, Xi&#39;an, Shaanxi 710072, China
+      </li>
+
+  </ul>
+</section>
+
+        
+
+      
+      <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+        <p class="pt-10 text-muted">* Contact person</p>
+      </div>
+      
+    </div>
+  
+</div>
+                  </section>
+                
+              </section>
+
+
+
+  <section id="description" class="rel-mt-2 rich-input-content" aria-label="Record description">
+    <h2 id="description-heading" class="sr-only">Description</h2>
+    
+    <div style="word-wrap: break-word;">
+      Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of ∼2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.
+    </div>
+  </section>
+
+
+
+            
+                
+                
+                  
+                  
+                  
+                    
+                  
+
+                  
+                
+            
+
+            <section id="record-files" class="rel-mt-2 rel-mb-3"
+                         aria-label="Files"><h2 id="files-heading">Files</h2><h4 id="files-heading">File preview</h4>
+                        
+  <div class="ui accordion panel mb-10 open" href="#files-preview-accordion-panel">
+    <h3 class="title panel-heading open m-0">
+      <div
+        role="button"
+        id="files-preview-accordion-trigger"
+        aria-controls="files-preview-accordion-panel"
+        aria-expanded="false"
+        tabindex="0"
+        class="trigger"
+        aria-label="File preview"
+      >
+        <span id="preview-file-title">files_description.md</span>
+        <i class="angle right icon" aria-hidden="true" id="preview_file_box_icon"></i>
+      </div>
+    </h3>
+    <div
+      role="region"
+      id="files-preview-accordion-panel"
+      aria-labelledby="files-preview-accordion-trigger"
+      class="content preview-container pt-0 open"
+    >
+      <div>
+        
+  
+  <iframe
+    title="Preview"
+    class="preview-iframe"
+    id="preview-iframe"
+    name="preview-iframe"
+    src="/records/zn7cy-7cs67/preview/files_description.md?include_deleted=0"
+  >
+  </iframe>
+      </div>
+    </div>
+  </div><h4 id="files-heading">All files</h4>
+                      
+  <div class="ui accordion panel mb-10 open" href="#files-list-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div role="button" id="files-list-accordion-trigger" aria-controls="files-list-accordion-panel" aria-expanded="true" tabindex="0" class="trigger">
+        Files
+        <small class="text-muted"> (4.9 MiB)</small>
+        <i class="close icon" aria-hidden="true" id="file_list_box_icon"></i>
+      </div>
+    </h3>
+
+    <div role="region" id="files-list-accordion-panel" aria-labelledby="files-list-accordion-trigger" class="active content pt-0">
+      
+      <div>
+        
+
+  <table class="ui striped table files fluid open">
+    <thead>
+      <tr>
+        <th>Name</th>
+
+        
+        <th>Apps
+          <span style="width:50px"
+          data-tooltip="
+          Click on the icon next to the file to access
+          the implementation of this record's data in other applications.
+          "
+          data-position="top left"
+         >
+            <i class="question circle icon"></i>
+          </span>
+        </th>
+        
+
+        <th>Size</th>
+        <th class>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/files_description.md?download=1">files_description.md</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:c4200d3b138a6cd19d8becbc06153ae3
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+
+            
+
+            
+          </td>
+          
+
+          <td>567 Bytes</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/zn7cy-7cs67/preview/files_description.md?include_deleted=0" target="preview-iframe" data-file-key="files_description.md">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/files_description.md?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/data.tar.gz?download=1">data.tar.gz</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:43295e326020f624150102c84b0891a9
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+
+            
+
+            
+          </td>
+          
+
+          <td>3.2 MiB</td>
+          <td class="right aligned">
+            <span>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/data.tar.gz?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz?download=1">dataset_chemiscope.json.gz</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:2fffcce67ff47887787d6ddf5bd85d8b
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+
+            
+
+            
+              <div
+              id="other_apps_popup"
+              class="ui button"
+              data-title="CHEMISCOPE"
+              data-html="<div class='column'>
+                          <h4 class='ui header'>CHEMISCOPE</h4>
+                          <p>
+                            Chemiscope is a tool for interactive exploration of databases
+                            of materials and molecules, correlating local and global structural
+                            representations with the properties of the systems.
+                            <a href='/help/apps#chemiscope' target='_blank'>
+                              Read more
+                            <a>
+                          </p>
+                          <p>
+                            <a class='ui button' href='https://chemiscope.materialscloud.io/?load=https%3A%2F%2Farchive.materialscloud.org%2Fapi%2Frecords%2Fzn7cy-7cs67%2Ffiles%2Fdataset_chemiscope.json.gz%2Fcontent%3Ffilename%3Ddataset_chemiscope.json.gz%26materials_cloud_doi%3D10.24435%2Fmaterialscloud%3Awk-qm' target='_blank'>
+                              Visualize on Chemiscope
+                            <a>
+                          </p>
+                        </div>"
+              >
+                <img src="/static/images/chemiscope-icon-32x32.png" width="40px"/>
+              </div>
+            
+          </td>
+          
+
+          <td>1.0 MiB</td>
+          <td class="right aligned">
+            <span>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/optimade.yaml?download=1">optimade.yaml</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:0fe2572b87b5e668f24766c29049d782
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+              
+                
+                
+              
+              <div
+              id="other_apps_popup"
+              class="ui button"
+              data-title="OPTIMADE"
+              data-html="
+                  <div class='column'>
+                    <h4 class='ui header'>OPTIMADE</h4>
+                    <p>
+                      The Open Databases Integration for Materials Design is a consortium aiming
+                      to make materials databases interoperable by developing a specification
+                      for a common REST API (OPTIMADE API).
+                      <a href='/help/apps#optimade' target='_blank'>
+                        Read more
+                      </a>
+                    </p>
+                    <p>Materials Cloud provides an interactive way to browse OPTIMADE APIs.</p>
+                    <p>
+                      <a class='ui button' href='https://optimadeclient.materialscloud.io/?db=1z-pd&amp;provider=mcloudarchive' target='_blank'>
+                        Go to the OPTIMADE Client
+                      </a>
+                    </p>
+                  </div>
+                "
+              >
+                <img src="/static/images/optimade_logo.svg" width="40px"/>
+              </div>
+            
+
+            
+
+            
+          </td>
+          
+
+          <td>5.9 KiB</td>
+          <td class="right aligned">
+            <span>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/optimade.yaml?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/README.md?download=1">README.md</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:fe651197cd5826fab9d3a8f8a254d4ff
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+
+            
+
+            
+          </td>
+          
+
+          <td>10.8 KiB</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/zn7cy-7cs67/preview/README.md?include_deleted=0" target="preview-iframe" data-file-key="README.md">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/README.md?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="seven wide">
+            <div>
+              <a href="/records/zn7cy-7cs67/files/structures.tar.gz?download=1">structures.tar.gz</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:24410516cfdfbb3111b3e26a58968e11
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+
+          
+          <td>
+            
+
+            
+
+            
+          </td>
+          
+
+          <td>708.9 KiB</td>
+          <td class="right aligned">
+            <span>
+              
+              <a role="button" class="ui compact mini button" href="/records/zn7cy-7cs67/files/structures.tar.gz?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+    </tbody>
+  </table>
+    <script src="/static/dist/js/manifest.7682af7fd4313336ca84.js"></script>
+<script src="/static/dist/js/73.6729f6c67e09c44a17aa.js"></script>
+<script src="/static/dist/js/3526.03398dac4cba5b9d4724.js"></script>
+<script src="/static/dist/js/theme.d2277876557b5ad1982f.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        $('.ui.button').popup({on: 'click'});
+
+        // toggle the icon arrow/cross in the preview file box
+        $('#files-preview-accordion-trigger').on('click', function (event) {
+          if ($('#files-preview-accordion-panel').hasClass('active')) {
+            $('#preview_file_box_icon')
+              .removeClass()
+              .addClass('angle right icon');
+          } else {
+            $('#preview_file_box_icon')
+              .removeClass()
+              .addClass('close icon')
+              .css('float', 'right');
+          }
+        });
+
+        // open the preview file box when clicking on the Preview button
+        $('.ui.compact.mini.button.preview-link').on('click', function (event) {
+          const isExpanded = $('#files-preview-accordion-trigger').attr('aria-expanded') === 'true';
+
+          if (!isExpanded) {
+            $('#files-preview-accordion-trigger').click();
+          }
+        });
+    });
+    </script>
+      </div>
+    </div>
+  </div>
+    
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        // set cross icon in files list box on page load
+         $('#file_list_box_icon')
+          .removeClass()
+          .addClass('close icon')
+          .css('float', 'right');
+
+        // toggle the icon arrow/cross in the files list box
+        $('#files-list-accordion-trigger').on('click', function (event) {
+          if ($('#files-list-accordion-panel').hasClass('active')) {
+            $('#file_list_box_icon')
+              .removeClass()
+              .addClass('angle right icon');
+          } else {
+            $('#file_list_box_icon')
+              .removeClass()
+              .addClass('close icon')
+              .css('float', 'right');
+          }
+        });
+      });
+    </script>
+                    
+                  
+                </section>
+              <section id="additional-details" class="rel-mt-2"
+                       aria-label="Additional record details">
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+
+    
+    
+        
+          
+          
+          
+            
+              
+            
+          
+
+          
+              <h2 id="record-details-heading">
+                References
+              </h2>
+              <dl id="mc_sections" class="details-list">
+                
+  
+    
+    
+      
+        
+
+
+
+
+    
+        <p>
+        
+        <b>Journal reference</b>
+
+        
+        
+            (Paper in which the active learning scheme is described along with its use for machine learning)
+        
+        </br>
+
+        
+        
+
+        
+        
+
+        
+        
+            V. Trinquet, M. L. Evans, G.-M. Rignanese, J. Mater. Chem. C 13(35), 18197–18212 (2025).,
+            doi: <a href='https://doi.org/10.1039/D5TC01335F'>
+                10.1039/D5TC01335F
+            </a>
+        
+        </p>
+
+    
+        <p>
+        
+        <b>Preprint</b>
+
+        
+        
+            (Preprint)
+        
+        </br>
+
+        
+        
+
+        
+        
+
+        
+        
+            V. Trinquet, M. L. Evans, G.-M. Rignanese, arXiv:2504.01526 (2025),
+            doi: <a href='https://doi.org/10.48550/arXiv.2504.01526'>
+                10.48550/arXiv.2504.01526
+            </a>
+        
+        </p>
+
+    
+        <p>
+        
+        <b>Website</b>
+
+        
+        
+        </br>
+
+        
+        
+
+        
+        
+            <a href='https://nlo.modl-uclouvain.org/'>
+                Visualisation portal
+            </a></br>
+        
+
+        
+        
+        </p>
+
+    
+        <p>
+        
+        <b>Software</b>
+
+        
+        
+        </br>
+
+        
+        
+
+        
+        
+            <a href='https://github.com/modl-uclouvain/shg-ml-benchmarks'>
+                Github repository
+            </a></br>
+        
+
+        
+        
+        </p>
+
+      
+    
+  
+
+              </dl>
+          
+        
+        
+    
+  
+              </section>
+        </article>
+
+        
+        <aside class="sixteen wide tablet five wide computer column sidebar"
+               aria-label="Record details">
+          
+
+
+
+
+<section id="metrics" aria-label="Metrics" class="ui segment rdm-sidebar sidebar-container">
+
+
+<div class="ui tiny two statistics rel-mt-1">
+  
+  
+
+  <div class="ui statistic">
+    <div class="value">701</div>
+    <div class="label">
+      <i aria-hidden="true" class="eye icon"></i>
+      Views
+    </div>
+  </div>
+
+  <div class="ui statistic">
+    <div class="value">1K</div>
+    <div class="label">
+      <i aria-hidden="true" class="download icon"></i>
+      Downloads
+    </div>
+  </div>
+</div>
+
+<div class="ui accordion rel-mt-1 centered">
+  <div class="title">
+    <!-- <i class="caret right icon" aria-hidden="true"></i> -->
+    <span
+      tabindex="0"
+      class="trigger"
+      data-open-text="Show more details"
+      data-close-text="Show less details"
+    >
+      <!-- Show more details -->
+    </span>
+  </div>
+
+  <div class="content active">
+    <table id="record-statistics" class="ui definition table fluid">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="right aligned">All versions</th>
+          <th class="right aligned">This version</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Views
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total views
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    701
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    701
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Downloads
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total downloads
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    1,014
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    1,014
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Data volume
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total data volume
+            </p>
+          </td>
+
+          <td data-label="All versions" class="right aligned">940.1 MiB</td>
+          <td data-label="This version" class="right aligned">940.1 MiB</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="text-align-center rel-mt-1">
+      <small>
+        <a href="/help/statistics">More info on how stats are collected....</a>
+      </small>
+    </p>
+  </div>
+
+</div>
+</section>
+
+
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Details</h2>
+  <div id="record-details" class="ui segment bottom attached rdm-sidebar">
+
+    <dl class="details-list">
+      
+
+ 
+  <dt class="ui tiny header">DOI
+    
+  <dd>
+    <div>
+      <span class="get-badge"
+        title="10.24435/materialscloud:wk-qm" style="display: inline-block; vertical-align: middle;">
+        <img id='record-doi-badge'
+          src="/badge/DOI/10.24435/materialscloud:wk-qm.svg" alt="10.24435/materialscloud:wk-qm" />
+      </span>
+      <a id="doi_copy" value="10.24435/materialscloud:wk-qm" data-tooltip="Click to copy the doi url." data-position="top right" class="item" style="display: inline-block; vertical-align: top; cursor: pointer;">
+        <i aria-hidden="true" class="copy icon" style="color: grey"></i>
+      </a>
+      <span id="doi_message"></span>
+    </div>
+  </dd>
+    <script type="text/javascript">
+      var doi_copy = document.getElementById('doi_copy');
+      var doi_url = "https://doi.org/" + doi_copy.attributes.value.nodeValue;
+      var message = document.getElementById('doi_message');
+
+      doi_copy.addEventListener('click', function() {
+        navigator.clipboard.writeText(doi_url)
+        .then(() => {
+          doi_copy.attributes["data-tooltip"].nodeValue = 'Copied to clipboard!'
+          // reset tooltip text after 5 seconds
+          setTimeout(function() {
+            doi_copy.attributes["data-tooltip"].nodeValue = 'Click to copy the doi url.';
+          }, 5000);
+        })
+        .catch((err) => console.error(err.name, err.message));
+      });
+    </script>
+
+      
+      
+  <dt class="ui tiny header">Resource type</dt>
+  <dd>Dataset</dd>
+      
+  <dt class="ui tiny header">Publisher</dt>
+  <dd>Materials Cloud</dd>
+      
+  <dt class="ui tiny header">Languages</dt>
+  <dd>
+  
+    English
+  
+</dd>
+    </dl>
+  </div>
+</div><div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Versions</h2>
+  <div id="record-versions" class="ui segment rdm-sidebar bottom attached pl-0 pr-0 pt-0">
+    <div class="versions">
+      <div id="recordVersions" data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2025-07-28T10:26:14.033216+00:00", "custom_fields": {"mc_references": [{"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, J. Mater. Chem. C 13(35), 18197\u201318212 (2025).", "ref_comment": "Paper in which the active learning scheme is described along with its use for machine learning", "ref_link": {"ref_identifier": "10.1039/D5TC01335F", "ref_scheme": "doi"}, "ref_resource_type": "publication-article"}, {"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, arXiv:2504.01526 (2025)", "ref_comment": "Preprint", "ref_link": {"ref_identifier": "10.48550/arXiv.2504.01526", "ref_scheme": "doi"}, "ref_resource_type": "publication-preprint"}, {"ref_citation": "Visualisation portal", "ref_link": {"ref_identifier": "https://nlo.modl-uclouvain.org/", "ref_scheme": "url"}, "ref_resource_type": "website"}, {"ref_citation": "Github repository", "ref_link": {"ref_identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "ref_scheme": "url"}, "ref_resource_type": "software"}]}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "983", "is_current_user": false, "links": {"avatar": "https://archive.materialscloud.org/api/users/983/avatar.svg", "records_html": "https://archive.materialscloud.org/search/records?q=parent.access.owned_by.user:983", "self": "https://archive.materialscloud.org/api/users/983"}, "profile": {"affiliations": "", "full_name": ""}, "username": "Victor_Trqt", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "closed", "visibility": "public"}, "id": "30074283-2e48-4526-b2df-c3c2191db3cb", "links": {"logo": "https://archive.materialscloud.org/api/communities/30074283-2e48-4526-b2df-c3c2191db3cb/logo"}, "metadata": {"description": "Materials Cloud Archive", "title": "Materials Cloud Archive", "type": null}, "slug": "mcarchive"}}}}, "files": {"count": 6, "enabled": true, "entries": {"README.md": {"access": {"hidden": false}, "checksum": "md5:fe651197cd5826fab9d3a8f8a254d4ff", "ext": "md", "id": "a23baec3-de51-4a78-8829-db2f2f1c21a4", "key": "README.md", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/README.md/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/README.md"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 11097, "storage_class": "L"}, "data.tar.gz": {"access": {"hidden": false}, "checksum": "md5:43295e326020f624150102c84b0891a9", "ext": "gz", "id": "328dcf61-c951-4bb3-b7b1-a4410033c6a3", "key": "data.tar.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/data.tar.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/data.tar.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 3338675, "storage_class": "L"}, "dataset_chemiscope.json.gz": {"access": {"hidden": false}, "checksum": "md5:2fffcce67ff47887787d6ddf5bd85d8b", "ext": "gz", "id": "619524d7-f2a0-4955-bbd3-25e1aff65f52", "key": "dataset_chemiscope.json.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 1073306, "storage_class": "L"}, "files_description.md": {"access": {"hidden": false}, "checksum": "md5:c4200d3b138a6cd19d8becbc06153ae3", "ext": "md", "id": "99e83009-7481-4f8e-8546-6834cd8a449e", "key": "files_description.md", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/files_description.md/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/files_description.md"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 567, "storage_class": "L"}, "optimade.yaml": {"access": {"hidden": false}, "checksum": "md5:0fe2572b87b5e668f24766c29049d782", "ext": "yaml", "id": "824ad23d-17a6-4400-b351-e2dbd91f0df7", "key": "optimade.yaml", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/optimade.yaml/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/optimade.yaml"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 6002, "storage_class": "L"}, "structures.tar.gz": {"access": {"hidden": false}, "checksum": "md5:24410516cfdfbb3111b3e26a58968e11", "ext": "gz", "id": "6aa4e9a2-01c3-46a1-8f1a-64c8ae658fd0", "key": "structures.tar.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/structures.tar.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/structures.tar.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 725907, "storage_class": "L"}}, "order": [], "total_bytes": 5155554}, "id": "zn7cy-7cs67", "is_draft": false, "is_published": true, "links": {"access": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access", "access_grants": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/grants", "access_links": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/links", "access_request": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/request", "access_users": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/users", "communities": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/communities", "communities-suggestions": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/communities-suggestions", "doi": "https://doi.org/10.24435/materialscloud:wk-qm", "draft": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/draft", "files": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files", "latest": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/versions/latest", "latest_html": "https://archive.materialscloud.org/records/zn7cy-7cs67/latest", "media_files": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/media-files", "parent": "https://archive.materialscloud.org/api/records/pevaa-vxx87", "parent_doi": "https://doi.org/10.24435/materialscloud:1z-pd", "parent_doi_html": "https://archive.materialscloud.org/doi/10.24435/materialscloud:1z-pd", "parent_html": "https://archive.materialscloud.org/records/pevaa-vxx87", "preview_html": "https://archive.materialscloud.org/records/zn7cy-7cs67?preview=1", "requests": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/requests", "reserve_doi": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/draft/pids/doi", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67", "self_doi": "https://doi.org/10.24435/materialscloud:wk-qm", "self_doi_html": "https://archive.materialscloud.org/doi/10.24435/materialscloud:wk-qm", "self_html": "https://archive.materialscloud.org/records/zn7cy-7cs67", "self_iiif_manifest": "https://archive.materialscloud.org/api/iiif/record:zn7cy-7cs67/manifest", "self_iiif_sequence": "https://archive.materialscloud.org/api/iiif/record:zn7cy-7cs67/sequence/default", "versions": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/versions"}, "media_files": {"count": 0, "enabled": false, "entries": {}, "order": [], "total_bytes": 0}, "metadata": {"contributors": [{"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}], "creators": [{"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}], "description": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.", "formats": ["application/octet-stream", "application/gzip", "application/gzip", "application/gzip", "text/markdown", "text/markdown"], "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2025-07-28", "publisher": "Materials Cloud", "related_identifiers": [{"identifier": "10.1039/D5TC01335F", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "publication-article", "title": {"en": "Journal article"}}, "scheme": "doi"}, {"identifier": "10.48550/arXiv.2504.01526", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "publication-preprint", "title": {"en": "Preprint"}}, "scheme": "doi"}, {"identifier": "https://nlo.modl-uclouvain.org/", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "other", "title": {"de": "Sonstige", "en": "Other"}}, "scheme": "url"}, {"identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "software", "title": {"de": "Software", "en": "Software"}}, "scheme": "url"}, {"identifier": "https://optimade.materialscloud.org/archive/wk-qm", "relation_type": {"id": "issupplementedby", "title": {"en": "Is supplemented by"}}, "scheme": "url"}, {"identifier": "https://chemiscope.materialscloud.io/?load=https%3A%2F%2Farchive.materialscloud.org%2Fapi%2Frecords%2Fzn7cy-7cs67%2Ffiles%2Fdataset_chemiscope.json.gz%2Fcontent%3Ffilename%3Ddataset_chemiscope.json.gz%26materials_cloud_doi%3D10.24435%2Fmaterialscloud%3Awk-qm", "relation_type": {"id": "issupplementedby", "title": {"en": "Is supplemented by"}}, "scheme": "url"}], "resource_type": {"id": "dataset", "title": {"de": "Datensatz", "en": "Dataset"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "sizes": ["5155554"], "subjects": [{"subject": "non-linear optics"}, {"subject": "second-harmonic generation"}, {"subject": "density-functional theory"}, {"subject": "density-functional perturbation theory"}, {"subject": "high-throughput"}, {"subject": "first principles"}], "title": "Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening"}, "parent": {"access": {"owned_by": {"user": "983"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "30074283-2e48-4526-b2df-c3c2191db3cb", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "closed", "visibility": "public"}, "children": {"allow": false}, "created": "2025-06-23T09:44:35.505284+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "30074283-2e48-4526-b2df-c3c2191db3cb", "links": {}, "metadata": {"description": "Materials Cloud Archive", "organizations": [{"name": "Materials Cloud"}], "title": "Materials Cloud Archive", "website": "https://archive.materialscloud.org"}, "revision_id": 2, "slug": "mcarchive", "updated": "2025-06-23T09:44:35.537067+00:00"}], "ids": ["30074283-2e48-4526-b2df-c3c2191db3cb"]}, "id": "pevaa-vxx87", "pids": {"doi": {"client": "datacite", "identifier": "10.24435/materialscloud:1z-pd", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.24435/materialscloud:wk-qm", "provider": "datacite"}, "mcid": {"identifier": "2025.113", "provider": "mcid"}, "oai": {"identifier": "oai:materialscloud.org:zn7cy-7cs67", "provider": "oai"}}, "revision_id": 8, "stats": {"all_versions": {"data_volume": 985801010.0, "downloads": 1108, "unique_downloads": 1014, "unique_views": 701, "views": 803}, "this_version": {"data_volume": 985801010.0, "downloads": 1108, "unique_downloads": 1014, "unique_views": 701, "views": 803}}, "status": "published", "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "contributors": {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.", null], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium", null], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China", null]], "contributors": [{"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."]], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"]], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"]], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}]}, "created_date_l10n_long": "July 28, 2025", "creators": {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.", null], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium", null], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China", null]], "creators": [{"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."]], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"]], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"]], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}]}, "custom_fields": {"mc_references": [{"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, J. Mater. Chem. C 13(35), 18197\u201318212 (2025).", "ref_comment": "Paper in which the active learning scheme is described along with its use for machine learning", "ref_link": {"ref_identifier": "10.1039/D5TC01335F", "ref_scheme": "doi"}, "ref_resource_type": "publication-article"}, {"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, arXiv:2504.01526 (2025)", "ref_comment": "Preprint", "ref_link": {"ref_identifier": "10.48550/arXiv.2504.01526", "ref_scheme": "doi"}, "ref_resource_type": "publication-preprint"}, {"ref_citation": "Visualisation portal", "ref_link": {"ref_identifier": "https://nlo.modl-uclouvain.org/", "ref_scheme": "url"}, "ref_resource_type": "website"}, {"ref_citation": "Github repository", "ref_link": {"ref_identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "ref_scheme": "url"}, "ref_resource_type": "software"}]}, "description_stripped": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "July 28, 2025", "publication_date_l10n_medium": "Jul 28, 2025", "related_identifiers": [{"identifier": "10.1039/D5TC01335F", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "publication-article", "title_l10n": "Journal article"}, "scheme": "doi"}, {"identifier": "10.48550/arXiv.2504.01526", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "publication-preprint", "title_l10n": "Preprint"}, "scheme": "doi"}, {"identifier": "https://nlo.modl-uclouvain.org/", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "other", "title_l10n": "Other"}, "scheme": "url"}, {"identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "software", "title_l10n": "Software"}, "scheme": "url"}, {"identifier": "https://optimade.materialscloud.org/archive/wk-qm", "relation_type": {"id": "issupplementedby", "title_l10n": "Is supplemented by"}, "scheme": "url"}, {"identifier": "https://chemiscope.materialscloud.io/?load=https%3A%2F%2Farchive.materialscloud.org%2Fapi%2Frecords%2Fzn7cy-7cs67%2Ffiles%2Fdataset_chemiscope.json.gz%2Fcontent%3Ffilename%3Ddataset_chemiscope.json.gz%26materials_cloud_doi%3D10.24435%2Fmaterialscloud%3Awk-qm", "relation_type": {"id": "issupplementedby", "title_l10n": "Is supplemented by"}, "scheme": "url"}], "resource_type": {"id": "dataset", "title_l10n": "Dataset"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "September 15, 2025", "version": "v1"}, "updated": "2025-09-15T10:15:03.511314+00:00", "versions": {"index": 1, "is_latest": true}}' data-preview='false'>
+        <div class="rel-p-1"></div>
+        <div class="ui fluid placeholder rel-mr-1 rel-ml-1"></div>
+        <div class="header">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Citation</h2>
+  <div id="citation" class="ui segment bottom attached rdm-sidebar">
+
+<div id="recordCitation" data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2025-07-28T10:26:14.033216+00:00", "custom_fields": {"mc_references": [{"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, J. Mater. Chem. C 13(35), 18197\u201318212 (2025).", "ref_comment": "Paper in which the active learning scheme is described along with its use for machine learning", "ref_link": {"ref_identifier": "10.1039/D5TC01335F", "ref_scheme": "doi"}, "ref_resource_type": "publication-article"}, {"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, arXiv:2504.01526 (2025)", "ref_comment": "Preprint", "ref_link": {"ref_identifier": "10.48550/arXiv.2504.01526", "ref_scheme": "doi"}, "ref_resource_type": "publication-preprint"}, {"ref_citation": "Visualisation portal", "ref_link": {"ref_identifier": "https://nlo.modl-uclouvain.org/", "ref_scheme": "url"}, "ref_resource_type": "website"}, {"ref_citation": "Github repository", "ref_link": {"ref_identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "ref_scheme": "url"}, "ref_resource_type": "software"}]}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "983", "is_current_user": false, "links": {"avatar": "https://archive.materialscloud.org/api/users/983/avatar.svg", "records_html": "https://archive.materialscloud.org/search/records?q=parent.access.owned_by.user:983", "self": "https://archive.materialscloud.org/api/users/983"}, "profile": {"affiliations": "", "full_name": ""}, "username": "Victor_Trqt", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "closed", "visibility": "public"}, "id": "30074283-2e48-4526-b2df-c3c2191db3cb", "links": {"logo": "https://archive.materialscloud.org/api/communities/30074283-2e48-4526-b2df-c3c2191db3cb/logo"}, "metadata": {"description": "Materials Cloud Archive", "title": "Materials Cloud Archive", "type": null}, "slug": "mcarchive"}}}}, "files": {"count": 6, "enabled": true, "entries": {"README.md": {"access": {"hidden": false}, "checksum": "md5:fe651197cd5826fab9d3a8f8a254d4ff", "ext": "md", "id": "a23baec3-de51-4a78-8829-db2f2f1c21a4", "key": "README.md", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/README.md/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/README.md"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 11097, "storage_class": "L"}, "data.tar.gz": {"access": {"hidden": false}, "checksum": "md5:43295e326020f624150102c84b0891a9", "ext": "gz", "id": "328dcf61-c951-4bb3-b7b1-a4410033c6a3", "key": "data.tar.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/data.tar.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/data.tar.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 3338675, "storage_class": "L"}, "dataset_chemiscope.json.gz": {"access": {"hidden": false}, "checksum": "md5:2fffcce67ff47887787d6ddf5bd85d8b", "ext": "gz", "id": "619524d7-f2a0-4955-bbd3-25e1aff65f52", "key": "dataset_chemiscope.json.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 1073306, "storage_class": "L"}, "files_description.md": {"access": {"hidden": false}, "checksum": "md5:c4200d3b138a6cd19d8becbc06153ae3", "ext": "md", "id": "99e83009-7481-4f8e-8546-6834cd8a449e", "key": "files_description.md", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/files_description.md/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/files_description.md"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 567, "storage_class": "L"}, "optimade.yaml": {"access": {"hidden": false}, "checksum": "md5:0fe2572b87b5e668f24766c29049d782", "ext": "yaml", "id": "824ad23d-17a6-4400-b351-e2dbd91f0df7", "key": "optimade.yaml", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/optimade.yaml/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/optimade.yaml"}, "metadata": {}, "mimetype": "application/octet-stream", "size": 6002, "storage_class": "L"}, "structures.tar.gz": {"access": {"hidden": false}, "checksum": "md5:24410516cfdfbb3111b3e26a58968e11", "ext": "gz", "id": "6aa4e9a2-01c3-46a1-8f1a-64c8ae658fd0", "key": "structures.tar.gz", "links": {"content": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/structures.tar.gz/content", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/structures.tar.gz"}, "metadata": {}, "mimetype": "application/gzip", "size": 725907, "storage_class": "L"}}, "order": [], "total_bytes": 5155554}, "id": "zn7cy-7cs67", "is_draft": false, "is_published": true, "links": {"access": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access", "access_grants": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/grants", "access_links": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/links", "access_request": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/request", "access_users": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/access/users", "communities": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/communities", "communities-suggestions": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/communities-suggestions", "doi": "https://doi.org/10.24435/materialscloud:wk-qm", "draft": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/draft", "files": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files", "latest": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/versions/latest", "latest_html": "https://archive.materialscloud.org/records/zn7cy-7cs67/latest", "media_files": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/media-files", "parent": "https://archive.materialscloud.org/api/records/pevaa-vxx87", "parent_doi": "https://doi.org/10.24435/materialscloud:1z-pd", "parent_doi_html": "https://archive.materialscloud.org/doi/10.24435/materialscloud:1z-pd", "parent_html": "https://archive.materialscloud.org/records/pevaa-vxx87", "preview_html": "https://archive.materialscloud.org/records/zn7cy-7cs67?preview=1", "requests": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/requests", "reserve_doi": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/draft/pids/doi", "self": "https://archive.materialscloud.org/api/records/zn7cy-7cs67", "self_doi": "https://doi.org/10.24435/materialscloud:wk-qm", "self_doi_html": "https://archive.materialscloud.org/doi/10.24435/materialscloud:wk-qm", "self_html": "https://archive.materialscloud.org/records/zn7cy-7cs67", "self_iiif_manifest": "https://archive.materialscloud.org/api/iiif/record:zn7cy-7cs67/manifest", "self_iiif_sequence": "https://archive.materialscloud.org/api/iiif/record:zn7cy-7cs67/sequence/default", "versions": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/versions"}, "media_files": {"count": 0, "enabled": false, "entries": {}, "order": [], "total_bytes": 0}, "metadata": {"contributors": [{"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}], "creators": [{"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}, {"affiliations": [{"name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": {"de": "Kontaktperson", "en": "Contact person"}}}], "description": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.", "formats": ["application/octet-stream", "application/gzip", "application/gzip", "application/gzip", "text/markdown", "text/markdown"], "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2025-07-28", "publisher": "Materials Cloud", "related_identifiers": [{"identifier": "10.1039/D5TC01335F", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "publication-article", "title": {"en": "Journal article"}}, "scheme": "doi"}, {"identifier": "10.48550/arXiv.2504.01526", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "publication-preprint", "title": {"en": "Preprint"}}, "scheme": "doi"}, {"identifier": "https://nlo.modl-uclouvain.org/", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "other", "title": {"de": "Sonstige", "en": "Other"}}, "scheme": "url"}, {"identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "relation_type": {"id": "issupplementto", "title": {"en": "Is supplement to"}}, "resource_type": {"id": "software", "title": {"de": "Software", "en": "Software"}}, "scheme": "url"}, {"identifier": "https://optimade.materialscloud.org/archive/wk-qm", "relation_type": {"id": "issupplementedby", "title": {"en": "Is supplemented by"}}, "scheme": "url"}, {"identifier": "https://chemiscope.materialscloud.io/?load=https%3A%2F%2Farchive.materialscloud.org%2Fapi%2Frecords%2Fzn7cy-7cs67%2Ffiles%2Fdataset_chemiscope.json.gz%2Fcontent%3Ffilename%3Ddataset_chemiscope.json.gz%26materials_cloud_doi%3D10.24435%2Fmaterialscloud%3Awk-qm", "relation_type": {"id": "issupplementedby", "title": {"en": "Is supplemented by"}}, "scheme": "url"}], "resource_type": {"id": "dataset", "title": {"de": "Datensatz", "en": "Dataset"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "sizes": ["5155554"], "subjects": [{"subject": "non-linear optics"}, {"subject": "second-harmonic generation"}, {"subject": "density-functional theory"}, {"subject": "density-functional perturbation theory"}, {"subject": "high-throughput"}, {"subject": "first principles"}], "title": "Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening"}, "parent": {"access": {"owned_by": {"user": "983"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "30074283-2e48-4526-b2df-c3c2191db3cb", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "closed", "visibility": "public"}, "children": {"allow": false}, "created": "2025-06-23T09:44:35.505284+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "30074283-2e48-4526-b2df-c3c2191db3cb", "links": {}, "metadata": {"description": "Materials Cloud Archive", "organizations": [{"name": "Materials Cloud"}], "title": "Materials Cloud Archive", "website": "https://archive.materialscloud.org"}, "revision_id": 2, "slug": "mcarchive", "updated": "2025-06-23T09:44:35.537067+00:00"}], "ids": ["30074283-2e48-4526-b2df-c3c2191db3cb"]}, "id": "pevaa-vxx87", "pids": {"doi": {"client": "datacite", "identifier": "10.24435/materialscloud:1z-pd", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.24435/materialscloud:wk-qm", "provider": "datacite"}, "mcid": {"identifier": "2025.113", "provider": "mcid"}, "oai": {"identifier": "oai:materialscloud.org:zn7cy-7cs67", "provider": "oai"}}, "revision_id": 8, "stats": {"all_versions": {"data_volume": 985801010.0, "downloads": 1108, "unique_downloads": 1014, "unique_views": 701, "views": 803}, "this_version": {"data_volume": 985801010.0, "downloads": 1108, "unique_downloads": 1014, "unique_views": 701, "views": 803}}, "status": "published", "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "contributors": {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.", null], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium", null], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China", null]], "contributors": [{"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."]], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"]], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"]], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}]}, "created_date_l10n_long": "July 28, 2025", "creators": {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium.", null], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium", null], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China", null]], "creators": [{"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."]], "person_or_org": {"family_name": "Trinquet", "given_name": "Victor", "identifiers": [{"identifier": "0009-0001-2188-4824", "scheme": "orcid"}], "name": "Trinquet, Victor", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [2, "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"]], "person_or_org": {"family_name": "Evans", "given_name": "Matthew L.", "identifiers": [{"identifier": "0000-0002-1182-9098", "scheme": "orcid"}], "name": "Evans, Matthew L.", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}, {"affiliations": [[1, "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."], [3, "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"]], "person_or_org": {"family_name": "Rignanese", "given_name": "Gian-Marco", "identifiers": [{"identifier": "0000-0002-1422-1205", "scheme": "orcid"}], "name": "Rignanese, Gian-Marco", "type": "personal"}, "role": {"id": "contactperson", "title": "Contact person"}}]}, "custom_fields": {"mc_references": [{"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, J. Mater. Chem. C 13(35), 18197\u201318212 (2025).", "ref_comment": "Paper in which the active learning scheme is described along with its use for machine learning", "ref_link": {"ref_identifier": "10.1039/D5TC01335F", "ref_scheme": "doi"}, "ref_resource_type": "publication-article"}, {"ref_citation": "V. Trinquet, M. L. Evans, G.-M. Rignanese, arXiv:2504.01526 (2025)", "ref_comment": "Preprint", "ref_link": {"ref_identifier": "10.48550/arXiv.2504.01526", "ref_scheme": "doi"}, "ref_resource_type": "publication-preprint"}, {"ref_citation": "Visualisation portal", "ref_link": {"ref_identifier": "https://nlo.modl-uclouvain.org/", "ref_scheme": "url"}, "ref_resource_type": "website"}, {"ref_citation": "Github repository", "ref_link": {"ref_identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "ref_scheme": "url"}, "ref_resource_type": "software"}]}, "description_stripped": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "July 28, 2025", "publication_date_l10n_medium": "Jul 28, 2025", "related_identifiers": [{"identifier": "10.1039/D5TC01335F", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "publication-article", "title_l10n": "Journal article"}, "scheme": "doi"}, {"identifier": "10.48550/arXiv.2504.01526", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "publication-preprint", "title_l10n": "Preprint"}, "scheme": "doi"}, {"identifier": "https://nlo.modl-uclouvain.org/", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "other", "title_l10n": "Other"}, "scheme": "url"}, {"identifier": "https://github.com/modl-uclouvain/shg-ml-benchmarks", "relation_type": {"id": "issupplementto", "title_l10n": "Is supplement to"}, "resource_type": {"id": "software", "title_l10n": "Software"}, "scheme": "url"}, {"identifier": "https://optimade.materialscloud.org/archive/wk-qm", "relation_type": {"id": "issupplementedby", "title_l10n": "Is supplemented by"}, "scheme": "url"}, {"identifier": "https://chemiscope.materialscloud.io/?load=https%3A%2F%2Farchive.materialscloud.org%2Fapi%2Frecords%2Fzn7cy-7cs67%2Ffiles%2Fdataset_chemiscope.json.gz%2Fcontent%3Ffilename%3Ddataset_chemiscope.json.gz%26materials_cloud_doi%3D10.24435%2Fmaterialscloud%3Awk-qm", "relation_type": {"id": "issupplementedby", "title_l10n": "Is supplemented by"}, "scheme": "url"}], "resource_type": {"id": "dataset", "title_l10n": "Dataset"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "September 15, 2025", "version": "v1"}, "updated": "2025-09-15T10:15:03.511314+00:00", "versions": {"index": 1, "is_latest": true}}'
+  data-styles='[["apa", "APA"], ["harvard-cite-them-right", "Harvard"], ["modern-language-association", "MLA"], ["chicago-fullnote-bibliography", "Chicago"], ["ieee", "IEEE"], ["mcarchive", "Materials Cloud Archive"]]'
+  data-defaultstyle='"mcarchive"'
+  data-include-deleted='false'>
+</div>
+  </div>
+</div>
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Keywords</h2>
+    <div id="keywords-and-subjects" aria-label="Keywords"
+            class="ui segment bottom attached rdm-sidebar">
+        
+          <h3 class="hidden">Keywords</h3>
+          <ul class="ui horizontal list no-bullets subjects">
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22non-linear+optics%22"
+                  class="subject"
+                  title="Search results for non-linear optics"
+              >
+                non-linear optics
+              </a>
+            </li>
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22second-harmonic+generation%22"
+                  class="subject"
+                  title="Search results for second-harmonic generation"
+              >
+                second-harmonic generation
+              </a>
+            </li>
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22density-functional+theory%22"
+                  class="subject"
+                  title="Search results for density-functional theory"
+              >
+                density-functional theory
+              </a>
+            </li>
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22density-functional+perturbation+theory%22"
+                  class="subject"
+                  title="Search results for density-functional perturbation theory"
+              >
+                density-functional perturbation theory
+              </a>
+            </li>
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22high-throughput%22"
+                  class="subject"
+                  title="Search results for high-throughput"
+              >
+                high-throughput
+              </a>
+            </li>
+            <li class="item">
+              <a href="/search?q=metadata.subjects.subject:%22first+principles%22"
+                  class="subject"
+                  title="Search results for first principles"
+              >
+                first principles
+              </a>
+            </li>
+          </ul>
+        
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Licenses
+      <span
+        class="ui button question_mark"
+        data-html="
+          <div class='column'>
+            <p>
+            The licenses listed below are for the files of this record. 
+            Metadata is licensed under
+            <a href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank'>
+            CC BY-SA 4.0</a>,
+            except for email addresses. 
+            All metadata is exported via OAI-PMH and can be harvested.
+            </p>
+          </div>
+        "
+      >
+        <i 
+          style="position:relative"
+          class="question circle icon"
+          aria-expanded="true"
+          aria-label="More info"
+          >
+        </i>
+      </span>
+    </h2>        
+    <div id="licenses" class="ui segment bottom attached rdm-sidebar">
+
+      <ul class="details-list m-0 p-0">
+          <li id="license-cc-by-4.0-1" class="has-popup">
+            <div id="title-cc-by-4.0-1"
+                class="license clickable"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-expanded="false"
+                role="button"
+                aria-label="Creative Commons Attribution 4.0 International"
+            >
+              
+                
+                <span class="icon-wrap">
+                  <img class="icon" src="/static/icons/licenses/cc-by-icon.svg" alt="cc-by-4.0 icon"/>
+                </span>
+              
+
+              <span class="title-text">
+                Creative Commons Attribution 4.0 International
+              </span>
+            </div>
+            <div id="description-cc-by-4.0-1"
+                  class="licenses-description ui flowing popup transition hidden"
+                  role="dialog"
+                  aria-labelledby="title-cc-by-4.0-1"
+            >
+              <i role="button" tabindex="0" class="close icon text-muted" aria-label="Close"></i>
+
+              <div id="license-description-1" class="description">
+                <span class="text-muted">
+                  The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+                </span>
+                
+  
+      <a class="license-link" href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" title="Opens in new tab">Read more</a>
+  
+
+              </div>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Export</h2>
+    <div id="export-record" class="ui segment bottom attached exports rdm-sidebar">
+
+      
+      
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <div id="recordExportDownload" data-formats='[{"export_url": "/records/zn7cy-7cs67/export/json", "name": "JSON"}, {"export_url": "/records/zn7cy-7cs67/export/json-ld", "name": "JSON-LD"}, {"export_url": "/records/zn7cy-7cs67/export/csl", "name": "CSL"}, {"export_url": "/records/zn7cy-7cs67/export/datacite-json", "name": "DataCite JSON"}, {"export_url": "/records/zn7cy-7cs67/export/datacite-xml", "name": "DataCite XML"}, {"export_url": "/records/zn7cy-7cs67/export/dublincore", "name": "Dublin Core XML"}, {"export_url": "/records/zn7cy-7cs67/export/marcxml", "name": "MARCXML"}, {"export_url": "/records/zn7cy-7cs67/export/bibtex", "name": "BibTeX"}, {"export_url": "/records/zn7cy-7cs67/export/geojson", "name": "GeoJSON"}, {"export_url": "/records/zn7cy-7cs67/export/dcat-ap", "name": "DCAT"}, {"export_url": "/records/zn7cy-7cs67/export/codemeta", "name": "Codemeta"}, {"export_url": "/records/zn7cy-7cs67/export/cff", "name": "Citation File Format"}, {"export_url": "/records/zn7cy-7cs67/export/datapackage", "name": "Data Package JSON"}]'></div>
+    </div>
+  </div>
+          
+        </aside>
+      </div>
+    </div>
+
+    <div class="ui container">
+      <div class="ui relaxed grid">
+        <div class="two column row">
+          <div class="sixteen wide tablet eleven wide computer column">
+            <div class="ui grid">
+                <div class="centered row rel-mt-1">
+                  <button id="jump-btn" class="jump-to-top ui button labeled icon"
+                          aria-label="Jump to top of page">
+                    <i class="arrow alternate circle up outline icon"></i>
+                    Jump up
+                  </button>
+                </div>
+              </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        </main>
+
+        
+  
+  
+    
+        
+
+<script src="/static/dist/js/6488.381b78340158c5909ad3.js"></script>
+<script src="/static/dist/js/7655.a9627162b3bda099505b.js"></script>
+<script src="/static/dist/js/5158.716fab3d3aa5c8a2808a.js"></script>
+<script src="/static/dist/js/814.c9335d2e064ed8e3affe.js"></script>
+<script src="/static/dist/js/4561.03c5a104b4bd615c4bf8.js"></script>
+<script src="/static/dist/js/8118.6a8575a2d12927f0cd07.js"></script>
+<script src="/static/dist/js/6196.92a88bc5899fc699ca26.js"></script>
+<script src="/static/dist/js/base-theme-rdm.19c84c1c00e9d4ee8d3e.js"></script>
+<script src="/static/dist/js/i18n_app.ab0a4a6a8de2556a8b4b.js"></script>
+<script src="/static/dist/js/3088.f92709969ec20dfab813.js"></script>
+<script src="/static/dist/js/4970.c102d084d29e400cffdf.js"></script>
+<script src="/static/dist/js/7418.09362b4315dc03db60c6.js"></script>
+<script src="/static/dist/js/724.99b22838d89833f3dc3d.js"></script>
+<script src="/static/dist/js/1183.bd332ce8b26c43730479.js"></script>
+<script src="/static/dist/js/5368.de58556dd227178aa825.js"></script>
+<script src="/static/dist/js/8585.a4ebc5b8f55e6c23dc37.js"></script>
+<script src="/static/dist/js/6995.c176726ecfe16c6ee34f.js"></script>
+<script src="/static/dist/js/1644.7f087a07083b63e2b7e9.js"></script>
+<script src="/static/dist/js/9025.016f98bcde31ff200b8f.js"></script>
+<script src="/static/dist/js/2182.8457178834b7a38eaddb.js"></script>
+<script src="/static/dist/js/overridable-registry.e70e2d620e2a276b11f5.js"></script>
+  
+
+  <!-- jsonld -->
+    
+      <script type='application/ld+json'>{"@context": "http://schema.org", "@id": "https://doi.org/10.24435/materialscloud:wk-qm", "@type": "https://schema.org/Dataset", "author": [{"@id": "https://orcid.org/0009-0001-2188-4824", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "familyName": "Trinquet", "givenName": "Victor", "name": "Trinquet, Victor"}, {"@id": "https://orcid.org/0000-0002-1182-9098", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "familyName": "Evans", "givenName": "Matthew L.", "name": "Evans, Matthew L."}, {"@id": "https://orcid.org/0000-0002-1422-1205", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "familyName": "Rignanese", "givenName": "Gian-Marco", "name": "Rignanese, Gian-Marco"}], "contentSize": "4.92 MB", "creator": [{"@id": "https://orcid.org/0009-0001-2188-4824", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "familyName": "Trinquet", "givenName": "Victor", "name": "Trinquet, Victor"}, {"@id": "https://orcid.org/0000-0002-1182-9098", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "familyName": "Evans", "givenName": "Matthew L.", "name": "Evans, Matthew L."}, {"@id": "https://orcid.org/0000-0002-1422-1205", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "familyName": "Rignanese", "givenName": "Gian-Marco", "name": "Rignanese, Gian-Marco"}], "dateCreated": "2025-07-28T10:26:14.033216+00:00", "dateModified": "2025-09-15T10:15:03.511314+00:00", "datePublished": "2025-07-28", "description": "Due to their abundant use in all-solid-state lasers, nonlinear optical (NLO) crystals are needed for many applications across diverse fields such as medicine and communication. However, because of conflicting requirements, the design of suitable inorganic crystals with strong second-harmonic generation (SHG) has proven to be challenging to both experimentalists and computational scientists. In this work, we leverage a data-driven approach to accelerate the search for high-performance NLO materials. We construct an extensive pool of candidates using databases within the OPTIMADE federation and employ an active learning strategy to gather optimal data while iteratively improving a machine learning model. The result is a publicly accessible dataset of \u223c2,200 computed SHG tensors using density-functional perturbation theory. We further assess the performance of machine learning models on SHG prediction and introduce a multi-fidelity correction-learning scheme to refine data accuracy. This study represents a significant step towards data-driven materials discovery in the NLO field and demonstrates how new materials can be screened in an automated fashion.", "distribution": [{"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/optimade.yaml/content", "encodingFormat": "application/octet-stream"}, {"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/structures.tar.gz/content", "encodingFormat": "application/gzip"}, {"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/data.tar.gz/content", "encodingFormat": "application/gzip"}, {"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/dataset_chemiscope.json.gz/content", "encodingFormat": "application/gzip"}, {"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/README.md/content", "encodingFormat": "application/octet-stream"}, {"@type": "DataDownload", "contentUrl": "https://archive.materialscloud.org/api/records/zn7cy-7cs67/files/files_description.md/content", "encodingFormat": "application/octet-stream"}], "editor": [{"@id": "https://orcid.org/0009-0001-2188-4824", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}], "familyName": "Trinquet", "givenName": "Victor", "name": "Trinquet, Victor"}, {"@id": "https://orcid.org/0000-0002-1182-9098", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "Matgenix SRL, 185 Rue Armand Bury, 6534 Goz\u00e9e, Belgium"}], "familyName": "Evans", "givenName": "Matthew L.", "name": "Evans, Matthew L."}, {"@id": "https://orcid.org/0000-0002-1422-1205", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Institute of Condensed Matter and Nanoscience (IMCN), Universit\u00e9 Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium."}, {"@type": "Organization", "name": "School of Materials Science and Engineering, Northwestern Polytechnical University, Xi\u0027an, Shaanxi 710072, China"}], "familyName": "Rignanese", "givenName": "Gian-Marco", "name": "Rignanese, Gian-Marco"}], "encodingFormat": ["application/octet-stream", "application/gzip", "application/gzip", "application/gzip", "text/markdown", "text/markdown"], "identifier": "https://doi.org/10.24435/materialscloud:wk-qm", "inLanguage": {"@type": "Language", "alternateName": "eng", "name": "English"}, "keywords": "non-linear optics, second-harmonic generation, density-functional theory, density-functional perturbation theory, high-throughput, first principles", "license": "https://creativecommons.org/licenses/by/4.0/legalcode", "name": "Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening", "publisher": {"@type": "Organization", "name": "Materials Cloud"}, "size": "4.92 MB", "url": "https://archive.materialscloud.org/records/zn7cy-7cs67"}</script>
+
+  <!-- scroll to the mc_sections when clicking on badges -->
+  <script type="text/javascript">
+    var mc_sections = document.querySelectorAll('[id^="mc_sections_badge"]');
+    mc_sections.forEach(function (el) {
+      el.addEventListener('click', function() {
+        document.getElementById("mc_sections").scrollIntoView();
+      });
+    });
+  </script>
+
+  <script src="/static/dist/js/invenio-app-rdm-landing-page-theme.5af05548f6c51c7707de.js"></script>
+  <script src="/static/dist/js/6471.e6be7f185b8e5c234350.js"></script>
+<script src="/static/dist/js/1357.74a8b5cd9c8231dfd4be.js"></script>
+<script src="/static/dist/js/8962.bc829984d83b1a93d8f0.js"></script>
+<script src="/static/dist/js/5680.ee2cba58476e83413864.js"></script>
+<script src="/static/dist/js/invenio-app-rdm-landing-page.900cad1dbb5ce991f4b9.js"></script>
+  <script src="/static/dist/js/previewer_theme.4074f4edece6251b05dd.js"></script>
+  <!--
+    Copied the following code from invenio-app-rdm-landing-page-theme.js,
+    for some reason it does not read it from the invenio-app-rdm-landing-page-theme.js
+  -->
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+      // Record management popup (mobile)
+      $("#manage-record-btn").popup({
+        popup: $("#recordManagementMobile"),
+        on: "click",
+        position: "bottom right",
+        onVisible: function ($module) {
+          $($module).attr("aria-expanded", true);
+        },
+        onHidden: function ($module) {
+          $($module).attr("aria-expanded", false);
+        },
+      });
+    });
+  </script>
+        
+  </body>
+</html>

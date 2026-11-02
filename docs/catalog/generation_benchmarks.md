@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="openlam-crystal-philately"></a>
 ## OpenLAM Crystal Philately challenge collection
@@ -101,6 +101,41 @@ DFT-recomputed Materials Project and Alexandria structures filtered for small ce
 - Below a 0.1 eV/atom hull threshold does not mean experimentally synthesized.
 
 **Tags:** generation, MatterGen, Alexandria derivative, MP derivative.
+
+<a id="csllm-negatives"></a>
+## CSLLM non-synthesizable screening set
+
+Negative structural examples used to fine-tune a crystal-synthesis language model.
+
+**Size:** 106,470 CIF files (source wording: 106,470).
+
+**Scope:** CIF members of unsym_structs_screen.zip, Figshare file 54600665; no structural deduplication performed.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2025.
+
+**Provenance:** generated. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; non-synthesizable screening label.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/29086931) · [data](https://ndownloader.figshare.com/files/54600665)
+
+Other denominators (not added to the ranking):
+
+- 94,797 structures represented in MateriaViva: MateriaViva source alias csllm-negatives; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [CSLLM non-synthesizable screening set](https://figshare.com/articles/dataset/29086931) (checked 2026-11-02): Deposit describes initial non-synthesizable fine-tuning data; inspected ZIP contains 106,470 CIF files.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias csllm-negatives reports 94,797 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Non-synthesizable is a dataset label, not an experimental impossibility verdict.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, csllm-negatives.
 
 <a id="mp20-cdvae"></a>
 ## MP-20 (CDVAE benchmark)
@@ -228,3 +263,39 @@ Carbon allotrope benchmark selected from AIRSS calculations at 10 GPa; six to tw
 - Overlaps the larger AIRSS carbon source archive.
 
 **Tags:** generation, carbon, AIRSS, 10 GPa.
+
+<a id="wren"></a>
+## Wren prospective coordinate-free discovery dataset
+
+DFT validation structures and properties for materials selected by coordinate-free Wren predictions.
+
+**Size:** 4,721 converged DFT structures (source wording: 4,721).
+
+**Scope:** Rows in prospective.json.gz; 5,675 candidates were selected, of which 4,721 converged.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2022.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; formation energy; stability; coarse-grained structural descriptors.
+
+**Access:** open. **Dataset license:** MIT (deposit declaration).
+
+**Official routes:** [homepage](https://zenodo.org/records/6345276) · [data](https://zenodo.org/api/records/6345276/files/prospective.json.gz/content)
+
+Other denominators (not added to the ranking):
+
+- 4,694 structures represented in MateriaViva: MateriaViva source alias wren; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [Wren prospective coordinate-free discovery dataset](https://zenodo.org/records/6345276) (checked 2026-11-02): Deposit reports 4,721 converged structures from 5,675 selected candidates; downloaded split-oriented JSON has 4,721 data rows.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias wren reports 4,694 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Coordinate-free refers to the model representation; the prospective release includes calculated crystal structures.
+- Candidate selection is biased toward predicted stability.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, wren.

@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="csd"></a>
 ## Cambridge Structural Database (CSD)
@@ -242,6 +242,41 @@ Other denominators (not added to the ranking):
 - Primary provider page corroborates displayed counters; records were not independently deduplicated. The underlying base release remains 2010/06.
 
 **Tags:** NIMS, registration, historical-count, Inorganic Materials Database, NMIS (user-listed spelling).
+
+<a id="aflow-prototypes"></a>
+## AFLOW Encyclopedia of Crystallographic Prototypes
+
+Reference crystal prototypes with parameterized structures, symmetry labels and literature references.
+
+**Size:** 2,127 prototype CIF files (source wording: 2,127).
+
+**Scope:** Files ending /aflow.cif in the non-truncated repository tree at fb7421bb2522888b6a0a4ff91e124c6c65191096; not AFLOW calculation records.
+
+**Release:** Repository tree fb7421bb2522888b6a0a4ff91e124c6c65191096. **Year:** Not verified.
+
+**Provenance:** curated. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal prototype; space group; Pearson symbol; Strukturbericht designation.
+
+**Access:** open. **Dataset license:** Apache-2.0 (repository license).
+
+**Official routes:** [homepage](https://github.com/aflow-org/aflow_prototype_encyclopedia) · [data](https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data)
+
+Other denominators (not added to the ranking):
+
+- 629 structures represented in MateriaViva: MateriaViva source alias aflow-prototypes; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [AFLOW Encyclopedia of Crystallographic Prototypes](https://github.com/aflow-org/aflow_prototype_encyclopedia) (checked 2026-11-02): Pinned recursive Git tree fb7421bb2522888b6a0a4ff91e124c6c65191096 contains 2,127 aflow.cif paths; repository declares Apache-2.0.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias aflow-prototypes reports 629 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Prototype representatives are not a count of experimentally distinct compounds or DFT calculations.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, aflow-prototypes.
 
 <a id="magndata"></a>
 ## MAGNDATA

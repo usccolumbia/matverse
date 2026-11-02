@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="materiaviva-open"></a>
 ## MateriaViva Open
@@ -135,3 +135,75 @@ Atomic structures organized for high-throughput material featurizers and machine
 - API meta.data_available reports the total; meta.data_returned also contains that total despite only one data object. Use actual data-array length for downloaded sample size.
 
 **Tags:** Repository-coverage-20261101, mpdd, Material-Property-Descriptor Database (MPDD).
+
+<a id="cmr-static"></a>
+## CMR static collections — MateriaViva source group
+
+Source-group crosswalk for the MateriaViva import, with component datasets represented separately where known.
+
+**Size:** Unranked source-group structures (source wording: Unranked).
+
+**Scope:** Unranked: an exact independently countable provider release has not been established.
+
+**Release:** Source release checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** mixed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; electronic properties; energetics.
+
+**Access:** open. **Dataset license:** CC BY-SA 4.0 (CMR provider declaration).
+
+**Official routes:** [homepage](https://cmr.fysik.dtu.dk/)
+
+Other denominators (not added to the ranking):
+
+- 48,080 structures represented in MateriaViva: MateriaViva source alias cmr-static; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [CMR static collections — MateriaViva source group](https://cmr.fysik.dtu.dk/) (checked 2026-11-02): CMR lists separately downloadable ASE databases and declares CC BY-SA 4.0; MateriaViva names a grouped cmr-static source.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias cmr-static reports 48,080 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- No pinned component manifest establishes the exact imported group; its 48,080 imported structures are not a verified CMR-wide total.
+- Overlaps existing CMR component cards, including ABSe3, A2BCX4, ABX2 and perovskite datasets.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, cmr-static, source group, unresolved manifest.
+
+<a id="jarvis-specialized-structures"></a>
+## JARVIS specialized structures — MateriaViva source group
+
+Source-group crosswalk for the MateriaViva import, with component datasets represented separately where known.
+
+**Size:** Unranked source-group structures (source wording: Unranked).
+
+**Scope:** Unranked: an exact independently countable provider release has not been established.
+
+**Release:** Source release checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** mixed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; specialized computed properties.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (MateriaViva source-group declaration; verify individual deposits).
+
+**Official routes:** [homepage](https://doi.org/10.6084/m9.figshare.6815705)
+
+Other denominators (not added to the ranking):
+
+- 3,443 structures represented in MateriaViva: MateriaViva source alias jarvis-specialized-structures; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [JARVIS specialized structures — MateriaViva source group](https://doi.org/10.6084/m9.figshare.6815705) (checked 2026-11-02): MateriaViva lists a grouped source with 3,443 imported structures; its supplied DOI resolves specifically to JARVIS-DFT 2D rather than an enumerated multi-dataset manifest.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias jarvis-specialized-structures reports 3,443 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- The supplied DOI covers JARVIS-DFT 2D; it does not independently identify every specialized dataset in the group.
+- Exact component versions and deduplication remain unresolved; overlaps existing JARVIS specialized cards.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, jarvis-specialized-structures, source group, unresolved manifest.

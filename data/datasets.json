@@ -43096,5 +43096,882 @@
       "nist-trc-alloy",
       "NIST TRC Alloy Data"
     ]
+  },
+  {
+    "id": "csllm-negatives",
+    "name": "CSLLM non-synthesizable screening set",
+    "category": "generation_benchmarks",
+    "description": "Negative structural examples used to fine-tune a crystal-synthesis language model.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2025,
+    "count": 106470,
+    "count_display": "106,470",
+    "count_unit": "CIF files",
+    "count_scope": "CIF members of unsym_structs_screen.zip, Figshare file 54600665; no structural deduplication performed.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "generated",
+    "properties": [
+      "crystal structure",
+      "non-synthesizable screening label"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/29086931",
+      "data": "https://ndownloader.figshare.com/files/54600665"
+    },
+    "sources": [
+      {
+        "url": "https://figshare.com/articles/dataset/29086931",
+        "title": "CSLLM non-synthesizable screening set",
+        "evidence": "Deposit describes initial non-synthesizable fine-tuning data; inspected ZIP contains 106,470 CIF files.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias csllm-negatives reports 94,797 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Non-synthesizable is a dataset label, not an experimental impossibility verdict.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "csllm-negatives"
+    ],
+    "additional_counts": [
+      {
+        "value": 94797,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias csllm-negatives; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "fair-mofs",
+    "name": "FAIR-MOFs experimental and optimized structures",
+    "category": "porous_frameworks",
+    "description": "MOF structures linked to synthesis conditions, ligands, metal clusters, porosity and computed formation energies.",
+    "version": "Source release checked 2026-11-02",
+    "year": null,
+    "count": 45699,
+    "count_display": "45,699",
+    "count_unit": "curated experimental MOF structures",
+    "count_scope": "Provider-declared experimental structure collection; the 33,361 optimized structures form a separate overlapping representation.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "crystal structure",
+      "synthesis conditions",
+      "porosity",
+      "formation energy",
+      "open metal sites"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (deposit declaration)",
+    "links": {
+      "homepage": "https://zenodo.org/records/13254307"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/13254307",
+        "title": "FAIR-MOFs experimental and optimized structures",
+        "evidence": "Deposit describes 45,699 experimental CIFs and 33,361 geometry-optimized CIFs with associated property and synthesis files.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias fair-mofs reports 33,030 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Experimental and optimized structures are not additive unique-material counts.",
+      "Upstream crystallographic rights and coordinate lineage require record-level review; this card records the deposit license.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "fair-mofs"
+    ],
+    "additional_counts": [
+      {
+        "value": 33030,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias fair-mofs; overlapping imported membership, not the source-release total"
+      },
+      {
+        "value": 33361,
+        "unit": "geometry-optimized MOF structures",
+        "scope": "Provider-declared optimized subset, not additional unique materials"
+      }
+    ]
+  },
+  {
+    "id": "pcod",
+    "name": "Predicted Crystallography Open Database (PCOD)",
+    "category": "bulk_computed",
+    "description": "Predicted and enumerated inorganic crystal structures from ZEFSA II, GRINSP and related programs.",
+    "version": "Historical homepage total, November 2009; page checked 2026-11-02",
+    "year": 2009,
+    "count": 1062771,
+    "count_display": "1,062,771",
+    "count_unit": "predicted database entries",
+    "count_scope": "Historical November 2009 total printed on the current provider homepage; not a current live query count.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "generated",
+    "properties": [
+      "crystal structure",
+      "symmetry",
+      "composition"
+    ],
+    "access": "open",
+    "license": "Public domain (provider declaration)",
+    "links": {
+      "homepage": "https://www.crystallography.net/pcod/"
+    },
+    "sources": [
+      {
+        "url": "https://www.crystallography.net/pcod/",
+        "title": "Predicted Crystallography Open Database (PCOD)",
+        "evidence": "Homepage explicitly labels 1,062,771 entries as updated November 2009 and places contributed data in the public domain.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias pcod reports 12,418 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Distinct portal from TCOD and from the later Deem v2.1 SLC-good release; related generated structures overlap.",
+      "Historical count is not a verified current download inventory.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "pcod"
+    ],
+    "additional_counts": [
+      {
+        "value": 12418,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias pcod; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "wren",
+    "name": "Wren prospective coordinate-free discovery dataset",
+    "category": "generation_benchmarks",
+    "description": "DFT validation structures and properties for materials selected by coordinate-free Wren predictions.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2022,
+    "count": 4721,
+    "count_display": "4,721",
+    "count_unit": "converged DFT structures",
+    "count_scope": "Rows in prospective.json.gz; 5,675 candidates were selected, of which 4,721 converged.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "formation energy",
+      "stability",
+      "coarse-grained structural descriptors"
+    ],
+    "access": "open",
+    "license": "MIT (deposit declaration)",
+    "links": {
+      "homepage": "https://zenodo.org/records/6345276",
+      "data": "https://zenodo.org/api/records/6345276/files/prospective.json.gz/content"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/6345276",
+        "title": "Wren prospective coordinate-free discovery dataset",
+        "evidence": "Deposit reports 4,721 converged structures from 5,675 selected candidates; downloaded split-oriented JSON has 4,721 data rows.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias wren reports 4,694 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Coordinate-free refers to the model representation; the prospective release includes calculated crystal structures.",
+      "Candidate selection is biased toward predicted stability.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "wren"
+    ],
+    "additional_counts": [
+      {
+        "value": 4694,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias wren; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "novomag",
+    "name": "NovoMag magnetic materials database",
+    "category": "property_benchmarks",
+    "description": "Computed magnetic materials with structures, formation energies, magnetization and magnetic-anisotropy information.",
+    "version": "Source release checked 2026-11-02",
+    "year": null,
+    "count": 3826,
+    "count_display": "3,826",
+    "count_unit": "provider-reported database entries",
+    "count_scope": "Count declared in Zenodo record description; downloaded magdb.json contains 3,827 JSON Lines records, which are not presumed to be distinct materials.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "formation energy",
+      "magnetization",
+      "magnetic anisotropy"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://zenodo.org/records/17399362",
+      "data": "https://zenodo.org/api/records/17399362/files/magdb.json/content"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/17399362",
+        "title": "NovoMag magnetic materials database",
+        "evidence": "Deposit reports 3,826 entries including more than 300 Fe-based rare-earth-free magnets. Payload inspection finds 3,827 JSON Lines records.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias novomag reports 2,478 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "The one-record difference between the provider summary and payload remains unresolved; neither count is a deduplicated-material audit.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "novomag"
+    ],
+    "additional_counts": [
+      {
+        "value": 2478,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias novomag; overlapping imported membership, not the source-release total"
+      },
+      {
+        "value": 3827,
+        "unit": "JSON Lines records",
+        "scope": "Downloaded magdb.json; differs from the provider description count"
+      }
+    ]
+  },
+  {
+    "id": "aflow-prototypes",
+    "name": "AFLOW Encyclopedia of Crystallographic Prototypes",
+    "category": "experimental_crystallography",
+    "description": "Reference crystal prototypes with parameterized structures, symmetry labels and literature references.",
+    "version": "Repository tree fb7421bb2522888b6a0a4ff91e124c6c65191096",
+    "year": null,
+    "count": 2127,
+    "count_display": "2,127",
+    "count_unit": "prototype CIF files",
+    "count_scope": "Files ending /aflow.cif in the non-truncated repository tree at fb7421bb2522888b6a0a4ff91e124c6c65191096; not AFLOW calculation records.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "curated",
+    "properties": [
+      "crystal prototype",
+      "space group",
+      "Pearson symbol",
+      "Strukturbericht designation"
+    ],
+    "access": "open",
+    "license": "Apache-2.0 (repository license)",
+    "links": {
+      "homepage": "https://github.com/aflow-org/aflow_prototype_encyclopedia",
+      "data": "https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/aflow-org/aflow_prototype_encyclopedia",
+        "title": "AFLOW Encyclopedia of Crystallographic Prototypes",
+        "evidence": "Pinned recursive Git tree fb7421bb2522888b6a0a4ff91e124c6c65191096 contains 2,127 aflow.cif paths; repository declares Apache-2.0.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias aflow-prototypes reports 629 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Prototype representatives are not a count of experimentally distinct compounds or DFT calculations.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "aflow-prototypes"
+    ],
+    "additional_counts": [
+      {
+        "value": 629,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias aflow-prototypes; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "deem-zeolites-zenodo-8035241",
+    "name": "Deem PCOD v2.1 SLC-good — Zenodo release",
+    "category": "porous_frameworks",
+    "description": "Archived SLC-good subset of the predicted zeolite database, provided as three compressed files.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2023,
+    "count": 331000,
+    "count_display": "331,000",
+    "count_unit": "hypothetical zeolite frameworks",
+    "count_scope": "Approximate author-reported SLC-good v2.1 subset; Zenodo mirrors the three SLC-good archives. Archive members were not independently counted.",
+    "count_precision": "approximate",
+    "structure_level": "periodic_atomic",
+    "provenance": "generated",
+    "properties": [
+      "crystal structure",
+      "classical energy",
+      "density",
+      "symmetry"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (Zenodo deposit)",
+    "links": {
+      "homepage": "https://zenodo.org/records/8035241"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/8035241",
+        "title": "Deem PCOD v2.1 SLC-good — Zenodo release",
+        "evidence": "Deposit identifies the SLC-good sections of version 2.1 and provides three archives; the >2.6M number in its abstract refers to the full published database.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://mwdeem.org/PCOD/index.html",
+        "title": "Deem author download page",
+        "evidence": "Previously checked 2026-11-01: describes the approximately 331k v2.1 SLC-good subset. Count inherited from the existing catalog card, not remeasured.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias deem-zeolites reports 136,008 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Mirror of the existing Deem PCOD SLC-good card, not a new independent corpus.",
+      "Do not assign the full >2.6 million database count to this filtered release.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "deem-zeolites"
+    ],
+    "additional_counts": [
+      {
+        "value": 136008,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias deem-zeolites; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "jarvis-hmof",
+    "name": "hMOF — JARVIS-Atoms Figshare release",
+    "category": "porous_frameworks",
+    "description": "Hypothetical MOF structures and adsorption descriptors repackaged in JARVIS-Atoms JSON.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2021,
+    "count": 137651,
+    "count_display": "137,651",
+    "count_unit": "MOF records",
+    "count_scope": "JARVIS documented hmof count for the September 2021 JSON ZIP; not the original 137,953-structure Wilmer corpus.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "generated",
+    "properties": [
+      "crystal structure",
+      "gas adsorption",
+      "porosity"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/15127758",
+      "data": "https://ndownloader.figshare.com/files/30972655"
+    },
+    "sources": [
+      {
+        "url": "https://figshare.com/articles/dataset/15127758",
+        "title": "hMOF — JARVIS-Atoms Figshare release",
+        "evidence": "Figshare provides July and September 2021 JSON ZIPs and declares CC BY 4.0; the pinned JARVIS documentation inventory reports 137,651 data points.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://pages.nist.gov/jarvis/databases/",
+        "title": "JARVIS documented download inventory",
+        "evidence": "Frozen 2026-11-01 inventory lists hmof with 137651 data points and file 30972655; new live request returned HTTP 403.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias hmof reports 127,498 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "A format/release mirror overlapping the original hMOF catalog entry.",
+      "Count comes from documentation; the 387 MB ZIP was not fully parsed in this addition.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "hmof"
+    ],
+    "additional_counts": [
+      {
+        "value": 127498,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias hmof; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "jarvis-snumat",
+    "name": "SNUMAT hybrid band gaps — JARVIS Figshare release",
+    "category": "property_benchmarks",
+    "description": "SNUMAT hybrid-functional band gaps and relaxed structures repackaged with JARVIS-Atoms objects.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2022,
+    "count": 10481,
+    "count_display": "10,481",
+    "count_unit": "structure-property records",
+    "count_scope": "Rows parsed from snumat.json inside Figshare file 38521736.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "crystal structure",
+      "HSE band gap",
+      "GGA band gap",
+      "magnetic ordering",
+      "direct/indirect gap"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://figshare.com/articles/dataset/21713885",
+      "data": "https://ndownloader.figshare.com/files/38521736"
+    },
+    "sources": [
+      {
+        "url": "https://figshare.com/articles/dataset/21713885",
+        "title": "SNUMAT hybrid band gaps — JARVIS Figshare release",
+        "evidence": "ZIP payload contains 10,481 records with atoms, Structure_rlx, HSE/GGA gaps and magnetic-ordering fields.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias snumat reports 11,478 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Repackage of the SNUMAT publication dataset; does not add 10,481 independent new materials to that card.",
+      "MateriaViva imports a different number; equivalence to its selected source snapshot is not asserted.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "snumat"
+    ],
+    "additional_counts": [
+      {
+        "value": 11478,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias snumat; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "core-mof-2019",
+    "name": "CoRE MOF 2019 — public ASR and FSR release",
+    "category": "porous_frameworks",
+    "description": "Computation-ready experimental MOF structures with solvent-removal variants and pore descriptors.",
+    "version": "Source release checked 2026-11-02",
+    "year": 2019,
+    "count": 12020,
+    "count_display": "12,020",
+    "count_unit": "public ASR structure entries",
+    "count_scope": "Public all-solvent-removed (ASR) release declared by archive/CSV filenames; separate public FSR release contains 7,061 entries.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "experimental-derived",
+    "properties": [
+      "crystal structure",
+      "pore diameter",
+      "surface area",
+      "void fraction"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (deposit declaration)",
+    "links": {
+      "homepage": "https://zenodo.org/records/3677685"
+    },
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/3677685",
+        "title": "CoRE MOF 2019 — public ASR and FSR release",
+        "evidence": "Deposit provides public ASR files named 12020 and FSR files named 7061, separately from internal ASR metadata for 14,142 entries.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias core-mof reports 2,361 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "ASR and FSR overlap and must not be summed as distinct MOFs.",
+      "Internal metadata totals do not describe the public CIF archive; distinct from the existing CoRE MOF 2025 card.",
+      "Derived from CSD and web structures; preserve original crystallographic attribution and assess upstream rights.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "core-mof"
+    ],
+    "additional_counts": [
+      {
+        "value": 2361,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias core-mof; overlapping imported membership, not the source-release total"
+      },
+      {
+        "value": 7061,
+        "unit": "public FSR entries",
+        "scope": "Free-solvent-removed release; overlaps public ASR"
+      }
+    ]
+  },
+  {
+    "id": "cmr-static",
+    "name": "CMR static collections — MateriaViva source group",
+    "category": "aggregated_crystals",
+    "description": "Source-group crosswalk for the MateriaViva import, with component datasets represented separately where known.",
+    "version": "Source release checked 2026-11-02",
+    "year": null,
+    "count": null,
+    "count_display": "Unranked",
+    "count_unit": "source-group structures",
+    "count_scope": "Unranked: an exact independently countable provider release has not been established.",
+    "count_precision": "unknown",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "crystal structure",
+      "electronic properties",
+      "energetics"
+    ],
+    "access": "open",
+    "license": "CC BY-SA 4.0 (CMR provider declaration)",
+    "links": {
+      "homepage": "https://cmr.fysik.dtu.dk/"
+    },
+    "sources": [
+      {
+        "url": "https://cmr.fysik.dtu.dk/",
+        "title": "CMR static collections — MateriaViva source group",
+        "evidence": "CMR lists separately downloadable ASE databases and declares CC BY-SA 4.0; MateriaViva names a grouped cmr-static source.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias cmr-static reports 48,080 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "No pinned component manifest establishes the exact imported group; its 48,080 imported structures are not a verified CMR-wide total.",
+      "Overlaps existing CMR component cards, including ABSe3, A2BCX4, ABX2 and perovskite datasets.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "cmr-static",
+      "source group",
+      "unresolved manifest"
+    ],
+    "additional_counts": [
+      {
+        "value": 48080,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias cmr-static; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "jarvis-specialized-structures",
+    "name": "JARVIS specialized structures — MateriaViva source group",
+    "category": "aggregated_crystals",
+    "description": "Source-group crosswalk for the MateriaViva import, with component datasets represented separately where known.",
+    "version": "Source release checked 2026-11-02",
+    "year": null,
+    "count": null,
+    "count_display": "Unranked",
+    "count_unit": "source-group structures",
+    "count_scope": "Unranked: an exact independently countable provider release has not been established.",
+    "count_precision": "unknown",
+    "structure_level": "periodic_atomic",
+    "provenance": "mixed",
+    "properties": [
+      "crystal structure",
+      "specialized computed properties"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0 (MateriaViva source-group declaration; verify individual deposits)",
+    "links": {
+      "homepage": "https://doi.org/10.6084/m9.figshare.6815705"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.6084/m9.figshare.6815705",
+        "title": "JARVIS specialized structures — MateriaViva source group",
+        "evidence": "MateriaViva lists a grouped source with 3,443 imported structures; its supplied DOI resolves specifically to JARVIS-DFT 2D rather than an enumerated multi-dataset manifest.",
+        "verified_date": "2026-11-02"
+      },
+      {
+        "url": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+        "title": "MateriaViva source database table",
+        "evidence": "Source alias jarvis-specialized-structures reports 3,443 represented structures. This imported denominator is separate from the source-release count.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "The supplied DOI covers JARVIS-DFT 2D; it does not independently identify every specialized dataset in the group.",
+      "Exact component versions and deduplication remain unresolved; overlaps existing JARVIS specialized cards.",
+      "Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "jarvis-specialized-structures",
+      "source group",
+      "unresolved manifest"
+    ],
+    "additional_counts": [
+      {
+        "value": 3443,
+        "unit": "structures represented in MateriaViva",
+        "scope": "MateriaViva source alias jarvis-specialized-structures; overlapping imported membership, not the source-release total"
+      }
+    ]
+  },
+  {
+    "id": "mcloud-a2bc2-electrides",
+    "name": "A2BC2 ternary electride discovery — Materials Cloud",
+    "category": "property_benchmarks",
+    "description": "Crystal structures and computed properties from the Materials Cloud deposit zt-z4.",
+    "version": "Materials Cloud DOI zt-z4; checked 2026-11-02",
+    "year": null,
+    "count": 290,
+    "count_display": "290",
+    "count_unit": "CIF files",
+    "count_scope": "CIF members in structures.tar.gz, including initial and MP-compatible relaxed representations.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "electron localization function",
+      "formation energy",
+      "crystal structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://doi.org/10.24435/materialscloud:zt-z4",
+      "data": "https://archive.materialscloud.org/records/z24e6-dv880"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.24435/materialscloud:zt-z4",
+        "title": "A2BC2 ternary electride discovery — Materials Cloud",
+        "evidence": "Materials Cloud deposit identifies Machine learning-accelerated discovery of A₂BC₂ ternary electrides with diverse anionic electron densities. Inspected structures.tar.gz contains 290 CIF files.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Generated candidate library (14,437), high-throughput candidates (1,254), and 214 known phases in the abstract are separate denominators; 290 CIFs can include multiple representations of a compound.",
+      "One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "mcloud-a2bc2-electrides",
+      "materials-cloud-archive-static",
+      "zt-z4"
+    ]
+  },
+  {
+    "id": "mcloud-nonlinear-optics",
+    "name": "Active-learning nonlinear optical crystals — Materials Cloud",
+    "category": "property_benchmarks",
+    "description": "Crystal structures and computed properties from the Materials Cloud deposit 1z-pd.",
+    "version": "Materials Cloud DOI 1z-pd; checked 2026-11-02",
+    "year": null,
+    "count": 2233,
+    "count_display": "2,233",
+    "count_unit": "CIF files",
+    "count_scope": "CIF members in structures.tar.gz; provider describes approximately 2,200 computed SHG tensors.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "second harmonic generation",
+      "SHG tensor",
+      "crystal structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://doi.org/10.24435/materialscloud:1z-pd",
+      "data": "https://archive.materialscloud.org/records/zn7cy-7cs67"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.24435/materialscloud:1z-pd",
+        "title": "Active-learning nonlinear optical crystals — Materials Cloud",
+        "evidence": "Materials Cloud deposit identifies Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening. Inspected structures.tar.gz contains 2,233 CIF files.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "CIF-file count is not an independently deduplicated compound count; property availability can vary.",
+      "One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "mcloud-nonlinear-optics",
+      "materials-cloud-archive-static",
+      "1z-pd"
+    ]
+  },
+  {
+    "id": "mcloud-optical-discovery",
+    "name": "Federated optical materials discovery — Materials Cloud",
+    "category": "property_benchmarks",
+    "description": "Crystal structures and computed properties from the Materials Cloud deposit ed-g2.",
+    "version": "Materials Cloud DOI ed-g2; checked 2026-11-02",
+    "year": null,
+    "count": 2413,
+    "count_display": "2,413",
+    "count_unit": "CIF files",
+    "count_scope": "CIF members in structures.tar.gz associated with the refractive-index dataset.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "refractive index",
+      "dielectric response",
+      "crystal structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://doi.org/10.24435/materialscloud:ed-g2",
+      "data": "https://archive.materialscloud.org/records/rr3za-8c528"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.24435/materialscloud:ed-g2",
+        "title": "Federated optical materials discovery — Materials Cloud",
+        "evidence": "Materials Cloud deposit identifies Optical materials discovery and design with federated databases and machine learning. Inspected structures.tar.gz contains 2,413 CIF files.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "The >30 million structures accessible in the OPTIMADE federation are search space, not the deposited dataset size.",
+      "One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "mcloud-optical-discovery",
+      "materials-cloud-archive-static",
+      "ed-g2"
+    ]
+  },
+  {
+    "id": "mcloud-topological-ml",
+    "name": "Machine learning on topological materials datasets — Materials Cloud",
+    "category": "property_benchmarks",
+    "description": "Crystal structures and computed properties from the Materials Cloud deposit m0-zg.",
+    "version": "Materials Cloud DOI m0-zg; checked 2026-11-02",
+    "year": null,
+    "count": 35608,
+    "count_display": "35,608",
+    "count_unit": "materials records",
+    "count_scope": "Provider-declared combined Materiae and Topological Materials Database dataset.",
+    "count_precision": "exact",
+    "structure_level": "periodic_atomic",
+    "provenance": "computed",
+    "properties": [
+      "topological classification",
+      "crystal structure"
+    ],
+    "access": "open",
+    "license": "CC BY 4.0",
+    "links": {
+      "homepage": "https://doi.org/10.24435/materialscloud:m0-zg",
+      "data": "https://archive.materialscloud.org/records/gnv15-27a69"
+    },
+    "sources": [
+      {
+        "url": "https://doi.org/10.24435/materialscloud:m0-zg",
+        "title": "Machine learning on topological materials datasets — Materials Cloud",
+        "evidence": "Materials Cloud deposit identifies Machine learning on multiple topological materials datasets. Deposit description reports 35,608 materials and provides OPTIMADE JSONL and topological data.",
+        "verified_date": "2026-11-02"
+      }
+    ],
+    "caveats": [
+      "Combines overlapping parent databases; no independent deduplication or full payload count was performed.",
+      "One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total."
+    ],
+    "tags": [
+      "MateriaViva source coverage",
+      "mcloud-topological-ml",
+      "materials-cloud-archive-static",
+      "m0-zg"
+    ]
   }
 ]

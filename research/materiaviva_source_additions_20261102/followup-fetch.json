@@ -1,0 +1,42 @@
+[
+  {
+    "key": "pcod-page",
+    "url": "https://www.crystallography.net/pcod/",
+    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  },
+  {
+    "key": "cmr-page",
+    "url": "https://cmr.fysik.dtu.dk/",
+    "bytes": 24444,
+    "sha256": "3e0c5b471c055e2b8c9025e65abab3c512aad7a0ddd746259cad0b6461664722"
+  },
+  {
+    "key": "jarvis-docs",
+    "url": "https://pages.nist.gov/jarvis/databases/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "mc-zt-z4",
+    "url": "https://archive.materialscloud.org/api/records/z24e6-dv880",
+    "bytes": 15350,
+    "sha256": "346bc5c7fb27cbafb1b05e9975a6debb2838b48d5834a3568d8fbb58405f358f"
+  },
+  {
+    "key": "mc-1z-pd",
+    "url": "https://archive.materialscloud.org/api/records/zn7cy-7cs67",
+    "bytes": 15326,
+    "sha256": "9afa9a72f2e52afc55ad93dd88b49f31cf9aef9b93e6aa940cd67f1838381632"
+  },
+  {
+    "key": "mc-ed-g2",
+    "url": "https://archive.materialscloud.org/api/records/rr3za-8c528",
+    "bytes": 14612,
+    "sha256": "b5a5a080a80e2881656de7e39c1cc71177714ab01d6ff1a8e70fc56f229a3a30"
+  },
+  {
+    "key": "mc-m0-zg",
+    "url": "https://archive.materialscloud.org/api/records/gnv15-27a69",
+    "bytes": 13053,
+    "sha256": "d268de02e7fc15239d324b2a2dd14b1fc3b1fe26d7757e38e9fba4285c171e9d"
+  }
+]

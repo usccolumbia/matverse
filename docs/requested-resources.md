@@ -1,6 +1,6 @@
 # Requested materials-data resources: coverage and current routes
 
-Checked 2026-11-01. Every one of the 32 distinct supplied URLs is preserved in [sources.md](../sources.md) and the [searchable supplied-list collection](https://usccolumbia.github.io/matverse/?view=sources&collection=user_resources_20261101). Exact duplicate CDCS and UCSD SRD mentions are documented in the [input inventory](../research/collection_user_resources_20261101.json) and counted once here.
+Checked 2026-11-02. Every one of the 32 distinct supplied URLs is preserved in [sources.md](../sources.md) and the [searchable supplied-list collection](https://usccolumbia.github.io/matverse/?view=sources&collection=user_resources_20261101). Exact duplicate CDCS and UCSD SRD mentions are documented in the [input inventory](../research/collection_user_resources_20261101.json) and counted once here.
 
 Historical numbers in the supplied descriptions are discovery context. The dataset cards retain verified release-specific counts, units, access and evidence. Registries, curation software, model archives and adjacent polymer resources remain identifiable as resources rather than being counted as additional crystal corpora.
 

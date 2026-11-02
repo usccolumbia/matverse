@@ -1,0 +1,76 @@
+[
+  {
+    "id": "csllm",
+    "url": "https://ndownloader.figshare.com/files/54600665",
+    "bytes": 66013103,
+    "sha256": "3f67164fdbae872a7cb8f2ffd1a39405d332bbaca2e2218525e06c01553fafd5",
+    "file_count": 106471,
+    "files": [
+      "unsym_structs_screen/",
+      "unsym_structs_screen/1.cif",
+      "unsym_structs_screen/101.cif",
+      "unsym_structs_screen/123.cif",
+      "unsym_structs_screen/171.cif",
+      "unsym_structs_screen/332.cif",
+      "unsym_structs_screen/542.cif",
+      "unsym_structs_screen/599.cif",
+      "unsym_structs_screen/692.cif",
+      "unsym_structs_screen/1015.cif"
+    ],
+    "cif_files": 106470
+  },
+  {
+    "id": "snumat",
+    "url": "https://ndownloader.figshare.com/files/38521736",
+    "bytes": 7909016,
+    "sha256": "f023cbc0fd022f5be22a66178c3339fa0244931b452079e1625a9da2cf0269cb",
+    "file_count": 1,
+    "files": [
+      "snumat.json"
+    ],
+    "cif_files": 0,
+    "rows": 10481,
+    "sample_keys": [
+      "ICSD_number",
+      "Band_gap_HSE",
+      "Band_gap_GGA",
+      "Band_gap_GGA_optical",
+      "Direct_or_indirect",
+      "SOC",
+      "Space_group_rlx",
+      "Magnetic_ordering",
+      "Direct_or_indirect_HSE",
+      "SNUMAT_id",
+      "Band_gap_HSE_optical",
+      "Structure_rlx",
+      "atoms"
+    ]
+  },
+  {
+    "id": "wren",
+    "url": "https://zenodo.org/api/records/6345276/files/prospective.json.gz/content",
+    "bytes": 10870685,
+    "sha256": "86dd813faf905a3901585bd5cc2d708f700a12793935c4b0000e59bab002795f",
+    "root_type": "dict",
+    "root_len": 3,
+    "sample_keys": [
+      "index",
+      "columns",
+      "data"
+    ],
+    "list_lengths": {
+      "index": 4721,
+      "columns": 15,
+      "data": 4721
+    }
+  },
+  {
+    "id": "novomag",
+    "url": "https://zenodo.org/api/records/17399362/files/magdb.json/content",
+    "initial_parse_error": "Extra data: line 2 column 1 (char 3816)",
+    "format": "JSON Lines",
+    "rows": 3827,
+    "bytes": 25704157,
+    "sha256": "125bb5f10608b59c825f6642deea4df81fe41020e58990bf098c33f3cc865e7d"
+  }
+]

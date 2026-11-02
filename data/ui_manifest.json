@@ -1,16 +1,16 @@
 {
-  "catalog_date": "2026-11-01",
-  "dataset_records": 532,
+  "catalog_date": "2026-11-02",
+  "dataset_records": 548,
   "resources": 103,
-  "api_access_routes": 35,
+  "api_access_routes": 49,
   "source_entries": 3433,
   "source_collections": 15,
   "sha256": {
     "assets/matverse-logo.png": "186e1a1ed5589f96b4b93050f49c209aad31bff239dbc7dd9d943ec000e1c92d",
     "assets/mleg-logo-dark.png": "7bd24d88dfbffcce889db4528c345c4cba226fef48c18eaf5437ef256a9fed77",
-    "data/datasets.json": "5f82fa41649e11fd05693080d0bea977714a0cae8b21752452af1e5866c685ec",
+    "data/datasets.json": "dfa5f4377b85a42de2549c415d01e351de53783cff514515c297960a1379c8f1",
     "data/resources.json": "04daeb7c2ade6f9e86cfe8f8166d14301a5d77436362c7b67b42adcb5ef9ef1f",
-    "data/api_sources.json": "5d1583db3d5e19379496eb861f9b076eec8a4d7702248d28f815332c61d0e97e",
+    "data/api_sources.json": "5e3c53a1a694010dbda1ead5f57700b23d5f4394935d65275357fcc9c416dfab",
     "scripts/catalog_supplements.py": "2b0b2113bf66bad1d3f2a8e88a7d332ea8510f9c2549b9acc131060468e63d91",
     "web/index.template.html": "1c0ed52c1df6c9db9d3288bb52a2d5834951d440391358804d544bab16c9dced",
     "web/styles.css": "439fa1f10468af7d2c09507d5daf57cfe3e12b6a052302f95feeaaa1eec4481f",
@@ -19,7 +19,7 @@
     "research/collection_additional_20261101.json": "e642ea1ff447e80bd129583115f926251734b02c979c15dbc5c3c60fe402a240",
     "research/collection_blaiszik.json": "a31eea035404648c58874f5f95c1c16fdecbbb2c5dde9533911ca123d3bc98eb",
     "research/collection_datagov_20261101.json": "fd2be3960e5b387d104fb3e5227ad29500d457f3dcf4e0af4b01b3f44cfd6b72",
-    "research/collection_jarvis_databases.json": "58dd81bdca414d7ff9764dfbe5d9a40791088280dfd7d0016d6c12860b82e152",
+    "research/collection_jarvis_databases.json": "ea7a7618c6497f4190df822ef1b1a770b091059197f3252d839a126ed94bc093",
     "research/collection_jarvis_notebooks.json": "fdf8858af8517d8fdb5b05f1d18df8135e83fc1975becd831c5f91b31f4f7d46",
     "research/collection_mastml.json": "99babb75920f3f47c91ae183296e4cec8a1161a52adfc9c7745ce3e1d6e971a6",
     "research/collection_matbench_discovery_20261101.json": "b526049a93c6fd8078d187a58e59e66c5bb9198f1f036fa2fff387ce0a77ce36",
@@ -32,6 +32,6 @@
     "research/collection_sedaoturak.json": "99eb77eba43715f14d8cb47708e3c88190b1a893028539742d12f0bb858b30c5",
     "research/collection_user_resources_20261101.json": "9d093bc1208406c1857b15c6e734ebb9507e712ab3e2901d642a033c71453d47"
   },
-  "index_sha256": "be83c2082c2902e9c45d9be62f19ce91d55f1a22c8df7e4af9185c60dc45fcb6",
+  "index_sha256": "dac1f8d471abc88fce17d2b1a7a7c4b0468a3bd50644c6d960773551fca92c83",
   "note": "One standalone HTML file; no network requests are needed to search or export the embedded catalog."
 }

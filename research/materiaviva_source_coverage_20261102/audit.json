@@ -1,0 +1,1172 @@
+{
+  "date": "2026-11-02",
+  "catalog_commit": "3633858be178ef31bf7e9abfdcfc9dde9e667cae",
+  "datasets_sha256": "5f82fa41649e11fd05693080d0bea977714a0cae8b21752452af1e5866c685ec",
+  "source": "https://huggingface.co/datasets/AI4QC/MateriaViva-Open",
+  "source_table_sha256": "c9f2e6e0895d6b3fad0dbafacaa6f01e248029033148efdfbd9a6aef472bcda4",
+  "counts": {
+    "present": 25,
+    "partial": 6,
+    "missing": 7
+  },
+  "rows": [
+    {
+      "source_id": "alexandria",
+      "name": "Alexandria Materials Database (`alexandria`)",
+      "materiaviva_structures": 5895932,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://alexandria.icams.rub.de/about.html",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "alexandria",
+          "name": "Alexandria",
+          "count": 5800000,
+          "count_unit": "DFT-relaxed structures",
+          "version": "2025-07-02 PBE release, described in 2026 paper",
+          "license": "CC BY 4.0 (provider About page)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#alexandria"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-band-gap-direct",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-dos-at-fermi",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-phase-separation-energy",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "lemat-bulk",
+      "name": "LeMat-Bulk (Entalpic; MP + OQMD + Alexandria) (`lemat-bulk`)",
+      "materiaviva_structures": 4273800,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "lemat-bulk",
+          "name": "LeMat-Bulk",
+          "count": 6725590,
+          "count_unit": "structure records",
+          "version": "Main card/config metadata snapshot (2025 release)",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/aggregated_crystals.md#lemat-bulk"
+        }
+      ],
+      "materiaviva_property_mentions": [],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "nomad",
+      "name": "NOMAD Repository and Archive (`nomad`)",
+      "materiaviva_structures": 3835327,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://nomad-lab.eu/nomad-lab/terms.html",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "nomad-bulk",
+          "name": "NOMAD Repository & Archive — bulk crystals",
+          "count": 15065560,
+          "count_unit": "public bulk-crystal archive entries",
+          "version": "Public production API query snapshot, 2026-11-01; owner=public and results.material.structural_type=bulk",
+          "license": "CC BY 4.0 for open-access content under NOMAD terms; metadata CC0 unless otherwise specified; cite original contributors and sources.",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#nomad-bulk"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-bulk-modulus-reuss",
+        "materiaviva-property-bulk-modulus-voigt",
+        "materiaviva-property-bulk-modulus-vrh",
+        "materiaviva-property-max-residual-force",
+        "materiaviva-property-shear-modulus-reuss",
+        "materiaviva-property-shear-modulus-voigt",
+        "materiaviva-property-shear-modulus-vrh",
+        "materiaviva-property-volume-per-atom"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "oqmd",
+      "name": "Open Quantum Materials Database (`oqmd`)",
+      "materiaviva_structures": 1285892,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://oqmd.org/download/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "oqmd",
+          "name": "OQMD",
+          "count": 1407395,
+          "count_unit": "materials entries",
+          "version": "Provider page snapshot, checked 2026-11-01",
+          "license": "CC BY 4.0 (OQMD download terms)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#oqmd"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-magnetization-per-atom",
+        "materiaviva-property-total-energy-per-atom"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "matbench-discovery",
+      "name": "Matbench Discovery / WBM (`matbench-discovery`)",
+      "materiaviva_structures": 355228,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://figshare.com/articles/dataset/Matbench_Discovery_v1_0_0/22715158",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "wbm-matbench-discovery",
+          "name": "WBM / Matbench Discovery stability test set",
+          "count": 256963,
+          "count_unit": "structure entries",
+          "version": "Matbench Discovery filtered WBM release",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#wbm-matbench-discovery"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-total-energy-per-atom"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "mof-carbon-capture",
+      "name": "Hypothetical MOFs for wet flue-gas carbon capture (`mof-carbon-capture`)",
+      "materiaviva_structures": 287610,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://archive.materialscloud.org/record/2018.0016/v3",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "boyd-woo",
+          "name": "Boyd-Woo hypothetical MOFs for wet flue-gas capture",
+          "count": 324426,
+          "count_unit": "generated MOF structures",
+          "version": "Materials Cloud 2018.0016 v3, deposited 2019",
+          "license": "Creative Commons Attribution 4.0 International",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#boyd-woo"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-co2-heat-of-adsorption",
+        "materiaviva-property-co2-n2-selectivity",
+        "materiaviva-property-co2-uptake",
+        "materiaviva-property-largest-cavity-diameter",
+        "materiaviva-property-n2-heat-of-adsorption",
+        "materiaviva-property-n2-uptake",
+        "materiaviva-property-pore-limiting-diameter",
+        "materiaviva-property-pore-volume",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-surface-area-gravimetric",
+        "materiaviva-property-void-fraction",
+        "materiaviva-property-working-capacity-temperature-swing",
+        "materiaviva-property-working-capacity-vacuum-swing"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "cod",
+      "name": "Crystallography Open Database (`cod`)",
+      "materiaviva_structures": 265903,
+      "materiaviva_declared_license": "CC0-1.0",
+      "source_url": "https://www.crystallography.net/cod/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "cod",
+          "name": "Crystallography Open Database (COD)",
+          "count": 535025,
+          "count_unit": "entries",
+          "version": "Live homepage, accessed 2026-11-01",
+          "license": "CC0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/experimental_crystallography.md#cod"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-chemical-name",
+        "materiaviva-property-measurement-pressure",
+        "materiaviva-property-measurement-temperature",
+        "materiaviva-property-mineral-name"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "carolina",
+      "name": "Carolina Materials Database (`carolina`)",
+      "materiaviva_structures": 210000,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "http://www.carolinamatdb.org/terms/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "carolina",
+          "name": "Carolina Materials Database",
+          "count": 214436,
+          "count_unit": "inorganic materials entries",
+          "version": "Provider page snapshot, checked 2026-11-01",
+          "license": "CC BY 4.0 (provider Terms of Use)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#carolina"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "jarvis-qetb",
+      "name": "NIST JARVIS-QETB tight-binding dataset (`jarvis-qetb`)",
+      "materiaviva_structures": 191606,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.15127788",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "jarvis-qetb",
+          "name": "JARVIS-QETB / TB3PY DFT database",
+          "count": 829574,
+          "count_unit": "DFT structure records",
+          "version": "JARVIS qe_tb documentation / pinned downloader snapshot 2026-11-01",
+          "license": "CC BY 4.0 (Figshare deposit)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#jarvis-qetb"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-total-energy-per-atom"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "materials-project",
+      "name": "Materials Project (`materials-project`)",
+      "materiaviva_structures": 168989,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://legacy.materialsproject.org/terms",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "materials-project",
+          "name": "Materials Project",
+          "count": 271325,
+          "count_unit": "crystal structure records",
+          "version": "Materials Explorer count reported 2026-11-01",
+          "license": "CC BY 4.0 for core data; GNoME-origin data carry separate BY-NC acceptance",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#materials-project"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-average-oxidation-states",
+        "materiaviva-property-average-voltage",
+        "materiaviva-property-band-gap",
+        "materiaviva-property-battery-formula",
+        "materiaviva-property-bulk-modulus-eos",
+        "materiaviva-property-bulk-modulus-pressure-derivative",
+        "materiaviva-property-bulk-modulus-reuss",
+        "materiaviva-property-bulk-modulus-voigt",
+        "materiaviva-property-bulk-modulus-vrh",
+        "materiaviva-property-capacity-gravimetric",
+        "materiaviva-property-capacity-volumetric",
+        "materiaviva-property-cbm",
+        "materiaviva-property-continuous-symmetry-measure",
+        "materiaviva-property-coordination-environments",
+        "materiaviva-property-debye-temperature",
+        "materiaviva-property-decomposes-to",
+        "materiaviva-property-decomposition-energy",
+        "materiaviva-property-dielectric-constant-electronic",
+        "materiaviva-property-dielectric-constant-ionic",
+        "materiaviva-property-dielectric-constant-total",
+        "materiaviva-property-elastic-anisotropy",
+        "materiaviva-property-electrode-stability-charged",
+        "materiaviva-property-electrode-stability-discharged",
+        "materiaviva-property-electrode-volume-change",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-energy-density-gravimetric",
+        "materiaviva-property-energy-density-volumetric",
+        "materiaviva-property-experimentally-observed",
+        "materiaviva-property-fermi-energy",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-grain-boundary-energy",
+        "materiaviva-property-grain-boundary-types",
+        "materiaviva-property-has-reconstructed-surface",
+        "materiaviva-property-is-gap-direct",
+        "materiaviva-property-is-metal",
+        "materiaviva-property-is-stable",
+        "materiaviva-property-lattice-thermal-conductivity",
+        "materiaviva-property-magnetic-ordering",
+        "materiaviva-property-magnetic-species",
+        "materiaviva-property-magnetization-per-volume",
+        "materiaviva-property-max-voltage-step",
+        "materiaviva-property-num-voltage-steps",
+        "materiaviva-property-oxidation-states",
+        "materiaviva-property-piezoelectric-max-direction",
+        "materiaviva-property-piezoelectric-modulus",
+        "materiaviva-property-poisson-ratio",
+        "materiaviva-property-refractive-index",
+        "materiaviva-property-shear-modulus-reuss",
+        "materiaviva-property-shear-modulus-voigt",
+        "materiaviva-property-shear-modulus-vrh",
+        "materiaviva-property-sound-velocity-longitudinal",
+        "materiaviva-property-sound-velocity-transverse",
+        "materiaviva-property-surface-anisotropy",
+        "materiaviva-property-surface-energy",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization",
+        "materiaviva-property-vbm",
+        "materiaviva-property-work-function",
+        "materiaviva-property-work-of-separation",
+        "materiaviva-property-working-ion",
+        "materiaviva-property-wulff-shape-factor"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "camd",
+      "name": "CAMD 2022 coarse-grained discovery set (Ye, Lei, Aykol, Montoya), via ODBX (`camd`)",
+      "materiaviva_structures": 136205,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.19601956.v1",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "camd-crystal-discoveries-2022",
+          "name": "CAMD autonomous crystal discovery corpus",
+          "count": 96640,
+          "count_unit": "crystal structure records",
+          "version": "CAMD2022 Figshare v1",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#camd-crystal-discoveries-2022"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "deem-zeolites",
+      "name": "Deem PCOD hypothetical zeolites v2.1 (`deem-zeolites`)",
+      "materiaviva_structures": 136008,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://zenodo.org/records/8035241",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "pcod-zeolites",
+          "name": "Deem hypothetical zeolites / PCOD SLC-good",
+          "count": 331000,
+          "count_unit": "hypothetical zeolite frameworks",
+          "version": "v2.1 SLC-good download subset",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#pcod-zeolites"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-bulk-modulus-reuss",
+        "materiaviva-property-bulk-modulus-voigt",
+        "materiaviva-property-bulk-modulus-vrh",
+        "materiaviva-property-density",
+        "materiaviva-property-dielectric-constant-electronic",
+        "materiaviva-property-dielectric-constant-total",
+        "materiaviva-property-energy-per-t-atom",
+        "materiaviva-property-framework-density",
+        "materiaviva-property-poisson-ratio",
+        "materiaviva-property-shear-modulus-reuss",
+        "materiaviva-property-shear-modulus-voigt",
+        "materiaviva-property-shear-modulus-vrh",
+        "materiaviva-property-sound-velocity-longitudinal",
+        "materiaviva-property-sound-velocity-transverse",
+        "materiaviva-property-youngs-modulus"
+      ],
+      "note": "Related Deem / PCOD SLC-good dataset is present, but not the specific Zenodo 8035241 release cited by MateriaViva."
+    },
+    {
+      "source_id": "hmof",
+      "name": "Hypothetical MOF database (JARVIS figshare re-upload) (`hmof`)",
+      "materiaviva_structures": 127498,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://figshare.com/articles/dataset/15127758",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "hmof-wilmer",
+          "name": "Wilmer hypothetical MOF database (hMOF)",
+          "count": 137953,
+          "count_unit": "generated MOF structures",
+          "version": "Original 2011/2012 publication corpus",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#hmof-wilmer"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-co2-uptake",
+        "materiaviva-property-largest-cavity-diameter",
+        "materiaviva-property-pore-limiting-diameter",
+        "materiaviva-property-surface-area-gravimetric",
+        "materiaviva-property-surface-area-volumetric",
+        "materiaviva-property-void-fraction"
+      ],
+      "note": "Original Wilmer hMOF corpus is present; the JARVIS Figshare 15127758 repack has no separate dataset card."
+    },
+    {
+      "source_id": "csllm-negatives",
+      "name": "CSLLM non-synthesizable screening set (`csllm-negatives`)",
+      "materiaviva_structures": 94797,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.29086931",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-predicted-synthesizable"
+      ],
+      "note": "No independent CSLLM negative/screening-set card."
+    },
+    {
+      "source_id": "jarvis-dft",
+      "name": "NIST JARVIS-DFT 3D (`jarvis-dft`)",
+      "materiaviva_structures": 58423,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.6815699",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "jarvis-dft-3d",
+          "name": "JARVIS-DFT 3D",
+          "count": 75993,
+          "count_unit": "structure records",
+          "version": "dft_3d / 2022-12-12 downloader release",
+          "license": "CC BY 4.0 (3D Figshare dataset)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#jarvis-dft-3d"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-bulk-modulus-vrh",
+        "materiaviva-property-dielectric-constant-electronic",
+        "materiaviva-property-dielectric-constant-ionic",
+        "materiaviva-property-dielectric-constant-total",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-effective-mass-electron",
+        "materiaviva-property-effective-mass-hole",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-exfoliation-energy",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-has-imaginary-phonon",
+        "materiaviva-property-nmr-efg-max",
+        "materiaviva-property-phonon-max-frequency",
+        "materiaviva-property-phonon-min-frequency",
+        "materiaviva-property-piezoelectric-modulus",
+        "materiaviva-property-poisson-ratio",
+        "materiaviva-property-power-factor",
+        "materiaviva-property-seebeck-coefficient",
+        "materiaviva-property-shear-modulus-vrh",
+        "materiaviva-property-slme",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-spillage",
+        "materiaviva-property-tc-superconducting",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "cmr-static",
+      "name": "DTU Computational Materials Repository (`cmr-static`)",
+      "materiaviva_structures": 48080,
+      "materiaviva_declared_license": "CC-BY-SA-4.0",
+      "source_url": "https://cmr.fysik.dtu.dk/",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "cmr-abse3",
+          "name": "CMR ABSe3 ternary selenides",
+          "count": 5976,
+          "count_unit": "ASE calculation/structure rows",
+          "version": "Provider ASE database snapshot 2026-11-01",
+          "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#cmr-abse3"
+        },
+        {
+          "id": "cmr-a2bcx4",
+          "name": "CMR A2BCX4 quaternary chalcogenides",
+          "count": 1368,
+          "count_unit": "ASE calculation/structure rows",
+          "version": "Provider ASE database snapshot 2026-11-01",
+          "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#cmr-a2bcx4"
+        },
+        {
+          "id": "cmr-abx2",
+          "name": "CMR ABX2 photovoltaic polytypes",
+          "count": 123,
+          "count_unit": "ASE calculation/structure rows",
+          "version": "Provider ASE database snapshot 2026-11-01",
+          "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#cmr-abx2"
+        },
+        {
+          "id": "cmr-perovskite-absorption",
+          "name": "CMR perovskite optical-absorption spectra",
+          "count": 79,
+          "count_unit": "ASE calculation/structure rows",
+          "version": "Provider ASE database snapshot 2026-11-01",
+          "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#cmr-perovskite-absorption"
+        },
+        {
+          "id": "cmr-c2dm-2015",
+          "name": "CMR C2DM transition-metal monolayer electronic structures (2015)",
+          "count": 494,
+          "count_unit": "ASE calculation/structure rows",
+          "version": "Provider ASE database snapshot 2026-11-01",
+          "license": "Not verified: CMR index declares CC BY-SA 4.0, while the browser footer declares CC BY-NC 4.0; dataset-specific scope requires clarification",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#cmr-c2dm-2015"
+        },
+        {
+          "id": "c2db",
+          "name": "Computational 2D Materials Database (C2DB)",
+          "count": 16789,
+          "count_unit": "database rows",
+          "version": "2024-05-01 release listed on official 2DHub page",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#c2db"
+        },
+        {
+          "id": "bidb",
+          "name": "van der Waals Bilayer Database (BiDB)",
+          "count": 8451,
+          "count_unit": "homobilayer configurations",
+          "version": "2024 publication dataset",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#bidb"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-effective-mass-electron",
+        "materiaviva-property-effective-mass-hole",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-gllbsc-derivative-discontinuity",
+        "materiaviva-property-heat-of-formation",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-total-energy-per-atom"
+      ],
+      "note": "Several CMR collections have individual cards, and CMR has a resource card; the grouped 48,080-structure MateriaViva input has no independently resolved manifest/card."
+    },
+    {
+      "source_id": "fair-mofs",
+      "name": "FAIR-MOFs (`fair-mofs`)",
+      "materiaviva_structures": 33030,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://zenodo.org/records/13254307",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-framework-bond-dissociation-energy",
+        "materiaviva-property-largest-cavity-diameter",
+        "materiaviva-property-largest-free-path-diameter",
+        "materiaviva-property-pore-channel-count",
+        "materiaviva-property-pore-limiting-diameter",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-surface-area-volumetric",
+        "materiaviva-property-void-fraction"
+      ],
+      "note": "No independent FAIR-MOFs card."
+    },
+    {
+      "source_id": "mc3d",
+      "name": "Materials Cloud MC3D (`mc3d`)",
+      "materiaviva_structures": 28969,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://archive.materialscloud.org/records/szjaf-cfv74",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "mc3d",
+          "name": "Materials Cloud 3D (MC3D)",
+          "count": 32013,
+          "count_unit": "unique optimized structures",
+          "version": "PBEsol-v2 (2025 paper)",
+          "license": "CC BY 4.0 (Materials Cloud record)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#mc3d"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "materials-cloud-archive-static",
+      "name": "Materials Cloud Archive static datasets (zt-z4, 1z-pd, ed-g2, m0-zg) (`materials-cloud-archive-static`)",
+      "materiaviva_structures": 22704,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://api.datacite.org/dois/10.24435/materialscloud:m0-zg",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-band-gap-direct",
+        "materiaviva-property-birefringence",
+        "materiaviva-property-elf-max",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-refractive-index",
+        "materiaviva-property-shg-coefficient",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-topology-class",
+        "materiaviva-property-topology-invariant"
+      ],
+      "note": "No independent cards for the four listed DOI releases: zt-z4 (A2BC2 electrides), 1z-pd (nonlinear optics), ed-g2 (optical-materials discovery), m0-zg (topological ML datasets). The combined count must not be assigned to each child."
+    },
+    {
+      "source_id": "qmof",
+      "name": "Quantum MOF Database (`qmof`)",
+      "materiaviva_structures": 18555,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://github.com/Andrew-S-Rosen/QMOF",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "qmof",
+          "name": "Quantum MOF Database (QMOF)",
+          "count": 20000,
+          "count_unit": "DFT-optimized structures",
+          "version": "Figshare v18 / current author documentation",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#qmof"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-density",
+        "materiaviva-property-experimentally-observed",
+        "materiaviva-property-is-gap-direct",
+        "materiaviva-property-largest-cavity-diameter",
+        "materiaviva-property-pore-limiting-diameter",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "pcod",
+      "name": "Predicted Crystallography Open Database (`pcod`)",
+      "materiaviva_structures": 12418,
+      "materiaviva_declared_license": "public-domain",
+      "source_url": "https://www.crystallography.net/pcod/",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-framework-density",
+        "materiaviva-property-structure-prediction-r-factor"
+      ],
+      "note": "No independent Predicted Crystallography Open Database card. Existing Deem/PCOD SLC-good and TCOD cards are different resources."
+    },
+    {
+      "source_id": "snumat",
+      "name": "SNUMAT hybrid-functional database (`snumat`)",
+      "materiaviva_structures": 11478,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://figshare.com/articles/dataset/21713885",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "snumat-hybrid-gap",
+          "name": "SNUMAT hybrid-functional band-gap dataset",
+          "count": 10481,
+          "count_unit": "materials",
+          "version": "Publication finite-gap release (Figshare v7 update 2021)",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#snumat-hybrid-gap"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-is-gap-direct",
+        "materiaviva-property-magnetic-ordering",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "The 10,481 finite-gap publication release (Figshare 12839240) is present, not the cited Figshare 21713885 repack."
+    },
+    {
+      "source_id": "phonondb",
+      "name": "NIMS MDR phonon database (phonondb) (`phonondb`)",
+      "materiaviva_structures": 7449,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://mdr.nims.go.jp/collections/d7aab932-8512-4b9a-b93d-b61f6e5e7019?locale=en",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "phonondb-mdr",
+          "name": "PhononDB / MDR harmonic phonon calculation database",
+          "count": 10034,
+          "count_unit": "material calculation entries",
+          "version": "Kyoto v2018-04-07 parent; migrated MDR collection checked 2026-11-01",
+          "license": "Creative Commons BY Attribution 4.0 International",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#phonondb-mdr"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-born-effective-charge-max",
+        "materiaviva-property-dielectric-constant-electronic",
+        "materiaviva-property-has-imaginary-phonon",
+        "materiaviva-property-heat-capacity",
+        "materiaviva-property-phonon-max-frequency",
+        "materiaviva-property-phonon-min-frequency",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "2dmatpedia",
+      "name": "2DMatPedia (`2dmatpedia`)",
+      "materiaviva_structures": 6491,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.7699910.v3",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "2dmatpedia",
+          "name": "2DMatPedia",
+          "count": 6351,
+          "count_unit": "monolayer structures",
+          "version": "Figshare v3, 2019",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#2dmatpedia"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-exfoliation-energy",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "phonix",
+      "name": "Phonix anharmonic phonon database (`phonix`)",
+      "materiaviva_structures": 5031,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://phonix-db.org/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "phonix",
+          "name": "Phonix anharmonic phonon database",
+          "count": 20912,
+          "count_unit": "unique materials",
+          "version": "v2026.03.28",
+          "license": "Creative Commons Attribution 4.0 International",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#phonix"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-eos-bulk-modulus",
+        "materiaviva-property-has-imaginary-phonon",
+        "materiaviva-property-lattice-thermal-conductivity",
+        "materiaviva-property-lattice-thermal-conductivity-coherence",
+        "materiaviva-property-lattice-thermal-conductivity-particle",
+        "materiaviva-property-phonon-max-frequency",
+        "materiaviva-property-phonon-min-frequency",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "wren",
+      "name": "Wren coordinate-free coarse-graining set (Goodall et al.), via ODBX (`wren`)",
+      "materiaviva_structures": 4694,
+      "materiaviva_declared_license": "MIT",
+      "source_url": "https://doi.org/10.5281/zenodo.6345276",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-formation-energy-per-atom"
+      ],
+      "note": "No independent Wren dataset card; its coordinate-free/coarse-grained scope needs explicit labeling."
+    },
+    {
+      "source_id": "c2db",
+      "name": "Computational 2D Materials Database (`c2db`)",
+      "materiaviva_structures": 3493,
+      "materiaviva_declared_license": "CC-BY-SA-4.0",
+      "source_url": "https://2dhub.org/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "c2db",
+          "name": "Computational 2D Materials Database (C2DB)",
+          "count": 16789,
+          "count_unit": "database rows",
+          "version": "2024-05-01 release listed on official 2DHub page",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#c2db"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-fermi-energy",
+        "materiaviva-property-work-function"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "jarvis-specialized-structures",
+      "name": "NIST JARVIS specialized structure datasets (`jarvis-specialized-structures`)",
+      "materiaviva_structures": 3443,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.6815705",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "jarvis-2d",
+          "name": "JARVIS-DFT 2D snapshot",
+          "count": 1103,
+          "count_unit": "2D material records",
+          "version": "d2-12-12-2022.json / Figshare v8",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#jarvis-2d"
+        },
+        {
+          "id": "jarvis-wtbh-electron",
+          "name": "JARVIS-WTBH electron Hamiltonians",
+          "count": 1440,
+          "count_unit": "electron Hamiltonian entries",
+          "version": "JARVIS wtbh_electron documentation / pinned downloader snapshot 2026-11-01",
+          "license": "Not verified for selected 1,440-entry index snapshot; original four-part Figshare Hamiltonian collection declares CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#jarvis-wtbh-electron"
+        },
+        {
+          "id": "jarvis-wtbh-phonon",
+          "name": "JARVIS-WTBH phonon Hamiltonians",
+          "count": 15502,
+          "count_unit": "phonon Hamiltonian entries",
+          "version": "JARVIS wtbh_phonon documentation / pinned downloader snapshot 2026-11-01",
+          "license": "Not verified for the Hamiltonian payloads",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#jarvis-wtbh-phonon"
+        },
+        {
+          "id": "jarvis-supercon-3d",
+          "name": "JARVIS superconductivity 3D DFT cohort",
+          "count": 1058,
+          "count_unit": "materials",
+          "version": "JARVIS-Tools named supercon_3d release",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#jarvis-supercon-3d"
+        },
+        {
+          "id": "jarvis-supercon-2d",
+          "name": "JARVIS superconductivity 2D DFT cohort",
+          "count": 161,
+          "count_unit": "materials",
+          "version": "JARVIS-Tools named supercon_2d release",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#jarvis-supercon-2d"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-dielectric-constant-electronic",
+        "materiaviva-property-dielectric-constant-ionic",
+        "materiaviva-property-dielectric-constant-total",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-effective-mass-electron",
+        "materiaviva-property-effective-mass-hole",
+        "materiaviva-property-electron-phonon-coupling",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-exfoliation-energy",
+        "materiaviva-property-formation-energy-per-atom",
+        "materiaviva-property-has-imaginary-phonon",
+        "materiaviva-property-phonon-log-average-frequency",
+        "materiaviva-property-phonon-max-frequency",
+        "materiaviva-property-phonon-min-frequency",
+        "materiaviva-property-power-factor",
+        "materiaviva-property-seebeck-coefficient",
+        "materiaviva-property-slme",
+        "materiaviva-property-spillage",
+        "materiaviva-property-tc-superconducting",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "Multiple specialized JARVIS cards exist; the grouped alias is not enumerated as an exact source snapshot. The supplied 6815705 DOI specifically identifies JARVIS-DFT 2D."
+    },
+    {
+      "source_id": "mc2d",
+      "name": "Materials Cloud MC2D (`mc2d`)",
+      "materiaviva_structures": 3164,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://archive.materialscloud.org/records/17gf6-84915",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "mc2d",
+          "name": "Materials Cloud Two-Dimensional Structure Database (MC2D)",
+          "count": 3077,
+          "count_unit": "monolayer compounds",
+          "version": "Materials Cloud 2022.84 v1 / 2023 paper",
+          "license": "Creative Commons Attribution 4.0 International",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#mc2d"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-interlayer-binding-energy",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "superband",
+      "name": "SuperBand (`superband`)",
+      "materiaviva_structures": 3147,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://github.com/ljcj007/SuperBand/blob/main/LICENSE.md",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "superband",
+          "name": "SuperBand electronic-band / superconductivity dataset",
+          "count": 2474,
+          "count_unit": "materials",
+          "version": "Scientific Data 2025 band-data release",
+          "license": "Creative Commons Attribution 4.0 (database); MIT (software)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/property_benchmarks.md#superband"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-tc-superconducting"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "tcod",
+      "name": "Theoretical Crystallography Open Database (`tcod`)",
+      "materiaviva_structures": 2803,
+      "materiaviva_declared_license": "CC0-1.0",
+      "source_url": "https://www.crystallography.net/tcod/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "tcod",
+          "name": "Theoretical Crystallography Open Database (TCOD)",
+          "count": 362294,
+          "count_unit": "theoretical crystal structure entries",
+          "version": "Provider/API snapshot, checked 2026-11-01",
+          "license": "CC0 1.0; acknowledge original structural-data authors",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#tcod"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-density",
+        "materiaviva-property-dielectric-constant-total"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "novomag",
+      "name": "NovoMag magnetic materials database (`novomag`)",
+      "materiaviva_structures": 2478,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://zenodo.org/records/17399362",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-curie-temperature",
+        "materiaviva-property-decomposition-energy",
+        "materiaviva-property-easy-axis",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-magnetic-anisotropy-constant",
+        "materiaviva-property-magnetic-ordering",
+        "materiaviva-property-magnetic-polarization",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-total-energy-per-atom",
+        "materiaviva-property-total-magnetization"
+      ],
+      "note": "No independent NovoMag card."
+    },
+    {
+      "source_id": "core-mof",
+      "name": "CoRE MOF 2019 (public ASR/FSR) (`core-mof`)",
+      "materiaviva_structures": 2361,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://zenodo.org/records/3677685",
+      "status": "partial",
+      "catalog_matches": [
+        {
+          "id": "core-mof",
+          "name": "CoRE MOF Database",
+          "count": 43439,
+          "count_unit": "MOF structure records",
+          "version": "CoRE MOF 2025 v1.0",
+          "license": "CC BY 4.0 for Zenodo SI deposit; CSD-derived files have additional CCDC access terms",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#core-mof"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-density",
+        "materiaviva-property-largest-cavity-diameter",
+        "materiaviva-property-largest-free-path-diameter",
+        "materiaviva-property-pore-limiting-diameter",
+        "materiaviva-property-pore-volume",
+        "materiaviva-property-surface-area-gravimetric",
+        "materiaviva-property-surface-area-volumetric",
+        "materiaviva-property-void-fraction"
+      ],
+      "note": "CoRE MOF 2025 is cataloged; the specific 2019 ASR/FSR release (Zenodo 3677685) has no separate card."
+    },
+    {
+      "source_id": "bidb",
+      "name": "2DHub van der Waals Bilayer Database (`bidb`)",
+      "materiaviva_structures": 1023,
+      "materiaviva_declared_license": "CC-BY-SA-4.0",
+      "source_url": "https://2dhub.org/",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "bidb",
+          "name": "van der Waals Bilayer Database (BiDB)",
+          "count": 8451,
+          "count_unit": "homobilayer configurations",
+          "version": "2024 publication dataset",
+          "license": "Not verified",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/two_dimensional.md#bidb"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-band-gap",
+        "materiaviva-property-band-gap-direct",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-dynamically-stable",
+        "materiaviva-property-energy-above-hull",
+        "materiaviva-property-layer-group-number",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "curated-cof",
+      "name": "CURATED-COFs (`curated-cof`)",
+      "materiaviva_structures": 757,
+      "materiaviva_declared_license": "MIT",
+      "source_url": "https://github.com/danieleongari/CURATED-COFs/blob/master/LICENSE",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "curated-cofs",
+          "name": "CURATED covalent organic frameworks",
+          "count": 871,
+          "count_unit": "valid COF structures",
+          "version": "July 2022 extension; Materials Cloud archive updated 2023-11-02",
+          "license": "Creative Commons Attribution 4.0 International (Materials Cloud files)",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#curated-cofs"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-structure-prototype"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "aflow-prototypes",
+      "name": "AFLOW Encyclopedia of Crystallographic Prototypes (`aflow-prototypes`)",
+      "materiaviva_structures": 629,
+      "materiaviva_declared_license": "Apache-2.0",
+      "source_url": "https://github.com/aflow-org/aflow_prototype_encyclopedia",
+      "status": "missing",
+      "catalog_matches": [],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-mineral-name",
+        "materiaviva-property-pearson-symbol",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-structure-prototype",
+        "materiaviva-property-strukturbericht"
+      ],
+      "note": "No independent AFLOW prototype encyclopedia card; a general AFLOW card is not equivalent."
+    },
+    {
+      "source_id": "hex-high-pressure",
+      "name": "HEX high-pressure elemental crystal structures (`hex-high-pressure`)",
+      "materiaviva_structures": 241,
+      "materiaviva_declared_license": "CC0-1.0",
+      "source_url": "https://doi.org/10.6084/m9.figshare.25403968.v1",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "hex-high-pressure-elements",
+          "name": "HEX high-pressure elemental crystals",
+          "count": 228,
+          "count_unit": "element-pressure ground-state cases",
+          "version": "Figshare collection v1 / article 25403968 v1",
+          "license": "CC0 1.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/bulk_computed.md#hex-high-pressure-elements"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-measurement-pressure",
+        "materiaviva-property-spacegroup-number"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    },
+    {
+      "source_id": "open-framework-aluminophosphate",
+      "name": "Open-framework aluminophosphate database (`open-framework-aluminophosphate`)",
+      "materiaviva_structures": 186,
+      "materiaviva_declared_license": "CC-BY-4.0",
+      "source_url": "https://figshare.com/articles/dataset/Database_of_Open-Framework_Aluminophosphate_Structures/7822574",
+      "status": "present",
+      "catalog_matches": [
+        {
+          "id": "alpo-open-framework",
+          "name": "Open-framework aluminophosphate structure database",
+          "count": 312,
+          "count_unit": "crystal structures",
+          "version": "Figshare v6",
+          "license": "CC BY 4.0",
+          "url": "https://github.com/usccolumbia/matverse/blob/main/docs/catalog/porous_frameworks.md#alpo-open-framework"
+        }
+      ],
+      "materiaviva_property_mentions": [
+        "materiaviva-property-chemical-name",
+        "materiaviva-property-dimensionality",
+        "materiaviva-property-framework-density",
+        "materiaviva-property-r-factor",
+        "materiaviva-property-spacegroup-number",
+        "materiaviva-property-structure-prototype"
+      ],
+      "note": "Independent dataset-family card exists; its stated release, denominator and license scope remain authoritative. This does not certify equivalence to the MateriaViva imported subset."
+    }
+  ]
+}

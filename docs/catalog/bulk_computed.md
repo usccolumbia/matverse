@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="matterverse"></a>
 ## Matterverse
@@ -172,6 +172,42 @@ Open Quantum Materials Database of DFT thermodynamic and structural properties.
 - Predominantly computed entries, including prototype decorations; not a count of experimental discoveries.
 
 **Tags:** OQDM (user-listed spelling).
+
+<a id="pcod"></a>
+## Predicted Crystallography Open Database (PCOD)
+
+Predicted and enumerated inorganic crystal structures from ZEFSA II, GRINSP and related programs.
+
+**Size:** 1,062,771 predicted database entries (source wording: 1,062,771).
+
+**Scope:** Historical November 2009 total printed on the current provider homepage; not a current live query count.
+
+**Release:** Historical homepage total, November 2009; page checked 2026-11-02. **Year:** 2009.
+
+**Provenance:** generated. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; symmetry; composition.
+
+**Access:** open. **Dataset license:** Public domain (provider declaration).
+
+**Official routes:** [homepage](https://www.crystallography.net/pcod/)
+
+Other denominators (not added to the ranking):
+
+- 12,418 structures represented in MateriaViva: MateriaViva source alias pcod; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [Predicted Crystallography Open Database (PCOD)](https://www.crystallography.net/pcod/) (checked 2026-11-02): Homepage explicitly labels 1,062,771 entries as updated November 2009 and places contributed data in the public domain.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias pcod reports 12,418 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Distinct portal from TCOD and from the later Deem v2.1 SLC-good release; related generated structures overlap.
+- Historical count is not a verified current download inventory.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, pcod.
 
 <a id="jarvis-qetb"></a>
 ## JARVIS-QETB / TB3PY DFT database

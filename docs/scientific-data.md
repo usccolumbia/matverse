@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../README.md) · [Journal](https://www.nature.com/sdata/) · [Search catalog additions](https://usccolumbia.github.io/matverse/?q=%22Scientific-Data-survey-20261101%22)
 
-Checked 2026-11-01. This pass adds **90 dataset/release records**. The catalog now links **131 records to 128 distinct Scientific Data descriptors**. A descriptor can cover several releases or subsets; these are not independent material totals.
+Checked 2026-11-02. This pass adds **90 dataset/release records**. The catalog now links **131 records to 128 distinct Scientific Data descriptors**. A descriptor can cover several releases or subsets; these are not independent material totals.
 
 ## Search scope and audit trail
 

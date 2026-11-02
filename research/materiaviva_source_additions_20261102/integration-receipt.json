@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-02",
+  "before_records": 532,
+  "after_records": 548,
+  "added_records": 16,
+  "api_routes": 49,
+  "source_rows": 38,
+  "cataloged_source_rows": 36,
+  "searchable_unranked_source_groups": 2,
+  "rows": [
+    {
+      "source_id": "alexandria",
+      "materiaviva_structures": 5895932,
+      "catalog_ids": [
+        "alexandria"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "lemat-bulk",
+      "materiaviva_structures": 4273800,
+      "catalog_ids": [
+        "lemat-bulk"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "nomad",
+      "materiaviva_structures": 3835327,
+      "catalog_ids": [
+        "nomad-bulk"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "oqmd",
+      "materiaviva_structures": 1285892,
+      "catalog_ids": [
+        "oqmd"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "matbench-discovery",
+      "materiaviva_structures": 355228,
+      "catalog_ids": [
+        "wbm-matbench-discovery"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "mof-carbon-capture",
+      "materiaviva_structures": 287610,
+      "catalog_ids": [
+        "boyd-woo"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "cod",
+      "materiaviva_structures": 265903,
+      "catalog_ids": [
+        "cod"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "carolina",
+      "materiaviva_structures": 210000,
+      "catalog_ids": [
+        "carolina"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "jarvis-qetb",
+      "materiaviva_structures": 191606,
+      "catalog_ids": [
+        "jarvis-qetb"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "materials-project",
+      "materiaviva_structures": 168989,
+      "catalog_ids": [
+        "materials-project"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "camd",
+      "materiaviva_structures": 136205,
+      "catalog_ids": [
+        "camd-crystal-discoveries-2022"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "deem-zeolites",
+      "materiaviva_structures": 136008,
+      "catalog_ids": [
+        "deem-zeolites-zenodo-8035241"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "hmof",
+      "materiaviva_structures": 127498,
+      "catalog_ids": [
+        "jarvis-hmof"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "csllm-negatives",
+      "materiaviva_structures": 94797,
+      "catalog_ids": [
+        "csllm-negatives"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "jarvis-dft",
+      "materiaviva_structures": 58423,
+      "catalog_ids": [
+        "jarvis-dft-3d"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "cmr-static",
+      "materiaviva_structures": 48080,
+      "catalog_ids": [
+        "cmr-static"
+      ],
+      "status": "group_manifest_unresolved"
+    },
+    {
+      "source_id": "fair-mofs",
+      "materiaviva_structures": 33030,
+      "catalog_ids": [
+        "fair-mofs"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "mc3d",
+      "materiaviva_structures": 28969,
+      "catalog_ids": [
+        "mc3d"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "materials-cloud-archive-static",
+      "materiaviva_structures": 22704,
+      "catalog_ids": [
+        "mcloud-a2bc2-electrides",
+        "mcloud-nonlinear-optics",
+        "mcloud-optical-discovery",
+        "mcloud-topological-ml"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "qmof",
+      "materiaviva_structures": 18555,
+      "catalog_ids": [
+        "qmof"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "pcod",
+      "materiaviva_structures": 12418,
+      "catalog_ids": [
+        "pcod"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "snumat",
+      "materiaviva_structures": 11478,
+      "catalog_ids": [
+        "jarvis-snumat"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "phonondb",
+      "materiaviva_structures": 7449,
+      "catalog_ids": [
+        "phonondb-mdr"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "2dmatpedia",
+      "materiaviva_structures": 6491,
+      "catalog_ids": [
+        "2dmatpedia"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "phonix",
+      "materiaviva_structures": 5031,
+      "catalog_ids": [
+        "phonix"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "wren",
+      "materiaviva_structures": 4694,
+      "catalog_ids": [
+        "wren"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "c2db",
+      "materiaviva_structures": 3493,
+      "catalog_ids": [
+        "c2db"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "jarvis-specialized-structures",
+      "materiaviva_structures": 3443,
+      "catalog_ids": [
+        "jarvis-specialized-structures"
+      ],
+      "status": "group_manifest_unresolved"
+    },
+    {
+      "source_id": "mc2d",
+      "materiaviva_structures": 3164,
+      "catalog_ids": [
+        "mc2d"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "superband",
+      "materiaviva_structures": 3147,
+      "catalog_ids": [
+        "superband"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "tcod",
+      "materiaviva_structures": 2803,
+      "catalog_ids": [
+        "tcod"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "novomag",
+      "materiaviva_structures": 2478,
+      "catalog_ids": [
+        "novomag"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "core-mof",
+      "materiaviva_structures": 2361,
+      "catalog_ids": [
+        "core-mof-2019"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "bidb",
+      "materiaviva_structures": 1023,
+      "catalog_ids": [
+        "bidb"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "curated-cof",
+      "materiaviva_structures": 757,
+      "catalog_ids": [
+        "curated-cofs"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "aflow-prototypes",
+      "materiaviva_structures": 629,
+      "catalog_ids": [
+        "aflow-prototypes"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "hex-high-pressure",
+      "materiaviva_structures": 241,
+      "catalog_ids": [
+        "hex-high-pressure-elements"
+      ],
+      "status": "cataloged"
+    },
+    {
+      "source_id": "open-framework-aluminophosphate",
+      "materiaviva_structures": 186,
+      "catalog_ids": [
+        "alpo-open-framework"
+      ],
+      "status": "cataloged"
+    }
+  ],
+  "datasets_sha256": "dfa5f4377b85a42de2549c415d01e351de53783cff514515c297960a1379c8f1",
+  "validation": {
+    "python_tests": 4,
+    "ui_tests": 31,
+    "generated_views": "passed",
+    "local_markdown_links": 1385,
+    "diff_check": "passed",
+    "browser": "FAIR-MOFs card, additional counts, CMR unranked search verified"
+  }
+}

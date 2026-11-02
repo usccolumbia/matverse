@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="odac25"></a>
 ## Open Direct Air Capture 2025 (ODAC25)
@@ -135,6 +135,43 @@ Monte Carlo-generated zeolite-like frameworks filtered for low classical-force-f
 - Force-field energies are not experimental syntheses or DFT validation.
 
 **Tags:** zeolite, hypothetical, historical, subset.
+
+<a id="deem-zeolites-zenodo-8035241"></a>
+## Deem PCOD v2.1 SLC-good — Zenodo release
+
+Archived SLC-good subset of the predicted zeolite database, provided as three compressed files.
+
+**Size:** ~331,000 hypothetical zeolite frameworks (source wording: 331,000).
+
+**Scope:** Approximate author-reported SLC-good v2.1 subset; Zenodo mirrors the three SLC-good archives. Archive members were not independently counted.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2023.
+
+**Provenance:** generated. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; classical energy; density; symmetry.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (Zenodo deposit).
+
+**Official routes:** [homepage](https://zenodo.org/records/8035241)
+
+Other denominators (not added to the ranking):
+
+- 136,008 structures represented in MateriaViva: MateriaViva source alias deem-zeolites; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [Deem PCOD v2.1 SLC-good — Zenodo release](https://zenodo.org/records/8035241) (checked 2026-11-02): Deposit identifies the SLC-good sections of version 2.1 and provides three archives; the >2.6M number in its abstract refers to the full published database.
+- [Deem author download page](https://mwdeem.org/PCOD/index.html) (checked 2026-11-02): Previously checked 2026-11-01: describes the approximately 331k v2.1 SLC-good subset. Count inherited from the existing catalog card, not remeasured.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias deem-zeolites reports 136,008 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Mirror of the existing Deem PCOD SLC-good card, not a new independent corpus.
+- Do not assign the full >2.6 million database count to this filtered release.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, deem-zeolites.
 
 <a id="boyd-woo"></a>
 ## Boyd-Woo hypothetical MOFs for wet flue-gas capture
@@ -299,6 +336,43 @@ Combinatorial assembly of MOF building blocks with computed pore and gas-storage
 
 **Tags:** MOF, hypothetical, GCMC, historical.
 
+<a id="jarvis-hmof"></a>
+## hMOF — JARVIS-Atoms Figshare release
+
+Hypothetical MOF structures and adsorption descriptors repackaged in JARVIS-Atoms JSON.
+
+**Size:** 137,651 MOF records (source wording: 137,651).
+
+**Scope:** JARVIS documented hmof count for the September 2021 JSON ZIP; not the original 137,953-structure Wilmer corpus.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2021.
+
+**Provenance:** generated. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; gas adsorption; porosity.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/15127758) · [data](https://ndownloader.figshare.com/files/30972655)
+
+Other denominators (not added to the ranking):
+
+- 127,498 structures represented in MateriaViva: MateriaViva source alias hmof; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [hMOF — JARVIS-Atoms Figshare release](https://figshare.com/articles/dataset/15127758) (checked 2026-11-02): Figshare provides July and September 2021 JSON ZIPs and declares CC BY 4.0; the pinned JARVIS documentation inventory reports 137,651 data points.
+- [JARVIS documented download inventory](https://pages.nist.gov/jarvis/databases/) (checked 2026-11-02): Frozen 2026-11-01 inventory lists hmof with 137651 data points and file 30972655; new live request returned HTTP 403.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias hmof reports 127,498 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- A format/release mirror overlapping the original hMOF catalog entry.
+- Count comes from documentation; the 387 MB ZIP was not fully parsed in this addition.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, hmof.
+
 <a id="mosaec-db"></a>
 ## MOSAEC MOF Database (MOSAEC-DB)
 
@@ -397,6 +471,43 @@ Other denominators (not added to the ranking):
 - Si/Al distributions are generated structural variants; framework coordinates are shared per topology.
 
 **Tags:** zeolite, aluminosilicate, adsorption, SymGNN, substitution, additional-materials-20261101.
+
+<a id="fair-mofs"></a>
+## FAIR-MOFs experimental and optimized structures
+
+MOF structures linked to synthesis conditions, ligands, metal clusters, porosity and computed formation energies.
+
+**Size:** 45,699 curated experimental MOF structures (source wording: 45,699).
+
+**Scope:** Provider-declared experimental structure collection; the 33,361 optimized structures form a separate overlapping representation.
+
+**Release:** Source release checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** mixed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; synthesis conditions; porosity; formation energy; open metal sites.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (deposit declaration).
+
+**Official routes:** [homepage](https://zenodo.org/records/13254307)
+
+Other denominators (not added to the ranking):
+
+- 33,030 structures represented in MateriaViva: MateriaViva source alias fair-mofs; overlapping imported membership, not the source-release total
+- 33,361 geometry-optimized MOF structures: Provider-declared optimized subset, not additional unique materials
+
+**Evidence:**
+
+- [FAIR-MOFs experimental and optimized structures](https://zenodo.org/records/13254307) (checked 2026-11-02): Deposit describes 45,699 experimental CIFs and 33,361 geometry-optimized CIFs with associated property and synthesis files.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias fair-mofs reports 33,030 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Experimental and optimized structures are not additive unique-material counts.
+- Upstream crystallographic rights and coordinate lineage require record-level review; this card records the deposit license.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, fair-mofs.
 
 <a id="core-mof"></a>
 ## CoRE MOF Database
@@ -532,6 +643,44 @@ Topologically constructed hypothetical MOFs released with textural and computed 
 - Count differs from the original 13,512 because one null structure is excluded.
 
 **Tags:** MOF, ToBaCCo, hypothetical, reticular, additional-materials-20261101.
+
+<a id="core-mof-2019"></a>
+## CoRE MOF 2019 — public ASR and FSR release
+
+Computation-ready experimental MOF structures with solvent-removal variants and pore descriptors.
+
+**Size:** 12,020 public ASR structure entries (source wording: 12,020).
+
+**Scope:** Public all-solvent-removed (ASR) release declared by archive/CSV filenames; separate public FSR release contains 7,061 entries.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2019.
+
+**Provenance:** experimental-derived. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; pore diameter; surface area; void fraction.
+
+**Access:** open. **Dataset license:** CC BY 4.0 (deposit declaration).
+
+**Official routes:** [homepage](https://zenodo.org/records/3677685)
+
+Other denominators (not added to the ranking):
+
+- 2,361 structures represented in MateriaViva: MateriaViva source alias core-mof; overlapping imported membership, not the source-release total
+- 7,061 public FSR entries: Free-solvent-removed release; overlaps public ASR
+
+**Evidence:**
+
+- [CoRE MOF 2019 — public ASR and FSR release](https://zenodo.org/records/3677685) (checked 2026-11-02): Deposit provides public ASR files named 12020 and FSR files named 7061, separately from internal ASR metadata for 14,142 entries.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias core-mof reports 2,361 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- ASR and FSR overlap and must not be summed as distinct MOFs.
+- Internal metadata totals do not describe the public CIF archive; distinct from the existing CoRE MOF 2025 card.
+- Derived from CSD and web structures; preserve original crystallographic attribution and assess upstream rights.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, core-mof.
 
 <a id="tbhubbard-mofs"></a>
 ## TBHubbard MOF Hamiltonians

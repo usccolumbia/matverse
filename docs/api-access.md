@@ -1,8 +1,8 @@
 # API-accessible / Agent-ready data sources
 
-Checked 2026-11-01. [Search the API directory](https://usccolumbia.github.io/matverse/?view=apis) · [Machine-readable route registry](../data/api_sources.json) · [JARVIS coverage audit](jarvis-coverage.md) · [All source links](../sources.md)
+Checked 2026-11-02. [Search the API directory](https://usccolumbia.github.io/matverse/?view=apis) · [Machine-readable route registry](../data/api_sources.json) · [JARVIS coverage audit](jarvis-coverage.md) · [All source links](../sources.md)
 
-Here, **Agent-ready** means a documented path that software can use to search metadata, retrieve records or download structured files. It is an interface classification, not a certification of scientific quality, complete labels, schema uniformity, autonomous-use permission or unrestricted licensing. The 35 routes below distinguish remote query APIs from bulk SDKs and static downloads. Authentication and the observed verification level remain explicit.
+Here, **Agent-ready** means a documented path that software can use to search metadata, retrieve records or download structured files. It is an interface classification, not a certification of scientific quality, complete labels, schema uniformity, autonomous-use permission or unrestricted licensing. The 49 routes below distinguish remote query APIs from bulk SDKs and static downloads. Authentication and the observed verification level remain explicit.
 
 ## OPTIMADE: one standard across materials databases
 
@@ -55,7 +55,7 @@ To request coordinates, include `lattice_vectors,cartesian_site_positions,specie
 
 ## Access routes and observed verification
 
-| Source / interface | Interface type | Authentication | Verification on 2026-11-01 |
+| Source / interface | Interface type | Authentication | Verification on 2026-11-02 |
 |---|---|---|---|
 | [JARVIS-DFT · OPTIMADE](#jarvis-optimade) | OPTIMADE | Anonymous public route | JSON response; empty sample |
 | [Materials Project · OPTIMADE](#mp-optimade) | OPTIMADE | Anonymous public route | Small record sample verified |
@@ -92,6 +92,20 @@ To request coordinates, include `lattice_vectors,cartesian_site_positions,specie
 | [MPContribs · projects and contributions API](#mpcontribs-native) | Native API | Depends on operation or dataset | Small record sample verified |
 | [NIST PhaseData · CDCS API documentation](#nist-phasedata-native) | Native API | Account / authorization | Authentication required |
 | [NIST TRC Alloy Data · API access by request](#nist-trc-alloy-native) | Native API | Account / authorization | Documented; not queried |
+| [CSLLM non-synthesizable screening set · files](#csllm-negatives-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [FAIR-MOFs experimental and optimized structures · files](#fair-mofs-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Predicted Crystallography Open Database (PCOD) · files](#pcod-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Wren prospective coordinate-free discovery dataset · files](#wren-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [NovoMag magnetic materials database · files](#novomag-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [AFLOW Encyclopedia of Crystallographic Prototypes · files](#aflow-prototypes-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Deem PCOD v2.1 SLC-good — Zenodo release · files](#deem-zeolites-zenodo-8035241-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [hMOF — JARVIS-Atoms Figshare release · files](#jarvis-hmof-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [SNUMAT hybrid band gaps — JARVIS Figshare release · files](#jarvis-snumat-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [CoRE MOF 2019 — public ASR and FSR release · files](#core-mof-2019-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [A2BC2 ternary electride discovery — Materials Cloud · files](#mcloud-a2bc2-electrides-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Active-learning nonlinear optical crystals — Materials Cloud · files](#mcloud-nonlinear-optics-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Federated optical materials discovery — Materials Cloud · files](#mcloud-optical-discovery-bulk) | Bulk files | Anonymous public route | Metadata response verified |
+| [Machine learning on topological materials datasets — Materials Cloud · files](#mcloud-topological-ml-bulk) | Bulk files | Anonymous public route | Metadata response verified |
 
 **Small record sample verified** means an unauthenticated bounded request returned at least one data record. **Metadata response verified** means only repository/deposit metadata was checked. An empty JSON response does not establish working record retrieval. Authentication failures, timeouts and unavailable registered endpoints are retained. **Documented; not queried** means official documentation was read, but the API, SDK or complete payload was not exercised. No keys or private accounts were used. [Probe receipts](../research/provenance/api_probes_20261101.json).
 
@@ -473,7 +487,7 @@ Use jarvis.db.figshare.data(name) for named bulk releases; dedicated helpers ret
 
 **Verification:** Documented; not queried (2026-11-01). Official documentation inspected; no end-to-end API or SDK query executed for this route..
 
-**Catalog coverage:** [JARVIS-DFT 3D](catalog/bulk_computed.md#jarvis-dft-3d) · [JARVIS-DFT 2D snapshot](catalog/two_dimensional.md#jarvis-2d) · [JARVIS-QETB / TB3PY DFT database](catalog/bulk_computed.md#jarvis-qetb) · [JARVIS-FF classical force-field calculations](catalog/property_benchmarks.md#jarvis-ff) · [JARVIS InterfacDB / InterMat interface release](catalog/surfaces_catalysis.md#jarvis-interfacedb) · [JARVIS vacancy formation-energy release](catalog/property_benchmarks.md#jarvis-vacancydb) · [JARVIS / InterMat surface release](catalog/surfaces_catalysis.md#jarvis-surfacedb) · [JARVIS-WTBH electron Hamiltonians](catalog/property_benchmarks.md#jarvis-wtbh-electron) · [JARVIS-WTBH phonon Hamiltonians](catalog/property_benchmarks.md#jarvis-wtbh-phonon)
+**Catalog coverage:** [JARVIS-DFT 3D](catalog/bulk_computed.md#jarvis-dft-3d) · [JARVIS-DFT 2D snapshot](catalog/two_dimensional.md#jarvis-2d) · [JARVIS-QETB / TB3PY DFT database](catalog/bulk_computed.md#jarvis-qetb) · [JARVIS-FF classical force-field calculations](catalog/property_benchmarks.md#jarvis-ff) · [JARVIS InterfacDB / InterMat interface release](catalog/surfaces_catalysis.md#jarvis-interfacedb) · [JARVIS vacancy formation-energy release](catalog/property_benchmarks.md#jarvis-vacancydb) · [JARVIS / InterMat surface release](catalog/surfaces_catalysis.md#jarvis-surfacedb) · [JARVIS-WTBH electron Hamiltonians](catalog/property_benchmarks.md#jarvis-wtbh-electron) · [JARVIS-WTBH phonon Hamiltonians](catalog/property_benchmarks.md#jarvis-wtbh-phonon) · [hMOF — JARVIS-Atoms Figshare release](catalog/porous_frameworks.md#jarvis-hmof) · [SNUMAT hybrid band gaps — JARVIS Figshare release](catalog/property_benchmarks.md#jarvis-snumat)
 
 **Limits and interpretation:**
 
@@ -1033,6 +1047,376 @@ Experimental thermophysical properties of unary, binary and ternary metallic sys
 **Official evidence:**
 
 - [NIST TRC Alloy Data · API access by request documentation](https://www.nist.gov/mgi/materials-data-resources) (checked 2026-11-01): Provider explicitly states API access is available upon request. This is the access-information page, not a callable API endpoint; no data API tested.
+
+<a id="csllm-negatives-bulk"></a>
+## CSLLM non-synthesizable screening set · files
+
+Negative structural examples used to fine-tune a crystal-synthesis language model.
+
+**Interface:** Bulk files. **Entrypoint:** [https://ndownloader.figshare.com/files/54600665](https://ndownloader.figshare.com/files/54600665).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [CSLLM non-synthesizable screening set](catalog/generation_benchmarks.md#csllm-negatives)
+
+**Limits and interpretation:**
+
+- Non-synthesizable is a dataset label, not an experimental impossibility verdict.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [CSLLM non-synthesizable screening set](https://figshare.com/articles/dataset/29086931) (checked 2026-11-02): Deposit describes initial non-synthesizable fine-tuning data; inspected ZIP contains 106,470 CIF files.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias csllm-negatives reports 94,797 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="fair-mofs-bulk"></a>
+## FAIR-MOFs experimental and optimized structures · files
+
+MOF structures linked to synthesis conditions, ligands, metal clusters, porosity and computed formation energies.
+
+**Interface:** Bulk files. **Entrypoint:** [https://zenodo.org/records/13254307](https://zenodo.org/records/13254307).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [FAIR-MOFs experimental and optimized structures](catalog/porous_frameworks.md#fair-mofs)
+
+**Limits and interpretation:**
+
+- Experimental and optimized structures are not additive unique-material counts.
+- Upstream crystallographic rights and coordinate lineage require record-level review; this card records the deposit license.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [FAIR-MOFs experimental and optimized structures](https://zenodo.org/records/13254307) (checked 2026-11-02): Deposit describes 45,699 experimental CIFs and 33,361 geometry-optimized CIFs with associated property and synthesis files.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias fair-mofs reports 33,030 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="pcod-bulk"></a>
+## Predicted Crystallography Open Database (PCOD) · files
+
+Predicted and enumerated inorganic crystal structures from ZEFSA II, GRINSP and related programs.
+
+**Interface:** Bulk files. **Entrypoint:** [https://www.crystallography.net/pcod/](https://www.crystallography.net/pcod/).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [Predicted Crystallography Open Database (PCOD)](catalog/bulk_computed.md#pcod)
+
+**Limits and interpretation:**
+
+- Distinct portal from TCOD and from the later Deem v2.1 SLC-good release; related generated structures overlap.
+- Historical count is not a verified current download inventory.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Predicted Crystallography Open Database (PCOD)](https://www.crystallography.net/pcod/) (checked 2026-11-02): Homepage explicitly labels 1,062,771 entries as updated November 2009 and places contributed data in the public domain.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias pcod reports 12,418 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="wren-bulk"></a>
+## Wren prospective coordinate-free discovery dataset · files
+
+DFT validation structures and properties for materials selected by coordinate-free Wren predictions.
+
+**Interface:** Bulk files. **Entrypoint:** [https://zenodo.org/api/records/6345276/files/prospective.json.gz/content](https://zenodo.org/api/records/6345276/files/prospective.json.gz/content).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [Wren prospective coordinate-free discovery dataset](catalog/generation_benchmarks.md#wren)
+
+**Limits and interpretation:**
+
+- Coordinate-free refers to the model representation; the prospective release includes calculated crystal structures.
+- Candidate selection is biased toward predicted stability.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Wren prospective coordinate-free discovery dataset](https://zenodo.org/records/6345276) (checked 2026-11-02): Deposit reports 4,721 converged structures from 5,675 selected candidates; downloaded split-oriented JSON has 4,721 data rows.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias wren reports 4,694 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="novomag-bulk"></a>
+## NovoMag magnetic materials database · files
+
+Computed magnetic materials with structures, formation energies, magnetization and magnetic-anisotropy information.
+
+**Interface:** Bulk files. **Entrypoint:** [https://zenodo.org/api/records/17399362/files/magdb.json/content](https://zenodo.org/api/records/17399362/files/magdb.json/content).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [NovoMag magnetic materials database](catalog/property_benchmarks.md#novomag)
+
+**Limits and interpretation:**
+
+- The one-record difference between the provider summary and payload remains unresolved; neither count is a deduplicated-material audit.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [NovoMag magnetic materials database](https://zenodo.org/records/17399362) (checked 2026-11-02): Deposit reports 3,826 entries including more than 300 Fe-based rare-earth-free magnets. Payload inspection finds 3,827 JSON Lines records.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias novomag reports 2,478 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="aflow-prototypes-bulk"></a>
+## AFLOW Encyclopedia of Crystallographic Prototypes · files
+
+Reference crystal prototypes with parameterized structures, symmetry labels and literature references.
+
+**Interface:** Bulk files. **Entrypoint:** [https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data](https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [AFLOW Encyclopedia of Crystallographic Prototypes](catalog/experimental_crystallography.md#aflow-prototypes)
+
+**Limits and interpretation:**
+
+- Prototype representatives are not a count of experimentally distinct compounds or DFT calculations.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [AFLOW Encyclopedia of Crystallographic Prototypes](https://github.com/aflow-org/aflow_prototype_encyclopedia) (checked 2026-11-02): Pinned recursive Git tree fb7421bb2522888b6a0a4ff91e124c6c65191096 contains 2,127 aflow.cif paths; repository declares Apache-2.0.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias aflow-prototypes reports 629 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="deem-zeolites-zenodo-8035241-bulk"></a>
+## Deem PCOD v2.1 SLC-good — Zenodo release · files
+
+Archived SLC-good subset of the predicted zeolite database, provided as three compressed files.
+
+**Interface:** Bulk files. **Entrypoint:** [https://zenodo.org/records/8035241](https://zenodo.org/records/8035241).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [Deem PCOD v2.1 SLC-good — Zenodo release](catalog/porous_frameworks.md#deem-zeolites-zenodo-8035241)
+
+**Limits and interpretation:**
+
+- Mirror of the existing Deem PCOD SLC-good card, not a new independent corpus.
+- Do not assign the full >2.6 million database count to this filtered release.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Deem PCOD v2.1 SLC-good — Zenodo release](https://zenodo.org/records/8035241) (checked 2026-11-02): Deposit identifies the SLC-good sections of version 2.1 and provides three archives; the >2.6M number in its abstract refers to the full published database.
+- [Deem author download page](https://mwdeem.org/PCOD/index.html) (checked 2026-11-02): Previously checked 2026-11-01: describes the approximately 331k v2.1 SLC-good subset. Count inherited from the existing catalog card, not remeasured.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias deem-zeolites reports 136,008 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="jarvis-hmof-bulk"></a>
+## hMOF — JARVIS-Atoms Figshare release · files
+
+Hypothetical MOF structures and adsorption descriptors repackaged in JARVIS-Atoms JSON.
+
+**Interface:** Bulk files. **Entrypoint:** [https://ndownloader.figshare.com/files/30972655](https://ndownloader.figshare.com/files/30972655).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [hMOF — JARVIS-Atoms Figshare release](catalog/porous_frameworks.md#jarvis-hmof)
+
+**Limits and interpretation:**
+
+- A format/release mirror overlapping the original hMOF catalog entry.
+- Count comes from documentation; the 387 MB ZIP was not fully parsed in this addition.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [hMOF — JARVIS-Atoms Figshare release](https://figshare.com/articles/dataset/15127758) (checked 2026-11-02): Figshare provides July and September 2021 JSON ZIPs and declares CC BY 4.0; the pinned JARVIS documentation inventory reports 137,651 data points.
+- [JARVIS documented download inventory](https://pages.nist.gov/jarvis/databases/) (checked 2026-11-02): Frozen 2026-11-01 inventory lists hmof with 137651 data points and file 30972655; new live request returned HTTP 403.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias hmof reports 127,498 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="jarvis-snumat-bulk"></a>
+## SNUMAT hybrid band gaps — JARVIS Figshare release · files
+
+SNUMAT hybrid-functional band gaps and relaxed structures repackaged with JARVIS-Atoms objects.
+
+**Interface:** Bulk files. **Entrypoint:** [https://ndownloader.figshare.com/files/38521736](https://ndownloader.figshare.com/files/38521736).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [SNUMAT hybrid band gaps — JARVIS Figshare release](catalog/property_benchmarks.md#jarvis-snumat)
+
+**Limits and interpretation:**
+
+- Repackage of the SNUMAT publication dataset; does not add 10,481 independent new materials to that card.
+- MateriaViva imports a different number; equivalence to its selected source snapshot is not asserted.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [SNUMAT hybrid band gaps — JARVIS Figshare release](https://figshare.com/articles/dataset/21713885) (checked 2026-11-02): ZIP payload contains 10,481 records with atoms, Structure_rlx, HSE/GGA gaps and magnetic-ordering fields.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias snumat reports 11,478 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="core-mof-2019-bulk"></a>
+## CoRE MOF 2019 — public ASR and FSR release · files
+
+Computation-ready experimental MOF structures with solvent-removal variants and pore descriptors.
+
+**Interface:** Bulk files. **Entrypoint:** [https://zenodo.org/records/3677685](https://zenodo.org/records/3677685).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [CoRE MOF 2019 — public ASR and FSR release](catalog/porous_frameworks.md#core-mof-2019)
+
+**Limits and interpretation:**
+
+- ASR and FSR overlap and must not be summed as distinct MOFs.
+- Internal metadata totals do not describe the public CIF archive; distinct from the existing CoRE MOF 2025 card.
+- Derived from CSD and web structures; preserve original crystallographic attribution and assess upstream rights.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [CoRE MOF 2019 — public ASR and FSR release](https://zenodo.org/records/3677685) (checked 2026-11-02): Deposit provides public ASR files named 12020 and FSR files named 7061, separately from internal ASR metadata for 14,142 entries.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias core-mof reports 2,361 represented structures. This imported denominator is separate from the source-release count.
+
+<a id="mcloud-a2bc2-electrides-bulk"></a>
+## A2BC2 ternary electride discovery — Materials Cloud · files
+
+Crystal structures and computed properties from the Materials Cloud deposit zt-z4.
+
+**Interface:** Bulk files. **Entrypoint:** [https://archive.materialscloud.org/records/z24e6-dv880](https://archive.materialscloud.org/records/z24e6-dv880).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [A2BC2 ternary electride discovery — Materials Cloud](catalog/property_benchmarks.md#mcloud-a2bc2-electrides)
+
+**Limits and interpretation:**
+
+- Generated candidate library (14,437), high-throughput candidates (1,254), and 214 known phases in the abstract are separate denominators; 290 CIFs can include multiple representations of a compound.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [A2BC2 ternary electride discovery — Materials Cloud](https://doi.org/10.24435/materialscloud:zt-z4) (checked 2026-11-02): Materials Cloud deposit identifies Machine learning-accelerated discovery of A₂BC₂ ternary electrides with diverse anionic electron densities. Inspected structures.tar.gz contains 290 CIF files.
+
+<a id="mcloud-nonlinear-optics-bulk"></a>
+## Active-learning nonlinear optical crystals — Materials Cloud · files
+
+Crystal structures and computed properties from the Materials Cloud deposit 1z-pd.
+
+**Interface:** Bulk files. **Entrypoint:** [https://archive.materialscloud.org/records/zn7cy-7cs67](https://archive.materialscloud.org/records/zn7cy-7cs67).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [Active-learning nonlinear optical crystals — Materials Cloud](catalog/property_benchmarks.md#mcloud-nonlinear-optics)
+
+**Limits and interpretation:**
+
+- CIF-file count is not an independently deduplicated compound count; property availability can vary.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Active-learning nonlinear optical crystals — Materials Cloud](https://doi.org/10.24435/materialscloud:1z-pd) (checked 2026-11-02): Materials Cloud deposit identifies Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening. Inspected structures.tar.gz contains 2,233 CIF files.
+
+<a id="mcloud-optical-discovery-bulk"></a>
+## Federated optical materials discovery — Materials Cloud · files
+
+Crystal structures and computed properties from the Materials Cloud deposit ed-g2.
+
+**Interface:** Bulk files. **Entrypoint:** [https://archive.materialscloud.org/records/rr3za-8c528](https://archive.materialscloud.org/records/rr3za-8c528).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; payload or repository-file inventory also inspected.
+
+**Catalog coverage:** [Federated optical materials discovery — Materials Cloud](catalog/property_benchmarks.md#mcloud-optical-discovery)
+
+**Limits and interpretation:**
+
+- The >30 million structures accessible in the OPTIMADE federation are search space, not the deposited dataset size.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Federated optical materials discovery — Materials Cloud](https://doi.org/10.24435/materialscloud:ed-g2) (checked 2026-11-02): Materials Cloud deposit identifies Optical materials discovery and design with federated databases and machine learning. Inspected structures.tar.gz contains 2,413 CIF files.
+
+<a id="mcloud-topological-ml-bulk"></a>
+## Machine learning on topological materials datasets — Materials Cloud · files
+
+Crystal structures and computed properties from the Materials Cloud deposit m0-zg.
+
+**Interface:** Bulk files. **Entrypoint:** [https://archive.materialscloud.org/records/gnv15-27a69](https://archive.materialscloud.org/records/gnv15-27a69).
+
+**Authentication:** Publicly linked files or repository; no credential required for the checked metadata route.
+
+**Formats:** CIF / JSON / compressed archives (release dependent).
+
+**Verification:** Metadata response verified (2026-11-02). Release metadata or provider page inspected; full payload retrieval not verified.
+
+**Catalog coverage:** [Machine learning on topological materials datasets — Materials Cloud](catalog/property_benchmarks.md#mcloud-topological-ml)
+
+**Limits and interpretation:**
+
+- Combines overlapping parent databases; no independent deduplication or full payload count was performed.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+- Bulk-file route; no filterable structure-search API is claimed.
+
+**Official evidence:**
+
+- [Machine learning on topological materials datasets — Materials Cloud](https://doi.org/10.24435/materialscloud:m0-zg) (checked 2026-11-02): Materials Cloud deposit identifies Machine learning on multiple topological materials datasets. Deposit description reports 35,608 materials and provides OPTIMADE JSONL and topological data.
 
 
 [Back to MatVerse](../README.md)

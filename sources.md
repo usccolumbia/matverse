@@ -1,6 +1,6 @@
 # MatVerse source links
 
-Link inventory checked 2026-11-01. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, all 15 inspected resource collections, and supporting perspective references.
+Link inventory checked 2026-11-02. This file combines every official route and evidence URL in the maintained catalog, navigation-resource sources, all 15 inspected resource collections, and supporting perspective references.
 
 Collection-listed links are discovery leads. Their presence here does not mean every destination is still accessible, every resource supplies crystal coordinates, or every count/license has been verified. Crystal-related additions enter the ranked catalog only with their own evidence; adjacent molecular, polymer, engineering and handbook resources remain labeled in the collection inventories.
 
@@ -3745,6 +3745,22 @@ Release: Provider/API snapshot, checked 2026-11-01.
 - Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
 - Evidence (2026-11-01): [Material-Property-Descriptor Database (MPDD) bounded API sample](<http://mpddoptimade.phaseslab.org/v1/structures?page_limit=1>)
 
+#### CMR static collections — MateriaViva source group
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [CMR static collections — MateriaViva source group](<https://cmr.fysik.dtu.dk/>)
+- Evidence (2026-11-02): [CMR static collections — MateriaViva source group](<https://cmr.fysik.dtu.dk/>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### JARVIS specialized structures — MateriaViva source group
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [JARVIS specialized structures — MateriaViva source group](<https://doi.org/10.6084/m9.figshare.6815705>)
+- Evidence (2026-11-02): [JARVIS specialized structures — MateriaViva source group](<https://doi.org/10.6084/m9.figshare.6815705>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
 ### Computed bulk inorganic crystals
 
 #### Alexandria
@@ -4050,6 +4066,14 @@ Release: Provider/API snapshot, checked 2026-11-01.
 - Evidence (2026-11-01): [Open Database of Xtals (odbx) provider documentation](<https://providers.optimade.org/v1/links>)
 - Evidence (2026-11-01): [Official OPTIMADE provider registry](<https://providers.optimade.org/v1/links>)
 
+#### Predicted Crystallography Open Database (PCOD)
+
+Release: Historical homepage total, November 2009; page checked 2026-11-02.
+
+- Homepage: [Predicted Crystallography Open Database (PCOD)](<https://www.crystallography.net/pcod/>)
+- Evidence (2026-11-02): [Predicted Crystallography Open Database (PCOD)](<https://www.crystallography.net/pcod/>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
 ### Experimental crystallography and reference collections
 
 #### Cambridge Structural Database (CSD)
@@ -4136,6 +4160,15 @@ Release: Current RRUFF documentation.
 - Data: [American Mineralogist Crystal Structure Database (AMCSD)](<https://www.rruff.net/about/download-data/>)
 - Evidence (2026-11-01): [RRUFF FAQ: AMCSD](<https://www.rruff.net/help/faq/>)
 - Evidence (2026-11-01): [RRUFF: ZIP download](<https://www.rruff.net/help/zip-download/>)
+
+#### AFLOW Encyclopedia of Crystallographic Prototypes
+
+Release: Repository tree fb7421bb2522888b6a0a4ff91e124c6c65191096.
+
+- Homepage: [AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia>)
+- Data: [AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data>)
+- Evidence (2026-11-02): [AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
 
 ### Bulk and mixed-domain MLIP configurations
 
@@ -4883,6 +4916,41 @@ Release: Zenodo 15085784, software/data archive v0.0.1.
 - Evidence (2026-11-01): [SymGNN archived release metadata](<https://zenodo.org/api/records/15085784>)
 - Evidence (2026-11-01): [SymGNN archived payload inspection](<https://zenodo.org/api/records/15085784/files/marko-petkovic/SymGNN-v0.0.1.zip/content>)
 - Evidence (2026-11-01): [Symmetry-informed graph neural networks for CO2 adsorption in substituted zeolites](<https://pubs.rsc.org/la/content/articlehtml/2025/ta/d5ta02482j?page=search>)
+
+#### FAIR-MOFs experimental and optimized structures
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [FAIR-MOFs experimental and optimized structures](<https://zenodo.org/records/13254307>)
+- Evidence (2026-11-02): [FAIR-MOFs experimental and optimized structures](<https://zenodo.org/records/13254307>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### Deem PCOD v2.1 SLC-good — Zenodo release
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [Deem PCOD v2.1 SLC-good — Zenodo release](<https://zenodo.org/records/8035241>)
+- Evidence (2026-11-02): [Deem PCOD v2.1 SLC-good — Zenodo release](<https://zenodo.org/records/8035241>)
+- Evidence (2026-11-02): [Deem author download page](<https://mwdeem.org/PCOD/index.html>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### hMOF — JARVIS-Atoms Figshare release
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [hMOF — JARVIS-Atoms Figshare release](<https://figshare.com/articles/dataset/15127758>)
+- Data: [hMOF — JARVIS-Atoms Figshare release](<https://ndownloader.figshare.com/files/30972655>)
+- Evidence (2026-11-02): [hMOF — JARVIS-Atoms Figshare release](<https://figshare.com/articles/dataset/15127758>)
+- Evidence (2026-11-02): [JARVIS documented download inventory](<https://pages.nist.gov/jarvis/databases/>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### CoRE MOF 2019 — public ASR and FSR release
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [CoRE MOF 2019 — public ASR and FSR release](<https://zenodo.org/records/3677685>)
+- Evidence (2026-11-02): [CoRE MOF 2019 — public ASR and FSR release](<https://zenodo.org/records/3677685>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
 
 ### Molecular crystals and ice
 
@@ -8214,6 +8282,56 @@ Release: Provider/API snapshot, checked 2026-11-01.
 - Evidence (2026-11-01): [Anyterial bounded API sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
 - Evidence (2026-11-01): [AMDB one-record structure sample](<https://altermagnets.anyterial.se/optimade/amdb/v1/structures?page_limit=1>)
 
+#### NovoMag magnetic materials database
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [NovoMag magnetic materials database](<https://zenodo.org/records/17399362>)
+- Data: [NovoMag magnetic materials database](<https://zenodo.org/api/records/17399362/files/magdb.json/content>)
+- Evidence (2026-11-02): [NovoMag magnetic materials database](<https://zenodo.org/records/17399362>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### SNUMAT hybrid band gaps — JARVIS Figshare release
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [SNUMAT hybrid band gaps — JARVIS Figshare release](<https://figshare.com/articles/dataset/21713885>)
+- Data: [SNUMAT hybrid band gaps — JARVIS Figshare release](<https://ndownloader.figshare.com/files/38521736>)
+- Evidence (2026-11-02): [SNUMAT hybrid band gaps — JARVIS Figshare release](<https://figshare.com/articles/dataset/21713885>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### A2BC2 ternary electride discovery — Materials Cloud
+
+Release: Materials Cloud DOI zt-z4; checked 2026-11-02.
+
+- Homepage: [A2BC2 ternary electride discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:zt-z4>)
+- Data: [A2BC2 ternary electride discovery — Materials Cloud](<https://archive.materialscloud.org/records/z24e6-dv880>)
+- Evidence (2026-11-02): [A2BC2 ternary electride discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:zt-z4>)
+
+#### Active-learning nonlinear optical crystals — Materials Cloud
+
+Release: Materials Cloud DOI 1z-pd; checked 2026-11-02.
+
+- Homepage: [Active-learning nonlinear optical crystals — Materials Cloud](<https://doi.org/10.24435/materialscloud:1z-pd>)
+- Data: [Active-learning nonlinear optical crystals — Materials Cloud](<https://archive.materialscloud.org/records/zn7cy-7cs67>)
+- Evidence (2026-11-02): [Active-learning nonlinear optical crystals — Materials Cloud](<https://doi.org/10.24435/materialscloud:1z-pd>)
+
+#### Federated optical materials discovery — Materials Cloud
+
+Release: Materials Cloud DOI ed-g2; checked 2026-11-02.
+
+- Homepage: [Federated optical materials discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:ed-g2>)
+- Data: [Federated optical materials discovery — Materials Cloud](<https://archive.materialscloud.org/records/rr3za-8c528>)
+- Evidence (2026-11-02): [Federated optical materials discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:ed-g2>)
+
+#### Machine learning on topological materials datasets — Materials Cloud
+
+Release: Materials Cloud DOI m0-zg; checked 2026-11-02.
+
+- Homepage: [Machine learning on topological materials datasets — Materials Cloud](<https://doi.org/10.24435/materialscloud:m0-zg>)
+- Data: [Machine learning on topological materials datasets — Materials Cloud](<https://archive.materialscloud.org/records/gnv15-27a69>)
+- Evidence (2026-11-02): [Machine learning on topological materials datasets — Materials Cloud](<https://doi.org/10.24435/materialscloud:m0-zg>)
+
 ### Crystal generation and discovery benchmarks
 
 #### OpenLAM Crystal Philately challenge collection
@@ -8289,6 +8407,24 @@ Release: Zenodo v1, 2025-09-29; DOI 10.5281/zenodo.17223175.
 - Evidence (2026-11-01): [FerroGen generated-materials release](<https://zenodo.org/records/17223175>)
 - Evidence (2026-11-01): [FerroGen Zenodo metadata](<https://zenodo.org/api/records/17223175>)
 - Evidence (2026-11-01): [FerroGen CIF archive](<https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz>)
+
+#### CSLLM non-synthesizable screening set
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [CSLLM non-synthesizable screening set](<https://figshare.com/articles/dataset/29086931>)
+- Data: [CSLLM non-synthesizable screening set](<https://ndownloader.figshare.com/files/54600665>)
+- Evidence (2026-11-02): [CSLLM non-synthesizable screening set](<https://figshare.com/articles/dataset/29086931>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+#### Wren prospective coordinate-free discovery dataset
+
+Release: Source release checked 2026-11-02.
+
+- Homepage: [Wren prospective coordinate-free discovery dataset](<https://zenodo.org/records/6345276>)
+- Data: [Wren prospective coordinate-free discovery dataset](<https://zenodo.org/api/records/6345276/files/prospective.json.gz/content>)
+- Evidence (2026-11-02): [Wren prospective coordinate-free discovery dataset](<https://zenodo.org/records/6345276>)
+- Evidence (2026-11-02): [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
 
 ### Experimental properties and literature extraction
 
@@ -10834,6 +10970,102 @@ Interface: native_api; authentication: account.
 
 - [NIST TRC Alloy Data · API access by request documentation](<https://www.nist.gov/mgi/materials-data-resources>)
 
+### [CSLLM non-synthesizable screening set · files](<https://ndownloader.figshare.com/files/54600665>)
+
+Interface: bulk_files; authentication: none.
+
+- [CSLLM non-synthesizable screening set](<https://figshare.com/articles/dataset/29086931>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [FAIR-MOFs experimental and optimized structures · files](<https://zenodo.org/records/13254307>)
+
+Interface: bulk_files; authentication: none.
+
+- [FAIR-MOFs experimental and optimized structures](<https://zenodo.org/records/13254307>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [Predicted Crystallography Open Database (PCOD) · files](<https://www.crystallography.net/pcod/>)
+
+Interface: bulk_files; authentication: none.
+
+- [Predicted Crystallography Open Database (PCOD)](<https://www.crystallography.net/pcod/>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [Wren prospective coordinate-free discovery dataset · files](<https://zenodo.org/api/records/6345276/files/prospective.json.gz/content>)
+
+Interface: bulk_files; authentication: none.
+
+- [Wren prospective coordinate-free discovery dataset](<https://zenodo.org/records/6345276>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [NovoMag magnetic materials database · files](<https://zenodo.org/api/records/17399362/files/magdb.json/content>)
+
+Interface: bulk_files; authentication: none.
+
+- [NovoMag magnetic materials database](<https://zenodo.org/records/17399362>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [AFLOW Encyclopedia of Crystallographic Prototypes · files](<https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data>)
+
+Interface: bulk_files; authentication: none.
+
+- [AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [Deem PCOD v2.1 SLC-good — Zenodo release · files](<https://zenodo.org/records/8035241>)
+
+Interface: bulk_files; authentication: none.
+
+- [Deem PCOD v2.1 SLC-good — Zenodo release](<https://zenodo.org/records/8035241>)
+- [Deem author download page](<https://mwdeem.org/PCOD/index.html>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [hMOF — JARVIS-Atoms Figshare release · files](<https://ndownloader.figshare.com/files/30972655>)
+
+Interface: bulk_files; authentication: none.
+
+- [hMOF — JARVIS-Atoms Figshare release](<https://figshare.com/articles/dataset/15127758>)
+- [JARVIS documented download inventory](<https://pages.nist.gov/jarvis/databases/>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [SNUMAT hybrid band gaps — JARVIS Figshare release · files](<https://ndownloader.figshare.com/files/38521736>)
+
+Interface: bulk_files; authentication: none.
+
+- [SNUMAT hybrid band gaps — JARVIS Figshare release](<https://figshare.com/articles/dataset/21713885>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [CoRE MOF 2019 — public ASR and FSR release · files](<https://zenodo.org/records/3677685>)
+
+Interface: bulk_files; authentication: none.
+
+- [CoRE MOF 2019 — public ASR and FSR release](<https://zenodo.org/records/3677685>)
+- [MateriaViva source database table](<https://huggingface.co/datasets/AI4QC/MateriaViva-Open>)
+
+### [A2BC2 ternary electride discovery — Materials Cloud · files](<https://archive.materialscloud.org/records/z24e6-dv880>)
+
+Interface: bulk_files; authentication: none.
+
+- [A2BC2 ternary electride discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:zt-z4>)
+
+### [Active-learning nonlinear optical crystals — Materials Cloud · files](<https://archive.materialscloud.org/records/zn7cy-7cs67>)
+
+Interface: bulk_files; authentication: none.
+
+- [Active-learning nonlinear optical crystals — Materials Cloud](<https://doi.org/10.24435/materialscloud:1z-pd>)
+
+### [Federated optical materials discovery — Materials Cloud · files](<https://archive.materialscloud.org/records/rr3za-8c528>)
+
+Interface: bulk_files; authentication: none.
+
+- [Federated optical materials discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:ed-g2>)
+
+### [Machine learning on topological materials datasets — Materials Cloud · files](<https://archive.materialscloud.org/records/gnv15-27a69>)
+
+Interface: bulk_files; authentication: none.
+
+- [Machine learning on topological materials datasets — Materials Cloud](<https://doi.org/10.24435/materialscloud:m0-zg>)
+
 ## Supporting perspective papers
 
 - [Materials Databases: Foundations of Modern Digital Materials](<https://doi.org/10.1021/prechem.5c00449>)
@@ -10846,7 +11078,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 
 ## All distinct source URLs
 
-**4735 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
+**4751 distinct public URLs** across the sections above. This index deduplicates exact URL strings; redirects, mirrors and release variants may point to overlapping content.
 
 | Source link | Included as |
 |---|---|
@@ -11091,11 +11323,13 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Materials Cloud SoLiD26 v1](<https://archive.materialscloud.org/records/azpq0-1qe97>) | Catalog evidence |
 | [Hypothetical COF Materials Cloud archive](<https://archive.materialscloud.org/records/cjhyq-nr115>) | Catalog evidence; Catalog official route |
 | [Massive Atomic Diversity (MAD-1.6) — homepage](<https://archive.materialscloud.org/records/ffd5a-1hc37>) | Catalog evidence; Catalog official route |
+| [Machine learning on topological materials datasets — Materials Cloud — data](<https://archive.materialscloud.org/records/gnv15-27a69>) | API access route; Catalog official route |
 | [Massive Atomic Diversity — data](<https://archive.materialscloud.org/records/h41qv-1n493>) | Catalog evidence; Catalog official route |
 | [Boyd-Woo Materials Cloud archive](<https://archive.materialscloud.org/records/nsp7v-2dk91>) | Catalog evidence; Catalog official route |
 | [Materials Cloud HEA fracture archive](<https://archive.materialscloud.org/records/pvpcb-mpc63>) | Catalog evidence |
 | [Materials Cloud Charpy archive](<https://archive.materialscloud.org/records/q4x6v-dyt25>) | Catalog evidence |
 | [Materials Cloud spin-Hall dataset v2](<https://archive.materialscloud.org/records/rfcdy-wcy32>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
+| [Federated optical materials discovery — Materials Cloud — data](<https://archive.materialscloud.org/records/rr3za-8c528>) | API access route; Catalog official route |
 | [Materials Cloud nuclear creep archive](<https://archive.materialscloud.org/records/s60kq-qg914>) | Catalog evidence |
 | [Hennig–Xie Eliashberg / Allen–Dynes symbolic-regression benchmark — homepage](<https://archive.materialscloud.org/records/skdzy-kyx54>) | Catalog official route |
 | [Materials Cloud 3D (MC3D) — data](<https://archive.materialscloud.org/records/szjaf-cfv74>) | Catalog evidence; Catalog official route |
@@ -11103,6 +11337,8 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Matbench Discovery linked primary route](<https://archive.materialscloud.org/records/wtpqr-2cj66>) | Collection evidence |
 | [MAD (Massive Atomic Diversity)](<https://archive.materialscloud.org/records/xdsbt-a3r17>) | blaiszik/awesome-matchem-datasets |
 | [ReDD-COFFEE — data](<https://archive.materialscloud.org/records/y5gs8-pyj90>) | Catalog evidence; Catalog official route |
+| [A2BC2 ternary electride discovery — Materials Cloud — data](<https://archive.materialscloud.org/records/z24e6-dv880>) | API access route; Catalog official route |
+| [Active-learning nonlinear optical crystals — Materials Cloud — data](<https://archive.materialscloud.org/records/zn7cy-7cs67>) | API access route; Catalog official route |
 | [Topology-Scaling Identification of Layered Solids and Stable Exfoliated 2D Materials](<https://arxiv.org/abs/1610.07673>) | Resource evidence |
 | [2DMatPedia author paper](<https://arxiv.org/abs/1901.09487>) | Catalog evidence |
 | [Spin-orbitronic bulk spin-Hall catalog](<https://arxiv.org/abs/1909.09605>) | Additional materials dataset discoveries |
@@ -11501,7 +11737,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Original source: Materiae](<https://cmpdc.iphy.ac.cn/materiae/>) | Catalog evidence |
 | [DTU Computational Materials Repository · OPTIMADE](<https://cmr-optimade.fysik.dtu.dk>) | API access route |
 | [DTU Computational Materials Repository · OPTIMADE bounded probe](<https://cmr-optimade.fysik.dtu.dk/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
-| [CMR official portal](<https://cmr.fysik.dtu.dk/>) | Additional materials dataset discoveries; Catalog evidence; Navigation resource; Resource evidence; User-supplied materials resources (2026-11-01) |
+| [CMR official portal](<https://cmr.fysik.dtu.dk/>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route; Navigation resource; Resource evidence; User-supplied materials resources (2026-11-01) |
 | [CMR A2BCX4 quaternary chalcogenides](<https://cmr.fysik.dtu.dk/a2bcx4/a2bcx4.html>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [CMR ABSe3 ternary selenides](<https://cmr.fysik.dtu.dk/abse3/abse3.html>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [CMR perovskite optical-absorption spectra](<https://cmr.fysik.dtu.dk/absorption_perovskites/absorption_perovskites.html>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
@@ -13570,6 +13806,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [AmalgaMatch correlative materials microscopy benchmark — data](<https://doi.org/10.24406/fordatis/436>) | Catalog evidence; Catalog official route |
 | [UCI Superconductivity Data (Hamidieh 2018) — data](<https://doi.org/10.24432/C53P47>) | Catalog official route |
 | [Aluminum alloy composition and mechanical-property literature datasets — data](<https://doi.org/10.24435/MATERIALSCLOUD:VX-FY>) | Catalog official route |
+| [Active-learning nonlinear optical crystals — Materials Cloud](<https://doi.org/10.24435/materialscloud:1z-pd>) | API documentation; Catalog evidence; Catalog official route |
 | [SUNCAT bimetallic adsorption calculations — data](<https://doi.org/10.24435/materialscloud:2019.0015/v1>) | Catalog official route |
 | [Predicted high-dielectric ternary oxide structures — archive](<https://doi.org/10.24435/materialscloud:2020.0010/v1>) | Catalog official route |
 | [Antiperovskite superconductivity DFPT dataset — data](<https://doi.org/10.24435/materialscloud:6g-az>) | Catalog official route |
@@ -13577,9 +13814,11 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Nuclear structural material creep tests — data](<https://doi.org/10.24435/materialscloud:99-xr>) | Catalog official route |
 | [Two-dimensional materials ab initio Raman spectra — data](<https://doi.org/10.24435/materialscloud:9g-1r>) | Catalog evidence; Catalog official route |
 | [HEA fracture and impact toughness dataset — data](<https://doi.org/10.24435/materialscloud:d6-pf>) | Catalog official route |
+| [Federated optical materials discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:ed-g2>) | API documentation; Catalog evidence; Catalog official route |
 | [Matbench Discovery linked primary route](<https://doi.org/10.24435/materialscloud:fe-1p>) | Collection evidence |
 | [Matbench Discovery linked primary route](<https://doi.org/10.24435/materialscloud:jc-9f>) | Collection evidence |
 | [PBEsol/SCAN 175k crystalline-material reference cohort — data](<https://doi.org/10.24435/materialscloud:ka-br>) | Catalog official route |
+| [Machine learning on topological materials datasets — Materials Cloud](<https://doi.org/10.24435/materialscloud:m0-zg>) | API documentation; Catalog evidence; Catalog official route |
 | [Nuclear structural material Charpy impact tests — data](<https://doi.org/10.24435/materialscloud:p6-5y>) | Catalog official route |
 | [Cerqueira–Sanna–Marques conventional-superconductor EPC archive — data](<https://doi.org/10.24435/materialscloud:qv-bq>) | Catalog official route |
 | [Organic chains chemisorbed on silicon surfaces — data](<https://doi.org/10.24435/materialscloud:rm-r4>) | Catalog official route |
@@ -13592,6 +13831,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Zhou–Poncé–Charlier 2D spin-Hall / Wannier dataset](<https://doi.org/10.24435/materialscloud:yv-h7>) | Additional materials dataset discoveries; Catalog official route |
 | [Oulu computational Raman database — data](<https://doi.org/10.24435/materialscloud:ze-58>) | Catalog evidence; Catalog official route |
 | [Materials Cloud fast Li-ion conductor screening — data](<https://doi.org/10.24435/materialscloud:zh-cn>) | Catalog official route |
+| [A2BC2 ternary electride discovery — Materials Cloud](<https://doi.org/10.24435/materialscloud:zt-z4>) | API documentation; Catalog evidence; Catalog official route |
 | [304L stainless-steel full-field DIC and infrared thermography — data](<https://doi.org/10.25452/figshare.plus.25483534.v1>) | Catalog official route |
 | [DigBat / Dynamic Database of Solid-State Electrolytes — ddse2_paper](<https://doi.org/10.32604/cmc.2024.060288>) | Catalog official route |
 | [Organic Superconductor Database (OSD) — paper](<https://doi.org/10.3390/cryst12070919>) | Catalog official route |
@@ -13752,6 +13992,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Materials Project K-edge XANES release — data](<https://doi.org/10.6084/m9.figshare.5678998.v1>) | Catalog evidence; Catalog official route |
 | [Smidt first-principles ferroelectric candidate database — download](<https://doi.org/10.6084/m9.figshare.6025634.v4>) | Catalog official route |
 | [JARVIS-DFT 3D — data](<https://doi.org/10.6084/m9.figshare.6815699>) | Catalog evidence; Catalog official route |
+| [JARVIS specialized structures — MateriaViva source group](<https://doi.org/10.6084/m9.figshare.6815705>) | Catalog evidence; Catalog official route |
 | [Oxygen migration barriers in perovskites — data](<https://doi.org/10.6084/m9.figshare.7180817.v2>) | Catalog official route |
 | [Materials Project Raman tensor and RRUFF matching benchmark — data](<https://doi.org/10.6084/m9.figshare.7427393.v2>) | Catalog evidence; Catalog official route |
 | [JCAP metal-oxide synthesis, imaging and UV–Vis cohort — data](<https://doi.org/10.6084/m9.figshare.7502207.v1>) | Catalog evidence; Catalog official route |
@@ -13787,12 +14028,13 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [OMat24](<https://fair-chem.github.io/inorganic_materials/datasets/omat24.html>) | sedaoturak/data-resources-for-materials-science |
 | [Figshare](<https://figshare.com/>) | sedaoturak/data-resources-for-materials-science |
 | [Quantum MOF Database (QMOF) — data](<https://figshare.com/articles/dataset/13147324/18>) | Catalog official route |
-| [Original source: Hypothetical MOF database (JARVIS figshare re-upload)](<https://figshare.com/articles/dataset/15127758>) | Catalog evidence |
+| [hMOF — JARVIS-Atoms Figshare release](<https://figshare.com/articles/dataset/15127758>) | API documentation; Catalog evidence; Catalog official route |
 | [Matbench Discovery linked primary route](<https://figshare.com/articles/dataset/19470599>) | Collection evidence |
 | [PORMAKE hypothetical MOFs for MOFTransformer — dataset](<https://figshare.com/articles/dataset/1_million_hypothetical_MOFs/21810147/2>) | Additional materials dataset discoveries; Catalog official route |
-| [Original source: SNUMAT hybrid-functional database](<https://figshare.com/articles/dataset/21713885>) | Catalog evidence |
+| [SNUMAT hybrid band gaps — JARVIS Figshare release](<https://figshare.com/articles/dataset/21713885>) | API documentation; Catalog evidence; Catalog official route |
 | [WBM / Matbench Discovery stability test set — data](<https://figshare.com/articles/dataset/22715158>) | Catalog official route |
 | [Matbench Discovery linked primary route](<https://figshare.com/articles/dataset/23713842>) | Collection evidence |
+| [CSLLM non-synthesizable screening set](<https://figshare.com/articles/dataset/29086931>) | API documentation; Catalog evidence; Catalog official route |
 | [USPTO-Lowe](<https://figshare.com/articles/dataset/5104873>) | blaiszik/awesome-matchem-datasets |
 | [JARVIS-DFT 2D snapshot — data](<https://figshare.com/articles/dataset/6815705>) | Catalog official route |
 | [2DMatPedia — data](<https://figshare.com/articles/dataset/7699910/3>) | Catalog official route |
@@ -13960,7 +14202,8 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [MaScQA](<https://github.com/abhijeetgangan/MaSTeA>) | blaiszik/awesome-matchem-datasets |
 | [irradiapy](<https://github.com/acgc99/irradiapy>) | Additional materials dataset discoveries |
 | [AFLOW — code](<https://github.com/aflow-org/aflow>) | Catalog official route |
-| [Original source: AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia>) | Catalog evidence |
+| [AFLOW Encyclopedia of Crystallographic Prototypes](<https://github.com/aflow-org/aflow_prototype_encyclopedia>) | API documentation; Catalog evidence; Catalog official route |
+| [AFLOW Encyclopedia of Crystallographic Prototypes — data](<https://github.com/aflow-org/aflow_prototype_encyclopedia/tree/fb7421bb2522888b6a0a4ff91e124c6c65191096/data>) | API access route; Catalog official route |
 | [Original source: 3DSC superconductors](<https://github.com/aimat-lab/3DSC>) | Catalog evidence; Catalog official route |
 | [opXRD: Open Experimental Powder X-ray Diffraction Database — code](<https://github.com/aimat-lab/opXRD>) | Catalog official route |
 | [Matbench Discovery linked primary route](<https://github.com/aiqm/ANI1x_datasets>) | Collection evidence; Navigation resource |
@@ -14805,7 +15048,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Material Properties Open Database (MPOD) · OPTIMADE](<http://mpod_optimade.cimav.edu.mx>) | API access route |
 | [Material Properties Open Database (MPOD) · OPTIMADE bounded probe](<http://mpod_optimade.cimav.edu.mx/v1/structures?page_limit=1>) | API probe |
 | [Quantum Cluster Database](<https://muellergroup.jhu.edu/qcd/>) | blaiszik/awesome-matchem-datasets |
-| [Deem PCOD author download page](<https://mwdeem.org/PCOD/index.html>) | Catalog evidence; Catalog official route |
+| [Deem author download page](<https://mwdeem.org/PCOD/index.html>) | API documentation; Catalog evidence; Catalog official route |
 | [https://nanohub.org/FAIR_workshop_2024](<https://nanohub.org/FAIR_workshop_2024>) | JARVIS-Tools Notebooks |
 | [nanoHUB](<https://nanohub.org/publications/datasets>) | sedaoturak/data-resources-for-materials-science |
 | [BibTex](<https://nanohub.org/resources/32730/citation?citationFormat=bibtex&no_html=1&rev=36>) | nanoHUB Machine Learning Lab Module |
@@ -14873,13 +15116,15 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [dft_3d_2021](<https://ndownloader.figshare.com/files/29204826>) | JARVIS databases and Figshare download registry |
 | [cfid_3d](<https://ndownloader.figshare.com/files/29205201>) | JARVIS databases and Figshare download registry |
 | [edos_pdos](<https://ndownloader.figshare.com/files/29216859>) | JARVIS databases and Figshare download registry |
+| [hMOF — JARVIS-Atoms Figshare release — data](<https://ndownloader.figshare.com/files/30972655>) | API access route; Catalog official route |
 | [ChemDataExtractor refractive-index and dielectric database — download](<https://ndownloader.figshare.com/files/33982973>) | Catalog official route |
 | [dft_2d](<https://ndownloader.figshare.com/files/38521268>) | Catalog evidence; JARVIS databases and Figshare download registry |
 | [dft_3d](<https://ndownloader.figshare.com/files/38521619>) | Collection evidence; JARVIS databases and Figshare download registry |
-| [snumat](<https://ndownloader.figshare.com/files/38521736>) | JARVIS databases and Figshare download registry |
+| [snumat](<https://ndownloader.figshare.com/files/38521736>) | API access route; Catalog official route; JARVIS databases and Figshare download registry |
 | [alignn_ff_db](<https://ndownloader.figshare.com/files/38522315>) | JARVIS databases and Figshare download registry |
 | [Official supercon_chem JSON ZIP](<https://ndownloader.figshare.com/files/40719260>) | Catalog evidence |
 | [Fang Wannier optical and transport tensors — download](<https://ndownloader.figshare.com/files/54595700>) | Catalog official route |
+| [CSLLM non-synthesizable screening set — data](<https://ndownloader.figshare.com/files/54600665>) | API access route; Catalog official route |
 | [PhononMOFdb Thermal.zip payload](<https://ndownloader.figshare.com/files/63887643>) | Catalog evidence |
 | [NEMAD / GPTArticleExtractor thermoelectric database — homepage](<https://nemad.org>) | Catalog official route |
 | [IEEE-listed route: Materials Project](<https://next-gen.materialsproject.org>) | Resource evidence |
@@ -15208,7 +15453,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Crystallography Open Database (COD) — data](<https://www.crystallography.net/cod/archives/>) | Catalog official route |
 | [Crystallography Open Database · OPTIMADE](<https://www.crystallography.net/cod/optimade>) | API access route |
 | [Crystallography Open Database · OPTIMADE bounded probe](<https://www.crystallography.net/cod/optimade/v1/structures?page_limit=1&response_fields=chemical_formula_descriptive%2Cnelements>) | API probe |
-| [Original source: Predicted Crystallography Open Database](<https://www.crystallography.net/pcod/>) | Catalog evidence |
+| [Predicted Crystallography Open Database (PCOD)](<https://www.crystallography.net/pcod/>) | API access route; API documentation; Catalog evidence; Catalog official route |
 | [Theoretical Crystallography Open Database (TCOD)](<https://www.crystallography.net/tcod/>) | API documentation; Catalog evidence; Catalog official route; Navigation resource; Resource evidence |
 | [Theoretical Crystallography Open Database (TCOD) · OPTIMADE](<https://www.crystallography.net/tcod/optimade>) | API access route |
 | [Theoretical Crystallography Open Database (TCOD) bounded API sample](<https://www.crystallography.net/tcod/optimade/v1/structures?page_limit=1>) | API documentation; API probe; Catalog evidence; Resource evidence |
@@ -15512,6 +15757,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Magnetic exchange archive](<https://zenodo.org/api/records/17160565>) | Catalog evidence |
 | [FerroGen Zenodo metadata](<https://zenodo.org/api/records/17223175>) | Catalog evidence |
 | [Versioned migration-barrier archive](<https://zenodo.org/api/records/17240095>) | Catalog evidence; OpenAlex specialized materials property survey |
+| [NovoMag magnetic materials database — data](<https://zenodo.org/api/records/17399362/files/magdb.json/content>) | API access route; Catalog official route |
 | [ZeoDiff archived release metadata](<https://zenodo.org/api/records/18858951>) | Catalog evidence |
 | [ZeoDiff payload inspection](<https://zenodo.org/api/records/18858951/files/WangXiaobao-j/ZeoDiff_HTP-v1.0.zip/content>) | Catalog evidence |
 | [Oxygen-ion data release metadata](<https://zenodo.org/api/records/18947543>) | Catalog evidence |
@@ -15524,6 +15770,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [ITR descriptor and observation archive](<https://zenodo.org/api/records/3564173>) | Catalog evidence |
 | [P-GAP-20 phosphorus reference configurations original deposit metadata](<https://zenodo.org/api/records/4003703>) | Catalog evidence |
 | [Primary repository release metadata](<https://zenodo.org/api/records/5737968>) | Catalog evidence |
+| [Wren prospective coordinate-free discovery dataset — data](<https://zenodo.org/api/records/6345276/files/prospective.json.gz/content>) | API access route; Catalog official route |
 | [SiO2-GAP-22 silica training cohort original deposit metadata](<https://zenodo.org/api/records/6353684>) | Catalog evidence |
 | [Original amorphous-graphene deposit](<https://zenodo.org/api/records/7221166>) | Catalog evidence |
 | [Primary repository release metadata](<https://zenodo.org/api/records/7689919>) | Catalog evidence |
@@ -15544,7 +15791,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [Matbench Discovery linked primary route](<https://zenodo.org/records/10975225>) | Collection evidence |
 | [RDB19-Rad](<https://zenodo.org/records/11493786>) | blaiszik/awesome-matchem-datasets |
 | [Si-GAP-18 silicon training cohort](<https://zenodo.org/records/1250555>) | Additional materials dataset discoveries; Catalog official route |
-| [Original source: FAIR-MOFs](<https://zenodo.org/records/13254307>) | Catalog evidence |
+| [Original source: FAIR-MOFs](<https://zenodo.org/records/13254307>) | API access route; API documentation; Catalog evidence; Catalog official route |
 | [RDB7](<https://zenodo.org/records/13328872>) | blaiszik/awesome-matchem-datasets |
 | [GO-MACE-23 graphene-oxide reference cohort](<https://zenodo.org/records/14066557>) | Additional materials dataset discoveries; Catalog official route |
 | [USPTO-LLM](<https://zenodo.org/records/14396156>) | blaiszik/awesome-matchem-datasets |
@@ -15564,7 +15811,7 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [FerroGen generated-materials release](<https://zenodo.org/records/17223175>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [FerroGen CIF archive](<https://zenodo.org/records/17223175/files/generated_materials_cif.tar.gz>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
 | [NMRexp](<https://zenodo.org/records/17296666>) | blaiszik/awesome-matchem-datasets |
-| [Original source: NovoMag magnetic materials database](<https://zenodo.org/records/17399362>) | Catalog evidence |
+| [NovoMag magnetic materials database](<https://zenodo.org/records/17399362>) | API documentation; Catalog evidence; Catalog official route |
 | [MSR-ACC/TAE25](<https://zenodo.org/records/17629321>) | sedaoturak/data-resources-for-materials-science |
 | [ZeoDiff](<https://zenodo.org/records/18858951>) | Additional materials dataset discoveries; Catalog official route |
 | [Altermagnetic band-splitting data release](<https://zenodo.org/records/19109715>) | Additional materials dataset discoveries; Catalog evidence; Catalog official route |
@@ -15572,16 +15819,17 @@ The [ACS crosswalk](docs/review-crosswalk.md), [related-paper notes](docs/relate
 | [BOS-TMC Dataset](<https://zenodo.org/records/19410245>) | sedaoturak/data-resources-for-materials-science |
 | [Materials Project Phonon database v1.1 - (26,413 compounds)](<https://zenodo.org/records/20196565>) | Catalog evidence |
 | [Novamag Database](<https://zenodo.org/records/3241267>) | Additional materials dataset discoveries |
-| [Original source: CoRE MOF 2019 (public ASR/FSR)](<https://zenodo.org/records/3677685>) | Catalog evidence |
+| [CoRE MOF 2019 — public ASR and FSR release](<https://zenodo.org/records/3677685>) | API access route; API documentation; Catalog evidence; Catalog official route |
 | [P-GAP-20 phosphorus reference configurations](<https://zenodo.org/records/4003703>) | Additional materials dataset discoveries; Catalog official route |
 | [DAX-Ti static-0.1.0 deposit](<https://zenodo.org/records/6089749>) | Catalog evidence; OpenAlex specialized materials property survey |
 | [PaRoutes — source](<https://zenodo.org/records/6275421>) | blaiszik/awesome-matchem-datasets |
+| [Wren prospective coordinate-free discovery dataset](<https://zenodo.org/records/6345276>) | API documentation; Catalog evidence; Catalog official route |
 | [SiO2-GAP-22 silica training cohort](<https://zenodo.org/records/6353684>) | Additional materials dataset discoveries; Catalog official route |
 | [Ti-6Al-4V LPBF Process–Structure–Property](<https://zenodo.org/records/6587905>) | blaiszik/awesome-matchem-datasets |
 | [Nanoporous-material heat-capacity DFT and prediction dataset — experimental_companion](<https://zenodo.org/records/7215247>) | Additional materials dataset discoveries; Catalog official route |
 | [AC-2D-22 amorphous graphene benchmark subset](<https://zenodo.org/records/7221166>) | Additional materials dataset discoveries; Catalog official route |
 | [Synthetic INS Zenodo 1.0.1](<https://zenodo.org/records/7438040>) | Catalog evidence |
-| [Original source: Deem PCOD hypothetical zeolites v2.1](<https://zenodo.org/records/8035241>) | Catalog evidence |
+| [Deem PCOD v2.1 SLC-good — Zenodo release](<https://zenodo.org/records/8035241>) | API access route; API documentation; Catalog evidence; Catalog official route |
 | [https://zenodo.org/records/8091844](<https://zenodo.org/records/8091844>) | Catalog official route; blaiszik/awesome-matchem-datasets |
 | [https://zenodo.org/records/8092187](<https://zenodo.org/records/8092187>) | blaiszik/awesome-matchem-datasets |
 | [GST-GAP-22 PBE reference cohort](<https://zenodo.org/records/8208202>) | Additional materials dataset discoveries; Catalog official route |

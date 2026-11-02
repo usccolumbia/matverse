@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-02 — MateriaViva source coverage
+
+Added 16 dataset/release cards and 14 bulk-file routes: 548 catalog records and 49 routes. Split four Materials Cloud deposits into separate records, added missing source releases, and preserved source counts separately from MateriaViva membership. CMR and JARVIS grouped inputs remain explicitly unranked pending exact component manifests. Evidence and the 38-source crosswalk: [addition report](research/materiaviva_source_additions_20261102/REPORT.md).
+
 ## November 1, 2026 — catalog and search update
 
 - Added all 148 MateriaViva property tables under Materials properties, with pinned direct downloads, complete original-provider lists, separate value/structure counts, units, kinds and per-row licensing guidance.

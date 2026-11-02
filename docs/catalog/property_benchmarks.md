@@ -2,7 +2,7 @@
 
 [Back to MatVerse](../../README.md)
 
-Checked 2026-11-01. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
+Checked 2026-11-02. Counts are source-reported or explicitly derived from release metadata; full datasets were not independently deduplicated.
 
 <a id="omdb-cod-bandgap-predictions"></a>
 ## OMDB-GAP1 models: COD band-gap prediction release
@@ -334,6 +334,36 @@ BoltzTraP electronic transport from MP band structures with temperature/doping d
 
 **Tags:** transport, thermoelectric, MP derivative, Scientific Data, Scientific-Data-descriptor.
 
+<a id="mcloud-topological-ml"></a>
+## Machine learning on topological materials datasets — Materials Cloud
+
+Crystal structures and computed properties from the Materials Cloud deposit m0-zg.
+
+**Size:** 35,608 materials records (source wording: 35,608).
+
+**Scope:** Provider-declared combined Materiae and Topological Materials Database dataset.
+
+**Release:** Materials Cloud DOI m0-zg; checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** topological classification; crystal structure.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://doi.org/10.24435/materialscloud:m0-zg) · [data](https://archive.materialscloud.org/records/gnv15-27a69)
+
+**Evidence:**
+
+- [Machine learning on topological materials datasets — Materials Cloud](https://doi.org/10.24435/materialscloud:m0-zg) (checked 2026-11-02): Materials Cloud deposit identifies Machine learning on multiple topological materials datasets. Deposit description reports 35,608 materials and provides OPTIMADE JSONL and topological data.
+
+**Reuse and interpretation notes:**
+
+- Combines overlapping parent databases; no independent deduplication or full payload count was performed.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+
+**Tags:** MateriaViva source coverage, mcloud-topological-ml, materials-cloud-archive-static, m0-zg.
+
 <a id="mp-phonon-2026"></a>
 ## Materials Project Phonon database v1.1
 
@@ -663,6 +693,42 @@ Fixed Matbench v0.1 structure-to-property prediction task dataset.
 - Preserve the official order and folds for benchmark comparability.
 
 **Tags:** Matbench, benchmark, structure-based, derived dataset.
+
+<a id="jarvis-snumat"></a>
+## SNUMAT hybrid band gaps — JARVIS Figshare release
+
+SNUMAT hybrid-functional band gaps and relaxed structures repackaged with JARVIS-Atoms objects.
+
+**Size:** 10,481 structure-property records (source wording: 10,481).
+
+**Scope:** Rows parsed from snumat.json inside Figshare file 38521736.
+
+**Release:** Source release checked 2026-11-02. **Year:** 2022.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; HSE band gap; GGA band gap; magnetic ordering; direct/indirect gap.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://figshare.com/articles/dataset/21713885) · [data](https://ndownloader.figshare.com/files/38521736)
+
+Other denominators (not added to the ranking):
+
+- 11,478 structures represented in MateriaViva: MateriaViva source alias snumat; overlapping imported membership, not the source-release total
+
+**Evidence:**
+
+- [SNUMAT hybrid band gaps — JARVIS Figshare release](https://figshare.com/articles/dataset/21713885) (checked 2026-11-02): ZIP payload contains 10,481 records with atoms, Structure_rlx, HSE/GGA gaps and magnetic-ordering fields.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias snumat reports 11,478 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- Repackage of the SNUMAT publication dataset; does not add 10,481 independent new materials to that card.
+- MateriaViva imports a different number; equivalence to its selected source snapshot is not asserted.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, snumat.
 
 <a id="snumat-hybrid-gap"></a>
 ## SNUMAT hybrid-functional band-gap dataset
@@ -1154,6 +1220,42 @@ Zeolite geometry descriptors and diffusion targets packaged with CIF inputs and 
 
 **Tags:** zeolite, diffusion, methane, molecular dynamics, geometry, additional-materials-20261101.
 
+<a id="novomag"></a>
+## NovoMag magnetic materials database
+
+Computed magnetic materials with structures, formation energies, magnetization and magnetic-anisotropy information.
+
+**Size:** 3,826 provider-reported database entries (source wording: 3,826).
+
+**Scope:** Count declared in Zenodo record description; downloaded magdb.json contains 3,827 JSON Lines records, which are not presumed to be distinct materials.
+
+**Release:** Source release checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** crystal structure; formation energy; magnetization; magnetic anisotropy.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://zenodo.org/records/17399362) · [data](https://zenodo.org/api/records/17399362/files/magdb.json/content)
+
+Other denominators (not added to the ranking):
+
+- 2,478 structures represented in MateriaViva: MateriaViva source alias novomag; overlapping imported membership, not the source-release total
+- 3,827 JSON Lines records: Downloaded magdb.json; differs from the provider description count
+
+**Evidence:**
+
+- [NovoMag magnetic materials database](https://zenodo.org/records/17399362) (checked 2026-11-02): Deposit reports 3,826 entries including more than 300 Fe-based rare-earth-free magnets. Payload inspection finds 3,827 JSON Lines records.
+- [MateriaViva source database table](https://huggingface.co/datasets/AI4QC/MateriaViva-Open) (checked 2026-11-02): Source alias novomag reports 2,478 represented structures. This imported denominator is separate from the source-release count.
+
+**Reuse and interpretation notes:**
+
+- The one-record difference between the provider summary and payload remains unresolved; neither count is a deduplicated-material audit.
+- Overlaps MateriaViva and potentially other catalog releases; counts must not be added across these records.
+
+**Tags:** MateriaViva source coverage, novomag.
+
 <a id="wenzhou-te"></a>
 ## WenzhouTE computed thermoelectric database
 
@@ -1479,6 +1581,66 @@ Other denominators (not added to the ranking):
 - The 1,112 negative labels are the paper’s designation, not an independent negative-experiment audit here. Review inherited SuperCon/3DSC missing-Tc conventions before treating zeros as confirmed negatives.
 
 **Tags:** superconductivity, electronic, mixed provenance, Scientific Data, superconductor, superconductors, Scientific-Data-descriptor.
+
+<a id="mcloud-optical-discovery"></a>
+## Federated optical materials discovery — Materials Cloud
+
+Crystal structures and computed properties from the Materials Cloud deposit ed-g2.
+
+**Size:** 2,413 CIF files (source wording: 2,413).
+
+**Scope:** CIF members in structures.tar.gz associated with the refractive-index dataset.
+
+**Release:** Materials Cloud DOI ed-g2; checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** refractive index; dielectric response; crystal structure.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://doi.org/10.24435/materialscloud:ed-g2) · [data](https://archive.materialscloud.org/records/rr3za-8c528)
+
+**Evidence:**
+
+- [Federated optical materials discovery — Materials Cloud](https://doi.org/10.24435/materialscloud:ed-g2) (checked 2026-11-02): Materials Cloud deposit identifies Optical materials discovery and design with federated databases and machine learning. Inspected structures.tar.gz contains 2,413 CIF files.
+
+**Reuse and interpretation notes:**
+
+- The >30 million structures accessible in the OPTIMADE federation are search space, not the deposited dataset size.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+
+**Tags:** MateriaViva source coverage, mcloud-optical-discovery, materials-cloud-archive-static, ed-g2.
+
+<a id="mcloud-nonlinear-optics"></a>
+## Active-learning nonlinear optical crystals — Materials Cloud
+
+Crystal structures and computed properties from the Materials Cloud deposit 1z-pd.
+
+**Size:** 2,233 CIF files (source wording: 2,233).
+
+**Scope:** CIF members in structures.tar.gz; provider describes approximately 2,200 computed SHG tensors.
+
+**Release:** Materials Cloud DOI 1z-pd; checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** second harmonic generation; SHG tensor; crystal structure.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://doi.org/10.24435/materialscloud:1z-pd) · [data](https://archive.materialscloud.org/records/zn7cy-7cs67)
+
+**Evidence:**
+
+- [Active-learning nonlinear optical crystals — Materials Cloud](https://doi.org/10.24435/materialscloud:1z-pd) (checked 2026-11-02): Materials Cloud deposit identifies Accelerating the discovery of high-performance nonlinear optical materials using active learning and high-throughput screening. Inspected structures.tar.gz contains 2,233 CIF files.
+
+**Reuse and interpretation notes:**
+
+- CIF-file count is not an independently deduplicated compound count; property availability can vary.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+
+**Tags:** MateriaViva source coverage, mcloud-nonlinear-optics, materials-cloud-archive-static, 1z-pd.
 
 <a id="mastml-perovskite-education"></a>
 ## MAST-ML perovskite stability educational slice
@@ -2402,6 +2564,36 @@ Other denominators (not added to the ranking):
 - All superconducting temperatures in this release are theoretical.
 
 **Tags:** superconductivity, DFPT, antiperovskites, electron-phonon coupling, high-throughput, superconductor, superconductors.
+
+<a id="mcloud-a2bc2-electrides"></a>
+## A2BC2 ternary electride discovery — Materials Cloud
+
+Crystal structures and computed properties from the Materials Cloud deposit zt-z4.
+
+**Size:** 290 CIF files (source wording: 290).
+
+**Scope:** CIF members in structures.tar.gz, including initial and MP-compatible relaxed representations.
+
+**Release:** Materials Cloud DOI zt-z4; checked 2026-11-02. **Year:** Not verified.
+
+**Provenance:** computed. **Structure availability:** `periodic_atomic`.
+
+**Labels/content:** electron localization function; formation energy; crystal structure.
+
+**Access:** open. **Dataset license:** CC BY 4.0.
+
+**Official routes:** [homepage](https://doi.org/10.24435/materialscloud:zt-z4) · [data](https://archive.materialscloud.org/records/z24e6-dv880)
+
+**Evidence:**
+
+- [A2BC2 ternary electride discovery — Materials Cloud](https://doi.org/10.24435/materialscloud:zt-z4) (checked 2026-11-02): Materials Cloud deposit identifies Machine learning-accelerated discovery of A₂BC₂ ternary electrides with diverse anionic electron densities. Inspected structures.tar.gz contains 290 CIF files.
+
+**Reuse and interpretation notes:**
+
+- Generated candidate library (14,437), high-throughput candidates (1,254), and 214 known phases in the abstract are separate denominators; 290 CIFs can include multiple representations of a compound.
+- One of four deposits grouped under materials-cloud-archive-static in MateriaViva. Its combined 22,704 imported structures must not be assigned to each child or treated as this release total.
+
+**Tags:** MateriaViva source coverage, mcloud-a2bc2-electrides, materials-cloud-archive-static, zt-z4.
 
 <a id="smidt-ferroelectric-2020"></a>
 ## Smidt first-principles ferroelectric candidate database

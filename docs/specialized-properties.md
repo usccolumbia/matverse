@@ -1,6 +1,6 @@
 # Specialized materials property datasets: an OpenAlex search
 
-Checked 2026-11-01. **35 new dataset/release records**, plus an expanded DDSE/DigBat lineage record. The catalog now contains 532 records. This is a local research expansion, not an exhaustive census of published data.
+Checked 2026-11-02. **35 new dataset/release records**, plus an expanded DDSE/DigBat lineage record. The catalog now contains 548 records. This is a local research expansion, not an exhaustive census of published data.
 
 [Search the additions](https://usccolumbia.github.io/matverse/?q=property-focused) · [Search receipt](../research/openalex_property_20261101/search_manifest.json) · [Retrieved-work ledger](../research/openalex_property_20261101/retrieved_works.json) · [Selected-paper OpenAlex checks](../research/openalex_property_20261101/selected_paper_openalex_checks.json)
 
